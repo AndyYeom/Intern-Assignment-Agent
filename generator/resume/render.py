@@ -1,15 +1,23 @@
-"""Render a ResumeSpec to HTML and PDF in the MIT CAPD resume format.
+"""Render a ResumeSpec to HTML and PDF, following MIT CAPD Resume Template A.
 
-Format rules followed (capd.mit.edu/resources/resume):
-  * one page, name centred at the top with a single contact line beneath
-  * sections in order: Education, Experience, Projects, Leadership, Skills
-  * organisation in bold, role in italic, dates right-aligned on the same line
-  * bullets are single-line where possible and start with an action verb
-  * serif face, conservative spacing, no colour
+The layout is taken from data/static/MITResumeTemplateA.docx, measured from its
+XML rather than eyeballed:
 
-The photo is not part of the MIT convention (US resumes omit them); it is
-supported because the assignment asks for it, and can be turned off per resume
-with `photo: false`.
+  * Letter, 1-inch margins, Times New Roman
+  * name 14pt bold centred, contact line centred with " | " separators
+  * section headings 14pt bold, title case, a 0.5pt rule beneath
+  * body 11pt; each entry is **Organization**, Location with dates on the right,
+    then the role on a plain line, then bullets hanging at 0.25in, text at 0.5in
+  * a blank line between entries and before each heading
+  * sections: Education, Experience, Activities & Extracurriculars,
+    Awards & Accomplishments, Skills & Interests
+
+One addition to the template: a Projects section, styled like Experience. The
+resumes are for technical internships, and their projects are exactly what the
+evidence agent verifies against GitHub.
+
+Template A has no photo. `photo: true` in a spec still places the placeholder
+beside the name, but it is off by default.
 """
 from __future__ import annotations
 
@@ -18,8 +26,8 @@ import html
 import io
 import os
 import sys
+from dataclasses import dataclass
 from functools import lru_cache
-from pathlib import Path
 
 from generator.config import DATA
 from generator.resume.schema import Entry, ResumeSpec
@@ -39,46 +47,58 @@ if sys.platform == "darwin":
             p for p in ["/opt/homebrew/lib", "/usr/local/lib", _existing] if p
         )
 
-CSS = """
-@page { size: Letter; margin: 0.5in 0.6in; }
-* { box-sizing: border-box; }
-body {
-  font-family: "Times New Roman", Times, Georgia, serif;
-  font-size: 10.2pt; line-height: 1.28; color: #000; margin: 0;
-}
-header { display: flex; align-items: center; gap: 14px; margin-bottom: 2px; }
-header.no-photo { display: block; text-align: center; }
-.photo {
-  width: 78px; height: 78px; object-fit: cover; flex: 0 0 78px;
-  border: 0.5pt solid #444;
-}
-.identity { flex: 1 1 auto; text-align: center; }
-h1 {
-  font-size: 17pt; font-weight: bold; letter-spacing: 1.6px;
-  margin: 0 0 3px; text-transform: uppercase;
-}
-.contact { font-size: 9.2pt; }
-.contact span:not(:last-child)::after { content: "\\00a0\\00a0\\2022\\00a0\\00a0"; }
-h2 {
-  font-size: 10.2pt; font-weight: bold; text-transform: uppercase;
-  letter-spacing: 1.1px; margin: 9px 0 2px;
-  border-bottom: 0.9pt solid #000; padding-bottom: 1px;
-}
-.row { display: flex; justify-content: space-between; gap: 10px; }
-.row .left { flex: 1 1 auto; }
-.row .right { flex: 0 0 auto; font-style: italic; white-space: nowrap; }
-.org { font-weight: bold; }
-.role { font-style: italic; }
-ul { margin: 1px 0 4px; padding-left: 16px; }
-li { margin: 0 0 1px; }
-.entry { margin-bottom: 5px; }
-.tech { font-size: 9pt; font-style: italic; }
-.skills td { vertical-align: top; padding: 0 0 2px; }
-.skills td.cat { font-weight: bold; white-space: nowrap; padding-right: 8px; }
-table.skills { width: 100%; border-collapse: collapse; }
-.objective { margin: 3px 0 0; text-align: justify; }
-a { color: #000; text-decoration: none; }
+@dataclass(frozen=True)
+class Layout:
+    """One step of the one-page fit. Every step stays within MIT CAPD guidance:
+    10-12pt body text and 0.5-1in margins."""
+
+    name: str
+    body_pt: float
+    heading_pt: float
+    margin_in: float
+    gap_pt: float          # blank line between entries and before headings
+    line_height: float
+
+
+# Tried in order; the first that fits on one page is used. Step 0 is MIT Template A
+# exactly, so a resume within the prompt's budget always looks like the template.
+LAYOUTS: tuple[Layout, ...] = (
+    Layout("template-a", 11.0, 14.0, 1.00, 12.65, 1.15),
+    Layout("margins-075", 11.0, 14.0, 0.75, 10.0, 1.12),
+    Layout("compact", 10.5, 13.0, 0.75, 8.5, 1.10),
+    Layout("tight", 10.5, 12.5, 0.60, 7.0, 1.08),
+    Layout("minimum", 10.0, 12.0, 0.50, 6.0, 1.05),
+)
+TEMPLATE_A = LAYOUTS[0]
+
+
+def css(layout: Layout = TEMPLATE_A) -> str:
+    gap = layout.gap_pt
+    return f"""
+@page {{ size: Letter; margin: {layout.margin_in}in; }}
+* {{ box-sizing: border-box; margin: 0; padding: 0; }}
+body {{ font-family: "Times New Roman", Times, serif; font-size: {layout.body_pt}pt;
+       line-height: {layout.line_height}; color: #000; }}
+header {{ text-align: center; }}
+header.with-photo {{ display: flex; align-items: center; gap: 14px; text-align: left; }}
+header.with-photo .identity {{ flex: 1; text-align: center; }}
+.photo {{ width: 72px; height: 72px; object-fit: cover; border: 0.5pt solid #444; }}
+h1 {{ font-size: {layout.heading_pt}pt; font-weight: bold; }}
+h2 {{ font-size: {layout.heading_pt}pt; font-weight: bold; margin-top: {gap}pt;
+     border-bottom: 0.5pt solid #000; padding-bottom: 1pt; }}
+.entry + .entry {{ margin-top: {gap}pt; }}
+.row {{ display: flex; justify-content: space-between; gap: 12pt; }}
+.row .right {{ white-space: nowrap; text-align: right; }}
+b {{ font-weight: bold; }}
+.nowrap {{ white-space: nowrap; }}
+ul {{ list-style: none; }}
+li {{ position: relative; padding-left: 0.5in; }}
+li::before {{ content: "\\2022"; position: absolute; left: 0.25in; }}
 """
+
+
+# Kept for callers that only want the template's own stylesheet.
+CSS = css(TEMPLATE_A)
 
 
 def _esc(value: str | None) -> str:
@@ -112,8 +132,28 @@ def _dates(entry: Entry) -> str:
     return _esc(entry.start or entry.end)
 
 
-def _entry_html(entry: Entry, *, title_first: bool = False) -> str:
-    """One dated block.
+def _row(left: str, right: str = "") -> str:
+    return f'<div class="row"><div class="left">{left}</div><div class="right">{right}</div></div>'
+
+
+def _bullets(items: list[str]) -> str:
+    if not items:
+        return ""
+    return "<ul>" + "".join(f"<li>{_esc(item)}</li>" for item in items) + "</ul>"
+
+
+def _lead(bold: str | None, rest: str | None) -> str:
+    """ "**Bold**, rest" - the template's first line of every entry."""
+    parts = []
+    if bold:
+        parts.append(f"<b>{_esc(bold)}</b>")
+    if rest and rest != bold:
+        parts.append(_esc(rest))
+    return ", ".join(parts)
+
+
+def _entry_html(entry: Entry, *, kind: str) -> str:
+    """One dated block in Template A's shape.
 
     `entry.link` is deliberately never rendered. A project link is the real
     person's repo URL, which carries their real username, and printing it on a
@@ -121,119 +161,105 @@ def _entry_html(entry: Entry, *, title_first: bool = False) -> str:
     account. The link stays in the spec; the evidence agent joins a resume to
     its profile through data/applicants.csv, not through the PDF.
     """
-    # Experience leads with the employer; a project leads with its own name.
-    primary = entry.title if title_first else entry.organization
-    secondary = entry.organization if title_first else entry.title
-
-    left_bits = []
-    if primary:
-        left_bits.append(f'<span class="org">{_esc(primary)}</span>')
-    if secondary and secondary != primary:
-        left_bits.append(f'<span class="role">{_esc(secondary)}</span>')
-    left = ", ".join(left_bits)
-
-    right_bits = []
-    if entry.location:
-        right_bits.append(_esc(entry.location))
-    dates = _dates(entry)
-    if dates:
-        right_bits.append(dates)
-    right = " | ".join(right_bits)
-
-    parts = [(f'<div class="entry"><div class="row"><div class="left">{left}</div>'
-              f'<div class="right">{right}</div></div>')]
-
-    if entry.tech:
-        parts.append(f'<div class="tech">{_esc(", ".join(entry.tech))}</div>')
-    if entry.bullets:
-        items = "".join(f"<li>{_esc(b)}</li>" for b in entry.bullets)
-        parts.append(f"<ul>{items}</ul>")
-    parts.append("</div>")
-    return "".join(parts)
+    if kind == "project":
+        # **Project Name**, Personal Project      dates
+        # Python, FastAPI, PostgreSQL
+        lines = [_row(_lead(entry.title, entry.organization), _dates(entry))]
+        if entry.tech:
+            lines.append(_row(_esc(", ".join(entry.tech))))
+    elif kind == "activity":
+        # **Activity**, Role      dates
+        lines = [_row(_lead(entry.organization, entry.title), _dates(entry))]
+    elif kind == "award":
+        # Award      date - one date, never a range: `end` defaults to "Present",
+        # which would turn "Mar 2026" into "Mar 2026 - Present".
+        date = entry.start or (entry.end if entry.end != "Present" else "")
+        lines = [_row(_esc(entry.title), _esc(date))]
+    else:
+        # **Organization**, Location      dates
+        # Title
+        lines = [_row(_lead(entry.organization, entry.location), _dates(entry))]
+        if entry.title:
+            lines.append(_row(_esc(entry.title)))
+    return '<div class="entry">' + "".join(lines) + _bullets(entry.bullets) + "</div>"
 
 
 def _education_html(spec: ResumeSpec) -> str:
     education = spec.education
-    degree_bits = [education.degree]
-    if education.major:
-        degree_bits.append(f"in {education.major}")
-    degree = " ".join(b for b in degree_bits if b)
-
-    right = " | ".join(b for b in [_esc(education.location), _esc(education.graduation)] if b)
-    parts = [('<div class="entry"><div class="row">'
-              f'<div class="left"><span class="org">{_esc(education.school)}</span></div>'
-              f'<div class="right">{right}</div></div>')]
-
-    line = f'<div class="role">{_esc(degree)}'
+    degree = education.degree + (f" in {education.major}" if education.major else "")
     if education.minor:
-        line += f"; Minor in {_esc(education.minor)}"
-    if education.gpa:
-        line += f" &mdash; GPA: {_esc(education.gpa)}"
-    parts.append(line + "</div>")
-
-    if education.honors:
-        parts.append(f"<div>{_esc('; '.join(education.honors))}</div>")
+        degree += f"; Minor in {education.minor}"
+    lines = [
+        _row(_lead(education.school, education.location), _esc(education.graduation)),
+        _row(_esc(degree), f"GPA: {_esc(education.gpa)}" if education.gpa else ""),
+    ]
     if education.coursework:
-        parts.append("<div><b>Relevant Coursework:</b> "
-                     f"{_esc(', '.join(education.coursework))}</div>")
-    parts.append("</div>")
-    return "".join(parts)
+        lines.append(_row(f"Coursework: {_esc(', '.join(education.coursework))}"))
+    return '<div class="entry">' + "".join(lines) + "</div>"
+
+
+def _awards_html(spec: ResumeSpec) -> str:
+    blocks = [_entry_html(award, kind="award") for award in spec.awards]
+    blocks += [f'<div class="entry">{_row(_esc(honor))}</div>' for honor in spec.education.honors]
+    return "".join(blocks)
 
 
 def _skills_html(skills: dict[str, list[str]]) -> str:
-    rows = "".join(
-        f'<tr><td class="cat">{_esc(category)}:</td><td>{_esc(", ".join(items))}</td></tr>'
+    return "".join(
+        _row(f"<b>{_esc(category)}:</b> {_esc(', '.join(items))}")
         for category, items in skills.items() if items
     )
-    return f'<table class="skills">{rows}</table>'
 
 
-def to_html(spec: ResumeSpec) -> str:
-    contact = [
-        _esc(spec.location), _esc(spec.email), _esc(spec.phone),
-        _esc(spec.linkedin), _esc(spec.github_url), _esc(spec.portfolio),
-    ]
-    contact_html = "".join(f"<span>{c}</span>" for c in contact if c)
+SECTION_TITLES = {
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "leadership": "Activities &amp; Extracurriculars",
+    "awards": "Awards &amp; Accomplishments",
+    "skills": "Skills &amp; Interests",
+}
 
-    photo_uri = _photo_data_uri() if spec.photo else None
+
+def to_html(spec: ResumeSpec, layout: Layout = TEMPLATE_A) -> str:
+    contact = [spec.location, spec.phone, spec.email, spec.linkedin, spec.github_url,
+               spec.portfolio]
+    # Each item is unbreakable, so a long line wraps at " | ", never mid-URL.
+    contact_line = " | ".join(f'<span class="nowrap">{_esc(c)}</span>' for c in contact if c)
     identity = (f'<div class="identity"><h1>{_esc(spec.full_name)}</h1>'
-                f'<div class="contact">{contact_html}</div></div>')
+                f"<div>{contact_line}</div></div>")
+    photo_uri = _photo_data_uri() if spec.photo else None
     if photo_uri:
-        header = f'<header><img class="photo" src="{photo_uri}" alt="" />{identity}</header>'
+        header = (f'<header class="with-photo"><img class="photo" src="{photo_uri}" alt="" />'
+                  f"{identity}</header>")
     else:
-        header = f'<header class="no-photo">{identity}</header>'
+        header = f"<header>{identity}</header>"
 
-    sections: list[str] = [header]
-
-    if spec.objective:
-        sections.append(f'<h2>Objective</h2><div class="objective">{_esc(spec.objective)}</div>')
-
+    content = {
+        "education": _education_html(spec),
+        "experience": "".join(_entry_html(e, kind="experience") for e in spec.experience),
+        "projects": "".join(_entry_html(e, kind="project") for e in spec.projects),
+        "leadership": "".join(_entry_html(e, kind="activity") for e in spec.leadership),
+        "awards": _awards_html(spec),
+        "skills": _skills_html(spec.skills),
+    }
     # Section order depends on career stage: a student leads with education and
     # projects, someone changing field leads with the work they have already done.
-    builders = {
-        "education": lambda: "<h2>Education</h2>" + _education_html(spec),
-        "experience": lambda: ("<h2>Experience</h2>" +
-                               "".join(_entry_html(e) for e in spec.experience))
-        if spec.experience else "",
-        "projects": lambda: ("<h2>Projects</h2>" +
-                             "".join(_entry_html(e, title_first=True)
-                                     for e in spec.projects))
-        if spec.projects else "",
-        "leadership": lambda: ("<h2>Leadership &amp; Activities</h2>" +
-                               "".join(_entry_html(e) for e in spec.leadership))
-        if spec.leadership else "",
-        "skills": lambda: ("<h2>Technical Skills</h2>" + _skills_html(spec.skills))
-        if spec.skills else "",
-    }
+    sections = [header]
+    if spec.objective:
+        sections.append(f"<h2>Objective</h2>{_row(_esc(spec.objective))}")
     for name in spec.sections:
-        block = builders[name]()
-        if block:
-            sections.append(block)
+        if content.get(name):
+            sections.append(f"<h2>{SECTION_TITLES[name]}</h2>{content[name]}")
 
     return (
         "<!DOCTYPE html><html><head><meta charset='utf-8'>"
         f"<title>{_esc(spec.full_name)} &mdash; Resume</title>"
-        f"<style>{CSS}</style></head><body>{''.join(sections)}</body></html>"
+        # The pair key, in the PDF's own metadata (Keywords): a copied file still
+        # identifies its applicant. Never the login - PDFs get shared.
+        f"<meta name='keywords' content='{_esc(spec.applicant_id)}'>"
+        "<meta name='generator' content='intern-assignment-agent generator'>"
+        f"<style>{css(layout)}</style></head><body>{''.join(sections)}</body></html>"
     )
 
 
@@ -243,25 +269,38 @@ def _stem(spec: ResumeSpec) -> str:
     return spec.applicant_id or spec.slug
 
 
-def write_html(spec: ResumeSpec, out_dir: Path) -> Path:
-    out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / f"{_stem(spec)}.html"
-    path.write_text(to_html(spec), encoding="utf-8")
-    return path
+def page_count(spec: ResumeSpec, layout: Layout = TEMPLATE_A) -> int:
+    from weasyprint import HTML
+
+    return len(HTML(string=to_html(spec, layout), base_url=str(DATA)).render().pages)
 
 
-def write_pdf(spec: ResumeSpec, out_dir: Path) -> Path | None:
-    """Render to PDF. Returns None if WeasyPrint's system libraries are missing."""
+def fitted_layout(spec: ResumeSpec) -> Layout | None:
+    """The first layout, from Template A tightening towards the minimum, that keeps
+    the resume on one page; None if even the minimum overflows."""
+    for layout in LAYOUTS:
+        if page_count(spec, layout) <= 1:
+            return layout
+    return None
+
+
+def render_pdf(spec: ResumeSpec, layout: Layout) -> bytes | None:
+    """PDF bytes in the given layout, or None if WeasyPrint's libraries are missing.
+
+    Deliberately returns bytes rather than writing a file: generate.publish is the
+    only code that writes resume PDFs, so none can exist unpaired in applicants.csv,
+    and none can be written without first being fitted to one page.
+    """
     try:
         from weasyprint import HTML
     except (ImportError, OSError) as exc:
-        print(f"  ! PDF unavailable ({exc}). HTML was still written.")
+        print(f"  ! PDF unavailable ({exc})")
         return None
-
-    out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / f"{_stem(spec)}.pdf"
-    HTML(string=to_html(spec), base_url=str(DATA)).write_pdf(str(path))
-    return path
+    document = HTML(string=to_html(spec, layout), base_url=str(DATA)).render()
+    if len(document.pages) > 1:
+        raise ValueError(f"{spec.applicant_id}: {len(document.pages)} pages in layout "
+                         f"{layout.name}; refusing to write a multi-page resume")
+    return document.write_pdf()
 
 
 def pdf_available() -> bool:

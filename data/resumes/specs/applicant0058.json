@@ -1,0 +1,112 @@
+{
+  "github_login": "715d",
+  "applicant_id": "applicant0058",
+  "first_name": "Finnian",
+  "last_name": "Cross",
+  "career_stage": "student",
+  "email": "finnian@thistlewood.example",
+  "phone": "(555) 010-0158",
+  "location": "Thistlewood",
+  "linkedin": "linkedin.example.com/in/finnian-cross",
+  "github_url": "github.example.com/finnian-cross",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Thistlewood Technical College",
+    "location": "Thistlewood",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Technical Communication",
+    "graduation": "May 2027",
+    "gpa": "3.65/4.0",
+    "coursework": [
+      "Systems Programming",
+      "Software Tools",
+      "Technical Writing for Engineers"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Go Truenas",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Mar 2026",
+      "bullets": [
+        "Built a Go client for the TrueNAS Scale websocket API across 66 files, with continuous integration and an automated test suite.",
+        "Documented setup steps in detail after realizing the official API had little public reference material to build against."
+      ],
+      "link": null,
+      "tech": [
+        "Go"
+      ]
+    },
+    {
+      "title": "Unusedfunc",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Wrote a Go linter that identifies unused functions across a project, structured across 227 files with CI and automated tests."
+      ],
+      "link": null,
+      "tech": [
+        "Go"
+      ]
+    },
+    {
+      "title": "Rumpus",
+      "organization": null,
+      "location": null,
+      "start": "Oct 2025",
+      "end": "Jan 2026",
+      "bullets": [
+        "Designed Rumpus, a terminal color scheme across 29 files, packaged with continuous integration for consistent releases."
+      ],
+      "link": null,
+      "tech": [
+        "Lua",
+        "Nix",
+        "Shell"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Documentation Contributor",
+      "organization": "Thistlewood Self-Hosting Group",
+      "location": null,
+      "start": "Oct 2025",
+      "end": "Present",
+      "bullets": [
+        "Writes setup guides for small self-hosted tools after watching newcomers abandon projects that had code but no onboarding notes.",
+        "Learned that a well-scoped README changes how many people actually try a tool, and began prioritizing it before new features."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Go"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

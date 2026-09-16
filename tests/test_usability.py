@@ -93,7 +93,7 @@ def test_resume_never_carries_the_real_persons_login():
     blob = spec.model_dump_json()
     assert "realperson42" not in blob.replace('"github_login":"realperson42"', "")
     # The pseudonymous handle is what the resume shows.
-    assert spec.github_url == "github.com/ada-okonkwo"
+    assert spec.github_url == "github.example.com/ada-okonkwo"
     assert spec.applicant_id == "applicant0001"
 
 

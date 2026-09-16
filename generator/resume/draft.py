@@ -72,7 +72,12 @@ def _bullets_for_repo(repo: RepoRecord) -> list[str]:
         named = ", ".join(name for name, _ in languages)
         bullets.append(f"Built with {named} across {repo.file_count} files.")
 
-    deps = sorted({d for values in repo.manifests.values() for d in values})
+    # Dependencies that evidence a taxonomy skill first, so the bullet names
+    # Next.js and Prisma rather than @babel/eslint-parser and @types/react.
+    from generator.github.skill_map import _dep_skill
+
+    deps = sorted({d for values in repo.manifests.values() for d in values},
+                  key=lambda d: (_dep_skill(d) is None, d))
     if deps:
         bullets.append(f"Uses {', '.join(deps[:6])}.")
 
@@ -88,7 +93,7 @@ def _bullets_for_repo(repo: RepoRecord) -> list[str]:
     active_days = repo.commits.get("active_days", 0)
     if commits:
         bullets.append(
-            f"{commits} commits over {active_days} active day"
+            f"{commits} commit{'s' if commits != 1 else ''} over {active_days} active day"
             f"{'s' if active_days != 1 else ''}."
         )
 
@@ -197,7 +202,9 @@ def draft(profile: GitHubProfile, info: ResumeInfo, *, batch: int | None = None,
         # a fabricated identity, and must not carry a real stranger's details.
         location=info.location,
         linkedin=info.linkedin,
-        github_url=f"github.com/{info.github_handle or _handle(info)}",
+        # github.com/<invented-name> may be a real stranger's account; a reserved
+        # example domain can never be.
+        github_url=f"github.example.com/{info.github_handle or _handle(info)}",
         portfolio=info.portfolio,
         photo=info.photo,
         objective=info.objective,

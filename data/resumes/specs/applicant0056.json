@@ -1,0 +1,146 @@
+{
+  "github_login": "choiceoh",
+  "applicant_id": "applicant0056",
+  "first_name": "Ishan",
+  "last_name": "Corven",
+  "career_stage": "new_grad",
+  "email": "ishan.corven@brindleport.example",
+  "phone": "(555) 010-0156",
+  "location": "Brindleport",
+  "linkedin": "linkedin.example.com/in/ishan-corven",
+  "github_url": "github.example.com/ishan-corven",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Brindleport Polytechnic College",
+    "location": "Brindleport",
+    "degree": "Bachelor of Engineering",
+    "major": "Software Systems",
+    "minor": "Organizational Communication",
+    "graduation": "June 2026",
+    "gpa": "4.5/5.0",
+    "coursework": [
+      "Software Architecture",
+      "Collaborative Engineering",
+      "Technical Communication"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Software Engineering Intern",
+      "organization": "Morrowline Systems Workshop",
+      "location": "Brindleport",
+      "start": "May 2025",
+      "end": "Aug 2025",
+      "bullets": [
+        "Took ownership of a handoff note after teammates lost time reconstructing changes between sessions, comparing constraints when assumptions conflicted.",
+        "Found removing ambiguity for other engineers moved projects forward like completing an individual task, sparking interest in technical coordination."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Deneb",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed Deneb, a personally optimized AI agent, across a repository containing 5,448 files.",
+        "Worked across Go, Kotlin, Python and TypeScript, maintaining continuous integration and a test suite through 200 commits over 17 days."
+      ],
+      "link": null,
+      "tech": [
+        "Go",
+        "Kotlin",
+        "Python",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Osty",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Apr 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Built across Swift, Go, C and C++ in a 1,663-file repository using system and terminal packages.",
+        "Maintained continuous integration and an automated test suite through 200 commits over 14 days."
+      ],
+      "link": null,
+      "tech": [
+        "Swift",
+        "Go",
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "title": "Phaeton",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Apr 2026",
+      "end": "Jun 2026",
+      "bullets": [
+        "Developed an energy-business operations tool using TypeScript, Go, CSS and Shell across 354 files, with continuous integration, testing and Docker packaging."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Go",
+        "CSS",
+        "Shell",
+        "Docker"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Maintainer",
+      "organization": "Brindleport Build Circle",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Jun 2026",
+      "bullets": [
+        "Started end-of-session handoffs after peers duplicated work when unfinished decisions lived in conversation, giving contributors a starting point.",
+        "Facilitated occasional retrospectives around blocked work, focusing discussion on ownership and process changes rather than who had made the mistake."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Go",
+      "Python",
+      "TypeScript"
+    ],
+    "Data": [
+      "Data Modeling",
+      "Data Analysis (pandas)"
+    ],
+    "DevOps": [
+      "CI/CD",
+      "Docker",
+      "Linux & Server Administration"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

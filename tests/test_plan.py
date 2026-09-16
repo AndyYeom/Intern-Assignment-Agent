@@ -125,7 +125,7 @@ def test_next_step_walks_the_pipeline():
     assert "gh collect" in _status(queued, filled=only_gamma_short).next_step()
 
     full = {s: ["strict", "strict"] for s in STRATA}
-    assert "re plan" in _status(filled=full).next_step()
+    assert "re infoprompt" in _status(filled=full).next_step()
 
 
 def test_render_is_plain_text_when_not_a_terminal():

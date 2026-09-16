@@ -1,0 +1,102 @@
+{
+  "github_login": "beharkadri",
+  "applicant_id": "applicant0033",
+  "first_name": "Priya",
+  "last_name": "Nandakumar",
+  "career_stage": "student",
+  "email": "priya.nandakumar@fenwickmail.example",
+  "phone": "(555) 010-0133",
+  "location": "Fenwick Hollow",
+  "linkedin": "linkedin.example.com/in/priya-nandakumar",
+  "github_url": "github.example.com/priya-nandakumar",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Fenwick College of Technology",
+    "location": "Fenwick Hollow",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Organizational Communication",
+    "graduation": "May 2025",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Human-Computer Interaction",
+      "Agile Software Practicum",
+      "Data Structures",
+      "Intro to Cloud Computing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Food Wizard",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "May 2024",
+      "end": "May 2024",
+      "bullets": [
+        "Built a recipe-suggestion web app with React and Tailwind CSS, covering core interactions with React Testing Library.",
+        "Organized the interface across 39 files to keep components reusable as features were added."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Netflix Clone",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jan 2021",
+      "end": "Aug 2021",
+      "bullets": [
+        "Rebuilt a streaming-service interface in React with Firebase auth, Context API and styled components.",
+        "Added component tests with React Testing Library to check core screens rendered correctly."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "Shell"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Project Coordinator",
+      "organization": "Fenwick Web Projects Circle",
+      "location": null,
+      "start": "Jan 2021",
+      "end": "May 2021",
+      "bullets": [
+        "After a group prototype stalled when two members built conflicting versions of the same screen, started a shared one-page spec.",
+        "Noticed teammates shipped features more confidently once expectations were written down, and kept using short specs afterward."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "C#"
+    ],
+    "Frontend": [
+      "React",
+      "Tailwind CSS",
+      "HTML/CSS"
+    ],
+    "DevOps": [
+      "GCP/Azure"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

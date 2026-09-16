@@ -1,0 +1,135 @@
+{
+  "github_login": "kenjpirkle",
+  "applicant_id": "applicant0026",
+  "first_name": "Leona",
+  "last_name": "Varik",
+  "career_stage": "switcher",
+  "email": "leona.varik@greyfen.example",
+  "phone": "(555) 010-0126",
+  "location": "Greyfen",
+  "linkedin": "linkedin.example.com/in/leona-varik",
+  "github_url": "github.example.com/leona-varik",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Greyfen Institute for Continuing Practice",
+    "location": "Greyfen",
+    "degree": "Diploma",
+    "major": "Software Systems",
+    "minor": null,
+    "graduation": "December 2023",
+    "gpa": null,
+    "coursework": [
+      "Operating Systems Concepts",
+      "Software Construction",
+      "Infrastructure Seminar"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Theatre Production Technician",
+      "organization": "Northglass Stageworks",
+      "location": "Greyfen",
+      "start": "Aug 2017",
+      "end": "Dec 2020",
+      "bullets": [
+        "Prepared equipment and cue documentation for touring productions, where a missed setup dependency could surface minutes before a performance.",
+        "After crew handoffs left assumptions unstated, began writing setup notes on prerequisites and recovery steps, valuing repeatable setup and clear boundaries."
+      ],
+      "link": null,
+      "tech": []
+    },
+    {
+      "title": "Technical Operations Assistant",
+      "organization": "Copper Finch Workshop",
+      "location": "Greyfen",
+      "start": "Feb 2021",
+      "end": "Nov 2022",
+      "bullets": [
+        "Maintained handoff notes for shared equipment and traced recurring setup problems to differences in how each shift prepared the workspace.",
+        "Compared failure sequences with coworkers before changing procedures, preserving craft knowledge while easing the process for the next person to reproduce."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Usersearch",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Jan 2023",
+      "end": "Feb 2023",
+      "bullets": [
+        "Built a C# application across 38 repository files and packaged it with Docker.",
+        "Iterated through 9 commits over 2 active days."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Qilang",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Feb 2020",
+      "end": "Mar 2020",
+      "bullets": [
+        "Contributed C++, Python and Makefile work to the QI programming-language repository across 29 files, sustained over 121 commits and 15 active days."
+      ],
+      "link": null,
+      "tech": [
+        "C++",
+        "Python",
+        "Makefile"
+      ]
+    },
+    {
+      "title": "Flashmemx",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Jan 2021",
+      "end": "Jan 2021",
+      "bullets": [
+        "Worked with a C# codebase spanning 618 repository files."
+      ],
+      "link": null,
+      "tech": [
+        "C#"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Volunteer Setup Mentor",
+      "organization": "Greyfen Backstage Exchange",
+      "location": null,
+      "start": "Mar 2019",
+      "end": "Dec 2020",
+      "bullets": [
+        "Helped volunteers rehearse setup sequences, explaining dependencies aloud to reveal assumptions crew had stopped noticing, grounding discussions in what actually happened."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C#",
+      "C/C++",
+      "Python"
+    ],
+    "DevOps": [
+      "Docker"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

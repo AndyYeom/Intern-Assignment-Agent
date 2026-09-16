@@ -1,0 +1,93 @@
+{
+  "github_login": "MatthewMer",
+  "applicant_id": "applicant0042",
+  "first_name": "Layla",
+  "last_name": "Fenwick",
+  "career_stage": "student",
+  "email": "layla@ashfordinstitute.example",
+  "phone": "(555) 010-0142",
+  "location": "Ashford Hollow",
+  "linkedin": "linkedin.example.com/in/layla-fenwick",
+  "github_url": "github.example.com/layla-fenwick",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Ashford Institute of Technology",
+    "location": "Ashford Hollow",
+    "degree": "Bachelor of Science",
+    "major": "Computer Engineering",
+    "minor": "Operations Management",
+    "graduation": "June 2027",
+    "gpa": null,
+    "coursework": [
+      "Software Project Planning",
+      "Computer Architecture",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Gameboyx",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2023",
+      "end": "Jan 2025",
+      "bullets": [
+        "Built a Game Boy (Color) emulator in C++, coordinating work across 77 files including CPU, PPU and audio subsystems.",
+        "Sustained the project across 73 active days and 200 commits, sequencing feature work into stages rather than building everything at once."
+      ],
+      "link": null,
+      "tech": [
+        "C++",
+        "Python",
+        "GLSL"
+      ]
+    },
+    {
+      "title": "Chip8 Emulator",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2023",
+      "end": "Aug 2023",
+      "bullets": [
+        "Wrote a Chip8 emulator command-line tool in C and C++ using CMake to manage the 159-file build."
+      ],
+      "link": null,
+      "tech": [
+        "C",
+        "C++",
+        "CMake"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Milestone Coordinator",
+      "organization": "Ashford Game Development Circle",
+      "location": null,
+      "start": "Sep 2024",
+      "end": "Present",
+      "bullets": [
+        "After the group's emulator subteam missed a handoff between graphics and audio work, unclear ownership stalled progress for a week.",
+        "Set up a shared milestone list assigning one owner per subsystem and a weekly check-in to catch blocked work early.",
+        "Found that clarifying ownership unblocked more progress than personally debugging every issue, and started favoring that role."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C/C++",
+      "C#"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

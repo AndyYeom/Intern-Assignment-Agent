@@ -126,7 +126,7 @@ class Placement:
     tier: str
     support: int
     share: float
-    pinned: bool = False       # batched or rendered: committed to the resume corpus
+    pinned: bool = False       # has a resume in applicants.csv
 
 
 @dataclass
@@ -322,9 +322,7 @@ CORPUS_PATH = config.GITHUB_DATA / "corpus.json"
 def pins_from_disk() -> dict[str, str | None]:
     """People already committed to the resume corpus, mapped to their previous stratum.
 
-    Committed means batched by `re plan` (someone may be writing their resume
-    right now) or rendered into applicants.csv. Pinning only at render time would
-    let a rebuild drop a person whose resume is half-written.
+    Committed means they have a resume recorded in applicants.csv.
     """
     import csv
 
@@ -334,12 +332,6 @@ def pins_from_disk() -> dict[str, str | None]:
         with manifest_path.open(newline="", encoding="utf-8") as handle:
             committed |= {row["applicant_id"] for row in csv.DictReader(handle)
                           if row.get("applicant_id")}
-
-    roster_path = config.DATA / "resumes" / "roster.json"
-    if roster_path.exists():
-        roster = json.loads(roster_path.read_text(encoding="utf-8"))
-        for batch in roster.get("batches", []):
-            committed |= set(batch.get("applicant_ids", []))
 
     previous: dict[str, str] = {}
     if CORPUS_PATH.exists():

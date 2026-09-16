@@ -1,0 +1,130 @@
+{
+  "github_login": "Inazumimakoto",
+  "applicant_id": "applicant0060",
+  "first_name": "Talia",
+  "last_name": "Bregman",
+  "career_stage": "switcher",
+  "email": "talia@portwell.example",
+  "phone": "(555) 010-0160",
+  "location": "Portwell",
+  "linkedin": "linkedin.example.com/in/talia-bregman",
+  "github_url": "github.example.com/talia-bregman",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Portwell Community College",
+    "location": "Portwell",
+    "degree": "Bachelor of Science",
+    "major": "Information Systems",
+    "minor": null,
+    "graduation": "Dec 2026",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Web Development",
+      "Systems Fundamentals",
+      "Cloud Computing Basics"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Retail Shift Associate",
+      "organization": "Portwell Market Co-op",
+      "location": "Portwell",
+      "start": "Jun 2023",
+      "end": "Aug 2025",
+      "bullets": [
+        "Coordinated shift coverage among a rotating part-time team, often resolving last-minute swaps through group chat.",
+        "Noticed how much confusion came from informal scheduling, which later motivated building a small tool to track it."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Shift Sync",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built Shift Sync, a Swift and Go app to help part-time coworkers coordinate and swap shifts, across 81 files.",
+        "Started the project after repeatedly losing track of last-minute shift swaps arranged over chat messages."
+      ],
+      "link": null,
+      "tech": [
+        "Swift",
+        "Go"
+      ]
+    },
+    {
+      "title": "Inazu",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Self-hosted a personal portfolio site in JavaScript, HTML and CSS across 56 files using Express and SQLite.",
+        "Built a simple load balancer with failover to a friend's home server after her own server had gone down unnoticed."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Chat.inazu.me",
+      "organization": null,
+      "location": null,
+      "start": "Jul 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Built a small TypeScript chat web app with an automated test suite using Vitest and Docker packaging."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "JavaScript",
+      "Go"
+    ],
+    "Frontend": [
+      "React",
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Node.js"
+    ],
+    "DevOps": [
+      "Docker",
+      "CI/CD",
+      "GCP/Azure"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

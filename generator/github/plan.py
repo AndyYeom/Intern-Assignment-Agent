@@ -113,7 +113,7 @@ class CorpusStatus:
         if self.unbuilt:
             return "uv run python -m generator gh build    (collected profiles not built yet)"
         if not self.total("need"):
-            return "corpus complete - uv run python -m generator re plan --batches 5"
+            return "corpus complete - uv run python -m generator re infoprompt > prompt.md"
         # Sample before collecting, so one collect round fetches everyone a short
         # stratum needs, repository-search candidates first.
         if self.wanted:

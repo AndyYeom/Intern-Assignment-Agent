@@ -88,7 +88,7 @@ Go probability.
 | partial | any evidence at all |
 
 An optimal assignment fills the slots, in priority order: as many slots as
-possible; never drop anyone already batched or rendered; strict, then relaxed,
+possible; never drop anyone who already has a resume; strict, then relaxed,
 then partial; keep committed people in their previous stratum; and least
 surprise, minimising `-log2 p(stratum)` so each person lands where their
 evidence is most concentrated. `search_stratum` on a profile records which search
@@ -98,10 +98,13 @@ evidence is most concentrated. `search_stratum` on a profile records which searc
 
 | path | contents | committed |
 | --- | --- | --- |
-| `roster.json` | which applicants each authoring batch owns | yes |
-| `specs/<applicant_id>.json` | authored resume content | yes |
-| `rendered/<applicant_id>.pdf` | the resume, ~25 KB | yes |
-| `specs/_draft_*.json`, `rendered/*.html`, `brief_batch_*.md` | regenerated scaffolding | no |
+| `specs/<applicant_id>.json` | the full resume content, as generated | yes |
+| `rendered/<applicant_id>.pdf` | the resume, MIT Template A, one page, ~20 KB | yes |
+| `raw/<applicant_id>.html` | local preview of each PDF | no |
+
+Every PDF is written by `generator re gen`, which records its row in
+`applicants.csv` first: no resume PDF exists without a pair. Each PDF also carries
+its `applicant_id` in its document Keywords metadata.
 
 ## applicants.csv
 
@@ -114,8 +117,8 @@ evidence is most concentrated. `search_stratum` on a profile records which searc
 | `resume_pdf`, `spec` | the rendered resume and the spec it came from |
 | `career_stage`, `batch` | `student`, `intern`, `new_grad` or `switcher`; authoring batch |
 
-Written by `generator re render` under a lock, sorted by `applicant_id`, with no
-timestamps, so re-rendering an unchanged resume produces no diff.
+Written by `generator re gen` under a lock, sorted by `applicant_id`, with no
+timestamps, so regenerating an unchanged resume produces no diff.
 `generator re manifest --rebuild` regenerates it from disk. It deliberately has
 no column marking planted exaggerations: that answer key must not sit in the
 index the evidence agent reads.

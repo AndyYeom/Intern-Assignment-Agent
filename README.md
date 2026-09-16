@@ -68,18 +68,27 @@ any rule change. `collect --refresh <logins>` rebuilds those people's raw data.
 ### 2. Generate the resumes
 
 ```powershell
-uv run python -m generator re plan --batches 5   # split placed applicants into batches
-uv run python -m generator re draft --batch 1    # drafts + brief for batch 1's author
+uv run python -m generator re infoprompt --appids applicant0046 applicant0057 > prompt.md
 ```
 
-Each author, following their brief, turns `specs/_draft_<applicant_id>.json`
-into `specs/<applicant_id>.json`: invent the identity, choose a `career_stage`,
-and rewrite the bullets. Batches never share an applicant, so several people or
-agents can author in parallel. Record planted exaggerations separately, never in
-a spec.
+Give `prompt.md` to ChatGPT or a subagent. It returns a single finished command,
+which you run:
 
 ```powershell
-uv run python -m generator re verify     # consistency check (render runs it too)
-uv run python -m generator re render     # specs -> PDF, and update data/applicants.csv
-uv run python -m generator re manifest   # who has a resume, who is still waiting
+uv run python -m generator re gen --appids applicant0046 applicant0057 --info '{...}' '{...}'
 ```
+
+`--appids` and `--info` pair up by position; an info may also be `@file.json`.
+`re gen -h` documents every field, in MIT Template A order. Only the name is
+required: projects and skills are drafted from the applicant's real GitHub
+evidence, and drafted projects are trimmed to fit one page.
+
+Every generated PDF is recorded in `data/applicants.csv` together with the GitHub
+profile it pairs with; generating again for the same applicant replaces the pair.
+
+```powershell
+uv run python -m generator re manifest                  # pairs so far, and who is still waiting
+uv run python -m generator re remove applicant0046      # delete a pair; the profile stays
+```
+
+Without `--appids`, `re infoprompt` covers every placed applicant who has no resume yet.

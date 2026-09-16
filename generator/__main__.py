@@ -11,13 +11,14 @@ Two pipelines, one entry point.
     python -m generator gh build               raw -> profiles (free, re-runnable)
     python -m generator gh stats               coverage and signal report
 
-`resume` (alias `re`) — turn profiles into MIT-format resumes:
+`resume` (alias `re`) - MIT Template A resumes, each paired with a GitHub profile:
 
-    python -m generator re plan --batches 5    exclusive split of the corpus
-    python -m generator re draft --batch 1     draft specs + the author's brief
-    python -m generator re verify              no profile used twice
-    python -m generator re render              verify, then specs -> PDF
-    python -m generator re manifest            the applicant index (data/applicants.csv)
+    python -m generator re infoprompt --appids APPID...  LLM prompt that returns a gen command
+    python -m generator re gen --appids APPID... --info JSON|@file...
+                                                       see `re gen -h` for the info format
+    python -m generator re remove APPID...             delete resume pairs; profile kept
+    python -m generator re manifest                    list pairs, and who is still waiting
+
 
 `collect` is the only expensive stage. Everything it fetches is cached on disk,
 so it resumes where it stopped and `build` costs nothing to re-run.
@@ -30,6 +31,7 @@ import sys
 from generator import config
 from generator.github import commands as github_cmd
 from generator.resume import commands as resume_cmd
+from generator.resume import generate as resume_generate
 
 
 def _add_github_commands(parser: argparse.ArgumentParser) -> None:
@@ -72,26 +74,37 @@ def _add_github_commands(parser: argparse.ArgumentParser) -> None:
 def _add_resume_commands(parser: argparse.ArgumentParser) -> None:
     sub = parser.add_subparsers(dest="resume_command", required=True)
 
-    p = sub.add_parser("plan", help="split the corpus into exclusive batches")
-    p.add_argument("--batches", type=int, default=5)
-    p.set_defaults(func=resume_cmd.cmd_plan)
+    p = sub.add_parser(
+        "infoprompt", help="LLM prompt: applicants' evidence in, a finished `re gen` command out",
+        description=("Print a fixed prompt followed by each applicant's GitHub evidence, "
+                     "without real logins or links. Give it to ChatGPT or a subagent; it "
+                     "returns one ready-to-run `re gen` command."))
+    p.add_argument("--appids", nargs="*", metavar="APPID",
+                   help="default: every placed applicant without a resume yet")
+    p.set_defaults(func=resume_cmd.cmd_infoprompt)
 
-    p = sub.add_parser("draft", help="draft specs and the author's brief for one batch")
-    p.add_argument("--batch", type=int, required=True)
-    p.set_defaults(func=resume_cmd.cmd_draft)
+    p = sub.add_parser(
+        "gen", help="generate resume PDFs, each paired with its GitHub profile in applicants.csv",
+        description=("Generate resumes in MIT Resume Template A. Every PDF is recorded in "
+                     "data/applicants.csv with the GitHub profile it pairs with."),
+        epilog=resume_generate.FORMAT, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--appids", nargs="+", required=True, metavar="APPID",
+                   help="applicant IDs, e.g. applicant0046 (see data/githubs/corpus.json)")
+    p.add_argument("--info", nargs="+", required=True, metavar="INFO",
+                   help="one resume per appid, same order: a JSON object, or @file.json")
+    p.set_defaults(func=resume_cmd.cmd_gen)
 
-    sub.add_parser("verify", help="check no profile is used twice").set_defaults(
-        func=resume_cmd.cmd_verify)
+    p = sub.add_parser("remove", help="delete resume pairs (spec, PDF, CSV row); profile kept")
+    p.add_argument("appids", nargs="+", metavar="APPID")
+    p.add_argument("--keep-spec", action="store_true",
+                   help="keep the spec JSON; delete only the PDF and CSV row")
+    p.add_argument("--yes", "-y", action="store_true", help="do not ask for confirmation")
+    p.set_defaults(func=resume_cmd.cmd_remove)
 
-    p = sub.add_parser("manifest", help="show or rebuild the applicant index")
+    p = sub.add_parser("manifest", help="list resume pairs, and placed applicants still waiting")
     p.add_argument("--rebuild", action="store_true",
-                   help="regenerate from the spec and rendered files on disk")
+                   help="regenerate applicants.csv from the spec files on disk")
     p.set_defaults(func=resume_cmd.cmd_manifest)
-
-    p = sub.add_parser("render", help="specs -> HTML and PDF")
-    p.add_argument("specs", nargs="*", help="specific spec files; default is all")
-    p.add_argument("--no-pdf", action="store_true")
-    p.set_defaults(func=resume_cmd.cmd_render)
 
 
 def build_parser() -> argparse.ArgumentParser:

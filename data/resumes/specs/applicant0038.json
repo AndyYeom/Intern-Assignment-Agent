@@ -1,0 +1,91 @@
+{
+  "github_login": "PrimqulovDev",
+  "applicant_id": "applicant0038",
+  "first_name": "Farrah",
+  "last_name": "Denholm",
+  "career_stage": "student",
+  "email": "farrah.denholm@ashwickmail.example",
+  "phone": "(555) 010-0138",
+  "location": "Ashwick Falls",
+  "linkedin": "linkedin.example.com/in/farrah-denholm",
+  "github_url": "github.example.com/farrah-denholm",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Ashwick Falls University",
+    "location": "Ashwick Falls",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Business Administration",
+    "graduation": "May 2023",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Mobile Application Architecture",
+      "Software Design Patterns",
+      "Intro to Product Management",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "MVVM OAuth2 Android App",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Dec 2020",
+      "end": "Dec 2020",
+      "bullets": [
+        "Built an Android app with MVVM architecture using Dagger2, RxJava and Retrofit, adding OAuth2 authentication with ViewBinding.",
+        "Organized the implementation across 126 files to separate networking, view and data layers."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin",
+        "Java"
+      ]
+    },
+    {
+      "title": "MP4 Downloader",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jan 2022",
+      "end": "Jan 2022",
+      "bullets": [
+        "Built a second Android app in Kotlin, integrating Firebase Crashlytics and Google Play services into the build.",
+        "Structured the project across 131 files while wiring Dagger for dependency management."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Architecture Reviewer",
+      "organization": "Ashwick Mobile Dev Circle",
+      "location": null,
+      "start": "Dec 2020",
+      "end": "Jan 2022",
+      "bullets": [
+        "Compared MVVM patterns across personal Android apps and wrote short notes so club peers could reuse them.",
+        "After peers spent more time debating architecture than shipping, began facilitating short scoping talks before each build.",
+        "Found guiding these discussions more engaging than implementing every screen, a signal behind pursuing a mobile product direction."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

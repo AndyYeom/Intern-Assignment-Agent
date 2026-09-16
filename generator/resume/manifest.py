@@ -133,6 +133,16 @@ def upsert(new_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         return sorted(rows, key=lambda r: r["applicant_id"])
 
 
+def remove(applicant_ids: list[str]) -> int:
+    """Drop rows by applicant_id. Returns how many were removed."""
+    targets = set(applicant_ids)
+    with _locked():
+        rows = load()
+        kept = [row for row in rows if row["applicant_id"] not in targets]
+        _write(kept)
+    return len(rows) - len(kept)
+
+
 def used_ids() -> set[str]:
     """Applicants that already have a resume."""
     return {row["applicant_id"] for row in load() if row.get("applicant_id")}

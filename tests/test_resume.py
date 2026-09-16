@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import pytest
 
-from generator.resume import render, roster
+from generator.resume import render
 from generator.resume.draft import draft, draft_projects, draft_skills
 from generator.resume.schema import (
     SECTION_ORDER,
@@ -85,18 +85,18 @@ def test_experience_comes_from_info_not_github():
 
 
 def test_render_html_contains_the_substance():
-    spec = draft(_profile(), _info(email="ada@example.edu"))
+    spec = draft(_profile(), _info(email="ada@northbridge.example"))
     html = render.to_html(spec)
     assert "ADA OKONKWO" not in html  # name is upper-cased by CSS, not in markup
     assert "Ada Okonkwo" in html
-    assert "ada@example.edu" in html
+    assert "ada@northbridge.example" in html
     assert "Ferry API" in html
-    assert "Massachusetts Institute of Technology" in html
+    assert "Northbridge Institute of Technology" in html
 
 
 def test_photo_is_optional():
     with_photo = render.to_html(draft(_profile(), _info(photo=True)))
-    without = render.to_html(draft(_profile(), _info(photo=False)))
+    without = render.to_html(draft(_profile(), _info()))
     assert "data:image/jpeg;base64," in with_photo
     assert "data:image/jpeg;base64," not in without
 
@@ -122,41 +122,22 @@ def test_real_repo_links_are_never_rendered():
     assert spec.projects[0].link == "https://github.com/testuser/ferry-api"
     html = render.to_html(spec)
     assert "github.com/testuser" not in html
-    assert "testuser" not in html.replace("github.com/ada-okonkwo", "")
+    assert "testuser" not in html.replace("github.example.com/ada-okonkwo", "")
 
 
-def test_pdf_stays_small(tmp_path):
-    """Committed to the repo, so size matters. A full one-page resume is ~25 KB."""
+def test_pdf_stays_small():
+    """Committed to the repo, so size matters. A full one-page resume is ~20 KB."""
     if not render.pdf_available():
         pytest.skip("WeasyPrint system libraries not installed")
-    spec = draft(_profile(), _info(email="ada@example.edu", photo=True))
-    path = render.write_pdf(spec, tmp_path)
-    assert path is not None
-    assert path.stat().st_size < 40_000
+    pdf = render.render_pdf(draft(_profile(), _info(email="ada@northbridge.example", photo=True)),
+                            render.TEMPLATE_A)
+    assert pdf is not None
+    assert len(pdf) < 40_000
 
 
 def test_html_escapes_injected_markup():
     spec = draft(_profile(), _info(first_name="<script>alert(1)</script>"))
     assert "<script>" not in render.to_html(spec)
-
-
-def test_roster_batches_are_exclusive_and_cover_everyone():
-    everyone = [f"applicant{i:04d}" for i in range(40)]
-    payload = roster.plan(batches=5, applicant_ids=everyone)
-
-    batches = [set(b["applicant_ids"]) for b in payload["batches"]]
-    assert sum(len(b) for b in batches) == 40
-    assert set().union(*batches) == set(everyone)
-    for i, left in enumerate(batches):
-        for right in batches[i + 1:]:
-            assert not (left & right), "an applicant appears in two batches"
-    assert all(len(b) == 8 for b in batches)
-
-
-def test_roster_split_is_deterministic():
-    everyone = [f"applicant{i:04d}" for i in range(40)]
-    assert roster.plan(batches=5, applicant_ids=everyone) == \
-        roster.plan(batches=5, applicant_ids=list(reversed(everyone)))
 
 
 def test_login_named_repos_never_put_the_login_on_a_resume():
@@ -175,3 +156,88 @@ def test_irrelevant_repos_are_not_resume_projects():
         "name": "notes", "full_name": "testuser/notes", "skill_relevant": False,
         "stargazers": 999}))
     assert [e.title for e in draft_projects(profile)] == ["Ferry API"]
+
+
+def test_layout_follows_mit_template_a():
+    """Section names, order and shape come from data/static/MITResumeTemplateA.docx."""
+    info = _info(career_stage="intern", email="ada@northbridge.example", phone="(617) 555-0142",
+                 location="Port Calder",
+                 experience=[Entry(title="SWE Intern", organization="Acme", location="Tidewell",
+                                   start="Jun 2025", end="Aug 2025", bullets=["Built a thing"])],
+                 leadership=[Entry(title="Lead", organization="Hacking Club", start="2024")])
+    spec = draft(_profile(), info)
+    spec.education.honors = ["Dean's List"]
+    html = render.to_html(spec)
+
+    titles = ["Education", "Experience", "Projects", "Activities &amp; Extracurriculars",
+              "Awards &amp; Accomplishments", "Skills &amp; Interests"]
+    positions = [html.index(f"<h2>{t}</h2>") for t in titles]
+    assert positions == sorted(positions)
+    import re
+
+    visible = re.sub(r"<[^>]+>", "", html)
+    assert "Port Calder | (617) 555-0142 | ada@northbridge.example" in visible
+    assert '<span class="nowrap">github.example.com/ada-okonkwo</span>' in html
+    assert "<b>Acme</b>, Tidewell" in html
+    assert (render.TEMPLATE_A.margin_in, render.TEMPLATE_A.body_pt) == (1.0, 11.0)
+    assert "margin: 1.0in" in render.CSS and "font-size: 11.0pt" in render.CSS
+
+
+def test_template_a_has_no_photo_by_default():
+    assert "data:image/jpeg" not in render.to_html(draft(_profile(), _info()))
+
+
+def test_overflow_past_one_page_is_detected():
+    if not render.pdf_available():
+        pytest.skip("WeasyPrint system libraries not installed")
+    spec = draft(_profile(), _info())
+    assert render.page_count(spec) == 1
+    long = spec.model_copy(update={"projects": spec.projects * 12})
+    assert render.page_count(long) > 1
+
+
+def test_award_shows_a_single_date_not_a_range():
+    spec = draft(_profile(), _info())
+    spec.awards = [Entry(title="Essay Distinction", start="Mar 2026")]
+    html = render.to_html(spec)
+    assert "Mar 2026" in html
+    assert "Mar 2026 &ndash; Present" not in html
+
+
+def test_single_commit_is_not_pluralised():
+    profile = _profile()
+    profile.repos[0].commits = {"count": 1, "active_days": 1}
+    bullets = draft_projects(profile)[0].bullets
+    assert "1 commit over 1 active day." in bullets
+
+
+def test_every_layout_stays_within_mit_guidance():
+    """MIT CAPD: 10-12pt body text, 0.5-1in margins. Tightening never goes past that."""
+    assert render.LAYOUTS[0] is render.TEMPLATE_A
+    for layout in render.LAYOUTS:
+        assert 10.0 <= layout.body_pt <= 12.0
+        assert 0.5 <= layout.margin_in <= 1.0
+    sizes = [(l.body_pt, l.margin_in, l.gap_pt) for l in render.LAYOUTS]
+    assert sizes == sorted(sizes, reverse=True), "layouts must only ever tighten"
+
+
+def test_an_overflowing_resume_gets_a_tighter_layout_with_nothing_cut():
+    if not render.pdf_available():
+        pytest.skip("WeasyPrint system libraries not installed")
+    spec = draft(_profile(), _info())
+    base = spec.projects[0]
+    long = spec.model_copy(update={"projects": [base.model_copy(update={"bullets": base.bullets * 2})
+                                                for _ in range(4)]})
+    assert render.page_count(long) > 1
+    layout = render.fitted_layout(long)
+    assert layout is not None and layout.name != render.TEMPLATE_A.name
+    assert render.page_count(long, layout) == 1
+
+
+def test_render_pdf_refuses_to_write_more_than_one_page():
+    if not render.pdf_available():
+        pytest.skip("WeasyPrint system libraries not installed")
+    spec = draft(_profile(), _info())
+    huge = spec.model_copy(update={"projects": spec.projects * 15})
+    with pytest.raises(ValueError, match="refusing to write a multi-page resume"):
+        render.render_pdf(huge, render.TEMPLATE_A)
