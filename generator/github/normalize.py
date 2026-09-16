@@ -1,0 +1,234 @@
+"""Stage 3: raw payloads -> GitHubProfile. Pure; no network.
+
+Everything interpretive lives here so it can be re-run for free. When the
+schema or a heuristic changes, re-run `build`, not `collect`.
+"""
+from __future__ import annotations
+
+from datetime import UTC, datetime
+from typing import Any
+
+from generator.config import COLLECTOR_VERSION, PROFILES_DIR
+from generator.github import signals, skill_map
+from generator.schemas import (
+    ExternalContribution,
+    GitHubProfile,
+    RepoRecord,
+    SkillEvidence,
+)
+
+
+def _parse_ts(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def build_repo(bundle: dict[str, Any]) -> RepoRecord:
+    repo = bundle["repo"]
+    paths: list[str] = bundle.get("tree_paths", [])
+    languages: dict[str, int] = bundle.get("languages") or {}
+    contents: dict[str, str] = bundle.get("file_contents") or {}
+
+    readme_key = next((k for k in contents if k.lower().startswith("readme")), None)
+    readme = contents.get(readme_key) if readme_key else None
+
+    commit_summary = signals.commit_stats(bundle.get("commits", []))
+
+    # Cheap boolean facts the signal functions depend on.
+    has_ci = any(p.startswith(".github/workflows/") or p in
+                 {".gitlab-ci.yml", "Jenkinsfile", "azure-pipelines.yml"} for p in paths)
+    has_docker = any(p.lower().endswith("dockerfile") or "docker-compose" in p.lower() for p in paths)
+    has_tests = any(
+        pattern.search(p) for p in paths
+        for pattern, skill, _ in skill_map.FILE_PATTERNS if skill == "unit-testing"
+    )
+
+    enriched = dict(repo)
+    enriched.update({
+        "has_ci": has_ci,
+        "has_docker": has_docker,
+        "has_tests": has_tests,
+        "has_releases": bundle.get("has_releases", False),
+        "contributors_count": bundle.get("contributors_count", 1),
+        "has_issues_activity": repo.get("open_issues", 0) > 0,
+    })
+
+    # -- skills ---------------------------------------------------------
+    skill_signals: list[skill_map.SkillSignal] = []
+    skill_signals += skill_map.signals_from_languages(languages)
+    skill_signals += skill_map.signals_from_tree(paths)
+    skill_signals += skill_map.signals_from_topics(repo.get("topics") or [])
+    skill_signals += skill_map.signals_from_name(repo.get("name", ""), repo.get("description"))
+
+    manifests: dict[str, list[str]] = {}
+    for path, text in contents.items():
+        if path.rsplit("/", 1)[-1] not in skill_map.MANIFEST_FILES:
+            continue
+        deps = skill_map.parse_manifest(path, text)
+        if deps:
+            manifests[path] = sorted(deps)[:120]
+            skill_signals += skill_map.signals_from_dependencies(deps, path)
+
+    # Drop anything that is not a canonical taxonomy id.
+    valid = skill_map.skill_ids()
+    skill_signals = [s for s in skill_signals if s.skill_id in valid]
+
+    notable = [p for p in paths if p.rsplit("/", 1)[-1] in skill_map.MANIFEST_FILES
+               or p.startswith(".github/workflows/")
+               or p.lower().endswith("dockerfile")]
+
+    return RepoRecord(
+        name=repo.get("name", ""),
+        full_name=repo.get("full_name", ""),
+        html_url=repo.get("html_url", ""),
+        description=repo.get("description"),
+        homepage=repo.get("homepage") or None,
+        is_fork=repo.get("is_fork", False),
+        is_archived=repo.get("is_archived", False),
+        is_template=repo.get("is_template", False),
+        created_at=repo.get("created_at"),
+        pushed_at=repo.get("pushed_at"),
+        stargazers=repo.get("stargazers", 0),
+        forks=repo.get("forks", 0),
+        open_issues=repo.get("open_issues", 0),
+        size_kb=repo.get("size_kb", 0),
+        default_branch=repo.get("default_branch", "main"),
+        license=repo.get("license"),
+        topics=repo.get("topics") or [],
+        languages=languages,
+        primary_language=max(languages.items(), key=lambda kv: kv[1])[0] if languages else None,
+        file_count=len(paths),
+        top_level_paths=sorted({p.split("/")[0] for p in paths})[:40],
+        notable_files=notable[:30],
+        manifests=manifests,
+        has_readme=bool(readme),
+        readme_length=len(readme or ""),
+        readme_excerpt=(readme or "")[:1200] or None,
+        has_ci=has_ci,
+        has_tests=has_tests,
+        has_docker=has_docker,
+        has_releases=bundle.get("has_releases", False),
+        contributors_count=bundle.get("contributors_count", 1),
+        commits=commit_summary,
+        structure=signals.structure_signals(enriched, paths, commit_summary, readme),
+        judgment=signals.judgment_signals(commit_summary, enriched),
+        skill_signals=[s.to_dict() for s in skill_signals],
+        tree_truncated=bundle.get("tree_truncated", False),
+    )
+
+
+def aggregate_skills(repos: list[RepoRecord]) -> list[SkillEvidence]:
+    """Roll per-repo signals up into one evidence record per taxonomy skill."""
+    by_skill: dict[str, SkillEvidence] = {}
+
+    for repo in repos:
+        first = repo.commits.get("first_at")
+        last = repo.commits.get("last_at")
+        commit_count = repo.commits.get("count", 0)
+
+        for raw in repo.skill_signals:
+            skill_id = raw["skill_id"]
+            evidence = by_skill.setdefault(skill_id, SkillEvidence(skill_id=skill_id))
+
+            if repo.full_name not in evidence.repos:
+                evidence.repos.append(repo.full_name)
+                evidence.commit_count += commit_count
+            evidence.signal_count += 1
+            if raw["source"] not in evidence.sources:
+                evidence.sources.append(raw["source"])
+            evidence.max_strength = max(evidence.max_strength, raw["strength"])
+            if len(evidence.details) < 12:
+                evidence.details.append(f"{repo.name}: {raw['detail']}")
+
+            if raw["source"] == "language":
+                language = raw["detail"].split(":")[0]
+                evidence.total_bytes += repo.languages.get(language, 0)
+
+            if first and (evidence.first_seen is None or first < evidence.first_seen):
+                evidence.first_seen = first
+            if last and (evidence.last_seen is None or last > evidence.last_seen):
+                evidence.last_seen = last
+
+    return sorted(
+        by_skill.values(),
+        key=lambda e: (e.max_strength, len(e.repos), e.signal_count),
+        reverse=True,
+    )
+
+
+def build_profile(bundle: dict[str, Any]) -> GitHubProfile:
+    user = bundle["user"]
+    repos = [build_repo(r) for r in bundle.get("repos", [])]
+
+    languages_bytes: dict[str, int] = {}
+    for repo in repos:
+        for language, count in repo.languages.items():
+            languages_bytes[language] = languages_bytes.get(language, 0) + count
+
+    created = _parse_ts(user.get("created_at"))
+    age_days = (datetime.now(UTC) - created).days if created else 0
+
+    notes: list[str] = []
+    if len(repos) < 3:
+        notes.append("fewer than 3 repos mined - thin evidence base")
+    if any(r.tree_truncated for r in repos):
+        notes.append("at least one repo tree was truncated by the API")
+    if not any(r.commits.get("count") for r in repos):
+        notes.append("no commits attributed to this login - check commit email config")
+
+    return GitHubProfile(
+        login=user["login"],
+        name=user.get("name"),
+        bio=user.get("bio"),
+        company=user.get("company"),
+        location=user.get("location"),
+        blog=user.get("blog") or None,
+        html_url=user.get("html_url", ""),
+        avatar_url=user.get("avatar_url"),
+        created_at=user.get("created_at"),
+        account_age_days=age_days,
+        public_repos=user.get("public_repos", 0),
+        followers=user.get("followers", 0),
+        following=user.get("following", 0),
+        repos=repos,
+        external_contributions=[
+            ExternalContribution(**e) for e in bundle.get("external_contributions", [])
+            if e.get("html_url")
+        ],
+        languages_bytes=dict(sorted(languages_bytes.items(), key=lambda kv: kv[1], reverse=True)),
+        total_commits=sum(r.commits.get("count", 0) for r in repos),
+        skill_evidence=aggregate_skills(repos),
+        stratum=bundle.get("stratum"),
+        collected_at=bundle.get("collected_at"),
+        collector_version=COLLECTOR_VERSION,
+        notes=notes,
+    )
+
+
+def save_profile(profile: GitHubProfile) -> None:
+    PROFILES_DIR.mkdir(parents=True, exist_ok=True)
+    path = PROFILES_DIR / f"{profile.login}.json"
+    path.write_text(profile.model_dump_json(indent=2), encoding="utf-8")
+
+
+def load_profile(login: str) -> GitHubProfile | None:
+    path = PROFILES_DIR / f"{login}.json"
+    if not path.exists():
+        return None
+    return GitHubProfile.model_validate_json(path.read_text(encoding="utf-8"))
+
+
+def load_all_profiles() -> list[GitHubProfile]:
+    if not PROFILES_DIR.exists():
+        return []
+    out = []
+    for path in sorted(PROFILES_DIR.glob("*.json")):
+        try:
+            out.append(GitHubProfile.model_validate_json(path.read_text(encoding="utf-8")))
+        except Exception as exc:  # noqa: BLE001 - a malformed profile must not stop the batch
+            print(f"  ! skipping {path.name}: {exc}")
+    return out

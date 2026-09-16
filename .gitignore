@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Evidence collector: raw API payloads and HTTP cache are reproducible from
+# data/github/candidates.json, so only the normalised profiles are tracked.
+.cache/
+data/githubs/raw/
+.env
+data/.applicants.lock
