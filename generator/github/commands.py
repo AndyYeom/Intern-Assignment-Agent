@@ -10,7 +10,7 @@ from collections import Counter
 from datetime import UTC, datetime
 
 from generator import config
-from generator.github import collector, normalize, sampler
+from generator.github import collector, normalize, plan, sampler
 from generator.github.client import GitHubClient, RateLimited
 from generator.github.skill_map import skill_ids
 
@@ -47,29 +47,33 @@ def cmd_doctor(args: argparse.Namespace) -> int:
 
 def cmd_sample(args: argparse.Namespace) -> int:
     client = _client(args)
+    unusable = {p.login for p in normalize.load_all_profiles() if not p.usable}
     candidates, consumed = sampler.sample(
         client, target=args.target, per_stratum=args.per_stratum,
-        windows_per_run=args.windows,
+        windows_per_run=args.windows, unusable=unusable,
     )
-    payload = sampler.save(candidates, consumed)
-    counts = payload["counts"]
-    print(f"\n[sample] examined {counts['examined']}, selected {counts['selected']}, "
-          f"rejected {counts['rejected']}")
-    print(f"[sample] wrote {config.CANDIDATES_PATH}")
+    sampler.save(candidates, consumed)
+    print(f"[sample] wrote {config.CANDIDATES_PATH}\n")
+    print(plan.render(plan.load_status(args.target)))
+    return 0
 
-    # Selected != usable. Usability is only knowable after collect + build.
-    profiles = normalize.load_all_profiles()
-    usable = [p for p in profiles if p.usable]
-    if profiles:
-        print(f"[sample] of {len(profiles)} built profiles, {len(usable)} are usable")
-    if len(usable) < args.target:
-        print(f"[sample] next: `collect` then `build`, then re-run `sample` if "
-              f"usable < {args.target}")
+
+def cmd_status(args: argparse.Namespace) -> int:
+    """Where the corpus stands, per stratum. Reads disk only - no API calls."""
+    status = plan.load_status(args.target)
+    print(plan.to_json(status) if args.json else plan.render(status))
     return 0
 
 
 def cmd_collect(args: argparse.Namespace) -> int:
-    logins = args.logins or sampler.load_selected()
+    if args.logins:
+        logins = args.logins
+    elif args.all:
+        logins = sampler.load_selected()
+    else:
+        # Only the planned quota per stratum. Reserves are fetched only when a
+        # planned profile proves unusable, so requests are not spent on surplus.
+        logins = plan.planned_logins(args.target)
     if not logins:
         print("No candidates. Run `sample` first, or pass logins explicitly.")
         return 1
@@ -81,7 +85,8 @@ def cmd_collect(args: argparse.Namespace) -> int:
 
     already = set(collector.collected_logins())
     todo = [l for l in logins if args.refresh or l not in already]
-    print(f"[collect] {len(logins)} selected, {len(already)} already on disk, "
+    scope = "explicit" if args.logins else ("all selected" if args.all else "planned")
+    print(f"[collect] {len(logins)} {scope}, {len(already)} already on disk, "
           f"{len(todo)} to fetch\n")
 
     client = _client(args)

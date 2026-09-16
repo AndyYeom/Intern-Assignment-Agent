@@ -4,6 +4,7 @@ Two pipelines, one entry point.
 
 `github` (alias `gh`) — build the verified corpus:
 
+    python -m generator gh status              progress per stratum, and what to run next
     python -m generator gh doctor              check token and rate budget
     python -m generator gh sample --target 40  select the corpus via search
     python -m generator gh collect             fetch raw payloads (slow, resumable)
@@ -35,6 +36,11 @@ from generator.resume import commands as resume_cmd
 def _add_github_commands(parser: argparse.ArgumentParser) -> None:
     sub = parser.add_subparsers(dest="github_command", required=True)
 
+    p = sub.add_parser("status", help="progress per stratum, and what to run next")
+    p.add_argument("--target", type=int, default=config.TARGET_PROFILE_COUNT)
+    p.add_argument("--json", action="store_true", help="machine-readable output")
+    p.set_defaults(func=github_cmd.cmd_status)
+
     sub.add_parser("doctor", help="check token and rate budget").set_defaults(
         func=github_cmd.cmd_doctor)
 
@@ -51,6 +57,9 @@ def _add_github_commands(parser: argparse.ArgumentParser) -> None:
     p.add_argument("logins", nargs="*", help="override the candidate list")
     p.add_argument("--max-repos", type=int, default=config.MAX_REPOS_PER_USER)
     p.add_argument("--refresh", action="store_true", help="re-fetch already-collected users")
+    p.add_argument("--target", type=int, default=config.TARGET_PROFILE_COUNT)
+    p.add_argument("--all", action="store_true",
+                   help="collect every selected candidate, not just the planned quota")
     p.set_defaults(func=github_cmd.cmd_collect)
 
     p = sub.add_parser("build", help="normalise raw payloads into profiles (free)")

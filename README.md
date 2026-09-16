@@ -36,6 +36,7 @@ uv run python -m generator --help
 ### GitHub collection (`gh`)
 
 ```powershell
+uv run python -m generator gh status              # progress per stratum + next command
 uv run python -m generator gh doctor              # check rate budget
 uv run python -m generator gh sample --target 40  # select the corpus
 uv run python -m generator gh collect             # fetch raw payloads
@@ -46,6 +47,10 @@ uv run python -m generator gh stats               # taxonomy coverage report
 `sample` selects profiles programmatically through the GitHub Search API,
 stratified by primary language, and records every candidate it examined —
 including rejections and their reasons — in `data/githubs/candidates.json`.
+Each stratum gets a quota of `ceil(target / strata)` plus a small reserve, and
+the emptiest strata are filled first. `collect` fetches only the planned quota
+per stratum; a reserve candidate replaces any planned profile that proves
+unusable. `status` reads disk only and costs no API requests.
 
 `collect` is the only expensive stage and the only one that touches the network.
 Every response is cached on disk with its ETag, so the stage is resumable after a

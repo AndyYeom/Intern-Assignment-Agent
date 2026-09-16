@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import time
+from collections import Counter
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
@@ -31,7 +32,9 @@ STRATA: dict[str, str] = {
     "cpp-systems": "language:C++ repos:4..50 followers:1..100",
     "mobile": "language:Dart repos:3..50 followers:1..100",
     "csharp": "language:C# repos:4..50 followers:1..100",
-    "rust-systems": "language:Rust repos:4..50 followers:1..100",
+    # Kotlin, not Rust: every stratum must map onto taxonomy skills, or its
+    # profiles fail the usability gate by construction.
+    "android-kotlin": "language:Kotlin repos:4..50 followers:1..100",
 }
 
 # Inclusion criteria - stated here so they can be quoted in the write-up.
@@ -40,6 +43,16 @@ MAX_PUBLIC_REPOS = 80
 MAX_FOLLOWERS = 400          # excludes established devs; we want juniors
 MIN_ACCOUNT_AGE_DAYS = 180   # needs enough history to judge
 MAX_ACCOUNT_AGE_DAYS = 2600  # ~7 years; older accounts are rarely students
+
+
+# Extra selected candidates kept per stratum beyond its quota. They replace a
+# planned profile that turns out unusable, without another search.
+RESERVE_PER_STRATUM = 2
+
+
+def stratum_quota(target: int, strata_count: int) -> int:
+    """How many usable profiles each stratum should contribute to the corpus."""
+    return max(1, -(-target // strata_count))
 
 
 def date_windows(months: int = 6) -> list[tuple[str, str]]:
@@ -111,47 +124,56 @@ def sample(
     per_stratum: int = 12,
     strata: dict[str, str] | None = None,
     windows_per_run: int = 2,
+    reserve: int = RESERVE_PER_STRATUM,
+    unusable: set[str] | None = None,
 ) -> tuple[list[Candidate], dict[str, list[int]]]:
-    """Find *new* eligible candidates and add them to whatever already exists.
+    """Top every stratum up to its quota plus a small reserve.
 
-    Additive by design. Sampling is not a one-shot: some profiles turn out to be
-    unusable only after collection, so the corpus has to be topped up. Each run
-    skips every login already examined and consumes fresh date windows, so it
-    returns people earlier runs never saw.
+    Additive: skips every login already examined and consumes fresh date
+    windows, so each run finds new people. Stratified: each stratum is capped,
+    and the emptiest strata are filled first, so no single language can absorb
+    the whole target. Candidates whose built profile proved unusable do not
+    count towards their stratum, so they get replaced.
     """
     strata = strata or STRATA
+    unusable = unusable or set()
     state = load_state()
     consumed: dict[str, list[int]] = {k: list(v) for k, v in state["consumed"].items()}
 
     existing = [Candidate.model_validate(c) for c in state["candidates"]]
     already_seen = {c.login for c in existing}
-    have = sum(1 for c in existing if c.selected)
+
+    quota = stratum_quota(target, len(strata))
+    ceiling = quota + reserve
+    live: Counter[str] = Counter(
+        c.stratum for c in existing if c.selected and c.login not in unusable
+    )
 
     windows = date_windows()
     now = datetime.now(UTC).isoformat()
     found: list[Candidate] = []
 
-    print(f"[sample] {have} already selected, {len(already_seen)} logins already examined")
-    if have >= target:
-        print(f"[sample] target of {target} already met - nothing to do")
-        return existing, consumed
+    print(f"[sample] quota {quota} per stratum (+{reserve} reserve) across "
+          f"{len(strata)} strata; {len(already_seen)} logins already examined")
 
-    for stratum, base_query in strata.items():
-        if have + len(found) >= target:
-            break
+    # Emptiest strata first, so a run cut short still spreads across languages.
+    for stratum in sorted(strata, key=lambda s: live[s]):
+        if live[stratum] >= ceiling:
+            continue
 
         spent = set(consumed.get(stratum, []))
         fresh = [i for i in range(len(windows)) if i not in spent][:windows_per_run]
         if not fresh:
-            print(f"[sample] {stratum}: every date window consumed - widen STRATA")
+            print(f"[sample] {stratum}: every date window consumed - widen its query")
             continue
 
         for index in fresh:
-            if have + len(found) >= target:
+            if live[stratum] >= ceiling:
                 break
             start_date, end_date = windows[index]
-            query = f"{base_query} created:{start_date}..{end_date}"
-            print(f"[sample] {stratum} w{index} ({start_date}..{end_date})")
+            query = f"{strata[stratum]} created:{start_date}..{end_date}"
+            print(f"[sample] {stratum} w{index} ({start_date}..{end_date}) "
+                  f"- have {live[stratum]}/{ceiling}")
 
             try:
                 results = client.get(
@@ -167,13 +189,12 @@ def sample(
             consumed.setdefault(stratum, []).append(index)
 
             for item in (results or {}).get("items", []):
+                if live[stratum] >= ceiling:
+                    break
                 login = item.get("login")
                 if not login or login in already_seen:
                     continue
                 already_seen.add(login)
-
-                if have + len(found) >= target:
-                    break
 
                 try:
                     user = client.get(f"/users/{login}", max_age=7 * 24 * 3600)
@@ -195,6 +216,7 @@ def sample(
                     account_created_at=user.get("created_at"),
                 ))
                 if reason is None:
+                    live[stratum] += 1
                     print(f"  + {login} ({user.get('public_repos')} repos)")
                 else:
                     print(f"  - {login}: {reason}")
@@ -202,6 +224,11 @@ def sample(
                 if not client.authenticated:
                     time.sleep(1.0)
 
+    short = {s: quota - live[s] for s in strata if live[s] < quota}
+    if short:
+        print("[sample] still short of quota: "
+              + ", ".join(f"{s} needs {n}" for s, n in short.items())
+              + " - re-run to search more date windows")
     return existing + found, consumed
 
 
