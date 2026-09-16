@@ -33,6 +33,8 @@ def _repo_summary(repo: dict[str, Any]) -> dict[str, Any]:
     return {
         "name": repo.get("name"),
         "full_name": repo.get("full_name"),
+        "owner": (repo.get("owner") or {}).get("login"),
+        "language": repo.get("language"),
         "html_url": repo.get("html_url"),
         "description": repo.get("description"),
         "homepage": repo.get("homepage"),
@@ -126,8 +128,10 @@ def collect_user(client: GitHubClient, login: str, *, max_repos: int = MAX_REPOS
     # Never persist a public email - see the provenance note in data/githubs/.
     user.pop("email", None)
 
+    # One page (100) covers everyone: the sampler rejects accounts with more than
+    # 80 public repos. The full list is needed to rank, even though only a few are mined.
     repos_raw = list(client.paginate(f"/users/{login}/repos",
-                                     params={"type": "owner", "sort": "pushed"}, max_pages=2))
+                                     params={"type": "owner", "sort": "pushed"}, max_pages=1))
     summaries = [_repo_summary(r) for r in repos_raw]
 
     # Rank by substance, then cap - so the budget goes to the interesting repos.

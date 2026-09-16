@@ -44,6 +44,11 @@ ACRONYMS = {"api", "pid", "cli", "ui", "ux", "ml", "ai", "nlp", "cv", "db", "sql
             "http", "rest", "gui", "os", "io", "css", "html", "js", "ts", "2d", "3d"}
 
 
+def _handle(info: ResumeInfo) -> str:
+    """A pseudonymous handle derived from the invented name."""
+    return f"{info.first_name}-{info.last_name}".lower().replace(" ", "-")
+
+
 def _title_from_repo(repo: RepoRecord) -> str:
     words = repo.name.replace("_", " ").replace("-", " ").split()
     return " ".join(
@@ -95,7 +100,9 @@ def _bullets_for_repo(repo: RepoRecord) -> list[str]:
 def draft_projects(profile: GitHubProfile, limit: int = 4) -> list[Entry]:
     ranked = sorted(
         profile.repos,
-        key=lambda r: (not r.is_fork, r.stargazers, r.file_count, r.commits.get("count", 0)),
+        # Skill-relevant repos first: a notes repo should never displace a project.
+        key=lambda r: (r.skill_relevant, not r.is_fork, r.stargazers, r.file_count,
+                       r.commits.get("count", 0)),
         reverse=True,
     )
     entries: list[Entry] = []
@@ -172,10 +179,12 @@ def draft(profile: GitHubProfile, info: ResumeInfo, *, batch: int | None = None,
         career_stage=info.career_stage,
         email=info.email,
         phone=info.phone,
-        location=info.location or profile.location,
+        # Never fall back to the real person's location or site: this resume is
+        # a fabricated identity, and must not carry a real stranger's details.
+        location=info.location,
         linkedin=info.linkedin,
-        github_url=profile.html_url,
-        portfolio=info.portfolio or profile.blog,
+        github_url=f"github.com/{info.github_handle or _handle(info)}",
+        portfolio=info.portfolio,
         photo=info.photo,
         objective=info.objective,
         education=info.education,

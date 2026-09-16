@@ -208,6 +208,11 @@ def repo_substance_score(repo: dict[str, Any]) -> float:
     """
     if repo.get("is_fork"):
         return -1.0
+    # Below every real candidate, but above forks: still mined if nothing better exists.
+    if is_non_project_name(repo.get("name") or "", repo.get("owner")):
+        return -0.5
+    if not repo.get("language"):
+        return -0.25  # no detectable code at all - usually text or empty
     score = 0.0
     score += min(repo.get("size_kb", 0) / 500.0, 6.0)
     score += min(repo.get("stargazers", 0), 10) * 1.5
@@ -221,3 +226,90 @@ def repo_substance_score(repo: dict[str, Any]) -> float:
         age_days = (datetime.now(UTC) - pushed_at).days
         score += max(0.0, 4.0 - age_days / 365.0)
     return score
+
+
+# -- skill relevance ------------------------------------------------------
+#
+# A repo can have commits and a README and still be no evidence of any skill:
+# lecture notes, dotfiles, an awesome-list, a CV, the profile README. These
+# rules decide whether a repo is real skill work. A profile needs several such
+# repos before it is worth verifying claims against.
+
+# Anchored at the end of the name on purpose. Non-project repos end in the
+# keyword ("lecture-notes", "nvim-config"); projects merely start with one
+# ("config-parser-rs", "note-taking-app"), and those must not be thrown out.
+NON_PROJECT_NAME_PATTERNS = [
+    re.compile(r"(^|[-_.])dotfiles?$", re.IGNORECASE),
+    re.compile(r"(^|[-_])(notes?|til|journal|diary|blog-?posts?)$", re.IGNORECASE),
+    re.compile(r"^awesome[-_]", re.IGNORECASE),
+    re.compile(r"^(my[-_])?(resume|cv|curriculum-?vitae)$", re.IGNORECASE),
+    re.compile(r"(^|[-_])(cheat-?sheets?|interview-?(prep|questions)|roadmaps?|books|"
+               r"reading-?list)$", re.IGNORECASE),
+    re.compile(r"(^|[-_])(configs?|settings|setup|env)$", re.IGNORECASE),
+    re.compile(r"^\.github$", re.IGNORECASE),
+]
+
+MIN_RELEVANT_CODE_FILES = 3
+MIN_RELEVANT_NOTEBOOKS = 2
+MIN_RELEVANT_CODE_BYTES = 2_000
+MIN_RELEVANT_COMMITS = 3
+MIN_RELEVANT_SIGNAL_STRENGTH = 0.55
+STRONG_SOURCES = {"language", "manifest", "file"}
+
+
+def is_non_project_name(name: str, owner: str | None = None) -> bool:
+    """True for repos whose name says they are not a project."""
+    if owner and name.lower() == owner.lower():
+        return True  # the username/username profile README
+    return any(pattern.search(name) for pattern in NON_PROJECT_NAME_PATTERNS)
+
+
+def skill_relevance(
+    *,
+    name: str,
+    owner: str | None,
+    is_fork: bool,
+    languages: dict[str, int],
+    structure: dict[str, Any],
+    commit_count: int,
+    skill_signals: list[dict[str, Any]],
+) -> tuple[bool, dict[str, Any]]:
+    """Decide whether one repo is real skill work rather than text or config.
+
+    Every rule must pass. Returns the verdict plus each rule's outcome, so a
+    rejection can be read and the thresholds tuned.
+    """
+    from generator.github.skill_map import LANGUAGE_TO_SKILL
+
+    # Only bytes in a language that maps to a taxonomy skill. Markdown and TeX
+    # are not in the map, so a notes repo scores zero here however large it is.
+    code_bytes = sum(
+        count for language, count in languages.items()
+        if language.lower() in LANGUAGE_TO_SKILL
+    )
+    code_files = structure.get("code_file_count", 0)
+    notebooks = structure.get("notebook_count", 0)
+    strong = [
+        s for s in skill_signals
+        if s.get("source") in STRONG_SOURCES
+        and s.get("strength", 0) >= MIN_RELEVANT_SIGNAL_STRENGTH
+    ]
+
+    rules = {
+        "not_fork": not is_fork,
+        "project_name": not is_non_project_name(name, owner),
+        "has_code_files": code_files >= MIN_RELEVANT_CODE_FILES
+        or notebooks >= MIN_RELEVANT_NOTEBOOKS,
+        "code_bytes": code_bytes >= MIN_RELEVANT_CODE_BYTES,
+        "strong_skill_signal": bool(strong),
+        "own_commits": commit_count >= MIN_RELEVANT_COMMITS,
+    }
+    failed = [rule for rule, ok in rules.items() if not ok]
+    return not failed, {
+        "rules": rules,
+        "failed": failed,
+        "code_bytes": code_bytes,
+        "code_files": code_files,
+        "notebooks": notebooks,
+        "strong_skills": sorted({s["skill_id"] for s in strong}),
+    }

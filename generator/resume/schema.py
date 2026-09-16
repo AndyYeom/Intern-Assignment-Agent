@@ -71,6 +71,11 @@ class ResumeInfo(BaseModel):
     location: str | None = None
     linkedin: str | None = None
     portfolio: str | None = None
+    # The handle printed on the resume. Never the real login - a fabricated
+    # person must not link to a real stranger's account. Defaults to a slug of
+    # the invented name; the real login stays in the manifest for the evidence
+    # agent.
+    github_handle: str | None = None
     education: Education = Field(default_factory=Education)
     experience: list[Entry] = Field(default_factory=list)
     leadership: list[Entry] = Field(default_factory=list)

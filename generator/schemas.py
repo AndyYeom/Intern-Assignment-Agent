@@ -71,6 +71,10 @@ class RepoRecord(BaseModel):
     judgment: dict[str, Any] = Field(default_factory=dict)
     skill_signals: list[dict[str, Any]] = Field(default_factory=list)
 
+    # Real skill work, as opposed to notes, dotfiles or a README-only repo.
+    skill_relevant: bool = False
+    relevance: dict[str, Any] = Field(default_factory=dict)
+
     tree_truncated: bool = False
 
 
@@ -106,6 +110,11 @@ class GitHubProfile(BaseModel):
     languages_bytes: dict[str, int] = Field(default_factory=dict)
     total_commits: int = 0
     skill_evidence: list[SkillEvidence] = Field(default_factory=list)
+
+    # Whether this profile carries enough evidence to verify claims against.
+    # A user can pass the sampling criteria and still have eight empty forks.
+    usable: bool = True
+    usability: dict[str, Any] = Field(default_factory=dict)
 
     stratum: str | None = None
     collected_at: str | None = None

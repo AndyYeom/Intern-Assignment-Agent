@@ -42,7 +42,9 @@ def _add_github_commands(parser: argparse.ArgumentParser) -> None:
     p.add_argument("--target", type=int, default=config.TARGET_PROFILE_COUNT,
                    help="how many eligible profiles to select")
     p.add_argument("--per-stratum", type=int, default=12,
-                   help="search results to examine per stratum")
+                   help="search results to examine per query")
+    p.add_argument("--windows", type=int, default=2,
+                   help="fresh date windows to consume per stratum this run")
     p.set_defaults(func=github_cmd.cmd_sample)
 
     p = sub.add_parser("collect", help="fetch raw payloads (slow, resumable)")

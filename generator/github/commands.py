@@ -37,7 +37,7 @@ def cmd_doctor(args: argparse.Namespace) -> int:
     print(f"  core:   {core['remaining']}/{core['limit']} (resets {reset})")
     print(f"  search: {search['remaining']}/{search['limit']}")
 
-    estimate = config.TARGET_PROFILE_COUNT * (config.MAX_REPOS_PER_USER * 5 + 4)
+    estimate = config.TARGET_PROFILE_COUNT * (config.MAX_REPOS_PER_USER * 7 + 3)
     hours = estimate / core["limit"]
     print(f"  estimated cost of a full cold collect: ~{estimate} requests "
           f"(~{hours:.1f} hours at this limit)")
@@ -47,15 +47,24 @@ def cmd_doctor(args: argparse.Namespace) -> int:
 
 def cmd_sample(args: argparse.Namespace) -> int:
     client = _client(args)
-    candidates = sampler.sample(client, target=args.target, per_stratum=args.per_stratum)
-    payload = sampler.save(candidates)
+    candidates, consumed = sampler.sample(
+        client, target=args.target, per_stratum=args.per_stratum,
+        windows_per_run=args.windows,
+    )
+    payload = sampler.save(candidates, consumed)
     counts = payload["counts"]
     print(f"\n[sample] examined {counts['examined']}, selected {counts['selected']}, "
           f"rejected {counts['rejected']}")
     print(f"[sample] wrote {config.CANDIDATES_PATH}")
-    if counts["selected"] < args.target:
-        print(f"  ! short of target ({counts['selected']}/{args.target}). "
-              f"Re-run with --per-stratum higher, or widen STRATA in sampler.py.")
+
+    # Selected != usable. Usability is only knowable after collect + build.
+    profiles = normalize.load_all_profiles()
+    usable = [p for p in profiles if p.usable]
+    if profiles:
+        print(f"[sample] of {len(profiles)} built profiles, {len(usable)} are usable")
+    if len(usable) < args.target:
+        print(f"[sample] next: `collect` then `build`, then re-run `sample` if "
+              f"usable < {args.target}")
     return 0
 
 
@@ -169,7 +178,9 @@ def cmd_stats(args: argparse.Namespace) -> int:
                 if on:
                     intermediate_flags[flag] += 1
 
-    print(f"profiles: {len(profiles)}   repos mined: {repo_count}")
+    usable = [p for p in profiles if p.usable]
+    print(f"profiles: {len(profiles)} ({len(usable)} usable, "
+          f"{len(profiles) - len(usable)} not)   repos mined: {repo_count}")
     print(f"commits attributed: {sum(p.total_commits for p in profiles)}")
 
     covered = set(skill_hits)
@@ -194,6 +205,38 @@ def cmd_stats(args: argparse.Namespace) -> int:
     print("\nIntermediate countersignals:")
     for flag, count in intermediate_flags.most_common():
         print(f"  {count:4d} ({count / repo_count:5.1%})  {flag}")
+
+    relevance_failures: Counter[str] = Counter()
+    relevant_repos = 0
+    for profile in profiles:
+        for repo in profile.repos:
+            if repo.skill_relevant:
+                relevant_repos += 1
+            else:
+                relevance_failures.update(repo.relevance.get("failed", []))
+    print(f"\nskill-relevant repos: {relevant_repos}/{repo_count}")
+    if relevance_failures:
+        print("  why the rest failed (a repo can fail several rules):")
+        for rule, count in relevance_failures.most_common():
+            print(f"    {count:4d}  {rule}")
+
+    rejected = [p for p in profiles if not p.usable]
+    if rejected:
+        print("\nunusable profiles:")
+        for profile in rejected[:15]:
+            print(f"  {profile.login:<22} {profile.usability.get('reason', '')}")
+
+    licences: Counter[str] = Counter()
+    unlicensed = 0
+    for profile in profiles:
+        for repo in profile.repos:
+            if repo.license:
+                licences[repo.license] += 1
+            else:
+                unlicensed += 1
+    print(f"\nrepo licences ({unlicensed} of {repo_count} carry none):")
+    for name, count in licences.most_common(8):
+        print(f"  {count:4d}  {name}")
 
     thin = [p.login for p in profiles if p.notes]
     if thin:

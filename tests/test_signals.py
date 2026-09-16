@@ -4,6 +4,8 @@ These encode the two decisive questions from data/proficiency_levels.md.
 """
 from __future__ import annotations
 
+from itertools import pairwise
+
 from generator.github import signals
 
 
@@ -94,3 +96,13 @@ def test_forks_rank_below_original_work():
     fork = {"name": "a", "is_fork": True, "stargazers": 500, "size_kb": 9000}
     original = {"name": "b", "is_fork": False, "size_kb": 300, "description": "d"}
     assert signals.repo_substance_score(original) > signals.repo_substance_score(fork)
+
+
+def test_date_windows_partition_without_overlap():
+    """Overlapping windows would re-surface people an earlier run already saw."""
+    from generator.github.sampler import date_windows
+
+    windows = date_windows()
+    assert len(windows) > 5
+    for (_, end), (next_start, _) in pairwise(windows):
+        assert end == next_start, "windows must tile, not overlap or gap"

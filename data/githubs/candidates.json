@@ -1,0 +1,580 @@
+{
+  "generated_at": "2026-09-16T12:13:10.956410+00:00",
+  "method": "GitHub Search API, stratified by language and account-creation window",
+  "inclusion_criteria": {
+    "min_public_repos": 4,
+    "max_public_repos": 80,
+    "max_followers": 400,
+    "min_account_age_days": 180,
+    "max_account_age_days": 2600
+  },
+  "note": "selected != usable. These are user-level filters; whether a profile carries enough evidence is decided after collection, in normalize.",
+  "strata": {
+    "python-backend": "language:Python repos:5..60 followers:2..120",
+    "python-data-ml": "language:Jupyter Notebook repos:4..60 followers:1..120",
+    "javascript-frontend": "language:JavaScript repos:5..60 followers:2..120",
+    "typescript-fullstack": "language:TypeScript repos:5..60 followers:2..120",
+    "java-backend": "language:Java repos:4..50 followers:1..100",
+    "go-systems": "language:Go repos:4..50 followers:1..100",
+    "cpp-systems": "language:C++ repos:4..50 followers:1..100",
+    "mobile": "language:Dart repos:3..50 followers:1..100",
+    "csharp": "language:C# repos:4..50 followers:1..100",
+    "rust-systems": "language:Rust repos:4..50 followers:1..100"
+  },
+  "consumed": {
+    "python-backend": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "python-data-ml": [
+      0
+    ]
+  },
+  "windows": [
+    [
+      "2019-08-04",
+      "2020-01-31"
+    ],
+    [
+      "2020-01-31",
+      "2020-07-29"
+    ],
+    [
+      "2020-07-29",
+      "2021-01-25"
+    ],
+    [
+      "2021-01-25",
+      "2021-07-24"
+    ],
+    [
+      "2021-07-24",
+      "2022-01-20"
+    ],
+    [
+      "2022-01-20",
+      "2022-07-19"
+    ],
+    [
+      "2022-07-19",
+      "2023-01-15"
+    ],
+    [
+      "2023-01-15",
+      "2023-07-14"
+    ],
+    [
+      "2023-07-14",
+      "2024-01-10"
+    ],
+    [
+      "2024-01-10",
+      "2024-07-08"
+    ],
+    [
+      "2024-07-08",
+      "2025-01-04"
+    ],
+    [
+      "2025-01-04",
+      "2025-07-03"
+    ],
+    [
+      "2025-07-03",
+      "2025-12-30"
+    ],
+    [
+      "2025-12-30",
+      "2026-03-20"
+    ]
+  ],
+  "counts": {
+    "examined": 40,
+    "selected": 39,
+    "rejected": 1
+  },
+  "candidates": [
+    {
+      "login": "Umbra-Domini",
+      "html_url": "https://github.com/Umbra-Domini",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T03:59:24.302853+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 10,
+      "followers": 2,
+      "account_created_at": "2020-01-31T23:47:24Z"
+    },
+    {
+      "login": "Eternalon03",
+      "html_url": "https://github.com/Eternalon03",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T03:59:24.302853+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 20,
+      "followers": 8,
+      "account_created_at": "2020-01-31T23:36:14Z"
+    },
+    {
+      "login": "calumrussell",
+      "html_url": "https://github.com/calumrussell",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T03:59:24.302853+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 33,
+      "followers": 16,
+      "account_created_at": "2020-01-31T23:19:39Z"
+    },
+    {
+      "login": "MatiasRepettoZecchi",
+      "html_url": "https://github.com/MatiasRepettoZecchi",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T03:59:24.302853+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 28,
+      "followers": 13,
+      "account_created_at": "2020-01-31T22:45:44Z"
+    },
+    {
+      "login": "i529",
+      "html_url": "https://github.com/i529",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-01-31..2020-07-29",
+      "discovered_at": "2026-09-16T03:59:30.153854+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 21,
+      "followers": 5,
+      "account_created_at": "2020-07-29T23:48:39Z"
+    },
+    {
+      "login": "GenshinMinecraft",
+      "html_url": "https://github.com/GenshinMinecraft",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-01-31..2020-07-29",
+      "discovered_at": "2026-09-16T03:59:30.153854+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 29,
+      "followers": 35,
+      "account_created_at": "2020-07-29T23:40:35Z"
+    },
+    {
+      "login": "Special-Sharpie",
+      "html_url": "https://github.com/Special-Sharpie",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-01-31..2020-07-29",
+      "discovered_at": "2026-09-16T03:59:30.153854+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 14,
+      "followers": 3,
+      "account_created_at": "2020-07-29T23:34:28Z"
+    },
+    {
+      "login": "appliks",
+      "html_url": "https://github.com/appliks",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-01-31..2020-07-29",
+      "discovered_at": "2026-09-16T03:59:30.153854+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 6,
+      "followers": 3,
+      "account_created_at": "2020-07-29T23:31:03Z"
+    },
+    {
+      "login": "dondadabempah",
+      "html_url": "https://github.com/dondadabempah",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 6,
+      "followers": 2,
+      "account_created_at": "2021-01-25T23:58:29Z"
+    },
+    {
+      "login": "YourSchoolDebts",
+      "html_url": "https://github.com/YourSchoolDebts",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 9,
+      "followers": 2,
+      "account_created_at": "2021-01-25T23:51:04Z"
+    },
+    {
+      "login": "AlexSpandex",
+      "html_url": "https://github.com/AlexSpandex",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 24,
+      "followers": 6,
+      "account_created_at": "2021-01-25T23:49:28Z"
+    },
+    {
+      "login": "MishaDobrynin",
+      "html_url": "https://github.com/MishaDobrynin",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 10,
+      "followers": 2,
+      "account_created_at": "2021-01-25T23:41:26Z"
+    },
+    {
+      "login": "hmc437",
+      "html_url": "https://github.com/hmc437",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 20,
+      "followers": 4,
+      "account_created_at": "2021-01-25T23:38:48Z"
+    },
+    {
+      "login": "romulotd",
+      "html_url": "https://github.com/romulotd",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 5,
+      "followers": 3,
+      "account_created_at": "2021-01-25T23:37:57Z"
+    },
+    {
+      "login": "HugoDaSilvaGit",
+      "html_url": "https://github.com/HugoDaSilvaGit",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 8,
+      "followers": 2,
+      "account_created_at": "2021-01-25T23:33:45Z"
+    },
+    {
+      "login": "jads15",
+      "html_url": "https://github.com/jads15",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 10,
+      "followers": 25,
+      "account_created_at": "2021-01-25T23:26:28Z"
+    },
+    {
+      "login": "otae-1204",
+      "html_url": "https://github.com/otae-1204",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 12,
+      "followers": 5,
+      "account_created_at": "2021-01-25T23:22:47Z"
+    },
+    {
+      "login": "DevAlissu",
+      "html_url": "https://github.com/DevAlissu",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 24,
+      "followers": 19,
+      "account_created_at": "2021-01-25T23:19:42Z"
+    },
+    {
+      "login": "FreRare",
+      "html_url": "https://github.com/FreRare",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 12,
+      "followers": 3,
+      "account_created_at": "2021-01-25T22:48:53Z"
+    },
+    {
+      "login": "nzcharles",
+      "html_url": "https://github.com/nzcharles",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2020-07-29..2021-01-25",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 16,
+      "followers": 7,
+      "account_created_at": "2021-01-25T22:25:18Z"
+    },
+    {
+      "login": "YOGYUI",
+      "html_url": "https://github.com/YOGYUI",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 38,
+      "followers": 30,
+      "account_created_at": "2021-07-24T23:57:53Z"
+    },
+    {
+      "login": "intelligent04",
+      "html_url": "https://github.com/intelligent04",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 25,
+      "followers": 6,
+      "account_created_at": "2021-07-24T23:57:12Z"
+    },
+    {
+      "login": "andikapramudityaa",
+      "html_url": "https://github.com/andikapramudityaa",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 5,
+      "followers": 10,
+      "account_created_at": "2021-07-24T23:51:42Z"
+    },
+    {
+      "login": "Beetroit",
+      "html_url": "https://github.com/Beetroit",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 48,
+      "followers": 20,
+      "account_created_at": "2021-07-24T23:28:24Z"
+    },
+    {
+      "login": "Bruno-Gdos",
+      "html_url": "https://github.com/Bruno-Gdos",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 37,
+      "followers": 31,
+      "account_created_at": "2021-07-24T23:27:47Z"
+    },
+    {
+      "login": "TNGO04",
+      "html_url": "https://github.com/TNGO04",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 30,
+      "followers": 4,
+      "account_created_at": "2021-07-24T23:10:41Z"
+    },
+    {
+      "login": "tschotsch112",
+      "html_url": "https://github.com/tschotsch112",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 5,
+      "followers": 2,
+      "account_created_at": "2021-07-24T22:35:04Z"
+    },
+    {
+      "login": "nicothll",
+      "html_url": "https://github.com/nicothll",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 11,
+      "followers": 2,
+      "account_created_at": "2021-07-24T22:27:07Z"
+    },
+    {
+      "login": "georgechufff",
+      "html_url": "https://github.com/georgechufff",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 24,
+      "followers": 3,
+      "account_created_at": "2021-07-24T22:22:12Z"
+    },
+    {
+      "login": "agusierrali",
+      "html_url": "https://github.com/agusierrali",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 6,
+      "followers": 9,
+      "account_created_at": "2021-07-24T22:17:37Z"
+    },
+    {
+      "login": "sql1freitas",
+      "html_url": "https://github.com/sql1freitas",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 34,
+      "followers": 3,
+      "account_created_at": "2021-07-24T22:04:18Z"
+    },
+    {
+      "login": "feranmiodugbemi",
+      "html_url": "https://github.com/feranmiodugbemi",
+      "stratum": "python-backend",
+      "query": "language:Python repos:5..60 followers:2..120 created:2021-01-25..2021-07-24",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 47,
+      "followers": 12,
+      "account_created_at": "2021-07-24T21:57:16Z"
+    },
+    {
+      "login": "eltonyeung",
+      "html_url": "https://github.com/eltonyeung",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 10,
+      "followers": 2,
+      "account_created_at": "2020-01-22T09:54:59Z"
+    },
+    {
+      "login": "ipyflow",
+      "html_url": "https://github.com/ipyflow",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": false,
+      "reject_reason": "account type Organization",
+      "public_repos": 9,
+      "followers": 23,
+      "account_created_at": "2020-01-14T18:01:14Z"
+    },
+    {
+      "login": "jainharsh644",
+      "html_url": "https://github.com/jainharsh644",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 37,
+      "followers": 7,
+      "account_created_at": "2020-01-08T12:06:29Z"
+    },
+    {
+      "login": "certiprince",
+      "html_url": "https://github.com/certiprince",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 19,
+      "followers": 5,
+      "account_created_at": "2019-11-16T18:11:36Z"
+    },
+    {
+      "login": "hendrywijaya98",
+      "html_url": "https://github.com/hendrywijaya98",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 41,
+      "followers": 14,
+      "account_created_at": "2019-10-31T10:39:59Z"
+    },
+    {
+      "login": "sankalpsrv",
+      "html_url": "https://github.com/sankalpsrv",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 8,
+      "followers": 17,
+      "account_created_at": "2019-09-21T04:32:06Z"
+    },
+    {
+      "login": "sameerk15",
+      "html_url": "https://github.com/sameerk15",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 35,
+      "followers": 23,
+      "account_created_at": "2019-09-14T06:08:04Z"
+    },
+    {
+      "login": "Aryo80",
+      "html_url": "https://github.com/Aryo80",
+      "stratum": "python-data-ml",
+      "query": "language:Jupyter Notebook repos:4..60 followers:1..120 created:2019-08-04..2020-01-31",
+      "discovered_at": "2026-09-16T12:12:26.837915+00:00",
+      "selected": true,
+      "reject_reason": null,
+      "public_repos": 23,
+      "followers": 4,
+      "account_created_at": "2019-09-08T16:21:54Z"
+    }
+  ]
+}

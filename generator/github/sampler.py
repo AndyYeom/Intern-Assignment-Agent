@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import json
 import time
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from typing import Any
 
 from generator.config import CANDIDATES_PATH, TARGET_PROFILE_COUNT
@@ -22,16 +22,16 @@ from generator.schemas import Candidate
 # Strata keep the corpus spread across the taxonomy's categories. Each is a
 # GitHub user-search query; the qualifiers encode "student or junior dev".
 STRATA: dict[str, str] = {
-    "python-backend": "language:Python repos:5..60 followers:2..120 created:>2020-01-01",
-    "python-data-ml": "language:Jupyter Notebook repos:4..60 followers:1..120 created:>2020-01-01",
-    "javascript-frontend": "language:JavaScript repos:5..60 followers:2..120 created:>2020-01-01",
-    "typescript-fullstack": "language:TypeScript repos:5..60 followers:2..120 created:>2020-06-01",
-    "java-backend": "language:Java repos:4..50 followers:1..100 created:>2020-01-01",
-    "go-systems": "language:Go repos:4..50 followers:1..100 created:>2020-01-01",
-    "cpp-systems": "language:C++ repos:4..50 followers:1..100 created:>2020-01-01",
-    "mobile": "language:Dart repos:3..50 followers:1..100 created:>2020-01-01",
-    "csharp": "language:C# repos:4..50 followers:1..100 created:>2020-01-01",
-    "students-bio": "language:Python repos:5..60 followers:1..60 created:>2021-06-01",
+    "python-backend": "language:Python repos:5..60 followers:2..120",
+    "python-data-ml": "language:Jupyter Notebook repos:4..60 followers:1..120",
+    "javascript-frontend": "language:JavaScript repos:5..60 followers:2..120",
+    "typescript-fullstack": "language:TypeScript repos:5..60 followers:2..120",
+    "java-backend": "language:Java repos:4..50 followers:1..100",
+    "go-systems": "language:Go repos:4..50 followers:1..100",
+    "cpp-systems": "language:C++ repos:4..50 followers:1..100",
+    "mobile": "language:Dart repos:3..50 followers:1..100",
+    "csharp": "language:C# repos:4..50 followers:1..100",
+    "rust-systems": "language:Rust repos:4..50 followers:1..100",
 }
 
 # Inclusion criteria - stated here so they can be quoted in the write-up.
@@ -40,6 +40,27 @@ MAX_PUBLIC_REPOS = 80
 MAX_FOLLOWERS = 400          # excludes established devs; we want juniors
 MIN_ACCOUNT_AGE_DAYS = 180   # needs enough history to judge
 MAX_ACCOUNT_AGE_DAYS = 2600  # ~7 years; older accounts are rarely students
+
+
+def date_windows(months: int = 6) -> list[tuple[str, str]]:
+    """Partition the eligible account-age range into non-overlapping windows.
+
+    This is what makes re-running `sample` productive. GitHub search returns the
+    same ordered page for the same query, so without varying the query a second
+    run just re-reads the first run's results. Each (stratum, window) pair is a
+    distinct slice of the search space, consumed at most once.
+    """
+    today = datetime.now(UTC).date()
+    newest = today - timedelta(days=MIN_ACCOUNT_AGE_DAYS)
+    oldest = today - timedelta(days=MAX_ACCOUNT_AGE_DAYS)
+
+    windows: list[tuple[str, str]] = []
+    cursor = oldest
+    while cursor < newest:
+        end = min(cursor + timedelta(days=months * 30), newest)
+        windows.append((cursor.isoformat(), end.isoformat()))
+        cursor = end
+    return windows
 
 
 def _parse_ts(value: str | None) -> datetime | None:
@@ -73,85 +94,125 @@ def evaluate(user: dict[str, Any]) -> str | None:
     return None
 
 
+def load_state() -> dict[str, Any]:
+    """Everything previous runs learned: who was seen, which windows are spent."""
+    if not CANDIDATES_PATH.exists():
+        return {"candidates": [], "consumed": {}}
+    payload = json.loads(CANDIDATES_PATH.read_text(encoding="utf-8"))
+    payload.setdefault("candidates", [])
+    payload.setdefault("consumed", {})
+    return payload
+
+
 def sample(
     client: GitHubClient,
     *,
     target: int = TARGET_PROFILE_COUNT,
     per_stratum: int = 12,
     strata: dict[str, str] | None = None,
-) -> list[Candidate]:
-    """Walk the strata, verify each hit against the inclusion criteria, stop at target."""
+    windows_per_run: int = 2,
+) -> tuple[list[Candidate], dict[str, list[int]]]:
+    """Find *new* eligible candidates and add them to whatever already exists.
+
+    Additive by design. Sampling is not a one-shot: some profiles turn out to be
+    unusable only after collection, so the corpus has to be topped up. Each run
+    skips every login already examined and consumes fresh date windows, so it
+    returns people earlier runs never saw.
+    """
     strata = strata or STRATA
-    per_target = max(1, -(-target // len(strata)))  # ceil, for an even spread
+    state = load_state()
+    consumed: dict[str, list[int]] = {k: list(v) for k, v in state["consumed"].items()}
+
+    existing = [Candidate.model_validate(c) for c in state["candidates"]]
+    already_seen = {c.login for c in existing}
+    have = sum(1 for c in existing if c.selected)
+
+    windows = date_windows()
     now = datetime.now(UTC).isoformat()
+    found: list[Candidate] = []
 
-    candidates: list[Candidate] = []
-    seen: set[str] = set()
-    selected_by_stratum: dict[str, int] = {key: 0 for key in strata}
+    print(f"[sample] {have} already selected, {len(already_seen)} logins already examined")
+    if have >= target:
+        print(f"[sample] target of {target} already met - nothing to do")
+        return existing, consumed
 
-    for stratum, query in strata.items():
-        print(f"[sample] {stratum}: {query}", flush=True)
-        try:
-            results = client.get(
-                "/search/users",
-                params={"q": query, "sort": "joined", "order": "desc", "per_page": per_stratum},
-                max_age=7 * 24 * 3600,
-            )
-        except (NotFound, RateLimited) as exc:
-            print(f"  ! search failed: {exc}", flush=True)
-            continue
-
-        for item in (results or {}).get("items", []):
-            login = item.get("login")
-            if not login or login in seen:
-                continue
-            seen.add(login)
-
-            if selected_by_stratum[stratum] >= per_target:
-                break
-
-            try:
-                user = client.get(f"/users/{login}", max_age=7 * 24 * 3600)
-            except (NotFound, RateLimited) as exc:
-                print(f"  ! {login}: {exc}", flush=True)
-                continue
-
-            reason = evaluate(user)
-            candidate = Candidate(
-                login=login,
-                html_url=user.get("html_url", f"https://github.com/{login}"),
-                stratum=stratum,
-                query=query,
-                discovered_at=now,
-                selected=reason is None,
-                reject_reason=reason,
-                public_repos=user.get("public_repos"),
-                followers=user.get("followers"),
-                account_created_at=user.get("created_at"),
-            )
-            candidates.append(candidate)
-            if reason is None:
-                selected_by_stratum[stratum] += 1
-                print(f"  + {login} ({user.get('public_repos')} repos)", flush=True)
-            else:
-                print(f"  - {login}: {reason}", flush=True)
-
-            # Search is the tightest limit on the unauthenticated path.
-            if not client.authenticated:
-                time.sleep(1.0)
-
-        if sum(selected_by_stratum.values()) >= target:
+    for stratum, base_query in strata.items():
+        if have + len(found) >= target:
             break
 
-    return candidates
+        spent = set(consumed.get(stratum, []))
+        fresh = [i for i in range(len(windows)) if i not in spent][:windows_per_run]
+        if not fresh:
+            print(f"[sample] {stratum}: every date window consumed - widen STRATA")
+            continue
+
+        for index in fresh:
+            if have + len(found) >= target:
+                break
+            start_date, end_date = windows[index]
+            query = f"{base_query} created:{start_date}..{end_date}"
+            print(f"[sample] {stratum} w{index} ({start_date}..{end_date})")
+
+            try:
+                results = client.get(
+                    "/search/users",
+                    params={"q": query, "sort": "joined", "order": "desc",
+                            "per_page": per_stratum},
+                    max_age=7 * 24 * 3600,
+                )
+            except (NotFound, RateLimited) as exc:
+                print(f"  ! search failed: {exc}")
+                continue
+
+            consumed.setdefault(stratum, []).append(index)
+
+            for item in (results or {}).get("items", []):
+                login = item.get("login")
+                if not login or login in already_seen:
+                    continue
+                already_seen.add(login)
+
+                if have + len(found) >= target:
+                    break
+
+                try:
+                    user = client.get(f"/users/{login}", max_age=7 * 24 * 3600)
+                except (NotFound, RateLimited) as exc:
+                    print(f"  ! {login}: {exc}")
+                    continue
+
+                reason = evaluate(user)
+                found.append(Candidate(
+                    login=login,
+                    html_url=user.get("html_url", f"https://github.com/{login}"),
+                    stratum=stratum,
+                    query=query,
+                    discovered_at=now,
+                    selected=reason is None,
+                    reject_reason=reason,
+                    public_repos=user.get("public_repos"),
+                    followers=user.get("followers"),
+                    account_created_at=user.get("created_at"),
+                ))
+                if reason is None:
+                    print(f"  + {login} ({user.get('public_repos')} repos)")
+                else:
+                    print(f"  - {login}: {reason}")
+
+                if not client.authenticated:
+                    time.sleep(1.0)
+
+    return existing + found, consumed
 
 
-def save(candidates: list[Candidate], *, strata: dict[str, str] | None = None) -> dict[str, Any]:
+def save(candidates: list[Candidate], consumed: dict[str, list[int]] | None = None,
+         *, strata: dict[str, str] | None = None) -> dict[str, Any]:
+    """Persist candidates and the window cursor, so the next run moves on."""
     strata = strata or STRATA
     selected = [c for c in candidates if c.selected]
     payload = {
         "generated_at": datetime.now(UTC).isoformat(),
-        "method": "GitHub Search API, stratified by primary language",
+        "method": "GitHub Search API, stratified by language and account-creation window",
         "inclusion_criteria": {
             "min_public_repos": MIN_PUBLIC_REPOS,
             "max_public_repos": MAX_PUBLIC_REPOS,
@@ -159,7 +220,14 @@ def save(candidates: list[Candidate], *, strata: dict[str, str] | None = None) -
             "min_account_age_days": MIN_ACCOUNT_AGE_DAYS,
             "max_account_age_days": MAX_ACCOUNT_AGE_DAYS,
         },
+        "note": (
+            "selected != usable. These are user-level filters; whether a profile "
+            "carries enough evidence is decided after collection, in normalize."
+        ),
         "strata": strata,
+        # Which (stratum, date-window) slices are spent, so re-runs find new people.
+        "consumed": consumed or {},
+        "windows": date_windows(),
         "counts": {
             "examined": len(candidates),
             "selected": len(selected),

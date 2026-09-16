@@ -37,6 +37,60 @@ reads.
 injects the same copy; a divergence between them makes the gap arithmetic
 downstream meaningless.
 
+## Sampling is additive, and selection is not usability
+
+`gh sample` is deliberately **not** idempotent. Each run skips every login
+already examined and consumes fresh account-creation date windows, so re-running
+finds people earlier runs never saw. The spent windows are recorded in
+`githubs/candidates.json` under `consumed`.
+
+This matters because **a selected candidate is not necessarily a usable one**.
+The sampler filters on user-level counts — repo count, followers, account age —
+which someone can satisfy with eight empty forks. Whether a profile carries
+enough evidence is only knowable after collection, so `build` assesses each one
+and records a verdict:
+
+| check | why |
+| --- | --- |
+| `skill_relevant_repos` >= 3 | repos that are real skill work (rules below) |
+| `total_commits` >= 20 | enough history to read a pattern from |
+| `distinct_skills` >= 3 | at language/manifest strength, not repo-name guesses |
+| `readable_repos` >= 1 | something with a README or a manifest |
+
+A repo is **skill-relevant** only if every rule holds:
+
+- not a fork, and not the `username/username` profile-README repo
+- its name does not *end* in a non-project word (`dotfiles`, `notes`,
+  `cheatsheet`, `config`, `awesome-*`, ...); `config-parser-rs` is fine
+- at least 3 code files, or at least 2 notebooks
+- at least 2 KB in a language that maps to a taxonomy skill (Markdown and TeX do not)
+- at least one strong skill signal: a language, a dependency or a file, not a
+  topic or a word in the name
+- at least 3 commits by the person
+
+Each repo's verdict and failed rules are stored under `relevance` in its
+profile, and `gh stats` counts which rules reject the most repos.
+
+The loop is therefore: `sample` -> `collect` -> `build` -> check `stats` -> if
+usable < 40, `sample` again. The thresholds are starting guesses; `gh stats`
+prints the rejections with reasons so they can be tuned.
+
+## Real people, invented identities
+
+Resumes carry a fabricated name, and the drafter never copies the real person's
+name, bio, location or personal site into one. The GitHub handle printed on a
+resume is a slug of the invented name and resolves to nobody — a fabricated
+identity must not link to a real stranger's account.
+
+The real login is kept in `applicants.csv` and in the profile JSON, because the
+evidence agent has to join a resume back to the record it was generated from,
+and its output is required to cite repository links.
+
+Repository licences are recorded per repo and summarised by `gh stats`. Note
+that what is collected is factual metadata — commit timestamps, language byte
+counts, file paths, dependency names — not copyrightable source, and no
+repository content is redistributed in this repo.
+
 ## Why only the GitHub side is real
 
 The whole system rests on comparing what a resume *claims* against what the

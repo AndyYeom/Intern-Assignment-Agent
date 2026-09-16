@@ -22,9 +22,10 @@ COLLECTOR_VERSION = "0.1.0"
 API_ROOT = "https://api.github.com"
 USER_AGENT = "intern-assignment-agent-evidence-collector/0.1"
 
-# How many repos we mine per user. Repos are ranked by substance first, so the cap
-# drops throwaway repos rather than interesting ones.
-MAX_REPOS_PER_USER = 8
+# How many repos we mine per user. A real resume lists a handful of selected
+# projects, not everything on the account, so the corpus mirrors that. Repos are
+# ranked by substance first, so the cap drops throwaways, not the interesting work.
+MAX_REPOS_PER_USER = 5
 
 # Commits are paged at 100; one page is plenty to characterise a student repo.
 MAX_COMMIT_PAGES = 2

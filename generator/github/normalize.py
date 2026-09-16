@@ -81,6 +81,18 @@ def build_repo(bundle: dict[str, Any]) -> RepoRecord:
                or p.startswith(".github/workflows/")
                or p.lower().endswith("dockerfile")]
 
+    structure = signals.structure_signals(enriched, paths, commit_summary, readme)
+    signal_dicts = [s.to_dict() for s in skill_signals]
+    relevant, relevance = signals.skill_relevance(
+        name=repo.get("name", ""),
+        owner=repo.get("owner") or (repo.get("full_name") or "/").split("/")[0],
+        is_fork=repo.get("is_fork", False),
+        languages=languages,
+        structure=structure,
+        commit_count=commit_summary.get("count", 0),
+        skill_signals=signal_dicts,
+    )
+
     return RepoRecord(
         name=repo.get("name", ""),
         full_name=repo.get("full_name", ""),
@@ -114,9 +126,11 @@ def build_repo(bundle: dict[str, Any]) -> RepoRecord:
         has_releases=bundle.get("has_releases", False),
         contributors_count=bundle.get("contributors_count", 1),
         commits=commit_summary,
-        structure=signals.structure_signals(enriched, paths, commit_summary, readme),
+        structure=structure,
         judgment=signals.judgment_signals(commit_summary, enriched),
-        skill_signals=[s.to_dict() for s in skill_signals],
+        skill_signals=signal_dicts,
+        skill_relevant=relevant,
+        relevance=relevance,
         tree_truncated=bundle.get("tree_truncated", False),
     )
 
@@ -160,6 +174,46 @@ def aggregate_skills(repos: list[RepoRecord]) -> list[SkillEvidence]:
     )
 
 
+# A profile is only worth keeping if there is enough of a record to verify a
+# claim against. The sampler filters on user-level counts, which a person can
+# satisfy with eight empty forks; these thresholds look at what was collected.
+MIN_SKILL_RELEVANT_REPOS = 3   # repos that are real skill work, see signals.skill_relevance
+MIN_TOTAL_COMMITS = 20
+MIN_DISTINCT_SKILLS = 3        # at manifest/language strength, not repo-name guesses
+MIN_SKILL_STRENGTH = 0.55
+
+
+def assess_usability(repos: list[RepoRecord],
+                     skills: list[SkillEvidence]) -> tuple[bool, dict[str, Any]]:
+    """Decide whether this profile can support skill verification at all."""
+    relevant = [r for r in repos if r.skill_relevant]
+    total_commits = sum(r.commits.get("count", 0) for r in repos)
+    strong_skills = [s for s in skills if s.max_strength >= MIN_SKILL_STRENGTH]
+    readable = [r for r in repos if r.has_readme or r.manifests]
+
+    checks = {
+        "skill_relevant_repos": (len(relevant), MIN_SKILL_RELEVANT_REPOS),
+        "total_commits": (total_commits, MIN_TOTAL_COMMITS),
+        "distinct_skills": (len(strong_skills), MIN_DISTINCT_SKILLS),
+        "readable_repos": (len(readable), 1),
+    }
+    failed = [name for name, (actual, required) in checks.items() if actual < required]
+
+    return not failed, {
+        "checks": {name: {"actual": a, "required": r} for name, (a, r) in checks.items()},
+        "failed": failed,
+        "reason": "; ".join(
+            f"{name}: {checks[name][0]} < {checks[name][1]}" for name in failed
+        ) or "meets all thresholds",
+        "skill_relevant": [r.name for r in relevant],
+        "not_skill_relevant": {
+            r.name: r.relevance.get("failed", []) for r in repos if not r.skill_relevant
+        },
+        "licenses": sorted({r.license for r in repos if r.license}),
+        "unlicensed_repos": sum(1 for r in repos if not r.license),
+    }
+
+
 def build_profile(bundle: dict[str, Any]) -> GitHubProfile:
     user = bundle["user"]
     repos = [build_repo(r) for r in bundle.get("repos", [])]
@@ -172,7 +226,12 @@ def build_profile(bundle: dict[str, Any]) -> GitHubProfile:
     created = _parse_ts(user.get("created_at"))
     age_days = (datetime.now(UTC) - created).days if created else 0
 
+    skill_evidence = aggregate_skills(repos)
+    usable, usability = assess_usability(repos, skill_evidence)
+
     notes: list[str] = []
+    if not usable:
+        notes.append(f"not usable - {usability['reason']}")
     if len(repos) < 3:
         notes.append("fewer than 3 repos mined - thin evidence base")
     if any(r.tree_truncated for r in repos):
@@ -201,7 +260,9 @@ def build_profile(bundle: dict[str, Any]) -> GitHubProfile:
         ],
         languages_bytes=dict(sorted(languages_bytes.items(), key=lambda kv: kv[1], reverse=True)),
         total_commits=sum(r.commits.get("count", 0) for r in repos),
-        skill_evidence=aggregate_skills(repos),
+        skill_evidence=skill_evidence,
+        usable=usable,
+        usability=usability,
         stratum=bundle.get("stratum"),
         collected_at=bundle.get("collected_at"),
         collector_version=COLLECTOR_VERSION,
