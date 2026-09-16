@@ -15,14 +15,21 @@ from __future__ import annotations
 
 import base64
 import html
+import io
 import os
 import sys
+from functools import lru_cache
 from pathlib import Path
 
 from generator.config import DATA
 from generator.resume.schema import Entry, ResumeSpec
 
 PHOTO_PATH = DATA / "static" / "image.png"
+
+# The photo box is 78px wide. 160px is ~2x that, so it stays sharp when printed
+# or zoomed; the 350px source was ~12 KB of a ~36 KB PDF for no visible gain.
+PHOTO_PX = 160
+PHOTO_JPEG_QUALITY = 72
 
 # WeasyPrint needs to find homebrew's pango/cairo on macOS.
 if sys.platform == "darwin":
@@ -78,11 +85,25 @@ def _esc(value: str | None) -> str:
     return html.escape(value or "", quote=True)
 
 
+@lru_cache(maxsize=1)
 def _photo_data_uri() -> str | None:
+    """Embed the placeholder photo, downscaled and JPEG-encoded to keep PDFs small."""
     if not PHOTO_PATH.exists():
         return None
-    encoded = base64.b64encode(PHOTO_PATH.read_bytes()).decode("ascii")
-    return f"data:image/png;base64,{encoded}"
+    from PIL import Image, ImageChops
+
+    with Image.open(PHOTO_PATH) as source:
+        image = source.convert("RGB")
+    # A greyscale source needs one channel, not three.
+    red, green, blue = image.split()
+    if not ImageChops.difference(red, green).getbbox() and \
+            not ImageChops.difference(green, blue).getbbox():
+        image = image.convert("L")
+    image.thumbnail((PHOTO_PX, PHOTO_PX), Image.Resampling.LANCZOS)
+
+    buffer = io.BytesIO()
+    image.save(buffer, "JPEG", quality=PHOTO_JPEG_QUALITY, optimize=True)
+    return f"data:image/jpeg;base64,{base64.b64encode(buffer.getvalue()).decode('ascii')}"
 
 
 def _dates(entry: Entry) -> str:
@@ -91,7 +112,15 @@ def _dates(entry: Entry) -> str:
     return _esc(entry.start or entry.end)
 
 
-def _entry_html(entry: Entry, *, show_link: bool = False, title_first: bool = False) -> str:
+def _entry_html(entry: Entry, *, title_first: bool = False) -> str:
+    """One dated block.
+
+    `entry.link` is deliberately never rendered. A project link is the real
+    person's repo URL, which carries their real username, and printing it on a
+    resume with an invented name would tie that invented identity to a real
+    account. The link stays in the spec; the evidence agent joins a resume to
+    its profile through data/applicants.csv, not through the PDF.
+    """
     # Experience leads with the employer; a project leads with its own name.
     primary = entry.title if title_first else entry.organization
     secondary = entry.organization if title_first else entry.title
@@ -119,8 +148,6 @@ def _entry_html(entry: Entry, *, show_link: bool = False, title_first: bool = Fa
     if entry.bullets:
         items = "".join(f"<li>{_esc(b)}</li>" for b in entry.bullets)
         parts.append(f"<ul>{items}</ul>")
-    if show_link and entry.link:
-        parts.append(f'<div class="tech">{_esc(entry.link)}</div>')
     parts.append("</div>")
     return "".join(parts)
 
@@ -189,7 +216,7 @@ def to_html(spec: ResumeSpec) -> str:
                                "".join(_entry_html(e) for e in spec.experience))
         if spec.experience else "",
         "projects": lambda: ("<h2>Projects</h2>" +
-                             "".join(_entry_html(e, show_link=True, title_first=True)
+                             "".join(_entry_html(e, title_first=True)
                                      for e in spec.projects))
         if spec.projects else "",
         "leadership": lambda: ("<h2>Leadership &amp; Activities</h2>" +

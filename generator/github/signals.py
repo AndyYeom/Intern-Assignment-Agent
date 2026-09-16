@@ -57,8 +57,10 @@ LOW_EFFORT_COMMIT = re.compile(
 
 NOTEBOOK_EXT = ".ipynb"
 CODE_EXTS = {
-    ".py", ".js", ".ts", ".tsx", ".jsx", ".java", ".go", ".c", ".cpp", ".h", ".hpp",
-    ".cs", ".rb", ".php", ".rs", ".kt", ".swift", ".dart", ".vue", ".svelte", ".sh",
+    ".py", ".js", ".mjs", ".ts", ".tsx", ".jsx", ".java", ".go", ".c", ".cc", ".cpp",
+    ".cxx", ".h", ".hpp", ".cs", ".rb", ".php", ".rs", ".kt", ".kts", ".swift", ".m",
+    ".mm", ".dart", ".vue", ".svelte", ".sh", ".ps1", ".sql", ".r", ".scala", ".lua",
+    ".gd", ".html", ".css", ".scss", ".sass", ".less",
 }
 
 
@@ -249,10 +251,14 @@ NON_PROJECT_NAME_PATTERNS = [
     re.compile(r"^\.github$", re.IGNORECASE),
 ]
 
-MIN_RELEVANT_CODE_FILES = 3
-MIN_RELEVANT_NOTEBOOKS = 2
+# Relevance asks "is this skill work?", not "how advanced is it?". A single
+# 40 KB script or one analysis notebook is skill work - Entry level, which the
+# structure flags record - and Entry profiles are exactly where planted
+# exaggerations get caught. So the floors here only exclude text and empty repos.
+MIN_RELEVANT_CODE_FILES = 1
+MIN_RELEVANT_NOTEBOOKS = 1
 MIN_RELEVANT_CODE_BYTES = 2_000
-MIN_RELEVANT_COMMITS = 3
+MIN_RELEVANT_COMMITS = 1
 MIN_RELEVANT_SIGNAL_STRENGTH = 0.55
 STRONG_SOURCES = {"language", "manifest", "file"}
 

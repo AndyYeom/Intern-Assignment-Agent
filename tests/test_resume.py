@@ -96,8 +96,42 @@ def test_render_html_contains_the_substance():
 def test_photo_is_optional():
     with_photo = render.to_html(draft(_profile(), _info(photo=True)))
     without = render.to_html(draft(_profile(), _info(photo=False)))
-    assert "data:image/png;base64," in with_photo
-    assert "data:image/png;base64," not in without
+    assert "data:image/jpeg;base64," in with_photo
+    assert "data:image/jpeg;base64," not in without
+
+
+def test_photo_is_downscaled_before_embedding():
+    """The raw 350px PNG was a third of every PDF."""
+    import base64
+    import io
+
+    from PIL import Image
+
+    uri = render._photo_data_uri()
+    assert uri is not None
+    data = base64.b64decode(uri.split(",", 1)[1])
+    with Image.open(io.BytesIO(data)) as image:
+        assert max(image.size) <= render.PHOTO_PX
+    assert len(data) < 4_000
+
+
+def test_real_repo_links_are_never_rendered():
+    """A project link carries the real username; the resume identity is invented."""
+    spec = draft(_profile(), _info())
+    assert spec.projects[0].link == "https://github.com/testuser/ferry-api"
+    html = render.to_html(spec)
+    assert "github.com/testuser" not in html
+    assert "testuser" not in html.replace("github.com/ada-okonkwo", "")
+
+
+def test_pdf_stays_small(tmp_path):
+    """Committed to the repo, so size matters. A full one-page resume is ~25 KB."""
+    if not render.pdf_available():
+        pytest.skip("WeasyPrint system libraries not installed")
+    spec = draft(_profile(), _info(email="ada@example.edu", photo=True))
+    path = render.write_pdf(spec, tmp_path)
+    assert path is not None
+    assert path.stat().st_size < 40_000
 
 
 def test_html_escapes_injected_markup():

@@ -131,6 +131,12 @@ class GitHubClient:
                 self.cache.write(url, payload, etag=response.headers.get("ETag"))
                 return payload
 
+            if response.status_code == 204:
+                # Empty repository: no commits, no contributors.
+                self.cache.misses += 1
+                self.cache.write(url, [], etag=None)
+                return []
+
             if response.status_code == 404:
                 self.cache.write(url, None, etag=None)
                 raise NotFound(url)

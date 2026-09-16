@@ -18,6 +18,10 @@ from generator.github.client import GitHubClient, NotFound, RateLimited
 from generator.github.signals import repo_substance_score
 from generator.github.skill_map import MANIFEST_FILES
 
+# Below this many author-matched commits on an owned repo, check whether the
+# owner is the sole contributor and their commits simply are not email-linked.
+MIN_AUTHOR_FILTERED_COMMITS = 3
+
 # Files worth pulling the contents of, beyond manifests.
 NOTABLE_ROOT_FILES = {"README.md", "README.rst", "README.txt", "readme.md"}
 
@@ -88,6 +92,32 @@ def collect_repo(client: GitHubClient, login: str, repo: dict[str, Any]) -> dict
         ))
     except (NotFound, RateLimited):
         pass
+    bundle["commit_attribution"] = "author"
+
+    try:
+        contributors = client.get(f"/repos/{owner}/{name}/contributors", params={"per_page": 30})
+        bundle["contributors_count"] = len(contributors or [])
+    except (NotFound, RateLimited):
+        bundle["contributors_count"] = 1
+
+    # The author filter only matches commits made with an email linked to the
+    # account. Someone committing from a laptop with another email shows zero
+    # commits on their own solo repo. When the owner is provably the only
+    # contributor - counting unlinked (anonymous) ones - every commit is theirs.
+    is_owner = owner.lower() == login.lower()
+    if is_owner and not repo.get("is_fork") and len(commits) < MIN_AUTHOR_FILTERED_COMMITS:
+        try:
+            everyone = client.get(f"/repos/{owner}/{name}/contributors",
+                                  params={"per_page": 30, "anon": "1"})
+            if len(everyone or []) <= 1:
+                unfiltered = list(client.paginate(f"/repos/{owner}/{name}/commits",
+                                                  max_pages=MAX_COMMIT_PAGES))
+                if len(unfiltered) > len(commits):
+                    commits = unfiltered
+                    bundle["commit_attribution"] = "sole_author"
+        except (NotFound, RateLimited):
+            pass
+
     # Store only the fields signals.py reads, so raw/ stays a manageable size.
     bundle["commits"] = [
         {"commit": {"message": (c.get("commit") or {}).get("message"),
@@ -95,12 +125,6 @@ def collect_repo(client: GitHubClient, login: str, repo: dict[str, Any]) -> dict
          "sha": c.get("sha")}
         for c in commits
     ]
-
-    try:
-        contributors = client.get(f"/repos/{owner}/{name}/contributors", params={"per_page": 30})
-        bundle["contributors_count"] = len(contributors or [])
-    except (NotFound, RateLimited):
-        bundle["contributors_count"] = 1
 
     try:
         releases = client.get(f"/repos/{owner}/{name}/releases", params={"per_page": 5})

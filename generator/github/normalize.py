@@ -37,6 +37,9 @@ def build_repo(bundle: dict[str, Any]) -> RepoRecord:
     readme = contents.get(readme_key) if readme_key else None
 
     commit_summary = signals.commit_stats(bundle.get("commits", []))
+    # "author" = matched by GitHub login; "sole_author" = owner is the only
+    # contributor, so unlinked-email commits were counted too.
+    commit_summary["attribution"] = bundle.get("commit_attribution", "author")
 
     # Cheap boolean facts the signal functions depend on.
     has_ci = any(p.startswith(".github/workflows/") or p in

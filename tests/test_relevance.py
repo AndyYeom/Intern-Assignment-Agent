@@ -95,8 +95,8 @@ def test_only_weak_signals_fail():
     assert report["failed"] == ["strong_skill_signal"]
 
 
-def test_fork_and_too_few_commits_fail():
-    relevant, report = _check(is_fork=True, commit_count=1)
+def test_fork_and_no_commits_fail():
+    relevant, report = _check(is_fork=True, commit_count=0)
     assert not relevant
     assert {"not_fork", "own_commits"} <= set(report["failed"])
 
@@ -110,3 +110,38 @@ def test_ranking_sinks_non_projects_below_real_repos():
     assert repo_substance_score(real) > repo_substance_score(textonly)
     assert repo_substance_score(textonly) > repo_substance_score(notes)
     assert repo_substance_score(notes) > repo_substance_score(fork)
+
+
+def test_single_file_project_is_still_skill_work():
+    """40 KB of JavaScript in one file is Entry-level work, not random text."""
+    relevant, _ = _check(
+        languages={"JavaScript": 40_000},
+        structure={"code_file_count": 1, "notebook_count": 0},
+        skill_signals=[{"skill_id": "javascript", "source": "language", "strength": 1.0}],
+        commit_count=1,
+    )
+    assert relevant
+
+
+def test_single_notebook_analysis_is_still_skill_work():
+    """An 'only notebooks' profile is the exaggeration case C must catch - keep it."""
+    relevant, _ = _check(
+        languages={"Jupyter Notebook": 2_500_000},
+        structure={"code_file_count": 0, "notebook_count": 1},
+    )
+    assert relevant
+
+
+def test_tiny_repo_is_still_rejected():
+    relevant, report = _check(
+        languages={"Python": 300},
+        structure={"code_file_count": 1, "notebook_count": 0},
+    )
+    assert not relevant
+    assert report["failed"] == ["code_bytes"]
+
+
+def test_web_files_count_as_code():
+    from generator.github.signals import CODE_EXTS
+
+    assert {".html", ".css", ".sql"} <= CODE_EXTS

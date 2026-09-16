@@ -26,65 +26,93 @@ uv run pytest
 
 ## Data generator
 
-Builds the evidence corpus: public GitHub profiles, and MIT-format resumes
-generated from them.
+Builds the dataset: real public GitHub profiles, and synthetic MIT-format resumes
+generated from them. One entry point, two command groups:
 
 ```powershell
-uv run python -m generator --help
+uv run python -m generator gh --help   # GitHub collection
+uv run python -m generator re --help   # resume generation
 ```
 
-### GitHub collection (`gh`)
+### Setup
+
+Create `.env` in the repo root with a GitHub token (fine-grained, *Public
+repositories (read-only)*, no extra permissions):
+
+```
+GITHUB_TOKEN=github_pat_...
+```
+
+Without a token everything still works at 60 requests/hour instead of 5,000.
+PDF rendering needs WeasyPrint's system libraries: `brew install pango`.
+
+### 1. Build the GitHub corpus
 
 ```powershell
-uv run python -m generator gh status              # progress per stratum + next command
-uv run python -m generator gh doctor              # check rate budget
-uv run python -m generator gh sample --target 40  # select the corpus
-uv run python -m generator gh collect             # fetch raw payloads
-uv run python -m generator gh build               # raw -> profiles
-uv run python -m generator gh stats               # taxonomy coverage report
+uv run python -m generator gh status    # where things stand, and what to run next
+uv run python -m generator gh sample    # find candidates, 4 per language stratum
+uv run python -m generator gh collect   # fetch the planned profiles (resumable)
+uv run python -m generator gh build     # normalise, and mark each profile usable or not
+uv run python -m generator gh stats     # skill coverage, and why profiles were rejected
 ```
 
-`sample` selects profiles programmatically through the GitHub Search API,
-stratified by primary language, and records every candidate it examined —
-including rejections and their reasons — in `data/githubs/candidates.json`.
-Each stratum gets a quota of `ceil(target / strata)` plus a small reserve, and
-the emptiest strata are filled first. `collect` fetches only the planned quota
-per stratum; a reserve candidate replaces any planned profile that proves
-unusable. `status` reads disk only and costs no API requests.
+Repeat until `gh status` reports `corpus complete`. Its `next:` line always names
+the command to run.
 
-`collect` is the only expensive stage and the only one that touches the network.
-Every response is cached on disk with its ETag, so the stage is resumable after a
-rate-limit wall and re-runs are nearly free. `build` reads only the cache, so
-schema and heuristic changes cost nothing to re-apply.
+- **`sample`** searches ten strata, one per primary language, and fills the
+  emptiest first. Each stratum gets `ceil(40 / 10) = 4` places plus 2 reserves.
+  Re-running searches new account-creation date windows, so it finds new people.
+  Every candidate examined, and why any was rejected, is kept in
+  `data/githubs/candidates.json`.
+- **`collect`** fetches only the 4 planned people per stratum, 5 repos each. It is
+  the only stage that uses the network; responses are cached, so it can be
+  stopped and re-run. `--all` collects every selected candidate instead.
+- **`build`** costs nothing and can be re-run any time. A profile is **usable**
+  only with at least 3 skill-relevant repos, 20 commits, 3 strongly evidenced
+  skills and something readable. An unusable profile is replaced by a reserve
+  on the next `collect`.
 
-Set `GITHUB_TOKEN` in `.env` for 5,000 requests/hour. Without one the collector
-still works at 60/hour, roughly 30 hours for a cold run of 40 profiles.
-
-### Resume generation (`re`)
+### 2. Generate the resumes
 
 ```powershell
-uv run python -m generator re plan --batches 5   # exclusive split of the corpus
-uv run python -m generator re brief --batch 1    # authoring packet for one agent
-uv run python -m generator re draft --batch 1    # first-pass specs from GitHub
-uv run python -m generator re verify             # no profile used twice
-uv run python -m generator re render             # specs -> HTML + PDF
-uv run python -m generator re manifest           # the applicant index
+uv run python -m generator re plan --batches 5   # split usable profiles into 5 exclusive batches
+uv run python -m generator re brief --batch 1    # the authoring packet for batch 1
+uv run python -m generator re draft --batch 1    # starter specs built from the real repos
 ```
 
-Resumes follow the MIT CAPD format. Section order varies by `career_stage`
-(`student`, `intern`, `new_grad`, `switcher`).
+Then author each draft in `data/resumes/specs/`:
 
-`draft` fills projects and skills from the real repository record; the identity
-half — name, school, major, graduation, employment — is supplied per person in a
-`ResumeInfo`, since none of it is derivable from GitHub.
+1. Invent the identity: name, contact, school, major, graduation, `career_stage`
+   (`student`, `intern`, `new_grad`, `switcher`) and any employment.
+2. Rewrite the project bullets in resume voice.
+3. Rename `_draft_<login>.json` to `<first>-<last>.json`.
 
-`plan` partitions the corpus so each profile belongs to exactly one batch, which
-lets several authors work in parallel without collisions. `verify` re-checks the
-written specs and fails if any profile was used twice.
+Batches never share a profile, so several people or agents can author batches in
+parallel. Record planted exaggerations separately; never in the spec.
 
-`render` upserts each applicant into `data/applicants.csv`, the index pairing
-each GitHub profile with its resume. Writes take an exclusive lock, so parallel
-renders cannot corrupt it, and `manifest --rebuild` regenerates it from disk.
+```powershell
+uv run python -m generator re verify     # fails if any profile is used twice
+uv run python -m generator re render     # specs -> PDF, and update data/applicants.csv
+uv run python -m generator re manifest   # who has a resume, and which profiles are unused
+```
 
-PDF output needs WeasyPrint's system libraries (`brew install pango`); without
-them `render` writes HTML only.
+`data/applicants.csv` pairs every applicant with their GitHub profile and resume
+PDF. It is the file downstream agents read. `re manifest --rebuild` regenerates
+it from disk.
+
+### Privacy
+
+The GitHub side is real; the people on the resumes are invented. A resume never
+carries the real person's name, bio, location, website or repository links, and
+its GitHub handle is a slug of the invented name that resolves to nobody. The
+real login is kept only in the profile JSON and `applicants.csv`, where the
+evidence agent needs it.
+
+### What is committed
+
+| committed | not committed |
+| --- | --- |
+| `data/githubs/candidates.json`, `profiles/` | `data/githubs/raw/`, `.cache/` (large, reproducible) |
+| `data/resumes/specs/*.json` | `data/resumes/specs/_draft_*.json` (placeholders) |
+| `data/resumes/rendered/*.pdf` (~25 KB each) | `data/resumes/rendered/*.html` (duplicate of the PDF) |
+| `data/applicants.csv` | `.env` |
