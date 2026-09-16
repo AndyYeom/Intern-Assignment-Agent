@@ -1,0 +1,932 @@
+{
+  "applicant_id": "applicant0055",
+  "login": "p-adic",
+  "html_url": "https://github.com/p-adic",
+  "created_at": "2019-12-12T14:03:30Z",
+  "account_age_days": 2470,
+  "public_repos": 7,
+  "followers": 14,
+  "following": 5,
+  "repos": [
+    {
+      "name": "p-adic.github.io",
+      "full_name": "p-adic/p-adic.github.io",
+      "html_url": "https://github.com/p-adic/p-adic.github.io",
+      "description": "This is the Home Page for my circle \"p進大好きサークル\".",
+      "homepage": "https://p-adic.github.io/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2019-12-13T09:32:03Z",
+      "pushed_at": "2026-09-15T02:51:06Z",
+      "stargazers": 3,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 91023,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 43548,
+        "SCSS": 29635,
+        "JavaScript": 1997,
+        "Ruby": 162
+      },
+      "primary_language": "HTML",
+      "file_count": 346,
+      "top_level_paths": [
+        "Gemfile",
+        "README.md",
+        "_config.yml",
+        "_includes",
+        "_layouts",
+        "_posts",
+        "_sass",
+        "assets",
+        "index.html",
+        "pages",
+        "robots.txt"
+      ],
+      "notable_files": [
+        "Gemfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 142,
+      "readme_excerpt": "https://p-adic.github.io/\n\nThis is the Home Page for my circle \"p進大好きサークル\" based on [Moon Jekyll Theme](https://github.com/TaylanTatli/Moon).\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-01-04T06:20:05+00:00",
+        "last_at": "2026-09-15T02:51:06+00:00",
+        "active_days": 72,
+        "span_days": 253,
+        "max_per_day": 13,
+        "low_effort_message_ratio": 0.04,
+        "messages_sample": [
+          "Update 2026-09-15-FFT-on-Qp.md",
+          "Update 2026-09-15-FFT-on-Qp.md",
+          "Update 2026-09-15-FFT-on-Qp.md",
+          "Update 2026-09-15-FFT-on-Qp.md",
+          "Update 2026-09-15-FFT-on-Qp.md",
+          "Update 2026-09-15-FFT-on-Qp.md",
+          "Update 2026-09-15-FFT-on-Qp.md",
+          "Update 2026-05-26-difference-between-Fp-and-Qp.md",
+          "Create 2026-09-15-FFT-on-Qp.md",
+          "Update 0000-00-00-codes.md",
+          "Update 0000-00-00-waheyhey-no-nichijou.md",
+          "Add files via upload",
+          "Update 0000-00-00-codes.md",
+          "Update 0000-00-00-codes.md",
+          "Update 0000-00-00-codes.md",
+          "Update 0000-00-00-competitive-programming-tester-log.md",
+          "Add files via upload",
+          "Update 0000-00-00-codes.md",
+          "Update 0000-00-00-codes.md",
+          "Update 0000-00-00-competitive-programming-tester-log.md"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 41
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 43,548 bytes (58% of repo)",
+          "strength": 0.9780043003902206
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 29,635 bytes (39% of repo)",
+          "strength": 0.7933397042818083
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,997 bytes (3% of repo)",
+          "strength": 0.4265058002176741
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 75180,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Mathematics",
+      "full_name": "p-adic/Mathematics",
+      "html_url": "https://github.com/p-adic/Mathematics",
+      "description": "Repository for source codes to solve mathematical problems",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2019-12-14T13:17:10Z",
+      "pushed_at": "2026-09-16T12:51:33Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 21016,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 6206664
+      },
+      "primary_language": "C++",
+      "file_count": 1667,
+      "top_level_paths": [
+        "Algebra",
+        "Analysis",
+        "Arithmetic",
+        "Combinatorial",
+        "Function",
+        "Game",
+        "Geometry",
+        "Header.hpp",
+        "LinearAlgebra",
+        "Polynomial",
+        "README.md",
+        "SetTheory",
+        "Utility"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 512,
+      "readme_excerpt": "See https://github.com/p-adic/p-adic.github.io/blob/master/_posts/projects/programming/0000-00-00-codes.md for licensing.\n\nOnly \"Utility/Random\" is not public. Manually add\n\n- Utility/Random/a.hpp with a declaration of <code>ll GetRand( const ll& Rand_min , const ll& Rand_max )</code>\n- Utility/Random/a_Body.hpp with a definition of <code>ll GetRand( const ll& Rand_min , const ll& Rand_max )</code>\n\nto use <code>GetRand(Rand_min,Rand_max)</code> returning a random value in the interval [Rand_min,Rand_max].\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2025-11-03T02:28:19+00:00",
+        "last_at": "2026-09-16T12:51:33+00:00",
+        "active_days": 56,
+        "span_days": 317,
+        "max_per_day": 22,
+        "low_effort_message_ratio": 0.88,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload",
+          "Delete Combinatorial/KnapsackProblem/Negative/Value/Multicost/compress.txt",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1239
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 6,206,664 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6206664,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Contest",
+      "full_name": "p-adic/Contest",
+      "html_url": "https://github.com/p-adic/Contest",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-11-27T00:11:55Z",
+      "pushed_at": "2026-09-14T00:28:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4433,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 674805,
+        "Python": 7425
+      },
+      "primary_language": "C++",
+      "file_count": 92,
+      "top_level_paths": [
+        ".gitattributes",
+        "AutoCheck",
+        "Header.hpp",
+        "ProblemCreation",
+        "README.md",
+        "Template"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 122,
+      "readme_excerpt": "See https://github.com/p-adic/p-adic.github.io/blob/master/_posts/projects/programming/0000-00-00-codes.md for licensing.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2025-03-02T02:42:52+00:00",
+        "last_at": "2026-09-14T00:28:40+00:00",
+        "active_days": 105,
+        "span_days": 560,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.985,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 41
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 674,805 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 7,425 bytes (1% of repo)",
+          "strength": 0.4108834264104481
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 682230,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Utility",
+      "full_name": "p-adic/Utility",
+      "html_url": "https://github.com/p-adic/Utility",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-11-27T00:05:05Z",
+      "pushed_at": "2026-09-07T05:00:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 96,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 183285
+      },
+      "primary_language": "C++",
+      "file_count": 89,
+      "top_level_paths": [
+        ".gitattributes",
+        "FileStream",
+        "GlobalVariable",
+        "Header.hpp",
+        "LazyEvaluation",
+        "LinkedVector",
+        "List",
+        "Macro.hpp",
+        "README.md",
+        "SmartPointer",
+        "StdStream",
+        "String",
+        "Temporary",
+        "Time",
+        "VLArray",
+        "VLTree",
+        "WrappedType"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 122,
+      "readme_excerpt": "See https://github.com/p-adic/p-adic.github.io/blob/master/_posts/projects/programming/0000-00-00-codes.md for licensing.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 18,
+        "first_at": "2024-11-27T00:03:31+00:00",
+        "last_at": "2026-09-07T05:00:12+00:00",
+        "active_days": 11,
+        "span_days": 649,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.889,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Delete String/ToArray directory",
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload",
+          "Moving from cpp",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 81
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 183,285 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 183285,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Error",
+      "full_name": "p-adic/Error",
+      "html_url": "https://github.com/p-adic/Error",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-11-27T00:07:42Z",
+      "pushed_at": "2026-06-07T00:58:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 23,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 33572
+      },
+      "primary_language": "C++",
+      "file_count": 45,
+      "top_level_paths": [
+        ".gitattributes",
+        "BreakPoint",
+        "Debug",
+        "FaultInCoding",
+        "Header.hpp",
+        "IgnoredError",
+        "IllegalAccess",
+        "IllegalCall",
+        "IllegalInput",
+        "MismatchType",
+        "Position",
+        "README.md",
+        "UnknownError",
+        "Warning",
+        "a.cpp",
+        "a.hpp",
+        "a_Body.hpp",
+        "a_Macro.hpp"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 122,
+      "readme_excerpt": "See https://github.com/p-adic/p-adic.github.io/blob/master/_posts/projects/programming/0000-00-00-codes.md for licensing.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2024-11-27T00:06:15+00:00",
+        "last_at": "2026-06-07T00:58:31+00:00",
+        "active_days": 3,
+        "span_days": 557,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.833,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Update README.md",
+          "Moved from cpp",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 43
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 33,572 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 33572,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C++": 7098326,
+    "HTML": 43548,
+    "SCSS": 29635,
+    "Python": 7425,
+    "JavaScript": 1997,
+    "Ruby": 162
+  },
+  "total_commits": 624,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "p-adic/Mathematics",
+        "p-adic/Contest",
+        "p-adic/Utility",
+        "p-adic/Error"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 7098326,
+      "commit_count": 424,
+      "first_seen": "2024-11-27T00:03:31+00:00",
+      "last_seen": "2026-09-16T12:51:33+00:00",
+      "details": [
+        "Mathematics: C++: 6,206,664 bytes (100% of repo)",
+        "Contest: C++: 674,805 bytes (99% of repo)",
+        "Utility: C++: 183,285 bytes (100% of repo)",
+        "Error: C++: 33,572 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "p-adic/p-adic.github.io"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9780043003902206,
+      "total_bytes": 73183,
+      "commit_count": 200,
+      "first_seen": "2026-01-04T06:20:05+00:00",
+      "last_seen": "2026-09-15T02:51:06+00:00",
+      "details": [
+        "p-adic.github.io: HTML: 43,548 bytes (58% of repo)",
+        "p-adic.github.io: SCSS: 29,635 bytes (39% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "p-adic/p-adic.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4265058002176741,
+      "total_bytes": 1997,
+      "commit_count": 200,
+      "first_seen": "2026-01-04T06:20:05+00:00",
+      "last_seen": "2026-09-15T02:51:06+00:00",
+      "details": [
+        "p-adic.github.io: JavaScript: 1,997 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "p-adic/Contest"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4108834264104481,
+      "total_bytes": 7425,
+      "commit_count": 200,
+      "first_seen": "2025-03-02T02:42:52+00:00",
+      "last_seen": "2026-09-14T00:28:40+00:00",
+      "details": [
+        "Contest: Python: 7,425 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 624,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 2 < 3"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:24:49.173553+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 2 < 3"
+  ]
+}

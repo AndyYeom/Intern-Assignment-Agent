@@ -13,6 +13,7 @@ from __future__ import annotations
 from datetime import datetime
 
 from generator.github.skill_map import taxonomy
+from generator.privacy import replace_login
 from generator.resume.schema import Entry, ResumeInfo, ResumeSpec
 from generator.schemas import GitHubProfile, RepoRecord
 
@@ -97,9 +98,16 @@ def _bullets_for_repo(repo: RepoRecord) -> list[str]:
     return bullets[:5]
 
 
-def draft_projects(profile: GitHubProfile, limit: int = 4) -> list[Entry]:
+def draft_projects(profile: GitHubProfile, limit: int = 4, handle: str = "") -> list[Entry]:
+    """Resume projects, only from skill-relevant repos.
+
+    A notes repo, profile README or someone-else's-work repo is not a project to
+    list. And a repo name like `jsmith.github.io` carries the real login, which
+    must never reach a resume with an invented name, so it is replaced.
+    """
+    login = profile.login
     ranked = sorted(
-        profile.repos,
+        (r for r in profile.repos if r.skill_relevant),
         # Skill-relevant repos first: a notes repo should never displace a project.
         key=lambda r: (r.skill_relevant, not r.is_fork, r.stargazers, r.file_count,
                        r.commits.get("count", 0)),
@@ -107,12 +115,17 @@ def draft_projects(profile: GitHubProfile, limit: int = 4) -> list[Entry]:
     )
     entries: list[Entry] = []
     for repo in ranked[:limit]:
+        if repo.name.lower() == f"{login.lower()}.github.io":
+            title = "Personal Website"
+        else:
+            title = replace_login(_title_from_repo(repo), login, handle or "Personal").strip()
         entries.append(Entry(
-            title=_title_from_repo(repo),
+            title=title or "Personal Project",
             organization="Personal Project",
             start=_month_year(repo.created_at),
             end=_month_year(repo.pushed_at) or "Present",
-            bullets=_bullets_for_repo(repo),
+            bullets=[replace_login(b, login, handle or "the author")
+                     for b in _bullets_for_repo(repo)],
             link=repo.html_url,
             tech=[name for name, _ in
                   sorted(repo.languages.items(), key=lambda kv: kv[1], reverse=True)[:4]],
@@ -174,6 +187,7 @@ def draft(profile: GitHubProfile, info: ResumeInfo, *, batch: int | None = None,
 
     return ResumeSpec(
         github_login=profile.login,
+        applicant_id=profile.applicant_id,
         first_name=info.first_name,
         last_name=info.last_name,
         career_stage=info.career_stage,
@@ -190,7 +204,7 @@ def draft(profile: GitHubProfile, info: ResumeInfo, *, batch: int | None = None,
         education=info.education,
         # Employment cannot be read off GitHub - it comes from ResumeInfo.
         experience=list(info.experience),
-        projects=draft_projects(profile),
+        projects=draft_projects(profile, handle=info.github_handle or _handle(info)),
         leadership=list(info.leadership) + draft_leadership(profile),
         skills=draft_skills(profile),
         authored_by=authored_by,

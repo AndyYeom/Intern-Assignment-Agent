@@ -145,3 +145,14 @@ def test_web_files_count_as_code():
     from generator.github.signals import CODE_EXTS
 
     assert {".html", ".css", ".sql"} <= CODE_EXTS
+
+
+def test_small_share_of_a_team_repo_is_not_skill_work():
+    relevant, report = _check(contribution_share=0.1)
+    assert not relevant
+    assert report["failed"] == ["own_share"]
+
+
+def test_unknown_share_does_not_reject():
+    assert _check(contribution_share=None)[0]
+    assert _check(contribution_share=0.25)[0]

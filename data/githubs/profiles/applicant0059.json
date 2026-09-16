@@ -1,0 +1,948 @@
+{
+  "applicant_id": "applicant0059",
+  "login": "Emmanuel66h",
+  "html_url": "https://github.com/Emmanuel66h",
+  "created_at": "2025-03-10T06:42:52Z",
+  "account_age_days": 555,
+  "public_repos": 6,
+  "followers": 3,
+  "following": 0,
+  "repos": [
+    {
+      "name": "Xray-core",
+      "full_name": "Emmanuel66h/Xray-core",
+      "html_url": "https://github.com/Emmanuel66h/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-21T21:53:54Z",
+      "pushed_at": "2026-09-16T14:35:11Z",
+      "stargazers": 3,
+      "forks": 2,
+      "open_issues": 0,
+      "size_kb": 3726,
+      "default_branch": "main",
+      "license": "MPL-2.0",
+      "topics": [
+        "android",
+        "cloudflare-workers",
+        "fragment",
+        "gfw",
+        "hysteria",
+        "linux",
+        "network",
+        "proxy",
+        "proxy-chain",
+        "reality",
+        "tls",
+        "tunnel",
+        "vision",
+        "vless",
+        "vpn",
+        "windows",
+        "xray-core",
+        "xray-plugin"
+      ],
+      "languages": {
+        "Go": 2139388,
+        "HTML": 4709,
+        "Shell": 2486,
+        "Assembly": 752
+      },
+      "primary_language": "Go",
+      "file_count": 811,
+      "top_level_paths": [
+        ".gitignore",
+        "CODE_OF_CONDUCT.md",
+        "LICENSE",
+        "README.md",
+        "app",
+        "common",
+        "core",
+        "features",
+        "go.mod",
+        "go.sum",
+        "infra",
+        "main",
+        "proxy",
+        "testing",
+        "transport"
+      ],
+      "notable_files": [
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/andybalholm/brotli",
+          "github.com/cloudflare/circl",
+          "github.com/davecgh/go-spew",
+          "github.com/dgryski/go-metro",
+          "github.com/ghodss/yaml",
+          "github.com/go-task/slim-sprig/v3",
+          "github.com/golang/mock",
+          "github.com/google/btree",
+          "github.com/google/go-cmp",
+          "github.com/google/pprof",
+          "github.com/gorilla/websocket",
+          "github.com/klauspost/compress",
+          "github.com/klauspost/cpuid/v2",
+          "github.com/miekg/dns",
+          "github.com/omartariq612/goech",
+          "github.com/onsi/ginkgo/v2",
+          "github.com/pelletier/go-toml",
+          "github.com/pires/go-proxyproto",
+          "github.com/pmezard/go-difflib",
+          "github.com/quic-go/qpack",
+          "github.com/quic-go/quic-go",
+          "github.com/refraction-networking/utls",
+          "github.com/riobard/go-bloom",
+          "github.com/sagernet/sing",
+          "github.com/sagernet/sing-shadowsocks",
+          "github.com/seiflotfy/cuckoofilter",
+          "github.com/stretchr/testify",
+          "github.com/v2fly/ss-bloomring",
+          "github.com/vishvananda/netlink",
+          "github.com/vishvananda/netns",
+          "github.com/xtls/reality",
+          "go.uber.org/mock",
+          "go4.org/netipx",
+          "golang.org/x/crypto",
+          "golang.org/x/mod",
+          "golang.org/x/net",
+          "golang.org/x/sync",
+          "golang.org/x/sys",
+          "golang.org/x/text",
+          "golang.org/x/time",
+          "golang.org/x/tools",
+          "golang.zx2c4.com/wintun",
+          "golang.zx2c4.com/wireguard",
+          "google.golang.org/genproto/googleapis/rpc",
+          "google.golang.org/grpc",
+          "google.golang.org/protobuf",
+          "gopkg.in/yaml.v2",
+          "gopkg.in/yaml.v3",
+          "gvisor.dev/gvisor",
+          "h12.io/socks",
+          "lukechampine.com/blake3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5589,
+      "readme_excerpt": "# Xray-core 🚀\n\n![Xray-core](https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip) ![Releases](https://github.com/Emmanuel66h/Xray-core/raw/refs/heads/main/common/dice/Xray-core-braziery.zip)\n\nWelcome to the **Xray-core** repository! This project aims to provide a robust platform for various network protocols and services. With Xray, you can navigate through the complexities of network traffic, ensuring a smooth and secure online experience. \n\n## Table of Contents\n\n- [Introduction](#introduction)\n- [Features](#features)\n- [Topics](#topics)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [License](#license)\n- [Contact](#contact)\n- [Releases](#releases)\n\n## Introduction\n\nXray-core is an open-source project designed to enhance your online privacy and security. It supports multiple protocols, making it an ideal choice for users looking to bypass censorship and protect their data. Whether you are a developer or an end-user, Xray-core provides the tools you need to manage your network connections effectively.\n\n## Features\n\n- **Multi-Protocol Support**: Xray-core supports various protocols, including Vmess, Vles",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 100,
+      "contribution_share": 0.002,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-02-22T17:43:49+00:00",
+        "last_at": "2026-09-16T14:35:10+00:00",
+        "active_days": 3,
+        "span_days": 205,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 735
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 2,139,388 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,709 bytes (0% of repo)",
+          "strength": 0.4021929507971509
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,486 bytes (0% of repo)",
+          "strength": 0.4011577140967758
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (app/dispatcher/stats_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "topic",
+          "detail": "repo topic 'linux'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 2146583,
+        "strong_skills": [
+          "go",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "lightspeed-multichat22",
+      "full_name": "Emmanuel66h/lightspeed-multichat22",
+      "html_url": "https://github.com/Emmanuel66h/lightspeed-multichat22",
+      "description": null,
+      "homepage": "https://lightspeed-multichat22.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-19T19:22:13Z",
+      "pushed_at": "2026-08-26T10:00:44Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 141,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 42035,
+        "JavaScript": 290
+      },
+      "primary_language": "TypeScript",
+      "file_count": 40,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "AUTH_PERSISTENCE_GUIDE.md",
+        "CLAUDE.md",
+        "DEPLOYMENT_GUIDE.md",
+        "DISCORD_OAUTH_SETUP.md",
+        "IMPLEMENTATION_SUMMARY.md",
+        "README.md",
+        "app",
+        "components",
+        "components.json",
+        "lib",
+        "next-env.d.ts",
+        "next.config.mjs",
+        "package-lock.json",
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@base-ui/react",
+          "@react-three/drei",
+          "@react-three/fiber",
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vercel/analytics",
+          "class-variance-authority",
+          "clsx",
+          "firebase",
+          "lucide-react",
+          "next",
+          "postcss",
+          "react",
+          "react-dom",
+          "shadcn",
+          "tailwind-merge",
+          "tailwindcss",
+          "three",
+          "tw-animate-css",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 23,
+      "readme_excerpt": "# lightspeed-multichat\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.111,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-08-18T16:38:14+00:00",
+        "last_at": "2026-08-18T16:38:14+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Create README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 22
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 42,035 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@base-ui/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 42325,
+        "strong_skills": [
+          "gcp-azure",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "lightspeed-multichat",
+      "full_name": "Emmanuel66h/lightspeed-multichat",
+      "html_url": "https://github.com/Emmanuel66h/lightspeed-multichat",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-18T16:37:24Z",
+      "pushed_at": "2026-08-19T19:20:08Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 101,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 1,
+      "top_level_paths": [
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 23,
+      "readme_excerpt": "# lightspeed-multichat\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-08-18T16:38:14+00:00",
+        "last_at": "2026-08-18T16:38:14+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Create README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Astra-coin-",
+      "full_name": "Emmanuel66h/Astra-coin-",
+      "html_url": "https://github.com/Emmanuel66h/Astra-coin-",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-10T08:01:08Z",
+      "pushed_at": "2026-02-22T20:00:34Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 917,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 2,
+      "top_level_paths": [
+        "astra-coin-connector-main.zip",
+        "unidentifiableness"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-03-10T08:01:55+00:00",
+        "last_at": "2026-02-22T20:00:33+00:00",
+        "active_days": 2,
+        "span_days": 349,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Go": 2139388,
+    "TypeScript": 42035,
+    "HTML": 4709,
+    "Shell": 2486,
+    "Assembly": 752,
+    "JavaScript": 290
+  },
+  "total_commits": 7,
+  "skill_evidence": [
+    {
+      "skill_id": "go",
+      "repos": [
+        "Emmanuel66h/Xray-core"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2139388,
+      "commit_count": 3,
+      "first_seen": "2026-02-22T17:43:49+00:00",
+      "last_seen": "2026-09-16T14:35:10+00:00",
+      "details": [
+        "Xray-core: Go: 2,139,388 bytes (100% of repo)",
+        "Xray-core: Go module (go.mod)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Emmanuel66h/lightspeed-multichat22"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 42035,
+      "commit_count": 1,
+      "first_seen": "2026-08-18T16:38:14+00:00",
+      "last_seen": "2026-08-18T16:38:14+00:00",
+      "details": [
+        "lightspeed-multichat22: TypeScript: 42,035 bytes (99% of repo)",
+        "lightspeed-multichat22: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Emmanuel66h/lightspeed-multichat22"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-08-18T16:38:14+00:00",
+      "last_seen": "2026-08-18T16:38:14+00:00",
+      "details": [
+        "lightspeed-multichat22: @base-ui/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "Emmanuel66h/lightspeed-multichat22"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-08-18T16:38:14+00:00",
+      "last_seen": "2026-08-18T16:38:14+00:00",
+      "details": [
+        "lightspeed-multichat22: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Emmanuel66h/lightspeed-multichat22"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-08-18T16:38:14+00:00",
+      "last_seen": "2026-08-18T16:38:14+00:00",
+      "details": [
+        "lightspeed-multichat22: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Emmanuel66h/lightspeed-multichat22"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-08-18T16:38:14+00:00",
+      "last_seen": "2026-08-18T16:38:14+00:00",
+      "details": [
+        "lightspeed-multichat22: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Emmanuel66h/Xray-core"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-22T17:43:49+00:00",
+      "last_seen": "2026-09-16T14:35:10+00:00",
+      "details": [
+        "Xray-core: test file (app/dispatcher/stats_test.go)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Emmanuel66h/Xray-core"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4021929507971509,
+      "total_bytes": 4709,
+      "commit_count": 3,
+      "first_seen": "2026-02-22T17:43:49+00:00",
+      "last_seen": "2026-09-16T14:35:10+00:00",
+      "details": [
+        "Xray-core: HTML: 4,709 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Emmanuel66h/Xray-core"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4011577140967758,
+      "total_bytes": 2486,
+      "commit_count": 3,
+      "first_seen": "2026-02-22T17:43:49+00:00",
+      "last_seen": "2026-09-16T14:35:10+00:00",
+      "details": [
+        "Xray-core: Shell: 2,486 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "Emmanuel66h/Xray-core"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-22T17:43:49+00:00",
+      "last_seen": "2026-09-16T14:35:10+00:00",
+      "details": [
+        "Xray-core: repo topic 'linux'"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 0,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 7,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 0 < 3; total_commits: 7 < 20"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-16T14:38:49.219659+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 0 < 3; total_commits: 7 < 20"
+  ]
+}

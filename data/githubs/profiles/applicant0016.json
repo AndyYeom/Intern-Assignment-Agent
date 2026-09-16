@@ -1,0 +1,1124 @@
+{
+  "applicant_id": "applicant0016",
+  "login": "George2f",
+  "html_url": "https://github.com/George2f",
+  "created_at": "2020-01-31T17:57:25Z",
+  "account_age_days": 2419,
+  "public_repos": 6,
+  "followers": 2,
+  "following": 1,
+  "repos": [
+    {
+      "name": "dumbest-graph-app",
+      "full_name": "George2f/dumbest-graph-app",
+      "html_url": "https://github.com/George2f/dumbest-graph-app",
+      "description": "This is the dumbest graph app possible.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-25T22:28:38Z",
+      "pushed_at": "2024-07-09T11:35:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 620,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 169650,
+        "JavaScript": 8321,
+        "HTML": 619,
+        "CSS": 197
+      },
+      "primary_language": "TypeScript",
+      "file_count": 153,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "README.nx.md",
+        "dga-client",
+        "dga-db",
+        "dga-server-node",
+        "nx.json",
+        "package-lock.json",
+        "package.json"
+      ],
+      "notable_files": [
+        "dga-client/package.json",
+        "dga-server-node/package.json",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@nx/js",
+          "@prisma/client",
+          "@types/cookie-parser",
+          "@types/cors",
+          "@types/debug",
+          "@types/express",
+          "@types/morgan",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "axios",
+          "clsx",
+          "cookie-parser",
+          "cors",
+          "debug",
+          "eslint",
+          "eslint-plugin-node",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "express",
+          "morgan",
+          "msw",
+          "nodemon",
+          "nx",
+          "postcss",
+          "prettier",
+          "prettier-plugin-tailwindcss",
+          "prisma",
+          "react",
+          "react-dom",
+          "react-force-graph",
+          "react-router-dom",
+          "tailwind-merge",
+          "tailwindcss",
+          "ts-node",
+          "tsconfig-paths",
+          "typescript",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1282,
+      "readme_excerpt": "# This is DGA - Directional graph app\n\n## TODO\n\n- tags - done\n- tailwind - done\n- attributes - done\n- Quality of Life\n  - link from node - done\n  - link list from node - done\n  - add tag on click - done\n  - filter node list by tag - done\n  - anchored header - done\n- graph focus by tag - done\n- graph focus node neighbor - done\n- templates - done\n\n## TODO 2\n\n- collect orphan nodes on the graph - done\n- give an id to the graph so you can have multiple at the same time - done\n- show how much nodes remain after filter - done\n- fix filter toggle button - done\n- move repo to github - done\n- make into a monorepo with subrepos - canceled\n- add db subfolder - canceled\n- rework local persistence - done\n- persist graph with SQLite - postponed, prisma can't run in the browser\n- make MSW persistence layer - done\n- move to NX monorepo - done\n- add node backend app - done\n- move mocked endpoints and sqlite access to node backend\n- add go server subfolder\n- persist graph through backend\n\n## TODO 3\n\n- make header pretty\n- make filter select better\n- make id numbers smaller\n- make new node pretty\n- make edit node pretty\n- make node list pretty\n- make new link pretty\n- make edit link pretty\n- make lin",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 62,
+        "first_at": "2023-10-25T22:30:08+00:00",
+        "last_at": "2024-06-03T23:06:32+00:00",
+        "active_days": 34,
+        "span_days": 222,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(dga-server): add dga server initial code",
+          "feat(dga): add nx as monorepo manager",
+          "feat(dga-client): add server persistence provider and mocked endpoints",
+          "feat(dga-client): add msw and refactor folder structure",
+          "feat(dga-client): add sqlite persistence layer, update Readme TODO",
+          "refactor(dga-client): remove comments from links",
+          "feat(dga-client): add missing columns to db tables",
+          "refactor(dga-client): update persistance to work with promises",
+          "feat(dga-client): add link type to db schema",
+          "refactor(dga-client): completely rework client persistence layer",
+          "refactor(dga-client): make graph work through id and not name",
+          "feat(dga-client): add all db tables into schema",
+          "refactor(dga-client): make node attribute into interface and adjust code",
+          "feat(dga-client): create initial db schema and migration",
+          "feat(dga): update gitignore",
+          "feat(dga-client): add prisma for db management",
+          "feat(dga-db): add working sql scripts",
+          "refactor(dga): move client to subfolder",
+          "feat(dga): expand todo and move to github",
+          "feat(dga): fix filter toggle button and communicate number of filtered nodes"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 129
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 7,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 169,650 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 8,321 bytes (5% of repo)",
+          "strength": 0.44654141520356627
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (dga-client/prisma/migrations/0_init/down.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (dga-client/prisma/migrations/0_init/down.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (dga-client/tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@types/express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "prisma in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 178787,
+        "strong_skills": [
+          "data-modeling",
+          "nodejs",
+          "react",
+          "sql",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "omega-test",
+      "full_name": "George2f/omega-test",
+      "html_url": "https://github.com/George2f/omega-test",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-06-15T00:11:55Z",
+      "pushed_at": "2024-06-15T00:14:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 161,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 56465,
+        "JavaScript": 10204,
+        "CSS": 2768,
+        "HTML": 366
+      },
+      "primary_language": "TypeScript",
+      "file_count": 69,
+      "top_level_paths": [
+        ".eslintrc.cjs",
+        ".gitignore",
+        ".prettierrc",
+        "OS - zadatak react developer.docx",
+        "README.md",
+        "components.json",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-slot",
+          "@tanstack/react-query",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "axios",
+          "class-variance-authority",
+          "clsx",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "fuse.js",
+          "lucide-react",
+          "msw",
+          "postcss",
+          "prettier",
+          "react",
+          "react-dom",
+          "react-router-dom",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 598,
+      "readme_excerpt": "# Omega software zadatak\n\nCijeli zadatak priložen je u repozitorij u dokumentu [OS - zadatak react developer.docx](./OS%20-%20zadatak%20react%20developer.docx)\n\n## Preduvjeti\n\n- Node.js v16.15.1 minimum\n- npm v8.11.0 minimum\n\n## Upute za pokrenuti\n\n1. Klonirati git repozitorij\n2. U terminalu se navigirati na root repozitorija\n3. Pokrenuti ```npm install```\n4. krenirati .env datoteku u rootu repozitorija i u nju spremiti varijablu ```VITE_API_BASE=\"https://localhost:8080\"```\n5. pokrenuti aplikaciju s ```npm run dev``` komandom\n6. otvoriti aplikaciju u browseru na linku koji predloži terminal\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 17,
+        "first_at": "2024-06-11T18:34:48+00:00",
+        "last_at": "2024-06-15T00:13:44+00:00",
+        "active_days": 4,
+        "span_days": 3,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "build(omega-test) bump version to 1.0.0",
+          "docs(omega-test): add readme and startup instructions",
+          "feat(omega-test): add app router",
+          "feat(omega-test): add not found page",
+          "feat(omega-test): add loading to home page",
+          "feat(omega-test): add ContractDetails page",
+          "feat(omega-test): add details to home page",
+          "feat(omega-test): add ContractCard, NewContractModal, StatusBadge",
+          "docs(omega-test): add api todos",
+          "feat(omega-test): extract status and id of model interfaces to new interface",
+          "feat(omega-test): add new components",
+          "feat(omega-test): make mocking work",
+          "build(omega-test): update gitignore",
+          "feat(omega-test): add data api utils and data fetching hooks",
+          "feat(omega-test): add component lib and base styles",
+          "feat(omega-test) add libraries and assignment text",
+          "feat(omega-test) add initial files"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 56
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 17,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 56,465 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 10,204 bytes (15% of repo)",
+          "strength": 0.5461828288182456
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,768 bytes (4% of repo)",
+          "strength": 0.4396544561122015
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 69803,
+        "strong_skills": [
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bpm-light",
+      "full_name": "George2f/bpm-light",
+      "html_url": "https://github.com/George2f/bpm-light",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-03-04T22:23:59Z",
+      "pushed_at": "2024-03-18T16:51:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 139,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 25811,
+        "Vue": 15756,
+        "JavaScript": 1713,
+        "HTML": 840,
+        "CSS": 224
+      },
+      "primary_language": "TypeScript",
+      "file_count": 56,
+      "top_level_paths": [
+        ".nvmrc",
+        ".vscode",
+        "README.md",
+        "bpm-react",
+        "bpm-vue"
+      ],
+      "notable_files": [
+        "bpm-react/package.json",
+        "bpm-vue/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 91,
+      "readme_excerpt": "# BPM Light app - Beat your life\n\n## React + TypeScript + Vite\n\n## Vue + Typescript + Vite\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2024-03-04T22:24:34+00:00",
+        "last_at": "2024-03-18T16:51:35+00:00",
+        "active_days": 4,
+        "span_days": 13,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "refactor(bpm-react): tidy up the code a bit",
+          "feat(bpm-vue): add vue functionality",
+          "feat(bpm-vue): add Button component and placeholders for other components",
+          "refactor(bpm-react): better separate concerns",
+          "feat(bpm-vue): add initial vue files",
+          "refactor(bpm-light): move react app to subfolder",
+          "feat(bpm-light) inital commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 34
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 3,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 25,811 bytes (58% of repo)",
+          "strength": 0.9820629622947863
+        },
+        {
+          "skill_id": "vue",
+          "source": "language",
+          "detail": "Vue: 15,756 bytes (36% of repo)",
+          "strength": 0.7553130073967166
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,713 bytes (4% of repo)",
+          "strength": 0.43862980335558366
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (bpm-react/tailwind.config.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 44344,
+        "strong_skills": [
+          "tailwind",
+          "typescript",
+          "vue"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "september-testing",
+      "full_name": "George2f/september-testing",
+      "html_url": "https://github.com/George2f/september-testing",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-02T19:58:12Z",
+      "pushed_at": "2022-10-27T20:34:47Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 613,
+      "default_branch": "develop",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 31447,
+        "SCSS": 4735,
+        "HTML": 1720
+      },
+      "primary_language": "TypeScript",
+      "file_count": 94,
+      "top_level_paths": [
+        ".github",
+        "README.md",
+        "septesting"
+      ],
+      "notable_files": [
+        ".github/workflows/version-bump.yml",
+        "septesting/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 891,
+      "readme_excerpt": "# september-testing\n\nThis project was made as a short capability test in September 2021.\n\nIt was bootstrapped with Create React App. The default README.md of Create React App can be found in /septesting.\n\n## Why the name Septesting? \n\nSimple. Because it is a test in September. There are a few easter eggs in the app and you can find them by playing with the the logo.\n\n## How to run it?\n\nThere are 2 parts to running this app:\n\n1. prerequisites\n2. running the app\n\n### 1. Prerequisites\n\n Node.JS >= 14.0.0 and npm >= 5.6\n\n### 2. Running the app\n\n1. With you command line or terminal go to septesting folder\n2. run \"npm install\"\n3. run \"npm start\"\n\n### 3. (optional) Running the tests\n\n1. with your command line or terminal go to septesting folder\n2. run \"npm install\" if you haven't already\n3. run \"npm test\"\n\n## Where to next?\n\nContact us through [our contact email](mailto:[email]).",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.396,
+      "commits": {
+        "count": 21,
+        "first_at": "2021-09-02T19:58:12+00:00",
+        "last_at": "2022-10-27T20:34:20+00:00",
+        "active_days": 8,
+        "span_days": 420,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.048,
+        "messages_sample": [
+          "Merge pull request #18 from George2f/feature/greet-context",
+          "Merge pull request #17 from George2f/feature/greet-context",
+          "Merge pull request #16 from George2f/fix/app-test",
+          "Update version-bump.yml",
+          "Create version-bump.yml",
+          "Merge pull request #15 from George2f/feature/documentation",
+          "Merge pull request #14 from George2f/feature/update-libraries",
+          "Merge pull request #13 from George2f/main",
+          "Merge pull request #12 from George2f/hotfix/1.0.1",
+          "Merge pull request #11 from George2f/develop",
+          "Merge pull request #9 from George2f/release/1.0",
+          "Merge pull request #10 from George2f/develop",
+          "Merge pull request #8 from George2f/feature/greeting-context",
+          "Merge pull request #7 from George2f/feature/post-styles",
+          "Merge pull request #6 from George2f/feature/posts-styles",
+          "Merge pull request #5 from George2f/feature/post-filter",
+          "Merge pull request #4 from George2f/feature/backend-endpoints",
+          "Merge pull request #3 from George2f/feature/greeting-context",
+          "Merge pull request #2 from George2f/feature/routing",
+          "Merge pull request #1 from George2f/feature/init"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 79
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 31,447 bytes (83% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 4,735 bytes (12% of repo)",
+          "strength": 0.5249274444620337
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,720 bytes (5% of repo)",
+          "strength": 0.4453801910189436
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/version-bump.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (septesting/src/App.test.tsx)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 37902,
+        "strong_skills": [
+          "cicd",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 283373,
+    "JavaScript": 20238,
+    "Vue": 15756,
+    "SCSS": 4735,
+    "HTML": 3545,
+    "CSS": 3189
+  },
+  "total_commits": 107,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "George2f/dumbest-graph-app",
+        "George2f/omega-test",
+        "George2f/bpm-light",
+        "George2f/september-testing"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 283373,
+      "commit_count": 107,
+      "first_seen": "2021-09-02T19:58:12+00:00",
+      "last_seen": "2024-06-15T00:13:44+00:00",
+      "details": [
+        "dumbest-graph-app: TypeScript: 169,650 bytes (95% of repo)",
+        "dumbest-graph-app: typescript in package.json",
+        "omega-test: TypeScript: 56,465 bytes (81% of repo)",
+        "omega-test: typescript in package.json",
+        "bpm-light: TypeScript: 25,811 bytes (58% of repo)",
+        "september-testing: TypeScript: 31,447 bytes (83% of repo)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "George2f/dumbest-graph-app",
+        "George2f/omega-test",
+        "George2f/bpm-light"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 86,
+      "first_seen": "2023-10-25T22:30:08+00:00",
+      "last_seen": "2024-06-15T00:13:44+00:00",
+      "details": [
+        "dumbest-graph-app: tailwind config (dga-client/tailwind.config.js)",
+        "dumbest-graph-app: tailwindcss in package.json",
+        "omega-test: tailwind config (tailwind.config.js)",
+        "omega-test: tailwindcss in package.json",
+        "bpm-light: tailwind config (bpm-react/tailwind.config.js)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "George2f/dumbest-graph-app",
+        "George2f/omega-test"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 79,
+      "first_seen": "2023-10-25T22:30:08+00:00",
+      "last_seen": "2024-06-15T00:13:44+00:00",
+      "details": [
+        "dumbest-graph-app: @types/react in package.json",
+        "omega-test: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "George2f/dumbest-graph-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 62,
+      "first_seen": "2023-10-25T22:30:08+00:00",
+      "last_seen": "2024-06-03T23:06:32+00:00",
+      "details": [
+        "dumbest-graph-app: database migrations (dga-client/prisma/migrations/0_init/down.sql)",
+        "dumbest-graph-app: prisma in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "George2f/dumbest-graph-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 62,
+      "first_seen": "2023-10-25T22:30:08+00:00",
+      "last_seen": "2024-06-03T23:06:32+00:00",
+      "details": [
+        "dumbest-graph-app: @types/express in package.json"
+      ]
+    },
+    {
+      "skill_id": "vue",
+      "repos": [
+        "George2f/bpm-light"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7553130073967166,
+      "total_bytes": 15756,
+      "commit_count": 7,
+      "first_seen": "2024-03-04T22:24:34+00:00",
+      "last_seen": "2024-03-18T16:51:35+00:00",
+      "details": [
+        "bpm-light: Vue: 15,756 bytes (36% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "George2f/dumbest-graph-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 62,
+      "first_seen": "2023-10-25T22:30:08+00:00",
+      "last_seen": "2024-06-03T23:06:32+00:00",
+      "details": [
+        "dumbest-graph-app: SQL file (dga-client/prisma/migrations/0_init/down.sql)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "George2f/september-testing"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 21,
+      "first_seen": "2021-09-02T19:58:12+00:00",
+      "last_seen": "2022-10-27T20:34:20+00:00",
+      "details": [
+        "september-testing: GitHub Actions workflow (.github/workflows/version-bump.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "George2f/september-testing"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 21,
+      "first_seen": "2021-09-02T19:58:12+00:00",
+      "last_seen": "2022-10-27T20:34:20+00:00",
+      "details": [
+        "september-testing: test file (septesting/src/App.test.tsx)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "George2f/dumbest-graph-app",
+        "George2f/omega-test",
+        "George2f/bpm-light"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5461828288182456,
+      "total_bytes": 20238,
+      "commit_count": 86,
+      "first_seen": "2023-10-25T22:30:08+00:00",
+      "last_seen": "2024-06-15T00:13:44+00:00",
+      "details": [
+        "dumbest-graph-app: JavaScript: 8,321 bytes (5% of repo)",
+        "omega-test: JavaScript: 10,204 bytes (15% of repo)",
+        "bpm-light: JavaScript: 1,713 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "George2f/omega-test",
+        "George2f/september-testing"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5249274444620337,
+      "total_bytes": 9223,
+      "commit_count": 38,
+      "first_seen": "2021-09-02T19:58:12+00:00",
+      "last_seen": "2024-06-15T00:13:44+00:00",
+      "details": [
+        "omega-test: CSS: 2,768 bytes (4% of repo)",
+        "september-testing: SCSS: 4,735 bytes (12% of repo)",
+        "september-testing: HTML: 1,720 bytes (5% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 107,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-16T14:13:30.723834+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

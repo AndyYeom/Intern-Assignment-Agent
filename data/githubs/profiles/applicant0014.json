@@ -1,0 +1,1379 @@
+{
+  "applicant_id": "applicant0014",
+  "login": "Roman-Ghorjomeladze",
+  "html_url": "https://github.com/Roman-Ghorjomeladze",
+  "created_at": "2020-01-31T20:11:00Z",
+  "account_age_days": 2419,
+  "public_repos": 15,
+  "followers": 3,
+  "following": 0,
+  "repos": [
+    {
+      "name": "family-tree",
+      "full_name": "Roman-Ghorjomeladze/family-tree",
+      "html_url": "https://github.com/Roman-Ghorjomeladze/family-tree",
+      "description": "Family tree builder with NestJS backend, React frontend, PostgreSQL + Neo4j data model, multi-language support, GEDCOM import/export, and collaboration features.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-19T23:10:22Z",
+      "pushed_at": "2026-04-19T23:10:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2117,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 397212,
+        "CSS": 96640,
+        "JavaScript": 1137,
+        "HTML": 773
+      },
+      "primary_language": "TypeScript",
+      "file_count": 254,
+      "top_level_paths": [
+        ".env.example",
+        ".gitignore",
+        ".prettierrc",
+        "README.md",
+        "apps",
+        "assets",
+        "docker",
+        "package.json",
+        "packages",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "turbo.json"
+      ],
+      "notable_files": [
+        "apps/api/package.json",
+        "apps/web/package.json",
+        "package.json",
+        "packages/eslint-config/package.json",
+        "packages/shared-types/package.json",
+        "packages/shared-utils/package.json",
+        "packages/tsconfig/package.json",
+        "packages/ui/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "prettier",
+          "turbo"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 8513,
+      "readme_excerpt": "# Family Tree\n\nA full-stack application for building, managing, and visualizing family trees. Built with a modern tech stack featuring a NestJS backend API and a React frontend.\n\n## 🎬 Demo\n\n![Demo](assets/demo.gif)\n\n## 🚀 Features\n\n- **User Authentication & Authorization** - Secure login and role-based access control\n- **Family Tree Management** - Create, edit, and manage family tree structures\n- **Family Members** - Add and manage detailed person profiles\n- **Relationships** - Define and visualize different types of family relationships\n- **Visual Canvas** - Interactive visualization of family trees using graph layouts\n- **Multi-language Support** - Internationalization (I18n) support for multiple languages\n- **Collaboration** - Collaboration features for shared family trees\n- **GEDCOM Support** - Import/export family tree data in GEDCOM format\n- **Search** - Powerful search across family members and trees\n- **Notifications** - Real-time notifications and updates\n- **Media Management** - Upload and manage photos and media files\n- **Blog/Articles** - Share family stories and articles\n- **Admin Dashboard** - Administrative tools and management interface\n\n## 📋 Prerequisites\n\n- **Node.",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2026-03-03T22:30:27+00:00",
+        "last_at": "2026-04-19T23:10:49+00:00",
+        "active_days": 3,
+        "span_days": 47,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Pushed to github",
+          "feat: implement Phase 6 - dashboard, sidebar polish, and responsive improvements",
+          "feat: implement Phase 5 - Paddle subscriptions and GEDCOM import/export",
+          "feat: implement Phase 4 - content platform with blog, search, and admin",
+          "feat: implement Phase 3 - social features and collaboration",
+          "feat: implement Phase 2 - core tree features with React Flow canvas",
+          "feat: scaffold Phase 1 foundation - monorepo with auth and frontend"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 198
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 397,212 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 96,640 bytes (19% of repo)",
+          "strength": 0.5949322457146776
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,137 bytes (0% of repo)",
+          "strength": 0.40229343919057936
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (docker/docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "repo_name",
+          "detail": "'postgresql' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 495762,
+        "strong_skills": [
+          "docker",
+          "html-css",
+          "linux",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "forma",
+      "full_name": "Roman-Ghorjomeladze/forma",
+      "html_url": "https://github.com/Roman-Ghorjomeladze/forma",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-09-10T23:13:32Z",
+      "pushed_at": "2026-09-13T20:46:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13424,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 504354,
+        "CSS": 35287,
+        "JavaScript": 18962,
+        "HTML": 1818,
+        "Shell": 1159
+      },
+      "primary_language": "TypeScript",
+      "file_count": 1349,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "docs",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "tools",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5711,
+      "readme_excerpt": "# Forma\n\nWorkouts + meal planning as a personal iPhone app. It is a **Progressive Web App**: you open it in Safari once,\ntap *Add to Home Screen*, and from then on it runs full-screen, offline, with your data stored on the phone.\nNo Apple developer account, no App Store, no Xcode.\n\n- **Today** — calories left (target − eaten + burned), macro progress, today's scheduled workout and planned meals.\n- **Meals** — dish library with ingredients, cooking steps and nutrition (computed from ingredients or entered\n  manually), a week planner with per-day totals, and an aggregated shopping list.\n- **Workouts** — exercise library with animated demos (or your own GIFs), a workout builder with exercises,\n  rests and repeating rounds, a guided full-screen timer with voice + sound cues, MET-based calorie estimates,\n  history and a weekly schedule.\n  Workouts can be **shared**: *Share* on a workout (or *Select → Share* for several) sends a `.forma-workouts.json`\n  file through the system share sheet (AirDrop, Messages, WhatsApp…); the recipient taps *Import* on their Workouts\n  screen. The file carries the referenced exercises and custom demo GIFs, so it works on any Forma install.\n- **Settings** —",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2026-09-10T23:14:49+00:00",
+        "last_at": "2026-09-13T20:41:46+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Share and import workouts",
+          "Some improvements",
+          "Add multi-select category badges to the workout builder's exercise picker",
+          "Fix TTS punctuation artifacts and speed up exercise editing",
+          "Let users upload their own mp3s as workout background music",
+          "Add motivational workout music, split voice/sound controls, fix layout",
+          "Fix black exercise-video thumbnails; localize seed data to Georgian",
+          "Add 3 more starter workouts, fill in remaining exercise demo videos",
+          "Add Android/Chrome install instructions and a dedicated language switcher",
+          "Fix workouts calendar layout, add real exercise demo videos, fix app boot crash",
+          "Add Georgian (ქართული) translations",
+          "Fix countdown-cue label wrapping; move build output to docs/ for GitHub Pages",
+          "For deployment",
+          "Form App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 114
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 504,354 bytes (90% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 35,287 bytes (6% of repo)",
+          "strength": 0.4628352149293066
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 18,962 bytes (3% of repo)",
+          "strength": 0.43376544748744617
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,818 bytes (0% of repo)",
+          "strength": 0.403237294775455
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,159 bytes (0% of repo)",
+          "strength": 0.40206381993660745
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 561580,
+        "strong_skills": [
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "react-express",
+      "full_name": "Roman-Ghorjomeladze/react-express",
+      "html_url": "https://github.com/Roman-Ghorjomeladze/react-express",
+      "description": "Simple ReactJS and ExpressJS App",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-28T00:05:00Z",
+      "pushed_at": "2023-12-11T19:14:56Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2639,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 86720,
+        "CSS": 12880,
+        "MDX": 11289,
+        "HTML": 719
+      },
+      "primary_language": "TypeScript",
+      "file_count": 121,
+      "top_level_paths": [
+        ".eslintignore",
+        ".eslintrc",
+        ".gitignore",
+        "README.md",
+        "client",
+        "package-lock.json",
+        "package.json",
+        "prettierrc.json",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "client/package.json",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@types/cors",
+          "@types/express",
+          "@types/node",
+          "@types/sequelize",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "concurrently",
+          "cors",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-plugin-prettier",
+          "express",
+          "express-validator",
+          "nodemon",
+          "prettier",
+          "sequelize",
+          "sqlite3",
+          "ts-node",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5001,
+      "readme_excerpt": "## Basic walk-through of Front End App ##\n### Pages available ###\n    * / Main Page\n        * You can pick up a user to authorize with it.\n        * Halft of the users are clients who has contracts for some job.\n        * Another half of users are contractors that are working on client's jobs.\n    * / dashboard \n        * After picking up a user, you are redirected to dashboard.\n        * On dashboard you see two tables. \n            * The first one is for Contracts signed between client and contractor.\n            * The second table shows Jobs that should be done according to the contract.\n        * There is a Deposit button in client view which allows you to deposit money to account.\n        * There is a Pay button which allows clients to pay the price of the job to contractors.\n    * / admin \n        * On admin page There are two type of cards\n            * First shows top payed profession\n            * Second shows clients with top costs + you have kind of pagination as well.\n    * / profile \n        * On profile page you can see your profile info\n        * You have button to log out\n## Features implemented in API ##\n- Request validation\n    - Request validation was needed only",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2023-12-01T18:55:40+00:00",
+        "last_at": "2023-12-11T19:13:36+00:00",
+        "active_days": 2,
+        "span_days": 10,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fixed bug in transactions",
+          "fixup",
+          "Added TS in API, updated UI with filters"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 89
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 86,720 bytes (78% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 12,880 bytes (12% of repo)",
+          "strength": 0.5154039136979428
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "repo_name",
+          "detail": "'express' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@types/express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "@types/sequelize in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 100319,
+        "strong_skills": [
+          "data-modeling",
+          "nodejs",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "doodleDraw",
+      "full_name": "Roman-Ghorjomeladze/doodleDraw",
+      "html_url": "https://github.com/Roman-Ghorjomeladze/doodleDraw",
+      "description": "Multiplayer online game",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-11T22:45:21Z",
+      "pushed_at": "2026-04-10T09:16:45Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1422,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 1344699,
+        "HTML": 1337903,
+        "JavaScript": 20135,
+        "CSS": 13960,
+        "Shell": 2011
+      },
+      "primary_language": "TypeScript",
+      "file_count": 359,
+      "top_level_paths": [
+        ".claude",
+        ".github",
+        ".gitignore",
+        "README.md",
+        "apps",
+        "deploy",
+        "docker-compose.yml",
+        "e2e",
+        "ecosystem.config.js",
+        "package.json",
+        "packages",
+        "playwright.config.ts",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "tsconfig.base.json"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "apps/server/package.json",
+        "apps/web/package.json",
+        "package.json",
+        "packages/shared/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@playwright/test"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 6121,
+      "readme_excerpt": "# DoodleDraw\n\nA real-time multiplayer drawing and guessing game built with React, NestJS, and Socket.IO. Players take turns drawing words while others try to guess them — similar to Pictionary or Skribbl.io.\n\n## Features\n\n- **Classic Mode** — One player draws, everyone else guesses\n- **Team Mode** — Two teams compete with alternating drawers, handicap system for balance\n- **Real-time Canvas** — Stroke, fill, undo, clear with configurable brush sizes and 20 colors\n- **Chat & Guessing** — Integrated chat with automatic guess detection and scoring\n- **Hints** — Progressive letter reveals on a configurable interval\n- **Bot Players** — AI opponents with vision-based drawing for always-on lobbies\n- **Leaderboard** — All-time, weekly, by country, and by age group rankings\n- **Multi-language** — Word packs in English, Russian, Turkish, and Georgian\n- **Admin Panel** — Room management, word stats, broadcast messaging\n- **Dark Mode** — Full theme toggle support\n- **Responsive** — Works on desktop and mobile\n- **Emoji Reactions** — 18 reaction emojis during gameplay\n- **Reconnection** — Persistent player IDs allow seamless reconnection\n- **Spectator Mode** — Watch ongoing games without partic",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 50,
+        "first_at": "2026-03-11T22:46:29+00:00",
+        "last_at": "2026-04-10T09:16:42+00:00",
+        "active_days": 16,
+        "span_days": 29,
+        "max_per_day": 14,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Added bug tracking and admin pages",
+          "Fixed scrolling issue",
+          "Added tests and fixed some friend request related functionalities",
+          "Added functionality of adding friends, invite friends to game and removed bots from leaderboards",
+          "fix of colors",
+          "Color picker fix and readme",
+          "fix",
+          "fix",
+          "Fixed styling",
+          "Fix of team games",
+          "fix",
+          "Abort signal tailored",
+          "build'",
+          "Bots",
+          "UI Fixes",
+          "UI Fixes",
+          "UI fixes",
+          "added user profile management",
+          "Fixed score deduct bug",
+          "Fixed performance and added some features like kick user from lobby, persist games in db etc.."
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 326
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 15,
+          "perf": 1,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,344,699 bytes (49% of repo)",
+          "strength": 0.8946095718995934
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,337,903 bytes (49% of repo)",
+          "strength": 0.8921098551223596
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 20,135 bytes (1% of repo)",
+          "strength": 0.4074060914228376
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 13,960 bytes (1% of repo)",
+          "strength": 0.40513479196736096
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,011 bytes (0% of repo)",
+          "strength": 0.4007396895878484
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (apps/server/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (apps/server/src/game/bot/__tests__/bot-player.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (e2e/auth-flow.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2718708,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "html-css",
+          "integration-testing",
+          "linux",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "all-app",
+      "full_name": "Roman-Ghorjomeladze/all-app",
+      "html_url": "https://github.com/Roman-Ghorjomeladze/all-app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-06T19:02:30Z",
+      "pushed_at": "2026-02-26T22:29:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2019,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 1015579,
+        "JavaScript": 123
+      },
+      "primary_language": "TypeScript",
+      "file_count": 196,
+      "top_level_paths": [
+        ".gitignore",
+        "App.tsx",
+        "app.json",
+        "assets",
+        "babel.config.js",
+        "eas.json",
+        "index.ts",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@expo/vector-icons",
+          "@react-native-async-storage/async-storage",
+          "@react-native-community/datetimepicker",
+          "@react-navigation/bottom-tabs",
+          "@react-navigation/native",
+          "@react-navigation/native-stack",
+          "@types/react",
+          "babel-preset-expo",
+          "country-flag-icons",
+          "expo",
+          "expo-av",
+          "expo-localization",
+          "expo-navigation-bar",
+          "expo-notifications",
+          "expo-sqlite",
+          "expo-status-bar",
+          "i18n-js",
+          "react",
+          "react-native",
+          "react-native-gesture-handler",
+          "react-native-reanimated",
+          "react-native-safe-area-context",
+          "react-native-screens",
+          "react-native-svg",
+          "react-native-vector-icons",
+          "react-native-worklets",
+          "typescript"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 16,
+        "first_at": "2026-02-04T18:37:15+00:00",
+        "last_at": "2026-02-26T22:29:32+00:00",
+        "active_days": 9,
+        "span_days": 22,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.062,
+        "messages_sample": [
+          "minor changes and bug fixes",
+          "new icon plus some fixes",
+          "Fixes for android",
+          "Added images",
+          "Fixed landscape layout on home screen",
+          "Tailored layout animations",
+          "Added FitLog and MealPlanner apps",
+          "Added pocket manager app",
+          "Added Todos app and created single pattern for headers",
+          "Added support for landscape to modals, added history tab for birthdays&events",
+          "Added app for birthdays",
+          "Fixed family tree rendering + added landscape support",
+          "Fixing flickers",
+          "Finished dark theme, fixing the swapping cards",
+          "Added first four apps",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 176
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,015,579 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react-native",
+          "source": "manifest",
+          "detail": "expo in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1015702,
+        "strong_skills": [
+          "react",
+          "react-native",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 3348564,
+    "HTML": 1341213,
+    "CSS": 158767,
+    "JavaScript": 40357,
+    "MDX": 11289,
+    "Shell": 3170
+  },
+  "total_commits": 90,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Roman-Ghorjomeladze/family-tree",
+        "Roman-Ghorjomeladze/forma",
+        "Roman-Ghorjomeladze/react-express",
+        "Roman-Ghorjomeladze/doodleDraw",
+        "Roman-Ghorjomeladze/all-app"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3348564,
+      "commit_count": 90,
+      "first_seen": "2023-12-01T18:55:40+00:00",
+      "last_seen": "2026-09-13T20:41:46+00:00",
+      "details": [
+        "family-tree: TypeScript: 397,212 bytes (80% of repo)",
+        "forma: TypeScript: 504,354 bytes (90% of repo)",
+        "forma: typescript in package.json",
+        "react-express: TypeScript: 86,720 bytes (78% of repo)",
+        "react-express: typescript in package.json",
+        "doodleDraw: TypeScript: 1,344,699 bytes (49% of repo)",
+        "all-app: TypeScript: 1,015,579 bytes (100% of repo)",
+        "all-app: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Roman-Ghorjomeladze/family-tree",
+        "Roman-Ghorjomeladze/react-express",
+        "Roman-Ghorjomeladze/all-app"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 26,
+      "first_seen": "2023-12-01T18:55:40+00:00",
+      "last_seen": "2026-04-19T23:10:49+00:00",
+      "details": [
+        "family-tree: 'react' in repo name/description",
+        "react-express: 'react' in repo name/description",
+        "all-app: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "Roman-Ghorjomeladze/react-express"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2023-12-01T18:55:40+00:00",
+      "last_seen": "2023-12-11T19:13:36+00:00",
+      "details": [
+        "react-express: 'express' in repo name/description",
+        "react-express: @types/express in package.json"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 50,
+      "first_seen": "2026-03-11T22:46:29+00:00",
+      "last_seen": "2026-04-10T09:16:42+00:00",
+      "details": [
+        "doodleDraw: e2e suite (e2e/auth-flow.spec.ts)",
+        "doodleDraw: @playwright/test in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "Roman-Ghorjomeladze/react-express"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2023-12-01T18:55:40+00:00",
+      "last_seen": "2023-12-11T19:13:36+00:00",
+      "details": [
+        "react-express: @types/sequelize in package.json"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "Roman-Ghorjomeladze/all-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2026-02-04T18:37:15+00:00",
+      "last_seen": "2026-02-26T22:29:32+00:00",
+      "details": [
+        "all-app: expo in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Roman-Ghorjomeladze/family-tree",
+        "Roman-Ghorjomeladze/forma",
+        "Roman-Ghorjomeladze/react-express",
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8921098551223596,
+      "total_bytes": 1498488,
+      "commit_count": 74,
+      "first_seen": "2023-12-01T18:55:40+00:00",
+      "last_seen": "2026-09-13T20:41:46+00:00",
+      "details": [
+        "family-tree: CSS: 96,640 bytes (19% of repo)",
+        "forma: CSS: 35,287 bytes (6% of repo)",
+        "forma: HTML: 1,818 bytes (0% of repo)",
+        "react-express: CSS: 12,880 bytes (12% of repo)",
+        "doodleDraw: HTML: 1,337,903 bytes (49% of repo)",
+        "doodleDraw: CSS: 13,960 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "Roman-Ghorjomeladze/family-tree",
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 57,
+      "first_seen": "2026-03-03T22:30:27+00:00",
+      "last_seen": "2026-04-19T23:10:49+00:00",
+      "details": [
+        "family-tree: env config (.env.example)",
+        "doodleDraw: env config (apps/server/.env.example)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Roman-Ghorjomeladze/family-tree",
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 57,
+      "first_seen": "2026-03-03T22:30:27+00:00",
+      "last_seen": "2026-04-19T23:10:49+00:00",
+      "details": [
+        "family-tree: docker-compose (docker/docker-compose.yml)",
+        "doodleDraw: docker-compose (docker-compose.yml)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 50,
+      "first_seen": "2026-03-11T22:46:29+00:00",
+      "last_seen": "2026-04-10T09:16:42+00:00",
+      "details": [
+        "doodleDraw: GitHub Actions workflow (.github/workflows/deploy.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 50,
+      "first_seen": "2026-03-11T22:46:29+00:00",
+      "last_seen": "2026-04-10T09:16:42+00:00",
+      "details": [
+        "doodleDraw: test file (apps/server/src/game/bot/__tests__/bot-player.spec.ts)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Roman-Ghorjomeladze/family-tree",
+        "Roman-Ghorjomeladze/forma",
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43376544748744617,
+      "total_bytes": 40234,
+      "commit_count": 71,
+      "first_seen": "2026-03-03T22:30:27+00:00",
+      "last_seen": "2026-09-13T20:41:46+00:00",
+      "details": [
+        "family-tree: JavaScript: 1,137 bytes (0% of repo)",
+        "forma: JavaScript: 18,962 bytes (3% of repo)",
+        "doodleDraw: JavaScript: 20,135 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Roman-Ghorjomeladze/forma",
+        "Roman-Ghorjomeladze/doodleDraw"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40206381993660745,
+      "total_bytes": 3170,
+      "commit_count": 64,
+      "first_seen": "2026-03-11T22:46:29+00:00",
+      "last_seen": "2026-09-13T20:41:46+00:00",
+      "details": [
+        "forma: Shell: 1,159 bytes (0% of repo)",
+        "doodleDraw: Shell: 2,011 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "Roman-Ghorjomeladze/family-tree"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2026-03-03T22:30:27+00:00",
+      "last_seen": "2026-04-19T23:10:49+00:00",
+      "details": [
+        "family-tree: 'postgresql' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 90,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-16T14:13:49.256387+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

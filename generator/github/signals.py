@@ -17,6 +17,8 @@ from collections.abc import Iterable
 from datetime import UTC, datetime
 from typing import Any
 
+from generator.timeutil import parse_ts
+
 # Repo names that almost always mean "I followed a guide".
 TUTORIAL_NAME_PATTERNS = [
     re.compile(r"(^|[-_])clone([-_]|$)", re.IGNORECASE),
@@ -64,13 +66,6 @@ CODE_EXTS = {
 }
 
 
-def _parse_ts(value: str | None) -> datetime | None:
-    if not value:
-        return None
-    try:
-        return datetime.fromisoformat(value)
-    except ValueError:
-        return None
 
 
 def commit_stats(commits: list[dict[str, Any]]) -> dict[str, Any]:
@@ -79,7 +74,7 @@ def commit_stats(commits: list[dict[str, Any]]) -> dict[str, Any]:
     messages: list[str] = []
     for commit in commits:
         node = (commit.get("commit") or {})
-        stamp = _parse_ts((node.get("author") or {}).get("date"))
+        stamp = parse_ts((node.get("author") or {}).get("date"))
         if stamp:
             dates.append(stamp)
         message = (node.get("message") or "").strip().splitlines()
@@ -112,7 +107,8 @@ def commit_stats(commits: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
-def judgment_signals(commit_summary: dict[str, Any], repo: dict[str, Any]) -> dict[str, Any]:
+def judgment_signals(commit_summary: dict[str, Any], repo: dict[str, Any],
+                     now: datetime | None = None) -> dict[str, Any]:
     """Intermediate vs Advanced evidence: judgment under difficulty."""
     messages = commit_summary.get("messages_sample", [])
     counts = {
@@ -120,9 +116,9 @@ def judgment_signals(commit_summary: dict[str, Any], repo: dict[str, Any]) -> di
         for label, pattern in JUDGMENT_COMMIT_PATTERNS.items()
     }
 
-    last = _parse_ts(commit_summary.get("last_at"))
+    last = parse_ts(commit_summary.get("last_at"))
     recently_active = bool(
-        last and (datetime.now(UTC) - last).days < 365
+        last and ((now or datetime.now(UTC)) - last).days < 365
     )
 
     return {
@@ -223,7 +219,7 @@ def repo_substance_score(repo: dict[str, Any]) -> float:
     score += 2.0 * len(repo.get("topics") or [])
     score += 4.0 if repo.get("homepage") else 0.0
     score += 2.0 if repo.get("license") else 0.0
-    pushed_at = _parse_ts(repo.get("pushed_at"))
+    pushed_at = parse_ts(repo.get("pushed_at"))
     if pushed_at is not None:
         age_days = (datetime.now(UTC) - pushed_at).days
         score += max(0.0, 4.0 - age_days / 365.0)
@@ -259,6 +255,9 @@ MIN_RELEVANT_CODE_FILES = 1
 MIN_RELEVANT_NOTEBOOKS = 1
 MIN_RELEVANT_CODE_BYTES = 2_000
 MIN_RELEVANT_COMMITS = 1
+# In a shared repo, the person must have written at least this share of commits.
+# Four equal teammates (25% each) pass; being one of six does not.
+MIN_RELEVANT_CONTRIBUTION_SHARE = 0.2
 MIN_RELEVANT_SIGNAL_STRENGTH = 0.55
 STRONG_SOURCES = {"language", "manifest", "file"}
 
@@ -279,6 +278,7 @@ def skill_relevance(
     structure: dict[str, Any],
     commit_count: int,
     skill_signals: list[dict[str, Any]],
+    contribution_share: float | None = None,
 ) -> tuple[bool, dict[str, Any]]:
     """Decide whether one repo is real skill work rather than text or config.
 
@@ -309,13 +309,13 @@ def skill_relevance(
         "code_bytes": code_bytes >= MIN_RELEVANT_CODE_BYTES,
         "strong_skill_signal": bool(strong),
         "own_commits": commit_count >= MIN_RELEVANT_COMMITS,
+        "own_share": contribution_share is None
+        or contribution_share >= MIN_RELEVANT_CONTRIBUTION_SHARE,
     }
     failed = [rule for rule, ok in rules.items() if not ok]
     return not failed, {
         "rules": rules,
         "failed": failed,
         "code_bytes": code_bytes,
-        "code_files": code_files,
-        "notebooks": notebooks,
         "strong_skills": sorted({s["skill_id"] for s in strong}),
     }

@@ -13,7 +13,6 @@ GITHUB_DATA = DATA / "githubs"
 CANDIDATES_PATH = GITHUB_DATA / "candidates.json"
 RAW_DIR = GITHUB_DATA / "raw"
 PROFILES_DIR = GITHUB_DATA / "profiles"
-INDEX_PATH = GITHUB_DATA / "index.json"
 
 CACHE_DIR = ROOT / ".cache" / "github"
 

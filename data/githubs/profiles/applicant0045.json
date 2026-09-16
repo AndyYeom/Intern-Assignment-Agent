@@ -1,0 +1,614 @@
+{
+  "applicant_id": "applicant0045",
+  "login": "Jpsassine",
+  "html_url": "https://github.com/Jpsassine",
+  "created_at": "2020-01-31T21:58:11Z",
+  "account_age_days": 2419,
+  "public_repos": 6,
+  "followers": 4,
+  "following": 5,
+  "repos": [
+    {
+      "name": "CS180_Brief",
+      "full_name": "Jpsassine/CS180_Brief",
+      "html_url": "https://github.com/Jpsassine/CS180_Brief",
+      "description": "Brief App",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-02-19T21:24:50Z",
+      "pushed_at": "2023-03-21T04:54:47Z",
+      "stargazers": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 62825,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 31917,
+        "CSS": 12574,
+        "HTML": 5058,
+        "TypeScript": 607
+      },
+      "primary_language": "JavaScript",
+      "file_count": 49,
+      "top_level_paths": [
+        ".DS_Store",
+        ".eslintrc.json",
+        ".gitignore",
+        "README.md",
+        "cypress",
+        "cypress.config.js",
+        "firebase",
+        "images",
+        "jsconfig.json",
+        "next.config.js",
+        "package-lock.json",
+        "package.json",
+        "pages",
+        "public",
+        "styles"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@next/font",
+          "bootstrap",
+          "cypress",
+          "eslint",
+          "eslint-config-next",
+          "firebase",
+          "gapi-script",
+          "next",
+          "openai",
+          "prettier",
+          "react",
+          "react-dom",
+          "react-firebase-hooks",
+          "react-responsive-carousel",
+          "start-server-and-test"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1776,
+      "readme_excerpt": "# CS180_Brief\n\nBrief App\n\nThis is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.\n\n[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.\n\nThe `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.\n\nThis project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 7,
+      "contribution_share": 0.119,
+      "commits": {
+        "count": 8,
+        "first_at": "2023-02-19T21:32:41+00:00",
+        "last_at": "2023-03-17T21:36:47+00:00",
+        "active_days": 4,
+        "span_days": 26,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.125,
+        "messages_sample": [
+          "Jp/login (#23)",
+          "Jp/backend infra (#3)",
+          "backend infra for gpt api setup (#2)",
+          "merge",
+          "NextJs setup",
+          "Create README.md",
+          "sec",
+          "first"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 30
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 31,917 bytes (64% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 12,574 bytes (25% of repo)",
+          "strength": 0.6506978227928862
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,058 bytes (10% of repo)",
+          "strength": 0.5008453624690965
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (cypress.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "cypress in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "manifest",
+          "detail": "openai in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 50156,
+        "strong_skills": [
+          "gcp-azure",
+          "html-css",
+          "integration-testing",
+          "javascript",
+          "llm-apps",
+          "nextjs",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Movie-Recommender",
+      "full_name": "Jpsassine/Movie-Recommender",
+      "html_url": "https://github.com/Jpsassine/Movie-Recommender",
+      "description": "This project allows a user to type in a movie they recently enjoyed and receive some top recommendations for similar movies based on a multitude of factors. The data comes from IMDb and is parsed into a usable structure for the architecture using the Boost Tokenizer library. Although the program is currently only supporting movies, the creation included the foresight to use flexible architect that will allow many new forms of different media to be added with ease.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": true,
+      "created_at": "2020-12-20T06:25:02Z",
+      "pushed_at": "2021-02-16T23:08:40Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 128,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 21934,
+        "CMake": 866
+      },
+      "primary_language": "C++",
+      "file_count": 17,
+      "top_level_paths": [
+        "CMakeLists.txt",
+        "DataParser.cpp",
+        "DataParser.hpp",
+        "DisplayStrategy.cpp",
+        "DisplayStrategy.hpp",
+        "Media.hpp",
+        "MediaStructure.cpp",
+        "MediaStructure.hpp",
+        "Movie.cpp",
+        "Movie.hpp",
+        "OGMovieData.csv",
+        "README.md",
+        "Strategy.hpp",
+        "baseTest.hpp",
+        "dispTest.hpp",
+        "main.cpp",
+        "unit_test.cpp"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 536,
+      "readme_excerpt": "# Movie-Recommender\nThis project allows a user to type in a movie they recently enjoyed and receive some top recommendations for similar movies based on a multitude of factors: actors, director, genres, score, year, etc. The data comes from IMDb and is parsed into a usable structure for the architecture using the Boost Tokenizer library. Although the program is currently only supporting movies, the creation included the foresight to use flexible architecture that will allow many new forms of different media to be added with ease.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.75,
+      "commits": {
+        "count": 3,
+        "first_at": "2020-12-20T06:25:04+00:00",
+        "last_at": "2021-02-16T23:08:40+00:00",
+        "active_days": 2,
+        "span_days": 58,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": true,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 14
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 21,934 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "recsys",
+          "source": "repo_name",
+          "detail": "'recommender' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 21934,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 31917,
+    "C++": 21934,
+    "CSS": 12574,
+    "HTML": 5058,
+    "CMake": 866,
+    "TypeScript": 607
+  },
+  "total_commits": 11,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Jpsassine/CS180_Brief"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 31917,
+      "commit_count": 8,
+      "first_seen": "2023-02-19T21:32:41+00:00",
+      "last_seen": "2023-03-17T21:36:47+00:00",
+      "details": [
+        "CS180_Brief: JavaScript: 31,917 bytes (64% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Jpsassine/Movie-Recommender"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 21934,
+      "commit_count": 3,
+      "first_seen": "2020-12-20T06:25:04+00:00",
+      "last_seen": "2021-02-16T23:08:40+00:00",
+      "details": [
+        "Movie-Recommender: C++: 21,934 bytes (96% of repo)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "Jpsassine/CS180_Brief"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2023-02-19T21:32:41+00:00",
+      "last_seen": "2023-03-17T21:36:47+00:00",
+      "details": [
+        "CS180_Brief: e2e suite (cypress.config.js)",
+        "CS180_Brief: cypress in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Jpsassine/CS180_Brief"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2023-02-19T21:32:41+00:00",
+      "last_seen": "2023-03-17T21:36:47+00:00",
+      "details": [
+        "CS180_Brief: next config (next.config.js)",
+        "CS180_Brief: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "Jpsassine/CS180_Brief"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2023-02-19T21:32:41+00:00",
+      "last_seen": "2023-03-17T21:36:47+00:00",
+      "details": [
+        "CS180_Brief: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "Jpsassine/CS180_Brief"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2023-02-19T21:32:41+00:00",
+      "last_seen": "2023-03-17T21:36:47+00:00",
+      "details": [
+        "CS180_Brief: openai in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Jpsassine/CS180_Brief"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2023-02-19T21:32:41+00:00",
+      "last_seen": "2023-03-17T21:36:47+00:00",
+      "details": [
+        "CS180_Brief: react in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Jpsassine/CS180_Brief"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6506978227928862,
+      "total_bytes": 17632,
+      "commit_count": 8,
+      "first_seen": "2023-02-19T21:32:41+00:00",
+      "last_seen": "2023-03-17T21:36:47+00:00",
+      "details": [
+        "CS180_Brief: CSS: 12,574 bytes (25% of repo)",
+        "CS180_Brief: HTML: 5,058 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "recsys",
+      "repos": [
+        "Jpsassine/Movie-Recommender"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2020-12-20T06:25:04+00:00",
+      "last_seen": "2021-02-16T23:08:40+00:00",
+      "details": [
+        "Movie-Recommender: 'recommender' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 11,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3; total_commits: 11 < 20"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:24:55.195076+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3; total_commits: 11 < 20",
+    "fewer than 3 repos mined - thin evidence base"
+  ]
+}

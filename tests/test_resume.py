@@ -16,8 +16,8 @@ from generator.schemas import GitHubProfile, RepoRecord, SkillEvidence
 
 def _profile() -> GitHubProfile:
     return GitHubProfile(
+        applicant_id="applicant0001",
         login="testuser",
-        name="Test User",
         html_url="https://github.com/testuser",
         repos=[
             RepoRecord(
@@ -30,6 +30,7 @@ def _profile() -> GitHubProfile:
                 manifests={"requirements.txt": ["fastapi", "pytest"]},
                 has_ci=True, has_tests=True,
                 commits={"count": 60, "active_days": 22, "span_days": 240},
+                skill_relevant=True,
             )
         ],
         skill_evidence=[
@@ -139,21 +140,38 @@ def test_html_escapes_injected_markup():
     assert "<script>" not in render.to_html(spec)
 
 
-def test_roster_batches_are_exclusive_and_cover_everyone(tmp_path):
-    logins = [f"user{i:02d}" for i in range(40)]
-    payload = roster.plan(batches=5, logins=logins, out=tmp_path / "roster.json")
+def test_roster_batches_are_exclusive_and_cover_everyone():
+    everyone = [f"applicant{i:04d}" for i in range(40)]
+    payload = roster.plan(batches=5, applicant_ids=everyone)
 
-    batches = [set(b["logins"]) for b in payload["batches"]]
+    batches = [set(b["applicant_ids"]) for b in payload["batches"]]
     assert sum(len(b) for b in batches) == 40
-    assert set().union(*batches) == set(logins)
+    assert set().union(*batches) == set(everyone)
     for i, left in enumerate(batches):
         for right in batches[i + 1:]:
-            assert not (left & right), "a profile appears in two batches"
+            assert not (left & right), "an applicant appears in two batches"
     assert all(len(b) == 8 for b in batches)
 
 
-def test_roster_split_is_deterministic(tmp_path):
-    logins = [f"user{i:02d}" for i in range(40)]
-    first = roster.plan(batches=5, logins=logins, out=tmp_path / "a.json")["batches"]
-    second = roster.plan(batches=5, logins=logins, out=tmp_path / "b.json")["batches"]
-    assert first == second
+def test_roster_split_is_deterministic():
+    everyone = [f"applicant{i:04d}" for i in range(40)]
+    assert roster.plan(batches=5, applicant_ids=everyone) == \
+        roster.plan(batches=5, applicant_ids=list(reversed(everyone)))
+
+
+def test_login_named_repos_never_put_the_login_on_a_resume():
+    profile = _profile()
+    profile.repos.append(profile.repos[0].model_copy(update={
+        "name": "testuser.github.io", "full_name": "testuser/testuser.github.io",
+        "stargazers": 50}))
+    titles = [e.title for e in draft_projects(profile, handle="ada-okonkwo")]
+    assert "Personal Website" in titles
+    assert not any("testuser" in t.lower() for t in titles)
+
+
+def test_irrelevant_repos_are_not_resume_projects():
+    profile = _profile()
+    profile.repos.append(profile.repos[0].model_copy(update={
+        "name": "notes", "full_name": "testuser/notes", "skill_relevant": False,
+        "stargazers": 999}))
+    assert [e.title for e in draft_projects(profile)] == ["Ferry API"]

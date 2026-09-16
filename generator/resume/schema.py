@@ -87,6 +87,8 @@ class ResumeSpec(BaseModel):
     """A complete, renderable resume."""
 
     github_login: str
+    # The pseudonymous ID of the profile this resume was drafted from.
+    applicant_id: str | None = None
     first_name: str
     last_name: str
     career_stage: CareerStage = "student"

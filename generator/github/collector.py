@@ -14,7 +14,7 @@ from datetime import UTC, datetime
 from typing import Any
 
 from generator.config import MAX_COMMIT_PAGES, MAX_REPOS_PER_USER, RAW_DIR
-from generator.github.client import GitHubClient, NotFound, RateLimited
+from generator.github.client import GitHubClient, NotFound
 from generator.github.signals import repo_substance_score
 from generator.github.skill_map import MANIFEST_FILES
 
@@ -22,14 +22,47 @@ from generator.github.skill_map import MANIFEST_FILES
 # owner is the sole contributor and their commits simply are not email-linked.
 MIN_AUTHOR_FILTERED_COMMITS = 3
 
-# Files worth pulling the contents of, beyond manifests.
-NOTABLE_ROOT_FILES = {"README.md", "README.rst", "README.txt", "readme.md"}
+# If nearly all the commits credited by the sole-author fallback predate the
+# repo's creation on GitHub by more than this, the history was imported (e.g. a
+# cloned tutorial pushed to a new repo), and the fallback is refused.
+IMPORTED_HISTORY_DAYS = 30
+IMPORTED_HISTORY_SHARE = 0.9
+
+
+def _is_readme(name: str) -> bool:
+    return name.lower().split(".")[0] == "readme"
 
 
 def _write(path_parts: list[str], payload: Any) -> None:
+    """Atomic: an interrupted run never leaves a half-written bundle behind."""
     path = RAW_DIR.joinpath(*path_parts)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=1), encoding="utf-8")
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(payload, indent=1), encoding="utf-8")
+    tmp.replace(path)
+
+
+def _slim_commit(commit: dict[str, Any]) -> dict[str, Any]:
+    """Only the fields signals.py reads, plus the GitHub login for attribution."""
+    node = commit.get("commit") or {}
+    return {
+        "sha": commit.get("sha"),
+        "author_login": (commit.get("author") or {}).get("login"),
+        "commit": {"message": node.get("message"),
+                   "author": {"date": (node.get("author") or {}).get("date")}},
+    }
+
+
+def _history_imported(commits: list[dict[str, Any]], repo_created_at: str | None) -> bool:
+    if not repo_created_at or not commits:
+        return False
+    created = datetime.fromisoformat(repo_created_at)
+    old = 0
+    for commit in commits:
+        stamp = ((commit.get("commit") or {}).get("author") or {}).get("date")
+        if stamp and (created - datetime.fromisoformat(stamp)).days > IMPORTED_HISTORY_DAYS:
+            old += 1
+    return old / len(commits) >= IMPORTED_HISTORY_SHARE
 
 
 def _repo_summary(repo: dict[str, Any]) -> dict[str, Any]:
@@ -65,21 +98,26 @@ def collect_repo(client: GitHubClient, login: str, repo: dict[str, Any]) -> dict
     name = repo["name"]
     bundle: dict[str, Any] = {"repo": repo}
 
+    # Only NotFound (which includes Unavailable and empty repos) means "absent".
+    # Anything transient - RateLimited, network errors - propagates, so the user
+    # is marked failed and retried, rather than saved as if their repo were empty.
     try:
         bundle["languages"] = client.get(f"/repos/{owner}/{name}/languages")
-    except (NotFound, RateLimited):
+    except NotFound:
         bundle["languages"] = {}
 
     # One recursive tree call gives every path in the repo - excellent value for
     # file-based skill detection and for the structure signals.
     tree_paths: list[str] = []
+    bundle["tree_truncated"] = False
     try:
         tree = client.get(f"/repos/{owner}/{name}/git/trees/{repo['default_branch']}",
                           params={"recursive": "1"})
-        bundle["tree_truncated"] = bool((tree or {}).get("truncated"))
-        tree_paths = [n["path"] for n in (tree or {}).get("tree", []) if n.get("type") == "blob"]
-    except (NotFound, RateLimited):
-        bundle["tree_truncated"] = False
+        if isinstance(tree, dict):
+            bundle["tree_truncated"] = bool(tree.get("truncated"))
+            tree_paths = [n["path"] for n in tree.get("tree", []) if n.get("type") == "blob"]
+    except NotFound:
+        pass
     bundle["tree_paths"] = tree_paths
 
     # Only this user's commits - the repo may have other contributors.
@@ -90,51 +128,65 @@ def collect_repo(client: GitHubClient, login: str, repo: dict[str, Any]) -> dict
             params={"author": login},
             max_pages=MAX_COMMIT_PAGES,
         ))
-    except (NotFound, RateLimited):
+    except NotFound:
         pass
-    bundle["commit_attribution"] = "author"
+    attribution = "author"
 
+    # Every contributor, including unlinked (anonymous) email identities, with
+    # their commit counts - so a team repo is not credited in full to one member.
+    owner_key = login.lower()
     try:
-        contributors = client.get(f"/repos/{owner}/{name}/contributors", params={"per_page": 30})
-        bundle["contributors_count"] = len(contributors or [])
-    except (NotFound, RateLimited):
-        bundle["contributors_count"] = 1
+        contributors = client.get(f"/repos/{owner}/{name}/contributors",
+                                  params={"per_page": 100, "anon": "1"}) or []
+    except NotFound:
+        contributors = []
+    linked = [c for c in contributors if c.get("type") != "Anonymous"]
+    anonymous = [c for c in contributors if c.get("type") == "Anonymous"]
+    others = [c for c in linked if (c.get("login") or "").lower() != owner_key]
+    total = sum(c.get("contributions", 0) for c in contributors)
+    mine = sum(c.get("contributions", 0) for c in linked
+               if (c.get("login") or "").lower() == owner_key)
+    bundle["contributors_count"] = len(contributors)
+    bundle["contribution_share"] = round(mine / total, 3) if total else None
 
     # The author filter only matches commits made with an email linked to the
-    # account. Someone committing from a laptop with another email shows zero
-    # commits on their own solo repo. When the owner is provably the only
-    # contributor - counting unlinked (anonymous) ones - every commit is theirs.
-    is_owner = owner.lower() == login.lower()
-    if is_owner and not repo.get("is_fork") and len(commits) < MIN_AUTHOR_FILTERED_COMMITS:
+    # account, so a student committing from a laptop shows zero commits on their
+    # own solo repo. Credit unlinked commits only when it is safe:
+    #   * the user owns the repo, and no *other* linked account contributed
+    #   * at most one unlinked identity exists (assumed to be the owner)
+    #   * only commits with no GitHub author, or the owner as author, are credited
+    #   * the history was not imported from elsewhere
+    is_owner = owner.lower() == owner_key
+    if (is_owner and not repo.get("is_fork") and len(commits) < MIN_AUTHOR_FILTERED_COMMITS
+            and not others and len(anonymous) <= 1):
         try:
-            everyone = client.get(f"/repos/{owner}/{name}/contributors",
-                                  params={"per_page": 30, "anon": "1"})
-            if len(everyone or []) <= 1:
-                unfiltered = list(client.paginate(f"/repos/{owner}/{name}/commits",
-                                                  max_pages=MAX_COMMIT_PAGES))
-                if len(unfiltered) > len(commits):
-                    commits = unfiltered
-                    bundle["commit_attribution"] = "sole_author"
-        except (NotFound, RateLimited):
-            pass
+            unfiltered = list(client.paginate(f"/repos/{owner}/{name}/commits",
+                                              max_pages=MAX_COMMIT_PAGES))
+        except NotFound:
+            unfiltered = []
+        credited = [c for c in unfiltered
+                    if ((c.get("author") or {}).get("login") or owner_key).lower() == owner_key]
+        if len(credited) > len(commits):
+            if _history_imported(credited, repo.get("created_at")):
+                attribution = "refused_imported_history"
+            else:
+                commits = credited
+                attribution = "sole_author"
+                bundle["contribution_share"] = 1.0
 
-    # Store only the fields signals.py reads, so raw/ stays a manageable size.
-    bundle["commits"] = [
-        {"commit": {"message": (c.get("commit") or {}).get("message"),
-                    "author": {"date": ((c.get("commit") or {}).get("author") or {}).get("date")}},
-         "sha": c.get("sha")}
-        for c in commits
-    ]
+    bundle["commit_attribution"] = attribution
+    bundle["commits_truncated"] = len(commits) >= MAX_COMMIT_PAGES * 100
+    bundle["commits"] = [_slim_commit(c) for c in commits]
 
     try:
         releases = client.get(f"/repos/{owner}/{name}/releases", params={"per_page": 5})
         bundle["has_releases"] = bool(releases)
-    except (NotFound, RateLimited):
+    except NotFound:
         bundle["has_releases"] = False
 
     # Manifests and README - the highest-value file contents.
     root_files = {p for p in tree_paths if "/" not in p}
-    wanted = (root_files & MANIFEST_FILES) | (root_files & NOTABLE_ROOT_FILES)
+    wanted = (root_files & MANIFEST_FILES) | {f for f in root_files if _is_readme(f)}
     contents: dict[str, str] = {}
     for path in sorted(wanted):
         text = client.file_text(owner, name, path)
@@ -160,9 +212,10 @@ def collect_user(client: GitHubClient, login: str, *, max_repos: int = MAX_REPOS
 
     # Rank by substance, then cap - so the budget goes to the interesting repos.
     ranked = sorted(summaries, key=repo_substance_score, reverse=True)
-    chosen = [r for r in ranked if not r["is_fork"]][:max_repos]
-    if len(chosen) < max_repos:
-        chosen += [r for r in ranked if r["is_fork"]][: max_repos - len(chosen)]
+    # Own repos only. A fork can never count as skill-relevant, so mining one
+    # spends ~7 requests on a slot that cannot contribute evidence.
+    # Empty repos (size 0) are skipped too: nothing to read, and every call 409s.
+    chosen = [r for r in ranked if not r["is_fork"] and r["size_kb"] > 0][:max_repos]
 
     bundles = []
     for index, repo in enumerate(chosen, 1):
@@ -173,21 +226,28 @@ def collect_user(client: GitHubClient, login: str, *, max_repos: int = MAX_REPOS
     # Advanced signal available without authenticated search.
     try:
         events = list(client.paginate(f"/users/{login}/events/public", max_pages=1))
-    except (NotFound, RateLimited):
+    except NotFound:
         events = []
-    external = [
-        {
-            "repo": e["repo"]["name"],
-            "html_url": ((e.get("payload") or {}).get("pull_request") or {}).get("html_url", ""),
-            "title": ((e.get("payload") or {}).get("pull_request") or {}).get("title"),
-            "state": ((e.get("payload") or {}).get("pull_request") or {}).get("state"),
-            "merged": bool(((e.get("payload") or {}).get("pull_request") or {}).get("merged_at")),
-            "created_at": e.get("created_at"),
-        }
-        for e in events
-        if e.get("type") == "PullRequestEvent"
-        and not e.get("repo", {}).get("name", "").startswith(f"{login}/")
-    ]
+    # One PR produces several events (opened, closed, ...). Keep one per PR, and
+    # mark it merged if any of its events says so.
+    external_by_url: dict[str, dict[str, Any]] = {}
+    for event in events:
+        repo_name = (event.get("repo") or {}).get("name", "")
+        if event.get("type") != "PullRequestEvent" or \
+                repo_name.lower().startswith(f"{login.lower()}/"):
+            continue
+        pr = (event.get("payload") or {}).get("pull_request") or {}
+        url = pr.get("html_url")
+        if not url:
+            continue
+        entry = external_by_url.setdefault(url, {
+            "repo": repo_name, "html_url": url, "title": pr.get("title"),
+            "state": pr.get("state"), "merged": False, "created_at": event.get("created_at"),
+        })
+        entry["merged"] = entry["merged"] or bool(pr.get("merged_at"))
+        if pr.get("state") == "closed":
+            entry["state"] = "closed"
+    external = list(external_by_url.values())
 
     payload = {
         "login": login,

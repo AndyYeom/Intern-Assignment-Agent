@@ -62,3 +62,32 @@ def test_source_strength_ordering():
     """A declared dependency must outweigh a self-declared topic."""
     assert skill_map.SOURCE_STRENGTH["manifest"] > skill_map.SOURCE_STRENGTH["topic"]
     assert skill_map.SOURCE_STRENGTH["language"] > skill_map.SOURCE_STRENGTH["repo_name"]
+
+
+def test_evidence_is_identical_across_processes():
+    """Set iteration order varies per process (hash randomisation); output must not."""
+    import os
+    import subprocess
+    import sys
+
+    code = (
+        "from generator.github import skill_map as s\n"
+        "d = s.parse_manifest('package.json', '{\"dependencies\": "
+        "{\"react\": \"1\", \"react-dom\": \"1\", \"tailwindcss\": \"1\", \"next\": \"1\"}}')\n"
+        "print([x.to_dict() for x in s.signals_from_dependencies(d, 'package.json')])\n"
+        "print([x.to_dict() for x in s.signals_from_name('react-django-api-go', 'python sql')])\n"
+    )
+    outputs = {
+        subprocess.run([sys.executable, "-c", code], capture_output=True, text=True,
+                       env={**os.environ, "PYTHONHASHSEED": str(seed)}, check=True).stdout
+        for seed in (1, 2, 3, 4)
+    }
+    assert len(outputs) == 1
+
+
+def test_gradle_backend_is_not_mobile_but_android_and_ios_are():
+    skills = lambda paths: {s.skill_id for s in skill_map.signals_from_tree(paths)}
+    assert "native-mobile" not in skills(["build.gradle", "src/main/java/App.java"])
+    assert "native-mobile" in skills(["app/src/main/AndroidManifest.xml"])
+    assert "native-mobile" in skills(["ios/Runner.xcodeproj/project.pbxproj"])
+    assert "go" in skills(["go.mod"])

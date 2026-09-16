@@ -14,10 +14,9 @@ Two pipelines, one entry point.
 `resume` (alias `re`) — turn profiles into MIT-format resumes:
 
     python -m generator re plan --batches 5    exclusive split of the corpus
-    python -m generator re brief --batch 1     authoring packet for one agent
-    python -m generator re draft --batch 1     honest first-pass specs
+    python -m generator re draft --batch 1     draft specs + the author's brief
     python -m generator re verify              no profile used twice
-    python -m generator re render              specs -> HTML + PDF
+    python -m generator re render              verify, then specs -> PDF
     python -m generator re manifest            the applicant index (data/applicants.csv)
 
 `collect` is the only expensive stage. Everything it fetches is cached on disk,
@@ -49,8 +48,8 @@ def _add_github_commands(parser: argparse.ArgumentParser) -> None:
                    help="how many eligible profiles to select")
     p.add_argument("--per-stratum", type=int, default=12,
                    help="search results to examine per query")
-    p.add_argument("--windows", type=int, default=2,
-                   help="fresh date windows to consume per stratum this run")
+    p.add_argument("--windows", type=int, default=6,
+                   help="most date windows to search per stratum; stops early once enough")
     p.set_defaults(func=github_cmd.cmd_sample)
 
     p = sub.add_parser("collect", help="fetch raw payloads (slow, resumable)")
@@ -77,12 +76,8 @@ def _add_resume_commands(parser: argparse.ArgumentParser) -> None:
     p.add_argument("--batches", type=int, default=5)
     p.set_defaults(func=resume_cmd.cmd_plan)
 
-    p = sub.add_parser("brief", help="write the authoring packet for one batch")
+    p = sub.add_parser("draft", help="draft specs and the author's brief for one batch")
     p.add_argument("--batch", type=int, required=True)
-    p.set_defaults(func=resume_cmd.cmd_brief)
-
-    p = sub.add_parser("draft", help="honest first-pass specs drawn from GitHub")
-    p.add_argument("--batch", type=int, default=None)
     p.set_defaults(func=resume_cmd.cmd_draft)
 
     sub.add_parser("verify", help="check no profile is used twice").set_defaults(
@@ -96,7 +91,6 @@ def _add_resume_commands(parser: argparse.ArgumentParser) -> None:
     p = sub.add_parser("render", help="specs -> HTML and PDF")
     p.add_argument("specs", nargs="*", help="specific spec files; default is all")
     p.add_argument("--no-pdf", action="store_true")
-    p.add_argument("--include-drafts", action="store_true")
     p.set_defaults(func=resume_cmd.cmd_render)
 
 

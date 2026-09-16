@@ -7,151 +7,137 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from generator.github import normalize
+from generator.github import assign, normalize
 from generator.resume import draft as drafter
 from generator.resume import manifest, render, roster
 from generator.resume.schema import Education, ResumeInfo, ResumeSpec
+from generator.schemas import GitHubProfile
 
 RENDER_DIR = roster.RESUME_DIR / "rendered"
 
 
 def cmd_plan(args: argparse.Namespace) -> int:
     payload = roster.plan(batches=args.batches)
-    print(f"[plan] {payload['total_profiles']} profiles -> {payload['batch_count']} batches")
+    total = sum(len(b["applicant_ids"]) for b in payload["batches"])
+    print(f"[plan] {total} placed applicants -> {len(payload['batches'])} batches")
     for batch in payload["batches"]:
-        print(f"  batch {batch['batch']}: {batch['count']:2d}  {', '.join(batch['logins'])}")
+        print(f"  batch {batch['batch']}: {len(batch['applicant_ids']):2d}  "
+              f"{', '.join(batch['applicant_ids'])}")
     print(f"[plan] wrote {roster.ROSTER_PATH}")
+    print("[plan] next: `generator re draft --batch <n>` for each batch")
     return 0
 
 
-def cmd_brief(args: argparse.Namespace) -> int:
-    """Emit the working packet for one authoring agent."""
-    logins = roster.batch_logins(args.batch)
-    profiles = {p.login: p for p in normalize.load_all_profiles() if p.login in logins}
-
-    roster.SPEC_DIR.mkdir(parents=True, exist_ok=True)
-    out = roster.RESUME_DIR / f"brief_batch_{args.batch}.md"
-
+def _brief(batch: int, profiles: list[GitHubProfile]) -> str:
+    """The authoring packet: instructions plus the facts each resume must stay true to."""
     lines = [
-        f"# Resume authoring brief — batch {args.batch}",
+        f"# Resume authoring brief — batch {batch}",
         "",
-        (f"You own **exactly these {len(logins)} GitHub profiles**. Do not write a resume "
-         "for any profile outside this list; every profile in the corpus is owned by exactly "
-         "one batch, and a duplicate corrupts the evaluation."),
+        (f"You own **exactly these {len(profiles)} applicants**. Every applicant belongs to "
+         "exactly one batch; writing a resume for anyone else corrupts the evaluation."),
         "",
-        "## What to produce",
+        "## For each applicant",
         "",
-        ("One JSON file per profile in `data/resumes/specs/`, named `<first>-<last>.json`, "
-         "validating against `generator/resume/schema.py::ResumeSpec`."),
+        "1. Open `data/resumes/specs/_draft_<applicant_id>.json`. Projects and skills are",
+        "   already filled from the real repositories.",
+        "2. Invent the identity: `first_name`, `last_name`, `email`, `phone`, `location`,",
+        "   `linkedin`, `career_stage` (`student`, `intern`, `new_grad`, `switcher`),",
+        "   `education`, and any `experience` the career stage implies.",
+        "3. Rewrite project bullets in resume voice: action verb first, quantified.",
+        "4. Save as `data/resumes/specs/<applicant_id>.json` (drop the `_draft_` prefix).",
+        "   Do not change `applicant_id` or `github_login`.",
         "",
-        ("Start from the honest draft (`python -m generator re draft --batch "
-         f"{args.batch}`), which fills projects and skills from the real repo record. "
-         "Your job is to add the identity and rewrite the prose:"),
+        ("Keep every claim supported by the facts below unless you were separately told to "
+         "plant an exaggeration. Record planted exaggerations in your own file, never in a spec."),
         "",
-        "- `first_name`, `last_name`, `email`, `phone`, `location`, `linkedin`",
-        "- `career_stage`: one of `student`, `intern`, `new_grad`, `switcher`",
-        "- `education`: school, degree, major, graduation, GPA, relevant coursework",
-        "- `experience`: internships or jobs, if the career stage implies any",
-        "- rewrite project bullets into resume voice — action verb first, quantified",
-        "",
-        ("Keep every claim supported by the profile below unless you have been separately "
-         "told to plant an exaggeration. Record any planted exaggeration in your own file, "
-         "not in the spec."),
-        "",
-        "## Profiles",
+        "## Applicants",
         "",
     ]
-
-    for login in logins:
-        profile = profiles.get(login)
-        if profile is None:
-            lines.append(f"### {login}\n\n_Profile not built yet._\n")
-            continue
+    for profile in profiles:
         lines += [
-            f"### {login}",
+            f"### {profile.applicant_id}",
             "",
-            f"- URL: {profile.html_url}",
-            f"- Bio: {profile.bio or '—'}",
-            f"- Location: {profile.location or '—'}",
-            f"- Account created: {profile.created_at} ({profile.account_age_days} days)",
-            f"- Public repos: {profile.public_repos} | followers: {profile.followers}",
-            f"- Commits attributed: {profile.total_commits}",
-            "- Top languages: "
-            + ", ".join(f"{k} ({v:,}b)" for k, v in list(profile.languages_bytes.items())[:5]),
-            "- Observed skills: "
-            + ", ".join(e.skill_id for e in profile.skill_evidence[:12]),
+            "- Top languages: " + ", ".join(list(profile.languages_bytes)[:5]),
+            "- Observed skills: " + ", ".join(e.skill_id for e in profile.skill_evidence[:12]),
             "",
-            "| repo | language | files | commits | span | stars |",
-            "| --- | --- | ---: | ---: | ---: | ---: |",
+            "| repo | language | skill work | commits | active days |",
+            "| --- | --- | --- | ---: | ---: |",
         ]
         for repo in profile.repos:
             lines.append(
-                f"| [{repo.name}]({repo.html_url}) | {repo.primary_language or '—'} "
-                f"| {repo.file_count} | {repo.commits.get('count', 0)} "
-                f"| {repo.commits.get('span_days', 0)}d | {repo.stargazers} |"
+                f"| {repo.name} | {repo.primary_language or '—'} "
+                f"| {'yes' if repo.skill_relevant else 'no'} "
+                f"| {repo.commits.get('count', 0)} | {repo.commits.get('active_days', 0)} |"
             )
         lines.append("")
-
-    out.write_text("\n".join(lines), encoding="utf-8")
-    print(f"[brief] batch {args.batch}: {len(logins)} profiles -> {out}")
-    return 0
+    return "\n".join(lines)
 
 
 def cmd_draft(args: argparse.Namespace) -> int:
-    logins = roster.batch_logins(args.batch) if args.batch else [
-        p.login for p in normalize.load_all_profiles()
-    ]
-    profiles = {p.login: p for p in normalize.load_all_profiles()}
-    roster.SPEC_DIR.mkdir(parents=True, exist_ok=True)
-
-    written = 0
-    for login in logins:
-        profile = profiles.get(login)
+    """Write honest draft specs for one batch, plus the brief its author works from."""
+    applicant_ids = roster.batch_ids(args.batch)
+    profiles = []
+    for applicant_id in applicant_ids:
+        profile = normalize.load_profile(applicant_id)
         if profile is None:
-            print(f"  ! no built profile for {login}")
+            print(f"  ! no built profile for {applicant_id}")
             continue
-        # Placeholder identity: the authoring agent replaces these.
+        profiles.append(profile)
+
+    roster.SPEC_DIR.mkdir(parents=True, exist_ok=True)
+    for profile in profiles:
+        # Placeholder identity: the author replaces these.
         info = ResumeInfo(
-            github_login=login,
+            github_login=profile.login,
             first_name="FIRSTNAME",
             last_name="LASTNAME",
-            career_stage="student",
             education=Education(major="TODO", graduation="TODO"),
         )
         spec = drafter.draft(profile, info, batch=args.batch, authored_by="draft")
-        path = roster.SPEC_DIR / f"_draft_{login}.json"
-        path.write_text(spec.model_dump_json(indent=2), encoding="utf-8")
-        written += 1
+        roster.spec_path(profile.applicant_id, draft=True).write_text(
+            spec.model_dump_json(indent=2), encoding="utf-8")
 
-    print(f"[draft] wrote {written} draft specs to {roster.SPEC_DIR}")
-    print("[draft] these are placeholders — rename to <first>-<last>.json once authored")
+    brief_path = roster.RESUME_DIR / f"brief_batch_{args.batch}.md"
+    brief_path.write_text(_brief(args.batch, profiles), encoding="utf-8")
+    print(f"[draft] batch {args.batch}: {len(profiles)} drafts in {roster.SPEC_DIR}")
+    print(f"[draft] brief for the author: {brief_path}")
     return 0
+
+
+def _report_verify(report: dict) -> None:
+    print(f"[verify] {report['specs']} specs for {report['applicants']} applicants, "
+          f"{report['expected']} expected")
+    for problem in report["problems"]:
+        print(f"  ! {problem}")
+    if report["ok"]:
+        print("[verify] OK - every applicant has at most one resume, all consistent")
 
 
 def cmd_verify(args: argparse.Namespace) -> int:
     report = roster.verify()
-    print(f"[verify] {report['specs']} specs, {report['distinct_logins']} distinct profiles, "
-          f"{report['expected']} expected")
-    if report["ok"]:
-        print("[verify] OK — every profile used exactly once")
-        return 0
-    for problem in report["problems"]:
-        print(f"  ! {problem}")
-    return 1
+    _report_verify(report)
+    return 0 if report["ok"] else 1
 
 
 def cmd_render(args: argparse.Namespace) -> int:
-    paths = [Path(p) for p in args.specs] if args.specs else [
-        p for p in roster.spec_paths(include_drafts=args.include_drafts)
-    ]
+    drafts_only = bool(args.specs) and all(Path(p).name.startswith(roster.DRAFT_PREFIX)
+                                           for p in args.specs)
+    if not drafts_only:
+        report = roster.verify()
+        # "No resume yet" is expected mid-authoring; everything else blocks rendering.
+        blocking = [p for p in report["problems"] if "have no resume" not in p]
+        if blocking:
+            _report_verify(report)
+            print("[render] refused - fix the problems above first")
+            return 1
+
+    paths = [Path(p) for p in args.specs] if args.specs else roster.spec_paths()
     if not paths:
-        print("No specs to render. Run `draft`, or author specs into data/resumes/specs/.")
+        print("No authored specs. Run `re draft`, then author specs into data/resumes/specs/.")
         return 1
-
     if not render.pdf_available():
-        print("[render] WeasyPrint unavailable — HTML only.")
+        print("[render] WeasyPrint unavailable - HTML only.")
 
-    rendered = 0
     rows = []
     for path in paths:
         try:
@@ -159,17 +145,18 @@ def cmd_render(args: argparse.Namespace) -> int:
         except Exception as exc:  # noqa: BLE001 - one bad spec must not abort rendering
             print(f"  ! {path.name}: {exc}")
             continue
-        html_path = render.write_html(spec, RENDER_DIR)
+        render.write_html(spec, RENDER_DIR)
         pdf_path = render.write_pdf(spec, RENDER_DIR) if not args.no_pdf else None
-        rows.append(manifest.row_for(spec, pdf=pdf_path, html=html_path, spec_path=path))
-        rendered += 1
-        print(f"  {spec.full_name:<28} {html_path.name}" + (f"  {pdf_path.name}" if pdf_path else ""))
+        # A draft is a preview, never a resume: it must not enter the manifest,
+        # where it would pin a placeholder "FIRSTNAME LASTNAME" into the corpus.
+        if not path.name.startswith(roster.DRAFT_PREFIX):
+            rows.append(manifest.row_for(spec, pdf=pdf_path, spec_file=path))
+        print(f"  {spec.applicant_id}  {spec.full_name}")
 
     if rows:
         merged = manifest.upsert(rows)
-        print(f"[render] manifest now lists {len(merged)} applicants "
-              f"-> {manifest.MANIFEST_PATH.name}")
-    print(f"[render] {rendered} resumes -> {RENDER_DIR}")
+        print(f"[render] {manifest.MANIFEST_PATH.name} now lists {len(merged)} applicants")
+    print(f"[render] {len(paths)} rendered -> {RENDER_DIR}")
     return 0
 
 
@@ -179,8 +166,8 @@ def cmd_manifest(args: argparse.Namespace) -> int:
         specs = []
         for path in roster.spec_paths():
             try:
-                specs.append(
-                    (ResumeSpec.model_validate_json(path.read_text(encoding="utf-8")), path))
+                specs.append((ResumeSpec.model_validate_json(path.read_text(encoding="utf-8")),
+                              path))
             except Exception as exc:  # noqa: BLE001 - a bad spec must not abort the rebuild
                 print(f"  ! {path.name}: {exc}")
         rows = manifest.rebuild(specs, RENDER_DIR)
@@ -188,22 +175,15 @@ def cmd_manifest(args: argparse.Namespace) -> int:
     else:
         rows = manifest.load()
 
-    if not rows:
-        print("[manifest] empty - render some resumes first")
-        return 0
-
-    print(f"\n{'idx':>3}  {'name':<26} {'github':<20} {'stage':<9} pdf")
     for row in rows:
-        name = f"{row['first_name']} {row['last_name']}"
-        mark = "yes" if row.get("resume_pdf") else "-"
-        print(f"{row['idx']:>3}  {name:<26} {row['github_login']:<20} "
+        mark = "pdf" if row.get("resume_pdf") else "-"
+        print(f"  {row['applicant_id']}  {row['first_name']} {row['last_name']:<20} "
               f"{row.get('career_stage', ''):<9} {mark}")
 
-    # Which collected profiles still have no resume.
-    from generator.github import normalize
-    collected = {p.login for p in normalize.load_all_profiles()}
-    unused = sorted(collected - manifest.used_logins())
-    print(f"\n[manifest] {len(rows)} with resumes, {len(unused)} profiles unused")
-    if unused:
-        print(f"[manifest] unused: {', '.join(unused[:15])}")
+    used = manifest.used_ids()
+    waiting = sorted(p.applicant_id for p in assign.current().placements
+                     if p.applicant_id not in used)
+    print(f"[manifest] {len(rows)} with resumes, {len(waiting)} placed applicants without one")
+    if waiting:
+        print(f"[manifest] waiting: {', '.join(waiting[:15])}")
     return 0

@@ -237,9 +237,15 @@ def to_html(spec: ResumeSpec) -> str:
     )
 
 
+def _stem(spec: ResumeSpec) -> str:
+    """Rendered files are named by applicant ID: two invented "Ada Okonkwo"s cannot
+    overwrite each other, and the name reveals nothing."""
+    return spec.applicant_id or spec.slug
+
+
 def write_html(spec: ResumeSpec, out_dir: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / f"{spec.slug}.html"
+    path = out_dir / f"{_stem(spec)}.html"
     path.write_text(to_html(spec), encoding="utf-8")
     return path
 
@@ -253,7 +259,7 @@ def write_pdf(spec: ResumeSpec, out_dir: Path) -> Path | None:
         return None
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / f"{spec.slug}.pdf"
+    path = out_dir / f"{_stem(spec)}.pdf"
     HTML(string=to_html(spec), base_url=str(DATA)).write_pdf(str(path))
     return path
 

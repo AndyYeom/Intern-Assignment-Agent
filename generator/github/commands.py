@@ -5,12 +5,11 @@ Argument parsing lives in `generator/__main__.py`; these are the handlers.
 from __future__ import annotations
 
 import argparse
-import json
 from collections import Counter
 from datetime import UTC, datetime
 
 from generator import config
-from generator.github import collector, normalize, plan, sampler
+from generator.github import assign, collector, ids, normalize, plan, sampler
 from generator.github.client import GitHubClient, RateLimited
 from generator.github.skill_map import skill_ids
 
@@ -46,11 +45,14 @@ def cmd_doctor(args: argparse.Namespace) -> int:
 
 
 def cmd_sample(args: argparse.Namespace) -> int:
+    wanted = plan.load_status(args.target).wanted
+    if not wanted:
+        print("[sample] every short stratum already has candidates queued - run `collect`")
+        print(plan.render(plan.load_status(args.target)))
+        return 0
     client = _client(args)
-    unusable = {p.login for p in normalize.load_all_profiles() if not p.usable}
     candidates, consumed = sampler.sample(
-        client, target=args.target, per_stratum=args.per_stratum,
-        windows_per_run=args.windows, unusable=unusable,
+        client, wanted=wanted, per_stratum=args.per_stratum, windows_per_run=args.windows,
     )
     sampler.save(candidates, consumed)
     print(f"[sample] wrote {config.CANDIDATES_PATH}\n")
@@ -71,17 +73,14 @@ def cmd_collect(args: argparse.Namespace) -> int:
     elif args.all:
         logins = sampler.load_selected()
     else:
-        # Only the planned quota per stratum. Reserves are fetched only when a
-        # planned profile proves unusable, so requests are not spent on surplus.
-        logins = plan.planned_logins(args.target)
+        # Only queued candidates for strata with empty slots, so requests are
+        # not spent on strata that are already full.
+        logins = plan.load_status(args.target).to_collect
     if not logins:
         print("No candidates. Run `sample` first, or pass logins explicitly.")
         return 1
 
-    stratum_by_login = {}
-    if config.CANDIDATES_PATH.exists():
-        payload = json.loads(config.CANDIDATES_PATH.read_text(encoding="utf-8"))
-        stratum_by_login = {c["login"]: c["stratum"] for c in payload.get("candidates", [])}
+    stratum_by_login = {c["login"]: c.get("stratum") for c in sampler.load_state()["candidates"]}
 
     already = set(collector.collected_logins())
     todo = [l for l in logins if args.refresh or l not in already]
@@ -119,40 +118,41 @@ def cmd_build(args: argparse.Namespace) -> int:
         print("Nothing collected yet. Run `collect` first.")
         return 1
 
+    # IDs follow discovery order in candidates.json, so the first run numbers
+    # people in the order they were found; later runs only append.
+    discovered = [c["login"] for c in sampler.load_state()["candidates"]]
+    ordered = [l for l in discovered if l in set(logins)] + \
+        sorted(set(logins) - set(discovered))
+    registry = ids.assign(ordered)
+
     built, failed = 0, []
-    for login in logins:
-        bundle = collector.load_bundle(login)
+    for login in ordered:
+        try:
+            bundle = collector.load_bundle(login)
+        except (OSError, ValueError) as exc:  # corrupt bundle from an interrupted run
+            print(f"  ! {login}: unreadable bundle ({exc}) - re-run `collect --refresh {login}`")
+            failed.append(login)
+            continue
         if bundle is None:
             failed.append(login)
             continue
         try:
-            normalize.save_profile(normalize.build_profile(bundle))
+            normalize.save_profile(normalize.build_profile(bundle, registry[login]))
             built += 1
         except Exception as exc:  # noqa: BLE001 - one bad profile must not abort the build
             print(f"  ! {login}: {exc}")
             failed.append(login)
 
-    profiles = normalize.load_all_profiles()
-    index = {
-        "generated_at": datetime.now(UTC).isoformat(),
-        "collector_version": config.COLLECTOR_VERSION,
-        "count": len(profiles),
-        "profiles": [
-            {
-                "login": p.login,
-                "stratum": p.stratum,
-                "html_url": p.html_url,
-                "repos_mined": len(p.repos),
-                "total_commits": p.total_commits,
-                "distinct_skills": len(p.skill_evidence),
-                "notes": p.notes,
-            }
-            for p in profiles
-        ],
-    }
-    config.INDEX_PATH.write_text(json.dumps(index, indent=2), encoding="utf-8")
+    stale = normalize.remove_stale_profiles()
+    if stale:
+        print(f"[build] removed {len(stale)} profile files not named by applicant ID")
+
+    assignment = assign.current()
+    assign.save(assignment)
     print(f"[build] built {built} profiles, {len(failed)} failed")
-    print(f"[build] wrote {config.PROFILES_DIR}/ and {config.INDEX_PATH.name}")
+    print(f"[build] placed {len(assignment.placements)} profiles into slots "
+          f"-> {assign.CORPUS_PATH.name}")
+    print(f"[build] wrote {config.PROFILES_DIR}/")
     return 0
 
 
@@ -229,7 +229,8 @@ def cmd_stats(args: argparse.Namespace) -> int:
     if rejected:
         print("\nunusable profiles:")
         for profile in rejected[:15]:
-            print(f"  {profile.login:<22} {profile.usability.get('reason', '')}")
+            print(f"  {profile.applicant_id}  {profile.login:<22} "
+                  f"{profile.usability.get('reason', '')}")
 
     licences: Counter[str] = Counter()
     unlicensed = 0
@@ -243,7 +244,7 @@ def cmd_stats(args: argparse.Namespace) -> int:
     for name, count in licences.most_common(8):
         print(f"  {count:4d}  {name}")
 
-    thin = [p.login for p in profiles if p.notes]
+    thin = [p.applicant_id for p in profiles if p.notes]
     if thin:
         print(f"\nprofiles with warnings ({len(thin)}): {', '.join(thin[:12])}")
     return 0

@@ -1,0 +1,1248 @@
+{
+  "applicant_id": "applicant0030",
+  "login": "Chelaila",
+  "html_url": "https://github.com/Chelaila",
+  "created_at": "2020-01-31T23:07:19Z",
+  "account_age_days": 2419,
+  "public_repos": 15,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "portfolio",
+      "full_name": "Chelaila/portfolio",
+      "html_url": "https://github.com/Chelaila/portfolio",
+      "description": "Portafolio Marcelo Molina",
+      "homepage": "https://portfolio-chelailas-projects.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-21T06:01:48Z",
+      "pushed_at": "2026-05-25T20:51:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 631,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 34582,
+        "SCSS": 3188,
+        "CSS": 629,
+        "JavaScript": 559
+      },
+      "primary_language": "TypeScript",
+      "file_count": 35,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "eslint",
+          "eslint-config-next",
+          "mermaid",
+          "next",
+          "react",
+          "react-dom",
+          "sass",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1450,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 34,582 bytes (89% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 3,188 bytes (8% of repo)",
+          "strength": 0.4818317162071975
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/pubsub-integration-plan.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 38958,
+        "strong_skills": [
+          "nextjs",
+          "react",
+          "tailwind",
+          "technical-writing",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "documentation-starter-kit",
+      "full_name": "Chelaila/documentation-starter-kit",
+      "html_url": "https://github.com/Chelaila/documentation-starter-kit",
+      "description": null,
+      "homepage": "https://documentation-starter-kit-gamma-sandy.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-18T00:03:43Z",
+      "pushed_at": "2025-06-18T00:03:49Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 791,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "MDX": 1111,
+        "TypeScript": 873,
+        "JavaScript": 140,
+        "CSS": 101
+      },
+      "primary_language": "MDX",
+      "file_count": 18,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "components",
+        "next-env.d.ts",
+        "next.config.js",
+        "package.json",
+        "pages",
+        "pnpm-lock.yaml",
+        "theme.config.tsx",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@types/node",
+          "next",
+          "nextra",
+          "nextra-theme-docs",
+          "react",
+          "react-dom",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 691,
+      "readme_excerpt": "# Nextra Docs Template \n\nThis is a template for creating documentation with [Nextra](https://nextra.site).\n\n[**Live Demo →**](https://nextra-docs-template.vercel.app)\n\n[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)\n\n## Quick Start\n\nClick the button to clone this repository and deploy it on Vercel:\n\n[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)\n\n## Local Development\n\nFirst, run `pnpm i` to install the dependencies.\n\nThen, run `pnpm dev` to start the development server and visit localhost:3000.\n\n## License\n\nThis project is licensed under the MIT License.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-06-18T00:03:48+00:00",
+        "last_at": "2025-06-18T00:03:48+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 873 bytes (39% of repo)",
+          "strength": 0.7923595505617977
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 140 bytes (6% of repo)",
+          "strength": 0.46292134831460674
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "repo_name",
+          "detail": "'documentation' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1114,
+        "strong_skills": [
+          "nextjs",
+          "react",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "pomodorotimer",
+      "full_name": "Chelaila/pomodorotimer",
+      "html_url": "https://github.com/Chelaila/pomodorotimer",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-23T20:37:54Z",
+      "pushed_at": "2026-05-23T21:38:46Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 14132,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 146861,
+        "CSS": 7676,
+        "JavaScript": 2350,
+        "Dockerfile": 1491,
+        "HTML": 464
+      },
+      "primary_language": "TypeScript",
+      "file_count": 144,
+      "top_level_paths": [
+        "README.md",
+        "backend",
+        "docker-compose.yml",
+        "docs",
+        "frontend"
+      ],
+      "notable_files": [
+        "backend/Dockerfile",
+        "backend/docker/Dockerfile",
+        "backend/package.json",
+        "frontend/docker/nginx/Dockerfile",
+        "frontend/docker/node/Dockerfile",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3413,
+      "readme_excerpt": "# Pomodoro Timer\n\nFull-stack Pomodoro Timer application with task management, configurable timer presets, YouTube playlist integration and theme customization.\n\n## Preview\n\n<!-- Guardá los screenshots en docs/preview/ y referencialos acá -->\n![Pomodoro Timer preview](docs/preview/preview.jpg)\n\n## Stack\n\n### Frontend\n- **React 18** + **TypeScript**\n- **Vite 6** (dev server / bundler)\n- **React Router DOM 6**\n- **Tailwind CSS 4** + PostCSS / Autoprefixer\n- **Axios** (HTTP client)\n- **Nginx** (production static serving via Docker)\n\n<!-- Guardá los logos en docs/stack/ y referencialos acá -->\n<p align=\"left\">\n  <img src=\"docs/stack/react.png\"      alt=\"React\"      height=\"48\" />\n  <img src=\"docs/stack/typescript.png\" alt=\"TypeScript\" height=\"48\" />\n  <img src=\"docs/stack/vite.png\"       alt=\"Vite\"       height=\"48\" />\n  <img src=\"docs/stack/tailwind.png\"   alt=\"Tailwind\"   height=\"48\" />\n  <img src=\"docs/stack/nginx.png\"      alt=\"Nginx\"      height=\"48\" />\n</p>\n\n### Backend\n- **NestJS 11** (Node.js framework)\n- **TypeScript 5**\n- **TypeORM 0.3**\n- **MySQL 8** (`mysql2` driver)\n- **@nestjs/event-emitter** (in-app events)\n- **uuid**\n\n<p align=\"left\">\n  <img src=\"docs/stack/nestjs.png\"  ",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 101
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 146,861 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 7,676 bytes (5% of repo)",
+          "strength": 0.44832475038088165
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,350 bytes (1% of repo)",
+          "strength": 0.41479457574193224
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,491 bytes (1% of repo)",
+          "strength": 0.4093866861409451
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (backend/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (backend/sql/create_tasks_table.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (backend/test/app.e2e-spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (frontend/docker/nginx/nginx.conf)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 158842,
+        "strong_skills": [
+          "docker",
+          "linux",
+          "sql",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "tejido_counter",
+      "full_name": "Chelaila/tejido_counter",
+      "html_url": "https://github.com/Chelaila/tejido_counter",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-23T21:39:36Z",
+      "pushed_at": "2026-06-01T18:57:37Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 552,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 104848,
+        "C++": 19006,
+        "CMake": 10445,
+        "C": 734,
+        "Swift": 676,
+        "Kotlin": 127,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 146,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "docs",
+        "ios",
+        "lib",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test",
+        "windows"
+      ],
+      "notable_files": [
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3588,
+      "readme_excerpt": "# Tejido Counter\n\nContador de vueltas y puntos para proyectos de tejido (Crochet y Palillo). Permite organizar proyectos en secciones, llevar el conteo de filas, distinguir entre derecho (RS) y revés (WS), y trabajar tanto en plano como en redondo.\n\n## Preview\n\n<!-- Guardá los screenshots en docs/preview/ y referencialos acá -->\n![Tejido Counter preview](docs/preview/preview.jpg)\n\n## Stack\n\n### Frontend\n- **Flutter 3.10+** (multi-plataforma: Android, iOS, Windows)\n- **Dart 3**\n- **Provider 6** (state management)\n- **shared_preferences 2** (persistencia local)\n- **flutter_svg 2** (renderizado de SVGs / fondos animados)\n- **uuid 4** (identificadores únicos de proyectos/secciones)\n- **cupertino_icons** (íconos estilo iOS)\n\n<!-- Guardá los logos en docs/stack/ y referencialos acá -->\n<p align=\"left\">\n  <img src=\"docs/stack/flutter.png\" alt=\"Flutter\" height=\"48\" />\n  <img src=\"docs/stack/dart.png\"    alt=\"Dart\"    height=\"48\" />\n</p>\n\n### Plataformas soportadas\n- **Android**\n- **iOS**\n- **Windows** (desktop)\n\n<p align=\"left\">\n  <img src=\"docs/stack/android.png\" alt=\"Android\" height=\"48\" />\n  <img src=\"docs/stack/apple.png\"     alt=\"Apple\"     height=\"48\" />\n  <img src=\"docs/stack/window",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 35
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 104,848 bytes (77% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 19,006 bytes (14% of repo)",
+          "strength": 0.5398795943300411
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 125429,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ClinicasVet",
+      "full_name": "Chelaila/ClinicasVet",
+      "html_url": "https://github.com/Chelaila/ClinicasVet",
+      "description": "Proyecto AcidoBasico",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-08-26T00:57:25Z",
+      "pushed_at": "2020-10-05T01:58:02Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 94,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 4943,
+        "CSS": 1081
+      },
+      "primary_language": "HTML",
+      "file_count": 10,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "assets",
+        "background.html",
+        "estilos.css",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 35,
+      "readme_excerpt": "# ClinicasVet\nProyecto AcidoBasico\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2020-08-26T00:57:26+00:00",
+        "last_at": "2020-10-05T01:57:55+00:00",
+        "active_days": 2,
+        "span_days": 40,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Primer Commit",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,943 bytes (82% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,081 bytes (18% of repo)",
+          "strength": 0.579448871181939
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6024,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 182316,
+    "Dart": 104848,
+    "C++": 19006,
+    "CMake": 10445,
+    "CSS": 9487,
+    "HTML": 5407,
+    "SCSS": 3188,
+    "JavaScript": 3049,
+    "Dockerfile": 1491,
+    "MDX": 1111,
+    "C": 734,
+    "Swift": 676,
+    "Kotlin": 127,
+    "Objective-C": 38
+  },
+  "total_commits": 3,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Chelaila/portfolio",
+        "Chelaila/documentation-starter-kit",
+        "Chelaila/pomodorotimer"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 182316,
+      "commit_count": 1,
+      "first_seen": "2025-06-18T00:03:48+00:00",
+      "last_seen": "2025-06-18T00:03:48+00:00",
+      "details": [
+        "portfolio: TypeScript: 34,582 bytes (89% of repo)",
+        "portfolio: typescript in package.json",
+        "documentation-starter-kit: TypeScript: 873 bytes (39% of repo)",
+        "documentation-starter-kit: typescript in package.json",
+        "pomodorotimer: TypeScript: 146,861 bytes (92% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Chelaila/portfolio",
+        "Chelaila/pomodorotimer",
+        "Chelaila/ClinicasVet"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 16888,
+      "commit_count": 2,
+      "first_seen": "2020-08-26T00:57:26+00:00",
+      "last_seen": "2020-10-05T01:57:55+00:00",
+      "details": [
+        "portfolio: SCSS: 3,188 bytes (8% of repo)",
+        "pomodorotimer: CSS: 7,676 bytes (5% of repo)",
+        "ClinicasVet: HTML: 4,943 bytes (82% of repo)",
+        "ClinicasVet: CSS: 1,081 bytes (18% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "Chelaila/tejido_counter"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 104848,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "tejido_counter: Dart: 104,848 bytes (77% of repo)",
+        "tejido_counter: flutter project (pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Chelaila/portfolio",
+        "Chelaila/documentation-starter-kit"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-06-18T00:03:48+00:00",
+      "last_seen": "2025-06-18T00:03:48+00:00",
+      "details": [
+        "portfolio: next config (next.config.ts)",
+        "portfolio: next in package.json",
+        "documentation-starter-kit: next config (next.config.js)",
+        "documentation-starter-kit: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Chelaila/portfolio",
+        "Chelaila/documentation-starter-kit"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-06-18T00:03:48+00:00",
+      "last_seen": "2025-06-18T00:03:48+00:00",
+      "details": [
+        "portfolio: @types/react in package.json",
+        "documentation-starter-kit: react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Chelaila/portfolio"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "portfolio: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Chelaila/portfolio",
+        "Chelaila/documentation-starter-kit"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-06-18T00:03:48+00:00",
+      "last_seen": "2025-06-18T00:03:48+00:00",
+      "details": [
+        "portfolio: docs directory (docs/pubsub-integration-plan.md)",
+        "documentation-starter-kit: 'documentation' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Chelaila/pomodorotimer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1491,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "pomodorotimer: Dockerfile: 1,491 bytes (1% of repo)",
+        "pomodorotimer: Dockerfile (backend/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "Chelaila/pomodorotimer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "pomodorotimer: SQL file (backend/sql/create_tasks_table.sql)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Chelaila/pomodorotimer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "pomodorotimer: test directory (backend/test/app.e2e-spec.ts)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "Chelaila/pomodorotimer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "pomodorotimer: server config (frontend/docker/nginx/nginx.conf)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Chelaila/tejido_counter"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "tejido_counter: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Chelaila/tejido_counter"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5398795943300411,
+      "total_bytes": 19006,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "tejido_counter: C++: 19,006 bytes (14% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Chelaila/documentation-starter-kit",
+        "Chelaila/pomodorotimer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.46292134831460674,
+      "total_bytes": 2490,
+      "commit_count": 1,
+      "first_seen": "2025-06-18T00:03:48+00:00",
+      "last_seen": "2025-06-18T00:03:48+00:00",
+      "details": [
+        "documentation-starter-kit: JavaScript: 140 bytes (6% of repo)",
+        "pomodorotimer: JavaScript: 2,350 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 3,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 12,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3; total_commits: 3 < 20"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-16T14:13:24.380363+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3; total_commits: 3 < 20"
+  ]
+}

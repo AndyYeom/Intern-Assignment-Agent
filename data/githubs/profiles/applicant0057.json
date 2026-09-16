@@ -1,0 +1,1318 @@
+{
+  "applicant_id": "applicant0057",
+  "login": "AURATAO",
+  "html_url": "https://github.com/AURATAO",
+  "created_at": "2023-03-05T20:07:01Z",
+  "account_age_days": 1290,
+  "public_repos": 29,
+  "followers": 4,
+  "following": 3,
+  "repos": [
+    {
+      "name": "Hora_light_MVP",
+      "full_name": "AURATAO/Hora_light_MVP",
+      "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+      "description": null,
+      "homepage": "https://hora-light-mvp.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-18T10:49:06Z",
+      "pushed_at": "2026-09-16T14:34:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 106135,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Go": 961994,
+        "TypeScript": 551903,
+        "JavaScript": 412044,
+        "PLpgSQL": 65591,
+        "CSS": 6203,
+        "Shell": 4138,
+        "HTML": 660
+      },
+      "primary_language": "Go",
+      "file_count": 315,
+      "top_level_paths": [
+        ".agents",
+        ".easignore",
+        ".gitignore",
+        ".gitleaksignore",
+        ".vscode",
+        "BACKEND_REFERENCE.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "design-tokens",
+        "mobile",
+        "package-lock.json",
+        "server",
+        "skills",
+        "skills-lock.json",
+        "supabase"
+      ],
+      "notable_files": [
+        "app/package.json",
+        "mobile/package.json",
+        "server/go.mod"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4650,
+      "readme_excerpt": "# HO:RA MVP\n\nMinute-billing urban support platform. React frontend + Go backend + Supabase (Postgres + Auth + Storage + Edge Functions).\n\n---\n\n## Stack\n\n| Layer | Tech |\n|---|---|\n| Frontend | React 18, Vite, Tailwind CSS 4 |\n| Backend | Go (Gin), cookie-based session auth |\n| Database | Supabase (Postgres) |\n| Auth | Google OAuth via Go backend |\n| Storage | Supabase Storage (avatars bucket) |\n| Email | Postmark |\n| Edge Functions | Supabase Edge Functions (Deno) |\n\n---\n\n## Project Structure\n\n```\nHora_light_MVP/\n├── app/              # React frontend\n├── server/           # Go backend\n└── supabase/\n    └── functions/\n        └── notify-new-task/   # Edge function: email on new task\n```\n\n---\n\n## Local Development\n\n### 1. Backend (Go)\n\n```bash\ncd server\ngo run ./\n```\n\nRuns on `http://localhost:8080`\n\n**Required: `server/.env`**\n\n```env\nSUPABASE_PROJECT_URL=https://<ref>.supabase.co\nSUPABASE_JWKS_URL=https://<ref>.supabase.co/auth/v1/jwks\nSUPABASE_DB_URL=postgresql://postgres:<password>@db.<ref>.supabase.co:5432/postgres\nSUPABASE_JWT_SECRET=\nSUPABASE_SERVICE_ROLE_KEY=\nAVATARS_BUCKET=avatars\n\nSMTP_HOST=smtp.postmarkapp.com\nSMTP_PORT=587\nSMTP_USER=\nSMTP_PASS=                    # Postm",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.332,
+      "commits": {
+        "count": 83,
+        "first_at": "2025-09-11T10:39:39+00:00",
+        "last_at": "2026-03-30T11:29:29+00:00",
+        "active_days": 32,
+        "span_days": 200,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore:upload new ig logo",
+          "fix:the messy code in notify.go",
+          "chore: the email notification",
+          "chore:update logo and ig icon in email notification",
+          "chore:updated the svg logo url link",
+          "fix(email): update Instagram link to correct account in all notification emails",
+          "feat(nav): hamburger menu on mobile, desktop shows Dashboard + Logout",
+          "style:update the template of the email notification",
+          "chore: update the email notification with HORA logo",
+          "feat(chat): full-screen chat overlay, inline info panels, mobile modal fixes",
+          "feat(task): relabel fields, info modals, transport chips, fix summary box",
+          "fix(auth): validate Supabase HS256 tokens with raw JWT secret in /auth/exchange",
+          "feat(login): gate both Google and email buttons behind terms checkbox",
+          "fix(auth): link accounts by email so Google + magic link share one profile",
+          "feat(auth): add magic link / OTP login alongside Google OAuth",
+          "feat: add [email] to new-task email notifications",
+          "feat(notifications): Postmark HTTP API, WhatsApp on complete, duration format",
+          "feat(whatsapp): add Meta Cloud API WhatsApp notifications",
+          "fix(cors): allow all *.vercel.app preview deployments",
+          "feat(gps): capture and share supporter location during active task"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 230
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 961,994 bytes (48% of repo)",
+          "strength": 0.8803885878534836
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 551,903 bytes (28% of repo)",
+          "strength": 0.6756024494977111
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 412,044 bytes (21% of repo)",
+          "strength": 0.6057614031828689
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 65,591 bytes (3% of repo)",
+          "strength": 0.4327540170374221
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,203 bytes (0% of repo)",
+          "strength": 0.4030975769188323
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 4,138 bytes (0% of repo)",
+          "strength": 0.4020663829260242
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (mobile/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (mobile/metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (mobile/tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (server/admin_reassign_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (server/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (supabase/migrations/20260711094158_remote_schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (supabase/migrations/20260711094158_remote_schema.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2002533,
+        "strong_skills": [
+          "data-modeling",
+          "go",
+          "javascript",
+          "linux",
+          "react-native",
+          "sql",
+          "tailwind",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Hora_Landing_web",
+      "full_name": "AURATAO/Hora_Landing_web",
+      "html_url": "https://github.com/AURATAO/Hora_Landing_web",
+      "description": null,
+      "homepage": "https://hora-landing-web.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-18T20:38:38Z",
+      "pushed_at": "2026-08-07T16:28:00Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 169519,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 170004,
+        "CSS": 15851,
+        "Go": 10566,
+        "HTML": 2004
+      },
+      "primary_language": "JavaScript",
+      "file_count": 83,
+      "top_level_paths": [
+        ".gitignore",
+        "Hora",
+        "README.md",
+        "backend",
+        "package-lock.json",
+        "package.json",
+        "pocketbase"
+      ],
+      "notable_files": [
+        "Hora/package.json",
+        "backend/go.mod",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "lucide-react"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 596,
+      "readme_excerpt": "# Hora Mission Matching Landing Web (Local Dev)\n\nThis project includes:\n\n- ⚛️ React frontend (Vite) → in `/Hora`\n- 🦦 Go backend server → in `/backend`\n- 🔐 PocketBase as lightweight backend DB → in `/pocketbase`\n\n---\n\n## 💻 Local Development\n\n1. Start PocketBase:\n\n```bash\ncd pocketbase\n./pocketbase serve\nStart Go backend:\n\nbash\nCopy\nEdit\ncd backend\ngo run main.go\nStart React frontend:\n\nbash\nCopy\nEdit\ncd Hora\nnpm install\nnpm run dev\n\nVisit http://localhost:5173 to test the form\n```\n\n# backend/.env.example\n\nEMAIL_FROM=[email]\nEMAIL_TO=[email]\nEMAIL_PASS=your_app_password\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.854,
+      "commits": {
+        "count": 76,
+        "first_at": "2025-07-18T20:39:46+00:00",
+        "last_at": "2026-03-30T09:39:18+00:00",
+        "active_days": 26,
+        "span_days": 254,
+        "max_per_day": 14,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: fix contact email inconsistency in privacy policy",
+          "style: adjust the home page hero",
+          "chore:update the privacy policy detail",
+          "chore:update beta program notice",
+          "chore: updated privacy policy",
+          "chore: changed the og titl",
+          "fix(mobile): revert scroll lock to overflow-hidden on html+body, fix nav z-index",
+          "fix: clean up beta page text styling",
+          "chore: update banner stage label from alpha to beta",
+          "fix(mobile): lock background scroll on iOS Safari when hamburger menu opens",
+          "feat(beta): update content, routing, and gate modal copy",
+          "feat: add beta gate modal and /beta page",
+          "fix(mobile): shrink header logo and scene2 headline on small screens",
+          "fix(mobile): remove social proof stats strip that overlapped hero buttons on small screens",
+          "refactor: code quality pass — context, dead code removal, PII cleanup",
+          "feat(seo+a11y): add SEO meta tags, robots/sitemap, and accessibility fixes",
+          "feat(ui): header centering, mobile flip fix, content audit, testimonials refresh",
+          "chore: security hardening + code cleanup",
+          "chore: remove unused assets and dead code",
+          "security: remove client-side credentials and harden env config"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 37
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 8,
+          "perf": 0,
+          "refactor": 3,
+          "test": 0,
+          "revert": 1
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 170,004 bytes (86% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 15,851 bytes (8% of repo)",
+          "strength": 0.4798840871865945
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 10,566 bytes (5% of repo)",
+          "strength": 0.45324933854101046
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,004 bytes (1% of repo)",
+          "strength": 0.41009953382890263
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (Hora/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (backend/go.mod)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 198425,
+        "strong_skills": [
+          "go",
+          "javascript",
+          "linux"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Hora_web",
+      "full_name": "AURATAO/Hora_web",
+      "html_url": "https://github.com/AURATAO/Hora_web",
+      "description": null,
+      "homepage": "https://hora-web-two.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-30T10:10:54Z",
+      "pushed_at": "2025-07-18T16:02:35Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 63708,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 126488,
+        "CSS": 6091,
+        "HTML": 361
+      },
+      "primary_language": "JavaScript",
+      "file_count": 72,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vercel.json",
+        "vite.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@splinetool/viewer",
+          "@tailwindcss/language-server",
+          "@tailwindcss/vite",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "animate.css",
+          "aos",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "globals",
+          "gsap",
+          "hamburgers",
+          "lucide-react",
+          "prettier",
+          "prettier-plugin-tailwindcss",
+          "react",
+          "react-dom",
+          "react-markdown",
+          "react-router-dom",
+          "swiper",
+          "tailwind-hamburgers",
+          "tailwindcss",
+          "tw-elements-react",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 702,
+      "readme_excerpt": "# My Vite React Tailwind Guide 🚀\n\nA simple **navigation website** built with **Vite + React + Tailwind CSS**.  \nThis project is currently a frontend-only guide / showcase with no API integration.\n\n---\n\n## ✨ Features\n\n- ⚡ Built with [Vite](https://vitejs.dev/) + [React](https://reactjs.org/)\n- 🎨 Styled using [Tailwind CSS](https://tailwindcss.com/)\n- 🌈 Icons via [Lucide React](https://lucide.dev/)\n- 💅 Code formatting with [Prettier](https://prettier.io/) + plugin for Tailwind class sorting\n- 🗺️ Ready for adding more pages/components\n\n---\n\n## 🚀 Getting Started\n\nClone this repo and install dependencies:\n\n```bash\ngit clone https://github.com/yourusername/your-repo.git\ncd your-repo\nnpm install\n```\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 34,
+        "first_at": "2025-06-30T10:11:47+00:00",
+        "last_at": "2025-07-18T16:02:29+00:00",
+        "active_days": 14,
+        "span_days": 18,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.029,
+        "messages_sample": [
+          "feat: add who uses hora CTA section both home page and mission",
+          "feat: added contact page",
+          "feat: implement demo modal triggered by button click",
+          "feat: add 3D iPhone mockup; replace home image",
+          "chore: remove testimony and partnership sections for early stage; add team section on home page",
+          "feat: complete Terms of Use; add Privacy Policy page",
+          "fix(hero): remove extra space caused by animation effect",
+          "chore: stabilize overflow + svg scaling for phone app",
+          "fix: correct StopWatch import path in Home.jsx to resolve build error",
+          "feat: update Home page hero with stopwatch & wage conversion, add header flip on scroll",
+          "fix: adjust position of the hero section on mission page",
+          "feat: replace all <a> with Link router and add auto scroll to top on page change",
+          "feat: prevent background scrolling when mobile menu is open",
+          "fix: adjust header scroll effect for different screen sizes",
+          "fix: ensure tw-elements-react added to package.json for deployment",
+          "feat: add mission page section 5 (difference) with RWD",
+          "feat: build Hora mission page - sections 1-3, responsive",
+          "feat: toggle feature for section 3 on home page",
+          "feat: finish Home page RWD, header, footer, navbar, and hamburger menu",
+          "feat: header scroll colors, section2 number animation, split Header"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 27
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 126,488 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,091 bytes (5% of repo)",
+          "strength": 0.4458176621032045
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 132940,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SliceApp",
+      "full_name": "AURATAO/SliceApp",
+      "html_url": "https://github.com/AURATAO/SliceApp",
+      "description": "Turn goals into daily steps",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-02T22:26:21Z",
+      "pushed_at": "2026-02-27T15:58:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2278,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 95504,
+        "Go": 38790,
+        "JavaScript": 817,
+        "CSS": 58
+      },
+      "primary_language": "TypeScript",
+      "file_count": 67,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "app",
+        "backend"
+      ],
+      "notable_files": [
+        "app/package.json",
+        "backend/go.mod"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1645,
+      "readme_excerpt": "# SliceApp (SLICE)\n\nA 7-day goal splitter + daily execution tracker.\n\n- Go backend (REST API) + Postgres (Supabase)\n- React Native (Expo) mobile app\n- UI style: Retro-Future / Swiss-inspired collage\n\n---\n\n## Project Structure\n\nsliceApp/\nbackend/ # Go API server\napp/ # Expo React Native app\n\n---\n\n## Prerequisites\n\n### Backend\n\n- Go 1.21+ recommended\n- A Postgres database (Supabase or local)\n\n### Frontend\n\n- Node.js 18+ recommended\n- Expo Go app on your phone (iOS/Android)\n\n---\n\n## Backend — Start Server (Go)\n\n### 1 Create `.env` in `backend/`\n\nInside `sliceApp/backend/`, create a file named `.env`:\n\n````env\n# Example (Supabase)\nDATABASE_URL=postgresql://postgres:<PASSWORD>@<HOST>:5432/postgres?sslmode=require\nPORT=8080\n\n# Optional CORS (set this if you restrict origins)\n# CORS_ORIGIN=http://localhost:19006\n\n# Optional AI (if you use AI generation)\nOPENAI_API_KEY=your_openai_key\nOPENAI_MODEL=gpt-4o-mini\nUSE_FAKE_AI=true\n\nInstall dependencies\ncd backend\ngo mod tidy\n\nRun the API server\ncd backend\ngo run ./cmd/api\n\nBy default it runs at:\nhttp://localhost:8080\n\n## Frontend — Start Expo App\ncd app\nnpm install\nStart Expo with clean cache (only when needed)\nnpx expo start --clear\n\n\n## iOS T",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2026-02-02T22:28:35+00:00",
+        "last_at": "2026-02-27T15:57:55+00:00",
+        "active_days": 7,
+        "span_days": 24,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(debug):debugging quer plan days failed reason",
+          "fix(api): finalize user scoping for plans and plan_days",
+          "fix(api): enforce user middleware on plans routes",
+          "fix:bump iOS build number",
+          "fix: add anonymous user id header for API",
+          "feat: add anonymous auth + user scoping",
+          "chore:added build number to  app.json",
+          "chore: point app API base to Render",
+          "feat: add active-plan notification switching + Today fallback sync",
+          "feat: add notifications and improve app stability",
+          "feat(ai): splitter meta+plan output with JSON schema",
+          "feat: add plan deletion + swipe-to-delete and refresh Today UI",
+          "UI: header rules + done-means accordion",
+          "Convert app from submodule to normal folder",
+          "Initial commit: SliceApp backend + Expo app"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 50
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 95,504 bytes (71% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 38,790 bytes (29% of repo)",
+          "strength": 0.6869740842944758
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (app/metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (app/tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (backend/go.mod)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 135169,
+        "strong_skills": [
+          "go",
+          "react-native",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "hora-pocketbase",
+      "full_name": "AURATAO/hora-pocketbase",
+      "html_url": "https://github.com/AURATAO/hora-pocketbase",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-31T16:08:28Z",
+      "pushed_at": "2025-07-31T19:46:45Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11705,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 20218,
+        "Dockerfile": 624
+      },
+      "primary_language": "JavaScript",
+      "file_count": 38,
+      "top_level_paths": [
+        "CHANGELOG.md",
+        "Dockerfile",
+        "LICENSE.md",
+        "README.md",
+        "pb_data",
+        "pb_migrations",
+        "pocketbase"
+      ],
+      "notable_files": [
+        "Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 18,
+      "readme_excerpt": "# hora-pocketbase\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2025-07-31T16:12:29+00:00",
+        "last_at": "2025-07-31T19:46:44+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Remove COPY pb_data for clean deployments",
+          "Force update pb_data",
+          "Update Dockerfile for deployment",
+          "Fix Dockerfile for PocketBase deployment",
+          "Add pocketbase binary for Render deploy",
+          "chore: add Dockerfile for Render deployment",
+          "remove macOS pocketbase binary for Render deployment",
+          "chore: add PocketBase deployment files",
+          "chore: initial PocketBase deployment"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 26
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 20,218 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 20842,
+        "strong_skills": [
+          "docker",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Go": 1011350,
+    "JavaScript": 729571,
+    "TypeScript": 647407,
+    "PLpgSQL": 65591,
+    "CSS": 28203,
+    "Shell": 4138,
+    "HTML": 3025,
+    "Dockerfile": 624
+  },
+  "total_commits": 217,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "AURATAO/Hora_light_MVP",
+        "AURATAO/Hora_Landing_web",
+        "AURATAO/Hora_web",
+        "AURATAO/hora-pocketbase"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 728754,
+      "commit_count": 202,
+      "first_seen": "2025-06-30T10:11:47+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: JavaScript: 412,044 bytes (21% of repo)",
+        "Hora_Landing_web: JavaScript: 170,004 bytes (86% of repo)",
+        "Hora_web: JavaScript: 126,488 bytes (95% of repo)",
+        "hora-pocketbase: JavaScript: 20,218 bytes (97% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "AURATAO/Hora_light_MVP",
+        "AURATAO/SliceApp"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 647407,
+      "commit_count": 98,
+      "first_seen": "2025-09-11T10:39:39+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: TypeScript: 551,903 bytes (28% of repo)",
+        "SliceApp: TypeScript: 95,504 bytes (71% of repo)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "AURATAO/Hora_light_MVP",
+        "AURATAO/Hora_web",
+        "AURATAO/SliceApp"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 132,
+      "first_seen": "2025-06-30T10:11:47+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: tailwind config (mobile/tailwind.config.js)",
+        "Hora_web: tailwindcss in package.json",
+        "SliceApp: tailwind config (app/tailwind.config.js)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "AURATAO/Hora_web"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 34,
+      "first_seen": "2025-06-30T10:11:47+00:00",
+      "last_seen": "2025-07-18T16:02:29+00:00",
+      "details": [
+        "Hora_web: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "AURATAO/Hora_light_MVP",
+        "AURATAO/Hora_Landing_web",
+        "AURATAO/SliceApp"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.8803885878534836,
+      "total_bytes": 1011350,
+      "commit_count": 174,
+      "first_seen": "2025-07-18T20:39:46+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: Go: 961,994 bytes (48% of repo)",
+        "Hora_light_MVP: Go module (server/go.mod)",
+        "Hora_Landing_web: Go: 10,566 bytes (5% of repo)",
+        "Hora_Landing_web: Go module (backend/go.mod)",
+        "SliceApp: Go: 38,790 bytes (29% of repo)",
+        "SliceApp: Go module (backend/go.mod)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "AURATAO/Hora_light_MVP",
+        "AURATAO/Hora_Landing_web"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 159,
+      "first_seen": "2025-07-18T20:39:46+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: env config (mobile/.env.example)",
+        "Hora_Landing_web: env config (Hora/.env.example)"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "AURATAO/Hora_light_MVP",
+        "AURATAO/SliceApp"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 98,
+      "first_seen": "2025-09-11T10:39:39+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: React Native bundler config (mobile/metro.config.js)",
+        "SliceApp: React Native bundler config (app/metro.config.js)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "AURATAO/Hora_light_MVP"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 83,
+      "first_seen": "2025-09-11T10:39:39+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: test file (server/admin_reassign_test.go)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "AURATAO/Hora_light_MVP"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 83,
+      "first_seen": "2025-09-11T10:39:39+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: SQL file (supabase/migrations/20260711094158_remote_schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "AURATAO/Hora_light_MVP"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 83,
+      "first_seen": "2025-09-11T10:39:39+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: database migrations (supabase/migrations/20260711094158_remote_schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "AURATAO/hora-pocketbase"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2025-07-31T16:12:29+00:00",
+      "last_seen": "2025-07-31T19:46:44+00:00",
+      "details": [
+        "hora-pocketbase: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "AURATAO/Hora_light_MVP",
+        "AURATAO/Hora_Landing_web",
+        "AURATAO/Hora_web"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4798840871865945,
+      "total_bytes": 30149,
+      "commit_count": 193,
+      "first_seen": "2025-06-30T10:11:47+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: CSS: 6,203 bytes (0% of repo)",
+        "Hora_Landing_web: CSS: 15,851 bytes (8% of repo)",
+        "Hora_Landing_web: HTML: 2,004 bytes (1% of repo)",
+        "Hora_web: CSS: 6,091 bytes (5% of repo)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "AURATAO/Hora_light_MVP"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4327540170374221,
+      "total_bytes": 65591,
+      "commit_count": 83,
+      "first_seen": "2025-09-11T10:39:39+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: PLpgSQL: 65,591 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "AURATAO/Hora_light_MVP"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4020663829260242,
+      "total_bytes": 4138,
+      "commit_count": 83,
+      "first_seen": "2025-09-11T10:39:39+00:00",
+      "last_seen": "2026-03-30T11:29:29+00:00",
+      "details": [
+        "Hora_light_MVP: Shell: 4,138 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 217,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-16T14:38:22.644076+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

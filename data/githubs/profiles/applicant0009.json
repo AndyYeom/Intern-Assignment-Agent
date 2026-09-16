@@ -1,0 +1,1499 @@
+{
+  "applicant_id": "applicant0009",
+  "login": "thiagopicorelli",
+  "html_url": "https://github.com/thiagopicorelli",
+  "created_at": "2020-01-31T23:56:50Z",
+  "account_age_days": 2419,
+  "public_repos": 25,
+  "followers": 31,
+  "following": 25,
+  "repos": [
+    {
+      "name": "raizes-do-nordeste",
+      "full_name": "thiagopicorelli/raizes-do-nordeste",
+      "html_url": "https://github.com/thiagopicorelli/raizes-do-nordeste",
+      "description": "Projeto",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-29T22:52:13Z",
+      "pushed_at": "2026-06-29T23:00:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 128,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 203038,
+        "JavaScript": 559,
+        "CSS": 488
+      },
+      "primary_language": "TypeScript",
+      "file_count": 37,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "cypress",
+          "eslint",
+          "eslint-config-next",
+          "next",
+          "react",
+          "react-dom",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1450,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-05-13T14:06:45+00:00",
+        "last_at": "2026-06-29T22:59:57+00:00",
+        "active_days": 2,
+        "span_days": 47,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Fix typescript errors again",
+          "Fix errors",
+          "Primeiro Commit",
+          "Initial commit from Create Next App"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 23
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 203,038 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "cypress in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 204085,
+        "strong_skills": [
+          "integration-testing",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "project-solar-system",
+      "full_name": "thiagopicorelli/project-solar-system",
+      "html_url": "https://github.com/thiagopicorelli/project-solar-system",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-23T18:50:37Z",
+      "pushed_at": "2023-09-20T15:05:02Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10197,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 7059,
+        "CSS": 1933,
+        "HTML": 1721
+      },
+      "primary_language": "JavaScript",
+      "file_count": 53,
+      "top_level_paths": [
+        ".env",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".gitignore",
+        ".npmrc",
+        ".stylelintignore",
+        ".stylelintrc.json",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "eslint-config-trybe-frontend",
+          "prop-types",
+          "react",
+          "react-dom",
+          "react-scripts",
+          "stylelint",
+          "stylelint-config-standard",
+          "stylelint-order",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1165,
+      "readme_excerpt": "# Solar System\n![Screenshot_20230907_164315](https://github.com/thiagopicorelli/project-solar-system/assets/60528610/8a6b00a0-6a8b-4959-b3ec-0824a3f4542c)\n\nAplicação feita no curso da Trybe para a visualização dos planetas do sistema solar, com informações sobre suas respectivas missões espaciais.\n\n## Arquivos trabalhados\n[App.js](https://github.com/thiagopicorelli/project-solar-system/blob/main/src/App.js)\n\n[App.css](https://github.com/thiagopicorelli/project-solar-system/blob/main/src/App.css)\n\n[/components](https://github.com/thiagopicorelli/project-solar-system/tree/main/src/components)\n\n## Setup\nUsa React 18.2.0.\n\n`npm install && npm start` para instalar as dependências e rodar o dev server.\n\n## Linguagens\n![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)\n![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)\n![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)\n![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.944,
+      "commits": {
+        "count": 17,
+        "first_at": "2022-10-21T17:37:39+00:00",
+        "last_at": "2023-09-20T15:05:02+00:00",
+        "active_days": 4,
+        "span_days": 333,
+        "max_per_day": 13,
+        "low_effort_message_ratio": 0.118,
+        "messages_sample": [
+          "Update README.md",
+          "Atualiza README",
+          "Update README.md",
+          "README custom, em construção 🚧",
+          "Adiciona sombras na página e aumenta o tamanho da imagem de fundo",
+          "Adiciona estilo inicial da página",
+          "Cria lista de missões",
+          "Cria componente MissionCard e corrige lint no Missions",
+          "Cria componente de missões e adiciona o título",
+          "Adiciona a lista de planetas do sistema solar",
+          "Adiciona tag header ao componente Header",
+          "Cria componente PlanetCard",
+          "Adiciona Title em SolarSystem",
+          "Adiciona componente Title",
+          "Cria componente SolarSystem",
+          "Cria componente Header",
+          "Primeiro commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 14
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 7,059 bytes (66% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,933 bytes (18% of repo)",
+          "strength": 0.5804349855315971
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,721 bytes (16% of repo)",
+          "strength": 0.5606459441799683
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10713,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "project-starwars-planets-search",
+      "full_name": "thiagopicorelli/project-starwars-planets-search",
+      "html_url": "https://github.com/thiagopicorelli/project-starwars-planets-search",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-23T19:04:11Z",
+      "pushed_at": "2023-01-23T21:25:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3145,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 51439,
+        "HTML": 1721,
+        "CSS": 936
+      },
+      "primary_language": "JavaScript",
+      "file_count": 52,
+      "top_level_paths": [
+        ".editorconfig",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".gitignore",
+        ".stylelintignore",
+        ".stylelintrc.json",
+        "README.md",
+        "coverage.png",
+        "cypress",
+        "cypress-specs.jpeg",
+        "cypress.config.js",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "reporter.json",
+        "req-9.gif",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@sheerun/mutationobserver-shim",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "cypress",
+          "cypress-multi-reporters",
+          "eslint-config-trybe-frontend",
+          "mocha",
+          "mochawesome",
+          "mochawesome-merge",
+          "mochawesome-report-generator",
+          "prop-types",
+          "react",
+          "react-dom",
+          "react-scripts",
+          "stylelint",
+          "stylelint-order"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 973,
+      "readme_excerpt": "# StarWars Planets Search\nTrabalho feito na Trybe de uma aplicação de busca por informações de planetas do StarWars, utilizando informações adquiridas da API SWAPI. O projeto foi feito todo utilizando hooks e context para o acesso dos states, e os testes da aplicação foram feitos em Jest.\n\n## Pastas trabalhadas pelo grupo\n[/src](https://github.com/thiagopicorelli/project-starwars-planets-search/tree/main/src/)\n\n## Linguagens\n![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)\n![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)\n![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)\n![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)\n![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.933,
+      "commits": {
+        "count": 14,
+        "first_at": "2023-01-20T21:02:34+00:00",
+        "last_at": "2023-01-23T21:25:26+00:00",
+        "active_days": 4,
+        "span_days": 3,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.071,
+        "messages_sample": [
+          "Update README.md",
+          "README custom, em construção 🚧",
+          "Termina requisitos de teste",
+          "Completa requisito 9",
+          "Termina requisito 7",
+          "Completa requisito 6",
+          "Finaliza requisito 4",
+          "Finaliza requisito 3",
+          "Cria sistema de multiplos filtros\"",
+          "Completa requisito 2",
+          "Separa contexto da página",
+          "Cria filtro",
+          "Faz requisito 1",
+          "Cria modelo da tabela"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 32
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 51,439 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,721 bytes (3% of repo)",
+          "strength": 0.43181381248151435
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (cypress.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/tests/App.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "cypress in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "mocha in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 54096,
+        "strong_skills": [
+          "integration-testing",
+          "javascript",
+          "react",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "project-meme-generator",
+      "full_name": "thiagopicorelli/project-meme-generator",
+      "html_url": "https://github.com/thiagopicorelli/project-meme-generator",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-23T18:34:59Z",
+      "pushed_at": "2023-01-23T19:41:57Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13959,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 11825,
+        "HTML": 1176,
+        "CSS": 972
+      },
+      "primary_language": "JavaScript",
+      "file_count": 24,
+      "top_level_paths": [
+        ".editorconfig",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".gitignore",
+        ".stylelintrc.json",
+        "README.md",
+        "cypress",
+        "cypress.json",
+        "imgs",
+        "index.html",
+        "meme-generator.gif",
+        "package-lock.json",
+        "package.json",
+        "reporter.json",
+        "script.js",
+        "style.css"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "cypress",
+          "cypress-file-upload",
+          "cypress-multi-reporters",
+          "eslint",
+          "eslint-config-airbnb",
+          "eslint-config-trybe-fundamentals",
+          "eslint-plugin-editorconfig",
+          "eslint-plugin-import",
+          "eslint-plugin-sonarjs",
+          "minimist",
+          "mocha",
+          "mochawesome",
+          "mochawesome-merge",
+          "mochawesome-report-generator",
+          "stylelint",
+          "stylelint-config-standard"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 833,
+      "readme_excerpt": "# Meme Generator\nTrabalho feito na Trybe de uma aplicação de criação de memes, permitindo o upload de imagens e adição de textos. For testado por arquivos de teste do Jest e ESLint.\n\n## Arquivos trabalhados\n[index.html](https://github.com/thiagopicorelli/project-meme-generator/blob/main/index.html)\n\n[style.css](https://github.com/thiagopicorelli/project-meme-generator/blob/main/style.css)\n\n[script.js](https://github.com/thiagopicorelli/project-meme-generator/blob/main/script.js)\n\n## Linguagens\n![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)\n![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)\n![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.933,
+      "commits": {
+        "count": 14,
+        "first_at": "2022-09-02T17:10:11+00:00",
+        "last_at": "2023-01-23T19:41:57+00:00",
+        "active_days": 2,
+        "span_days": 143,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.071,
+        "messages_sample": [
+          "Update README.md",
+          "README custom, em construção 🚧",
+          "Corrige erros de formatação do CSS",
+          "Estiliza a páginagina",
+          "Adiciona memes prontos e melhor formata o código",
+          "Adiciona cor de fundo nos botões de borda",
+          "Adiciona modificação da borda do container",
+          "Centraliza texto",
+          "Adiciona limite ao input do texto e ajusta o container da imagem para acomodar",
+          "Adiciona estilo do texto",
+          "Adiciona texto por cima da imagem no container e a borda do container",
+          "Adiciona carregamento de imagem no container",
+          "Adiciona input de texto na tela",
+          "Iniciando o projeto"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 7
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 11,825 bytes (85% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,176 bytes (8% of repo)",
+          "strength": 0.4841623130322765
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 972 bytes (7% of repo)",
+          "strength": 0.4695627281185143
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (cypress/fixtures/meme.jpeg)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (cypress/integration/meme-generator.spec.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "cypress in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "mocha in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 13973,
+        "strong_skills": [
+          "integration-testing",
+          "javascript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "spotnews",
+      "full_name": "thiagopicorelli/spotnews",
+      "html_url": "https://github.com/thiagopicorelli/spotnews",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-18T14:19:04Z",
+      "pushed_at": "2023-09-20T15:48:24Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1849,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 27906,
+        "CSS": 3393,
+        "HTML": 2758,
+        "Dockerfile": 129
+      },
+      "primary_language": "Python",
+      "file_count": 66,
+      "top_level_paths": [
+        ".gitignore",
+        "Dockerfile",
+        "README.md",
+        "database",
+        "dev-requirements.txt",
+        "manage.py",
+        "news",
+        "news_rest",
+        "pyproject.toml",
+        "requirements.txt",
+        "setup.cfg",
+        "spotnews"
+      ],
+      "notable_files": [
+        "Dockerfile",
+        "pyproject.toml",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "0.1.0",
+          "7.3",
+          "addopts",
+          "beautifulsoup4",
+          "black",
+          "build-backend",
+          "click",
+          "coverage",
+          "description",
+          "django",
+          "django-extensions",
+          "django-filter",
+          "django_settings_module",
+          "djangorestframework",
+          "faker",
+          "flake8",
+          "iniconfig",
+          "isort",
+          "markdown",
+          "markdown-it-py",
+          "mccabe",
+          "minversion",
+          "mysqlclient",
+          "name",
+          "packaging",
+          "pathspec",
+          "pillow",
+          "platformdirs",
+          "pluggy",
+          "profile",
+          "pycodestyle",
+          "pyflakes",
+          "pytest",
+          "pytest-cov",
+          "pytest-django",
+          "pytest-json",
+          "readme",
+          "readme.md",
+          "requires-python",
+          "rich",
+          "setuptools",
+          "setuptools-scm",
+          "setuptools.build_meta",
+          "shellingham",
+          "spotnews",
+          "spotnews.settings_test",
+          "tests",
+          "typer",
+          "version",
+          "whitenoise"
+        ],
+        "requirements.txt": [
+          "."
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1686,
+      "readme_excerpt": "# SpotNews\n\n![spotnew](https://github.com/thiagopicorelli/spotnews/assets/60528610/ba944310-4c32-474c-8d5a-7c157e2c559d)\n\nAplicação feita no curso da Trybe do backend e frontend de um site de notícias, usando o framework **Django**, que mostra as notícias de um banco de dados **MySQL** dockerizado feito pela Trybe, com a possibilidade de criar novas notícias e categorias.\n\n## Pastas trabalhados\n[/news](https://github.com/thiagopicorelli/spotnews/tree/main/news)\n\n[/news_rest](https://github.com/thiagopicorelli/spotnews/tree/main/news_rest)\n\n[/spotnews](https://github.com/thiagopicorelli/spotnews/tree/main/spotnews)\n\n## Setup\nUtiliza Python 3.10.12 e Docker.\n\n`python3 -m venv .venv && source .venv/bin/activate` para criar o ambiente virtual do projeto.\n\n`python3 -m pip install -r dev-requirements.txt` para instalar.\n\n`docker build -t spotnews-db .` para iniciar o docker do banco de dados.\n\n`docker run -d -p 3306:3306 --name=spotnews-mysql-container -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=spotnews_database spotnews-db` para setar a variáveis de sistema no docker;\n\n`python3 manage.py migrate && python3 manage.py runscript seeds` para criar as migrations e popular o banco de d",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.926,
+      "commits": {
+        "count": 25,
+        "first_at": "2023-08-22T18:53:39+00:00",
+        "last_at": "2023-09-20T15:48:23+00:00",
+        "active_days": 5,
+        "span_days": 28,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.04,
+        "messages_sample": [
+          "Corrige imagem",
+          "Update README.md",
+          "Cria README e corrige frontend",
+          "README inicial, em construção 🚧",
+          "a",
+          "Completa requisito 9",
+          "Completa requisito 8",
+          "Corrige carregamento de imagens e permite adicionar imagens para as noticias",
+          "Completa requisito 7'",
+          "Completa variáveis do forms, só faltando corrigir as imagens",
+          "Cria inputs de Título, Conteúdo e Autoria em news_form",
+          "Inicia news_form e usa tag url no header",
+          "Completa requisito 6",
+          "Inicia formulário de categorias",
+          "Completa requisito 5",
+          "Coloca header como template e inicia news_details",
+          "Copia as imagens static para o root da pasta para aparecer na homepage com o link correto",
+          "Adiciona formatação de data no template e corrige requisito 4",
+          "Completa requisito 4",
+          "Monta lista de noticias inicial na pagina"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 51
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 27,906 bytes (82% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,393 bytes (10% of repo)",
+          "strength": 0.49925115544374893
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,758 bytes (8% of repo)",
+          "strength": 0.4806763002398643
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (database/01_create_database.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (news/migrations/0001_initial.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (spotnews/settings_test.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "beautifulsoup4 in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "django",
+          "source": "manifest",
+          "detail": "django in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysqlclient in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "manifest",
+          "detail": "readme in pyproject.toml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 34186,
+        "strong_skills": [
+          "data-modeling",
+          "django",
+          "docker",
+          "mysql",
+          "python",
+          "sql",
+          "technical-writing",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 203038,
+    "JavaScript": 70882,
+    "Python": 27906,
+    "CSS": 7722,
+    "HTML": 7376,
+    "Dockerfile": 129
+  },
+  "total_commits": 74,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "thiagopicorelli/project-solar-system",
+        "thiagopicorelli/project-starwars-planets-search",
+        "thiagopicorelli/project-meme-generator"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 70323,
+      "commit_count": 45,
+      "first_seen": "2022-09-02T17:10:11+00:00",
+      "last_seen": "2023-09-20T15:05:02+00:00",
+      "details": [
+        "project-solar-system: JavaScript: 7,059 bytes (66% of repo)",
+        "project-starwars-planets-search: JavaScript: 51,439 bytes (95% of repo)",
+        "project-meme-generator: JavaScript: 11,825 bytes (85% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "thiagopicorelli/raizes-do-nordeste"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 203038,
+      "commit_count": 4,
+      "first_seen": "2026-05-13T14:06:45+00:00",
+      "last_seen": "2026-06-29T22:59:57+00:00",
+      "details": [
+        "raizes-do-nordeste: TypeScript: 203,038 bytes (99% of repo)",
+        "raizes-do-nordeste: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 27906,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: Python: 27,906 bytes (82% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "thiagopicorelli/project-starwars-planets-search",
+        "thiagopicorelli/project-meme-generator",
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 53,
+      "first_seen": "2022-09-02T17:10:11+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "project-starwars-planets-search: test directory (src/tests/App.test.js)",
+        "project-starwars-planets-search: mocha in package.json",
+        "project-meme-generator: test file (cypress/integration/meme-generator.spec.js)",
+        "project-meme-generator: mocha in package.json",
+        "spotnews: test file (spotnews/settings_test.py)",
+        "spotnews: pytest in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "thiagopicorelli/raizes-do-nordeste",
+        "thiagopicorelli/project-starwars-planets-search",
+        "thiagopicorelli/project-meme-generator"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "manifest",
+        "file"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 32,
+      "first_seen": "2022-09-02T17:10:11+00:00",
+      "last_seen": "2026-06-29T22:59:57+00:00",
+      "details": [
+        "raizes-do-nordeste: cypress in package.json",
+        "project-starwars-planets-search: e2e suite (cypress.config.js)",
+        "project-starwars-planets-search: cypress in package.json",
+        "project-meme-generator: e2e suite (cypress/fixtures/meme.jpeg)",
+        "project-meme-generator: cypress in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "thiagopicorelli/raizes-do-nordeste",
+        "thiagopicorelli/project-solar-system",
+        "thiagopicorelli/project-starwars-planets-search"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 35,
+      "first_seen": "2022-10-21T17:37:39+00:00",
+      "last_seen": "2026-06-29T22:59:57+00:00",
+      "details": [
+        "raizes-do-nordeste: @types/react in package.json",
+        "project-solar-system: @testing-library/react in package.json",
+        "project-starwars-planets-search: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "thiagopicorelli/raizes-do-nordeste"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2026-05-13T14:06:45+00:00",
+      "last_seen": "2026-06-29T22:59:57+00:00",
+      "details": [
+        "raizes-do-nordeste: next config (next.config.ts)",
+        "raizes-do-nordeste: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "thiagopicorelli/raizes-do-nordeste"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2026-05-13T14:06:45+00:00",
+      "last_seen": "2026-06-29T22:59:57+00:00",
+      "details": [
+        "raizes-do-nordeste: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: beautifulsoup4 in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "django",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: django in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: mysqlclient in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: readme in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: SQL file (database/01_create_database.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-08-22T18:53:39+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "spotnews: database migrations (news/migrations/0001_initial.py)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "thiagopicorelli/project-solar-system",
+        "thiagopicorelli/project-starwars-planets-search",
+        "thiagopicorelli/project-meme-generator",
+        "thiagopicorelli/spotnews"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5804349855315971,
+      "total_bytes": 13674,
+      "commit_count": 70,
+      "first_seen": "2022-09-02T17:10:11+00:00",
+      "last_seen": "2023-09-20T15:48:23+00:00",
+      "details": [
+        "project-solar-system: CSS: 1,933 bytes (18% of repo)",
+        "project-solar-system: HTML: 1,721 bytes (16% of repo)",
+        "project-starwars-planets-search: HTML: 1,721 bytes (3% of repo)",
+        "project-meme-generator: HTML: 1,176 bytes (8% of repo)",
+        "project-meme-generator: CSS: 972 bytes (7% of repo)",
+        "spotnews: CSS: 3,393 bytes (10% of repo)",
+        "spotnews: HTML: 2,758 bytes (8% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 74,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 16,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "javascript-frontend",
+  "collected_at": "2026-09-16T14:15:01.551762+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

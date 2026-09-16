@@ -117,7 +117,7 @@ DEPENDENCY_TO_SKILL = {
     "torch": "deep-learning", "pytorch": "deep-learning", "tensorflow": "deep-learning",
     "keras": "deep-learning", "pytorch-lightning": "deep-learning", "jax": "deep-learning",
     "transformers": "nlp", "spacy": "nlp", "nltk": "nlp", "gensim": "nlp", "datasets": "nlp",
-    "opencv-python": "computer-vision", "cv2": "computer-vision", "pillow": "computer-vision",
+    "opencv-python": "computer-vision", "cv2": "computer-vision",
     "torchvision": "computer-vision", "ultralytics": "computer-vision", "albumentations": "computer-vision",
     "langchain": "llm-apps", "llama-index": "llm-apps", "llama_index": "llm-apps",
     "openai": "llm-apps", "anthropic": "llm-apps", "litellm": "llm-apps",
@@ -158,7 +158,6 @@ DEPENDENCY_TO_SKILL = {
     "puppeteer": "web-scraping", "cheerio": "web-scraping",
     "d3": "data-viz", "chart.js": "data-viz", "recharts": "data-viz",
     "react-native": "react-native", "expo": "react-native",
-    "eslint": "code-review", "prettier": "code-review",
     "firebase": "gcp-azure", "aws-sdk": "aws", "@aws-sdk/client-s3": "aws",
     "langchainjs": "llm-apps",
     # java
@@ -189,7 +188,12 @@ FILE_PATTERNS: list[tuple[re.Pattern[str], str, str]] = [
     (re.compile(r"(^|/)(prometheus\.yml|grafana/)"), "monitoring", "monitoring config"),
     (re.compile(r"(^|/)(docs?|documentation)/.+\.mdx?$"), "technical-writing", "docs directory"),
     (re.compile(r"(^|/)(pubspec\.yaml)$"), "flutter", "flutter project"),
-    (re.compile(r"(^|/)(Podfile|\.xcodeproj/|build\.gradle(\.kts)?)$"), "native-mobile", "native mobile project"),
+    # Android is identified by its manifest, not build.gradle: every Gradle Java
+    # backend has one. An .xcodeproj is a directory, so it matches mid-path.
+    (re.compile(r"(^|/)AndroidManifest\.xml$"), "native-mobile", "Android app manifest"),
+    (re.compile(r"(^|/)(Podfile|Info\.plist)$|\.xcodeproj/"), "native-mobile", "iOS project"),
+    (re.compile(r"(^|/)metro\.config\.[jt]s$"), "react-native", "React Native bundler config"),
+    (re.compile(r"(^|/)go\.mod$"), "go", "Go module"),
     (re.compile(r"(^|/)(schema\.prisma)$"), "data-modeling", "prisma schema"),
     (re.compile(r"\.ipynb$"), "pandas", "jupyter notebook"),
     (re.compile(r"(^|/)(\.env\.example|\.env\.sample)$"), "linux", "env config"),
@@ -254,10 +258,32 @@ def parse_manifest(path: str, text: str) -> set[str]:
     return deps
 
 
+# Deliberately unmapped: eslint/prettier (every starter template ships them, so
+# they say nothing about code-review skill) and pillow (generic image handling,
+# not computer vision).
+
+# Maven/Gradle artifacts carry suffixes (spring-boot-starter-web,
+# junit-jupiter-api), so these match by prefix rather than exact name.
+ARTIFACT_PREFIXES = {
+    "spring-boot": "spring",
+    "spring-web": "spring",
+    "junit": "unit-testing",
+    "mockito": "unit-testing",
+    "hibernate": "data-modeling",
+    "postgresql": "postgresql",
+    "mysql-connector": "mysql",
+    "mongodb-driver": "mongodb",
+    "jedis": "redis",
+}
+
+
 def _dep_skill(dep: str) -> str | None:
     dep = dep.lower().strip()
     if dep in DEPENDENCY_TO_SKILL:
         return DEPENDENCY_TO_SKILL[dep]
+    for prefix, skill in ARTIFACT_PREFIXES.items():
+        if dep.startswith(prefix):
+            return skill
     # scoped npm packages: @scope/name
     base = dep.split("/")[-1]
     if base in DEPENDENCY_TO_SKILL:
@@ -291,7 +317,9 @@ def signals_from_languages(languages: dict[str, int]) -> list[SkillSignal]:
 
 def signals_from_dependencies(deps: Iterable[str], manifest_path: str) -> list[SkillSignal]:
     seen: dict[str, str] = {}
-    for dep in deps:
+    # Sorted: deps is a set, whose order varies between processes. Unsorted, the
+    # dependency recorded as evidence would change from one build to the next.
+    for dep in sorted(deps):
         skill = _dep_skill(dep)
         if skill and skill not in seen:
             seen[skill] = dep
@@ -335,7 +363,7 @@ def signals_from_name(name: str, description: str | None) -> list[SkillSignal]:
     index = alias_index()
     out: list[SkillSignal] = []
     seen: set[str] = set()
-    for token in tokens:
+    for token in sorted(tokens):
         skill = index.get(token)
         if skill and skill not in seen:
             seen.add(skill)

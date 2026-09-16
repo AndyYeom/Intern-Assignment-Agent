@@ -65,6 +65,9 @@ class RepoRecord(BaseModel):
     has_docker: bool = False
     has_releases: bool = False
     contributors_count: int = 1
+    # This person's share of all commits, counting unlinked identities. None when
+    # GitHub could not say. A team repo is not evidence of the whole stack.
+    contribution_share: float | None = None
 
     commits: dict[str, Any] = Field(default_factory=dict)
     structure: dict[str, Any] = Field(default_factory=dict)
@@ -90,14 +93,13 @@ class ExternalContribution(BaseModel):
 
 
 class GitHubProfile(BaseModel):
+    # Pseudonymous, stable, and the profile's filename. See generator/github/ids.py.
+    applicant_id: str
+    # Kept: repository URLs contain it, and the evidence agent must cite them.
     login: str
-    name: str | None = None
-    bio: str | None = None
-    company: str | None = None
-    location: str | None = None
-    blog: str | None = None
     html_url: str
-    avatar_url: str | None = None
+    # Deliberately absent: name, bio, company, location, blog, avatar. They are
+    # personal, and nothing downstream needs them to verify a skill.
     created_at: str | None = None
     account_age_days: int = 0
     public_repos: int = 0
@@ -113,20 +115,31 @@ class GitHubProfile(BaseModel):
 
     # Whether this profile carries enough evidence to verify claims against.
     # A user can pass the sampling criteria and still have eight empty forks.
-    usable: bool = True
+    tier: str = "strict"       # "strict" | "relaxed" | "unusable"
     usability: dict[str, Any] = Field(default_factory=dict)
 
-    stratum: str | None = None
+    # The search that found this person - NOT the slot they fill. Slots are
+    # decided by assign.py from what the person builds; see data/githubs/corpus.json.
+    search_stratum: str | None = None
     collected_at: str | None = None
     collector_version: str | None = None
     notes: list[str] = Field(default_factory=list)
 
+    @property
+    def usable(self) -> bool:
+        """Relaxed or strict: eligible for a slot at all. Derived, so never stored."""
+        return self.tier != "unusable"
+
 
 class Candidate(BaseModel):
     login: str
+    applicant_id: str | None = None   # assigned at first build; never changes
     html_url: str
     stratum: str
     query: str
+    # "users" for the original user search, "repositories" for repository search.
+    method: str = "users"
+    found_via: str | None = None      # the repository whose owner this is
     discovered_at: str
     selected: bool = False
     reject_reason: str | None = None

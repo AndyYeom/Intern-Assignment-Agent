@@ -1,43 +1,77 @@
-"""Corpus planning and status: who to collect, and how far along each stratum is.
+"""Corpus status and collection planning, driven by slot assignment.
 
-Reads four places, because no single file knows everything:
+Reads what exists on disk - candidates.json, raw/, profiles/, applicants.csv -
+places the built profiles into stratum slots (assign.py), and from what is still
+empty decides what to collect or sample next.
 
-  candidates.json   who was examined and selected, per stratum
-  raw/<login>/      who has been collected
-  profiles/         who has been built, and whether they are usable
-  applicants.csv    who has a rendered resume
-
-`compute_status` is pure, so the counting can be tested without disk or network.
+`compute_status` is pure, so the planning logic is testable without disk or network.
 """
 from __future__ import annotations
 
 import json
+import math
 import os
 import sys
 from dataclasses import dataclass, field
 from typing import Any
 
 from generator import config
-from generator.github import collector, normalize, sampler
+from generator.github import assign, collector, normalize, sampler
+
+# How many candidates a stratum needs per empty slot depends on how often its
+# search turns up someone eligible for it - near 100% for Python, near 0% for Go
+# under the old user search. The hit rate is measured per stratum, only over
+# candidates found by the current search method, with a Laplace prior (starts at
+# 50%, converges on the observed rate) so a stratum with no data yet is not
+# over- or under-fetched.
+PRIOR_HITS, PRIOR_TRIALS = 1, 2
+MIN_HIT_RATE = 0.15          # below this, fetch no more than 1/0.15 per slot
+MAX_PER_SLOT = 6             # hard cap on candidates fetched per empty slot
+
+
+def hit_rate(hits: int, trials: int) -> float:
+    return max(MIN_HIT_RATE, (hits + PRIOR_HITS) / (trials + PRIOR_TRIALS))
 
 
 @dataclass
 class StratumRow:
     stratum: str
     quota: int
-    selected: int = 0
-    planned: list[str] = field(default_factory=list)
-    reserve: int = 0
-    collected: int = 0
-    built: int = 0
-    usable: int = 0
-    unusable: int = 0
-    unbuilt: int = 0          # planned, collected, but no profile built yet
+    strict: int = 0
+    relaxed: int = 0
+    partial: int = 0
+    eligible: int = 0          # usable profiles that could fill this stratum
+    pending: list[str] = field(default_factory=list)  # selected, found here, not collected
+    hits: int = 0              # collected via current search, and eligible here
+    trials: int = 0            # collected via current search
+
+    @property
+    def filled(self) -> int:
+        return self.strict + self.relaxed + self.partial
 
     @property
     def need(self) -> int:
-        """Usable profiles still missing for this stratum."""
-        return max(0, self.quota - self.usable)
+        return max(0, self.quota - self.filled)
+
+    @property
+    def hit_rate(self) -> float:
+        return hit_rate(self.hits, self.trials)
+
+    @property
+    def fetch(self) -> int:
+        """Candidates to fetch so that, at the observed hit rate, the gap closes."""
+        if not self.need:
+            return 0
+        return min(math.ceil(self.need / self.hit_rate), self.need * MAX_PER_SLOT)
+
+    @property
+    def to_collect(self) -> list[str]:
+        return self.pending[: self.fetch]
+
+    @property
+    def wanted(self) -> int:
+        """New candidates to sample, beyond those already queued."""
+        return max(0, self.fetch - len(self.pending))
 
 
 @dataclass
@@ -47,35 +81,54 @@ class CorpusStatus:
     rows: list[StratumRow]
     examined: int
     rejected: int
-    windows_consumed: int
-    windows_total: int
-    resumes: int
-    authenticated: bool
+    collected: int
+    unbuilt: int
+    tiers: dict[str, int]
+    placed: int
+    spare: int
+    windows_consumed: int = 0
+    windows_total: int = 0
+    resumes: int = 0
+    authenticated: bool = False
 
     @property
-    def planned(self) -> list[str]:
-        return [login for row in self.rows for login in row.planned]
+    def to_collect(self) -> list[str]:
+        seen: set[str] = set()
+        out = []
+        for row in self.rows:
+            for login in row.to_collect:
+                if login not in seen:
+                    seen.add(login)
+                    out.append(login)
+        return out
+
+    @property
+    def wanted(self) -> dict[str, int]:
+        return {row.stratum: row.wanted for row in self.rows if row.wanted}
 
     def total(self, name: str) -> int:
         return sum(getattr(row, name) for row in self.rows)
 
     def next_step(self) -> str:
-        if any(row.selected - row.unusable < row.quota for row in self.rows if row.quota):
-            return "uv run python -m generator gh sample   (some strata are short of candidates)"
-        if any(row.collected < len(row.planned) for row in self.rows):
-            return "uv run python -m generator gh collect  (planned profiles not fetched yet)"
-        if self.total("unbuilt"):
+        if self.unbuilt:
             return "uv run python -m generator gh build    (collected profiles not built yet)"
-        if any(row.need for row in self.rows if row.quota):
-            return "uv run python -m generator gh collect  (reserves replace unusable profiles)"
-        return "corpus complete - uv run python -m generator re plan --batches 5"
+        if not self.total("need"):
+            return "corpus complete - uv run python -m generator re plan --batches 5"
+        # Sample before collecting, so one collect round fetches everyone a short
+        # stratum needs, repository-search candidates first.
+        if self.wanted:
+            return "uv run python -m generator gh sample   (short strata need more candidates)"
+        return "uv run python -m generator gh collect  (enough candidates queued)"
 
 
 def compute_status(
     candidates: list[dict[str, Any]],
     *,
     collected: set[str],
-    usability: dict[str, bool],
+    built: set[str],
+    assignment: assign.Assignment,
+    tiers: dict[str, int],
+    login_of: dict[str, str] | None = None,
     target: int,
     strata: list[str],
     windows_consumed: int = 0,
@@ -83,49 +136,48 @@ def compute_status(
     resumes: int = 0,
     authenticated: bool = False,
 ) -> CorpusStatus:
-    """Count every stage per stratum and choose which logins to collect.
+    rows = {s: StratumRow(stratum=s, quota=assignment.quota) for s in strata}
+    for s, row in rows.items():
+        row.strict = assignment.filled(s, "strict")
+        row.relaxed = assignment.filled(s, "relaxed")
+        row.partial = assignment.filled(s, "partial")
+        row.eligible = assignment.eligible_count(s)
 
-    Planned = the first `quota` selected candidates in each stratum, in discovery
-    order, skipping any whose built profile proved unusable. That skip is what
-    lets a reserve candidate slide in without a new search.
-    """
-    quota = sampler.stratum_quota(target, len(strata))
+    # Eligibility is keyed by applicant_id; candidates by login.
+    eligible_logins: dict[str, set[str]] = {}
+    for applicant_id, options in assignment.eligibility.items():
+        login = (login_of or {}).get(applicant_id, applicant_id)
+        eligible_logins[login] = {option.stratum for option in options}
 
-    names = list(strata) + sorted(
-        {c["stratum"] for c in candidates if c.get("stratum") not in strata}
+    # Candidates are queued under the stratum whose search found them - the best
+    # available guess at where they will be eligible, before collection. Those
+    # from the current search method are queued first: they are more precise.
+    queued = sorted(
+        (c for c in candidates if c.get("selected")),
+        key=lambda c: c.get("method", "users") != sampler.SEARCH_METHOD,
     )
-    rows = {name: StratumRow(stratum=name, quota=quota if name in strata else 0)
-            for name in names}
-
-    for candidate in candidates:
-        if not candidate.get("selected"):
+    for candidate in queued:
+        row = rows.get(candidate.get("stratum", ""))
+        if row is None:
             continue
         login = candidate["login"]
-        row = rows[candidate["stratum"]]
-        row.selected += 1
-        if login in usability:
-            row.built += 1
-            if usability[login]:
-                row.usable += 1
-            else:
-                row.unusable += 1
-        if len(row.planned) < row.quota and usability.get(login, True):
-            row.planned.append(login)
-
-    for row in rows.values():
-        row.reserve = max(0, row.selected - row.unusable - len(row.planned))
-        # Progress against the plan, not against everyone ever selected.
-        row.collected = sum(1 for login in row.planned if login in collected)
-        row.unbuilt = sum(
-            1 for login in row.planned if login in collected and login not in usability
-        )
+        if login not in collected:
+            row.pending.append(login)
+        elif candidate.get("method") == sampler.SEARCH_METHOD and login in built:
+            row.trials += 1
+            row.hits += row.stratum in eligible_logins.get(login, set())
 
     return CorpusStatus(
         target=target,
-        quota=quota,
+        quota=assignment.quota,
         rows=list(rows.values()),
         examined=len(candidates),
         rejected=sum(1 for c in candidates if not c.get("selected")),
+        collected=len(collected),
+        unbuilt=len(collected - built),
+        tiers=tiers,
+        placed=len(assignment.placements),
+        spare=len(set(assignment.eligibility) - assignment.placed_ids),
         windows_consumed=windows_consumed,
         windows_total=windows_total,
         resumes=resumes,
@@ -137,27 +189,33 @@ def load_status(target: int = config.TARGET_PROFILE_COUNT) -> CorpusStatus:
     """Assemble the status from disk. Never touches the network."""
     state = sampler.load_state()
     profiles = normalize.load_all_profiles()
+    strata = list(sampler.STRATA)
+    assignment = assign.assign(profiles, strata, sampler.stratum_quota(target, len(strata)),
+                               assign.pins_from_disk())
 
     resumes = 0
     manifest_path = config.DATA / "applicants.csv"
     if manifest_path.exists():
         resumes = max(0, len(manifest_path.read_text(encoding="utf-8").splitlines()) - 1)
 
+    tiers = {"strict": 0, "relaxed": 0, "unusable": 0}
+    for profile in profiles:
+        tiers[profile.tier] = tiers.get(profile.tier, 0) + 1
+
     return compute_status(
         state["candidates"],
         collected=set(collector.collected_logins()),
-        usability={p.login: p.usable for p in profiles},
+        built={p.login for p in profiles},
+        assignment=assignment,
+        tiers=tiers,
+        login_of={p.applicant_id: p.login for p in profiles},
         target=target,
-        strata=list(sampler.STRATA),
+        strata=strata,
         windows_consumed=sum(len(v) for v in state["consumed"].values()),
-        windows_total=len(sampler.date_windows()) * len(sampler.STRATA),
+        windows_total=len(sampler.windows_for(state)) * len(strata),
         resumes=resumes,
         authenticated=bool(config.github_token()),
     )
-
-
-def planned_logins(target: int = config.TARGET_PROFILE_COUNT) -> list[str]:
-    return load_status(target).planned
 
 
 # -- rendering --------------------------------------------------------------
@@ -171,9 +229,9 @@ def _paint(text: str, code: str) -> str:
 
 
 def render(status: CorpusStatus) -> str:
-    headers = ["stratum", "quota", "selected", "reserve", "collected",
-               "usable", "unusable", "need"]
-    widths = [22, 5, 8, 7, 9, 6, 8, 6]
+    headers = ["stratum", "quota", "strict", "relaxed", "partial", "need", "eligible",
+               "queued", "hit"]
+    widths = [22, 5, 6, 7, 7, 5, 8, 6, 7]
 
     def line(cells: list[str], painted: dict[int, str] | None = None) -> str:
         out = []
@@ -187,30 +245,33 @@ def render(status: CorpusStatus) -> str:
     rule = "─" * (sum(widths) + 2 * (len(widths) - 1))
     lines = [
         _paint("GitHub corpus status", "1"),
-        (f"target {status.target} usable profiles · {len(status.rows)} strata · "
-         f"quota {status.quota} each"),
+        (f"target {status.target} placed profiles · {len(status.rows)} strata · "
+         f"{status.quota} slots each"),
         rule,
         _paint(line(headers), "2"),
         rule,
     ]
     for row in status.rows:
-        need = "✓" if row.need == 0 and row.quota else str(row.need)
+        need = "✓" if row.need == 0 else str(row.need)
         lines.append(line(
-            [row.stratum, str(row.quota), str(row.selected), str(row.reserve),
-             f"{row.collected}/{len(row.planned)}", str(row.usable), str(row.unusable), need],
-            {7: "32" if need == "✓" else "33"},
+            [row.stratum, str(row.quota), str(row.strict), str(row.relaxed),
+             str(row.partial), need,
+             str(row.eligible), str(len(row.pending)),
+             f"{row.hits}/{row.trials}" if row.trials else "—"],
+            {5: "32" if need == "✓" else "33"},
         ))
     lines += [
         rule,
         _paint(line(
-            ["total", str(status.target), str(status.total("selected")),
-             str(status.total("reserve")),
-             f"{status.total('collected')}/{len(status.planned)}",
-             str(status.total("usable")), str(status.total("unusable")),
-             str(sum(r.need for r in status.rows if r.quota))],
+            ["total", str(status.target), str(status.total("strict")),
+             str(status.total("relaxed")), str(status.total("partial")),
+             str(status.total("need")), "", "", ""],
         ), "1"),
         rule,
-        (f"examined {status.examined} · rejected {status.rejected} · "
+        (f"profiles: {status.collected} collected · {status.tiers.get('strict', 0)} strict · "
+         f"{status.tiers.get('relaxed', 0)} relaxed · {status.tiers.get('unusable', 0)} unusable"
+         f" · {status.placed} placed · {status.spare} usable but unplaced"),
+        (f"candidates: {status.examined} examined · {status.rejected} rejected · "
          f"date windows searched {status.windows_consumed}/{status.windows_total}"),
         f"resumes rendered: {status.resumes}",
         "token: " + (_paint("set", "32") if status.authenticated
@@ -225,9 +286,16 @@ def to_json(status: CorpusStatus) -> str:
     return json.dumps({
         "target": status.target,
         "quota": status.quota,
-        "planned": status.planned,
         "strata": [
-            {**row.__dict__, "need": row.need} for row in status.rows
+            {"stratum": r.stratum, "quota": r.quota, "strict": r.strict, "relaxed": r.relaxed,
+             "partial": r.partial,
+             "need": r.need, "eligible": r.eligible, "queued": len(r.pending),
+             "hits": r.hits, "trials": r.trials, "fetch": r.fetch}
+            for r in status.rows
         ],
+        "tiers": status.tiers,
+        "placed": status.placed,
+        "to_collect": status.to_collect,
+        "wanted": status.wanted,
         "next_step": status.next_step(),
     }, indent=2)

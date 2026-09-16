@@ -1,0 +1,1159 @@
+{
+  "applicant_id": "applicant0002",
+  "login": "Eternalon03",
+  "html_url": "https://github.com/Eternalon03",
+  "created_at": "2020-01-31T23:36:14Z",
+  "account_age_days": 2419,
+  "public_repos": 20,
+  "followers": 8,
+  "following": 3,
+  "repos": [
+    {
+      "name": "theportfoliosite",
+      "full_name": "Eternalon03/theportfoliosite",
+      "html_url": "https://github.com/Eternalon03/theportfoliosite",
+      "description": null,
+      "homepage": "https://nicoleplaneta.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-18T01:02:22Z",
+      "pushed_at": "2026-07-05T03:02:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 17760,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 85029,
+        "CSS": 69308,
+        "Shell": 16774,
+        "JavaScript": 393
+      },
+      "primary_language": "TypeScript",
+      "file_count": 70,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "components.json",
+        "eslint.config.mjs",
+        "install.sh",
+        "learning-log.md",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs.backup",
+        "public",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/eslintrc",
+          "@paper-design/shaders",
+          "@radix-ui/react-slot",
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/three",
+          "@vercel/analytics",
+          "class-variance-authority",
+          "clsx",
+          "eslint",
+          "eslint-config-next",
+          "framer-motion",
+          "lucide-react",
+          "next",
+          "react",
+          "react-code-blocks",
+          "react-dom",
+          "react-icons",
+          "tailwind-merge",
+          "tailwindcss",
+          "three",
+          "tw-animate-css",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 187,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) and Three.js project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n```bash\nnpm run dev\n```",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 23,
+        "first_at": "2026-03-18T00:59:42+00:00",
+        "last_at": "2026-07-05T03:02:37+00:00",
+        "active_days": 10,
+        "span_days": 109,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.043,
+        "messages_sample": [
+          "Merge pull request #3 from Eternalon03/skills-and-experiences-updates",
+          "bug fixes, see description",
+          "Merge pull request #2 from Eternalon03/skills-and-experiences-updates",
+          "experience updates, award tag added to projects, minor colour changes",
+          "blog restructure",
+          "analytics",
+          "Merge branch 'master' of https://github.com/Eternalon03/theportfoliosite",
+          "project history updated, new blog page up but not visible yet",
+          "testing cutoff",
+          "added certifications, will finish new projects in the next commit",
+          "quick certifications sections",
+          "fixed mobile specific resizing bug",
+          "touchup to hero section and skills",
+          "mobile resizing of hero section",
+          "minor scroll and resizing changes",
+          "test padding 2",
+          "test padding",
+          "disable three.js on browsers that don't support it, and implement different mobile design for most sections",
+          "projects section and getting rid of overly heavy 3d animation",
+          "refactor globals and add experience section"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 38
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 2,
+          "test": 3,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 85,029 bytes (50% of repo)",
+          "strength": 0.8957843548838511
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 69,308 bytes (40% of repo)",
+          "strength": 0.8041188543707436
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 16,774 bytes (10% of repo)",
+          "strength": 0.49780529900177256
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 171504,
+        "strong_skills": [
+          "html-css",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LazySummarizer-and-Paraphraser",
+      "full_name": "Eternalon03/LazySummarizer-and-Paraphraser",
+      "html_url": "https://github.com/Eternalon03/LazySummarizer-and-Paraphraser",
+      "description": "LazySummarizer and Paraphraser is a chrome extension that scrapes the webpage you're on and uses Python's NLTK library and NLP to pick the best sentences to summarize the article, and analyzes it by picking out keywords (Named Entity Recognition) and paraphrasing it using chunking and tagging to determine which words are nouns, verbs, etc. and finding synonyms for them using wordnets.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-05-16T21:38:11Z",
+      "pushed_at": "2021-05-19T17:41:57Z",
+      "stargazers": 5,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 23,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 17633,
+        "JavaScript": 12053,
+        "HTML": 1706,
+        "CSS": 206
+      },
+      "primary_language": "Python",
+      "file_count": 11,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "extension",
+        "unused_alternatives"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 427,
+      "readme_excerpt": "# LazySummarizer\nLazySummarizer and Paraphraser is a chrome extension that scrapes the webpage you're on (using BeautifulSoup) and uses Python's NLTK library and NLP to pick the best sentences to summarize the article, and analyzes it by picking out keywords (Named Entity Recognition) and paraphrasing it using chunking and tagging to determine which words are nouns, verbs, etc. and finding synonyms for them using wordnets.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2021-05-16T21:38:12+00:00",
+        "last_at": "2021-05-19T17:41:57+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 7
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 17,633 bytes (56% of repo)",
+          "strength": 0.9580416482055827
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 12,053 bytes (38% of repo)",
+          "strength": 0.7814481929236028
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,706 bytes (5% of repo)",
+          "strength": 0.4539907589087917
+        },
+        {
+          "skill_id": "nlp",
+          "source": "repo_name",
+          "detail": "'nlp' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 31598,
+        "strong_skills": [
+          "javascript",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ToDoAppGroupProject",
+      "full_name": "Eternalon03/ToDoAppGroupProject",
+      "html_url": "https://github.com/Eternalon03/ToDoAppGroupProject",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-05-15T21:40:10Z",
+      "pushed_at": "2025-04-02T23:44:14Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 16581,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Kotlin": 63873,
+        "CSS": 8039,
+        "Java": 304
+      },
+      "primary_language": "Kotlin",
+      "file_count": 36,
+      "top_level_paths": [
+        ".gitignore",
+        ".gitlab-ci.yml",
+        "LICENSE",
+        "README.md",
+        "Walkthrough.mov",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "image-1.png",
+        "image-2.png",
+        "image.png",
+        "settings.gradle",
+        "source",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.squareup.okhttp3",
+          "controlsfx",
+          "junit-jupiter-api",
+          "junit-jupiter-engine",
+          "kotlinx-serialization-json",
+          "okhttp",
+          "org.controlsfx",
+          "org.jetbrains.kotlinx",
+          "org.junit.jupiter"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1460,
+      "readme_excerpt": "Intentions is a todo list application with productivity features. It has all the basic functionality of a todo list (eg. adding tasks, adding a due date etc). A user also has the abiltiy to toggle whether a task is in progress or not. \n\n# Intentions\n\n## Team Members \nEly Golden, Nicole Planeta and Saffiyah Mohammed.\n\n## Visuals\n![image-1.png](./image-1.png)\n![image-2.png](./image-2.png)\n\n\n## Installation\n[Windows](https://git.uwaterloo.ca/ed2golde/cs346/-/blob/main/app-win.zip)\n[Mac](https://git.uwaterloo.ca/ed2golde/cs346/-/blob/main/app-mac.zip)\n\n## Usage\n\n[Walkthrough](https://git.uwaterloo.ca/ed2golde/cs346/-/blob/main/Walkthrough.mov) \n\n- click plus button to add task then fill out information and click add task button to confirm\n- CTRL+S to save a task\n- CTRL+E to edit a task\n- CTRL+BACKSPACE to delete a task\n- CTRL+SHIFT+Q to move a task up\n- CTRL+SHIFT+A to move a task down\n- CTRL+N to create a new task\n- CTRL+X to cut a task\n- CTRL+C to copy a task\n- CTRL+V to paste a task\n- CTRL+Z to undo\n- CTRL+Y to redo\n- right click on a task for further menu options:\n    - edit\n    - cut\n    - copy\n    - paste\n    - toggle completed\n    - toggle progress\n    - move up\n    - move down\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2023-05-15T21:40:11+00:00",
+        "last_at": "2025-04-02T23:44:14+00:00",
+        "active_days": 2,
+        "span_days": 688,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Update README.md",
+          "moving everything from private waterloo gitlab account",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "walkthrough"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 17
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 63,873 bytes (88% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 8,039 bytes (11% of repo)",
+          "strength": 0.5113188213138363
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "CI config (.gitlab-ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit-jupiter-api in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 72216,
+        "strong_skills": [
+          "cicd",
+          "native-mobile",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Hack-The-North-2025",
+      "full_name": "Eternalon03/Hack-The-North-2025",
+      "html_url": "https://github.com/Eternalon03/Hack-The-North-2025",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-13T19:18:42Z",
+      "pushed_at": "2025-09-18T22:08:07Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10365,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "GDScript": 9162,
+        "Python": 2913
+      },
+      "primary_language": "GDScript",
+      "file_count": 66,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "Fish-for-Thought-Godot",
+        "README.md",
+        "backend.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5856,
+      "readme_excerpt": "# Fish For Thought\nA [fishing themed digital journal](https://youtu.be/_w8JkJIDEeA) that helps you reel in your emotions. Practice mindfulness and jot down your thoughts for new fishy pals!\n\n<video src=\"https://github.com/user-attachments/assets/882406c9-0119-49fb-b94b-9a630faa368e\" width=\"800\" /></video>\n\n### Runner-up for the [Martian API](https://www.withmartian.com) Sponsorship Prize\nBackend requires the Demois Router to run: https://github.com/withmartian/deimos-router\n\nOriginal Devpost Submission to Hack the North 2025: [Devpost](https://devpost.com/software/fish-for-thought)\n\n### Inspiration\nInspired by the tranquil experience that fishing by the shore offers, **Fish for Thought** aims to help users reflect and log what they did and felt throughout their day. \n\nGenerally, people love custom experiences. Mildly inspired by the popularity of daily horoscopes, Fish For Thought gives users a custom breakdown of the emotions and things they did that day through a cute journaling interface, intended to be for mobile so it can be done on the go.  \n\n![inthepond](https://github.com/user-attachments/assets/e0222b65-6c36-4846-b5a5-c1d213f2e59e)\n\n### What It Does\n\nIn this game you write",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.973,
+      "commits": {
+        "count": 36,
+        "first_at": "2025-09-13T19:18:38+00:00",
+        "last_at": "2025-09-18T22:08:07+00:00",
+        "active_days": 4,
+        "span_days": 5,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.556,
+        "messages_sample": [
+          "Merge pull request #7 from Eternalon03/code-cleanup",
+          "code cleanup of main.gd, minor prompt fix",
+          "Merge pull request #6 from Eternalon03/code-cleanup",
+          "code cleanup in folders, add network timeout",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 4,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,913 bytes (24% of repo)",
+          "strength": 0.6412422360248448
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2913,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "GamelanInstrumentSynthesizer",
+      "full_name": "Eternalon03/GamelanInstrumentSynthesizer",
+      "html_url": "https://github.com/Eternalon03/GamelanInstrumentSynthesizer",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-01-29T22:02:13Z",
+      "pushed_at": "2025-02-05T07:10:18Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 35259,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "GDScript": 4283
+      },
+      "primary_language": "GDScript",
+      "file_count": 80,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "Scenes",
+        "Scripts",
+        "Sound_Effects",
+        "Sprites",
+        "export_presets.cfg",
+        "icon.svg",
+        "icon.svg.import",
+        "project.godot"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 554,
+      "readme_excerpt": "Play In Browser: [Itch.io](https://eternalon03.itch.io/gamelan-instrument-synthesizer)\n\nList of Technical specs:\n\n- Full visual specs with audio and visual feedback for keys\n\n- Records notes played at bottom for composition, autoscrolls to bottom\n\n- Option to record notes like guitar tabs\n\n- Dynamic resizing supported (can change window size and UI will adjust)\n\n- Very responsive, ensures each note plays fully before moving to the next, while keeping track of any keys pressed during that time to be played in sequence once the current note finishes\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2025-01-29T22:03:02+00:00",
+        "last_at": "2025-02-05T07:10:15+00:00",
+        "active_days": 4,
+        "span_days": 6,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.364,
+        "messages_sample": [
+          "Update main.gd",
+          "cleanup",
+          "Merge branch 'master' of https://github.com/Eternalon03/GamelanInstrumentSynthesizer",
+          "tmp file cleanup and restructuring",
+          "Update README.md",
+          "Update README.md",
+          "Folder restructuring",
+          "Merge branch 'master' of https://github.com/Eternalon03/GamelanInstrumentSynthesizer",
+          "Added UI Changes and option to play \"muted\" keys",
+          "Create README.md",
+          "the entire project"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 85029,
+    "CSS": 77553,
+    "Kotlin": 63873,
+    "Python": 20546,
+    "Shell": 16774,
+    "GDScript": 13445,
+    "JavaScript": 12446,
+    "HTML": 1706,
+    "Java": 304
+  },
+  "total_commits": 78,
+  "skill_evidence": [
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Eternalon03/ToDoAppGroupProject"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 63873,
+      "commit_count": 3,
+      "first_seen": "2023-05-15T21:40:11+00:00",
+      "last_seen": "2025-04-02T23:44:14+00:00",
+      "details": [
+        "ToDoAppGroupProject: Kotlin: 63,873 bytes (88% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Eternalon03/LazySummarizer-and-Paraphraser",
+        "Eternalon03/Hack-The-North-2025"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 0.9580416482055827,
+      "total_bytes": 20546,
+      "commit_count": 41,
+      "first_seen": "2021-05-16T21:38:12+00:00",
+      "last_seen": "2025-09-18T22:08:07+00:00",
+      "details": [
+        "LazySummarizer-and-Paraphraser: Python: 17,633 bytes (56% of repo)",
+        "LazySummarizer-and-Paraphraser: 'python' in repo name/description",
+        "Hack-The-North-2025: Python: 2,913 bytes (24% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Eternalon03/theportfoliosite"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 85029,
+      "commit_count": 23,
+      "first_seen": "2026-03-18T00:59:42+00:00",
+      "last_seen": "2026-07-05T03:02:37+00:00",
+      "details": [
+        "theportfoliosite: TypeScript: 85,029 bytes (50% of repo)",
+        "theportfoliosite: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Eternalon03/theportfoliosite"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2026-03-18T00:59:42+00:00",
+      "last_seen": "2026-07-05T03:02:37+00:00",
+      "details": [
+        "theportfoliosite: next config (next.config.ts)",
+        "theportfoliosite: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Eternalon03/theportfoliosite"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2026-03-18T00:59:42+00:00",
+      "last_seen": "2026-07-05T03:02:37+00:00",
+      "details": [
+        "theportfoliosite: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Eternalon03/theportfoliosite"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2026-03-18T00:59:42+00:00",
+      "last_seen": "2026-07-05T03:02:37+00:00",
+      "details": [
+        "theportfoliosite: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Eternalon03/ToDoAppGroupProject"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2023-05-15T21:40:11+00:00",
+      "last_seen": "2025-04-02T23:44:14+00:00",
+      "details": [
+        "ToDoAppGroupProject: junit-jupiter-api in build.gradle"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Eternalon03/theportfoliosite",
+        "Eternalon03/LazySummarizer-and-Paraphraser",
+        "Eternalon03/ToDoAppGroupProject"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8041188543707436,
+      "total_bytes": 79053,
+      "commit_count": 31,
+      "first_seen": "2021-05-16T21:38:12+00:00",
+      "last_seen": "2026-07-05T03:02:37+00:00",
+      "details": [
+        "theportfoliosite: CSS: 69,308 bytes (40% of repo)",
+        "LazySummarizer-and-Paraphraser: HTML: 1,706 bytes (5% of repo)",
+        "ToDoAppGroupProject: CSS: 8,039 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Eternalon03/LazySummarizer-and-Paraphraser"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7814481929236028,
+      "total_bytes": 12053,
+      "commit_count": 5,
+      "first_seen": "2021-05-16T21:38:12+00:00",
+      "last_seen": "2021-05-19T17:41:57+00:00",
+      "details": [
+        "LazySummarizer-and-Paraphraser: JavaScript: 12,053 bytes (38% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Eternalon03/ToDoAppGroupProject"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2023-05-15T21:40:11+00:00",
+      "last_seen": "2025-04-02T23:44:14+00:00",
+      "details": [
+        "ToDoAppGroupProject: CI config (.gitlab-ci.yml)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Eternalon03/theportfoliosite"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.49780529900177256,
+      "total_bytes": 16774,
+      "commit_count": 23,
+      "first_seen": "2026-03-18T00:59:42+00:00",
+      "last_seen": "2026-07-05T03:02:37+00:00",
+      "details": [
+        "theportfoliosite: Shell: 16,774 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "Eternalon03/LazySummarizer-and-Paraphraser"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2021-05-16T21:38:12+00:00",
+      "last_seen": "2021-05-19T17:41:57+00:00",
+      "details": [
+        "LazySummarizer-and-Paraphraser: 'nlp' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 78,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-16T14:13:26.925943+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

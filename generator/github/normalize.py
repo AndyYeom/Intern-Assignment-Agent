@@ -6,28 +6,22 @@ schema or a heuristic changes, re-run `build`, not `collect`.
 from __future__ import annotations
 
 from datetime import UTC, datetime
+from pathlib import Path
 from typing import Any
 
 from generator.config import COLLECTOR_VERSION, PROFILES_DIR
 from generator.github import signals, skill_map
+from generator.privacy import scrub
 from generator.schemas import (
     ExternalContribution,
     GitHubProfile,
     RepoRecord,
     SkillEvidence,
 )
+from generator.timeutil import parse_ts
 
 
-def _parse_ts(value: str | None) -> datetime | None:
-    if not value:
-        return None
-    try:
-        return datetime.fromisoformat(value)
-    except ValueError:
-        return None
-
-
-def build_repo(bundle: dict[str, Any]) -> RepoRecord:
+def build_repo(bundle: dict[str, Any], now: datetime | None = None) -> RepoRecord:
     repo = bundle["repo"]
     paths: list[str] = bundle.get("tree_paths", [])
     languages: dict[str, int] = bundle.get("languages") or {}
@@ -40,6 +34,9 @@ def build_repo(bundle: dict[str, Any]) -> RepoRecord:
     # "author" = matched by GitHub login; "sole_author" = owner is the only
     # contributor, so unlinked-email commits were counted too.
     commit_summary["attribution"] = bundle.get("commit_attribution", "author")
+    commit_summary["truncated"] = bundle.get("commits_truncated", False)
+    commit_summary["messages_sample"] = [scrub(m) for m in commit_summary["messages_sample"]]
+    share = bundle.get("contribution_share")
 
     # Cheap boolean facts the signal functions depend on.
     has_ci = any(p.startswith(".github/workflows/") or p in
@@ -94,13 +91,20 @@ def build_repo(bundle: dict[str, Any]) -> RepoRecord:
         structure=structure,
         commit_count=commit_summary.get("count", 0),
         skill_signals=signal_dicts,
+        contribution_share=share,
     )
+
+    # The username/username repo is a personal introduction page, not a project:
+    # its README is a CV in all but name, so none of it is kept.
+    owner = (repo.get("full_name") or "/").split("/")[0]
+    is_profile_readme = repo.get("name", "").lower() == owner.lower()
+    excerpt = None if is_profile_readme else scrub((readme or "")[:1200] or None)
 
     return RepoRecord(
         name=repo.get("name", ""),
         full_name=repo.get("full_name", ""),
         html_url=repo.get("html_url", ""),
-        description=repo.get("description"),
+        description=scrub(repo.get("description")),
         homepage=repo.get("homepage") or None,
         is_fork=repo.get("is_fork", False),
         is_archived=repo.get("is_archived", False),
@@ -122,15 +126,16 @@ def build_repo(bundle: dict[str, Any]) -> RepoRecord:
         manifests=manifests,
         has_readme=bool(readme),
         readme_length=len(readme or ""),
-        readme_excerpt=(readme or "")[:1200] or None,
+        readme_excerpt=excerpt,
         has_ci=has_ci,
         has_tests=has_tests,
         has_docker=has_docker,
         has_releases=bundle.get("has_releases", False),
         contributors_count=bundle.get("contributors_count", 1),
+        contribution_share=share,
         commits=commit_summary,
         structure=structure,
-        judgment=signals.judgment_signals(commit_summary, enriched),
+        judgment=signals.judgment_signals(commit_summary, enriched, now),
         skill_signals=signal_dicts,
         skill_relevant=relevant,
         relevance=relevance,
@@ -178,63 +183,85 @@ def aggregate_skills(repos: list[RepoRecord]) -> list[SkillEvidence]:
 
 
 # A profile is only worth keeping if there is enough of a record to verify a
-# claim against. The sampler filters on user-level counts, which a person can
-# satisfy with eight empty forks; these thresholds look at what was collected.
+# claim against. Two tiers:
+#
+#   relaxed - at least 3 repos that are real skill work, and something readable.
+#             The floor: enough to check a claim against.
+#   strict  - relaxed, plus enough history and breadth to read a pattern from.
+#
+# Slot assignment (assign.py) fills strata with strict profiles where it can and
+# relaxed ones where it must, so a thin-but-real profile still counts.
 MIN_SKILL_RELEVANT_REPOS = 3   # repos that are real skill work, see signals.skill_relevance
-MIN_TOTAL_COMMITS = 20
-MIN_DISTINCT_SKILLS = 3        # at manifest/language strength, not repo-name guesses
+MIN_READABLE_REPOS = 1
+STRICT_MIN_TOTAL_COMMITS = 20
+STRICT_MIN_DISTINCT_SKILLS = 3  # at manifest/language strength, not repo-name guesses
 MIN_SKILL_STRENGTH = 0.55
 
 
 def assess_usability(repos: list[RepoRecord],
-                     skills: list[SkillEvidence]) -> tuple[bool, dict[str, Any]]:
-    """Decide whether this profile can support skill verification at all."""
+                     skills: list[SkillEvidence]) -> tuple[str, dict[str, Any]]:
+    """Grade a profile: "strict", "relaxed" or "unusable"."""
     relevant = [r for r in repos if r.skill_relevant]
     total_commits = sum(r.commits.get("count", 0) for r in repos)
     strong_skills = [s for s in skills if s.max_strength >= MIN_SKILL_STRENGTH]
     readable = [r for r in repos if r.has_readme or r.manifests]
 
-    checks = {
+    relaxed_checks = {
         "skill_relevant_repos": (len(relevant), MIN_SKILL_RELEVANT_REPOS),
-        "total_commits": (total_commits, MIN_TOTAL_COMMITS),
-        "distinct_skills": (len(strong_skills), MIN_DISTINCT_SKILLS),
-        "readable_repos": (len(readable), 1),
+        "readable_repos": (len(readable), MIN_READABLE_REPOS),
     }
-    failed = [name for name, (actual, required) in checks.items() if actual < required]
+    strict_checks = {
+        "total_commits": (total_commits, STRICT_MIN_TOTAL_COMMITS),
+        "distinct_skills": (len(strong_skills), STRICT_MIN_DISTINCT_SKILLS),
+    }
+    checks = relaxed_checks | strict_checks
 
-    return not failed, {
-        "checks": {name: {"actual": a, "required": r} for name, (a, r) in checks.items()},
+    def failures(group: dict[str, tuple[int, int]]) -> list[str]:
+        return [name for name, (actual, required) in group.items() if actual < required]
+
+    relaxed_failed = failures(relaxed_checks)
+    strict_failed = failures(strict_checks)
+    if relaxed_failed:
+        tier = "unusable"
+    elif strict_failed:
+        tier = "relaxed"
+    else:
+        tier = "strict"
+
+    failed = relaxed_failed + strict_failed
+    return tier, {
+        "tier": tier,
+        "checks": {name: {"actual": a, "required": r,
+                          "tier": "relaxed" if name in relaxed_checks else "strict"}
+                   for name, (a, r) in checks.items()},
         "failed": failed,
         "reason": "; ".join(
             f"{name}: {checks[name][0]} < {checks[name][1]}" for name in failed
         ) or "meets all thresholds",
-        "skill_relevant": [r.name for r in relevant],
-        "not_skill_relevant": {
-            r.name: r.relevance.get("failed", []) for r in repos if not r.skill_relevant
-        },
-        "licenses": sorted({r.license for r in repos if r.license}),
-        "unlicensed_repos": sum(1 for r in repos if not r.license),
     }
 
 
-def build_profile(bundle: dict[str, Any]) -> GitHubProfile:
+def build_profile(bundle: dict[str, Any], applicant_id: str) -> GitHubProfile:
     user = bundle["user"]
-    repos = [build_repo(r) for r in bundle.get("repos", [])]
+    # Time-relative fields are measured from collection, not from whenever build
+    # runs, so rebuilding the same raw data always gives byte-identical profiles.
+    now = parse_ts(bundle.get("collected_at")) or datetime.now(UTC)
+    repos = [build_repo(r, now) for r in bundle.get("repos", [])]
 
     languages_bytes: dict[str, int] = {}
     for repo in repos:
         for language, count in repo.languages.items():
             languages_bytes[language] = languages_bytes.get(language, 0) + count
 
-    created = _parse_ts(user.get("created_at"))
-    age_days = (datetime.now(UTC) - created).days if created else 0
+    created = parse_ts(user.get("created_at"))
+    age_days = (now - created).days if created else 0
 
     skill_evidence = aggregate_skills(repos)
-    usable, usability = assess_usability(repos, skill_evidence)
+    tier, usability = assess_usability(repos, skill_evidence)
 
     notes: list[str] = []
-    if not usable:
-        notes.append(f"not usable - {usability['reason']}")
+    if tier != "strict":
+        notes.append(f"{tier} - {usability['reason']}")
     if len(repos) < 3:
         notes.append("fewer than 3 repos mined - thin evidence base")
     if any(r.tree_truncated for r in repos):
@@ -243,14 +270,9 @@ def build_profile(bundle: dict[str, Any]) -> GitHubProfile:
         notes.append("no commits attributed to this login - check commit email config")
 
     return GitHubProfile(
+        applicant_id=applicant_id,
         login=user["login"],
-        name=user.get("name"),
-        bio=user.get("bio"),
-        company=user.get("company"),
-        location=user.get("location"),
-        blog=user.get("blog") or None,
         html_url=user.get("html_url", ""),
-        avatar_url=user.get("avatar_url"),
         created_at=user.get("created_at"),
         account_age_days=age_days,
         public_repos=user.get("public_repos", 0),
@@ -264,26 +286,47 @@ def build_profile(bundle: dict[str, Any]) -> GitHubProfile:
         languages_bytes=dict(sorted(languages_bytes.items(), key=lambda kv: kv[1], reverse=True)),
         total_commits=sum(r.commits.get("count", 0) for r in repos),
         skill_evidence=skill_evidence,
-        usable=usable,
+        tier=tier,
         usability=usability,
-        stratum=bundle.get("stratum"),
+        search_stratum=bundle.get("stratum"),
         collected_at=bundle.get("collected_at"),
         collector_version=COLLECTOR_VERSION,
         notes=notes,
     )
 
 
-def save_profile(profile: GitHubProfile) -> None:
+def profile_path(applicant_id: str) -> Path:
+    return PROFILES_DIR / f"{applicant_id}.json"
+
+
+def save_profile(profile: GitHubProfile) -> Path:
     PROFILES_DIR.mkdir(parents=True, exist_ok=True)
-    path = PROFILES_DIR / f"{profile.login}.json"
+    path = profile_path(profile.applicant_id)
     path.write_text(profile.model_dump_json(indent=2), encoding="utf-8")
+    return path
 
 
-def load_profile(login: str) -> GitHubProfile | None:
-    path = PROFILES_DIR / f"{login}.json"
+def load_profile(applicant_id: str) -> GitHubProfile | None:
+    path = profile_path(applicant_id)
     if not path.exists():
         return None
     return GitHubProfile.model_validate_json(path.read_text(encoding="utf-8"))
+
+
+def remove_stale_profiles() -> list[str]:
+    """Delete profile files not named by applicant ID - e.g. the old <login>.json.
+
+    Safe: every profile is regenerated from raw/ by `build`.
+    """
+    from generator.github.ids import ID_PATTERN
+
+    removed = []
+    if PROFILES_DIR.exists():
+        for path in PROFILES_DIR.glob("*.json"):
+            if not ID_PATTERN.match(path.stem):
+                path.unlink()
+                removed.append(path.name)
+    return removed
 
 
 def load_all_profiles() -> list[GitHubProfile]:

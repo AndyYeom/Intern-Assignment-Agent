@@ -937,6 +937,7 @@ dependencies = [
     { name = "httpx" },
     { name = "langchain" },
     { name = "pydantic" },
+    { name = "scipy" },
     { name = "weasyprint" },
 ]
 
@@ -951,6 +952,7 @@ requires-dist = [
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "langchain", specifier = ">=1.4.0" },
     { name = "pydantic", specifier = ">=2.13.5" },
+    { name = "scipy", specifier = ">=1.18.1" },
     { name = "weasyprint", specifier = ">=70.0" },
 ]
 

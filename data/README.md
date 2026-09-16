@@ -1,103 +1,138 @@
 # data/
 
-Three inputs, one shared ruler.
+The dataset: real GitHub evidence, synthetic resumes, curated projects, and the
+shared ruler every agent scores against. How to (re)generate it is in the
+repository README; this file is the data contract.
 
-| directory | what it holds | how it is produced | real or synthetic |
-| --- | --- | --- | --- |
-| `githubs/` | public GitHub profiles | `generator gh collect` + `build` | **real** — collected from the public API |
-| `resumes/` | applicant resumes, MIT format | `generator re draft` + `render` | **synthetic** — generated from `githubs/` |
-| `projects/` | project records | curated from app-ideas / GSoC lists | curated |
+| path | holds | real or synthetic |
+| --- | --- | --- |
+| `taxonomy.json`, `proficiency_levels.md` | the shared skill list and 1-3 scale; every agent injects the same copy | — |
+| `githubs/` | public GitHub profiles | **real**, collected from the public API |
+| `resumes/` | applicant resumes, MIT format | **synthetic**, drafted from `githubs/` |
+| `projects/` | project records | curated |
+| `applicants.csv` | one row per applicant, pairing profile and resume | index |
+| `static/` | placeholder resume photo | — |
+
+Only the GitHub side is real, on purpose. The system compares what a resume
+*claims* with what the commit record *shows*, which only means something if one
+side is ground truth. Resumes are synthetic so that what they claim, including
+the planted exaggerations, is controlled.
+
+## Identifiers
+
+Every file joins on one key: **`applicant_id`** (`applicant0001`, ...). It is
+assigned the first time a profile is built, stored on that person's record in
+`githubs/candidates.json`, and never changes or gets reused. The GitHub login is
+kept as a field (repository URLs contain it anyway), never used as a key.
+
+## githubs/
+
+| file | contents | committed |
+| --- | --- | --- |
+| `candidates.json` | everyone examined, with inclusion criteria, search queries, the repository that surfaced them, reject reasons, date windows searched, and applicant IDs | yes |
+| `profiles/<applicant_id>.json` | normalised evidence per person | yes |
+| `corpus.json` | which applicants fill which stratum slot, and at which tier | yes |
+| `raw/` | verbatim API payloads | no: large, reproducible |
+
+### Sampling
+
+Candidates are the owners of non-fork repositories (`fork:false size:>=100
+stars:0..50`) whose primary language belongs to a stratum, found through GitHub
+repository search. Searching *users* by language was dropped: it matches anyone
+with any repo in that language, forks included, and for Go found nobody who wrote
+Go. Each person must then pass the account filters (4-80 public repos, at most
+400 followers, account 6 months to 7 years old). Earlier user-search candidates
+are kept, marked `method: users`.
+
+### Usability tiers
+
+A profile is graded when built:
+
+| tier | requires |
+| --- | --- |
+| relaxed | 3+ skill-relevant repos, and 1+ repo with a README or manifest |
+| strict | relaxed, plus 20+ commits and 3+ skills evidenced by a language, dependency or file |
+| unusable | anything less |
+
+A repo is **skill-relevant** when every rule holds: not a fork; its name does not
+*end* in a non-project word (`notes`, `dotfiles`, `config`, ...; `config-parser`
+is fine) and it is not the `username/username` profile page; at least one code
+file or notebook; at least 2 KB in a language that maps to the taxonomy; at least
+one strong skill signal; at least one commit by the person; and, in a shared
+repo, at least 20% of the commits. Each repo stores which rules failed under
+`relevance`.
+
+### Commit attribution
+
+GitHub only links commits made with an email tied to the account. On a repo the
+person owns, unlinked commits are credited to them (`attribution: sole_author`)
+only when no other GitHub account contributed, at most one unlinked identity
+exists, and the history was not imported (nearly all commits dated long before
+the repo was created, as when a tutorial is cloned and re-pushed). Otherwise
+`attribution` is `author`, or `refused_imported_history`.
+
+### Slots
+
+Ten strata, `ceil(40 / 10) = 4` slots each. A person is not tied to the search
+that found them. Each gets a **probability for every stratum**: each
+skill-relevant repo spreads one unit across the strata it shows evidence for,
+weighted by language bytes (at least 1 KB), with skill evidence also counting: a
+`react-native` or Capacitor dependency, a `pubspec.yaml`, an `AndroidManifest.xml`
+or `.xcodeproj`, a `go.mod`. A Go backend outweighed by TypeScript still carries
+Go probability.
+
+| tier for a stratum | requires |
+| --- | --- |
+| strict | strict profile, and 2+ repos mainly in the stratum (primary language or 25%+ of bytes) |
+| relaxed | 1+ repo mainly in the stratum |
+| partial | any evidence at all |
+
+An optimal assignment fills the slots, in priority order: as many slots as
+possible; never drop anyone already batched or rendered; strict, then relaxed,
+then partial; keep committed people in their previous stratum; and least
+surprise, minimising `-log2 p(stratum)` so each person lands where their
+evidence is most concentrated. `search_stratum` on a profile records which search
+*found* the person, not the slot they fill.
+
+## resumes/
+
+| path | contents | committed |
+| --- | --- | --- |
+| `roster.json` | which applicants each authoring batch owns | yes |
+| `specs/<applicant_id>.json` | authored resume content | yes |
+| `rendered/<applicant_id>.pdf` | the resume, ~25 KB | yes |
+| `specs/_draft_*.json`, `rendered/*.html`, `brief_batch_*.md` | regenerated scaffolding | no |
 
 ## applicants.csv
 
-The index that pairs the two halves. One row per applicant:
-
 | column | meaning |
 | --- | --- |
-| `idx` | stable integer id; survives re-renders |
+| `applicant_id` | the key |
 | `first_name`, `last_name` | the invented identity |
-| `github_login` | the real profile it was generated from |
-| `github_profile` | path to the collected profile JSON |
-| `resume_pdf`, `resume_html` | paths to the rendered resume |
-| `spec` | path to the resume spec it was rendered from |
-| `career_stage`, `batch` | `student`/`intern`/`new_grad`/`switcher`; authoring batch |
-| `rendered_at` | UTC timestamp |
+| `github_login` | the real account the resume was drafted from |
+| `github_profile` | `data/githubs/profiles/<applicant_id>.json` |
+| `resume_pdf`, `spec` | the rendered resume and the spec it came from |
+| `career_stage`, `batch` | `student`, `intern`, `new_grad` or `switcher`; authoring batch |
 
-`generator re render` upserts into it automatically, keyed on `github_login`, so
-it also answers "has this profile been used yet". Paths are repo-relative.
+Written by `generator re render` under a lock, sorted by `applicant_id`, with no
+timestamps, so re-rendering an unchanged resume produces no diff.
+`generator re manifest --rebuild` regenerates it from disk. It deliberately has
+no column marking planted exaggerations: that answer key must not sit in the
+index the evidence agent reads.
 
-It is derived, never authoritative: `generator re manifest --rebuild`
-regenerates it from the spec and rendered files on disk.
+## Privacy
 
-It deliberately carries **no column marking a planted exaggeration** — that
-answer key belongs with whoever plants them, not in the index the evidence agent
-reads.
+Collected through the documented public REST API only; no repository source is
+stored in this repo.
 
-`taxonomy.json` and `proficiency_levels.md` are the shared ruler. Every agent
-injects the same copy; a divergence between them makes the gap arithmetic
-downstream meaningless.
-
-## Sampling is additive, and selection is not usability
-
-`gh sample` is deliberately **not** idempotent. Each run skips every login
-already examined and consumes fresh account-creation date windows, so re-running
-finds people earlier runs never saw. The spent windows are recorded in
-`githubs/candidates.json` under `consumed`.
-
-This matters because **a selected candidate is not necessarily a usable one**.
-The sampler filters on user-level counts — repo count, followers, account age —
-which someone can satisfy with eight empty forks. Whether a profile carries
-enough evidence is only knowable after collection, so `build` assesses each one
-and records a verdict:
-
-| check | why |
-| --- | --- |
-| `skill_relevant_repos` >= 3 | repos that are real skill work (rules below) |
-| `total_commits` >= 20 | enough history to read a pattern from |
-| `distinct_skills` >= 3 | at language/manifest strength, not repo-name guesses |
-| `readable_repos` >= 1 | something with a README or a manifest |
-
-A repo is **skill-relevant** only if every rule holds:
-
-- not a fork, and not the `username/username` profile-README repo
-- its name does not *end* in a non-project word (`dotfiles`, `notes`,
-  `cheatsheet`, `config`, `awesome-*`, ...); `config-parser-rs` is fine
-- at least 3 code files, or at least 2 notebooks
-- at least 2 KB in a language that maps to a taxonomy skill (Markdown and TeX do not)
-- at least one strong skill signal: a language, a dependency or a file, not a
-  topic or a word in the name
-- at least 3 commits by the person
-
-Each repo's verdict and failed rules are stored under `relevance` in its
-profile, and `gh stats` counts which rules reject the most repos.
-
-The loop is therefore: `sample` -> `collect` -> `build` -> check `stats` -> if
-usable < 40, `sample` again. The thresholds are starting guesses; `gh stats`
-prints the rejections with reasons so they can be tuned.
-
-## Real people, invented identities
-
-Resumes carry a fabricated name, and the drafter never copies the real person's
-name, bio, location or personal site into one. The GitHub handle printed on a
-resume is a slug of the invented name and resolves to nobody — a fabricated
-identity must not link to a real stranger's account.
-
-The real login is kept in `applicants.csv` and in the profile JSON, because the
-evidence agent has to join a resume back to the record it was generated from,
-and its output is required to cite repository links.
-
-Repository licences are recorded per repo and summarised by `gh stats`. Note
-that what is collected is factual metadata — commit timestamps, language byte
-counts, file paths, dependency names — not copyrightable source, and no
-repository content is redistributed in this repo.
-
-## Why only the GitHub side is real
-
-The whole system rests on comparing what a resume *claims* against what the
-commit record *shows*. That comparison only means anything if one side is
-ground truth, so `githubs/` is collected rather than invented. Resumes are
-synthetic because we need to control what is claimed — including the planted
-exaggerations the evidence agent is measured against.
-
-`githubs/raw/` and `.cache/` are gitignored: large, and fully reproducible from
-`githubs/candidates.json` plus the collector code.
+- **Profiles** hold no name, bio, company, location, website, avatar or email.
+  Email addresses and phone numbers are scrubbed from README excerpts, repo
+  descriptions and commit messages, and the `username/username` profile README is
+  not kept at all.
+- **Resumes** carry an invented identity. They never show the real login: the
+  printed GitHub handle is a slug of the invented name, repository links are not
+  rendered, and a repo named after its owner becomes "Personal Website".
+- **Kept deliberately**: the login and repository URLs, in profiles and
+  `applicants.csv`, because the evidence agent must cite repositories.
+- **Local only**: `githubs/raw/` and `.cache/` hold full API responses, including
+  profile fields removed above. Both are gitignored; delete them to purge.

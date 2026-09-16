@@ -1,0 +1,987 @@
+{
+  "applicant_id": "applicant0025",
+  "login": "callumfowler101",
+  "html_url": "https://github.com/callumfowler101",
+  "created_at": "2020-01-31T23:04:56Z",
+  "account_age_days": 2419,
+  "public_repos": 7,
+  "followers": 1,
+  "following": 1,
+  "repos": [
+    {
+      "name": "stag-dd",
+      "full_name": "callumfowler101/stag-dd",
+      "html_url": "https://github.com/callumfowler101/stag-dd",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-22T10:39:43Z",
+      "pushed_at": "2026-05-21T15:00:08Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 1153,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 52811,
+        "CSS": 26424
+      },
+      "primary_language": "JavaScript",
+      "file_count": 59,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "eslint.config.mjs",
+        "jsconfig.json",
+        "next.config.mjs",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "dotenv",
+          "eslint",
+          "eslint-config-next",
+          "mongodb",
+          "mongoose",
+          "next",
+          "react",
+          "react-dom"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1449,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-te",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.667,
+      "commits": {
+        "count": 32,
+        "first_at": "2025-12-22T10:29:19+00:00",
+        "last_at": "2026-05-21T15:00:08+00:00",
+        "active_days": 16,
+        "span_days": 150,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #10 from senlac/claude/familiarize-with-repo-OP1dg",
+          "Merge pull request #9 from senlac/claude/familiarize-with-repo-OP1dg",
+          "Merge pull request #8 from senlac/claude/familiarize-with-repo-OP1dg",
+          "Merge pull request #7 from senlac/claude/familiarize-with-repo-OP1dg",
+          "fix ui on char select",
+          "Merge pull request #6 from senlac/claude/review-repo-functionality-U919c",
+          "Merge pull request #5 from senlac/claude/review-repo-functionality-U919c",
+          "Merge pull request #4 from senlac/claude/review-repo-functionality-U919c",
+          "add fixes from claude",
+          "add fixes from claude",
+          "Merge branch 'main' of https://github.com/callumfowler101/stag-dd",
+          "update character creation to uuid",
+          "Merge pull request #3 from senlac/claude/implement-design-handoff-KS0Nm",
+          "add wizard and more titles",
+          "add go to hero btn",
+          "Merge pull request #2 from senlac/claude/implement-design-handoff-KS0Nm",
+          "add message to xp gain",
+          "add runscape colors",
+          "add notification close and mark as read",
+          "add notification send flow and ui from dm"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 34
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 52,811 bytes (67% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 26,424 bytes (33% of repo)",
+          "strength": 0.733488988452073
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongodb in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 79235,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "mongodb",
+          "nextjs",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "callumfowler101.github.io",
+      "full_name": "callumfowler101/callumfowler101.github.io",
+      "html_url": "https://github.com/callumfowler101/callumfowler101.github.io",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-06-21T14:44:53Z",
+      "pushed_at": "2023-04-24T08:22:52Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11746,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 38965,
+        "JavaScript": 15827,
+        "CSS": 7764
+      },
+      "primary_language": "HTML",
+      "file_count": 37,
+      "top_level_paths": [
+        ".gitignore",
+        "about.html",
+        "apps",
+        "constellation_website",
+        "cv.html",
+        "downloads",
+        "downloads.html",
+        "images",
+        "index.html",
+        "interaction.html",
+        "main.css",
+        "portfolio.html",
+        "website_actions.js"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.976,
+      "commits": {
+        "count": 83,
+        "first_at": "2020-06-21T14:48:02+00:00",
+        "last_at": "2021-05-02T13:45:13+00:00",
+        "active_days": 33,
+        "span_days": 314,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "rm slackapps",
+          "added slackapp-crypto",
+          "gitignore init",
+          "gitignore init",
+          "adding webpage",
+          "added download and orbs download",
+          "fixed color issues on const link",
+          "fixed spelling on home screen",
+          "added link to constellations",
+          "final edit",
+          "final styling --constellations",
+          "final styling --constellations",
+          "added comments --constellations",
+          "added imgs and content",
+          "added circuit img --constellations",
+          "added schem img --constellations",
+          "added content and imgs --constellations",
+          "changed controls --constellations",
+          "added content --constellations",
+          "added content to design section --constellations"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 15
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 38,965 bytes (62% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 15,827 bytes (25% of repo)",
+          "strength": 0.6530053072447088
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 7,764 bytes (12% of repo)",
+          "strength": 0.5241127949357376
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 62556,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "dialogflow-app",
+      "full_name": "callumfowler101/dialogflow-app",
+      "html_url": "https://github.com/callumfowler101/dialogflow-app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-01-12T14:48:00Z",
+      "pushed_at": "2022-02-03T14:35:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4685,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 2474
+      },
+      "primary_language": "JavaScript",
+      "file_count": 6,
+      "top_level_paths": [
+        ".gitignore",
+        "index.js",
+        "package-lock.json",
+        "package.json",
+        "test.csv",
+        "test_entities.csv"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@google-cloud/dialogflow"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2022-01-12T14:51:14+00:00",
+        "last_at": "2022-02-03T14:35:56+00:00",
+        "active_days": 6,
+        "span_days": 21,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "started adding entities func",
+          "started entities func",
+          "added new training phrases",
+          "added training phrase automation capability",
+          "started on createTrainingArray function",
+          "started working on training phrase features",
+          "started working on training phrase features",
+          "added create command",
+          "added create command",
+          "uninstalled npm dotenv",
+          "updated git ignore",
+          "updated git ignore",
+          "init commit - basic create intent func"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,474 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2474,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "gameJam2020",
+      "full_name": "callumfowler101/gameJam2020",
+      "html_url": "https://github.com/callumfowler101/gameJam2020",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-01-31T23:06:39Z",
+      "pushed_at": "2020-02-02T21:52:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7036,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 31410
+      },
+      "primary_language": "C++",
+      "file_count": 47,
+      "top_level_paths": [
+        ".gitignore",
+        "assets",
+        "bin",
+        "src"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.818,
+      "commits": {
+        "count": 9,
+        "first_at": "2020-02-01T13:46:37+00:00",
+        "last_at": "2020-02-02T21:52:29+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Delete ofApp.h copy",
+          "Delete ofApp.cpp copy",
+          "Delete main.cpp copy",
+          "Delete ParticleSystem.h copy",
+          "Delete ParticleSystem.cpp copy",
+          "Delete Particle.h copy",
+          "Delete Particle.cpp copy",
+          "third commit; final version",
+          "new PartSys, textures work"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 15
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 31,410 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (bin/gameJamDraftDebug.app/Contents/Info.plist)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 31410,
+        "strong_skills": [
+          "c-cpp",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "democratise",
+      "full_name": "callumfowler101/democratise",
+      "html_url": "https://github.com/callumfowler101/democratise",
+      "description": "Democratise: Slack App",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-05-14T08:22:57Z",
+      "pushed_at": "2024-05-24T07:08:22Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 58,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 7736
+      },
+      "primary_language": "JavaScript",
+      "file_count": 4,
+      "top_level_paths": [
+        ".gitignore",
+        "app.js",
+        "package-lock.json",
+        "package.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@slack/bolt"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 7,736 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 7736,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 78848,
+    "HTML": 38965,
+    "CSS": 34188,
+    "C++": 31410
+  },
+  "total_commits": 137,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "callumfowler101/stag-dd",
+        "callumfowler101/callumfowler101.github.io",
+        "callumfowler101/dialogflow-app",
+        "callumfowler101/democratise"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 78848,
+      "commit_count": 128,
+      "first_seen": "2020-06-21T14:48:02+00:00",
+      "last_seen": "2026-05-21T15:00:08+00:00",
+      "details": [
+        "stag-dd: JavaScript: 52,811 bytes (67% of repo)",
+        "callumfowler101.github.io: JavaScript: 15,827 bytes (25% of repo)",
+        "dialogflow-app: JavaScript: 2,474 bytes (100% of repo)",
+        "democratise: JavaScript: 7,736 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "callumfowler101/stag-dd",
+        "callumfowler101/callumfowler101.github.io"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 73153,
+      "commit_count": 115,
+      "first_seen": "2020-06-21T14:48:02+00:00",
+      "last_seen": "2026-05-21T15:00:08+00:00",
+      "details": [
+        "stag-dd: CSS: 26,424 bytes (33% of repo)",
+        "callumfowler101.github.io: HTML: 38,965 bytes (62% of repo)",
+        "callumfowler101.github.io: CSS: 7,764 bytes (12% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "callumfowler101/gameJam2020"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 31410,
+      "commit_count": 9,
+      "first_seen": "2020-02-01T13:46:37+00:00",
+      "last_seen": "2020-02-02T21:52:29+00:00",
+      "details": [
+        "gameJam2020: C++: 31,410 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "callumfowler101/stag-dd"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 32,
+      "first_seen": "2025-12-22T10:29:19+00:00",
+      "last_seen": "2026-05-21T15:00:08+00:00",
+      "details": [
+        "stag-dd: mongodb in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "callumfowler101/stag-dd"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 32,
+      "first_seen": "2025-12-22T10:29:19+00:00",
+      "last_seen": "2026-05-21T15:00:08+00:00",
+      "details": [
+        "stag-dd: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "callumfowler101/stag-dd"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 32,
+      "first_seen": "2025-12-22T10:29:19+00:00",
+      "last_seen": "2026-05-21T15:00:08+00:00",
+      "details": [
+        "stag-dd: react in package.json"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "callumfowler101/gameJam2020"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2020-02-01T13:46:37+00:00",
+      "last_seen": "2020-02-02T21:52:29+00:00",
+      "details": [
+        "gameJam2020: iOS project (bin/gameJamDraftDebug.app/Contents/Info.plist)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 137,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:14:10.321896+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

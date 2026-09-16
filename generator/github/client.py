@@ -22,7 +22,20 @@ class RateLimited(RuntimeError):
 
 
 class NotFound(RuntimeError):
-    pass
+    """The resource is genuinely absent: 404, or an empty repository."""
+
+
+class Unavailable(NotFound):
+    """The resource exists but will not be served: blocked, forbidden or unprocessable.
+
+    A subclass of NotFound on purpose - callers treat it as absent - but distinct
+    from RateLimited, so one blocked repo can never abort a whole collection run.
+    """
+
+
+# Cached in place of a payload for a 404, so a known-missing resource is not
+# re-requested on every run. A plain None would read as a cache miss.
+_NOT_FOUND = {"__not_found__": True}
 
 
 class GitHubClient:
@@ -97,6 +110,8 @@ class GitHubClient:
             url = str(httpx.URL(url).copy_merge_params(params))
 
         cached = self.cache.read(url, max_age=max_age)
+        if cached == _NOT_FOUND:
+            raise NotFound(url)
         if cached is not None:
             return cached
         if self.offline:
@@ -138,11 +153,18 @@ class GitHubClient:
                 return []
 
             if response.status_code == 404:
-                self.cache.write(url, None, etag=None)
+                self.cache.write(url, _NOT_FOUND, etag=None)
                 raise NotFound(url)
 
+            if response.status_code == 409:
+                # "Git Repository is empty": no commits, no tree.
+                self.cache.write(url, [], etag=None)
+                return []
+
+            if response.status_code in (451, 422):
+                raise Unavailable(f"{response.status_code}: {url}")
+
             if response.status_code in (403, 429):
-                # Either the hourly limit, or the secondary abuse limit.
                 retry_after = response.headers.get("Retry-After")
                 if retry_after:
                     time.sleep(min(float(retry_after) + 1, self.max_wait))
@@ -152,8 +174,13 @@ class GitHubClient:
                         raise RateLimited("rate limit exhausted")
                     self._wait_for_reset()
                     continue
-                time.sleep(2 ** attempt)
-                continue
+                if "rate limit" in response.text.lower():
+                    # Secondary (abuse) limit without a Retry-After header.
+                    time.sleep(2 ** attempt)
+                    continue
+                # Quota remains and it is not a limit: access is simply refused
+                # (blocked repo, history too large, token scope). Not retryable.
+                raise Unavailable(f"403: {url}")
 
             if 500 <= response.status_code < 600:
                 time.sleep(2 ** attempt)
