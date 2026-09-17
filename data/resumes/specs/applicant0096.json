@@ -1,0 +1,110 @@
+{
+  "github_login": "kotetsu123",
+  "applicant_id": "applicant0096",
+  "first_name": "Talia",
+  "last_name": "Konrad",
+  "career_stage": "student",
+  "email": "talia.konrad@brightwellmail.example",
+  "phone": "(555) 010-0196",
+  "location": "Brightwell",
+  "linkedin": "linkedin.example.com/in/talia-konrad",
+  "github_url": "github.example.com/talia-konrad",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Brightwell University",
+    "location": "Brightwell",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Entrepreneurship",
+    "graduation": "May 2026",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Game Programming",
+      "Intro to Business Strategy",
+      "Software Design"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Wuxingzhanji",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Feb 2024",
+      "end": "Jun 2024",
+      "bullets": [
+        "Built a turn-based strategy game in C# with custom shaders across 9,471 files over 30 active days.",
+        "Drafted a short design document scoping core mechanics before development to avoid rebuilding systems mid-project."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "ShaderLab",
+        "HLSL"
+      ]
+    },
+    {
+      "title": "Trunbaseddemo",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Continued developing a turn-based game prototype in C# and HLSL over 160 active days and 200 commits.",
+        "Cut a planned multiplayer mode after estimating it would delay a playable demo by months."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "ShaderLab",
+        "HLSL"
+      ]
+    },
+    {
+      "title": "2D Roguelike",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Apr 2026",
+      "end": "Apr 2026",
+      "bullets": [
+        "Prototyped a 2D roguelike in C# across 102 files to test a shorter, sellable game concept.",
+        "Wrote a one-page pitch outlining the game's hook after friends struggled to describe it back."
+      ],
+      "link": null,
+      "tech": [
+        "C#"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Founding Member",
+      "organization": "Brightwell Indie Makers",
+      "location": null,
+      "start": "Mar 2024",
+      "end": "Present",
+      "bullets": [
+        "Co-founded a small group of student developers sharing feedback on solo game projects before release.",
+        "Introduced a monthly demo night after noticing members rarely finished projects without an external deadline."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C#"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

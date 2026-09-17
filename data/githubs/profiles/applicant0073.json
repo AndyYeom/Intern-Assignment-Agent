@@ -1,0 +1,977 @@
+{
+  "applicant_id": "applicant0073",
+  "login": "jads15",
+  "html_url": "https://github.com/jads15",
+  "created_at": "2021-01-25T23:26:28Z",
+  "account_age_days": 2060,
+  "public_repos": 10,
+  "followers": 25,
+  "following": 16,
+  "repos": [
+    {
+      "name": "fundamentos_de_programa-o",
+      "full_name": "jads15/fundamentos_de_programa-o",
+      "html_url": "https://github.com/jads15/fundamentos_de_programa-o",
+      "description": "disciplina de fundamentos de programação da pucrs",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-20T20:08:48Z",
+      "pushed_at": "2026-01-15T14:53:14Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 73,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 59211
+      },
+      "primary_language": "Java",
+      "file_count": 113,
+      "top_level_paths": [
+        "exercicio14.java",
+        "lista5-vetores-matrizes",
+        "lista_4-metodos"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-08-20T20:25:11+00:00",
+        "last_at": "2026-01-15T14:53:00+00:00",
+        "active_days": 2,
+        "span_days": 147,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "lista4",
+          "lista 5",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 38
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 59,211 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 59211,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "alest1",
+      "full_name": "jads15/alest1",
+      "html_url": "https://github.com/jads15/alest1",
+      "description": "disciplina de algoritmos e estrutura de dados I disciplina que obtive notá máxima",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-09-04T21:32:34Z",
+      "pushed_at": "2026-09-04T21:55:04Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 7914
+      },
+      "primary_language": "Python",
+      "file_count": 5,
+      "top_level_paths": [
+        "appBuscaPares.py",
+        "appInverter.py",
+        "appLista.py",
+        "appMesclar.py",
+        "listadupla.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-09-04T21:55:04+00:00",
+        "last_at": "2026-09-04T21:55:04+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 7,914 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 7914,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Sistema-Banc-rio",
+      "full_name": "jads15/Sistema-Banc-rio",
+      "html_url": "https://github.com/jads15/Sistema-Banc-rio",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-25T20:32:26Z",
+      "pushed_at": "2023-01-25T20:32:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 36390,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 17831769,
+        "C": 234681,
+        "Cython": 123603,
+        "C++": 48490,
+        "PowerShell": 9033,
+        "Nu": 3367,
+        "Shell": 3092,
+        "Nix": 613,
+        "Fortran": 453
+      },
+      "primary_language": "Python",
+      "file_count": 9878,
+      "top_level_paths": [
+        ".breakpoints",
+        ".replit",
+        "main.py",
+        "poetry.lock",
+        "pyproject.toml",
+        "replit.nix",
+        "venv"
+      ],
+      "notable_files": [
+        "pyproject.toml",
+        "venv/lib/python3.10/site-packages/numpy/_typing/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/array_api/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/compat/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/core/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/core/tests/examples/cython/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/core/tests/examples/limited_api/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/distutils/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/f2py/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/fft/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/lib/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/linalg/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/ma/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/matrixlib/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/polynomial/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/random/_examples/cython/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/random/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/testing/setup.py",
+        "venv/lib/python3.10/site-packages/numpy/typing/setup.py"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "0.1.0",
+          "build-backend",
+          "debugpy",
+          "description",
+          "flask",
+          "name",
+          "numpy",
+          "poetry-core",
+          "poetry.core.masonry.api",
+          "pyflakes",
+          "python",
+          "python-template",
+          "replit",
+          "replit-python-lsp-server",
+          "rope",
+          "urllib3",
+          "version",
+          "yapf"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2023-01-25T20:29:44+00:00",
+        "last_at": "2023-01-25T20:29:44+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3446
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 17,831,769 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 234,681 bytes (1% of repo)",
+          "strength": 0.41285563963738137
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 48,490 bytes (0% of repo)",
+          "strength": 0.40265624386301674
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 9,033 bytes (0% of repo)",
+          "strength": 0.40049482059836317
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 3,092 bytes (0% of repo)",
+          "strength": 0.40016937731541447
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (venv/lib/python3.10/site-packages/Cryptodome/SelfTest/Cipher/test_AES.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (venv/lib/python3.10/site-packages/jedi/third_party/django-stubs/django-stubs/db/migrations/__init__.pyi)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "python",
+          "source": "manifest",
+          "detail": "python in pyproject.toml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 18127065,
+        "strong_skills": [
+          "data-modeling",
+          "flask-fastapi",
+          "pandas",
+          "python",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "t1_alest2",
+      "full_name": "jads15/t1_alest2",
+      "html_url": "https://github.com/jads15/t1_alest2",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-09-16T17:25:39Z",
+      "pushed_at": "2026-09-16T18:37:44Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 1630
+      },
+      "primary_language": "Python",
+      "file_count": 2,
+      "top_level_paths": [
+        "app.py",
+        "arvores_utils.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-09-16T17:28:48+00:00",
+        "last_at": "2026-09-16T18:37:44+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Clean up arvores_utils.py by removing example code",
+          "Add files via upload",
+          "Update and rename t1.py to arvores_utils.py",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,630 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1630,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "NEURO-ENGINE",
+      "full_name": "jads15/NEURO-ENGINE",
+      "html_url": "https://github.com/jads15/NEURO-ENGINE",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-29T15:18:42Z",
+      "pushed_at": "2026-07-31T13:17:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 2481
+      },
+      "primary_language": "Python",
+      "file_count": 2,
+      "top_level_paths": [
+        "__init__.py",
+        "erros"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-07-29T15:46:20+00:00",
+        "last_at": "2026-07-29T15:46:20+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Commit inicial do projeto e tratamento de erros"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,481 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2481,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 17843794,
+    "C": 234681,
+    "Cython": 123603,
+    "Java": 59211,
+    "C++": 48490,
+    "PowerShell": 9033,
+    "Nu": 3367,
+    "Shell": 3092,
+    "Nix": 613,
+    "Fortran": 453
+  },
+  "total_commits": 10,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "jads15/alest1",
+        "jads15/Sistema-Banc-rio",
+        "jads15/t1_alest2",
+        "jads15/NEURO-ENGINE"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 17843794,
+      "commit_count": 7,
+      "first_seen": "2023-01-25T20:29:44+00:00",
+      "last_seen": "2026-09-16T18:37:44+00:00",
+      "details": [
+        "alest1: Python: 7,914 bytes (100% of repo)",
+        "Sistema-Banc-rio: Python: 17,831,769 bytes (98% of repo)",
+        "Sistema-Banc-rio: python in pyproject.toml",
+        "t1_alest2: Python: 1,630 bytes (100% of repo)",
+        "NEURO-ENGINE: Python: 2,481 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "jads15/fundamentos_de_programa-o"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 59211,
+      "commit_count": 3,
+      "first_seen": "2025-08-20T20:25:11+00:00",
+      "last_seen": "2026-01-15T14:53:00+00:00",
+      "details": [
+        "fundamentos_de_programa-o: Java: 59,211 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "jads15/Sistema-Banc-rio"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2023-01-25T20:29:44+00:00",
+      "last_seen": "2023-01-25T20:29:44+00:00",
+      "details": [
+        "Sistema-Banc-rio: flask in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "jads15/Sistema-Banc-rio"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2023-01-25T20:29:44+00:00",
+      "last_seen": "2023-01-25T20:29:44+00:00",
+      "details": [
+        "Sistema-Banc-rio: numpy in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "jads15/Sistema-Banc-rio"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2023-01-25T20:29:44+00:00",
+      "last_seen": "2023-01-25T20:29:44+00:00",
+      "details": [
+        "Sistema-Banc-rio: test file (venv/lib/python3.10/site-packages/Cryptodome/SelfTest/Cipher/test_AES.py)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "jads15/Sistema-Banc-rio"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2023-01-25T20:29:44+00:00",
+      "last_seen": "2023-01-25T20:29:44+00:00",
+      "details": [
+        "Sistema-Banc-rio: database migrations (venv/lib/python3.10/site-packages/jedi/third_party/django-stubs/django-stubs/db/migrations/__init__.pyi)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "jads15/Sistema-Banc-rio"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41285563963738137,
+      "total_bytes": 283171,
+      "commit_count": 1,
+      "first_seen": "2023-01-25T20:29:44+00:00",
+      "last_seen": "2023-01-25T20:29:44+00:00",
+      "details": [
+        "Sistema-Banc-rio: C: 234,681 bytes (1% of repo)",
+        "Sistema-Banc-rio: C++: 48,490 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "jads15/Sistema-Banc-rio"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40049482059836317,
+      "total_bytes": 12125,
+      "commit_count": 1,
+      "first_seen": "2023-01-25T20:29:44+00:00",
+      "last_seen": "2023-01-25T20:29:44+00:00",
+      "details": [
+        "Sistema-Banc-rio: PowerShell: 9,033 bytes (0% of repo)",
+        "Sistema-Banc-rio: Shell: 3,092 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 10,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "total_commits"
+    ],
+    "reason": "total_commits: 10 < 20"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:17:43.438862+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - total_commits: 10 < 20"
+  ]
+}

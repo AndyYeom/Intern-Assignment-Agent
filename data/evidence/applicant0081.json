@@ -1,0 +1,219 @@
+{
+  "applicant_id": "applicant0081",
+  "github_login": "Isaac11PG",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0081.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Isaac11PG/Proyecto-final-senales"
+      ],
+      "repos": [
+        {
+          "repo": "Isaac11PG/Proyecto-final-senales",
+          "html_url": "https://github.com/Isaac11PG/Proyecto-final-senales",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "GitHub Actions workflow (.github/workflows/jekyll-gh-pages.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software"
+      ],
+      "repos": [
+        {
+          "repo": "Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "html_url": "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; has_tests, has_docker, documented",
+            "Dockerfile (Proyecto-ind-IPG/Individual-main/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software",
+        "https://github.com/Isaac11PG/Proyecto-final-senales"
+      ],
+      "repos": [
+        {
+          "repo": "Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "html_url": "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; has_tests, has_docker, documented",
+            "HTML: 332,984 bytes (78% of repo)"
+          ]
+        },
+        {
+          "repo": "Isaac11PG/Proyecto-final-senales",
+          "html_url": "https://github.com/Isaac11PG/Proyecto-final-senales",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "HTML: 421,380 bytes (99% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Intermediate; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Isaac11PG/Proyecto-en-android-studio"
+      ],
+      "repos": [
+        {
+          "repo": "Isaac11PG/Proyecto-en-android-studio",
+          "html_url": "https://github.com/Isaac11PG/Proyecto-en-android-studio",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Kotlin: 111,024 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Isaac11PG/TT-B141"
+      ],
+      "repos": [
+        {
+          "repo": "Isaac11PG/TT-B141",
+          "html_url": "https://github.com/Isaac11PG/TT-B141",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 2,192 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software"
+      ],
+      "repos": [
+        {
+          "repo": "Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "html_url": "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; has_tests, has_docker, documented",
+            "SQL file (Proyecto-ind-IPG/Individual-main/bd.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software",
+        "https://github.com/Isaac11PG/Proyecto-final-senales"
+      ],
+      "repos": [
+        {
+          "repo": "Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "html_url": "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; has_tests, has_docker, documented",
+            "test directory (Proyecto-ind-IPG/Individual-main/src/test/java/mx/ipn/escom/Recomendaciones/RecomendacionesApplicationTests.java)"
+          ]
+        },
+        {
+          "repo": "Isaac11PG/Proyecto-final-senales",
+          "html_url": "https://github.com/Isaac11PG/Proyecto-final-senales",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "test directory (proyecto-terminado-pages/node_modules/call-bind-apply-helpers/test/index.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 3,
+    "partially_verified": 1,
+    "verified": 6
+  }
+}

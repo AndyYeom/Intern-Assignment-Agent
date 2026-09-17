@@ -1,0 +1,264 @@
+{
+  "applicant_id": "applicant0131",
+  "github_login": "thomaslu678",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0131.json",
+  "skills": [
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/Restaurant-Rescue"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/Restaurant-Rescue",
+          "html_url": "https://github.com/thomaslu678/Restaurant-Rescue",
+          "level": 1,
+          "reasons": [
+            "entry: 19 commits, independent-work signals: documented",
+            "streamlit in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "deep-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/Restaurant-Rescue"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/Restaurant-Rescue",
+          "html_url": "https://github.com/thomaslu678/Restaurant-Rescue",
+          "level": 1,
+          "reasons": [
+            "entry: 19 commits, independent-work signals: documented",
+            "torch in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/Restaurant-Rescue"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/Restaurant-Rescue",
+          "html_url": "https://github.com/thomaslu678/Restaurant-Rescue",
+          "level": 1,
+          "reasons": [
+            "entry: 19 commits, independent-work signals: documented",
+            "firebase-admin in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/login-springboot"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/login-springboot",
+          "html_url": "https://github.com/thomaslu678/login-springboot",
+          "level": 1,
+          "reasons": [
+            "entry: 41 commits, independent-work signals: has_tests",
+            "CSS: 17,267 bytes (48% of repo)",
+            "HTML: 10,555 bytes (29% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/login-springboot"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/login-springboot",
+          "html_url": "https://github.com/thomaslu678/login-springboot",
+          "level": 1,
+          "reasons": [
+            "entry: 41 commits, independent-work signals: has_tests",
+            "Java: 8,333 bytes (23% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thomaslu678/Land-Vegetation-Classification",
+        "https://github.com/thomaslu678/Praxis-Lab-25-26"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/Land-Vegetation-Classification",
+          "html_url": "https://github.com/thomaslu678/Land-Vegetation-Classification",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, single_commit, all_commits_one_day",
+            "jupyter notebook (HW7_complete.ipynb)"
+          ]
+        },
+        {
+          "repo": "thomaslu678/Praxis-Lab-25-26",
+          "html_url": "https://github.com/thomaslu678/Praxis-Lab-25-26",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "jupyter notebook (clean/10_basic_RF.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thomaslu678/Land-Vegetation-Classification",
+        "https://github.com/thomaslu678/Praxis-Lab-25-26",
+        "https://github.com/thomaslu678/Restaurant-Rescue"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/Land-Vegetation-Classification",
+          "html_url": "https://github.com/thomaslu678/Land-Vegetation-Classification",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, single_commit, all_commits_one_day",
+            "Jupyter Notebook: 4,149,583 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "thomaslu678/Praxis-Lab-25-26",
+          "html_url": "https://github.com/thomaslu678/Praxis-Lab-25-26",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "Jupyter Notebook: 18,311,316 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "thomaslu678/Restaurant-Rescue",
+          "html_url": "https://github.com/thomaslu678/Restaurant-Rescue",
+          "level": 1,
+          "reasons": [
+            "entry: 19 commits, independent-work signals: documented",
+            "Python: 40,016 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "spring",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/login-springboot"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/login-springboot",
+          "html_url": "https://github.com/thomaslu678/login-springboot",
+          "level": 1,
+          "reasons": [
+            "entry: 41 commits, independent-work signals: has_tests",
+            "spring-boot-configuration-processor in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/login-springboot"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/login-springboot",
+          "html_url": "https://github.com/thomaslu678/login-springboot",
+          "level": 1,
+          "reasons": [
+            "entry: 41 commits, independent-work signals: has_tests",
+            "tailwind config (src/main/frontend/tailwind.config.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thomaslu678/login-springboot"
+      ],
+      "repos": [
+        {
+          "repo": "thomaslu678/login-springboot",
+          "html_url": "https://github.com/thomaslu678/login-springboot",
+          "level": 1,
+          "reasons": [
+            "entry: 41 commits, independent-work signals: has_tests",
+            "test directory (src/test/java/com/foodfinder/LoginApplicationTests.java)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 3,
+    "verified": 7
+  }
+}

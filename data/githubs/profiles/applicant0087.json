@@ -1,0 +1,1154 @@
+{
+  "applicant_id": "applicant0087",
+  "login": "yaoqiafan",
+  "html_url": "https://github.com/yaoqiafan",
+  "created_at": "2024-05-07T07:41:02Z",
+  "account_age_days": 862,
+  "public_repos": 5,
+  "followers": 4,
+  "following": 0,
+  "repos": [
+    {
+      "name": "PF.AutoFramework",
+      "full_name": "yaoqiafan/PF.AutoFramework",
+      "html_url": "https://github.com/yaoqiafan/PF.AutoFramework",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-10T07:35:47Z",
+      "pushed_at": "2026-09-17T01:12:40Z",
+      "stargazers": 9,
+      "forks": 6,
+      "open_issues": 2,
+      "size_kb": 177455,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 4877613,
+        "PowerShell": 39822,
+        "Inno Setup": 28238,
+        "Batchfile": 23728,
+        "JavaScript": 7544
+      },
+      "primary_language": "C#",
+      "file_count": 838,
+      "top_level_paths": [
+        ".claude",
+        ".gitattributes",
+        ".gitignore",
+        "CLAUDE.md",
+        "Common.Desktop.props",
+        "Common.props",
+        "DLL",
+        "DOC",
+        "Directory.Build.props",
+        "Directory.Build.targets",
+        "Directory.Packages.props",
+        "Installer",
+        "PF.Application.Base",
+        "PF.Application.Shell",
+        "PF.AutoFramework.Meta",
+        "PF.AutoFramework.slnx",
+        "PF.CommonTools",
+        "PF.Core",
+        "PF.Data",
+        "PF.Infrastructure",
+        "PF.Modules.Alarm",
+        "PF.Modules.Debug",
+        "PF.Modules.Halcon",
+        "PF.Modules.Identity",
+        "PF.Modules.Logging",
+        "PF.Modules.Parameter",
+        "PF.Modules.ProductionRecord",
+        "PF.Modules.SecsGem",
+        "PF.SecsGem.DataBase",
+        "PF.SecsGem.Service",
+        "PF.Services",
+        "PF.UI.Infrastructure",
+        "PF.Vendor.Halcon",
+        "PF.Vendor.Infrastructure",
+        "PF.Vision.Halcon",
+        "PF.WorkStation.AutoOcr",
+        "PF.WorkStation.AutoOcr.UI",
+        "README.md",
+        "nuget-icon.png",
+        "nuget.config"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 60000,
+      "readme_excerpt": "﻿# PF.AutoFramework\n\n[![.NET](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/)\n[![WPF](https://img.shields.io/badge/UI-WPF-lightgrey.svg)]()\n[![Prism](https://img.shields.io/badge/Framework-Prism%209-yellow.svg)](https://prismlibrary.com/)\n[![EF Core](https://img.shields.io/badge/ORM-EF%20Core%209-green.svg)]()\n[![DryIoc](https://img.shields.io/badge/DI-DryIoc%205.4-orange.svg)]()\n[![Halcon](https://img.shields.io/badge/Vision-Halcon%20HDevEngine-purple.svg)]()\n[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n\n**PF.AutoFramework** 是一个基于 **.NET 8** 和 **WPF** 构建的企业级、高可扩展桌面端应用底层框架。它深度集成了 Prism 9 框架，推行严格的模块化（Modular）和 MVVM 架构。\n\n本框架专为**聚力智能工业自动化控制**、**半导体制造设备（SECS/GEM）** 量身定制，旨在提供一个开箱即用、稳定可靠且具有现代化视觉体验的上位机软件基础设施。\n\n---\n\n## ✨ 核心特性\n\n* **🧩 极致的模块化架构**：基于 Prism 9 实现 UI、核心逻辑与数据层的彻底解耦。支持插件式开发，子模块动态加载。\n* **🏭 完整的工控生命周期**：内置标准化 8 状态机（含 `InitAlarm` / `RunAlarm` 分离），配合 `MasterController` 实现多工站联动初始化、启停、暂停、复位的全生命周期管理。\n* **🔩 硬件三级抽象**：`BaseDevice`（设备）→ `BaseMechanism`（模组）→ `StationBase<T>`（工站），模板方法模式，子类仅实现业务钩子。支持运动控制卡中间件层（`IMotionCard` / `IAttachedDevice<TParent>`）与图像采集卡挂载链路（`IFrameGrabberCard` / `ILineScanCamera`）。\n* **👁️ 集成机器视觉**：通过 `PF.Vision.Halc",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 7,
+      "contribution_share": 0.004,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-02-15T02:24:04+00:00",
+        "last_at": "2026-03-20T09:46:46+00:00",
+        "active_days": 3,
+        "span_days": 33,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "更新 README.md",
+          "Create README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 628
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 4,877,613 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 39,822 bytes (1% of repo)",
+          "strength": 0.40800129396647944
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 7,544 bytes (0% of repo)",
+          "strength": 0.401515789304483
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 4924979,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "PF.UI",
+      "full_name": "yaoqiafan/PF.UI",
+      "html_url": "https://github.com/yaoqiafan/PF.UI",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-03T03:29:54Z",
+      "pushed_at": "2026-07-31T02:43:32Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 97307,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 5348199,
+        "Batchfile": 6333
+      },
+      "primary_language": "C#",
+      "file_count": 757,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "CLAUDE.md",
+        "Common.Desktop.props",
+        "Directory.Build.props",
+        "Directory.Packages.props",
+        "PF.UI",
+        "PF.UI.Controls",
+        "PF.UI.Fonts.SourceHan",
+        "PF.UI.Resources",
+        "PF.UI.Shared",
+        "PF.UI.slnx",
+        "README.md",
+        "nuget-icon.png",
+        "nuget.config",
+        "publish-only.bat",
+        "push-only.bat"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 8665,
+      "readme_excerpt": "# PF.UI\n\n企业级 WPF UI 组件库，面向 .NET 8 (net8.0-windows)。提供 90+ 自定义控件、完整深色/浅色主题、700+ Material Design 图标、思源黑体七字重嵌入字体，以及配套的值转换器、附加属性、交互行为工具集。\n\n## 项目结构\n\n```\nPF.UI.slnx\n├── PF.UI                   → 演示应用（Prism 9 Bootstrapper + 26 个演示页）\n├── PF.UI.Infrastructure    → Prism 基础设施（行为、导航、对话框基类）\n├── PF.UI.Controls          → 自定义控件库（NuGet 打包）\n├── PF.UI.Resources         → 主题资源字典（NuGet 打包）\n└── PF.UI.Shared            → 共享工具（转换器、帮助类、Interop，NuGet 打包）\n```\n\n依赖链（严格单向）：\n\n```\nPF.UI\n  └── PF.UI.Infrastructure\n        └── PF.UI.Resources\n              └── PF.UI.Controls\n                    └── PF.UI.Shared\n```\n\n## 技术栈\n\n| 依赖 | 版本 |\n|------|------|\n| .NET | 8.0 (net8.0-windows) |\n| WPF | 内置 |\n| Prism.DryIoc | 9.0.537 |\n| DryIoc | 6.x |\n| XAMLTools.MSBuild | 1.0.0-alpha（主题合并）|\n\nNuGet 版本统一管理：`Directory.Packages.props`\n\n## 快速开始\n\n### 安装 NuGet 包\n\n```powershell\ndotnet add package PF.UI.Controls\ndotnet add package PF.UI.Resources\ndotnet add package PF.UI.Shared\n```\n\n### 引入主题（App.xaml）\n\n```xml\n<Application.Resources>\n    <ResourceDictionary>\n        <ResourceDictionary.MergedDictionaries>\n            <!-- 控件模板 + 所有附加属性/转换器预注册 -->\n            <ResourceDictionary Source=\"/PF.UI.Resources;component/Themes/Default.xaml\"/>",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 48,
+        "first_at": "2026-06-03T03:34:21+00:00",
+        "last_at": "2026-07-31T02:43:10+00:00",
+        "active_days": 9,
+        "span_days": 57,
+        "max_per_day": 19,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "拆分字体库包，后续更换字体方便",
+          "更改边框颜色",
+          "独立包版本构建",
+          "更改加载界面相关",
+          "更改nuget程序包地址",
+          "refactor(nav): 删除废弃 SidebarNavView，侧边栏层级样式优化",
+          "refactor(nav): 主窗口侧边栏改用控件库 SideMenu",
+          "perf(ripple): 涟漪与按钮族模板性能优化",
+          "feat(nav): 演示页 ViewModel 每次导航创建新实例",
+          "perf(ripple): 等值圆角改用 RectangleGeometry 减少 PathGeometry 构造开销",
+          "chore(resources): 更新合并后的 Default.xaml",
+          "fix(demo): 修复 DemoCodeBlock 逻辑树循环异常",
+          "perf(demo): DemoCodeBlock 默认折叠，代码区按需实例化",
+          "perf(packicon): 应用启动时后台预热图标字典",
+          "fix(textbox): 修复焦点动画属性绑定错误",
+          "chore(resources): 更新合并后的 Default.xaml",
+          "fix(textbox): 修复焦点动画不触发问题",
+          "feat(textbox): 焦点边框涟漪扩散动画",
+          "feat(ripple): TabItem 涟漪集成",
+          "feat(ripple): TreeViewItem 涟漪集成"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 495
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 4,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 5,348,199 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5348199,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AutomaticWeighingSystem",
+      "full_name": "yaoqiafan/AutomaticWeighingSystem",
+      "html_url": "https://github.com/yaoqiafan/AutomaticWeighingSystem",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-22T01:22:58Z",
+      "pushed_at": "2026-07-19T01:51:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 21446,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 1371976
+      },
+      "primary_language": "C#",
+      "file_count": 162,
+      "top_level_paths": [
+        ".gitignore",
+        ".vs",
+        "AWS.Core",
+        "AWS.Data",
+        "AWS.Services",
+        "AWS.Shell",
+        "AWS.UI",
+        "AutomaticWeighingSystem.slnx",
+        "Common.Desktop.props",
+        "Common.props",
+        "Directory.Build.props",
+        "Directory.Packages.props",
+        "HCNetSDK",
+        "nuget.config"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 18,
+        "first_at": "2026-06-22T01:30:59+00:00",
+        "last_at": "2026-07-19T01:51:25+00:00",
+        "active_days": 6,
+        "span_days": 27,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: 权限分级/注销、档案编辑、摄像与图片显示修复",
+          "更改库存bug",
+          "Dll入库",
+          "feat: 重建 SplashWindow，脱离控件库依赖",
+          "feat: 图表点击详情弹窗 + LiveCharts 2.0.5 升级 + 构建警告清理",
+          "feat: 二次称重弹窗采集时同步抓图并展示",
+          "feat: 图片查看器+送货单单价逻辑调整",
+          "feat: 封装 HCNetSDK 错误码，登录/抓图失败日志显示中文描述",
+          "chore: 将 HCNetSDK/ DLL 目录加入 .gitignore",
+          "feat: 集成海康威视摄像系统 + 串口多设备重构",
+          "feat: 送货单多品类支持、品类库存联动、图表按品类分线累计显示",
+          "完善程序",
+          "主要功能完善流程完善",
+          "feat: 重构侧边栏、参数管理、右键菜单及图表中文渲染",
+          "重构侧边栏并合并功能页面",
+          "feat: add log panel, side menu icons/indent, and second weigh dialog",
+          "feat: initial project scaffold with weighing main view",
+          "项目创建"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 90
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,371,976 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1371976,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Ethen-Ge-Personal-Home",
+      "full_name": "yaoqiafan/Ethen-Ge-Personal-Home",
+      "html_url": "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-31T09:21:25Z",
+      "pushed_at": "2026-05-28T02:49:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 20678,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Vue": 439326,
+        "TypeScript": 156272,
+        "JavaScript": 27682,
+        "HTML": 23028,
+        "CSS": 15282,
+        "Batchfile": 3156
+      },
+      "primary_language": "Vue",
+      "file_count": 3871,
+      "top_level_paths": [
+        ".env",
+        ".env.development",
+        ".gitignore",
+        ".vscode",
+        "1.build.bat",
+        "2.preview.bat",
+        "README.md",
+        "debug-index.html",
+        "env-test.html",
+        "index.html",
+        "kitchen-api",
+        "node_modules",
+        "openclaw-adapter",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts",
+        "检查环境变量.html"
+      ],
+      "notable_files": [
+        "kitchen-api/package.json",
+        "node_modules/@alloc/quick-lru/package.json",
+        "node_modules/@babel/helper-string-parser/package.json",
+        "node_modules/@babel/helper-validator-identifier/package.json",
+        "node_modules/@babel/parser/package.json",
+        "node_modules/@babel/types/package.json",
+        "node_modules/@esbuild/win32-x64/package.json",
+        "node_modules/@jridgewell/gen-mapping/package.json",
+        "node_modules/@jridgewell/resolve-uri/package.json",
+        "node_modules/@jridgewell/sourcemap-codec/package.json",
+        "node_modules/@jridgewell/trace-mapping/package.json",
+        "node_modules/@nodelib/fs.scandir/package.json",
+        "node_modules/@nodelib/fs.stat/package.json",
+        "node_modules/@nodelib/fs.walk/package.json",
+        "node_modules/@rollup/rollup-win32-x64-gnu/package.json",
+        "node_modules/@rollup/rollup-win32-x64-msvc/package.json",
+        "node_modules/@types/estree/package.json",
+        "node_modules/@types/node/package.json",
+        "node_modules/@vitejs/plugin-vue/package.json",
+        "node_modules/@volar/language-core/package.json",
+        "node_modules/@volar/source-map/package.json",
+        "node_modules/@volar/typescript/package.json",
+        "node_modules/@vue/compiler-core/package.json",
+        "node_modules/@vue/compiler-dom/package.json",
+        "node_modules/@vue/compiler-sfc/package.json",
+        "node_modules/@vue/compiler-ssr/package.json",
+        "node_modules/@vue/compiler-vue2/package.json",
+        "node_modules/@vue/devtools-api/package.json",
+        "node_modules/@vue/language-core/package.json",
+        "node_modules/@vue/reactivity/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tresjs/core",
+          "@types/node",
+          "@types/three",
+          "@vitejs/plugin-vue",
+          "autoprefixer",
+          "cos-js-sdk-v5",
+          "postcss",
+          "serverchan-sdk",
+          "tailwindcss",
+          "three",
+          "typescript",
+          "vite",
+          "vue",
+          "vue-router",
+          "vue-tsc",
+          "vue3-spline"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 24,
+      "readme_excerpt": "# Ethen-Ge-Personal-Home",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.388,
+      "commits": {
+        "count": 54,
+        "first_at": "2026-03-31T09:25:55+00:00",
+        "last_at": "2026-05-09T02:23:08+00:00",
+        "active_days": 9,
+        "span_days": 38,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.019,
+        "messages_sample": [
+          "合并",
+          "合并",
+          "Merge remote-tracking branch 'origin/claude/kitchen-admin-interface-1bmDB'",
+          "测试通讯",
+          "更改",
+          "合并",
+          "山川",
+          "修改",
+          "更改",
+          "Merge remote-tracking branch 'origin/claude/refactor-ai-module-2r7gR'",
+          "合并",
+          "Merge remote-tracking branch 'origin/claude/refactor-ai-module-2r7gR'",
+          "合并",
+          "hebing",
+          "Merge remote-tracking branch 'origin/claude/shared-shopping-cart-2O1Ow'",
+          "Merge remote-tracking branch 'origin/claude/shared-shopping-cart-2O1Ow'",
+          "chore: remove sensitive credentials and dist files",
+          "完成前后端通讯",
+          "修改",
+          "修改"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2970
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "vue",
+          "source": "language",
+          "detail": "Vue: 439,326 bytes (66% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 156,272 bytes (24% of repo)",
+          "strength": 0.6350852806936785
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 27,682 bytes (4% of repo)",
+          "strength": 0.4416429734063838
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 23,028 bytes (3% of repo)",
+          "strength": 0.43464180303454253
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 15,282 bytes (2% of repo)",
+          "strength": 0.4229892319773267
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (kitchen-api/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (node_modules/cos-js-sdk-v5/test/qunit-2.4.0.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (node_modules/tailwindcss/stubs/tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "vue",
+          "source": "manifest",
+          "detail": "vue in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 661590,
+        "strong_skills": [
+          "linux",
+          "tailwind",
+          "typescript",
+          "unit-testing",
+          "vue"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Claude.Launcher",
+      "full_name": "yaoqiafan/Claude.Launcher",
+      "html_url": "https://github.com/yaoqiafan/Claude.Launcher",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-08T02:12:21Z",
+      "pushed_at": "2026-07-08T02:53:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 28,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Batchfile": 74762,
+        "JavaScript": 637
+      },
+      "primary_language": "Batchfile",
+      "file_count": 7,
+      "top_level_paths": [
+        ".npmignore",
+        "README.md",
+        "cli.js",
+        "package.json",
+        "publish.bat",
+        "scripts",
+        "启动npm私服.bat"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3982,
+      "readme_excerpt": "# @stoplesslab/claude-launcher\n\n[Claude Code](https://claude.ai/code) 交互式终端启动器(中文界面)。\n管理代理、配置文件、工作区、会话历史与用量统计。\n面向通过本地代理(如 Clash)访问 Claude 的用户。\n\n## 功能\n\n- **多代理管理** — 保存多组代理地址(公司/家),一键切换、测试延迟与出口 IP\n- **依赖检查** — 启动时检查 Node.js 和 Claude Code,缺失时自动安装(静默安装自动请求 UAC 提权)\n- **后台版本检查** — 不阻塞启动,新版 Claude Code / 启动器自身有更新时在菜单提示\n- **工作区管理** — 保存/切换项目目录,重启后自动恢复上次工作区\n- **配置文件管理** — 从模板新建 `settings_<名称>.json`,默认编辑器编辑,应用前 JSON 校验,菜单显示当前激活配置\n- **会话历史** — 浏览/过滤/恢复最近会话,显示文件大小,一键清理旧会话\n- **带参启动** — 继续最近会话、指定模型、跳过权限确认\n- **用量统计** — 集成 ccusage,按天汇总 token 用量\n- **工具箱** — claude doctor 诊断、资源管理器右键菜单「在此处启动 Claude」、`.claude` 配置备份导出/导入\n- **工业风终端界面** — 高对比度、全键盘操作、数字键直达\n\n## 环境要求\n\n- Windows 10 / 11 / Server 2019+\n- 本地代理(Clash for Windows、Clash Verge、Mihomo 等),默认端口 `7890`\n- Node.js(缺失时自动安装)\n- Claude Code(缺失时自动安装)\n\n## 安装\n\n```bash\nnpm install -g @stoplesslab/claude-launcher --registry http://[phone]:4873/ --force\n```\n\n## 使用\n\n```bash\nclaude-go          # 完整启动(4 步自检)\nclaude-go --fast   # 快速模式,跳过自检直接进菜单\n```\n\n## 主菜单\n\n| 按键 | 选项 | 说明 |\n|---|---|---|\n| `1` | `//proxy` | 代理管理:切换/添加/编辑/删除,`T` 测试延迟与出口 IP |\n| `2` | `//settings` | 配置文件:`Enter` 应用(带校验) / `E` 编辑 / `D` 删除 |\n| `3` | `//workspace` | 工作目录:选择后持久保存,重启自动恢复 |\n| `4` | `//",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-07-08T02:30:11+00:00",
+        "last_at": "2026-07-08T02:52:58+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "v1.1.0（2026-07-08）",
+          "creat"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 637,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 11597788,
+    "Vue": 439326,
+    "TypeScript": 156272,
+    "Batchfile": 107979,
+    "PowerShell": 39822,
+    "JavaScript": 35863,
+    "Inno Setup": 28238,
+    "HTML": 23028,
+    "CSS": 15282
+  },
+  "total_commits": 126,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "yaoqiafan/PF.AutoFramework",
+        "yaoqiafan/PF.UI",
+        "yaoqiafan/AutomaticWeighingSystem"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 11597788,
+      "commit_count": 70,
+      "first_seen": "2026-02-15T02:24:04+00:00",
+      "last_seen": "2026-07-31T02:43:10+00:00",
+      "details": [
+        "PF.AutoFramework: C#: 4,877,613 bytes (98% of repo)",
+        "PF.UI: C#: 5,348,199 bytes (100% of repo)",
+        "AutomaticWeighingSystem: C#: 1,371,976 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "vue",
+      "repos": [
+        "yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 439326,
+      "commit_count": 54,
+      "first_seen": "2026-03-31T09:25:55+00:00",
+      "last_seen": "2026-05-09T02:23:08+00:00",
+      "details": [
+        "Ethen-Ge-Personal-Home: Vue: 439,326 bytes (66% of repo)",
+        "Ethen-Ge-Personal-Home: vue in package.json"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 156272,
+      "commit_count": 54,
+      "first_seen": "2026-03-31T09:25:55+00:00",
+      "last_seen": "2026-05-09T02:23:08+00:00",
+      "details": [
+        "Ethen-Ge-Personal-Home: TypeScript: 156,272 bytes (24% of repo)",
+        "Ethen-Ge-Personal-Home: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 54,
+      "first_seen": "2026-03-31T09:25:55+00:00",
+      "last_seen": "2026-05-09T02:23:08+00:00",
+      "details": [
+        "Ethen-Ge-Personal-Home: tailwind config (node_modules/tailwindcss/stubs/tailwind.config.js)",
+        "Ethen-Ge-Personal-Home: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 54,
+      "first_seen": "2026-03-31T09:25:55+00:00",
+      "last_seen": "2026-05-09T02:23:08+00:00",
+      "details": [
+        "Ethen-Ge-Personal-Home: env config (kitchen-api/.env.example)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 54,
+      "first_seen": "2026-03-31T09:25:55+00:00",
+      "last_seen": "2026-05-09T02:23:08+00:00",
+      "details": [
+        "Ethen-Ge-Personal-Home: test directory (node_modules/cos-js-sdk-v5/test/qunit-2.4.0.js)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "yaoqiafan/PF.AutoFramework",
+        "yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4416429734063838,
+      "total_bytes": 35226,
+      "commit_count": 58,
+      "first_seen": "2026-02-15T02:24:04+00:00",
+      "last_seen": "2026-05-09T02:23:08+00:00",
+      "details": [
+        "PF.AutoFramework: JavaScript: 7,544 bytes (0% of repo)",
+        "Ethen-Ge-Personal-Home: JavaScript: 27,682 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43464180303454253,
+      "total_bytes": 38310,
+      "commit_count": 54,
+      "first_seen": "2026-03-31T09:25:55+00:00",
+      "last_seen": "2026-05-09T02:23:08+00:00",
+      "details": [
+        "Ethen-Ge-Personal-Home: HTML: 23,028 bytes (3% of repo)",
+        "Ethen-Ge-Personal-Home: CSS: 15,282 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "yaoqiafan/PF.AutoFramework"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40800129396647944,
+      "total_bytes": 39822,
+      "commit_count": 4,
+      "first_seen": "2026-02-15T02:24:04+00:00",
+      "last_seen": "2026-03-20T09:46:46+00:00",
+      "details": [
+        "PF.AutoFramework: PowerShell: 39,822 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 126,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:34:03.496825+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,1514 @@
+{
+  "applicant_id": "applicant0120",
+  "login": "amrshipl83",
+  "html_url": "https://github.com/amrshipl83",
+  "created_at": "2025-07-04T17:41:22Z",
+  "account_age_days": 439,
+  "public_repos": 11,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "aksab_admin",
+      "full_name": "amrshipl83/aksab_admin",
+      "html_url": "https://github.com/amrshipl83/aksab_admin",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-04T20:37:18Z",
+      "pushed_at": "2026-04-20T22:46:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 139610,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 575891,
+        "C++": 26734,
+        "CMake": 19903,
+        "Swift": 2970,
+        "C": 1488,
+        "HTML": 1220,
+        "Kotlin": 125,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 214,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "excel_import_service.dart",
+        "firestore.indexes.json",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 554,
+      "readme_excerpt": "# aksab_admin\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-01-06T13:10:07+00:00",
+        "last_at": "2026-04-19T17:27:31+00:00",
+        "active_days": 30,
+        "span_days": 103,
+        "max_per_day": 26,
+        "low_effort_message_ratio": 0.13,
+        "messages_sample": [
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Update merchant_payouts_screen.dart",
+          "Update merchant_payouts_screen.dart",
+          "Update revenue_screen.dart",
+          "Update revenue_screen.dart",
+          "Refactor revenue controller for improved error handling",
+          "Update revenue_screen.dart"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 100
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 14,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 575,891 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 26,734 bytes (4% of repo)",
+          "strength": 0.4425450650811864
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 2,970 bytes (0% of repo)",
+          "strength": 0.40472652215497584
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,488 bytes (0% of repo)",
+          "strength": 0.40236803534229093
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,220 bytes (0% of repo)",
+          "strength": 0.4019415343532224
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 608466,
+        "strong_skills": [
+          "cicd",
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "my_second_app-",
+      "full_name": "amrshipl83/my_second_app-",
+      "html_url": "https://github.com/amrshipl83/my_second_app-",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-30T20:49:03Z",
+      "pushed_at": "2025-10-31T00:54:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 34113,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 81335515,
+        "C++": 17350660,
+        "Java": 2864240,
+        "Objective-C++": 2839361,
+        "Objective-C": 680609,
+        "C": 638106,
+        "Python": 503119,
+        "Kotlin": 353863,
+        "CMake": 224683,
+        "GLSL": 210145,
+        "Shell": 161660,
+        "Swift": 90012,
+        "JavaScript": 78499,
+        "Roff": 55608,
+        "Ruby": 48111,
+        "HTML": 37174,
+        "Batchfile": 27274,
+        "PowerShell": 13756,
+        "CSS": 6019,
+        "Lex": 2069,
+        "HLSL": 898
+      },
+      "primary_language": "Dart",
+      "file_count": 14816,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "auth_service.dart",
+        "build_launcher.sh",
+        "build_log.txt",
+        "flutter",
+        "gitignore.",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts",
+        "flutter/dev/a11y_assessments/android/app/build.gradle",
+        "flutter/dev/a11y_assessments/android/build.gradle",
+        "flutter/dev/benchmarks/complex_layout/android/app/build.gradle",
+        "flutter/dev/benchmarks/complex_layout/android/build.gradle",
+        "flutter/dev/benchmarks/macrobenchmarks/android/app/build.gradle",
+        "flutter/dev/benchmarks/macrobenchmarks/android/build.gradle",
+        "flutter/dev/benchmarks/microbenchmarks/android/app/build.gradle",
+        "flutter/dev/benchmarks/microbenchmarks/android/build.gradle",
+        "flutter/dev/benchmarks/multiple_flutters/android/app/build.gradle",
+        "flutter/dev/benchmarks/multiple_flutters/android/build.gradle",
+        "flutter/dev/benchmarks/platform_views_layout/android/app/build.gradle",
+        "flutter/dev/benchmarks/platform_views_layout/android/build.gradle",
+        "flutter/dev/benchmarks/platform_views_layout_hybrid_composition/android/app/build.gradle",
+        "flutter/dev/benchmarks/platform_views_layout_hybrid_composition/android/build.gradle",
+        "flutter/dev/benchmarks/test_apps/stocks/android/app/build.gradle",
+        "flutter/dev/benchmarks/test_apps/stocks/android/build.gradle",
+        "flutter/dev/integration_tests/android_engine_test/android/app/build.gradle",
+        "flutter/dev/integration_tests/android_engine_test/android/build.gradle",
+        "flutter/dev/integration_tests/android_semantics_testing/android/app/build.gradle",
+        "flutter/dev/integration_tests/android_semantics_testing/android/build.gradle",
+        "flutter/dev/integration_tests/android_views/android/app/build.gradle",
+        "flutter/dev/integration_tests/android_views/android/build.gradle",
+        "flutter/dev/integration_tests/channels/android/app/build.gradle",
+        "flutter/dev/integration_tests/channels/android/build.gradle",
+        "flutter/dev/integration_tests/deferred_components_test/android/app/build.gradle",
+        "flutter/dev/integration_tests/deferred_components_test/android/build.gradle",
+        "flutter/dev/integration_tests/deferred_components_test/android/component1/build.gradle",
+        "flutter/dev/integration_tests/display_cutout_rotation/android/app/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 556,
+      "readme_excerpt": "# my_second_app\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2025-10-30T21:34:03+00:00",
+        "last_at": "2025-10-31T00:38:38+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Track ZIP files with LFS",
+          "Add large file via LFS",
+          "Initial upload for preview",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 10425
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 81,335,515 bytes (76% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 17,350,660 bytes (16% of repo)",
+          "strength": 0.5613693931256334
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 2,864,240 bytes (3% of repo)",
+          "strength": 0.42663879475283156
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 680,609 bytes (1% of repo)",
+          "strength": 0.40632998752127264
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 638,106 bytes (1% of repo)",
+          "strength": 0.4059346893991252
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 503,119 bytes (0% of repo)",
+          "strength": 0.40467924607478767
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 353,863 bytes (0% of repo)",
+          "strength": 0.4032910942615218
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 161,660 bytes (0% of repo)",
+          "strength": 0.40150351491486147
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 90,012 bytes (0% of repo)",
+          "strength": 0.40083715442605783
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 78,499 bytes (0% of repo)",
+          "strength": 0.40073007804838373
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 37,174 bytes (0% of repo)",
+          "strength": 0.4003457358867071
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 13,756 bytes (0% of repo)",
+          "strength": 0.4001279373448524
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,019 bytes (0% of repo)",
+          "strength": 0.4000559795637298
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (flutter/dev/a11y_assessments/pubspec.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (flutter/dev/docs/.firebaserc)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (flutter/dev/docs/README.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (flutter/dev/integration_tests/new_gallery/lib/studies/rally/charts/line_chart.dart)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (flutter/engine/src/flutter/shell/platform/android/test/io/flutter/CustomShadowContextImpl.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "aws",
+          "source": "file",
+          "detail": "AWS IaC (flutter/packages/flutter_driver/lib/fix_data/template.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (flutter/packages/flutter_tools/lib/src/android/migrations/android_studio_java_gradle_conflict_migration.dart)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 104113232,
+        "strong_skills": [
+          "aws",
+          "c-cpp",
+          "data-modeling",
+          "flutter",
+          "gcp-azure",
+          "kubernetes",
+          "native-mobile",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "my_test_app",
+      "full_name": "amrshipl83/my_test_app",
+      "html_url": "https://github.com/amrshipl83/my_test_app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-24T15:41:37Z",
+      "pushed_at": "2026-02-03T16:10:04Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2213,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 1171383,
+        "HTML": 130826,
+        "C++": 27519,
+        "CMake": 20023,
+        "Swift": 3593,
+        "C": 1488,
+        "Kotlin": 361,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 328,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "codemagic.yaml",
+        "et --hard 2759008",
+        "images",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "main",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "shorebird.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        ".github/workflows/flutter_build.yml",
+        ".github/workflows/shorebird.yml",
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 554,
+      "readme_excerpt": "# my_test_app\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-01-11T18:18:56+00:00",
+        "last_at": "2026-02-03T16:10:02+00:00",
+        "active_days": 18,
+        "span_days": 22,
+        "max_per_day": 45,
+        "low_effort_message_ratio": 0.845,
+        "messages_sample": [
+          "Update consumer_widgets.dart",
+          "Update abaatly_had_pro_screen.dart",
+          "Update consumer_widgets.dart",
+          "Update consumer_widgets.dart",
+          "Update consumer_home_screen.dart",
+          "Update consumer_widgets.dart",
+          "Update consumer_widgets.dart",
+          "Update consumer_home_screen.dart",
+          "Update consumer_home_screen.dart",
+          "Update customer_tracking_screen.dart",
+          "Update consumer_home_screen.dart",
+          "Update customer_tracking_screen.dart",
+          "Update consumer_widgets.dart",
+          "Update customer_tracking_screen.dart",
+          "Update main.dart",
+          "Update customer_tracking_screen.dart",
+          "Update consumer_widgets.dart",
+          "Update bubble_service.dart",
+          "Update bubble_service.dart",
+          "Update bubble_service.dart"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [
+          "(^|[-_])(demo|sample|test|playground|sandbox|scratch)([-_]|$)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 192
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 1,171,383 bytes (86% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 130,826 bytes (10% of repo)",
+          "strength": 0.49653409640127777
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 27,519 bytes (2% of repo)",
+          "strength": 0.42030576337170567
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 3,593 bytes (0% of repo)",
+          "strength": 0.40265120853935604
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,488 bytes (0% of repo)",
+          "strength": 0.40109796780032336
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/flutter_build.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1335208,
+        "strong_skills": [
+          "cicd",
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "aksabsaels",
+      "full_name": "amrshipl83/aksabsaels",
+      "html_url": "https://github.com/amrshipl83/aksabsaels",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-14T19:16:14Z",
+      "pushed_at": "2026-09-17T01:00:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1331,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 318096,
+        "HTML": 130995,
+        "C++": 27986,
+        "CMake": 20025,
+        "Swift": 3433,
+        "C": 1488,
+        "Kotlin": 241,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 180,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "firebase.json",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        ".github/workflows/android_build.yml",
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 553,
+      "readme_excerpt": "# aksabsales\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.878,
+      "commits": {
+        "count": 122,
+        "first_at": "2025-12-14T19:17:56+00:00",
+        "last_at": "2026-04-08T08:11:32+00:00",
+        "active_days": 15,
+        "span_days": 114,
+        "max_per_day": 22,
+        "low_effort_message_ratio": 0.123,
+        "messages_sample": [
+          "Update android_build.yml",
+          "Update android_build.yml",
+          "Update android_build.yml",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Update visit_screen.dart",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Update android_build.yml",
+          "Fix delivery dashboard navigation: linked add products and view offers screens",
+          "Update profile_screen.dart",
+          "Fix privacy policy URL by adding trailing slash",
+          "Update AndroidManifest.xml with new permissions",
+          "Update android_build.yml",
+          "Fix delivery dashboard navigation: linked add products and view offers screens"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 60
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 12,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 318,096 bytes (63% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 130,995 bytes (26% of repo)",
+          "strength": 0.6607893259433568
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 27,986 bytes (6% of repo)",
+          "strength": 0.45571548590290306
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 3,433 bytes (1% of repo)",
+          "strength": 0.40683453380635554
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,488 bytes (0% of repo)",
+          "strength": 0.40296236128862717
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/android_build.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (firebase.json)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 482277,
+        "strong_skills": [
+          "cicd",
+          "flutter",
+          "gcp-azure",
+          "html-css",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "3dmodels",
+      "full_name": "amrshipl83/3dmodels",
+      "html_url": "https://github.com/amrshipl83/3dmodels",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-17T15:47:04Z",
+      "pushed_at": "2025-07-17T18:44:15Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1565,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 8013
+      },
+      "primary_language": "HTML",
+      "file_count": 3,
+      "top_level_paths": [
+        "RobotExpressive.glb",
+        "glb.glb",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-07-17T16:48:33+00:00",
+        "last_at": "2025-07-17T18:44:15+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.8,
+        "messages_sample": [
+          "Update index.html",
+          "Update index.html",
+          "Add files via upload",
+          "index.html",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 5,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 8,013 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8013,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 83400885,
+    "C++": 17432899,
+    "Java": 2864240,
+    "Objective-C++": 2839361,
+    "Objective-C": 680723,
+    "C": 642570,
+    "Python": 503119,
+    "Kotlin": 354590,
+    "HTML": 308228,
+    "CMake": 284634,
+    "GLSL": 210145,
+    "Shell": 161660,
+    "Swift": 100008,
+    "JavaScript": 78499,
+    "Roff": 55608,
+    "Ruby": 48111,
+    "Batchfile": 27274,
+    "PowerShell": 13756,
+    "CSS": 6019,
+    "Lex": 2069,
+    "HLSL": 898
+  },
+  "total_commits": 531,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "amrshipl83/aksab_admin",
+        "amrshipl83/my_second_app-",
+        "amrshipl83/my_test_app",
+        "amrshipl83/aksabsaels",
+        "amrshipl83/3dmodels"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 314247,
+      "commit_count": 531,
+      "first_seen": "2025-07-17T16:48:33+00:00",
+      "last_seen": "2026-04-19T17:27:31+00:00",
+      "details": [
+        "aksab_admin: HTML: 1,220 bytes (0% of repo)",
+        "my_second_app-: HTML: 37,174 bytes (0% of repo)",
+        "my_second_app-: CSS: 6,019 bytes (0% of repo)",
+        "my_test_app: HTML: 130,826 bytes (10% of repo)",
+        "aksabsaels: HTML: 130,995 bytes (26% of repo)",
+        "3dmodels: HTML: 8,013 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "amrshipl83/aksab_admin",
+        "amrshipl83/my_second_app-",
+        "amrshipl83/my_test_app",
+        "amrshipl83/aksabsaels"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 83400885,
+      "commit_count": 526,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2026-04-19T17:27:31+00:00",
+      "details": [
+        "aksab_admin: Dart: 575,891 bytes (92% of repo)",
+        "aksab_admin: flutter project (pubspec.yaml)",
+        "my_second_app-: Dart: 81,335,515 bytes (76% of repo)",
+        "my_second_app-: flutter project (flutter/dev/a11y_assessments/pubspec.yaml)",
+        "my_test_app: Dart: 1,171,383 bytes (86% of repo)",
+        "my_test_app: flutter project (pubspec.yaml)",
+        "aksabsaels: Dart: 318,096 bytes (63% of repo)",
+        "aksabsaels: flutter project (pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "amrshipl83/aksab_admin",
+        "amrshipl83/my_second_app-",
+        "amrshipl83/my_test_app",
+        "amrshipl83/aksabsaels"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1134480,
+      "commit_count": 526,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2026-04-19T17:27:31+00:00",
+      "details": [
+        "aksab_admin: Swift: 2,970 bytes (0% of repo)",
+        "aksab_admin: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "my_second_app-: Objective-C: 680,609 bytes (1% of repo)",
+        "my_second_app-: Kotlin: 353,863 bytes (0% of repo)",
+        "my_second_app-: Swift: 90,012 bytes (0% of repo)",
+        "my_second_app-: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "my_test_app: Swift: 3,593 bytes (0% of repo)",
+        "my_test_app: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "aksabsaels: Swift: 3,433 bytes (1% of repo)",
+        "aksabsaels: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "amrshipl83/aksab_admin",
+        "amrshipl83/my_test_app",
+        "amrshipl83/aksabsaels"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 522,
+      "first_seen": "2025-12-14T19:17:56+00:00",
+      "last_seen": "2026-04-19T17:27:31+00:00",
+      "details": [
+        "aksab_admin: GitHub Actions workflow (.github/workflows/deploy.yml)",
+        "my_test_app: GitHub Actions workflow (.github/workflows/flutter_build.yml)",
+        "aksabsaels: GitHub Actions workflow (.github/workflows/android_build.yml)"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "amrshipl83/my_second_app-",
+        "amrshipl83/aksabsaels"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 126,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2026-04-08T08:11:32+00:00",
+      "details": [
+        "my_second_app-: firebase config (flutter/dev/docs/.firebaserc)",
+        "aksabsaels: firebase config (firebase.json)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: docs directory (flutter/dev/docs/README.md)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: kubernetes manifests (flutter/dev/integration_tests/new_gallery/lib/studies/rally/charts/line_chart.dart)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: test directory (flutter/engine/src/flutter/shell/platform/android/test/io/flutter/CustomShadowContextImpl.java)"
+      ]
+    },
+    {
+      "skill_id": "aws",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: AWS IaC (flutter/packages/flutter_driver/lib/fix_data/template.yaml)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: database migrations (flutter/packages/flutter_tools/lib/src/android/migrations/android_studio_java_gradle_conflict_migration.dart)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "amrshipl83/aksab_admin",
+        "amrshipl83/my_second_app-",
+        "amrshipl83/my_test_app",
+        "amrshipl83/aksabsaels"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5613693931256334,
+      "total_bytes": 18075469,
+      "commit_count": 526,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2026-04-19T17:27:31+00:00",
+      "details": [
+        "aksab_admin: C++: 26,734 bytes (4% of repo)",
+        "aksab_admin: C: 1,488 bytes (0% of repo)",
+        "my_second_app-: C++: 17,350,660 bytes (16% of repo)",
+        "my_second_app-: C: 638,106 bytes (1% of repo)",
+        "my_test_app: C++: 27,519 bytes (2% of repo)",
+        "my_test_app: C: 1,488 bytes (0% of repo)",
+        "aksabsaels: C++: 27,986 bytes (6% of repo)",
+        "aksabsaels: C: 1,488 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.42663879475283156,
+      "total_bytes": 2864240,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: Java: 2,864,240 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40467924607478767,
+      "total_bytes": 503119,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: Python: 503,119 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40150351491486147,
+      "total_bytes": 175416,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: Shell: 161,660 bytes (0% of repo)",
+        "my_second_app-: PowerShell: 13,756 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "amrshipl83/my_second_app-"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40073007804838373,
+      "total_bytes": 78499,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T21:34:03+00:00",
+      "last_seen": "2025-10-31T00:38:38+00:00",
+      "details": [
+        "my_second_app-: JavaScript: 78,499 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 531,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:30:59.643278+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

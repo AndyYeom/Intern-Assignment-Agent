@@ -1,0 +1,1161 @@
+{
+  "applicant_id": "applicant0101",
+  "login": "Aydana06",
+  "html_url": "https://github.com/Aydana06",
+  "created_at": "2024-09-03T02:20:45Z",
+  "account_age_days": 743,
+  "public_repos": 23,
+  "followers": 2,
+  "following": 2,
+  "repos": [
+    {
+      "name": "Window",
+      "full_name": "Aydana06/Window",
+      "html_url": "https://github.com/Aydana06/Window",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-02-20T07:00:56Z",
+      "pushed_at": "2025-05-22T07:47:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 29151,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 92873
+      },
+      "primary_language": "C#",
+      "file_count": 705,
+      "top_level_paths": [
+        "POS"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-05-12T03:42:25+00:00",
+        "last_at": "2025-05-22T08:39:49+00:00",
+        "active_days": 3,
+        "span_days": 10,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "pos UI salgasan, test bichsen",
+          "pos",
+          "POS"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 68
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 92,873 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 92873,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "pharmacy-service",
+      "full_name": "Aydana06/pharmacy-service",
+      "html_url": "https://github.com/Aydana06/pharmacy-service",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-30T10:44:51Z",
+      "pushed_at": "2026-05-01T06:21:21Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2338,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 127382,
+        "HTML": 29530,
+        "JavaScript": 27793,
+        "CSS": 16372,
+        "Dockerfile": 1685
+      },
+      "primary_language": "Java",
+      "file_count": 108,
+      "top_level_paths": [
+        ".gitignore",
+        "api-gateway",
+        "auth-service",
+        "consumption-service",
+        "docker-compose.yml",
+        "front-end",
+        "init-db.sql",
+        "medicine-service",
+        "stock-service"
+      ],
+      "notable_files": [
+        "api-gateway/Dockerfile",
+        "api-gateway/pom.xml",
+        "auth-service/Dockerfile",
+        "auth-service/pom.xml",
+        "consumption-service/Dockerfile",
+        "consumption-service/pom.xml",
+        "medicine-service/Dockerfile",
+        "medicine-service/pom.xml",
+        "stock-service/Dockerfile",
+        "stock-service/pom.xml"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-04-30T16:34:13+00:00",
+        "last_at": "2026-05-01T06:20:37+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "initial commit",
+          "4 microservice"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 81
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 127,382 bytes (63% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 29,530 bytes (15% of repo)",
+          "strength": 0.5456387291504325
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 27,793 bytes (14% of repo)",
+          "strength": 0.5370720351939713
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 16,372 bytes (8% of repo)",
+          "strength": 0.4807449127548555
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,685 bytes (1% of repo)",
+          "strength": 0.40831023564573243
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (api-gateway/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (auth-service/src/main/resources/db/migration/V1__create_users_table.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (auth-service/src/main/resources/db/migration/V1__create_users_table.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 202762,
+        "strong_skills": [
+          "data-modeling",
+          "docker",
+          "java",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "lab7",
+      "full_name": "Aydana06/lab7",
+      "html_url": "https://github.com/Aydana06/lab7",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-10-22T02:17:23Z",
+      "pushed_at": "2024-10-28T15:13:16Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10271,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 36795
+      },
+      "primary_language": "HTML",
+      "file_count": 36,
+      "top_level_paths": [
+        "apache",
+        "call.html",
+        "contact.html",
+        "discover.html",
+        "email.html",
+        "gipt.html",
+        "giptForWomen.html",
+        "img",
+        "index.html",
+        "language.html",
+        "legal.html",
+        "personalization.html",
+        "robots.txt",
+        "sign-up.html",
+        "sitemap.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 40,
+        "first_at": "2024-10-23T13:36:52+00:00",
+        "last_at": "2024-10-28T16:12:41+00:00",
+        "active_days": 3,
+        "span_days": 5,
+        "max_per_day": 18,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7 update",
+          "lab7",
+          "lab7"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 36,795 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 36795,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "zohiomj",
+      "full_name": "Aydana06/zohiomj",
+      "html_url": "https://github.com/Aydana06/zohiomj",
+      "description": null,
+      "homepage": "https://zohiomj.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-11-10T03:07:34Z",
+      "pushed_at": "2024-11-11T12:14:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 919,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 63560,
+        "CSS": 328,
+        "JavaScript": 83
+      },
+      "primary_language": "TypeScript",
+      "file_count": 50,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "app",
+        "next.config.ts",
+        "package.json",
+        "pnpm-lock.yaml",
+        "postcss.config.js",
+        "public",
+        "tailwind.config.ts",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 266,
+      "readme_excerpt": "## Next.js App Router Course - Starter\n\nThis is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.\n\nFor more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2024-11-11T11:35:48+00:00",
+        "last_at": "2024-11-11T13:12:59+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "dada",
+          "yaya",
+          "Initial commit from Create Next App",
+          "Fix line endings",
+          "dana"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 34
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 63,560 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 63971,
+        "strong_skills": [
+          "nextjs",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "icd10-suggest-service",
+      "full_name": "Aydana06/icd10-suggest-service",
+      "html_url": "https://github.com/Aydana06/icd10-suggest-service",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-12T15:44:35Z",
+      "pushed_at": "2026-04-24T11:32:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1796,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 65351,
+        "HTML": 40664
+      },
+      "primary_language": "Java",
+      "file_count": 73,
+      "top_level_paths": [
+        ".classpath",
+        ".env",
+        ".factorypath",
+        ".gitignore",
+        ".mvn",
+        ".project",
+        ".settings",
+        "README.md",
+        "pom.xml",
+        "src",
+        "target"
+      ],
+      "notable_files": [
+        "pom.xml",
+        "target/classes/META-INF/maven/mn.hospital/icd10-service/pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "gson",
+          "h2",
+          "hospital-system",
+          "icd10-service",
+          "jackson-databind",
+          "lombok",
+          "modelmapper",
+          "mysql-connector-java",
+          "postgresql",
+          "spring-boot-maven-plugin",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-parent",
+          "spring-boot-starter-test",
+          "spring-boot-starter-web",
+          "spring-boot-starter-webflux",
+          "spring-dotenv",
+          "springdoc-openapi-starter-webmvc-ui"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 8294,
+      "readme_excerpt": "# ICD-10 Онош Санал Болгох Систем\n\nЭмчид оноштой холбоотой ICD-10 кодыг хурдан хайж олох боломжийг олгох микросервис систем.\n\n---\n\n## Системийн бүтэц\n\n```\n┌─────────────────────────────────────────────────┐\n│                   Хэрэглэгч / UI                 │\n│              http://localhost:8080               │\n└─────────────────────┬───────────────────────────┘\n                      │ REST\n┌─────────────────────▼───────────────────────────┐\n│           icd10-suggest-service (:8080)          │\n│  - Онош хайх                                     │\n│  - Chapter / Category / Subcategory шүүлтүүр    │\n│  - PostgreSQL DB                                 │\n└─────────────────────┬───────────────────────────┘\n                      │ REST (seed үед нэг удаа)\n┌─────────────────────▼───────────────────────────┐\n│           icd10-code-service (:8082)             │\n│  - ICD-10 JSON файл уншиж буцаана               │\n└─────────────────────────────────────────────────┘\n```\n\n---\n\n## Технологи\n\n| Технологи         | Зориулалт                |\n| ----------------- | ------------------------ |\n| Java 17 / 21      | Програмчлалын хэл        |\n| Spring Boot 3.2   | Фреймворк                |\n| Spring Data",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2026-03-06T06:24:07+00:00",
+        "last_at": "2026-04-24T11:32:24+00:00",
+        "active_days": 7,
+        "span_days": 49,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.222,
+        "messages_sample": [
+          "update",
+          "clean",
+          "update",
+          "uuchulsun",
+          "add a web UI",
+          "--",
+          "update data source",
+          "icd10 code suggest service",
+          "icd10_service initial code"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 22
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 65,351 bytes (62% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 40,664 bytes (38% of repo)",
+          "strength": 0.7835683629675045
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/mn/num/hospital/icd10_service/AppTest.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysql-connector-java in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "postgresql in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-maven-plugin in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 106015,
+        "strong_skills": [
+          "html-css",
+          "java",
+          "mysql",
+          "postgresql",
+          "spring",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 192733,
+    "HTML": 106989,
+    "C#": 92873,
+    "TypeScript": 63560,
+    "JavaScript": 27876,
+    "CSS": 16700,
+    "Dockerfile": 1685
+  },
+  "total_commits": 59,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Aydana06/pharmacy-service",
+        "Aydana06/lab7",
+        "Aydana06/icd10-suggest-service"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 123361,
+      "commit_count": 51,
+      "first_seen": "2024-10-23T13:36:52+00:00",
+      "last_seen": "2026-05-01T06:20:37+00:00",
+      "details": [
+        "pharmacy-service: HTML: 29,530 bytes (15% of repo)",
+        "pharmacy-service: CSS: 16,372 bytes (8% of repo)",
+        "lab7: HTML: 36,795 bytes (100% of repo)",
+        "icd10-suggest-service: HTML: 40,664 bytes (38% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "Aydana06/pharmacy-service",
+        "Aydana06/icd10-suggest-service"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 192733,
+      "commit_count": 11,
+      "first_seen": "2026-03-06T06:24:07+00:00",
+      "last_seen": "2026-05-01T06:20:37+00:00",
+      "details": [
+        "pharmacy-service: Java: 127,382 bytes (63% of repo)",
+        "icd10-suggest-service: Java: 65,351 bytes (62% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "Aydana06/Window"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 92873,
+      "commit_count": 3,
+      "first_seen": "2025-05-12T03:42:25+00:00",
+      "last_seen": "2025-05-22T08:39:49+00:00",
+      "details": [
+        "Window: C#: 92,873 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Aydana06/zohiomj"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 63560,
+      "commit_count": 5,
+      "first_seen": "2024-11-11T11:35:48+00:00",
+      "last_seen": "2024-11-11T13:12:59+00:00",
+      "details": [
+        "zohiomj: TypeScript: 63,560 bytes (99% of repo)"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "Aydana06/icd10-suggest-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2026-03-06T06:24:07+00:00",
+      "last_seen": "2026-04-24T11:32:24+00:00",
+      "details": [
+        "icd10-suggest-service: mysql-connector-java in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "Aydana06/icd10-suggest-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2026-03-06T06:24:07+00:00",
+      "last_seen": "2026-04-24T11:32:24+00:00",
+      "details": [
+        "icd10-suggest-service: postgresql in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "Aydana06/icd10-suggest-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2026-03-06T06:24:07+00:00",
+      "last_seen": "2026-04-24T11:32:24+00:00",
+      "details": [
+        "icd10-suggest-service: spring-boot-maven-plugin in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Aydana06/pharmacy-service"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1685,
+      "commit_count": 2,
+      "first_seen": "2026-04-30T16:34:13+00:00",
+      "last_seen": "2026-05-01T06:20:37+00:00",
+      "details": [
+        "pharmacy-service: Dockerfile: 1,685 bytes (1% of repo)",
+        "pharmacy-service: Dockerfile (api-gateway/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "Aydana06/pharmacy-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2026-04-30T16:34:13+00:00",
+      "last_seen": "2026-05-01T06:20:37+00:00",
+      "details": [
+        "pharmacy-service: SQL file (auth-service/src/main/resources/db/migration/V1__create_users_table.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "Aydana06/pharmacy-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2026-04-30T16:34:13+00:00",
+      "last_seen": "2026-05-01T06:20:37+00:00",
+      "details": [
+        "pharmacy-service: database migrations (auth-service/src/main/resources/db/migration/V1__create_users_table.sql)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Aydana06/zohiomj"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2024-11-11T11:35:48+00:00",
+      "last_seen": "2024-11-11T13:12:59+00:00",
+      "details": [
+        "zohiomj: next config (next.config.ts)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Aydana06/zohiomj"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2024-11-11T11:35:48+00:00",
+      "last_seen": "2024-11-11T13:12:59+00:00",
+      "details": [
+        "zohiomj: tailwind config (tailwind.config.ts)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Aydana06/icd10-suggest-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2026-03-06T06:24:07+00:00",
+      "last_seen": "2026-04-24T11:32:24+00:00",
+      "details": [
+        "icd10-suggest-service: test directory (src/test/java/mn/num/hospital/icd10_service/AppTest.java)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Aydana06/pharmacy-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5370720351939713,
+      "total_bytes": 27793,
+      "commit_count": 2,
+      "first_seen": "2026-04-30T16:34:13+00:00",
+      "last_seen": "2026-05-01T06:20:37+00:00",
+      "details": [
+        "pharmacy-service: JavaScript: 27,793 bytes (14% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 59,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 13,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:24:34.255255+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

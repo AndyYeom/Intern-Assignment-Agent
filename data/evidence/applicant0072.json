@@ -1,0 +1,185 @@
+{
+  "applicant_id": "applicant0072",
+  "github_login": "HugoDaSilvaGit",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0072.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/HugoDaSilvaGit/GSB"
+      ],
+      "repos": [
+        {
+          "repo": "HugoDaSilvaGit/GSB",
+          "html_url": "https://github.com/HugoDaSilvaGit/GSB",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; multi_month_span, documented",
+            "database migrations (migrations/.gitignore)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/HugoDaSilvaGit/GSB",
+        "https://github.com/HugoDaSilvaGit/Resanet"
+      ],
+      "repos": [
+        {
+          "repo": "HugoDaSilvaGit/GSB",
+          "html_url": "https://github.com/HugoDaSilvaGit/GSB",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; multi_month_span, documented",
+            "CSS: 96,596 bytes (27% of repo)"
+          ]
+        },
+        {
+          "repo": "HugoDaSilvaGit/Resanet",
+          "html_url": "https://github.com/HugoDaSilvaGit/Resanet",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: documented",
+            "HTML: 29,433 bytes (49% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HugoDaSilvaGit/GSB-RV-DR"
+      ],
+      "repos": [
+        {
+          "repo": "HugoDaSilvaGit/GSB-RV-DR",
+          "html_url": "https://github.com/HugoDaSilvaGit/GSB-RV-DR",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Java: 25,029 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HugoDaSilvaGit/Resanet"
+      ],
+      "repos": [
+        {
+          "repo": "HugoDaSilvaGit/Resanet",
+          "html_url": "https://github.com/HugoDaSilvaGit/Resanet",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: documented",
+            "Python: 29,915 bytes (50% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/HugoDaSilvaGit/GSB",
+        "https://github.com/HugoDaSilvaGit/GSB-RV-DR",
+        "https://github.com/HugoDaSilvaGit/Resanet",
+        "https://github.com/HugoDaSilvaGit/sbateliers"
+      ],
+      "repos": [
+        {
+          "repo": "HugoDaSilvaGit/GSB",
+          "html_url": "https://github.com/HugoDaSilvaGit/GSB",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; multi_month_span, documented",
+            "SQL file (bd/gsb_interroger.sql)"
+          ]
+        },
+        {
+          "repo": "HugoDaSilvaGit/GSB-RV-DR",
+          "html_url": "https://github.com/HugoDaSilvaGit/GSB-RV-DR",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "SQL file (src/main/java/fr/gsb/rv/dr/bd/gsbrv.sql)"
+          ]
+        },
+        {
+          "repo": "HugoDaSilvaGit/Resanet",
+          "html_url": "https://github.com/HugoDaSilvaGit/Resanet",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: documented",
+            "SQL file (BD/resanet.sql)"
+          ]
+        },
+        {
+          "repo": "HugoDaSilvaGit/sbateliers",
+          "html_url": "https://github.com/HugoDaSilvaGit/sbateliers",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "SQL file (bd/peuplerSbateliers.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HugoDaSilvaGit/GSB-RV-DR"
+      ],
+      "repos": [
+        {
+          "repo": "HugoDaSilvaGit/GSB-RV-DR",
+          "html_url": "https://github.com/HugoDaSilvaGit/GSB-RV-DR",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "junit-jupiter-api in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 5
+  }
+}

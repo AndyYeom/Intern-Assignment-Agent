@@ -1,0 +1,1308 @@
+{
+  "applicant_id": "applicant0122",
+  "login": "HideoTakayan",
+  "html_url": "https://github.com/HideoTakayan",
+  "created_at": "2023-05-06T19:07:34Z",
+  "account_age_days": 1229,
+  "public_repos": 16,
+  "followers": 0,
+  "following": 1,
+  "repos": [
+    {
+      "name": "Manga-Reader",
+      "full_name": "HideoTakayan/Manga-Reader",
+      "html_url": "https://github.com/HideoTakayan/Manga-Reader",
+      "description": "Flutter Andoird app",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-29T04:27:34Z",
+      "pushed_at": "2026-09-17T00:57:22Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5022,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 3113646,
+        "HTML": 148352,
+        "JavaScript": 47115,
+        "C++": 20304,
+        "CMake": 10626,
+        "Kotlin": 5126,
+        "C": 734,
+        "Swift": 676,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 255,
+      "top_level_paths": [
+        ".firebaserc",
+        ".gitignore",
+        ".metadata",
+        ".mocharc.json",
+        ".vscode",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "firebase.json",
+        "firestore.indexes.json",
+        "firestore.rules",
+        "ios",
+        "lib",
+        "package-lock.json",
+        "package.json",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@firebase/rules-unit-testing",
+          "firebase",
+          "firebase-tools",
+          "mocha"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4807,
+      "readme_excerpt": "# Manga & Novel Reader\n\nA native Android comic and novel reader built with Flutter. Designed with an **offline-first** mindset and a **serverless** architecture, it uses Google Drive as the primary storage and Firebase for community features and syncing.\n\nThe goal was to build a reader that doesn't crash on huge files, doesn't eat up all your RAM, and works seamlessly even when the internet drops.\n\n## Highlights & Engineering\n\nThis isn't just a basic UI wrapper. A lot of effort went into making the app stable under heavy loads:\n\n### 1. Zero OOM (Out of Memory) Architecture\nMost reader apps crash when trying to extract a 200MB `.cbz` or `.zip` file because they load the binary data straight into RAM. \n- **Direct-to-Disk Extraction**: We use Dart `Isolate`s to unpack archives in the background and write chunks directly to local storage. \n- **Strict Image Caching**: Flutter's `PaintingBinding.instance.imageCache` is hard-capped at ~80MB. No matter how fast you scroll through a 100-page webtoon, memory usage stays flat.\n\n### 2. Bulletproof Authentication Flow\nDealing with Firebase Auth and navigation can be tricky, especially with initialization race conditions that leave users stuck o",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.881,
+      "commits": {
+        "count": 52,
+        "first_at": "2025-12-29T04:27:35+00:00",
+        "last_at": "2026-09-17T00:57:17+00:00",
+        "active_days": 30,
+        "span_days": 261,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.154,
+        "messages_sample": [
+          "update",
+          "update",
+          "update",
+          "fix lỗi + tối ưu",
+          "nhóm dịch + thêm màu giao diện + fix offline",
+          "fix đăng nhập + đọc pdf",
+          "fix",
+          "update readme",
+          "fix bug",
+          "dd",
+          "update readme",
+          "update giao dien + xoa cai tro li ai",
+          "ai don gian + giao dien truyen chu",
+          "fix bug",
+          "update",
+          "chore: fix gitignore encoding",
+          "chore: remove ai plan and review files from git tracking",
+          "feat: implement robust forum moderation and strict profile security rules",
+          "sửa 1 số lỗi giao diện",
+          "thêm diễn đàn"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 166
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 3,113,646 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 148,352 bytes (4% of repo)",
+          "strength": 0.4443289447223868
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 47,115 bytes (1% of repo)",
+          "strength": 0.41407839618336967
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 20,304 bytes (1% of repo)",
+          "strength": 0.40606702230939484
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 5,126 bytes (0% of repo)",
+          "strength": 0.4015316960381185
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (.firebaserc)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (test/firestore.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "repo_name",
+          "detail": "'flutter' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "mocha in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3335991,
+        "strong_skills": [
+          "flutter",
+          "gcp-azure",
+          "native-mobile",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "php_pj",
+      "full_name": "HideoTakayan/php_pj",
+      "html_url": "https://github.com/HideoTakayan/php_pj",
+      "description": "skibidi php",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-03T05:52:21Z",
+      "pushed_at": "2026-02-04T00:12:24Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 21279,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "CSS": 589700,
+        "Blade": 469831,
+        "PHP": 191508,
+        "JavaScript": 74229,
+        "SCSS": 290
+      },
+      "primary_language": "CSS",
+      "file_count": 331,
+      "top_level_paths": [
+        ".editorconfig",
+        ".env.example",
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "lang",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "notable_files": [
+        "composer.json",
+        "package.json"
+      ],
+      "manifests": {
+        "composer.json": [
+          "allow-plugins",
+          "autoload",
+          "autoload-dev",
+          "config",
+          "description",
+          "dont-discover",
+          "extra",
+          "fakerphp/faker",
+          "files",
+          "guzzlehttp/guzzle",
+          "keywords",
+          "laravel",
+          "laravel/framework",
+          "laravel/pint",
+          "laravel/sail",
+          "laravel/sanctum",
+          "laravel/tinker",
+          "laravel/ui",
+          "license",
+          "minimum-stability",
+          "mockery/mockery",
+          "name",
+          "nunomaduro/collision",
+          "optimize-autoloader",
+          "pestphp/pest-plugin",
+          "php",
+          "php-http/discovery",
+          "phpunit/phpunit",
+          "post-autoload-dump",
+          "post-create-project-cmd",
+          "post-root-package-install",
+          "post-update-cmd",
+          "prefer-stable",
+          "preferred-install",
+          "psr-4",
+          "require",
+          "require-dev",
+          "scripts",
+          "sort-packages",
+          "spatie/laravel-ignition",
+          "type"
+        ],
+        "package.json": [
+          "@popperjs/core",
+          "axios",
+          "bootstrap",
+          "laravel-vite-plugin",
+          "sass",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 394,
+      "readme_excerpt": "# PHP project\nskibidi php\nphp cua t: 8.2.12\ncommposer 2.9.3\n\ncac lenh can chay:\ncomposer install\ncopy .env.example .env\nphp artisan key:generate\nTiep theo la cap nhan tt dtb o .env ( lien he t )\nphp artisan migrate\nnpm install\nnpm run dev\nphp artisan serve\n=> truy cap: http://localhost:8000\n\ntk admin:\nemail: [email]\npassword: 123456\ntk user:\nemail: [email]\npassword: 123456",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2026-01-03T05:52:21+00:00",
+        "last_at": "2026-02-04T00:12:31+00:00",
+        "active_days": 9,
+        "span_days": 31,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.385,
+        "messages_sample": [
+          "comment",
+          "update",
+          "update",
+          "update",
+          "big update",
+          "333333",
+          "ddd",
+          "update",
+          "ss",
+          "linh tinh",
+          "skibdi",
+          "phat sung dau tien",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 210
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 589,700 bytes (44% of repo)",
+          "strength": 0.8448692550608876
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 74,229 bytes (6% of repo)",
+          "strength": 0.4559983041104199
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (database/migrations/2026_01_23_000001_create_users_table.php)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 664219,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "linux"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Nyaalime",
+      "full_name": "HideoTakayan/Nyaalime",
+      "html_url": "https://github.com/HideoTakayan/Nyaalime",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-29T11:43:03Z",
+      "pushed_at": "2026-07-28T15:13:37Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 35316,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 71912,
+        "CSS": 43292,
+        "HTML": 42940
+      },
+      "primary_language": "JavaScript",
+      "file_count": 90,
+      "top_level_paths": [
+        ".eslintignore",
+        ".htmlhintrc",
+        ".jshintrc",
+        "README.md",
+        "css",
+        "db",
+        "img",
+        "index.html",
+        "jsconfig.json",
+        "landing-page.html",
+        "scripts",
+        "search.html",
+        "src",
+        "testing-features",
+        "watch.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 53,
+      "readme_excerpt": "# Nyaalime\n( Hiện tại mới chỉ là cơ bản, tính sau ) \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2025-09-29T11:43:03+00:00",
+        "last_at": "2026-07-28T15:13:32+00:00",
+        "active_days": 2,
+        "span_days": 302,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "update ( lỗi )",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 23
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 71,912 bytes (45% of repo)",
+          "strength": 0.8547248077701336
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 43,292 bytes (27% of repo)",
+          "strength": 0.6737505058680696
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 42,940 bytes (27% of repo)",
+          "strength": 0.6715246863617969
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 158144,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "PTDL-Python",
+      "full_name": "HideoTakayan/PTDL-Python",
+      "html_url": "https://github.com/HideoTakayan/PTDL-Python",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-20T10:11:49Z",
+      "pushed_at": "2026-06-19T08:11:18Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 9495,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 804999
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 6,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "data",
+        "notebooks",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "ipykernel",
+          "jupyter",
+          "matplotlib",
+          "numpy",
+          "pandas",
+          "scikit-learn",
+          "seaborn",
+          "xgboost"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1363,
+      "readme_excerpt": "# Đồ Án Lập Trình Phân Tích Dữ Liệu: Hồi quy Không-Thời gian Độ Mặn ĐBSCL\n\nĐây là một bài phân tích Machine Learning cơ bản (Spatiotemporal Regression), sử dụng dữ liệu độ mặn ĐBSCL và mực nước thượng nguồn Tân Châu.\n\n## Mục tiêu\nDùng thông tin vị trí (Kinh độ, Vĩ độ), thời gian (Tháng) và biến proxy (Mực nước Tân Châu) để ước lượng độ mặn tại các quan trắc năm 2022 bằng Random Forest/XGBoost.\n\n## Quy trình 7 Bước thực hiện:\n1. **Thu thập dữ liệu**: Sử dụng dữ liệu quan trắc độ mặn ĐBSCL và mực nước Tân Châu theo ngày.\n2. **Làm sạch dữ liệu**: Chuẩn hóa dữ liệu và ghép mực nước Tân Châu đúng ngày đo mặn.\n3. **Khai phá dữ liệu (EDA)**: Vẽ bản đồ phân bố mặn (Scatter map) và Boxplot khảo sát sự khác biệt theo tháng.\n4. **Lập mô hình học máy**: Sử dụng các thuật toán Machine Learning (Random Forest, XGBoost) để xây dựng bài toán Hồi quy Không-Thời gian.\n5. **Chia tập Train/Test**: Sử dụng Temporal Split (Train < 2022, Test == 2022). Đảm bảo không có rò rỉ dữ liệu.\n6. **Đánh giá và So sánh**: So sánh RMSE, MAE, R2 giữa các mô hình và Baseline (Trung bình trạm).\n7. **Báo cáo**: Hiển thị biểu đồ phân tán (Scatter plot) so sánh thực tế và ước lượng năm 2022 tại Trạm QL1.\n\n## Cách chạy dự ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2026-05-20T10:11:50+00:00",
+        "last_at": "2026-06-19T08:11:17+00:00",
+        "active_days": 5,
+        "span_days": 29,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.625,
+        "messages_sample": [
+          "update",
+          "update",
+          "df",
+          "update",
+          "coee",
+          "update",
+          "lam",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 804,999 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (notebooks/BTL.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 804999,
+        "strong_skills": [
+          "data-viz",
+          "machine-learning",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bt-pandas",
+      "full_name": "HideoTakayan/bt-pandas",
+      "html_url": "https://github.com/HideoTakayan/bt-pandas",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-17T04:28:33Z",
+      "pushed_at": "2026-05-17T04:38:08Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 16531,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 141094
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 63,
+      "top_level_paths": [
+        ".DS_Store",
+        "00_Creating_Series_and_DataFrames",
+        "01_Getting_&_Knowing_Your_Data",
+        "02_Filtering_&_Sorting",
+        "03_Stats",
+        "04_Grouping",
+        "05_Apply",
+        "06_Merge",
+        "07_Visualization",
+        "08_Deleting",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 11,
+      "readme_excerpt": "# bt-pandas",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-05-17T04:28:33+00:00",
+        "last_at": "2026-05-17T04:37:53+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "bt",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 21,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 141,094 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (00_Creating_Series_and_DataFrames/Pokemon/Exercises.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "repo_name",
+          "detail": "'pandas' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 141094,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 3113646,
+    "Jupyter Notebook": 946093,
+    "CSS": 632992,
+    "Blade": 469831,
+    "JavaScript": 193256,
+    "PHP": 191508,
+    "HTML": 191292,
+    "C++": 20304,
+    "CMake": 10626,
+    "Kotlin": 5126,
+    "C": 734,
+    "Swift": 676,
+    "SCSS": 290,
+    "Objective-C": 38
+  },
+  "total_commits": 79,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "HideoTakayan/PTDL-Python",
+        "HideoTakayan/bt-pandas"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 946093,
+      "commit_count": 10,
+      "first_seen": "2026-05-17T04:28:33+00:00",
+      "last_seen": "2026-06-19T08:11:17+00:00",
+      "details": [
+        "PTDL-Python: Jupyter Notebook: 804,999 bytes (100% of repo)",
+        "PTDL-Python: 'python' in repo name/description",
+        "bt-pandas: Jupyter Notebook: 141,094 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "HideoTakayan/Manga-Reader"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3113646,
+      "commit_count": 52,
+      "first_seen": "2025-12-29T04:27:35+00:00",
+      "last_seen": "2026-09-17T00:57:17+00:00",
+      "details": [
+        "Manga-Reader: Dart: 3,113,646 bytes (93% of repo)",
+        "Manga-Reader: flutter project (pubspec.yaml)",
+        "Manga-Reader: 'flutter' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "HideoTakayan/PTDL-Python",
+        "HideoTakayan/bt-pandas"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2026-05-17T04:28:33+00:00",
+      "last_seen": "2026-06-19T08:11:17+00:00",
+      "details": [
+        "PTDL-Python: jupyter notebook (notebooks/BTL.ipynb)",
+        "PTDL-Python: numpy in requirements.txt",
+        "bt-pandas: jupyter notebook (00_Creating_Series_and_DataFrames/Pokemon/Exercises.ipynb)",
+        "bt-pandas: 'pandas' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "HideoTakayan/Manga-Reader"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 52,
+      "first_seen": "2025-12-29T04:27:35+00:00",
+      "last_seen": "2026-09-17T00:57:17+00:00",
+      "details": [
+        "Manga-Reader: firebase config (.firebaserc)",
+        "Manga-Reader: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "HideoTakayan/Manga-Reader"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 52,
+      "first_seen": "2025-12-29T04:27:35+00:00",
+      "last_seen": "2026-09-17T00:57:17+00:00",
+      "details": [
+        "Manga-Reader: test directory (test/firestore.test.js)",
+        "Manga-Reader: mocha in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "HideoTakayan/PTDL-Python"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2026-05-20T10:11:50+00:00",
+      "last_seen": "2026-06-19T08:11:17+00:00",
+      "details": [
+        "PTDL-Python: matplotlib in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "HideoTakayan/PTDL-Python"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2026-05-20T10:11:50+00:00",
+      "last_seen": "2026-06-19T08:11:17+00:00",
+      "details": [
+        "PTDL-Python: scikit-learn in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "HideoTakayan/Manga-Reader",
+        "HideoTakayan/php_pj",
+        "HideoTakayan/Nyaalime"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8547248077701336,
+      "total_bytes": 193256,
+      "commit_count": 69,
+      "first_seen": "2025-09-29T11:43:03+00:00",
+      "last_seen": "2026-09-17T00:57:17+00:00",
+      "details": [
+        "Manga-Reader: JavaScript: 47,115 bytes (1% of repo)",
+        "php_pj: JavaScript: 74,229 bytes (6% of repo)",
+        "Nyaalime: JavaScript: 71,912 bytes (45% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "HideoTakayan/Manga-Reader",
+        "HideoTakayan/php_pj",
+        "HideoTakayan/Nyaalime"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8448692550608876,
+      "total_bytes": 824284,
+      "commit_count": 69,
+      "first_seen": "2025-09-29T11:43:03+00:00",
+      "last_seen": "2026-09-17T00:57:17+00:00",
+      "details": [
+        "Manga-Reader: HTML: 148,352 bytes (4% of repo)",
+        "php_pj: CSS: 589,700 bytes (44% of repo)",
+        "Nyaalime: CSS: 43,292 bytes (27% of repo)",
+        "Nyaalime: HTML: 42,940 bytes (27% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "HideoTakayan/Manga-Reader"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 5126,
+      "commit_count": 52,
+      "first_seen": "2025-12-29T04:27:35+00:00",
+      "last_seen": "2026-09-17T00:57:17+00:00",
+      "details": [
+        "Manga-Reader: Kotlin: 5,126 bytes (0% of repo)",
+        "Manga-Reader: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "HideoTakayan/php_pj"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2026-01-03T05:52:21+00:00",
+      "last_seen": "2026-02-04T00:12:31+00:00",
+      "details": [
+        "php_pj: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "HideoTakayan/php_pj"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2026-01-03T05:52:21+00:00",
+      "last_seen": "2026-02-04T00:12:31+00:00",
+      "details": [
+        "php_pj: database migrations (database/migrations/2026_01_23_000001_create_users_table.php)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "HideoTakayan/Manga-Reader"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40606702230939484,
+      "total_bytes": 20304,
+      "commit_count": 52,
+      "first_seen": "2025-12-29T04:27:35+00:00",
+      "last_seen": "2026-09-17T00:57:17+00:00",
+      "details": [
+        "Manga-Reader: C++: 20,304 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 79,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 12,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:31:27.992941+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

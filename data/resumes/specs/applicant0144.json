@@ -1,0 +1,124 @@
+{
+  "github_login": "withlaon",
+  "applicant_id": "applicant0144",
+  "first_name": "Soo-ah",
+  "last_name": "Bantham",
+  "career_stage": "student",
+  "email": "sooah@wrenfield.example",
+  "phone": "(555) 010-1441",
+  "location": "Wrenfield",
+  "linkedin": "linkedin.example.com/in/sooah-bantham",
+  "github_url": "github.example.com/soo-ah-bantham",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Wrenfield Institute of Technology",
+    "location": "Wrenfield",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Public Policy",
+    "graduation": "May 2028",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Web Application Development",
+      "Database Systems",
+      "Intro to Systems Security"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "MONEY",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2026",
+      "end": "Aug 2026",
+      "bullets": [
+        "Built a personal finance dashboard with Next.js and React, using recharts to visualize spending patterns from structured data.",
+        "Modeled the underlying PostgreSQL schema for transaction records, tightening field constraints after a bad import produced inconsistent categories."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Next.js",
+        "React"
+      ]
+    },
+    {
+      "title": "Product",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a Next.js and PostgreSQL application across sustained daily commits, writing PLpgSQL for server-side data logic.",
+        "Configured Linux server deployment and access for the app, prompting closer attention to who could reach the database directly."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "PLpgSQL",
+        "Next.js"
+      ]
+    },
+    {
+      "title": "Jungsan",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a TypeScript and PLpgSQL program with continuous integration, catching schema regressions before they reached the deployed database."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "PLpgSQL",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Regular Member",
+      "organization": "Wrenfield Web Security Reading Group",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "After noticing how much financial data her own project stored, started reading about access control and joined a peer security discussion group.",
+        "Began treating every new database table as a question of who should be able to read it, not just how to query it."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "JavaScript",
+      "SQL"
+    ],
+    "Frontend": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "Data": [
+      "PostgreSQL",
+      "Data Visualization",
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "Linux & Server Administration",
+      "CI/CD"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

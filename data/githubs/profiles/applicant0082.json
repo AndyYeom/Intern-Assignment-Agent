@@ -1,0 +1,1486 @@
+{
+  "applicant_id": "applicant0082",
+  "login": "LazarBojanic",
+  "html_url": "https://github.com/LazarBojanic",
+  "created_at": "2021-12-06T14:22:18Z",
+  "account_age_days": 1745,
+  "public_repos": 23,
+  "followers": 2,
+  "following": 0,
+  "repos": [
+    {
+      "name": "WinterCubeTimer",
+      "full_name": "LazarBojanic/WinterCubeTimer",
+      "html_url": "https://github.com/LazarBojanic/WinterCubeTimer",
+      "description": "A Rubik's Cube timer made in C# winforms, with sessions, average calculation, generated scrambles, cube visualization, and cube solving algorithm",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-14T09:53:23Z",
+      "pushed_at": "2025-07-03T23:43:44Z",
+      "stargazers": 5,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 3888,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "access",
+        "c-sharp",
+        "csharp",
+        "dot-net-core",
+        "dotnet",
+        "dotnetcore",
+        "kociemba",
+        "microsoft-access-database",
+        "python",
+        "rubiks-cube",
+        "rubiks-cube-3x3",
+        "rubiks-cube-model",
+        "rubiks-cube-scrambler",
+        "rubiks-cube-solver",
+        "rubiks-cube-timer",
+        "rubikscube",
+        "sql",
+        "sqlite",
+        "sqlite-database",
+        "winforms"
+      ],
+      "languages": {
+        "C#": 84939
+      },
+      "primary_language": "C#",
+      "file_count": 43,
+      "top_level_paths": [
+        ".gitignore",
+        "Assets",
+        "Manual-ENG-1.png",
+        "README.md",
+        "WinterCubeTimer.csproj",
+        "WinterCubeTimer.sln",
+        "config.json",
+        "src",
+        "vendor"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1054,
+      "readme_excerpt": "# WinterCubeTimer\n\n## Time your solves with generated WCA style scrambles, switch between sessions, +2, DNF or remove times, enable/disable inspection, live preview of the current scramble, see averages and best time, export the current cube state and scramble, and solve the cube using Kociemba.\n\n## Technologies: .NET 9.0, C# Winforms, SQLite, [Kociemba](https://github.com/Megalomatt/Kociemba).\n\n## Instructions (You need .NET 9.0 runtime to run this program): \n- Option 1: Download latest release.\n- Option 2: Cloning:\n  - `git clone https://github.com/LazarBojanic/WinterCubeTimer.git`\n  - `cd WinterCubeTimer`\n  - (optional) `dotnet restore` (.NET might complain about missing project.assets.json)\n  - Option a: Open the .sln file in your preferred IDE, build and run the solution from there.\n  - Option b: Build and run the solution using the dotnet cli:\n  \n    `dotnet build --configuration Debug` or `dotnet build --configuration Release`\n  \n    `dotnet run --configuration Debug` or `dotnet run --configuration Release`\n\n\n![](Manual-ENG-1.png)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.494,
+      "commits": {
+        "count": 38,
+        "first_at": "2022-09-19T23:31:21+00:00",
+        "last_at": "2025-07-02T21:50:13+00:00",
+        "active_days": 13,
+        "span_days": 1016,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.237,
+        "messages_sample": [
+          "removed select button updated main form",
+          "removed entity ef designer",
+          "misc",
+          "fixed new scramble",
+          "update README.md",
+          "update README.md",
+          "fixed label scramble",
+          "fixed generate scramble",
+          "switched to EF, de-spaghettified code",
+          "updated config",
+          "fixed form names",
+          "update form names",
+          "removed solveCube.py",
+          "update README.md",
+          "updated to .net 9.0, removed python kociemba dependency, using c# kociemba from https://github.com/Megalomatt/Kociemba",
+          "update readme",
+          "update readme",
+          "fixed double turns issue",
+          "misc",
+          "fixed generateScramble method"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 20
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 84,939 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "csharp",
+          "source": "topic",
+          "detail": "repo topic 'c-sharp'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "python",
+          "source": "topic",
+          "detail": "repo topic 'python'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "sql",
+          "source": "topic",
+          "detail": "repo topic 'sql'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "csharp",
+          "source": "repo_name",
+          "detail": "'c#' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 84939,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LazarOpenGLEngine3D",
+      "full_name": "LazarBojanic/LazarOpenGLEngine3D",
+      "html_url": "https://github.com/LazarBojanic/LazarOpenGLEngine3D",
+      "description": "A 3D game demo using a pseudo 3D game engine built using OpenGL and C++ ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-12-09T20:55:42Z",
+      "pushed_at": "2023-10-20T23:48:59Z",
+      "stargazers": 4,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 261245,
+      "default_branch": "master",
+      "license": null,
+      "topics": [
+        "3d",
+        "game",
+        "game-engine",
+        "gameengine",
+        "glad",
+        "glfw",
+        "glm",
+        "graphics",
+        "irrklang",
+        "lighting",
+        "normal-mapping",
+        "opengl",
+        "rendering",
+        "shaders",
+        "simplex-noise",
+        "simulation",
+        "specular-mapping",
+        "stbi",
+        "terrain-generation"
+      ],
+      "languages": {
+        "C++": 2992256,
+        "C": 2469954,
+        "GLSL": 37965,
+        "Objective-C": 20034,
+        "CMake": 2668
+      },
+      "primary_language": "C++",
+      "file_count": 905,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".vscode",
+        "LazarOpenGLEngine3D-1.gif",
+        "LazarOpenGLEngine3D-2.gif",
+        "LazarOpenGLEngine3D.sln",
+        "LazarOpenGLEngine3D.vcxproj",
+        "README.md",
+        "assets",
+        "dlls",
+        "libraries",
+        "src",
+        "x64"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1180,
+      "readme_excerpt": "A simple 3D demo scene, with procedural generation, ambient, diffuse, specular lighting, full 3D camera movement, light emitting objects, normal mapping, specular mapping made in OpenGL and C++.\n\nLibraries and DLLs can be found at the following repository: https://github.com/LazarBojanic/LazarOpenGLEngine3D\n\nThe project was made in Microsoft Visual Studio 2022 (x64).\n\nHere I am putting an epilepsy warning just in case.\n\n![animated GIF](LazarOpenGLEngine3D-1.gif)\n\n![animated GIF](LazarOpenGLEngine3D-2.gif)\n\nLibraries in use:\n- GLFW -> OpenGL context,\n- Glad -> OpenGL functions,\n- stbi_image -> texture loading,\n- glm -> mathematics library,\n- irrKlang -> sound.\n\nInstructions:\n- If you're cloning, copy DLLs from the \"dlls\" folder in the repository to x64/Debug or x64/Release depending on the desired configuration. Download the \"libraries\" folder from the repository and place it in the project's root folder next to \"assets\", \"src\" etc. Build the project in Visual Studio. Then you can either run it from there, or just run the generated .exe file.\n- Else, Download the latest release from releases.\n\nControls:\n- WASD = movement\n- Mouse = look around\n- F = Wireframe view",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.5,
+      "commits": {
+        "count": 26,
+        "first_at": "2023-01-14T16:51:16+00:00",
+        "last_at": "2023-10-20T23:32:28+00:00",
+        "active_days": 8,
+        "span_days": 279,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.269,
+        "messages_sample": [
+          "misc",
+          "misc",
+          "fixed cube indexed drawing",
+          "misc",
+          "misc",
+          "moved noise function to heap",
+          "misc",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "updated gifs",
+          "update readme",
+          "added backpack to release assets",
+          "added backpack to debug assets",
+          "added backpack.obj",
+          "misc",
+          "updated readme"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 565
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 2,992,256 bytes (54% of repo)",
+          "strength": 0.9417929821721541
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 2,469,954 bytes (45% of repo)",
+          "strength": 0.847222344441131
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 20,034 bytes (0% of repo)",
+          "strength": 0.40362745721116006
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c++' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5482244,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LazarOpenGLEngine2D",
+      "full_name": "LazarBojanic/LazarOpenGLEngine2D",
+      "html_url": "https://github.com/LazarBojanic/LazarOpenGLEngine2D",
+      "description": "A 2D DVD vs BluRay game demo using a pseudo 2D game engine built using OpenGL and C++",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-11-28T19:06:42Z",
+      "pushed_at": "2023-10-20T23:51:46Z",
+      "stargazers": 2,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 66251,
+      "default_branch": "master",
+      "license": null,
+      "topics": [
+        "blu-ray",
+        "bluray",
+        "dvd",
+        "dvd-logo",
+        "dvd-screensaver",
+        "game",
+        "game-engine",
+        "game-engine-2d",
+        "gameengine",
+        "gameengine2d",
+        "glad",
+        "glfw",
+        "glm",
+        "irrklang",
+        "opengl",
+        "stbi"
+      ],
+      "languages": {
+        "C++": 2189062,
+        "C": 910537,
+        "GLSL": 27786,
+        "Objective-C": 20034,
+        "CMake": 2668
+      },
+      "primary_language": "C++",
+      "file_count": 596,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".vscode",
+        "LazarOpenGLEngine2D-1.gif",
+        "LazarOpenGLEngine2D-2.gif",
+        "LazarOpenGLEngine2D.sln",
+        "LazarOpenGLEngine2D.vcxproj",
+        "README.md",
+        "assets",
+        "dlls",
+        "libraries",
+        "src",
+        "x64"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1577,
+      "readme_excerpt": "A simple DVD vs BluRay 2D game made in OpenGL and C++.\n\nLibraries and DLLs can be found at the following repository: https://github.com/LazarBojanic/LazarOpenGLEngine2D\n\nThe project was made in Microsoft Visual Studio 2022 (x64).\n\nHere I am putting an epilepsy warning just in case.\n\n![animated GIF](LazarOpenGLEngine2D-1.gif)\n\n![animated GIF](LazarOpenGLEngine2D-2.gif)\n\nLibraries in use:\n- GLFW -> OpenGL context,\n- Glad -> OpenGL functions,\n- stbi_image -> texture loading,\n- glm -> mathematics library,\n- irrKlang -> sound.\n\nInstructions:\n- If you're cloning, copy DLLs from the \"dlls\" folder in the repository to x64/Debug or x64/Release depending on the desired configuration. Download the \"libraries\" folder from the repository and place it in the project's root folder next to \"assets\", \"src\" etc. Build the project in Visual Studio. Then you can either run it from there, or just run the generated .exe file.\n- Else, Download the latest release from releases.\n\nThe game has several GameStates:\n- SCREEN_SAVER,\n- TRANSITION_TO_ACTIVE,\n- ACTIVE,\n- WIN,\n- LOSS.\n\nControls:\n- SCREEN_SAVER ->\n    B = Start the game,\n    R = Reset dvd logo.\n- ACTIVE ->\n    Left Arrow/A = Move the dvd to the left",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.266,
+      "commits": {
+        "count": 21,
+        "first_at": "2022-12-08T14:45:57+00:00",
+        "last_at": "2023-10-20T23:25:30+00:00",
+        "active_days": 7,
+        "span_days": 316,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.381,
+        "messages_sample": [
+          "misc",
+          "code cleanup",
+          "misc",
+          "improved debugging messages",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "updated gifs",
+          "update readme",
+          "infinity path in loss screen",
+          "optional path drawing",
+          "added dlls directory",
+          "misc",
+          "improved dvd bounce logic",
+          "switched to relative paths",
+          "misc"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 343
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 2,189,062 bytes (69% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 910,537 bytes (29% of repo)",
+          "strength": 0.689051381755488
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 20,034 bytes (1% of repo)",
+          "strength": 0.4063598243477085
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c++' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3119633,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "movie-app-js",
+      "full_name": "LazarBojanic/movie-app-js",
+      "html_url": "https://github.com/LazarBojanic/movie-app-js",
+      "description": "A website for logging, reviewing films. Search films and artists and see film details and artist credits. Jwt Login system.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-22T01:25:22Z",
+      "pushed_at": "2025-12-03T02:40:24Z",
+      "stargazers": 2,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 15797,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "bootstrap",
+        "express",
+        "film",
+        "films",
+        "fullstack",
+        "javascript",
+        "jwt",
+        "movies",
+        "nodejs",
+        "postgresql",
+        "vue",
+        "vuejs"
+      ],
+      "languages": {
+        "JavaScript": 166750,
+        "Vue": 61943,
+        "HTML": 35766,
+        "Pug": 275,
+        "CSS": 111
+      },
+      "primary_language": "JavaScript",
+      "file_count": 119,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "movie-app-backend-nodejs",
+        "movie-app-frontend-vuejs",
+        "movies-1.png",
+        "movies-2.png",
+        "movies-3.png",
+        "movies-4.png",
+        "movies-5.png",
+        "movies-6.png",
+        "movies-7.png"
+      ],
+      "notable_files": [
+        "movie-app-backend-nodejs/package.json",
+        "movie-app-frontend-vuejs/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 608,
+      "readme_excerpt": "A website that allows users to log, review, rate, like movies, create film lists, search films and artists (actors, producers, directors etc.), see details of film (description, year, synopsis, cast and crew), see in which films an artist appears and their role. Also has an admin route for crud operations on all entities.\n\nTechnologies:\n    - jwt for authorization and authentication\n    - Back-end - Node.js/Express, postgresql\n    - Front-end - Vue.js 2\n\n![](movies-1.png)\n\n![](movies-2.png)\n\n![](movies-3.png)\n\n![](movies-4.png)\n\n![](movies-5.png)\n\n![](movies-6.png)\n\nAdmin interface:\n\n![](movies-7.png)",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.909,
+      "commits": {
+        "count": 20,
+        "first_at": "2023-01-22T01:26:09+00:00",
+        "last_at": "2025-12-03T02:40:17+00:00",
+        "active_days": 11,
+        "span_days": 1046,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.1,
+        "messages_sample": [
+          "Merge pull request #1 from LazarBojanic/dependabot/npm_and_yarn/movie-app-backend-nodejs/validator-13.15.23",
+          "reactive removing of filmInLibrary",
+          "film list tweaks",
+          "improved search",
+          "improved app, improved database",
+          "bug fixes",
+          "Merge branch 'main' of https://github.com/LazarBojanic/movie-app-js",
+          "update readme",
+          "Update README.md",
+          "misc",
+          "fixing backend update stuff and associations, filmInList and filmList implementation, need to implement PersonalFilm component where the user can leave reviews etc... also socket io and frontend valid",
+          "artists view, film credits for artist view, implementing userprofile view",
+          "case insensitive searching, and order by, background image, misc css",
+          "searching films, clicking on a film and displaying details",
+          "misc",
+          "basic frontend",
+          "added router and vuex",
+          "front end display films paginated, added client user",
+          "misc",
+          "init commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 92
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 166,750 bytes (63% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "vue",
+          "source": "language",
+          "detail": "Vue: 61,943 bytes (23% of repo)",
+          "strength": 0.6338839698691687
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 35,766 bytes (14% of repo)",
+          "strength": 0.5350450263361589
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (movie-app-backend-nodejs/migrations/createArtist.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "topic",
+          "detail": "repo topic 'express'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "javascript",
+          "source": "topic",
+          "detail": "repo topic 'javascript'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "auth",
+          "source": "topic",
+          "detail": "repo topic 'jwt'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "topic",
+          "detail": "repo topic 'postgresql'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "vue",
+          "source": "topic",
+          "detail": "repo topic 'vue'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "javascript",
+          "source": "repo_name",
+          "detail": "'js' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "auth",
+          "source": "repo_name",
+          "detail": "'jwt' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 264570,
+        "strong_skills": [
+          "data-modeling",
+          "javascript",
+          "vue"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "snowflake",
+      "full_name": "LazarBojanic/snowflake",
+      "html_url": "https://github.com/LazarBojanic/snowflake",
+      "description": "A Spring Boot microservices based application that allows users to create vehicle reservations. C# winforms client, activemq messsage broker, eureka service discovery, spring api gateway",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-02-10T01:55:43Z",
+      "pushed_at": "2023-05-08T15:46:34Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 49410,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "activemq",
+        "api",
+        "api-gateway",
+        "c-sharp",
+        "eureka",
+        "posgresql",
+        "rest",
+        "spring",
+        "spring-boot",
+        "winforms"
+      ],
+      "languages": {
+        "JavaScript": 581178,
+        "Java": 407570,
+        "C#": 102646,
+        "HTML": 97860,
+        "CSS": 54180,
+        "Shell": 27223,
+        "Batchfile": 17918,
+        "C++": 17404,
+        "Python": 16801,
+        "Ruby": 6594,
+        "Perl": 4128,
+        "PHP": 3665
+      },
+      "primary_language": "JavaScript",
+      "file_count": 1126,
+      "top_level_paths": [
+        ".gitattributes",
+        ".idea",
+        "MessageBroker",
+        "README.md",
+        "ReservationServiceClient",
+        "activemq-data",
+        "api-gateway",
+        "core",
+        "core.iml",
+        "eureka-server",
+        "notification-service",
+        "reservation-service",
+        "snowflake-1.png",
+        "snowflake-2.png",
+        "snowflake.iml",
+        "user-service"
+      ],
+      "notable_files": [
+        "MessageBroker/examples/amqp/java/pom.xml",
+        "MessageBroker/examples/mqtt/java/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-composite-destinations/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-durable-sub/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-exclusive-consumer/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-message-browser/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-queue-selector/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-queue/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-temp-destinations/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-topic/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-transaction/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/jms-example-wildcard-consumer/pom.xml",
+        "MessageBroker/examples/openwire/advanced-scenarios/pom.xml",
+        "MessageBroker/examples/openwire/java/pom.xml",
+        "MessageBroker/examples/stomp/java/pom.xml",
+        "api-gateway/pom.xml",
+        "core/pom.xml",
+        "eureka-server/pom.xml",
+        "notification-service/pom.xml",
+        "reservation-service/pom.xml",
+        "user-service/pom.xml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 792,
+      "readme_excerpt": "# snowflake\n\nA Java Spring microservices app, that enables the user to manage their reservations in a car rental shop. It uses activemq as the message broker, c# winforms for the client, postgresql database, eureka and api gateway, split into multiple microservices (eureka, api gateway, user service, reservation service, notification service and message broker, client). It has 3 types of users: admin, manager and client. Client is the regular user which makes reservations, and can change their profile. Manager has more permissions, and can modify certain things, and admin has full control, and can disable and enable users. The notification service also sends a confirmation email when a user registers, in order to activate their account.\n\n![](snowflake-1.png)\n![](snowflake-2.png)\n \n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2023-02-10T01:55:40+00:00",
+        "last_at": "2023-05-08T15:46:33+00:00",
+        "active_days": 2,
+        "span_days": 87,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "update readme",
+          "misc",
+          "init",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 334
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 581,178 bytes (43% of repo)",
+          "strength": 0.8346338191115994
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 407,570 bytes (30% of repo)",
+          "strength": 0.704801120578058
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 102,646 bytes (8% of repo)",
+          "strength": 0.4767637849273876
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 97,860 bytes (7% of repo)",
+          "strength": 0.4731845760477188
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 54,180 bytes (4% of repo)",
+          "strength": 0.44051849918521774
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 27,223 bytes (2% of repo)",
+          "strength": 0.4203587136086966
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 17,404 bytes (1% of repo)",
+          "strength": 0.41301557696233904
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 16,801 bytes (1% of repo)",
+          "strength": 0.41256462356609164
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (MessageBroker/webapps-demo/demo/test/assets/jsunittest.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "csharp",
+          "source": "topic",
+          "detail": "repo topic 'c-sharp'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "spring",
+          "source": "topic",
+          "detail": "repo topic 'spring'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "csharp",
+          "source": "repo_name",
+          "detail": "'c#' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "spring",
+          "source": "repo_name",
+          "detail": "'spring' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1304862,
+        "strong_skills": [
+          "java",
+          "javascript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C++": 5198722,
+    "C": 3380491,
+    "JavaScript": 747928,
+    "Java": 407570,
+    "C#": 187585,
+    "HTML": 133626,
+    "GLSL": 65751,
+    "Vue": 61943,
+    "CSS": 54291,
+    "Objective-C": 40068,
+    "Shell": 27223,
+    "Batchfile": 17918,
+    "Python": 16801,
+    "Ruby": 6594,
+    "CMake": 5336,
+    "Perl": 4128,
+    "PHP": 3665,
+    "Pug": 275
+  },
+  "total_commits": 109,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "LazarBojanic/LazarOpenGLEngine3D",
+        "LazarBojanic/LazarOpenGLEngine2D",
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 8579213,
+      "commit_count": 51,
+      "first_seen": "2022-12-08T14:45:57+00:00",
+      "last_seen": "2023-10-20T23:32:28+00:00",
+      "details": [
+        "LazarOpenGLEngine3D: C++: 2,992,256 bytes (54% of repo)",
+        "LazarOpenGLEngine3D: C: 2,469,954 bytes (45% of repo)",
+        "LazarOpenGLEngine3D: 'c++' in repo name/description",
+        "LazarOpenGLEngine2D: C++: 2,189,062 bytes (69% of repo)",
+        "LazarOpenGLEngine2D: C: 910,537 bytes (29% of repo)",
+        "LazarOpenGLEngine2D: 'c++' in repo name/description",
+        "snowflake: C++: 17,404 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "LazarBojanic/WinterCubeTimer",
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 187585,
+      "commit_count": 42,
+      "first_seen": "2022-09-19T23:31:21+00:00",
+      "last_seen": "2025-07-02T21:50:13+00:00",
+      "details": [
+        "WinterCubeTimer: C#: 84,939 bytes (100% of repo)",
+        "WinterCubeTimer: repo topic 'c-sharp'",
+        "WinterCubeTimer: 'c#' in repo name/description",
+        "snowflake: C#: 102,646 bytes (8% of repo)",
+        "snowflake: repo topic 'c-sharp'",
+        "snowflake: 'c#' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "LazarBojanic/movie-app-js",
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 747928,
+      "commit_count": 24,
+      "first_seen": "2023-01-22T01:26:09+00:00",
+      "last_seen": "2025-12-03T02:40:17+00:00",
+      "details": [
+        "movie-app-js: JavaScript: 166,750 bytes (63% of repo)",
+        "movie-app-js: repo topic 'javascript'",
+        "movie-app-js: 'js' in repo name/description",
+        "snowflake: JavaScript: 581,178 bytes (43% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.704801120578058,
+      "total_bytes": 407570,
+      "commit_count": 4,
+      "first_seen": "2023-02-10T01:55:40+00:00",
+      "last_seen": "2023-05-08T15:46:33+00:00",
+      "details": [
+        "snowflake: Java: 407,570 bytes (30% of repo)"
+      ]
+    },
+    {
+      "skill_id": "vue",
+      "repos": [
+        "LazarBojanic/movie-app-js"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 0.6338839698691687,
+      "total_bytes": 61943,
+      "commit_count": 20,
+      "first_seen": "2023-01-22T01:26:09+00:00",
+      "last_seen": "2025-12-03T02:40:17+00:00",
+      "details": [
+        "movie-app-js: Vue: 61,943 bytes (23% of repo)",
+        "movie-app-js: repo topic 'vue'"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "LazarBojanic/movie-app-js"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2023-01-22T01:26:09+00:00",
+      "last_seen": "2025-12-03T02:40:17+00:00",
+      "details": [
+        "movie-app-js: database migrations (movie-app-backend-nodejs/migrations/createArtist.js)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2023-02-10T01:55:40+00:00",
+      "last_seen": "2023-05-08T15:46:33+00:00",
+      "details": [
+        "snowflake: test directory (MessageBroker/webapps-demo/demo/test/assets/jsunittest.js)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "LazarBojanic/movie-app-js",
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5350450263361589,
+      "total_bytes": 187806,
+      "commit_count": 24,
+      "first_seen": "2023-01-22T01:26:09+00:00",
+      "last_seen": "2025-12-03T02:40:17+00:00",
+      "details": [
+        "movie-app-js: HTML: 35,766 bytes (14% of repo)",
+        "snowflake: HTML: 97,860 bytes (7% of repo)",
+        "snowflake: CSS: 54,180 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4203587136086966,
+      "total_bytes": 27223,
+      "commit_count": 4,
+      "first_seen": "2023-02-10T01:55:40+00:00",
+      "last_seen": "2023-05-08T15:46:33+00:00",
+      "details": [
+        "snowflake: Shell: 27,223 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "LazarBojanic/WinterCubeTimer",
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "language"
+      ],
+      "max_strength": 0.41256462356609164,
+      "total_bytes": 16801,
+      "commit_count": 42,
+      "first_seen": "2022-09-19T23:31:21+00:00",
+      "last_seen": "2025-07-02T21:50:13+00:00",
+      "details": [
+        "WinterCubeTimer: repo topic 'python'",
+        "snowflake: Python: 16,801 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "LazarBojanic/LazarOpenGLEngine3D",
+        "LazarBojanic/LazarOpenGLEngine2D"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4063598243477085,
+      "total_bytes": 40068,
+      "commit_count": 47,
+      "first_seen": "2022-12-08T14:45:57+00:00",
+      "last_seen": "2023-10-20T23:32:28+00:00",
+      "details": [
+        "LazarOpenGLEngine3D: Objective-C: 20,034 bytes (0% of repo)",
+        "LazarOpenGLEngine2D: Objective-C: 20,034 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "LazarBojanic/movie-app-js"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2023-01-22T01:26:09+00:00",
+      "last_seen": "2025-12-03T02:40:17+00:00",
+      "details": [
+        "movie-app-js: repo topic 'jwt'",
+        "movie-app-js: 'jwt' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "LazarBojanic/snowflake"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2023-02-10T01:55:40+00:00",
+      "last_seen": "2023-05-08T15:46:33+00:00",
+      "details": [
+        "snowflake: repo topic 'spring'",
+        "snowflake: 'spring' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "LazarBojanic/WinterCubeTimer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 38,
+      "first_seen": "2022-09-19T23:31:21+00:00",
+      "last_seen": "2025-07-02T21:50:13+00:00",
+      "details": [
+        "WinterCubeTimer: repo topic 'sql'"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "LazarBojanic/movie-app-js"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2023-01-22T01:26:09+00:00",
+      "last_seen": "2025-12-03T02:40:17+00:00",
+      "details": [
+        "movie-app-js: repo topic 'express'"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "LazarBojanic/movie-app-js"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2023-01-22T01:26:09+00:00",
+      "last_seen": "2025-12-03T02:40:17+00:00",
+      "details": [
+        "movie-app-js: repo topic 'postgresql'"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 109,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-17T01:36:47.318804+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

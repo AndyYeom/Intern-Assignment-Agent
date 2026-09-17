@@ -1,0 +1,102 @@
+{
+  "github_login": "sameerk15",
+  "applicant_id": "applicant0077",
+  "first_name": "Priya",
+  "last_name": "Nandan",
+  "career_stage": "student",
+  "email": "priya.nandan@meridale.example",
+  "phone": "(555) 010-0211",
+  "location": "Meridale",
+  "linkedin": "linkedin.example.com/in/priya-nandan",
+  "github_url": "github.example.com/priya-nandan",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Meridale University",
+    "location": "Meridale",
+    "degree": "Bachelor of Science",
+    "major": "Information Technology",
+    "minor": "Statistics",
+    "graduation": "May 2023",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Web Development",
+      "Machine Learning Fundamentals",
+      "Databases",
+      "Applied Statistics"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Road Accident Severity Prediction",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2022",
+      "end": "Apr 2022",
+      "bullets": [
+        "Built a Random Forest model in Python to predict road-accident severity from a 12,000-record police dataset, deployed locally for testing.",
+        "Cleaned and explored the accident dataset with pandas, working through inconsistent fields before feature selection could stabilize model performance."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "title": "Web App Flight Price",
+      "organization": null,
+      "location": null,
+      "start": "Oct 2021",
+      "end": "Nov 2021",
+      "bullets": [
+        "Developed a Flask web app serving a Random Forest flight-price model, deploying the pairing to Heroku for public use.",
+        "Reused patterns from the accident-severity project, translating a web development background into building this deployable prediction service."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Flask",
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Co-founder",
+      "organization": "Meridale ML Reading Group",
+      "location": null,
+      "start": "Feb 2022",
+      "end": "Apr 2022",
+      "bullets": [
+        "After noticing the flight-price project relied on a model treated as a black box, started a peer reading group on evaluation methods.",
+        "Later extended that curiosity to text data, prototyping a news-category classifier, and found debugging language models more engaging than building interfaces."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "Backend": [
+      "Flask/FastAPI"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Visualization"
+    ],
+    "AI/ML": [
+      "Machine Learning"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

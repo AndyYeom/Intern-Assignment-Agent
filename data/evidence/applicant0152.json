@@ -1,0 +1,223 @@
+{
+  "applicant_id": "applicant0152",
+  "github_login": "keanhor2",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0152.json",
+  "skills": [
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/keanhor2/madmail"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/madmail",
+          "html_url": "https://github.com/keanhor2/madmail",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/keanhor2/madmail"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/madmail",
+          "html_url": "https://github.com/keanhor2/madmail",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "Go: 1,468,471 bytes (97% of repo)",
+            "Go module (go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/keanhor2/Kea-CV",
+        "https://github.com/keanhor2/HOTEL",
+        "https://github.com/keanhor2/KHMER-FOOD",
+        "https://github.com/keanhor2/lifestyle-app"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/Kea-CV",
+          "html_url": "https://github.com/keanhor2/Kea-CV",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; multi_month_span, many_active_days",
+            "HTML: 20,766 bytes (63% of repo)",
+            "CSS: 12,270 bytes (37% of repo)"
+          ]
+        },
+        {
+          "repo": "keanhor2/HOTEL",
+          "html_url": "https://github.com/keanhor2/HOTEL",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "HTML: 3,829 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "keanhor2/KHMER-FOOD",
+          "html_url": "https://github.com/keanhor2/KHMER-FOOD",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "HTML: 21,650 bytes (82% of repo)",
+            "CSS: 4,753 bytes (18% of repo)"
+          ]
+        },
+        {
+          "repo": "keanhor2/lifestyle-app",
+          "html_url": "https://github.com/keanhor2/lifestyle-app",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: deployed",
+            "HTML: 611 bytes (12% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/keanhor2/lifestyle-app"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/lifestyle-app",
+          "html_url": "https://github.com/keanhor2/lifestyle-app",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: deployed",
+            "JavaScript: 1,540 bytes (29% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/keanhor2/madmail"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/madmail",
+          "html_url": "https://github.com/keanhor2/madmail",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "kubernetes manifests (contrib/kubernetes/chart/.helmignore)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/keanhor2/madmail"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/madmail",
+          "html_url": "https://github.com/keanhor2/madmail",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "docs directory (docs/STYLEGUIDE.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/keanhor2/madmail"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/madmail",
+          "html_url": "https://github.com/keanhor2/madmail",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "test file (framework/address/norm_test.go)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "vue",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/keanhor2/lifestyle-app"
+      ],
+      "repos": [
+        {
+          "repo": "keanhor2/lifestyle-app",
+          "html_url": "https://github.com/keanhor2/lifestyle-app",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: deployed",
+            "Vue: 3,102 bytes (59% of repo)",
+            "vue in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 5,
+    "verified": 3
+  }
+}

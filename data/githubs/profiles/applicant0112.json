@@ -1,0 +1,482 @@
+{
+  "applicant_id": "applicant0112",
+  "login": "AndreiMikh",
+  "html_url": "https://github.com/AndreiMikh",
+  "created_at": "2026-02-19T05:41:09Z",
+  "account_age_days": 209,
+  "public_repos": 28,
+  "followers": 0,
+  "following": 2,
+  "repos": [
+    {
+      "name": "AndreiMikh-Kernel-Lab",
+      "full_name": "AndreiMikh/AndreiMikh-Kernel-Lab",
+      "html_url": "https://github.com/AndreiMikh/AndreiMikh-Kernel-Lab",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-19T05:43:17Z",
+      "pushed_at": "2026-09-17T00:58:17Z",
+      "stargazers": 3,
+      "forks": 4,
+      "open_issues": 2,
+      "size_kb": 16190,
+      "default_branch": "LiquidAndrei",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C": 217127,
+        "Kotlin": 54818,
+        "C++": 48347,
+        "Shell": 20030,
+        "Assembly": 15878,
+        "Makefile": 166
+      },
+      "primary_language": "C",
+      "file_count": 113,
+      "top_level_paths": [
+        ".github",
+        "AndreiMikh.png",
+        "LICENSE",
+        "LZ4-Upgrade.sh",
+        "README.md",
+        "Release Notes",
+        "fengchi",
+        "lib",
+        "patches",
+        "scripts"
+      ],
+      "notable_files": [
+        ".github/workflows/AOSP OPlus.yml",
+        ".github/workflows/Cleaner.yml",
+        ".github/workflows/Dispatch & Fetch SM8750.yml",
+        ".github/workflows/Dispatch & Fetch SM8850.yml",
+        ".github/workflows/Image Partition Dumper.yml",
+        ".github/workflows/Main.yml",
+        ".github/workflows/OSS Monitor.yml",
+        ".github/workflows/SM8850 GKI.yml",
+        ".github/workflows/Test.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4856,
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"AndreiMikh.png\" alt=\"ANDREIMIKH KERNEL LAB\" width=\"100%\">\n</p>\n\n<br>\n\n## 🔥 Supported Root Engines\n\n<p align=\"center\">\n\n| 🟣 **SukiSU-Ultra** | 🔵 **ReSukiSU** | 🟢 **KernelSU-Next** |\n|:-------------------:|:---------------:|:--------------------:|\n| SUSFS Monster Mode | Balanced & Refined | Bleeding Edge |\n\n| 🟡 **WildKSU** | 🔴 **KernelSU (Official)** | ⚙ Future Slot |\n|:---------------:|:--------------------------:|:--------------:|\n| Experimental Fork | Clean Upstream | Expandable |\n\n</p>\n\n## 🧠 Core Philosophy\n\n<p align=\"center\">\n\n| ⚡ Principle | 💀 What It Means |\n|:-------------|:-----------------|\n| **Performance > Safety Nets** | Speed & Efficiency Come First — No Artificial Limits |\n| **Automation > Manual Mess** | CI-Driven Builds — No Telegram Zip Roulette |\n| **Power Users > Casual Flashers** | Built For People Who Read Logs, Not Tutorials |\n| **Reproducible > Random** | Clean Commit History, Deterministic Builds |\n| **Visibility > Mystery** | No Hidden Binaries, No Secret Patches, Everything Is Auditable |\n\n</p>\n\n> No Mystery Binaries  \n> No Hidden Patches  \n> Everything Is Automated — Everything Is Visible\n\n## 💀 Built For Operators — Not Spect",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-11T11:00:26+00:00",
+        "last_at": "2026-09-17T00:58:16+00:00",
+        "active_days": 7,
+        "span_days": 5,
+        "max_per_day": 45,
+        "low_effort_message_ratio": 0.575,
+        "messages_sample": [
+          "Update Main.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Update Test.yml",
+          "Create Test.yml",
+          "Update Main.yml",
+          "Update Main.yml",
+          "Delete .github/workflows/Dispatch & Fetch SM8550.yml",
+          "Delete .github/workflows/Dispatch & Fetch SM8650.yml",
+          "Update Dispatch & Fetch SM8750.yml",
+          "Update Dispatch & Fetch SM8750.yml",
+          "Update LZ4-Upgrade.sh",
+          "Update LZ4-Upgrade.sh",
+          "Update Main.yml"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 15
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 10,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 217,127 bytes (61% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 54,818 bytes (15% of repo)",
+          "strength": 0.5538250001403052
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 48,347 bytes (14% of repo)",
+          "strength": 0.5356667022106486
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 20,030 bytes (6% of repo)",
+          "strength": 0.45620625985643976
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/AOSP OPlus.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 340488,
+        "strong_skills": [
+          "c-cpp",
+          "cicd",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CCache",
+      "full_name": "AndreiMikh/CCache",
+      "html_url": "https://github.com/AndreiMikh/CCache",
+      "description": "Compiler Cache",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-17T15:12:33Z",
+      "pushed_at": "2026-05-03T02:55:26Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 1424,
+      "default_branch": "LiquidAndrei",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 4,
+      "top_level_paths": [
+        ".github",
+        "README.md"
+      ],
+      "notable_files": [
+        ".github/workflows/CCache.yml",
+        ".github/workflows/Cleaner.yml",
+        ".github/workflows/Main.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 24,
+      "readme_excerpt": "# CCache\nCompiler Cache\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 32,
+        "first_at": "2026-04-17T15:12:33+00:00",
+        "last_at": "2026-05-03T02:55:26+00:00",
+        "active_days": 6,
+        "span_days": 15,
+        "max_per_day": 15,
+        "low_effort_message_ratio": 0.969,
+        "messages_sample": [
+          "Update Main.yml",
+          "Update Main.yml",
+          "Update Main.yml",
+          "Update Main.yml",
+          "Update Cleaner.yml",
+          "Update Main.yml",
+          "Update Main.yml",
+          "Update Main.yml",
+          "Create Main.yml",
+          "Delete Fix",
+          "Create Fix",
+          "Update CCache.yml",
+          "Update CCache.yml",
+          "Create Cleaner.yml",
+          "Update CCache.yml",
+          "Update CCache.yml",
+          "Update CCache.yml",
+          "Update CCache.yml",
+          "Update CCache.yml",
+          "Update CCache.yml"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/CCache.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C": 217127,
+    "Kotlin": 54818,
+    "C++": 48347,
+    "Shell": 20030,
+    "Assembly": 15878,
+    "Makefile": 166
+  },
+  "total_commits": 232,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "AndreiMikh/AndreiMikh-Kernel-Lab"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 265474,
+      "commit_count": 200,
+      "first_seen": "2026-09-11T11:00:26+00:00",
+      "last_seen": "2026-09-17T00:58:16+00:00",
+      "details": [
+        "AndreiMikh-Kernel-Lab: C: 217,127 bytes (61% of repo)",
+        "AndreiMikh-Kernel-Lab: C++: 48,347 bytes (14% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "AndreiMikh/AndreiMikh-Kernel-Lab",
+        "AndreiMikh/CCache"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 232,
+      "first_seen": "2026-04-17T15:12:33+00:00",
+      "last_seen": "2026-09-17T00:58:16+00:00",
+      "details": [
+        "AndreiMikh-Kernel-Lab: GitHub Actions workflow (.github/workflows/AOSP OPlus.yml)",
+        "CCache: GitHub Actions workflow (.github/workflows/CCache.yml)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "AndreiMikh/AndreiMikh-Kernel-Lab"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5538250001403052,
+      "total_bytes": 54818,
+      "commit_count": 200,
+      "first_seen": "2026-09-11T11:00:26+00:00",
+      "last_seen": "2026-09-17T00:58:16+00:00",
+      "details": [
+        "AndreiMikh-Kernel-Lab: Kotlin: 54,818 bytes (15% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "AndreiMikh/AndreiMikh-Kernel-Lab"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.45620625985643976,
+      "total_bytes": 20030,
+      "commit_count": 200,
+      "first_seen": "2026-09-11T11:00:26+00:00",
+      "last_seen": "2026-09-17T00:58:16+00:00",
+      "details": [
+        "AndreiMikh-Kernel-Lab: Shell: 20,030 bytes (6% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 232,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:28:53.521843+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3",
+    "fewer than 3 repos mined - thin evidence base"
+  ]
+}

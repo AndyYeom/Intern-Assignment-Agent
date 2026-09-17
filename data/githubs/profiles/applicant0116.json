@@ -1,0 +1,1325 @@
+{
+  "applicant_id": "applicant0116",
+  "login": "u-wyh",
+  "html_url": "https://github.com/u-wyh",
+  "created_at": "2024-06-24T02:17:06Z",
+  "account_age_days": 814,
+  "public_repos": 12,
+  "followers": 1,
+  "following": 1,
+  "repos": [
+    {
+      "name": "algorithm",
+      "full_name": "u-wyh/algorithm",
+      "html_url": "https://github.com/u-wyh/algorithm",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-19T08:56:37Z",
+      "pushed_at": "2026-09-17T01:13:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 66794,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 7728951,
+        "C": 695302,
+        "Python": 40520
+      },
+      "primary_language": "C++",
+      "file_count": 4141,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitignore",
+        "README.md",
+        "docs",
+        "templates",
+        "洛谷"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3074,
+      "readme_excerpt": "# 算法学习代码库\n\n这是我长期积累的算法学习资料：按知识点保存的模板与题目实现、各 OJ 的练习代码、比赛训练记录，以及从现有代码整理出的算法学习题单。代码保留了不同学习阶段的写法，阅读具体实现时可以对照原题与注释。\n\n## 学习入口\n\n- [算法知识地图与专题](templates/README.md)：按算法大类寻找模板、示例和练习。\n- [算法学习题单](docs/算法学习题单.md)：从知识点找到对应题目和仓库代码。\n- [洛谷及其他 OJ 练习代码](洛谷/code/)：按题号查找个人刷题存档。\n- [比赛与训练记录](洛谷/练习赛/)：保留训练过程中的代码。\n\n## 仓库结构\n\n| 目录 | 内容 |\n| --- | --- |\n| [`templates/`](templates/README.md) | 图论、树上问题、字符串、数据结构等算法专题 |\n| [`洛谷/code/`](洛谷/code/) | 洛谷及其他 OJ 的练习代码存档 |\n| [`洛谷/练习赛/`](洛谷/练习赛/) | 比赛与专题训练记录 |\n| [`docs/`](docs/) | 算法学习题单和整理资料 |\n\n## 如何使用\n\n- **按算法学习**：从[知识地图](templates/README.md)进入专题，阅读模板与示例，再在[算法学习题单](docs/算法学习题单.md)中找对应练习题和代码。\n- **按题号查代码**：在 [`洛谷/code/`](洛谷/code/) 搜索 `Pxxxx`、`CFxxxx`、`HDUxxxx` 等编号；同题多个保留实现使用 `_2`、`_3` 等后缀。\n\n模板文件可以用中文说明算法；练习代码以 OJ 编号命名。题目与知识点的关系由专题导航和题单维护，文件名不承担题解说明。\n\n<details>\n<summary>我的学习经历（原 README）</summary>\n\n欢迎访问我的算法仓库\n\n这里面包括我的算法模板和练习题目\n\n简单的介绍一下我的学习过程吧（如果你感兴趣的话）。\n我是大一结束分流进入到了计算机学院，在放暑假之前，我们学院有个夏季实训，中间有一个程序设计比赛，那个时候，我第一次接触到了算法（在此之前，我基本上就没有搞过什么编程，当时觉得编程就是一个好高大上的东西）。我在准备这个比赛的时候（大一只学过C语言，而且还是第一学期学的，到了暑假前已经忘光了。不过这个比赛也没什么，但是当时太年轻还觉得挺重要的，哈哈哈），那个时候我做到了一个博弈论的题目，我当时很好奇啊，然后上网搜了一下，看到了左神的视频，从此，一个大门，一个新世界的大门就这样被打开了（真的，你敢想，一个几乎就是零基础的人第一个学的算法竟然是博弈论，没人引路就是这样，不过在此之后就不是了）。\n\n我在那个暑假里面开始认真学起了算法，当时的我是一个什么状况呢",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 66,
+        "first_at": "2025-12-19T08:55:35+00:00",
+        "last_at": "2026-09-16T16:07:24+00:00",
+        "active_days": 41,
+        "span_days": 271,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.061,
+        "messages_sample": [
+          "chore: normalize text files to utf-8",
+          "chore: remove unnecessary repository files",
+          "docs: build algorithm learning navigation",
+          "chore: normalize template exercise filenames",
+          "docs: build initial algorithm practice list",
+          "chore: standardize solution filenames by OJ",
+          "docs: add source links to solution archive",
+          "chore: resolve solution archive review items",
+          "chore: clean up Luogu solution archive",
+          "docs: organize algorithm learning module",
+          "Add 6 new algorithm solutions (P10659–P9358)",
+          "Add C++ contest solutions",
+          "Add KD-tree solutions for multiple Luogu tasks",
+          "Add KD-tree solutions and ICPC problem codes",
+          "Merge branch 'master' of https://github.com/u-wyh/algorithm",
+          "Add 2026 Baidu Star contest solution set",
+          "Merge branch 'master' of https://github.com/u-wyh/algorithm",
+          "Add 20260819 contest solutions",
+          "Merge branch 'master' of https://github.com/u-wyh/algorithm",
+          "Add 洛谷 problem solutions and resources"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4082
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 7,728,951 bytes (91% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 695,302 bytes (8% of repo)",
+          "strength": 0.48214065515991983
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 40,520 bytes (0% of repo)",
+          "strength": 0.40478689741591417
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/templates练习题命名候选清单.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8464773,
+        "strong_skills": [
+          "c-cpp",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "PersonalCoder",
+      "full_name": "u-wyh/PersonalCoder",
+      "html_url": "https://github.com/u-wyh/PersonalCoder",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-25T05:10:54Z",
+      "pushed_at": "2026-08-27T02:29:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3694,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 449298,
+        "C++": 11783
+      },
+      "primary_language": "Python",
+      "file_count": 506,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "README.md",
+        "benchmark",
+        "configs",
+        "instruction_sft",
+        "requirements.txt",
+        "scripts"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "bitsandbytes",
+          "datasets",
+          "peft",
+          "torch",
+          "transformers",
+          "trl"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 961,
+      "readme_excerpt": "# PersonalCoder\n\nPersonalCoder 是一个基于小型代码大模型和 QLoRA 的个性化算法代码生成模型，目标是学习个人 C++ 竞赛代码风格和算法实现习惯。\n\n## 环境检查\n\n安装核心依赖后，运行：\n\n```bash\npython scripts/check_env.py\n```\n\n脚本会输出 Python、PyTorch、CUDA、GPU 以及训练相关核心包的版本和状态。若 CUDA 不可用，脚本会清晰报错并以非零状态退出，但不会修改任何系统配置。\n\n## Model smoke test\n\n模型固定从 `/data/PersonalCoder/model` 加载。确认本地模型文件完整后，运行 4-bit NF4 推理测试：\n\n```bash\nsource .venv/bin/activate\npython scripts/test_model.py\n```\n\n测试设置了 `local_files_only=True`，不依赖 Hugging Face 在线下载。\n\n## 轻薄本：512-token Style LoRA Training\n\n第一版风格 LoRA 使用本地模型和预先划分的 style chunks 数据集：\n\n```bash\nsource .venv/bin/activate\npython scripts/train_style_lora.py\n```\n\n训练 checkpoint 和最终 adapter 保存到 `/data/PersonalCoder/checkpoints/style_lora_v1`，不会提交到项目仓库。\n## RTX 4060：1536-token Style QLoRA\n\n该实验使用独立数据目录和 checkpoint 目录：\n\n```bash\nsource .venv/bin/activate\npython scripts/build_style_chunks_1536.py\npython scripts/train_style_lora_1536.py --config configs/style_lora_1536_v1.json\n```\n\n训练脚本在目标目录非空时会直接拒绝运行，避免覆盖已有 adapter。\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 37,
+        "first_at": "2026-08-25T05:13:30+00:00",
+        "last_at": "2026-08-27T02:28:59+00:00",
+        "active_days": 3,
+        "span_days": 1,
+        "max_per_day": 29,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: diagnose instruction sft v1",
+          "feat: benchmark instruction sft v1",
+          "feat: train instruction sft v1",
+          "feat: acquire real problem statements v1",
+          "feat: build instruction sft dataset v1",
+          "feat: add prompt ablation experiment",
+          "feat: audit and strengthen pilot benchmark",
+          "feat: add benchmark failure and style analysis",
+          "feat: run 30 problem pilot benchmark",
+          "feat: add 30 problem pilot benchmark",
+          "feat: add unified benchmark generation pipeline",
+          "feat: add benchmark evaluation pipeline",
+          "feat: add benchmark judge infrastructure",
+          "feat: add final four model style evaluation",
+          "feat: train style lora v3 with time weighted dataset",
+          "feat: build time weighted style dataset v3",
+          "feat: build time weighted style dataset v2",
+          "feat: unified evaluation for style lora models",
+          "docs: add project agent rules",
+          "Merge remote-tracking branch 'origin/main'"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 75
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 449,298 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 11,783 bytes (3% of repo)",
+          "strength": 0.42555516275882116
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (scripts/test_model.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nlp",
+          "source": "manifest",
+          "detail": "datasets in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "deep-learning",
+          "source": "manifest",
+          "detail": "torch in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 461081,
+        "strong_skills": [
+          "deep-learning",
+          "nlp",
+          "python",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CodeDoctor",
+      "full_name": "u-wyh/CodeDoctor",
+      "html_url": "https://github.com/u-wyh/CodeDoctor",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-15T13:56:29Z",
+      "pushed_at": "2026-08-25T03:53:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 23525,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 850317,
+        "C": 10826,
+        "Makefile": 811,
+        "Dockerfile": 193
+      },
+      "primary_language": "Python",
+      "file_count": 795,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "analysis",
+        "benchmark",
+        "codedoctor",
+        "docs",
+        "examples",
+        "fault_localization",
+        "final_consolidation",
+        "repair",
+        "repair_phase8",
+        "sandbox",
+        "validation_phase9"
+      ],
+      "notable_files": [
+        "sandbox/docker/Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 9500,
+      "readme_excerpt": "# CodeDoctor\n\nCodeDoctor is an **LLM-based Automated Program Repair Framework** for C/C++ programs. It combines fault localization, evidence-bounded LLM repair, controlled execution feedback, and progressively stronger patch validation on the Codeflaws benchmark.\n\n> The core experimental pipeline (Phases 4-9) is frozen. The repository preserves the formal protocols, manifests, result tables, and reproducibility hashes; lightweight checks do not call an LLM API or rerun the expensive formal experiments.\n\n## 核心模块\n\n- **Fault Localization**：基于 gcov line/branch evidence 的 SBFL 与冻结的 FL-v1 tie-breaking。\n- **LLM Repair**：严格区分 Base、FL-v1 与 Runtime Evidence 的单次修复消融。\n- **Execution Feedback**：使用同一 first patch 的 Retry/Feedback 配对比较。\n- **Patch Validation**：V1 repair tests、V2 hidden validation、V3 sanitizer 与 V4 differential validation ladder。\n\n## 环境要求\n\n- Linux\n- Python 3.10 或更高版本（核心控制与测试仅使用 Python 标准库）\n- Docker daemon（运行默认 sandbox 与 sanitizer integration tests）\n- `g++`，支持 C++17（仅 local backend 或直接编译示例时需要）\n\n构建专用镜像后即可运行 Docker smoke；不需要数据库、前后端服务或 LLM credential。\n\n## Quick Demo\n\n通用单程序入口接收一个 C/C++ 源文件和一组 provided tests，依次执行 baseline testing、FL-v1、runtime evidence、DeepSeek repair、patch validation 和 sa",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 21,
+        "first_at": "2026-08-15T14:19:56+00:00",
+        "last_at": "2026-08-25T03:53:09+00:00",
+        "active_days": 5,
+        "span_days": 9,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: add generic single-program repair CLI",
+          "fix: harden frozen artifact reproduction guards",
+          "docs: audit fresh clone reproduction",
+          "docs: consolidate and freeze CodeDoctor experiments",
+          "exp: evaluate patch validation strength and overfitting",
+          "exp: run Phase 8 paired feedback stage",
+          "exp: run Phase 8 initial repair stage",
+          "fix: bound Phase 8 execution evidence prompts",
+          "feat: prepare controlled execution feedback experiment",
+          "exp: run Phase 7 LLM repair evidence ablation",
+          "fix: freeze runtime evidence for repair experiments",
+          "test: validate DeepSeek V4 Flash repair smoke",
+          "test: validate DeepSeek repair smoke pipeline",
+          "feat: prepare DeepSeek repair experiment",
+          "fix: align repair ablation with protocol addendum",
+          "feat: add LLM repair evidence ablation pipeline",
+          "Validate fault localization on independent Codeflaws cases",
+          "Build independent Codeflaws evaluation set",
+          "Freeze fault localization method as fl-v1",
+          "Improve fault localization with branch evidence"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 197
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 850,317 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 10,826 bytes (1% of repo)",
+          "strength": 0.41255702333824745
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (benchmark/tests/__init__.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/DEVELOPMENT_LOG.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (sandbox/docker/Dockerfile)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 862147,
+        "strong_skills": [
+          "docker",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LibrarySystem",
+      "full_name": "u-wyh/LibrarySystem",
+      "html_url": "https://github.com/u-wyh/LibrarySystem",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-05T11:51:59Z",
+      "pushed_at": "2026-08-01T13:14:14Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 277681,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 979078,
+        "TeX": 166242,
+        "JavaScript": 45941,
+        "Python": 17875,
+        "PLpgSQL": 11855,
+        "Makefile": 7172,
+        "Shell": 3853,
+        "PowerShell": 3676,
+        "Batchfile": 355
+      },
+      "primary_language": "Java",
+      "file_count": 512,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "CLAUDE.md",
+        "Makefile",
+        "README.md",
+        "Report",
+        "Report.zip",
+        "docs",
+        "library_opengauss.sql",
+        "pom.xml",
+        "preview",
+        "scripts",
+        "src",
+        "templates",
+        "weapp",
+        "小程序图片.zip",
+        "微信小程序端演示视频（无声版）.zip",
+        "计算机应用大型作业_电子提交材料_20260801.zip"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "commons-dbcp",
+          "commons-fileupload",
+          "jackson-databind",
+          "javax.annotation-api",
+          "javax.servlet-api",
+          "jedis",
+          "jstl",
+          "library",
+          "maven-compiler-plugin",
+          "maven-surefire-plugin",
+          "maven-war-plugin",
+          "mybatis",
+          "mybatis-spring",
+          "opengauss-jdbc",
+          "poi",
+          "poi-ooxml",
+          "spring-beans",
+          "spring-context",
+          "spring-jdbc",
+          "spring-webmvc",
+          "tomcat7-maven-plugin"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2480,
+      "readme_excerpt": "# LibrarySystem\n\n基于 `Spring MVC + MyBatis + JSP + openGauss + Redis + LLM` 的智慧图书管理系统，深度融合 AI Agent 与图书馆业务场景。\n\n## 核心特色\n\n### 🤖 AI 智能助手（ReAct Agent）\n\n内置基于 **LLM Tool Calling + ReAct 循环** 的 AI Agent，读者可通过自然语言完成所有图书操作：\n\n| 能力 | 说明 |\n|---|---|\n| **智能搜索** | 语义级向量检索，理解自然查询意图（如\"帮我找一本操作系统入门书\"）|\n| **借书/还书** | 直接说\"帮我借《XXX》\"或\"还《XXX》\"，自动完成 |\n| **收藏管理** | \"收藏这本书\"或\"查看我的收藏\" |\n| **借阅查询** | \"我借了哪些书\"、\"看看我的借阅\" |\n| **图书荐购** | \"建议购买《XXX》\"— 自动联网搜索补全作者/ISBN/出版社信息 |\n| **个性化推荐** | \"有什么好看的推荐？\"— 基于借阅历史与行为画像生成 |\n| **联网查询** | 查询图书详情时自动联网获取豆瓣/百度百科等站信息 |\n\n> **高可用设计**：AI 服务不可用时，自动 **无缝降级** 到规则匹配模式，核心功能（借/还/搜/推荐）仍可正常使用。\n\n### 📊 个性化图书推荐\n\n基于读者 **借阅历史 + 收藏 + 评分 + 图书分类** 的多维行为数据，生成个性化书单推荐。\n\n### 🧠 语义向量检索\n\n使用文本嵌入（Embedding）技术实现语义级图书搜索，即使查询词与书名不完全匹配，也能找到最相关的馆藏图书。\n\n### 📚 读者信用积分系统\n\n完整的信用管理体系：操作扣分、信用查询、历史记录追踪，培养读者良好借阅习惯。\n\n### 📅 年度阅读报告\n\n自动为每位读者生成年度阅读统计报告（借阅量、偏好分类、阅读趋势等）。\n\n### 📈 统计分析面板\n\n图书馆运营数据可视化：馆藏统计、借阅趋势、读者活跃度等，支持馆长和管理员多维度数据分析。\n\n### 🏆 图书排行榜\n\n基于借阅次数、评分、收藏量等多维度生成图书热度排行榜。\n\n### ⭐ 图书评分与书评\n\n读者可对图书打分、撰写书评，管理员审核后展示。\n\n### 📋 图书预约\n\n热门图书被借出时，读者可预约排队，图书归还后自动通知。\n\n### 📢 消息与通知系统\n\n- **公告管理**：图书馆公告发布、展示\n- **消息系统**：馆员向读者发送催还、通知等消息\n- **通知推送**：逾期提醒、预约到馆通知等\n\n### 👥 多角色权限体系\n\n**四种角色**：超级管理员、馆员、读者、馆长。基于角色-权限的细粒度访问控制。\n\n### 📥 批量导入/导出\n\n| 操作 | 支持格式 | 说明 |\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 6,
+      "contribution_share": 0.406,
+      "commits": {
+        "count": 63,
+        "first_at": "2026-04-04T05:52:29+00:00",
+        "last_at": "2026-08-01T13:13:58+00:00",
+        "active_days": 23,
+        "span_days": 119,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.032,
+        "messages_sample": [
+          "需要提交的电子材料",
+          "提交个人感想",
+          "加入流程图、ER图等",
+          "报告的初版",
+          "适配小程序端",
+          "进展ppt",
+          "功能维护",
+          "增加图书荐购功能",
+          "完成用户兴趣画像",
+          "完成借阅规则配置",
+          "系统稳定性提升",
+          "完成书籍推荐功能，解决了跳转的bug",
+          "添加信息数据，完善馆员端操作",
+          "完成公告功能",
+          "添加任务文档",
+          "Merge remote-tracking branch 'origin/main'",
+          "修复了一些bug",
+          "Merge remote main",
+          "添加访问网段限制",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 190
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 979,078 bytes (79% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 45,941 bytes (4% of repo)",
+          "strength": 0.437167680517003
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 17,875 bytes (1% of repo)",
+          "strength": 0.41446142420150694
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 11,855 bytes (1% of repo)",
+          "strength": 0.4095910592396568
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 7,172 bytes (1% of repo)",
+          "strength": 0.4058023683565431
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 3,853 bytes (0% of repo)",
+          "strength": 0.403117195381729
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 3,676 bytes (0% of repo)",
+          "strength": 0.40297399694348196
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/A同学施工计划.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (library_opengauss.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "redis",
+          "source": "manifest",
+          "detail": "jedis in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-webmvc in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1069450,
+        "strong_skills": [
+          "java",
+          "redis",
+          "spring",
+          "sql",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "MiniOS",
+      "full_name": "u-wyh/MiniOS",
+      "html_url": "https://github.com/u-wyh/MiniOS",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-21T05:00:24Z",
+      "pushed_at": "2026-06-08T08:08:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4202,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 1373610,
+        "C": 239775,
+        "Assembly": 7967,
+        "Makefile": 4422,
+        "Linker Script": 533
+      },
+      "primary_language": "C++",
+      "file_count": 290,
+      "top_level_paths": [
+        ".gitattributes",
+        ".vscode",
+        "phase1",
+        "phase2_kernel_os",
+        "readme.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2752,
+      "readme_excerpt": "# MiniOS 项目前期规划总纲\n\n## 一、项目定位\n\nMiniOS 是一个分阶段推进的教学型操作系统项目，目标不是复刻真实大型操作系统，而是通过亲手实现核心机制，系统性理解计算机科学底层运行逻辑。\n\n核心学习闭环：\n\n* 编译器：程序如何被翻译\n* 操作系统：程序如何被管理与运行\n* 体系结构：程序如何被硬件执行\n\n---\n\n## 二、项目总目标\n\n完成一个具备操作系统核心思想的 MiniOS，逐步实现：\n\n1. 进程/任务管理\n2. 调度系统\n3. 内存管理\n4. 文件系统抽象\n5. Shell 命令系统\n6. 系统调用机制\n7. 中断与时钟驱动（后期）\n8. 裸机内核运行（QEMU）\n\n---\n\n## 三、整体三阶段路线\n\n## Phase 1：用户态 MiniOS（当前起点）\n\n开发环境：Linux（云服务器优先）\n\n目标：先吃透操作系统机制，不纠结硬件细节。\n\n实现内容：\n\n* PCB（进程控制块）\n* READY / RUNNING / BLOCKED 状态机\n* Round Robin 调度器\n* 优先级调度器（进阶）\n* 时间片模拟\n* Semaphore / Mutex\n* 页式内存模拟\n* 简化文件系统\n* Shell（ps / kill / run / mem / top）\n* 日志系统\n\n产出结果：\n\n一个可交互命令行 MiniOS。\n\n---\n\n## Phase 2：裸机 MiniOS（QEMU）\n\n开发环境：Linux 虚拟机（推荐）\n\n目标：理解 OS 与硬件接口。\n\n实现内容：\n\n* Bootloader\n* Kernel Entry\n* VGA 文本输出\n* GDT / IDT\n* Timer Interrupt\n* Keyboard Interrupt\n* 简易任务切换\n* 页表 Paging\n* Syscall 基础机制\n\n产出结果：\n\n在 QEMU 中启动自己的内核。\n\n---\n\n## Phase 3：对照真实 Linux 内核\n\n开发环境：Linux VM / 云服务器均可。\n\n目标：将自己实现的 MiniOS 与工业级系统对照学习。\n\n学习方向：\n\n* 调度器（CFS）\n* 内存管理（Buddy / Slab）\n* VFS\n* System Call Path\n* /proc 与系统统计接口\n* epoll 与事件驱动\n\n产出结果：\n\n理解真实 Linux 内核设计思想。\n\n---\n\n## 四、当前阶段详细规划（Phase 1）\n\n## 第一模块：项目骨架搭建\n\n目录结构建议：\n\n```text\nMiniOS/\n├── include/\n├── src/\n│   ├── kernel/\n│   ├── scheduler/\n│   ├── memory/\n│   ├── fs/\n│   ├── shell/\n│",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 130,
+        "first_at": "2026-04-21T05:04:29+00:00",
+        "last_at": "2026-06-08T08:08:17+00:00",
+        "active_days": 34,
+        "span_days": 48,
+        "max_per_day": 14,
+        "low_effort_message_ratio": 0.015,
+        "messages_sample": [
+          "修改文档内容",
+          "refactor(kernel): remove obsolete top-level user program blobs",
+          "docs(phase2): reorganize docs and freeze phase2 completion state",
+          "docs(test): add phase2 regression checklist",
+          "docs(phase2): summarize fd pipe process pipeline design",
+          "feat(shell): support multistage pipelines",
+          "feat(user): support multistage mini pipeline",
+          "feat(pipe): add pipe object table",
+          "feat(pipe): add blocking pipe skeleton",
+          "feat(user): support left argv in mini pipeline",
+          "feat(user): add mini pipeline command",
+          "refactor(shell): clarify argv parsing for run commands",
+          "test(user): add argv-aware pipeline demo",
+          "feat(exec): support argv passing for exec",
+          "test(user): add pipe fork dup2 exec pipeline demo",
+          "feat(process): preserve fd table across exec",
+          "feat(pipe): clarify pipe close semantics",
+          "test(user): add pipe fork dup2 integration test",
+          "feat(process): inherit fd table across fork",
+          "feat(syscall): add dup2 syscall skeleton"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 83
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 2,
+          "test": 4,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,373,610 bytes (84% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 239,775 bytes (15% of repo)",
+          "strength": 0.5474352628378283
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 4,422 bytes (0% of repo)",
+          "strength": 0.4027190438213695
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (phase2_kernel_os/docs/fd.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1617807,
+        "strong_skills": [
+          "c-cpp",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C++": 9114344,
+    "Python": 1358010,
+    "Java": 979078,
+    "C": 945903,
+    "TeX": 166242,
+    "JavaScript": 45941,
+    "Makefile": 12405,
+    "PLpgSQL": 11855,
+    "Assembly": 7967,
+    "Shell": 3853,
+    "PowerShell": 3676,
+    "Linker Script": 533,
+    "Batchfile": 355,
+    "Dockerfile": 193
+  },
+  "total_commits": 317,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "u-wyh/algorithm",
+        "u-wyh/PersonalCoder",
+        "u-wyh/CodeDoctor",
+        "u-wyh/MiniOS"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 10060247,
+      "commit_count": 254,
+      "first_seen": "2025-12-19T08:55:35+00:00",
+      "last_seen": "2026-09-16T16:07:24+00:00",
+      "details": [
+        "algorithm: C++: 7,728,951 bytes (91% of repo)",
+        "algorithm: C: 695,302 bytes (8% of repo)",
+        "PersonalCoder: C++: 11,783 bytes (3% of repo)",
+        "CodeDoctor: C: 10,826 bytes (1% of repo)",
+        "MiniOS: C++: 1,373,610 bytes (84% of repo)",
+        "MiniOS: C: 239,775 bytes (15% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "u-wyh/algorithm",
+        "u-wyh/PersonalCoder",
+        "u-wyh/CodeDoctor",
+        "u-wyh/LibrarySystem"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1358010,
+      "commit_count": 187,
+      "first_seen": "2025-12-19T08:55:35+00:00",
+      "last_seen": "2026-09-16T16:07:24+00:00",
+      "details": [
+        "algorithm: Python: 40,520 bytes (0% of repo)",
+        "PersonalCoder: Python: 449,298 bytes (97% of repo)",
+        "CodeDoctor: Python: 850,317 bytes (99% of repo)",
+        "LibrarySystem: Python: 17,875 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "u-wyh/LibrarySystem"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 979078,
+      "commit_count": 63,
+      "first_seen": "2026-04-04T05:52:29+00:00",
+      "last_seen": "2026-08-01T13:13:58+00:00",
+      "details": [
+        "LibrarySystem: Java: 979,078 bytes (79% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "u-wyh/PersonalCoder"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 37,
+      "first_seen": "2026-08-25T05:13:30+00:00",
+      "last_seen": "2026-08-27T02:28:59+00:00",
+      "details": [
+        "PersonalCoder: datasets in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "deep-learning",
+      "repos": [
+        "u-wyh/PersonalCoder"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 37,
+      "first_seen": "2026-08-25T05:13:30+00:00",
+      "last_seen": "2026-08-27T02:28:59+00:00",
+      "details": [
+        "PersonalCoder: torch in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "redis",
+      "repos": [
+        "u-wyh/LibrarySystem"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 63,
+      "first_seen": "2026-04-04T05:52:29+00:00",
+      "last_seen": "2026-08-01T13:13:58+00:00",
+      "details": [
+        "LibrarySystem: jedis in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "u-wyh/LibrarySystem"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 63,
+      "first_seen": "2026-04-04T05:52:29+00:00",
+      "last_seen": "2026-08-01T13:13:58+00:00",
+      "details": [
+        "LibrarySystem: spring-webmvc in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "u-wyh/algorithm",
+        "u-wyh/CodeDoctor",
+        "u-wyh/LibrarySystem",
+        "u-wyh/MiniOS"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 280,
+      "first_seen": "2025-12-19T08:55:35+00:00",
+      "last_seen": "2026-09-16T16:07:24+00:00",
+      "details": [
+        "algorithm: docs directory (docs/templates练习题命名候选清单.md)",
+        "CodeDoctor: docs directory (docs/DEVELOPMENT_LOG.md)",
+        "LibrarySystem: docs directory (docs/A同学施工计划.md)",
+        "MiniOS: docs directory (phase2_kernel_os/docs/fd.md)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "u-wyh/PersonalCoder",
+        "u-wyh/CodeDoctor"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 58,
+      "first_seen": "2026-08-15T14:19:56+00:00",
+      "last_seen": "2026-08-27T02:28:59+00:00",
+      "details": [
+        "PersonalCoder: test file (scripts/test_model.py)",
+        "CodeDoctor: test directory (benchmark/tests/__init__.py)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "u-wyh/CodeDoctor"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 21,
+      "first_seen": "2026-08-15T14:19:56+00:00",
+      "last_seen": "2026-08-25T03:53:09+00:00",
+      "details": [
+        "CodeDoctor: Dockerfile (sandbox/docker/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "u-wyh/LibrarySystem"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 63,
+      "first_seen": "2026-04-04T05:52:29+00:00",
+      "last_seen": "2026-08-01T13:13:58+00:00",
+      "details": [
+        "LibrarySystem: SQL file (library_opengauss.sql)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "u-wyh/LibrarySystem"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.437167680517003,
+      "total_bytes": 45941,
+      "commit_count": 63,
+      "first_seen": "2026-04-04T05:52:29+00:00",
+      "last_seen": "2026-08-01T13:13:58+00:00",
+      "details": [
+        "LibrarySystem: JavaScript: 45,941 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "u-wyh/LibrarySystem"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4095910592396568,
+      "total_bytes": 11855,
+      "commit_count": 63,
+      "first_seen": "2026-04-04T05:52:29+00:00",
+      "last_seen": "2026-08-01T13:13:58+00:00",
+      "details": [
+        "LibrarySystem: PLpgSQL: 11,855 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "u-wyh/LibrarySystem",
+        "u-wyh/MiniOS"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4058023683565431,
+      "total_bytes": 19123,
+      "commit_count": 193,
+      "first_seen": "2026-04-04T05:52:29+00:00",
+      "last_seen": "2026-08-01T13:13:58+00:00",
+      "details": [
+        "LibrarySystem: Makefile: 7,172 bytes (1% of repo)",
+        "LibrarySystem: Shell: 3,853 bytes (0% of repo)",
+        "LibrarySystem: PowerShell: 3,676 bytes (0% of repo)",
+        "MiniOS: Makefile: 4,422 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 317,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:30:01.551412+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

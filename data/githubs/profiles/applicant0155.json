@@ -1,0 +1,252 @@
+{
+  "applicant_id": "applicant0155",
+  "login": "nzcharles",
+  "html_url": "https://github.com/nzcharles",
+  "created_at": "2021-01-25T22:25:18Z",
+  "account_age_days": 2060,
+  "public_repos": 16,
+  "followers": 7,
+  "following": 6,
+  "repos": [
+    {
+      "name": "nzcharles.github.io",
+      "full_name": "nzcharles/nzcharles.github.io",
+      "html_url": "https://github.com/nzcharles/nzcharles.github.io",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-08-28T04:37:38Z",
+      "pushed_at": "2021-08-28T22:06:09Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1365,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "SCSS": 48827,
+        "CSS": 35061,
+        "JavaScript": 19882,
+        "HTML": 14260
+      },
+      "primary_language": "SCSS",
+      "file_count": 53,
+      "top_level_paths": [
+        "assets",
+        "images",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2021-08-28T04:38:49+00:00",
+        "last_at": "2021-08-28T22:06:03+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Dimension template",
+          "Update index.html",
+          "Create index.html"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 33
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 48,827 bytes (41% of repo)",
+          "strength": 0.8136829619588241
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 35,061 bytes (30% of repo)",
+          "strength": 0.6970515970515971
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 19,882 bytes (17% of repo)",
+          "strength": 0.5684486994831823
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 14,260 bytes (12% of repo)",
+          "strength": 0.5208167415063967
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 118030,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "SCSS": 48827,
+    "CSS": 35061,
+    "JavaScript": 19882,
+    "HTML": 14260
+  },
+  "total_commits": 3,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "nzcharles/nzcharles.github.io"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8136829619588241,
+      "total_bytes": 98148,
+      "commit_count": 3,
+      "first_seen": "2021-08-28T04:38:49+00:00",
+      "last_seen": "2021-08-28T22:06:03+00:00",
+      "details": [
+        "nzcharles.github.io: SCSS: 48,827 bytes (41% of repo)",
+        "nzcharles.github.io: CSS: 35,061 bytes (30% of repo)",
+        "nzcharles.github.io: HTML: 14,260 bytes (12% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "nzcharles/nzcharles.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5684486994831823,
+      "total_bytes": 19882,
+      "commit_count": 3,
+      "first_seen": "2021-08-28T04:38:49+00:00",
+      "last_seen": "2021-08-28T22:06:03+00:00",
+      "details": [
+        "nzcharles.github.io: JavaScript: 19,882 bytes (17% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 0,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 3,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "readable_repos",
+      "total_commits",
+      "distinct_skills"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3; readable_repos: 0 < 1; total_commits: 3 < 20; distinct_skills: 2 < 3"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:13:13.440843+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3; readable_repos: 0 < 1; total_commits: 3 < 20; distinct_skills: 2 < 3",
+    "fewer than 3 repos mined - thin evidence base"
+  ]
+}

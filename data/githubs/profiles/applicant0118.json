@@ -1,0 +1,811 @@
+{
+  "applicant_id": "applicant0118",
+  "login": "Stallion77RepoOfficial",
+  "html_url": "https://github.com/Stallion77RepoOfficial",
+  "created_at": "2023-11-05T11:29:28Z",
+  "account_age_days": 1046,
+  "public_repos": 58,
+  "followers": 9,
+  "following": 4,
+  "repos": [
+    {
+      "name": "MetalGoose",
+      "full_name": "Stallion77RepoOfficial/MetalGoose",
+      "html_url": "https://github.com/Stallion77RepoOfficial/MetalGoose",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-07T16:05:52Z",
+      "pushed_at": "2026-08-11T13:26:40Z",
+      "stargazers": 172,
+      "forks": 9,
+      "open_issues": 0,
+      "size_kb": 1918,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Swift": 195191,
+        "Metal": 17016
+      },
+      "primary_language": "Swift",
+      "file_count": 36,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "Assets",
+        "Config",
+        "LICENSE",
+        "MetalGoose",
+        "MetalGoose.xcodeproj",
+        "README.md"
+      ],
+      "notable_files": [
+        ".github/workflows/objective-c-xcode.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6250,
+      "readme_excerpt": "<div align=\"center\">\n  <img src=\"Assets/logo.png\" alt=\"MetalGoose Logo\" width=\"128\" height=\"128\">\n  \n  # MetalGoose\n  \n  **GPU-accelerated upscaling and frame generation for macOS**\n  \n  [![macOS](https://img.shields.io/badge/macOS-26.0%2B-blue?logo=apple)](https://www.apple.com/macos/)\n  [![Metal](https://img.shields.io/badge/Metal-4.0-orange?logo=apple)](https://developer.apple.com/metal/)\n  [![License](https://img.shields.io/badge/License-GPL--3.0-green)](LICENSE)\n  [![Swift](https://img.shields.io/badge/Swift-6.4-FA7343?logo=swift)](https://swift.org)\n  \n  [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Requirements](#requirements) • [Building](#building) • [License](#license)\n</div>\n\n---\n\n## Overview\n\nMetalGoose captures a window with ScreenCaptureKit, runs MetalFX spatial\nupscaling and frame generation over the captured frames, and presents the result\nin a borderless overlay pinned to the source window. It works on any window, not\nonly games — anything that renders faster than it is being watched.\n\n## Features\n\n### MGUP-1 Upscaling\n- MetalFX Spatial upscaling with three quality profiles:\n  - **Performance** — Fastest upscaling with minimal latency\n ",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2026-06-15T08:49:26+00:00",
+        "last_at": "2026-08-11T13:26:38+00:00",
+        "active_days": 4,
+        "span_days": 57,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "update",
+          "Refresh repo",
+          "Update README.md",
+          "update",
+          "Update",
+          "Update README.md",
+          "update",
+          "new version tag+updater",
+          "Upload Files"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 195,191 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/objective-c-xcode.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (MetalGoose.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 195191,
+        "strong_skills": [
+          "cicd",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "NetShow",
+      "full_name": "Stallion77RepoOfficial/NetShow",
+      "html_url": "https://github.com/Stallion77RepoOfficial/NetShow",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-05T12:12:19Z",
+      "pushed_at": "2026-07-22T06:21:32Z",
+      "stargazers": 24,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 28,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Python": 10763
+      },
+      "primary_language": "Python",
+      "file_count": 2,
+      "top_level_paths": [
+        "LICENSE",
+        "NetShow.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2023-11-05T15:08:49+00:00",
+        "last_at": "2026-07-22T06:21:32+00:00",
+        "active_days": 6,
+        "span_days": 989,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "update",
+          "update",
+          "Delete README.md",
+          "Fix Errors",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 10,763 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10763,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Mac-Battery-Status",
+      "full_name": "Stallion77RepoOfficial/Mac-Battery-Status",
+      "html_url": "https://github.com/Stallion77RepoOfficial/Mac-Battery-Status",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-15T07:36:45Z",
+      "pushed_at": "2026-07-21T13:46:10Z",
+      "stargazers": 24,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 22,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Python": 2989
+      },
+      "primary_language": "Python",
+      "file_count": 2,
+      "top_level_paths": [
+        "LICENSE",
+        "Mac-Battery-Status.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2023-11-15T07:36:45+00:00",
+        "last_at": "2026-07-21T13:46:09+00:00",
+        "active_days": 4,
+        "span_days": 979,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.875,
+        "messages_sample": [
+          "update",
+          "update",
+          "Delete README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,989 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2989,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AST-YT",
+      "full_name": "Stallion77RepoOfficial/AST-YT",
+      "html_url": "https://github.com/Stallion77RepoOfficial/AST-YT",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-05T15:03:59Z",
+      "pushed_at": "2025-12-20T15:55:25Z",
+      "stargazers": 24,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 26,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Python": 4624
+      },
+      "primary_language": "Python",
+      "file_count": 2,
+      "top_level_paths": [
+        "AST-YT.py",
+        "LICENSE"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2023-11-05T15:03:59+00:00",
+        "last_at": "2025-12-20T15:55:25+00:00",
+        "active_days": 4,
+        "span_days": 776,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.778,
+        "messages_sample": [
+          "Delete README.md",
+          "update",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Delete .gitignore",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 4,624 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4624,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Sort-Unused",
+      "full_name": "Stallion77RepoOfficial/Sort-Unused",
+      "html_url": "https://github.com/Stallion77RepoOfficial/Sort-Unused",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-12-13T07:31:18Z",
+      "pushed_at": "2025-12-20T15:53:01Z",
+      "stargazers": 24,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 25,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Python": 3159
+      },
+      "primary_language": "Python",
+      "file_count": 2,
+      "top_level_paths": [
+        "LICENSE",
+        "sort-unused.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2023-12-13T07:31:19+00:00",
+        "last_at": "2025-12-20T15:53:01+00:00",
+        "active_days": 3,
+        "span_days": 738,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.4,
+        "messages_sample": [
+          "update",
+          "Delete README.md",
+          "Update sort-unused.py",
+          "Update sort-unused.py",
+          "Update sort-unused.py",
+          "Update sort-unused.py",
+          "Update sort-unused.py",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 3,159 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3159,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Swift": 195191,
+    "Python": 21535,
+    "Metal": 17016
+  },
+  "total_commits": 44,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "Stallion77RepoOfficial/NetShow",
+        "Stallion77RepoOfficial/Mac-Battery-Status",
+        "Stallion77RepoOfficial/AST-YT",
+        "Stallion77RepoOfficial/Sort-Unused"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 21535,
+      "commit_count": 35,
+      "first_seen": "2023-11-05T15:03:59+00:00",
+      "last_seen": "2026-07-22T06:21:32+00:00",
+      "details": [
+        "NetShow: Python: 10,763 bytes (100% of repo)",
+        "Mac-Battery-Status: Python: 2,989 bytes (100% of repo)",
+        "AST-YT: Python: 4,624 bytes (100% of repo)",
+        "Sort-Unused: Python: 3,159 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Stallion77RepoOfficial/MetalGoose"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 195191,
+      "commit_count": 9,
+      "first_seen": "2026-06-15T08:49:26+00:00",
+      "last_seen": "2026-08-11T13:26:38+00:00",
+      "details": [
+        "MetalGoose: Swift: 195,191 bytes (92% of repo)",
+        "MetalGoose: iOS project (MetalGoose.xcodeproj/project.pbxproj)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Stallion77RepoOfficial/MetalGoose"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2026-06-15T08:49:26+00:00",
+      "last_seen": "2026-08-11T13:26:38+00:00",
+      "details": [
+        "MetalGoose: GitHub Actions workflow (.github/workflows/objective-c-xcode.yml)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 44,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:30:27.070070+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

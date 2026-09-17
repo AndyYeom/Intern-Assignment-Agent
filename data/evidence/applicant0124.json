@@ -1,0 +1,754 @@
+{
+  "applicant_id": "applicant0124",
+  "github_login": "Kh3rwa1",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0124.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/anything",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+        "https://github.com/Kh3rwa1/olitunapp"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "GitHub Actions workflow (.github/workflows/production.yml)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/olitunapp",
+          "html_url": "https://github.com/Kh3rwa1/olitunapp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/build-apk.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "database migrations (database/migrations/2025_01_01_000000_create_game_system_tables.php)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "drizzle-orm in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/olitunapp"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/olitunapp",
+          "html_url": "https://github.com/Kh3rwa1/olitunapp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "Dart: 7,248,123 bytes (83% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/annapurna-pdf-helper"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "HTML: 1,400,888 bytes (65% of repo)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/annapurna-pdf-helper",
+          "html_url": "https://github.com/Kh3rwa1/annapurna-pdf-helper",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "CSS: 19,248 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "integration-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/anything",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "e2e suite (apps/web/e2e/admin.spec.ts)",
+            "@playwright/test in package.json"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "e2e suite (playwright.config.ts)",
+            "@playwright/test in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/olitunapp"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/olitunapp",
+          "html_url": "https://github.com/Kh3rwa1/olitunapp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "JavaScript: 1,413,974 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "kubernetes manifests (k8s/configmap.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/anything",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+        "https://github.com/Kh3rwa1/annapurna-pdf-helper"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "server config (.docker/nginx.conf)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "env config (.env.example)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "env config (.env.example)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/annapurna-pdf-helper",
+          "html_url": "https://github.com/Kh3rwa1/annapurna-pdf-helper",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "env config (backend/.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "monitoring",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "monitoring config (monitoring/grafana/rfid-dashboard.json)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/anything",
+        "https://github.com/Kh3rwa1/olitunapp"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "Android app manifest (apps/mobile/android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/olitunapp",
+          "html_url": "https://github.com/Kh3rwa1/olitunapp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/anything"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "next config (apps/web/next.config.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "@types/express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "postgresql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "@types/pg in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "react-native",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/anything"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "@testing-library/react-native in package.json"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "React Native bundler config (apps/mobile/metro.config.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "redis",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "@types/ioredis in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+        "https://github.com/Kh3rwa1/olitunapp"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "SQL file (drizzle/0000_baseline.sql)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/olitunapp",
+          "html_url": "https://github.com/Kh3rwa1/olitunapp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "SQL file (database/schema.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/anything",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "tailwind config (apps/mobile/tailwind.config.js)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+        "https://github.com/Kh3rwa1/olitunapp"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "docs directory (docs/ACADEMIC_CALENDAR_GUIDE.md)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/olitunapp",
+          "html_url": "https://github.com/Kh3rwa1/olitunapp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "docs directory (docs/ACCESSIBILITY.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/anything",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+        "https://github.com/Kh3rwa1/annapurna-pdf-helper"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "TypeScript: 346,636 bytes (16% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "TypeScript: 853,584 bytes (93% of repo)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "TypeScript: 2,926,409 bytes (90% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/annapurna-pdf-helper",
+          "html_url": "https://github.com/Kh3rwa1/annapurna-pdf-helper",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "TypeScript: 99,208 bytes (81% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp",
+        "https://github.com/Kh3rwa1/anything",
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+        "https://github.com/Kh3rwa1/olitunapp"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/ArcadiaApp",
+          "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 23 commits; has_ci, has_tests, has_docker, deployed, documented",
+            "test file (.agent/skills/testing-patterns/scripts/test_runner.py)",
+            "@types/jest in package.json"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/anything",
+          "html_url": "https://github.com/Kh3rwa1/anything",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; has_ci, has_tests, documented",
+            "test file (apps/mobile/__create/report-error-to-remote.test.js)"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "test directory (tests/a11yAndMobileUx.test.tsx)",
+            "vitest in package.json"
+          ]
+        },
+        {
+          "repo": "Kh3rwa1/olitunapp",
+          "html_url": "https://github.com/Kh3rwa1/olitunapp",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "test directory (functions/admin-maintenance/test/main.test.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "web-scraping",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "repos": [
+        {
+          "repo": "Kh3rwa1/offline-qr-school-attendance",
+          "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, documented",
+            "@axe-core/playwright in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "python",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kh3rwa1/ArcadiaApp"
+      ]
+    }
+  ],
+  "status_counts": {
+    "verified": 23
+  }
+}

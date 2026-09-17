@@ -1,0 +1,121 @@
+{
+  "github_login": "Aavash232311",
+  "applicant_id": "applicant0130",
+  "first_name": "Ines",
+  "last_name": "Dobrescu",
+  "career_stage": "intern",
+  "email": "ines@marrowcreek.example",
+  "phone": "(555) 010-0130",
+  "location": "Marrow Creek",
+  "linkedin": "linkedin.example.com/in/ines-dobrescu",
+  "github_url": "github.example.com/ines-dobrescu",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Corrigan Institute of Technology",
+    "location": "Marrow Creek",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Statistics",
+    "graduation": "Dec 2026",
+    "gpa": "3.8/4.0",
+    "coursework": [
+      "Software Testing",
+      "Operating Systems",
+      "Applied Statistics",
+      "Machine Learning"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Research Software Assistant",
+      "organization": "Corrigan Research Computing Lab",
+      "location": "Marrow Creek",
+      "start": "Feb 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Debugged inconsistent results across 77 days of model-interpretability experiments before trusting reported phase-transition metrics.",
+        "Wrote pytest checks for a Jupyter-based analysis pipeline after silent data-loading errors skewed an early result."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Pipeline Orchestrator",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "May 2026",
+      "bullets": [
+        "Built a C# and Python pipeline orchestrator packaged with Docker, coordinating data steps across 70 files."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "Jupyter Notebook",
+        "Python"
+      ]
+    },
+    {
+      "title": "ASP.NET Web API Authorization With Identity Framework",
+      "organization": null,
+      "location": null,
+      "start": "May 2024",
+      "end": "May 2024",
+      "bullets": [
+        "Implemented role-based authorization and email verification in an ASP.NET Identity reference project to study secure auth flows."
+      ],
+      "link": null,
+      "tech": [
+        "C#"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Study Group Organizer",
+      "organization": "Corrigan Testing Interest Group",
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Present",
+      "bullets": [
+        "Started a weekly group reviewing classmates' bug reports, pushing for reproducible steps before debugging began."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "C#",
+      "TypeScript",
+      "SQL"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Visualization"
+    ],
+    "AI/ML": [
+      "Deep Learning",
+      "Computer Vision",
+      "Machine Learning",
+      "Natural Language Processing"
+    ],
+    "DevOps": [
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

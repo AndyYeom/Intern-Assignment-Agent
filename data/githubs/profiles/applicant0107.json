@@ -1,0 +1,1525 @@
+{
+  "applicant_id": "applicant0107",
+  "login": "GaudRavi93",
+  "html_url": "https://github.com/GaudRavi93",
+  "created_at": "2022-09-24T06:23:58Z",
+  "account_age_days": 1453,
+  "public_repos": 19,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "medical-visual-main",
+      "full_name": "GaudRavi93/medical-visual-main",
+      "html_url": "https://github.com/GaudRavi93/medical-visual-main",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-24T04:58:13Z",
+      "pushed_at": "2026-09-17T01:10:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 55897,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 50563,
+        "TypeScript": 40857,
+        "SCSS": 7145
+      },
+      "primary_language": "HTML",
+      "file_count": 187,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitignore",
+        ".prettierrc",
+        ".vscode",
+        "README.md",
+        "angular.json",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular/animations",
+          "@angular/cdk",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/material",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/platform-server",
+          "@angular/router",
+          "@angular/ssr",
+          "@types/express",
+          "@types/jasmine",
+          "@types/node",
+          "autoprefixer",
+          "express",
+          "jasmine-core",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "ngx-cookie-service",
+          "postcss",
+          "prettier",
+          "rxjs",
+          "swiper",
+          "tailwindcss",
+          "tslib",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1480,
+      "readme_excerpt": "# MedicalVisualMain\n\nThis project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.\n\n## Development server\n\nTo start a local development server, run:\n\n```bash\nng serve\n```\n\nOnce the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.\n\n## Code scaffolding\n\nAngular CLI includes powerful code scaffolding tools. To generate a new component, run:\n\n```bash\nng generate component component-name\n```\n\nFor a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:\n\n```bash\nng generate --help\n```\n\n## Building\n\nTo build the project run:\n\n```bash\nng build\n```\n\nThis will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.\n\n## Running unit tests\n\nTo execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:\n\n```bash\nng test\n```\n\n## Running end-to-end tests\n\nFor end-to-end (e2e) testing, run:\n\n```bash\nng e2e\n```\n\nAngular CLI does not come with an end-to-",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 43
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 50,563 bytes (51% of repo)",
+          "strength": 0.9129914269771218
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 40,857 bytes (41% of repo)",
+          "strength": 0.8145183381524883
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 7,145 bytes (7% of repo)",
+          "strength": 0.4724902348703901
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@types/express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 98565,
+        "strong_skills": [
+          "html-css",
+          "nodejs",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ionic-unity",
+      "full_name": "GaudRavi93/ionic-unity",
+      "html_url": "https://github.com/GaudRavi93/ionic-unity",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-29T09:51:41Z",
+      "pushed_at": "2026-09-17T01:09:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 357396,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 538133248,
+        "C": 85608501,
+        "CMake": 120274,
+        "HTML": 76980,
+        "Java": 7910,
+        "TypeScript": 6782,
+        "Swift": 3653,
+        "SCSS": 1872,
+        "Ruby": 920
+      },
+      "primary_language": "C++",
+      "file_count": 4608,
+      "top_level_paths": [
+        ".browserslistrc",
+        ".editorconfig",
+        ".eslintrc.json",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "android",
+        "angular.json",
+        "capacitor.config.ts",
+        "ionic.config.json",
+        "ios",
+        "karma.conf.js",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json",
+        "unity"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle",
+        "package.json",
+        "unity/ArTreasureHuntLibrary/build.gradle",
+        "unity/ArTreasureHuntLibrary/launcher/build.gradle",
+        "unity/ArTreasureHuntLibrary/unityLibrary/FirebaseApp.androidlib/build.gradle",
+        "unity/ArTreasureHuntLibrary/unityLibrary/build.gradle",
+        "unity/ArTreasureHuntLibrary/unityLibrary/xrmanifest.androidlib/build.gradle"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular-eslint/builder",
+          "@angular-eslint/eslint-plugin",
+          "@angular-eslint/eslint-plugin-template",
+          "@angular-eslint/schematics",
+          "@angular-eslint/template-parser",
+          "@angular/animations",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/language-service",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@capacitor/android",
+          "@capacitor/app",
+          "@capacitor/cli",
+          "@capacitor/core",
+          "@capacitor/haptics",
+          "@capacitor/ios",
+          "@capacitor/keyboard",
+          "@capacitor/status-bar",
+          "@ionic/angular",
+          "@ionic/angular-toolkit",
+          "@types/jasmine",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "eslint",
+          "eslint-plugin-import",
+          "eslint-plugin-jsdoc",
+          "eslint-plugin-prefer-arrow",
+          "ionicons",
+          "jasmine-core",
+          "jasmine-spec-reporter",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "rxjs",
+          "tslib",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1879,
+      "readme_excerpt": "# Ionic + Unity Integration Guide\n\n### 1. Create Ionic Angular Application\n```bash\nionic start\n```\n\n### 2. Add Android Platform in Ionic Application\n```bash\nnpm install @capacitor/android\nnpx cap add android\n```\n\n### 3. Add Unity Project\nPlace the Unity project inside a folder named `unity`.\n\n### 4. Create Bridge for Unity → Ionic → Android\nCreate a new Java class named **UnityPlugin** under `MainActivity`.\n\n---\n\n## Unity Plugin Setup\n\n### UnityPlugin.java\n```java\npackage io.ionic.starter;\n\nimport com.getcapacitor.Plugin;\nimport com.getcapacitor.JSObject;\nimport com.getcapacitor.PluginCall;\nimport com.getcapacitor.PluginMethod;\nimport com.getcapacitor.annotation.CapacitorPlugin;\n\n@CapacitorPlugin(name = \"Unity\")\npublic class UnityPlugin extends Plugin {\n    @PluginMethod()\n    public void echo(PluginCall call) {\n        String value = call.getString(\"value\");\n        JSObject ret = new JSObject();\n        ret.put(\"value\", value);\n        call.resolve(ret);\n    }\n}\n```\n\n---\n\n### Register Plugin in MainActivity.java\n```java\npackage io.ionic.starter;\n\nimport android.os.Bundle;\nimport com.getcapacitor.BridgeActivity;\n\npublic class MainActivity extends BridgeActivity {\n    @Override\n   ",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2305
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 538,133,248 bytes (86% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 85,608,501 bytes (14% of repo)",
+          "strength": 0.5372018747864247
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 76,980 bytes (0% of repo)",
+          "strength": 0.40012337326547814
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 7,910 bytes (0% of repo)",
+          "strength": 0.4000126770918412
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 6,782 bytes (0% of repo)",
+          "strength": 0.400010869284054
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 3,653 bytes (0% of repo)",
+          "strength": 0.40000585454064425
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 1,872 bytes (0% of repo)",
+          "strength": 0.40000300019164686
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 623838946,
+        "strong_skills": [
+          "c-cpp",
+          "native-mobile",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "angular-frontend",
+      "full_name": "GaudRavi93/angular-frontend",
+      "html_url": "https://github.com/GaudRavi93/angular-frontend",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-06-08T03:49:19Z",
+      "pushed_at": "2023-08-03T06:51:57Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7770,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "CSS": 368834,
+        "TypeScript": 49914,
+        "HTML": 36831,
+        "SCSS": 15810,
+        "JavaScript": 1422
+      },
+      "primary_language": "CSS",
+      "file_count": 150,
+      "top_level_paths": [
+        ".browserslistrc",
+        ".editorconfig",
+        ".eslintrc.json",
+        ".gitignore",
+        "CHANGELOG.md",
+        "LICENSE.md",
+        "README.md",
+        "angular.json",
+        "karma.conf.js",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular-eslint/builder",
+          "@angular-eslint/eslint-plugin",
+          "@angular-eslint/eslint-plugin-template",
+          "@angular-eslint/schematics",
+          "@angular-eslint/template-parser",
+          "@angular/animations",
+          "@angular/cdk",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/fire",
+          "@angular/forms",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@auth0/angular-jwt",
+          "@types/jasmine",
+          "@types/node",
+          "@typescript-eslint/parser",
+          "chart.js",
+          "eslint",
+          "firebase",
+          "jasmine-core",
+          "jwt-decode",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "primeflex",
+          "primeicons",
+          "primeng",
+          "quill",
+          "rxjs",
+          "tslib",
+          "typescript",
+          "web-animations-js",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 249,
+      "readme_excerpt": "When switch default topbar to topbar-v2\n    - remove v2 css from style.css when using default topbar\n    - in core.component.ts uncomment code according to your requirement.\n    - in core.component.html uncomment code according to your requirement.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2023-06-08T03:53:08+00:00",
+        "last_at": "2023-06-13T08:53:59+00:00",
+        "active_days": 4,
+        "span_days": 5,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.091,
+        "messages_sample": [
+          "added auth guard and auto login",
+          "added topbar version 2",
+          "add demo reactive form",
+          "restructure project 2",
+          "restructure project 1",
+          "add missing files",
+          "optimize layout component",
+          "add dark mode",
+          "add missing files",
+          "basic setup done",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 79
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 1,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 368,834 bytes (78% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 49,914 bytes (11% of repo)",
+          "strength": 0.5055686098673677
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 36,831 bytes (8% of repo)",
+          "strength": 0.4778979338467168
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 15,810 bytes (3% of repo)",
+          "strength": 0.43343830833039
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,422 bytes (0% of repo)",
+          "strength": 0.403007544240722
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "chart.js in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 472811,
+        "strong_skills": [
+          "data-viz",
+          "gcp-azure",
+          "html-css",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "firebase-ssr-hosting",
+      "full_name": "GaudRavi93/firebase-ssr-hosting",
+      "html_url": "https://github.com/GaudRavi93/firebase-ssr-hosting",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-13T04:59:18Z",
+      "pushed_at": "2024-12-13T06:15:51Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2654,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 17529,
+        "TypeScript": 12609,
+        "SCSS": 10619,
+        "JavaScript": 159
+      },
+      "primary_language": "HTML",
+      "file_count": 55,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "angular.json",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular/animations",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/platform-server",
+          "@angular/router",
+          "@angular/ssr",
+          "@ngx-popovers/dialog",
+          "@ngx-popovers/tooltip",
+          "@types/express",
+          "@types/jasmine",
+          "@types/node",
+          "autoprefixer",
+          "express",
+          "jasmine-core",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "postcss",
+          "prettier",
+          "rxjs",
+          "swiper",
+          "tailwindcss",
+          "tslib",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1481,
+      "readme_excerpt": "# FirebaseSsrHosting\n\nThis project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.\n\n## Development server\n\nTo start a local development server, run:\n\n```bash\nng serve\n```\n\nOnce the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.\n\n## Code scaffolding\n\nAngular CLI includes powerful code scaffolding tools. To generate a new component, run:\n\n```bash\nng generate component component-name\n```\n\nFor a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:\n\n```bash\nng generate --help\n```\n\n## Building\n\nTo build the project run:\n\n```bash\nng build\n```\n\nThis will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.\n\n## Running unit tests\n\nTo execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:\n\n```bash\nng test\n```\n\n## Running end-to-end tests\n\nFor end-to-end (e2e) testing, run:\n\n```bash\nng e2e\n```\n\nAngular CLI does not come with an end-to",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 31
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 17,529 bytes (43% of repo)",
+          "strength": 0.8284143122494867
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 12,609 bytes (31% of repo)",
+          "strength": 0.7081679538566821
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 10,619 bytes (26% of repo)",
+          "strength": 0.659531723531137
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "repo_name",
+          "detail": "'firebase' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@types/express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 40916,
+        "strong_skills": [
+          "html-css",
+          "nodejs",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ionic-setup-project",
+      "full_name": "GaudRavi93/ionic-setup-project",
+      "html_url": "https://github.com/GaudRavi93/ionic-setup-project",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-06-02T11:46:46Z",
+      "pushed_at": "2026-09-17T01:09:33Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1000,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 26520,
+        "SCSS": 14655,
+        "HTML": 5805,
+        "Java": 1296
+      },
+      "primary_language": "TypeScript",
+      "file_count": 148,
+      "top_level_paths": [
+        ".browserslistrc",
+        ".editorconfig",
+        ".eslintrc.json",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "Readme.txt",
+        "android",
+        "angular.json",
+        "capacitor.config.ts",
+        "ionic.config.json",
+        "karma.conf.js",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular-eslint/builder",
+          "@angular-eslint/eslint-plugin",
+          "@angular-eslint/eslint-plugin-template",
+          "@angular-eslint/schematics",
+          "@angular-eslint/template-parser",
+          "@angular/animations",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/fire",
+          "@angular/forms",
+          "@angular/language-service",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@capacitor/android",
+          "@capacitor/app",
+          "@capacitor/cli",
+          "@capacitor/core",
+          "@capacitor/haptics",
+          "@capacitor/keyboard",
+          "@capacitor/status-bar",
+          "@ionic/angular",
+          "@ionic/angular-toolkit",
+          "@types/jasmine",
+          "@types/node",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "bootstrap",
+          "eslint",
+          "eslint-plugin-import",
+          "eslint-plugin-jsdoc",
+          "eslint-plugin-prefer-arrow",
+          "firebase",
+          "ionicons",
+          "jasmine-core",
+          "jasmine-spec-reporter",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-coverage-istanbul-reporter",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "primeicons",
+          "primeng",
+          "rxjs",
+          "ts-node",
+          "tslib",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 21,
+      "readme_excerpt": "# ionic-setup-project",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.5,
+      "commits": {
+        "count": 1,
+        "first_at": "2023-06-02T11:46:47+00:00",
+        "last_at": "2023-06-02T11:46:47+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 57
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 26,520 bytes (55% of repo)",
+          "strength": 0.9493412875963212
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 14,655 bytes (30% of repo)",
+          "strength": 0.7035669898086006
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,805 bytes (12% of repo)",
+          "strength": 0.5202460850111857
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,296 bytes (3% of repo)",
+          "strength": 0.42684563758389266
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 48276,
+        "strong_skills": [
+          "gcp-azure",
+          "html-css",
+          "native-mobile",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C++": 538133248,
+    "C": 85608501,
+    "CSS": 368834,
+    "HTML": 187708,
+    "TypeScript": 136682,
+    "CMake": 120274,
+    "SCSS": 50101,
+    "Java": 9206,
+    "Swift": 3653,
+    "JavaScript": 1581,
+    "Ruby": 920
+  },
+  "total_commits": 12,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "GaudRavi93/medical-visual-main",
+        "GaudRavi93/ionic-unity",
+        "GaudRavi93/angular-frontend",
+        "GaudRavi93/firebase-ssr-hosting",
+        "GaudRavi93/ionic-setup-project"
+      ],
+      "signal_count": 11,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 606643,
+      "commit_count": 12,
+      "first_seen": "2023-06-02T11:46:47+00:00",
+      "last_seen": "2023-06-13T08:53:59+00:00",
+      "details": [
+        "medical-visual-main: HTML: 50,563 bytes (51% of repo)",
+        "medical-visual-main: SCSS: 7,145 bytes (7% of repo)",
+        "ionic-unity: HTML: 76,980 bytes (0% of repo)",
+        "ionic-unity: SCSS: 1,872 bytes (0% of repo)",
+        "angular-frontend: CSS: 368,834 bytes (78% of repo)",
+        "angular-frontend: HTML: 36,831 bytes (8% of repo)",
+        "angular-frontend: SCSS: 15,810 bytes (3% of repo)",
+        "firebase-ssr-hosting: HTML: 17,529 bytes (43% of repo)",
+        "firebase-ssr-hosting: SCSS: 10,619 bytes (26% of repo)",
+        "ionic-setup-project: SCSS: 14,655 bytes (30% of repo)",
+        "ionic-setup-project: HTML: 5,805 bytes (12% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "GaudRavi93/ionic-unity"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 623741749,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "ionic-unity: C++: 538,133,248 bytes (86% of repo)",
+        "ionic-unity: C: 85,608,501 bytes (14% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "GaudRavi93/medical-visual-main",
+        "GaudRavi93/ionic-unity",
+        "GaudRavi93/angular-frontend",
+        "GaudRavi93/firebase-ssr-hosting",
+        "GaudRavi93/ionic-setup-project"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9493412875963212,
+      "total_bytes": 136682,
+      "commit_count": 12,
+      "first_seen": "2023-06-02T11:46:47+00:00",
+      "last_seen": "2023-06-13T08:53:59+00:00",
+      "details": [
+        "medical-visual-main: TypeScript: 40,857 bytes (41% of repo)",
+        "medical-visual-main: typescript in package.json",
+        "ionic-unity: TypeScript: 6,782 bytes (0% of repo)",
+        "ionic-unity: typescript in package.json",
+        "angular-frontend: TypeScript: 49,914 bytes (11% of repo)",
+        "angular-frontend: typescript in package.json",
+        "firebase-ssr-hosting: TypeScript: 12,609 bytes (31% of repo)",
+        "firebase-ssr-hosting: typescript in package.json",
+        "ionic-setup-project: TypeScript: 26,520 bytes (55% of repo)",
+        "ionic-setup-project: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "GaudRavi93/angular-frontend",
+        "GaudRavi93/firebase-ssr-hosting",
+        "GaudRavi93/ionic-setup-project"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2023-06-02T11:46:47+00:00",
+      "last_seen": "2023-06-13T08:53:59+00:00",
+      "details": [
+        "angular-frontend: firebase in package.json",
+        "firebase-ssr-hosting: 'firebase' in repo name/description",
+        "ionic-setup-project: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "GaudRavi93/medical-visual-main",
+        "GaudRavi93/firebase-ssr-hosting"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "medical-visual-main: tailwind config (tailwind.config.js)",
+        "medical-visual-main: tailwindcss in package.json",
+        "firebase-ssr-hosting: tailwind config (tailwind.config.js)",
+        "firebase-ssr-hosting: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "GaudRavi93/medical-visual-main",
+        "GaudRavi93/firebase-ssr-hosting"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "medical-visual-main: @types/express in package.json",
+        "firebase-ssr-hosting: @types/express in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "GaudRavi93/angular-frontend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2023-06-08T03:53:08+00:00",
+      "last_seen": "2023-06-13T08:53:59+00:00",
+      "details": [
+        "angular-frontend: chart.js in package.json"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "GaudRavi93/ionic-unity",
+        "GaudRavi93/ionic-setup-project"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 3653,
+      "commit_count": 1,
+      "first_seen": "2023-06-02T11:46:47+00:00",
+      "last_seen": "2023-06-02T11:46:47+00:00",
+      "details": [
+        "ionic-unity: Swift: 3,653 bytes (0% of repo)",
+        "ionic-unity: Android app manifest (android/app/src/main/AndroidManifest.xml)",
+        "ionic-setup-project: Android app manifest (android/app/src/main/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "GaudRavi93/ionic-unity",
+        "GaudRavi93/ionic-setup-project"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2023-06-02T11:46:47+00:00",
+      "last_seen": "2023-06-02T11:46:47+00:00",
+      "details": [
+        "ionic-unity: test directory (android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java)",
+        "ionic-setup-project: test directory (android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "GaudRavi93/ionic-unity",
+        "GaudRavi93/ionic-setup-project"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.42684563758389266,
+      "total_bytes": 9206,
+      "commit_count": 1,
+      "first_seen": "2023-06-02T11:46:47+00:00",
+      "last_seen": "2023-06-02T11:46:47+00:00",
+      "details": [
+        "ionic-unity: Java: 7,910 bytes (0% of repo)",
+        "ionic-setup-project: Java: 1,296 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "GaudRavi93/angular-frontend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.403007544240722,
+      "total_bytes": 1422,
+      "commit_count": 11,
+      "first_seen": "2023-06-08T03:53:08+00:00",
+      "last_seen": "2023-06-13T08:53:59+00:00",
+      "details": [
+        "angular-frontend: JavaScript: 1,422 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 12,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3; total_commits: 12 < 20"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:26:04.505171+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3; total_commits: 12 < 20"
+  ]
+}

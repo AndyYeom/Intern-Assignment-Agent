@@ -1,0 +1,774 @@
+{
+  "applicant_id": "applicant0080",
+  "login": "kirylkolasau",
+  "html_url": "https://github.com/kirylkolasau",
+  "created_at": "2020-01-31T15:54:04Z",
+  "account_age_days": 2420,
+  "public_repos": 7,
+  "followers": 2,
+  "following": 1,
+  "repos": [
+    {
+      "name": "alltour",
+      "full_name": "kirylkolasau/alltour",
+      "html_url": "https://github.com/kirylkolasau/alltour",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-08-27T22:04:09Z",
+      "pushed_at": "2024-10-05T12:49:02Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 8680,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 88836,
+        "SCSS": 11317,
+        "CSS": 6024,
+        "JavaScript": 996
+      },
+      "primary_language": "HTML",
+      "file_count": 425,
+      "top_level_paths": [
+        "about",
+        "assets",
+        "catalog",
+        "chunk-2BBUAGVI.js",
+        "chunk-33VCKGU7.js",
+        "chunk-52MF2VMY.js",
+        "chunk-7OTL6NVR.js",
+        "chunk-EX3G34QL.js",
+        "chunk-EXV5HHQ6.js",
+        "chunk-FFVWCWV3.js",
+        "chunk-HZCRUJ6F.js",
+        "chunk-JNM4ICJ2.js",
+        "chunk-L74QD55T.js",
+        "chunk-XNSHGMPN.js",
+        "contact",
+        "favicon.ico",
+        "index.csr.html",
+        "index.html",
+        "main-4VLD47BY.js",
+        "media",
+        "polyfills-SCHOHYNV.js",
+        "promotions",
+        "reviews",
+        "styles-KF4HPVOS.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2024-08-27T22:04:10+00:00",
+        "last_at": "2024-10-05T12:48:57+00:00",
+        "active_days": 8,
+        "span_days": 38,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.077,
+        "messages_sample": [
+          "added modal popup, login component",
+          "added popular features top, added ngx-scrolbar",
+          "added responsive",
+          "added responsive",
+          "added responsive",
+          "added mobile menu",
+          "Added footer",
+          "animation + map section",
+          "Add new build",
+          "Add production build",
+          "Added baseHref",
+          "Add production build",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 35
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 88,836 bytes (83% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 11,317 bytes (11% of repo)",
+          "strength": 0.5055956257639518
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,024 bytes (6% of repo)",
+          "strength": 0.45620818676345726
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 107173,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ckeditor5",
+      "full_name": "kirylkolasau/ckeditor5",
+      "html_url": "https://github.com/kirylkolasau/ckeditor5",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-13T15:05:37Z",
+      "pushed_at": "2021-09-27T07:06:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1981,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 20209,
+        "CSS": 10749,
+        "TypeScript": 10156,
+        "HTML": 5170,
+        "SCSS": 150
+      },
+      "primary_language": "JavaScript",
+      "file_count": 110,
+      "top_level_paths": [
+        ".browserslistrc",
+        ".editorconfig",
+        ".gitignore",
+        "README.md",
+        "angular.json",
+        "karma.conf.js",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json"
+      ],
+      "notable_files": [
+        "package.json",
+        "src/app/ckeditor/ckeditor5/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular/animations",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@ckeditor/ckeditor5-angular",
+          "@ckeditor/ckeditor5-mention",
+          "@types/jasmine",
+          "@types/node",
+          "jasmine-core",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "rxjs",
+          "tslib",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 11,
+      "readme_excerpt": "# ckeditor5",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2021-09-13T15:05:38+00:00",
+        "last_at": "2021-09-27T07:06:13+00:00",
+        "active_days": 4,
+        "span_days": 13,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "Add custom plugins",
+          "DAS-30649. [SPIKE] Write custom plugin CKEditor",
+          "Write custom plugin CKEditor",
+          "CKEditor5. Add Source code plugin",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 93
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 20,209 bytes (44% of repo)",
+          "strength": 0.8352198819830297
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 10,749 bytes (23% of repo)",
+          "strength": 0.6314898565706164
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 10,156 bytes (22% of repo)",
+          "strength": 0.6187190420812336
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,170 bytes (11% of repo)",
+          "strength": 0.5113408278416678
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 46434,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "kirylkolasau.github.io",
+      "full_name": "kirylkolasau/kirylkolasau.github.io",
+      "html_url": "https://github.com/kirylkolasau/kirylkolasau.github.io",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-02-16T11:21:24Z",
+      "pushed_at": "2024-07-18T10:17:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 911,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 63640,
+        "CSS": 24622,
+        "JavaScript": 1469
+      },
+      "primary_language": "HTML",
+      "file_count": 17,
+      "top_level_paths": [
+        "css",
+        "docs",
+        "img",
+        "index-full-page.html",
+        "index.html",
+        "js"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 7
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 63,640 bytes (71% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 24,622 bytes (27% of repo)",
+          "strength": 0.6743979226800103
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,469 bytes (2% of repo)",
+          "strength": 0.4163711537818591
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 89731,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "kirylkolasau",
+      "full_name": "kirylkolasau/kirylkolasau",
+      "html_url": "https://github.com/kirylkolasau/kirylkolasau",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-18T14:02:42Z",
+      "pushed_at": "2024-07-18T10:18:30Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 1,
+      "top_level_paths": [
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 284,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2023-09-18T14:02:42+00:00",
+        "last_at": "2024-07-18T10:18:30+00:00",
+        "active_days": 4,
+        "span_days": 303,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": false,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "project_name",
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "HTML": 157646,
+    "CSS": 41395,
+    "JavaScript": 22674,
+    "SCSS": 11467,
+    "TypeScript": 10156
+  },
+  "total_commits": 24,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "kirylkolasau/alltour",
+        "kirylkolasau/ckeditor5",
+        "kirylkolasau/kirylkolasau.github.io"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 210358,
+      "commit_count": 18,
+      "first_seen": "2021-09-13T15:05:38+00:00",
+      "last_seen": "2024-10-05T12:48:57+00:00",
+      "details": [
+        "alltour: HTML: 88,836 bytes (83% of repo)",
+        "alltour: SCSS: 11,317 bytes (11% of repo)",
+        "alltour: CSS: 6,024 bytes (6% of repo)",
+        "ckeditor5: CSS: 10,749 bytes (23% of repo)",
+        "ckeditor5: HTML: 5,170 bytes (11% of repo)",
+        "kirylkolasau.github.io: HTML: 63,640 bytes (71% of repo)",
+        "kirylkolasau.github.io: CSS: 24,622 bytes (27% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "kirylkolasau/ckeditor5"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 10156,
+      "commit_count": 5,
+      "first_seen": "2021-09-13T15:05:38+00:00",
+      "last_seen": "2021-09-27T07:06:13+00:00",
+      "details": [
+        "ckeditor5: TypeScript: 10,156 bytes (22% of repo)",
+        "ckeditor5: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "kirylkolasau/ckeditor5",
+        "kirylkolasau/kirylkolasau.github.io"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8352198819830297,
+      "total_bytes": 21678,
+      "commit_count": 5,
+      "first_seen": "2021-09-13T15:05:38+00:00",
+      "last_seen": "2021-09-27T07:06:13+00:00",
+      "details": [
+        "ckeditor5: JavaScript: 20,209 bytes (44% of repo)",
+        "kirylkolasau.github.io: JavaScript: 1,469 bytes (2% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 24,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:23:36.444997+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3"
+  ]
+}

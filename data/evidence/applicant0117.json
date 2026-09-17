@@ -1,0 +1,143 @@
+{
+  "applicant_id": "applicant0117",
+  "github_login": "NrmeenAraby",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0117.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/NrmeenAraby/FOS-Operating_System",
+        "https://github.com/NrmeenAraby/M7fazty"
+      ],
+      "repos": [
+        {
+          "repo": "NrmeenAraby/FOS-Operating_System",
+          "html_url": "https://github.com/NrmeenAraby/FOS-Operating_System",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "C: 1,179,765 bytes (97% of repo)"
+          ]
+        },
+        {
+          "repo": "NrmeenAraby/M7fazty",
+          "html_url": "https://github.com/NrmeenAraby/M7fazty",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "C++: 194,567 bytes (13% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/NrmeenAraby/Currency_Converter",
+        "https://github.com/NrmeenAraby/ZigZag-Game"
+      ],
+      "repos": [
+        {
+          "repo": "NrmeenAraby/Currency_Converter",
+          "html_url": "https://github.com/NrmeenAraby/Currency_Converter",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: none",
+            "C#: 14,848 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "NrmeenAraby/ZigZag-Game",
+          "html_url": "https://github.com/NrmeenAraby/ZigZag-Game",
+          "level": 1,
+          "reasons": [
+            "entry: 12 commits, independent-work signals: none",
+            "C#: 13,892 bytes (10% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/NrmeenAraby/cyberus_project"
+      ],
+      "repos": [
+        {
+          "repo": "NrmeenAraby/cyberus_project",
+          "html_url": "https://github.com/NrmeenAraby/cyberus_project",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: none",
+            "HTML: 17,166 bytes (50% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/NrmeenAraby/cyberus_project"
+      ],
+      "repos": [
+        {
+          "repo": "NrmeenAraby/cyberus_project",
+          "html_url": "https://github.com/NrmeenAraby/cyberus_project",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: none",
+            "Python: 16,732 bytes (49% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "shell",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/NrmeenAraby/M7fazty"
+      ],
+      "repos": [
+        {
+          "repo": "NrmeenAraby/M7fazty",
+          "html_url": "https://github.com/NrmeenAraby/M7fazty",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Makefile: 740,632 bytes (49% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 4
+  }
+}

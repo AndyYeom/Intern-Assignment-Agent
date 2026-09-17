@@ -1,0 +1,119 @@
+{
+  "github_login": "keanhor2",
+  "applicant_id": "applicant0152",
+  "first_name": "Anders",
+  "last_name": "Kjelsen",
+  "career_stage": "student",
+  "email": "anders@isbrekke.example",
+  "phone": "(555) 010-0152",
+  "location": "Isbrekke",
+  "linkedin": "linkedin.example.com/in/anders-kjelsen",
+  "github_url": "github.example.com/anders-kjelsen",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Fjordane Institute of Technology",
+    "location": "Isbrekke",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "June 2026",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Operating Systems",
+      "Computer Networks",
+      "Web Development"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Madmail",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Sep 2021",
+      "end": "Sep 2026",
+      "bullets": [
+        "Contributed to a self-hosted encrypted mail server written in Go, packaging services with Docker for reproducible deployment.",
+        "Added test coverage around message handling after an early manual test missed an edge case in address parsing."
+      ],
+      "link": null,
+      "tech": [
+        "Go",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Lifestyle App",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Sep 2022",
+      "end": "Oct 2025",
+      "bullets": [
+        "Built a Vue-based lifestyle tracking app, structuring components after an earlier single-file version became hard to navigate."
+      ],
+      "link": null,
+      "tech": [
+        "Vue",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "KHMER FOOD",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jul 2022",
+      "end": "Feb 2026",
+      "bullets": [
+        "Put together a small HTML and CSS site cataloguing family recipes, a low-stakes project for practicing plain markup."
+      ],
+      "link": null,
+      "tech": [
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Server Maintainer",
+      "organization": "Fjordane Homelab Group",
+      "location": null,
+      "start": "Jan 2024",
+      "end": "Present",
+      "bullets": [
+        "Kept a small group of self-hosted services running on a home Kubernetes cluster, writing short runbooks after repeated late-night restarts.",
+        "Learned that clear runbooks mattered more than clever configuration once anyone else needed to fix an outage."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Go",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "Vue"
+    ],
+    "DevOps": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

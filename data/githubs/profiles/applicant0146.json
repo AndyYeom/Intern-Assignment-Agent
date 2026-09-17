@@ -1,0 +1,1748 @@
+{
+  "applicant_id": "applicant0146",
+  "login": "giroklabs",
+  "html_url": "https://github.com/giroklabs",
+  "created_at": "2025-07-16T11:15:46Z",
+  "account_age_days": 427,
+  "public_repos": 14,
+  "followers": 1,
+  "following": 2,
+  "repos": [
+    {
+      "name": "bidsimulator",
+      "full_name": "giroklabs/bidsimulator",
+      "html_url": "https://github.com/giroklabs/bidsimulator",
+      "description": "경매 입찰가격 시뮬레이션으로 최적의 입찰 전략을 수립하세요",
+      "homepage": "https://giroklabs.github.io/bidsimulator/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-10T13:15:41Z",
+      "pushed_at": "2025-12-05T12:24:15Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 14395,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "auction-bidding-simulation-real-estate-investment"
+      ],
+      "languages": {
+        "JavaScript": 474763,
+        "Swift": 175498,
+        "Python": 123910,
+        "HTML": 83135,
+        "CSS": 54886,
+        "Shell": 4483,
+        "Ruby": 578
+      },
+      "primary_language": "JavaScript",
+      "file_count": 6927,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitignore",
+        ".nojekyll",
+        "FIREBASE_SETUP_GUIDE.md",
+        "KAKAO_SETUP.md",
+        "README.md",
+        "SECURITY_CLEANUP.md",
+        "SECURITY_RESOLVED.md",
+        "__pycache__",
+        "advanced_crawler.py",
+        "api_data_collector.py",
+        "app.py",
+        "app_store_content.md",
+        "app_store_screenshots_descriptions.md",
+        "auction_crawler.py",
+        "auction_statistics.json",
+        "auction_statistics.py",
+        "bidcal",
+        "check-storage.js",
+        "cloud-storage-setup.md",
+        "debug-save-load.js",
+        "emergency-fix.js",
+        "excel-data-manager.js",
+        "fix-sale-rate.js",
+        "form-data-manager.js",
+        "github-oauth-setup.md",
+        "github-storage.js",
+        "google-drive-setup.md",
+        "index.html",
+        "kakao-callback.html",
+        "kakao-drive-storage.js",
+        "kakao-login.js",
+        "official_api_integration.py",
+        "real_court_auction_crawler.py",
+        "requirements.txt",
+        "richgo_crawler.py",
+        "script.js",
+        "simple-storage.js",
+        "storage-manager.js",
+        "styles.css"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "apscheduler",
+          "beautifulsoup4",
+          "firebase-admin",
+          "flask",
+          "flask-cors",
+          "html5lib",
+          "lxml",
+          "numpy",
+          "pandas",
+          "requests",
+          "selenium",
+          "urllib3",
+          "webdriver-manager"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2573,
+      "readme_excerpt": "# 🏛️ 경매 입찰가격 시뮬레이션 서비스\n\n> 최적의 경매 입찰가격을 찾아보세요\n\n## 🌐 GitHub Pages 배포\n\n이 프로젝트는 GitHub Pages를 통해 배포되어 전 세계 어디서나 접속 가능합니다.\n\n**🔗 배포 URL:** https://giroklabs.github.io/bidsimulator/\n\n## ✨ 주요 기능\n\n### 📊 시뮬레이션 기능\n- **통합 권장 입찰가격** 계산\n- **낙찰 확률** 분석 (50-60% 목표)\n- **예상 수익률** 계산\n- **리스크 조정 수익률** 분석\n- **모델 신뢰도** 평가\n\n### 💰 비용 계산\n- **사용자 입력 입찰가격 기준** 비용 계산\n- **경매 수수료** (경매 타입별 차등 적용)\n- **등기비용** 및 **세금** 계산\n- **리모델링 비용** 포함\n\n### 📈 분석 도구\n- **입찰가격별 낙찰 확률** 차트\n- **감정가/시세/최저입찰가 대비** 비율 분석\n- **시세 대비 예상 수익** 계산\n- **전략 조언** 제공\n\n### 🏠 매물 관리\n- **매물별 데이터** 저장/불러오기\n- **로컬 스토리지** 활용\n- **매물 정보** 관리\n\n## 🚀 기술 스택\n\n- **Frontend**: HTML5, CSS3, JavaScript (ES6+)\n- **Charts**: Chart.js\n- **Backend**: Python Flask (로컬 개발용)\n- **Storage**: LocalStorage API\n- **Deployment**: GitHub Pages\n\n## 📱 사용 방법\n\n1. **브라우저에서 접속**: https://giroklabs.github.io/bidsimulator/\n2. **경매 정보 입력**: 사건번호, 물건주소, 물건종류 등\n3. **물건조사 정보 입력**: 노후도, 구조, 주차장 등\n4. **시뮬레이션 실행**: \"시뮬레이션 실행\" 버튼 클릭\n5. **결과 분석**: 권장 입찰가격 및 낙찰 확률 확인\n\n## 🔧 로컬 개발 환경\n\n### 필요 조건\n- Python 3.9+\n- 웹 브라우저 (Chrome, Firefox, Safari 등)\n\n### 설치 및 실행\n```bash\n# 저장소 클론\ngit clone https://github.com/giroklabs/bidsimulator.git\ncd bidsimulator\n\n# Flask 백엔드 서버 실행 (선택사항)\npython3 app.py\n\n# HTTP 서버 실",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 121,
+        "first_at": "2025-09-10T13:16:46+00:00",
+        "last_at": "2025-12-05T12:24:13+00:00",
+        "active_days": 11,
+        "span_days": 85,
+        "max_per_day": 34,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "AdMob 배너 광고 통합 및 Info.plist 설정",
+          "앱스토어 업로드용 텍스트 및 스크린샷 설명 추가",
+          "iOS: Add court picker with regional grouping, show recommended bid price in property cards, replace refresh with detail view buttons in simulation/inspection cards",
+          "iOS: Form layout polish (auction date/status row), remove badges, SplashView redesign with square title and MaruBuri-Bold font; Add APIManager; secure .gitignore updates (no API keys)",
+          "feat: Add auction diary view with date grouping and notes",
+          "fix: replace placeholders, RegionData wiring; ensure single GoogleService-Info inclusion",
+          "docs: Security issue resolution documentation",
+          "chore: Add Firebase setup verification script",
+          "docs: Update README with Firebase security warnings",
+          "docs: Add security cleanup guide for Firebase API key exposure",
+          "security: Add .gitignore to protect Firebase credentials",
+          "docs: 프로젝트 README 추가",
+          "feat: 시뮬레이션, 물건조사, 통계 기능 구현",
+          "feat: 경매일기 iOS 앱 초기 구조 구현",
+          "feat: 권장입찰가격 카드에서 계산근거 부분 삭제",
+          "feat: 디버깅 로그 추가로 salePriceRate 오류 추적 지원",
+          "fix: salePriceRate is not defined 오류 해결",
+          "fix: 가격분석 카드 시세대비 입찰가 표시 문제 해결",
+          "feat: 입찰가격별 낙찰확률 그래프 하단에 사용자 입력 입찰가격 분석 추가",
+          "feat: 취득세 계산 낙찰가별 차등 적용으로 수정"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5944
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 474,763 bytes (52% of repo)",
+          "strength": 0.9175922019333815
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 175,498 bytes (19% of repo)",
+          "strength": 0.5913299820224083
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 123,910 bytes (14% of repo)",
+          "strength": 0.5350881381690766
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 83,135 bytes (9% of repo)",
+          "strength": 0.49063475398826717
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 54,886 bytes (6% of repo)",
+          "strength": 0.45983736221086224
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 4,483 bytes (0% of repo)",
+          "strength": 0.40488741928344746
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (bidcal/Podfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "beautifulsoup4 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase-admin in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 916675,
+        "strong_skills": [
+          "flask-fastapi",
+          "gcp-azure",
+          "javascript",
+          "native-mobile",
+          "pandas",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "real-estate",
+      "full_name": "giroklabs/real-estate",
+      "html_url": "https://github.com/giroklabs/real-estate",
+      "description": null,
+      "homepage": "https://aptranking.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-06T13:17:08Z",
+      "pushed_at": "2025-09-19T02:14:57Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 36423,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 41758319,
+        "JavaScript": 220321,
+        "CSS": 78268,
+        "HTML": 14485,
+        "Shell": 11793,
+        "Procfile": 22
+      },
+      "primary_language": "Python",
+      "file_count": 432,
+      "top_level_paths": [
+        ".dockerignore",
+        ".github",
+        ".gitignore",
+        "CLOUDTYPE_CHECKLIST.md",
+        "CLOUDTYPE_DEPLOYMENT.md",
+        "DEPLOYMENT.md",
+        "Dockerfile.backend.prod",
+        "Dockerfile.cloudtype",
+        "ENVIRONMENT_SETUP.md",
+        "FLY_DEPLOYMENT.md",
+        "GITHUB_ACTIONS_README.md",
+        "Icon.svg",
+        "NETWORK_ACCESS.md",
+        "Procfile",
+        "README.md",
+        "SCHEDULE_CHANGE.md",
+        "Subtitle (transparent).svg",
+        "Title (transparent).svg",
+        "UPDATE_SYSTEM_README.md",
+        "anyang_data_collector.py",
+        "api",
+        "api_keys_example.txt",
+        "app.py",
+        "aptranking_logo.svg",
+        "auto-data-collector.service",
+        "auto_data_collector.py",
+        "bucheon_data_collector.py",
+        "cafe24_deploy.md",
+        "cloudtype.toml",
+        "collect_2024_data.py",
+        "collected_data",
+        "crawlers",
+        "create_embedded_data.py",
+        "create_integrated_data.py",
+        "daejeon_data_collector.py",
+        "data_collector.py",
+        "database",
+        "debug_region_mapping.py",
+        "deploy.sh",
+        "deploy_cloudtype.sh"
+      ],
+      "notable_files": [
+        ".github/workflows/cloudtype-auto-deploy.yml",
+        ".github/workflows/daily-data-collection.yml",
+        "api/requirements.txt",
+        "frontend/package.json",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "beautifulsoup4",
+          "flask",
+          "flask-cors",
+          "gunicorn",
+          "numpy",
+          "pandas",
+          "python-dotenv",
+          "requests",
+          "setuptools"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2905,
+      "readme_excerpt": "# 한국 부동산 데이터 분석 웹사이트\n\n부동산통계정보(reb.or.kr)의 Open API를 활용하여 지역별 아파트 거래량과 가격변동률을 분석하는 웹사이트입니다.\n\n## 주요 기능\n\n- 부동산통계정보 Open API 활용\n- 지역별 아파트 실거래가 데이터 수집\n- 가격지수 및 변동률 분석\n- 실시간 데이터 시각화\n- 반응형 웹 인터페이스\n\n## 기술 스택\n\n### Backend\n- Python Flask\n- Requests (API 호출)\n- XML 파싱\n- SQLite (데이터 저장)\n- Pandas (데이터 처리)\n- Gunicorn (프로덕션 서버)\n\n### Frontend\n- React.js\n- Chart.js (데이터 시각화)\n- Axios (API 통신)\n- Custom CSS (스타일링)\n\n### 배포\n- Fly.io (백엔드)\n- Docker 컨테이너\n- GitHub Actions (CI/CD)\n\n## 설치 및 실행\n\n### 1. 로컬 개발 환경\n\n```bash\n# Python 가상환경 생성\npython -m venv venv\nsource venv/bin/activate  # Windows: venv\\Scripts\\activate\n\n# 의존성 설치\npip install -r requirements.txt\n\n# 백엔드 실행\npython app.py\n```\n\n### 2. 프론트엔드 설정\n\n```bash\ncd frontend\n\n# 의존성 설치\nnpm install\n\n# 프론트엔드 실행\nnpm start\n```\n\n## 배포\n\n### Fly.io 배포\n\n#### 자동 배포 (권장)\n```bash\n# 배포 스크립트 실행\n./deploy.sh\n```\n\n#### 수동 배포\n```bash\n# 1. Fly CLI 설치\ncurl -L https://fly.io/install.sh | sh\n\n# 2. 로그인\nfly auth login\n\n# 3. 앱 생성 (최초 1회)\nfly apps create realstate-app --org personal\n\n# 4. 볼륨 생성 (최초 1회)\nfly volumes create realstate_data --size 10 --region nrt\n\n# 5. 환경 변수 설정\nfly secrets set MOBILE_API_KEY=\"your_key\"\nfly secrets set MOBILE_API_SECRET=\"your_secret\"\nfly secrets set REB_API_KEY=\"",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 163,
+        "first_at": "2025-08-06T13:14:35+00:00",
+        "last_at": "2025-09-19T02:14:54+00:00",
+        "active_days": 20,
+        "span_days": 43,
+        "max_per_day": 60,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Fix fear-greed index: 각 도시별 고유한 공포탐욕지수 계산",
+          "chore(backend): unify sqlite connections to DATABASE_PATH env; ensure prod uses mounted DB",
+          "fix(backend): sentiment-index volume fallback (SUM→COUNT) + debug meta; verified locally",
+          "fix(backend): sentiment-index robust month-based calc + fallback to transactions; expand city name patterns (시/특별시/광역시)",
+          "fix(backend): sentiment-index city filter supports 특별시/광역시 prefixes; fix indentation issues",
+          "chore(frontend): remove Seoul Gangnam first-load; uniform Top30 per city; keep anchor-month logic",
+          "feat(frontend): initial month set to anchor month; top/full both use anchor-month when no selection; faster first render",
+          "fix(frontend): force frontend aggregation fallback when backend empty/error; guarantee fallback for Seoul/Daegu on city switch; keep months consistent between top/full; clear region on city change; us",
+          "fix(frontend/rankings): consistent months across top/full; clear region on city switch; use API_BASE_URL everywhere; remove forbidden Accept-Encoding header; anchor-month fallback for frontend aggrega",
+          "feat(frontend/rankings): start with all-period, TOP30 first; fix: request race by sequence guard; fallback: use /api/cities/{city}?fields=min when no city data; chore: rebuild",
+          "fix(rankings): include Special/Metropolitan city labels in city filter (서울특별시/대구광역시 등) to avoid zero results in prod; restart",
+          "feat(rankings): default to anchor month (latest data month) for both city and region queries; fallback to anchor month when multi-month returns 0; verified locally",
+          "fix(rankings): robust month normalization with zero-padding for mixed formats (dash/dot/compact); ensure multi-month queries work in prod",
+          "fix(rankings): route region-only requests to DB with month normalization; chore: local verify",
+          "fix(sentiment): disable HTTP caching on /api/sentiment-index (no-store) to prevent identical values in prod; feat(rankings): auto-adjust months to city availability when switching back to Seoul; chore",
+          "feat(sentiment): show calculation date range on card (window_start~window_end); use v2 endpoint; initial Seoul first-load Gangnam Top50",
+          "feat: 초기 로드 2개월 기본, 부천 시단위 고정표기 및 부천만 지역선택 비활성, 성남 행정구 표기 보강, 가이드에 데이터 출처 표시, months=all 전체기간 처리, /api/collection-period 추가, 프론트 도시 필터 접두어 확장(부천/성남/구리), 기타 버그 수정",
+          "Revert \"feat(frontend): Seoul city-wide Top 50 initial load + sentiment gauge tab; rename stats tab to 그래프/공포탐욕지수\"",
+          "feat(frontend): Seoul city-wide Top 50 initial load + sentiment gauge tab; rename stats tab to 그래프/공포탐욕지수",
+          "perf: server-first Top-N (50) rankings, fields=min city load, ETag/Cache-Control, gzip optimize; default region '서울 강남구'; fix DB rankings query"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 93
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 12,
+          "perf": 2,
+          "refactor": 0,
+          "test": 0,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 41,758,319 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 220,321 bytes (1% of repo)",
+          "strength": 0.40523536608711014
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 78,268 bytes (0% of repo)",
+          "strength": 0.4018598392023726
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 14,485 bytes (0% of repo)",
+          "strength": 0.4003441990449017
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 11,793 bytes (0% of repo)",
+          "strength": 0.4002802305375579
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/cloudtype-auto-deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile.cloudtype)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (frontend/nginx.conf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (frontend/src/App.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "beautifulsoup4 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 42083186,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "flask-fastapi",
+          "linux",
+          "pandas",
+          "python",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "exchangealert",
+      "full_name": "giroklabs/exchangealert",
+      "html_url": "https://github.com/giroklabs/exchangealert",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-20T07:26:55Z",
+      "pushed_at": "2026-09-17T01:21:34Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 247387,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 399837,
+        "JavaScript": 341985,
+        "Swift": 256568,
+        "CSS": 9743,
+        "Shell": 5057,
+        "HTML": 3095,
+        "Ruby": 437,
+        "C": 104
+      },
+      "primary_language": "TypeScript",
+      "file_count": 1429,
+      "top_level_paths": [
+        ".DS_Store",
+        ".github",
+        ".gitignore",
+        ".gitmodules",
+        "AdMob_Policy_Analysis.md",
+        "AdMob_Policy_Compliance_Check.md",
+        "AppIcons-4",
+        "AppIcons-4.zip",
+        "Components",
+        "ExchangeAlert",
+        "ExchangeAlert.xcodeproj",
+        "ExchangeAlertApp.swift",
+        "GoogleService-Info.plist",
+        "IconKitchen-Output-5",
+        "IconKitchen-Output-5.zip",
+        "Managers",
+        "Models",
+        "Podfile",
+        "Podfile.lock",
+        "README-ExchangeRate-API.md",
+        "README-Keyboard-Settings.md",
+        "README-Keyboard.md",
+        "README.md",
+        "README_AdMob.md",
+        "Theme",
+        "Views",
+        "add_settings_bundle.sh",
+        "backup",
+        "c",
+        "commit-message.txt",
+        "data",
+        "exchange_alert",
+        "exchange_alert.xcworkspace",
+        "extract_monthly_data.sh",
+        "macro_alert",
+        "scripts",
+        "watch_changes.sh",
+        "스크린샷"
+      ],
+      "notable_files": [
+        ".github/workflows/alert-fx-spike.yml",
+        ".github/workflows/calculate-weekly-avg.yml",
+        ".github/workflows/daily-backup-archive.yml",
+        ".github/workflows/deploy-dollar-investment.yml",
+        ".github/workflows/fetch-billing.yml",
+        ".github/workflows/fetch-dollar-index.yml",
+        ".github/workflows/fetch-exchange-rates-korea-exim.yml.disabled",
+        ".github/workflows/fetch-exchange-rates-naver.yml",
+        ".github/workflows/fetch-exchangerate-api.yml",
+        ".github/workflows/fetch-fx-history-6m.yml",
+        ".github/workflows/fetch-market-dashboard.yml",
+        ".github/workflows/fetch-news-and-notify.yml",
+        "c/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3438,
+      "readme_excerpt": "<<<<<<< HEAD\n# Exchange Rates Data Repository\n\n이 Repository는 한국수출입은행 API에서 환율 데이터를 자동으로 수집하여 JSON 형식으로 저장합니다.\n\n## 📊 데이터 구조\n\n### exchange-rates.json\n한국수출입은행 API에서 가져온 원본 환율 데이터입니다.\n\n```json\n[\n  {\n    \"result\": 1,\n    \"cur_unit\": \"USD\",\n    \"ttb\": \"1,386.65\",\n    \"tts\": \"1,414.53\",\n    \"deal_bas_r\": \"1,400.60\",\n    \"bkpr\": \"1,400\",\n    \"yy_efee_r\": \"0\",\n    \"ten_dd_efee_r\": \"0\",\n    \"kftc_bkpr\": \"1,400\",\n    \"kftc_deal_bas_r\": \"1,400.6\",\n    \"cur_nm\": \"미국 달러\"\n  }\n]\n```\n\n### last-update.txt\n마지막 업데이트 시간 (KST - 한국 표준시)\n\n```\n2025-09-22T06:30:00Z\n```\n\n## 🔄 업데이트 주기\n\n- **평일**: 매 5분마다 자동 업데이트 (오전 9시 ~ 오후 3시 30분 KST)\n- **주말/공휴일**: API에서 빈 데이터를 반환하므로 업데이트 없음\n- **수동 실행**: GitHub Actions 탭에서 수동으로 실행 가능\n\n## 🚀 사용 방법\n\n### Raw URL로 데이터 조회\n```javascript\nconst response = await fetch('https://raw.githubusercontent.com/your-username/exchange-rates-data/main/data/exchange-rates.json');\nconst data = await response.json();\n```\n\n### CDN 사용 (더 빠른 로딩)\n```javascript\n// jsDelivr CDN 사용\nconst response = await fetch('https://cdn.jsdelivr.net/gh/your-username/exchange-rates-data@main/data/exchange-rates.json');\nconst data = await response.json();\n```\n\n## ⚙️ 설정 방법\n\n### 1. Repository 생성\n1. GitHub에서 새 Repository 생성\n2",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.006,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-03-28T04:50:39+00:00",
+        "last_at": "2026-07-30T14:51:30+00:00",
+        "active_days": 21,
+        "span_days": 124,
+        "max_per_day": 32,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "test: query 101N3, 101WC000, 10100 for night futures",
+          "test: log raw KIS futures response to kis-night-futures.json",
+          "fix: parse KIS futures response fields correctly",
+          "test: fetch live KIS night futures via GitHub Actions secret",
+          "feat: AI 예측 확률 당일 실시간 갱신(덮어쓰기) 로직 추가",
+          "fix: foreigner net buy ID mismatch resolving '-' output",
+          "fix: update workflow to use FIREBASE_SERVICE_ACCOUNT_MACRO secret",
+          "fix: add prediction-history.json to workflow git add step",
+          "Update prediction history data (2026-07-23)",
+          "Update prediction history data (2026-07-23)",
+          "Update prediction history data (2026-07-22)",
+          "fix: Update working directory to c for all workflows",
+          "chore: Track all moved project files in c directory",
+          "fix: Add missing package-lock.json to track dependencies for CI",
+          "fix: Update deploy workflow directory to 'c' and bump Node version",
+          "feat: Phase 1 - Apply Dynamic Thresholds & ECM logic for KOSPI & FX",
+          "Enhance short-term prediction with Regime Switching",
+          "feat: add US 10Y treasury yield alert thresholds",
+          "fix: correct SOX and NQ momentum calculation logic in market dashboard",
+          "fix: Firestore 업데이트 충돌 에러 수정"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 114
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 9,
+          "perf": 0,
+          "refactor": 0,
+          "test": 3,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 399,837 bytes (39% of repo)",
+          "strength": 0.7932206690230187
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 341,985 bytes (34% of repo)",
+          "strength": 0.7363259790760661
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 256,568 bytes (25% of repo)",
+          "strength": 0.6523224229120814
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 9,743 bytes (1% of repo)",
+          "strength": 0.4095817770198638
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 5,057 bytes (0% of repo)",
+          "strength": 0.4049733189355898
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,095 bytes (0% of repo)",
+          "strength": 0.40304378526906276
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/alert-fx-spike.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (ExchangeAlert.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (c/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (c/tailwind.config.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 1016389,
+        "strong_skills": [
+          "cicd",
+          "javascript",
+          "linux",
+          "native-mobile",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "giroklabs.github.io",
+      "full_name": "giroklabs/giroklabs.github.io",
+      "html_url": "https://github.com/giroklabs/giroklabs.github.io",
+      "description": null,
+      "homepage": "https://giroklabs-github-io.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-16T11:16:48Z",
+      "pushed_at": "2026-08-26T05:39:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 1044,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 230356,
+        "HTML": 27529,
+        "Python": 16733,
+        "CSS": 6169,
+        "JavaScript": 1250
+      },
+      "primary_language": "TypeScript",
+      "file_count": 96,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "__pycache__",
+        "app-ads.txt",
+        "blog_trends_analysis.png",
+        "blog_trends_report.txt",
+        "google_trends_analyzer.py",
+        "index.html",
+        "logo.png",
+        "privacy.html",
+        "promo-pal-main",
+        "quick_demo.py",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "promo-pal-main/package.json",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "matplotlib",
+          "pandas",
+          "plotly",
+          "pytrends",
+          "requests",
+          "seaborn"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2824,
+      "readme_excerpt": "# 구글 트렌드 블로그 검색어 순위 분석기\n# Google Trends Blog Keywords Ranking Analyzer\n\n구글 트렌드 API를 활용하여 블로그와 관련된 검색어들의 인기도와 트렌드를 분석하는 Python 도구입니다.\n\n## 주요 기능\n\n### 🔍 **키워드 트렌드 분석**\n- 여러 키워드의 시간별 관심도 변화 추적\n- 키워드 간 상대적 인기도 비교\n- 다양한 시간 범위 지원 (7일 ~ 5년)\n\n### 📊 **데이터 시각화**\n- 시간별 관심도 변화 그래프\n- 키워드별 평균 관심도 막대 차트\n- 키워드 간 상관관계 히트맵\n- 최근 30일 상세 트렌드\n\n### 📈 **실시간 트렌딩 검색어**\n- 한국 실시간 인기 검색어 Top 10\n- 급상승 검색어 모니터링\n\n### 🔗 **관련 검색어 분석**\n- 각 키워드별 연관 검색어 추출\n- 인기 관련 검색어와 급상승 검색어 구분\n\n### 📋 **상세 리포트 생성**\n- 분석 결과를 텍스트 파일로 저장\n- 키워드별 순위와 상세 정보 포함\n\n## 설치 방법\n\n### 1. 필요한 패키지 설치\n```bash\npip install -r requirements.txt\n```\n\n### 2. 프로그램 실행\n```bash\npython google_trends_analyzer.py\n```\n\n## 사용법\n\n### 기본 실행\n프로그램을 실행하면 대화형 메뉴가 나타납니다:\n\n```\n구글 트렌드 블로그 검색어 순위 분석기\n==================================================\n\n1. 기본 블로그 키워드 분석\n2. 사용자 정의 키워드 분석\n선택하세요 (1 또는 2): \n```\n\n### 키워드 선택\n- **기본 블로그 키워드**: 미리 정의된 인기 블로그 키워드들 사용\n  - 맛집, 여행, 카페, 맛집 추천, 데이트, 운동, 다이어트, 요리, 패션, 뷰티 등\n- **사용자 정의 키워드**: 원하는 키워드를 직접 입력 (최대 5개)\n\n### 시간 범위 선택\n```\n시간 범위를 선택하세요:\n1. 최근 7일 (today 7-d)\n2. 최근 30일 (today 1-m)\n3. 최근 3개월 (today 3-m)\n4. 최근 12개월 (today 12-m)\n5. 최근 5년 (today 5-y)\n```\n\n## 결과물\n\n### 📊 시각화 그래프 (`blog_trends_analysis.png`)\n4개의 차트가 포함된 종합 분석 그래프:\n1. **시간별 관심도 변",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 25,
+        "first_at": "2025-07-16T11:34:26+00:00",
+        "last_at": "2026-08-26T05:39:37+00:00",
+        "active_days": 7,
+        "span_days": 405,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.36,
+        "messages_sample": [
+          "Fix hero description line-breaking with break-keep",
+          "Update GIROK labs homepage and service descriptions",
+          "Add files via upload",
+          "Add files via upload",
+          "Delete index.html",
+          "Update 주요 서비스 list in index.html",
+          "Trigger GitHub Pages rebuild",
+          "Resolve merge conflict and add app-ads.txt",
+          "Add app-ads.txt for AdMob integration",
+          "Delete App-ads.txt",
+          "Create App-ads.txt",
+          "Add README.md with project overview and documentation for Google Trends analyzer (#4)",
+          "Add README.md with project overview and documentation for Google Trends analyzer (#2)",
+          "Add files via upload",
+          "Delete index.html",
+          "Add files via upload",
+          "Add files via upload",
+          "Delete index.html",
+          "Add files via upload",
+          "Delete index.html"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 74
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 230,356 bytes (82% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 27,529 bytes (10% of repo)",
+          "strength": 0.4976077606838819
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 16,733 bytes (6% of repo)",
+          "strength": 0.45932909511872555
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,169 bytes (2% of repo)",
+          "strength": 0.4218730166609346
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,250 bytes (0% of repo)",
+          "strength": 0.4044320426043392
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "pandas in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 282037,
+        "strong_skills": [
+          "data-viz",
+          "pandas",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "dart-pro",
+      "full_name": "giroklabs/dart-pro",
+      "html_url": "https://github.com/giroklabs/dart-pro",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-30T05:21:00Z",
+      "pushed_at": "2026-09-11T13:29:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 47290,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 343902,
+        "JavaScript": 219480,
+        "HTML": 194485,
+        "Swift": 123529,
+        "CSS": 31875,
+        "Ruby": 959
+      },
+      "primary_language": "Python",
+      "file_count": 7828,
+      "top_level_paths": [
+        ".DS_Store",
+        ".github",
+        ".gitignore",
+        ".nojekyll",
+        ".vscode",
+        "AppIcons-6",
+        "CORPCODE.xml",
+        "CORPCODE.zip",
+        "DEVELOPMENT_GUIDE.md",
+        "DISCLOSURE_VIOLATION_RULES.md",
+        "FIREBASE_SECURITY_GUIDE.md",
+        "IconKitchen-Output-9",
+        "analyze_logs.py",
+        "check_models.js",
+        "clear_and_rebuild.py",
+        "corps.json",
+        "css",
+        "dart_disclosure_ranker_report.docx",
+        "data",
+        "debug_failing.py",
+        "diagnose.py",
+        "diagnose_pages.py",
+        "favicon.png",
+        "generate_seo.js",
+        "icon-512-maskable.png",
+        "images",
+        "index.html",
+        "ios",
+        "js",
+        "lean_engine",
+        "lean_engine_scheduler.log",
+        "logs",
+        "migrate_data.js",
+        "package-lock.json",
+        "package.json",
+        "privacy.html",
+        "proxy.js",
+        "rebuild_today.py",
+        "robots.txt",
+        "run_nightly_batch.py"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "package.json",
+        "server/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "dotenv",
+          "firebase-admin",
+          "sqlite3"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-06-02T06:53:34+00:00",
+        "last_at": "2026-09-11T13:29:07+00:00",
+        "active_days": 32,
+        "span_days": 101,
+        "max_per_day": 35,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: strengthen .gitignore for security",
+          "fix: multi DART_API_KEY support and KST timezone in checkNewDisclosures",
+          "feat: stream and save pipeline results in chunks of 50",
+          "fix: target_corp extraction in _parse_other_corp_stock_acquisition",
+          "chore: increase retry count for lean engine api calls",
+          "fix: restore base_url in lean_engine init",
+          "fix: lean engine api key parsing for multiple comma-separated keys",
+          "fix: bypass DART API immediately and globally when 020 limit is hit to prevent artificial request delays",
+          "perf: prevent concurrent fetches of 7.5MB corps.json and enforce browser caching",
+          "fix: restrict push deduplication to spammy reports only (e.g. executive ownership)",
+          "fix: make push deduplication span across batches with 1-hour TTL",
+          "fix: prevent duplicate push notifications for identical reports in the same polling batch",
+          "chore: bump css/js cache versions to v2.0",
+          "fix: hamburger menu overlapping with search icon on mobile",
+          "feat: responsive mobile web UI implementation",
+          "fix: prevent server crash on invalid URL from scanners",
+          "fix: clean up unnecessary symbols in treasury stock period and shares text",
+          "fix: use KST date for fetching daily reports",
+          "feat: parse and summarize treasury stock result reports with disposal dates and shares",
+          "fix: correct DB path in scheduler.py for InsightGenerator"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6493
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 13,
+          "perf": 2,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 343,902 bytes (38% of repo)",
+          "strength": 0.7761657350994826
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 219,480 bytes (24% of repo)",
+          "strength": 0.6400708793192085
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 194,485 bytes (21% of repo)",
+          "strength": 0.6127309320411714
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 123,529 bytes (14% of repo)",
+          "strength": 0.5351180775078481
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 31,875 bytes (3% of repo)",
+          "strength": 0.4348654058606697
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (ios/dart pro/Podfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (lean_engine/schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (scratch/test_build_summary.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (server/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "repo_name",
+          "detail": "'dart' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase-admin in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 913271,
+        "strong_skills": [
+          "cicd",
+          "gcp-azure",
+          "html-css",
+          "javascript",
+          "linux",
+          "native-mobile",
+          "python",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 42242864,
+    "JavaScript": 1257799,
+    "TypeScript": 630193,
+    "Swift": 555595,
+    "HTML": 322729,
+    "CSS": 180941,
+    "Shell": 21333,
+    "Ruby": 1974,
+    "C": 104,
+    "Procfile": 22
+  },
+  "total_commits": 709,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/real-estate",
+        "giroklabs/giroklabs.github.io",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 42242864,
+      "commit_count": 509,
+      "first_seen": "2025-07-16T11:34:26+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "bidsimulator: Python: 123,910 bytes (14% of repo)",
+        "real-estate: Python: 41,758,319 bytes (99% of repo)",
+        "giroklabs.github.io: Python: 16,733 bytes (6% of repo)",
+        "dart-pro: Python: 343,902 bytes (38% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "giroklabs/exchangealert",
+        "giroklabs/giroklabs.github.io"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 630193,
+      "commit_count": 225,
+      "first_seen": "2025-07-16T11:34:26+00:00",
+      "last_seen": "2026-08-26T05:39:37+00:00",
+      "details": [
+        "exchangealert: TypeScript: 399,837 bytes (39% of repo)",
+        "giroklabs.github.io: TypeScript: 230,356 bytes (82% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/real-estate",
+        "giroklabs/exchangealert",
+        "giroklabs/giroklabs.github.io",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9175922019333815,
+      "total_bytes": 1257799,
+      "commit_count": 709,
+      "first_seen": "2025-07-16T11:34:26+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "bidsimulator: JavaScript: 474,763 bytes (52% of repo)",
+        "real-estate: JavaScript: 220,321 bytes (1% of repo)",
+        "exchangealert: JavaScript: 341,985 bytes (34% of repo)",
+        "giroklabs.github.io: JavaScript: 1,250 bytes (0% of repo)",
+        "dart-pro: JavaScript: 219,480 bytes (24% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/real-estate",
+        "giroklabs/giroklabs.github.io"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 309,
+      "first_seen": "2025-07-16T11:34:26+00:00",
+      "last_seen": "2026-08-26T05:39:37+00:00",
+      "details": [
+        "bidsimulator: numpy in requirements.txt",
+        "real-estate: numpy in requirements.txt",
+        "giroklabs.github.io: pandas in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/real-estate"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 284,
+      "first_seen": "2025-08-06T13:14:35+00:00",
+      "last_seen": "2025-12-05T12:24:13+00:00",
+      "details": [
+        "bidsimulator: beautifulsoup4 in requirements.txt",
+        "real-estate: beautifulsoup4 in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 321,
+      "first_seen": "2025-09-10T13:16:46+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "bidsimulator: firebase-admin in requirements.txt",
+        "dart-pro: firebase-admin in package.json"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/real-estate"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 284,
+      "first_seen": "2025-08-06T13:14:35+00:00",
+      "last_seen": "2025-12-05T12:24:13+00:00",
+      "details": [
+        "bidsimulator: flask in requirements.txt",
+        "real-estate: flask in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "giroklabs/giroklabs.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2025-07-16T11:34:26+00:00",
+      "last_seen": "2026-08-26T05:39:37+00:00",
+      "details": [
+        "giroklabs.github.io: matplotlib in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/exchangealert",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6523224229120814,
+      "total_bytes": 555595,
+      "commit_count": 521,
+      "first_seen": "2025-09-10T13:16:46+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "bidsimulator: Swift: 175,498 bytes (19% of repo)",
+        "bidsimulator: iOS project (bidcal/Podfile)",
+        "exchangealert: Swift: 256,568 bytes (25% of repo)",
+        "exchangealert: iOS project (ExchangeAlert.xcodeproj/project.pbxproj)",
+        "dart-pro: Swift: 123,529 bytes (14% of repo)",
+        "dart-pro: iOS project (ios/dart pro/Podfile)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/real-estate",
+        "giroklabs/exchangealert",
+        "giroklabs/giroklabs.github.io",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6127309320411714,
+      "total_bytes": 503670,
+      "commit_count": 709,
+      "first_seen": "2025-07-16T11:34:26+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "bidsimulator: HTML: 83,135 bytes (9% of repo)",
+        "bidsimulator: CSS: 54,886 bytes (6% of repo)",
+        "real-estate: CSS: 78,268 bytes (0% of repo)",
+        "real-estate: HTML: 14,485 bytes (0% of repo)",
+        "exchangealert: CSS: 9,743 bytes (1% of repo)",
+        "exchangealert: HTML: 3,095 bytes (0% of repo)",
+        "giroklabs.github.io: HTML: 27,529 bytes (10% of repo)",
+        "giroklabs.github.io: CSS: 6,169 bytes (2% of repo)",
+        "dart-pro: HTML: 194,485 bytes (21% of repo)",
+        "dart-pro: CSS: 31,875 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "giroklabs/real-estate",
+        "giroklabs/exchangealert",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 563,
+      "first_seen": "2025-08-06T13:14:35+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "real-estate: GitHub Actions workflow (.github/workflows/cloudtype-auto-deploy.yml)",
+        "exchangealert: GitHub Actions workflow (.github/workflows/alert-fx-spike.yml)",
+        "dart-pro: GitHub Actions workflow (.github/workflows/deploy.yml)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "giroklabs/real-estate",
+        "giroklabs/exchangealert",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 563,
+      "first_seen": "2025-08-06T13:14:35+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "real-estate: server config (frontend/nginx.conf)",
+        "exchangealert: env config (c/.env.example)",
+        "dart-pro: env config (server/.env.example)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "giroklabs/real-estate",
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 363,
+      "first_seen": "2025-08-06T13:14:35+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "real-estate: test file (frontend/src/App.test.js)",
+        "dart-pro: test file (scratch/test_build_summary.py)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "giroklabs/real-estate"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 163,
+      "first_seen": "2025-08-06T13:14:35+00:00",
+      "last_seen": "2025-09-19T02:14:54+00:00",
+      "details": [
+        "real-estate: Dockerfile (Dockerfile.cloudtype)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "giroklabs/exchangealert"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-03-28T04:50:39+00:00",
+      "last_seen": "2026-07-30T14:51:30+00:00",
+      "details": [
+        "exchangealert: tailwind config (c/tailwind.config.js)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-06-02T06:53:34+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "dart-pro: SQL file (lean_engine/schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "giroklabs/bidsimulator",
+        "giroklabs/real-estate",
+        "giroklabs/exchangealert"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4049733189355898,
+      "total_bytes": 21333,
+      "commit_count": 484,
+      "first_seen": "2025-08-06T13:14:35+00:00",
+      "last_seen": "2026-07-30T14:51:30+00:00",
+      "details": [
+        "bidsimulator: Shell: 4,483 bytes (0% of repo)",
+        "real-estate: Shell: 11,793 bytes (0% of repo)",
+        "exchangealert: Shell: 5,057 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "giroklabs/dart-pro"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-06-02T06:53:34+00:00",
+      "last_seen": "2026-09-11T13:29:07+00:00",
+      "details": [
+        "dart-pro: 'dart' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 709,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 16,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:22:00.075175+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

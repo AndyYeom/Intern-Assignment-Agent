@@ -73,7 +73,7 @@ the repo was created, as when a tutorial is cloned and re-pushed). Otherwise
 
 ### Slots
 
-Ten strata, `ceil(40 / 10) = 4` slots each. A person is not tied to the search
+Ten strata, `ceil(100 / 10) = 10` slots each. A person is not tied to the search
 that found them. Each gets a **probability for every stratum**: each
 skill-relevant repo spreads one unit across the strata it shows evidence for,
 weighted by language bytes (at least 1 KB), with skill evidence also counting: a

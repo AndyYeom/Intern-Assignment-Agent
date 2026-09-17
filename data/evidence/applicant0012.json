@@ -1,0 +1,342 @@
+{
+  "applicant_id": "applicant0012",
+  "github_login": "valdirsb",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0012.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/avatar-creator"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/avatar-creator",
+          "html_url": "https://github.com/valdirsb/avatar-creator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, multi_month_span, documented",
+            "GitHub Actions workflow (.github/workflows/main.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/valdirsb/kellysantos"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/kellysantos",
+          "html_url": "https://github.com/valdirsb/kellysantos",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "database migrations (wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/ActionMigrator.php)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/valdirsb/kellysantos"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/kellysantos",
+          "html_url": "https://github.com/valdirsb/kellysantos",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "docker-compose (wp-content/plugins/woocommerce/packages/woocommerce-blocks/docker-compose.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/artemis"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/artemis",
+          "html_url": "https://github.com/valdirsb/artemis",
+          "level": 2,
+          "reasons": [
+            "intermediate: 53 commits; has_tests, documented",
+            "Go: 378,443 bytes (98% of repo)",
+            "Go module (AppExample/meuApp/go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/suporteglpi",
+        "https://github.com/valdirsb/kellysantos"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/suporteglpi",
+          "html_url": "https://github.com/valdirsb/suporteglpi",
+          "level": 2,
+          "reasons": [
+            "intermediate: 31 commits; multi_month_span, many_active_days",
+            "JavaScript: 92,316 bytes (89% of repo)"
+          ]
+        },
+        {
+          "repo": "valdirsb/kellysantos",
+          "html_url": "https://github.com/valdirsb/kellysantos",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "JavaScript: 8,174,101 bytes (19% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/suporteglpi"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/suporteglpi",
+          "html_url": "https://github.com/valdirsb/suporteglpi",
+          "level": 2,
+          "reasons": [
+            "intermediate: 31 commits; multi_month_span, many_active_days",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/suporteglpi"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/suporteglpi",
+          "html_url": "https://github.com/valdirsb/suporteglpi",
+          "level": 2,
+          "reasons": [
+            "intermediate: 31 commits; multi_month_span, many_active_days",
+            "react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "react-native",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/suporteglpi"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/suporteglpi",
+          "html_url": "https://github.com/valdirsb/suporteglpi",
+          "level": 2,
+          "reasons": [
+            "intermediate: 31 commits; multi_month_span, many_active_days",
+            "React Native bundler config (metro.config.js)",
+            "react-native in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/artemis",
+        "https://github.com/valdirsb/kellysantos"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/artemis",
+          "html_url": "https://github.com/valdirsb/artemis",
+          "level": 2,
+          "reasons": [
+            "intermediate: 53 commits; has_tests, documented",
+            "docs directory (AppExample/meuApp/docs/ARCHITECTURE.md)"
+          ]
+        },
+        {
+          "repo": "valdirsb/kellysantos",
+          "html_url": "https://github.com/valdirsb/kellysantos",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "docs directory (wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/docs/admin.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/avatar-creator"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/avatar-creator",
+          "html_url": "https://github.com/valdirsb/avatar-creator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, multi_month_span, documented",
+            "TypeScript: 15,870 bytes (52% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/valdirsb/artemis",
+        "https://github.com/valdirsb/suporteglpi",
+        "https://github.com/valdirsb/kellysantos"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/artemis",
+          "html_url": "https://github.com/valdirsb/artemis",
+          "level": 2,
+          "reasons": [
+            "intermediate: 53 commits; has_tests, documented",
+            "test directory (AppExample/meuApp/internal/modules/order/tests/integration/repository_test.go)"
+          ]
+        },
+        {
+          "repo": "valdirsb/suporteglpi",
+          "html_url": "https://github.com/valdirsb/suporteglpi",
+          "level": 2,
+          "reasons": [
+            "intermediate: 31 commits; multi_month_span, many_active_days",
+            "jest in package.json"
+          ]
+        },
+        {
+          "repo": "valdirsb/kellysantos",
+          "html_url": "https://github.com/valdirsb/kellysantos",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests, has_docker, documented",
+            "test directory (wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/chip/test/index.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "vue",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/avatar-creator",
+        "https://github.com/valdirsb/app-clima"
+      ],
+      "repos": [
+        {
+          "repo": "valdirsb/avatar-creator",
+          "html_url": "https://github.com/valdirsb/avatar-creator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, multi_month_span, documented",
+            "Vue: 13,245 bytes (43% of repo)",
+            "vue in package.json"
+          ]
+        },
+        {
+          "repo": "valdirsb/app-clima",
+          "html_url": "https://github.com/valdirsb/app-clima",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: none",
+            "Vue: 4,868 bytes (77% of repo)",
+            "vue in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "html-css",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/valdirsb/app-clima",
+        "https://github.com/valdirsb/kellysantos"
+      ]
+    }
+  ],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 11
+  }
+}

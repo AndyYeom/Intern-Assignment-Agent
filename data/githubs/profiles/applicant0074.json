@@ -1,0 +1,1594 @@
+{
+  "applicant_id": "applicant0074",
+  "login": "otae-1204",
+  "html_url": "https://github.com/otae-1204",
+  "created_at": "2021-01-25T23:22:47Z",
+  "account_age_days": 2060,
+  "public_repos": 12,
+  "followers": 5,
+  "following": 2,
+  "repos": [
+    {
+      "name": "otae-bot-entari",
+      "full_name": "otae-1204/otae-bot-entari",
+      "html_url": "https://github.com/otae-1204/otae-bot-entari",
+      "description": "一个自用的qqbot",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-17T01:29:24Z",
+      "pushed_at": "2026-09-16T13:11:48Z",
+      "stargazers": 5,
+      "forks": 3,
+      "open_issues": 0,
+      "size_kb": 70311,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 4909535,
+        "HTML": 2024431,
+        "CSS": 20838,
+        "Batchfile": 5580,
+        "PowerShell": 3179,
+        "JavaScript": 374
+      },
+      "primary_language": "Python",
+      "file_count": 649,
+      "top_level_paths": [
+        ".env.example",
+        ".gitignore",
+        "AKEDATA.md",
+        "AKEData_数据存储总结.md",
+        "CONTEXT.md",
+        "README.md",
+        "TODO.md",
+        "assets",
+        "bot.py",
+        "configs",
+        "docs",
+        "entari.yml",
+        "otae_bot",
+        "plugins",
+        "pyproject.toml",
+        "requirements-dev.txt",
+        "requirements.txt",
+        "scripts",
+        "tests",
+        "utils"
+      ],
+      "notable_files": [
+        "pyproject.toml",
+        "requirements-dev.txt",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          ".",
+          "0.17.4",
+          "1.0.0",
+          "aiohttp",
+          "apscheduler",
+          "arclet-entari",
+          "build-backend",
+          "configs",
+          "description",
+          "full",
+          "httpx",
+          "lxml",
+          "mcstatus",
+          "name",
+          "numpy",
+          "opencv-python",
+          "otae",
+          "otae-bot-entari",
+          "otae_bot",
+          "pil-utils",
+          "pillow",
+          "playwright",
+          "plugins",
+          "poetry.core.masonry.api",
+          "poetry_core",
+          "pycryptodome",
+          "pydantic",
+          "pypinyin",
+          "pytest",
+          "python",
+          "pytz",
+          "pyyaml",
+          "ruff",
+          "skia-python",
+          "tests",
+          "utils",
+          "version"
+        ],
+        "requirements-dev.txt": [
+          "pytest",
+          "ruff"
+        ],
+        "requirements.txt": [
+          "aiohttp",
+          "apscheduler",
+          "arclet-entari",
+          "httpx",
+          "lxml",
+          "mcstatus",
+          "numpy",
+          "opencv-python",
+          "pil-utils",
+          "pillow",
+          "playwright",
+          "pycryptodome",
+          "pydantic",
+          "pypinyin",
+          "pytz",
+          "pyyaml",
+          "skia-python"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3040,
+      "readme_excerpt": "# otae Bot Entari\n\n基于 Entari / Satori 的 QQ 机器人。启动与公共设施位于 `otae_bot/`，\n功能插件位于 `plugins/`，可写数据仍使用原有的 `data/`、`configs/` 和资源目录。\n\n代码结构、模块职责及扩展方式见 [代码结构说明](docs/code_structure.md)。\n\nEnd 插件的公共资料默认优先 AKEData；账号接口仍用官方，缺失资料保留兼容回退。\n覆盖范围、缓存变化与实测见 [AKE 迁移记录](docs/endfield_ake_migration_execution.md)。\n\nHYW 搜索问答插件已接入：`/q 问题`、图片解释和引用追问。\n配置模型后使用，详见 [HYW 配置与用法](docs/hyw_plugin.md)。\n\nAI 智商雷达默认 `/radar` 返回米白纸色与墨绿的“模型观察手册”长图，按国内外和研发厂商集中展示全部模型与档位，带模型图标，同屏查看 IQ、趋势、样本、耗时与成本。\n也支持榜、模型、对比、推荐、预警、性价比和趋势查询；布局与预览见 [新版总览设计](docs/ai_radar_matrix_ui.md)。\n\nCursor Grok Bot 应用可通过私网网关接入：`/grok 问题`，支持识别发送或引用的图片、转发回复图片与文件，按群聊/私聊隔离会话，默认花园多惠人设。\nGrok Bot 默认关闭，需要 SuperUser 在目标群执行 `/功能 开启 grok`。\nWindows 配置和连接检查见 [Grok Bot 配置与用法](docs/grok_bot_plugin.md)。\n\n群内插件开关：`/功能 列表`、`/功能 关闭 hyw`、`/功能 开启 hyw`。\n仅 SuperUser、本群管理员或群主可执行，详见 [群内功能管理](docs/group_features.md)。\n\n更新日志：`/更新日志` 用图片卡片展示历史版本更新了什么，\n支持目录、版本号、序号、关键词检索与统计；别名 `/更新`、`/changelog`、`/版本`。\n数据来自仓库提交历史，版本号按时间段划定，详见 [更新日志插件](docs/changelog_plugin.md)。\n\n## 分支\n\n`main` 已于 2026-09-05 同步 `refactor/project-architecture` 的重构版本，\n包含新的程序架构、End 插件的缓存优化和 AKE 数据源迁移。\n切换前的旧主分支保存在 `backup/main-before-refactor-2026-09-05`。\n已完成的重构、性能优化、缓存修复及独立预览分支已清理，后续更新使用 `main`。\n\n独立 UI 预览目录 `design/endfield-pre",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.867,
+      "commits": {
+        "count": 163,
+        "first_at": "2026-06-17T01:35:20+00:00",
+        "last_at": "2026-09-16T13:10:37+00:00",
+        "active_days": 42,
+        "span_days": 91,
+        "max_per_day": 18,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore(changelog): 收录 v1.15.0，并让记账提交免于自我覆盖",
+          "feat(changelog): 新增 /更新日志 插件，用卡片展示历史版本更新内容",
+          "feat(radar): 趋势图对齐雷达站自适应纵轴、2x 渲染与区域分页",
+          "feat(radar): 增加模型档位长图与 IQ 渐变色卡",
+          "docs(radar): 订正前端数据接口文档的实测口径与错误数字",
+          "chore(radar): 注册插件标签并补全 RADAR_* 环境变量模板",
+          "test(radar): 新增夹具与 108 例用例（八组 + 端到端派发）",
+          "feat(radar): 新增 AI 智商雷达只读数据插件",
+          "docs(radar): 新增 AI 智商雷达设计文档与前端数据接口文档",
+          "feat(hyw): 429 与瞬时故障自动退避重试",
+          "fix(endfield): 修复副本查询血量漏算出生与脚本 buff",
+          "fix: 修复中文别名乱码导致的静默分支失效及失效注册",
+          "fix(endfield): 修复 /ef 日常 无法生效的分发断链",
+          "feat(hyw): 支持 Google 服务账号凭据直连 Vertex AI",
+          "Merge pull request #6 from taikeladi/feat/endfield-daily-dashboard",
+          "Merge branch 'main' into feat/endfield-daily-dashboard",
+          "Merge pull request #4 from taikeladi/main",
+          "Merge pull request #5 from taikeladi/feat/endfield-archive",
+          "fix(hyw): restore card icons and stop clipping the card bottom",
+          "fix: resolve missing inline quote authors before command matching"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 317
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 4,909,535 bytes (70% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,024,431 bytes (29% of repo)",
+          "strength": 0.690702084180256
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 20,838 bytes (0% of repo)",
+          "strength": 0.40299227290539824
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 3,179 bytes (0% of repo)",
+          "strength": 0.4004564946523784
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/adr/0001-model-stage-difficulties-as-variants.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/test.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "manifest",
+          "detail": "opencv-python in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "playwright in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "python",
+          "source": "manifest",
+          "detail": "python in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in requirements-dev.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "manifest",
+          "detail": "opencv-python in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "playwright in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6958357,
+        "strong_skills": [
+          "computer-vision",
+          "html-css",
+          "linux",
+          "pandas",
+          "python",
+          "technical-writing",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "deepseek-chan",
+      "full_name": "otae-1204/deepseek-chan",
+      "html_url": "https://github.com/otae-1204/deepseek-chan",
+      "description": "DeepSeek-chan Codex pet animation development files, scripts, QA artifacts, and current v64 progress.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-14T03:28:30Z",
+      "pushed_at": "2026-08-14T03:44:16Z",
+      "stargazers": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3983,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 45564
+      },
+      "primary_language": "Python",
+      "file_count": 59,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "release",
+        "runs"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1072,
+      "readme_excerpt": "# DeepSeek-chan\n\nDeepSeek-chan Codex pet animation development workspace.\n\n## Current state\n\n- Installed animation baseline: `v64`\n- Atlas format: Codex pet sprite version 2\n- Atlas size: `1536 x 2288`\n- Cell size: `192 x 208`\n- Standard actions: idle, running-right, running-left, waving, jumping, failed, waiting, running, and review\n- Includes 16 look directions, animation source material, deterministic assembly scripts, and QA previews\n\nThe current v64 repair aligns the idle-to-hover transition so the body, face, hair, skirt, feet, scale, and baseline remain fixed; only the eyelids and distal tail respond.\n\n## Repository contents\n\n- `release/deepseek-chan/` — current installable v64 package, previews, and final QA reports\n- `runs/deepseek-chan/scripts/` — current extraction, registration, assembly, and QA utilities\n- `runs/deepseek-chan/references/` — canonical character plus layout guides\n\nOlder atlas iterations, intermediate frames, generated dependency bundles, and historical QA output remain local and are intentionally excluded from version control.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-08-14T03:31:18+00:00",
+        "last_at": "2026-08-14T03:34:52+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Rename repository to DeepSeek-chan",
+          "Add DeepSeek-chan v64 current release"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 29
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 45,564 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 45564,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "OTR",
+      "full_name": "otae-1204/OTR",
+      "html_url": "https://github.com/otae-1204/OTR",
+      "description": "Otae's Token Radar ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-30T01:34:27Z",
+      "pushed_at": "2026-09-12T00:57:44Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10356,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Rust": 261334,
+        "TypeScript": 123722,
+        "PowerShell": 3697,
+        "JavaScript": 1944,
+        "CSS": 1797,
+        "Python": 662,
+        "HTML": 306
+      },
+      "primary_language": "Rust",
+      "file_count": 116,
+      "top_level_paths": [
+        ".gitignore",
+        "ARCHITECTURE.md",
+        "LICENSE",
+        "README.en.md",
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "scripts",
+        "src",
+        "src-tauri",
+        "tailwind.config.js",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json",
+        "src-tauri/Cargo.toml"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tauri-apps/api",
+          "@tauri-apps/cli",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "dayjs",
+          "postcss",
+          "react",
+          "react-dom",
+          "recharts",
+          "tailwindcss",
+          "typescript",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2477,
+      "readme_excerpt": "<div align=\"center\">\n  <p>\n    <img src=\"src-tauri/icons/128x128.png\" width=\"88\" height=\"88\" alt=\"OTR\">\n  </p>\n\n  <h1>\n    Otae's<br>\n    <em>Token Radar</em>\n  </h1>\n\n  <p>\n    <img src=\"https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square\" alt=\"License\">\n    <img src=\"https://img.shields.io/badge/Rust-dea584?style=flat-square&logo=rust&logoColor=black\" alt=\"Rust\">\n    <img src=\"https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white\" alt=\"Tauri\">\n    <img src=\"https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black\" alt=\"React\">\n  </p>\n</div>\n\n---\n\n[中文](README.md) · **English**\n\nOTR (**O**tae's **T**oken **R**adar) is the radar for the token consumption of every AI coding agent on your machine into a single tray-resident desktop app. Local parsing, fully offline, zero intrusion.\n\n## Supported Agents\n\n| Agent | Data source |\n|---|---|\n| **DSH** | `~/.dsh/storages/` (daily ledger + per-session, built-in cost) |\n| **Claude Code** | `~/.claude/projects/` (dedup by message.id + requestId) |\n| **Codex CLI** | `~/.codex/sessions/` (per-event last_token_usage) |\n| **ZCode** | `~/.zcode/cli/` (model-io + transcr",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 18,
+        "first_at": "2026-08-30T01:43:33+00:00",
+        "last_at": "2026-09-12T00:46:30+00:00",
+        "active_days": 8,
+        "span_days": 12,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore(release): 版本号 0.1.8 → 0.1.9",
+          "fix(dsh): 适配会话日志换代与 projcache 目录化,修复小时表与会话表",
+          "chore(release): 版本号 0.1.7 → 0.1.8",
+          "chore(cleanup): 死配置/日志噪音/失效文档/容错补齐 + CSP",
+          "fix(resilience): 锁中毒兜底 + Provider panic 隔离 + rescan 去重",
+          "perf(refresh): 数据版本号驱动刷新链,收敛空闲时的 6 次 invoke",
+          "feat(cost): 统一成本口径为「定价表权威」,明细表与大卡对齐",
+          "perf(dsh): 会话日志 per-file 缓存,全量扫描 26.5s -> 亚秒级",
+          "fix: 启动改增量扫描,修复截断/去重双计与失败丢数据",
+          "feat: filter disabled agents in dashboard and optimize trend chart axis",
+          "fix(zcode): deduplicate transcript events and fix model pie currency formatting",
+          "feat: add Cursor usage tracking",
+          "fix: support DSH usage without cost ledger",
+          "fix: correct provider usage aggregation",
+          "feat: improve usage accounting and update flow",
+          "docs: simplify OTR full name",
+          "chore: synchronize transparent icon sources",
+          "feat: add OTR dashboard and icon"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 47
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 3,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 123,722 bytes (31% of repo)",
+          "strength": 0.7144445969369342
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 3,697 bytes (1% of repo)",
+          "strength": 0.40939607890978036
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,944 bytes (0% of repo)",
+          "strength": 0.40494075666773416
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,797 bytes (0% of repo)",
+          "strength": 0.4045671500678592
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 132128,
+        "strong_skills": [
+          "data-viz",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "otae-bot",
+      "full_name": "otae-1204/otae-bot",
+      "html_url": "https://github.com/otae-1204/otae-bot",
+      "description": "自己搓的QQbot，自用",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-07-23T08:17:53Z",
+      "pushed_at": "2024-10-09T15:53:18Z",
+      "stargazers": 2,
+      "forks": 1,
+      "open_issues": 3,
+      "size_kb": 114709,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 539961,
+        "Batchfile": 182
+      },
+      "primary_language": "Python",
+      "file_count": 120,
+      "top_level_paths": [
+        ".env",
+        ".env.dev",
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "bot.py",
+        "configs",
+        "db_otaebot.sql",
+        "install.bat",
+        "plugins",
+        "pyproject.toml",
+        "requirements.txt",
+        "res",
+        "start.bat",
+        "utils"
+      ],
+      "notable_files": [
+        "pyproject.toml",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "0.1.0",
+          "1.30.0",
+          "3.3.3",
+          "4.2.1",
+          "build-backend",
+          "description",
+          "httpx",
+          "imagehash",
+          "matplotlib",
+          "name",
+          "nonebot-adapter-onebot",
+          "nonebot2",
+          "nonebot_plugin_apscheduler",
+          "playwright",
+          "plugins",
+          "poetry.core.masonry.api",
+          "poetry_core",
+          "pymysql",
+          "python",
+          "python-office",
+          "readme",
+          "readme.md",
+          "requests",
+          "ruamel.yaml",
+          "test",
+          "version"
+        ],
+        "requirements.txt": [
+          "aiohttp",
+          "aiomysql",
+          "colorlog",
+          "httpx",
+          "imagehash",
+          "lxml",
+          "matplotlib",
+          "mcstatus",
+          "mysql-connector-python",
+          "mysqlclient",
+          "nonebot-adapter-onebot",
+          "nonebot2",
+          "nonebot_plugin_apscheduler",
+          "pillow",
+          "playwright",
+          "pypinyin",
+          "pytz",
+          "requests",
+          "ruamel.yaml",
+          "selenium",
+          "sqlalchemy",
+          "tsugu"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 24,
+      "readme_excerpt": "# otae-bot\n自己搓的QQbot，自用\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 87,
+        "first_at": "2023-07-23T09:03:28+00:00",
+        "last_at": "2024-10-09T15:53:16+00:00",
+        "active_days": 41,
+        "span_days": 444,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.08,
+        "messages_sample": [
+          "Fix",
+          "update plugin",
+          "fix",
+          "AddFunction",
+          "Merge branch 'main' of https://github.com/otae-1204/otae-bot",
+          "fix",
+          "更新 requirements.txt",
+          ".",
+          "Remove sensitive config file",
+          "新功能",
+          "fix 修复名称未限制长度的bug",
+          "fix 修复历史预测线的问题",
+          "添加昵称删除功能",
+          "Fix",
+          "fix 删除多余资源",
+          "fix: 修复更新服务器数据问题",
+          "补充资源文件",
+          "更改代码结构",
+          "更新通知类型，更新游玩时间",
+          "绑定，解绑，查询玩家，玩家状态功能实现"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 52
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 8,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 539,961 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (db_otaebot.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "playwright in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "pymysql in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "python",
+          "source": "manifest",
+          "detail": "python in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "manifest",
+          "detail": "readme in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysql-connector-python in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "playwright in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "sqlalchemy in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 539961,
+        "strong_skills": [
+          "data-modeling",
+          "data-viz",
+          "mysql",
+          "python",
+          "sql",
+          "technical-writing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Endfield_skill_pic",
+      "full_name": "otae-1204/Endfield_skill_pic",
+      "html_url": "https://github.com/otae-1204/Endfield_skill_pic",
+      "description": "Arknights: Endfield six-card skill display generator built with React, TypeScript, Vite, and Tauri",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-17T02:10:16Z",
+      "pushed_at": "2026-08-28T01:19:44Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 24424,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 66911,
+        "CSS": 24420,
+        "HTML": 477,
+        "Rust": 282
+      },
+      "primary_language": "TypeScript",
+      "file_count": 74,
+      "top_level_paths": [
+        ".gitignore",
+        "HANDOFF.md",
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "src-tauri",
+        "tests",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json",
+        "src-tauri/Cargo.toml"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tauri-apps/api",
+          "@tauri-apps/cli",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "html-to-image",
+          "jsdom",
+          "react",
+          "react-dom",
+          "typescript",
+          "vite",
+          "vitest"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1657,
+      "readme_excerpt": "# 六卡技能展示生成器\n\n一个离线运行的 React + TypeScript + Vite 技能卡生成器。它把六个固定槽位的结构化数据渲染成和预览一致的深色技能卡，并支持本地草稿、`SkillPack v1` JSON 和独立透明 PNG 导出。\n\n界面与技能卡正文使用《明日方舟：终末地》UI 同款的 HarmonyOS Sans SC。项目内嵌未修改的 Regular、Medium、Bold 字重；字体版权归 Huawei Device Co., Ltd. 所有，完整许可见 [`public/assets/fonts/LICENSE-HarmonyOS-Sans.txt`](public/assets/fonts/LICENSE-HarmonyOS-Sans.txt)。\n\n## 本地网页预览\n\n```powershell\nnpm install\nnpm run dev\n```\n\n打开 Vite 输出的地址即可使用。生产构建：\n\n```powershell\nnpm run typecheck\nnpm test\nnpm run build\nnpm run preview\n```\n\n## 功能约定\n\n- 六个槽位固定为普通攻击、战技、连携技、终结技、天赋节点 A、天赋节点 B；每张卡的标题和右上角类型都可以改。\n- 正文通过关键词规则自动着色，也可以在工具栏中选中文本后手动标注。手动标注会优先保留在当前文本中。\n- 颜色采用 AKEData 技能详情页的语义色：伤害黄 `#ffcc00`、状态/链接蓝 `#00a8ff`、治疗/自然绿 `#ade131`、数值暖色 `#ffd399`。\n- 卡片固定基准宽度 378px，内容自动增高；输出倍率为 1× 或 2×，四角保持透明圆角。\n- PNG 采用渲染预览共用的 DOM，等待本地字体加载后再生成；导出异常会提示错误且不会清空草稿。\n\n## Tauri 2 桌面与 Android\n\n前端核心已经放在 Tauri 2 壳中。安装 Rust、Windows WebView2 以及 Android Studio/SDK 后，可以执行：\n\n```powershell\n# Windows 安装包\nnpx tauri build\n\n# Android 初始化（首次执行）\nnpx tauri android init\nnpx tauri android build\n```\n\nWindows EXE/MSI 的图标与 Android 应用图标需要先提供有许可的源图，再执行 `npx tauri icon <source-image>`。当前仓库没有把参考游戏 logo 当作正式素材打包。\n\nTauri 的 Android 构建需要 Android SDK、NDK、Java 和 Rust Android targets；本机没有这",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-08-17T02:10:09+00:00",
+        "last_at": "2026-08-17T02:10:09+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Initialize Endfield skill card generator"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 19
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 66,911 bytes (73% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 24,420 bytes (27% of repo)",
+          "strength": 0.6651753719187752
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/lib/exportPng.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 91808,
+        "strong_skills": [
+          "html-css",
+          "react",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 5495722,
+    "HTML": 2025214,
+    "Rust": 261616,
+    "TypeScript": 190633,
+    "CSS": 47055,
+    "PowerShell": 6876,
+    "Batchfile": 5762,
+    "JavaScript": 2318
+  },
+  "total_commits": 271,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "otae-1204/otae-bot-entari",
+        "otae-1204/deepseek-chan",
+        "otae-1204/otae-bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 5495060,
+      "commit_count": 252,
+      "first_seen": "2023-07-23T09:03:28+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: Python: 4,909,535 bytes (70% of repo)",
+        "otae-bot-entari: python in pyproject.toml",
+        "deepseek-chan: Python: 45,564 bytes (100% of repo)",
+        "otae-bot: Python: 539,961 bytes (100% of repo)",
+        "otae-bot: python in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "otae-1204/OTR",
+        "otae-1204/Endfield_skill_pic"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 190633,
+      "commit_count": 19,
+      "first_seen": "2026-08-17T02:10:09+00:00",
+      "last_seen": "2026-09-12T00:46:30+00:00",
+      "details": [
+        "OTR: TypeScript: 123,722 bytes (31% of repo)",
+        "OTR: typescript in package.json",
+        "Endfield_skill_pic: TypeScript: 66,911 bytes (73% of repo)",
+        "Endfield_skill_pic: 'typescript' in repo name/description",
+        "Endfield_skill_pic: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "otae-1204/otae-bot-entari",
+        "otae-1204/Endfield_skill_pic"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 164,
+      "first_seen": "2026-06-17T01:35:20+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: test directory (tests/test.py)",
+        "otae-bot-entari: pytest in pyproject.toml",
+        "otae-bot-entari: pytest in requirements-dev.txt",
+        "Endfield_skill_pic: test file (src/lib/exportPng.test.ts)",
+        "Endfield_skill_pic: vitest in package.json"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "otae-1204/otae-bot-entari",
+        "otae-1204/otae-bot"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 250,
+      "first_seen": "2023-07-23T09:03:28+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: playwright in pyproject.toml",
+        "otae-bot-entari: playwright in requirements.txt",
+        "otae-bot: playwright in pyproject.toml",
+        "otae-bot: playwright in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "otae-1204/OTR",
+        "otae-1204/Endfield_skill_pic"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 19,
+      "first_seen": "2026-08-17T02:10:09+00:00",
+      "last_seen": "2026-09-12T00:46:30+00:00",
+      "details": [
+        "OTR: @types/react in package.json",
+        "Endfield_skill_pic: 'react' in repo name/description",
+        "Endfield_skill_pic: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "otae-1204/OTR",
+        "otae-1204/otae-bot"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 105,
+      "first_seen": "2023-07-23T09:03:28+00:00",
+      "last_seen": "2026-09-12T00:46:30+00:00",
+      "details": [
+        "OTR: recharts in package.json",
+        "otae-bot: matplotlib in pyproject.toml",
+        "otae-bot: matplotlib in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "otae-1204/otae-bot-entari",
+        "otae-1204/otae-bot"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 250,
+      "first_seen": "2023-07-23T09:03:28+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: docs directory (docs/adr/0001-model-stage-difficulties-as-variants.md)",
+        "otae-bot: readme in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "otae-1204/otae-bot-entari"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 163,
+      "first_seen": "2026-06-17T01:35:20+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: numpy in pyproject.toml",
+        "otae-bot-entari: numpy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "computer-vision",
+      "repos": [
+        "otae-1204/otae-bot-entari"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 163,
+      "first_seen": "2026-06-17T01:35:20+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: opencv-python in pyproject.toml",
+        "otae-bot-entari: opencv-python in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "otae-1204/OTR"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 18,
+      "first_seen": "2026-08-30T01:43:33+00:00",
+      "last_seen": "2026-09-12T00:46:30+00:00",
+      "details": [
+        "OTR: tailwind config (tailwind.config.js)",
+        "OTR: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "otae-1204/otae-bot"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 87,
+      "first_seen": "2023-07-23T09:03:28+00:00",
+      "last_seen": "2024-10-09T15:53:16+00:00",
+      "details": [
+        "otae-bot: pymysql in pyproject.toml",
+        "otae-bot: mysql-connector-python in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "otae-1204/otae-bot"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 87,
+      "first_seen": "2023-07-23T09:03:28+00:00",
+      "last_seen": "2024-10-09T15:53:16+00:00",
+      "details": [
+        "otae-bot: sqlalchemy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "otae-1204/otae-bot-entari",
+        "otae-1204/OTR",
+        "otae-1204/Endfield_skill_pic"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.690702084180256,
+      "total_bytes": 2071486,
+      "commit_count": 182,
+      "first_seen": "2026-06-17T01:35:20+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: HTML: 2,024,431 bytes (29% of repo)",
+        "otae-bot-entari: CSS: 20,838 bytes (0% of repo)",
+        "OTR: CSS: 1,797 bytes (0% of repo)",
+        "Endfield_skill_pic: CSS: 24,420 bytes (27% of repo)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "otae-1204/otae-bot-entari"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 163,
+      "first_seen": "2026-06-17T01:35:20+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "otae-1204/otae-bot"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 87,
+      "first_seen": "2023-07-23T09:03:28+00:00",
+      "last_seen": "2024-10-09T15:53:16+00:00",
+      "details": [
+        "otae-bot: SQL file (db_otaebot.sql)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "otae-1204/otae-bot-entari",
+        "otae-1204/OTR"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40939607890978036,
+      "total_bytes": 6876,
+      "commit_count": 181,
+      "first_seen": "2026-06-17T01:35:20+00:00",
+      "last_seen": "2026-09-16T13:10:37+00:00",
+      "details": [
+        "otae-bot-entari: PowerShell: 3,179 bytes (0% of repo)",
+        "OTR: PowerShell: 3,697 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "otae-1204/OTR"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40494075666773416,
+      "total_bytes": 1944,
+      "commit_count": 18,
+      "first_seen": "2026-08-30T01:43:33+00:00",
+      "last_seen": "2026-09-12T00:46:30+00:00",
+      "details": [
+        "OTR: JavaScript: 1,944 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 271,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 15,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:18:01.733925+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

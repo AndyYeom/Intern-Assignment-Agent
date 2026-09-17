@@ -1,0 +1,1027 @@
+{
+  "applicant_id": "applicant0160",
+  "login": "Bruno-Gdos",
+  "html_url": "https://github.com/Bruno-Gdos",
+  "created_at": "2021-07-24T23:27:47Z",
+  "account_age_days": 1880,
+  "public_repos": 37,
+  "followers": 31,
+  "following": 21,
+  "repos": [
+    {
+      "name": "AI-Workflow-Templates-Installer",
+      "full_name": "Bruno-Gdos/AI-Workflow-Templates-Installer",
+      "html_url": "https://github.com/Bruno-Gdos/AI-Workflow-Templates-Installer",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-26T01:15:35Z",
+      "pushed_at": "2026-06-03T22:50:02Z",
+      "stargazers": 3,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 126,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 55009
+      },
+      "primary_language": "JavaScript",
+      "file_count": 23,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "install.js",
+        "package-lock.json",
+        "package.json",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "chalk",
+          "inquirer"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 19108,
+      "readme_excerpt": "# 🚀 AI Workflow Templates — Installer\n\nInstalador CLI interativo que configura **workflows** e **templates** de desenvolvimento orientado por IA para as IDEs **Windsurf**, **Cursor**, **Antigravity**, **Claude Code** e **Codex (OpenAI)**.\n\nOs workflows implementam um fluxo completo de **Software Design Document (SDD)**: desde a criação do PRD, passando pela especificação técnica, até a geração e execução de tarefas — tudo via comandos `/slash` dentro da IDE.\n\n---\n\n## 📋 Pré-requisitos\n\n- **Node.js** v14 ou superior\n- **Windsurf**, **Cursor**, **Antigravity**, **Claude Code** e/ou **Codex (OpenAI)** instalados\n\n---\n\n## ⚡ Instalação e Uso\n\n```bash\n# 1. Clone o repositório\ngit clone <url-do-repositorio>\ncd <pasta-do-repositorio>\n\n# 2. Instale as dependências\nnpm install\n\n# 3. Execute o instalador\nnode install.js\n```\n\nO instalador irá:\n\n1. **Detectar** seu sistema operacional (Windows, macOS ou Linux)\n2. **Perguntar** o que deseja instalar/atualizar:\n   - 📦 **Workflows + Templates + MCPs** — instalação completa\n   - 📄 **Apenas Workflows + Templates** — sem configurar MCPs\n   - 🔌 **Apenas MCPs** — atualizar/adicionar servidores MCP sem tocar nos workflows\n3. **Perguntar** para qual IDE d",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.25,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-03-26T01:16:09+00:00",
+        "last_at": "2026-05-28T13:36:02+00:00",
+        "active_days": 4,
+        "span_days": 63,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #4 from educarvallho/Compatibility_Claude",
+          "Merge pull request #2 from Bruno-Gdos/fix/add-multi-ides-references",
+          "feat/add-antigravity-support",
+          "feat: initial project setup with CLI installer for AI workflow templates"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 19
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 55,009 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 55009,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Chad-Chat",
+      "full_name": "Bruno-Gdos/Chad-Chat",
+      "html_url": "https://github.com/Bruno-Gdos/Chad-Chat",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-10-28T17:06:41Z",
+      "pushed_at": "2022-11-23T15:40:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 9318,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 17736,
+        "SCSS": 7323,
+        "HTML": 2021
+      },
+      "primary_language": "JavaScript",
+      "file_count": 56,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "firebase",
+          "gh-pages",
+          "react",
+          "react-dom",
+          "react-router-dom",
+          "react-scripts",
+          "sass",
+          "uuid",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1145,
+      "readme_excerpt": "# Chad Chat\n\nUm chat desenvolvido em React utilizando o Firebase para comunicação assíncrona e em tempo real com o envio e recebimentos de mensagens, com uma tematica CHAD\n\n## 🚀 Começando\n\nEntrar no link para visualização do conteúdo ---> [LINK](https://bruno-gdos.github.io/Chad-Chat/)\n\nLogo em seguida irá ser necessária a criação de uma conta, utilizando qualquer email, login e a necessidade de uma imagem aleatória, em seguida procurar na barra de pesquisa pelo nome de algum usuário em nosso banco de dados para iniciar a busca.\n\n### 📋 Pré-requisitos\n\nUm nevegador web e uma conexão com a internet\n\n## 🎯 Demonstração\n\n![Design sem nome (21)](https://user-images.githubusercontent.com/87917525/[phone]da1f2b4-6f00-4ebe-9a5d-81ece3e147ed.png)\n\n## ✒️ Autores\n\n* **Bruno Gabriel dos Santos Costa** - *Lider de desenvolvimento, revisão e deploy* - [Bruno Gabriel](https://github.com/Bruno-Gdos)\n* **Lucas Melo** - *Gerenciamento do Banco de Dados e conexões* - [Lucas Melo](https://github.com/luucas-am)\n* **Handel Gomes** - *Criação de componentes react* - [Handel Gomes](https://github.com/handelsg)\n\n---\n⌨️ com ❤️ por ***Chad Team*** 😊\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.5,
+      "commits": {
+        "count": 8,
+        "first_at": "2022-10-28T17:06:28+00:00",
+        "last_at": "2022-11-23T15:40:14+00:00",
+        "active_days": 4,
+        "span_days": 25,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Merge branch 'main' of https://github.com/Bruno-Gdos/Chad-Chat",
+          "Search mobile",
+          "Update README.md",
+          "1.1",
+          "Atualização 1.0",
+          "Auth de Usuarios e React Rout",
+          "React Base",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 17,736 bytes (65% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 7,323 bytes (27% of repo)",
+          "strength": 0.6704209748892171
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,021 bytes (7% of repo)",
+          "strength": 0.4746307237813885
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 27080,
+        "strong_skills": [
+          "gcp-azure",
+          "html-css",
+          "javascript",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "template-ai-agents-mcp",
+      "full_name": "Bruno-Gdos/template-ai-agents-mcp",
+      "html_url": "https://github.com/Bruno-Gdos/template-ai-agents-mcp",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-11T17:48:44Z",
+      "pushed_at": "2026-01-11T17:49:15Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 121,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 5314,
+        "JavaScript": 1969
+      },
+      "primary_language": "TypeScript",
+      "file_count": 11,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "mcp-config-example.json",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/eslintrc",
+          "@eslint/js",
+          "@modelcontextprotocol/sdk",
+          "@types/node",
+          "dotenv",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-plugin-prettier",
+          "prettier",
+          "tsx",
+          "typescript",
+          "typescript-eslint"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 7971,
+      "readme_excerpt": "# 🤖 Template MCP Server - AI Agents\r\n\r\nEste projeto é um **template de servidor MCP (Model Context Protocol)** que expõe ferramentas de agentes de IA como um servidor MCP. Com ele, você pode facilmente criar e expor ferramentas que podem ser consumidas por clientes compatíveis com MCP (como Claude Desktop, Cursor, etc.).\r\n\r\n## 📋 Índice\r\n\r\n- [Visão Geral](#-visão-geral)\r\n- [O que é MCP?](#-o-que-é-mcp)\r\n- [Estrutura do Projeto](#-estrutura-do-projeto)\r\n- [Ferramentas Disponíveis](#-ferramentas-disponíveis)\r\n- [Configuração](#-configuração)\r\n- [Como Usar](#-como-usar)\r\n- [Criando Novas Ferramentas](#-criando-novas-ferramentas)\r\n- [Scripts Disponíveis](#-scripts-disponíveis)\r\n- [Tecnologias Utilizadas](#-tecnologias-utilizadas)\r\n\r\n## 🎯 Visão Geral\r\n\r\nEste template fornece uma base sólida para construir servidores MCP que podem:\r\n\r\n- **Expor ferramentas** para clientes MCP\r\n- **Integrar APIs externas** (como Weather API, PokeAPI no exemplo)\r\n- **Expandir facilmente** com novas funcionalidades\r\n- **Comunicar via stdio** seguindo o protocolo MCP\r\n- **Centralizar ferramentas** através de um serviço único\r\n\r\n## 🔌 O que é MCP?\r\n\r\nO **Model Context Protocol (MCP)** é um protocolo desenvolvid",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-01-11T17:49:12+00:00",
+        "last_at": "2026-01-11T17:49:12+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "iniital commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 5,314 bytes (73% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,969 bytes (27% of repo)",
+          "strength": 0.6703556226829603
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 7283,
+        "strong_skills": [
+          "javascript",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "OficinaWebScraping",
+      "full_name": "Bruno-Gdos/OficinaWebScraping",
+      "html_url": "https://github.com/Bruno-Gdos/OficinaWebScraping",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-04-24T15:17:24Z",
+      "pushed_at": "2024-05-07T16:11:18Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 2888
+      },
+      "primary_language": "Python",
+      "file_count": 5,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "main.py",
+        "requirements.txt",
+        "src"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "beautifulsoup4",
+          "openpyxl",
+          "pandas",
+          "requests"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 832,
+      "readme_excerpt": "# Oficina de Web Scraping\r\n\r\nEste projeto foi criado com a intenção de ajudar os alunos a avançarem em suas habilidades de programação durante uma oficina na universidade ministrada por mim.\r\n\r\n## Como executar\r\n\r\nSiga as instruções abaixo para executar o projeto:\r\n\r\n1. Certifique-se de ter o Python instalado em sua máquina.\r\n\r\n2. Instale as dependências do projeto executando o seguinte comando no terminal:\r\n\r\n    ```bash\r\n    pip install -r requirements.txt\r\n    ```\r\n\r\n3. Após a instalação das dependências, execute o arquivo `main.py` com o seguinte comando:\r\n\r\n    ```bash\r\n    python main.py\r\n    ```\r\n\r\nIsso é tudo! Agora você está pronto para começar a explorar o projeto de Web Scraping.\r\n\r\n## Contribuição\r\n\r\nSe você quiser contribuir para este projeto, fique à vontade para abrir uma issue ou enviar um pull request.\r\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-04-24T15:12:15+00:00",
+        "last_at": "2024-05-07T16:11:13+00:00",
+        "active_days": 2,
+        "span_days": 13,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Update",
+          "Readme",
+          "First Commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,888 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "beautifulsoup4 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "pandas in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2888,
+        "strong_skills": [
+          "pandas",
+          "python",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "BibliotecaUnit",
+      "full_name": "Bruno-Gdos/BibliotecaUnit",
+      "html_url": "https://github.com/Bruno-Gdos/BibliotecaUnit",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-28T19:21:40Z",
+      "pushed_at": "2022-10-03T16:58:12Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6114,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 148920,
+        "HTML": 21927,
+        "CSS": 20290,
+        "JavaScript": 226
+      },
+      "primary_language": "C#",
+      "file_count": 189,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".vs",
+        ".vscode",
+        "BibliotecaUnit",
+        "BibliotecaUnit.sln",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 148,
+      "readme_excerpt": "# BibliotecaUnit\n\n![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/87917525/[phone]d1a-b39d-[phone]b46033.gif)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-09-28T19:18:26+00:00",
+        "last_at": "2022-10-03T16:58:12+00:00",
+        "active_days": 2,
+        "span_days": 4,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Create README.md",
+          "Update delete",
+          "ignore",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 53
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 148,920 bytes (78% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 21,927 bytes (11% of repo)",
+          "strength": 0.5145832788992648
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 20,290 bytes (11% of repo)",
+          "strength": 0.5060288561529659
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 191363,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 148920,
+    "JavaScript": 74940,
+    "HTML": 23948,
+    "CSS": 20290,
+    "SCSS": 7323,
+    "TypeScript": 5314,
+    "Python": 2888
+  },
+  "total_commits": 20,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Bruno-Gdos/AI-Workflow-Templates-Installer",
+        "Bruno-Gdos/Chad-Chat",
+        "Bruno-Gdos/template-ai-agents-mcp"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 74714,
+      "commit_count": 13,
+      "first_seen": "2022-10-28T17:06:28+00:00",
+      "last_seen": "2026-05-28T13:36:02+00:00",
+      "details": [
+        "AI-Workflow-Templates-Installer: JavaScript: 55,009 bytes (100% of repo)",
+        "Chad-Chat: JavaScript: 17,736 bytes (65% of repo)",
+        "template-ai-agents-mcp: JavaScript: 1,969 bytes (27% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Bruno-Gdos/template-ai-agents-mcp"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 5314,
+      "commit_count": 1,
+      "first_seen": "2026-01-11T17:49:12+00:00",
+      "last_seen": "2026-01-11T17:49:12+00:00",
+      "details": [
+        "template-ai-agents-mcp: TypeScript: 5,314 bytes (73% of repo)",
+        "template-ai-agents-mcp: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Bruno-Gdos/OficinaWebScraping"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2888,
+      "commit_count": 3,
+      "first_seen": "2024-04-24T15:12:15+00:00",
+      "last_seen": "2024-05-07T16:11:13+00:00",
+      "details": [
+        "OficinaWebScraping: Python: 2,888 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "Bruno-Gdos/BibliotecaUnit"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 148920,
+      "commit_count": 4,
+      "first_seen": "2022-09-28T19:18:26+00:00",
+      "last_seen": "2022-10-03T16:58:12+00:00",
+      "details": [
+        "BibliotecaUnit: C#: 148,920 bytes (78% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Bruno-Gdos/Chad-Chat"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2022-10-28T17:06:28+00:00",
+      "last_seen": "2022-11-23T15:40:14+00:00",
+      "details": [
+        "Chad-Chat: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "Bruno-Gdos/Chad-Chat"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2022-10-28T17:06:28+00:00",
+      "last_seen": "2022-11-23T15:40:14+00:00",
+      "details": [
+        "Chad-Chat: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "Bruno-Gdos/OficinaWebScraping"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2024-04-24T15:12:15+00:00",
+      "last_seen": "2024-05-07T16:11:13+00:00",
+      "details": [
+        "OficinaWebScraping: beautifulsoup4 in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "Bruno-Gdos/OficinaWebScraping"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2024-04-24T15:12:15+00:00",
+      "last_seen": "2024-05-07T16:11:13+00:00",
+      "details": [
+        "OficinaWebScraping: pandas in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Bruno-Gdos/Chad-Chat",
+        "Bruno-Gdos/BibliotecaUnit"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6704209748892171,
+      "total_bytes": 51561,
+      "commit_count": 12,
+      "first_seen": "2022-09-28T19:18:26+00:00",
+      "last_seen": "2022-11-23T15:40:14+00:00",
+      "details": [
+        "Chad-Chat: SCSS: 7,323 bytes (27% of repo)",
+        "Chad-Chat: HTML: 2,021 bytes (7% of repo)",
+        "BibliotecaUnit: HTML: 21,927 bytes (11% of repo)",
+        "BibliotecaUnit: CSS: 20,290 bytes (11% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 20,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:14:23.714555+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

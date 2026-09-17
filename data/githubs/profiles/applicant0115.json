@@ -1,0 +1,1622 @@
+{
+  "applicant_id": "applicant0115",
+  "login": "emilyspringerton",
+  "html_url": "https://github.com/emilyspringerton",
+  "created_at": "2025-11-02T06:46:38Z",
+  "account_age_days": 318,
+  "public_repos": 79,
+  "followers": 4,
+  "following": 4,
+  "repos": [
+    {
+      "name": "EMILY",
+      "full_name": "emilyspringerton/EMILY",
+      "html_url": "https://github.com/emilyspringerton/EMILY",
+      "description": "Emily is a system that quietly absorbs chaos so others can operate at their best without realizing why.",
+      "homepage": "https://farthq.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-30T01:30:22Z",
+      "pushed_at": "2026-09-17T01:11:05Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 4,
+      "size_kb": 29912,
+      "default_branch": "main",
+      "license": "Unlicense",
+      "topics": [],
+      "languages": {
+        "Go": 651057,
+        "Shell": 33151,
+        "C": 7960,
+        "Python": 4760
+      },
+      "primary_language": "Go",
+      "file_count": 2654,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "BACKLOG.md",
+        "CHANGELOG.md",
+        "CLAUDE.md",
+        "DONE.md",
+        "GOLDEN.md",
+        "HQ-SPEC-PRIME-097-fixed-points.md",
+        "LICENSE",
+        "PRRJECT_FATBABY-construct-86-1507aa437f68675d7f8fb14bfe7f18b5f4c50a7d.zip",
+        "README.md",
+        "book",
+        "claire-log.md",
+        "claire.md.txt",
+        "cmd",
+        "context",
+        "continuity",
+        "docs",
+        "emily-agent",
+        "emily-memory",
+        "emily-prime-spec.md",
+        "emily.txt",
+        "emiree-emily-fatbaby.md",
+        "emiree.md",
+        "inbox",
+        "ops",
+        "packages",
+        "scripts",
+        "signals",
+        "talks",
+        "var"
+      ],
+      "notable_files": [
+        ".github/workflows/construct-bundle.yml",
+        "cmd/get-gmail-token/go.mod",
+        "emily-agent/go.mod"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 16896,
+      "readme_excerpt": "# EMILY\n\n**The meta-orchestration layer for EINHORN_INDUSTRIAL.** Emily Prime plans, Claude Code\nimplements, every outcome is logged as an Apple. This repo is the chief-of-staff agent, the\ncross-repo backlog, and the operating procedure that ties a small AI-native company's many\ncodebases into one recursive self-improvement loop.\n\n> I plan. Claude Code implements. Every outcome is an Apple.\n> — the three-sentence description Emily Prime reads about herself, every cycle.\n\n---\n\n## Table of contents\n\n- [What this is](#what-this-is)\n- [The three agents](#the-three-agents)\n- [Architecture](#architecture)\n- [The RSI cron cycle](#the-rsi-cron-cycle)\n- [The Emily Way](#the-emily-way)\n- [Repo layout](#repo-layout)\n- [Running it](#running-it)\n- [The `emily` CLI](#the-emily-cli)\n- [Document hierarchy](#document-hierarchy)\n- [Related repos](#related-repos)\n- [Status](#status)\n\n---\n\n## What this is\n\nEINHORN_INDUSTRIAL runs several codebases at once — a financial signal-intelligence pipeline\n(`PRRJECT_FATBABY`), an identity/audit authority (`IDUNA`), a multiplayer game engine\n(`SHANKPIT`), an Android companion app (`MJOLNIR`), a WordPress-based public product (`EDIS`),\nand more — with a very sma",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.546,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-12T16:14:16+00:00",
+        "last_at": "2026-09-17T01:11:04+00:00",
+        "active_days": 6,
+        "span_days": 4,
+        "max_per_day": 59,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "backlog: ✓ S459-92 NORTHSTAR_MODULAR_BUILDING.md — object library, NOCK multi-tenancy, chunk streaming",
+          "backlog: S459-91 fix 413 on NOCK uploads -- code done, needs founder sudo to deploy",
+          "backlog: ✓ S459-90 Humanness — correct wrong S459-88 claim + wire second live AI system",
+          "backlog: ✓ S459-89 STORY_SYSTEM_NORTHSTAR.md — scriptable elevators folded in",
+          "backlog: ✓ S459-88 Humanness Phase 2 — wired into story_ai.c's combat FSM",
+          "backlog: ✓ S459-87 Humanness Phase 1 — real jitter/mood primitives, MISHRI-bar tests",
+          "emily-prime: backlog curate 1 obs -> INTAKE QUEUE (2026-09-16)",
+          "backlog: ✓ S459-86 HUMANNESS_NORTHSTAR.md — realistic scriptable NPCs, grounded in MISHRI",
+          "golden-index: add SHANKPIT-HUMANNESS-NORTH",
+          "backlog: ✓ S459-85 NOCK UI for writing door scripts (closes the last Phase 1 gap)",
+          "backlog: ✓ S459-84 real, runnable demo level — hallway with two scripted doors",
+          "emily-prime: backlog curate 1 obs -> INTAKE QUEUE (2026-09-16)",
+          "backlog: ✓ S459-83 GOLDENBAND gseq — real animation stitching",
+          "backlog: ✓ S459-82 real PARENA-to-C door script compile pipeline via NOCK",
+          "emily-prime: backlog curate 1 obs -> INTAKE QUEUE (2026-09-16)",
+          "backlog: ✓ S459-81 Story System Phase 1 — real, tested scriptable doors",
+          "emily-prime: backlog curate 2 obs -> INTAKE QUEUE (2026-09-16)",
+          "backlog: S459-80 follow-up — scriptable characters + generic triggers folded in",
+          "backlog: ✓ S459-80 STORY_SYSTEM_NORTHSTAR.md — scriptable objects + level-chaining stories",
+          "golden-index: add SHANKPIT-STORY-NORTH"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 81
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 651,057 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 33,151 bytes (5% of repo)",
+          "strength": 0.44756732402773314
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 7,960 bytes (1% of repo)",
+          "strength": 0.4114215528720327
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 4,760 bytes (1% of repo)",
+          "strength": 0.40682997382799946
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/construct-bundle.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (cmd/get-gmail-token/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/API_KEY_UNLOCK.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (emily-agent/briefing_test.go)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 696928,
+        "strong_skills": [
+          "cicd",
+          "go",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "IDUNA",
+      "full_name": "emilyspringerton/IDUNA",
+      "html_url": "https://github.com/emilyspringerton/IDUNA",
+      "description": "CITY_OF_LIGHT",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-22T14:28:23Z",
+      "pushed_at": "2026-09-16T23:23:43Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 9253,
+      "default_branch": "main",
+      "license": "Unlicense",
+      "topics": [],
+      "languages": {
+        "Go": 2443976,
+        "TypeScript": 198736,
+        "C": 153787,
+        "Python": 27027,
+        "CSS": 18052,
+        "JavaScript": 12007,
+        "Jupyter Notebook": 9938,
+        "HTML": 9356,
+        "Shell": 3128
+      },
+      "primary_language": "Go",
+      "file_count": 475,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "CHANGELOG.md",
+        "CLAUDE.md",
+        "LICENSE",
+        "README.md",
+        "app.js",
+        "cmd",
+        "config",
+        "docs",
+        "event-stream",
+        "frontend",
+        "go.mod",
+        "go.sum",
+        "golden.md",
+        "index.html",
+        "internal",
+        "main.go",
+        "main_test.go",
+        "migrations",
+        "openapi.yaml",
+        "ops",
+        "scripts",
+        "sdk",
+        "static",
+        "styles.css",
+        "tests",
+        "webmaster.example.json"
+      ],
+      "notable_files": [
+        ".github/workflows/iduna-construct.yml",
+        ".github/workflows/jekyll-docker.yml",
+        "frontend/nock/package.json",
+        "go.mod",
+        "sdk/python/setup.py"
+      ],
+      "manifests": {
+        "go.mod": [
+          "filippo.io/edwards25519",
+          "github.com/dustin/go-humanize",
+          "github.com/go-sql-driver/mysql",
+          "github.com/google/uuid",
+          "github.com/mattn/go-isatty",
+          "github.com/ncruces/go-strftime",
+          "github.com/remyoudompheng/bigfft",
+          "golang.org/x/crypto",
+          "golang.org/x/sync",
+          "golang.org/x/sys",
+          "golang.org/x/term",
+          "golang.org/x/tools",
+          "modernc.org/libc",
+          "modernc.org/mathutil",
+          "modernc.org/memory",
+          "modernc.org/sqlite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 10012,
+      "readme_excerpt": "# IDUNA — Platform IAM & Governance Service\n\n## Current Status (2026-08-26)\n\nLive user account creation exists at **okemily.com/** (Google OAuth → honor code → permanent\ngamertag, real end-to-end, `internal/http/handlers/web_ceremony.go`) for the platform-wide\nidentity system. Separately, `POST /api/v1/auth/email/register` now takes an optional\n`character_name` and atomically creates a real DragonsNShit test account (real login + a real\nplayable character in one call) — see `CHANGELOG.md` 2026-08-04. Both are real, tested, and live.\n\n**New since (see `CHANGELOG.md` for the full trail)**: a real developer notebook portal\n(`/portal`, Google-SSO-gated, `devportal.access`); a **kanban prioritization layer** over\n`EMILY/BACKLOG.md` — a real 3-column drag-and-drop board at `/admin/kanban` (`iduna.admin`) plus\na bearer-gated agent/CLI API at `/api/v1/kanban/cards` (`kanban.access`, see `emily.cli`'s own\n`emily kanban` command); `/admin/login` and `/portal` both restyled to the real IDUNA cream/gold\nceremony design system (Cormorant Garamond + Spectral).\n\n---\n\nIDUNA is the central trust authority for the EINHORN_INDUSTRIAL / FARTHQ ecosystem. It sits between external identity providers (Go",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-08-25T18:48:14+00:00",
+        "last_at": "2026-09-16T23:23:42+00:00",
+        "active_days": 15,
+        "span_days": 22,
+        "max_per_day": 37,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(nock): add a real NOCK UI for writing door scripts",
+          "changelog(IDUNA): Add real PARENA-to-C compile pipeline + storage for SHANKPI…",
+          "feat(nock): real PARENA-to-C door script compile pipeline + storage",
+          "changelog(IDUNA): Add NOCK animation repository + server-side glTF drag-and-d…",
+          "feat(nock): animation repository + server-side glTF drag-and-drop import",
+          "changelog(IDUNA): Add blank-slate PARENA texture editor to NOCK (write pixel-…",
+          "feat(nock): add blank-slate PARENA texture editor",
+          "feat(shankpit): real PATCH endpoint to update a checkpoint's Elo after push",
+          "feat(shankpit): add eval_note field for self-serve elo diagnostics (S459-63)",
+          "feat(shankpit): wire real \"Set as opponent\" button (S459-62)",
+          "feat(shankpit): real, team-tagged spawner points for NOCK level editor",
+          "changelog(IDUNA): S459-50: provisioned the SHANKPIT-RL M2M agent (shankpit.ch…",
+          "feat(shankpit): provision SHANKPIT-RL M2M agent for the checkpoint registry (S459-50)",
+          "changelog(IDUNA): S459-49: real SHANKPIT bot registry on NOCK -- shankpit_rl_…",
+          "feat(shankpit): real bot registry affordances on NOCK -- disable, hide, deferred set-default (S459-49)",
+          "feat(shankpit): set-default-for-QUEUE flag on levels (S459-41)",
+          "changelog(IDUNA): docs(nock): correct PE macro recording cross-reference — be…",
+          "docs(nock): correct PE macro recording home — it's DUNG, not internal/nock",
+          "changelog(IDUNA): NOCK: non-destructive hue/saturation/sharpen adjustments (S…",
+          "feat(nock): non-destructive hue/saturation/sharpen adjustments (S416-04)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 393
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 2,443,976 bytes (85% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 198,736 bytes (7% of repo)",
+          "strength": 0.46910136171434913
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 153,787 bytes (5% of repo)",
+          "strength": 0.4534724011450598
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 27,027 bytes (1% of repo)",
+          "strength": 0.40939740410923897
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 18,052 bytes (1% of repo)",
+          "strength": 0.40627675801901736
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 12,007 bytes (0% of repo)",
+          "strength": 0.40417488552705194
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 9,938 bytes (0% of repo)",
+          "strength": 0.40345548533087716
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 9,356 bytes (0% of repo)",
+          "strength": 0.4032531214284249
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 3,128 bytes (0% of repo)",
+          "strength": 0.40108761904960594
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/iduna-construct.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (cmd/bob-agent/migrations_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/EMILY_FOR_BUSINESS_NORTHSTAR.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (migrations/truestore/202602220001_device_auth.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (migrations/truestore/202602220001_device_auth.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (sdk/python/notebooks/emily_observability.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2876007,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "go",
+          "pandas",
+          "sql",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "BRAWLPIT",
+      "full_name": "emilyspringerton/BRAWLPIT",
+      "html_url": "https://github.com/emilyspringerton/BRAWLPIT",
+      "description": "cursed; forged in flame",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-30T19:44:55Z",
+      "pushed_at": "2026-09-13T21:23:42Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 8921,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "C": 421801,
+        "Python": 312816,
+        "Jupyter Notebook": 8609,
+        "Shell": 6800,
+        "HTML": 2558,
+        "Makefile": 135
+      },
+      "primary_language": "C",
+      "file_count": 95,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "BRAWLPIT_CONSTRUCT",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "apps",
+        "characters",
+        "core",
+        "data",
+        "docs",
+        "levels",
+        "notebooks",
+        "ops",
+        "packages",
+        "patches",
+        "personas",
+        "scripts",
+        "tests",
+        "vendor",
+        "webterm"
+      ],
+      "notable_files": [
+        ".github/workflows/build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 14380,
+      "readme_excerpt": "# BRAWLPIT\n\n**Codename:** BRAWLPIT\n**Base:** SHANKPIT (Build 178)\n**Genre:** 2.5D Platform Fighter (Cursed Vibe Coding)\n\n\"Where momentum meets mayhem in 2.5D combat.\"\n\n## Current Status (2026-08-26)\n\nTIPJAR (a real bartender/bouncer game mode, see `docs/TIPJAR_ROADMAP.md`) now lives inside this\nengine — press **T** from the lobby. Steps 1-3 are shipped and live-verified: core single-player\nshift loop, player-indexed simulation (real entity ownership), and real 2-player local\nsplit-screen; Steps 4-7 (competitive/co-op, content, polish) are next. Also fixed: character\nselect getting permanently stuck on a rematch (a stale cursor variable silently edited the wrong\nslot). See `CHANGELOG.md`.\n\n**Roster now 10 fighters** (up from the original 2), all sprite-generated from real Prompt-o-verse\ngens with lore written first into `TYLER/multiverse_heroes.md`: **The Arabesque Understudy**\n(airy/balletic), **Rosie of the Unclaimed Arcade Cabinet** (well-rounded), **The Sunlit Draw**\n(grounded/sturdy), **The Tuxedo Duck Second Casting** (tricky/floaty, projectile-leaning),\n**Medusa** (Petrifying Gaze — directional stun), **Raccoon** (Scavenger's Dash — pure mobility,\nno damage/CC), **Second Tree",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.955,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-01-31T00:40:35+00:00",
+        "last_at": "2026-09-13T21:22:43+00:00",
+        "active_days": 20,
+        "span_days": 225,
+        "max_per_day": 69,
+        "low_effort_message_ratio": 0.01,
+        "messages_sample": [
+          "fix(ai): implement the missing S430 relational-feature block in ai_opponent_build_observation",
+          "fix(rl): wire ent_coef through argparse and all call sites to fix policy collapse",
+          "fix(rl_train_packet): fall back to a fresh model on obs-space-mismatched resume",
+          "changelog(BRAWLPIT): S452: --resume-from-registry now prints a loud WARNING (nam…",
+          "fix(rl): S452 loud warning when --resume-from-registry skips a role's entire (disabled) history",
+          "changelog(BRAWLPIT): S451: added a regression guard for MAIN's live PPO model --…",
+          "fix(rl): S451 revert MAIN's live model on a real Elo regression",
+          "changelog(BRAWLPIT): S449: Hyperbot-style real-time half-life discounting scales…",
+          "fix(server): S450 event-driven main loop instead of busy-spin polling",
+          "feat(rl): S449 Hyperbot-style real-time discounting for the draw penalty",
+          "changelog(BRAWLPIT): S447: wired real AlphaStar-style PFSP (rl_league.py's alrea…",
+          "feat(rl): S447 wire real AlphaStar-style PFSP into opponent selection",
+          "changelog(BRAWLPIT): S444: corrected self-play opponent selection per role (Main…",
+          "feat(rl): S444 role-specific self-play opponent selection",
+          "fix(server): S445/S446 real matchmaking re-queue and dropped-ack bugs",
+          "feat(rl): real self-play -- training now fights a frozen copy of its own prior generation (S443)",
+          "feat(rl): real token-bucket activity reward + inactivity penalty (S442)",
+          "changelog(BRAWLPIT): S443: real self-play -- BrawlpitPacketEnv can now queue a f…",
+          "changelog(BRAWLPIT): S442: real token-bucket activity reward (refill 0.8 tokens/…",
+          "changelog(BRAWLPIT): S440: real parallel env support via --num-envs (SubprocVecE…"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following the"
+        ],
+        "notebook_count": 1,
+        "code_file_count": 58
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 0,
+          "test": 2,
+          "revert": 1
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 421,801 bytes (56% of repo)",
+          "strength": 0.9603698059966601
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 312,816 bytes (42% of repo)",
+          "strength": 0.8155813789740927
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 8,609 bytes (1% of repo)",
+          "strength": 0.4114372029934146
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 6,800 bytes (1% of repo)",
+          "strength": 0.4090339157109094
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,558 bytes (0% of repo)",
+          "strength": 0.4033983465277215
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/BP_LEVEL_EDITOR_NORTHSTAR.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (notebooks/brawlpit_rl_training.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (scripts/test_mlp_policy_parity.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 752719,
+        "strong_skills": [
+          "c-cpp",
+          "cicd",
+          "pandas",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "PARENA",
+      "full_name": "emilyspringerton/PARENA",
+      "html_url": "https://github.com/emilyspringerton/PARENA",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-20T10:52:16Z",
+      "pushed_at": "2026-09-14T18:29:36Z",
+      "stargazers": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 9098,
+      "default_branch": "main",
+      "license": "Unlicense",
+      "topics": [],
+      "languages": {
+        "C": 3633109,
+        "Makefile": 73346,
+        "Shell": 19265,
+        "Starlark": 9911,
+        "Vim Script": 4835,
+        "Go": 3972,
+        "Python": 370
+      },
+      "primary_language": "C",
+      "file_count": 493,
+      "top_level_paths": [
+        ".bazelrc",
+        ".bazelversion",
+        ".github",
+        ".gitignore",
+        "Building Your Own Integrated Development Environment.docx",
+        "CHANGELOG.md",
+        "CLAUDE.md",
+        "LICENSE",
+        "MODULE.bazel",
+        "MODULE.bazel.lock",
+        "Makefile",
+        "NORTHSTAR.md",
+        "README.md",
+        "STDLIB.md",
+        "assets",
+        "bazel",
+        "docs",
+        "examples",
+        "ops",
+        "runtime",
+        "selfhost",
+        "src",
+        "stdlib",
+        "tests",
+        "tools",
+        "turbosed"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 21598,
+      "readme_excerpt": "# PARENA\n\n**\"PARENA is a language to make your software more programmable via fluid and composible plugin\nAPIS.\"** — founder's own mission statement. The adoption mechanism: bolt a plugin/FFI boundary\nonto existing software first, let PARENA code live there, and PARENA eats more of the host from\nthe outside in, iteratively — not a rewrite. See `NORTHSTAR.md`'s \"What this is\" for the full\nstatement.\n\nA new systems language: S-expression syntax, compile-time region-based memory safety (no GC, no\nmanual free), linear ownership for native resources, multiple compilation targets (C first, then\nJVM/TypeScript/WebAssembly). Ships its own editor/plugin API as a first-class part of the design.\nFull design: `NORTHSTAR.md`. Full standard-library design: `STDLIB.md`.\n\n**Status (2026-08-20): all 5 VS0 DoD domains are complete** — lexer/parser, region analyzer, C\nemitter, memory verification (ASan/UBSan/real Valgrind), and the CLI runner (`parena parse` /\n`parena analyze` / `parena build file.prn -o out.c`) all real, all CI-verified. This is a closed\nmilestone for VS0 *itself* — it does not mean the mod-surface stdlib is finished; that's real,\nseparate, ongoing work tracked below and in `STDLIB.",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-08-30T05:13:27+00:00",
+        "last_at": "2026-09-14T18:25:20+00:00",
+        "active_days": 12,
+        "span_days": 15,
+        "max_per_day": 40,
+        "low_effort_message_ratio": 0.005,
+        "messages_sample": [
+          "changelog(PARENA): fix(compress): real root cause found and fixed for the infl…",
+          "feat(image): real PNG decoder (chunk parsing + scanline defilter)",
+          "fix(compress): real root cause found and fixed -- inflate() dynamic-Huffman hang/corruption",
+          "changelog(PARENA): Added stdlib/compress/inflate.prn: a real RFC 1951 DEFLATE …",
+          "wip(compress): real RFC 1951 DEFLATE inflate, one known codegen bug",
+          "changelog(PARENA): feat(stdlib): brawlpit/commander_mod.prn -- real, pure, rul…",
+          "feat(stdlib): brawlpit/commander_mod -- real fractal-commander posture decision logic (S419)",
+          "feat(ecowar): add town_cap_mod + allcap_mod -- win condition, made mod-driven",
+          "feat(reflux): add REFLUX -- real cross-mod pub/sub stdlib, wire bloodflower to it",
+          "feat(ecowar): add walled_hamlet_mod.prn -- Living Map Walled Hamlet decision logic",
+          "feat(ecowar): add frontier_village_mod.prn -- real Living Map town decision logic",
+          "changelog(PARENA): net/udp real host-glue close-out: fixed 4 real bugs (libc b…",
+          "fix(net/udp): real host-glue close-out, live-verified round trip",
+          "fix(selfhost/emit): if-as-comparison-operand + tail true/false literal, a real int-conversion bug caught",
+          "fix(ci): real test_emit_llvm coverage -- bazel test, not just bazel build",
+          "feat(selfhost/emit): if/true/false/or/and/not-shaped loop-binding values + fix a real segfault",
+          "feat(compiler): real call argument-count/type validation for the LLVM backend",
+          "feat(compiler): real String support for the LLVM backend",
+          "feat(compiler): LLVM backend Phase 3-v0 -- parena itself emits real LLVM IR",
+          "feat(avr): LLVM backend Phase 0/1 -- clang route now builds a real blink.hex"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following the"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 237
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 8,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 3,633,109 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 73,346 bytes (2% of repo)",
+          "strength": 0.41958605087363626
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 19,265 bytes (1% of repo)",
+          "strength": 0.405144456004153
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 3,972 bytes (0% of repo)",
+          "strength": 0.40106066853093675
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ADA_GNAT_MEMORY_FEATURES.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (stdlib/helm/helm.prn)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/fake_webdriver_server.go)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3730062,
+        "strong_skills": [
+          "c-cpp",
+          "cicd",
+          "kubernetes",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SHANKPIT",
+      "full_name": "emilyspringerton/SHANKPIT",
+      "html_url": "https://github.com/emilyspringerton/SHANKPIT",
+      "description": "fragment the void",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-25T15:00:20Z",
+      "pushed_at": "2026-09-17T00:47:44Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 82,
+      "size_kb": 3726,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 1826541,
+        "Go": 244217,
+        "Python": 171813,
+        "Starlark": 10453,
+        "Shell": 7031,
+        "Makefile": 4779,
+        "Batchfile": 1519
+      },
+      "primary_language": "C",
+      "file_count": 249,
+      "top_level_paths": [
+        ".bazelrc",
+        ".bazelversion",
+        ".github",
+        ".gitignore",
+        "CHANGELOG.md",
+        "CLAUDE.md",
+        "MODULE.bazel",
+        "MODULE.bazel.lock",
+        "Makefile",
+        "README.md",
+        "README2.md",
+        "README_RUN.txt",
+        "SHANKPIT_CONSTRUCT_CURRENT.txt",
+        "apps",
+        "apps2",
+        "assets",
+        "build_win.bat",
+        "current-season.json",
+        "deploy_linux.sh",
+        "docs",
+        "docs2",
+        "examples",
+        "go.mod",
+        "ops",
+        "packages",
+        "packages2",
+        "release_monolith",
+        "release_temp",
+        "run_input_test",
+        "run_lag_test",
+        "scripts",
+        "server",
+        "services",
+        "shank_ai_v1.pth",
+        "shank_brain_horde.pth",
+        "stubs",
+        "tools",
+        "utils"
+      ],
+      "notable_files": [
+        ".github/workflows/release.yml",
+        ".github/workflows/tests.yml",
+        "go.mod",
+        "stubs/badger/go.mod",
+        "stubs/gnark/go.mod",
+        "tools/ui_server/go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/consensys/gnark",
+          "github.com/dgraph-io/badger/v3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 20911,
+      "readme_excerpt": "# SHANKPIT Game Architecture Document\r\n\r\n## Current Status (2026-08-26)\r\n\r\nCI is green (`ShankPit Factory` #784+) after a real fix: the cutscene system and spatial\r\naudio engine (both real, shipped features) had never been added to the Windows client's hardcoded\r\nmingw build command, so every CI run since build #721 failed with undefined references. Also\r\nfixed: helicopter HUD text was overlapping into unreadable garbage — the real flight physics\r\n(enter/fly/hover) were never actually broken, just unreadable.\r\n\r\n**New since**: CTF-with-bots (MODE_CTFB) now randomly picks Voxworld or Oil Tanker instead of\r\nalways Oil Tanker; story-mode enemies got real abilities (2 new threat roles, RedGarden-style\r\nsquad AI and abilities — graphics stay stubs for now, abilities do not); GOLDENBAND skinned-mesh\r\nsupport landed (S144-02 Stage B). See `CHANGELOG.md`.\r\n\r\n## What SHANKPIT is right now\r\n\r\nAt a high level, SHANKPIT currently includes:\r\n\r\n- a lobby/client app with local and networked play flows\r\n- a UDP server-authoritative game server\r\n- multiple local and networked game modes\r\n- linked scenes connected by portals\r\n- terrain-backed worlds in addition to box/block geometry\r\n- team modes in",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.794,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-06-24T01:35:02+00:00",
+        "last_at": "2026-09-17T00:47:43+00:00",
+        "active_days": 27,
+        "span_days": 84,
+        "max_per_day": 73,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(humanness): wire story_swarm_tick + correct a wrong Phase 2 claim",
+          "changelog(SHANKPIT): STORY_SYSTEM_NORTHSTAR.md: fold in scriptable elevators (do…",
+          "docs: fold scriptable elevators into STORY_SYSTEM_NORTHSTAR.md",
+          "changelog(SHANKPIT): Humanness Phase 2: wire jitter/mood into story_ai.c's comba…",
+          "feat(humanness): Phase 2 -- wire jitter/mood into story_ai.c's combat FSM",
+          "changelog(SHANKPIT): Humanness Phase 1: real jitter/mood primitives (reaction de…",
+          "feat(humanness): Phase 1 -- real jitter/mood primitives, MISHRI-bar tests",
+          "changelog(SHANKPIT): Add HUMANNESS_NORTHSTAR.md: realistic scriptable NPC framew…",
+          "docs: add HUMANNESS_NORTHSTAR.md -- realistic scriptable NPCs, grounded in MISHRI",
+          "docs: Phase 1 status -- NOCK UI for writing door scripts now real",
+          "changelog(SHANKPIT): Add a real, runnable demo level (hallway, two differently-s…",
+          "docs(story-doors): add a real, runnable demo level with two door scripts",
+          "docs: update Phase 1 status -- IDUNA compile/store pipeline closes the NOCK-tools gap",
+          "changelog(SHANKPIT): Story System S459-82: doors can fetch their compiled script…",
+          "feat(story-system): S459-82 -- doors can fetch their script from IDUNA by URL",
+          "changelog(SHANKPIT): Story System Phase 1: real, tested scriptable doors (PARENA…",
+          "feat(story-system): Phase 1 -- real, tested scriptable doors (PARENA->C->dlopen)",
+          "docs: fold ambient dialogue + sound design into STORY_SYSTEM_NORTHSTAR.md",
+          "changelog(SHANKPIT): STORY_SYSTEM_NORTHSTAR.md: fold in scriptable characters (i…",
+          "docs: fold scriptable characters + generic triggers into STORY_SYSTEM_NORTHSTAR.md"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 168
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,826,541 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 244,217 bytes (11% of repo)",
+          "strength": 0.5077577058825347
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 171,813 bytes (8% of repo)",
+          "strength": 0.4758103437549226
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 7,031 bytes (0% of repo)",
+          "strength": 0.40310234107396337
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 4,779 bytes (0% of repo)",
+          "strength": 0.4021086741562325
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/release.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (apps2/emily-bot/observation_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ANTICHEAT_NORTHSTAR.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (tools/skateboard-cli/schema.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2254381,
+        "strong_skills": [
+          "c-cpp",
+          "cicd",
+          "go",
+          "sql",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C": 6043198,
+    "Go": 3343222,
+    "Python": 516786,
+    "TypeScript": 198736,
+    "Makefile": 78260,
+    "Shell": 69375,
+    "Starlark": 20364,
+    "Jupyter Notebook": 18547,
+    "CSS": 18052,
+    "JavaScript": 12007,
+    "HTML": 11914,
+    "Vim Script": 4835,
+    "Batchfile": 1519
+  },
+  "total_commits": 1000,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "emilyspringerton/EMILY",
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT",
+        "emilyspringerton/PARENA",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 6043198,
+      "commit_count": 1000,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-17T01:11:04+00:00",
+      "details": [
+        "EMILY: C: 7,960 bytes (1% of repo)",
+        "IDUNA: C: 153,787 bytes (5% of repo)",
+        "BRAWLPIT: C: 421,801 bytes (56% of repo)",
+        "PARENA: C: 3,633,109 bytes (97% of repo)",
+        "SHANKPIT: C: 1,826,541 bytes (81% of repo)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "emilyspringerton/EMILY",
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/PARENA",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3343222,
+      "commit_count": 800,
+      "first_seen": "2026-06-24T01:35:02+00:00",
+      "last_seen": "2026-09-17T01:11:04+00:00",
+      "details": [
+        "EMILY: Go: 651,057 bytes (93% of repo)",
+        "EMILY: Go module (cmd/get-gmail-token/go.mod)",
+        "IDUNA: Go: 2,443,976 bytes (85% of repo)",
+        "IDUNA: Go module (go.mod)",
+        "PARENA: Go: 3,972 bytes (0% of repo)",
+        "SHANKPIT: Go: 244,217 bytes (11% of repo)",
+        "SHANKPIT: Go module (go.mod)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "emilyspringerton/EMILY",
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8155813789740927,
+      "total_bytes": 534963,
+      "commit_count": 800,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-17T01:11:04+00:00",
+      "details": [
+        "EMILY: Python: 4,760 bytes (1% of repo)",
+        "IDUNA: Python: 27,027 bytes (1% of repo)",
+        "IDUNA: Jupyter Notebook: 9,938 bytes (0% of repo)",
+        "BRAWLPIT: Python: 312,816 bytes (42% of repo)",
+        "BRAWLPIT: Jupyter Notebook: 8,609 bytes (1% of repo)",
+        "SHANKPIT: Python: 171,813 bytes (8% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "emilyspringerton/EMILY",
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT",
+        "emilyspringerton/PARENA",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-17T01:11:04+00:00",
+      "details": [
+        "EMILY: GitHub Actions workflow (.github/workflows/construct-bundle.yml)",
+        "IDUNA: GitHub Actions workflow (.github/workflows/iduna-construct.yml)",
+        "BRAWLPIT: GitHub Actions workflow (.github/workflows/build.yml)",
+        "PARENA: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "SHANKPIT: GitHub Actions workflow (.github/workflows/release.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "emilyspringerton/EMILY",
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT",
+        "emilyspringerton/PARENA",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-17T01:11:04+00:00",
+      "details": [
+        "EMILY: docs directory (docs/API_KEY_UNLOCK.md)",
+        "IDUNA: docs directory (docs/EMILY_FOR_BUSINESS_NORTHSTAR.md)",
+        "BRAWLPIT: docs directory (docs/BP_LEVEL_EDITOR_NORTHSTAR.md)",
+        "PARENA: docs directory (docs/ADA_GNAT_MEMORY_FEATURES.md)",
+        "SHANKPIT: docs directory (docs/ANTICHEAT_NORTHSTAR.md)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "emilyspringerton/EMILY",
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT",
+        "emilyspringerton/PARENA",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-17T01:11:04+00:00",
+      "details": [
+        "EMILY: test file (emily-agent/briefing_test.go)",
+        "IDUNA: test file (cmd/bob-agent/migrations_test.go)",
+        "BRAWLPIT: test file (scripts/test_mlp_policy_parity.py)",
+        "PARENA: test directory (tests/fake_webdriver_server.go)",
+        "SHANKPIT: test file (apps2/emily-bot/observation_test.go)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2026-06-24T01:35:02+00:00",
+      "last_seen": "2026-09-17T00:47:43+00:00",
+      "details": [
+        "IDUNA: SQL file (migrations/truestore/202602220001_device_auth.sql)",
+        "SHANKPIT: SQL file (tools/skateboard-cli/schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-16T23:23:42+00:00",
+      "details": [
+        "IDUNA: jupyter notebook (sdk/python/notebooks/emily_observability.ipynb)",
+        "BRAWLPIT: jupyter notebook (notebooks/brawlpit_rl_training.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "emilyspringerton/IDUNA"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-25T18:48:14+00:00",
+      "last_seen": "2026-09-16T23:23:42+00:00",
+      "details": [
+        "IDUNA: database migrations (migrations/truestore/202602220001_device_auth.sql)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "emilyspringerton/PARENA"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-30T05:13:27+00:00",
+      "last_seen": "2026-09-14T18:25:20+00:00",
+      "details": [
+        "PARENA: kubernetes manifests (stdlib/helm/helm.prn)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "emilyspringerton/IDUNA"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.46910136171434913,
+      "total_bytes": 198736,
+      "commit_count": 200,
+      "first_seen": "2026-08-25T18:48:14+00:00",
+      "last_seen": "2026-09-16T23:23:42+00:00",
+      "details": [
+        "IDUNA: TypeScript: 198,736 bytes (7% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "emilyspringerton/EMILY",
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT",
+        "emilyspringerton/PARENA",
+        "emilyspringerton/SHANKPIT"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.44756732402773314,
+      "total_bytes": 147500,
+      "commit_count": 1000,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-17T01:11:04+00:00",
+      "details": [
+        "EMILY: Shell: 33,151 bytes (5% of repo)",
+        "IDUNA: Shell: 3,128 bytes (0% of repo)",
+        "BRAWLPIT: Shell: 6,800 bytes (1% of repo)",
+        "PARENA: Makefile: 73,346 bytes (2% of repo)",
+        "PARENA: Shell: 19,265 bytes (1% of repo)",
+        "SHANKPIT: Shell: 7,031 bytes (0% of repo)",
+        "SHANKPIT: Makefile: 4,779 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "emilyspringerton/IDUNA",
+        "emilyspringerton/BRAWLPIT"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40627675801901736,
+      "total_bytes": 29966,
+      "commit_count": 400,
+      "first_seen": "2026-01-31T00:40:35+00:00",
+      "last_seen": "2026-09-16T23:23:42+00:00",
+      "details": [
+        "IDUNA: CSS: 18,052 bytes (1% of repo)",
+        "IDUNA: HTML: 9,356 bytes (0% of repo)",
+        "BRAWLPIT: HTML: 2,558 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "emilyspringerton/IDUNA"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40417488552705194,
+      "total_bytes": 12007,
+      "commit_count": 200,
+      "first_seen": "2026-08-25T18:48:14+00:00",
+      "last_seen": "2026-09-16T23:23:42+00:00",
+      "details": [
+        "IDUNA: JavaScript: 12,007 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 1000,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:29:45.362803+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

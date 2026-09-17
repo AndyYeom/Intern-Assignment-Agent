@@ -1,0 +1,283 @@
+{
+  "applicant_id": "applicant0062",
+  "github_login": "i529",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0062.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/i529/Disvet-Project",
+        "https://github.com/i529/Job-Finder"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Disvet-Project",
+          "html_url": "https://github.com/i529/Disvet-Project",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: has_tests",
+            "database migrations (front-end/node_modules/@schematics/angular/migrations/migration-collection.json)"
+          ]
+        },
+        {
+          "repo": "i529/Job-Finder",
+          "html_url": "https://github.com/i529/Job-Finder",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_tests",
+            "sequelize in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/i529/Hype_Club._Project",
+        "https://github.com/i529/Disvet-Project",
+        "https://github.com/i529/Exercicio-Da-Faculdade-Site-Petshop",
+        "https://github.com/i529/Job-Finder"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Hype_Club._Project",
+          "html_url": "https://github.com/i529/Hype_Club._Project",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; multi_month_span, many_active_days",
+            "CSS: 19,028 bytes (53% of repo)",
+            "HTML: 8,860 bytes (25% of repo)"
+          ]
+        },
+        {
+          "repo": "i529/Disvet-Project",
+          "html_url": "https://github.com/i529/Disvet-Project",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: has_tests",
+            "CSS: 27,106 bytes (37% of repo)",
+            "HTML: 26,916 bytes (37% of repo)"
+          ]
+        },
+        {
+          "repo": "i529/Exercicio-Da-Faculdade-Site-Petshop",
+          "html_url": "https://github.com/i529/Exercicio-Da-Faculdade-Site-Petshop",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "HTML: 14,961 bytes (95% of repo)"
+          ]
+        },
+        {
+          "repo": "i529/Job-Finder",
+          "html_url": "https://github.com/i529/Job-Finder",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_tests",
+            "CSS: 4,947 bytes (33% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "integration-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/i529/Disvet-Project"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Disvet-Project",
+          "html_url": "https://github.com/i529/Disvet-Project",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: has_tests",
+            "e2e suite (front-end/node_modules/@angular/cli/src/commands/e2e/cli.d.ts)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/i529/Job-Finder"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Job-Finder",
+          "html_url": "https://github.com/i529/Job-Finder",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_tests",
+            "JavaScript: 3,250 bytes (21% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/i529/Job-Finder",
+        "https://github.com/i529/Minimal-API-Formula-1"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Job-Finder",
+          "html_url": "https://github.com/i529/Job-Finder",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_tests",
+            "express in package.json"
+          ]
+        },
+        {
+          "repo": "i529/Minimal-API-Formula-1",
+          "html_url": "https://github.com/i529/Minimal-API-Formula-1",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project, all_commits_one_day",
+            "fastify in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/i529/Disvet-Project",
+        "https://github.com/i529/Job-Finder"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Disvet-Project",
+          "html_url": "https://github.com/i529/Disvet-Project",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: has_tests",
+            "docs directory (front-end/node_modules/node-gyp/gyp/docs/GypVsCMake.md)"
+          ]
+        },
+        {
+          "repo": "i529/Job-Finder",
+          "html_url": "https://github.com/i529/Job-Finder",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_tests",
+            "docs directory (node_modules/node-gyp/docs/Common-issues.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/i529/Hype_Club._Project",
+        "https://github.com/i529/Disvet-Project",
+        "https://github.com/i529/Minimal-API-Formula-1"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Hype_Club._Project",
+          "html_url": "https://github.com/i529/Hype_Club._Project",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; multi_month_span, many_active_days",
+            "TypeScript: 8,103 bytes (23% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "i529/Disvet-Project",
+          "html_url": "https://github.com/i529/Disvet-Project",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: has_tests",
+            "TypeScript: 17,524 bytes (24% of repo)"
+          ]
+        },
+        {
+          "repo": "i529/Minimal-API-Formula-1",
+          "html_url": "https://github.com/i529/Minimal-API-Formula-1",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project, all_commits_one_day",
+            "TypeScript: 2,488 bytes (100% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/i529/Disvet-Project",
+        "https://github.com/i529/Job-Finder"
+      ],
+      "repos": [
+        {
+          "repo": "i529/Disvet-Project",
+          "html_url": "https://github.com/i529/Disvet-Project",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: has_tests",
+            "test directory (front-end/node_modules/@angular/cli/src/commands/test/cli.d.ts)"
+          ]
+        },
+        {
+          "repo": "i529/Job-Finder",
+          "html_url": "https://github.com/i529/Job-Finder",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_tests",
+            "test directory (node_modules/bl/test/convert.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 6
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "applicant_id": "applicant0065",
+  "github_login": "appliks",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0065.json",
+  "skills": [
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/appliks/ege27",
+        "https://github.com/appliks/huckui",
+        "https://github.com/appliks/li"
+      ],
+      "repos": [
+        {
+          "repo": "appliks/ege27",
+          "html_url": "https://github.com/appliks/ege27",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 5,713 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "appliks/huckui",
+          "html_url": "https://github.com/appliks/huckui",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 24,211 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "appliks/li",
+          "html_url": "https://github.com/appliks/li",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: used_by_others",
+            "Python: 5,475 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1
+  }
+}

@@ -1,0 +1,1022 @@
+{
+  "applicant_id": "applicant0091",
+  "login": "Damyan23",
+  "html_url": "https://github.com/Damyan23",
+  "created_at": "2021-02-08T20:47:21Z",
+  "account_age_days": 2046,
+  "public_repos": 22,
+  "followers": 0,
+  "following": 1,
+  "repos": [
+    {
+      "name": "Damyan23.github.io",
+      "full_name": "Damyan23/Damyan23.github.io",
+      "html_url": "https://github.com/Damyan23/Damyan23.github.io",
+      "description": "Created from HugoBlox template: theme-academic-cv",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-27T21:58:02Z",
+      "pushed_at": "2025-12-27T21:59:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3344,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 4335,
+        "TeX": 399,
+        "HTML": 73
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 86,
+      "top_level_paths": [
+        ".devcontainer",
+        ".github",
+        ".gitignore",
+        ".vscode",
+        "LICENSE.md",
+        "README.md",
+        "assets",
+        "config",
+        "content",
+        "data",
+        "go.mod",
+        "hugoblox.yaml",
+        "layouts",
+        "netlify.toml",
+        "package.json",
+        "pnpm-lock.yaml",
+        "static"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        ".github/workflows/import-publications.yml",
+        ".github/workflows/updater-wip.yml",
+        "go.mod",
+        "package.json"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/hugoblox/hugo-blox-builder/modules/blox-plugin-netlify",
+          "github.com/hugoblox/hugo-blox-builder/modules/blox-plugin-reveal",
+          "github.com/hugoblox/hugo-blox-builder/modules/blox-tailwind"
+        ],
+        "package.json": [
+          "@tailwindcss/cli",
+          "@tailwindcss/typography",
+          "preact",
+          "tailwindcss"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5927,
+      "readme_excerpt": "# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/theme-academic-cv)\n\n[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv/start/?utm_source=github&utm_medium=readme)\n\n<h1 align=\"center\">The Portfolio That Works While You Sleep</h1>\n\n<p align=\"center\">\n  <strong>Your unfair advantage in academia.</strong><br/>\n  Stop sending PDFs into the void. Build a living portfolio that boosts citations and lands offers.<br/>\n  Trusted by 250,000+ researchers at <strong>MIT, Stanford, and Google</strong>.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme\"><b>🚀 Launch Free (60s)</b></a>\n  &nbsp;•&nbsp;\n  <a href=\"https://hugoblox.com/templates/?open=academic-cv&loading=true&utm_source=github&utm_medium=readme\">Live Demo</a>\n  &nbsp;•&nbsp;\n  <a href=\"https://marketplace.visualstudio.com/items?itemName=hugoblox.hugoblox-studio\"><b>Visual Editor</b></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://discord.gg/z8wNYzb\"><img src=\"https://img.shields.io/discord/[phone]?label=Join%20Discord&style=social\" alt=\"Discord\"></a>\n  <a href=\"https://github.com/HugoBlox/theme-academic-c",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-12-27T21:58:06+00:00",
+        "last_at": "2025-12-27T21:58:06+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 4,335 bytes (90% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (content/blog/notebook-onboarding/hugoblox-onboarding.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "repo_name",
+          "detail": "'cv' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4408,
+        "strong_skills": [
+          "cicd",
+          "go",
+          "pandas",
+          "python",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Castle-Siege",
+      "full_name": "Damyan23/Castle-Siege",
+      "html_url": "https://github.com/Damyan23/Castle-Siege",
+      "description": "A personal project. It is a medievil tower defence game.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-02T17:03:54Z",
+      "pushed_at": "2025-10-22T23:02:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 215992,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "ShaderLab": 2436788,
+        "C#": 182780,
+        "HLSL": 31887,
+        "Mathematica": 15479
+      },
+      "primary_language": "ShaderLab",
+      "file_count": 6610,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".tkb",
+        ".vscode",
+        "Assets",
+        "Packages",
+        "ProjectSettings",
+        "UIElementsSchema"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-03-02T17:03:55+00:00",
+        "last_at": "2025-10-22T23:02:20+00:00",
+        "active_days": 4,
+        "span_days": 234,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "Weight based path finding & procedurally generate path",
+          "Fixed path finding for the hex map and started adding a weight based pathfinding",
+          "Some more bug fixing",
+          "Some bug fixing",
+          "Project",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 61
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 182,780 bytes (7% of repo)",
+          "strength": 0.4685356293031624
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "strong_skill_signal"
+        ],
+        "code_bytes": 182780,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Procedurally-Animated-Spider",
+      "full_name": "Damyan23/Procedurally-Animated-Spider",
+      "html_url": "https://github.com/Damyan23/Procedurally-Animated-Spider",
+      "description": "A Unity project of a procedurally generated walking animation of a spider. The animation can adjust to the terrain.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-05T20:42:22Z",
+      "pushed_at": "2025-05-05T20:42:50Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 9286,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 24771,
+        "Mathematica": 16133
+      },
+      "primary_language": "C#",
+      "file_count": 186,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "Assets",
+        "Packages",
+        "ProjectSettings"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-05-05T20:40:45+00:00",
+        "last_at": "2025-05-05T20:40:45+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Initial commit of Unity project"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 24,771 bytes (61% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 24771,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "OpenGL",
+      "full_name": "Damyan23/OpenGL",
+      "html_url": "https://github.com/Damyan23/OpenGL",
+      "description": "Learning OpenGL",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-11-17T19:00:56Z",
+      "pushed_at": "2024-11-17T21:33:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4302,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 318263,
+        "C": 60244,
+        "GLSL": 17667
+      },
+      "primary_language": "C++",
+      "file_count": 78,
+      "top_level_paths": [
+        "Graphics Engine",
+        "REEDME.TXT"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-11-17T21:29:57+00:00",
+        "last_at": "2024-11-17T21:32:56+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "OpenGL program",
+          "Update REEDME.TXT",
+          "Create REEDME.TXT"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 318,263 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 60,244 bytes (15% of repo)",
+          "strength": 0.5520644969129727
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 378507,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Site",
+      "full_name": "Damyan23/Site",
+      "html_url": "https://github.com/Damyan23/Site",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-27T21:59:05Z",
+      "pushed_at": "2026-09-17T01:13:05Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 129931,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 125731,
+        "JavaScript": 70988,
+        "CSS": 64550,
+        "HTML": 11792
+      },
+      "primary_language": "C#",
+      "file_count": 258,
+      "top_level_paths": [
+        ".assetsignore",
+        ".gitignore",
+        ".vscode",
+        "Playfair_Display",
+        "assets",
+        "index.html",
+        "project.html",
+        "project.js",
+        "projects-data.js",
+        "script.js",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2026-06-27T09:50:24+00:00",
+        "last_at": "2026-09-17T01:12:54+00:00",
+        "active_days": 3,
+        "span_days": 81,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "The hunt github link fixed",
+          "Move ignore files to repo root",
+          "Add ignore files for git and Workers assets",
+          "moved some videos",
+          "Revert \"Create trailer-web.mp4\"",
+          "Create trailer-web.mp4",
+          "Final site",
+          "dvdv",
+          "Initiali Commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 51
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 125,731 bytes (46% of repo)",
+          "strength": 0.8604502290696951
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 70,988 bytes (26% of repo)",
+          "strength": 0.6599712152229722
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 64,550 bytes (24% of repo)",
+          "strength": 0.6363940657948224
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 11,792 bytes (4% of repo)",
+          "strength": 0.4431844899125104
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 273061,
+        "strong_skills": [
+          "csharp",
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "ShaderLab": 2436788,
+    "C#": 333282,
+    "C++": 318263,
+    "JavaScript": 70988,
+    "CSS": 64550,
+    "C": 60244,
+    "HLSL": 31887,
+    "Mathematica": 31612,
+    "GLSL": 17667,
+    "HTML": 11865,
+    "Jupyter Notebook": 4335,
+    "TeX": 399
+  },
+  "total_commits": 20,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "Damyan23/Castle-Siege",
+        "Damyan23/Procedurally-Animated-Spider",
+        "Damyan23/Site"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 333282,
+      "commit_count": 16,
+      "first_seen": "2025-03-02T17:03:55+00:00",
+      "last_seen": "2026-09-17T01:12:54+00:00",
+      "details": [
+        "Castle-Siege: C#: 182,780 bytes (7% of repo)",
+        "Procedurally-Animated-Spider: C#: 24,771 bytes (61% of repo)",
+        "Site: C#: 125,731 bytes (46% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Damyan23/OpenGL"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 378507,
+      "commit_count": 3,
+      "first_seen": "2024-11-17T21:29:57+00:00",
+      "last_seen": "2024-11-17T21:32:56+00:00",
+      "details": [
+        "OpenGL: C++: 318,263 bytes (80% of repo)",
+        "OpenGL: C: 60,244 bytes (15% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Damyan23/Damyan23.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4335,
+      "commit_count": 1,
+      "first_seen": "2025-12-27T21:58:06+00:00",
+      "last_seen": "2025-12-27T21:58:06+00:00",
+      "details": [
+        "Damyan23.github.io: Jupyter Notebook: 4,335 bytes (90% of repo)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Damyan23/Damyan23.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-12-27T21:58:06+00:00",
+      "last_seen": "2025-12-27T21:58:06+00:00",
+      "details": [
+        "Damyan23.github.io: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Damyan23/Site"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6599712152229722,
+      "total_bytes": 70988,
+      "commit_count": 9,
+      "first_seen": "2026-06-27T09:50:24+00:00",
+      "last_seen": "2026-09-17T01:12:54+00:00",
+      "details": [
+        "Site: JavaScript: 70,988 bytes (26% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Damyan23/Site"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6363940657948224,
+      "total_bytes": 76342,
+      "commit_count": 9,
+      "first_seen": "2026-06-27T09:50:24+00:00",
+      "last_seen": "2026-09-17T01:12:54+00:00",
+      "details": [
+        "Site: CSS: 64,550 bytes (24% of repo)",
+        "Site: HTML: 11,792 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Damyan23/Damyan23.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-12-27T21:58:06+00:00",
+      "last_seen": "2025-12-27T21:58:06+00:00",
+      "details": [
+        "Damyan23.github.io: GitHub Actions workflow (.github/workflows/deploy.yml)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "Damyan23/Damyan23.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-12-27T21:58:06+00:00",
+      "last_seen": "2025-12-27T21:58:06+00:00",
+      "details": [
+        "Damyan23.github.io: jupyter notebook (content/blog/notebook-onboarding/hugoblox-onboarding.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "Damyan23/Damyan23.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-12-27T21:58:06+00:00",
+      "last_seen": "2025-12-27T21:58:06+00:00",
+      "details": [
+        "Damyan23.github.io: Go module (go.mod)"
+      ]
+    },
+    {
+      "skill_id": "computer-vision",
+      "repos": [
+        "Damyan23/Damyan23.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-12-27T21:58:06+00:00",
+      "last_seen": "2025-12-27T21:58:06+00:00",
+      "details": [
+        "Damyan23.github.io: 'cv' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 20,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:34:59.778289+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

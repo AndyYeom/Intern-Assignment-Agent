@@ -1,0 +1,1198 @@
+{
+  "applicant_id": "applicant0108",
+  "login": "skycar321",
+  "html_url": "https://github.com/skycar321",
+  "created_at": "2021-10-19T01:23:01Z",
+  "account_age_days": 1794,
+  "public_repos": 5,
+  "followers": 1,
+  "following": 1,
+  "repos": [
+    {
+      "name": "DevelopmentTest",
+      "full_name": "skycar321/DevelopmentTest",
+      "html_url": "https://github.com/skycar321/DevelopmentTest",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-24T12:31:16Z",
+      "pushed_at": "2026-09-17T01:10:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12229858,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 64530,
+        "HTML": 19790,
+        "Shell": 14947
+      },
+      "primary_language": "Java",
+      "file_count": 1393,
+      "top_level_paths": [
+        "BATCH_OPTIMIZATION_ANALYSIS.md",
+        "BATCH_PROCESSING_COMPARISON.md",
+        "DevSource.7z",
+        "IMPLEMENTATION_SUMMARY.md",
+        "PARALLEL_PROCESSING_ANALYSIS.md",
+        "README.md",
+        "SQM_perf_deliverable_20260602.7z",
+        "airflow-bundle-20260529_065403.7z",
+        "airflow-bundle-20260529_104820.7z",
+        "airflow-bundle-20260529_135140.7z",
+        "airflow-bundle-20260529_142043.7z",
+        "airflow-bundle-20260602_153048.7z",
+        "airflow-bundle-20260602_184949.7z",
+        "airflow-bundle-20260602_230029.7z",
+        "airflow-bundle-20260602_234405.7z",
+        "airflow-bundle-20260602_235941.7z",
+        "airflow-bundle-20260603_001731.7z",
+        "airflow-bundle-20260603_012053.7z",
+        "airflow-bundle-20260603_013141.7z",
+        "airflow-bundle-20260604_012139.7z",
+        "airflow-bundle-20260604_094503.7z",
+        "airflow-bundle-20260604_133750.7z",
+        "airflow-bundle-20260604_145646.7z",
+        "airflow-bundle-20260604_153259.7z",
+        "airflow-bundle-20260604_235950.7z",
+        "airflow-bundle-20260605_011819.7z",
+        "airflow-bundle-20260605_115053.7z",
+        "airflow-bundle-20260607_002047.7z",
+        "airflow-bundle-20260607_135641.7z",
+        "airflow-bundle-20260608_000622.7z",
+        "airflow-bundle-20260609_104649.7z",
+        "airflow-bundle-20260609_114958.7z",
+        "airflow-bundle-20260609_121955.7z",
+        "airflow-bundle-20260609_132844.7z",
+        "airflow-bundle-20260609_140458.7z",
+        "airflow-bundle-20260610_172846.7z",
+        "airflow-bundle-20260613_220432.7z",
+        "airflow-bundle-20260614_004143.7z",
+        "airflow-bundle-20260614_231423.7z",
+        "airflow-bundle-20260614_234022.7z"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1907,
+      "readme_excerpt": "⏺ -- step execution (오늘자)\n  UPDATE BATCH_STEP_EXECUTION SET STATUS = 'FAILED', EXIT_CODE = 'FAILED'\n  WHERE JOB_EXECUTION_ID IN (\n    SELECT je.JOB_EXECUTION_ID FROM BATCH_JOB_EXECUTION je\n    JOIN BATCH_JOB_INSTANCE ji ON je.JOB_INSTANCE_ID = ji.JOB_INSTANCE_ID\n    WHERE ji.JOB_NAME = ''\n      AND je.STATUS = 'ABANDONED'\n      AND je.CREATE_TIME >= CURRENT_DATE\n  );\n\n  -- job execution (오늘자)\n  UPDATE BATCH_JOB_EXECUTION SET STATUS = 'FAILED', EXIT_CODE = 'FAILED'\n  WHERE STATUS = 'ABANDONED'\n    AND CREATE_TIME >= CURRENT_DATE\n    AND JOB_INSTANCE_ID IN (\n      SELECT JOB_INSTANCE_ID FROM BATCH_JOB_INSTANCE\n      WHERE JOB_NAME = ''\n    );\n\n\n  SELECT je.JOB_EXECUTION_ID, je.STATUS, je.CREATE_TIME\n  FROM BATCH_JOB_EXECUTION je\n  JOIN BATCH_JOB_INSTANCE ji ON je.JOB_INSTANCE_ID = ji.JOB_INSTANCE_ID\n  WHERE ji.JOB_NAME = ''\n    AND je.STATUS = 'ABANDONED'\n    AND je.CREATE_TIME >= CURRENT_DATE;\n    \n  -- 먼저 확인\n  SELECT se.STEP_EXECUTION_ID, se.STEP_NAME, se.STATUS, se.START_TIME\n  FROM BATCH_STEP_EXECUTION se\n  JOIN BATCH_JOB_EXECUTION je ON se.JOB_EXECUTION_ID = je.JOB_EXECUTION_ID\n  JOIN BATCH_JOB_INSTANCE ji ON je.JOB_INSTANCE_ID = ji.JOB_INSTANCE_ID\n  WHERE ji.JOB_NAME = ''\n    A",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 64,530 bytes (65% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 19,790 bytes (20% of repo)",
+          "strength": 0.5993613184643436
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 14,947 bytes (15% of repo)",
+          "strength": 0.5505737052595525
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (test/WlessMabcBatchWriter.java)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 99267,
+        "strong_skills": [
+          "html-css",
+          "java",
+          "shell",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "learning-code",
+      "full_name": "skycar321/learning-code",
+      "html_url": "https://github.com/skycar321/learning-code",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-23T14:42:38Z",
+      "pushed_at": "2026-01-12T15:50:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 37306,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Shell": 887096,
+        "JavaScript": 387109,
+        "Java": 344407,
+        "TypeScript": 344193,
+        "Python": 159314,
+        "Rust": 74916,
+        "Dart": 63570,
+        "Kotlin": 62797,
+        "Go": 62056,
+        "HTML": 32310,
+        "PowerShell": 19320,
+        "CSS": 14838,
+        "Dockerfile": 4025,
+        "Smarty": 2620,
+        "Batchfile": 1030,
+        "SCSS": 325
+      },
+      "primary_language": "Shell",
+      "file_count": 1270,
+      "top_level_paths": [
+        ".claude",
+        ".gcx",
+        ".gitignore",
+        "CLAUDE.md",
+        "GCX_v5_Integration_Plan_v1.md",
+        "GCX_v5_Integration_Plan_v2.md",
+        "GCX_v5_Integration_Plan_v3.md",
+        "GCX_v5_Integration_Plan_v4.md",
+        "GCX_v5_Integration_Plan_v5.md",
+        "GCX_v6_Integration_Plan.md",
+        "GCX_v6_Integration_Plan_backup.md",
+        "GCX_v6_Integration_Verification_Report_20251219.md",
+        "GCX_v6_MSYS2_Zsh_Default_and_Hook_Error_20251219.md",
+        "GEMINI.md",
+        "MODIFY_HISTORY.md",
+        "comparisons",
+        "content",
+        "docs",
+        "platform",
+        "run_dev.bat",
+        "scripts",
+        "화면 캡처 2025-12-19 215005.png",
+        "화면 캡처 2025-12-19 215250.png",
+        "화면 캡처 2025-12-22 111926 git bash.png",
+        "화면 캡처 2025-12-22 111945 msys.png",
+        "화면 캡처 2025-12-22 113038.png",
+        "화면 캡처 2025-12-22 180822.png"
+      ],
+      "notable_files": [
+        "content/frameworks/nodejs/Step1_NodeJSBasics/package.json",
+        "content/frameworks/nodejs/Step3_WebServerAndRESTAPI/package.json",
+        "content/frameworks/nodejs/Step4_AdvancedFeatures/package.json",
+        "content/frameworks/nodejs/Step5_DeploymentAndMicroservices/Dockerfile",
+        "content/frameworks/nodejs/Step5_DeploymentAndMicroservices/package.json",
+        "content/tools/gradle/Step1_GradleBasics/build.gradle",
+        "content/tools/gradle/Step2_BuildScriptsAndTasks/build.gradle",
+        "content/tools/gradle/Step3_DependencyManagementAndPlugins/build.gradle",
+        "content/tools/gradle/Step4_MultiProjectAndAdvanced/app/build.gradle",
+        "content/tools/gradle/Step4_MultiProjectAndAdvanced/build.gradle",
+        "content/tools/gradle/Step4_MultiProjectAndAdvanced/library/build.gradle",
+        "content/tools/gradle/Step5_DeploymentAndCICD/build.gradle",
+        "content/tools/webpack/Step1_WebpackBasics/package.json",
+        "content/tools/webpack/Step2_UtilizingLoaders/package.json",
+        "content/tools/webpack/Step3_UtilizingPlugins/package.json",
+        "content/tools/webpack/Step4_DevProdConfig/package.json",
+        "content/tools/webpack/Step5_PerformanceAndAdvanced/package.json",
+        "platform/backend/Cargo.toml",
+        "platform/frontend/package.json",
+        "platform/ui-sample/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.69,
+      "commits": {
+        "count": 40,
+        "first_at": "2025-11-23T14:55:08+00:00",
+        "last_at": "2026-01-12T15:50:10+00:00",
+        "active_days": 12,
+        "span_days": 50,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.025,
+        "messages_sample": [
+          "Merge pull request #18 from skycar321/dev",
+          "stash sample update",
+          "gcx sh 업데이트",
+          "업데이트",
+          "Merge pull request #15 from skycar321/dev",
+          "sh 픽스",
+          "Merge pull request #14 from skycar321/dev",
+          "변동사항 커밋 2",
+          "변경사항커밋",
+          "프로토콜관련 추가",
+          "경로변경",
+          "내용추가",
+          "학습내용업데이트",
+          "학습내용 추가",
+          "git ignore 업데이트",
+          "rust배포 가이드 추가",
+          "Merge pull request #8 from skycar321/dev",
+          "내용 추가",
+          "Merge pull request #7 from skycar321/dev",
+          "학습내용 추가"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [
+          "^(hello[-_]?world|my[-_]?first|learn(ing)?[-_])"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 449
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 887,096 bytes (36% of repo)",
+          "strength": 0.760618977969256
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 387,109 bytes (16% of repo)",
+          "strength": 0.557366115891291
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 344,407 bytes (14% of repo)",
+          "strength": 0.5400070571228566
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 344,193 bytes (14% of repo)",
+          "strength": 0.5399200626360305
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 159,314 bytes (6% of repo)",
+          "strength": 0.4647637367953345
+        },
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 63,570 bytes (3% of repo)",
+          "strength": 0.4258422407828528
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 62,797 bytes (3% of repo)",
+          "strength": 0.4255280036879158
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 62,056 bytes (3% of repo)",
+          "strength": 0.4252267751143734
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 32,310 bytes (1% of repo)",
+          "strength": 0.4131345414455557
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 19,320 bytes (1% of repo)",
+          "strength": 0.40785389479195716
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 14,838 bytes (1% of repo)",
+          "strength": 0.4060318887641336
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 4,025 bytes (0% of repo)",
+          "strength": 0.4016362280816578
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (.gcx/02_implementation/tests/test_factorial.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (content/databases/postgresql/Advanced_Step1_WindowFunctions.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (content/devops/airflow/Step2_Setup/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (content/devops/airflow/Step2_Setup/docker-compose.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (content/devops/kubernetes/Step1_ContainersAndKubernetesBasics.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/.gcx/00_requirements/req_verification_sample.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (platform/frontend/next.config.ts)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2381360,
+        "strong_skills": [
+          "docker",
+          "javascript",
+          "kubernetes",
+          "linux",
+          "nextjs",
+          "shell",
+          "sql",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "pybo",
+      "full_name": "skycar321/pybo",
+      "html_url": "https://github.com/skycar321/pybo",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-10-19T02:13:39Z",
+      "pushed_at": "2021-10-19T02:17:28Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 70,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 28600,
+        "HTML": 20937,
+        "CSS": 65
+      },
+      "primary_language": "Python",
+      "file_count": 48,
+      "top_level_paths": [
+        ".gitignore",
+        "common",
+        "config",
+        "manage.py",
+        "pybo",
+        "static",
+        "templates"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-10-19T02:10:45+00:00",
+        "last_at": "2021-10-19T02:10:45+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "파이보최초커밋"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 47
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 28,600 bytes (58% of repo)",
+          "strength": 0.9765896536429983
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 20,937 bytes (42% of repo)",
+          "strength": 0.8220999153259949
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (common/migrations/__init__.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 49602,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "JSP-",
+      "full_name": "skycar321/JSP-",
+      "html_url": "https://github.com/skycar321/JSP-",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-11-17T03:23:46Z",
+      "pushed_at": "2021-11-17T03:40:04Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 28,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 85850,
+        "HTML": 27899
+      },
+      "primary_language": "Java",
+      "file_count": 11,
+      "top_level_paths": [
+        "MariaDB membership_db.txt",
+        "Nam_color_client.jsp",
+        "Nam_color_server.jsp",
+        "Nam_first_page.html",
+        "Nam_login_client.jsp",
+        "Nam_membership.jsp",
+        "Nam_quit.jsp",
+        "Nam_select_mem.html",
+        "Nam_select_quit.html",
+        "dbconnect.jsp",
+        "download.jsp"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-11-17T03:40:04+00:00",
+        "last_at": "2021-11-17T03:40:04+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 85,850 bytes (75% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 27,899 bytes (25% of repo)",
+          "strength": 0.6452680902689254
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 113749,
+        "strong_skills": [
+          "html-css",
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Shell": 902043,
+    "Java": 494787,
+    "JavaScript": 387109,
+    "TypeScript": 344193,
+    "Python": 187914,
+    "HTML": 100936,
+    "Rust": 74916,
+    "Dart": 63570,
+    "Kotlin": 62797,
+    "Go": 62056,
+    "PowerShell": 19320,
+    "CSS": 14903,
+    "Dockerfile": 4025,
+    "Smarty": 2620,
+    "Batchfile": 1030,
+    "SCSS": 325
+  },
+  "total_commits": 42,
+  "skill_evidence": [
+    {
+      "skill_id": "java",
+      "repos": [
+        "skycar321/DevelopmentTest",
+        "skycar321/learning-code",
+        "skycar321/JSP-"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 494787,
+      "commit_count": 41,
+      "first_seen": "2021-11-17T03:40:04+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "DevelopmentTest: Java: 64,530 bytes (65% of repo)",
+        "learning-code: Java: 344,407 bytes (14% of repo)",
+        "JSP-: Java: 85,850 bytes (75% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "skycar321/learning-code",
+        "skycar321/pybo"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9765896536429983,
+      "total_bytes": 187914,
+      "commit_count": 41,
+      "first_seen": "2021-10-19T02:10:45+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: Python: 159,314 bytes (6% of repo)",
+        "pybo: Python: 28,600 bytes (58% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "skycar321/DevelopmentTest",
+        "skycar321/learning-code",
+        "skycar321/pybo",
+        "skycar321/JSP-"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8220999153259949,
+      "total_bytes": 115774,
+      "commit_count": 42,
+      "first_seen": "2021-10-19T02:10:45+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "DevelopmentTest: HTML: 19,790 bytes (20% of repo)",
+        "learning-code: HTML: 32,310 bytes (1% of repo)",
+        "learning-code: CSS: 14,838 bytes (1% of repo)",
+        "pybo: HTML: 20,937 bytes (42% of repo)",
+        "JSP-: HTML: 27,899 bytes (25% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "skycar321/DevelopmentTest",
+        "skycar321/learning-code"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.760618977969256,
+      "total_bytes": 921363,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "DevelopmentTest: Shell: 14,947 bytes (15% of repo)",
+        "learning-code: Shell: 887,096 bytes (36% of repo)",
+        "learning-code: PowerShell: 19,320 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "skycar321/DevelopmentTest",
+        "skycar321/learning-code"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "DevelopmentTest: test directory (test/WlessMabcBatchWriter.java)",
+        "learning-code: test directory (.gcx/02_implementation/tests/test_factorial.py)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 4025,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: Dockerfile: 4,025 bytes (0% of repo)",
+        "learning-code: docker-compose (content/devops/airflow/Step2_Setup/docker-compose.yaml)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: SQL file (content/databases/postgresql/Advanced_Step1_WindowFunctions.sql)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: env config (content/devops/airflow/Step2_Setup/.env.example)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: kubernetes manifests (content/devops/kubernetes/Step1_ContainersAndKubernetesBasics.md)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: docs directory (docs/.gcx/00_requirements/req_verification_sample.md)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: next config (platform/frontend/next.config.ts)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "skycar321/pybo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2021-10-19T02:10:45+00:00",
+      "last_seen": "2021-10-19T02:10:45+00:00",
+      "details": [
+        "pybo: database migrations (common/migrations/__init__.py)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.557366115891291,
+      "total_bytes": 387109,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: JavaScript: 387,109 bytes (16% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5399200626360305,
+      "total_bytes": 344193,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: TypeScript: 344,193 bytes (14% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4258422407828528,
+      "total_bytes": 63570,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: Dart: 63,570 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4255280036879158,
+      "total_bytes": 62797,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: Kotlin: 62,797 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "skycar321/learning-code"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4252267751143734,
+      "total_bytes": 62056,
+      "commit_count": 40,
+      "first_seen": "2025-11-23T14:55:08+00:00",
+      "last_seen": "2026-01-12T15:50:10+00:00",
+      "details": [
+        "learning-code: Go: 62,056 bytes (3% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 42,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 13,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:26:15.031224+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

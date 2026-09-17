@@ -1,0 +1,129 @@
+{
+  "github_login": "Special-Sharpie",
+  "applicant_id": "applicant0064",
+  "first_name": "Rafael",
+  "last_name": "Costa",
+  "career_stage": "switcher",
+  "email": "rafael@brightholm.example",
+  "phone": "(555) 010-0164",
+  "location": "Brightholm",
+  "linkedin": null,
+  "github_url": "github.example.com/rafael-costa",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Brightholm College",
+    "location": "Brightholm",
+    "degree": "Bachelor of Science",
+    "major": "Information Technology",
+    "minor": "Business Communication",
+    "graduation": "Jun 2025",
+    "gpa": null,
+    "coursework": [
+      "Database Fundamentals",
+      "Applied Programming"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Support Technician",
+      "organization": "Brightholm Campus IT Helpdesk",
+      "location": "Brightholm",
+      "start": "Sep 2023",
+      "end": "May 2025",
+      "bullets": [
+        "Fielded recurring database connection complaints from student services staff, tracing several to undocumented MySQL configuration drift.",
+        "Built a small Java and Node.js metrics tool after hours to help staff self-diagnose similar issues before filing tickets."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Oosdthreadedgroup5",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Nov 2021",
+      "end": "Dec 2021",
+      "bullets": [
+        "Built with EJS, JavaScript, CSS across 44 files.",
+        "Uses express, mysql, dayjs, ejs, nodemon.",
+        "28 commits over 14 active days.",
+        "1 stars, 3 forks on GitHub."
+      ],
+      "link": "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+      "tech": [
+        "EJS",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Server Metrics Dashboard",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Jul 2025",
+      "bullets": [
+        "A dashboard for your fabric server!.",
+        "Built with Vue, Python, JavaScript across 35 files.",
+        "Includes Docker packaging.",
+        "3 commits over 2 active days."
+      ],
+      "link": "https://github.com/Special-Sharpie/server_metrics_dashboard",
+      "tech": [
+        "Vue",
+        "Python",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Server Metrics Mod",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Jul 2025",
+      "bullets": [
+        "Mod used to collect metrics and connect your fabric server to the dashboard.",
+        "Built with Java across 24 files.",
+        "Uses mysql, mysql-connector-j, mysql-connector-java, com.mojang, com.mysql, fabric-api.",
+        "15 commits over 3 active days."
+      ],
+      "link": "https://github.com/Special-Sharpie/server_metrics_mod",
+      "tech": [
+        "Java"
+      ]
+    }
+  ],
+  "leadership": [],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL"
+    ],
+    "Frontend": [
+      "Vue",
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Node.js"
+    ],
+    "Data": [
+      "MySQL"
+    ],
+    "DevOps": [
+      "Docker"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

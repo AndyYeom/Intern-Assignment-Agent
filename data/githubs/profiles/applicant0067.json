@@ -1,0 +1,1174 @@
+{
+  "applicant_id": "applicant0067",
+  "login": "YourSchoolDebts",
+  "html_url": "https://github.com/YourSchoolDebts",
+  "created_at": "2021-01-25T23:51:04Z",
+  "account_age_days": 2060,
+  "public_repos": 9,
+  "followers": 2,
+  "following": 0,
+  "repos": [
+    {
+      "name": "shop",
+      "full_name": "YourSchoolDebts/shop",
+      "html_url": "https://github.com/YourSchoolDebts/shop",
+      "description": null,
+      "homepage": "https://yourschooldebts.github.io/shop/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-19T17:19:07Z",
+      "pushed_at": "2026-09-05T10:15:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2394,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 13876,
+        "CSS": 4990,
+        "HTML": 1662
+      },
+      "primary_language": "JavaScript",
+      "file_count": 29,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "ajv",
+          "ajv-keywords",
+          "gh-pages",
+          "material-icons",
+          "react",
+          "react-dom",
+          "react-router",
+          "react-scripts",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-04-13T13:25:46+00:00",
+        "last_at": "2026-09-05T10:15:17+00:00",
+        "active_days": 5,
+        "span_days": 509,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Update index.html",
+          "Update package.json",
+          "a",
+          "fin",
+          "files",
+          "Initialize project using Create React App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 20
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 13,876 bytes (68% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,990 bytes (24% of repo)",
+          "strength": 0.6430826188620421
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,662 bytes (8% of repo)",
+          "strength": 0.480962587685113
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/App.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 20528,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "react",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Pages_sem3",
+      "full_name": "YourSchoolDebts/Pages_sem3",
+      "html_url": "https://github.com/YourSchoolDebts/Pages_sem3",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-24T15:12:47Z",
+      "pushed_at": "2026-09-05T10:12:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 10,
+      "size_kb": 13894,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "CSS": 973236,
+        "JavaScript": 880372,
+        "HTML": 837733,
+        "SCSS": 372300,
+        "PowerShell": 932
+      },
+      "primary_language": "CSS",
+      "file_count": 813,
+      "top_level_paths": [
+        ".babelrc.js",
+        ".browserslistrc",
+        ".bundlewatch.config.json",
+        ".cspell.json",
+        ".editorconfig",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".npmrc",
+        ".stylelintignore",
+        ".stylelintrc.json",
+        "CODE_OF_CONDUCT.md",
+        "LICENSE",
+        "README.md",
+        "SECURITY.md",
+        "articles.html",
+        "build",
+        "composer.json",
+        "contact.html",
+        "css",
+        "dist",
+        "hugo.yml",
+        "img",
+        "index.html",
+        "js",
+        "login.html",
+        "nuget",
+        "own.js",
+        "package-lock.json",
+        "package.js",
+        "package.json",
+        "prepros.config",
+        "scss",
+        "site",
+        "test.html"
+      ],
+      "notable_files": [
+        ".github/workflows/browserstack.yml",
+        ".github/workflows/bundlewatch.yml",
+        ".github/workflows/calibreapp-image-actions.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/cspell.yml",
+        ".github/workflows/css.yml",
+        ".github/workflows/docs.yml",
+        ".github/workflows/issue-close-require.yml",
+        ".github/workflows/issue-labeled.yml",
+        ".github/workflows/js.yml",
+        ".github/workflows/lint.yml",
+        ".github/workflows/node-sass.yml",
+        ".github/workflows/release-notes.yml",
+        "composer.json",
+        "package.json"
+      ],
+      "manifests": {
+        "composer.json": [
+          "authors",
+          "description",
+          "email",
+          "homepage",
+          "issues",
+          "keywords",
+          "license",
+          "name",
+          "replace",
+          "support",
+          "twitter/bootstrap"
+        ],
+        "package.json": [
+          "@babel/cli",
+          "@babel/core",
+          "@babel/preset-env",
+          "@popperjs/core",
+          "@rollup/plugin-babel",
+          "@rollup/plugin-commonjs",
+          "@rollup/plugin-node-resolve",
+          "@rollup/plugin-replace",
+          "autoprefixer",
+          "bundlewatch",
+          "clean-css-cli",
+          "cross-env",
+          "eslint",
+          "eslint-config-xo",
+          "eslint-plugin-html",
+          "eslint-plugin-import",
+          "eslint-plugin-markdown",
+          "eslint-plugin-unicorn",
+          "find-unused-sass-variables",
+          "globby",
+          "hammer-simulator",
+          "hugo-bin",
+          "ip",
+          "jasmine",
+          "jquery",
+          "karma",
+          "karma-browserstack-launcher",
+          "karma-chrome-launcher",
+          "karma-coverage-istanbul-reporter",
+          "karma-detect-browsers",
+          "karma-firefox-launcher",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "karma-rollup-preprocessor",
+          "lockfile-lint",
+          "nodemon",
+          "npm-run-all2",
+          "postcss",
+          "postcss-cli",
+          "rollup",
+          "rollup-plugin-istanbul",
+          "rtlcss",
+          "sass",
+          "sass-true",
+          "shelljs",
+          "stylelint",
+          "stylelint-config-twbs-bootstrap",
+          "terser",
+          "vnu-jar"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 13183,
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://getbootstrap.com/\">\n    <img src=\"https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png\" alt=\"Bootstrap logo\" width=\"200\" height=\"165\">\n  </a>\n</p>\n\n<h3 align=\"center\">Bootstrap</h3>\n\n<p align=\"center\">\n  Sleek, intuitive, and powerful front-end framework for faster and easier web development.\n  <br>\n  <a href=\"https://getbootstrap.com/docs/5.3/\"><strong>Explore Bootstrap docs »</strong></a>\n  <br>\n  <br>\n  <a href=\"https://github.com/twbs/bootstrap/issues/new?assignees=-&labels=bug&template=bug_report.yml\">Report bug</a>\n  ·\n  <a href=\"https://github.com/twbs/bootstrap/issues/new?assignees=&labels=feature&template=feature_request.yml\">Request feature</a>\n  ·\n  <a href=\"https://themes.getbootstrap.com/\">Themes</a>\n  ·\n  <a href=\"https://blog.getbootstrap.com/\">Blog</a>\n</p>\n\n\n## Bootstrap 5\n\nOur default branch is for development of our Bootstrap 5 release. Head to the [`v4-dev` branch](https://github.com/twbs/bootstrap/tree/v4-dev) to view the readme, documentation, and source code for Bootstrap 4.\n\n\n## Table of contents\n\n- [Quick start](#quick-start)\n- [Status](#status)\n- [What's included](#whats-included)\n- [Bugs and featur",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-03-24T15:25:09+00:00",
+        "last_at": "2026-09-05T10:12:58+00:00",
+        "active_days": 2,
+        "span_days": 529,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update index.html",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 404
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 973,236 bytes (32% of repo)",
+          "strength": 0.7175763801351771
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 880,372 bytes (29% of repo)",
+          "strength": 0.6872739530107457
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 837,733 bytes (27% of repo)",
+          "strength": 0.6733604322690306
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 372,300 bytes (12% of repo)",
+          "strength": 0.5214851139130966
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/browserstack.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (js/tests/browsers.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (site/content/docs/5.3/about/brand.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3064573,
+        "strong_skills": [
+          "cicd",
+          "html-css",
+          "javascript",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "recepies",
+      "full_name": "YourSchoolDebts/recepies",
+      "html_url": "https://github.com/YourSchoolDebts/recepies",
+      "description": null,
+      "homepage": "https://yourschooldebts.github.io/recepies/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-19T15:22:43Z",
+      "pushed_at": "2025-05-20T12:29:43Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 1,
+      "size_kb": 1330,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 14472,
+        "CSS": 1524,
+        "HTML": 835
+      },
+      "primary_language": "JavaScript",
+      "file_count": 36,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "react",
+          "react-dom",
+          "react-scripts",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.917,
+      "commits": {
+        "count": 22,
+        "first_at": "2025-05-19T12:00:44+00:00",
+        "last_at": "2025-05-20T12:18:36+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 15,
+        "low_effort_message_ratio": 0.818,
+        "messages_sample": [
+          "Update App.js",
+          "Update App.js",
+          "Update App.js",
+          "Update App.js",
+          "Update App.js",
+          "Update App.js",
+          "Update App.js",
+          "Delete src/nomatch.jsx",
+          "Rename nomatch to nomatch.jsx",
+          "Create nomatch",
+          "Update App.js",
+          "Update nomatch.jsx",
+          "Update nomatch.jsx",
+          "Update App.js",
+          "Create nomatch.jsx",
+          "Update footer.jsx",
+          "Update index.html",
+          "Delete src/components/img directory",
+          "Update index.css",
+          "Update App.js"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 26
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 14,472 bytes (86% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,524 bytes (9% of repo)",
+          "strength": 0.49054720456300877
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/App.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 16831,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Films_sem4",
+      "full_name": "YourSchoolDebts/Films_sem4",
+      "html_url": "https://github.com/YourSchoolDebts/Films_sem4",
+      "description": null,
+      "homepage": "https://yourschooldebts.github.io/Films_sem4/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-19T13:37:35Z",
+      "pushed_at": "2025-03-24T15:31:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 808,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 7114,
+        "CSS": 1324,
+        "HTML": 1268
+      },
+      "primary_language": "JavaScript",
+      "file_count": 25,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "ajv",
+          "react",
+          "react-dom",
+          "react-scripts",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3361,
+      "readme_excerpt": "\n\n# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-03-10T14:27:53+00:00",
+        "last_at": "2025-03-24T15:31:06+00:00",
+        "active_days": 3,
+        "span_days": 14,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.833,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update main.jsx",
+          "final",
+          "Initialize project using Create React App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 15
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 7,114 bytes (73% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,324 bytes (14% of repo)",
+          "strength": 0.536410467751906
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,268 bytes (13% of repo)",
+          "strength": 0.5306408407170822
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/App.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9706,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SoftwareDetective",
+      "full_name": "YourSchoolDebts/SoftwareDetective",
+      "html_url": "https://github.com/YourSchoolDebts/SoftwareDetective",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-12-11T22:50:49Z",
+      "pushed_at": "2026-09-05T11:03:28Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 32,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 13010,
+        "CSS": 8673
+      },
+      "primary_language": "HTML",
+      "file_count": 4,
+      "top_level_paths": [
+        "index.html",
+        "pers",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2023-12-11T22:55:34+00:00",
+        "last_at": "2026-09-05T11:03:28+00:00",
+        "active_days": 2,
+        "span_days": 998,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Update index.html",
+          "Update index.html",
+          "Update index.html",
+          "Update index.html",
+          "pers_style.css",
+          "pers.html",
+          "style.css",
+          "index.html"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 13,010 bytes (60% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 8,673 bytes (40% of repo)",
+          "strength": 0.7999907761841074
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 21683,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "CSS": 989747,
+    "JavaScript": 915834,
+    "HTML": 854508,
+    "SCSS": 372300,
+    "PowerShell": 932
+  },
+  "total_commits": 44,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "YourSchoolDebts/shop",
+        "YourSchoolDebts/Pages_sem3",
+        "YourSchoolDebts/recepies",
+        "YourSchoolDebts/Films_sem4",
+        "YourSchoolDebts/SoftwareDetective"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2215720,
+      "commit_count": 44,
+      "first_seen": "2023-12-11T22:55:34+00:00",
+      "last_seen": "2026-09-05T11:03:28+00:00",
+      "details": [
+        "shop: CSS: 4,990 bytes (24% of repo)",
+        "shop: HTML: 1,662 bytes (8% of repo)",
+        "Pages_sem3: CSS: 973,236 bytes (32% of repo)",
+        "Pages_sem3: HTML: 837,733 bytes (27% of repo)",
+        "Pages_sem3: SCSS: 372,300 bytes (12% of repo)",
+        "recepies: CSS: 1,524 bytes (9% of repo)",
+        "Films_sem4: CSS: 1,324 bytes (14% of repo)",
+        "Films_sem4: HTML: 1,268 bytes (13% of repo)",
+        "SoftwareDetective: HTML: 13,010 bytes (60% of repo)",
+        "SoftwareDetective: CSS: 8,673 bytes (40% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "YourSchoolDebts/shop",
+        "YourSchoolDebts/Pages_sem3",
+        "YourSchoolDebts/recepies",
+        "YourSchoolDebts/Films_sem4"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 915834,
+      "commit_count": 36,
+      "first_seen": "2025-03-10T14:27:53+00:00",
+      "last_seen": "2026-09-05T10:15:17+00:00",
+      "details": [
+        "shop: JavaScript: 13,876 bytes (68% of repo)",
+        "Pages_sem3: JavaScript: 880,372 bytes (29% of repo)",
+        "recepies: JavaScript: 14,472 bytes (86% of repo)",
+        "Films_sem4: JavaScript: 7,114 bytes (73% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "YourSchoolDebts/shop",
+        "YourSchoolDebts/recepies",
+        "YourSchoolDebts/Films_sem4"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 34,
+      "first_seen": "2025-03-10T14:27:53+00:00",
+      "last_seen": "2026-09-05T10:15:17+00:00",
+      "details": [
+        "shop: @testing-library/react in package.json",
+        "recepies: @testing-library/react in package.json",
+        "Films_sem4: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "YourSchoolDebts/shop",
+        "YourSchoolDebts/Pages_sem3",
+        "YourSchoolDebts/recepies",
+        "YourSchoolDebts/Films_sem4"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 36,
+      "first_seen": "2025-03-10T14:27:53+00:00",
+      "last_seen": "2026-09-05T10:15:17+00:00",
+      "details": [
+        "shop: test file (src/App.test.js)",
+        "Pages_sem3: test directory (js/tests/browsers.js)",
+        "recepies: test file (src/App.test.js)",
+        "Films_sem4: test file (src/App.test.js)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "YourSchoolDebts/Pages_sem3"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2025-03-24T15:25:09+00:00",
+      "last_seen": "2026-09-05T10:12:58+00:00",
+      "details": [
+        "Pages_sem3: GitHub Actions workflow (.github/workflows/browserstack.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "YourSchoolDebts/Pages_sem3"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2025-03-24T15:25:09+00:00",
+      "last_seen": "2026-09-05T10:12:58+00:00",
+      "details": [
+        "Pages_sem3: docs directory (site/content/docs/5.3/about/brand.md)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 44,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:16:35.972632+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

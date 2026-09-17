@@ -1,0 +1,147 @@
+{
+  "github_login": "SilverDreams115",
+  "applicant_id": "applicant0110",
+  "first_name": "Naomi",
+  "last_name": "Sorel",
+  "career_stage": "student",
+  "email": "naomi.sorel@ashcombe.example",
+  "phone": "(555) 010-0110",
+  "location": "Ashcombe",
+  "linkedin": "linkedin.example.com/in/naomi-sorel",
+  "github_url": "github.example.com/naomi-sorel",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Ashcombe Institute of Technology",
+    "location": "Ashcombe",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Human-Computer Interaction",
+    "graduation": "May 2027",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Operating Systems",
+      "Machine Learning Fundamentals",
+      "Interface Design Principles",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Undergraduate Research Assistant",
+      "organization": "Ashcombe Systems Lab",
+      "location": "Ashcombe",
+      "start": "Mar 2026",
+      "end": "Present",
+      "bullets": [
+        "Supported a low-level systems research group by testing early boot behavior on lab hardware.",
+        "Noticed that debugging unclear boot failure messages made me pay closer attention to how information is presented, not just what it contains."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Irisos",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a small operating system kernel in C and ARM assembly with continuous integration checking every commit."
+      ],
+      "link": null,
+      "tech": [
+        "C",
+        "Assembly",
+        "Makefile",
+        "Shell"
+      ]
+    },
+    {
+      "title": "Proai",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2026",
+      "end": "Aug 2026",
+      "bullets": [
+        "Built a Python and JavaScript AI application with automated tests and Docker packaging, including the browser interface users interact with.",
+        "Spent unexpected time adjusting how results were displayed after early testers misread the AI's output as more certain than intended."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Iris Bot",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2026",
+      "end": "Apr 2026",
+      "bullets": [
+        "Built a Python bot using numpy and xgboost, with an automated pytest suite and continuous integration."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "numpy",
+        "xgboost"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Ashcombe Design & Code Circle",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Started attending interface-design critiques after realizing my technically correct tools were still confusing for other students to use."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "TypeScript",
+      "C/C++"
+    ],
+    "Frontend": [
+      "Next.js",
+      "React",
+      "Tailwind CSS"
+    ],
+    "Data": [
+      "Data Analysis (pandas)"
+    ],
+    "AI/ML": [
+      "Machine Learning"
+    ],
+    "DevOps": [
+      "CI/CD",
+      "Linux & Server Administration",
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

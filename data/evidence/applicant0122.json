@@ -1,0 +1,316 @@
+{
+  "applicant_id": "applicant0122",
+  "github_login": "HideoTakayan",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0122.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HideoTakayan/php_pj"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/php_pj",
+          "html_url": "https://github.com/HideoTakayan/php_pj",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: many_active_days",
+            "database migrations (database/migrations/2026_01_23_000001_create_users_table.php)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HideoTakayan/PTDL-Python"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/PTDL-Python",
+          "html_url": "https://github.com/HideoTakayan/PTDL-Python",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "matplotlib in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/HideoTakayan/Manga-Reader"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/Manga-Reader",
+          "html_url": "https://github.com/HideoTakayan/Manga-Reader",
+          "level": 3,
+          "reasons": [
+            "intermediate: 52 commits; has_tests, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "Dart: 3,113,646 bytes (93% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/HideoTakayan/Manga-Reader"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/Manga-Reader",
+          "html_url": "https://github.com/HideoTakayan/Manga-Reader",
+          "level": 3,
+          "reasons": [
+            "intermediate: 52 commits; has_tests, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "firebase config (.firebaserc)",
+            "firebase in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/HideoTakayan/Nyaalime",
+        "https://github.com/HideoTakayan/php_pj"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/Nyaalime",
+          "html_url": "https://github.com/HideoTakayan/Nyaalime",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "CSS: 43,292 bytes (27% of repo)",
+            "HTML: 42,940 bytes (27% of repo)"
+          ]
+        },
+        {
+          "repo": "HideoTakayan/php_pj",
+          "html_url": "https://github.com/HideoTakayan/php_pj",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: many_active_days",
+            "CSS: 589,700 bytes (44% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HideoTakayan/Nyaalime"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/Nyaalime",
+          "html_url": "https://github.com/HideoTakayan/Nyaalime",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "JavaScript: 71,912 bytes (45% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HideoTakayan/php_pj"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/php_pj",
+          "html_url": "https://github.com/HideoTakayan/php_pj",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: many_active_days",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/HideoTakayan/PTDL-Python"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/PTDL-Python",
+          "html_url": "https://github.com/HideoTakayan/PTDL-Python",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "scikit-learn in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/HideoTakayan/Manga-Reader"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/Manga-Reader",
+          "html_url": "https://github.com/HideoTakayan/Manga-Reader",
+          "level": 3,
+          "reasons": [
+            "intermediate: 52 commits; has_tests, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/HideoTakayan/PTDL-Python",
+        "https://github.com/HideoTakayan/bt-pandas"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/PTDL-Python",
+          "html_url": "https://github.com/HideoTakayan/PTDL-Python",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "jupyter notebook (notebooks/BTL.ipynb)",
+            "numpy in requirements.txt"
+          ]
+        },
+        {
+          "repo": "HideoTakayan/bt-pandas",
+          "html_url": "https://github.com/HideoTakayan/bt-pandas",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "jupyter notebook (00_Creating_Series_and_DataFrames/Pokemon/Exercises.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/HideoTakayan/PTDL-Python",
+        "https://github.com/HideoTakayan/bt-pandas"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/PTDL-Python",
+          "html_url": "https://github.com/HideoTakayan/PTDL-Python",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "Jupyter Notebook: 804,999 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "HideoTakayan/bt-pandas",
+          "html_url": "https://github.com/HideoTakayan/bt-pandas",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "Jupyter Notebook: 141,094 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/HideoTakayan/Manga-Reader"
+      ],
+      "repos": [
+        {
+          "repo": "HideoTakayan/Manga-Reader",
+          "html_url": "https://github.com/HideoTakayan/Manga-Reader",
+          "level": 3,
+          "reasons": [
+            "intermediate: 52 commits; has_tests, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "test directory (test/firestore.test.js)",
+            "mocha in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 11
+  }
+}

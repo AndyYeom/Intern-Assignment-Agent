@@ -1,0 +1,224 @@
+{
+  "applicant_id": "applicant0153",
+  "github_login": "leep-frog",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0153.json",
+  "skills": [
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/leep-frog/command",
+        "https://github.com/leep-frog/euler_challenge"
+      ],
+      "repos": [
+        {
+          "repo": "leep-frog/command",
+          "html_url": "https://github.com/leep-frog/command",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_tests, multi_month_span, many_active_days, documented",
+            "Go: 1,225,250 bytes (100% of repo)",
+            "Go module (go.mod)"
+          ]
+        },
+        {
+          "repo": "leep-frog/euler_challenge",
+          "html_url": "https://github.com/leep-frog/euler_challenge",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_tests, multi_month_span, many_active_days",
+            "Go: 1,289,482 bytes (98% of repo)",
+            "Go module (go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/leep-frog/termin-all-or-nothing"
+      ],
+      "repos": [
+        {
+          "repo": "leep-frog/termin-all-or-nothing",
+          "html_url": "https://github.com/leep-frog/termin-all-or-nothing",
+          "level": 3,
+          "reasons": [
+            "intermediate: 81 commits; has_tests, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "jupyter notebook (src/test/test-workspace/notebook.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/leep-frog/termin-all-or-nothing",
+        "https://github.com/leep-frog/command",
+        "https://github.com/leep-frog/very-import-ant"
+      ],
+      "repos": [
+        {
+          "repo": "leep-frog/termin-all-or-nothing",
+          "html_url": "https://github.com/leep-frog/termin-all-or-nothing",
+          "level": 3,
+          "reasons": [
+            "intermediate: 81 commits; has_tests, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "docs directory (docs/FAQ.md)"
+          ]
+        },
+        {
+          "repo": "leep-frog/command",
+          "html_url": "https://github.com/leep-frog/command",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_tests, multi_month_span, many_active_days, documented",
+            "docs directory (docs/basics/args.md)"
+          ]
+        },
+        {
+          "repo": "leep-frog/very-import-ant",
+          "html_url": "https://github.com/leep-frog/very-import-ant",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "docs directory (docs/troubleshooting.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/leep-frog/termin-all-or-nothing",
+        "https://github.com/leep-frog/what-the-beep",
+        "https://github.com/leep-frog/very-import-ant"
+      ],
+      "repos": [
+        {
+          "repo": "leep-frog/termin-all-or-nothing",
+          "html_url": "https://github.com/leep-frog/termin-all-or-nothing",
+          "level": 3,
+          "reasons": [
+            "intermediate: 81 commits; has_tests, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "TypeScript: 25,475 bytes (97% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "leep-frog/what-the-beep",
+          "html_url": "https://github.com/leep-frog/what-the-beep",
+          "level": 2,
+          "reasons": [
+            "intermediate: 55 commits; has_tests, multi_month_span, many_active_days, documented",
+            "TypeScript: 30,138 bytes (99% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "leep-frog/very-import-ant",
+          "html_url": "https://github.com/leep-frog/very-import-ant",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 133,674 bytes (99% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/leep-frog/termin-all-or-nothing",
+        "https://github.com/leep-frog/command",
+        "https://github.com/leep-frog/euler_challenge",
+        "https://github.com/leep-frog/what-the-beep",
+        "https://github.com/leep-frog/very-import-ant"
+      ],
+      "repos": [
+        {
+          "repo": "leep-frog/termin-all-or-nothing",
+          "html_url": "https://github.com/leep-frog/termin-all-or-nothing",
+          "level": 3,
+          "reasons": [
+            "intermediate: 81 commits; has_tests, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "test directory (src/test/runTest.ts)",
+            "@types/mocha in package.json"
+          ]
+        },
+        {
+          "repo": "leep-frog/command",
+          "html_url": "https://github.com/leep-frog/command",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_tests, multi_month_span, many_active_days, documented",
+            "test file (cache/cache_test.go)"
+          ]
+        },
+        {
+          "repo": "leep-frog/euler_challenge",
+          "html_url": "https://github.com/leep-frog/euler_challenge",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_tests, multi_month_span, many_active_days",
+            "test file (aoc/2021/aoc_test.go)"
+          ]
+        },
+        {
+          "repo": "leep-frog/what-the-beep",
+          "html_url": "https://github.com/leep-frog/what-the-beep",
+          "level": 2,
+          "reasons": [
+            "intermediate: 55 commits; has_tests, multi_month_span, many_active_days, documented",
+            "test directory (src/test/suite/extension.test.ts)",
+            "@types/mocha in package.json"
+          ]
+        },
+        {
+          "repo": "leep-frog/very-import-ant",
+          "html_url": "https://github.com/leep-frog/very-import-ant",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test directory (src/test/extension.test.ts)",
+            "@types/mocha in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (5 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 5
+  }
+}

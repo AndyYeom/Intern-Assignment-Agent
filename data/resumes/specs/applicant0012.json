@@ -1,0 +1,160 @@
+{
+  "github_login": "valdirsb",
+  "applicant_id": "applicant0012",
+  "first_name": "Diego",
+  "last_name": "Ferraro",
+  "career_stage": "switcher",
+  "email": "diego@portalameda.example",
+  "phone": "(555) 010-0112",
+  "location": "Port Alameda",
+  "linkedin": null,
+  "github_url": "github.example.com/diego-ferraro",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Riverton Polytechnic",
+    "location": "Port Alameda",
+    "degree": "Bachelor of Science",
+    "major": "Information Systems",
+    "minor": "Facilities Engineering",
+    "graduation": "Dec 2026",
+    "gpa": null,
+    "coursework": [
+      "Systems Architecture",
+      "Networked Applications"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Building Systems Technician (part-time)",
+      "organization": "Alderbrook Facilities Group",
+      "location": "Port Alameda",
+      "start": "Jan 2022",
+      "end": "Present",
+      "bullets": [
+        "Maintained building automation and monitoring equipment, tracing intermittent sensor failures to inconsistent logging across sites.",
+        "Wrote small JavaScript and Go scripts to normalize equipment logs, sparking interest in building reliable backend tooling."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Suporteglpi",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jan 2020",
+      "end": "Jan 2023",
+      "bullets": [
+        "Aplicativo glpi para o grupo FST criado com React-Native.",
+        "Built with JavaScript, Objective-C, Java across 115 files.",
+        "Uses jest, react, react-native, @babel/core, @babel/runtime, @react-native-community/async-storage.",
+        "31 commits over 21 active days."
+      ],
+      "link": "https://github.com/valdirsb/suporteglpi",
+      "tech": [
+        "JavaScript",
+        "Objective-C",
+        "Java",
+        "Ruby"
+      ]
+    },
+    {
+      "title": "Kellysantos",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jul 2020",
+      "end": "Jul 2020",
+      "bullets": [
+        "Loja virtual feita com wordpress / woo-commerce.",
+        "Built with PHP, JavaScript, CSS across 7599 files.",
+        "Includes an automated test suite, Docker packaging.",
+        "4 commits over 2 active days."
+      ],
+      "link": "https://github.com/valdirsb/kellysantos",
+      "tech": [
+        "PHP",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Avatar Creator",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Apr 2025",
+      "end": "Jul 2025",
+      "bullets": [
+        "Criador de avatar para os personagens do \"Mundo em Verade\".",
+        "Built with TypeScript, Vue, HTML across 1071 files.",
+        "Uses typescript, vue, @typescript-eslint/eslint-plugin, @typescript-eslint/parser, @vue/cli-plugin-babel, @vue/cli-plugin-eslint.",
+        "Includes continuous integration.",
+        "16 commits over 7 active days."
+      ],
+      "link": "https://github.com/valdirsb/avatar-creator",
+      "tech": [
+        "TypeScript",
+        "Vue",
+        "HTML",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Artemis",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Oct 2025",
+      "end": "Oct 2025",
+      "bullets": [
+        "Artemis é um framework modular para Go que traz uma estrutura inspirada no Laravel, com foco em produtividade e organização de código.",
+        "Built with Go, Makefile across 382 files.",
+        "Uses github.com/fsnotify/fsnotify, github.com/go-viper/mapstructure/v2, github.com/inconshreveable/mousetrap, github.com/pelletier/go-toml/v2, github.com/sagikazarmark/locafero, github.com/sourcegraph/conc.",
+        "Includes an automated test suite.",
+        "53 commits over 7 active days."
+      ],
+      "link": "https://github.com/valdirsb/artemis",
+      "tech": [
+        "Go",
+        "Makefile"
+      ]
+    }
+  ],
+  "leadership": [],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "Go",
+      "TypeScript"
+    ],
+    "Frontend": [
+      "Vue",
+      "React"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "CI/CD",
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "React Native",
+      "Native iOS/Android"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

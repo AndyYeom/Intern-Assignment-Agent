@@ -1,0 +1,1002 @@
+{
+  "applicant_id": "applicant0127",
+  "login": "Frankbell84",
+  "html_url": "https://github.com/Frankbell84",
+  "created_at": "2025-06-01T18:12:55Z",
+  "account_age_days": 472,
+  "public_repos": 6,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "KeyHollow",
+      "full_name": "Frankbell84/KeyHollow",
+      "html_url": "https://github.com/Frankbell84/KeyHollow",
+      "description": "KeyHollow",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-25T15:52:38Z",
+      "pushed_at": "2026-09-17T01:04:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 14,
+      "size_kb": 2802,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Swift": 1312846,
+        "Python": 376185,
+        "JavaScript": 10345,
+        "Shell": 1646
+      },
+      "primary_language": "Swift",
+      "file_count": 145,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "AGENTS.md",
+        "KeyHollow",
+        "KeyHollowLaunchTests",
+        "KeyHollowTests",
+        "KeyHollowVaultThumbnailExtension",
+        "README.md",
+        "SECURITY.md",
+        "WORK_STATUS.md",
+        "docs",
+        "project.yml",
+        "scripts"
+      ],
+      "notable_files": [
+        ".github/workflows/ios-build.yml",
+        ".github/workflows/release-signing-preflight.yml",
+        ".github/workflows/testflight-beta.yml",
+        ".github/workflows/testflight.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2155,
+      "readme_excerpt": "# KeyHollow\n\nKeyHollow is a native iOS privacy application built around multiple independent encrypted vaults for photos and general files. A valid passcode opens only the vault associated with that passcode; the normal locked interface does not enumerate other vaults.\n\n## Product principle\n\n**One keypad. Multiple private vaults.**\n\n## Security-first V1\n\n- Native Swift / SwiftUI\n- Local-only encrypted photo and general-file storage\n- Independent cryptographic key material per vault\n- Authenticated encryption for stored content, metadata, and thumbnails\n- iOS Keychain and Data Protection where appropriate\n- Automatic lock when the app leaves the foreground\n- No Face ID, Touch ID, or Apple device-passcode fallback for vault unlock\n- No cloud backend in V1\n- No analytics or advertising SDKs in the secure application path\n- No plaintext vault index exposed by the UI\n- Copy-to-vault and verified move-to-vault import modes\n- Unified three-column gallery with encrypted folder organization\n- Reference-restricted playback and bounded encrypted thumbnails for in-limit videos\n- Read-only local verification of portable encrypted vault backups without installation\n- Unified image/video swipe na",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 174,
+        "first_at": "2025-06-25T15:52:38+00:00",
+        "last_at": "2026-09-17T01:04:48+00:00",
+        "active_days": 15,
+        "span_days": 448,
+        "max_per_day": 90,
+        "low_effort_message_ratio": 0.029,
+        "messages_sample": [
+          "Merge pull request #77 from Frankbell84/release/build49-nested-folder-hierarchy",
+          "Merge pull request #76 from Frankbell84/feature/nested-folder-hierarchy",
+          "Merge pull request #75 from Frankbell84/release/build48-vault-catalog-sorting",
+          "Merge pull request #74 from Frankbell84/feature/vault-catalog-sorting",
+          "Merge pull request #73 from Frankbell84/release/build47-vault-catalog-search",
+          "Merge pull request #72 from Frankbell84/feature/vault-catalog-search",
+          "Merge PR #71: Package Build 46 regression fixes",
+          "Merge PR #70: Fix video chrome and backup verification picker",
+          "Merge PR #69: package Build 45 media import refinements",
+          "Merge PR #68: Build 45 media import progress and image zoom",
+          "Merge pull request #65 from Frankbell84/release/build44-viewer-gallery-refinement",
+          "Merge pull request #64 from Frankbell84/fix/build43-viewer-gallery-refinement",
+          "Merge pull request #63 from Frankbell84/release/build43-large-vault-progress",
+          "Merge pull request #62 from Frankbell84/fix/large-vault-progress",
+          "Merge pull request #61 from Frankbell84/release/build42-media-viewer-normalization",
+          "Merge pull request #60 from Frankbell84/fix/build41-media-viewer-normalization",
+          "Merge pull request #59 from Frankbell84/release/build41-unified-media-navigation",
+          "Merge pull request #58 from Frankbell84/feature/unified-media-navigation",
+          "Merge pull request #57 from Frankbell84/hardening/build40-credential-cutover-record",
+          "Merge pull request #56 from Frankbell84/hardening/build40-codesign-cert-extraction"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 96
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 1,312,846 bytes (77% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 376,185 bytes (22% of repo)",
+          "strength": 0.6211523425329009
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 10,345 bytes (1% of repo)",
+          "strength": 0.40608163797999086
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,646 bytes (0% of repo)",
+          "strength": 0.40096765356356356
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ios-build.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ADDON_RELEASE_POLICY.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1701022,
+        "strong_skills": [
+          "cicd",
+          "native-mobile",
+          "python",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "training-quiz",
+      "full_name": "Frankbell84/training-quiz",
+      "html_url": "https://github.com/Frankbell84/training-quiz",
+      "description": "Training Quiz",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-01T18:17:31Z",
+      "pushed_at": "2025-06-17T16:19:35Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12493,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 64528
+      },
+      "primary_language": "HTML",
+      "file_count": 33,
+      "top_level_paths": [
+        "README.md",
+        "Training_Module_Page1.html",
+        "Training_Module_Page10.html",
+        "Training_Module_Page11.html",
+        "Training_Module_Page12.html",
+        "Training_Module_Page13.html",
+        "Training_Module_Page2.html",
+        "Training_Module_Page3.html",
+        "Training_Module_Page4.html",
+        "Training_Module_Page5.html",
+        "Training_Module_Page6.html",
+        "Training_Module_Page7.html",
+        "Training_Module_Page8.html",
+        "Training_Module_Page9.html",
+        "images",
+        "index.html",
+        "quiz_page1.html",
+        "quiz_page2.html",
+        "quiz_page3.html",
+        "quiz_page4.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 30,
+      "readme_excerpt": "# training-quiz\nTraining Quiz\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 54,
+        "first_at": "2025-06-01T18:17:31+00:00",
+        "last_at": "2025-06-17T16:19:35+00:00",
+        "active_days": 4,
+        "span_days": 15,
+        "max_per_day": 32,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page1.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page2.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page4.html",
+          "Update quiz_page3.html",
+          "Update quiz_page4.html",
+          "Update quiz_page3.html"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 19
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 64,528 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 64528,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "PA-Search",
+      "full_name": "Frankbell84/PA-Search",
+      "html_url": "https://github.com/Frankbell84/PA-Search",
+      "description": "Florida PA Search",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-01T19:17:35Z",
+      "pushed_at": "2026-08-30T17:18:12Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2383,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 26777
+      },
+      "primary_language": "HTML",
+      "file_count": 9,
+      "top_level_paths": [
+        "NameYourCustomerLogo4.png",
+        "README.md",
+        "about.html",
+        "contact.html",
+        "county_to_pa.json",
+        "index.html",
+        "privacy.html",
+        "texas",
+        "zip_to_county.json"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 30,
+      "readme_excerpt": "# PA-Search\nFlorida PA Search\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 50,
+        "first_at": "2025-06-01T19:17:36+00:00",
+        "last_at": "2026-08-30T17:18:12+00:00",
+        "active_days": 9,
+        "span_days": 454,
+        "max_per_day": 21,
+        "low_effort_message_ratio": 0.88,
+        "messages_sample": [
+          "Add public site info and policy links for monetization readiness",
+          "Add Contact page for PA Lookup Tool",
+          "Add Privacy Policy page for PA Lookup Tool",
+          "Add About page for PA Lookup Tool",
+          "Merge Texas lookup into main PA tool",
+          "Add Texas appraisal district lookup tool",
+          "Update zip_to_county.json",
+          "Update county_to_pa.json",
+          "Update zip_to_county.json",
+          "Update zip_to_county.json",
+          "Update zip_to_county.json",
+          "Update zip_to_county.json",
+          "Update zip_to_county.json",
+          "Update index.html",
+          "Update index.html",
+          "Update index.html",
+          "Update zip_to_county.json",
+          "Update county_to_pa.json",
+          "Update county_to_pa.json",
+          "Update county_to_pa.json"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 26,777 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 26777,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Home-Buyer-Plus",
+      "full_name": "Frankbell84/Home-Buyer-Plus",
+      "html_url": "https://github.com/Frankbell84/Home-Buyer-Plus",
+      "description": "Home Buying WebApp",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-07T17:59:25Z",
+      "pushed_at": "2026-04-07T18:19:52Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 14900,
+        "JavaScript": 4822,
+        "CSS": 2304
+      },
+      "primary_language": "HTML",
+      "file_count": 9,
+      "top_level_paths": [
+        "analytics.html",
+        "auth.html",
+        "closing.html",
+        "communication.html",
+        "finance.html",
+        "index.html",
+        "main.js",
+        "property.html",
+        "styles.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-04-07T18:00:28+00:00",
+        "last_at": "2026-04-07T18:19:52+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 14,900 bytes (68% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,822 bytes (22% of repo)",
+          "strength": 0.6189230908925816
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,304 bytes (10% of repo)",
+          "strength": 0.5046036502315445
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 22026,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Cash-To-Close-Calculator",
+      "full_name": "Frankbell84/Cash-To-Close-Calculator",
+      "html_url": "https://github.com/Frankbell84/Cash-To-Close-Calculator",
+      "description": "Cash-To-Close-Calculator",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-07T14:56:14Z",
+      "pushed_at": "2026-04-07T14:56:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 14411,
+        "HTML": 11639,
+        "CSS": 2724
+      },
+      "primary_language": "JavaScript",
+      "file_count": 3,
+      "top_level_paths": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-04-07T14:56:41+00:00",
+        "last_at": "2026-04-07T14:56:41+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 14,411 bytes (50% of repo)",
+          "strength": 0.9008340863279349
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 11,639 bytes (40% of repo)",
+          "strength": 0.8044971154514493
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,724 bytes (9% of repo)",
+          "strength": 0.4946687982206158
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 28774,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Swift": 1312846,
+    "Python": 376185,
+    "HTML": 117844,
+    "JavaScript": 29578,
+    "CSS": 5028,
+    "Shell": 1646
+  },
+  "total_commits": 281,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Frankbell84/training-quiz",
+        "Frankbell84/PA-Search",
+        "Frankbell84/Home-Buyer-Plus",
+        "Frankbell84/Cash-To-Close-Calculator"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 122872,
+      "commit_count": 107,
+      "first_seen": "2025-06-01T18:17:31+00:00",
+      "last_seen": "2026-08-30T17:18:12+00:00",
+      "details": [
+        "training-quiz: HTML: 64,528 bytes (100% of repo)",
+        "PA-Search: HTML: 26,777 bytes (100% of repo)",
+        "Home-Buyer-Plus: HTML: 14,900 bytes (68% of repo)",
+        "Home-Buyer-Plus: CSS: 2,304 bytes (10% of repo)",
+        "Cash-To-Close-Calculator: HTML: 11,639 bytes (40% of repo)",
+        "Cash-To-Close-Calculator: CSS: 2,724 bytes (9% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Frankbell84/KeyHollow"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1312846,
+      "commit_count": 174,
+      "first_seen": "2025-06-25T15:52:38+00:00",
+      "last_seen": "2026-09-17T01:04:48+00:00",
+      "details": [
+        "KeyHollow: Swift: 1,312,846 bytes (77% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Frankbell84/KeyHollow",
+        "Frankbell84/Home-Buyer-Plus",
+        "Frankbell84/Cash-To-Close-Calculator"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9008340863279349,
+      "total_bytes": 29578,
+      "commit_count": 177,
+      "first_seen": "2025-06-25T15:52:38+00:00",
+      "last_seen": "2026-09-17T01:04:48+00:00",
+      "details": [
+        "KeyHollow: JavaScript: 10,345 bytes (1% of repo)",
+        "Home-Buyer-Plus: JavaScript: 4,822 bytes (22% of repo)",
+        "Cash-To-Close-Calculator: JavaScript: 14,411 bytes (50% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Frankbell84/KeyHollow"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6211523425329009,
+      "total_bytes": 376185,
+      "commit_count": 174,
+      "first_seen": "2025-06-25T15:52:38+00:00",
+      "last_seen": "2026-09-17T01:04:48+00:00",
+      "details": [
+        "KeyHollow: Python: 376,185 bytes (22% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Frankbell84/KeyHollow"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 174,
+      "first_seen": "2025-06-25T15:52:38+00:00",
+      "last_seen": "2026-09-17T01:04:48+00:00",
+      "details": [
+        "KeyHollow: GitHub Actions workflow (.github/workflows/ios-build.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Frankbell84/KeyHollow"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 174,
+      "first_seen": "2025-06-25T15:52:38+00:00",
+      "last_seen": "2026-09-17T01:04:48+00:00",
+      "details": [
+        "KeyHollow: docs directory (docs/ADDON_RELEASE_POLICY.md)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Frankbell84/KeyHollow"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40096765356356356,
+      "total_bytes": 1646,
+      "commit_count": 174,
+      "first_seen": "2025-06-25T15:52:38+00:00",
+      "last_seen": "2026-09-17T01:04:48+00:00",
+      "details": [
+        "KeyHollow: Shell: 1,646 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 281,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:33:16.046534+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

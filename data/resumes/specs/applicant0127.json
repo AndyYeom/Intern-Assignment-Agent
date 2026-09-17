@@ -1,0 +1,117 @@
+{
+  "github_login": "Frankbell84",
+  "applicant_id": "applicant0127",
+  "first_name": "Marisol",
+  "last_name": "Adeyemi",
+  "career_stage": "switcher",
+  "email": "marisol@cobaltbay.example",
+  "phone": "(555) 010-0127",
+  "location": "Cobalt Bay",
+  "linkedin": "linkedin.example.com/in/marisol-adeyemi",
+  "github_url": "github.example.com/marisol-adeyemi",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Wrenfield University",
+    "location": "Cobalt Bay",
+    "degree": "Bachelor of Science",
+    "major": "Information Systems",
+    "minor": "Urban Studies",
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Mobile Application Development",
+      "Human-Computer Interaction",
+      "Database Systems",
+      "Urban Economics"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Leasing Operations Assistant",
+      "organization": "Harrow & Vale Realty",
+      "location": "Cobalt Bay",
+      "start": "Jan 2024",
+      "end": "May 2025",
+      "bullets": [
+        "Coordinated lockbox key handoffs across 40+ rental units, tracking discrepancies that delayed agent showings.",
+        "Noticed repeated key-tracking errors and began prototyping a mobile logging tool to replace paper handoff sheets."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Keyhollow",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built KeyHollow, a Swift and Python mobile prototype for logging property key handoffs with automated checks.",
+        "Set up continuous integration across a 145-file codebase to catch build errors before manual testing."
+      ],
+      "link": null,
+      "tech": [
+        "Swift",
+        "Python",
+        "JavaScript",
+        "Shell"
+      ]
+    },
+    {
+      "title": "PA Search",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Aug 2026",
+      "bullets": [
+        "Built an HTML property-search interface for looking up public appraisal records across Florida counties."
+      ],
+      "link": null,
+      "tech": [
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Volunteer Organizer",
+      "organization": "Cobalt Bay PropTech Collective",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Organized monthly demo nights where agents tested early prototypes, surfacing workflow gaps before wider rollout."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "Python"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

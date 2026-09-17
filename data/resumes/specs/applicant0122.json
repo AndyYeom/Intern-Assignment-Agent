@@ -1,0 +1,116 @@
+{
+  "github_login": "HideoTakayan",
+  "applicant_id": "applicant0122",
+  "first_name": "Priya",
+  "last_name": "Nandakumar",
+  "career_stage": "student",
+  "email": "priya@coastalridge.example",
+  "phone": "(555) 011-4712",
+  "location": "Thistlewick",
+  "linkedin": "linkedin.example.com/in/priya-nandakumar",
+  "github_url": "github.example.com/applicant0122",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Coastal Ridge University",
+    "location": "Thistlewick",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Statistics",
+    "graduation": "May 2027",
+    "gpa": "3.8/4.0",
+    "coursework": [
+      "Web Application Security",
+      "Data Analysis with Python",
+      "Databases"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Manga Reader",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a Flutter manga-reading app in Dart and JavaScript, using Firebase rules-unit-testing to verify access rules before deploying database changes.",
+        "Set up an automated test suite and continuous checks across 30 active days of iterative development."
+      ],
+      "link": null,
+      "tech": [
+        "Dart",
+        "HTML",
+        "JavaScript",
+        "C++"
+      ]
+    },
+    {
+      "title": "Php Pj",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Feb 2026",
+      "bullets": [
+        "Developed a PHP and Blade web application integrating Bootstrap and Axios across the project's 331 files."
+      ],
+      "link": null,
+      "tech": [
+        "CSS",
+        "Blade",
+        "PHP",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Coastal Ridge Security Reading Group",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Started reviewing classmates' Firebase and web projects for common authorization mistakes after noticing repeated open-read rules in shared demos.",
+        "Realized debugging access-rule tests was more engaging than building new features, prompting a shift toward application security testing."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Visualization",
+      "Data Modeling"
+    ],
+    "AI/ML": [
+      "Machine Learning"
+    ],
+    "DevOps": [
+      "GCP/Azure",
+      "Linux & Server Administration"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Flutter",
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

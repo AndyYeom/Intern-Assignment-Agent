@@ -1,0 +1,222 @@
+{
+  "applicant_id": "applicant0091",
+  "github_login": "Damyan23",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0091.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/OpenGL"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/OpenGL",
+          "html_url": "https://github.com/Damyan23/OpenGL",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "C++: 318,263 bytes (80% of repo)",
+            "C: 60,244 bytes (15% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/Damyan23.github.io"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Damyan23.github.io",
+          "html_url": "https://github.com/Damyan23/Damyan23.github.io",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "GitHub Actions workflow (.github/workflows/deploy.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Damyan23/Procedurally-Animated-Spider",
+        "https://github.com/Damyan23/Site"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Procedurally-Animated-Spider",
+          "html_url": "https://github.com/Damyan23/Procedurally-Animated-Spider",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "C#: 24,771 bytes (61% of repo)"
+          ]
+        },
+        {
+          "repo": "Damyan23/Site",
+          "html_url": "https://github.com/Damyan23/Site",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: none",
+            "C#: 125,731 bytes (46% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/Damyan23.github.io"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Damyan23.github.io",
+          "html_url": "https://github.com/Damyan23/Damyan23.github.io",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "Go module (go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/Site"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Site",
+          "html_url": "https://github.com/Damyan23/Site",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: none",
+            "CSS: 64,550 bytes (24% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/Site"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Site",
+          "html_url": "https://github.com/Damyan23/Site",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: none",
+            "JavaScript: 70,988 bytes (26% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/Damyan23.github.io"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Damyan23.github.io",
+          "html_url": "https://github.com/Damyan23/Damyan23.github.io",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "jupyter notebook (content/blog/notebook-onboarding/hugoblox-onboarding.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/Damyan23.github.io"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Damyan23.github.io",
+          "html_url": "https://github.com/Damyan23/Damyan23.github.io",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "Jupyter Notebook: 4,335 bytes (90% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Damyan23/Damyan23.github.io"
+      ],
+      "repos": [
+        {
+          "repo": "Damyan23/Damyan23.github.io",
+          "html_url": "https://github.com/Damyan23/Damyan23.github.io",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 3,
+    "verified": 6
+  }
+}

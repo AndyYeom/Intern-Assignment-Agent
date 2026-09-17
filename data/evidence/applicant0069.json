@@ -1,0 +1,142 @@
+{
+  "applicant_id": "applicant0069",
+  "github_login": "MishaDobrynin",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0069.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/MishaDobrynin/Java"
+      ],
+      "repos": [
+        {
+          "repo": "MishaDobrynin/Java",
+          "html_url": "https://github.com/MishaDobrynin/Java",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "HTML: 27,043 bytes (24% of repo)",
+            "CSS: 23,177 bytes (21% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/MishaDobrynin/Department",
+        "https://github.com/MishaDobrynin/Java",
+        "https://github.com/MishaDobrynin/Sorting-app",
+        "https://github.com/MishaDobrynin/TTLSimulator"
+      ],
+      "repos": [
+        {
+          "repo": "MishaDobrynin/Department",
+          "html_url": "https://github.com/MishaDobrynin/Department",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Java: 9,632 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "MishaDobrynin/Java",
+          "html_url": "https://github.com/MishaDobrynin/Java",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Java: 55,591 bytes (50% of repo)"
+          ]
+        },
+        {
+          "repo": "MishaDobrynin/Sorting-app",
+          "html_url": "https://github.com/MishaDobrynin/Sorting-app",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Java: 27,348 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "MishaDobrynin/TTLSimulator",
+          "html_url": "https://github.com/MishaDobrynin/TTLSimulator",
+          "level": 1,
+          "reasons": [
+            "entry: 52 commits, independent-work signals: documented",
+            "Java: 85,603 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/MishaDobrynin/rf-spectrum-analyzer"
+      ],
+      "repos": [
+        {
+          "repo": "MishaDobrynin/rf-spectrum-analyzer",
+          "html_url": "https://github.com/MishaDobrynin/rf-spectrum-analyzer",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 2 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/MishaDobrynin/TTLSimulator",
+        "https://github.com/MishaDobrynin/rf-spectrum-analyzer"
+      ],
+      "repos": [
+        {
+          "repo": "MishaDobrynin/TTLSimulator",
+          "html_url": "https://github.com/MishaDobrynin/TTLSimulator",
+          "level": 1,
+          "reasons": [
+            "entry: 52 commits, independent-work signals: documented",
+            "junit-bom in build.gradle"
+          ]
+        },
+        {
+          "repo": "MishaDobrynin/rf-spectrum-analyzer",
+          "html_url": "https://github.com/MishaDobrynin/rf-spectrum-analyzer",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "test directory (tests/test_main.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 3
+  }
+}

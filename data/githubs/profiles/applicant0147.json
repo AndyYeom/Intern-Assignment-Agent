@@ -1,0 +1,1915 @@
+{
+  "applicant_id": "applicant0147",
+  "login": "rilsonjoas",
+  "html_url": "https://github.com/rilsonjoas",
+  "created_at": "2022-06-14T09:12:31Z",
+  "account_age_days": 1555,
+  "public_repos": 75,
+  "followers": 21,
+  "following": 19,
+  "repos": [
+    {
+      "name": "a-bancada-evangelica",
+      "full_name": "rilsonjoas/a-bancada-evangelica",
+      "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+      "description": "Transparência parlamentar: 595 parlamentares avaliados em 5 critérios de valores cristãos com dados oficiais (Câmara, Senado, TSE). Código aberto MIT, metodologia auditável.",
+      "homepage": "https://a-bancada-evangelica.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-23T19:19:40Z",
+      "pushed_at": "2026-09-17T01:14:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 3034,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "dados-abertos",
+        "transparencia-parlamentar"
+      ],
+      "languages": {
+        "TypeScript": 1127404,
+        "Python": 14641,
+        "CSS": 9516,
+        "JavaScript": 5684,
+        "HTML": 2144,
+        "Dockerfile": 1092
+      },
+      "primary_language": "TypeScript",
+      "file_count": 283,
+      "top_level_paths": [
+        ".dockerignore",
+        ".env.example",
+        ".github",
+        ".gitignore",
+        "AGENTS.md",
+        "CONTRIBUTING.md",
+        "Dockerfile",
+        "LICENSE",
+        "PADRAO-DE-ENGENHARIA.md",
+        "README.md",
+        "ROADMAP.md",
+        "analysis",
+        "api-server.cjs",
+        "bun.lockb",
+        "canal-x",
+        "components.json",
+        "data",
+        "docs",
+        "e2e",
+        "eslint.config.js",
+        "gt1-export",
+        "index.html",
+        "package.json",
+        "playwright.config.ts",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "postcss.config.js",
+        "prisma",
+        "public",
+        "scripts",
+        "src",
+        "tailwind.config.ts",
+        "test-results",
+        "tsconfig.api.json",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vercel.json",
+        "vite.config.ts",
+        "vitest.api.config.ts"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/deploy.yml",
+        "Dockerfile",
+        "analysis/Dockerfile",
+        "analysis/requirements.txt",
+        "package.json",
+        "src/api/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@hookform/resolvers",
+          "@nestjs/common",
+          "@nestjs/config",
+          "@nestjs/core",
+          "@nestjs/platform-express",
+          "@nestjs/swagger",
+          "@nestjs/throttler",
+          "@playwright/test",
+          "@prisma/client",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@scalar/nestjs-api-reference",
+          "@sentry/node",
+          "@tailwindcss/typography",
+          "@tanstack/react-query",
+          "@tanstack/react-query-devtools",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@types/axios",
+          "@types/express",
+          "@types/node",
+          "@types/node-cron",
+          "@types/node-fetch",
+          "@types/react",
+          "@types/react-dom",
+          "@types/unzipper",
+          "@types/xml2js",
+          "@vitejs/plugin-react-swc",
+          "autoprefixer",
+          "axios",
+          "class-transformer",
+          "class-validator",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "concurrently",
+          "csv-parse",
+          "date-fns",
+          "embla-carousel-react",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "express",
+          "globals",
+          "html2canvas",
+          "iconv-lite",
+          "input-otp",
+          "jsdom",
+          "lucide-react",
+          "next-themes",
+          "node-cron",
+          "node-fetch",
+          "postcss",
+          "prisma",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-resizable-panels",
+          "react-router-dom",
+          "recharts",
+          "reflect-metadata",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "ts-node",
+          "tsconfig-paths",
+          "tsx",
+          "typescript",
+          "typescript-eslint",
+          "unzipper",
+          "vaul",
+          "vite",
+          "vitest",
+          "xml2js",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 11955,
+      "readme_excerpt": "# A Bancada Evangélica\n\n<p align=\"center\">\n  <strong>Plataforma de transparência parlamentar com avaliação por valores cristãos</strong><br/>\n  595 parlamentares avaliados em 5 critérios — com dados reais da Câmara dos Deputados e do Senado\n</p>\n\n<p align=\"center\">\n  <a href=\"https://a-bancada-evangelica.vercel.app\" target=\"_blank\">\n    <img src=\"https://img.shields.io/badge/demo-ao%20vivo-brightgreen?style=flat-square&logo=vercel\" alt=\"Demo ao vivo\" />\n  </a>\n  <img src=\"https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black\" />\n  <img src=\"https://img.shields.io/badge/NestJS-11-E0234E?style=flat-square&logo=nestjs\" />\n  <img src=\"https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript&logoColor=white\" />\n  <img src=\"https://img.shields.io/badge/Prisma-5-2D3748?style=flat-square&logo=prisma&logoColor=white\" />\n  <img src=\"https://img.shields.io/badge/Testes-157%20passando-brightgreen?style=flat-square&logo=vitest\" />\n  <img src=\"https://img.shields.io/badge/Deploy-Hetzner%20VPS-orange?style=flat-square&logo=hetzner\" />\n</p>\n\n---\n\n## O que é\n\n**A Bancada Evangélica** avalia os parlamentares da 57ª legislatura (2023–202",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.988,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-08-15T01:13:17+00:00",
+        "last_at": "2026-09-17T01:14:24+00:00",
+        "active_days": 21,
+        "span_days": 33,
+        "max_per_day": 26,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(confiabilidade)+docs: CEPT2-6/7/8/9/11 — smoke test de boot no CI; aba viva de estimativas na Metodologia; label 'Nota estimada por partido' nos syncs (fim de 'Aguardando Análise'); Sentry integr",
+          "fix(honestidade)+docs: badge 'Nota estimada por partido' em vez de 'Aderência X' quando sem voto próprio; home/Metodologia/FPE coerentes com a base; LICENSE MIT real; plano 'Nota 10' (CEPT2-1..11) no ",
+          "fix(ui)+docs: modal do card sem vazamento de botões (mobile/desktop); ROADMAP registra incidente TDZ, db:push e programas de 16/09",
+          "fix(build): recharts fora do manualChunks — TDZ crashava a app inteira (tela branca)",
+          "docs(reproducibility): tece achados de 15-16/09 — regras versionadas, scores.com fopen única, FPE, quality fix",
+          "feat(ui): honestidade de dados — fim da contagem fabricada, flags de estimativa, dados vivos",
+          "feat(freshness+fpe): lastSync por tipo de dado; FPE com captura real e limpeza de desligados",
+          "feat(sync): SCAN_RULES versionadas em lib/scan-rules — Câmara e Senado usam a mesma fonte",
+          "refactor(scores): fonte única da nota vigente elimina divergência de médias entre endpoints",
+          "fix(quality): check de estabilidade agora grava e compara totalPoliticians de verdade",
+          "fix(votes-analysis): média, distribuição e top-50 por político ativo (consistência com ranking)",
+          "feat(fpe): sync-fpe agora registra no SyncLog (trilha de auditoria)",
+          "fix(fpe): sync-fpe agora roda no cron diário de políticos (era manual-only)",
+          "docs(roadmap): GT1 cards corrigidos 15/09 (dados FPE-only, placar, logo, tagline) — falta conferência visual",
+          "fix(gt1): cards de pauta com dados FPE-only + correções visuais (feedback 15/09)",
+          "docs(roadmap): pitch imprensa adiado (decisão Rilson 15/09) — revisado, lista verificada, envio pendente",
+          "docs(roadmap): sitemap+OG done — gap era só o OG de /politicos/:id, resolvido por prerender estático",
+          "fix(seo): API fora do ar não derruba o build Vercel — pula OG pages, segue com SPA honesta",
+          "feat(seo): gerar páginas OG estáticas por /politicos/:id no build (crawlers WhatsApp/X)",
+          "fix(honestidade): remove última fabricação de dados (useComparisonData 'João Silva'/nota 80) — erro honesto no lugar"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 229
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 10,
+          "perf": 0,
+          "refactor": 1,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,127,404 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 14,641 bytes (1% of repo)",
+          "strength": 0.41261632030166806
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 9,516 bytes (1% of repo)",
+          "strength": 0.40820004808351024
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 5,684 bytes (0% of repo)",
+          "strength": 0.40489796903180664
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,144 bytes (0% of repo)",
+          "strength": 0.40184750978258155
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,092 bytes (0% of repo)",
+          "strength": 0.40094098912433723
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/A11Y-AUDIT.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (e2e/boot-smoke.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (e2e/boot-smoke.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "prisma schema (prisma/schema.prisma)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (src/components/charts/ExpenseAnalysisChart.tsx)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@nestjs/core in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "prisma in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1160481,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "data-viz",
+          "docker",
+          "integration-testing",
+          "kubernetes",
+          "linux",
+          "nodejs",
+          "react",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "lecionario",
+      "full_name": "rilsonjoas/lecionario",
+      "html_url": "https://github.com/rilsonjoas/lecionario",
+      "description": null,
+      "homepage": "https://lecionario.narniano.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-27T17:00:23Z",
+      "pushed_at": "2026-09-15T15:12:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 6,
+      "size_kb": 29194,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "TypeScript": 2019760,
+        "HTML": 80281,
+        "CSS": 12435,
+        "JavaScript": 9354,
+        "Python": 8261,
+        "Dockerfile": 1027
+      },
+      "primary_language": "TypeScript",
+      "file_count": 506,
+      "top_level_paths": [
+        ".claude",
+        ".dockerignore",
+        ".github",
+        ".gitignore",
+        ".husky",
+        ".prettierignore",
+        ".prettierrc",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "DEPLOY.md",
+        "LICENSE",
+        "Logo-ampliado.png",
+        "Logo.png",
+        "README.md",
+        "ROADMAP.md",
+        "UMA.md",
+        "docker-compose.yml",
+        "docs",
+        "lecionario-mobile",
+        "lecionario-web",
+        "logo.jpg",
+        "package.json",
+        "scripts"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/deploy.yml",
+        ".github/workflows/eas-build.yml",
+        ".github/workflows/eas.yml",
+        "lecionario-mobile/package.json",
+        "lecionario-web/Dockerfile",
+        "lecionario-web/package.json",
+        "package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4320,
+      "readme_excerpt": "# Lecionário\n\nAplicação de meditação diária na Palavra de Deus seguindo o Ano Litúrgico Cristão — Lecionário Comum Revisado (RCL, ciclos A, B e C).\n\nMonorepo com aplicativo web (Next.js PWA) e mobile (Expo / React Native), compartilhando um motor litúrgico comum. **Sem dependência de backend — todos os dados são locais.**\n\n---\n\n## Por que isto existe\n\nNão existe em português um app devocional que siga o calendário litúrgico com fidelidade real, funcione offline, seja instalável sem loja e não peça login pra nada — as opções ou são genéricas (sem noção de estação litúrgica) ou dependem de conta/assinatura pra algo que devia ser simplesmente aberto e ler.\n\nEste é o projeto mais diretamente ligado à minha própria disciplina espiritual: leitura e meditação bíblica diária, Coram Deo, viver conscientemente na presença de Deus. Eu não venho de tradição litúrgica — uso o Lecionário Comum Revisado por escolha de prática devocional, não por filiação — mas construí a ferramenta que eu mesmo uso todo dia, e por isso ela é sem fricção de propósito: sem conta, sem paywall no conteúdo litúrgico, dados locais.\n\nHoje o motor litúrgico está completo e testado (cálculo de Páscoa, ciclos A/B/C, cores ",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.977,
+      "commits": {
+        "count": 126,
+        "first_at": "2026-01-25T04:01:36+00:00",
+        "last_at": "2026-09-15T15:12:38+00:00",
+        "active_days": 25,
+        "span_days": 233,
+        "max_per_day": 38,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(mobile): sincroniza textos bíblicos feriais do RCL (daily-*.json)",
+          "feat: haptics mobile, atalhos web, termos de uso, consolidacao de paleta e guia play store",
+          "docs: confirma fix da notificação duplicada 'Domingo'",
+          "fix(notifications): cancelamento sempre total, não mais migração pontual",
+          "docs(roadmap): registra fix do fuso horário + alargamento revertido no Bíblia na Arte",
+          "feat(export-daily-refs): inclui estação litúrgica por data + doc de afinidade",
+          "fix(deps): fecha CVEs high de browserslist e fast-uri (audit da CI quebrando)",
+          "feat(rcl-daily): completa parsing de referências feriais + fix Pintura do Dia + sincroniza com Bíblia na Arte",
+          "docs(roadmap): registra bug de notificações duplicadas (2 na mesma hora) resolvido",
+          "fix(notifications): cancela notificação DAILY legada que duplicava na mesma hora",
+          "feat(rcl-daily): leituras feriais do RCL em PT (etapa 1 do 5.6)",
+          "fix(pintura-do-dia): usa o maior pool de obras por referência (web+mobile)",
+          "feat: adiciona página do método, refatora notificações diárias e validação de conteúdos",
+          "docs(roadmap): add notification static payload bug and root cause analysis",
+          "feat(citacao-do-dia): empilha CTAs e renomeia botão pra 'Ler livro completo'",
+          "feat(quotes): expande e intercala acervo de citações com obras do Scriptorium",
+          "test: ajusta asserção de cobertura do acervo de citações no lecionario-web",
+          "feat(citacao-do-dia): expande acervo com multiautores e integração ao Scriptorium",
+          "fix(pintura-do-dia): rotaciona obras por data no mobile e web",
+          "docs: remove menções ao Vercel (migrado pro VPS)"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 9,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 203
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 11,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 2,019,760 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 80,281 bytes (4% of repo)",
+          "strength": 0.4376708375603791
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 12,435 bytes (1% of repo)",
+          "strength": 0.4058349654969833
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 9,354 bytes (0% of repo)",
+          "strength": 0.4043892454570794
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 8,261 bytes (0% of repo)",
+          "strength": 0.403876369117055
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,027 bytes (0% of repo)",
+          "strength": 0.400481906679968
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/PLAY_STORE_SUBMISSION.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (lecionario-mobile/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (lecionario-mobile/metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (lecionario-mobile/src/lib/__tests__/artwork-fetcher.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (lecionario-web/e2e/offline.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (lecionario-web/tailwind.config.ts)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2131118,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "integration-testing",
+          "linux",
+          "react-native",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "portfolio-rilson",
+      "full_name": "rilsonjoas/portfolio-rilson",
+      "html_url": "https://github.com/rilsonjoas/portfolio-rilson",
+      "description": null,
+      "homepage": "https://portfolio-rilson.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-09T19:37:14Z",
+      "pushed_at": "2026-09-15T11:06:57Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 4675,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 226892,
+        "CSS": 4971,
+        "HTML": 3322,
+        "JavaScript": 869
+      },
+      "primary_language": "TypeScript",
+      "file_count": 108,
+      "top_level_paths": [
+        ".gitignore",
+        ".npmrc",
+        ".nvmrc",
+        "README.md",
+        "ROADMAP.md",
+        "components.json",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "pnpm-lock.yaml",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.ts",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vercel.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@tailwindcss/typography",
+          "@tanstack/react-query",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react-swc",
+          "autoprefixer",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "date-fns",
+          "embla-carousel-react",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "globals",
+          "input-otp",
+          "lucide-react",
+          "next-themes",
+          "postcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-helmet-async",
+          "react-hook-form",
+          "react-resizable-panels",
+          "react-router-dom",
+          "recharts",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "typescript-eslint",
+          "vaul",
+          "vite",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2325,
+      "readme_excerpt": "# Portfolio Rilson Guedes\n\nPortfolio pessoal moderno desenvolvido com tecnologias de ponta para apresentar projetos e expertise em **Desenvolvimento Full Stack** e **Data Science**. \n\n**🌐 Acesse:** [portfolio-rilson.vercel.app](https://portfolio-rilson.vercel.app)\n\n> [!NOTE]\n> Roadmap (engenharia + backlog de produto) em [`ROADMAP.md`](ROADMAP.md).\n\n## ✨ Características do Projeto\n\n### 🎯 **Interface Completa**\n- **Design Responsivo** - Experiência otimizada em desktop, tablet e mobile\n- **Tema Dinâmico** - Alternância entre modo claro/escuro/sistema automático\n- **Animações Suaves** - Transições elegantes e micro-interações\n- **Performance Otimizada** - Loading states, lazy loading e otimizações de renderização\n\n### 📱 **Seções Implementadas**\n- **Sobre Mim** - Apresentação profissional com experiência em empresa pública\n- **Habilidades** - 9 categorias técnicas especializadas\n- **Projetos** - Showcase interativo de trabalhos realizados\n- **Contato** - Múltiplas formas de comunicação\n\n### 🔧 **Funcionalidades Avançadas**\n- **SEO Otimizado** - Meta tags completas para redes sociais\n- **Acessibilidade** - Padrões WCAG implementados\n- **PWA Ready** - Preparado para Progressive Web App\n-",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.852,
+      "commits": {
+        "count": 23,
+        "first_at": "2025-08-12T18:01:19+00:00",
+        "last_at": "2026-09-15T11:06:18+00:00",
+        "active_days": 15,
+        "span_days": 398,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: upgrade portfolio with hero stats, search filter, contact section, and engineering badges",
+          "docs: roadmap de engenharia proporcional + corrige referência a Cuidia",
+          "docs(roadmap): atualizar backlog de produto e apontamentos do usuario",
+          "Adiciona Bíblia na Arte ao portfólio",
+          "Atualizações locais",
+          "Novos projetos no portfólio",
+          "Melhorias na apresentação dos projetos",
+          "Inclusão de A bancada evangélica",
+          "Novo projeto incluso",
+          "Atualização de links e imagens",
+          "Update README to remove project section",
+          "Atualização de projetos.",
+          "fix: resolve conflitos de merge mantendo README.md local",
+          "atualizando index",
+          "docs: Atualiza README.md local com informações personalizadas",
+          "Inclusão de novo projeto",
+          "Atualização de projetos",
+          "Atualização de lista de projetos e de imagens",
+          "Finalização do projeto",
+          "Atualização do portfólio e do visual."
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 79
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 226,892 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,971 bytes (2% of repo)",
+          "strength": 0.4210587407965974
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,322 bytes (1% of repo)",
+          "strength": 0.4140730510815322
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 236054,
+        "strong_skills": [
+          "data-viz",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "scriptorium-divinum",
+      "full_name": "rilsonjoas/scriptorium-divinum",
+      "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+      "description": null,
+      "homepage": "https://scriptorium.narniano.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-25T15:45:04Z",
+      "pushed_at": "2026-08-25T01:54:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7970,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 701993,
+        "PLpgSQL": 31972,
+        "Python": 19156,
+        "CSS": 13607,
+        "JavaScript": 8077,
+        "HTML": 1966,
+        "Dockerfile": 1961
+      },
+      "primary_language": "TypeScript",
+      "file_count": 304,
+      "top_level_paths": [
+        ".claude",
+        ".github",
+        ".gitignore",
+        "PESQUISA-OBRAS-FAROIS.md",
+        "README.md",
+        "ROADMAP.md",
+        "bun.lockb",
+        "database",
+        "eslint.config.js",
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "scripts",
+        "server",
+        "web"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/deploy.yml",
+        "package.json",
+        "server/Dockerfile",
+        "server/package.json",
+        "web/Dockerfile",
+        "web/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "globals",
+          "typescript",
+          "typescript-eslint"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 7079,
+      "readme_excerpt": "# Scriptorium Divinum 📚✨\n\nUma biblioteca digital dedicada às obras clássicas da teologia cristã em domínio público. O projeto oferece acesso gratuito a textos dos Padres da Igreja, reformadores e grandes teólogos da história cristã.\n\n---\n\n## 🎯 Estado Atual do Projeto\n\n> [!NOTE]\n> Desde 2026-08-08 este é um **monorepo pnpm workspace** (`web/` + `server/`) — o projeto foi migrado com sucesso do Supabase para uma arquitetura self-hosted em um VPS Hetzner.\n\n### ✅ Funcionalidades no Ar\n- **🏠 Frontend (React + Vite)**: `https://scriptorium.narniano.com` (Servido via Nginx + Traefik)\n- **🚀 API REST (Fastify + Drizzle)**: `https://api-scriptorium.narniano.com` (Conectado ao Postgres compartilhado)\n- **🗄️ Banco de Dados**: Postgres (`scriptorium_divinum_db`) rodando localmente no VPS com role isolada e segura.\n- **🔄 Backup Integrado**: Backups diários criptografados com `age` e sincronizados via Tailscale.\n- **📖 Leitor online** (`/ler/:id`): renderiza em markdown as obras que tiverem texto disponível em `server/texts/` (ver política de direitos autorais abaixo). O botão \"Ler Online\" só aparece quando o conteúdo realmente existe.\n\n---\n\n## Por que isto existe\n\nOs grandes textos da tradição cr",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.966,
+      "commits": {
+        "count": 85,
+        "first_at": "2025-08-26T16:38:18+00:00",
+        "last_at": "2026-08-25T01:54:34+00:00",
+        "active_days": 14,
+        "span_days": 363,
+        "max_per_day": 30,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(catalog): format and activate online reader for Imitação de Cristo and Os Últimos Fins do Homem",
+          "Melhorias de ui/ux no mobile.",
+          "fix(ui): solucionar vazamento de texto no mobile, oculta AdSlot sem anuncio e melhora leiturabilidade dos botões",
+          "fix(docker): remover HEALTHCHECK inline dos Dockerfiles para restaurar roteamento no Traefik",
+          "style(ui): adicionar pigmentos medievais (carmesim e lápis-lazúli), fita marcadora ribbon e couro prensado",
+          "style(ui): adicionar estante teológica 3D, tondo portraits e iluminação liturgic-glow",
+          "docs(roadmap): registrar 100% de conformidade com padrões hetzner-infra",
+          "chore(docker): adicionar instrução HEALTHCHECK nos Dockerfiles web e server",
+          "docs(roadmap): atualizar roadmap com funcionalidades de rigor acadêmico, citação e anotações",
+          "feat(academic): adicionar citação ABNT/Chicago, exportação Obsidian e sistema de destaques/anotações",
+          "feat(ui): implementar responsividade mobile/ultrawide e preferências de leitura no leitor",
+          "feat(produto): upload no admin, PWA offline, i18n PT/EN e atualização do roadmap",
+          "feat(leitura): favoritos com filtro no catálogo",
+          "docs(pesquisa): HathiTrust/Mindlin esgotados para Pascal/Anselmo/Granada PT",
+          "build(web): ARGs para Umami e tag de afiliado (consumidos pelo compose do infra)",
+          "feat(produto): umami, afiliados Amazon, capas tipográficas e Sobre honesto",
+          "docs(pesquisa): rebusca BND/Archive sem resultado para Pascal/Anselmo/Granada PT",
+          "fix(web): ano dinâmico no rodapé + leitura de escaneamentos embutida",
+          "docs(roadmap): fase 2 das traduções PT executada",
+          "feat(acervo): Peregrino e Confissões em PT + Imitação e Bernardes como fichas"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 188
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 701,993 bytes (90% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 31,972 bytes (4% of repo)",
+          "strength": 0.44105648669889
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 19,156 bytes (2% of repo)",
+          "strength": 0.4245989634431358
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 13,607 bytes (2% of repo)",
+          "strength": 0.41747327707093074
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 8,077 bytes (1% of repo)",
+          "strength": 0.41037198933651114
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,966 bytes (0% of repo)",
+          "strength": 0.4025246169413868
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,961 bytes (0% of repo)",
+          "strength": 0.40251819624723273
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (database/schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (server/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (server/src/db/migrations/0000_early_rictor.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (server/src/test/integration-setup.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (web/nginx.conf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (web/tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 778732,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "linux",
+          "sql",
+          "tailwind",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "TinDog",
+      "full_name": "rilsonjoas/TinDog",
+      "html_url": "https://github.com/rilsonjoas/TinDog",
+      "description": "Website testing",
+      "homepage": "https://rilsonjoas.github.io/TinDog/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-03-13T19:53:54Z",
+      "pushed_at": "2023-05-14T00:48:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3364,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 9111,
+        "CSS": 1771
+      },
+      "primary_language": "HTML",
+      "file_count": 42,
+      "top_level_paths": [
+        ".gitattributes",
+        "css",
+        "images",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2023-03-13T19:53:37+00:00",
+        "last_at": "2023-05-14T00:48:33+00:00",
+        "active_days": 2,
+        "span_days": 61,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Resizing images",
+          "Update index.html",
+          "Atualização",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 9,111 bytes (84% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,771 bytes (16% of repo)",
+          "strength": 0.5627458187833119
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10882,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 4076049,
+    "HTML": 96824,
+    "CSS": 42300,
+    "Python": 42058,
+    "PLpgSQL": 31972,
+    "JavaScript": 23984,
+    "Dockerfile": 4080
+  },
+  "total_commits": 438,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/portfolio-rilson",
+        "rilsonjoas/scriptorium-divinum",
+        "rilsonjoas/TinDog"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 139124,
+      "commit_count": 438,
+      "first_seen": "2023-03-13T19:53:37+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: CSS: 9,516 bytes (1% of repo)",
+        "a-bancada-evangelica: HTML: 2,144 bytes (0% of repo)",
+        "lecionario: HTML: 80,281 bytes (4% of repo)",
+        "lecionario: CSS: 12,435 bytes (1% of repo)",
+        "portfolio-rilson: CSS: 4,971 bytes (2% of repo)",
+        "portfolio-rilson: HTML: 3,322 bytes (1% of repo)",
+        "scriptorium-divinum: CSS: 13,607 bytes (2% of repo)",
+        "scriptorium-divinum: HTML: 1,966 bytes (0% of repo)",
+        "TinDog: HTML: 9,111 bytes (84% of repo)",
+        "TinDog: CSS: 1,771 bytes (16% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/portfolio-rilson",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4076049,
+      "commit_count": 434,
+      "first_seen": "2025-08-12T18:01:19+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: TypeScript: 1,127,404 bytes (97% of repo)",
+        "a-bancada-evangelica: typescript in package.json",
+        "lecionario: TypeScript: 2,019,760 bytes (95% of repo)",
+        "portfolio-rilson: TypeScript: 226,892 bytes (96% of repo)",
+        "portfolio-rilson: typescript in package.json",
+        "scriptorium-divinum: TypeScript: 701,993 bytes (90% of repo)",
+        "scriptorium-divinum: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/portfolio-rilson",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 434,
+      "first_seen": "2025-08-12T18:01:19+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: tailwind config (tailwind.config.ts)",
+        "a-bancada-evangelica: tailwindcss in package.json",
+        "lecionario: tailwind config (lecionario-web/tailwind.config.ts)",
+        "portfolio-rilson: tailwind config (tailwind.config.ts)",
+        "portfolio-rilson: tailwindcss in package.json",
+        "scriptorium-divinum: tailwind config (web/tailwind.config.ts)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 411,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: test file (e2e/boot-smoke.spec.ts)",
+        "a-bancada-evangelica: vitest in package.json",
+        "lecionario: test file (lecionario-mobile/src/lib/__tests__/artwork-fetcher.test.ts)",
+        "scriptorium-divinum: test directory (server/src/test/integration-setup.ts)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 326,
+      "first_seen": "2026-01-25T04:01:36+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: e2e suite (e2e/boot-smoke.spec.ts)",
+        "a-bancada-evangelica: @playwright/test in package.json",
+        "lecionario: e2e suite (lecionario-web/e2e/offline.spec.ts)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 285,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: prisma schema (prisma/schema.prisma)",
+        "a-bancada-evangelica: prisma in package.json",
+        "scriptorium-divinum: database migrations (server/src/db/migrations/0000_early_rictor.sql)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/portfolio-rilson"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 223,
+      "first_seen": "2025-08-12T18:01:19+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: @testing-library/react in package.json",
+        "portfolio-rilson: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/portfolio-rilson"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 223,
+      "first_seen": "2025-08-12T18:01:19+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: recharts in package.json",
+        "portfolio-rilson: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-15T01:13:17+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: @nestjs/core in package.json"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 4080,
+      "commit_count": 411,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: Dockerfile: 1,092 bytes (0% of repo)",
+        "a-bancada-evangelica: Dockerfile (Dockerfile)",
+        "lecionario: Dockerfile: 1,027 bytes (0% of repo)",
+        "lecionario: docker-compose (docker-compose.yml)",
+        "scriptorium-divinum: Dockerfile: 1,961 bytes (0% of repo)",
+        "scriptorium-divinum: Dockerfile (server/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 411,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: env config (.env.example)",
+        "lecionario: env config (lecionario-mobile/.env.example)",
+        "scriptorium-divinum: server config (web/nginx.conf)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 411,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "lecionario: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "scriptorium-divinum: GitHub Actions workflow (.github/workflows/ci.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 326,
+      "first_seen": "2026-01-25T04:01:36+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: docs directory (docs/A11Y-AUDIT.md)",
+        "lecionario: docs directory (docs/PLAY_STORE_SUBMISSION.md)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-15T01:13:17+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: kubernetes manifests (src/components/charts/ExpenseAnalysisChart.tsx)"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "rilsonjoas/lecionario"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 126,
+      "first_seen": "2026-01-25T04:01:36+00:00",
+      "last_seen": "2026-09-15T15:12:38+00:00",
+      "details": [
+        "lecionario: React Native bundler config (lecionario-mobile/metro.config.js)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 85,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-08-25T01:54:34+00:00",
+      "details": [
+        "scriptorium-divinum: SQL file (database/schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.44105648669889,
+      "total_bytes": 31972,
+      "commit_count": 85,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-08-25T01:54:34+00:00",
+      "details": [
+        "scriptorium-divinum: PLpgSQL: 31,972 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4245989634431358,
+      "total_bytes": 42058,
+      "commit_count": 411,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: Python: 14,641 bytes (1% of repo)",
+        "lecionario: Python: 8,261 bytes (0% of repo)",
+        "scriptorium-divinum: Python: 19,156 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica",
+        "rilsonjoas/lecionario",
+        "rilsonjoas/scriptorium-divinum"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41037198933651114,
+      "total_bytes": 23115,
+      "commit_count": 411,
+      "first_seen": "2025-08-26T16:38:18+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: JavaScript: 5,684 bytes (0% of repo)",
+        "lecionario: JavaScript: 9,354 bytes (0% of repo)",
+        "scriptorium-divinum: JavaScript: 8,077 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "rilsonjoas/a-bancada-evangelica"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-15T01:13:17+00:00",
+      "last_seen": "2026-09-17T01:14:24+00:00",
+      "details": [
+        "a-bancada-evangelica: 'c' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 438,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 16,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:22:18.626732+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,881 @@
+{
+  "applicant_id": "applicant0093",
+  "login": "NoahTsai0909",
+  "html_url": "https://github.com/NoahTsai0909",
+  "created_at": "2022-01-11T02:04:18Z",
+  "account_age_days": 1709,
+  "public_repos": 15,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "AudioClassifier",
+      "full_name": "NoahTsai0909/AudioClassifier",
+      "html_url": "https://github.com/NoahTsai0909/AudioClassifier",
+      "description": "Audio classifier utilizing Tensorflow to build a convolutional network which will be fed segments of audio clips. Each clip will output whether there was a bird call present within the audio segment.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-25T23:14:47Z",
+      "pushed_at": "2023-09-27T22:57:43Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 601507,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 644
+      },
+      "primary_language": "Python",
+      "file_count": 912,
+      "top_level_paths": [
+        "README.md",
+        "data",
+        "main.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 218,
+      "readme_excerpt": "# AudioClassifier\nAudio classifier utilizing Tensorflow to build a convolutional network which will be fed segments of audio clips. Each clip will output whether there was a bird call present within the audio segment.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2023-09-25T23:14:48+00:00",
+        "last_at": "2023-09-27T22:57:20+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "added dependencies and function to load wav file",
+          "audio dataset",
+          "First test",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 644 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "deep-learning",
+          "source": "repo_name",
+          "detail": "'tensorflow' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 644,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "RealmBreakGame",
+      "full_name": "NoahTsai0909/RealmBreakGame",
+      "html_url": "https://github.com/NoahTsai0909/RealmBreakGame",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-07T03:20:50Z",
+      "pushed_at": "2026-09-17T01:11:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 257409,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 797193,
+        "ShaderLab": 109162,
+        "HLSL": 19973
+      },
+      "primary_language": "C#",
+      "file_count": 2505,
+      "top_level_paths": [
+        ".gitignore",
+        ".vsconfig",
+        "Assets",
+        "Media",
+        "Packages",
+        "ProjectSettings",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2298,
+      "readme_excerpt": "# Realm Break (Working Title)\n\n> A tactical roguelike autobattler where you construct the ultimate battalion to weather deadly encounters and survive 12 days of escalating challenges.\n![Main Menu](Media/MainMenuScene.gif)\n![Shop Phase](Media/AdventureShopScene.gif) \n![Combat Phase](Media/RegularCombatScene.gif)\n![Combat Phase](Media/BossCombatScene.gif)\n\n---\n\n## ⚔️ About the Game\n**Realm Break** is a grid-based autobattler that challenges players to make high-stakes tactical decisions. Build your army, manage your economy, and choose your path through a dynamic daily event system.\n\n* **Grid-Based Autobattling:** Position your units strategically on the battlefield to maximize their synergies and mitigate enemy threats.\n* **Roguelike Progression:** Navigate through varied daily events, choosing between combats, shops, and mysterious story encounters.\n* **Identify synergies:** Learn to recognize synergies between units in a pool of unique characters with bridging mechanics.\n* **Risk & Reward:** Salvage gold from lost battles and trigger \"Last Chance\" safety nets to bounce back from the brink of defeat.\n\n---\n\n## 🛠️ Technical Highlights\nAs a portfolio piece, this project showcases clea",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 142,
+        "first_at": "2025-12-07T03:22:04+00:00",
+        "last_at": "2026-09-17T01:11:31+00:00",
+        "active_days": 92,
+        "span_days": 283,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.007,
+        "messages_sample": [
+          "map new background",
+          "prep scene rework + tactic bar rework + provision text deletion",
+          "new runHUD, bug fixes to lootsummaryUI,",
+          "updated readme gifs and updated unit hover ui",
+          "shop ui rework",
+          "random mutations for combat events.",
+          "ruins below combat art + random mutation event + mutation preview and mutation unit rewards",
+          "art pass",
+          "settings and new run hud",
+          "save file prototype",
+          "compendium tweak",
+          "compendium prototype",
+          "new units + transform + teambuff fix + mutation font color",
+          "mutation rune visuals + particles + transform mechanic",
+          "mutation system",
+          "upgraded rarity preview",
+          "main menu and adventure selection scene",
+          "small readme fix",
+          "Readme update",
+          "Moved Git repository to Unity project root"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 246
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 797,193 bytes (86% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 797193,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Cat-Breed-Guesser",
+      "full_name": "NoahTsai0909/Cat-Breed-Guesser",
+      "html_url": "https://github.com/NoahTsai0909/Cat-Breed-Guesser",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-29T21:31:14Z",
+      "pushed_at": "2025-11-29T21:35:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4458,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 2358,
+        "JavaScript": 2337,
+        "CSS": 1853,
+        "HTML": 1025
+      },
+      "primary_language": "Python",
+      "file_count": 306,
+      "top_level_paths": [
+        "data-script.py",
+        "data.json",
+        "game-assets",
+        "generate-json.py",
+        "index.html",
+        "script.js",
+        "styles.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-11-29T21:35:30+00:00",
+        "last_at": "2025-11-29T21:35:30+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,358 bytes (31% of repo)",
+          "strength": 0.7113693384391919
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,337 bytes (31% of repo)",
+          "strength": 0.7085963290637792
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,853 bytes (24% of repo)",
+          "strength": 0.6446850653637924
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,025 bytes (14% of repo)",
+          "strength": 0.5353492671332365
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 7573,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Calorie-Clash",
+      "full_name": "NoahTsai0909/Calorie-Clash",
+      "html_url": "https://github.com/NoahTsai0909/Calorie-Clash",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-26T21:05:05Z",
+      "pushed_at": "2025-11-27T05:03:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4060,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 6018,
+        "CSS": 3332,
+        "HTML": 1403
+      },
+      "primary_language": "JavaScript",
+      "file_count": 16,
+      "top_level_paths": [
+        "data",
+        "images",
+        "index.html",
+        "script.js",
+        "sounds",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-11-26T21:03:38+00:00",
+        "last_at": "2025-11-27T05:03:31+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "new items",
+          "Added sound cues, background",
+          "Advanced matching",
+          "Added fade transitions, pulsing",
+          "init commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,018 bytes (56% of repo)",
+          "strength": 0.9596577699246722
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,332 bytes (31% of repo)",
+          "strength": 0.7098670138565981
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,403 bytes (13% of repo)",
+          "strength": 0.5304752162187296
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10753,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Flappy-Test",
+      "full_name": "NoahTsai0909/Flappy-Test",
+      "html_url": "https://github.com/NoahTsai0909/Flappy-Test",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-01-05T07:16:22Z",
+      "pushed_at": "2025-01-06T05:04:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 34925,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "ASP.NET": 181725
+      },
+      "primary_language": "ASP.NET",
+      "file_count": 170,
+      "top_level_paths": [
+        "D3D12",
+        "Flappy Bird.exe",
+        "Flappy Bird_BurstDebugInformation_DoNotShip",
+        "Flappy Bird_Data",
+        "MonoBleedingEdge",
+        "UnityCrashHandler64.exe",
+        "UnityPlayer.dll"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-01-05T07:15:59+00:00",
+        "last_at": "2025-01-06T05:04:21+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Added game over screen and out of bounds termination",
+          "First instance of flappy bird"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 797193,
+    "ASP.NET": 181725,
+    "ShaderLab": 109162,
+    "HLSL": 19973,
+    "JavaScript": 8355,
+    "CSS": 5185,
+    "Python": 3002,
+    "HTML": 2428
+  },
+  "total_commits": 154,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "NoahTsai0909/AudioClassifier",
+        "NoahTsai0909/Cat-Breed-Guesser"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3002,
+      "commit_count": 5,
+      "first_seen": "2023-09-25T23:14:48+00:00",
+      "last_seen": "2025-11-29T21:35:30+00:00",
+      "details": [
+        "AudioClassifier: Python: 644 bytes (100% of repo)",
+        "Cat-Breed-Guesser: Python: 2,358 bytes (31% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "NoahTsai0909/RealmBreakGame"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 797193,
+      "commit_count": 142,
+      "first_seen": "2025-12-07T03:22:04+00:00",
+      "last_seen": "2026-09-17T01:11:31+00:00",
+      "details": [
+        "RealmBreakGame: C#: 797,193 bytes (86% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "NoahTsai0909/Cat-Breed-Guesser",
+        "NoahTsai0909/Calorie-Clash"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9596577699246722,
+      "total_bytes": 8355,
+      "commit_count": 6,
+      "first_seen": "2025-11-26T21:03:38+00:00",
+      "last_seen": "2025-11-29T21:35:30+00:00",
+      "details": [
+        "Cat-Breed-Guesser: JavaScript: 2,337 bytes (31% of repo)",
+        "Calorie-Clash: JavaScript: 6,018 bytes (56% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "NoahTsai0909/Cat-Breed-Guesser",
+        "NoahTsai0909/Calorie-Clash"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7098670138565981,
+      "total_bytes": 7613,
+      "commit_count": 6,
+      "first_seen": "2025-11-26T21:03:38+00:00",
+      "last_seen": "2025-11-29T21:35:30+00:00",
+      "details": [
+        "Cat-Breed-Guesser: CSS: 1,853 bytes (24% of repo)",
+        "Cat-Breed-Guesser: HTML: 1,025 bytes (14% of repo)",
+        "Calorie-Clash: CSS: 3,332 bytes (31% of repo)",
+        "Calorie-Clash: HTML: 1,403 bytes (13% of repo)"
+      ]
+    },
+    {
+      "skill_id": "deep-learning",
+      "repos": [
+        "NoahTsai0909/AudioClassifier"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2023-09-25T23:14:48+00:00",
+      "last_seen": "2023-09-27T22:57:20+00:00",
+      "details": [
+        "AudioClassifier: 'tensorflow' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 154,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:35:29.287705+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,1380 @@
+{
+  "applicant_id": "applicant0090",
+  "login": "tangsansl66",
+  "html_url": "https://github.com/tangsansl66",
+  "created_at": "2026-03-06T02:19:35Z",
+  "account_age_days": 194,
+  "public_repos": 13,
+  "followers": 0,
+  "following": 44,
+  "repos": [
+    {
+      "name": "Smart-City-Traffic-Controller",
+      "full_name": "tangsansl66/Smart-City-Traffic-Controller",
+      "html_url": "https://github.com/tangsansl66/Smart-City-Traffic-Controller",
+      "description": "IoT data aggregation backend for synchronizing urban mobility networks.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-06T02:28:22Z",
+      "pushed_at": "2026-09-17T01:08:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 59148,
+      "default_branch": "main",
+      "license": "LGPL-2.1",
+      "topics": [],
+      "languages": {
+        "C#": 1863,
+        "Solidity": 1845,
+        "TypeScript": 1821,
+        "C++": 1780,
+        "Java": 1763,
+        "Python": 1652,
+        "Rust": 1551,
+        "Go": 1332,
+        "Shell": 1239,
+        "Ruby": 1237
+      },
+      "primary_language": "C#",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 660,
+      "readme_excerpt": "# Smart City Traffic Controller 🚀\n\n> **Enterprise-grade distributed system for: IoT**\n\n![License](https://img.shields.io/badge/license-LGPL--2.1-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nIoT data aggregation backend for synchronizing urban mobility networks. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of tangsansl66.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-16T11:02:40+00:00",
+        "last_at": "2026-09-17T01:08:20+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 164,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,863 bytes (12% of repo)",
+          "strength": 0.5158365976496923
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,821 bytes (11% of repo)",
+          "strength": 0.5132251445625816
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,780 bytes (11% of repo)",
+          "strength": 0.510675868929926
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,763 bytes (11% of repo)",
+          "strength": 0.5096188522041908
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,652 bytes (10% of repo)",
+          "strength": 0.5027171547596841
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,332 bytes (8% of repo)",
+          "strength": 0.48282036933407946
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,239 bytes (8% of repo)",
+          "strength": 0.4770378660697631
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11450,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Event-Sourcing-Message-Bus",
+      "full_name": "tangsansl66/Event-Sourcing-Message-Bus",
+      "html_url": "https://github.com/tangsansl66/Event-Sourcing-Message-Bus",
+      "description": "High-throughput, persistent event streaming platform based on Apache Kafka.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-06T02:25:47Z",
+      "pushed_at": "2026-09-16T23:29:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 23787,
+      "default_branch": "main",
+      "license": "BSL-1.0",
+      "topics": [],
+      "languages": {
+        "Solidity": 1965,
+        "Java": 1793,
+        "C#": 1773,
+        "Rust": 1731,
+        "C++": 1690,
+        "TypeScript": 1671,
+        "Python": 1449,
+        "Go": 1422,
+        "Shell": 1152,
+        "Ruby": 1150
+      },
+      "primary_language": "Solidity",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 673,
+      "readme_excerpt": "# Event Sourcing Message Bus 🚀\n\n> **Enterprise-grade distributed system for: High-throughput,**\n\n![License](https://img.shields.io/badge/license-BSL--1.0-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nHigh-throughput, persistent event streaming platform based on Apache Kafka. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of tangsansl66.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-16T10:44:10+00:00",
+        "last_at": "2026-09-16T23:29:05+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 200,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,793 bytes (11% of repo)",
+          "strength": 0.5135097493036211
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,773 bytes (11% of repo)",
+          "strength": 0.5122436059761966
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,690 bytes (11% of repo)",
+          "strength": 0.5069891111673842
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,671 bytes (11% of repo)",
+          "strength": 0.5057862750063308
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,449 bytes (9% of repo)",
+          "strength": 0.49173208407191693
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,422 bytes (9% of repo)",
+          "strength": 0.4900227905798937
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,152 bytes (7% of repo)",
+          "strength": 0.4729298556596607
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10950,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Payment-Gateway-Switch",
+      "full_name": "tangsansl66/Payment-Gateway-Switch",
+      "html_url": "https://github.com/tangsansl66/Payment-Gateway-Switch",
+      "description": "PCI-DSS compliant payment gateway router and multi-processor switch.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-06T02:23:07Z",
+      "pushed_at": "2026-09-16T21:09:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13259,
+      "default_branch": "main",
+      "license": "LGPL-2.1",
+      "topics": [],
+      "languages": {
+        "TypeScript": 1851,
+        "Solidity": 1845,
+        "Java": 1793,
+        "C#": 1713,
+        "Go": 1632,
+        "C++": 1630,
+        "Rust": 1581,
+        "Python": 1507,
+        "Shell": 1384,
+        "Ruby": 1266
+      },
+      "primary_language": "TypeScript",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 654,
+      "readme_excerpt": "# Payment Gateway Switch 🚀\n\n> **Enterprise-grade distributed system for: PCI-DSS**\n\n![License](https://img.shields.io/badge/license-LGPL--2.1-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nPCI-DSS compliant payment gateway router and multi-processor switch. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of tangsansl66.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-16T04:25:24+00:00",
+        "last_at": "2026-09-16T21:09:06+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 200,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,851 bytes (11% of repo)",
+          "strength": 0.5142451549191458
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,793 bytes (11% of repo)",
+          "strength": 0.5106653499567955
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,713 bytes (11% of repo)",
+          "strength": 0.5057276879397605
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,632 bytes (10% of repo)",
+          "strength": 0.5007283051475127
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,630 bytes (10% of repo)",
+          "strength": 0.5006048635970868
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,507 bytes (9% of repo)",
+          "strength": 0.49301320824589556
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,384 bytes (9% of repo)",
+          "strength": 0.4854215528947044
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11510,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Omni-Channel-Notification",
+      "full_name": "tangsansl66/Omni-Channel-Notification",
+      "html_url": "https://github.com/tangsansl66/Omni-Channel-Notification",
+      "description": "Unified microservice for routing SMS, Email, and Push notifications globally.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-06T02:26:34Z",
+      "pushed_at": "2026-09-16T15:40:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7205,
+      "default_branch": "main",
+      "license": "EPL-2.0",
+      "topics": [],
+      "languages": {
+        "Java": 2063,
+        "TypeScript": 2061,
+        "Solidity": 2025,
+        "C#": 1713,
+        "Python": 1710,
+        "C++": 1630,
+        "Shell": 1500,
+        "Rust": 1461,
+        "Go": 1452,
+        "Ruby": 1092
+      },
+      "primary_language": "Java",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 665,
+      "readme_excerpt": "# Omni Channel Notification 🚀\n\n> **Enterprise-grade distributed system for: Unified**\n\n![License](https://img.shields.io/badge/license-EPL--2.0-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nUnified microservice for routing SMS, Email, and Push notifications globally. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of tangsansl66.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-13T15:11:45+00:00",
+        "last_at": "2026-09-16T15:40:28+00:00",
+        "active_days": 4,
+        "span_days": 3,
+        "max_per_day": 129,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 2,063 bytes (12% of repo)",
+          "strength": 0.5234811755551565
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 2,061 bytes (12% of repo)",
+          "strength": 0.5233614652540851
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,713 bytes (10% of repo)",
+          "strength": 0.5025318728676603
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,710 bytes (10% of repo)",
+          "strength": 0.5023523074160532
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,630 bytes (10% of repo)",
+          "strength": 0.4975638953731969
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,500 bytes (9% of repo)",
+          "strength": 0.4897827258035554
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,452 bytes (9% of repo)",
+          "strength": 0.4869096785778416
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12129,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Realtime-WebSocket-Cluster",
+      "full_name": "tangsansl66/Realtime-WebSocket-Cluster",
+      "html_url": "https://github.com/tangsansl66/Realtime-WebSocket-Cluster",
+      "description": "Horizontally scalable WebSocket clustering solution using Redis Pub/Sub.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-06T02:31:07Z",
+      "pushed_at": "2026-09-16T19:57:08Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 2225,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [],
+      "languages": {
+        "Solidity": 2115,
+        "Rust": 1911,
+        "C++": 1810,
+        "Java": 1763,
+        "C#": 1683,
+        "TypeScript": 1641,
+        "Python": 1507,
+        "Go": 1392,
+        "Shell": 1355,
+        "Ruby": 1237
+      },
+      "primary_language": "Solidity",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 661,
+      "readme_excerpt": "# Realtime WebSocket Cluster 🚀\n\n> **Enterprise-grade distributed system for: Horizontally**\n\n![License](https://img.shields.io/badge/license-MIT-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nHorizontally scalable WebSocket clustering solution using Redis Pub/Sub. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of tangsansl66.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-11T19:30:50+00:00",
+        "last_at": "2026-09-16T19:57:07+00:00",
+        "active_days": 5,
+        "span_days": 5,
+        "max_per_day": 65,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,810 bytes (11% of repo)",
+          "strength": 0.5102717192640429
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,763 bytes (11% of repo)",
+          "strength": 0.507408309979286
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,683 bytes (10% of repo)",
+          "strength": 0.502534421835019
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,641 bytes (10% of repo)",
+          "strength": 0.4999756305592787
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,507 bytes (9% of repo)",
+          "strength": 0.4918118679176313
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,392 bytes (8% of repo)",
+          "strength": 0.48480565371024736
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,355 bytes (8% of repo)",
+          "strength": 0.48255148044352386
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "redis",
+          "source": "repo_name",
+          "detail": "'redis' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "websockets",
+          "source": "repo_name",
+          "detail": "'websocket' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11151,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Solidity": 9795,
+    "Java": 9175,
+    "TypeScript": 9045,
+    "C#": 8745,
+    "C++": 8540,
+    "Rust": 8235,
+    "Python": 7825,
+    "Go": 7230,
+    "Shell": 6630,
+    "Ruby": 5982
+  },
+  "total_commits": 1000,
+  "skill_evidence": [
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Event-Sourcing-Message-Bus: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Payment-Gateway-Switch: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Omni-Channel-Notification: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Realtime-WebSocket-Cluster: GitHub Actions workflow (.github/workflows/ci-build.yml)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5234811755551565,
+      "total_bytes": 9175,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: Java: 1,763 bytes (11% of repo)",
+        "Event-Sourcing-Message-Bus: Java: 1,793 bytes (11% of repo)",
+        "Payment-Gateway-Switch: Java: 1,793 bytes (11% of repo)",
+        "Omni-Channel-Notification: Java: 2,063 bytes (12% of repo)",
+        "Realtime-WebSocket-Cluster: Java: 1,763 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5233614652540851,
+      "total_bytes": 9045,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: TypeScript: 1,821 bytes (11% of repo)",
+        "Event-Sourcing-Message-Bus: TypeScript: 1,671 bytes (11% of repo)",
+        "Payment-Gateway-Switch: TypeScript: 1,851 bytes (11% of repo)",
+        "Omni-Channel-Notification: TypeScript: 2,061 bytes (12% of repo)",
+        "Realtime-WebSocket-Cluster: TypeScript: 1,641 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5158365976496923,
+      "total_bytes": 8745,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: C#: 1,863 bytes (12% of repo)",
+        "Event-Sourcing-Message-Bus: C#: 1,773 bytes (11% of repo)",
+        "Payment-Gateway-Switch: C#: 1,713 bytes (11% of repo)",
+        "Omni-Channel-Notification: C#: 1,713 bytes (10% of repo)",
+        "Realtime-WebSocket-Cluster: C#: 1,683 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.510675868929926,
+      "total_bytes": 8540,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: C++: 1,780 bytes (11% of repo)",
+        "Event-Sourcing-Message-Bus: C++: 1,690 bytes (11% of repo)",
+        "Payment-Gateway-Switch: C++: 1,630 bytes (10% of repo)",
+        "Omni-Channel-Notification: C++: 1,630 bytes (10% of repo)",
+        "Realtime-WebSocket-Cluster: C++: 1,810 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5027171547596841,
+      "total_bytes": 7825,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: Python: 1,652 bytes (10% of repo)",
+        "Event-Sourcing-Message-Bus: Python: 1,449 bytes (9% of repo)",
+        "Payment-Gateway-Switch: Python: 1,507 bytes (9% of repo)",
+        "Omni-Channel-Notification: Python: 1,710 bytes (10% of repo)",
+        "Realtime-WebSocket-Cluster: Python: 1,507 bytes (9% of repo)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5007283051475127,
+      "total_bytes": 7230,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: Go: 1,332 bytes (8% of repo)",
+        "Event-Sourcing-Message-Bus: Go: 1,422 bytes (9% of repo)",
+        "Payment-Gateway-Switch: Go: 1,632 bytes (10% of repo)",
+        "Omni-Channel-Notification: Go: 1,452 bytes (9% of repo)",
+        "Realtime-WebSocket-Cluster: Go: 1,392 bytes (8% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "tangsansl66/Smart-City-Traffic-Controller",
+        "tangsansl66/Event-Sourcing-Message-Bus",
+        "tangsansl66/Payment-Gateway-Switch",
+        "tangsansl66/Omni-Channel-Notification",
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4897827258035554,
+      "total_bytes": 6630,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-17T01:08:20+00:00",
+      "details": [
+        "Smart-City-Traffic-Controller: Shell: 1,239 bytes (8% of repo)",
+        "Event-Sourcing-Message-Bus: Shell: 1,152 bytes (7% of repo)",
+        "Payment-Gateway-Switch: Shell: 1,384 bytes (9% of repo)",
+        "Omni-Channel-Notification: Shell: 1,500 bytes (9% of repo)",
+        "Realtime-WebSocket-Cluster: Shell: 1,355 bytes (8% of repo)"
+      ]
+    },
+    {
+      "skill_id": "redis",
+      "repos": [
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-16T19:57:07+00:00",
+      "details": [
+        "Realtime-WebSocket-Cluster: 'redis' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "websockets",
+      "repos": [
+        "tangsansl66/Realtime-WebSocket-Cluster"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-11T19:30:50+00:00",
+      "last_seen": "2026-09-16T19:57:07+00:00",
+      "details": [
+        "Realtime-WebSocket-Cluster: 'websocket' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 1000,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 1,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 1 < 3"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:34:47.122477+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 1 < 3"
+  ]
+}

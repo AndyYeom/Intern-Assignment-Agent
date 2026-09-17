@@ -1,0 +1,190 @@
+{
+  "applicant_id": "applicant0127",
+  "github_login": "Frankbell84",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0127.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Frankbell84/KeyHollow"
+      ],
+      "repos": [
+        {
+          "repo": "Frankbell84/KeyHollow",
+          "html_url": "https://github.com/Frankbell84/KeyHollow",
+          "level": 3,
+          "reasons": [
+            "intermediate: 174 commits; has_ci, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/ios-build.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Frankbell84/PA-Search",
+        "https://github.com/Frankbell84/Cash-To-Close-Calculator",
+        "https://github.com/Frankbell84/Home-Buyer-Plus",
+        "https://github.com/Frankbell84/training-quiz"
+      ],
+      "repos": [
+        {
+          "repo": "Frankbell84/PA-Search",
+          "html_url": "https://github.com/Frankbell84/PA-Search",
+          "level": 2,
+          "reasons": [
+            "intermediate: 50 commits; multi_month_span, many_active_days",
+            "HTML: 26,777 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Frankbell84/Cash-To-Close-Calculator",
+          "html_url": "https://github.com/Frankbell84/Cash-To-Close-Calculator",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "HTML: 11,639 bytes (40% of repo)"
+          ]
+        },
+        {
+          "repo": "Frankbell84/Home-Buyer-Plus",
+          "html_url": "https://github.com/Frankbell84/Home-Buyer-Plus",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "HTML: 14,900 bytes (68% of repo)",
+            "CSS: 2,304 bytes (10% of repo)"
+          ]
+        },
+        {
+          "repo": "Frankbell84/training-quiz",
+          "html_url": "https://github.com/Frankbell84/training-quiz",
+          "level": 1,
+          "reasons": [
+            "entry: 54 commits, independent-work signals: none",
+            "HTML: 64,528 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Frankbell84/Cash-To-Close-Calculator",
+        "https://github.com/Frankbell84/Home-Buyer-Plus"
+      ],
+      "repos": [
+        {
+          "repo": "Frankbell84/Cash-To-Close-Calculator",
+          "html_url": "https://github.com/Frankbell84/Cash-To-Close-Calculator",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "JavaScript: 14,411 bytes (50% of repo)"
+          ]
+        },
+        {
+          "repo": "Frankbell84/Home-Buyer-Plus",
+          "html_url": "https://github.com/Frankbell84/Home-Buyer-Plus",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 4,822 bytes (22% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Frankbell84/KeyHollow"
+      ],
+      "repos": [
+        {
+          "repo": "Frankbell84/KeyHollow",
+          "html_url": "https://github.com/Frankbell84/KeyHollow",
+          "level": 3,
+          "reasons": [
+            "intermediate: 174 commits; has_ci, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "Swift: 1,312,846 bytes (77% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Frankbell84/KeyHollow"
+      ],
+      "repos": [
+        {
+          "repo": "Frankbell84/KeyHollow",
+          "html_url": "https://github.com/Frankbell84/KeyHollow",
+          "level": 3,
+          "reasons": [
+            "intermediate: 174 commits; has_ci, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "Python: 376,185 bytes (22% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Frankbell84/KeyHollow"
+      ],
+      "repos": [
+        {
+          "repo": "Frankbell84/KeyHollow",
+          "html_url": "https://github.com/Frankbell84/KeyHollow",
+          "level": 3,
+          "reasons": [
+            "intermediate: 174 commits; has_ci, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "docs directory (docs/ADDON_RELEASE_POLICY.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 5
+  }
+}

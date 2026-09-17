@@ -1,0 +1,1359 @@
+{
+  "applicant_id": "applicant0119",
+  "login": "Iconia7",
+  "html_url": "https://github.com/Iconia7",
+  "created_at": "2023-02-08T06:37:20Z",
+  "account_age_days": 1316,
+  "public_repos": 49,
+  "followers": 10,
+  "following": 32,
+  "repos": [
+    {
+      "name": "Bingwa-Sokoni-Applicaton",
+      "full_name": "Iconia7/Bingwa-Sokoni-Applicaton",
+      "html_url": "https://github.com/Iconia7/Bingwa-Sokoni-Applicaton",
+      "description": "Automate your Bingwa Sokoni services ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-10T15:58:38Z",
+      "pushed_at": "2026-04-20T19:42:54Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 54459,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 28412,
+        "CSS": 27151,
+        "JavaScript": 7787,
+        "PowerShell": 877
+      },
+      "primary_language": "HTML",
+      "file_count": 10,
+      "top_level_paths": [
+        "README.md",
+        "landing"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3396,
+      "readme_excerpt": "# Bingwa Sokoni Automation App 🚀\n\nAutomate your **Bingwa Sokoni** services for seamless and efficient management of your offers. This application streamlines the process of fulfilling digital service requests via M-Pesa notifications, ensuring immediate delivery and a superior customer experience.\n\n---\n\n## 🚀 Download Latest Release\n\nTo get started, download the latest version of the application from the **Releases** section.\n\n[**Download Latest APK Release**](https://github.com/Iconia7/Bingwa-Sokoni-Applicaton/releases/download/v2.1/Bingwa.v2.1.1.apk)\n\n> [!NOTE]\n> Since this application interacts with USSD and SMS for automation, your Android system may flag it as an \"Unknown App\". Please allow **Installation from Unknown Sources** and grant the necessary permissions upon first launch.\n\n---\n\n## ✨ Key Features\n\n- **Automated Fulfillment**: Instantly processes M-Pesa notifications to deliver data, SMS, and minutes.\n- **Secure OTP Login**: End-to-end encrypted authentication via SMS OTP for account protection.\n- **Manual USSD Control**: Execute custom USSD strings directly from the dashboard for troubleshooting.\n- **Online Shop Management**: Manage your public storefront link and user",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 21,
+        "first_at": "2025-08-10T15:58:38+00:00",
+        "last_at": "2026-04-20T19:42:27+00:00",
+        "active_days": 6,
+        "span_days": 253,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.524,
+        "messages_sample": [
+          "feat: add landing page with SEO configuration, deployment scripts, and Nginx setup",
+          "feat: add landing page with feature showcase and download link for Bingwa Sokoni",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "ready",
+          "Merge branch 'main' of https://github.com/Iconia7/Bingwa-Sokoni-Applicaton",
+          "update",
+          "readme",
+          "apk",
+          "version 2.0",
+          "apk",
+          "Update README.md",
+          "Instructions",
+          "App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 28,412 bytes (44% of repo)",
+          "strength": 0.8423684743176546
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 27,151 bytes (42% of repo)",
+          "strength": 0.8227349868435394
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 7,787 bytes (12% of repo)",
+          "strength": 0.5212418453298457
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 64227,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "nexora_website",
+      "full_name": "Iconia7/nexora_website",
+      "html_url": "https://github.com/Iconia7/nexora_website",
+      "description": null,
+      "homepage": "https://m-bizna-web.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-30T20:54:29Z",
+      "pushed_at": "2026-08-29T08:08:49Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 62944,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 321178,
+        "HTML": 5896,
+        "CSS": 873
+      },
+      "primary_language": "JavaScript",
+      "file_count": 84,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".npmrc",
+        "README.md",
+        "eslint.config.js",
+        "index.html",
+        "migrateProducts.js",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "vercel.json",
+        "vite.config.js"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@emailjs/browser",
+          "@eslint/js",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "axios",
+          "date-fns",
+          "dotenv",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "framer-motion",
+          "globals",
+          "jspdf",
+          "lucide-react",
+          "postcss",
+          "react",
+          "react-dom",
+          "react-ga4",
+          "react-google-recaptcha",
+          "react-helmet-async",
+          "react-hot-toast",
+          "react-paystack",
+          "react-router-dom",
+          "recharts",
+          "tailwindcss",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4908,
+      "readme_excerpt": "# 🔷 Nexora Creative Solutions | Official Agency Website\n\n![Nexora Banner](public/og-image.jpg)\n\n[![Live Site](https://img.shields.io/badge/Live-View_Site-A7002A?style=for-the-badge&logo=vercel)](https://nexoracreatives.co.ke)\n[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)\n[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)\n[![M-Pesa](https://img.shields.io/badge/M--Pesa-Daraja_API-43A047?style=for-the-badge&logo=safaricom&logoColor=white)](https://developer.safaricom.co.ke/)\n\n> **Transforming Ideas into Reality.** > The official web portal for Nexora Creative Solutions, a tech agency based in Thika, Kenya.\n\n## 📖 About The Project\n\nThis repository contains the source code for **Nexora Creative Solutions**, a modern digital agency website built to showcase our services in Web Design, Mobile App Development, and Digital Branding.\n\nUnlike standard portfolio sites, this project includes a **",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 70,
+        "first_at": "2025-12-30T16:28:25+00:00",
+        "last_at": "2026-08-29T08:08:42+00:00",
+        "active_days": 14,
+        "span_days": 241,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.043,
+        "messages_sample": [
+          "feat: implement full application pages structure and SEO configuration",
+          "feat: implement project details page with dynamic fetching, gallery view, and inquiry form with reCAPTCHA integration",
+          "feat: implement project details page with dynamic fetching, gallery showcase, and email inquiry form",
+          "feat: add project details page with dynamic fetching and integrated inquiry contact form",
+          "feat: implement Projects, Contact, and ProjectDetails pages with integrated GitHub API and contact form functionality",
+          "feat: scaffold project pages and implement detailed project view with inquiry form",
+          "feat: implement About page with team and stats data fetching and animations",
+          "feat: add app-ads.txt for Google AdSense verification",
+          "feat: add API service layer and implement dynamic service details page with contact form integration",
+          "feat: implement API service layer and add automated GitHub deployment workflow",
+          "feat: add About and Home page components with integrated API data fetching and animations",
+          "feat: initialize project structure with new pages, components, and API integration",
+          "fixed",
+          "fixed merge conflict",
+          "verify",
+          "added index.js helper",
+          "fixed access",
+          "upgrade",
+          "Testing automatic deployment",
+          "team"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 39
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 321,178 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,896 bytes (2% of repo)",
+          "strength": 0.41797851482099246
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 327947,
+        "strong_skills": [
+          "cicd",
+          "data-viz",
+          "javascript",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "elora-decor",
+      "full_name": "Iconia7/elora-decor",
+      "html_url": "https://github.com/Iconia7/elora-decor",
+      "description": null,
+      "homepage": "https://elora-decor.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-14T19:54:00Z",
+      "pushed_at": "2026-01-16T18:30:22Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5909,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 21507,
+        "CSS": 628,
+        "HTML": 526
+      },
+      "primary_language": "JavaScript",
+      "file_count": 18,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "README.md",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "vite.config.js"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@tailwindcss/postcss",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "framer-motion",
+          "globals",
+          "lucide-react",
+          "postcss",
+          "react",
+          "react-dom",
+          "react-helmet-async",
+          "tailwindcss",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1157,
+      "readme_excerpt": "# React + Vite\n\nThis template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.\n\nCurrently, two official plugins are available:\n\n- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh\n- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh\n\n## React Compiler\n\nThe React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).\n\n## Expanding the ESLint configuration\n\nIf you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2026-01-14T19:56:05+00:00",
+        "last_at": "2026-01-16T18:30:16+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Official Launch: Elora Decor Website",
+          "Official Launch: Elora Decor Website",
+          "Official Launch: Elora Decor Website",
+          "Launch: Elora Décor Styling Moments with Grace",
+          "Update: Blush Nude theme, Business Plan sync, and CI/CD workflow",
+          "vps",
+          "decorations",
+          "icon",
+          "elora",
+          "decor"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 21,507 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 22661,
+        "strong_skills": [
+          "cicd",
+          "javascript",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "NexoraChai",
+      "full_name": "Iconia7/NexoraChai",
+      "html_url": "https://github.com/Iconia7/NexoraChai",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-13T21:43:15Z",
+      "pushed_at": "2026-06-28T17:59:56Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5533,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 737863,
+        "JavaScript": 4368,
+        "CSS": 2958
+      },
+      "primary_language": "TypeScript",
+      "file_count": 83,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "axios",
+          "clsx",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "framer-motion",
+          "lucide-react",
+          "next",
+          "react",
+          "react-dom",
+          "tailwind-merge",
+          "tailwindcss",
+          "typescript",
+          "zustand"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1450,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 42,
+        "first_at": "2026-05-12T15:48:14+00:00",
+        "last_at": "2026-06-28T17:59:43+00:00",
+        "active_days": 8,
+        "span_days": 47,
+        "max_per_day": 13,
+        "low_effort_message_ratio": 0.024,
+        "messages_sample": [
+          "feat: add fee breakdown page with platform and payment gateway details",
+          "feat: add fee breakdown page with global brand styles",
+          "feat: implement authentication flow pages including login, register, forgot-password, reset-password, and email verification",
+          "feat: scaffold frontend dashboard UI components and authentication flow pages",
+          "feat: implement frontend application shell, routing, and core pages including creators, dashboard, and authentication flows",
+          "feat: initialize frontend project structure with modular checkout components, dashboard pages, and core layout styling",
+          "feat: scaffold dashboard architecture, sidebar, and core page layouts for Nexora Chai platform",
+          "feat: implement dashboard header with search and notifications, and add scaffold for setup, explore, and home pages",
+          "feat: implement creator dashboard and earnings page with payout management functionality",
+          "feat: implement embeddable checkout page and update landing page with structured data",
+          "feat: add dashboard settings, checkout modal, and public profile page structure",
+          "feat: implement user dashboard settings page with profile management and Paystack payout configuration",
+          "feat: implement creator dashboard settings page with profile, security, and bank payout configuration",
+          "feat: implement dashboard settings page with profile management and Paystack payout configuration",
+          "feat: implement CheckoutModal component with M-Pesa and card payment integration",
+          "feat: add usePaystack hook for initializing payment transactions",
+          "feat: implement CheckoutModal component for M-Pesa and card payment processing",
+          "feat: initialize global CSS with Tailwind configuration and custom design system tokens",
+          "feat: implement dashboard layout with navigation, analytics, and transaction summaries",
+          "feat: implement complete frontend application structure and creator onboarding flow"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 61
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 737,863 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,368 bytes (1% of repo)",
+          "strength": 0.40586160021149
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,958 bytes (0% of repo)",
+          "strength": 0.4039694627805832
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "state-management",
+          "source": "manifest",
+          "detail": "zustand in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 745189,
+        "strong_skills": [
+          "nextjs",
+          "react",
+          "state-management",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Dita-app",
+      "full_name": "Iconia7/Dita-app",
+      "html_url": "https://github.com/Iconia7/Dita-app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-27T16:16:58Z",
+      "pushed_at": "2026-06-05T06:39:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7089,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 926345,
+        "HTML": 142585,
+        "C++": 28357,
+        "CMake": 20090,
+        "Swift": 6676,
+        "Kotlin": 2492,
+        "C": 1425,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 279,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "flutter_launcher_icons.yaml",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "screenshots",
+        "shorebird.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 10194,
+      "readme_excerpt": "# 🎓 DITA App - The Ultimate Student Companion\n\n[![Version](https://img.shields.io/badge/version-15.4.26%2B55-blue.svg)]()\n\n![DITA App Banner](assets/banner.png)\n\nDITA App is the official mobile application for the Daystar Information Technology Association (DITA). It serves as a comprehensive digital companion for students, integrating academic tools, social features, gamification, and campus services into a single, polished platform.\n\nDesigned with a **Midnight Blue & Gold** aesthetic, the app features a robust **Dark Mode**, **Offline Capabilities**, **AI Assistant** powered by Gemini 2.5, and an **Achievement System** that rewards engagement.\n\n## ✨ Key Features\n\n### 🧠 Intelligent AI Assistant\n\n- **DITA AI**: Context-aware chatbot (Gemini 2.5 Flash) with deep knowledge of:\n  - Your personal exam schedule and class timetable\n  - Athi River & Nairobi campus locations (ICT Building, Hope Center, etc.)\n  - All app features and how to use them\n- **Smart Answers**: Ask \"When is my next exam?\" or \"Where is the nursing block?\" and get instant, personalized responses\n- **Image Upload**: Attach images for help with diagrams or assignments\n\n### 📅 Academic Management\n\n- **Exam Timetable**: \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 58,
+        "first_at": "2025-11-27T16:15:35+00:00",
+        "last_at": "2026-06-05T06:39:13+00:00",
+        "active_days": 34,
+        "span_days": 189,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.052,
+        "messages_sample": [
+          "feat: add android root build configuration with custom build directory and dependency overrides",
+          "feat: implement forgot password modal and study group chat interface",
+          "feat: add PortalImportScreen to enable timetable data scraping from web portal",
+          "feat: implement core app modules including home dashboard, study tools, authentication screens, and API service integration",
+          "feat: implement home widget integration with supporting data models and iOS configuration",
+          "feat: implement portal timetable import via WebView and data persistence layer",
+          "feat: implement DitaToast utility and add registration screen with form validation",
+          "feat: add reminder settings screen for configuring class and task lead times",
+          "feat: implement core app screens, navigation, and live class monitoring functionality",
+          "docs: update README documentation and bump project dependencies",
+          "feat: implement exam timetable screen with calendar integration, study plan generation, and automated notifications",
+          "feat: implement API service and data layer for timetable management",
+          "feat: implement offline-first timetable repository, provider, and exam schedule screen with calendar integration",
+          "feat: implement M-Pesa payment sheet and dynamic promotional popup dialog",
+          "feat: implement state management with Riverpod, offline storage with Hive, and background widget updates via Workmanager",
+          "feat: implement exam timetable screen with AI study plan generation and notification scheduling",
+          "bug fixed",
+          "ios ready",
+          "notification",
+          "update"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 139
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 926,345 bytes (82% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 142,585 bytes (13% of repo)",
+          "strength": 0.526404245359962
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 28,357 bytes (3% of repo)",
+          "strength": 0.4251390061063397
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 6,676 bytes (1% of repo)",
+          "strength": 0.40591839774186
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 2,492 bytes (0% of repo)",
+          "strength": 0.40220920419004125
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (0% of repo)",
+          "strength": 0.40126328891284463
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1107918,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 926345,
+    "TypeScript": 737863,
+    "JavaScript": 354840,
+    "HTML": 177419,
+    "CSS": 31610,
+    "C++": 28357,
+    "CMake": 20090,
+    "Swift": 6676,
+    "Kotlin": 2492,
+    "C": 1425,
+    "PowerShell": 877,
+    "Objective-C": 38
+  },
+  "total_commits": 201,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Iconia7/Bingwa-Sokoni-Applicaton",
+        "Iconia7/nexora_website",
+        "Iconia7/elora-decor",
+        "Iconia7/NexoraChai"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 354840,
+      "commit_count": 143,
+      "first_seen": "2025-08-10T15:58:38+00:00",
+      "last_seen": "2026-08-29T08:08:42+00:00",
+      "details": [
+        "Bingwa-Sokoni-Applicaton: JavaScript: 7,787 bytes (12% of repo)",
+        "nexora_website: JavaScript: 321,178 bytes (98% of repo)",
+        "elora-decor: JavaScript: 21,507 bytes (95% of repo)",
+        "NexoraChai: JavaScript: 4,368 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Iconia7/NexoraChai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 737863,
+      "commit_count": 42,
+      "first_seen": "2026-05-12T15:48:14+00:00",
+      "last_seen": "2026-06-28T17:59:43+00:00",
+      "details": [
+        "NexoraChai: TypeScript: 737,863 bytes (99% of repo)",
+        "NexoraChai: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "Iconia7/Dita-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 926345,
+      "commit_count": 58,
+      "first_seen": "2025-11-27T16:15:35+00:00",
+      "last_seen": "2026-06-05T06:39:13+00:00",
+      "details": [
+        "Dita-app: Dart: 926,345 bytes (82% of repo)",
+        "Dita-app: flutter project (pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Iconia7/nexora_website",
+        "Iconia7/elora-decor",
+        "Iconia7/NexoraChai"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 122,
+      "first_seen": "2025-12-30T16:28:25+00:00",
+      "last_seen": "2026-08-29T08:08:42+00:00",
+      "details": [
+        "nexora_website: tailwind config (tailwind.config.js)",
+        "nexora_website: tailwindcss in package.json",
+        "elora-decor: tailwind config (tailwind.config.js)",
+        "elora-decor: tailwindcss in package.json",
+        "NexoraChai: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Iconia7/nexora_website",
+        "Iconia7/elora-decor",
+        "Iconia7/NexoraChai"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 122,
+      "first_seen": "2025-12-30T16:28:25+00:00",
+      "last_seen": "2026-08-29T08:08:42+00:00",
+      "details": [
+        "nexora_website: @types/react in package.json",
+        "elora-decor: @types/react in package.json",
+        "NexoraChai: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Iconia7/NexoraChai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 42,
+      "first_seen": "2026-05-12T15:48:14+00:00",
+      "last_seen": "2026-06-28T17:59:43+00:00",
+      "details": [
+        "NexoraChai: next config (next.config.ts)",
+        "NexoraChai: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "Iconia7/nexora_website"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 70,
+      "first_seen": "2025-12-30T16:28:25+00:00",
+      "last_seen": "2026-08-29T08:08:42+00:00",
+      "details": [
+        "nexora_website: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "state-management",
+      "repos": [
+        "Iconia7/NexoraChai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 42,
+      "first_seen": "2026-05-12T15:48:14+00:00",
+      "last_seen": "2026-06-28T17:59:43+00:00",
+      "details": [
+        "NexoraChai: zustand in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Iconia7/Bingwa-Sokoni-Applicaton",
+        "Iconia7/nexora_website",
+        "Iconia7/NexoraChai",
+        "Iconia7/Dita-app"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8423684743176546,
+      "total_bytes": 207002,
+      "commit_count": 191,
+      "first_seen": "2025-08-10T15:58:38+00:00",
+      "last_seen": "2026-08-29T08:08:42+00:00",
+      "details": [
+        "Bingwa-Sokoni-Applicaton: HTML: 28,412 bytes (44% of repo)",
+        "Bingwa-Sokoni-Applicaton: CSS: 27,151 bytes (42% of repo)",
+        "nexora_website: HTML: 5,896 bytes (2% of repo)",
+        "NexoraChai: CSS: 2,958 bytes (0% of repo)",
+        "Dita-app: HTML: 142,585 bytes (13% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Iconia7/nexora_website",
+        "Iconia7/elora-decor"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 80,
+      "first_seen": "2025-12-30T16:28:25+00:00",
+      "last_seen": "2026-08-29T08:08:42+00:00",
+      "details": [
+        "nexora_website: GitHub Actions workflow (.github/workflows/deploy.yml)",
+        "elora-decor: GitHub Actions workflow (.github/workflows/deploy.yml)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Iconia7/Dita-app"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 9168,
+      "commit_count": 58,
+      "first_seen": "2025-11-27T16:15:35+00:00",
+      "last_seen": "2026-06-05T06:39:13+00:00",
+      "details": [
+        "Dita-app: Swift: 6,676 bytes (1% of repo)",
+        "Dita-app: Kotlin: 2,492 bytes (0% of repo)",
+        "Dita-app: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Iconia7/Dita-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4251390061063397,
+      "total_bytes": 29782,
+      "commit_count": 58,
+      "first_seen": "2025-11-27T16:15:35+00:00",
+      "last_seen": "2026-06-05T06:39:13+00:00",
+      "details": [
+        "Dita-app: C++: 28,357 bytes (3% of repo)",
+        "Dita-app: C: 1,425 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 201,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:30:41.786646+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}
