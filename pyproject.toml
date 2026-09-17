@@ -6,4 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "langchain>=1.4.0",
+    "pandas>=3.0.5",
+    "scipy>=1.18.1",
+    "streamlit>=1.64.0",
 ]
