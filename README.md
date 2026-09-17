@@ -10,6 +10,25 @@ Install the locked project dependencies with `uv`:
 uv sync
 ```
 
+Create a `.env` file at the repository root with the gateway settings:
+
+```dotenv
+LLM_GATEWAY_URL=https://api.softwaresystems.app
+LLM_GATEWAY_API_KEY=replace-with-your-provided-key
+LLM_MODEL=global.anthropic.claude-sonnet-4-5-20250929-v1:0
+```
+
+The gateway authenticates using the `X-API-Key` header, not AWS credentials. Missing values raise a clear configuration error before the model is invoked.
+
+## Applicant profile workflow
+
+The profile agent uses a deterministic two-node LangGraph workflow:
+
+1. `extract_documents` validates the résumé PDF, converts it with the existing Docling extractor, and reads the optional `.pdf`, `.md`, or `.txt` portfolio.
+2. `evaluate_applicant` builds the prompt, calls the Ollama-compatible gateway, validates the JSON response with Pydantic, and retries only on malformed output or transient gateway failures.
+
+Scores come from self-reported résumé and portfolio content only. They are never independent verification.
+
 ## Extract a résumé
 
 ```powershell
@@ -17,6 +36,32 @@ uv run python -m src.profile_agent.pdf_extractor data/sample_cv.pdf --output out
 ```
 
 The command prints the input filename, extracted character count, output path, and a 500-character Markdown preview.
+
+## Evaluate an applicant profile
+
+With a portfolio:
+
+```powershell
+uv run python -m src.profile_agent.profile_graph data/sample_cv.pdf --applicant-id APP-001 --portfolio data/sample_portfolio.pdf --ocr --output output/applicant-profile.json
+```
+
+Without a portfolio:
+
+```powershell
+uv run python -m src.profile_agent.profile_graph data/sample_cv.pdf --applicant-id APP-001 --output output/applicant-profile.json
+```
+
+When `--output` is omitted, the JSON is written to stdout as machine-readable output. Progress and errors are sent to stderr, while stdout remains valid JSON.
+
+Supported portfolio formats are `.pdf`, `.md`, and `.txt`. Unsupported extensions are rejected before the LLM is called.
+
+Large extracted résumés or portfolios may trigger a gateway request-size rejection. The code raises a clear error instead of silently truncating content, because silent truncation can distort proficiency scores.
+
+## Troubleshooting
+
+- Missing gateway configuration: ensure `.env` contains `LLM_GATEWAY_URL`, `LLM_GATEWAY_API_KEY`, and `LLM_MODEL`.
+- Authentication failures: verify the gateway key is valid and that the request includes the `X-API-Key` header.
+- Invalid JSON responses: the profile agent retries a bounded number of correction passes, then raises an `ApplicantEvaluationError` if the output still fails Pydantic validation.
 
 ## Tests
 
