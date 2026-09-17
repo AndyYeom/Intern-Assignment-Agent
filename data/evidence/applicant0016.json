@@ -1,0 +1,299 @@
+{
+  "applicant_id": "applicant0016",
+  "github_login": "George2f",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0016.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/George2f/september-testing"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/september-testing",
+          "html_url": "https://github.com/George2f/september-testing",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "GitHub Actions workflow (.github/workflows/version-bump.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/George2f/dumbest-graph-app"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/dumbest-graph-app",
+          "html_url": "https://github.com/George2f/dumbest-graph-app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 62 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "database migrations (dga-client/prisma/migrations/0_init/down.sql)",
+            "prisma in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/George2f/dumbest-graph-app"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/dumbest-graph-app",
+          "html_url": "https://github.com/George2f/dumbest-graph-app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 62 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "@types/express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/George2f/dumbest-graph-app",
+        "https://github.com/George2f/omega-test"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/dumbest-graph-app",
+          "html_url": "https://github.com/George2f/dumbest-graph-app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 62 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "George2f/omega-test",
+          "html_url": "https://github.com/George2f/omega-test",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: none",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/George2f/dumbest-graph-app"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/dumbest-graph-app",
+          "html_url": "https://github.com/George2f/dumbest-graph-app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 62 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "SQL file (dga-client/prisma/migrations/0_init/down.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/George2f/dumbest-graph-app",
+        "https://github.com/George2f/bpm-light",
+        "https://github.com/George2f/omega-test"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/dumbest-graph-app",
+          "html_url": "https://github.com/George2f/dumbest-graph-app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 62 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "tailwind config (dga-client/tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "George2f/bpm-light",
+          "html_url": "https://github.com/George2f/bpm-light",
+          "level": 1,
+          "reasons": [
+            "entry: 7 commits, independent-work signals: none",
+            "tailwind config (bpm-react/tailwind.config.js)"
+          ]
+        },
+        {
+          "repo": "George2f/omega-test",
+          "html_url": "https://github.com/George2f/omega-test",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: none",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/George2f/dumbest-graph-app",
+        "https://github.com/George2f/bpm-light",
+        "https://github.com/George2f/omega-test",
+        "https://github.com/George2f/september-testing"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/dumbest-graph-app",
+          "html_url": "https://github.com/George2f/dumbest-graph-app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 62 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "TypeScript: 169,650 bytes (95% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "George2f/bpm-light",
+          "html_url": "https://github.com/George2f/bpm-light",
+          "level": 1,
+          "reasons": [
+            "entry: 7 commits, independent-work signals: none",
+            "TypeScript: 25,811 bytes (58% of repo)"
+          ]
+        },
+        {
+          "repo": "George2f/omega-test",
+          "html_url": "https://github.com/George2f/omega-test",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: none",
+            "TypeScript: 56,465 bytes (81% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "George2f/september-testing",
+          "html_url": "https://github.com/George2f/september-testing",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 31,447 bytes (83% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/George2f/september-testing"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/september-testing",
+          "html_url": "https://github.com/George2f/september-testing",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test file (septesting/src/App.test.tsx)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "vue",
+      "claimed_level": 3,
+      "status": "conflicting",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/George2f/bpm-light"
+      ],
+      "repos": [
+        {
+          "repo": "George2f/bpm-light",
+          "html_url": "https://github.com/George2f/bpm-light",
+          "level": 1,
+          "reasons": [
+            "entry: 7 commits, independent-work signals: none",
+            "Vue: 15,756 bytes (36% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Advanced; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "html-css",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/George2f/september-testing"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/George2f/omega-test"
+      ]
+    }
+  ],
+  "status_counts": {
+    "conflicting": 1,
+    "verified": 8
+  }
+}

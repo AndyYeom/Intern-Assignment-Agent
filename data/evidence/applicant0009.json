@@ -1,0 +1,452 @@
+{
+  "applicant_id": "applicant0009",
+  "github_login": "thiagopicorelli",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0009.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "database migrations (news/migrations/0001_initial.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "django",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "django in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/project-solar-system"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/project-solar-system",
+          "html_url": "https://github.com/thiagopicorelli/project-solar-system",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: documented",
+            "CSS: 1,933 bytes (18% of repo)",
+            "HTML: 1,721 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "integration-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/project-meme-generator",
+        "https://github.com/thiagopicorelli/project-starwars-planets-search",
+        "https://github.com/thiagopicorelli/raizes-do-nordeste"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/project-meme-generator",
+          "html_url": "https://github.com/thiagopicorelli/project-meme-generator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; has_tests, documented",
+            "e2e suite (cypress/fixtures/meme.jpeg)",
+            "cypress in package.json"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/project-starwars-planets-search",
+          "html_url": "https://github.com/thiagopicorelli/project-starwars-planets-search",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; has_tests, documented",
+            "e2e suite (cypress.config.js)",
+            "cypress in package.json"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/raizes-do-nordeste",
+          "html_url": "https://github.com/thiagopicorelli/raizes-do-nordeste",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "cypress in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/project-meme-generator",
+        "https://github.com/thiagopicorelli/project-starwars-planets-search",
+        "https://github.com/thiagopicorelli/project-solar-system"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/project-meme-generator",
+          "html_url": "https://github.com/thiagopicorelli/project-meme-generator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; has_tests, documented",
+            "JavaScript: 11,825 bytes (85% of repo)"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/project-starwars-planets-search",
+          "html_url": "https://github.com/thiagopicorelli/project-starwars-planets-search",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; has_tests, documented",
+            "JavaScript: 51,439 bytes (95% of repo)"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/project-solar-system",
+          "html_url": "https://github.com/thiagopicorelli/project-solar-system",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: documented",
+            "JavaScript: 7,059 bytes (66% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "mysql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "mysqlclient in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/raizes-do-nordeste"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/raizes-do-nordeste",
+          "html_url": "https://github.com/thiagopicorelli/raizes-do-nordeste",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "Python: 27,906 bytes (82% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/project-starwars-planets-search",
+        "https://github.com/thiagopicorelli/project-solar-system",
+        "https://github.com/thiagopicorelli/raizes-do-nordeste"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/project-starwars-planets-search",
+          "html_url": "https://github.com/thiagopicorelli/project-starwars-planets-search",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; has_tests, documented",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/project-solar-system",
+          "html_url": "https://github.com/thiagopicorelli/project-solar-system",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: documented",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/raizes-do-nordeste",
+          "html_url": "https://github.com/thiagopicorelli/raizes-do-nordeste",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "SQL file (database/01_create_database.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/raizes-do-nordeste"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/raizes-do-nordeste",
+          "html_url": "https://github.com/thiagopicorelli/raizes-do-nordeste",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "readme in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/raizes-do-nordeste"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/raizes-do-nordeste",
+          "html_url": "https://github.com/thiagopicorelli/raizes-do-nordeste",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 203,038 bytes (99% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/project-meme-generator",
+        "https://github.com/thiagopicorelli/project-starwars-planets-search",
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/project-meme-generator",
+          "html_url": "https://github.com/thiagopicorelli/project-meme-generator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; has_tests, documented",
+            "test file (cypress/integration/meme-generator.spec.js)",
+            "mocha in package.json"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/project-starwars-planets-search",
+          "html_url": "https://github.com/thiagopicorelli/project-starwars-planets-search",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; has_tests, documented",
+            "test directory (src/tests/App.test.js)",
+            "mocha in package.json"
+          ]
+        },
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "test file (spotnews/settings_test.py)",
+            "pytest in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "web-scraping",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/thiagopicorelli/spotnews"
+      ],
+      "repos": [
+        {
+          "repo": "thiagopicorelli/spotnews",
+          "html_url": "https://github.com/thiagopicorelli/spotnews",
+          "level": 2,
+          "reasons": [
+            "intermediate: 25 commits; has_tests, has_docker, documented",
+            "beautifulsoup4 in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 16
+  }
+}

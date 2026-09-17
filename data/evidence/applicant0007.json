@@ -1,0 +1,139 @@
+{
+  "applicant_id": "applicant0007",
+  "github_login": "certiprince",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0007.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/certiprince/DS-ML-Udemy"
+      ],
+      "repos": [
+        {
+          "repo": "certiprince/DS-ML-Udemy",
+          "html_url": "https://github.com/certiprince/DS-ML-Udemy",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase, all_commits_one_day",
+            "HTML: 9,632,291 bytes (38% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/certiprince/Coursera-DL",
+        "https://github.com/certiprince/DS-ML-Udemy",
+        "https://github.com/certiprince/HospitalNoShows",
+        "https://github.com/certiprince/Trigger-Word-Detection"
+      ],
+      "repos": [
+        {
+          "repo": "certiprince/Coursera-DL",
+          "html_url": "https://github.com/certiprince/Coursera-DL",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "jupyter notebook (Week 2/Logistic Regression as a Neural Network/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb)"
+          ]
+        },
+        {
+          "repo": "certiprince/DS-ML-Udemy",
+          "html_url": "https://github.com/certiprince/DS-ML-Udemy",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase, all_commits_one_day",
+            "jupyter notebook (01-Python-Crash-Course/02-Python Crash Course Exercises.ipynb)"
+          ]
+        },
+        {
+          "repo": "certiprince/HospitalNoShows",
+          "html_url": "https://github.com/certiprince/HospitalNoShows",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "jupyter notebook (predicting-no-shows-in-hospitals.ipynb)"
+          ]
+        },
+        {
+          "repo": "certiprince/Trigger-Word-Detection",
+          "html_url": "https://github.com/certiprince/Trigger-Word-Detection",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "jupyter notebook (Trigger_word_detection_v1a.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/certiprince/Coursera-DL",
+        "https://github.com/certiprince/DS-ML-Udemy",
+        "https://github.com/certiprince/HospitalNoShows",
+        "https://github.com/certiprince/Trigger-Word-Detection"
+      ],
+      "repos": [
+        {
+          "repo": "certiprince/Coursera-DL",
+          "html_url": "https://github.com/certiprince/Coursera-DL",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "Jupyter Notebook: 2,788,155 bytes (99% of repo)"
+          ]
+        },
+        {
+          "repo": "certiprince/DS-ML-Udemy",
+          "html_url": "https://github.com/certiprince/DS-ML-Udemy",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase, all_commits_one_day",
+            "Jupyter Notebook: 15,835,142 bytes (62% of repo)"
+          ]
+        },
+        {
+          "repo": "certiprince/HospitalNoShows",
+          "html_url": "https://github.com/certiprince/HospitalNoShows",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "Jupyter Notebook: 180,178 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "certiprince/Trigger-Word-Detection",
+          "html_url": "https://github.com/certiprince/Trigger-Word-Detection",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "Jupyter Notebook: 29,073,423 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 2
+  }
+}

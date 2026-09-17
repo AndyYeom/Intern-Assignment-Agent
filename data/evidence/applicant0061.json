@@ -1,0 +1,233 @@
+{
+  "applicant_id": "applicant0061",
+  "github_login": "y0ussefmohamed",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0061.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/Fullstack_EcommerceWebsite",
+        "https://github.com/y0ussefmohamed/yc-startup-app"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/Fullstack_EcommerceWebsite",
+          "html_url": "https://github.com/y0ussefmohamed/Fullstack_EcommerceWebsite",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "CSS: 20,344 bytes (25% of repo)"
+          ]
+        },
+        {
+          "repo": "y0ussefmohamed/yc-startup-app",
+          "html_url": "https://github.com/y0ussefmohamed/yc-startup-app",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: documented",
+            "CSS: 7,505 bytes (11% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/Fullstack_EcommerceWebsite"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/Fullstack_EcommerceWebsite",
+          "html_url": "https://github.com/y0ussefmohamed/Fullstack_EcommerceWebsite",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "JavaScript: 60,986 bytes (74% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/AIChat",
+        "https://github.com/y0ussefmohamed/TourismApp"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/AIChat",
+          "html_url": "https://github.com/y0ussefmohamed/AIChat",
+          "level": 2,
+          "reasons": [
+            "intermediate: 101 commits; multi_month_span, many_active_days",
+            "Swift: 284,987 bytes (100% of repo)",
+            "iOS project (AIChat.xcodeproj/project.pbxproj)"
+          ]
+        },
+        {
+          "repo": "y0ussefmohamed/TourismApp",
+          "html_url": "https://github.com/y0ussefmohamed/TourismApp",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, all_commits_one_day",
+            "Swift: 17,711 bytes (100% of repo)",
+            "iOS project (TouristApp.xcodeproj/project.pbxproj)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/yc-startup-app"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/yc-startup-app",
+          "html_url": "https://github.com/y0ussefmohamed/yc-startup-app",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: documented",
+            "next config (Documents/Important/NextJS Projects/yc-startup-app/next.config.ts)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/Credit-Card-Fraud-Detection"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/Credit-Card-Fraud-Detection",
+          "html_url": "https://github.com/y0ussefmohamed/Credit-Card-Fraud-Detection",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "jupyter notebook (Credit_Card_Fraud_Detection.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/Credit-Card-Fraud-Detection"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/Credit-Card-Fraud-Detection",
+          "html_url": "https://github.com/y0ussefmohamed/Credit-Card-Fraud-Detection",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "Jupyter Notebook: 294,526 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/yc-startup-app"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/yc-startup-app",
+          "html_url": "https://github.com/y0ussefmohamed/yc-startup-app",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: documented",
+            "tailwind config (Documents/Important/NextJS Projects/yc-startup-app/tailwind.config.ts)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/yc-startup-app"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/yc-startup-app",
+          "html_url": "https://github.com/y0ussefmohamed/yc-startup-app",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: documented",
+            "TypeScript: 55,749 bytes (80% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/y0ussefmohamed/Fullstack_EcommerceWebsite"
+      ],
+      "repos": [
+        {
+          "repo": "y0ussefmohamed/Fullstack_EcommerceWebsite",
+          "html_url": "https://github.com/y0ussefmohamed/Fullstack_EcommerceWebsite",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "test file (ecommerce-project/src/pages/home/tests/HomePage.test.jsx)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 3,
+    "verified": 6
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "applicant_id": "applicant0039",
+  "github_login": "abhyudaya001",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0039.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/abhyudaya001/Interview-Helper",
+        "https://github.com/abhyudaya001/TheITJobBoard",
+        "https://github.com/abhyudaya001/gadget_review",
+        "https://github.com/abhyudaya001/jhatpat"
+      ],
+      "repos": [
+        {
+          "repo": "abhyudaya001/Interview-Helper",
+          "html_url": "https://github.com/abhyudaya001/Interview-Helper",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "CSS: 5,968 bytes (26% of repo)"
+          ]
+        },
+        {
+          "repo": "abhyudaya001/TheITJobBoard",
+          "html_url": "https://github.com/abhyudaya001/TheITJobBoard",
+          "level": 1,
+          "reasons": [
+            "entry: 12 commits, independent-work signals: many_active_days",
+            "CSS: 4,765 bytes (14% of repo)"
+          ]
+        },
+        {
+          "repo": "abhyudaya001/gadget_review",
+          "html_url": "https://github.com/abhyudaya001/gadget_review",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "CSS: 9,849 bytes (29% of repo)"
+          ]
+        },
+        {
+          "repo": "abhyudaya001/jhatpat",
+          "html_url": "https://github.com/abhyudaya001/jhatpat",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "HTML: 716,365 bytes (74% of repo)",
+            "CSS: 133,849 bytes (14% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/abhyudaya001/Interview-Helper",
+        "https://github.com/abhyudaya001/TheITJobBoard",
+        "https://github.com/abhyudaya001/seekSocial"
+      ],
+      "repos": [
+        {
+          "repo": "abhyudaya001/Interview-Helper",
+          "html_url": "https://github.com/abhyudaya001/Interview-Helper",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 16,710 bytes (73% of repo)"
+          ]
+        },
+        {
+          "repo": "abhyudaya001/TheITJobBoard",
+          "html_url": "https://github.com/abhyudaya001/TheITJobBoard",
+          "level": 1,
+          "reasons": [
+            "entry: 12 commits, independent-work signals: many_active_days",
+            "JavaScript: 28,021 bytes (81% of repo)"
+          ]
+        },
+        {
+          "repo": "abhyudaya001/seekSocial",
+          "html_url": "https://github.com/abhyudaya001/seekSocial",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: has_tests",
+            "JavaScript: 62,740 bytes (97% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/abhyudaya001/gadget_review",
+        "https://github.com/abhyudaya001/jhatpat"
+      ],
+      "repos": [
+        {
+          "repo": "abhyudaya001/gadget_review",
+          "html_url": "https://github.com/abhyudaya001/gadget_review",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "SQL file (database/review.sql)"
+          ]
+        },
+        {
+          "repo": "abhyudaya001/jhatpat",
+          "html_url": "https://github.com/abhyudaya001/jhatpat",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "SQL file (jhatpat-foods.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/abhyudaya001/seekSocial"
+      ],
+      "repos": [
+        {
+          "repo": "abhyudaya001/seekSocial",
+          "html_url": "https://github.com/abhyudaya001/seekSocial",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: has_tests",
+            "docs directory (server/node_modules/concat-stream/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/abhyudaya001/seekSocial"
+      ],
+      "repos": [
+        {
+          "repo": "abhyudaya001/seekSocial",
+          "html_url": "https://github.com/abhyudaya001/seekSocial",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: has_tests",
+            "test directory (server/node_modules/@aws-crypto/ie11-detection/node_modules/tslib/test/validateModuleExportsMatchCommonJS/index.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 4
+  }
+}

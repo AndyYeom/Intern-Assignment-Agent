@@ -1,0 +1,339 @@
+{
+  "applicant_id": "applicant0060",
+  "github_login": "Inazumimakoto",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0060.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/lifelog"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/lifelog",
+          "html_url": "https://github.com/Inazumimakoto/lifelog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, multi_month_span, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/update-loc.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 3,
+      "status": "conflicting",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/chat.inazu.me"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/chat.inazu.me",
+          "html_url": "https://github.com/Inazumimakoto/chat.inazu.me",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Dockerfile (docker/mecab/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Advanced; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/lifelog"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/lifelog",
+          "html_url": "https://github.com/Inazumimakoto/lifelog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, multi_month_span, many_active_days, documented",
+            "firebase config (firebase.json)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/Shift-Sync"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/Shift-Sync",
+          "html_url": "https://github.com/Inazumimakoto/Shift-Sync",
+          "level": 2,
+          "reasons": [
+            "intermediate: 31 commits; deployed, multi_month_span, many_active_days, documented",
+            "Go module (shift_sync_go/go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/inazu",
+        "https://github.com/Inazumimakoto/parallelmemory"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/inazu",
+          "html_url": "https://github.com/Inazumimakoto/inazu",
+          "level": 3,
+          "reasons": [
+            "intermediate: 171 commits; deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "HTML: 66,249 bytes (28% of repo)",
+            "CSS: 43,192 bytes (18% of repo)"
+          ]
+        },
+        {
+          "repo": "Inazumimakoto/parallelmemory",
+          "html_url": "https://github.com/Inazumimakoto/parallelmemory",
+          "level": 2,
+          "reasons": [
+            "intermediate: 12 commits; has_tests, deployed",
+            "HTML: 31,825 bytes (39% of repo)",
+            "CSS: 16,785 bytes (21% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/inazu"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/inazu",
+          "html_url": "https://github.com/Inazumimakoto/inazu",
+          "level": 3,
+          "reasons": [
+            "intermediate: 171 commits; deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "JavaScript: 128,227 bytes (53% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/Shift-Sync",
+        "https://github.com/Inazumimakoto/lifelog"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/Shift-Sync",
+          "html_url": "https://github.com/Inazumimakoto/Shift-Sync",
+          "level": 2,
+          "reasons": [
+            "intermediate: 31 commits; deployed, multi_month_span, many_active_days, documented",
+            "Swift: 346,798 bytes (83% of repo)",
+            "iOS project (ShiftSync/ShiftSync/Info.plist)"
+          ]
+        },
+        {
+          "repo": "Inazumimakoto/lifelog",
+          "html_url": "https://github.com/Inazumimakoto/lifelog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, multi_month_span, many_active_days, documented",
+            "Swift: 1,672,354 bytes (99% of repo)",
+            "iOS project (LifelogWidgets/Info.plist)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/inazu"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/inazu",
+          "html_url": "https://github.com/Inazumimakoto/inazu",
+          "level": 3,
+          "reasons": [
+            "intermediate: 171 commits; deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/parallelmemory"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/parallelmemory",
+          "html_url": "https://github.com/Inazumimakoto/parallelmemory",
+          "level": 2,
+          "reasons": [
+            "intermediate: 12 commits; has_tests, deployed",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/inazu",
+        "https://github.com/Inazumimakoto/lifelog"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/inazu",
+          "html_url": "https://github.com/Inazumimakoto/inazu",
+          "level": 3,
+          "reasons": [
+            "intermediate: 171 commits; deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "docs directory (docs/failover-runbook.md)"
+          ]
+        },
+        {
+          "repo": "Inazumimakoto/lifelog",
+          "html_url": "https://github.com/Inazumimakoto/lifelog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, multi_month_span, many_active_days, documented",
+            "docs directory (docs/CHANGELOG.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/parallelmemory",
+        "https://github.com/Inazumimakoto/chat.inazu.me"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/parallelmemory",
+          "html_url": "https://github.com/Inazumimakoto/parallelmemory",
+          "level": 2,
+          "reasons": [
+            "intermediate: 12 commits; has_tests, deployed",
+            "TypeScript: 32,160 bytes (40% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "Inazumimakoto/chat.inazu.me",
+          "html_url": "https://github.com/Inazumimakoto/chat.inazu.me",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "TypeScript: 212,549 bytes (88% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Inazumimakoto/parallelmemory",
+        "https://github.com/Inazumimakoto/chat.inazu.me"
+      ],
+      "repos": [
+        {
+          "repo": "Inazumimakoto/parallelmemory",
+          "html_url": "https://github.com/Inazumimakoto/parallelmemory",
+          "level": 2,
+          "reasons": [
+            "intermediate: 12 commits; has_tests, deployed",
+            "test file (src/game/game.test.ts)",
+            "vitest in package.json"
+          ]
+        },
+        {
+          "repo": "Inazumimakoto/chat.inazu.me",
+          "html_url": "https://github.com/Inazumimakoto/chat.inazu.me",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "test directory (test/generator.test.ts)",
+            "vitest in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "conflicting": 1,
+    "verified": 11
+  }
+}

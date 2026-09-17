@@ -1,0 +1,146 @@
+{
+  "applicant_id": "applicant0041",
+  "github_login": "stevensolleder",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0041.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/stevensolleder/PassengersOnLineTransportationInSelectedGermanStates"
+      ],
+      "repos": [
+        {
+          "repo": "stevensolleder/PassengersOnLineTransportationInSelectedGermanStates",
+          "html_url": "https://github.com/stevensolleder/PassengersOnLineTransportationInSelectedGermanStates",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; deployed, documented",
+            "CSS: 1,313 bytes (24% of repo)",
+            "HTML: 616 bytes (11% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/stevensolleder/PersistentObjectStorage"
+      ],
+      "repos": [
+        {
+          "repo": "stevensolleder/PersistentObjectStorage",
+          "html_url": "https://github.com/stevensolleder/PersistentObjectStorage",
+          "level": 2,
+          "reasons": [
+            "intermediate: 12 commits; has_tests, deployed, documented",
+            "Java: 10,096 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/stevensolleder/PassengersOnLineTransportationInSelectedGermanStates"
+      ],
+      "repos": [
+        {
+          "repo": "stevensolleder/PassengersOnLineTransportationInSelectedGermanStates",
+          "html_url": "https://github.com/stevensolleder/PassengersOnLineTransportationInSelectedGermanStates",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; deployed, documented",
+            "JavaScript: 3,472 bytes (64% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/stevensolleder/FileHashComparator"
+      ],
+      "repos": [
+        {
+          "repo": "stevensolleder/FileHashComparator",
+          "html_url": "https://github.com/stevensolleder/FileHashComparator",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: documented",
+            "Swift: 6,312 bytes (100% of repo)",
+            "iOS project (src/FileHashComparator.xcodeproj/project.pbxproj)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/stevensolleder/QuickGoogleKeep"
+      ],
+      "repos": [
+        {
+          "repo": "stevensolleder/QuickGoogleKeep",
+          "html_url": "https://github.com/stevensolleder/QuickGoogleKeep",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 548 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/stevensolleder/PersistentObjectStorage"
+      ],
+      "repos": [
+        {
+          "repo": "stevensolleder/PersistentObjectStorage",
+          "html_url": "https://github.com/stevensolleder/PersistentObjectStorage",
+          "level": 2,
+          "reasons": [
+            "intermediate: 12 commits; has_tests, deployed, documented",
+            "test directory (test/PersistentObjectStorageTest.java)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 6
+  }
+}

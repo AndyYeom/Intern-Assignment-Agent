@@ -1,0 +1,228 @@
+{
+  "applicant_id": "applicant0033",
+  "github_login": "beharkadri",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0033.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/beharkadri/Tetris"
+      ],
+      "repos": [
+        {
+          "repo": "beharkadri/Tetris",
+          "html_url": "https://github.com/beharkadri/Tetris",
+          "level": 1,
+          "reasons": [
+            "entry: 7 commits, independent-work signals: documented",
+            "C#: 36,506 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/beharkadri/netflix-clone",
+        "https://github.com/beharkadri/notes-app"
+      ],
+      "repos": [
+        {
+          "repo": "beharkadri/netflix-clone",
+          "html_url": "https://github.com/beharkadri/netflix-clone",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "firebase config (.firebaserc)",
+            "firebase in package.json"
+          ]
+        },
+        {
+          "repo": "beharkadri/notes-app",
+          "html_url": "https://github.com/beharkadri/notes-app",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "firebase config (.firebaserc)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/beharkadri/dnick-prototype",
+        "https://github.com/beharkadri/notes-app"
+      ],
+      "repos": [
+        {
+          "repo": "beharkadri/dnick-prototype",
+          "html_url": "https://github.com/beharkadri/dnick-prototype",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, single_commit, all_commits_one_day",
+            "HTML: 1,721 bytes (13% of repo)",
+            "SCSS: 1,498 bytes (12% of repo)"
+          ]
+        },
+        {
+          "repo": "beharkadri/notes-app",
+          "html_url": "https://github.com/beharkadri/notes-app",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "CSS: 2,320 bytes (30% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/beharkadri/dnick-prototype",
+        "https://github.com/beharkadri/food-wizard",
+        "https://github.com/beharkadri/netflix-clone",
+        "https://github.com/beharkadri/notes-app"
+      ],
+      "repos": [
+        {
+          "repo": "beharkadri/dnick-prototype",
+          "html_url": "https://github.com/beharkadri/dnick-prototype",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, single_commit, all_commits_one_day",
+            "JavaScript: 9,165 bytes (72% of repo)"
+          ]
+        },
+        {
+          "repo": "beharkadri/food-wizard",
+          "html_url": "https://github.com/beharkadri/food-wizard",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, all_commits_one_day",
+            "JavaScript: 38,007 bytes (92% of repo)"
+          ]
+        },
+        {
+          "repo": "beharkadri/netflix-clone",
+          "html_url": "https://github.com/beharkadri/netflix-clone",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 76,098 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "beharkadri/notes-app",
+          "html_url": "https://github.com/beharkadri/notes-app",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 4,897 bytes (64% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/beharkadri/dnick-prototype",
+        "https://github.com/beharkadri/food-wizard",
+        "https://github.com/beharkadri/netflix-clone",
+        "https://github.com/beharkadri/notes-app"
+      ],
+      "repos": [
+        {
+          "repo": "beharkadri/dnick-prototype",
+          "html_url": "https://github.com/beharkadri/dnick-prototype",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, single_commit, all_commits_one_day",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "beharkadri/food-wizard",
+          "html_url": "https://github.com/beharkadri/food-wizard",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, all_commits_one_day",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "beharkadri/netflix-clone",
+          "html_url": "https://github.com/beharkadri/netflix-clone",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "beharkadri/notes-app",
+          "html_url": "https://github.com/beharkadri/notes-app",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "@testing-library/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/beharkadri/food-wizard"
+      ],
+      "repos": [
+        {
+          "repo": "beharkadri/food-wizard",
+          "html_url": "https://github.com/beharkadri/food-wizard",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, all_commits_one_day",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 3,
+    "verified": 3
+  }
+}

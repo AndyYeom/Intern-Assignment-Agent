@@ -92,3 +92,22 @@ uv run python -m generator re remove applicant0046      # delete a pair; the pro
 ```
 
 Without `--appids`, `re infoprompt` covers every placed applicant who has no resume yet.
+
+## Evidence agent
+
+Verifies each claimed skill against the applicant's GitHub profile, applying the
+boundary tests in `data/proficiency_levels.md` to the collected signals. Every
+claim gets `verified`, `partially_verified` (one level short), `conflicting` (two
+levels short) or `not_observed` (nothing to judge; absence is never a penalty),
+with the observed level, evidence strength and repository links.
+
+```powershell
+uv run python -m src.evidence_agent verify                       # all applicants -> data/evidence/
+uv run python -m src.evidence_agent verify --claims output/profiles  # use the profile agent's JSON
+uv run python -m src.evidence_agent plant                        # plant 10 exaggerations (once)
+uv run python -m src.evidence_agent eval                         # how many were caught
+```
+
+Without `--claims`, claims are read literally from each resume spec: a stated
+level such as `Python (Advanced)`, otherwise Intermediate when the skill appears
+in a project or job, and Entry when it appears only in the skills list.

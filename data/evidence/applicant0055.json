@@ -1,0 +1,88 @@
+{
+  "applicant_id": "applicant0055",
+  "github_login": "p-adic",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0055.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/p-adic/Contest",
+        "https://github.com/p-adic/Mathematics",
+        "https://github.com/p-adic/Utility",
+        "https://github.com/p-adic/Error"
+      ],
+      "repos": [
+        {
+          "repo": "p-adic/Contest",
+          "html_url": "https://github.com/p-adic/Contest",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days",
+            "C++: 674,805 bytes (99% of repo)"
+          ]
+        },
+        {
+          "repo": "p-adic/Mathematics",
+          "html_url": "https://github.com/p-adic/Mathematics",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days",
+            "C++: 6,206,664 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "p-adic/Utility",
+          "html_url": "https://github.com/p-adic/Utility",
+          "level": 2,
+          "reasons": [
+            "intermediate: 18 commits; multi_month_span, many_active_days",
+            "C++: 183,285 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "p-adic/Error",
+          "html_url": "https://github.com/p-adic/Error",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: none",
+            "C++: 33,572 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/p-adic/p-adic.github.io"
+      ],
+      "repos": [
+        {
+          "repo": "p-adic/p-adic.github.io",
+          "html_url": "https://github.com/p-adic/p-adic.github.io",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; deployed, multi_month_span, many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "HTML: 43,548 bytes (58% of repo)",
+            "SCSS: 29,635 bytes (39% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 2
+  }
+}

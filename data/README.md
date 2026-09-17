@@ -123,6 +123,19 @@ timestamps, so regenerating an unchanged resume produces no diff.
 no column marking planted exaggerations: that answer key must not sit in the
 index the evidence agent reads.
 
+## evidence/ and eval/
+
+| path | contents |
+| --- | --- |
+| `evidence/<applicant_id>.json` | the evidence agent's report: one verification per claimed skill, plus skills observed but not claimed |
+| `eval/planted_exaggerations.json` | the answer key: 10 resumes given an Advanced claim that GitHub does not support |
+| `eval/summary.json` | how many planted exaggerations were caught, and how many unplanted claims were flagged |
+
+Half the plants inflate a skill the person used only thinly (the fewest commits);
+half claim a skill with no evidence at all. They are chosen from the collector's
+raw skill evidence, not from the agent's judgement, and the key is kept out of
+`applicants.csv`.
+
 ## Privacy
 
 Collected through the documented public REST API only; no repository source is
