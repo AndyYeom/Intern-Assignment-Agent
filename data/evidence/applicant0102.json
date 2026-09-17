@@ -1,0 +1,210 @@
+{
+  "applicant_id": "applicant0102",
+  "github_login": "Omegabird113",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0102.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Omegabird113/cTimedTyperV1"
+      ],
+      "repos": [
+        {
+          "repo": "Omegabird113/cTimedTyperV1",
+          "html_url": "https://github.com/Omegabird113/cTimedTyperV1",
+          "level": 1,
+          "reasons": [
+            "entry: 26 commits, independent-work signals: has_ci",
+            "C: 14,655 bytes (98% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Omegabird113/llamamod",
+        "https://github.com/Omegabird113/CMD_Delete",
+        "https://github.com/Omegabird113/cTimedTyperV1"
+      ],
+      "repos": [
+        {
+          "repo": "Omegabird113/llamamod",
+          "html_url": "https://github.com/Omegabird113/llamamod",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/build.yml)"
+          ]
+        },
+        {
+          "repo": "Omegabird113/CMD_Delete",
+          "html_url": "https://github.com/Omegabird113/CMD_Delete",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/dependency_submission.yml)"
+          ]
+        },
+        {
+          "repo": "Omegabird113/cTimedTyperV1",
+          "html_url": "https://github.com/Omegabird113/cTimedTyperV1",
+          "level": 1,
+          "reasons": [
+            "entry: 26 commits, independent-work signals: has_ci",
+            "GitHub Actions workflow (.github/workflows/build.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Omegabird113/LlamaBlocks-Documentation"
+      ],
+      "repos": [
+        {
+          "repo": "Omegabird113/LlamaBlocks-Documentation",
+          "html_url": "https://github.com/Omegabird113/LlamaBlocks-Documentation",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "HTML: 53 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Omegabird113/llamamod",
+        "https://github.com/Omegabird113/CMD_Delete"
+      ],
+      "repos": [
+        {
+          "repo": "Omegabird113/llamamod",
+          "html_url": "https://github.com/Omegabird113/llamamod",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "Java: 1,098,898 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Omegabird113/CMD_Delete",
+          "html_url": "https://github.com/Omegabird113/CMD_Delete",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "Java: 196,842 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Omegabird113/Python-console-wordle-thingy"
+      ],
+      "repos": [
+        {
+          "repo": "Omegabird113/Python-console-wordle-thingy",
+          "html_url": "https://github.com/Omegabird113/Python-console-wordle-thingy",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: multi_month_span",
+            "Python: 8,961 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Omegabird113/llamamod",
+        "https://github.com/Omegabird113/CMD_Delete"
+      ],
+      "repos": [
+        {
+          "repo": "Omegabird113/llamamod",
+          "html_url": "https://github.com/Omegabird113/llamamod",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "docs directory (documentation/README.md)"
+          ]
+        },
+        {
+          "repo": "Omegabird113/CMD_Delete",
+          "html_url": "https://github.com/Omegabird113/CMD_Delete",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "docs directory (docs/actions_list.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Omegabird113/CMD_Delete"
+      ],
+      "repos": [
+        {
+          "repo": "Omegabird113/CMD_Delete",
+          "html_url": "https://github.com/Omegabird113/CMD_Delete",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, documented",
+            "test directory (common/src/test/java/io/github/omegabird113/cmd_delete/TestLoader.java)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 6
+  }
+}

@@ -1,0 +1,1128 @@
+{
+  "applicant_id": "applicant0163",
+  "login": "nicothll",
+  "html_url": "https://github.com/nicothll",
+  "created_at": "2021-07-24T22:27:07Z",
+  "account_age_days": 1880,
+  "public_repos": 11,
+  "followers": 2,
+  "following": 3,
+  "repos": [
+    {
+      "name": "tesla-clone",
+      "full_name": "nicothll/tesla-clone",
+      "html_url": "https://github.com/nicothll/tesla-clone",
+      "description": "My own version of Tesla Website with ReactJS and TypeScript",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-04-15T21:12:37Z",
+      "pushed_at": "2023-04-15T21:20:43Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5346,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 21546,
+        "CSS": 2196,
+        "JavaScript": 1437,
+        "HTML": 518,
+        "Dockerfile": 199
+      },
+      "primary_language": "TypeScript",
+      "file_count": 32,
+      "top_level_paths": [
+        ".dockerignore",
+        ".gitignore",
+        "Dockerfile",
+        "README.md",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.json",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "Dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@emotion/react",
+          "@emotion/styled",
+          "@mui/icons-material",
+          "@mui/material",
+          "@mui/styled-engine-sc",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@types/jest",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/react-router-dom",
+          "@types/styled-components",
+          "framer-motion",
+          "react",
+          "react-dom",
+          "react-icons",
+          "react-intersection-observer",
+          "react-router-dom",
+          "react-scripts",
+          "styled-components",
+          "typescript",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 281,
+      "readme_excerpt": "# TESLA WebClone\n*Tesla website using ReactJS and Typescript*\n\n<br>\n\n## Run with Docker\n### Get the Docker image from Docker Hub\n```bash\ndocker pull nthll/tesla-clone:latest\n```\n\n### Run Docker container\n```bash\ndocker run --name tesla -d -p 3000:3000 nthll/tesla-clone:latest\n```\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 16,
+        "first_at": "2022-05-10T01:15:03+00:00",
+        "last_at": "2023-04-15T21:19:58+00:00",
+        "active_days": 5,
+        "span_days": 340,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Deleted unnecessary images",
+          "Updated readme.md",
+          "Updated information component for each page and added react-icons",
+          "updated README and added Dockerfile",
+          "updated ListItems and Page to remove key props issues",
+          "Updated README.md",
+          "updated to use yarn instead npm",
+          "created Page and Info components",
+          "updated MenuModal and its content",
+          "added Section components to Home component and updated App.tsx w/ Home and Header components",
+          "created Header component with ListItems and MenuModal components w/ animations",
+          "created Section components w/ animations",
+          "installed all dependencies",
+          "updated index.css and added images folder",
+          "cleaned up start-project",
+          "Initialize project using Create React App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 14
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 21,546 bytes (83% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,196 bytes (8% of repo)",
+          "strength": 0.4848007414272475
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,437 bytes (6% of repo)",
+          "strength": 0.4554911955514365
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'reactjs' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@emotion/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/jest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 25896,
+        "strong_skills": [
+          "docker",
+          "react",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "cov-19-analysis",
+      "full_name": "nicothll/cov-19-analysis",
+      "html_url": "https://github.com/nicothll/cov-19-analysis",
+      "description": "COVID-19 Analysis and Prediction Project",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-08-21T23:04:17Z",
+      "pushed_at": "2022-08-21T23:05:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2778,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 4246912
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 5,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "exploratory-data-analysis.ipynb",
+        "modelisation.ipynb",
+        "preprocessing.ipynb"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 137,
+      "readme_excerpt": "# COVID-19 Analysis Project\n\n[Dataset on Kaggle](https://www.kaggle.com/datasets/einsteindata4u/covid19)\n\nData Analysis and Predictions.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-08-21T23:01:47+00:00",
+        "last_at": "2022-08-21T23:02:14+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "added notebooks",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 3,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 4,246,912 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (exploratory-data-analysis.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4246912,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "dino-ai",
+      "full_name": "nicothll/dino-ai",
+      "html_url": "https://github.com/nicothll/dino-ai",
+      "description": "Train AI to play ChromeDino game",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-28T22:22:20Z",
+      "pushed_at": "2022-10-02T22:22:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 10396
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 5,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "dinoAI.ipynb",
+        "envs"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1046,
+      "readme_excerpt": "# dino-ai\n## *Train an AI to play ChromeDino Game with Python and PyTorch.*\n\n<br>\n\n# Information:\n### **Game**:\n[ChromeDino](https://chromedino.com/)\n\n### **Github** repository:\n[nicothll/dino-ai](https://github.com/nicothll/dino-ai.git)\n\n<br>\n\n# Installation\n## Conda environment\nRun the following commands in your **dino-ai** folder.\n```bash\nconda env create -f envs/conda.yaml\n```\n\n## Others dependencies:\nActivate your conda environment:\n```bash\nconda activate rl\n```\n\nRun the following command to install other necessary dependencies:\n```bash\npip install pyautogui\n```\n\n## On MacOs, install Tesseract for OCR:\nInstallation via Homebrew:\n```bash\nbrew install tesseract\n```\nOther kind of installations click [here](https://tesseract-ocr.github.io/tessdoc/Installation.html)\n\n<br>\n\n# Useful Documentations\n### [Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/guide/quickstart.html)\n\n### [Python MSS](https://python-mss.readthedocs.io/usage.html)\n### [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/quickstart.html)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-09-28T22:22:21+00:00",
+        "last_at": "2022-10-02T22:21:53+00:00",
+        "active_days": 2,
+        "span_days": 3,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "added training notebook dinoAI",
+          "Updated README.md and added conda environment file",
+          "Updated README.md and added conda environment file",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 10,396 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (dinoAI.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10396,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "games",
+      "full_name": "nicothll/games",
+      "html_url": "https://github.com/nicothll/games",
+      "description": "Python games",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-15T21:56:21Z",
+      "pushed_at": "2022-09-15T21:59:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 5211
+      },
+      "primary_language": "Python",
+      "file_count": 4,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "snake_game.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 30,
+      "readme_excerpt": "# Python Games\n\n\n## The Snake\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-09-15T21:56:21+00:00",
+        "last_at": "2022-09-15T21:58:57+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "added snake game and updated README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 5,211 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5211,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "notes-client",
+      "full_name": "nicothll/notes-client",
+      "html_url": "https://github.com/nicothll/notes-client",
+      "description": "React Application (FrontEnd) powered by FastAPI and MongoDB",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-05-24T19:02:16Z",
+      "pushed_at": "2023-04-15T18:07:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 684,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 13226,
+        "CSS": 1497,
+        "HTML": 407
+      },
+      "primary_language": "TypeScript",
+      "file_count": 20,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.json",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@emotion/react",
+          "@emotion/styled",
+          "@mui/icons-material",
+          "@mui/material",
+          "@mui/styled-engine-sc",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@types/jest",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/react-router-dom",
+          "@types/styled-components",
+          "axios",
+          "framer-motion",
+          "react",
+          "react-dom",
+          "react-router-dom",
+          "react-scripts",
+          "styled-components",
+          "typescript",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 209,
+      "readme_excerpt": "# ReactNotes Application (FrontEnd)\n## Powered in back-end by FastAPI and MongoDB\n\n<br />\n\n**Back-End Link:**\n\n*GitHub:* [https://github.com/nicothll/notes-api.git](https://github.com/nicothll/notes-api.git)\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2022-05-23T00:04:37+00:00",
+        "last_at": "2023-04-15T18:07:21+00:00",
+        "active_days": 6,
+        "span_days": 327,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Changed useEffect dependency NoteItem component",
+          "updated api_url and start port changed",
+          "updated dependencies",
+          "Updated dependencies",
+          "updated README",
+          "updated import in tsx files",
+          "updated animations and added check tasks",
+          "added animations",
+          "updated Pages",
+          "created Notes pages and updated App component",
+          "created Header and NoteItem components",
+          "updated index CSS and created axios element",
+          "init project",
+          "Initialize project using Create React App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 13,226 bytes (87% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,497 bytes (10% of repo)",
+          "strength": 0.4989424983476537
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "repo_name",
+          "detail": "'fastapi' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "repo_name",
+          "detail": "'mongodb' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@emotion/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/jest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 15130,
+        "strong_skills": [
+          "react",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 4257308,
+    "TypeScript": 34772,
+    "Python": 5211,
+    "CSS": 3693,
+    "JavaScript": 1437,
+    "HTML": 925,
+    "Dockerfile": 199
+  },
+  "total_commits": 38,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "nicothll/cov-19-analysis",
+        "nicothll/dino-ai",
+        "nicothll/games"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4262519,
+      "commit_count": 8,
+      "first_seen": "2022-08-21T23:01:47+00:00",
+      "last_seen": "2022-10-02T22:21:53+00:00",
+      "details": [
+        "cov-19-analysis: Jupyter Notebook: 4,246,912 bytes (100% of repo)",
+        "dino-ai: Jupyter Notebook: 10,396 bytes (100% of repo)",
+        "games: Python: 5,211 bytes (100% of repo)",
+        "games: 'python' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "nicothll/tesla-clone",
+        "nicothll/notes-client"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 34772,
+      "commit_count": 30,
+      "first_seen": "2022-05-10T01:15:03+00:00",
+      "last_seen": "2023-04-15T21:19:58+00:00",
+      "details": [
+        "tesla-clone: TypeScript: 21,546 bytes (83% of repo)",
+        "tesla-clone: 'typescript' in repo name/description",
+        "tesla-clone: typescript in package.json",
+        "notes-client: TypeScript: 13,226 bytes (87% of repo)",
+        "notes-client: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "nicothll/tesla-clone",
+        "nicothll/notes-client"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 30,
+      "first_seen": "2022-05-10T01:15:03+00:00",
+      "last_seen": "2023-04-15T21:19:58+00:00",
+      "details": [
+        "tesla-clone: 'reactjs' in repo name/description",
+        "tesla-clone: @emotion/react in package.json",
+        "notes-client: 'react' in repo name/description",
+        "notes-client: @emotion/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "nicothll/tesla-clone",
+        "nicothll/notes-client"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 30,
+      "first_seen": "2022-05-10T01:15:03+00:00",
+      "last_seen": "2023-04-15T21:19:58+00:00",
+      "details": [
+        "tesla-clone: @types/jest in package.json",
+        "notes-client: @types/jest in package.json"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "nicothll/cov-19-analysis",
+        "nicothll/dino-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2022-08-21T23:01:47+00:00",
+      "last_seen": "2022-10-02T22:21:53+00:00",
+      "details": [
+        "cov-19-analysis: jupyter notebook (exploratory-data-analysis.ipynb)",
+        "dino-ai: jupyter notebook (dinoAI.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "nicothll/tesla-clone"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2022-05-10T01:15:03+00:00",
+      "last_seen": "2023-04-15T21:19:58+00:00",
+      "details": [
+        "tesla-clone: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "nicothll/tesla-clone",
+        "nicothll/notes-client"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4989424983476537,
+      "total_bytes": 3693,
+      "commit_count": 30,
+      "first_seen": "2022-05-10T01:15:03+00:00",
+      "last_seen": "2023-04-15T21:19:58+00:00",
+      "details": [
+        "tesla-clone: CSS: 2,196 bytes (8% of repo)",
+        "notes-client: CSS: 1,497 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "nicothll/tesla-clone"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4554911955514365,
+      "total_bytes": 1437,
+      "commit_count": 16,
+      "first_seen": "2022-05-10T01:15:03+00:00",
+      "last_seen": "2023-04-15T21:19:58+00:00",
+      "details": [
+        "tesla-clone: JavaScript: 1,437 bytes (6% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "nicothll/notes-client"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 14,
+      "first_seen": "2022-05-23T00:04:37+00:00",
+      "last_seen": "2023-04-15T18:07:21+00:00",
+      "details": [
+        "notes-client: 'fastapi' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "nicothll/notes-client"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 14,
+      "first_seen": "2022-05-23T00:04:37+00:00",
+      "last_seen": "2023-04-15T18:07:21+00:00",
+      "details": [
+        "notes-client: 'mongodb' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 38,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:15:03.229094+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

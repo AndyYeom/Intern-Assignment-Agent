@@ -1,0 +1,1287 @@
+{
+  "applicant_id": "applicant0078",
+  "login": "Aryo80",
+  "html_url": "https://github.com/Aryo80",
+  "created_at": "2019-09-08T16:21:54Z",
+  "account_age_days": 2565,
+  "public_repos": 23,
+  "followers": 4,
+  "following": 8,
+  "repos": [
+    {
+      "name": "Hello-Fresh-Canada-Review-Analyzer",
+      "full_name": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+      "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-08-12T22:28:18Z",
+      "pushed_at": "2024-08-22T22:00:04Z",
+      "stargazers": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 107272,
+      "default_branch": "main",
+      "license": "Unlicense",
+      "topics": [],
+      "languages": {
+        "Python": 46261,
+        "Shell": 1481
+      },
+      "primary_language": "Python",
+      "file_count": 30,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "app.py",
+        "cleaning_data.py",
+        "data",
+        "file_handling.py",
+        "graph_generation.py",
+        "image",
+        "model.pkl",
+        "model_experiment.py",
+        "report_generation.py",
+        "requirements.txt",
+        "start.sh",
+        "web_scraping_data.py"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "evidently",
+          "matplotlib",
+          "mlflow",
+          "nltk",
+          "numpy",
+          "prefect",
+          "scikit-learn",
+          "seaborn",
+          "selenium",
+          "wordcloud"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 11335,
+      "readme_excerpt": "# Hello-Fresh Canada Review Metrics\r\n## Table of Contents\r\n<!-- @import \"[TOC]\" {cmd=\"toc\" depthFrom=1 depthTo=6 orderedList=false} -->\r\n\r\n<!-- code_chunk_output -->\r\n\r\n- [Students' Graduation Rate Prediction](#students-graduation-rate-prediction)\r\n  - [Table of Contents](#table-of-contents)\r\n  - [Problem description](#problem-description)\r\n    - [Project Folder Structure](#project-folder-structure)\r\n    - [About this dataset](#about-this-dataset)\r\n    - [Data Dictionary](#data-dictionary)\r\n    - [Domain area research](#domain-area-research)\r\n  - [Preprocessing and Data Cleaning](#preprocessing-and-data-cleaning)\r\n    - [Data Processing Steps](#data-processing-steps)\r\n        - [Data Ingestion](#Data-Ingestion)\r\n        - [Duplicate Removal and Missing Values Handling](#duplicate-removal-and-missing-values-handling)\r\n        - [Text Cleaning and Preprocessing](#text-cleaning-and-preprocessing)\r\n        - [Sentiment Analysis](#sentiment-analysis)\r\n        - [Categorization of Sentiment Scores](#categorization-of-sentiment-scores)\r\n        - [Splitting Data into Reference and Current Sets](#splitting-data-into-reference-and-current-sets)\r\n\r\n  - [Sentiment Analysis Visualization](#pre",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 47,
+        "first_at": "2024-08-12T22:28:18+00:00",
+        "last_at": "2024-08-22T22:00:01+00:00",
+        "active_days": 8,
+        "span_days": 9,
+        "max_per_day": 26,
+        "low_effort_message_ratio": 0.723,
+        "messages_sample": [
+          "Update app.py",
+          "Update file_handling.py",
+          "Merge branch 'main' of https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "update",
+          "Update start.sh",
+          "Update app.py",
+          "Update model_experiment.py",
+          "Update start.sh",
+          "updated",
+          "updated",
+          "commit",
+          "commit",
+          "update",
+          "commit",
+          "app.py commit",
+          "web scaping data",
+          "commit",
+          "Removed",
+          "r",
+          "ok"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 46,261 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,481 bytes (3% of repo)",
+          "strength": 0.4310209040258054
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nlp",
+          "source": "manifest",
+          "detail": "nltk in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "etl",
+          "source": "manifest",
+          "detail": "prefect in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "selenium in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 47742,
+        "strong_skills": [
+          "data-viz",
+          "etl",
+          "machine-learning",
+          "nlp",
+          "pandas",
+          "python",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "experiment-tracking-mlflow-zoomcamp",
+      "full_name": "Aryo80/experiment-tracking-mlflow-zoomcamp",
+      "html_url": "https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-05-21T01:49:57Z",
+      "pushed_at": "2024-06-09T22:36:15Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11766,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 135596,
+        "HTML": 25788,
+        "Python": 8766
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 211,
+      "top_level_paths": [
+        ".gitignore",
+        "02-experiment-tracking",
+        "README.md",
+        "data",
+        "homework",
+        "linux code.txt",
+        "mlartifacts",
+        "mlflow-in-practice",
+        "mlflow.db",
+        "models",
+        "preprocessor",
+        "requirement.txt"
+      ],
+      "notable_files": [
+        "homework/mlartifacts/1/01bb586015ed4b42a970c38f11ef63eb/artifacts/random_forest_model/metadata/requirements.txt",
+        "homework/mlartifacts/1/01bb586015ed4b42a970c38f11ef63eb/artifacts/random_forest_model/requirements.txt",
+        "homework/mlartifacts/1/0def44cb25b742ccabe76ceb03abe08f/artifacts/random_forest_model/metadata/requirements.txt",
+        "homework/mlartifacts/1/0def44cb25b742ccabe76ceb03abe08f/artifacts/random_forest_model/requirements.txt",
+        "homework/mlartifacts/1/39ab8fa2b0394f89a67f315fb27c73e9/artifacts/random_forest_model/metadata/requirements.txt",
+        "homework/mlartifacts/1/39ab8fa2b0394f89a67f315fb27c73e9/artifacts/random_forest_model/requirements.txt",
+        "homework/mlartifacts/1/485a331c73434e989b5633112701617e/artifacts/random_forest_model/metadata/requirements.txt",
+        "homework/mlartifacts/1/485a331c73434e989b5633112701617e/artifacts/random_forest_model/requirements.txt",
+        "homework/mlartifacts/1/7bffc48849b140798687b757d6646e8c/artifacts/random_forest_model/metadata/requirements.txt",
+        "homework/mlartifacts/1/7bffc48849b140798687b757d6646e8c/artifacts/random_forest_model/requirements.txt",
+        "homework/mlartifacts/1/999538738bfb4a1da3abbaa8788c5d6b/artifacts/random_forest_model/metadata/requirements.txt",
+        "homework/mlartifacts/1/999538738bfb4a1da3abbaa8788c5d6b/artifacts/random_forest_model/requirements.txt",
+        "homework/mlruns/0/a06f040a4b8c40cca46a4c4f3613e40b/artifacts/model/metadata/requirements.txt",
+        "homework/mlruns/0/a06f040a4b8c40cca46a4c4f3613e40b/artifacts/model/requirements.txt",
+        "homework/mlruns/0/fd8c7e18f92441fd8f0d5e965675ca58/artifacts/model/metadata/requirements.txt",
+        "homework/mlruns/0/fd8c7e18f92441fd8f0d5e965675ca58/artifacts/model/requirements.txt",
+        "mlartifacts/1/431d51913ab8477985939d315409407e/artifacts/model/metadata/requirements.txt",
+        "mlartifacts/1/431d51913ab8477985939d315409407e/artifacts/model/requirements.txt",
+        "mlartifacts/1/600cb7d5480546559d76e39b9a24d518/artifacts/model/metadata/requirements.txt",
+        "mlartifacts/1/600cb7d5480546559d76e39b9a24d518/artifacts/model/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2465,
+      "readme_excerpt": "## Train a model with autolog\nWe will train a RandomForestRegressor (from Scikit-Learn) on the taxi dataset.\n\nWe have prepared the training script train.py for this exercise, which can be also found in the folder homework.\n\nThe script will:\nload the datasets produced by the previous step,\ntrain the model on the training set,\ncalculate the RMSE score on the validation set.\n\n\n![image](https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp/assets/55058593/83f29fad-90c5-488e-91a1-1a5ebf68853d)\n\n## Tune model hyperparameters\nNow let's try to reduce the validation error by tuning the hyperparameters of the RandomForestRegressor using hyperopt. We have prepared the script hpo.py for this exercise.\n\nYour task is to modify the script hpo.py and make sure that the validation RMSE is logged to the tracking server for each run of the hyperparameter optimization (you will need to add a few lines of code to the objective function) and run the script without passing any parameters.\n\nAfter that, open UI and explore the runs from the experiment called random-forest-hyperopt to answer the question below.\nThe idea is to just log the information that you need to answer the question below, inclu",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 16,
+        "first_at": "2024-05-21T01:49:57+00:00",
+        "last_at": "2024-06-09T22:36:15+00:00",
+        "active_days": 5,
+        "span_days": 19,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.375,
+        "messages_sample": [
+          "README.md",
+          "Readme.md",
+          "Readme.md",
+          "Readme.md",
+          "Best model based on rmse",
+          "Add files via upload",
+          "Create mlflow_in_practice",
+          "Add files via upload",
+          "Create pre",
+          "Add files via upload",
+          "linux code.txt",
+          "mlflow experiment testing",
+          "mlflow run perfectly",
+          "mlflow run perfectly",
+          "new nb",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 6,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 135,596 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 25,788 bytes (15% of repo)",
+          "strength": 0.5515603878930355
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 8,766 bytes (5% of repo)",
+          "strength": 0.4515192477225977
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (02-experiment-tracking/duration-prediction.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 170150,
+        "strong_skills": [
+          "html-css",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mlops-monitoring-grafana-evidently",
+      "full_name": "Aryo80/mlops-monitoring-grafana-evidently",
+      "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-06-27T20:17:20Z",
+      "pushed_at": "2024-06-27T20:54:28Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3010,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 9371052,
+        "Python": 5255
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 21,
+      "top_level_paths": [
+        "README.md",
+        "baseline_model_nyc_taxi_data.ipynb",
+        "config",
+        "dashboards",
+        "data",
+        "debugging_nyc_taxi_data.ipynb",
+        "docker-compose.yml",
+        "dummy_metrics_calculation.py",
+        "evidently_metrics_calculation.py",
+        "images",
+        "meta.json",
+        "models",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "evidently",
+          "joblib",
+          "jupyter",
+          "matplotlib",
+          "numpy",
+          "pandas",
+          "prefect",
+          "psycopg",
+          "psycopg_binary",
+          "pyarrow",
+          "requests",
+          "scikit-learn",
+          "tqdm"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2630,
+      "readme_excerpt": "\n\n# ml-monitoring\n\n```bash\n\nmkdir taxi_monitoring\ncd taxi_monitoring\nconda create -n py11 python=3.11\nconda activate py11\npip install -r requirements.txt\n```\n\n### Create config dir \n \n### create docker compose config file \n```bash\ndocker-compose up --build\n```\n\n\nMore information [here](../cohorts/2024/05-monitoring/homework.md)\n\n\n## Notes\n\nDid you take notes? Add them here:\n\n* [Week 5 notes by M. Ayoub C.](https://gist.github.com/Qfl3x/aa6b1bec35fb645ded0371c46e8aafd1)\n* [week 5: Monitoring notes Ayoub.B](https://github.com/ayoub-berdeddouch/mlops-journey/blob/main/monitoring-05.md)\n* [Week 5: 2023](https://github.com/dimzachar/mlops-zoomcamp/tree/master/notes/Week_5)\n* [Week5: Why we need to monitor models after deployment? by Hongfan (Amber)](https://github.com/Muhongfan/MLops/blob/main/05-monitoring/README.md)\n* Send a PR, add your notes above this line\n\n\n\n# Monitoring example\n\n## Prerequisites\n\nYou need following tools installed:\n- `docker`\n- `docker-compose` (included to Docker Desktop for Mac and Docker Desktop for Windows )\n\n## Preparation\n\nNote: all actions expected to be executed in repo folder.\n\n- Create virtual environment and activate it (eg. `python -m venv venv && sou",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2024-06-27T20:22:27+00:00",
+        "last_at": "2024-06-27T20:54:28+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 2,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 9,371,052 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 5,255 bytes (0% of repo)",
+          "strength": 0.40056045519840594
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (baseline_model_nyc_taxi_data.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "repo_name",
+          "detail": "'grafana' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "etl",
+          "source": "manifest",
+          "detail": "prefect in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "psycopg in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9376307,
+        "strong_skills": [
+          "data-viz",
+          "docker",
+          "etl",
+          "machine-learning",
+          "pandas",
+          "postgresql",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mlops-batch-deployment-pipenv-docker",
+      "full_name": "Aryo80/mlops-batch-deployment-pipenv-docker",
+      "html_url": "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-06-18T13:19:42Z",
+      "pushed_at": "2024-06-18T14:09:34Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 28252,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 7727,
+        "Python": 1356,
+        "Dockerfile": 288
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 9,
+      "top_level_paths": [
+        "Dockerfile",
+        "Pipfile",
+        "Pipfile.lock",
+        "README.md",
+        "batch.py",
+        "model.bin",
+        "output",
+        "starter.ipynb"
+      ],
+      "notable_files": [
+        "Dockerfile",
+        "Pipfile"
+      ],
+      "manifests": {
+        "Pipfile": [
+          "name",
+          "numpy",
+          "pandas",
+          "pyarrow",
+          "python_version",
+          "s3fs",
+          "scikit-learn",
+          "url",
+          "verify_ssl"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1862,
+      "readme_excerpt": "# mlops-batch-deployment-pipenv-docker\n\nThis repository contains my learning progress and projects for the MLOps Zoomcamp. The MLOps Zoomcamp is a comprehensive course designed to teach the fundamentals and advanced concepts of Machine Learning Operations (MLOps). This repository serves as a documentation of my journey, including the homeworks, experiments, and models I have developed along the way.\n\n\n\n## Pipenv Configuration\n\nUse the following Pipfile configuration to set up the virtual environment with required dependencies:\n\n```toml\n[[source]]\nurl = \"https://pypi.org/simple\"\nverify_ssl = true\nname = \"pypi\"\n\n[packages]\nscikit-learn = \"==1.5.0\"\npandas = \"*\"\npyarrow = \"*\"\ns3fs = \"*\"\n\n[dev-packages]\n\n[requires]\npython_version = \"3.10\"\n```\n### Commands Description\n```bash\npip install pipenv\n```\nInstall Pipenv, a tool that provides a virtual environment and dependency management for Python projects.\n```bash\n pipenv install\n```\nInstalls dependencies specified in the Pipfile.lock file (if present) or Pipfile, creating a virtual environment for the project.\n```bash\n## pipenv shell\n```\nActivates the virtual environment created by Pipenv, allowing you to work within an isolated environment",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-06-18T13:18:33+00:00",
+        "last_at": "2024-06-18T14:09:34+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "README.md",
+          "README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 7,727 bytes (82% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,356 bytes (14% of repo)",
+          "strength": 0.5447017394088145
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (starter.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "repo_name",
+          "detail": "'docker' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in Pipfile",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in Pipfile",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9371,
+        "strong_skills": [
+          "docker",
+          "machine-learning",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+      "full_name": "Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+      "html_url": "https://github.com/Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2019-09-08T16:25:06Z",
+      "pushed_at": "2024-04-25T23:57:52Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4442,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 32052
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 5,
+      "top_level_paths": [
+        "Cleaned_Nashville.csv",
+        "Nashville Housing.csv",
+        "Pandas_Data_cleaning.ipynb",
+        "README.md",
+        "images"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2648,
+      "readme_excerpt": "# Nashville Housing Data Cleaning and Visualization\nThis repository contains a dataset revolving around housing sales in Nashville, Tennessee. The dataset includes crucial information such as sale price, sale date, land use, and property details. This README.md file outlines the process of cleaning and preparing the data for analysis.\n\n## Data Cleaning Process\n### Renaming Columns and Data Type Conversion\nRenamed columns for consistency and clarity.\nConverted specific columns to numerical types and ensured sale_date is in datetime format.\n### Handling Missing Values\nRemoved entries with missing unique_id, as it serves as the primary key.\nRemoved entries with missing values in land_value, building_value, city, and sale_price columns.\n## Data Cleaning and Standardization\nStandardized categories in the land_use column by replacing duplicates, typos, and abbreviations.\nCorrected entries in the sold_as_vacant column by replacing 'Y' with 'Yes' and 'N' with 'No'.\n### Data Analysis and Processing\nCalculated profit for each sale by deducing land value and building value from the sale price.\nExtracted the year from the sale date to analyze profit growth over the years.\n## Data Analysis Resu",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-04-25T20:45:47+00:00",
+        "last_at": "2024-04-25T23:57:52+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Create README.md",
+          "Create text.txt",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 32,052 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Pandas_Data_cleaning.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "repo_name",
+          "detail": "'pandas' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "repo_name",
+          "detail": "'tableau' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 32052,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 9546427,
+    "Python": 61638,
+    "HTML": 25788,
+    "Shell": 1481,
+    "Dockerfile": 288
+  },
+  "total_commits": 71,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "Aryo80/experiment-tracking-mlflow-zoomcamp",
+        "Aryo80/mlops-monitoring-grafana-evidently",
+        "Aryo80/mlops-batch-deployment-pipenv-docker",
+        "Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 9608065,
+      "commit_count": 71,
+      "first_seen": "2024-04-25T20:45:47+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: Python: 46,261 bytes (97% of repo)",
+        "experiment-tracking-mlflow-zoomcamp: Jupyter Notebook: 135,596 bytes (80% of repo)",
+        "experiment-tracking-mlflow-zoomcamp: Python: 8,766 bytes (5% of repo)",
+        "mlops-monitoring-grafana-evidently: Jupyter Notebook: 9,371,052 bytes (100% of repo)",
+        "mlops-monitoring-grafana-evidently: Python: 5,255 bytes (0% of repo)",
+        "mlops-batch-deployment-pipenv-docker: Jupyter Notebook: 7,727 bytes (82% of repo)",
+        "mlops-batch-deployment-pipenv-docker: Python: 1,356 bytes (14% of repo)",
+        "Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau: Jupyter Notebook: 32,052 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "Aryo80/experiment-tracking-mlflow-zoomcamp",
+        "Aryo80/mlops-monitoring-grafana-evidently",
+        "Aryo80/mlops-batch-deployment-pipenv-docker",
+        "Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "manifest",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 71,
+      "first_seen": "2024-04-25T20:45:47+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: numpy in requirements.txt",
+        "experiment-tracking-mlflow-zoomcamp: jupyter notebook (02-experiment-tracking/duration-prediction.ipynb)",
+        "mlops-monitoring-grafana-evidently: jupyter notebook (baseline_model_nyc_taxi_data.ipynb)",
+        "mlops-monitoring-grafana-evidently: numpy in requirements.txt",
+        "mlops-batch-deployment-pipenv-docker: jupyter notebook (starter.ipynb)",
+        "mlops-batch-deployment-pipenv-docker: numpy in Pipfile",
+        "Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau: jupyter notebook (Pandas_Data_cleaning.ipynb)",
+        "Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau: 'pandas' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "Aryo80/mlops-monitoring-grafana-evidently",
+        "Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 52,
+      "first_seen": "2024-04-25T20:45:47+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: matplotlib in requirements.txt",
+        "mlops-monitoring-grafana-evidently: matplotlib in requirements.txt",
+        "Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau: 'tableau' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "Aryo80/mlops-monitoring-grafana-evidently",
+        "Aryo80/mlops-batch-deployment-pipenv-docker"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 52,
+      "first_seen": "2024-06-18T13:18:33+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: scikit-learn in requirements.txt",
+        "mlops-monitoring-grafana-evidently: scikit-learn in requirements.txt",
+        "mlops-batch-deployment-pipenv-docker: scikit-learn in Pipfile"
+      ]
+    },
+    {
+      "skill_id": "etl",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 49,
+      "first_seen": "2024-06-27T20:22:27+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: prefect in requirements.txt",
+        "mlops-monitoring-grafana-evidently: prefect in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 47,
+      "first_seen": "2024-08-12T22:28:18+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: nltk in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 47,
+      "first_seen": "2024-08-12T22:28:18+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: selenium in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2024-06-27T20:22:27+00:00",
+      "last_seen": "2024-06-27T20:54:28+00:00",
+      "details": [
+        "mlops-monitoring-grafana-evidently: psycopg in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Aryo80/mlops-monitoring-grafana-evidently",
+        "Aryo80/mlops-batch-deployment-pipenv-docker"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2024-06-18T13:18:33+00:00",
+      "last_seen": "2024-06-27T20:54:28+00:00",
+      "details": [
+        "mlops-monitoring-grafana-evidently: docker-compose (docker-compose.yml)",
+        "mlops-batch-deployment-pipenv-docker: Dockerfile (Dockerfile)",
+        "mlops-batch-deployment-pipenv-docker: 'docker' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Aryo80/experiment-tracking-mlflow-zoomcamp"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5515603878930355,
+      "total_bytes": 25788,
+      "commit_count": 16,
+      "first_seen": "2024-05-21T01:49:57+00:00",
+      "last_seen": "2024-06-09T22:36:15+00:00",
+      "details": [
+        "experiment-tracking-mlflow-zoomcamp: HTML: 25,788 bytes (15% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Aryo80/Hello-Fresh-Canada-Review-Analyzer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4310209040258054,
+      "total_bytes": 1481,
+      "commit_count": 47,
+      "first_seen": "2024-08-12T22:28:18+00:00",
+      "last_seen": "2024-08-22T22:00:01+00:00",
+      "details": [
+        "Hello-Fresh-Canada-Review-Analyzer: Shell: 1,481 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2024-06-27T20:22:27+00:00",
+      "last_seen": "2024-06-27T20:54:28+00:00",
+      "details": [
+        "mlops-monitoring-grafana-evidently: 'grafana' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 71,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-17T01:21:01.619368+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

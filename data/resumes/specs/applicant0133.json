@@ -1,0 +1,127 @@
+{
+  "github_login": "cssantosa",
+  "applicant_id": "applicant0133",
+  "first_name": "Delphine",
+  "last_name": "Okonjo",
+  "career_stage": "student",
+  "email": "delphine@ashgrove.example",
+  "phone": "(555) 010-0133",
+  "location": "Ashgrove Landing",
+  "linkedin": "linkedin.example.com/in/delphine-okonjo",
+  "github_url": "github.example.com/delphine-okonjo",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Ashgrove Landing College",
+    "location": "Ashgrove Landing",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Economics",
+    "graduation": "May 2028",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Machine Learning",
+      "Web Development",
+      "Applied Statistics",
+      "Microeconomics"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Venturex Optimizer",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Mar 2026",
+      "bullets": [
+        "Built a TypeScript and React tool to compare business-class flight redemptions across airline transfer partners.",
+        "Wrote Playwright end-to-end tests after early manual checks missed broken redemption-rate lookups."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Fraud ML Classification",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Nov 2025",
+      "bullets": [
+        "Trained an XGBoost model on auto-loan data to flag fraud, comparing models and tuning hyperparameters for recall.",
+        "Used SHAP to inspect which features drove flagged cases, questioning results that looked too clean before trusting them."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "title": "AI Agent Job Pipeline",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built a Python pipeline using an LLM and Selenium to parse job postings against a resume-matching taxonomy."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Discussion Facilitator",
+      "organization": "Ashgrove Data Ethics Reading Group",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Facilitated discussions on algorithmic bias in lending models, connecting readings to her own fraud-model results."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "TypeScript"
+    ],
+    "Frontend": [
+      "Tailwind CSS",
+      "React"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Web Scraping",
+      "Data Visualization"
+    ],
+    "AI/ML": [
+      "Machine Learning",
+      "LLM Application Development",
+      "Deep Learning",
+      "Natural Language Processing"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Quality": [
+      "Integration & E2E Testing",
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

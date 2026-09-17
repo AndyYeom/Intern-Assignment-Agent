@@ -1,0 +1,1111 @@
+{
+  "applicant_id": "applicant0157",
+  "login": "intelligent04",
+  "html_url": "https://github.com/intelligent04",
+  "created_at": "2021-07-24T23:57:12Z",
+  "account_age_days": 1880,
+  "public_repos": 25,
+  "followers": 6,
+  "following": 6,
+  "repos": [
+    {
+      "name": "VIXexpectation",
+      "full_name": "intelligent04/VIXexpectation",
+      "html_url": "https://github.com/intelligent04/VIXexpectation",
+      "description": "predict volatility of stock market by machine learning",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-02-25T07:20:12Z",
+      "pushed_at": "2025-05-16T14:37:21Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12727,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 3393898,
+        "Python": 3820
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 76,
+      "top_level_paths": [
+        "1.Missing_value_handling.ipynb",
+        "2.Check_missing_dates.ipynb",
+        "3.Kalman_Filter.ipynb",
+        "4.Time_Series_Decomposition.ipynb",
+        "5.ACF_PACF.ipynb",
+        "6.stationarization.ipynb",
+        "7.Minmaxscaler.ipynb",
+        "Kalman_filter.py",
+        "Kalman_filtered_data",
+        "README.md",
+        "__pycache__",
+        "data",
+        "filtered_data",
+        "minmax_scaled_price",
+        "normalized_data",
+        "processed_data",
+        "residual_data"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 210,
+      "readme_excerpt": "인공지능 기반 주식시장 변동성 이상탐지모델 개발논문에 있는 내용을 따라 실제로\n변동성 예측에 필요한 데이터를 수집하고, 가공하고, 변동성 차트의 추세를 파악하는 프로젝트 입니다.(미완)\n\n논문자료: [인공지능 기반 주식시장 변동성 이상탐지모델 개발논문.pdf](https://github.com/user-attachments/files/20245521/default.pdf)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2025-02-28T11:38:16+00:00",
+        "last_at": "2025-05-16T14:37:20+00:00",
+        "active_days": 3,
+        "span_days": 77,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.125,
+        "messages_sample": [
+          "Create README.md",
+          "save",
+          "minmax 스케일링 다 했고 시각화도 다 함",
+          "로그,차분 정상화하고 시각화로 확인",
+          "원본 데이터에 USD_KRW Histrical만 2006년 1월 2일부터 시작하길래 1월 3일부터 시작하게 바꿔줌",
+          "2번파일 주석 닮",
+          "1,2번파일 변수 간편화, 이상한 점 고치기 하려다가 실패하고 이 레포 파기전으로 돌림",
+          "save"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 7,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 3,393,898 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 3,820 bytes (0% of repo)",
+          "strength": 0.401124284004735
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (1.Missing_value_handling.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3397718,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "baek",
+      "full_name": "intelligent04/baek",
+      "html_url": "https://github.com/intelligent04/baek",
+      "description": "This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-07-14T13:14:30Z",
+      "pushed_at": "2025-11-19T05:36:52Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 246,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 48987,
+        "Java": 10321,
+        "C++": 1795
+      },
+      "primary_language": "Python",
+      "file_count": 246,
+      "top_level_paths": [
+        "16173번： 점프왕 쩰리 (Small)",
+        "README.md",
+        "백준",
+        "프로그래머스"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 136,
+      "readme_excerpt": "# baek\nThis is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 112,
+        "first_at": "2023-12-22T12:18:10+00:00",
+        "last_at": "2025-11-19T05:36:51+00:00",
+        "active_days": 76,
+        "span_days": 697,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.009,
+        "messages_sample": [
+          "[Silver IV] Title: 상근이의 여행, Time: 3676 ms, Memory: 32412 KB -BaekjoonHub",
+          "[Silver V] Title: BABBA, Time: 36 ms, Memory: 32412 KB -BaekjoonHub",
+          "[Silver III] Title: 진우의 달 여행 (Small), Time: 36 ms, Memory: 32412 KB -BaekjoonHub",
+          "[Silver IV] Title: 연속부분최대곱, Time: 284 ms, Memory: 35560 KB -BaekjoonHub",
+          "[Silver III] Title: 도시와 비트코인, Time: 136 ms, Memory: 114540 KB -BaekjoonHub",
+          "[Silver III] Title: 악수, Time: 2852 ms, Memory: 32412 KB -BaekjoonHub",
+          "[Silver III] Title: 피보나치 수의 확장, Time: 6584 ms, Memory: 212060 KB -BaekjoonHub",
+          "[Silver IV] Title: 점화식, Time: 36 ms, Memory: 32412 KB -BaekjoonHub",
+          "[Silver V] Title: 돌 게임 2, Time: 44 ms, Memory: 32544 KB -BaekjoonHub",
+          "[Silver V] Title: 올림픽, Time: 60 ms, Memory: 33432 KB, Score: 100 point -BaekjoonHub",
+          "[Gold V] Title: 평범한 배낭, Time: 2552 ms, Memory: 36264 KB -BaekjoonHub",
+          "[Silver II] Title: 연속합, Time: 80 ms, Memory: 39096 KB -BaekjoonHub",
+          "[Silver I] Title: 정수 삼각형, Time: 120 ms, Memory: 36504 KB -BaekjoonHub",
+          "Merge branch 'main' of https://github.com/intelligent04/baek",
+          "[Bronze III] Title: 곱셈, Time: 32 ms, Memory: 32412 KB -BaekjoonHub",
+          "[Silver II] Title: 베르트랑 공준, Time: 560 ms, Memory: 35900 KB -BaekjoonHub",
+          "[Silver III] Title: 두 수의 합, Time: 84 ms, Memory: 42660 KB -BaekjoonHub",
+          "[Silver IV] Title: 토너먼트, Time: 36 ms, Memory: 32412 KB -BaekjoonHub",
+          "[level 0] Title: 삼각형의 완성조건 (2), Time: 0.43 ms, Memory: 9.1 MB -BaekjoonHub",
+          "[Bronze I] Title: 한조서열정리하고옴ㅋㅋ, Time: 1436 ms, Memory: 113180 KB -BaekjoonHub"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 121
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 48,987 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 10,321 bytes (17% of repo)",
+          "strength": 0.5689115100731552
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,795 bytes (3% of repo)",
+          "strength": 0.42937662635222495
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 61103,
+        "strong_skills": [
+          "java",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "reactpractice",
+      "full_name": "intelligent04/reactpractice",
+      "html_url": "https://github.com/intelligent04/reactpractice",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-10T01:32:29Z",
+      "pushed_at": "2025-07-14T08:27:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 238,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 5871,
+        "JavaScript": 474,
+        "CSS": 22
+      },
+      "primary_language": "TypeScript",
+      "file_count": 23,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "prisma",
+        "public",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/eslintrc",
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "eslint",
+          "eslint-config-next",
+          "next",
+          "prisma",
+          "react",
+          "react-dom",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1450,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-07-10T06:01:53+00:00",
+        "last_at": "2025-07-14T08:26:55+00:00",
+        "active_days": 3,
+        "span_days": 4,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "1",
+          "remove",
+          "test"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "tutorial|bootcamp|course(work)?|lesson|exercise|practice|workshop"
+        ],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 5,871 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 474 bytes (7% of repo)",
+          "strength": 0.4744463640647087
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "prisma schema (prisma/schema.prisma)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "prisma in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6367,
+        "strong_skills": [
+          "data-modeling",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "todo-list",
+      "full_name": "intelligent04/todo-list",
+      "html_url": "https://github.com/intelligent04/todo-list",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-03T05:48:20Z",
+      "pushed_at": "2025-07-03T05:48:22Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 61,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 962
+      },
+      "primary_language": "Java",
+      "file_count": 13,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "build.gradle.kts",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle.kts",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle.kts"
+      ],
+      "manifests": {
+        "build.gradle.kts": [
+          "junit-bom",
+          "junit-jupiter",
+          "org.junit",
+          "org.junit.jupiter"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-07-03T05:47:57+00:00",
+        "last_at": "2025-07-03T05:47:57+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "1"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [
+          "(^|[-_])(todo|to-?do)([-_]?(app|list))?([-_]|$)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 962 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit-bom in build.gradle.kts",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 962,
+        "strong_skills": [
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "web",
+      "full_name": "intelligent04/web",
+      "html_url": "https://github.com/intelligent04/web",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-05-07T05:13:52Z",
+      "pushed_at": "2025-05-16T14:49:30Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 70,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 1247
+      },
+      "primary_language": "HTML",
+      "file_count": 3,
+      "top_level_paths": [
+        "README.md",
+        "bonobono.png",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 21,
+      "readme_excerpt": "간단한 자기소개 웹페이지 실습입니다.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2023-05-10T03:11:50+00:00",
+        "last_at": "2025-05-16T14:49:30+00:00",
+        "active_days": 2,
+        "span_days": 737,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Create README.md",
+          "“bonobono”",
+          "“index”",
+          "“introduce”"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,247 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1247,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 3393898,
+    "Python": 52807,
+    "Java": 11283,
+    "TypeScript": 5871,
+    "C++": 1795,
+    "HTML": 1247,
+    "JavaScript": 474,
+    "CSS": 22
+  },
+  "total_commits": 128,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "intelligent04/VIXexpectation",
+        "intelligent04/baek"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3446705,
+      "commit_count": 120,
+      "first_seen": "2023-12-22T12:18:10+00:00",
+      "last_seen": "2025-11-19T05:36:51+00:00",
+      "details": [
+        "VIXexpectation: Jupyter Notebook: 3,393,898 bytes (100% of repo)",
+        "VIXexpectation: Python: 3,820 bytes (0% of repo)",
+        "baek: Python: 48,987 bytes (80% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "intelligent04/baek",
+        "intelligent04/todo-list"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 11283,
+      "commit_count": 113,
+      "first_seen": "2023-12-22T12:18:10+00:00",
+      "last_seen": "2025-11-19T05:36:51+00:00",
+      "details": [
+        "baek: Java: 10,321 bytes (17% of repo)",
+        "todo-list: Java: 962 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "intelligent04/reactpractice"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 5871,
+      "commit_count": 3,
+      "first_seen": "2025-07-10T06:01:53+00:00",
+      "last_seen": "2025-07-14T08:26:55+00:00",
+      "details": [
+        "reactpractice: TypeScript: 5,871 bytes (92% of repo)",
+        "reactpractice: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "intelligent04/web"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1247,
+      "commit_count": 4,
+      "first_seen": "2023-05-10T03:11:50+00:00",
+      "last_seen": "2025-05-16T14:49:30+00:00",
+      "details": [
+        "web: HTML: 1,247 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "intelligent04/reactpractice"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-07-10T06:01:53+00:00",
+      "last_seen": "2025-07-14T08:26:55+00:00",
+      "details": [
+        "reactpractice: next config (next.config.ts)",
+        "reactpractice: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "intelligent04/reactpractice"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-07-10T06:01:53+00:00",
+      "last_seen": "2025-07-14T08:26:55+00:00",
+      "details": [
+        "reactpractice: prisma schema (prisma/schema.prisma)",
+        "reactpractice: prisma in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "intelligent04/reactpractice"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-07-10T06:01:53+00:00",
+      "last_seen": "2025-07-14T08:26:55+00:00",
+      "details": [
+        "reactpractice: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "intelligent04/reactpractice"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-07-10T06:01:53+00:00",
+      "last_seen": "2025-07-14T08:26:55+00:00",
+      "details": [
+        "reactpractice: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "intelligent04/todo-list"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2025-07-03T05:47:57+00:00",
+      "last_seen": "2025-07-03T05:47:57+00:00",
+      "details": [
+        "todo-list: junit-bom in build.gradle.kts"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "intelligent04/VIXexpectation"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2025-02-28T11:38:16+00:00",
+      "last_seen": "2025-05-16T14:37:20+00:00",
+      "details": [
+        "VIXexpectation: jupyter notebook (1.Missing_value_handling.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "intelligent04/reactpractice"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4744463640647087,
+      "total_bytes": 474,
+      "commit_count": 3,
+      "first_seen": "2025-07-10T06:01:53+00:00",
+      "last_seen": "2025-07-14T08:26:55+00:00",
+      "details": [
+        "reactpractice: JavaScript: 474 bytes (7% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "intelligent04/baek"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.42937662635222495,
+      "total_bytes": 1795,
+      "commit_count": 112,
+      "first_seen": "2023-12-22T12:18:10+00:00",
+      "last_seen": "2025-11-19T05:36:51+00:00",
+      "details": [
+        "baek: C++: 1,795 bytes (3% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 128,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:13:43.657354+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

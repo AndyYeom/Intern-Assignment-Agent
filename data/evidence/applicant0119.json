@@ -1,0 +1,346 @@
+{
+  "applicant_id": "applicant0119",
+  "github_login": "Iconia7",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0119.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Iconia7/nexora_website",
+        "https://github.com/Iconia7/elora-decor"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/nexora_website",
+          "html_url": "https://github.com/Iconia7/nexora_website",
+          "level": 3,
+          "reasons": [
+            "intermediate: 70 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/deploy.yml)"
+          ]
+        },
+        {
+          "repo": "Iconia7/elora-decor",
+          "html_url": "https://github.com/Iconia7/elora-decor",
+          "level": 2,
+          "reasons": [
+            "intermediate: 10 commits; has_ci, deployed, documented",
+            "GitHub Actions workflow (.github/workflows/deploy.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Iconia7/nexora_website"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/nexora_website",
+          "html_url": "https://github.com/Iconia7/nexora_website",
+          "level": 3,
+          "reasons": [
+            "intermediate: 70 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "recharts in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Iconia7/Dita-app"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/Dita-app",
+          "html_url": "https://github.com/Iconia7/Dita-app",
+          "level": 2,
+          "reasons": [
+            "intermediate: 58 commits; multi_month_span, many_active_days, documented",
+            "Dart: 926,345 bytes (82% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Iconia7/Bingwa-Sokoni-Applicaton",
+        "https://github.com/Iconia7/Dita-app"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/Bingwa-Sokoni-Applicaton",
+          "html_url": "https://github.com/Iconia7/Bingwa-Sokoni-Applicaton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 21 commits; multi_month_span, documented",
+            "HTML: 28,412 bytes (44% of repo)",
+            "CSS: 27,151 bytes (42% of repo)"
+          ]
+        },
+        {
+          "repo": "Iconia7/Dita-app",
+          "html_url": "https://github.com/Iconia7/Dita-app",
+          "level": 2,
+          "reasons": [
+            "intermediate: 58 commits; multi_month_span, many_active_days, documented",
+            "HTML: 142,585 bytes (13% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Iconia7/nexora_website",
+        "https://github.com/Iconia7/Bingwa-Sokoni-Applicaton",
+        "https://github.com/Iconia7/elora-decor"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/nexora_website",
+          "html_url": "https://github.com/Iconia7/nexora_website",
+          "level": 3,
+          "reasons": [
+            "intermediate: 70 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "JavaScript: 321,178 bytes (98% of repo)"
+          ]
+        },
+        {
+          "repo": "Iconia7/Bingwa-Sokoni-Applicaton",
+          "html_url": "https://github.com/Iconia7/Bingwa-Sokoni-Applicaton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 21 commits; multi_month_span, documented",
+            "JavaScript: 7,787 bytes (12% of repo)"
+          ]
+        },
+        {
+          "repo": "Iconia7/elora-decor",
+          "html_url": "https://github.com/Iconia7/elora-decor",
+          "level": 2,
+          "reasons": [
+            "intermediate: 10 commits; has_ci, deployed, documented",
+            "JavaScript: 21,507 bytes (95% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Iconia7/Dita-app"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/Dita-app",
+          "html_url": "https://github.com/Iconia7/Dita-app",
+          "level": 2,
+          "reasons": [
+            "intermediate: 58 commits; multi_month_span, many_active_days, documented",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Iconia7/NexoraChai"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/NexoraChai",
+          "html_url": "https://github.com/Iconia7/NexoraChai",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Iconia7/nexora_website",
+        "https://github.com/Iconia7/elora-decor",
+        "https://github.com/Iconia7/NexoraChai"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/nexora_website",
+          "html_url": "https://github.com/Iconia7/nexora_website",
+          "level": 3,
+          "reasons": [
+            "intermediate: 70 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "Iconia7/elora-decor",
+          "html_url": "https://github.com/Iconia7/elora-decor",
+          "level": 2,
+          "reasons": [
+            "intermediate: 10 commits; has_ci, deployed, documented",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "Iconia7/NexoraChai",
+          "html_url": "https://github.com/Iconia7/NexoraChai",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "state-management",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Iconia7/NexoraChai"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/NexoraChai",
+          "html_url": "https://github.com/Iconia7/NexoraChai",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "zustand in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Iconia7/nexora_website",
+        "https://github.com/Iconia7/elora-decor",
+        "https://github.com/Iconia7/NexoraChai"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/nexora_website",
+          "html_url": "https://github.com/Iconia7/nexora_website",
+          "level": 3,
+          "reasons": [
+            "intermediate: 70 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "Iconia7/elora-decor",
+          "html_url": "https://github.com/Iconia7/elora-decor",
+          "level": 2,
+          "reasons": [
+            "intermediate: 10 commits; has_ci, deployed, documented",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "Iconia7/NexoraChai",
+          "html_url": "https://github.com/Iconia7/NexoraChai",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Iconia7/NexoraChai"
+      ],
+      "repos": [
+        {
+          "repo": "Iconia7/NexoraChai",
+          "html_url": "https://github.com/Iconia7/NexoraChai",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 737,863 bytes (99% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 10
+  }
+}

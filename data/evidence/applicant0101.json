@@ -1,0 +1,338 @@
+{
+  "applicant_id": "applicant0101",
+  "github_login": "Aydana06",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0101.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/Window"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/Window",
+          "html_url": "https://github.com/Aydana06/Window",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: none",
+            "C#: 92,873 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/pharmacy-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/pharmacy-service",
+          "html_url": "https://github.com/Aydana06/pharmacy-service",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_docker",
+            "database migrations (auth-service/src/main/resources/db/migration/V1__create_users_table.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/pharmacy-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/pharmacy-service",
+          "html_url": "https://github.com/Aydana06/pharmacy-service",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_docker",
+            "Dockerfile (api-gateway/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aydana06/icd10-suggest-service",
+        "https://github.com/Aydana06/lab7",
+        "https://github.com/Aydana06/pharmacy-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/icd10-suggest-service",
+          "html_url": "https://github.com/Aydana06/icd10-suggest-service",
+          "level": 2,
+          "reasons": [
+            "intermediate: 9 commits; has_tests, documented",
+            "HTML: 40,664 bytes (38% of repo)"
+          ]
+        },
+        {
+          "repo": "Aydana06/lab7",
+          "html_url": "https://github.com/Aydana06/lab7",
+          "level": 1,
+          "reasons": [
+            "entry: 40 commits, independent-work signals: none",
+            "HTML: 36,795 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Aydana06/pharmacy-service",
+          "html_url": "https://github.com/Aydana06/pharmacy-service",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_docker",
+            "HTML: 29,530 bytes (15% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aydana06/icd10-suggest-service",
+        "https://github.com/Aydana06/pharmacy-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/icd10-suggest-service",
+          "html_url": "https://github.com/Aydana06/icd10-suggest-service",
+          "level": 2,
+          "reasons": [
+            "intermediate: 9 commits; has_tests, documented",
+            "Java: 65,351 bytes (62% of repo)"
+          ]
+        },
+        {
+          "repo": "Aydana06/pharmacy-service",
+          "html_url": "https://github.com/Aydana06/pharmacy-service",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_docker",
+            "Java: 127,382 bytes (63% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "mysql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aydana06/icd10-suggest-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/icd10-suggest-service",
+          "html_url": "https://github.com/Aydana06/icd10-suggest-service",
+          "level": 2,
+          "reasons": [
+            "intermediate: 9 commits; has_tests, documented",
+            "mysql-connector-java in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/zohiomj"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/zohiomj",
+          "html_url": "https://github.com/Aydana06/zohiomj",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "next config (next.config.ts)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "postgresql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aydana06/icd10-suggest-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/icd10-suggest-service",
+          "html_url": "https://github.com/Aydana06/icd10-suggest-service",
+          "level": 2,
+          "reasons": [
+            "intermediate: 9 commits; has_tests, documented",
+            "postgresql in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "spring",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aydana06/icd10-suggest-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/icd10-suggest-service",
+          "html_url": "https://github.com/Aydana06/icd10-suggest-service",
+          "level": 2,
+          "reasons": [
+            "intermediate: 9 commits; has_tests, documented",
+            "spring-boot-maven-plugin in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/pharmacy-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/pharmacy-service",
+          "html_url": "https://github.com/Aydana06/pharmacy-service",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_docker",
+            "SQL file (auth-service/src/main/resources/db/migration/V1__create_users_table.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/zohiomj"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/zohiomj",
+          "html_url": "https://github.com/Aydana06/zohiomj",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "tailwind config (tailwind.config.ts)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/zohiomj"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/zohiomj",
+          "html_url": "https://github.com/Aydana06/zohiomj",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "TypeScript: 63,560 bytes (99% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aydana06/icd10-suggest-service"
+      ],
+      "repos": [
+        {
+          "repo": "Aydana06/icd10-suggest-service",
+          "html_url": "https://github.com/Aydana06/icd10-suggest-service",
+          "level": 2,
+          "reasons": [
+            "intermediate: 9 commits; has_tests, documented",
+            "test directory (src/test/java/mn/num/hospital/icd10_service/AppTest.java)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "javascript",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aydana06/pharmacy-service"
+      ]
+    }
+  ],
+  "status_counts": {
+    "partially_verified": 4,
+    "verified": 9
+  }
+}

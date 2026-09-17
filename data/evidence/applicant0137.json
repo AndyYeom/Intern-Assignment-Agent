@@ -1,0 +1,201 @@
+{
+  "applicant_id": "applicant0137",
+  "github_login": "SUMAN1040",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0137.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SUMAN1040/PythonTutorial"
+      ],
+      "repos": [
+        {
+          "repo": "SUMAN1040/PythonTutorial",
+          "html_url": "https://github.com/SUMAN1040/PythonTutorial",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "database migrations (BackendWithDjango/MyAwesomeCart/blog/migrations/__init__.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SUMAN1040/techfest-website",
+        "https://github.com/SUMAN1040/Portfolio"
+      ],
+      "repos": [
+        {
+          "repo": "SUMAN1040/techfest-website",
+          "html_url": "https://github.com/SUMAN1040/techfest-website",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; deployed, documented",
+            "CSS: 15,261 bytes (58% of repo)",
+            "HTML: 6,913 bytes (26% of repo)"
+          ]
+        },
+        {
+          "repo": "SUMAN1040/Portfolio",
+          "html_url": "https://github.com/SUMAN1040/Portfolio",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "HTML: 59,258 bytes (51% of repo)",
+            "CSS: 38,515 bytes (33% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SUMAN1040/techfest-website",
+        "https://github.com/SUMAN1040/Portfolio"
+      ],
+      "repos": [
+        {
+          "repo": "SUMAN1040/techfest-website",
+          "html_url": "https://github.com/SUMAN1040/techfest-website",
+          "level": 2,
+          "reasons": [
+            "intermediate: 6 commits; deployed, documented",
+            "JavaScript: 4,253 bytes (16% of repo)"
+          ]
+        },
+        {
+          "repo": "SUMAN1040/Portfolio",
+          "html_url": "https://github.com/SUMAN1040/Portfolio",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "JavaScript: 18,295 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SUMAN1040/Sahaayak",
+        "https://github.com/SUMAN1040/UEM"
+      ],
+      "repos": [
+        {
+          "repo": "SUMAN1040/Sahaayak",
+          "html_url": "https://github.com/SUMAN1040/Sahaayak",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: multi_month_span",
+            "Kotlin: 39,482 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "SUMAN1040/UEM",
+          "html_url": "https://github.com/SUMAN1040/UEM",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Kotlin: 29,908 bytes (100% of repo)",
+            "Android app manifest (UEM/app/src/main/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SUMAN1040/PythonTutorial"
+      ],
+      "repos": [
+        {
+          "repo": "SUMAN1040/PythonTutorial",
+          "html_url": "https://github.com/SUMAN1040/PythonTutorial",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "jupyter notebook (Numpy/phase-1.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SUMAN1040/PythonTutorial"
+      ],
+      "repos": [
+        {
+          "repo": "SUMAN1040/PythonTutorial",
+          "html_url": "https://github.com/SUMAN1040/PythonTutorial",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Jupyter Notebook: 12,871,344 bytes (99% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SUMAN1040/PythonTutorial"
+      ],
+      "repos": [
+        {
+          "repo": "SUMAN1040/PythonTutorial",
+          "html_url": "https://github.com/SUMAN1040/PythonTutorial",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "test directory (Numpy/env/lib/python3.9/site-packages/IPython/core/tests/__init__.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 6
+  }
+}

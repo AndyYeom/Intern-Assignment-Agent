@@ -1,0 +1,517 @@
+{
+  "applicant_id": "applicant0151",
+  "github_login": "fabianoobispo1",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0151.json",
+  "skills": [
+    {
+      "skill_id": "auth",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo",
+        "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+        "https://github.com/fabianoobispo1/jf_imperadores",
+        "https://github.com/fabianoobispo1/stripe-payment-site"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "next-auth in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/bruvii-site-bruvii",
+          "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, multi_month_span, many_active_days, documented",
+            "next-auth in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/jf_imperadores",
+          "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+          "level": 2,
+          "reasons": [
+            "intermediate: 75 commits; deployed, multi_month_span, many_active_days",
+            "next-auth in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/stripe-payment-site",
+          "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 19 commits; deployed, documented",
+            "next-auth in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "aws",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+        "https://github.com/fabianoobispo1/jf_imperadores"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/bruvii-site-bruvii",
+          "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, multi_month_span, many_active_days, documented",
+            "aws-sdk in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/jf_imperadores",
+          "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+          "level": 2,
+          "reasons": [
+            "intermediate: 75 commits; deployed, multi_month_span, many_active_days",
+            "aws-sdk in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo",
+        "https://github.com/fabianoobispo1/jf_imperadores",
+        "https://github.com/fabianoobispo1/stripe-payment-site"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "chart.js in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/jf_imperadores",
+          "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+          "level": 2,
+          "reasons": [
+            "intermediate: 75 commits; deployed, multi_month_span, many_active_days",
+            "chart.js in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/stripe-payment-site",
+          "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 19 commits; deployed, documented",
+            "recharts in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "Dockerfile (scripts/terminal-server/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "llm-apps",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fbc_podcast"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fbc_podcast",
+          "html_url": "https://github.com/fabianoobispo1/fbc_podcast",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "openai in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo",
+        "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+        "https://github.com/fabianoobispo1/jf_imperadores",
+        "https://github.com/fabianoobispo1/stripe-payment-site",
+        "https://github.com/fabianoobispo1/fbc_podcast"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/bruvii-site-bruvii",
+          "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, multi_month_span, many_active_days, documented",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/jf_imperadores",
+          "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+          "level": 2,
+          "reasons": [
+            "intermediate: 75 commits; deployed, multi_month_span, many_active_days",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/stripe-payment-site",
+          "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 19 commits; deployed, documented",
+            "next config (next.config.js)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/fbc_podcast",
+          "html_url": "https://github.com/fabianoobispo1/fbc_podcast",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (5 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo",
+        "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+        "https://github.com/fabianoobispo1/jf_imperadores",
+        "https://github.com/fabianoobispo1/stripe-payment-site",
+        "https://github.com/fabianoobispo1/fbc_podcast"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/bruvii-site-bruvii",
+          "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, multi_month_span, many_active_days, documented",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/jf_imperadores",
+          "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+          "level": 2,
+          "reasons": [
+            "intermediate: 75 commits; deployed, multi_month_span, many_active_days",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/stripe-payment-site",
+          "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 19 commits; deployed, documented",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/fbc_podcast",
+          "html_url": "https://github.com/fabianoobispo1/fbc_podcast",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (5 repo(s))."
+    },
+    {
+      "skill_id": "state-management",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo",
+        "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+        "https://github.com/fabianoobispo1/stripe-payment-site"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "zustand in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/bruvii-site-bruvii",
+          "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, multi_month_span, many_active_days, documented",
+            "zustand in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/stripe-payment-site",
+          "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 19 commits; deployed, documented",
+            "zustand in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo",
+        "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+        "https://github.com/fabianoobispo1/jf_imperadores",
+        "https://github.com/fabianoobispo1/stripe-payment-site",
+        "https://github.com/fabianoobispo1/fbc_podcast"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "tailwind config (tailwind.config.ts)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/bruvii-site-bruvii",
+          "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, multi_month_span, many_active_days, documented",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/jf_imperadores",
+          "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+          "level": 2,
+          "reasons": [
+            "intermediate: 75 commits; deployed, multi_month_span, many_active_days",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/stripe-payment-site",
+          "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 19 commits; deployed, documented",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/fbc_podcast",
+          "html_url": "https://github.com/fabianoobispo1/fbc_podcast",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "tailwind config (tailwind.config.ts)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (5 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "docs directory (docs/LABS_QUICK_START.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/fabianoobispo1/fabianoobispo",
+        "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+        "https://github.com/fabianoobispo1/jf_imperadores",
+        "https://github.com/fabianoobispo1/stripe-payment-site",
+        "https://github.com/fabianoobispo1/fbc_podcast"
+      ],
+      "repos": [
+        {
+          "repo": "fabianoobispo1/fabianoobispo",
+          "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "TypeScript: 679,697 bytes (96% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/bruvii-site-bruvii",
+          "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, multi_month_span, many_active_days, documented",
+            "TypeScript: 279,340 bytes (97% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/jf_imperadores",
+          "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+          "level": 2,
+          "reasons": [
+            "intermediate: 75 commits; deployed, multi_month_span, many_active_days",
+            "TypeScript: 560,966 bytes (98% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/stripe-payment-site",
+          "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 19 commits; deployed, documented",
+            "TypeScript: 88,038 bytes (95% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "fabianoobispo1/fbc_podcast",
+          "html_url": "https://github.com/fabianoobispo1/fbc_podcast",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 105,419 bytes (93% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (5 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 11
+  }
+}

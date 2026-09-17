@@ -1,0 +1,580 @@
+{
+  "applicant_id": "applicant0147",
+  "github_login": "rilsonjoas",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0147.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/scriptorium-divinum",
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/scriptorium-divinum",
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "database migrations (server/src/db/migrations/0000_early_rictor.sql)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "prisma schema (prisma/schema.prisma)",
+            "prisma in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/rilsonjoas/a-bancada-evangelica",
+        "https://github.com/rilsonjoas/portfolio-rilson"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "recharts in package.json"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/portfolio-rilson",
+          "html_url": "https://github.com/rilsonjoas/portfolio-rilson",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "recharts in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/scriptorium-divinum",
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "docker-compose (docker-compose.yml)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "Dockerfile (server/Dockerfile)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/rilsonjoas/TinDog"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/TinDog",
+          "html_url": "https://github.com/rilsonjoas/TinDog",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: deployed",
+            "HTML: 9,111 bytes (84% of repo)",
+            "CSS: 1,771 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "integration-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "e2e suite (lecionario-web/e2e/offline.spec.ts)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "e2e suite (e2e/boot-smoke.spec.ts)",
+            "@playwright/test in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "kubernetes manifests (src/components/charts/ExpenseAnalysisChart.tsx)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/scriptorium-divinum",
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "env config (lecionario-mobile/.env.example)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "server config (web/nginx.conf)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "@nestjs/core in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/rilsonjoas/a-bancada-evangelica",
+        "https://github.com/rilsonjoas/portfolio-rilson"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/portfolio-rilson",
+          "html_url": "https://github.com/rilsonjoas/portfolio-rilson",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "react-native",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "React Native bundler config (lecionario-mobile/metro.config.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/scriptorium-divinum"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "SQL file (database/schema.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/scriptorium-divinum",
+        "https://github.com/rilsonjoas/a-bancada-evangelica",
+        "https://github.com/rilsonjoas/portfolio-rilson"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "tailwind config (lecionario-web/tailwind.config.ts)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "tailwind config (web/tailwind.config.ts)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "tailwind config (tailwind.config.ts)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/portfolio-rilson",
+          "html_url": "https://github.com/rilsonjoas/portfolio-rilson",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "tailwind config (tailwind.config.ts)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "docs directory (docs/PLAY_STORE_SUBMISSION.md)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "docs directory (docs/A11Y-AUDIT.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/scriptorium-divinum",
+        "https://github.com/rilsonjoas/a-bancada-evangelica",
+        "https://github.com/rilsonjoas/portfolio-rilson"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "TypeScript: 2,019,760 bytes (95% of repo)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "TypeScript: 701,993 bytes (90% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "TypeScript: 1,127,404 bytes (97% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/portfolio-rilson",
+          "html_url": "https://github.com/rilsonjoas/portfolio-rilson",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "TypeScript: 226,892 bytes (96% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/rilsonjoas/lecionario",
+        "https://github.com/rilsonjoas/scriptorium-divinum",
+        "https://github.com/rilsonjoas/a-bancada-evangelica"
+      ],
+      "repos": [
+        {
+          "repo": "rilsonjoas/lecionario",
+          "html_url": "https://github.com/rilsonjoas/lecionario",
+          "level": 3,
+          "reasons": [
+            "intermediate: 126 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "test file (lecionario-mobile/src/lib/__tests__/artwork-fetcher.test.ts)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/scriptorium-divinum",
+          "html_url": "https://github.com/rilsonjoas/scriptorium-divinum",
+          "level": 3,
+          "reasons": [
+            "intermediate: 85 commits; has_ci, has_tests, has_docker, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "test directory (server/src/test/integration-setup.ts)"
+          ]
+        },
+        {
+          "repo": "rilsonjoas/a-bancada-evangelica",
+          "html_url": "https://github.com/rilsonjoas/a-bancada-evangelica",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, deployed, many_active_days, documented",
+            "test file (e2e/boot-smoke.spec.ts)",
+            "vitest in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 16
+  }
+}

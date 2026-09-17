@@ -1,0 +1,195 @@
+{
+  "applicant_id": "applicant0068",
+  "github_login": "AlexSpandex",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0068.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/AlexSpandex/Project-P"
+      ],
+      "repos": [
+        {
+          "repo": "AlexSpandex/Project-P",
+          "html_url": "https://github.com/AlexSpandex/Project-P",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "C#: 31,336 bytes (24% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/AlexSpandex/Sprout-Man"
+      ],
+      "repos": [
+        {
+          "repo": "AlexSpandex/Sprout-Man",
+          "html_url": "https://github.com/AlexSpandex/Sprout-Man",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 21,866 bytes (85% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/AlexSpandex/Sprout-Man"
+      ],
+      "repos": [
+        {
+          "repo": "AlexSpandex/Sprout-Man",
+          "html_url": "https://github.com/AlexSpandex/Sprout-Man",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/AlexSpandex/Stop-Talk",
+        "https://github.com/AlexSpandex/StopTalkMac"
+      ],
+      "repos": [
+        {
+          "repo": "AlexSpandex/Stop-Talk",
+          "html_url": "https://github.com/AlexSpandex/Stop-Talk",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Python: 10,395,667 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "AlexSpandex/StopTalkMac",
+          "html_url": "https://github.com/AlexSpandex/StopTalkMac",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 28,559,772 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/AlexSpandex/Sprout-Man",
+        "https://github.com/AlexSpandex/Stop-Talk",
+        "https://github.com/AlexSpandex/StopTalkMac"
+      ],
+      "repos": [
+        {
+          "repo": "AlexSpandex/Sprout-Man",
+          "html_url": "https://github.com/AlexSpandex/Sprout-Man",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "test file (node_modules/@replit/database/index.test.js)"
+          ]
+        },
+        {
+          "repo": "AlexSpandex/Stop-Talk",
+          "html_url": "https://github.com/AlexSpandex/Stop-Talk",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "test directory (venv/lib/python3.11/site-packages/pip/_vendor/colorama/tests/__init__.py)"
+          ]
+        },
+        {
+          "repo": "AlexSpandex/StopTalkMac",
+          "html_url": "https://github.com/AlexSpandex/StopTalkMac",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "test directory (Architecture/StopTalkMac/venv/lib/python3.11/site-packages/pip/_vendor/colorama/tests/__init__.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "websockets",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/AlexSpandex/Sprout-Man"
+      ],
+      "repos": [
+        {
+          "repo": "AlexSpandex/Sprout-Man",
+          "html_url": "https://github.com/AlexSpandex/Sprout-Man",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "ws in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "typescript",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/AlexSpandex/Sprout-Man"
+      ]
+    }
+  ],
+  "status_counts": {
+    "not_observed": 1,
+    "partially_verified": 3,
+    "verified": 3
+  }
+}

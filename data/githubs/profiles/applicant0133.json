@@ -1,0 +1,1244 @@
+{
+  "applicant_id": "applicant0133",
+  "login": "cssantosa",
+  "html_url": "https://github.com/cssantosa",
+  "created_at": "2024-12-15T00:01:57Z",
+  "account_age_days": 641,
+  "public_repos": 4,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "mag-7-sentiment-signals",
+      "full_name": "cssantosa/mag-7-sentiment-signals",
+      "html_url": "https://github.com/cssantosa/mag-7-sentiment-signals",
+      "description": "Web scraping tech/AI news, sentiment analysis (VADER + small LLMs), testing effect on Mag 7 stocks, and predictive modelling (XGBoost) to see if sentiment predicts returns.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-26T04:54:08Z",
+      "pushed_at": "2026-09-17T00:49:28Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11728,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 1432523,
+        "Python": 58007
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 261,
+      "top_level_paths": [
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        "README.md",
+        "change_log.md",
+        "config",
+        "data",
+        "notebooks",
+        "requirements.txt",
+        "scripts",
+        "src",
+        "visualizations"
+      ],
+      "notable_files": [
+        ".github/workflows/base_data.yml",
+        ".github/workflows/run-scrapers.yml",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "beautifulsoup4",
+          "feedparser",
+          "lxml",
+          "matplotlib",
+          "newsapi-python",
+          "numpy",
+          "pandas",
+          "pyyaml",
+          "requests",
+          "scipy",
+          "seaborn",
+          "torch",
+          "transformers",
+          "xgboost",
+          "yfinance"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 10670,
+      "readme_excerpt": "# Mag 7 AI Sentiment Pipeline\n\nThis project primarily tests how a traditional NLP baseline (FinBERT) compares to local small LLMs for headline sentiment classification in the Magnificent 7 (`NVDA`, `MSFT`, `AAPL`, `AMZN`, `GOOGL`, `META`, `TSLA`), especially in tasks where richer context can matter.\n\nA secondary objective is testing whether those sentiment signals can help predict short-horizon stock returns, including whether the effect is directional or contrarian.\n\n## Core Technical Idea\n\nHeadlines are not only tagged by direct ticker mentions. They are mapped through a relationship graph (aliases, products, subsidiaries, suppliers, partners, competitors), then scored by multiple sentiment backends, then aligned to forward returns at several horizons.\n\n```mermaid\nflowchart TD\n    scrape[ScrapedHeadlines] --> match[RelationshipMapping]\n    match --> aiFlag[AIRelevanceFilter]\n    aiFlag --> sentiment[SentimentBackends]\n    sentiment --> horizon[HorizonReturnAnalysis]\n    horizon --> findings[ContrarianFindings]\n```\n\n## Relationship Mapping (Config-Driven)\n\nThe mapping layer is the core of ticker attribution and prompt context.\n\n- **`config/entities_global.yaml`**: global AI releva",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.021,
+      "commits": {
+        "count": 17,
+        "first_at": "2026-02-26T05:01:57+00:00",
+        "last_at": "2026-03-23T02:47:08+00:00",
+        "active_days": 4,
+        "span_days": 24,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.059,
+        "messages_sample": [
+          "csv base change",
+          "new headline origin",
+          "update",
+          "Merge pull request #1 from cssantosa/sentiment_db",
+          "sentiment db testing",
+          "sentiment analysis and script fixes",
+          "changing buffer to 30 mins",
+          "adding yaml workflow that will automate creating/appending master file before processing",
+          "Merge branch 'main' of https://github.com/cssantosa/mag-7-sentiment-signals",
+          "organizing notebooks and fixing scraper timezones",
+          "organizing notebooks and fixing scraper timezones",
+          "workflow fix",
+          "Merge config-hierarchy-v1 into main",
+          "Add hierarchy configs and global AI context",
+          "updated change log",
+          "scraping workflow yaml",
+          "Initial commit: scrapers, headlines JSONL, config, README"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 6,
+        "code_file_count": 19
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 1,432,523 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 58,007 bytes (4% of repo)",
+          "strength": 0.43891702951299205
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/base_data.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (notebooks/database_testing.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "beautifulsoup4 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "deep-learning",
+          "source": "manifest",
+          "detail": "torch in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nlp",
+          "source": "manifest",
+          "detail": "transformers in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "xgboost in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 1490530,
+        "strong_skills": [
+          "cicd",
+          "data-viz",
+          "deep-learning",
+          "machine-learning",
+          "nlp",
+          "pandas",
+          "python",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "fraud-ml-classification",
+      "full_name": "cssantosa/fraud-ml-classification",
+      "html_url": "https://github.com/cssantosa/fraud-ml-classification",
+      "description": "Auto loan fraud detection using XGBoost. Includes data generation, model comparison, hyperparameter tuning, and interpretability analysis with SHAP. Achieves 72% fraud recall and 70% AUC.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-26T22:59:55Z",
+      "pushed_at": "2025-11-26T23:27:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3047,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 797143
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 16,
+      "top_level_paths": [
+        "README.md",
+        "best_model_eval.ipynb",
+        "data",
+        "decision_tree_tuning.ipynb",
+        "images",
+        "logistic_tuning.ipynb",
+        "model_comparison.ipynb",
+        "results",
+        "xgboost_tuning.ipynb"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6286,
+      "readme_excerpt": "# Auto Loan Collateral Misrepresentation Fraud Detection\n\nMachine learning project to detect fraudulent collateral misrepresentation in auto loan applications using synthetic data and multiple classification algorithms.\n\n## Project Overview\n\nThis project develops and evaluates machine learning models to identify potential fraud in auto loan applications where borrowers may misrepresent vehicle collateral features. The analysis compares five classification algorithms, performs hyperparameter tuning, and provides model interpretability through SHAP analysis.\n\n## Key Results\n\n- **Best Model**: XGBoost Classifier\n- **Test AUC**: 70.83%\n- **Fraud Detection Rate**: 72.2% (Recall)\n- **Optimal Threshold**: 0.458\n\n## Dataset\n\nSynthetic dataset of 100,000 auto loan records generated using the Faker library with realistic fraud patterns:\n- **Features**: 141 (after feature engineering and one-hot encoding)\n- **Target Variable**: Collateral misrepresentation (19% fraud rate)\n- **Key Features**: LTV ratio, vehicle age, make/model, financing amount, collateral options\n\n### Fraud Generation Rules\n- LTV ratio > 1.1: +20% fraud probability\n- Vehicle year ≤ 2020: +10% fraud probability\n- Luxury brand",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-11-26T23:07:28+00:00",
+        "last_at": "2025-11-26T23:27:22+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "fixing project structure",
+          "image fix",
+          "adding visualizations",
+          "adding readme",
+          "Create README.md",
+          "Initial Commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "learning project"
+        ],
+        "notebook_count": 6,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 797,143 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (best_model_eval.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "repo_name",
+          "detail": "'ml' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 797143,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ai-agent-job-pipeline",
+      "full_name": "cssantosa/ai-agent-job-pipeline",
+      "html_url": "https://github.com/cssantosa/ai-agent-job-pipeline",
+      "description": "An end-to-end LLM pipeline leveraging Qwen-2.5-32B and Selenium to parse complex job descriptions and evaluate resume alignment. Features a custom skills taxonomy for semantic matching, a robust Pandas-based tracking backend, and a real-time HTML analytics dashboard",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-09T12:30:35Z",
+      "pushed_at": "2026-02-11T03:05:28Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 30,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 54879
+      },
+      "primary_language": "Python",
+      "file_count": 19,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "LICENSE",
+        "README.md",
+        "STRUCTURE.md",
+        "apply.py",
+        "code",
+        "requirements.txt",
+        "working.md"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "beautifulsoup4",
+          "crewai",
+          "langchain-ollama",
+          "litellm",
+          "pandas",
+          "python-docx",
+          "requests",
+          "selenium"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 8001,
+      "readme_excerpt": "# Multi-Agent Job Application System\n\nAutomated job application pipeline using 3 AI agents powered by Ollama (Llama 3.1 8B + Mistral) for free local inference.\n\n## Features\n\n- 🔍 **3-Prong Scraping**: Static sites (BeautifulSoup + requests), JS-rendered (Selenium), Shadow DOM piercing; extracts compensation/salary when present\n- 🤖 **3 AI Agents**: Application analyst (resume + JD), ATS match specialist (score + explanation), cover letter writer (Mistral, natural tone)\n- 📊 **Smart ATS Matching**: Uses skills taxonomy to recognize equivalent tools (PySpark = Big Data, XGBoost = ML, etc.)\n- 📝 **DOCX Cover Letters**: Formatted cover letters matching your style\n- 📈 **Dashboard**: HTML dashboard with application tracking and match scores\n- 🎯 **Single Command**: `python apply.py <job_url>` runs entire pipeline\n\n## Requirements\n\n### 1. Install Ollama\nDownload and install from: https://ollama.com\n\n### 2. Pull Ollama models\n```cmd\nollama pull llama3.1:8b\nollama pull mistral:latest\n```\n- Llama 3.1 8B is used for the Application Analyst and ATS Match Specialist.\n- Mistral is used for the Cover Letter Writer.\n\n### 3. Install Python Dependencies\n```cmd\npip install -r requirements.txt\n```\nOr manua",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-02-11T02:50:43+00:00",
+        "last_at": "2026-02-11T03:05:23+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "documentation",
+          "next steps to working.md 2/10/26",
+          "3 prong scraper approach + cover letter format updates via mistral llm switch, prompt engineering + resume switch to json ref"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 54,879 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "repo_name",
+          "detail": "'agent' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "html-css",
+          "source": "repo_name",
+          "detail": "'html' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "pandas",
+          "source": "repo_name",
+          "detail": "'pandas' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "repo_name",
+          "detail": "'selenium' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "beautifulsoup4 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "manifest",
+          "detail": "litellm in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "pandas in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 54879,
+        "strong_skills": [
+          "llm-apps",
+          "pandas",
+          "python",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "venturex-optimizer",
+      "full_name": "cssantosa/venturex-optimizer",
+      "html_url": "https://github.com/cssantosa/venturex-optimizer",
+      "description": "Created a website to view business class flights in terms of Capital One Airline Transfer partners to Asia using Supabase",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-30T05:15:52Z",
+      "pushed_at": "2026-03-30T05:49:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 193,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 263453,
+        "CSS": 2339,
+        "HTML": 1036,
+        "JavaScript": 913
+      },
+      "primary_language": "TypeScript",
+      "file_count": 95,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "bun.lock",
+        "components.json",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "playwright-fixture.ts",
+        "playwright.config.ts",
+        "postcss.config.js",
+        "src",
+        "supabase",
+        "tailwind.config.ts",
+        "tailwind.generated.config.js",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts",
+        "vitest.config.ts"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@hookform/resolvers",
+          "@playwright/test",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@supabase/supabase-js",
+          "@tailwindcss/typography",
+          "@tanstack/react-query",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react-swc",
+          "autoprefixer",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "date-fns",
+          "embla-carousel-react",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "globals",
+          "input-otp",
+          "jsdom",
+          "lucide-react",
+          "next-themes",
+          "postcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-resizable-panels",
+          "react-router-dom",
+          "recharts",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "typescript-eslint",
+          "vaul",
+          "vite",
+          "vitest",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2873,
+      "readme_excerpt": "# VentureX Transfer Optimizer\n\n**Purpose:** Help you compare **Capital One miles** when planning **US → international** trips, with a focus on **business class** cash fares from live search and how they stack up against **airline transfer partners** (ratios, promos, and optional award observations). I made this using Cursor within a day because I have the VentureX card and want to see if it's possible to fly to Asia in business class.\n\n## What it does\n\n- **Partner directory** — Active partners, transfer ratios, and in-window bonuses from Supabase (`transfer_partners`, `transfer_promotions`).\n- **Flight search** — Live Google Flights–style results via **SerpAPI**, proxied through a **Supabase Edge Function** so your API key stays server-side. Metro airports (e.g. Dallas → DFW/DAL) can be searched together. Not all airports exist within it\n- **Value hints** — For each result, shows transfer-oriented options using `partner_value_ranges` (cpp range + single `transfer_multiplier`) and, when present, **observed** award miles from `award_price_observations`.\n\nAlways confirm transfer rules and promos on [Capital One’s transfer partner page](https://www.capitalone.com/learn-grow/money-manag",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-03-30T05:49:24+00:00",
+        "last_at": "2026-03-30T05:49:24+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Initial commit: VentureX Transfer Optimizer"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 84
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 263,453 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,339 bytes (1% of repo)",
+          "strength": 0.4087360546199499
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,036 bytes (0% of repo)",
+          "strength": 0.40386941110999064
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (playwright.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/example.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 267741,
+        "strong_skills": [
+          "data-viz",
+          "integration-testing",
+          "react",
+          "tailwind",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 2229666,
+    "TypeScript": 263453,
+    "Python": 112886,
+    "CSS": 2339,
+    "HTML": 1036,
+    "JavaScript": 913
+  },
+  "total_commits": 27,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals",
+        "cssantosa/fraud-ml-classification",
+        "cssantosa/ai-agent-job-pipeline"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2342552,
+      "commit_count": 26,
+      "first_seen": "2025-11-26T23:07:28+00:00",
+      "last_seen": "2026-03-23T02:47:08+00:00",
+      "details": [
+        "mag-7-sentiment-signals: Jupyter Notebook: 1,432,523 bytes (96% of repo)",
+        "mag-7-sentiment-signals: Python: 58,007 bytes (4% of repo)",
+        "fraud-ml-classification: Jupyter Notebook: 797,143 bytes (100% of repo)",
+        "ai-agent-job-pipeline: Python: 54,879 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "cssantosa/venturex-optimizer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 263453,
+      "commit_count": 1,
+      "first_seen": "2026-03-30T05:49:24+00:00",
+      "last_seen": "2026-03-30T05:49:24+00:00",
+      "details": [
+        "venturex-optimizer: TypeScript: 263,453 bytes (98% of repo)",
+        "venturex-optimizer: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals",
+        "cssantosa/fraud-ml-classification",
+        "cssantosa/ai-agent-job-pipeline"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 26,
+      "first_seen": "2025-11-26T23:07:28+00:00",
+      "last_seen": "2026-03-23T02:47:08+00:00",
+      "details": [
+        "mag-7-sentiment-signals: jupyter notebook (notebooks/database_testing.ipynb)",
+        "mag-7-sentiment-signals: numpy in requirements.txt",
+        "fraud-ml-classification: jupyter notebook (best_model_eval.ipynb)",
+        "ai-agent-job-pipeline: 'pandas' in repo name/description",
+        "ai-agent-job-pipeline: pandas in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals",
+        "cssantosa/ai-agent-job-pipeline"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2026-02-11T02:50:43+00:00",
+      "last_seen": "2026-03-23T02:47:08+00:00",
+      "details": [
+        "mag-7-sentiment-signals: beautifulsoup4 in requirements.txt",
+        "ai-agent-job-pipeline: 'selenium' in repo name/description",
+        "ai-agent-job-pipeline: beautifulsoup4 in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals",
+        "cssantosa/venturex-optimizer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 18,
+      "first_seen": "2026-02-26T05:01:57+00:00",
+      "last_seen": "2026-03-30T05:49:24+00:00",
+      "details": [
+        "mag-7-sentiment-signals: matplotlib in requirements.txt",
+        "venturex-optimizer: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals",
+        "cssantosa/fraud-ml-classification"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2025-11-26T23:07:28+00:00",
+      "last_seen": "2026-03-23T02:47:08+00:00",
+      "details": [
+        "mag-7-sentiment-signals: xgboost in requirements.txt",
+        "fraud-ml-classification: 'ml' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "cssantosa/ai-agent-job-pipeline"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-11T02:50:43+00:00",
+      "last_seen": "2026-02-11T03:05:23+00:00",
+      "details": [
+        "ai-agent-job-pipeline: 'agent' in repo name/description",
+        "ai-agent-job-pipeline: litellm in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "cssantosa/venturex-optimizer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-03-30T05:49:24+00:00",
+      "last_seen": "2026-03-30T05:49:24+00:00",
+      "details": [
+        "venturex-optimizer: e2e suite (playwright.config.ts)",
+        "venturex-optimizer: @playwright/test in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "cssantosa/venturex-optimizer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-03-30T05:49:24+00:00",
+      "last_seen": "2026-03-30T05:49:24+00:00",
+      "details": [
+        "venturex-optimizer: test directory (src/test/example.test.ts)",
+        "venturex-optimizer: vitest in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "cssantosa/venturex-optimizer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-03-30T05:49:24+00:00",
+      "last_seen": "2026-03-30T05:49:24+00:00",
+      "details": [
+        "venturex-optimizer: tailwind config (tailwind.config.ts)",
+        "venturex-optimizer: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "deep-learning",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 17,
+      "first_seen": "2026-02-26T05:01:57+00:00",
+      "last_seen": "2026-03-23T02:47:08+00:00",
+      "details": [
+        "mag-7-sentiment-signals: torch in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 17,
+      "first_seen": "2026-02-26T05:01:57+00:00",
+      "last_seen": "2026-03-23T02:47:08+00:00",
+      "details": [
+        "mag-7-sentiment-signals: transformers in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "cssantosa/venturex-optimizer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-03-30T05:49:24+00:00",
+      "last_seen": "2026-03-30T05:49:24+00:00",
+      "details": [
+        "venturex-optimizer: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "cssantosa/mag-7-sentiment-signals"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 17,
+      "first_seen": "2026-02-26T05:01:57+00:00",
+      "last_seen": "2026-03-23T02:47:08+00:00",
+      "details": [
+        "mag-7-sentiment-signals: GitHub Actions workflow (.github/workflows/base_data.yml)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "cssantosa/ai-agent-job-pipeline",
+        "cssantosa/venturex-optimizer"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "repo_name",
+        "language"
+      ],
+      "max_strength": 0.4087360546199499,
+      "total_bytes": 3375,
+      "commit_count": 4,
+      "first_seen": "2026-02-11T02:50:43+00:00",
+      "last_seen": "2026-03-30T05:49:24+00:00",
+      "details": [
+        "ai-agent-job-pipeline: 'html' in repo name/description",
+        "venturex-optimizer: CSS: 2,339 bytes (1% of repo)",
+        "venturex-optimizer: HTML: 1,036 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 27,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 14,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-17T01:19:31.556206+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

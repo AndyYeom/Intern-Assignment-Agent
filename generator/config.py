@@ -29,7 +29,7 @@ MAX_REPOS_PER_USER = 5
 # Commits are paged at 100; one page is plenty to characterise a student repo.
 MAX_COMMIT_PAGES = 2
 
-TARGET_PROFILE_COUNT = 40
+TARGET_PROFILE_COUNT = 100
 
 
 def _load_dotenv() -> None:

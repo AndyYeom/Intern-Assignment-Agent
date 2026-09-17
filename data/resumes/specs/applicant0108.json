@@ -1,0 +1,128 @@
+{
+  "github_login": "skycar321",
+  "applicant_id": "applicant0108",
+  "first_name": "Samuel",
+  "last_name": "Okafor",
+  "career_stage": "student",
+  "email": "samuel.okafor@greenholt.example",
+  "phone": "(555) 010-0108",
+  "location": "Greenholt",
+  "linkedin": "linkedin.example.com/in/samuel-okafor",
+  "github_url": "github.example.com/samuel-okafor",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Greenholt Polytechnic",
+    "location": "Greenholt",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Information Systems",
+    "graduation": "May 2027",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Operating Systems",
+      "Computer Networks",
+      "Database Systems",
+      "Linux Systems Administration"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Student IT Assistant",
+      "organization": "Greenholt Polytechnic IT Services",
+      "location": "Greenholt",
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Diagnosed recurring lab machine failures and traced several to inconsistent Docker configurations between shared containers.",
+        "Wrote a short internal guide after classmates kept misconfiguring Linux permissions on shared lab servers."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Learning Code",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Jan 2026",
+      "bullets": [
+        "Worked through a large multi-language coursework repository spanning Shell, JavaScript, and Java, organized across more than 1,200 files.",
+        "Added an automated test suite and Docker packaging to practice reproducible environment setup."
+      ],
+      "link": null,
+      "tech": [
+        "Shell",
+        "JavaScript",
+        "Java",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Pybo",
+      "organization": null,
+      "location": null,
+      "start": "Oct 2021",
+      "end": "Oct 2021",
+      "bullets": [
+        "Built a small Python, HTML, and CSS web app to learn basic backend-frontend integration."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Greenholt Linux Users Group",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Helped a classmate recover a broken dual-boot setup, which led me to start keeping personal notes on common Linux recovery steps."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Java",
+      "Python",
+      "Shell Scripting",
+      "SQL",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "Next.js"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "Docker",
+      "Linux & Server Administration",
+      "Kubernetes"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

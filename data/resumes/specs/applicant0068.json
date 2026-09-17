@@ -1,0 +1,144 @@
+{
+  "github_login": "AlexSpandex",
+  "applicant_id": "applicant0068",
+  "first_name": "Kenji",
+  "last_name": "Ishida",
+  "career_stage": "student",
+  "email": "kenji@cedarhollow.example",
+  "phone": "(555) 010-0168",
+  "location": "Cedar Hollow",
+  "linkedin": null,
+  "github_url": "github.example.com/kenji-ishida",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Cedar Hollow Institute of Technology",
+    "location": "Cedar Hollow",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "May 2026",
+    "gpa": null,
+    "coursework": [
+      "Game Development",
+      "Networked Systems"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Stoptalkmac",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "May 2024",
+      "end": "May 2024",
+      "bullets": [
+        "Built with Python, PowerShell, Shell across 4919 files.",
+        "Includes an automated test suite.",
+        "3 commits over 1 active day."
+      ],
+      "link": "https://github.com/AlexSpandex/StopTalkMac",
+      "tech": [
+        "Python",
+        "PowerShell",
+        "Shell",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Stop Talk",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "May 2024",
+      "end": "May 2024",
+      "bullets": [
+        "Built with Python, PowerShell, JavaScript across 1731 files.",
+        "Includes an automated test suite.",
+        "1 commit over 1 active day."
+      ],
+      "link": "https://github.com/AlexSpandex/Stop-Talk",
+      "tech": [
+        "Python",
+        "PowerShell",
+        "JavaScript",
+        "Shell"
+      ]
+    },
+    {
+      "title": "Sprout Man",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Apr 2023",
+      "end": "Apr 2023",
+      "bullets": [
+        "Built with JavaScript, TypeScript, HTML across 652 files.",
+        "Uses express, ws, @replit/database, esbuild, kaboom, stacktrace-js.",
+        "Includes an automated test suite.",
+        "5 commits over 1 active day."
+      ],
+      "link": "https://github.com/AlexSpandex/Sprout-Man",
+      "tech": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "Nix"
+      ]
+    },
+    {
+      "title": "Project P",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Oct 2023",
+      "end": "Dec 2023",
+      "bullets": [
+        "Mario-Game.",
+        "Built with ShaderLab, C#, HLSL across 342 files.",
+        "48 commits over 10 active days."
+      ],
+      "link": "https://github.com/AlexSpandex/Project-P",
+      "tech": [
+        "ShaderLab",
+        "C#",
+        "HLSL",
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Technical Contributor",
+      "organization": "Cedar Hollow Game Jam Collective",
+      "location": null,
+      "start": "Oct 2023",
+      "end": "Dec 2023",
+      "bullets": [
+        "Built a small C# and shader-based game prototype, then spent more time fixing teammates' broken WebSocket connections than writing gameplay code.",
+        "Started documenting common client-server bugs for teammates after realizing most confusion came from mismatched setup instructions, not the code itself."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "JavaScript",
+      "C/C++",
+      "C#"
+    ],
+    "Backend": [
+      "Node.js",
+      "Realtime & WebSockets"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

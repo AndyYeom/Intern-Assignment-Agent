@@ -1,0 +1,1265 @@
+{
+  "applicant_id": "applicant0083",
+  "login": "RSC-RJCgit",
+  "html_url": "https://github.com/RSC-RJCgit",
+  "created_at": "2023-08-20T23:09:51Z",
+  "account_age_days": 1123,
+  "public_repos": 6,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "AndroidAPS-aisf-boluscalc",
+      "full_name": "RSC-RJCgit/AndroidAPS-aisf-boluscalc",
+      "html_url": "https://github.com/RSC-RJCgit/AndroidAPS-aisf-boluscalc",
+      "description": "Tobias AutoISF 3.4.2.6+aisf3.2.1 plus bolus-calculator (WizA001)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-09-08T16:46:31Z",
+      "pushed_at": "2026-09-15T07:11:54Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 213000,
+      "default_branch": "bolus-calculator",
+      "license": "AGPL-3.0",
+      "topics": [],
+      "languages": {
+        "Kotlin": 16666051,
+        "Java": 624868,
+        "JavaScript": 234835,
+        "Batchfile": 624,
+        "Shell": 72
+      },
+      "primary_language": "Kotlin",
+      "file_count": 6845,
+      "top_level_paths": [
+        ".circleci",
+        ".editorconfig",
+        ".github",
+        ".gitignore",
+        ".idea",
+        ".run",
+        ".travis.yml",
+        "CONTRIBUTING.md",
+        "ISSUE_TEMPLATE.md",
+        "LICENSE.txt",
+        "README.md",
+        "_docs",
+        "app",
+        "benchmark",
+        "build.gradle.kts",
+        "buildSrc",
+        "codecov.yml",
+        "connectwsa.bat",
+        "core",
+        "crowdin.yml",
+        "database",
+        "dependencyGraph.bat",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "implementation",
+        "jacoco_aggregation.gradle.kts",
+        "plugins",
+        "pump",
+        "runtests.bat",
+        "runtests.sh",
+        "settings.gradle",
+        "shared",
+        "ui",
+        "wear",
+        "workflow"
+      ],
+      "notable_files": [
+        ".github/workflows/aaps-ci.yml",
+        ".github/workflows/branch-ci.yml",
+        ".github/workflows/cherry-pick-ci.yml",
+        ".github/workflows/claude.yml",
+        ".github/workflows/cleanup-workflow-runs.yml",
+        ".github/workflows/keystore-export.yml",
+        ".github/workflows/pr-ci.yml",
+        "app/build.gradle.kts",
+        "benchmark/build.gradle.kts",
+        "build.gradle.kts",
+        "buildSrc/build.gradle.kts",
+        "core/data/build.gradle.kts",
+        "core/graph/build.gradle.kts",
+        "core/graphview/build.gradle.kts",
+        "core/interfaces/build.gradle.kts",
+        "core/keys/build.gradle.kts",
+        "core/libraries/build.gradle.kts",
+        "core/nssdk/build.gradle.kts",
+        "core/objects/build.gradle.kts",
+        "core/ui/build.gradle.kts",
+        "core/utils/build.gradle.kts",
+        "core/validators/build.gradle.kts",
+        "database/impl/build.gradle.kts",
+        "database/persistence/build.gradle.kts",
+        "implementation/build.gradle.kts",
+        "plugins/aps/build.gradle.kts",
+        "plugins/automation-state/build.gradle.kts",
+        "plugins/automation/build.gradle.kts",
+        "plugins/configuration/build.gradle.kts",
+        "plugins/constraints/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 8428,
+      "readme_excerpt": "# AndroidAPS with autoISF\n* For documentation about AndroidAPS without autoISF, check the wiki:\n  https://androidaps.readthedocs.io\n* Everyone who’s been looping with AndroidAPS needs to fill out the form after 3 days of looping\n  https://docs.google.com/forms/d/14KcMjlINPMJHVt28MDRupa4sz4DDIooI4SrW0P3HSN8/viewform?c=0&w=1\n\n## What is autoISF?\nAutoISF adds more power to the algorithm used in AndroidAPS by adjusting the insulin sensitivity\nbased on different scenarios (e.g. high BG, accelerating/decelerating BG, BG plateau).\nautoISF has many different settings to fine-tune these adjustments.\nHowever, it is important to start with well-tested basal rate and settings for insulin sensitivity\nand carb ratios.\n\n## Where to find documentation about autoISF\n* Please visit ga-zelle’s repository [GitHub - ga-zelle/autoISF](https://github.com/ga-zelle/autoISF/tree/A3.4.2.6_ai3.2.1).\n* This repo contains a [ReadMe document](https://github.com/ga-zelle/autoISF/blob/A3.4.2.6_ai3.2.1/README.md) with a description of the latest changes to AutoISF\n* The [**Quick Guide (bzw. Kurzanleitung)**](https://github.com/ga-zelle/autoISF/blob/A3.4.2.6_ai3.2.1/autoISF3.2.0_Quick_Guide.pdf) provides an overview",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 100,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-09-13T00:36:38+00:00",
+        "last_at": "2026-09-15T07:11:51+00:00",
+        "active_days": 2,
+        "span_days": 2,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Add ApsAutoIsfSplitBolusEnabled, ApsAutoIsfSplitBolusInterval, SplitBolusBlockSmbUntil",
+          "Add WizardActivitySteps.kt",
+          "WizA001"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3776
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 16,666,051 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 624,868 bytes (4% of repo)",
+          "strength": 0.4356528561117625
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 234,835 bytes (1% of repo)",
+          "strength": 0.41339889138987074
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "CI config (.circleci/config.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 17525826,
+        "strong_skills": [
+          "cicd",
+          "native-mobile",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AndroidAPS-master-boluscalc",
+      "full_name": "RSC-RJCgit/AndroidAPS-master-boluscalc",
+      "html_url": "https://github.com/RSC-RJCgit/AndroidAPS-master-boluscalc",
+      "description": "nightscout AndroidAPS master plus bolus-calculator (WizA001)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-09-08T16:24:43Z",
+      "pushed_at": "2026-09-08T16:28:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 210464,
+      "default_branch": "bolus-calculator",
+      "license": "AGPL-3.0",
+      "topics": [],
+      "languages": {
+        "Kotlin": 16412888,
+        "Java": 624527,
+        "JavaScript": 234835,
+        "Batchfile": 624,
+        "Shell": 72
+      },
+      "primary_language": "Kotlin",
+      "file_count": 6793,
+      "top_level_paths": [
+        ".circleci",
+        ".editorconfig",
+        ".github",
+        ".gitignore",
+        ".idea",
+        ".run",
+        ".travis.yml",
+        "CONTRIBUTING.md",
+        "ISSUE_TEMPLATE.md",
+        "LICENSE.txt",
+        "README.md",
+        "_docs",
+        "app",
+        "benchmark",
+        "build.gradle.kts",
+        "buildSrc",
+        "codecov.yml",
+        "connectwsa.bat",
+        "core",
+        "crowdin.yml",
+        "database",
+        "dependencyGraph.bat",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "implementation",
+        "jacoco_aggregation.gradle.kts",
+        "plugins",
+        "pump",
+        "runtests.bat",
+        "runtests.sh",
+        "settings.gradle",
+        "shared",
+        "ui",
+        "wear",
+        "workflow"
+      ],
+      "notable_files": [
+        ".github/workflows/aaps-ci.yml",
+        ".github/workflows/branch-ci.yml",
+        ".github/workflows/cherry-pick-ci.yml",
+        ".github/workflows/claude-code-review.yml",
+        ".github/workflows/claude.yml",
+        ".github/workflows/cleanup-workflow-runs.yml",
+        ".github/workflows/keystore-export.yml",
+        ".github/workflows/pr-ci.yml",
+        "app/build.gradle.kts",
+        "benchmark/build.gradle.kts",
+        "build.gradle.kts",
+        "buildSrc/build.gradle.kts",
+        "core/data/build.gradle.kts",
+        "core/graph/build.gradle.kts",
+        "core/graphview/build.gradle.kts",
+        "core/interfaces/build.gradle.kts",
+        "core/keys/build.gradle.kts",
+        "core/libraries/build.gradle.kts",
+        "core/nssdk/build.gradle.kts",
+        "core/objects/build.gradle.kts",
+        "core/ui/build.gradle.kts",
+        "core/utils/build.gradle.kts",
+        "core/validators/build.gradle.kts",
+        "database/impl/build.gradle.kts",
+        "database/persistence/build.gradle.kts",
+        "implementation/build.gradle.kts",
+        "plugins/aps/build.gradle.kts",
+        "plugins/automation/build.gradle.kts",
+        "plugins/configuration/build.gradle.kts",
+        "plugins/constraints/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1495,
+      "readme_excerpt": "# AAPS\n* Check the wiki: https://wiki.aaps.app\n*  Everyone who’s been looping with AAPS needs to fill out the form after 3 days of looping  https://docs.google.com/forms/d/14KcMjlINPMJHVt28MDRupa4sz4DDIooI4SrW0P3HSN8/viewform?c=0&w=1\n\n[![Support Server](https://img.shields.io/discord/[phone].svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/4fQUWHZ4Mw)\n\n[![CircleCI](https://circleci.com/gh/nightscout/AndroidAPS/tree/master.svg?style=svg)](https://circleci.com/gh/nightscout/AndroidAPS/tree/master)\n[![Crowdin](https://d322cqt584bo4o.cloudfront.net/androidaps/localized.svg)](https://translations.aaps.app/project/androidaps)\n[![Documentation Status](https://readthedocs.org/projects/androidaps/badge/?version=latest)](https://wiki.aaps.app/en/latest/?badge=latest)\n[![codecov](https://codecov.io/gh/nightscout/AndroidAPS/branch/master/graph/badge.svg?token=EmklfIV6bH)](https://codecov.io/gh/nightscout/AndroidAPS)\n\nDEV: \n[![CircleCI](https://circleci.com/gh/nightscout/AndroidAPS/tree/dev.svg?style=svg)](https://circleci.com/gh/nightscout/AndroidAPS/tree/dev)\n[![codecov](https://codecov.io/gh/nightscout/AndroidAPS/branch/dev/graph/badge.svg?toke",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 100,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-09-08T11:57:53+00:00",
+        "last_at": "2026-09-08T12:26:18+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "WizA001",
+          "WizA001",
+          "WizA001",
+          "WizA001"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3744
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 16,412,888 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 624,527 bytes (4% of repo)",
+          "strength": 0.43615636846198674
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 234,835 bytes (1% of repo)",
+          "strength": 0.41359553836386687
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "CI config (.circleci/config.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 17272322,
+        "strong_skills": [
+          "cicd",
+          "native-mobile",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AndroidAPS-aisf3.1.0",
+      "full_name": "RSC-RJCgit/AndroidAPS-aisf3.1.0",
+      "html_url": "https://github.com/RSC-RJCgit/AndroidAPS-aisf3.1.0",
+      "description": "3.3.3.a",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-25T00:05:35Z",
+      "pushed_at": "2026-05-10T22:23:52Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 205757,
+      "default_branch": "3.3.3.a+aisf3.1.0",
+      "license": "AGPL-3.0",
+      "topics": [],
+      "languages": {
+        "Kotlin": 13984654,
+        "Java": 624868,
+        "JavaScript": 234835,
+        "Batchfile": 624,
+        "Shell": 72
+      },
+      "primary_language": "Kotlin",
+      "file_count": 6224,
+      "top_level_paths": [
+        ".circleci",
+        ".editorconfig",
+        ".github",
+        ".gitignore",
+        ".idea",
+        ".kotlin",
+        ".run",
+        ".travis.yml",
+        "CONTRIBUTING.md",
+        "ISSUE_TEMPLATE.md",
+        "LICENSE.txt",
+        "README.md",
+        "_docs",
+        "app",
+        "benchmark",
+        "build.gradle.kts",
+        "buildSrc",
+        "codecov.yml",
+        "connectwsa.bat",
+        "core",
+        "crowdin.yml",
+        "database",
+        "dependencyGraph.bat",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "implementation",
+        "jacoco_aggregation.gradle.kts",
+        "plugins",
+        "pump",
+        "runtests.bat",
+        "runtests.sh",
+        "settings.gradle",
+        "shared",
+        "ui",
+        "wear",
+        "workflow"
+      ],
+      "notable_files": [
+        ".github/workflows/aaps-ci.yml",
+        "app/build.gradle.kts",
+        "benchmark/build.gradle.kts",
+        "build.gradle.kts",
+        "buildSrc/build.gradle.kts",
+        "core/data/build.gradle.kts",
+        "core/graph/build.gradle.kts",
+        "core/graphview/build.gradle.kts",
+        "core/interfaces/build.gradle.kts",
+        "core/keys/build.gradle.kts",
+        "core/libraries/build.gradle.kts",
+        "core/nssdk/build.gradle.kts",
+        "core/objects/build.gradle.kts",
+        "core/ui/build.gradle.kts",
+        "core/utils/build.gradle.kts",
+        "core/validators/build.gradle.kts",
+        "database/impl/build.gradle.kts",
+        "database/persistence/build.gradle.kts",
+        "implementation/build.gradle.kts",
+        "plugins/aps/build.gradle.kts",
+        "plugins/automation-state/build.gradle.kts",
+        "plugins/automation/build.gradle.kts",
+        "plugins/configuration/build.gradle.kts",
+        "plugins/constraints/build.gradle.kts",
+        "plugins/insulin/build.gradle.kts",
+        "plugins/main/build.gradle.kts",
+        "plugins/sensitivity/build.gradle.kts",
+        "plugins/smoothing/build.gradle.kts",
+        "plugins/source/build.gradle.kts",
+        "plugins/sync/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6203,
+      "readme_excerpt": "# AndroidAPS with autoISF\n* For documentation about AndroidAPS without autoISF, check the wiki: https://androidaps.readthedocs.io\n* Everyone who’s been looping with AndroidAPS needs to fill out the form after 3 days of looping  https://docs.google.com/forms/d/14KcMjlINPMJHVt28MDRupa4sz4DDIooI4SrW0P3HSN8/viewform?c=0&w=1\n\n## What is autoISF?\nAutoISF adds more power to the algorithm used in AndroidAPS by adjusting the insulin sensitivity based on different scenarios (e.g. high BG,\naccelerating/decelerating BG, BG plateau). autoISF has many different settings to fine-tune these adjustments.\nHowever, it is important to start with well-tested basal rate and settings for insulin sensitivity and carb ratios.\n\n## Where to find documentation about autoISF\n* Please visit ga-zelle’s repository [GitHub - ga-zelle/autoISF](https://github.com/ga-zelle/autoISF/tree/A3.3.3.a%2Baisf3.1.0).\n  The [**Quick Guide (bzw. Kurzanleitung)**](https://github.com/ga-zelle/autoISF/blob/A3.3.3.a%2Baisf3.1.0/autoISF3.1.0_Quick_Guide.pdf) provides an overview of autoISF and its features\n\n\n## Why do I get AutoISF here and not at ga-zelle's Repo?\n* The vast majority of the AutoISF design and development effort was ",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 100,
+      "contribution_share": 0.005,
+      "commits": {
+        "count": 97,
+        "first_at": "2025-08-18T12:05:36+00:00",
+        "last_at": "2026-05-10T22:23:26+00:00",
+        "active_days": 43,
+        "span_days": 265,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Nrsn132",
+          "Nrsn131",
+          "Nrsn131",
+          "Nrsn131",
+          "Nrsn130",
+          "Nrsn129",
+          "Nrsn128",
+          "Nrsn128",
+          "Nrsn127",
+          "Nrsn127",
+          "Nrsn127",
+          "Nrsn126",
+          "Nrsn126",
+          "Nrsn125",
+          "Nrsn124",
+          "Nrsn124",
+          "Nrsn124",
+          "Nrsn124",
+          "Nrsn123",
+          "Nrsn122"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3376
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 13,984,654 bytes (94% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 624,868 bytes (4% of repo)",
+          "strength": 0.4420926755869447
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 234,835 bytes (2% of repo)",
+          "strength": 0.41581907454287975
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "CI config (.circleci/config.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 14844429,
+        "strong_skills": [
+          "cicd",
+          "native-mobile",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AndroidAPS-aisf320",
+      "full_name": "RSC-RJCgit/AndroidAPS-aisf320",
+      "html_url": "https://github.com/RSC-RJCgit/AndroidAPS-aisf320",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-17T09:18:20Z",
+      "pushed_at": "2026-09-17T01:21:57Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 410840,
+      "default_branch": "UKF3426",
+      "license": "AGPL-3.0",
+      "topics": [],
+      "languages": {
+        "Kotlin": 18276905,
+        "Java": 624868,
+        "Python": 435743,
+        "JavaScript": 325302,
+        "PowerShell": 9649,
+        "HTML": 3515,
+        "Shell": 3152,
+        "Batchfile": 719
+      },
+      "primary_language": "Kotlin",
+      "file_count": 7409,
+      "top_level_paths": [
+        ".circleci",
+        ".editorconfig",
+        ".github",
+        ".gitignore",
+        ".idea",
+        ".run",
+        ".travis.yml",
+        "0001-320.006.patch",
+        "AGENTS.md",
+        "AutoISF Automations List mydoc Aug 21 26 current code registry.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 List confirmation popups documented.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 SMB time windows.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 UAM scaled usual SMB.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 UKF and battery added.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 UKF battery and TT commands.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 additions moved from Contents to main.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 carbohydrate graphs explained.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 complete Settings Automations final.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 complete with Settings and Automations.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 dura algorithm modifications explained.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 first Contents links restored.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 progress and hypo outcomes.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 subheading line spacing standardized.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 underlined indented headings.docx",
+        "AutoISF Operations Manual mydoc Aug 21 26 with Settings and Automations appendix step1.docx",
+        "AutoISF Settings Reference mydoc Aug 21 26 List1 List2 commands added.docx",
+        "AutoISF_Idiosyncrasies_Operations_Manual_Aug19_2026_linked.docx",
+        "AutoISF_Idiosyncrasies_Operations_Manual_Aug19_2026_linked_indented.docx",
+        "AutoISF_Idiosyncrasies_Operations_Manual_Aug19_2026_mydoc.docx",
+        "AutoISF_Idiosyncrasies_Operations_Manual_mydoc_Aug19_2026_appendix_linked_indented.docx",
+        "AutoISF_Idiosyncrasies_Operations_Manual_mydoc_Aug20_2026_Mounjaro_corrected.docx",
+        "AutoISF_Idiosyncrasies_Operations_Manual_mydoc_Aug21_2026_Tier3.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug20_2026_states_corrected.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug21_2026_GUI_contents_end.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug21_2026_all_boosts.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug21_2026_complete_controls_AIV.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug21_2026_intro_automation_items.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug21_2026_introduction_then_contents.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug21_2026_large_linked_intro.docx",
+        "AutoISF_Operations_Manual_mydoc_Aug21_2026_section_C.docx"
+      ],
+      "notable_files": [
+        ".github/workflows/aaps-ci.yml",
+        ".github/workflows/branch-ci.yml",
+        ".github/workflows/cherry-pick-ci.yml",
+        ".github/workflows/claude-code-review.yml",
+        ".github/workflows/claude.yml",
+        ".github/workflows/cleanup-workflow-runs.yml",
+        ".github/workflows/client-ci.yml",
+        ".github/workflows/keystore-export.yml",
+        ".github/workflows/pr-ci.yml",
+        "app/build.gradle.kts",
+        "benchmark/build.gradle.kts",
+        "build.gradle.kts",
+        "buildSrc/build.gradle.kts",
+        "core/data/build.gradle.kts",
+        "core/graph/build.gradle.kts",
+        "core/graphview/build.gradle.kts",
+        "core/interfaces/build.gradle.kts",
+        "core/keys/build.gradle.kts",
+        "core/libraries/build.gradle.kts",
+        "core/nssdk/build.gradle.kts",
+        "core/objects/build.gradle.kts",
+        "core/ui/build.gradle.kts",
+        "core/utils/build.gradle.kts",
+        "core/validators/build.gradle.kts",
+        "database/impl/build.gradle.kts",
+        "database/persistence/build.gradle.kts",
+        "implementation/build.gradle.kts",
+        "plugins/aps/build.gradle.kts",
+        "plugins/automation-state/build.gradle.kts",
+        "plugins/automation/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 9021,
+      "readme_excerpt": "# AndroidAPS with autoISF\n\n📄 **[AutoISF Operations Manual — latest (Dropbox)](https://www.dropbox.com/scl/fi/jiizxlwq26cf0h9ezqvkh/Manual-dropbox-mydoc-Latest.docx?rlkey=dovfe1ylcwb6v6yfhptsc0i93&dl=0)**\n\n* For documentation about AndroidAPS without autoISF, check the wiki:\n  https://androidaps.readthedocs.io\n* Everyone who’s been looping with AndroidAPS needs to fill out the form after 3 days of looping\n  https://docs.google.com/forms/d/14KcMjlINPMJHVt28MDRupa4sz4DDIooI4SrW0P3HSN8/viewform?c=0&w=1\n\n## What is autoISF?\nAutoISF adds more power to the algorithm used in AndroidAPS by adjusting the insulin sensitivity\nbased on different scenarios (e.g. high BG, accelerating/decelerating BG, BG plateau). \nautoISF has many different settings to fine-tune these adjustments.\nHowever, it is important to start with well-tested basal rate and settings for insulin sensitivity \nand carb ratios.\n\n## Where to find documentation about autoISF\n* Please visit ga-zelle’s repository [GitHub - ga-zelle/autoISF](https://github.com/ga-zelle/autoISF/tree/A3.4.0.0_ai3.2.0).\n* The [**Quick Guide (bzw. Kurzanleitung)**](https://github.com/ga-zelle/autoISF/blob/A3.4.0.0_ai3.2.0/autoISF3.2.0_Quick_Guide.pdf) p",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 100,
+      "contribution_share": 0.073,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-04T12:08:48+00:00",
+        "last_at": "2026-09-17T01:21:24+00:00",
+        "active_days": 14,
+        "span_days": 12,
+        "max_per_day": 29,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "aisf321UK_867MJbutteventList1 override",
+          "aisf321UK_867next",
+          "aisf321UK_866next",
+          "aisf321UK_866next",
+          "aisf321UK_865next",
+          "aisf321UK_865next",
+          "aisf321UK_864bmildguardforposthypo",
+          "aisf321UK_864next",
+          "aisf321UK_863stepsoptions",
+          "aisf321UK_863stepsoptions",
+          "aisf321UK_863next",
+          "aisf321UK_863next",
+          "aisf321UK_863next",
+          "aisf321UK_862updatewarning",
+          "aisf321UK_862next",
+          "aisf321UK_861WarsawSetDuraNonProp",
+          "aisf321UK_861WarsawSetDura",
+          "aisf321UK_860boluscalcQuick2",
+          "aisf321UK_860boluscalcQuick2",
+          "aisf321UK_859boluscalcQuick"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3937
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 18,276,905 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 624,868 bytes (3% of repo)",
+          "strength": 0.43175165993363873
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 435,743 bytes (2% of repo)",
+          "strength": 0.42214157798841284
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 325,302 bytes (2% of repo)",
+          "strength": 0.41652969663950234
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 9,649 bytes (0% of repo)",
+          "strength": 0.40049029837773686
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,515 bytes (0% of repo)",
+          "strength": 0.4001786090576998
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 3,152 bytes (0% of repo)",
+          "strength": 0.4001601637979715
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "CI config (.circleci/config.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (tools/oref-digital-twin/docs/AUTOISF_UKF3426.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 19679134,
+        "strong_skills": [
+          "cicd",
+          "native-mobile",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Kotlin": 65340498,
+    "Java": 2499131,
+    "JavaScript": 1029807,
+    "Python": 435743,
+    "PowerShell": 9649,
+    "HTML": 3515,
+    "Shell": 3368,
+    "Batchfile": 2591
+  },
+  "total_commits": 304,
+  "skill_evidence": [
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf-boluscalc",
+        "RSC-RJCgit/AndroidAPS-master-boluscalc",
+        "RSC-RJCgit/AndroidAPS-aisf3.1.0",
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 65340498,
+      "commit_count": 304,
+      "first_seen": "2025-08-18T12:05:36+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf-boluscalc: Kotlin: 16,666,051 bytes (95% of repo)",
+        "AndroidAPS-aisf-boluscalc: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "AndroidAPS-master-boluscalc: Kotlin: 16,412,888 bytes (95% of repo)",
+        "AndroidAPS-master-boluscalc: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "AndroidAPS-aisf3.1.0: Kotlin: 13,984,654 bytes (94% of repo)",
+        "AndroidAPS-aisf3.1.0: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "AndroidAPS-aisf320: Kotlin: 18,276,905 bytes (93% of repo)",
+        "AndroidAPS-aisf320: Android app manifest (app/src/main/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf-boluscalc",
+        "RSC-RJCgit/AndroidAPS-master-boluscalc",
+        "RSC-RJCgit/AndroidAPS-aisf3.1.0",
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 304,
+      "first_seen": "2025-08-18T12:05:36+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf-boluscalc: CI config (.circleci/config.yml)",
+        "AndroidAPS-master-boluscalc: CI config (.circleci/config.yml)",
+        "AndroidAPS-aisf3.1.0: CI config (.circleci/config.yml)",
+        "AndroidAPS-aisf320: CI config (.circleci/config.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf-boluscalc",
+        "RSC-RJCgit/AndroidAPS-master-boluscalc",
+        "RSC-RJCgit/AndroidAPS-aisf3.1.0",
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 304,
+      "first_seen": "2025-08-18T12:05:36+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf-boluscalc: test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)",
+        "AndroidAPS-master-boluscalc: test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)",
+        "AndroidAPS-aisf3.1.0: test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)",
+        "AndroidAPS-aisf320: test directory (pump/omnipod/eros/src/test/java/app/aaps/pump/omnipod/eros/driver/communication/message/command/AcknowledgeAlertsCommandTest.java)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-04T12:08:48+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf320: docs directory (tools/oref-digital-twin/docs/AUTOISF_UKF3426.md)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf-boluscalc",
+        "RSC-RJCgit/AndroidAPS-master-boluscalc",
+        "RSC-RJCgit/AndroidAPS-aisf3.1.0",
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4420926755869447,
+      "total_bytes": 2499131,
+      "commit_count": 304,
+      "first_seen": "2025-08-18T12:05:36+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf-boluscalc: Java: 624,868 bytes (4% of repo)",
+        "AndroidAPS-master-boluscalc: Java: 624,527 bytes (4% of repo)",
+        "AndroidAPS-aisf3.1.0: Java: 624,868 bytes (4% of repo)",
+        "AndroidAPS-aisf320: Java: 624,868 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.42214157798841284,
+      "total_bytes": 435743,
+      "commit_count": 200,
+      "first_seen": "2026-09-04T12:08:48+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf320: Python: 435,743 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf-boluscalc",
+        "RSC-RJCgit/AndroidAPS-master-boluscalc",
+        "RSC-RJCgit/AndroidAPS-aisf3.1.0",
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41652969663950234,
+      "total_bytes": 1029807,
+      "commit_count": 304,
+      "first_seen": "2025-08-18T12:05:36+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf-boluscalc: JavaScript: 234,835 bytes (1% of repo)",
+        "AndroidAPS-master-boluscalc: JavaScript: 234,835 bytes (1% of repo)",
+        "AndroidAPS-aisf3.1.0: JavaScript: 234,835 bytes (2% of repo)",
+        "AndroidAPS-aisf320: JavaScript: 325,302 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40049029837773686,
+      "total_bytes": 12801,
+      "commit_count": 200,
+      "first_seen": "2026-09-04T12:08:48+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf320: PowerShell: 9,649 bytes (0% of repo)",
+        "AndroidAPS-aisf320: Shell: 3,152 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "RSC-RJCgit/AndroidAPS-aisf320"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4001786090576998,
+      "total_bytes": 3515,
+      "commit_count": 200,
+      "first_seen": "2026-09-04T12:08:48+00:00",
+      "last_seen": "2026-09-17T01:21:24+00:00",
+      "details": [
+        "AndroidAPS-aisf320: HTML: 3,515 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 0,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 304,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 0 < 3"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-17T01:37:06.523237+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 0 < 3"
+  ]
+}

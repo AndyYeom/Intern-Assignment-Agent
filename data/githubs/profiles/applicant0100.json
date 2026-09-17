@@ -1,0 +1,1332 @@
+{
+  "applicant_id": "applicant0100",
+  "login": "niulaverage",
+  "html_url": "https://github.com/niulaverage",
+  "created_at": "2026-03-05T15:18:12Z",
+  "account_age_days": 195,
+  "public_repos": 10,
+  "followers": 0,
+  "following": 45,
+  "repos": [
+    {
+      "name": "Decentralized-Options-Exchange",
+      "full_name": "niulaverage/Decentralized-Options-Exchange",
+      "html_url": "https://github.com/niulaverage/Decentralized-Options-Exchange",
+      "description": "Peer-to-peer cryptocurrency derivatives and options trading platform.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-05T15:25:15Z",
+      "pushed_at": "2026-09-17T01:12:42Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 29820,
+      "default_branch": "main",
+      "license": "CC0-1.0",
+      "topics": [],
+      "languages": {
+        "Java": 2093,
+        "Solidity": 1785,
+        "C#": 1773,
+        "TypeScript": 1671,
+        "Python": 1565,
+        "C++": 1540,
+        "Rust": 1521,
+        "Shell": 1442,
+        "Go": 1392,
+        "Ruby": 1353
+      },
+      "primary_language": "Java",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 667,
+      "readme_excerpt": "# Decentralized Options Exchange 🚀\n\n> **Enterprise-grade distributed system for: Peer-to-peer**\n\n![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nPeer-to-peer cryptocurrency derivatives and options trading platform. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of niulaverage.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-15T21:59:59+00:00",
+        "last_at": "2026-09-17T01:12:39+00:00",
+        "active_days": 3,
+        "span_days": 1,
+        "max_per_day": 151,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 2,093 bytes (13% of repo)",
+          "strength": 0.5297180043383948
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,773 bytes (11% of repo)",
+          "strength": 0.5098853424233034
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,671 bytes (10% of repo)",
+          "strength": 0.503563681437868
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,565 bytes (10% of repo)",
+          "strength": 0.496994112178494
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,540 bytes (10% of repo)",
+          "strength": 0.49544468546637743
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,442 bytes (9% of repo)",
+          "strength": 0.48937093275488075
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,392 bytes (9% of repo)",
+          "strength": 0.4862720793306477
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11476,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Cross-Chain-Liquidity-Bridge",
+      "full_name": "niulaverage/Cross-Chain-Liquidity-Bridge",
+      "html_url": "https://github.com/niulaverage/Cross-Chain-Liquidity-Bridge",
+      "description": "Trustless interoperability protocol for transferring assets across EVM chains.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-05T15:26:06Z",
+      "pushed_at": "2026-09-16T23:18:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 22068,
+      "default_branch": "main",
+      "license": "Unlicense",
+      "topics": [],
+      "languages": {
+        "Solidity": 2145,
+        "Java": 1973,
+        "C++": 1900,
+        "C#": 1863,
+        "TypeScript": 1641,
+        "Python": 1594,
+        "Ruby": 1469,
+        "Rust": 1431,
+        "Go": 1392,
+        "Shell": 1326
+      },
+      "primary_language": "Solidity",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 672,
+      "readme_excerpt": "# Cross Chain Liquidity Bridge 🚀\n\n> **Enterprise-grade distributed system for: Trustless**\n\n![License](https://img.shields.io/badge/license-Unlicense-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nTrustless interoperability protocol for transferring assets across EVM chains. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of niulaverage.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-15T18:32:35+00:00",
+        "last_at": "2026-09-16T23:18:51+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 147,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,973 bytes (12% of repo)",
+          "strength": 0.5179036691765269
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,900 bytes (11% of repo)",
+          "strength": 0.5135412931755707
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,863 bytes (11% of repo)",
+          "strength": 0.5113302258874148
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,641 bytes (10% of repo)",
+          "strength": 0.4980638221584798
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,594 bytes (10% of repo)",
+          "strength": 0.49525516911676826
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,392 bytes (8% of repo)",
+          "strength": 0.48318393689494443
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,326 bytes (8% of repo)",
+          "strength": 0.47923987092147724
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11689,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Token-Vesting-Schedule",
+      "full_name": "niulaverage/Token-Vesting-Schedule",
+      "html_url": "https://github.com/niulaverage/Token-Vesting-Schedule",
+      "description": "Smart contract suite for managing time-locked token distributions.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-05T15:24:16Z",
+      "pushed_at": "2026-09-16T20:45:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 18313,
+      "default_branch": "main",
+      "license": "GPL-2.0",
+      "topics": [],
+      "languages": {
+        "C#": 1863,
+        "Rust": 1851,
+        "C++": 1750,
+        "Java": 1643,
+        "TypeScript": 1611,
+        "Solidity": 1605,
+        "Python": 1594,
+        "Shell": 1529,
+        "Go": 1362,
+        "Ruby": 1353
+      },
+      "primary_language": "C#",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 649,
+      "readme_excerpt": "# Token Vesting Schedule 🚀\n\n> **Enterprise-grade distributed system for: Smart**\n\n![License](https://img.shields.io/badge/license-GPL--2.0-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nSmart contract suite for managing time-locked token distributions. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of niulaverage.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-15T16:03:04+00:00",
+        "last_at": "2026-09-16T20:45:28+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 166,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,863 bytes (12% of repo)",
+          "strength": 0.5152775199554483
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,750 bytes (11% of repo)",
+          "strength": 0.5082853783800507
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,643 bytes (10% of repo)",
+          "strength": 0.5016645009590991
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,611 bytes (10% of repo)",
+          "strength": 0.49968442546872105
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,594 bytes (10% of repo)",
+          "strength": 0.49863251036445766
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,529 bytes (9% of repo)",
+          "strength": 0.4946104820246272
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,362 bytes (8% of repo)",
+          "strength": 0.48427696305921664
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11352,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Crypto-Wallet-Core",
+      "full_name": "niulaverage/Crypto-Wallet-Core",
+      "html_url": "https://github.com/niulaverage/Crypto-Wallet-Core",
+      "description": "Core cryptography library for HD wallet key derivation and signing.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-05T15:20:48Z",
+      "pushed_at": "2026-09-16T03:52:02Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 7955,
+      "default_branch": "main",
+      "license": "LGPL-2.1",
+      "topics": [],
+      "languages": {
+        "Solidity": 2085,
+        "C#": 1773,
+        "Python": 1710,
+        "TypeScript": 1701,
+        "Rust": 1671,
+        "C++": 1630,
+        "Java": 1613,
+        "Shell": 1500,
+        "Go": 1422,
+        "Ruby": 1382
+      },
+      "primary_language": "Solidity",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 646,
+      "readme_excerpt": "# Crypto Wallet Core 🚀\n\n> **Enterprise-grade distributed system for: Core**\n\n![License](https://img.shields.io/badge/license-LGPL--2.1-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nCore cryptography library for HD wallet key derivation and signing. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of niulaverage.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-13T15:47:11+00:00",
+        "last_at": "2026-09-16T03:52:00+00:00",
+        "active_days": 4,
+        "span_days": 2,
+        "max_per_day": 103,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,773 bytes (11% of repo)",
+          "strength": 0.5075392733668952
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,710 bytes (10% of repo)",
+          "strength": 0.5037180809122339
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,701 bytes (10% of repo)",
+          "strength": 0.5031721962758537
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,630 bytes (10% of repo)",
+          "strength": 0.498865773033299
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,613 bytes (10% of repo)",
+          "strength": 0.49783465760902534
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,500 bytes (9% of repo)",
+          "strength": 0.4909807727300297
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,422 bytes (9% of repo)",
+          "strength": 0.4862497725480682
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11349,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Flash-Loan-Arbitrage-Bot",
+      "full_name": "niulaverage/Flash-Loan-Arbitrage-Bot",
+      "html_url": "https://github.com/niulaverage/Flash-Loan-Arbitrage-Bot",
+      "description": "MEV bot engineered to execute atomic cross-exchange flash loan arbitrage.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-05T15:27:02Z",
+      "pushed_at": "2026-09-16T19:52:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 2653,
+      "default_branch": "main",
+      "license": "EPL-2.0",
+      "topics": [],
+      "languages": {
+        "Solidity": 2085,
+        "Java": 2003,
+        "Python": 1826,
+        "C++": 1720,
+        "C#": 1683,
+        "TypeScript": 1641,
+        "Go": 1632,
+        "Shell": 1616,
+        "Ruby": 1324,
+        "Rust": 1311
+      },
+      "primary_language": "Solidity",
+      "file_count": 15,
+      "top_level_paths": [
+        ".cache_sys_sync.log",
+        ".github",
+        "Jenkinsfile",
+        "LICENSE",
+        "README.md",
+        "ai-engine",
+        "backend-go",
+        "core-cpp",
+        "financial-services-csharp",
+        "jobs-ruby",
+        "legacy-api-java",
+        "scripts",
+        "smart-contracts",
+        "systems-rust",
+        "web-dashboard"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 656,
+      "readme_excerpt": "# Flash Loan Arbitrage Bot 🚀\n\n> **Enterprise-grade distributed system for: MEV**\n\n![License](https://img.shields.io/badge/license-EPL--2.0-blue.svg)\n![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)\n![Architecture](https://img.shields.io/badge/Architecture-Microservices-orange)\n\n## Overview\nMEV bot engineered to execute atomic cross-exchange flash loan arbitrage. \nBuilt with scalability, low-latency, and high availability utilizing a massive Polyglot stack (Go, Rust, C++, Python, TS, Solidity, Java, C#, Ruby, Shell).\n\n## Deployment\nUse the included Kubernetes manifests to deploy to your cluster.\n\n*Property of niulaverage.*",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-11T19:28:51+00:00",
+        "last_at": "2026-09-16T19:52:29+00:00",
+        "active_days": 6,
+        "span_days": 5,
+        "max_per_day": 75,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]",
+          "chore: update build cache [skip ci]"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 20,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 2,003 bytes (12% of repo)",
+          "strength": 0.5189359301704175
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,826 bytes (11% of repo)",
+          "strength": 0.50842586544742
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,720 bytes (10% of repo)",
+          "strength": 0.5021317023929696
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,683 bytes (10% of repo)",
+          "strength": 0.4999346832135859
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,641 bytes (10% of repo)",
+          "strength": 0.49744076955050176
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,632 bytes (10% of repo)",
+          "strength": 0.49690635947984085
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,616 bytes (10% of repo)",
+          "strength": 0.4959562971319993
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12121,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Solidity": 9705,
+    "Java": 9325,
+    "C#": 8955,
+    "C++": 8540,
+    "Python": 8289,
+    "TypeScript": 8265,
+    "Rust": 7785,
+    "Shell": 7413,
+    "Go": 7200,
+    "Ruby": 6881
+  },
+  "total_commits": 1000,
+  "skill_evidence": [
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Cross-Chain-Liquidity-Bridge: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Token-Vesting-Schedule: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Crypto-Wallet-Core: GitHub Actions workflow (.github/workflows/ci-build.yml)",
+        "Flash-Loan-Arbitrage-Bot: GitHub Actions workflow (.github/workflows/ci-build.yml)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5297180043383948,
+      "total_bytes": 9325,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: Java: 2,093 bytes (13% of repo)",
+        "Cross-Chain-Liquidity-Bridge: Java: 1,973 bytes (12% of repo)",
+        "Token-Vesting-Schedule: Java: 1,643 bytes (10% of repo)",
+        "Crypto-Wallet-Core: Java: 1,613 bytes (10% of repo)",
+        "Flash-Loan-Arbitrage-Bot: Java: 2,003 bytes (12% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5152775199554483,
+      "total_bytes": 8955,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: C#: 1,773 bytes (11% of repo)",
+        "Cross-Chain-Liquidity-Bridge: C#: 1,863 bytes (11% of repo)",
+        "Token-Vesting-Schedule: C#: 1,863 bytes (12% of repo)",
+        "Crypto-Wallet-Core: C#: 1,773 bytes (11% of repo)",
+        "Flash-Loan-Arbitrage-Bot: C#: 1,683 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5135412931755707,
+      "total_bytes": 8540,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: C++: 1,540 bytes (10% of repo)",
+        "Cross-Chain-Liquidity-Bridge: C++: 1,900 bytes (11% of repo)",
+        "Token-Vesting-Schedule: C++: 1,750 bytes (11% of repo)",
+        "Crypto-Wallet-Core: C++: 1,630 bytes (10% of repo)",
+        "Flash-Loan-Arbitrage-Bot: C++: 1,720 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.50842586544742,
+      "total_bytes": 8289,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: Python: 1,565 bytes (10% of repo)",
+        "Cross-Chain-Liquidity-Bridge: Python: 1,594 bytes (10% of repo)",
+        "Token-Vesting-Schedule: Python: 1,594 bytes (10% of repo)",
+        "Crypto-Wallet-Core: Python: 1,710 bytes (10% of repo)",
+        "Flash-Loan-Arbitrage-Bot: Python: 1,826 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.503563681437868,
+      "total_bytes": 8265,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: TypeScript: 1,671 bytes (10% of repo)",
+        "Cross-Chain-Liquidity-Bridge: TypeScript: 1,641 bytes (10% of repo)",
+        "Token-Vesting-Schedule: TypeScript: 1,611 bytes (10% of repo)",
+        "Crypto-Wallet-Core: TypeScript: 1,701 bytes (10% of repo)",
+        "Flash-Loan-Arbitrage-Bot: TypeScript: 1,641 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.49690635947984085,
+      "total_bytes": 7200,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: Go: 1,392 bytes (9% of repo)",
+        "Cross-Chain-Liquidity-Bridge: Go: 1,392 bytes (8% of repo)",
+        "Token-Vesting-Schedule: Go: 1,362 bytes (8% of repo)",
+        "Crypto-Wallet-Core: Go: 1,422 bytes (9% of repo)",
+        "Flash-Loan-Arbitrage-Bot: Go: 1,632 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "niulaverage/Decentralized-Options-Exchange",
+        "niulaverage/Cross-Chain-Liquidity-Bridge",
+        "niulaverage/Token-Vesting-Schedule",
+        "niulaverage/Crypto-Wallet-Core",
+        "niulaverage/Flash-Loan-Arbitrage-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4959562971319993,
+      "total_bytes": 7413,
+      "commit_count": 1000,
+      "first_seen": "2026-09-11T19:28:51+00:00",
+      "last_seen": "2026-09-17T01:12:39+00:00",
+      "details": [
+        "Decentralized-Options-Exchange: Shell: 1,442 bytes (9% of repo)",
+        "Cross-Chain-Liquidity-Bridge: Shell: 1,326 bytes (8% of repo)",
+        "Token-Vesting-Schedule: Shell: 1,529 bytes (9% of repo)",
+        "Crypto-Wallet-Core: Shell: 1,500 bytes (9% of repo)",
+        "Flash-Loan-Arbitrage-Bot: Shell: 1,616 bytes (10% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 1000,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 1,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 1 < 3"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:24:21.118763+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 1 < 3"
+  ]
+}

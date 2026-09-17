@@ -1,0 +1,124 @@
+{
+  "github_login": "thomaslu678",
+  "applicant_id": "applicant0131",
+  "first_name": "Camille",
+  "last_name": "Duarte-Osei",
+  "career_stage": "switcher",
+  "email": "camille@fennimore.example",
+  "phone": "(555) 010-0131",
+  "location": "Fennimore",
+  "linkedin": "linkedin.example.com/in/camille-duarte-osei",
+  "github_url": "github.example.com/camille-duarte-osei",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Fennimore State University",
+    "location": "Fennimore",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Hospitality Management",
+    "graduation": "May 2027",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Data Structures",
+      "Entrepreneurial Finance",
+      "Applied Machine Learning",
+      "Food Systems Management"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Line Cook / Shift Lead",
+      "organization": "Fennimore Bistro Row",
+      "location": "Fennimore",
+      "start": "Jun 2022",
+      "end": "Aug 2023",
+      "bullets": [
+        "Tracked nightly food waste by hand after portions were over-prepped, noticing the pattern repeated across shifts.",
+        "Raised the waste pattern with management, prompting an informal tracking sheet the kitchen kept using."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Restaurant Rescue",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Sep 2023",
+      "bullets": [
+        "Built Restaurant Rescue, a Python and Streamlit prototype using Firebase to log surplus food for pickup.",
+        "Piloted a matching model with torch to rank likely food-rescue matches from logged surplus entries."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Login Springboot",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2024",
+      "end": "Aug 2024",
+      "bullets": [
+        "Implemented a Spring Boot login service with OAuth2 resource-server config and an automated test suite."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "CSS",
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Volunteer Coordinator",
+      "organization": "Fennimore Food Recovery Network",
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Present",
+      "bullets": [
+        "Coordinated volunteer pickup schedules between three kitchens, reducing last-minute no-shows the network had struggled with."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "Java"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "Tailwind CSS"
+    ],
+    "Backend": [
+      "Spring Boot"
+    ],
+    "Data": [
+      "Data Visualization",
+      "Data Analysis (pandas)"
+    ],
+    "AI/ML": [
+      "Deep Learning"
+    ],
+    "DevOps": [
+      "GCP/Azure"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

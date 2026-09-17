@@ -1,0 +1,963 @@
+{
+  "applicant_id": "applicant0069",
+  "login": "MishaDobrynin",
+  "html_url": "https://github.com/MishaDobrynin",
+  "created_at": "2021-01-25T23:41:26Z",
+  "account_age_days": 2060,
+  "public_repos": 10,
+  "followers": 2,
+  "following": 2,
+  "repos": [
+    {
+      "name": "rf-spectrum-analyzer",
+      "full_name": "MishaDobrynin/rf-spectrum-analyzer",
+      "html_url": "https://github.com/MishaDobrynin/rf-spectrum-analyzer",
+      "description": "Analyze rf readings from an SDR to produce information about surrounding radio waves",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-30T23:28:04Z",
+      "pushed_at": "2026-08-30T23:31:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 2
+      },
+      "primary_language": "Python",
+      "file_count": 7,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "data",
+        "experiments",
+        "requirements.txt",
+        "src",
+        "tests"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "libraries"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 108,
+      "readme_excerpt": "# rf-spectrum-analyzer\nAnalyze rf readings from an SDR to produce information about surrounding radio waves\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2026-08-30T23:28:05+00:00",
+        "last_at": "2026-08-30T23:31:38+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Create requirements.txt",
+          "Create test_main.py",
+          "Create .gitkeep",
+          "Create README.md",
+          "Create main.py",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/test_main.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 2,
+        "strong_skills": [
+          "python",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "TTLSimulator",
+      "full_name": "MishaDobrynin/TTLSimulator",
+      "html_url": "https://github.com/MishaDobrynin/TTLSimulator",
+      "description": "transistor-transistor level logic simulator for simple design purpose of creating ttl \"computers\"",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-19T03:43:31Z",
+      "pushed_at": "2026-08-08T02:25:14Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 208,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 85603
+      },
+      "primary_language": "Java",
+      "file_count": 56,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "junit-bom",
+          "junit-jupiter",
+          "junit-platform-launcher",
+          "org.junit",
+          "org.junit.jupiter",
+          "org.junit.platform"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 9248,
+      "readme_excerpt": "# TTLSimulator\n\nA Java-based circuit simulator designed to explore digital logic, transistor-level circuits, and computer architecture.\n\nThe project is structured to separate:\n\n- circuit logic,\n- graphical representation,\n- simulation behavior,\n- reusable utility systems.\n\nThis allows each system to be developed and tested independently.\n\n---\n\n# Building\n\nThe project uses Gradle.\n\n# AS A RESULT I HAVE TO KEEP UPDATING GIT\n## THEREFORE THERE ARE MANY COMMITS WITH ONLY ONE METHOD CHANGED\n\nRequirements:\n- Java 21\n\nRun:\n\n./gradlew build\n\nStart the simulator:\n\n./gradlew run\n\nGradle automatically manages JavaFX dependencies.\n\n---\n\n# Project Structure\n\nsrc/main/java\n\n- circuit\n    - Circuit.java\n    - Net.java\n    - Pin.java\n    - Wire.java\n\n- components\n    - Component.java\n    - InputNode.java\n    - PowerNode.java\n    - GroundNode.java\n    - Transistor.java\n    - NMOS.java\n    - PMOS.java\n\n- gui\n    - CircuitCanvas.java\n    - MainWindow.java\n    - camera\n        - Camera.java\n    - render\n        - ComponentRenderer.java\n        - GridRenderer.java\n        - WireRenderer.java\n    - selection\n        - SelectionManager.java\n    - tools\n        - ComponentFactory.java\n        - PlaceCompo",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 52,
+        "first_at": "2026-07-29T21:01:46+00:00",
+        "last_at": "2026-08-08T02:25:14+00:00",
+        "active_days": 6,
+        "span_days": 9,
+        "max_per_day": 19,
+        "low_effort_message_ratio": 0.404,
+        "messages_sample": [
+          "Update CircuitCanvas.java",
+          "Update MainWindow.java",
+          "Update CircuitCanvas.java",
+          "Update SimulationEngine.java",
+          "Update SimulationEngine.java",
+          "Update SimulationEngine.java",
+          "Update SimulationEvent.java",
+          "Update SimulationEngine.java",
+          "Update ComponentRenderer.java",
+          "Update PartPalette.java",
+          "Update CircuitCanvas.java",
+          "Update Camera.java",
+          "Update SimulationEvent.java",
+          "Update SimulationEngine.java",
+          "Create SimulationEvent.java",
+          "Update PartPalette.java",
+          "Update ToolPalette.java",
+          "Update PartPalette.java",
+          "Update PartPalette.java",
+          "added first level support for gates"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 48
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 85,603 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit-bom in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 85603,
+        "strong_skills": [
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Java",
+      "full_name": "MishaDobrynin/Java",
+      "html_url": "https://github.com/MishaDobrynin/Java",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-12-13T02:50:17Z",
+      "pushed_at": "2025-10-04T20:05:55Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 64,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 55591,
+        "HTML": 27043,
+        "CSS": 23177,
+        "JavaScript": 6189
+      },
+      "primary_language": "Java",
+      "file_count": 100,
+      "top_level_paths": [
+        "Bunny.java",
+        "Factorial.class",
+        "Factorial.ctxt",
+        "Factorial.java",
+        "Fibonacci.class",
+        "Fibonacci.ctxt",
+        "Fibonacci.java",
+        "FlipNumber.class",
+        "FlipNumber.ctxt",
+        "FlipNumber.java",
+        "Main.class",
+        "Main.ctxt",
+        "Main.java",
+        "MyArrayListProject - Generic",
+        "Power.class",
+        "Power.ctxt",
+        "Power.java",
+        "PowerOf2.class",
+        "PowerOf2.ctxt",
+        "PowerOf2.java",
+        "README.TXT",
+        "Sequence.class",
+        "Sequence.ctxt",
+        "Sequence.java",
+        "Small Tasks",
+        "Sort app",
+        "Sorting",
+        "Twain",
+        "package.bluej"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 32,
+      "readme_excerpt": "this is just some random stuff\r\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-12-14T00:22:53+00:00",
+        "last_at": "2025-10-04T20:05:54+00:00",
+        "active_days": 2,
+        "span_days": 1025,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.TXT",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 34
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 55,591 bytes (50% of repo)",
+          "strength": 0.8963482142857143
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 27,043 bytes (24% of repo)",
+          "strength": 0.6414553571428572
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 23,177 bytes (21% of repo)",
+          "strength": 0.6069375
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,189 bytes (6% of repo)",
+          "strength": 0.4552589285714286
+        },
+        {
+          "skill_id": "java",
+          "source": "repo_name",
+          "detail": "'java' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 112000,
+        "strong_skills": [
+          "html-css",
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Sorting-app",
+      "full_name": "MishaDobrynin/Sorting-app",
+      "html_url": "https://github.com/MishaDobrynin/Sorting-app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-05-11T21:24:51Z",
+      "pushed_at": "2025-10-04T20:09:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 21,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 27348
+      },
+      "primary_language": "Java",
+      "file_count": 32,
+      "top_level_paths": [
+        "Client.class",
+        "Client.ctxt",
+        "Client.java",
+        "Distance.class",
+        "Distance.ctxt",
+        "Distance.java",
+        "Flip.class",
+        "Flip.ctxt",
+        "Flip.java",
+        "Information.class",
+        "Information.ctxt",
+        "Information.java",
+        "Inside.class",
+        "Inside.ctxt",
+        "Inside.java",
+        "MoveLeft.class",
+        "MoveLeft.ctxt",
+        "MoveLeft.java",
+        "MoveRight.class",
+        "MoveRight.ctxt",
+        "MoveRight.java",
+        "Pairs.class",
+        "Pairs.ctxt",
+        "Pairs.java",
+        "Palindrome.class",
+        "Palindrome.ctxt",
+        "Palindrome.java",
+        "README.TXT",
+        "Sorted.class",
+        "Sorted.ctxt",
+        "Sorted.java",
+        "package.bluej"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 27,
+      "readme_excerpt": "list practice and whatnot\r\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-05-11T21:25:23+00:00",
+        "last_at": "2025-10-04T20:09:17+00:00",
+        "active_days": 2,
+        "span_days": 1241,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.TXT",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 10
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 27,348 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 27348,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Department",
+      "full_name": "MishaDobrynin/Department",
+      "html_url": "https://github.com/MishaDobrynin/Department",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-05-10T22:48:12Z",
+      "pushed_at": "2025-10-04T20:08:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 9632
+      },
+      "primary_language": "Java",
+      "file_count": 17,
+      "top_level_paths": [
+        "Department.class",
+        "Department.ctxt",
+        "Department.java",
+        "Main.class",
+        "Main.ctxt",
+        "Main.java",
+        "README.TXT",
+        "SeattleCollege.class",
+        "SeattleCollege.ctxt",
+        "SeattleCollege.java",
+        "Student.class",
+        "Student.ctxt",
+        "Student.java",
+        "TestStudent.class",
+        "TestStudent.ctxt",
+        "TestStudent.java",
+        "package.bluej"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 15,
+      "readme_excerpt": "ancient items\r\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-05-10T22:49:04+00:00",
+        "last_at": "2025-10-04T20:08:31+00:00",
+        "active_days": 2,
+        "span_days": 1242,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.TXT",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 9,632 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9632,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 178174,
+    "HTML": 27043,
+    "CSS": 23177,
+    "JavaScript": 6189,
+    "Python": 2
+  },
+  "total_commits": 64,
+  "skill_evidence": [
+    {
+      "skill_id": "java",
+      "repos": [
+        "MishaDobrynin/TTLSimulator",
+        "MishaDobrynin/Java",
+        "MishaDobrynin/Sorting-app",
+        "MishaDobrynin/Department"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 178174,
+      "commit_count": 58,
+      "first_seen": "2022-05-10T22:49:04+00:00",
+      "last_seen": "2026-08-08T02:25:14+00:00",
+      "details": [
+        "TTLSimulator: Java: 85,603 bytes (100% of repo)",
+        "Java: Java: 55,591 bytes (50% of repo)",
+        "Java: 'java' in repo name/description",
+        "Sorting-app: Java: 27,348 bytes (100% of repo)",
+        "Department: Java: 9,632 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "MishaDobrynin/rf-spectrum-analyzer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2,
+      "commit_count": 6,
+      "first_seen": "2026-08-30T23:28:05+00:00",
+      "last_seen": "2026-08-30T23:31:38+00:00",
+      "details": [
+        "rf-spectrum-analyzer: Python: 2 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "MishaDobrynin/rf-spectrum-analyzer",
+        "MishaDobrynin/TTLSimulator"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 58,
+      "first_seen": "2026-07-29T21:01:46+00:00",
+      "last_seen": "2026-08-30T23:31:38+00:00",
+      "details": [
+        "rf-spectrum-analyzer: test directory (tests/test_main.py)",
+        "TTLSimulator: junit-bom in build.gradle"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "MishaDobrynin/Java"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6414553571428572,
+      "total_bytes": 50220,
+      "commit_count": 2,
+      "first_seen": "2022-12-14T00:22:53+00:00",
+      "last_seen": "2025-10-04T20:05:54+00:00",
+      "details": [
+        "Java: HTML: 27,043 bytes (24% of repo)",
+        "Java: CSS: 23,177 bytes (21% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "MishaDobrynin/Java"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4552589285714286,
+      "total_bytes": 6189,
+      "commit_count": 2,
+      "first_seen": "2022-12-14T00:22:53+00:00",
+      "last_seen": "2025-10-04T20:05:54+00:00",
+      "details": [
+        "Java: JavaScript: 6,189 bytes (6% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 64,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:17:03.979968+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

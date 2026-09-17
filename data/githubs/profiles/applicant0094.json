@@ -1,0 +1,683 @@
+{
+  "applicant_id": "applicant0094",
+  "login": "EmptyHamburger",
+  "html_url": "https://github.com/EmptyHamburger",
+  "created_at": "2024-10-10T10:49:25Z",
+  "account_age_days": 706,
+  "public_repos": 5,
+  "followers": 0,
+  "following": 1,
+  "repos": [
+    {
+      "name": "ModularCustomA",
+      "full_name": "EmptyHamburger/ModularCustomA",
+      "html_url": "https://github.com/EmptyHamburger/ModularCustomA",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-27T08:58:46Z",
+      "pushed_at": "2026-09-17T01:11:33Z",
+      "stargazers": 1,
+      "forks": 6,
+      "open_issues": 0,
+      "size_kb": 445,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "C#": 359356,
+        "Lua": 47338
+      },
+      "primary_language": "C#",
+      "file_count": 174,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE",
+        "MTCSLuaDef.lua",
+        "ModularCustomA.sln",
+        "ModularCustomConsequences",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 33,
+      "readme_excerpt": "https://rentry.co/mtcustomscripts",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 14,
+      "contribution_share": 0.61,
+      "commits": {
+        "count": 163,
+        "first_at": "2025-12-27T13:12:26+00:00",
+        "last_at": "2026-09-17T01:11:21+00:00",
+        "active_days": 73,
+        "span_days": 263,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.025,
+        "messages_sample": [
+          "v24.111.4 release",
+          "Merge pull request #33 from JonasVanbockryck/prsoon",
+          "Update version to v24.110.4 (getbufflocaledata)",
+          "Update lua def",
+          "v24.109.4 release",
+          "getshield and getdmgtaken overrides",
+          "Revert 'Revert setmaintarget changes'",
+          "Revert setmaintarget changes",
+          "Merge pull request #31 from Styx-9090/patch-1",
+          "Update version to 24.108.4",
+          "Merge pull request #32 from lob9literrateurs/main",
+          "v24.106.4 release",
+          "Merge pull request #30 from Styx-9090/main",
+          "saved csproj",
+          "Unfinished OnActivateDurante",
+          "Removed an extra }",
+          "Merge pull request #29 from Styx-9090/main",
+          "No no sln",
+          "No no csproj",
+          "v24.104.4 release"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 166
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 2
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 359,356 bytes (88% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 359356,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "IDToAbnor",
+      "full_name": "EmptyHamburger/IDToAbnor",
+      "html_url": "https://github.com/EmptyHamburger/IDToAbnor",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-09T16:42:27Z",
+      "pushed_at": "2026-06-22T16:17:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 104439,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 13997
+      },
+      "primary_language": "C#",
+      "file_count": 260,
+      "top_level_paths": [
+        "IDToAbnor.csproj",
+        "IDToAbnor.sln",
+        "Program.cs",
+        "bin",
+        "config.json",
+        "obj"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-04-09T16:45:51+00:00",
+        "last_at": "2026-06-22T16:17:12+00:00",
+        "active_days": 3,
+        "span_days": 73,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Added some bullshit that wont affect anything",
+          "add unitKeywordList supports",
+          "Added files"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 10
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 13,997 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 13997,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "EnemyCtrl",
+      "full_name": "EmptyHamburger/EnemyCtrl",
+      "html_url": "https://github.com/EmptyHamburger/EnemyCtrl",
+      "description": "im tweaking it",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-13T03:08:53Z",
+      "pushed_at": "2026-08-12T14:22:12Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 243,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 107460,
+        "Python": 14025
+      },
+      "primary_language": "C#",
+      "file_count": 8,
+      "top_level_paths": [
+        ".gitignore",
+        "Directory.Build.props",
+        "EncounterAndConfigGenerator.py",
+        "EnvyPeccatulumPVP.csproj",
+        "EnvyPeccatulumPVP.sln",
+        "GimmickPatches.cs",
+        "Main.cs",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 30,
+      "readme_excerpt": "I will make Limbis PVP real!!\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.875,
+      "commits": {
+        "count": 28,
+        "first_at": "2026-04-14T16:57:11+00:00",
+        "last_at": "2026-08-12T14:21:55+00:00",
+        "active_days": 14,
+        "span_days": 119,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.036,
+        "messages_sample": [
+          "update version to 1.0.0",
+          "Update with docs available",
+          "Scuffed SP gaining fixes that WORK",
+          "Added SP gaining check",
+          "New Walp Ids playable (Dawn Gregor & Faust)",
+          "More playable ids",
+          "On going Index Mark of Prescript on Skills",
+          "Playable Rodya Valencina & Lucio Heathcliff",
+          "On going Rodya Valencina Disposal gimmick",
+          "Progression",
+          "update",
+          "Changed plugin name to EnvyPeccatulumPVP",
+          "Pluh fix appearance bug. Some changes",
+          "Redirect kinda fixed for enemy units",
+          "Added sin resistances for ego",
+          "fixed skill consumption (real this time)",
+          "enable ego resource check",
+          "Fixed skill consumption",
+          "Ego Stocks now update in real game time",
+          "Hopyfully fixed ego resource and skill consumpion"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 107,460 bytes (88% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 14,025 bytes (12% of repo)",
+          "strength": 0.5154463514014076
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 121485,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "EnvyPeccatulumPVPSetUp",
+      "full_name": "EmptyHamburger/EnvyPeccatulumPVPSetUp",
+      "html_url": "https://github.com/EmptyHamburger/EnvyPeccatulumPVPSetUp",
+      "description": null,
+      "homepage": "https://emptyhamburger.github.io/EnvyPeccatulumPVPSetUp/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-12T12:42:01Z",
+      "pushed_at": "2026-08-13T12:27:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 39,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 5,
+      "top_level_paths": [
+        "IdentityToEnvyPecc.md",
+        "PVPEncounter.md",
+        "README.md",
+        "Required.md",
+        "Settings.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 264,
+      "readme_excerpt": "# Envy Peccatulum PVP Set Up\n\n1. [Required Files/Plugins/Programs](Required.md)\n2. [How to use Identity to Envy Peccatulum](IdentityToEnvyPecc.md)\n3. [How to configure your custom PVP Encounter](PVPEncounter.md)\n4. [Settings in Envy Peccatulum Plugin](Settings.md)",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 21,
+        "first_at": "2026-08-12T12:42:02+00:00",
+        "last_at": "2026-08-13T12:27:22+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 17,
+        "low_effort_message_ratio": 0.286,
+        "messages_sample": [
+          "added image",
+          "Upd",
+          "Upd",
+          "Line space",
+          "Line space",
+          "update",
+          "update",
+          "update",
+          "final",
+          "test",
+          "minor edits",
+          "fix line breaks",
+          "added images",
+          "added images",
+          "added image",
+          "Update Required.md",
+          "Added images",
+          "test",
+          "Added missing stuffs",
+          "Docs"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 480813,
+    "Lua": 47338,
+    "Python": 14025
+  },
+  "total_commits": 215,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "EmptyHamburger/ModularCustomA",
+        "EmptyHamburger/IDToAbnor",
+        "EmptyHamburger/EnemyCtrl"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 480813,
+      "commit_count": 194,
+      "first_seen": "2025-12-27T13:12:26+00:00",
+      "last_seen": "2026-09-17T01:11:21+00:00",
+      "details": [
+        "ModularCustomA: C#: 359,356 bytes (88% of repo)",
+        "IDToAbnor: C#: 13,997 bytes (100% of repo)",
+        "EnemyCtrl: C#: 107,460 bytes (88% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "EmptyHamburger/EnemyCtrl"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5154463514014076,
+      "total_bytes": 14025,
+      "commit_count": 28,
+      "first_seen": "2026-04-14T16:57:11+00:00",
+      "last_seen": "2026-08-12T14:21:55+00:00",
+      "details": [
+        "EnemyCtrl: Python: 14,025 bytes (12% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 215,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 1,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 1 < 3"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:35:40.338807+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 1 < 3"
+  ]
+}

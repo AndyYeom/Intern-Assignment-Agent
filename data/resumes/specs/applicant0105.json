@@ -1,0 +1,126 @@
+{
+  "github_login": "Vishesh-Kumar-Gavel",
+  "applicant_id": "applicant0105",
+  "first_name": "Priya",
+  "last_name": "Sandoval",
+  "career_stage": "student",
+  "email": "priya.sandoval@caldbrook.example",
+  "phone": "(555) 010-0105",
+  "location": "Caldbrook",
+  "linkedin": "linkedin.example.com/in/priya-sandoval",
+  "github_url": "github.example.com/priya-sandoval",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Caldbrook University",
+    "location": "Caldbrook",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Kinesiology",
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Web Application Development",
+      "Kinesiology of Movement",
+      "Database Fundamentals",
+      "Team Software Projects"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Workout Tracker Next",
+      "organization": null,
+      "location": null,
+      "start": "May 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Rebuilt a personal workout tracker in Next.js and React after friends requested features the original version could not support.",
+        "Styled the interface with Tailwind CSS across a 39-file codebase built over 11 active days."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Workout Tracker",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built the original tracker as a Java Spring Boot application backed by PostgreSQL, my first project linking a frontend to a database."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Simongame",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Sep 2023",
+      "bullets": [
+        "Started with a small JavaScript memory game, the project that first pulled me toward building software instead of only using it."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Tech Volunteer",
+      "organization": "Caldbrook Movement Collective",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Ran short feedback sessions with club members testing the workout tracker, translating their scattered feature requests into a short prioritized list.",
+        "Noticed requests centered on tracking progress rather than new exercises, which shifted my interest toward deciding what to prioritize, not just build."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "SQL"
+    ],
+    "Frontend": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Node.js",
+      "Spring Boot"
+    ],
+    "Data": [
+      "MongoDB",
+      "PostgreSQL"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

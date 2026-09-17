@@ -1,0 +1,104 @@
+{
+  "github_login": "LazarBojanic",
+  "applicant_id": "applicant0082",
+  "first_name": "Elena",
+  "last_name": "Voss",
+  "career_stage": "student",
+  "email": "elena.voss@ashcombe.example",
+  "phone": "(555) 010-0182",
+  "location": "Ashford Falls",
+  "linkedin": "linkedin.example.com/in/elena-voss",
+  "github_url": "github.example.com/elena-voss",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Ashcombe University of Technology",
+    "location": "Ashford Falls",
+    "degree": "Bachelor of Science",
+    "major": "Computer Engineering",
+    "minor": "Visual Arts",
+    "graduation": "May 2027",
+    "gpa": null,
+    "coursework": [
+      "Computer Graphics",
+      "Data Structures",
+      "Human-Computer Interaction",
+      "Digital Systems"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Wintercubetimer",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2022",
+      "end": "Jul 2025",
+      "bullets": [
+        "Built a C# WinForms Rubik's Cube timer, designing session tracking, scramble generation and a real-time cube visualization across 43 files.",
+        "Iterated on the cube-visualization rendering after early versions felt disorienting during fast solves, adjusting animation timing for clearer feedback."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "WinForms"
+      ]
+    },
+    {
+      "title": "Lazaropenglengine3d",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2022",
+      "end": "Oct 2023",
+      "bullets": [
+        "Wrote a pseudo-3D game engine in C++ and OpenGL, structuring rendering and scene logic across 905 files.",
+        "Explored low-level graphics programming independently, building comfort with the rendering pipeline outside coursework."
+      ],
+      "link": null,
+      "tech": [
+        "C++",
+        "C",
+        "GLSL"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Cabinet Restoration Volunteer",
+      "organization": "Ashcombe Retro Arcade Circle",
+      "location": "Ashford Falls",
+      "start": "Sep 2023",
+      "end": "Present",
+      "bullets": [
+        "Repaired aging arcade cabinets with mismatched CRT timings, learning to diagnose display issues before touching any code.",
+        "Gave a short walkthrough to newer members on how raster displays render frames, translating hardware quirks into plain language."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C/C++",
+      "C#",
+      "JavaScript",
+      "Java"
+    ],
+    "Frontend": [
+      "Vue"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

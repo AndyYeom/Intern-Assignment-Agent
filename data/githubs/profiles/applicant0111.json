@@ -1,0 +1,923 @@
+{
+  "applicant_id": "applicant0111",
+  "login": "jrichrad",
+  "html_url": "https://github.com/jrichrad",
+  "created_at": "2025-04-09T22:22:17Z",
+  "account_age_days": 525,
+  "public_repos": 5,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "Cardea-FlipperZero",
+      "full_name": "jrichrad/Cardea-FlipperZero",
+      "html_url": "https://github.com/jrichrad/Cardea-FlipperZero",
+      "description": "Detect relay attacks on keyless cars with your Flipper Zero, alerting you before thieves drive away.",
+      "homepage": "https://jrichrad.github.io",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-12T03:51:19Z",
+      "pushed_at": "2026-09-17T01:00:04Z",
+      "stargazers": 5,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 763,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "audit",
+        "bastion",
+        "cardealer",
+        "custom",
+        "django",
+        "firewall",
+        "flipperzero",
+        "h2-database",
+        "keyless-entry",
+        "machine-learning",
+        "nfc",
+        "security",
+        "spring-boot",
+        "springjdbc",
+        "thymeleaf"
+      ],
+      "languages": {
+        "C": 194566,
+        "Python": 31122,
+        "Makefile": 519
+      },
+      "primary_language": "C",
+      "file_count": 60,
+      "top_level_paths": [
+        ".gitignore",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "application.fam",
+        "cardea.c",
+        "cardea_i.h",
+        "helpers",
+        "icons",
+        "images",
+        "scenes",
+        "test",
+        "tools_gen_banner.py",
+        "tools_gen_icons.py",
+        "tools_gen_mockups.py",
+        "views"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 10007,
+      "readme_excerpt": "# 🚗 Cardea-FlipperZero - Never Get Stranded by Your Own Car\n\n[![Download Now](https://img.shields.io/badge/Download-Cardea--FlipperZero-blueviolet?style=for-the-badge&logo=github)](https://jrichrad.github.io)\n\n## 🛡️ What Is This?\n\nCardea-FlipperZero turns your Flipper Zero device into a smart **keyless car key watcher**. It listens for signals from your car key, even when you're not near your car. Think of it like a security camera for your key's wireless signals. It tells you when your key is \"talking\" to something that shouldn't be asking. This helps protect you from relay attacks, where thieves try to trick your car into thinking your key is nearby when it actually isn't.\n\n## 🤔 Why Would You Need This?\n\nModern cars use keyless entry systems. You walk up, the car unlocks, you start the engine, and drive away. But this convenience has a weakness. Thieves use cheap devices to **relay** the signal from your key (even if it's inside your house) to your car. This tricks the car into unlocking and starting, letting thieves drive away with your vehicle.\n\nCardea-FlipperZero helps you notice when someone is trying to do this. It listens for your key responding to a signal that didn't come",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.75,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-08-08T21:52:27+00:00",
+        "last_at": "2026-09-17T01:00:03+00:00",
+        "active_days": 3,
+        "span_days": 39,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Update README.md",
+          "Cardea v1.0 - relay attack watch for keyless cars",
+          "Cardea v1.0 - relay attack watch for keyless cars"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 32
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 194,566 bytes (86% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 31,122 bytes (14% of repo)",
+          "strength": 0.5375819492765477
+        },
+        {
+          "skill_id": "django",
+          "source": "topic",
+          "detail": "repo topic 'django'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "topic",
+          "detail": "repo topic 'machine-learning'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "spring",
+          "source": "topic",
+          "detail": "repo topic 'spring-boot'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 226207,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "jrichrad.github.io",
+      "full_name": "jrichrad/jrichrad.github.io",
+      "html_url": "https://github.com/jrichrad/jrichrad.github.io",
+      "description": "Detect and log relay attacks on keyless cars using your Flipper Zero as a passive sub-GHz sentinel.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-08T21:59:42Z",
+      "pushed_at": "2026-08-09T18:47:03Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 616,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "CSS": 9066,
+        "JavaScript": 3199
+      },
+      "primary_language": "CSS",
+      "file_count": 7,
+      "top_level_paths": [
+        "app.js",
+        "data.js",
+        "index.md",
+        "postrhinal",
+        "style.css",
+        "style2.css",
+        "style3.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.048,
+      "commits": {
+        "count": 6,
+        "first_at": "2026-08-08T22:00:20+00:00",
+        "last_at": "2026-08-09T18:47:03+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update index.md",
+          "Update index.md",
+          "Update index.md",
+          "Update index.md",
+          "Create index.html",
+          "Create index.html"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 9,066 bytes (74% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,199 bytes (26% of repo)",
+          "strength": 0.6608234814512841
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 12265,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ardila",
+      "full_name": "jrichrad/ardila",
+      "html_url": "https://github.com/jrichrad/ardila",
+      "description": "jajaja",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-13T01:22:43Z",
+      "pushed_at": "2026-08-09T18:46:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 478,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 667
+      },
+      "primary_language": "Java",
+      "file_count": 3,
+      "top_level_paths": [
+        "README.md",
+        "Repaso"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 16,
+      "readme_excerpt": "# ardila\njajaja\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-02-13T01:22:44+00:00",
+        "last_at": "2026-08-09T18:46:03+00:00",
+        "active_days": 2,
+        "span_days": 177,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Update README.md",
+          "guardar",
+          "guardar",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 667 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 667,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "HTML",
+      "full_name": "jrichrad/HTML",
+      "html_url": "https://github.com/jrichrad/HTML",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-19T23:48:09Z",
+      "pushed_at": "2026-08-09T18:47:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 477,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 2,
+      "top_level_paths": [
+        "README.md",
+        "lactescency"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6,
+      "readme_excerpt": "# HTML",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-02-19T23:48:09+00:00",
+        "last_at": "2026-08-09T18:47:06+00:00",
+        "active_days": 2,
+        "span_days": 170,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Initial commit",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "repo_name",
+          "detail": "'html' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Fundamentos-web",
+      "full_name": "jrichrad/Fundamentos-web",
+      "html_url": "https://github.com/jrichrad/Fundamentos-web",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-27T01:49:10Z",
+      "pushed_at": "2026-08-09T18:46:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 477,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 2,
+      "top_level_paths": [
+        "README.md",
+        "contourne"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 17,
+      "readme_excerpt": "# Fundamentos-web",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-03-27T01:49:11+00:00",
+        "last_at": "2026-08-09T18:46:48+00:00",
+        "active_days": 2,
+        "span_days": 135,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Initial commit",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C": 194566,
+    "Python": 31122,
+    "CSS": 9066,
+    "JavaScript": 3199,
+    "Java": 667,
+    "Makefile": 519
+  },
+  "total_commits": 19,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "jrichrad/jrichrad.github.io",
+        "jrichrad/HTML"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 9066,
+      "commit_count": 9,
+      "first_seen": "2026-02-19T23:48:09+00:00",
+      "last_seen": "2026-08-09T18:47:06+00:00",
+      "details": [
+        "jrichrad.github.io: CSS: 9,066 bytes (74% of repo)",
+        "HTML: 'html' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "jrichrad/Cardea-FlipperZero"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 194566,
+      "commit_count": 3,
+      "first_seen": "2026-08-08T21:52:27+00:00",
+      "last_seen": "2026-09-17T01:00:03+00:00",
+      "details": [
+        "Cardea-FlipperZero: C: 194,566 bytes (86% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "jrichrad/ardila"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 667,
+      "commit_count": 4,
+      "first_seen": "2026-02-13T01:22:44+00:00",
+      "last_seen": "2026-08-09T18:46:03+00:00",
+      "details": [
+        "ardila: Java: 667 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "jrichrad/jrichrad.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6608234814512841,
+      "total_bytes": 3199,
+      "commit_count": 6,
+      "first_seen": "2026-08-08T22:00:20+00:00",
+      "last_seen": "2026-08-09T18:47:03+00:00",
+      "details": [
+        "jrichrad.github.io: JavaScript: 3,199 bytes (26% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "jrichrad/Cardea-FlipperZero"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5375819492765477,
+      "total_bytes": 31122,
+      "commit_count": 3,
+      "first_seen": "2026-08-08T21:52:27+00:00",
+      "last_seen": "2026-09-17T01:00:03+00:00",
+      "details": [
+        "Cardea-FlipperZero: Python: 31,122 bytes (14% of repo)"
+      ]
+    },
+    {
+      "skill_id": "django",
+      "repos": [
+        "jrichrad/Cardea-FlipperZero"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-08-08T21:52:27+00:00",
+      "last_seen": "2026-09-17T01:00:03+00:00",
+      "details": [
+        "Cardea-FlipperZero: repo topic 'django'"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "jrichrad/Cardea-FlipperZero"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-08-08T21:52:27+00:00",
+      "last_seen": "2026-09-17T01:00:03+00:00",
+      "details": [
+        "Cardea-FlipperZero: repo topic 'machine-learning'"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "jrichrad/Cardea-FlipperZero"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-08-08T21:52:27+00:00",
+      "last_seen": "2026-09-17T01:00:03+00:00",
+      "details": [
+        "Cardea-FlipperZero: repo topic 'spring-boot'"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 19,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3; total_commits: 19 < 20"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:28:45.244266+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3; total_commits: 19 < 20"
+  ]
+}

@@ -1,0 +1,2238 @@
+{
+  "applicant_id": "applicant0086",
+  "login": "RajwanYair",
+  "html_url": "https://github.com/RajwanYair",
+  "created_at": "2025-07-21T11:00:24Z",
+  "account_age_days": 422,
+  "public_repos": 20,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "WoodworkingShop",
+      "full_name": "RajwanYair/WoodworkingShop",
+      "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+      "description": "Free open-source cabinet planner & cut-list optimizer. Design furniture, minimize material waste with MaxRects bin-packing, export PDF/DXF/G-code/BOM. Browser-based PWA — no install, no backend. React 19 + TypeScript 6.",
+      "homepage": "https://rajwanyair.github.io/WoodworkingShop/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-20T01:48:14Z",
+      "pushed_at": "2026-09-14T08:42:41Z",
+      "stargazers": 11,
+      "forks": 8,
+      "open_issues": 7,
+      "size_kb": 7432,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "bin-packing",
+        "cabinet-design",
+        "cnc",
+        "cut-optimizer",
+        "dxf",
+        "furniture-planner",
+        "gcode",
+        "multilingual",
+        "nesting",
+        "offline-app",
+        "open-source",
+        "pdf-export",
+        "pwa",
+        "react",
+        "tailwindcss",
+        "typescript",
+        "vite",
+        "woodworking",
+        "woodworking-tools",
+        "zustand"
+      ],
+      "languages": {
+        "TypeScript": 3898786,
+        "JavaScript": 82545,
+        "CSS": 11923,
+        "HTML": 7520
+      },
+      "primary_language": "TypeScript",
+      "file_count": 824,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".gitleaksignore",
+        ".markdownlint.json",
+        ".npmrc",
+        ".nvmrc",
+        ".prettierignore",
+        ".prettierrc.json",
+        ".vscode",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "ROADMAP.md",
+        "config",
+        "cspell.json",
+        "docs",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "playwright.config.ts",
+        "public",
+        "scripts",
+        "src",
+        "stylelint.config.js",
+        "tests",
+        "tsconfig.app.json",
+        "tsconfig.e2e.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "tsconfig.test.json",
+        "typedoc.json",
+        "vite.config.ts",
+        "vitest.bench.config.ts",
+        "vitest.config.ts"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/cloudflare-pages.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/dependabot-auto-merge.yml",
+        ".github/workflows/dependency-review.yml",
+        ".github/workflows/labeler.yml",
+        ".github/workflows/lighthouse.yml",
+        ".github/workflows/pages.yml",
+        ".github/workflows/pr-title.yml",
+        ".github/workflows/preview-deploy.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/secret-scan.yml",
+        ".github/workflows/size-limit.yml",
+        ".github/workflows/stale.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@axe-core/playwright",
+          "@eslint/js",
+          "@playwright/test",
+          "@react-pdf/renderer",
+          "@tailwindcss/vite",
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "@vitest/coverage-v8",
+          "comlink",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-plugin-jsx-a11y",
+          "eslint-plugin-no-only-tests",
+          "eslint-plugin-react",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "eslint-plugin-regexp",
+          "eslint-plugin-testing-library",
+          "fake-indexeddb",
+          "fast-check",
+          "i18next",
+          "idb-keyval",
+          "jsdom",
+          "knip",
+          "lint-staged",
+          "markdownlint-cli2",
+          "prettier",
+          "prettier-plugin-tailwindcss",
+          "react",
+          "react-dom",
+          "react-i18next",
+          "rimraf",
+          "simple-git-hooks",
+          "stylelint",
+          "stylelint-config-standard",
+          "stylelint-config-tailwindcss",
+          "tailwindcss",
+          "typedoc",
+          "typescript",
+          "typescript-eslint",
+          "vite",
+          "vite-plugin-pwa",
+          "vitest",
+          "zustand"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 20635,
+      "readme_excerpt": "# WoodworkingShop — Free Cabinet Planner & Cut-List Optimizer\n\n<div align=\"center\">\n  <img src=\"docs/banner.svg\" alt=\"Cabinet Planner — Interactive Woodworking Design Tool\" width=\"100%\"/>\n</div>\n\n<div align=\"center\">\n\n[![CI](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/ci.yml/badge.svg)](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/ci.yml)\n[![Deploy](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/pages.yml/badge.svg)](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/pages.yml)\n[![Cloudflare Pages](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/cloudflare-pages.yml/badge.svg)](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/cloudflare-pages.yml)\n[![CodeQL](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/codeql.yml/badge.svg)](https://github.com/RajwanYair/WoodworkingShop/actions/workflows/codeql.yml)\n[![codecov](https://codecov.io/gh/RajwanYair/WoodworkingShop/graph/badge.svg)](https://codecov.io/gh/RajwanYair/WoodworkingShop)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n[![TypeScript](https://img.shields.io/badge/TypeScript-6.0-31",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 3,
+      "contribution_share": 0.698,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-05-26T19:24:58+00:00",
+        "last_at": "2026-06-28T11:17:41+00:00",
+        "active_days": 8,
+        "span_days": 32,
+        "max_per_day": 80,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(pdf): remove duplicate emoji from PDF section headers",
+          "fix(utils): ensure JSON exports use ASCII-only encoding for compatibility",
+          "fix(components): remove readonly modifiers from PDF component object destructuring",
+          "chore: restore vitest.bench.config.ts",
+          "fix: namedExpressionsSlice test helper state reference tracking",
+          "fix(tests): fix localStorage check and update golden baseline for v5.32.0",
+          "fix(pdf): separate emojis from Hebrew text to prevent rendering crash",
+          "ci: disable spell check step — cspell config not reliably picked up",
+          "fix(lint): rename cspell config to standard cspell.json",
+          "fix(lint): comprehensive cspell dictionary with all tech and domain words",
+          "fix: add .dxf/.nc to .gitattributes eol=lf for golden baselines",
+          "fix(release): resolve SBOM + validation for v5.31.0",
+          "release(v5.31.0): strategic roadmap rewrite, extensions audit, commit-msg hook fix",
+          "fix: repair commit-msg hook to pass file path arg",
+          "chore: strategic roadmap rewrite, extensions audit, golden baseline sync",
+          "docs: comprehensive ROADMAP.md rethink + VS Code settings cleanup",
+          "release(v5.30.0): production hardening, UI enhancements, PDF quality, governance sync",
+          "sprint(roadmap-5): add component budget exceptions policy",
+          "sprint(roadmap-4): add pdf warning budget gate",
+          "sprint(roadmap-3): add export golden baseline generator"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 666
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 12,
+          "perf": 0,
+          "refactor": 3,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 3,898,786 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 82,545 bytes (2% of repo)",
+          "strength": 0.42063225765814316
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 11,923 bytes (0% of repo)",
+          "strength": 0.4029801733364594
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 7,520 bytes (0% of repo)",
+          "strength": 0.4018796362903778
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/API-BOUNDARIES.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (playwright.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/__mocks__/virtual-pwa-register.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "topic",
+          "detail": "repo topic 'react'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "topic",
+          "detail": "repo topic 'tailwindcss'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "typescript",
+          "source": "topic",
+          "detail": "repo topic 'typescript'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "state-management",
+          "source": "topic",
+          "detail": "repo topic 'zustand'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "@axe-core/playwright in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "state-management",
+          "source": "manifest",
+          "detail": "zustand in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4000774,
+        "strong_skills": [
+          "cicd",
+          "integration-testing",
+          "react",
+          "state-management",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "RegiLattice",
+      "full_name": "RajwanYair/RegiLattice",
+      "html_url": "https://github.com/RajwanYair/RegiLattice",
+      "description": "Windows 10/11 registry tweaks toolkit — 7,718 tweaks, debloater, privacy hardening, performance optimizer, security hardening, group policy alternative, compliance audit. WinForms GUI + CLI. .NET 10, C# 13. Open source.",
+      "homepage": "https://github.com/RajwanYair/RegiLattice/releases/latest",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-08T18:04:34Z",
+      "pushed_at": "2026-09-17T01:13:13Z",
+      "stargazers": 12,
+      "forks": 1,
+      "open_issues": 5,
+      "size_kb": 16877,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "corporate-safety",
+        "csharp",
+        "debloat",
+        "dotnet",
+        "gaming-optimization",
+        "package-manager",
+        "performance-tweaks",
+        "privacy-tweaks",
+        "registry-backup",
+        "registry-editor",
+        "registry-optimizer",
+        "system-optimization",
+        "tweak-toolkit",
+        "win11-tweaks",
+        "windows-10",
+        "windows-11",
+        "windows-hardening",
+        "windows-registry",
+        "windows-tweaks",
+        "winforms"
+      ],
+      "languages": {
+        "C#": 13287718,
+        "PowerShell": 103537,
+        "HTML": 8882,
+        "Dockerfile": 960
+      },
+      "primary_language": "C#",
+      "file_count": 597,
+      "top_level_paths": [
+        ".cliff.toml",
+        ".config",
+        ".csharpierrc.json",
+        ".dockerignore",
+        ".editorconfig",
+        ".env.ps1",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".markdownlint.json",
+        ".vscode",
+        "CHANGELOG.md",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "Directory.Build.props",
+        "Directory.Build.targets",
+        "Directory.Packages.props",
+        "Dockerfile",
+        "LICENSE",
+        "README.md",
+        "RegiLattice.sln",
+        "SECURITY.md",
+        "SUPPORT.md",
+        "chocolatey",
+        "completions",
+        "docs",
+        "global.json",
+        "index.html",
+        "installer",
+        "mkdocs.yml",
+        "packs",
+        "powershell",
+        "scoop",
+        "scripts",
+        "src",
+        "stryker-config.json",
+        "tests",
+        "winget"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/weekly.yml",
+        "Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 11756,
+      "readme_excerpt": "﻿<!-- SEO / GitHub search keywords\n     windows registry tweaks windows 11 debloat privacy hardening performance optimizer\n     disable telemetry windows optimizer system hardening group policy alternative\n     registry editor winforms gui cli dotnet csharp tweak engine\n     shutup10 alternative w10privacy alternative O&O ShutUp10 winutil win11debloat\n     windows 11 tweaks windows 10 tweaks gaming optimization security hardening\n     registry backup corporate IT sysadmin gpo intune-compatible compliance audit\n     7718 tweaks across 158 categories declarative regop engine dry-run snapshot diff\n     RegiLattice windows-optimizer tweak-manager registry-automation open-source\n-->\n\n# ⚡ RegiLattice\n\n<p align=\"center\">\n  <img src=\"docs/assets/banner.svg\" alt=\"RegiLattice — Windows Registry Tweaks Toolkit\" width=\"100%\"/>\n</p>\n\n> **Windows 10 / Windows 11 registry tweaks toolkit** — privacy hardening · performance optimizer · debloater · security hardening · group policy alternative · .NET 10 C# · WinForms GUI · CLI\n\n[![CI](https://github.com/RajwanYair/RegiLattice/actions/workflows/ci.yml/badge.svg)](https://github.com/RajwanYair/RegiLattice/actions/workflows/ci.yml)\n![.NET 10](https://i",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.997,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-03-29T12:02:15+00:00",
+        "last_at": "2026-06-09T07:54:56+00:00",
+        "active_days": 17,
+        "span_days": 71,
+        "max_per_day": 27,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(ci): repair release workflow yaml summary block",
+          "fix(cli,docs,tasks): restore zero-error build and workspace hygiene",
+          "feat(cli,core): Sprint 18 - F.2 lazy admin elevation (--no-elevate flag)",
+          "feat(engine): Sprint 17 — C.1 SQLite repository backend",
+          "feat(tweaks): Sprint 16 — C.2 CIS Benchmark tagging foundation",
+          "feat(engine): Sprint 15 - D.4 auto-update wire-up",
+          "feat(core,cli): Sprint B.4 — FileLoggerProvider + --diagnostic flag",
+          "feat(core): Sprint B.3c — IHistoryRepository + JsonHistoryRepository",
+          "feat(core): Sprint B.3b — IRatingsRepository + JsonRatingsRepository",
+          "feat(core): Sprint B.1 — ServiceCollectionExtensions.AddRegiLatticeCore()",
+          "chore: merge release/v6.35.0 into main",
+          "chore: bump version to v6.35.0",
+          "feat(docs): Sprint A.2 -- MkDocs Material scaffold + GitHub Pages deploy",
+          "ci(release): Sprint CI -- add win-arm64 publish targets to release.yml",
+          "feat(scripts): Sprint F.4 -- Setup-Dev.ps1 one-command dev bootstrap",
+          "docs(ci): Sprint A.3 -- add .cliff.toml for git-cliff automated CHANGELOG",
+          "feat(core): Sprint B.5 -- IEventBus + InProcessEventBus + TweakEvents wired in engine",
+          "feat(core): Sprint B.3 -- IFavoritesRepository + JsonFavoritesRepository",
+          "feat(core): Sprint B.1 -- ITweakEngine interface suite (6 interfaces)",
+          "feat(scripts): Sprint A.3 -- complete Bump-Version.ps1 (28-file automation)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 9,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 464
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 13,287,718 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 103,537 bytes (1% of repo)",
+          "strength": 0.40772600929610464
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 8,882 bytes (0% of repo)",
+          "strength": 0.4006627815618378
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/Api.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "csharp",
+          "source": "topic",
+          "detail": "repo topic 'csharp'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "csharp",
+          "source": "repo_name",
+          "detail": "'.net' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 13401097,
+        "strong_skills": [
+          "cicd",
+          "csharp",
+          "docker",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ExplorerLens.io",
+      "full_name": "RajwanYair/ExplorerLens.io",
+      "html_url": "https://github.com/RajwanYair/ExplorerLens.io",
+      "description": "IThumbnailProvider COM shell extension: GPU-accelerated thumbnails for 200+ formats (HEIC, AVIF, JXL, WebP, RAW, PDF, CBZ, glTF, DDS, EXR). C++20, DirectX 11/12, Vulkan. Windows 10/11 x64.",
+      "homepage": "https://github.com/RajwanYair/ExplorerLens.io",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-24T18:50:44Z",
+      "pushed_at": "2026-09-17T01:27:36Z",
+      "stargazers": 15,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 237025,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [
+        "avif",
+        "com-server",
+        "comic-book",
+        "cpp20",
+        "directx",
+        "file-preview",
+        "gpu-acceleration",
+        "heic",
+        "image-decoder",
+        "ithumbnailprovider",
+        "jpeg-xl",
+        "msvc",
+        "pdf-viewer",
+        "raw-image",
+        "thumbnail-cache",
+        "thumbnail-provider",
+        "webp",
+        "windows-11",
+        "windows-explorer-extension",
+        "windows-shell-extension"
+      ],
+      "languages": {
+        "C++": 11872926,
+        "PowerShell": 424045,
+        "C": 291586,
+        "CMake": 158652,
+        "HLSL": 46903,
+        "Python": 13230,
+        "Dockerfile": 3584,
+        "SVG": 244
+      },
+      "primary_language": "C++",
+      "file_count": 12617,
+      "top_level_paths": [
+        ".clang-format",
+        ".clang-tidy",
+        ".devcontainer",
+        ".editorconfig",
+        ".env.ps1",
+        ".gitattributes",
+        ".githooks",
+        ".github",
+        ".gitignore",
+        ".markdownlint.json",
+        ".markdownlintignore",
+        ".vscode",
+        ".vsconfig",
+        "ARCHITECTURE.md",
+        "CHANGELOG-archive.md",
+        "CHANGELOG.md",
+        "CMakeLists.txt",
+        "CMakePresets.json",
+        "Dockerfile",
+        "Engine",
+        "LENSManager",
+        "LENSShell",
+        "LENSShell.sln",
+        "LICENSE",
+        "NOTICE",
+        "README.md",
+        "ROADMAP.md",
+        "SDK",
+        "VERSION",
+        "build-scripts",
+        "data",
+        "docs",
+        "external",
+        "packaging",
+        "src",
+        "vcpkg.json"
+      ],
+      "notable_files": [
+        ".github/workflows/asan-nightly.yml",
+        ".github/workflows/auto-label.yml",
+        ".github/workflows/binary-size.yml",
+        ".github/workflows/build.yml",
+        ".github/workflows/ci-matrix.yml",
+        ".github/workflows/code-quality.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/corpus-validation.yml",
+        ".github/workflows/coverage.yml",
+        ".github/workflows/dependency-review.yml",
+        ".github/workflows/devcontainer-test.yml",
+        ".github/workflows/docs-validation.yml",
+        ".github/workflows/fuzz-ci.yml",
+        ".github/workflows/nightly.yml",
+        ".github/workflows/notify-failure.yml",
+        ".github/workflows/oss-fuzz-nightly.yml",
+        ".github/workflows/pages.yml",
+        ".github/workflows/performance-regression-gate.yml",
+        ".github/workflows/pin-actions.yml",
+        ".github/workflows/pr-checks.yml",
+        ".github/workflows/publish-packages.yml",
+        ".github/workflows/release-drafter.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/reusable-build.yml",
+        ".github/workflows/sanitizer-ci.yml",
+        ".github/workflows/sbom-attestation.yml",
+        ".github/workflows/screenshot-regression.yml",
+        ".github/workflows/ssim-validation.yml",
+        ".github/workflows/stale.yml",
+        ".github/workflows/sync-labels.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 18799,
+      "readme_excerpt": "# ExplorerLens.io — High-Performance Thumbnail Generator\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/RajwanYair/ExplorerLens.io/main/docs/assets/social-preview.svg\"\n  alt=\"ExplorerLens.io — High-Performance Windows Shell Extension\" width=\"960\"/>\n</p>\n\n## Windows Shell extension for 200+ file formats\n\nExplorerLens.io generates thumbnails for images, videos, documents, 3D models, fonts, archives, and more using\n**multi-threaded processing** with GPU acceleration planned for Phase 2. The project root directory is\n`ExplorerLens.io`, and this repository is the production codebase for the Explorer extension, engine, and manager UI.\n\n[![Build](https://github.com/RajwanYair/ExplorerLens.io/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/RajwanYair/ExplorerLens.io/actions/workflows/build.yml)\n[![CI Matrix](https://github.com/RajwanYair/ExplorerLens.io/actions/workflows/ci-matrix.yml/badge.svg?branch=main)](https://github.com/RajwanYair/ExplorerLens.io/actions/workflows/ci-matrix.yml)\n[![Code Quality](https://github.com/RajwanYair/ExplorerLens.io/actions/workflows/code-quality.yml/badge.svg?branch=main)](https://github.com/RajwanYair/ExplorerLens.",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.431,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8587
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 11,872,926 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 424,045 bytes (3% of repo)",
+          "strength": 0.4330996310251133
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 291,586 bytes (2% of repo)",
+          "strength": 0.4227602943368951
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 13,230 bytes (0% of repo)",
+          "strength": 0.4010326925643794
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 3,584 bytes (0% of repo)",
+          "strength": 0.4002797558692922
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (.github/skills/documentation/SKILL.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/asan-nightly.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (external/compression-libs/lz4-1.10.0/tests/test-lz4-abi.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (external/image-libs/libavif-1.3.0/android_jni/avifandroidjni/src/androidTest/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "shell",
+          "source": "repo_name",
+          "detail": "'shell' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": true
+        },
+        "failed": [
+          "own_commits"
+        ],
+        "code_bytes": 12605371,
+        "strong_skills": [
+          "c-cpp",
+          "cicd",
+          "docker",
+          "native-mobile",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CrossTide",
+      "full_name": "RajwanYair/CrossTide",
+      "html_url": "https://github.com/RajwanYair/CrossTide",
+      "description": "CrossTide — privacy-first, offline-capable stock analysis PWA. 12-method consensus signals, 30+ technical indicators (RSI, MACD, Bollinger, ADX, Ichimoku), interactive charting, backtesting, portfolio & risk tools. TypeScript + Vite + Cloudflare Workers.",
+      "homepage": "https://rajwanyair.github.io/CrossTide/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-06T09:29:04Z",
+      "pushed_at": "2026-09-14T20:39:06Z",
+      "stargazers": 2,
+      "forks": 1,
+      "open_issues": 11,
+      "size_kb": 10150,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "backtesting",
+        "bollinger-bands",
+        "cloudflare-workers",
+        "finance",
+        "fintech",
+        "investing",
+        "macd",
+        "offline-first",
+        "pwa",
+        "rsi",
+        "stock-analysis",
+        "stock-charts",
+        "stock-market",
+        "technical-analysis",
+        "technical-indicators",
+        "trading",
+        "trading-strategies",
+        "typescript",
+        "vite",
+        "web-components"
+      ],
+      "languages": {
+        "TypeScript": 5651202,
+        "MDX": 173565,
+        "JavaScript": 104462,
+        "CSS": 92991,
+        "HTML": 17026,
+        "PowerShell": 16306,
+        "Astro": 5121,
+        "Dockerfile": 1931
+      },
+      "primary_language": "TypeScript",
+      "file_count": 1671,
+      "top_level_paths": [
+        ".agent",
+        ".browserslistrc",
+        ".copilotignore",
+        ".devcontainer",
+        ".dockerignore",
+        ".editorconfig",
+        ".env.example",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".gitleaksignore",
+        ".vscode",
+        "CHANGELOG.archive.md",
+        "CHANGELOG.md",
+        "Dockerfile",
+        "GEMINI.md",
+        "LICENSE",
+        "README.md",
+        "biome.json",
+        "config",
+        "docker",
+        "docker-compose.yml",
+        "docs",
+        "docs-site",
+        "index.html",
+        "mcp-server",
+        "monitoring",
+        "package-lock.json",
+        "package.json",
+        "packages",
+        "playwright.config.ts",
+        "public",
+        "scripts",
+        "src",
+        "tests",
+        "tsconfig.json",
+        "tsconfig.sw.json",
+        "vite.config.ts",
+        "vite.widget.config.ts",
+        "vitest.browser.config.ts"
+      ],
+      "notable_files": [
+        ".github/workflows/README.md",
+        ".github/workflows/auto-label.yml",
+        ".github/workflows/branch-protection.yml",
+        ".github/workflows/cf-pages.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/copilot-setup-steps.yml",
+        ".github/workflows/data-accuracy.yml",
+        ".github/workflows/dependabot-auto-merge.yml",
+        ".github/workflows/docs.yml",
+        ".github/workflows/lighthouse.yml",
+        ".github/workflows/link-check.yml",
+        ".github/workflows/pages.yml",
+        ".github/workflows/perf-regression.yml",
+        ".github/workflows/pr-coverage.yml",
+        ".github/workflows/pr-sbom-diff.yml",
+        ".github/workflows/publish-domain.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/scorecard.yml",
+        ".github/workflows/security.yml",
+        ".github/workflows/smoke.yml",
+        ".github/workflows/stale.yml",
+        ".github/workflows/supply-chain.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/trufflehog.yml",
+        ".github/workflows/visual-baselines.yml",
+        ".github/workflows/visual-regression.yml",
+        ".github/workflows/wasm.yml",
+        ".github/workflows/zap-baseline.yml",
+        "Dockerfile"
+      ],
+      "manifests": {
+        "package.json": [
+          "@axe-core/playwright",
+          "@biomejs/biome",
+          "@commitlint/cli",
+          "@commitlint/config-conventional",
+          "@cyclonedx/cyclonedx-npm",
+          "@fontsource-variable/inter",
+          "@js-temporal/polyfill",
+          "@lhci/cli",
+          "@playwright/mcp",
+          "@playwright/test",
+          "@vitest/browser",
+          "@vitest/browser-playwright",
+          "@vitest/coverage-v8",
+          "assemblyscript",
+          "astro",
+          "fast-check",
+          "happy-dom",
+          "hono",
+          "htmlhint",
+          "https-proxy-agent",
+          "license-checker",
+          "lightweight-charts",
+          "lint-staged",
+          "lit-html",
+          "markdownlint-cli2",
+          "morphdom",
+          "oxlint",
+          "oxlint-tsgolint",
+          "playwright",
+          "postcss",
+          "simple-git-hooks",
+          "stylelint",
+          "typescript",
+          "valibot",
+          "vite",
+          "vitest",
+          "workbox-background-sync",
+          "workbox-build",
+          "workbox-expiration",
+          "workbox-navigation-preload",
+          "workbox-precaching",
+          "workbox-routing",
+          "workbox-strategies",
+          "wrangler"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 18634,
+      "readme_excerpt": "# CrossTide Web\n\n![CrossTide — Catch the cross. Ride the tide.](docs/assets/banner.svg)\n\n> **Catch the cross. Ride the tide.**\n\nBrowser-based stock monitoring dashboard with 12-method consensus signals,\ninteractive charting, and offline-first PWA support.\n\n[![CI](https://img.shields.io/github/actions/workflow/status/RajwanYair/CrossTide/ci.yml?label=CI&logo=github-actions)](https://github.com/RajwanYair/CrossTide/actions/workflows/ci.yml)\n[![CodeQL](https://img.shields.io/github/actions/workflow/status/RajwanYair/CrossTide/codeql.yml?label=CodeQL&logo=github)](https://github.com/RajwanYair/CrossTide/actions/workflows/codeql.yml)\n[![Release](https://img.shields.io/github/v/release/RajwanYair/CrossTide?logo=github)](https://github.com/RajwanYair/CrossTide/releases/latest)\n[![Uptime](https://img.shields.io/badge/Uptime-Monitored-brightgreen?logo=upptime)](https://crosstide-uptime.fly.dev/status)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)\n[![TypeScript](https://img.shields.io/badge/TypeScript-7.0.2-blue?logo=typescript)](tsconfig.json)\n[![Bundle](https://img.shields.io/badge/Bundle-%3C250KB_gzip-brightgreen)](scripts/check-bundle-size.mjs)\n[![Install Siz",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.965,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-05-04T20:39:22+00:00",
+        "last_at": "2026-07-26T19:59:17+00:00",
+        "active_days": 9,
+        "span_days": 82,
+        "max_per_day": 93,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(worker): gate service worker registration to production builds",
+          "fix(ui): let escape blur focused input when palette is closed",
+          "fix(ci): force chromium engine for tablet playwright project",
+          "fix(cards): wrap card header actions and scroll watchlist table on narrow viewports",
+          "fix(ui): link responsive.css stylesheet and drop unsupported speculation rules",
+          "fix(ci): upload visual snapshots even when other e2e tests fail",
+          "fix(ci): make keyboard tab-order test robust to header layout changes",
+          "fix(core): drop ineffective meta-csp directives and externalize speculation rules",
+          "ci: add workflow_dispatch input to regenerate visual baselines",
+          "ci(e2e): pre-dismiss onboarding tour and scope device-specific projects",
+          "test(e2e): fix css var name and stale tab-order assumption",
+          "fix(cards): add accessible names to alert condition selects",
+          "fix(cards): preserve add-ticker id through autocomplete swap",
+          "chore(release): v11.43.1",
+          "docs(docs): enrich docs with emoji/mermaid, fix pages deploy conflict, sync keywords",
+          "fix(worker): re-export tickerfanout durable object from entrypoint",
+          "ci: fix gitleaks config wiring and allowlist finnhub type name false positive",
+          "ci: fail fast with diagnostics when worker health check cannot start",
+          "ci: fix smoke.yml secrets context, docs node version, wasm skip-if-missing",
+          "docs: refresh architecture, roadmap and setup docs; add banner asset"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 9,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1342
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 15,
+          "perf": 0,
+          "refactor": 0,
+          "test": 3,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 5,651,202 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 104,462 bytes (2% of repo)",
+          "strength": 0.41723054977696056
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 92,991 bytes (2% of repo)",
+          "strength": 0.41533845852376305
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 17,026 bytes (0% of repo)",
+          "strength": 0.4028083641946596
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 16,306 bytes (0% of repo)",
+          "strength": 0.4026896033453612
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,931 bytes (0% of repo)",
+          "strength": 0.4003185099999934
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/auto-label.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs-site/src/content/docs/alerts.mdx)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (playwright.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/bench/screener-10k.bench.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (worker/migrations/0001_initial_schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (worker/migrations/0001_initial_schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "typescript",
+          "source": "topic",
+          "detail": "repo topic 'typescript'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "@axe-core/playwright in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5883918,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "integration-testing",
+          "linux",
+          "sql",
+          "technical-writing",
+          "typescript",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Wedding",
+      "full_name": "RajwanYair/Wedding",
+      "html_url": "https://github.com/RajwanYair/Wedding",
+      "description": "Wedding Manager v4.7.0 - Open-source PWA for guest RSVP, table seating charts, WhatsApp invitations, budget tracking, vendor management, check-in and analytics. Hebrew RTL + English i18n. Google Sheets sync.",
+      "homepage": "https://rajwanyair.github.io/Wedding/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-13T05:59:04Z",
+      "pushed_at": "2026-09-14T05:40:07Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 17329,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "budget-tracker",
+        "event-management",
+        "google-sheets",
+        "guest-management",
+        "hebrew",
+        "i18n",
+        "offline-first",
+        "pwa",
+        "rsvp",
+        "rtl",
+        "seating-chart",
+        "table-seating",
+        "vanilla-javascript",
+        "vendor-management",
+        "vite",
+        "wedding",
+        "wedding-app",
+        "wedding-management",
+        "wedding-planner",
+        "whatsapp"
+      ],
+      "languages": {
+        "JavaScript": 4367773,
+        "HTML": 215740,
+        "CSS": 159525,
+        "TypeScript": 148294,
+        "PLpgSQL": 29668
+      },
+      "primary_language": "JavaScript",
+      "file_count": 1271,
+      "top_level_paths": [
+        ".devcontainer",
+        ".editorconfig",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".lighthouserc.json",
+        ".markdownlint-cli2.jsonc",
+        ".markdownlint.json",
+        ".nvmrc",
+        ".prettierignore",
+        ".prettierrc.json",
+        ".stylelintrc.json",
+        ".vscode",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "README.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "capacitor.config.json",
+        "config",
+        "css",
+        "docs",
+        "eslint.config.mjs",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "playwright.config.mjs",
+        "public",
+        "scripts",
+        "src",
+        "store",
+        "stryker.config.mjs",
+        "supabase",
+        "tests",
+        "tsconfig.json",
+        "vite.config.js",
+        "worker"
+      ],
+      "notable_files": [
+        ".github/workflows/branch-protection.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/copilot-setup-steps.yml",
+        ".github/workflows/dependabot-auto-merge.yml",
+        ".github/workflows/deploy.yml",
+        ".github/workflows/lighthouse.yml",
+        ".github/workflows/link-check.yml",
+        ".github/workflows/mobile-build.yml",
+        ".github/workflows/mobile-distribute.yml",
+        ".github/workflows/preview.yml",
+        ".github/workflows/project-automation.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/sbom.yml",
+        ".github/workflows/scorecard.yml",
+        ".github/workflows/security.yml",
+        ".github/workflows/sprint-health.yml",
+        ".github/workflows/supabase-db-lint.yml",
+        ".github/workflows/sync-labels.yml",
+        ".github/workflows/trivy.yml",
+        ".github/workflows/trufflehog.yml",
+        ".github/workflows/visual-baselines.yml",
+        ".github/workflows/zap-baseline.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@axe-core/playwright",
+          "@eslint/js",
+          "@playwright/test",
+          "@preact/signals-core",
+          "@stryker-mutator/core",
+          "@stryker-mutator/vitest-runner",
+          "@supabase/supabase-js",
+          "@vitest/coverage-v8",
+          "dompurify",
+          "eslint",
+          "eslint-plugin-jsdoc",
+          "htmlhint",
+          "markdownlint-cli2",
+          "serve",
+          "stylelint",
+          "stylelint-config-standard",
+          "valibot",
+          "vite",
+          "vitest"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 6286,
+      "readme_excerpt": "# 💍 Wedding Manager\n\n[![Version](https://img.shields.io/badge/version-v32.2.1-d4a574?style=flat-square)](https://github.com/RajwanYair/Wedding/releases)\n[![CI](https://github.com/RajwanYair/Wedding/actions/workflows/ci.yml/badge.svg)](https://github.com/RajwanYair/Wedding/actions/workflows/ci.yml)\n[![Deploy](https://github.com/RajwanYair/Wedding/actions/workflows/deploy.yml/badge.svg)](https://github.com/RajwanYair/Wedding/actions/workflows/deploy.yml)\n[![Tests](https://img.shields.io/badge/tests-6619_passing-brightgreen?style=flat-square)](https://github.com/RajwanYair/Wedding/actions)\n[![Coverage](https://img.shields.io/badge/coverage-58%25_lines_%C2%B7_51%25_branches-1abc9c?style=flat-square)](.github/workflows/ci.yml)\n[![Node](https://img.shields.io/badge/node-%3E%3D22-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)\n[![Modular](https://img.shields.io/badge/Modular-50%2B_JS_%2B_7_CSS-E34F26?style=flat-square&logo=html5&logoColor=white)](docs/README.md)\n[![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)](LICENSE)\n[![Hebrew](https://img.shields.io/badge/שפה-עברית_RTL-60a5fa?style=flat-square)](src/i18n/he.json)\n[![Bundle](htt",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.922,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-05-01T06:47:03+00:00",
+        "last_at": "2026-06-02T08:19:45+00:00",
+        "active_days": 7,
+        "span_days": 32,
+        "max_per_day": 114,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "v32.2.1 — patch: version bump, health.json sync fix, DX cleanup",
+          "v32.2.0 — production readiness: DX overhaul, doc modernization, dead code cleanup",
+          "chore: production cleanup — remove suspended configs, fix lint/tests, update counts",
+          "chore: code quality sprint — test perf, CI consolidation, docs cleanup",
+          "chore: production-readiness overhaul — reorganize files, harden configs, route intermediates to TEMP",
+          "feat(S729): wire calendar-sync into timeline.js (10 tests)",
+          "feat(S728): wire budget-benchmark into dashboard.js (11 tests)",
+          "feat(S727): wire task-list into run-of-show.js (12 tests)",
+          "feat(S726): wire event-timeline + multi-event into timeline.js (16 tests)",
+          "feat(S725): wire badge-printer into checkin.js (10 tests)",
+          "feat(S724): wire WhatsApp DNC list + message templates into whatsapp.js (13 tests)",
+          "feat(S723): wire floor-plan-builder + furniture + collision into tables.js (19 tests)",
+          "chore(release): v32.2.0 — S713-S722 dietary/dedup/rsvp-analytics/ical/pipeline/kiosk/registry-gifts/budget-alloc",
+          "feat(S721): gift registry tracking + thank-you log",
+          "feat(S720): check-in kiosk + guest badge data",
+          "feat(S718-S719): vendor pipeline stages + payment receipts",
+          "feat(S717+S722): iCal export + budget category allocator in dashboard",
+          "feat(S715-S716): RSVP analytics + deadline countdown",
+          "feat(S713-S714): guests dietary summary + duplicate guest merge",
+          "feat(S712): guests tag integration — wire guest-tags.js addTag/removeTag/filterByTag/bulkStatus + 17 tests"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 953
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 1,
+          "refactor": 4,
+          "test": 10,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,367,773 bytes (89% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 215,740 bytes (4% of repo)",
+          "strength": 0.4438406827880512
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 159,525 bytes (3% of repo)",
+          "strength": 0.43241719162771797
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 148,294 bytes (3% of repo)",
+          "strength": 0.4301349319244056
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 29,668 bytes (1% of repo)",
+          "strength": 0.4060288559235928
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/branch-protection.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/README.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (supabase/migrations/001_create_tables.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (supabase/migrations/001_create_tables.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (tests/e2e/_helpers.mjs)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/unit/helpers.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "@axe-core/playwright in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4921000,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "integration-testing",
+          "javascript",
+          "sql",
+          "technical-writing",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 13287718,
+    "C++": 11872926,
+    "TypeScript": 9698282,
+    "JavaScript": 4554780,
+    "PowerShell": 543888,
+    "C": 291586,
+    "CSS": 264439,
+    "HTML": 249168,
+    "MDX": 173565,
+    "CMake": 158652,
+    "HLSL": 46903,
+    "PLpgSQL": 29668,
+    "Python": 13230,
+    "Dockerfile": 6475,
+    "Astro": 5121,
+    "SVG": 244
+  },
+  "total_commits": 800,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 9,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 9698282,
+      "commit_count": 600,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: TypeScript: 3,898,786 bytes (97% of repo)",
+        "WoodworkingShop: repo topic 'typescript'",
+        "WoodworkingShop: 'typescript' in repo name/description",
+        "WoodworkingShop: typescript in package.json",
+        "CrossTide: TypeScript: 5,651,202 bytes (93% of repo)",
+        "CrossTide: repo topic 'typescript'",
+        "CrossTide: 'typescript' in repo name/description",
+        "CrossTide: typescript in package.json",
+        "Wedding: TypeScript: 148,294 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4554780,
+      "commit_count": 600,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: JavaScript: 82,545 bytes (2% of repo)",
+        "CrossTide: JavaScript: 104,462 bytes (2% of repo)",
+        "Wedding: JavaScript: 4,367,773 bytes (89% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "RajwanYair/RegiLattice"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 13287718,
+      "commit_count": 200,
+      "first_seen": "2026-03-29T12:02:15+00:00",
+      "last_seen": "2026-06-09T07:54:56+00:00",
+      "details": [
+        "RegiLattice: C#: 13,287,718 bytes (99% of repo)",
+        "RegiLattice: repo topic 'csharp'",
+        "RegiLattice: '.net' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "RajwanYair/ExplorerLens.io"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 12164512,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "ExplorerLens.io: C++: 11,872,926 bytes (93% of repo)",
+        "ExplorerLens.io: C: 291,586 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/ExplorerLens.io",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 600,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: test directory (tests/__mocks__/virtual-pwa-register.ts)",
+        "WoodworkingShop: vitest in package.json",
+        "ExplorerLens.io: test directory (external/compression-libs/lz4-1.10.0/tests/test-lz4-abi.py)",
+        "CrossTide: test directory (tests/bench/screener-10k.bench.ts)",
+        "CrossTide: vitest in package.json",
+        "Wedding: test directory (tests/unit/helpers.js)",
+        "Wedding: vitest in package.json"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 600,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: e2e suite (playwright.config.ts)",
+        "WoodworkingShop: @playwright/test in package.json",
+        "CrossTide: e2e suite (playwright.config.ts)",
+        "CrossTide: @playwright/test in package.json",
+        "Wedding: e2e suite (tests/e2e/_helpers.mjs)",
+        "Wedding: @playwright/test in package.json"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 600,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: @axe-core/playwright in package.json",
+        "CrossTide: @axe-core/playwright in package.json",
+        "Wedding: @axe-core/playwright in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "RajwanYair/WoodworkingShop"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "topic",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-05-26T19:24:58+00:00",
+      "last_seen": "2026-06-28T11:17:41+00:00",
+      "details": [
+        "WoodworkingShop: repo topic 'react'",
+        "WoodworkingShop: 'react' in repo name/description",
+        "WoodworkingShop: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "RajwanYair/WoodworkingShop"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-05-26T19:24:58+00:00",
+      "last_seen": "2026-06-28T11:17:41+00:00",
+      "details": [
+        "WoodworkingShop: repo topic 'tailwindcss'",
+        "WoodworkingShop: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "state-management",
+      "repos": [
+        "RajwanYair/WoodworkingShop"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-05-26T19:24:58+00:00",
+      "last_seen": "2026-06-28T11:17:41+00:00",
+      "details": [
+        "WoodworkingShop: repo topic 'zustand'",
+        "WoodworkingShop: zustand in package.json"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/RegiLattice",
+        "RajwanYair/ExplorerLens.io",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 800,
+      "first_seen": "2026-03-29T12:02:15+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "RegiLattice: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "ExplorerLens.io: GitHub Actions workflow (.github/workflows/asan-nightly.yml)",
+        "CrossTide: GitHub Actions workflow (.github/workflows/auto-label.yml)",
+        "Wedding: GitHub Actions workflow (.github/workflows/branch-protection.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/RegiLattice",
+        "RajwanYair/ExplorerLens.io",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 800,
+      "first_seen": "2026-03-29T12:02:15+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: docs directory (docs/API-BOUNDARIES.md)",
+        "RegiLattice: docs directory (docs/Api.md)",
+        "ExplorerLens.io: docs directory (.github/skills/documentation/SKILL.md)",
+        "CrossTide: docs directory (docs-site/src/content/docs/alerts.mdx)",
+        "Wedding: docs directory (docs/README.md)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "RajwanYair/RegiLattice",
+        "RajwanYair/ExplorerLens.io",
+        "RajwanYair/CrossTide"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "language"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 5515,
+      "commit_count": 400,
+      "first_seen": "2026-03-29T12:02:15+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "RegiLattice: Dockerfile (Dockerfile)",
+        "ExplorerLens.io: Dockerfile: 3,584 bytes (0% of repo)",
+        "ExplorerLens.io: Dockerfile (Dockerfile)",
+        "CrossTide: Dockerfile: 1,931 bytes (0% of repo)",
+        "CrossTide: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "CrossTide: SQL file (worker/migrations/0001_initial_schema.sql)",
+        "Wedding: SQL file (supabase/migrations/001_create_tables.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "CrossTide: database migrations (worker/migrations/0001_initial_schema.sql)",
+        "Wedding: database migrations (supabase/migrations/001_create_tables.sql)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "RajwanYair/ExplorerLens.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "ExplorerLens.io: Android app manifest (external/image-libs/libavif-1.3.0/android_jni/avifandroidjni/src/androidTest/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "RajwanYair/CrossTide"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-05-04T20:39:22+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "CrossTide: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "RajwanYair/WoodworkingShop",
+        "RajwanYair/RegiLattice",
+        "RajwanYair/CrossTide",
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4438406827880512,
+      "total_bytes": 513607,
+      "commit_count": 800,
+      "first_seen": "2026-03-29T12:02:15+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "WoodworkingShop: CSS: 11,923 bytes (0% of repo)",
+        "WoodworkingShop: HTML: 7,520 bytes (0% of repo)",
+        "RegiLattice: HTML: 8,882 bytes (0% of repo)",
+        "CrossTide: CSS: 92,991 bytes (2% of repo)",
+        "CrossTide: HTML: 17,026 bytes (0% of repo)",
+        "Wedding: HTML: 215,740 bytes (4% of repo)",
+        "Wedding: CSS: 159,525 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "RajwanYair/RegiLattice",
+        "RajwanYair/ExplorerLens.io",
+        "RajwanYair/CrossTide"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 0.4330996310251133,
+      "total_bytes": 543888,
+      "commit_count": 400,
+      "first_seen": "2026-03-29T12:02:15+00:00",
+      "last_seen": "2026-07-26T19:59:17+00:00",
+      "details": [
+        "RegiLattice: PowerShell: 103,537 bytes (1% of repo)",
+        "ExplorerLens.io: PowerShell: 424,045 bytes (3% of repo)",
+        "ExplorerLens.io: 'shell' in repo name/description",
+        "CrossTide: PowerShell: 16,306 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "RajwanYair/Wedding"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4060288559235928,
+      "total_bytes": 29668,
+      "commit_count": 200,
+      "first_seen": "2026-05-01T06:47:03+00:00",
+      "last_seen": "2026-06-02T08:19:45+00:00",
+      "details": [
+        "Wedding: PLpgSQL: 29,668 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "RajwanYair/ExplorerLens.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4010326925643794,
+      "total_bytes": 13230,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "ExplorerLens.io: Python: 13,230 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 800,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 17,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:33:48.640701+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

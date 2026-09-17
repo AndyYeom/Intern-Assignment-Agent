@@ -1,0 +1,112 @@
+{
+  "applicant_id": "applicant0118",
+  "github_login": "Stallion77RepoOfficial",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0118.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Stallion77RepoOfficial/MetalGoose"
+      ],
+      "repos": [
+        {
+          "repo": "Stallion77RepoOfficial/MetalGoose",
+          "html_url": "https://github.com/Stallion77RepoOfficial/MetalGoose",
+          "level": 3,
+          "reasons": [
+            "intermediate: 9 commits; has_ci, used_by_others, documented",
+            "advanced: others depend on it",
+            "GitHub Actions workflow (.github/workflows/objective-c-xcode.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Stallion77RepoOfficial/MetalGoose"
+      ],
+      "repos": [
+        {
+          "repo": "Stallion77RepoOfficial/MetalGoose",
+          "html_url": "https://github.com/Stallion77RepoOfficial/MetalGoose",
+          "level": 3,
+          "reasons": [
+            "intermediate: 9 commits; has_ci, used_by_others, documented",
+            "advanced: others depend on it",
+            "Swift: 195,191 bytes (92% of repo)",
+            "iOS project (MetalGoose.xcodeproj/project.pbxproj)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Stallion77RepoOfficial/AST-YT",
+        "https://github.com/Stallion77RepoOfficial/Mac-Battery-Status",
+        "https://github.com/Stallion77RepoOfficial/NetShow",
+        "https://github.com/Stallion77RepoOfficial/Sort-Unused"
+      ],
+      "repos": [
+        {
+          "repo": "Stallion77RepoOfficial/AST-YT",
+          "html_url": "https://github.com/Stallion77RepoOfficial/AST-YT",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 4,624 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Stallion77RepoOfficial/Mac-Battery-Status",
+          "html_url": "https://github.com/Stallion77RepoOfficial/Mac-Battery-Status",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 2,989 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Stallion77RepoOfficial/NetShow",
+          "html_url": "https://github.com/Stallion77RepoOfficial/NetShow",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 10,763 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Stallion77RepoOfficial/Sort-Unused",
+          "html_url": "https://github.com/Stallion77RepoOfficial/Sort-Unused",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 3,159 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 2
+  }
+}

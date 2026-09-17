@@ -1,0 +1,111 @@
+{
+  "github_login": "emilyspringerton",
+  "applicant_id": "applicant0115",
+  "first_name": "Priya",
+  "last_name": "Chandran",
+  "career_stage": "student",
+  "email": "priya@fenhollow.example",
+  "phone": "(555) 010-0115",
+  "location": "Fen Hollow",
+  "linkedin": "linkedin.example.com/in/priya-chandran",
+  "github_url": "github.example.com/priya-chandran",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Alderbrook Institute of Technology",
+    "location": "Fen Hollow",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Statistics",
+    "graduation": "Dec 2026",
+    "gpa": "3.8/4.0",
+    "coursework": [
+      "Distributed Systems",
+      "Databases",
+      "Software Testing",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "PARENA",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a C automation project with Makefile and Shell scripts, wiring continuous integration and an automated test suite across nearly 500 files.",
+        "After an intermittent CI failure took a day to trace, added structured logging around the build steps that finally made the failure reproducible."
+      ],
+      "link": null,
+      "tech": [
+        "C",
+        "Makefile",
+        "Shell",
+        "Starlark"
+      ]
+    },
+    {
+      "title": "EMILY",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a Go-based service for handling background workloads, adding CI and an automated test suite so teammates could confirm changes did not break other workflows."
+      ],
+      "link": null,
+      "tech": [
+        "Go",
+        "Shell",
+        "C",
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Reviewer",
+      "organization": "Alderbrook Reliability Study Group",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Reviewed classmates' bug reports for a systems course and noticed missing reproduction steps, then proposed a short checklist covering environment, sequence, and expected behavior.",
+        "Paired with a teammate confused by a flaky test suite, walking through log output together until the root cause, a shared test fixture, became clear."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C/C++",
+      "Go",
+      "Python",
+      "SQL"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "CI/CD",
+      "Kubernetes"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

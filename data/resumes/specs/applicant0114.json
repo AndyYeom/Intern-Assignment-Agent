@@ -1,0 +1,102 @@
+{
+  "github_login": "Alexander23W4",
+  "applicant_id": "applicant0114",
+  "first_name": "Marcus",
+  "last_name": "Delgado",
+  "career_stage": "student",
+  "email": "marcus@rivermoor.example",
+  "phone": "(555) 010-0114",
+  "location": "Rivermoor",
+  "linkedin": "linkedin.example.com/in/marcus-delgado",
+  "github_url": "github.example.com/marcus-delgado",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Castleport University",
+    "location": "Rivermoor",
+    "degree": "Bachelor of Science",
+    "major": "Computer Engineering",
+    "minor": "Technical Communication",
+    "graduation": "May 2027",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Computer Architecture",
+      "Operating Systems",
+      "Embedded Systems",
+      "Technical Writing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Ysyx Workbench",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Organized a large C/C++ hardware workbench spanning thousands of files into buildable Makefile targets, packaging the toolchain with Docker for consistent runs.",
+        "Kept a running build log after an untracked change forced a full day's rebuild, using it to trace which modules needed rebuilding across 200 commits."
+      ],
+      "link": null,
+      "tech": [
+        "C",
+        "C++",
+        "Makefile",
+        "Python"
+      ]
+    },
+    {
+      "title": "Solar",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Wrote an automated pytest suite for a Python utility project, configuring test options and code formatting with black to keep contributions consistent."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Build Coordinator",
+      "organization": "Castleport Computer Engineering Society",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Noticed teammates on a shared embedded project repeatedly duplicating setup steps and started a shared checklist covering environment, build flags, and test commands.",
+        "Tracked open tasks across three student teams preparing for a systems showcase, flagging blocked items during weekly check-ins so handoffs did not stall."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "C/C++",
+      "Shell Scripting"
+    ],
+    "DevOps": [
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

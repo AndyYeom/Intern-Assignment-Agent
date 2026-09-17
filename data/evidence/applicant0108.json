@@ -1,0 +1,328 @@
+{
+  "applicant_id": "applicant0108",
+  "github_login": "skycar321",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0108.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/pybo"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/pybo",
+          "html_url": "https://github.com/skycar321/pybo",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "database migrations (common/migrations/__init__.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "docker-compose (content/devops/airflow/Step2_Setup/docker-compose.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/skycar321/JSP-",
+        "https://github.com/skycar321/pybo"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/JSP-",
+          "html_url": "https://github.com/skycar321/JSP-",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "HTML: 27,899 bytes (25% of repo)"
+          ]
+        },
+        {
+          "repo": "skycar321/pybo",
+          "html_url": "https://github.com/skycar321/pybo",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "HTML: 20,937 bytes (42% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/skycar321/JSP-",
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/JSP-",
+          "html_url": "https://github.com/skycar321/JSP-",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Java: 85,850 bytes (75% of repo)"
+          ]
+        },
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Java: 344,407 bytes (14% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "JavaScript: 387,109 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "kubernetes manifests (content/devops/kubernetes/Step1_ContainersAndKubernetesBasics.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "env config (content/devops/airflow/Step2_Setup/.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "next config (platform/frontend/next.config.ts)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/pybo"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/pybo",
+          "html_url": "https://github.com/skycar321/pybo",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Python: 28,600 bytes (58% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "shell",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Shell: 887,096 bytes (36% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "SQL file (content/databases/postgresql/Advanced_Step1_WindowFunctions.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "docs directory (docs/.gcx/00_requirements/req_verification_sample.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ],
+      "repos": [
+        {
+          "repo": "skycar321/learning-code",
+          "html_url": "https://github.com/skycar321/learning-code",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "test directory (.gcx/02_implementation/tests/test_factorial.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "typescript",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/skycar321/learning-code"
+      ]
+    }
+  ],
+  "status_counts": {
+    "partially_verified": 4,
+    "verified": 9
+  }
+}

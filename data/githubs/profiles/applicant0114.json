@@ -1,0 +1,1189 @@
+{
+  "applicant_id": "applicant0114",
+  "login": "Alexander23W4",
+  "html_url": "https://github.com/Alexander23W4",
+  "created_at": "2025-04-09T13:55:08Z",
+  "account_age_days": 525,
+  "public_repos": 19,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "FPC-WorkSpace",
+      "full_name": "Alexander23W4/FPC-WorkSpace",
+      "html_url": "https://github.com/Alexander23W4/FPC-WorkSpace",
+      "description": "My workspace test",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-09T09:33:45Z",
+      "pushed_at": "2026-02-04T09:07:15Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 84050,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 191
+      },
+      "primary_language": "Python",
+      "file_count": 10,
+      "top_level_paths": [
+        ".vscode",
+        "C_explanation.txt",
+        "Items",
+        "Test.py",
+        "ToDo.py",
+        "exam_pre.txt",
+        "gitmind.txt",
+        "random.txt",
+        "techinical_writing_exam.pdf",
+        "technical_writing.pdf"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-12-09T09:25:27+00:00",
+        "last_at": "2026-02-04T09:06:57+00:00",
+        "active_days": 3,
+        "span_days": 56,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "update",
+          "update 26-1-14, add exam_pre.txt for technical writing exam preparation",
+          "update 26-1-14",
+          "update 26-1-14:",
+          "the following commit message: gitmind.txt added",
+          "The first commit for test."
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 191 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 191,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Solar",
+      "full_name": "Alexander23W4/Solar",
+      "html_url": "https://github.com/Alexander23W4/Solar",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-25T05:51:39Z",
+      "pushed_at": "2026-09-09T11:56:00Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 264128,
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "topics": [],
+      "languages": {
+        "Python": 238568
+      },
+      "primary_language": "Python",
+      "file_count": 138,
+      "top_level_paths": [
+        ".gitignore",
+        "Compensation",
+        "LICENSE",
+        "README.md",
+        "pyproject.toml",
+        "research_materials",
+        "src",
+        "tests"
+      ],
+      "notable_files": [
+        "pyproject.toml"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "-q",
+          "1.1.0",
+          "addopts",
+          "black",
+          "description",
+          "e",
+          "f",
+          "mit",
+          "name",
+          "py39",
+          "pytest",
+          "readme",
+          "readme.md",
+          "requires-python",
+          "ruff",
+          "setuptools",
+          "setuptools.build_meta",
+          "solar",
+          "tests",
+          "version",
+          "wheel"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 379,
+      "readme_excerpt": "# Solar\n极地光伏组件及其阵列设计项目\n\n### 项目建模源码\n./src\n* AssemblyModule 为多板整合成组件的建模实现\n* AngleModule  用于计算组件当中不同倾角和方位角的光伏板（即光伏板法相角）与太阳直射角的夹角建模\n* IrradianceModule 用于计算直射irradiance 散射irradiance 反射irradiance 建模实现\n* Array 用于组件阵列的建模\n* Timeline 用于计算阵列在某一南极地点某一段时间理想状态下的大致总irradiance， 此建模用于对时间积分\n\n### 资料\n./research_materials\n包含参考论文  项目报告与展示文件  项目设计方案与规划\n\n### 测试\n./test\n测试文件在此处， 用于测试不同方案的irradiance结果\n\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 44,
+        "first_at": "2026-02-25T05:53:30+00:00",
+        "last_at": "2026-09-09T11:55:51+00:00",
+        "active_days": 19,
+        "span_days": 196,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.205,
+        "messages_sample": [
+          "Wed Sep  9 19:55:50     2026",
+          "update",
+          "Sun Aug 23 13:30:13 CST 2026",
+          "Sun Aug 23 13:08:31 CST 2026",
+          "update",
+          "Sun Aug 23 12:57:09 CST 2026",
+          "Sun Aug 23 12:48:27 CST 2026",
+          "update",
+          "Sun Aug 23 11:30:23 CST 2026",
+          "Wed Aug 19 22:48:32 CST 2026",
+          "Wed Aug 19 22:35:08 CST 2026",
+          "Sat Aug 15 17:45:32 CST 2026",
+          "Thu Aug 13 21:41:11 CST 2026",
+          "update",
+          "Thu Aug 13 21:25:31 CST 2026",
+          "Thu Aug 13 16:06:19 CST 2026",
+          "Merge branch 'master' of github.com:Alexander23W4/Solar",
+          "update 26.7.24",
+          "Mon Jun  8 23:27:10 CST 2026",
+          "Sun May 24 16:26:02 CST 2026 test.py"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 27
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 238,568 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/test1.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "manifest",
+          "detail": "readme in pyproject.toml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 238568,
+        "strong_skills": [
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "InternalDependent_ysyx-workbench",
+      "full_name": "Alexander23W4/InternalDependent_ysyx-workbench",
+      "html_url": "https://github.com/Alexander23W4/InternalDependent_ysyx-workbench",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-28T01:26:25Z",
+      "pushed_at": "2026-09-17T01:18:02Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 145482,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 14490486,
+        "C++": 2794980,
+        "Makefile": 2136130,
+        "Python": 695433,
+        "Verilog": 511995,
+        "Shell": 417431,
+        "SystemVerilog": 160090,
+        "Assembly": 136905,
+        "Yacc": 47472,
+        "RPC": 28324,
+        "Lex": 25666,
+        "M4": 17515,
+        "HTML": 6974,
+        "Linker Script": 5200,
+        "LLVM": 1581,
+        "Xmake": 922,
+        "Dockerfile": 868,
+        "GDB": 501,
+        "Batchfile": 407
+      },
+      "primary_language": "C",
+      "file_count": 6521,
+      "top_level_paths": [
+        ".gitignore",
+        ".gitmodules",
+        ".init.sh.swp",
+        "E4-tutor-code",
+        "Makefile",
+        "README.md",
+        "T_handnotes",
+        "VerTest",
+        "abstract-machine",
+        "am-kernels",
+        "embedded_stack",
+        "fceux-am",
+        "gitmoduels",
+        "init.sh",
+        "logisim_minirvCPU",
+        "logisim_sCPU",
+        "mill",
+        "mind",
+        "minirv_CPU",
+        "minirv_bin",
+        "nemu",
+        "nemu_pre",
+        "new_sCPU",
+        "note.sh",
+        "npc",
+        "out",
+        "predev",
+        "rt-thread-am",
+        "sCPU",
+        "sCPU_max",
+        "ysyxSoC"
+      ],
+      "notable_files": [
+        "rt-thread-am/.devcontainer/Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 205,
+      "readme_excerpt": "My out-fetched workbench from ysyx(oscc), for personal development usage.\n\nMultiple additional modifications on top of original resources.\n\nOfficial resource: [lecture note]: https://ysyx.oscc.cc/docs/en/\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.995,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-01T12:07:50+00:00",
+        "last_at": "2026-09-17T01:17:58+00:00",
+        "active_days": 12,
+        "span_days": 15,
+        "max_per_day": 26,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Thu Sep 17 09:17:58 CST 2026",
+          "Thu Sep 17 08:50:33 CST 2026",
+          "Thu Sep 17 08:48:07 CST 2026",
+          "Thu Sep 17 08:44:46 CST 2026",
+          "Wed Sep 16 23:19:12 CST 2026",
+          "Wed Sep 16 21:49:09 CST 2026",
+          "Wed Sep 16 21:44:32 CST 2026",
+          "Wed Sep 16 21:33:15 CST 2026",
+          "Wed Sep 16 20:58:19 CST 2026",
+          "Wed Sep 16 20:54:29 CST 2026",
+          "Wed Sep 16 20:09:01 CST 2026",
+          "Wed Sep 16 19:49:11 CST 2026",
+          "Wed Sep 16 19:48:05 CST 2026",
+          "Wed Sep 16 17:21:48 CST 2026",
+          "Wed Sep 16 17:18:13 CST 2026",
+          "Wed Sep 16 16:23:11 CST 2026",
+          "Wed Sep 16 15:45:34 CST 2026 finish check QSPI PSRAM",
+          "Wed Sep 16 15:40:19 CST 2026 complete QSPI PSRAM",
+          "Wed Sep 16 15:04:59 CST 2026",
+          "Wed Sep 16 14:39:03 CST 2026"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1878
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 14,490,486 bytes (67% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 2,794,980 bytes (13% of repo)",
+          "strength": 0.530126896746944
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 2,136,130 bytes (10% of repo)",
+          "strength": 0.4994525785329589
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 695,433 bytes (3% of repo)",
+          "strength": 0.4323775262024836
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 417,431 bytes (2% of repo)",
+          "strength": 0.4194344863419322
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 6,974 bytes (0% of repo)",
+          "strength": 0.4003246910453432
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (rt-thread-am/.devcontainer/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (rt-thread-am/components/drivers/fdt/docs/README.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 20542302,
+        "strong_skills": [
+          "c-cpp",
+          "docker",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "26_8_EBD",
+      "full_name": "Alexander23W4/26_8_EBD",
+      "html_url": "https://github.com/Alexander23W4/26_8_EBD",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-31T08:02:37Z",
+      "pushed_at": "2026-09-09T11:52:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 47655,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 5811085,
+        "Makefile": 93693,
+        "Assembly": 57579,
+        "HTML": 49830
+      },
+      "primary_language": "C",
+      "file_count": 278,
+      "top_level_paths": [
+        "CORE",
+        "LIB",
+        "MDK-ARM",
+        "MobaXterm_Portable_v25.1",
+        "USER",
+        "examples"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2026-08-31T08:03:42+00:00",
+        "last_at": "2026-09-09T11:52:50+00:00",
+        "active_days": 2,
+        "span_days": 9,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Wed Sep  9 19:52:50     2026 update",
+          "update",
+          "update",
+          "update",
+          "complete 1_key",
+          "start"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 117
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 5,811,085 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 93,693 bytes (2% of repo)",
+          "strength": 0.4155838466102269
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 49,830 bytes (1% of repo)",
+          "strength": 0.4082881653548035
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5954608,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LinuxDev",
+      "full_name": "Alexander23W4/LinuxDev",
+      "html_url": "https://github.com/Alexander23W4/LinuxDev",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-02T12:41:18Z",
+      "pushed_at": "2026-03-11T07:40:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 49198,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Makefile": 2349652,
+        "CMake": 598124,
+        "Python": 533379,
+        "C++": 149562,
+        "Common Lisp": 144521,
+        "Shell": 137305,
+        "JavaScript": 50930,
+        "C": 20520,
+        "Roff": 66
+      },
+      "primary_language": "Makefile",
+      "file_count": 2459,
+      "top_level_paths": [
+        ".note.txt.swn",
+        ".note.txt.swo",
+        ".note.txt.swp",
+        ".swm",
+        ".swn",
+        ".swo",
+        ".swp",
+        ".vim_Learn.txt.swo",
+        ".vim_Learn.txt.swp",
+        "MSCE_2_Shellprog",
+        "MSCE_4_DataWrangling",
+        "MSCE_5_CommandLineDev",
+        "catkin_ws",
+        "command.txt",
+        "commands.txt",
+        "core.11889.1000.8.test.out.1767779820",
+        "core.test.out.4001.1767798231",
+        "core.test.out.4016.1767798409",
+        "coredump_config.sh",
+        "dump_conf.sh",
+        "grate.c",
+        "grate.out",
+        "last_modified.txt",
+        "note.txt",
+        "notice.txt",
+        "open1.txt",
+        "random,txt",
+        "random.txt",
+        "regex.txt",
+        "simulate_coredump.sh",
+        "test.c",
+        "test.out",
+        "testnote.txt",
+        "time.sh",
+        "vim_Learn.txt"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.967,
+      "commits": {
+        "count": 29,
+        "first_at": "2026-01-03T02:28:34+00:00",
+        "last_at": "2026-03-11T07:40:55+00:00",
+        "active_days": 14,
+        "span_days": 67,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Wed Mar 11 15:40:55 CST 2026",
+          "Wed Feb  4 11:22:23 CST 2026",
+          "Tue Feb  3 16:46:29 CST 2026",
+          "Tue Feb  3 15:26:16 CST 2026",
+          "Tue Feb  3 13:30:05 CST 2026 fortest",
+          "Tue Feb  3 13:26:52 CST 2026",
+          "Tue Feb  3 13:21:59 CST 2026",
+          "2026年 02月 03日 星期二 13:05:19 CST",
+          "update 26-1-19",
+          "update 26-1-19",
+          "update 26-1-15",
+          "update 26-1-14",
+          "update 26-1-12",
+          "update 26-1-11",
+          "update 26-1-11",
+          "update 26-1-8",
+          "update 26-1-7",
+          "update 26-1-7",
+          "update 26-1-7",
+          "update 26-1-6"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 140
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 2,349,652 bytes (59% of repo)",
+          "strength": 0.9897633544081551
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 533,379 bytes (13% of repo)",
+          "strength": 0.5338782884490416
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 149,562 bytes (4% of repo)",
+          "strength": 0.4375401067102671
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 137,305 bytes (3% of repo)",
+          "strength": 0.43446359604614293
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 50,930 bytes (1% of repo)",
+          "strength": 0.4127834452250833
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 20,520 bytes (1% of repo)",
+          "strength": 0.40515052613427666
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3241348,
+        "strong_skills": [
+          "shell"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C": 20322091,
+    "Makefile": 4579475,
+    "C++": 2944542,
+    "Python": 1467571,
+    "CMake": 598124,
+    "Shell": 554736,
+    "Verilog": 511995,
+    "Assembly": 194484,
+    "SystemVerilog": 160090,
+    "Common Lisp": 144521,
+    "HTML": 56804,
+    "JavaScript": 50930,
+    "Yacc": 47472,
+    "RPC": 28324,
+    "Lex": 25666,
+    "M4": 17515,
+    "Linker Script": 5200,
+    "LLVM": 1581,
+    "Xmake": 922,
+    "Dockerfile": 868,
+    "GDB": 501,
+    "Batchfile": 407,
+    "Roff": 66
+  },
+  "total_commits": 285,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "Alexander23W4/FPC-WorkSpace",
+        "Alexander23W4/Solar",
+        "Alexander23W4/InternalDependent_ysyx-workbench",
+        "Alexander23W4/LinuxDev"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1467571,
+      "commit_count": 279,
+      "first_seen": "2025-12-09T09:25:27+00:00",
+      "last_seen": "2026-09-17T01:17:58+00:00",
+      "details": [
+        "FPC-WorkSpace: Python: 191 bytes (100% of repo)",
+        "Solar: Python: 238,568 bytes (100% of repo)",
+        "InternalDependent_ysyx-workbench: Python: 695,433 bytes (3% of repo)",
+        "LinuxDev: Python: 533,379 bytes (13% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Alexander23W4/InternalDependent_ysyx-workbench",
+        "Alexander23W4/26_8_EBD",
+        "Alexander23W4/LinuxDev"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 23266633,
+      "commit_count": 235,
+      "first_seen": "2026-01-03T02:28:34+00:00",
+      "last_seen": "2026-09-17T01:17:58+00:00",
+      "details": [
+        "InternalDependent_ysyx-workbench: C: 14,490,486 bytes (67% of repo)",
+        "InternalDependent_ysyx-workbench: C++: 2,794,980 bytes (13% of repo)",
+        "26_8_EBD: C: 5,811,085 bytes (97% of repo)",
+        "LinuxDev: C++: 149,562 bytes (4% of repo)",
+        "LinuxDev: C: 20,520 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Alexander23W4/InternalDependent_ysyx-workbench",
+        "Alexander23W4/26_8_EBD",
+        "Alexander23W4/LinuxDev"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9897633544081551,
+      "total_bytes": 5134211,
+      "commit_count": 235,
+      "first_seen": "2026-01-03T02:28:34+00:00",
+      "last_seen": "2026-09-17T01:17:58+00:00",
+      "details": [
+        "InternalDependent_ysyx-workbench: Makefile: 2,136,130 bytes (10% of repo)",
+        "InternalDependent_ysyx-workbench: Shell: 417,431 bytes (2% of repo)",
+        "26_8_EBD: Makefile: 93,693 bytes (2% of repo)",
+        "LinuxDev: Makefile: 2,349,652 bytes (59% of repo)",
+        "LinuxDev: Shell: 137,305 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Alexander23W4/Solar",
+        "Alexander23W4/InternalDependent_ysyx-workbench"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest",
+        "file"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 244,
+      "first_seen": "2026-02-25T05:53:30+00:00",
+      "last_seen": "2026-09-17T01:17:58+00:00",
+      "details": [
+        "Solar: readme in pyproject.toml",
+        "InternalDependent_ysyx-workbench: docs directory (rt-thread-am/components/drivers/fdt/docs/README.md)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Alexander23W4/Solar"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 44,
+      "first_seen": "2026-02-25T05:53:30+00:00",
+      "last_seen": "2026-09-09T11:55:51+00:00",
+      "details": [
+        "Solar: test directory (tests/test1.py)",
+        "Solar: pytest in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Alexander23W4/InternalDependent_ysyx-workbench"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-01T12:07:50+00:00",
+      "last_seen": "2026-09-17T01:17:58+00:00",
+      "details": [
+        "InternalDependent_ysyx-workbench: Dockerfile (rt-thread-am/.devcontainer/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Alexander23W4/LinuxDev"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4127834452250833,
+      "total_bytes": 50930,
+      "commit_count": 29,
+      "first_seen": "2026-01-03T02:28:34+00:00",
+      "last_seen": "2026-03-11T07:40:55+00:00",
+      "details": [
+        "LinuxDev: JavaScript: 50,930 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Alexander23W4/InternalDependent_ysyx-workbench",
+        "Alexander23W4/26_8_EBD"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4082881653548035,
+      "total_bytes": 56804,
+      "commit_count": 206,
+      "first_seen": "2026-08-31T08:03:42+00:00",
+      "last_seen": "2026-09-17T01:17:58+00:00",
+      "details": [
+        "InternalDependent_ysyx-workbench: HTML: 6,974 bytes (0% of repo)",
+        "26_8_EBD: HTML: 49,830 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 285,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:29:22.968542+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

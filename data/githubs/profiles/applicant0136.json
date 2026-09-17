@@ -1,0 +1,950 @@
+{
+  "applicant_id": "applicant0136",
+  "login": "hgorledeenn",
+  "html_url": "https://github.com/hgorledeenn",
+  "created_at": "2021-05-07T03:05:02Z",
+  "account_age_days": 1958,
+  "public_repos": 31,
+  "followers": 1,
+  "following": 1,
+  "repos": [
+    {
+      "name": "Chicago-Reimbursements-site",
+      "full_name": "hgorledeenn/Chicago-Reimbursements-site",
+      "html_url": "https://github.com/hgorledeenn/Chicago-Reimbursements-site",
+      "description": "An auto-updating, scraper-driven web resource showing reimbursement payments to City of Chicago employees",
+      "homepage": "https://hgorledeenn.github.io/Chicago-Reimbursements-site/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-08T01:25:13Z",
+      "pushed_at": "2026-09-17T01:10:33Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 98601,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 112537
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 225,
+      "top_level_paths": [
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        "HG - FoundOfComp Final Pitch.pdf",
+        "HG - FoundOfComp Final Project.pdf",
+        "README.md",
+        "chicago_reimbursements_scraper.ipynb",
+        "clean_foia_data.csv",
+        "cleaning_foia_data.ipynb",
+        "docs",
+        "employee_reimbursements(NON-FOIA,KEEP).csv",
+        "employee_reimbursements.csv",
+        "foia_data",
+        "future_ideas.md",
+        "ss",
+        "test_1.csv",
+        "test_merge_foia_other.ipynb"
+      ],
+      "notable_files": [
+        ".github/workflows/update.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 11891,
+      "readme_excerpt": "# City of Chicago Employee Reimbursements\n\nAn auto-updating, scraper-driven web resource\n\nCreated by **[Holden Green](https://www.holdengreen.me)** in December 2025 <br>\nColumbia Journalism School, Foundations of Computing (Final Project)\n\n<br>\n\n## Contents\n1. [The Project](#the-project)\n2. [Data Collection and Wrangling](#data-collection-and-wrangling)\n3. [What I Learned](#what-i-learned)\n4. [What I Would Add Next Time](#what-i-would-add-next-time)\n5. [Updates/Bug Fixes](#updatesbug-fixes)\n\n\n<br>\n\n## The Project\nReimbursements paid to employees of the City of Chicago are made public in [this dataset](https://data.cityofchicago.org/Administration-Finance/Employee-Reimbursements/g5h3-jkgt/explore/query/SELECT%0A%20%20%60voucher_number%60%2C%0A%20%20%60amount%60%2C%0A%20%20%60payment_date%60%2C%0A%20%20%60vendor_name%60%2C%0A%20%20%60description%60%2C%0A%20%20%60department%60%0AORDER%20BY%20%60payment_date%60%20DESC%20NULL%20FIRST/page/filter). The data is updated weekly, and old transactions are stored up to Jan. 1 of the previous calendar year. But the interface is a little bit finicky (especially if you’re not a data journalist) and it can be a little bit slow to run queries and g",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.418,
+      "commits": {
+        "count": 117,
+        "first_at": "2025-12-08T01:23:49+00:00",
+        "last_at": "2026-05-08T21:57:15+00:00",
+        "active_days": 16,
+        "span_days": 151,
+        "max_per_day": 33,
+        "low_effort_message_ratio": 0.325,
+        "messages_sample": [
+          "Merge branch 'main' of github.com:hgorledeenn/Chicago-Reimbursements-site into main",
+          "updated readme.md",
+          "created folders and index files for all the new depts",
+          "added FOIA data to old dataset",
+          "added .gitignore and remove ds store files",
+          "added .gitignore",
+          "updated some foia scraping",
+          "updated foia processing",
+          "updated foia data cleaning",
+          "Merge branch 'main' of github.com:hgorledeenn/Chicago-Reimbursements-site into main",
+          "worked on adding FOIA data",
+          "Merge branch 'main' of github.com:hgorledeenn/Chicago-Reimbursements-site into main",
+          "added bug fixes to .readme",
+          "updated name for dept summary column",
+          "update file names",
+          "updated \"average\" to \"median\" on by dept summary .csv",
+          "fixed date issues and duplicating issues when merging old and new data",
+          "Merge branch 'main' of github.com:hgorledeenn/Chicago-Reimbursements-site into main",
+          "update hyperlink for portfolio page in footer",
+          "Merge branch 'main' of https://github.com/hgorledeenn/Chicago-Reimbursements-site into main"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 3,
+        "code_file_count": 44
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 112,537 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/update.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (chicago_reimbursements_scraper.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 112537,
+        "strong_skills": [
+          "cicd",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "thomas-frank-spurs",
+      "full_name": "hgorledeenn/thomas-frank-spurs",
+      "html_url": "https://github.com/hgorledeenn/thomas-frank-spurs",
+      "description": "An analysis of Thomas Frank's tenure leading Tottenham Hotspur Football Club",
+      "homepage": "https://hgorledeenn.github.io/thomas-frank-spurs/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-15T21:50:17Z",
+      "pushed_at": "2026-04-26T22:56:30Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10530,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 357471,
+        "HTML": 10793
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 49,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "Football-Data.co.uk",
+        "README.md",
+        "data_analysis.ipynb",
+        "img",
+        "index.html",
+        "output_csvs",
+        "pl_results_scraper.ipynb",
+        "raw_season_csvs"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 7721,
+      "readme_excerpt": "# Analysis of Thomas Frank's Tenure at Tottenham Hotspur Football Club\n\nCreated by **[Holden Green](https://hgorledeenn.github.io)** in February 2026 <br>\nColumbia Journalism School, Data Studio\n\n<br>\n\n## Contents\n1. [The Project](#the-project)\n2. [Findings](#findings)\n3. [Data Collection and Wrangling](#data-collection-and-wrangling)\n4. [What I Learned](#what-i-learned)\n5. [Limitations/For Next Time](#limitationsfor-next-time)\n6. [Data Diary](#data-diary)\n\n<br>\n\n## The Project\nThis story was concieved following Thomas Frank's removal from his position as head coach at the Tottenham Hotspur Football Club. I did original data analysis and research and published just a few days later, combining data from a multiple sources to analyze Frank's tenure in the context of other 2000s-era Spurs coaches.\n\n*See the [Data Diary](#data-diary) for my csv file at the bottom.*\n<br><br>\n> **<big>An excerpt from the story:</big>**\n>\n>*Thomas Frank was removed from his post as Head Coach of the Tottenham Hotspur men's team last week. He was appointed in the summer of 2025 and has spent the better part of the current season at the helm in North London.*\n>\n>*Despite a strong showing in the Champions Le",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 34,
+        "first_at": "2026-02-15T21:50:05+00:00",
+        "last_at": "2026-04-26T22:56:28+00:00",
+        "active_days": 7,
+        "span_days": 70,
+        "max_per_day": 19,
+        "low_effort_message_ratio": 0.559,
+        "messages_sample": [
+          "added table of contents to .readme",
+          "made edits to copy and charts",
+          "Added a gitignore",
+          "added gitignore",
+          "changed wording on .readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme image size",
+          "update files",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme",
+          "update readme"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 2,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 357,471 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 10,793 bytes (3% of repo)",
+          "strength": 0.42930777920187696
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (data_analysis.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 368264,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "one-american-day",
+      "full_name": "hgorledeenn/one-american-day",
+      "html_url": "https://github.com/hgorledeenn/one-american-day",
+      "description": "An analysis of one American day, based on data from the American Time Use Survey",
+      "homepage": "https://hgorledeenn.github.io/one-american-day/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-02T02:22:49Z",
+      "pushed_at": "2026-03-06T14:55:14Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 87426,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 15214,
+        "R": 11143
+      },
+      "primary_language": "HTML",
+      "file_count": 82,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitattributes",
+        "README.md",
+        "Untitled-1.psd",
+        "Untitled.R",
+        "data",
+        "favicon.ico",
+        "gif-for-readme.gif",
+        "index.html",
+        "lexiconwex2024.xls",
+        "make a gif",
+        "plots_for_site",
+        "plots_only.gif",
+        "to_make_into_viz",
+        "vid-for-readme.mov",
+        "waffle plots",
+        "web-bg.gif"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4801,
+      "readme_excerpt": "# One American Day\nCreated by **[Holden Green](https://hgorledeenn.github.io)** in February 2026 <br>\nColumbia Journalism School, Data Studio\n<br>\n\n![gif-for-readme.gif](gif-for-readme.gif)\n\n<br>\n\n## Contents:\n1. [The Project](#the-project)\n2. [Data Wrangling and Visualization](#data-wrangling-and-visualization)\n3. [Web Design](#web-design)\n4. [What I Would Change for Next Time](#what-i-would-change-for-next-time)\n\n<br>\n\n## The Project\nThis story analyzes data from the 2024 American Community Survey, a topic I found from [this video](https://www.youtube.com/watch?v=04EfRggPL-M) from Chris Spargo. I analyzed the data in R, which included extensive exploratory data analysis and wrangling.\n\nI learned a lot about working with this sort of large survey data and got hands on experience applying and understanding weights to make claims about entire populations based on data from samples.\n\n<br>\n\n## Data Wrangling and Visualization\nThis project was my first foray into making [waffle charts](/plots_for_site/1_all_bright.png) and I got hands on experience with `geom_waffle`.\n\n<p align=\"center\">\n<img src=\"to_make_into_viz/waffle_bin_11_05:00 AM.png\" width=30%>\n<img src=\"to_make_into_viz/waffle",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 16,
+        "first_at": "2026-03-02T02:22:39+00:00",
+        "last_at": "2026-03-06T14:55:08+00:00",
+        "active_days": 3,
+        "span_days": 4,
+        "max_per_day": 14,
+        "low_effort_message_ratio": 0.312,
+        "messages_sample": [
+          "update readme",
+          "worked on .readme",
+          "update readme",
+          "final updates to rscript",
+          "finished adding copy",
+          "Update index.html",
+          "just adding in the copy",
+          "updated favicon",
+          "added midnight copy",
+          "update index.html",
+          "doing funky stuff w the html and css",
+          "add favicon",
+          "updated file name",
+          "updated file storage",
+          "made the repo",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 15,214 bytes (58% of repo)",
+          "strength": 0.9772280608566984
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 15214,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "baby-names-IOC",
+      "full_name": "hgorledeenn/baby-names-IOC",
+      "html_url": "https://github.com/hgorledeenn/baby-names-IOC",
+      "description": "An analysis of the gender split of baby names, including survey design and a long ggplot for-loop",
+      "homepage": "https://hgorledeenn.github.io/baby-names-IOC/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-05T01:07:13Z",
+      "pushed_at": "2026-02-25T21:56:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 237684,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "R": 16662,
+        "HTML": 5691
+      },
+      "primary_language": "R",
+      "file_count": 160,
+      "top_level_paths": [
+        ".DS_Store",
+        ".RData",
+        ".Rhistory",
+        ".gitattributes",
+        "EDA plots",
+        "README.md",
+        "animation-session.psd",
+        "anon-survey-data.csv",
+        "baby_names_2.R",
+        "index.html",
+        "interviews",
+        "morgan.png",
+        "morgan_over_time.gif",
+        "namesbystate",
+        "old-data-year-count.png",
+        "year_plots_morgan"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 9331,
+      "readme_excerpt": "# Baby Names In-One-Chart\n\nAn *in-one-chart* story about baby names <br>\n***View the full story [here](https://hgorledeenn.github.io/baby-names-IOC/)***\n\nCreated by **[Holden Green](https://hgorledeenn.github.io)** in February 2026 <br>\nColumbia Journalism School, Algorithms class\n\n![morgan-over-time-gif](morgan_over_time.gif)\n\n## Contents:\n1. [The Project](#the-project)\n2. [Data Wrangling and Visualization](#data-wrangling-and-visualization)\n3. [Survey Design](#survey-design)\n4. [Setbacks](#setbacks)\n5. [Appendix](#appendix)\n\n\n## The Project\n\nI used **[this dataset of popular baby names](https://www.ssa.gov/oact/babynames/limits.html)** from the Social Security Administration.\n\nI was particularly interested in the topic of names that had a shift in their gender divide over time (names that were associated, over time, with both male and female babies).\n\nAfter exploratory data anlysis of all the names in the dataset with some variance in the gender divide of the name, I decided to focus on the name Morgan.\n<p align=\"center\">\n<img src=\"morgan.png\" width=75%>\n</p>\n\nIn this data set, the name Morgan fluctuated from being only assigned to male babies in the 1950s and 60s, to almost excl",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 29,
+        "first_at": "2026-02-05T01:07:05+00:00",
+        "last_at": "2026-02-25T21:56:02+00:00",
+        "active_days": 6,
+        "span_days": 20,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.379,
+        "messages_sample": [
+          "update readme with github pages link",
+          "update index.html",
+          "update readme",
+          "update readme",
+          "update readme",
+          "Update README.md",
+          "update readme",
+          "updated readme",
+          "added survey data",
+          "lots of updates",
+          "Merge branch 'main' of https://github.com/hgorledeenn/baby-names-IOC",
+          "updated files",
+          "Update image path for baby names GIF",
+          "Update README",
+          "update file storage",
+          "update readme",
+          "update rscript",
+          "added notes/explanations to rscript",
+          "added animation",
+          "updated plots to show individual data points"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,691 bytes (25% of repo)",
+          "strength": 0.654596698429741
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5691,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ebird-scraper",
+      "full_name": "hgorledeenn/ebird-scraper",
+      "html_url": "https://github.com/hgorledeenn/ebird-scraper",
+      "description": "An auto-updating, scraper driven website showing data from eBird.org. This site was created entirely by Claude Code as part of an assignment for class.",
+      "homepage": "https://hgorledeenn.github.io/ebird-scraper/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-28T04:58:40Z",
+      "pushed_at": "2026-02-18T18:51:44Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5576,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 9853
+      },
+      "primary_language": "Python",
+      "file_count": 7,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "config.json",
+        "docs",
+        "requirements.txt",
+        "scraper.py"
+      ],
+      "notable_files": [
+        ".github/workflows/update.yml",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "requests"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.022,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-01-28T04:57:59+00:00",
+        "last_at": "2026-01-28T05:03:29+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Fix branch name",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 9,853 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/update.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 9853,
+        "strong_skills": [
+          "cicd",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 470008,
+    "HTML": 31698,
+    "R": 27805,
+    "Python": 9853
+  },
+  "total_commits": 198,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "hgorledeenn/Chicago-Reimbursements-site",
+        "hgorledeenn/thomas-frank-spurs",
+        "hgorledeenn/ebird-scraper"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 479861,
+      "commit_count": 153,
+      "first_seen": "2025-12-08T01:23:49+00:00",
+      "last_seen": "2026-05-08T21:57:15+00:00",
+      "details": [
+        "Chicago-Reimbursements-site: Jupyter Notebook: 112,537 bytes (100% of repo)",
+        "thomas-frank-spurs: Jupyter Notebook: 357,471 bytes (97% of repo)",
+        "ebird-scraper: Python: 9,853 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "hgorledeenn/thomas-frank-spurs",
+        "hgorledeenn/one-american-day",
+        "hgorledeenn/baby-names-IOC"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9772280608566984,
+      "total_bytes": 31698,
+      "commit_count": 79,
+      "first_seen": "2026-02-05T01:07:05+00:00",
+      "last_seen": "2026-04-26T22:56:28+00:00",
+      "details": [
+        "thomas-frank-spurs: HTML: 10,793 bytes (3% of repo)",
+        "one-american-day: HTML: 15,214 bytes (58% of repo)",
+        "baby-names-IOC: HTML: 5,691 bytes (25% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "hgorledeenn/Chicago-Reimbursements-site",
+        "hgorledeenn/ebird-scraper"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 119,
+      "first_seen": "2025-12-08T01:23:49+00:00",
+      "last_seen": "2026-05-08T21:57:15+00:00",
+      "details": [
+        "Chicago-Reimbursements-site: GitHub Actions workflow (.github/workflows/update.yml)",
+        "ebird-scraper: GitHub Actions workflow (.github/workflows/update.yml)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "hgorledeenn/Chicago-Reimbursements-site",
+        "hgorledeenn/thomas-frank-spurs"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 151,
+      "first_seen": "2025-12-08T01:23:49+00:00",
+      "last_seen": "2026-05-08T21:57:15+00:00",
+      "details": [
+        "Chicago-Reimbursements-site: jupyter notebook (chicago_reimbursements_scraper.ipynb)",
+        "thomas-frank-spurs: jupyter notebook (data_analysis.ipynb)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 198,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-17T01:20:06.216221+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

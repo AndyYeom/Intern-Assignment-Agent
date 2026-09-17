@@ -1,0 +1,100 @@
+{
+  "github_login": "patriesp95",
+  "applicant_id": "applicant0128",
+  "first_name": "Teodor",
+  "last_name": "Kastanek",
+  "career_stage": "student",
+  "email": "teodor@bramford.example",
+  "phone": "(555) 010-0128",
+  "location": "Bramford",
+  "linkedin": "linkedin.example.com/in/teodor-kastanek",
+  "github_url": "github.example.com/teodor-kastanek",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Alderney Polytechnic",
+    "location": "Bramford",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Organizational Communication",
+    "graduation": "June 2026",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Mobile App Development",
+      "Software Engineering Practices",
+      "Team Dynamics",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Teaching Assistant",
+      "organization": "Alderney Polytechnic CS Department",
+      "location": "Bramford",
+      "start": "Sep 2024",
+      "end": "May 2025",
+      "bullets": [
+        "Reviewed classmate Kotlin and Swift assignments, giving feedback that reduced repeat submission errors in later labs."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Mygames",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2022",
+      "end": "Sep 2024",
+      "bullets": [
+        "Built an Android app in Kotlin following an MVVM architecture course, structuring the codebase across 133 files."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin"
+      ]
+    },
+    {
+      "title": "Randomuser",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2024",
+      "end": "Sep 2024",
+      "bullets": [
+        "Implemented an MVVM Android app consuming a public random-user API to practice clean state and view separation."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Mentor Lead",
+      "organization": "Alderney Mobile Dev Society",
+      "location": null,
+      "start": "Jan 2025",
+      "end": "Present",
+      "bullets": [
+        "Paired with five classmates struggling on Kotlin coursework, translating build errors into fixable steps.",
+        "Noticed repeated merge conflicts across group projects and introduced a shared branching checklist the group adopted."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

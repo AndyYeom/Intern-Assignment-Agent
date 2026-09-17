@@ -1,0 +1,131 @@
+{
+  "applicant_id": "applicant0097",
+  "github_login": "briezar",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0097.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/briezar/save-the-monkey"
+      ],
+      "repos": [
+        {
+          "repo": "briezar/save-the-monkey",
+          "html_url": "https://github.com/briezar/save-the-monkey",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_ci, deployed, documented",
+            "GitHub Actions workflow (.github/workflows/cfg-check.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/briezar/game-dev-kit",
+        "https://github.com/briezar/Floof-gotchi",
+        "https://github.com/briezar/magic-tiles",
+        "https://github.com/briezar/zoo-tycoon"
+      ],
+      "repos": [
+        {
+          "repo": "briezar/game-dev-kit",
+          "html_url": "https://github.com/briezar/game-dev-kit",
+          "level": 3,
+          "reasons": [
+            "intermediate: 78 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "C#: 625,289 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "briezar/Floof-gotchi",
+          "html_url": "https://github.com/briezar/Floof-gotchi",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; deployed, multi_month_span, many_active_days",
+            "C#: 433,756 bytes (82% of repo)"
+          ]
+        },
+        {
+          "repo": "briezar/magic-tiles",
+          "html_url": "https://github.com/briezar/magic-tiles",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; deployed, documented",
+            "C#: 3,475,476 bytes (90% of repo)"
+          ]
+        },
+        {
+          "repo": "briezar/zoo-tycoon",
+          "html_url": "https://github.com/briezar/zoo-tycoon",
+          "level": 2,
+          "reasons": [
+            "intermediate: 24 commits; deployed, many_active_days, documented",
+            "C#: 328,726 bytes (70% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/briezar/magic-tiles"
+      ],
+      "repos": [
+        {
+          "repo": "briezar/magic-tiles",
+          "html_url": "https://github.com/briezar/magic-tiles",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; deployed, documented",
+            "iOS project (Assets/Feel/NiceVibrations/Plugins/iOS/LofeltHaptics.framework/Info.plist)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/briezar/save-the-monkey"
+      ],
+      "repos": [
+        {
+          "repo": "briezar/save-the-monkey",
+          "html_url": "https://github.com/briezar/save-the-monkey",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_ci, deployed, documented",
+            "TypeScript: 44,012 bytes (99% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 4
+  }
+}

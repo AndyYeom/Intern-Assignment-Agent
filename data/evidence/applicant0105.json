@@ -1,0 +1,277 @@
+{
+  "applicant_id": "applicant0105",
+  "github_login": "Vishesh-Kumar-Gavel",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0105.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/bird",
+        "https://github.com/Vishesh-Kumar-Gavel/simongame"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/bird",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/bird",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "CSS: 735 bytes (12% of repo)"
+          ]
+        },
+        {
+          "repo": "Vishesh-Kumar-Gavel/simongame",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/simongame",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "HTML: 881 bytes (23% of repo)",
+            "CSS: 650 bytes (17% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 15 commits; multi_month_span, many_active_days",
+            "Java: 17,593 bytes (99% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/bird",
+        "https://github.com/Vishesh-Kumar-Gavel/simongame"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/bird",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/bird",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 4,863 bytes (79% of repo)"
+          ]
+        },
+        {
+          "repo": "Vishesh-Kumar-Gavel/simongame",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/simongame",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 2,234 bytes (59% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "mongodb",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker-next",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "postgresql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 15 commits; multi_month_span, many_active_days",
+            "postgresql in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker-next",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "spring",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 15 commits; multi_month_span, many_active_days",
+            "spring-boot-maven-plugin in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 15 commits; multi_month_span, many_active_days",
+            "SQL file (src/main/resources/schema-postgres.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker-next",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "repos": [
+        {
+          "repo": "Vishesh-Kumar-Gavel/workout-tracker-next",
+          "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 57,997 bytes (98% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 2,
+    "partially_verified": 5,
+    "verified": 5
+  }
+}

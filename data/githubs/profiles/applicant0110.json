@@ -1,0 +1,1535 @@
+{
+  "applicant_id": "applicant0110",
+  "login": "SilverDreams115",
+  "html_url": "https://github.com/SilverDreams115",
+  "created_at": "2021-04-07T23:22:50Z",
+  "account_age_days": 1988,
+  "public_repos": 9,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "IrisOS",
+      "full_name": "SilverDreams115/IrisOS",
+      "html_url": "https://github.com/SilverDreams115/IrisOS",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-19T01:30:35Z",
+      "pushed_at": "2026-09-17T01:01:48Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10455,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 3584195,
+        "Assembly": 72695,
+        "Makefile": 39648,
+        "Shell": 25763,
+        "Python": 5859,
+        "Linker Script": 4092
+      },
+      "primary_language": "C",
+      "file_count": 315,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "CONTRIBUTING.md",
+        "Makefile",
+        "README.md",
+        "boot",
+        "docs",
+        "kernel",
+        "scripts",
+        "services",
+        "tests"
+      ],
+      "notable_files": [
+        ".github/workflows/.gitkeep",
+        ".github/workflows/ci.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 47201,
+      "readme_excerpt": "# IRIS\n\nIRIS is an `x86_64` operating system built around a **capability-based,\nseL4-inspired microkernel**. It runs real user-space services, enforces hardware\nand address-space isolation through an unforgeable capability system, and boots\nto an interactive shell entirely from ring-3 code after the first kernel\nhandoff.\n\nThe kernel exposes a small set of typed kernel objects (endpoints, CNodes, reply\nobjects, untyped memory, frames, VMOs, VSpaces, notifications, TCBs, scheduling\ncontexts, …). Everything above the kernel — service discovery, supervision, the\nfilesystem, the keyboard driver, the console, a user-space pager, and the shell\n— lives in ring 3 and talks over **synchronous endpoint IPC** with\nkernel-stamped sender identity.\n\nThere is deliberately **no process object**: since Stage 7 a \"process\" is\nthreads configured with the same CSpace and the same VSpace, which is a fact\nabout two capabilities rather than a third thing to point at.\n\n## Boot sequence\n\n```\nUEFI → BOOTX64.EFI → KERNEL.ELF\n  kernel: PMM (buddy), 16 MB kernel-object slab, 4-level paging + PCID,\n          GDT/IDT/PIC/PIT, LAPIC, scheduler, syscall/sysret dispatch,\n          capability enforcement, initrd cata",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-08-19T03:44:10+00:00",
+        "last_at": "2026-09-17T01:01:44+00:00",
+        "active_days": 13,
+        "span_days": 28,
+        "max_per_day": 36,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "docs: Stage 10-dma, and the PCI enumeration it turns out not to need",
+          "iris: the kernel can see the DMA remapping units",
+          "docs: Stage 9 closed, and what the adversarial phase cost",
+          "iris: four processors, aimed at one object",
+          "docs: SMP, as it is rather than as it was going to be",
+          "ci: a processor that is online is not a processor that schedules",
+          "iris: the processors schedule",
+          "docs: a closed step that the roadmap still called half done",
+          "ci: the four-CPU run now starts them, not just counts them",
+          "iris: four processors, up",
+          "iris: the kernel can count the processors it has",
+          "iris: cross-CPU TLB shootdown",
+          "iris: the reap ring's capacity is derived, not estimated",
+          "iris: the ten arguments that said \"because one core\"",
+          "iris: the replenishment ring takes the lock its object already had",
+          "iris: the tick, the domain cursor, and two counters that were bare",
+          "iris: the scheduler's thread list gets the lock it never had",
+          "docs: Stage 9 gets the locking model it names as a precondition",
+          "iris: a mint that fails no longer does it quietly",
+          "docs: A-34, and the invocation surface is complete"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 201
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 3,584,195 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 39,648 bytes (1% of repo)",
+          "strength": 0.4106230768983445
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 25,763 bytes (1% of repo)",
+          "strength": 0.40690280291898834
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 5,859 bytes (0% of repo)",
+          "strength": 0.40156982968995664
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/architecture/a1-5-ipc-receive-slot.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3655465,
+        "strong_skills": [
+          "c-cpp",
+          "cicd",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "proAI",
+      "full_name": "SilverDreams115/proAI",
+      "html_url": "https://github.com/SilverDreams115/proAI",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-23T04:06:33Z",
+      "pushed_at": "2026-08-15T01:31:27Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3725,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 3086279,
+        "JavaScript": 491571,
+        "CSS": 75277,
+        "HTML": 15415,
+        "Makefile": 4545,
+        "Dockerfile": 3136,
+        "Shell": 1549
+      },
+      "primary_language": "Python",
+      "file_count": 524,
+      "top_level_paths": [
+        ".dockerignore",
+        ".env.example",
+        ".github",
+        ".gitignore",
+        "AGENTS.md",
+        "Dockerfile",
+        "Makefile",
+        "README.md",
+        "backend",
+        "data",
+        "deploy",
+        "docker-compose.prod.yml",
+        "docker-compose.yml",
+        "docs",
+        "frontend",
+        "opencode.json",
+        "reports"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        "Dockerfile",
+        "backend/pyproject.toml",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4805,
+      "readme_excerpt": "# proAI\n\nPlataforma de predicción deportiva para quinielas Progol. Ingiere estadísticas de fútbol, normaliza entidades, genera probabilidades `1/X/2` con XGBoost y produce boletas auditables con cobertura de riesgo.\n\n## Principios\n\n- Evidencia antes que opinión: cada predicción preserva su trail de fuentes.\n- Trazabilidad: cada output es explicable (feature map, banda de confianza, rationale).\n- No ocultar incertidumbre: los partidos sin datos suficientes aparecen como `low` o `blocked`, nunca inflados artificialmente.\n\n## Stack\n\n| Componente | Tecnología |\n|---|---|\n| API | FastAPI + Python 3.12 |\n| Base de datos | PostgreSQL 16 (SQLite para tests) |\n| ML | XGBoost CPU-only (sin sklearn) |\n| Worker | Scheduler separado en Docker |\n| Auth | Session cookie HMAC-signed + API key |\n| Infra | Docker Compose |\n\n## Levantar localmente\n\n```bash\ncp .env.example .env          # ajustar credenciales\ndocker compose up --build     # primera vez\nmake up                       # usos siguientes\n```\n\nDashboard en `http://127.0.0.1:8000/`.\n\n## Tests y calidad\n\n```bash\ncd backend\n.venv/bin/python -m pytest tests/ -q   # 1031 tests\n.venv/bin/ruff check app/ tests/       # linter\n.venv/bin/mypy app/  ",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 182,
+        "first_at": "2026-06-06T07:59:09+00:00",
+        "last_at": "2026-08-15T01:31:25+00:00",
+        "active_days": 24,
+        "span_days": 69,
+        "max_per_day": 21,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Ask ESPN for history in slices, and stop the provisional cierre from",
+          "Read the fixtures from ESPN instead of inventing them",
+          "Stop reporting safe promotions the audit says are not safe",
+          "Give Revancha its own table instead of Progol's",
+          "Stop emitting tickets nobody could mark, and put a price on the ones we do",
+          "Read the real Progol table: $15 a quiniela, and what actually fits",
+          "Regenerate the confidence report for PG-2346",
+          "Give the four prediction states one name each",
+          "Make the draw floor pay for its triples out of the slate's budget",
+          "Stop dressing a cross-border tie in one club's domestic league",
+          "Stop reading an empty slate as a clean one",
+          "Date the last two fixtures, and stop selling a friendly as league football",
+          "Say out loud when the context mount has gone empty",
+          "Compare the two engines on the same matches before crowning one",
+          "Give the four Nacionals four slugs, and the Shield its own policy",
+          "Stop one row from holding two clubs, and clean up after re-pointing",
+          "Record 808, and let the gate refuse the model it feeds",
+          "Stop one fixture from living on two rows, and fold the ones that do",
+          "Count one real match once when two feeds date it differently",
+          "Regenerate the confidence report for the live jornada"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 457
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 3,086,279 bytes (84% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 491,571 bytes (13% of repo)",
+          "strength": 0.5336599984990913
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 75,277 bytes (2% of repo)",
+          "strength": 0.42046809862057793
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 15,415 bytes (0% of repo)",
+          "strength": 0.4041913963127676
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 4,545 bytes (0% of repo)",
+          "strength": 0.4012358025456717
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 3,136 bytes (0% of repo)",
+          "strength": 0.40085269016132596
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,549 bytes (0% of repo)",
+          "strength": 0.40042117890940493
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (backend/tests/_learning_seed.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/README.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3677772,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "linux",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Iris-Bot",
+      "full_name": "SilverDreams115/Iris-Bot",
+      "html_url": "https://github.com/SilverDreams115/Iris-Bot",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-01T06:49:13Z",
+      "pushed_at": "2026-04-08T06:10:32Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 648,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 1793178,
+        "Shell": 12975,
+        "Makefile": 436
+      },
+      "primary_language": "Python",
+      "file_count": 211,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".mt5_research_last_execution.json",
+        ".mt5_research_windows.lock",
+        "Makefile",
+        "README.md",
+        "config",
+        "data",
+        "docs",
+        "pyproject.toml",
+        "requirements.txt",
+        "scripts",
+        "src",
+        "tests"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        "pyproject.toml",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "0.1.0",
+          "3.11",
+          "build-backend",
+          "description",
+          "f",
+          "f401",
+          "iris-bot",
+          "metatrader5",
+          "mypy",
+          "name",
+          "package-dir",
+          "py311",
+          "pytest",
+          "python_version",
+          "readme",
+          "readme.md",
+          "requires-python",
+          "ruff",
+          "setuptools",
+          "setuptools.build_meta",
+          "src",
+          "target-version",
+          "tests",
+          "version",
+          "windows",
+          "xgboost"
+        ],
+        "requirements.txt": [
+          "iniconfig",
+          "metatrader5",
+          "mypy",
+          "mypy_extensions",
+          "numpy",
+          "nvidia-nccl-cu12",
+          "packaging",
+          "pathspec",
+          "pluggy",
+          "pygments",
+          "pytest",
+          "ruff",
+          "scipy",
+          "typing_extensions",
+          "xgboost"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 9183,
+      "readme_excerpt": "# IRIS-Bot\n\nIRIS-Bot is a research, validation, governance, and controlled-execution framework for FX trading on MetaTrader 5.\n\nAt this point the project is no longer just \"an ML bot\". The codebase currently implements:\n\n- a data and feature pipeline built from MT5 history\n- XGBoost multiclass training\n- economic backtesting and walk-forward evaluation\n- paper trading and resilient execution modes with persisted state\n- evidence-gated strategy profile lifecycle management\n- controlled demo execution with preflight checks and explicit activation\n\nIt is not a production live-trading system for real capital.\n\n## Current State\n\nState observed in this workspace on **April 8, 2026**:\n\n- The official quality suite completed successfully and is recorded in `runs/20260408T055455Z_demo_execution_readiness/`:\n  `ruff`, `mypy`, `pytest`, and `smoke`.\n- That report records `587 passed`.\n- The materialized runtime currently has **3 active `approved_demo` profiles**:\n  `EURUSD`, `GBPUSD`, and `AUDUSD`.\n- Governance policy blocks `USDJPY` from promotion due to insufficient detected edge.\n- The demo execution registry currently leaves **only `EURUSD` approved and active** for that phase.\n- There ar",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2026-04-01T06:52:03+00:00",
+        "last_at": "2026-04-08T06:10:02+00:00",
+        "active_days": 4,
+        "span_days": 6,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.077,
+        "messages_sample": [
+          "remove .claude from repo",
+          "several changes",
+          "structural change",
+          "changes",
+          "Add MT5 research runner and edge diagnostics",
+          "Add controlled quant experiments and demo execution gates",
+          "Harden research, demo validation, and project docs",
+          "Migrate to XGBoost 3.x, split governance.py, add feature importance",
+          "P3: standardize error messages to English, add config cross-validation",
+          "Fix P1/P2: stale lock detection, silent ConversionRateError, atomic writes, exits ABCs",
+          "Fix governance: 9 failing tests in promotion/review/rollback flow",
+          "Add Phase 3.5 corrective premium: full governance, paper engine, soak, and lifecycle",
+          "Initial IRIS-Bot forex ML foundation"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 162
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,793,178 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 12,975 bytes (1% of repo)",
+          "strength": 0.407182043065689
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ARCHITECTURE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/conftest.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "manifest",
+          "detail": "readme in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "xgboost in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "xgboost in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1806589,
+        "strong_skills": [
+          "cicd",
+          "machine-learning",
+          "pandas",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "EchoAgent",
+      "full_name": "SilverDreams115/EchoAgent",
+      "html_url": "https://github.com/SilverDreams115/EchoAgent",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-24T05:23:19Z",
+      "pushed_at": "2026-03-28T20:27:54Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 280,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 634132
+      },
+      "primary_language": "Python",
+      "file_count": 68,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "README.md",
+        "echo",
+        "pyproject.toml",
+        "tests"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        "pyproject.toml"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "0.1.0",
+          "build-backend",
+          "description",
+          "echo",
+          "echo-agent",
+          "echo.backends",
+          "echo.branches",
+          "echo.cli",
+          "echo.cognition",
+          "echo.context",
+          "echo.core",
+          "echo.memory",
+          "echo.policies",
+          "echo.runtime",
+          "echo.tools",
+          "echo.types",
+          "echo.ui",
+          "echocode",
+          "name",
+          "prompt-toolkit",
+          "pytest",
+          "readme",
+          "readme.md",
+          "requests",
+          "requires-python",
+          "rich",
+          "setuptools",
+          "setuptools.build_meta",
+          "typer",
+          "version",
+          "wheel"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 15409,
+      "readme_excerpt": "# EchoAgent\n\n[![CI](https://github.com/SilverDreams115/EchoAgent/actions/workflows/ci.yml/badge.svg)](https://github.com/SilverDreams115/EchoAgent/actions/workflows/ci.yml)\n\nEcho is a local coding agent CLI focused on grounded repo inspection, real tool execution, resumable sessions, backend-aware routing, and honest degradation when the model or backend is weak.\n\nThe primary interface is a **conversational REPL** — type naturally, no subcommands required.\n\n## Quick Start\n\n```bash\npython -m venv .venv\nsource .venv/bin/activate\npip install -e .\n\necho-agent          # opens the conversational REPL directly\n```\n\nInside the REPL:\n\n```\n╭─ you main\n╰─› revisa el runtime y dime qué falla\n─ echo\n  <respuesta del agente>\n\n╭─ you main\n╰─› crea una rama experimento-shell\n→ Branch 'experimento-shell' creado desde 'main'. Sesión: nueva\n\n╭─ you experimento-shell\n╰─› en esta rama intenta rediseñar el shell\n─ echo\n  <respuesta del agente>\n\n╭─ you experimento-shell\n╰─› vuelve a main\n→ Cambiado a branch 'main'. Sesión: resumida · abcd1234\n\n╭─ you main\n╰─› trae las decisiones de experimento-shell\nCherry-pick 'experimento-shell' → 'main': decisions, findings…\n```\n\n## What It Does\n\n- inspects real proj",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2026-03-24T05:26:54+00:00",
+        "last_at": "2026-03-28T20:27:51+00:00",
+        "active_days": 5,
+        "span_days": 4,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Align README with current REPL and branch UX",
+          "Harden local fallback follow-ups and REPL polish",
+          "Fix project root detection, verifier claims, CI pipeline, and dev deps",
+          "Aesthetic REPL overhaul: Rule header, colored prompt, icon-based status",
+          "Flex cherry-pick component order: source→dest→artefacts and dest→artefacts→source",
+          "Add conversational REPL UX polish, intent router precision, and contextual branch operations",
+          "Add conversational REPL, branch system with merge and cherry-pick",
+          "Add persistent session branching with real context isolation",
+          "Prepare v0.1.0 release: add CHANGELOG",
+          "Add npm launcher, harden defaults, improve validation and split tests",
+          "Slim simple ask request shaping",
+          "Harden runtime orchestration and document architecture",
+          "Harden runtime planning grounding and memory",
+          "Improve public README and add CI",
+          "Initial EchoAgent import"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following a"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 64
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 634,132 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/test_branches.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "manifest",
+          "detail": "readme in pyproject.toml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 634132,
+        "strong_skills": [
+          "cicd",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "iris-frontend",
+      "full_name": "SilverDreams115/iris-frontend",
+      "html_url": "https://github.com/SilverDreams115/iris-frontend",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-07T02:00:44Z",
+      "pushed_at": "2026-03-07T22:48:51Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 140,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 85501,
+        "JavaScript": 559,
+        "CSS": 99
+      },
+      "primary_language": "TypeScript",
+      "file_count": 61,
+      "top_level_paths": [
+        ".env.example",
+        ".github",
+        ".gitignore",
+        "README.md",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "proxy.ts",
+        "public",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "eslint",
+          "eslint-config-next",
+          "next",
+          "react",
+          "react-dom",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1912,
+      "readme_excerpt": "# IRIS Dashboard\n\nFrontend del panel de control para IRIS API, construido con Next.js App Router.\n\n## Stack\n- Next.js 16\n- React 19\n- TypeScript\n- Tailwind CSS 4\n\n## Estado actual\n- login y logout gestionados con Route Handlers\n- sesión basada en cookie httpOnly\n- validación de sesión con `/api/auth/me`\n- proxy autenticado con `/api/proxy/[...path]`\n- protección de rutas con `proxy.ts`\n- integración con backend FastAPI\n- CI para lint, typecheck y build\n\n## Funcionalidades actuales\n- inicio de sesión contra IRIS API\n- dashboard con métricas generales\n- vistas de portfolios\n- vistas de broker accounts\n- vistas de strategies\n- vistas de signals\n- vistas de trades\n- acciones para crear recursos desde el panel\n- ejecución de señales\n- cierre de trades\n\n## Flujo de autenticación\nEl frontend ya no usa `localStorage` para guardar el token.\n\nLa autenticación funciona así:\n1. `/api/auth/login` recibe credenciales\n2. el frontend guarda la sesión en una cookie `httpOnly`\n3. `/api/auth/me` valida la sesión actual\n4. `/api/proxy/[...path]` reenvía requests autenticados al backend\n5. `proxy.ts` protege rutas como `/dashboard`\n\n## Requisitos\n- Node.js 20 o superior\n- backend IRIS disponible\n- vari",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 22,
+        "first_at": "2026-03-07T01:29:04+00:00",
+        "last_at": "2026-03-07T22:48:51+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 22,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #3 from SilverDreams115/feat/product-polish-ui",
+          "fix(auth): migrate trades page and remove backup files",
+          "refactor(auth): harden route handlers and deprecate legacy token storage",
+          "Update frontend README to document server-side auth flow",
+          "Migrate frontend auth flow to httpOnly cookies and server proxy routes",
+          "Add frontend CI for lint, typecheck, and build",
+          "Refactor frontend auth helpers, clean metrics page, and replace reload-based actions",
+          "Refactor frontend auth helpers and replace reload-based trade and signal actions",
+          "Merge pull request #2 from SilverDreams115/feat/product-polish-ui",
+          "feat: polish dashboard metrics and relation labels",
+          "chore: clean dashboard tables, add trade close flow and remove backup files",
+          "feat: add signal execution flow",
+          "Merge pull request #1 from SilverDreams115/feat/broker-strategy-create-flow",
+          "feat: add signal creation flow",
+          "Changes in strategies",
+          "feat: add strategy creation flow",
+          "chore: add api readiness badge and normalize nullable token handling",
+          "feat: add portfolio creation flow",
+          "feat: add dashboard resource pages and metrics view",
+          "docs: add environment example and update frontend setup docs"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 48
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 3,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 85,501 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 86159,
+        "strong_skills": [
+          "cicd",
+          "linux",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 5519448,
+    "C": 3584195,
+    "JavaScript": 492130,
+    "TypeScript": 85501,
+    "CSS": 75376,
+    "Assembly": 72695,
+    "Makefile": 44629,
+    "Shell": 40287,
+    "HTML": 15415,
+    "Linker Script": 4092,
+    "Dockerfile": 3136
+  },
+  "total_commits": 432,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "SilverDreams115/IrisOS",
+        "SilverDreams115/proAI",
+        "SilverDreams115/Iris-Bot",
+        "SilverDreams115/EchoAgent"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 5519448,
+      "commit_count": 410,
+      "first_seen": "2026-03-24T05:26:54+00:00",
+      "last_seen": "2026-09-17T01:01:44+00:00",
+      "details": [
+        "IrisOS: Python: 5,859 bytes (0% of repo)",
+        "proAI: Python: 3,086,279 bytes (84% of repo)",
+        "Iris-Bot: Python: 1,793,178 bytes (99% of repo)",
+        "EchoAgent: Python: 634,132 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "SilverDreams115/iris-frontend"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 85501,
+      "commit_count": 22,
+      "first_seen": "2026-03-07T01:29:04+00:00",
+      "last_seen": "2026-03-07T22:48:51+00:00",
+      "details": [
+        "iris-frontend: TypeScript: 85,501 bytes (99% of repo)",
+        "iris-frontend: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "SilverDreams115/IrisOS"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3584195,
+      "commit_count": 200,
+      "first_seen": "2026-08-19T03:44:10+00:00",
+      "last_seen": "2026-09-17T01:01:44+00:00",
+      "details": [
+        "IrisOS: C: 3,584,195 bytes (96% of repo)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "SilverDreams115/IrisOS",
+        "SilverDreams115/proAI",
+        "SilverDreams115/Iris-Bot",
+        "SilverDreams115/EchoAgent"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 410,
+      "first_seen": "2026-03-24T05:26:54+00:00",
+      "last_seen": "2026-09-17T01:01:44+00:00",
+      "details": [
+        "IrisOS: docs directory (docs/architecture/a1-5-ipc-receive-slot.md)",
+        "proAI: docs directory (docs/README.md)",
+        "Iris-Bot: docs directory (docs/ARCHITECTURE.md)",
+        "Iris-Bot: readme in pyproject.toml",
+        "EchoAgent: readme in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "SilverDreams115/proAI",
+        "SilverDreams115/Iris-Bot",
+        "SilverDreams115/EchoAgent"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 210,
+      "first_seen": "2026-03-24T05:26:54+00:00",
+      "last_seen": "2026-08-15T01:31:25+00:00",
+      "details": [
+        "proAI: test directory (backend/tests/_learning_seed.py)",
+        "Iris-Bot: test directory (tests/conftest.py)",
+        "Iris-Bot: pytest in pyproject.toml",
+        "Iris-Bot: pytest in requirements.txt",
+        "EchoAgent: test directory (tests/test_branches.py)",
+        "EchoAgent: pytest in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "SilverDreams115/Iris-Bot"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2026-04-01T06:52:03+00:00",
+      "last_seen": "2026-04-08T06:10:02+00:00",
+      "details": [
+        "Iris-Bot: xgboost in pyproject.toml",
+        "Iris-Bot: xgboost in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "SilverDreams115/iris-frontend"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2026-03-07T01:29:04+00:00",
+      "last_seen": "2026-03-07T22:48:51+00:00",
+      "details": [
+        "iris-frontend: next config (next.config.ts)",
+        "iris-frontend: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "SilverDreams115/Iris-Bot"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2026-04-01T06:52:03+00:00",
+      "last_seen": "2026-04-08T06:10:02+00:00",
+      "details": [
+        "Iris-Bot: numpy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "SilverDreams115/iris-frontend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2026-03-07T01:29:04+00:00",
+      "last_seen": "2026-03-07T22:48:51+00:00",
+      "details": [
+        "iris-frontend: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "SilverDreams115/iris-frontend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2026-03-07T01:29:04+00:00",
+      "last_seen": "2026-03-07T22:48:51+00:00",
+      "details": [
+        "iris-frontend: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "SilverDreams115/IrisOS",
+        "SilverDreams115/proAI",
+        "SilverDreams115/Iris-Bot",
+        "SilverDreams115/EchoAgent",
+        "SilverDreams115/iris-frontend"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 432,
+      "first_seen": "2026-03-07T01:29:04+00:00",
+      "last_seen": "2026-09-17T01:01:44+00:00",
+      "details": [
+        "IrisOS: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "proAI: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "Iris-Bot: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "EchoAgent: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "iris-frontend: GitHub Actions workflow (.github/workflows/ci.yml)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "SilverDreams115/proAI",
+        "SilverDreams115/iris-frontend"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 204,
+      "first_seen": "2026-03-07T01:29:04+00:00",
+      "last_seen": "2026-08-15T01:31:25+00:00",
+      "details": [
+        "proAI: env config (.env.example)",
+        "iris-frontend: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "SilverDreams115/proAI"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 3136,
+      "commit_count": 182,
+      "first_seen": "2026-06-06T07:59:09+00:00",
+      "last_seen": "2026-08-15T01:31:25+00:00",
+      "details": [
+        "proAI: Dockerfile: 3,136 bytes (0% of repo)",
+        "proAI: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "SilverDreams115/proAI"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5336599984990913,
+      "total_bytes": 491571,
+      "commit_count": 182,
+      "first_seen": "2026-06-06T07:59:09+00:00",
+      "last_seen": "2026-08-15T01:31:25+00:00",
+      "details": [
+        "proAI: JavaScript: 491,571 bytes (13% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "SilverDreams115/proAI"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.42046809862057793,
+      "total_bytes": 90692,
+      "commit_count": 182,
+      "first_seen": "2026-06-06T07:59:09+00:00",
+      "last_seen": "2026-08-15T01:31:25+00:00",
+      "details": [
+        "proAI: CSS: 75,277 bytes (2% of repo)",
+        "proAI: HTML: 15,415 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "SilverDreams115/IrisOS",
+        "SilverDreams115/proAI",
+        "SilverDreams115/Iris-Bot"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4106230768983445,
+      "total_bytes": 84480,
+      "commit_count": 395,
+      "first_seen": "2026-04-01T06:52:03+00:00",
+      "last_seen": "2026-09-17T01:01:44+00:00",
+      "details": [
+        "IrisOS: Makefile: 39,648 bytes (1% of repo)",
+        "IrisOS: Shell: 25,763 bytes (1% of repo)",
+        "proAI: Makefile: 4,545 bytes (0% of repo)",
+        "proAI: Shell: 1,549 bytes (0% of repo)",
+        "Iris-Bot: Shell: 12,975 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 432,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 13,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:28:32.379849+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,1018 @@
+{
+  "applicant_id": "applicant0156",
+  "login": "YOGYUI",
+  "html_url": "https://github.com/YOGYUI",
+  "created_at": "2021-07-24T23:57:53Z",
+  "account_age_days": 1880,
+  "public_repos": 38,
+  "followers": 30,
+  "following": 5,
+  "repos": [
+    {
+      "name": "HomeNetwork",
+      "full_name": "YOGYUI/HomeNetwork",
+      "html_url": "https://github.com/YOGYUI/HomeNetwork",
+      "description": "HomeNetwork(Homebridge) Repo",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-07-24T23:59:20Z",
+      "pushed_at": "2026-06-05T09:53:16Z",
+      "stargazers": 25,
+      "forks": 17,
+      "open_issues": 0,
+      "size_kb": 7634,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 647947,
+        "HTML": 56935,
+        "C++": 4843,
+        "CSS": 2361,
+        "Shell": 1228,
+        "Dockerfile": 859
+      },
+      "primary_language": "Python",
+      "file_count": 183,
+      "top_level_paths": [
+        ".gitignore",
+        "Hillstate-Gwanggyosan",
+        "IPark-Gwanggyo",
+        "RS485PacketCapture"
+      ],
+      "notable_files": [
+        "Hillstate-Gwanggyosan/Dockerfile",
+        "Hillstate-Gwanggyosan/requirements.txt",
+        "IPark-Gwanggyo/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.994,
+      "commits": {
+        "count": 157,
+        "first_at": "2022-06-20T01:04:28+00:00",
+        "last_at": "2026-06-05T09:53:10+00:00",
+        "active_days": 99,
+        "span_days": 1446,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "v1.3.2: 아울렛(콘센트) 대기전력 차단 모드 변경 기능 추가",
+          "bug fix: config load (handle outlet)",
+          "outlet stanby cutoff mode change 명령 템플릿 추가 (패킷 파악 아직 안됨)",
+          "v1.3.0 commit",
+          "긴급: rtmp 서버 관련 설정 오류 해결",
+          "RTMP video streaming (instead of ffserver)",
+          "HA version check 구문 버그 수정",
+          "v1.2.0 commit: HA Version config set 구문 추가",
+          "v1.2.0 commit: HA Core version에 따른 config mqtt payload 변경",
+          "v1.1.9 commit: 가스밸브 주기적 쿼리 제외 옵션 추가",
+          "v1.1.8.1 commit: dimming light store last level when on",
+          "Merge pull request #13 from YOGYUI/v1.1.8",
+          "misc: HEMS 컨버터 쓰레드 무한대기 방지지",
+          "add packet parser debug option (verbose packet)",
+          "homebridge config 저장 방식 변경 (template으로)",
+          "- homebridge configuration 기능 추가",
+          "v1.1.7: 명령값을 device state로 갱신 후 mqtt publish 옵션 추가",
+          "- individual device rs485 port mapping",
+          "v.1.1.6: 엘리베이터 패킷 로그 옵션 추가",
+          "엘리베이터 - 명령 값 무시 (default 6)"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 139
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 647,947 bytes (91% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 56,935 bytes (8% of repo)",
+          "strength": 0.47972158006533433
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 4,843 bytes (1% of repo)",
+          "strength": 0.40678127008441933
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,361 bytes (0% of repo)",
+          "strength": 0.40330592167444024
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,228 bytes (0% of repo)",
+          "strength": 0.4017194713325763
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Hillstate-Gwanggyosan/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (IPark-Gwanggyo/test/CRC8.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 714173,
+        "strong_skills": [
+          "docker",
+          "python",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "homeassistant-addons",
+      "full_name": "YOGYUI/homeassistant-addons",
+      "html_url": "https://github.com/YOGYUI/homeassistant-addons",
+      "description": "My Home Assistant Addon(s)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-03-14T01:47:35Z",
+      "pushed_at": "2026-06-04T03:44:06Z",
+      "stargazers": 10,
+      "forks": 14,
+      "open_issues": 1,
+      "size_kb": 82,
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "topics": [],
+      "languages": {
+        "Shell": 2921,
+        "Dockerfile": 951
+      },
+      "primary_language": "Shell",
+      "file_count": 24,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "homenet-hillstate",
+        "repository.yaml"
+      ],
+      "notable_files": [
+        "homenet-hillstate/Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 90,
+      "readme_excerpt": "# YOGYUI Home Assistant Addons\nMy Home Assistant Addon(s)\n\nHomeNetwork for Hillstate\n---\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 34,
+        "first_at": "2024-03-14T01:47:35+00:00",
+        "last_at": "2026-06-04T03:44:02+00:00",
+        "active_days": 24,
+        "span_days": 812,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.059,
+        "messages_sample": [
+          "v1.3.0: outlet power consumption, standby cutoff mode options",
+          "version name miss fix",
+          "v1.2.0: add parameter (Homeassistant core version)",
+          "v1.1.9: exclude gas valve from periodic query state",
+          "mqtt topic prefix parameter",
+          "v1.1.8: debugging options - verbose packet",
+          "v1.1.7 release: add \"change_device_state_after_command\" option",
+          "v1.1.6: add elevator packet logging option",
+          "version 1.1.5 release: calling elevator command value option",
+          "- v1.1.4: 주방 비디오폰 세대/공동현관문 자동 열림 옵션 추가",
+          "minor docs update",
+          "v.1.1.3 commit",
+          "version 1.1.2: add dimming light device type",
+          "v1.1.1: rs485 check connection parameter",
+          "주방 비디오폰 설정 추가",
+          "감성 조명 디바이스 타입 추가",
+          "remove 'audio' config",
+          "v1.0.8 - serial conn issue",
+          "v1.0.8 (before test)",
+          "1.0.7 - periodic send query state packet"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,921 bytes (75% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 951 bytes (25% of repo)",
+          "strength": 0.6456095041322314
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (homenet-hillstate/Dockerfile)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3872,
+        "strong_skills": [
+          "docker",
+          "shell"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "matter-esp32-scd41",
+      "full_name": "YOGYUI/matter-esp32-scd41",
+      "html_url": "https://github.com/YOGYUI/matter-esp32-scd41",
+      "description": "Matter carbon dioxide concentration measurement sensor (ESP32 + SCD41) example",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-02-08T14:18:39Z",
+      "pushed_at": "2024-02-19T12:53:45Z",
+      "stargazers": 5,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 45,
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "topics": [
+        "esp32",
+        "matter",
+        "scd41"
+      ],
+      "languages": {
+        "C++": 95091,
+        "C": 8477,
+        "Shell": 4855,
+        "CMake": 2306
+      },
+      "primary_language": "C++",
+      "file_count": 39,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md",
+        "main",
+        "partitions.csv",
+        "resource",
+        "scripts",
+        "sdkconfig.defaults"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5029,
+      "readme_excerpt": "# Matter CO2 Sensor Example (ESP32 + SCD41)\nMatter 이산화탄소 농도 측정 센서 예제 프로젝트<br>\n다음 Matter 클러스터들에 대한 코드 구현 방법을 알아본다\n- Carbon Dioxide Concentration Measurement (Cluster Id: `0x040D`)\n- Temperature Measurement (Cluster ID: `0x0402`)\n- Relative Humidity Measurement (Cluster ID: `0x0405`)\n\n**2024년 2월 18일 기준 Apple Home 및 Google Home 모두 Air Quality Device Type 지원하지 않음**\n\nSoftware (Matter)\n---\n1개의 Endpoint가 아래와 같이 생성된다. (센서 모듈이 CO2 농도 뿐만 아니라 온도와 상대 습도 데이터도 제공함)\n\n1. Endpoint ID `1`<br>\n    Device Type: Air Quality Sensor (Classification ID: `0x002C`)<br>\n    [Clusters]\n    - Air Quality (Cluster ID: `0x005B`)\n    - Carbon Dioxide Concentration Measurement (Cluster ID: `0x040D`)<br>\n        [Attributes]\n        - Measured Value (Attribute ID: `0x0000`)\n        - Min Measured Value (Attribute ID: `0x0001`)\n        - Max Measured Value (Attribute ID: `0x0002`)\n        - Measurement Unit (Attribute ID: `0x0008`)\n    - Temperature Measurement (Cluster ID: `0x0402`)<br>\n        [Attributes]\n        - Measured Value (Attribute ID: `0x0000`)\n        - Min Measured Value (Attribute ID: `0x0001`)\n        - Max Measured Value (Attribute ID: `0x0002`)\n    - Relative Humidity Measurement (Cluster ID: `0x0",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2024-02-08T14:18:40+00:00",
+        "last_at": "2024-02-19T12:53:39+00:00",
+        "active_days": 4,
+        "span_days": 10,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "remove redundant blank lines",
+          "README 수정",
+          "co2센서, 온도센서, 습도센서 AirQuality 단일 엔드포인트로 통합",
+          "draft commit",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 23
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 95,091 bytes (86% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 8,477 bytes (8% of repo)",
+          "strength": 0.4765562770367293
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 4,855 bytes (4% of repo)",
+          "strength": 0.443845785656874
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 108423,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "matter-esp32-si7021",
+      "full_name": "YOGYUI/matter-esp32-si7021",
+      "html_url": "https://github.com/YOGYUI/matter-esp32-si7021",
+      "description": "Matter temperature / humidity sensor (ESP32 + Si7021) example",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-02-08T14:17:24Z",
+      "pushed_at": "2024-02-15T12:24:25Z",
+      "stargazers": 3,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 42,
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "topics": [
+        "esp32",
+        "matter",
+        "si7021"
+      ],
+      "languages": {
+        "C++": 77056,
+        "C": 8477,
+        "Shell": 4855,
+        "CMake": 2307
+      },
+      "primary_language": "C++",
+      "file_count": 41,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md",
+        "main",
+        "partitions.csv",
+        "resource",
+        "scripts",
+        "sdkconfig.defaults"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2658,
+      "readme_excerpt": "# Matter Temperature/Humidity Sensor Example (ESP32 + Si7021)\nMatter 온습도 센서(Temperature/Humidity Sensor) 예제 프로젝트<br>\n다음 2종류의 Matter 클러스터들에 대한 코드 구현 방법을 알아본다\n- Temperature Measurement (Cluster Id: `0x0402`)\n- Relative Humidity Measurement (Cluster Id: `0x0405`)\n\nSoftware (Matter)\n---\n2개의 Endpoint가 아래와 같이 생성된다\n\n1. Endpoint ID `1`<br>\n    Device Type: Temperature Sensor (Classification ID: `0x0302`)<br>\n    [Clusters]\n    - Temperature Measurement (Cluster ID: `0x0402`)<br>\n        [Attributes]\n        - Measured Value (Attribute ID: `0x0000`)\n        - Min Measured Value (Attribute ID: `0x0001`)\n        - Max Measured Value (Attribute ID: `0x0002`)\n2. Endpoint ID `2`<br>\n    Device Type: Humidity Sensor (Classification ID: `0x0307`) <br>\n    [Clusters]\n    - Relative Humidity Measurement (Cluster ID: `0x0405`)<br>\n        [Attributes]\n        - Measured Value (Attribute ID: `0x0000`)\n        - Min Measured Value (Attribute ID: `0x0001`)\n        - Max Measured Value (Attribute ID: `0x0002`)\n\nHardware\n---\n[Si7021](https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf): I2C 통신 방식의 온습도 센서 IC 사용<br>\n<p style=\"text-align:center\"><img src=\"https://github.com/adafruit/Adafruit_S",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2024-02-08T14:17:24+00:00",
+        "last_at": "2024-02-13T16:19:35+00:00",
+        "active_days": 4,
+        "span_days": 5,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "measured value update 구문 변경 및 멤버변수 변경",
+          "README 정보 추가",
+          "- matter endpoint: humidity sensor",
+          "matter endpoint: temperature sensor",
+          "initial commit (i2c driver, si7021)",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 25
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 77,056 bytes (83% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 8,477 bytes (9% of repo)",
+          "strength": 0.49145045579588975
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 4,855 bytes (5% of repo)",
+          "strength": 0.4523760720642969
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 90388,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "matter-esp32-ekmc16",
+      "full_name": "YOGYUI/matter-esp32-ekmc16",
+      "html_url": "https://github.com/YOGYUI/matter-esp32-ekmc16",
+      "description": "Matter occupancy sensor (ESP32 + EKMC16xx) example",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-02-26T00:53:37Z",
+      "pushed_at": "2024-02-27T14:22:24Z",
+      "stargazers": 6,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 35,
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "topics": [],
+      "languages": {
+        "C++": 64617,
+        "C": 8368,
+        "Shell": 4855,
+        "CMake": 2307
+      },
+      "primary_language": "C++",
+      "file_count": 37,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "CMakeLists.txt",
+        "LICENSE",
+        "README.md",
+        "main",
+        "partitions.csv",
+        "resource",
+        "scripts",
+        "sdkconfig.defaults"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2221,
+      "readme_excerpt": "# Matter Occupancy Sensor Example (ESP32 + EKMC16)\nMatter 재실 감지 센서 예제 프로젝트<br>\n다음 Matter 클러스터에 대한 코드 구현 방법을 알아본다\n- Occupancy Sensing (Cluster ID: `0x0406`)\n\nSoftware (Matter)\n---\n1개의 Endpoint가 아래와 같이 생성된다.\n1. Endpoint ID 1\n    Device Type: Occupancy Sensor (Classification ID: `0x0107`) <br>\n    [Clusters]\n    - Occupancy Sensing (Cluster ID: `0x0406`) <br>\n        [Attributes]\n        - Occupancy (Attribute ID: `0x0000`)\n        - Occupancy Sensor Type (Attribute ID: `0x0001`)\n        - Occupancy Sensor Type Bitmap (Attribute ID: `0x0002`)\n\nHardware\n---\n[Pmod PIR](https://digilent.com/reference/pmod/pmodpir/start): Digilent사에서 판매중인 EKMC1601111 `PIR` 모션 센서 탑재 모듈을 사용했다.<br>\n<p style=\"text-align:center\"><img src=\"https://digilent.com/reference/_media/reference/pmod/pmodpir/pmodpir-obl-1000.png\" width=\"300\"></p><br>\nMotion Detect 신호는 1개의 GPIO(Input)와 연결해야 하며, 핀번호는 /main/include/definition.h에 다음과 같이 정의되어 있다. <br>\n\n```cpp\n#define GPIO_PIN_SENSOR_SIGNAL 16\n```\n\nSDK Version\n---\n- esp-idf: [v5.1.2](https://github.com/espressif/esp-idf/tree/v5.1.2)\n- esp-matter: [b037340deb2e617b22e9f749346b4f41f6d669b3](https://github.com/espressif/esp-matter/commit/b037340deb2e617b22e9f749346b4f41f6d669b3)",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2024-02-26T00:53:38+00:00",
+        "last_at": "2024-02-27T14:22:17+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "README 수정",
+          "GPIO isr handler - queue + task",
+          "initiate source code",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 64,617 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 8,368 bytes (10% of repo)",
+          "strength": 0.5044081500243303
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 4,855 bytes (6% of repo)",
+          "strength": 0.46057619124858074
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 77840,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 647947,
+    "C++": 241607,
+    "HTML": 56935,
+    "C": 25322,
+    "Shell": 18714,
+    "CMake": 6920,
+    "CSS": 2361,
+    "Dockerfile": 1810
+  },
+  "total_commits": 206,
+  "skill_evidence": [
+    {
+      "skill_id": "shell",
+      "repos": [
+        "YOGYUI/HomeNetwork",
+        "YOGYUI/homeassistant-addons",
+        "YOGYUI/matter-esp32-scd41",
+        "YOGYUI/matter-esp32-si7021",
+        "YOGYUI/matter-esp32-ekmc16"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 18714,
+      "commit_count": 206,
+      "first_seen": "2022-06-20T01:04:28+00:00",
+      "last_seen": "2026-06-05T09:53:10+00:00",
+      "details": [
+        "HomeNetwork: Shell: 1,228 bytes (0% of repo)",
+        "homeassistant-addons: Shell: 2,921 bytes (75% of repo)",
+        "matter-esp32-scd41: Shell: 4,855 bytes (4% of repo)",
+        "matter-esp32-si7021: Shell: 4,855 bytes (5% of repo)",
+        "matter-esp32-ekmc16: Shell: 4,855 bytes (6% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "YOGYUI/HomeNetwork",
+        "YOGYUI/matter-esp32-scd41",
+        "YOGYUI/matter-esp32-si7021",
+        "YOGYUI/matter-esp32-ekmc16"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 266929,
+      "commit_count": 172,
+      "first_seen": "2022-06-20T01:04:28+00:00",
+      "last_seen": "2026-06-05T09:53:10+00:00",
+      "details": [
+        "HomeNetwork: C++: 4,843 bytes (1% of repo)",
+        "matter-esp32-scd41: C++: 95,091 bytes (86% of repo)",
+        "matter-esp32-scd41: C: 8,477 bytes (8% of repo)",
+        "matter-esp32-si7021: C++: 77,056 bytes (83% of repo)",
+        "matter-esp32-si7021: C: 8,477 bytes (9% of repo)",
+        "matter-esp32-ekmc16: C++: 64,617 bytes (81% of repo)",
+        "matter-esp32-ekmc16: C: 8,368 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "YOGYUI/HomeNetwork"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 647947,
+      "commit_count": 157,
+      "first_seen": "2022-06-20T01:04:28+00:00",
+      "last_seen": "2026-06-05T09:53:10+00:00",
+      "details": [
+        "HomeNetwork: Python: 647,947 bytes (91% of repo)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "YOGYUI/HomeNetwork",
+        "YOGYUI/homeassistant-addons"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "language"
+      ],
+      "max_strength": 0.6456095041322314,
+      "total_bytes": 951,
+      "commit_count": 191,
+      "first_seen": "2022-06-20T01:04:28+00:00",
+      "last_seen": "2026-06-05T09:53:10+00:00",
+      "details": [
+        "HomeNetwork: Dockerfile (Hillstate-Gwanggyosan/Dockerfile)",
+        "homeassistant-addons: Dockerfile: 951 bytes (25% of repo)",
+        "homeassistant-addons: Dockerfile (homenet-hillstate/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "YOGYUI/HomeNetwork"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 157,
+      "first_seen": "2022-06-20T01:04:28+00:00",
+      "last_seen": "2026-06-05T09:53:10+00:00",
+      "details": [
+        "HomeNetwork: test directory (IPark-Gwanggyo/test/CRC8.py)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "YOGYUI/HomeNetwork"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.47972158006533433,
+      "total_bytes": 59296,
+      "commit_count": 157,
+      "first_seen": "2022-06-20T01:04:28+00:00",
+      "last_seen": "2026-06-05T09:53:10+00:00",
+      "details": [
+        "HomeNetwork: HTML: 56,935 bytes (8% of repo)",
+        "HomeNetwork: CSS: 2,361 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 206,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 5,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:13:28.667763+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

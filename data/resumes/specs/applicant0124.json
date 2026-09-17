@@ -1,0 +1,128 @@
+{
+  "github_login": "Kh3rwa1",
+  "applicant_id": "applicant0124",
+  "first_name": "Tobias",
+  "last_name": "Renner",
+  "career_stage": "student",
+  "email": "tobias@northfield.example",
+  "phone": "(555) 011-5836",
+  "location": "Marlow Junction",
+  "linkedin": "linkedin.example.com/in/tobias-renner",
+  "github_url": "github.example.com/applicant0124",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Northfield Polytechnic",
+    "location": "Marlow Junction",
+    "degree": "Bachelor of Science",
+    "major": "Software Engineering",
+    "minor": "Organizational Communication",
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Distributed Systems",
+      "Software Project Management",
+      "Databases"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Olitunapp",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built an offline-first learning platform for the Ol Chiki script using Flutter and Appwrite, integrating a translation API and automated tests."
+      ],
+      "link": null,
+      "tech": [
+        "Dart",
+        "JavaScript",
+        "Python",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Offline Qr School Attendance",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a TypeScript attendance system with Playwright end-to-end tests and Docker packaging, coordinating schema changes across Shell and PLpgSQL scripts."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "HTML",
+        "Shell",
+        "PLpgSQL"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Project Coordinator",
+      "organization": "Northfield Open Language Tools",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "After translation contributors and engineers kept missing each other's updates, set up a shared changelog tying content changes to releases.",
+        "Found that clarifying who owned each milestone reduced blocked handoffs more than adding new features, sparking interest in coordination work."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "SQL",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "React",
+      "Tailwind CSS",
+      "Next.js"
+    ],
+    "Backend": [
+      "Node.js"
+    ],
+    "Data": [
+      "Data Modeling",
+      "PostgreSQL",
+      "Web Scraping",
+      "Redis"
+    ],
+    "DevOps": [
+      "CI/CD",
+      "Linux & Server Administration",
+      "Docker",
+      "Kubernetes",
+      "Monitoring & Logging"
+    ],
+    "Quality": [
+      "Unit Testing",
+      "Integration & E2E Testing"
+    ],
+    "Mobile": [
+      "Flutter",
+      "React Native",
+      "Native iOS/Android"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

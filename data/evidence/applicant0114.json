@@ -1,0 +1,186 @@
+{
+  "applicant_id": "applicant0114",
+  "github_login": "Alexander23W4",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0114.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Alexander23W4/InternalDependent_ysyx-workbench",
+        "https://github.com/Alexander23W4/26_8_EBD"
+      ],
+      "repos": [
+        {
+          "repo": "Alexander23W4/InternalDependent_ysyx-workbench",
+          "html_url": "https://github.com/Alexander23W4/InternalDependent_ysyx-workbench",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_docker, many_active_days",
+            "C: 14,490,486 bytes (67% of repo)",
+            "C++: 2,794,980 bytes (13% of repo)"
+          ]
+        },
+        {
+          "repo": "Alexander23W4/26_8_EBD",
+          "html_url": "https://github.com/Alexander23W4/26_8_EBD",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: none",
+            "C: 5,811,085 bytes (97% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Alexander23W4/InternalDependent_ysyx-workbench"
+      ],
+      "repos": [
+        {
+          "repo": "Alexander23W4/InternalDependent_ysyx-workbench",
+          "html_url": "https://github.com/Alexander23W4/InternalDependent_ysyx-workbench",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_docker, many_active_days",
+            "Dockerfile (rt-thread-am/.devcontainer/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Alexander23W4/LinuxDev",
+        "https://github.com/Alexander23W4/Solar",
+        "https://github.com/Alexander23W4/FPC-WorkSpace"
+      ],
+      "repos": [
+        {
+          "repo": "Alexander23W4/LinuxDev",
+          "html_url": "https://github.com/Alexander23W4/LinuxDev",
+          "level": 2,
+          "reasons": [
+            "intermediate: 29 commits; multi_month_span, many_active_days",
+            "Python: 533,379 bytes (13% of repo)"
+          ]
+        },
+        {
+          "repo": "Alexander23W4/Solar",
+          "html_url": "https://github.com/Alexander23W4/Solar",
+          "level": 2,
+          "reasons": [
+            "intermediate: 44 commits; has_tests, multi_month_span, many_active_days",
+            "Python: 238,568 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Alexander23W4/FPC-WorkSpace",
+          "html_url": "https://github.com/Alexander23W4/FPC-WorkSpace",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: none",
+            "Python: 191 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "shell",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Alexander23W4/LinuxDev"
+      ],
+      "repos": [
+        {
+          "repo": "Alexander23W4/LinuxDev",
+          "html_url": "https://github.com/Alexander23W4/LinuxDev",
+          "level": 2,
+          "reasons": [
+            "intermediate: 29 commits; multi_month_span, many_active_days",
+            "Makefile: 2,349,652 bytes (59% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Alexander23W4/InternalDependent_ysyx-workbench",
+        "https://github.com/Alexander23W4/Solar"
+      ],
+      "repos": [
+        {
+          "repo": "Alexander23W4/InternalDependent_ysyx-workbench",
+          "html_url": "https://github.com/Alexander23W4/InternalDependent_ysyx-workbench",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_docker, many_active_days",
+            "docs directory (rt-thread-am/components/drivers/fdt/docs/README.md)"
+          ]
+        },
+        {
+          "repo": "Alexander23W4/Solar",
+          "html_url": "https://github.com/Alexander23W4/Solar",
+          "level": 2,
+          "reasons": [
+            "intermediate: 44 commits; has_tests, multi_month_span, many_active_days",
+            "readme in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Alexander23W4/Solar"
+      ],
+      "repos": [
+        {
+          "repo": "Alexander23W4/Solar",
+          "html_url": "https://github.com/Alexander23W4/Solar",
+          "level": 2,
+          "reasons": [
+            "intermediate: 44 commits; has_tests, multi_month_span, many_active_days",
+            "test directory (tests/test1.py)",
+            "pytest in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 6
+  }
+}

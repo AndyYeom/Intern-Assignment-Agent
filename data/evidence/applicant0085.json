@@ -1,0 +1,279 @@
+{
+  "applicant_id": "applicant0085",
+  "github_login": "claudio3964",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0085.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/claudio3964/app-kilometros-completa"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/app-kilometros-completa",
+          "html_url": "https://github.com/claudio3964/app-kilometros-completa",
+          "level": 3,
+          "reasons": [
+            "intermediate: 162 commits; multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "database migrations (supabase/migrations/20260724000000_puntas_configuracion.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/claudio3964/app_kilometro"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/app_kilometro",
+          "html_url": "https://github.com/claudio3964/app_kilometro",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project, all_commits_one_day",
+            "HTML: 26,961 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/claudio3964/en-escena-web"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/en-escena-web",
+          "html_url": "https://github.com/claudio3964/en-escena-web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; deployed, documented",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/claudio3964/app-kilometros-completa",
+        "https://github.com/claudio3964/driverlog-rutauy"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/app-kilometros-completa",
+          "html_url": "https://github.com/claudio3964/app-kilometros-completa",
+          "level": 3,
+          "reasons": [
+            "intermediate: 162 commits; multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "Kotlin: 523,523 bytes (87% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "claudio3964/driverlog-rutauy",
+          "html_url": "https://github.com/claudio3964/driverlog-rutauy",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: none",
+            "Swift: 32,509 bytes (100% of repo)",
+            "iOS project (driverlog.xcodeproj/project.pbxproj)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/claudio3964/en-escena-web",
+        "https://github.com/claudio3964/cot-admin-next"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/en-escena-web",
+          "html_url": "https://github.com/claudio3964/en-escena-web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; deployed, documented",
+            "next config (next.config.js)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "claudio3964/cot-admin-next",
+          "html_url": "https://github.com/claudio3964/cot-admin-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/claudio3964/en-escena-web",
+        "https://github.com/claudio3964/cot-admin-next"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/en-escena-web",
+          "html_url": "https://github.com/claudio3964/en-escena-web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; deployed, documented",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "claudio3964/cot-admin-next",
+          "html_url": "https://github.com/claudio3964/cot-admin-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/claudio3964/app-kilometros-completa"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/app-kilometros-completa",
+          "html_url": "https://github.com/claudio3964/app-kilometros-completa",
+          "level": 3,
+          "reasons": [
+            "intermediate: 162 commits; multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 5 fix/perf/refactor commits",
+            "SQL file (supabase/functions/actualizar_fcm_token.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/claudio3964/en-escena-web",
+        "https://github.com/claudio3964/cot-admin-next"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/en-escena-web",
+          "html_url": "https://github.com/claudio3964/en-escena-web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; deployed, documented",
+            "tailwind config (tailwind.config.ts)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "claudio3964/cot-admin-next",
+          "html_url": "https://github.com/claudio3964/cot-admin-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/claudio3964/en-escena-web",
+        "https://github.com/claudio3964/cot-admin-next"
+      ],
+      "repos": [
+        {
+          "repo": "claudio3964/en-escena-web",
+          "html_url": "https://github.com/claudio3964/en-escena-web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; deployed, documented",
+            "TypeScript: 34,966 bytes (98% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "claudio3964/cot-admin-next",
+          "html_url": "https://github.com/claudio3964/cot-admin-next",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 246,433 bytes (99% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "postgresql",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/claudio3964/app-kilometros-completa"
+      ]
+    }
+  ],
+  "status_counts": {
+    "verified": 9
+  }
+}

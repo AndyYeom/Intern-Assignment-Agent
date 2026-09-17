@@ -1,0 +1,433 @@
+{
+  "applicant_id": "applicant0110",
+  "github_login": "SilverDreams115",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0110.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SilverDreams115/IrisOS"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/IrisOS",
+          "html_url": "https://github.com/SilverDreams115/IrisOS",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, many_active_days, documented",
+            "C: 3,584,195 bytes (96% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/SilverDreams115/Iris-Bot",
+        "https://github.com/SilverDreams115/IrisOS",
+        "https://github.com/SilverDreams115/proAI",
+        "https://github.com/SilverDreams115/EchoAgent",
+        "https://github.com/SilverDreams115/iris-frontend"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/Iris-Bot",
+          "html_url": "https://github.com/SilverDreams115/Iris-Bot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 13 commits; has_ci, has_tests, documented",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/IrisOS",
+          "html_url": "https://github.com/SilverDreams115/IrisOS",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/proAI",
+          "html_url": "https://github.com/SilverDreams115/proAI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 182 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/EchoAgent",
+          "html_url": "https://github.com/SilverDreams115/EchoAgent",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/iris-frontend",
+          "html_url": "https://github.com/SilverDreams115/iris-frontend",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SilverDreams115/proAI"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/proAI",
+          "html_url": "https://github.com/SilverDreams115/proAI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 182 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SilverDreams115/proAI",
+        "https://github.com/SilverDreams115/iris-frontend"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/proAI",
+          "html_url": "https://github.com/SilverDreams115/proAI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 182 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, documented",
+            "env config (.env.example)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/iris-frontend",
+          "html_url": "https://github.com/SilverDreams115/iris-frontend",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SilverDreams115/Iris-Bot"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/Iris-Bot",
+          "html_url": "https://github.com/SilverDreams115/Iris-Bot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 13 commits; has_ci, has_tests, documented",
+            "xgboost in pyproject.toml",
+            "xgboost in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SilverDreams115/iris-frontend"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/iris-frontend",
+          "html_url": "https://github.com/SilverDreams115/iris-frontend",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SilverDreams115/Iris-Bot"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/Iris-Bot",
+          "html_url": "https://github.com/SilverDreams115/Iris-Bot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 13 commits; has_ci, has_tests, documented",
+            "numpy in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/SilverDreams115/Iris-Bot",
+        "https://github.com/SilverDreams115/proAI",
+        "https://github.com/SilverDreams115/EchoAgent"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/Iris-Bot",
+          "html_url": "https://github.com/SilverDreams115/Iris-Bot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 13 commits; has_ci, has_tests, documented",
+            "Python: 1,793,178 bytes (99% of repo)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/proAI",
+          "html_url": "https://github.com/SilverDreams115/proAI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 182 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, documented",
+            "Python: 3,086,279 bytes (84% of repo)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/EchoAgent",
+          "html_url": "https://github.com/SilverDreams115/EchoAgent",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Python: 634,132 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SilverDreams115/iris-frontend"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/iris-frontend",
+          "html_url": "https://github.com/SilverDreams115/iris-frontend",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SilverDreams115/iris-frontend"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/iris-frontend",
+          "html_url": "https://github.com/SilverDreams115/iris-frontend",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/SilverDreams115/Iris-Bot",
+        "https://github.com/SilverDreams115/IrisOS",
+        "https://github.com/SilverDreams115/proAI",
+        "https://github.com/SilverDreams115/EchoAgent"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/Iris-Bot",
+          "html_url": "https://github.com/SilverDreams115/Iris-Bot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 13 commits; has_ci, has_tests, documented",
+            "docs directory (docs/ARCHITECTURE.md)",
+            "readme in pyproject.toml"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/IrisOS",
+          "html_url": "https://github.com/SilverDreams115/IrisOS",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, many_active_days, documented",
+            "docs directory (docs/architecture/a1-5-ipc-receive-slot.md)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/proAI",
+          "html_url": "https://github.com/SilverDreams115/proAI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 182 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, documented",
+            "docs directory (docs/README.md)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/EchoAgent",
+          "html_url": "https://github.com/SilverDreams115/EchoAgent",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "readme in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SilverDreams115/iris-frontend"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/iris-frontend",
+          "html_url": "https://github.com/SilverDreams115/iris-frontend",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "TypeScript: 85,501 bytes (99% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/SilverDreams115/Iris-Bot",
+        "https://github.com/SilverDreams115/proAI",
+        "https://github.com/SilverDreams115/EchoAgent"
+      ],
+      "repos": [
+        {
+          "repo": "SilverDreams115/Iris-Bot",
+          "html_url": "https://github.com/SilverDreams115/Iris-Bot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 13 commits; has_ci, has_tests, documented",
+            "test directory (tests/conftest.py)",
+            "pytest in pyproject.toml"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/proAI",
+          "html_url": "https://github.com/SilverDreams115/proAI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 182 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, documented",
+            "test directory (backend/tests/_learning_seed.py)"
+          ]
+        },
+        {
+          "repo": "SilverDreams115/EchoAgent",
+          "html_url": "https://github.com/SilverDreams115/EchoAgent",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test directory (tests/test_branches.py)",
+            "pytest in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "javascript",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SilverDreams115/proAI"
+      ]
+    }
+  ],
+  "status_counts": {
+    "verified": 13
+  }
+}
