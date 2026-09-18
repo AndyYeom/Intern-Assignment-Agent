@@ -1,0 +1,1295 @@
+{
+  "applicant_id": "applicant0103",
+  "login": "yuk1no4090",
+  "html_url": "https://github.com/yuk1no4090",
+  "created_at": "2025-02-13T14:00:48Z",
+  "account_age_days": 580,
+  "public_repos": 4,
+  "followers": 0,
+  "following": 1,
+  "repos": [
+    {
+      "name": "financial-agent",
+      "full_name": "yuk1no4090/financial-agent",
+      "html_url": "https://github.com/yuk1no4090/financial-agent",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-27T10:36:07Z",
+      "pushed_at": "2026-04-29T10:13:38Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 30450,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 3249616,
+        "TypeScript": 811686,
+        "HTML": 190924,
+        "Shell": 91475,
+        "CSS": 85734,
+        "JavaScript": 70404,
+        "MDX": 22711,
+        "Makefile": 8611,
+        "Dockerfile": 7231,
+        "Batchfile": 502
+      },
+      "primary_language": "Python",
+      "file_count": 893,
+      "top_level_paths": [
+        ".agent",
+        ".dockerignore",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "README_zh.md",
+        "backend",
+        "config.example.yaml",
+        "config.yaml",
+        "data",
+        "deer-flow.code-workspace",
+        "docker",
+        "docs",
+        "evals",
+        "extensions_config.example.json",
+        "frontend",
+        "pr-build",
+        "scripts",
+        "skills"
+      ],
+      "notable_files": [
+        ".github/workflows/backend-unit-tests.yml",
+        ".github/workflows/e2e-tests.yml",
+        ".github/workflows/frontend-unit-tests.yml",
+        ".github/workflows/lint-check.yml",
+        "backend/Dockerfile",
+        "backend/packages/harness/pyproject.toml",
+        "backend/pyproject.toml",
+        "docker/provisioner/Dockerfile",
+        "frontend/Dockerfile",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 7082,
+      "readme_excerpt": "# FinAgent Workbench\n\nEnglish | [中文](./README_zh.md)\n\nFinAgent Workbench is an agentic financial analysis project built on [DeerFlow](https://github.com/bytedance/deer-flow) and [PIXIU](https://github.com/The-FinAI/PIXIU). It uses DeerFlow as the agent orchestration and workspace layer, and uses PIXIU/FinMA as a domain-tuned financial expert module for short-context financial reasoning tasks.\n\nThe central design choice is deliberate: PIXIU/FinMA is not used as the lead agent model. FinMA v0.1 is based on early LLaMA-style models and has a short context window, which makes it unsuitable for long-horizon agent orchestration, multi-source synthesis, full filing analysis, and final report generation. FinAgent instead uses a long-context general model such as GLM, DeepSeek, or Qwen as the lead model, while FinMA is routed as a specialist module for finance-specific subtasks.\n\n## Project Summary\n\n```text\nUser\n  -> FinAgent Workbench UI\n  -> DeerFlow lead agent\n       -> Long-context model: GLM / DeepSeek / Qwen\n       -> Tools:\n            - Web search and fetch\n            - Financial data retrieval\n            - Financial calculator\n            - FinMA expert module\n       -> Skills:\n ",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 100,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 683
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 3,249,616 bytes (72% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 811,686 bytes (18% of repo)",
+          "strength": 0.5788290275119886
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 190,924 bytes (4% of repo)",
+          "strength": 0.4420639918006457
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 91,475 bytes (2% of repo)",
+          "strength": 0.42015358807674297
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 85,734 bytes (2% of repo)",
+          "strength": 0.4188887424998249
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 70,404 bytes (2% of repo)",
+          "strength": 0.4155112677229299
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 8,611 bytes (0% of repo)",
+          "strength": 0.40189715820638244
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 7,231 bytes (0% of repo)",
+          "strength": 0.4015931193810651
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/backend-unit-tests.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (backend/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (backend/tests/conftest.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (docker/nginx/nginx.conf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/FINAGENT_PRD.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (frontend/next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (frontend/playwright.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "repo_name",
+          "detail": "'agent' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 4515681,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "integration-testing",
+          "linux",
+          "nextjs",
+          "python",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "cyber-guide",
+      "full_name": "yuk1no4090/cyber-guide",
+      "html_url": "https://github.com/yuk1no4090/cyber-guide",
+      "description": null,
+      "homepage": "https://cyber-guide-seven.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-07T10:22:39Z",
+      "pushed_at": "2026-09-17T01:08:57Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 987,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 411590,
+        "TypeScript": 298460,
+        "Python": 95679,
+        "CSS": 17640,
+        "Shell": 12831,
+        "JavaScript": 6929,
+        "Dockerfile": 1154
+      },
+      "primary_language": "Java",
+      "file_count": 270,
+      "top_level_paths": [
+        ".env.example",
+        ".github",
+        ".gitignore",
+        "DEPLOYMENT.md",
+        "README.md",
+        "backend",
+        "crawler",
+        "deploy-manual.sh",
+        "docker-compose.yml",
+        "docs",
+        "frontend",
+        "knowledge_base",
+        "nginx.conf",
+        "scripts",
+        "start.sh",
+        "stop.sh"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        "backend/Dockerfile",
+        "backend/pom.xml",
+        "crawler/Dockerfile",
+        "crawler/requirements.txt",
+        "frontend/Dockerfile",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3532,
+      "readme_excerpt": "# Cyber Guide\n\n> AI-powered academic & career planning companion.\n> AI 驱动的学业与职业规划助手。\n\n## Architecture（架构）\n\n```\n┌───────────┐    ┌──────────────┐    ┌────────────┐\n│  Frontend  │───▶│   Backend    │◀───│  Crawler    │\n│ Next.js 15 │    │ Spring Boot  │    │  Python     │\n└───────────┘    └──────┬───────┘    └─────┬──────┘\n                        │                  │\n                 ┌──────┴───────┐          │\n                 │  PostgreSQL  │◀─────────┘\n                 │    + Redis   │\n                 └──────────────┘\n```\n\n## Tech Stack（技术栈）\n\n| Layer | Technologies |\n|-------|-------------|\n| Frontend | Next.js 15, React 19, TypeScript, Tailwind CSS |\n| Backend | Java 21, Spring Boot 3.3, Spring Security, JPA, Resilience4j |\n| Database | PostgreSQL 16, Redis 7 |\n| Crawler | Python 3.10+ (推荐 3.13), Scrapy, APScheduler, `requests`, 可选 `xhs` |\n| Infra | Docker Compose, Nginx, JWT + GitHub OAuth, Redis（限流/缓存/邮箱验证码） |\n\n## Quick Start（快速启动）\n\n```bash\ngit clone https://github.com/yuk1no4090/cyber-guide.git\ncd cyber-guide\ncp .env.example .env   # edit .env, set OPENAI_API_KEY; defaults target a Zhipu OpenAI-compatible endpoint\n\ndocker compose up -d\n```\n\nVerify（验证）:\n\n```bash\ncurl http://lo",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.623,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-02-13T14:51:00+00:00",
+        "last_at": "2026-05-05T16:55:29+00:00",
+        "active_days": 2,
+        "span_days": 81,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "完善部署配置说明并补充会话测试",
+          "修复前端会话恢复与匿名升级流程",
+          "Merge pull request #1 from yuk1no4090/feat/s1-integrate"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 201
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 411,590 bytes (49% of repo)",
+          "strength": 0.8875024132903304
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 298,460 bytes (35% of repo)",
+          "strength": 0.7535070586521344
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 95,679 bytes (11% of repo)",
+          "strength": 0.5133257450404664
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 17,640 bytes (2% of repo)",
+          "strength": 0.4208934681854307
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 12,831 bytes (2% of repo)",
+          "strength": 0.41519751078725975
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,929 bytes (1% of repo)",
+          "strength": 0.408206963778733
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,154 bytes (0% of repo)",
+          "strength": 0.40136684026564556
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (backend/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (backend/src/test/java/com/cyberguide/BeanConstructorContractTest.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/API.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (docs/sql/action_plans.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (frontend/next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (frontend/tailwind.config.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 844283,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "java",
+          "linux",
+          "nextjs",
+          "sql",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Repomentor",
+      "full_name": "yuk1no4090/Repomentor",
+      "html_url": "https://github.com/yuk1no4090/Repomentor",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-20T16:29:35Z",
+      "pushed_at": "2026-08-28T11:22:33Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1674,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 1256141,
+        "CSS": 55463,
+        "Dockerfile": 791,
+        "HTML": 337
+      },
+      "primary_language": "JavaScript",
+      "file_count": 97,
+      "top_level_paths": [
+        ".dockerignore",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".nvmrc",
+        "AGENTS.md",
+        "Dockerfile",
+        "README.md",
+        "README.zh-CN.md",
+        "docs",
+        "lib",
+        "mcp-server.js",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "server.js",
+        "test"
+      ],
+      "notable_files": [
+        ".github/workflows/test.yml",
+        "Dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@langchain/core",
+          "@langchain/langgraph",
+          "@langchain/langgraph-checkpoint",
+          "@modelcontextprotocol/sdk"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 47211,
+      "readme_excerpt": "[English](README.md) | [中文](README.zh-CN.md)\n\n<p align=\"center\">\n  <img src=\"docs/assets/banner.svg\" alt=\"AI Developer Onboarding Copilot — cited answers, impact briefings, built-in evals\" width=\"920\">\n</p>\n\n<p align=\"center\">\n  <strong>🚀 Live Demo:</strong> https://pm.yuk1no4090.site · <strong>Portfolio:</strong> https://yuk1no4090.site\n</p>\n\n# Repomentor\n\n_An MVP web app for helping new engineers, technical PMs, and QA understand a repository with AI-style repository summaries, codebase Q&A, impact analysis, an agentic impact workflow, onboarding plans, citations, feedback, and evaluation metrics._\n\n**A codebase-understanding copilot for new engineers, technical PMs, and QA.** Import a repository and get citation-backed code Q&A, a change-impact briefing written for people who don't read code, and a personalized onboarding plan — backed by an in-product AI quality dashboard you can audit instead of having to trust.\n\nNew hires typically take days to weeks to build working context on an unfamiliar codebase, documentation goes stale, and knowledge stays scattered across people's heads. Product managers and QA are usually locked out of impact-analysis tooling entirely, so they can't ",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 75
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,256,141 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 55,463 bytes (4% of repo)",
+          "strength": 0.44225005560921804
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/test.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/AGENT_RUNTIME_ARCHITECTURE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (test/agent-contracts.test.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 1312732,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "javascript",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "fin-test",
+      "full_name": "yuk1no4090/fin-test",
+      "html_url": "https://github.com/yuk1no4090/fin-test",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-06T07:49:14Z",
+      "pushed_at": "2026-07-08T03:42:57Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 524,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 18432
+      },
+      "primary_language": "Python",
+      "file_count": 18,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "data",
+        "outputs",
+        "requirements.txt",
+        "src"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "matplotlib",
+          "numpy",
+          "pandas",
+          "yfinance"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2628,
+      "readme_excerpt": "# ETF 多资产趋势择时回测\n\n这是一个本地可运行的 Python 教学项目，用于回测 ETF 200 日均线择时策略，并扩展为多 ETF 批量回测、今日信号和模拟持仓记录。\n\n本项目属于入门级量化：规则明确、数据驱动、可回测、可复现、可批量执行。但它不是投资建议，也不是收益预测系统。\n\n## 策略逻辑\n\n- 当 ETF 收盘价高于 200 日均线时，视为趋势向上。\n- 当 ETF 收盘价低于 200 日均线时，视为趋势向下。\n- 回测中信号在当天收盘后生成，第二个交易日才生效，代码使用 `shift(1)` 避免未来函数。\n- 每次仓位变化时扣除单边交易成本，默认 `0.001`，即 0.1%。\n- 单 ETF 回测会和买入并持有 ETF 的基准结果对比。\n\n## 安装方式\n\n建议使用虚拟环境：\n\n```bash\ncd etf_ma_backtest\npython -m venv .venv\n.venv\\Scripts\\activate\npip install -r requirements.txt\n```\n\nmacOS 或 Linux：\n\n```bash\nsource .venv/bin/activate\npip install -r requirements.txt\n```\n\n## 单 ETF 回测\n\n使用 yfinance 下载数据：\n\n```bash\npython src/main.py --ticker SPY --start 2010-01-01 --ma 200 --cost 0.001\n```\n\n使用本地 CSV：\n\n```bash\npython src/main.py --csv data/sample_etf.csv --ma 200 --cost 0.001\n```\n\nCSV 至少包含两列：\n\n```csv\ndate,close\n2020-01-02,[phone],[phone],1.018\n```\n\n## 多 ETF 批量回测\n\n```bash\npython src/main.py --tickers SPY QQQ IWM EFA EEM VNQ TLT IEF GLD BIL --start 2010-01-01 --ma 200 --cost 0.001\n```\n\n默认 ETF 池：\n\n```txt\nSPY QQQ IWM EFA EEM VNQ TLT IEF GLD BIL\n```\n\n资产分组：\n\n```txt\n权益类：SPY QQQ IWM EFA EEM VNQ\n防守类：TLT IEF GLD BIL\n```\n\n## 今日信号和模拟持仓\n\n生成最新收盘后的信号：\n\n```bash\npython src/main.py --tickers SPY QQQ IWM EFA EEM V",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-07-06T07:50:30+00:00",
+        "last_at": "2026-07-08T03:42:38+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Add multi ETF simulation workflow",
+          "Add ETF moving average backtest project"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 18,432 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 18432,
+        "strong_skills": [
+          "data-viz",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 3363727,
+    "JavaScript": 1333474,
+    "TypeScript": 1110146,
+    "Java": 411590,
+    "HTML": 191261,
+    "CSS": 158837,
+    "Shell": 104306,
+    "MDX": 22711,
+    "Dockerfile": 9176,
+    "Makefile": 8611,
+    "Batchfile": 502
+  },
+  "total_commits": 5,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide",
+        "yuk1no4090/fin-test"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3363727,
+      "commit_count": 5,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-07-08T03:42:38+00:00",
+      "details": [
+        "financial-agent: Python: 3,249,616 bytes (72% of repo)",
+        "cyber-guide: Python: 95,679 bytes (11% of repo)",
+        "fin-test: Python: 18,432 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide",
+        "yuk1no4090/Repomentor"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1333474,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: JavaScript: 70,404 bytes (2% of repo)",
+        "cyber-guide: JavaScript: 6,929 bytes (1% of repo)",
+        "Repomentor: JavaScript: 1,256,141 bytes (96% of repo)"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "yuk1no4090/fin-test"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2026-07-06T07:50:30+00:00",
+      "last_seen": "2026-07-08T03:42:38+00:00",
+      "details": [
+        "fin-test: matplotlib in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "yuk1no4090/fin-test"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2026-07-06T07:50:30+00:00",
+      "last_seen": "2026-07-08T03:42:38+00:00",
+      "details": [
+        "fin-test: numpy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "yuk1no4090/cyber-guide"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8875024132903304,
+      "total_bytes": 411590,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "cyber-guide: Java: 411,590 bytes (49% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7535070586521344,
+      "total_bytes": 1110146,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: TypeScript: 811,686 bytes (18% of repo)",
+        "cyber-guide: TypeScript: 298,460 bytes (35% of repo)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide",
+        "yuk1no4090/Repomentor"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 8385,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: Dockerfile: 7,231 bytes (0% of repo)",
+        "financial-agent: Dockerfile (backend/Dockerfile)",
+        "cyber-guide: Dockerfile: 1,154 bytes (0% of repo)",
+        "cyber-guide: Dockerfile (backend/Dockerfile)",
+        "Repomentor: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide",
+        "yuk1no4090/Repomentor"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: GitHub Actions workflow (.github/workflows/backend-unit-tests.yml)",
+        "cyber-guide: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "Repomentor: GitHub Actions workflow (.github/workflows/test.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide",
+        "yuk1no4090/Repomentor"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: test directory (backend/tests/conftest.py)",
+        "cyber-guide: test directory (backend/src/test/java/com/cyberguide/BeanConstructorContractTest.java)",
+        "Repomentor: test directory (test/agent-contracts.test.js)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide",
+        "yuk1no4090/Repomentor"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: docs directory (docs/FINAGENT_PRD.md)",
+        "cyber-guide: docs directory (docs/API.md)",
+        "Repomentor: docs directory (docs/AGENT_RUNTIME_ARCHITECTURE.md)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: server config (docker/nginx/nginx.conf)",
+        "cyber-guide: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: next config (frontend/next.config.js)",
+        "cyber-guide: next config (frontend/next.config.js)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "yuk1no4090/financial-agent"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "financial-agent: e2e suite (frontend/playwright.config.ts)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "yuk1no4090/cyber-guide"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "cyber-guide: SQL file (docs/sql/action_plans.sql)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "yuk1no4090/cyber-guide"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "cyber-guide: tailwind config (frontend/tailwind.config.js)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide",
+        "yuk1no4090/Repomentor"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.44225005560921804,
+      "total_bytes": 349761,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: HTML: 190,924 bytes (4% of repo)",
+        "financial-agent: CSS: 85,734 bytes (2% of repo)",
+        "cyber-guide: CSS: 17,640 bytes (2% of repo)",
+        "Repomentor: CSS: 55,463 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "yuk1no4090/financial-agent",
+        "yuk1no4090/cyber-guide"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.42015358807674297,
+      "total_bytes": 112917,
+      "commit_count": 3,
+      "first_seen": "2026-02-13T14:51:00+00:00",
+      "last_seen": "2026-05-05T16:55:29+00:00",
+      "details": [
+        "financial-agent: Shell: 91,475 bytes (2% of repo)",
+        "financial-agent: Makefile: 8,611 bytes (0% of repo)",
+        "cyber-guide: Shell: 12,831 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "yuk1no4090/financial-agent"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "financial-agent: 'agent' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 5,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 15,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3; total_commits: 5 < 20"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:25:03.690006+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3; total_commits: 5 < 20"
+  ]
+}

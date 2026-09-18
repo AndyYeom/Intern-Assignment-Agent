@@ -1,0 +1,166 @@
+{
+  "applicant_id": "applicant0142",
+  "github_login": "LucasJaider",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0142.json",
+  "skills": [
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LucasJaider/MastodonCLI"
+      ],
+      "repos": [
+        {
+          "repo": "LucasJaider/MastodonCLI",
+          "html_url": "https://github.com/LucasJaider/MastodonCLI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; has_tests, deployed, documented",
+            "Go: 64,390 bytes (100% of repo)",
+            "Go module (go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LucasJaider/projetoulbra",
+        "https://github.com/LucasJaider/projeto-mobile"
+      ],
+      "repos": [
+        {
+          "repo": "LucasJaider/projetoulbra",
+          "html_url": "https://github.com/LucasJaider/projetoulbra",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; multi_month_span, many_active_days",
+            "Java: 148,747 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "LucasJaider/projeto-mobile",
+          "html_url": "https://github.com/LucasJaider/projeto-mobile",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "Java: 7,277 bytes (11% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasJaider/projeto-mobile"
+      ],
+      "repos": [
+        {
+          "repo": "LucasJaider/projeto-mobile",
+          "html_url": "https://github.com/LucasJaider/projeto-mobile",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "Android app manifest (ProjetoMobile/android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "react-native",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasJaider/projeto-mobile"
+      ],
+      "repos": [
+        {
+          "repo": "LucasJaider/projeto-mobile",
+          "html_url": "https://github.com/LucasJaider/projeto-mobile",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "React Native bundler config (ProjetoMobile/metro.config.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasJaider/projeto-mobile"
+      ],
+      "repos": [
+        {
+          "repo": "LucasJaider/projeto-mobile",
+          "html_url": "https://github.com/LucasJaider/projeto-mobile",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "TypeScript: 55,182 bytes (80% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LucasJaider/MastodonCLI",
+        "https://github.com/LucasJaider/projeto-mobile"
+      ],
+      "repos": [
+        {
+          "repo": "LucasJaider/MastodonCLI",
+          "html_url": "https://github.com/LucasJaider/MastodonCLI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; has_tests, deployed, documented",
+            "test file (internal/cli/cli_test.go)"
+          ]
+        },
+        {
+          "repo": "LucasJaider/projeto-mobile",
+          "html_url": "https://github.com/LucasJaider/projeto-mobile",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_tests",
+            "test file (ProjetoMobile/__tests__/App.test.tsx)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 5
+  }
+}

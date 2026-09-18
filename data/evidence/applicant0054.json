@@ -1,0 +1,111 @@
+{
+  "applicant_id": "applicant0054",
+  "github_login": "Shishir-Singh-666",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0054.json",
+  "skills": [
+    {
+      "skill_id": "aws",
+      "claimed_level": 3,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "none",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Advanced; no repository shows this skill. Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Shishir-Singh-666/Twitch-Boost-v1.5-Tools"
+      ],
+      "repos": [
+        {
+          "repo": "Shishir-Singh-666/Twitch-Boost-v1.5-Tools",
+          "html_url": "https://github.com/Shishir-Singh-666/Twitch-Boost-v1.5-Tools",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: documented",
+            "C++: 2,088,646 bytes (89% of repo)",
+            "C: 269,497 bytes (11% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shishir-Singh-666/Hivera2nd",
+        "https://github.com/Shishir-Singh-666/nodepay2nd"
+      ],
+      "repos": [
+        {
+          "repo": "Shishir-Singh-666/Hivera2nd",
+          "html_url": "https://github.com/Shishir-Singh-666/Hivera2nd",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: documented",
+            "JavaScript: 6,879 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Shishir-Singh-666/nodepay2nd",
+          "html_url": "https://github.com/Shishir-Singh-666/nodepay2nd",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: documented",
+            "JavaScript: 9,000 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shishir-Singh-666/nodepay2ndid",
+        "https://github.com/Shishir-Singh-666/nodepay_autoref2"
+      ],
+      "repos": [
+        {
+          "repo": "Shishir-Singh-666/nodepay2ndid",
+          "html_url": "https://github.com/Shishir-Singh-666/nodepay2ndid",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: documented",
+            "Python: 10,990 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Shishir-Singh-666/nodepay_autoref2",
+          "html_url": "https://github.com/Shishir-Singh-666/nodepay_autoref2",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 19,102 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 1,
+    "partially_verified": 1,
+    "verified": 2
+  }
+}

@@ -1,0 +1,1064 @@
+{
+  "applicant_id": "applicant0064",
+  "login": "Special-Sharpie",
+  "html_url": "https://github.com/Special-Sharpie",
+  "created_at": "2020-07-29T23:34:28Z",
+  "account_age_days": 2240,
+  "public_repos": 14,
+  "followers": 3,
+  "following": 0,
+  "repos": [
+    {
+      "name": "HockeyStatsBot",
+      "full_name": "Special-Sharpie/HockeyStatsBot",
+      "html_url": "https://github.com/Special-Sharpie/HockeyStatsBot",
+      "description": "A Discord bot dedicated to providing live updating Hockey stats from the NHL website. Token is an empty string to protect the bot.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-03-07T21:16:02Z",
+      "pushed_at": "2023-01-25T04:58:24Z",
+      "stargazers": 10,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 255,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 191103
+      },
+      "primary_language": "Python",
+      "file_count": 39,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "code",
+        "new.txt"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 699,
+      "readme_excerpt": "HockeyStatsBot\n\nA Discord Bot that uses the NHL API in order to pull live updating hockey stats.\n\nURL where all this data can be viewed: https://statsapi.web.nhl.com/api/v1/teams\n\nURL to add the Discord Bot: \nhttps://discord.com/api/oauth2/authorize?client_id=[phone]&permissions=18432&scope=bot\n\nOnce the bot has been added, there are two commands to be run.\n1. HS-info - Provides many sources to help getting started with the bot.\n2. HS-setTimezone - The bot defaults to Mountain time. You can set change it to one of the 4 main time zones of the NHL. Those being: \"ET\" for Eastern, \"CT\" for Central, \"MT\" for Mountain, \"PT\" for Pacific. The command will look like: \"HS-setTimezone PT\"\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.137,
+      "commits": {
+        "count": 10,
+        "first_at": "2021-03-19T04:42:03+00:00",
+        "last_at": "2023-01-25T04:58:24+00:00",
+        "active_days": 8,
+        "span_days": 677,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.6,
+        "messages_sample": [
+          "Change bot status",
+          "Update README.md",
+          "Update README.md",
+          "Merge pull request #4 from Special-Sharpie/version/2.0.0",
+          "update docs",
+          "update docs",
+          "Create LICENSE",
+          "Merge pull request #3 from Special-Sharpie/version/1.4.0",
+          "Create Commands.md",
+          "Merge pull request #1 from Special-Sharpie/version/1.3.0"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 22
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 191,103 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 191103,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "OOSD",
+      "full_name": "Special-Sharpie/OOSD",
+      "html_url": "https://github.com/Special-Sharpie/OOSD",
+      "description": "Repo for my SAIT OOSD program",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-11-05T17:20:13Z",
+      "pushed_at": "2021-12-01T20:59:07Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5133,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 67892,
+        "EJS": 19865,
+        "JavaScript": 17662,
+        "CSS": 12372,
+        "PHP": 3784
+      },
+      "primary_language": "HTML",
+      "file_count": 77,
+      "top_level_paths": [
+        ".gitignore",
+        "WebDev210"
+      ],
+      "notable_files": [
+        "WebDev210/AssignmentDay7-13/package.json",
+        "WebDev210/AssignmentTwo/sait-express/package.json",
+        "WebDev210/AssignmentTwo/sait-mongo/package.json",
+        "WebDev210/AssignmentTwo/sait-mysql/package.json",
+        "WebDev210/AssignmentTwo/sait-node/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.056,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-12-01T20:59:00+00:00",
+        "last_at": "2021-12-01T20:59:00+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #1 from Special-Sharpie/feat/test"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 45
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 67,892 bytes (56% of repo)",
+          "strength": 0.9584371786962781
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 17,662 bytes (15% of repo)",
+          "strength": 0.5452765782438824
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 12,372 bytes (10% of repo)",
+          "strength": 0.5017643429981493
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (WebDev210/AssignmentDay1-7/htdocs/travelexperts.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 97926,
+        "strong_skills": [
+          "html-css",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "OOSDthreadedGroup5",
+      "full_name": "Special-Sharpie/OOSDthreadedGroup5",
+      "html_url": "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-11-20T21:20:50Z",
+      "pushed_at": "2021-12-11T01:30:21Z",
+      "stargazers": 1,
+      "forks": 3,
+      "open_issues": 0,
+      "size_kb": 15734,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "EJS": 31133,
+        "JavaScript": 25071,
+        "CSS": 15424
+      },
+      "primary_language": "EJS",
+      "file_count": 44,
+      "top_level_paths": [
+        ".gitignore",
+        "Contribution Of Team Members - PROJ 207 Threaded Project - Group #5 .docx",
+        "README.md",
+        "assets",
+        "index.js",
+        "package-lock.json",
+        "package.json",
+        "scripts",
+        "styles",
+        "views"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "dayjs",
+          "ejs",
+          "express",
+          "mysql",
+          "nodemon"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 48,
+      "readme_excerpt": "# OOSD threaded Group5\n\nOur project for PROJ207\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 5,
+      "contribution_share": 0.2,
+      "commits": {
+        "count": 28,
+        "first_at": "2021-11-20T21:20:51+00:00",
+        "last_at": "2021-12-10T21:08:06+00:00",
+        "active_days": 14,
+        "span_days": 19,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.107,
+        "messages_sample": [
+          "Merge pull request #29 from Special-Sharpie/feat/shifa/thursday",
+          "Merge pull request #28 from Special-Sharpie/feat/daniel/docs",
+          "Merge pull request #27 from Special-Sharpie/feat/just",
+          "Merge pull request #26 from Special-Sharpie/feat/just",
+          "Merge pull request #25 from Special-Sharpie/feat/justin/branch",
+          "Merge pull request #24 from Special-Sharpie/feat/justin/final",
+          "Merge pull request #23 from Special-Sharpie/feat/just/finishingtouches",
+          "Merge pull request #22 from Special-Sharpie/feat/just/style",
+          "Merge pull request #21 from Special-Sharpie/feat/daniel/contactAgencies",
+          "Merge pull request #20 from Special-Sharpie/feat/shifa/contact",
+          "Merge pull request #18 from Special-Sharpie/feat/Marat/metaTags",
+          "Merge pull request #17 from Special-Sharpie/feat/test/styling",
+          "Merge pull request #16 from Special-Sharpie/feat/justin/styles",
+          "Merge pull request #15 from Special-Sharpie/feat/Marat/packages5",
+          "Merge pull request #14 from Special-Sharpie/feat/daniel/orderForm",
+          "Merge pull request #13 from Special-Sharpie/feat/justin/styles",
+          "Merge pull request #12 from Special-Sharpie/feat/daniel/packageOrdering",
+          "Merge pull request #11 from Special-Sharpie/feat/justin/index",
+          "Merge pull request #10 from Special-Sharpie/feat/Marat/packages2",
+          "Merge pull request #9 from Special-Sharpie/feat/Marat/Packages1"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 25,071 bytes (35% of repo)",
+          "strength": 0.7500167532249958
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 15,424 bytes (22% of repo)",
+          "strength": 0.6153347852794997
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysql in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 40495,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "mysql",
+          "nodejs"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "server_metrics_mod",
+      "full_name": "Special-Sharpie/server_metrics_mod",
+      "html_url": "https://github.com/Special-Sharpie/server_metrics_mod",
+      "description": "Mod used to collect metrics and connect your fabric server to the dashboard",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-17T17:27:59Z",
+      "pushed_at": "2025-07-04T21:50:30Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 72,
+      "default_branch": "master",
+      "license": "CC0-1.0",
+      "topics": [],
+      "languages": {
+        "Java": 13779
+      },
+      "primary_language": "Java",
+      "file_count": 24,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "build.gradle",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.mojang",
+          "com.mysql",
+          "fabric-api",
+          "fabric-loader",
+          "minecraft",
+          "mysql",
+          "mysql-connector-j",
+          "mysql-connector-java",
+          "net.fabricmc",
+          "net.fabricmc.fabric-api",
+          "yarn"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1,
+      "readme_excerpt": "\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2025-06-17T17:29:21+00:00",
+        "last_at": "2025-07-04T21:50:28+00:00",
+        "active_days": 3,
+        "span_days": 17,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.133,
+        "messages_sample": [
+          "Merge pull request #3 from Special-Sharpie/jvm-resource-usage",
+          "Add some resource collection for dashbaord charts",
+          "Merge pull request #2 from Special-Sharpie/api_call_class",
+          "Minor grammar change",
+          "Add watcher to initial service check in order to reactivate service automatically when back restarts",
+          "Restrict to only one watcher thread by passing the watcher to classes properlu",
+          "Move api posts to an api request class to reduce repeated code and begin graceful failure implementation",
+          "begin adding api class to reduce repeated code",
+          "Merge pull request #1 from Special-Sharpie/refactor",
+          "Refactor project name to match mod name",
+          "Commit git ignore",
+          "Merge origin into local",
+          "Switch to async http requests to improve server main thread performance",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 10
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 3,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 13,779 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysql in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 13779,
+        "strong_skills": [
+          "java",
+          "mysql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "server_metrics_dashboard",
+      "full_name": "Special-Sharpie/server_metrics_dashboard",
+      "html_url": "https://github.com/Special-Sharpie/server_metrics_dashboard",
+      "description": "A dashboard for your fabric server!",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-17T17:24:04Z",
+      "pushed_at": "2025-07-04T21:50:41Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 27,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Vue": 21006,
+        "Python": 6597,
+        "JavaScript": 4685,
+        "CSS": 2158,
+        "HTML": 422
+      },
+      "primary_language": "Vue",
+      "file_count": 35,
+      "top_level_paths": [
+        "__pycache__",
+        "mc-server-status",
+        "mc-status-db",
+        "server_status.py"
+      ],
+      "notable_files": [
+        "mc-server-status/package.json",
+        "mc-status-db/dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-06-17T17:26:32+00:00",
+        "last_at": "2025-07-04T21:50:06+00:00",
+        "active_days": 2,
+        "span_days": 17,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #1 from Special-Sharpie/jvm-resource",
+          "Add resources charts and restructure ui to fit them",
+          "Initial commit adding the Vue Dashboard and supporting API"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 26
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "vue",
+          "source": "language",
+          "detail": "Vue: 21,006 bytes (60% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 6,597 bytes (19% of repo)",
+          "strength": 0.589199265802455
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,685 bytes (13% of repo)",
+          "strength": 0.5343638866582541
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,158 bytes (6% of repo)",
+          "strength": 0.4618905586784444
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (mc-status-db/dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (mc-status-db/install.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 34868,
+        "strong_skills": [
+          "docker",
+          "python",
+          "sql",
+          "vue"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 197700,
+    "HTML": 68314,
+    "EJS": 50998,
+    "JavaScript": 47418,
+    "CSS": 29954,
+    "Vue": 21006,
+    "Java": 13779,
+    "PHP": 3784
+  },
+  "total_commits": 57,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "Special-Sharpie/HockeyStatsBot",
+        "Special-Sharpie/server_metrics_dashboard"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 197700,
+      "commit_count": 13,
+      "first_seen": "2021-03-19T04:42:03+00:00",
+      "last_seen": "2025-07-04T21:50:06+00:00",
+      "details": [
+        "HockeyStatsBot: Python: 191,103 bytes (100% of repo)",
+        "server_metrics_dashboard: Python: 6,597 bytes (19% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "Special-Sharpie/server_metrics_mod"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 13779,
+      "commit_count": 15,
+      "first_seen": "2025-06-17T17:29:21+00:00",
+      "last_seen": "2025-07-04T21:50:28+00:00",
+      "details": [
+        "server_metrics_mod: Java: 13,779 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "vue",
+      "repos": [
+        "Special-Sharpie/server_metrics_dashboard"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 21006,
+      "commit_count": 3,
+      "first_seen": "2025-06-17T17:26:32+00:00",
+      "last_seen": "2025-07-04T21:50:06+00:00",
+      "details": [
+        "server_metrics_dashboard: Vue: 21,006 bytes (60% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Special-Sharpie/OOSD",
+        "Special-Sharpie/OOSDthreadedGroup5",
+        "Special-Sharpie/server_metrics_dashboard"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9584371786962781,
+      "total_bytes": 97846,
+      "commit_count": 32,
+      "first_seen": "2021-11-20T21:20:51+00:00",
+      "last_seen": "2025-07-04T21:50:06+00:00",
+      "details": [
+        "OOSD: HTML: 67,892 bytes (56% of repo)",
+        "OOSD: CSS: 12,372 bytes (10% of repo)",
+        "OOSDthreadedGroup5: CSS: 15,424 bytes (22% of repo)",
+        "server_metrics_dashboard: CSS: 2,158 bytes (6% of repo)"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "Special-Sharpie/OOSDthreadedGroup5",
+        "Special-Sharpie/server_metrics_mod"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 43,
+      "first_seen": "2021-11-20T21:20:51+00:00",
+      "last_seen": "2025-07-04T21:50:28+00:00",
+      "details": [
+        "OOSDthreadedGroup5: mysql in package.json",
+        "server_metrics_mod: mysql in build.gradle"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "Special-Sharpie/OOSDthreadedGroup5"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 28,
+      "first_seen": "2021-11-20T21:20:51+00:00",
+      "last_seen": "2021-12-10T21:08:06+00:00",
+      "details": [
+        "OOSDthreadedGroup5: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Special-Sharpie/OOSD",
+        "Special-Sharpie/OOSDthreadedGroup5",
+        "Special-Sharpie/server_metrics_dashboard"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7500167532249958,
+      "total_bytes": 47418,
+      "commit_count": 32,
+      "first_seen": "2021-11-20T21:20:51+00:00",
+      "last_seen": "2025-07-04T21:50:06+00:00",
+      "details": [
+        "OOSD: JavaScript: 17,662 bytes (15% of repo)",
+        "OOSDthreadedGroup5: JavaScript: 25,071 bytes (35% of repo)",
+        "server_metrics_dashboard: JavaScript: 4,685 bytes (13% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "Special-Sharpie/OOSD",
+        "Special-Sharpie/server_metrics_dashboard"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2021-12-01T20:59:00+00:00",
+      "last_seen": "2025-07-04T21:50:06+00:00",
+      "details": [
+        "OOSD: SQL file (WebDev210/AssignmentDay1-7/htdocs/travelexperts.sql)",
+        "server_metrics_dashboard: SQL file (mc-status-db/install.sql)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Special-Sharpie/server_metrics_dashboard"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-06-17T17:26:32+00:00",
+      "last_seen": "2025-07-04T21:50:06+00:00",
+      "details": [
+        "server_metrics_dashboard: Dockerfile (mc-status-db/dockerfile)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 57,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:16:09.578538+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

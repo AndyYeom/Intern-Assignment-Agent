@@ -1,0 +1,157 @@
+{
+  "applicant_id": "applicant0087",
+  "github_login": "yaoqiafan",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0087.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/yaoqiafan/PF.UI",
+        "https://github.com/yaoqiafan/AutomaticWeighingSystem"
+      ],
+      "repos": [
+        {
+          "repo": "yaoqiafan/PF.UI",
+          "html_url": "https://github.com/yaoqiafan/PF.UI",
+          "level": 2,
+          "reasons": [
+            "intermediate: 48 commits; many_active_days, documented",
+            "C#: 5,348,199 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "yaoqiafan/AutomaticWeighingSystem",
+          "html_url": "https://github.com/yaoqiafan/AutomaticWeighingSystem",
+          "level": 1,
+          "reasons": [
+            "entry: 18 commits, independent-work signals: none",
+            "C#: 1,371,976 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "repos": [
+        {
+          "repo": "yaoqiafan/Ethen-Ge-Personal-Home",
+          "html_url": "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home",
+          "level": 2,
+          "reasons": [
+            "intermediate: 54 commits; has_tests, many_active_days",
+            "env config (kitchen-api/.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "repos": [
+        {
+          "repo": "yaoqiafan/Ethen-Ge-Personal-Home",
+          "html_url": "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home",
+          "level": 2,
+          "reasons": [
+            "intermediate: 54 commits; has_tests, many_active_days",
+            "tailwind config (node_modules/tailwindcss/stubs/tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "repos": [
+        {
+          "repo": "yaoqiafan/Ethen-Ge-Personal-Home",
+          "html_url": "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home",
+          "level": 2,
+          "reasons": [
+            "intermediate: 54 commits; has_tests, many_active_days",
+            "TypeScript: 156,272 bytes (24% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "repos": [
+        {
+          "repo": "yaoqiafan/Ethen-Ge-Personal-Home",
+          "html_url": "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home",
+          "level": 2,
+          "reasons": [
+            "intermediate: 54 commits; has_tests, many_active_days",
+            "test directory (node_modules/cos-js-sdk-v5/test/qunit-2.4.0.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "vue",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home"
+      ],
+      "repos": [
+        {
+          "repo": "yaoqiafan/Ethen-Ge-Personal-Home",
+          "html_url": "https://github.com/yaoqiafan/Ethen-Ge-Personal-Home",
+          "level": 2,
+          "reasons": [
+            "intermediate: 54 commits; has_tests, many_active_days",
+            "Vue: 439,326 bytes (66% of repo)",
+            "vue in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 6
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "applicant_id": "applicant0073",
+  "github_login": "jads15",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0073.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jads15/Sistema-Banc-rio"
+      ],
+      "repos": [
+        {
+          "repo": "jads15/Sistema-Banc-rio",
+          "html_url": "https://github.com/jads15/Sistema-Banc-rio",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "database migrations (venv/lib/python3.10/site-packages/jedi/third_party/django-stubs/django-stubs/db/migrations/__init__.pyi)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jads15/Sistema-Banc-rio"
+      ],
+      "repos": [
+        {
+          "repo": "jads15/Sistema-Banc-rio",
+          "html_url": "https://github.com/jads15/Sistema-Banc-rio",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "flask in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jads15/fundamentos_de_programa-o"
+      ],
+      "repos": [
+        {
+          "repo": "jads15/fundamentos_de_programa-o",
+          "html_url": "https://github.com/jads15/fundamentos_de_programa-o",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: none",
+            "Java: 59,211 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jads15/Sistema-Banc-rio"
+      ],
+      "repos": [
+        {
+          "repo": "jads15/Sistema-Banc-rio",
+          "html_url": "https://github.com/jads15/Sistema-Banc-rio",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "numpy in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/jads15/NEURO-ENGINE",
+        "https://github.com/jads15/Sistema-Banc-rio",
+        "https://github.com/jads15/alest1",
+        "https://github.com/jads15/t1_alest2"
+      ],
+      "repos": [
+        {
+          "repo": "jads15/NEURO-ENGINE",
+          "html_url": "https://github.com/jads15/NEURO-ENGINE",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Python: 2,481 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "jads15/Sistema-Banc-rio",
+          "html_url": "https://github.com/jads15/Sistema-Banc-rio",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Python: 17,831,769 bytes (98% of repo)",
+            "python in pyproject.toml"
+          ]
+        },
+        {
+          "repo": "jads15/alest1",
+          "html_url": "https://github.com/jads15/alest1",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Python: 7,914 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "jads15/t1_alest2",
+          "html_url": "https://github.com/jads15/t1_alest2",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 1,630 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jads15/Sistema-Banc-rio"
+      ],
+      "repos": [
+        {
+          "repo": "jads15/Sistema-Banc-rio",
+          "html_url": "https://github.com/jads15/Sistema-Banc-rio",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "test file (venv/lib/python3.10/site-packages/Cryptodome/SelfTest/Cipher/test_AES.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 5
+  }
+}

@@ -1,0 +1,1064 @@
+{
+  "applicant_id": "applicant0161",
+  "login": "TNGO04",
+  "html_url": "https://github.com/TNGO04",
+  "created_at": "2021-07-24T23:10:41Z",
+  "account_age_days": 1880,
+  "public_repos": 30,
+  "followers": 4,
+  "following": 3,
+  "repos": [
+    {
+      "name": "E-Learning-Web-App",
+      "full_name": "TNGO04/E-Learning-Web-App",
+      "html_url": "https://github.com/TNGO04/E-Learning-Web-App",
+      "description": "MERN-Stack E-Learning Web Application",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-12-17T03:34:01Z",
+      "pushed_at": "2023-09-25T03:34:16Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2583,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 90169,
+        "HTML": 25880,
+        "Java": 8653,
+        "CSS": 1749
+      },
+      "primary_language": "JavaScript",
+      "file_count": 150,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "wbdv-ngo-sp21-client-react",
+        "wbdv-ngo-sp21-server-java",
+        "wbdv-ngo-sp21-server-node"
+      ],
+      "notable_files": [
+        "wbdv-ngo-sp21-client-react/package.json",
+        "wbdv-ngo-sp21-server-java/pom.xml",
+        "wbdv-ngo-sp21-server-node/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 161,
+      "readme_excerpt": "# E-Learning-Web-App\nMERN-Stack E-Learning Web Application\nThis is a E-Learning Web Platform that allows users to browse and view contents for online courses. \n\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.957,
+      "commits": {
+        "count": 44,
+        "first_at": "2022-12-17T03:34:01+00:00",
+        "last_at": "2023-09-25T03:34:16+00:00",
+        "active_days": 13,
+        "span_days": 282,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.091,
+        "messages_sample": [
+          "Create README.md",
+          "Edit React components to integrate attempts",
+          "create schemas, models, and daos for Mongo collection",
+          "Establish connection to local MongoDB server using mongoose",
+          "Integrate quiz functionality into whiteboard client",
+          "Minor bug fix",
+          "Set up Node server for questions and quizzes",
+          "fix display bug",
+          "wbdv-ngo-sp21-client-react/",
+          "Initial commit to node server repo",
+          "Integrate list widget",
+          "Integrate image widget",
+          "Integrate Local mySQL database into storing widget data",
+          "Styling with bootstrap",
+          "Fix widget display bug",
+          "Integrate heading and paragraph widget",
+          "Add widget model and service",
+          "Fix navigation bug",
+          "Use Bootstrap to style pages",
+          "Fix minor bug"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 90
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 90,169 bytes (71% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 25,880 bytes (20% of repo)",
+          "strength": 0.6046642573012472
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 8,653 bytes (7% of repo)",
+          "strength": 0.4684296684091071
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,749 bytes (1% of repo)",
+          "strength": 0.41383144459118554
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (wbdv-ngo-sp21-client-react/src/App.test.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 126451,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "tngo04.github.io",
+      "full_name": "TNGO04/tngo04.github.io",
+      "html_url": "https://github.com/TNGO04/tngo04.github.io",
+      "description": "Trang Ngo",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-10-20T02:18:18Z",
+      "pushed_at": "2023-10-15T17:33:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 39130,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 26973,
+        "CSS": 6444,
+        "JavaScript": 526
+      },
+      "primary_language": "HTML",
+      "file_count": 80,
+      "top_level_paths": [
+        ".vscode",
+        "README.md",
+        "components",
+        "document",
+        "images",
+        "index.html",
+        "pages",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 102,
+      "readme_excerpt": "# Personal-Website\nMy personal website, built from scratch with CSS, HTML, and a bit of Javascript. \n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 32,
+        "first_at": "2022-10-20T02:18:19+00:00",
+        "last_at": "2023-10-15T17:33:05+00:00",
+        "active_days": 10,
+        "span_days": 360,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.094,
+        "messages_sample": [
+          "Edit thumbnail image",
+          "Edit minor bug",
+          "Update documents and projects",
+          "Add mayhem to projects",
+          "Additional content and styling update",
+          "Add images to graphic design page",
+          "Add some minor contents in the activity page",
+          "Edit href in nav bar and project page to omit .html in url for pages",
+          "Add Odin Projects links",
+          "Add button hover effects in project page",
+          "Minor change to About Me",
+          "Add Resume page displaying resume pdf",
+          "Add travel section to activity page",
+          "Add pages for projects in Systems Engineering section",
+          "Edit styling and add more details to projects",
+          "Add animation to buttons on navigation bar",
+          "Move page-content styling into separate CSS file and have HTML reference that stylesheet",
+          "Update README.md",
+          "Reorganize directory structure",
+          "Minor change to activities page"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 26,973 bytes (79% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,444 bytes (19% of repo)",
+          "strength": 0.5898476858262381
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 33943,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "five-in-a-row-client-react",
+      "full_name": "TNGO04/five-in-a-row-client-react",
+      "html_url": "https://github.com/TNGO04/five-in-a-row-client-react",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-07T04:40:23Z",
+      "pushed_at": "2023-01-24T19:11:41Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4458,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 24746,
+        "CSS": 4442,
+        "HTML": 1848
+      },
+      "primary_language": "JavaScript",
+      "file_count": 35,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@fortawesome/fontawesome-free",
+          "@fortawesome/react-fontawesome",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "bootstrap",
+          "react",
+          "react-bootstrap",
+          "react-confirm-alert",
+          "react-dom",
+          "react-redux",
+          "react-router-dom",
+          "react-scripts",
+          "react-stomp",
+          "react-use-websocket",
+          "redux",
+          "sockjs",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 8592,
+      "readme_excerpt": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->\n<a name=\"readme-top\"></a>\n<!--\n*** Thanks for checking out the Best-README-Template. If you have a suggestion\n*** that would make this better, please fork the repo and create a pull request\n*** or simply open an issue with the tag \"enhancement\".\n*** Don't forget to give the project a star!\n*** Thanks again! Now go create something AMAZING! :D\n-->\n\n\n\n<!-- PROJECT SHIELDS -->\n<!--\n*** I'm using markdown \"reference style\" links for readability.\n*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).\n*** See the bottom of this document for the declaration of the reference variables\n*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.\n*** https://www.markdownguide.org/basic-syntax/#reference-style-links\n-->\n\n\n\n<h1 align=\"center\">Five In A Row</h1>\n<div align=\"center\">\n  <h3>A Game like Tic-Tac-Toe, but you need Five In A Row!</h3>\n  \n  Visit web app <a href=\"http://five-in-a-row-react-client.s3-website-us-east-1.amazonaws.com/\">here</a>\n</div>\n\n<br/>\n\n\n<!-- TABLE OF CONTENTS -->\n<details>\n  <summary>Table of Cont",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.962,
+      "commits": {
+        "count": 25,
+        "first_at": "2023-01-05T17:40:59+00:00",
+        "last_at": "2023-01-24T19:11:41+00:00",
+        "active_days": 10,
+        "span_days": 19,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.12,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Merge branch 'master' of https://github.com/TNGO04/five-in-a-row-client-react into HEAD",
+          "Update constants",
+          "Update constants and minor UI changes",
+          "Add rule-page to explain game rules",
+          "Move constants to its own file",
+          "Refactor login and sign-up screen",
+          "Clean up code",
+          "Implement game against AI player",
+          "Add message to announce game status, turns, and winner",
+          "Handle player turns and game moves",
+          "Edit game server port",
+          "Use WebSocket to obtain real-time game updates",
+          "Handle connecting to game and updates",
+          "Use sessionReducer to manage logging in, signing up, and logging out",
+          "Connect user and login function to server",
+          "Add Users",
+          "Incorporate game-board",
+          "CHange from absolute sizing unit to relative and clean up styling"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "this tutorial",
+          "walkthrough"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 3,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 24,746 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,442 bytes (14% of repo)",
+          "strength": 0.5431241139322078
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,848 bytes (6% of repo)",
+          "strength": 0.45954375563861327
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "state-management",
+          "source": "manifest",
+          "detail": "redux in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 31036,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "state-management"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CSCI-80-Intro-to-AI",
+      "full_name": "TNGO04/CSCI-80-Intro-to-AI",
+      "html_url": "https://github.com/TNGO04/CSCI-80-Intro-to-AI",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-16T16:19:39Z",
+      "pushed_at": "2022-09-24T07:51:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 8729,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 68421,
+        "HTML": 5325
+      },
+      "primary_language": "Python",
+      "file_count": 71,
+      "top_level_paths": [
+        "Minesweeper",
+        "README.md",
+        "Tic Tac Toe",
+        "crossword",
+        "nim",
+        "pagerank",
+        "parser",
+        "questions",
+        "traffic"
+      ],
+      "notable_files": [
+        "Minesweeper/requirements.txt",
+        "parser/requirements.txt",
+        "questions/requirements.txt",
+        "traffic/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1354,
+      "readme_excerpt": "# CSCI-80-Intro-to-AI\n\nThis is my course project for CSCI-80: Intro to Artifical Intelligence with Python, offered at the Harvard Extension School Fall 2021.\nThis course is a survey of introductory concepts in artificial intelligence with hands-on project in game development, machine learning, image recognition, and natural language processing. \n\nProject 0:\n* Tic Tac Toe: implement an AI for the game Tic Tac Toe using the minimax algorithm.\n\nProject 1:\n* Minesweeper: implement an AI for the game Minesweeper using interference rules.\n\nProject 2:\n* PageRank: implement webpage ranking through 2 methods: a Markov Chain random surfer and iterative PageRank formula.\n\nProject 3:\n* Crossword: implement an AI to generate a crossword puzzle from a dictionary and a crossword structure, defined as a constraint satisfaction problem. \n\nProject 4:\n* Nim: implement an AI for the game NIM through reinforcement learning. \n\nProject 5:\n* Traffic: implement a neural network to recognize traffic signs in photos, using TensorFlow. \n\nProject 6:\n* Parser: implement an AI to parse a sentence and extract its structure (represented by a syntactic tree) using Python's nltk. \n* Questions: implement an AI to ans",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 17,
+        "first_at": "2021-09-16T16:19:41+00:00",
+        "last_at": "2022-09-24T07:51:19+00:00",
+        "active_days": 3,
+        "span_days": 372,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.941,
+        "messages_sample": [
+          "Delete files",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Add files via upload",
+          "Create README.txt",
+          "Add files via upload",
+          "Create README.txt",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 31
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 68,421 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,325 bytes (7% of repo)",
+          "strength": 0.4722073061589781
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 73746,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Etch-A-Sketch",
+      "full_name": "TNGO04/Etch-A-Sketch",
+      "html_url": "https://github.com/TNGO04/Etch-A-Sketch",
+      "description": "Webpage for Etch-a-Sketck",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-10-28T18:10:21Z",
+      "pushed_at": "2022-10-29T02:45:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 8,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 5456,
+        "CSS": 3793,
+        "HTML": 1284
+      },
+      "primary_language": "JavaScript",
+      "file_count": 5,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "index.html",
+        "javascript.js",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 307,
+      "readme_excerpt": "# Etch-A-Sketch\nWebpage for Etch-a-Sketck\nhttps://tngo04.github.io/Etch-A-Sketch/\n\nSome source code used:\n1) Adding gradient to text: https://fossheim.io/writing/posts/css-text-gradient/\n2) Removing all children nodes from parent: https://www.javascripttutorial.net/dom/manipulating/remove-all-child-nodes/\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2022-10-28T18:10:21+00:00",
+        "last_at": "2022-10-29T02:45:20+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Update README.md",
+          "Update citations",
+          "Add and implement a grid size input so user can input the grid-size they want.",
+          "Add javascript file to create grid for board and implement color modes.",
+          "Create preliminary HTML skeleton and basic website theme/layout",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 5,456 bytes (52% of repo)",
+          "strength": 0.9179910756669515
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,793 bytes (36% of repo)",
+          "strength": 0.7601063324788759
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,284 bytes (12% of repo)",
+          "strength": 0.5219025918541726
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10533,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 120897,
+    "Python": 68421,
+    "HTML": 61310,
+    "CSS": 16428,
+    "Java": 8653
+  },
+  "total_commits": 124,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "TNGO04/E-Learning-Web-App",
+        "TNGO04/tngo04.github.io",
+        "TNGO04/five-in-a-row-client-react",
+        "TNGO04/CSCI-80-Intro-to-AI",
+        "TNGO04/Etch-A-Sketch"
+      ],
+      "signal_count": 9,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 77738,
+      "commit_count": 124,
+      "first_seen": "2021-09-16T16:19:41+00:00",
+      "last_seen": "2023-10-15T17:33:05+00:00",
+      "details": [
+        "E-Learning-Web-App: HTML: 25,880 bytes (20% of repo)",
+        "E-Learning-Web-App: CSS: 1,749 bytes (1% of repo)",
+        "tngo04.github.io: HTML: 26,973 bytes (79% of repo)",
+        "tngo04.github.io: CSS: 6,444 bytes (19% of repo)",
+        "five-in-a-row-client-react: CSS: 4,442 bytes (14% of repo)",
+        "five-in-a-row-client-react: HTML: 1,848 bytes (6% of repo)",
+        "CSCI-80-Intro-to-AI: HTML: 5,325 bytes (7% of repo)",
+        "Etch-A-Sketch: CSS: 3,793 bytes (36% of repo)",
+        "Etch-A-Sketch: HTML: 1,284 bytes (12% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "TNGO04/E-Learning-Web-App",
+        "TNGO04/five-in-a-row-client-react",
+        "TNGO04/Etch-A-Sketch"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 120371,
+      "commit_count": 75,
+      "first_seen": "2022-10-28T18:10:21+00:00",
+      "last_seen": "2023-09-25T03:34:16+00:00",
+      "details": [
+        "E-Learning-Web-App: JavaScript: 90,169 bytes (71% of repo)",
+        "five-in-a-row-client-react: JavaScript: 24,746 bytes (80% of repo)",
+        "Etch-A-Sketch: JavaScript: 5,456 bytes (52% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "TNGO04/CSCI-80-Intro-to-AI"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 68421,
+      "commit_count": 17,
+      "first_seen": "2021-09-16T16:19:41+00:00",
+      "last_seen": "2022-09-24T07:51:19+00:00",
+      "details": [
+        "CSCI-80-Intro-to-AI: Python: 68,421 bytes (93% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "TNGO04/five-in-a-row-client-react"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-01-05T17:40:59+00:00",
+      "last_seen": "2023-01-24T19:11:41+00:00",
+      "details": [
+        "five-in-a-row-client-react: 'react' in repo name/description",
+        "five-in-a-row-client-react: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "state-management",
+      "repos": [
+        "TNGO04/five-in-a-row-client-react"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2023-01-05T17:40:59+00:00",
+      "last_seen": "2023-01-24T19:11:41+00:00",
+      "details": [
+        "five-in-a-row-client-react: redux in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "TNGO04/E-Learning-Web-App"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 44,
+      "first_seen": "2022-12-17T03:34:01+00:00",
+      "last_seen": "2023-09-25T03:34:16+00:00",
+      "details": [
+        "E-Learning-Web-App: test file (wbdv-ngo-sp21-client-react/src/App.test.js)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "TNGO04/E-Learning-Web-App"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4684296684091071,
+      "total_bytes": 8653,
+      "commit_count": 44,
+      "first_seen": "2022-12-17T03:34:01+00:00",
+      "last_seen": "2023-09-25T03:34:16+00:00",
+      "details": [
+        "E-Learning-Web-App: Java: 8,653 bytes (7% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 124,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:14:37.544282+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

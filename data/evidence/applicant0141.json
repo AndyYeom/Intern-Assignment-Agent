@@ -1,0 +1,113 @@
+{
+  "applicant_id": "applicant0141",
+  "github_login": "bilizada",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0141.json",
+  "skills": [
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/bilizada/gorm-txflow"
+      ],
+      "repos": [
+        {
+          "repo": "bilizada/gorm-txflow",
+          "html_url": "https://github.com/bilizada/gorm-txflow",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Go: 52,069 bytes (100% of repo)",
+            "Go module (go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/bilizada/bileflix",
+        "https://github.com/bilizada/criandoaventura-ernani3C",
+        "https://github.com/bilizada/hl3",
+        "https://github.com/bilizada/site-de-assinatura"
+      ],
+      "repos": [
+        {
+          "repo": "bilizada/bileflix",
+          "html_url": "https://github.com/bilizada/bileflix",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: multi_month_span",
+            "HTML: 2,105 bytes (69% of repo)",
+            "CSS: 931 bytes (31% of repo)"
+          ]
+        },
+        {
+          "repo": "bilizada/criandoaventura-ernani3C",
+          "html_url": "https://github.com/bilizada/criandoaventura-ernani3C",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: multi_month_span",
+            "HTML: 5,256 bytes (85% of repo)"
+          ]
+        },
+        {
+          "repo": "bilizada/hl3",
+          "html_url": "https://github.com/bilizada/hl3",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: multi_month_span",
+            "HTML: 5,406 bytes (66% of repo)",
+            "CSS: 2,745 bytes (34% of repo)"
+          ]
+        },
+        {
+          "repo": "bilizada/site-de-assinatura",
+          "html_url": "https://github.com/bilizada/site-de-assinatura",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: multi_month_span",
+            "HTML: 4,948 bytes (65% of repo)",
+            "CSS: 2,702 bytes (35% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/bilizada/gorm-txflow"
+      ],
+      "repos": [
+        {
+          "repo": "bilizada/gorm-txflow",
+          "html_url": "https://github.com/bilizada/gorm-txflow",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test file (db_test.go)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 2
+  }
+}

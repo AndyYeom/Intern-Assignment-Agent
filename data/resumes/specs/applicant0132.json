@@ -1,0 +1,134 @@
+{
+  "github_login": "Jeferson100",
+  "applicant_id": "applicant0132",
+  "first_name": "Andrei",
+  "last_name": "Voss",
+  "career_stage": "intern",
+  "email": "andrei@kestrelhollow.example",
+  "phone": "(555) 010-0132",
+  "location": "Kestrel Hollow",
+  "linkedin": "linkedin.example.com/in/andrei-voss",
+  "github_url": "github.example.com/andrei-voss",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Kestrel Hollow University",
+    "location": "Kestrel Hollow",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Applied Mathematics",
+    "graduation": "June 2027",
+    "gpa": "3.9/4.0",
+    "coursework": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Distributed Systems",
+      "Linear Algebra"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Agent Portfolio Optimizer",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a multi-agent LangGraph system in Python that analyzes stocks and proposes portfolio allocation weights.",
+        "Added pytest coverage and continuous integration across 333 files to keep agent behavior from silently regressing."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "Python",
+        "Makefile"
+      ]
+    },
+    {
+      "title": "Zap Imoveis Web Scraping",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a Python and JavaScript scraper for real-estate listings, pairing BeautifulSoup extraction with CatBoost and LightGBM models."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "Python",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Agente Investimento",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2025",
+      "end": "Dec 2025",
+      "bullets": [
+        "Built a FastAPI and Flask stock-analysis agent using LangChain, packaged with Docker and covered by an automated test suite."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "Python",
+        "Makefile"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Project Mentor",
+      "organization": "Kestrel Hollow AI Builders",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Reviewed pull requests from newer members building LangChain agents, flagging silent failures their prompts masked.",
+        "After a teammate's scraper broke silently for weeks, pushed the group to add CI checks that caught it earlier."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "Backend": [
+      "Flask/FastAPI"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Web Scraping",
+      "Data Visualization",
+      "Data Modeling",
+      "PostgreSQL"
+    ],
+    "AI/ML": [
+      "LLM Application Development",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Deep Learning"
+    ],
+    "DevOps": [
+      "CI/CD",
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

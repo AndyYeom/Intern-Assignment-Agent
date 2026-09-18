@@ -1,0 +1,114 @@
+{
+  "applicant_id": "applicant0095",
+  "github_login": "0ryo",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0095.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/0ryo/EditorMain"
+      ],
+      "repos": [
+        {
+          "repo": "0ryo/EditorMain",
+          "html_url": "https://github.com/0ryo/EditorMain",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 19 fix/perf/refactor commits",
+            "C#: 1,068,005 bytes (90% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/0ryo/CleanWeb"
+      ],
+      "repos": [
+        {
+          "repo": "0ryo/CleanWeb",
+          "html_url": "https://github.com/0ryo/CleanWeb",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 24,124 bytes (92% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/0ryo/PortfolioITO",
+        "https://github.com/0ryo/YT-Tracker-mobile"
+      ],
+      "repos": [
+        {
+          "repo": "0ryo/PortfolioITO",
+          "html_url": "https://github.com/0ryo/PortfolioITO",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Swift: 77,711 bytes (59% of repo)",
+            "iOS project (PocketGarden/PocketGarden.xcodeproj/project.pbxproj)"
+          ]
+        },
+        {
+          "repo": "0ryo/YT-Tracker-mobile",
+          "html_url": "https://github.com/0ryo/YT-Tracker-mobile",
+          "level": 1,
+          "reasons": [
+            "entry: 36 commits, independent-work signals: many_active_days",
+            "Swift: 61,359 bytes (100% of repo)",
+            "iOS project (YTTracker.xcodeproj/project.pbxproj)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/0ryo/PortfolioITO"
+      ],
+      "repos": [
+        {
+          "repo": "0ryo/PortfolioITO",
+          "html_url": "https://github.com/0ryo/PortfolioITO",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "TypeScript: 49,921 bytes (38% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 2
+  }
+}

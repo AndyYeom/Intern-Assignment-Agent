@@ -1,0 +1,128 @@
+{
+  "github_login": "Eternalon03",
+  "applicant_id": "applicant0002",
+  "first_name": "Diego",
+  "last_name": "Salcedo",
+  "career_stage": "intern",
+  "email": "diego@rivermont.example",
+  "phone": "(555) 010-0102",
+  "location": "Rivermont",
+  "linkedin": null,
+  "github_url": "github.example.com/diego-salcedo",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Rivermont University",
+    "location": "Rivermont",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Human-Computer Interaction",
+    "graduation": "May 2026",
+    "gpa": null,
+    "coursework": [
+      "Mobile App Development",
+      "Data Structures",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Mobile Engineering Intern",
+      "organization": "Rivermont Student App Studio",
+      "location": "Rivermont",
+      "start": "May 2025",
+      "end": "Aug 2025",
+      "bullets": [
+        "Wrote unit tests for a Kotlin Android module, catching a null-state crash before it reached the shared branch.",
+        "Paired with a senior engineer to review pull requests, learning to flag layout logic that broke on smaller screens."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Todoappgroupproject",
+      "organization": null,
+      "location": null,
+      "start": "May 2023",
+      "end": "Apr 2025",
+      "bullets": [
+        "Built the Android client for a group to-do app in Kotlin, integrating JUnit tests and a continuous integration pipeline.",
+        "Debugged a sync issue where offline edits were overwritten on reconnect, tracing it to a missing conflict check."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin",
+        "CSS",
+        "Java"
+      ]
+    },
+    {
+      "title": "Theportfoliosite",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Developed a personal portfolio site with Next.js, React and Tailwind CSS, iterating across 70 files over ten sessions.",
+        "Refactored shared layout components after duplicated styling made small design changes slow to propagate across pages."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "CSS",
+        "Shell",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Hack The North 2025",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Sep 2025",
+      "bullets": [
+        "Prototyped an interactive project in Godot's GDScript with a Python backend during a 36-hour hackathon sprint.",
+        "Coordinated with two teammates under a tight deadline, splitting scene logic and backend scripting to avoid blocking each other."
+      ],
+      "link": null,
+      "tech": [
+        "GDScript",
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "HTML/CSS"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

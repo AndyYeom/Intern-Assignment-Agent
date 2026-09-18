@@ -1,0 +1,109 @@
+{
+  "github_login": "Shishir-Singh-666",
+  "applicant_id": "applicant0054",
+  "first_name": "Owen",
+  "last_name": "Baptiste",
+  "career_stage": "student",
+  "email": "owen@fenwickbay.example",
+  "phone": "(555) 010-0154",
+  "location": "Fenwick Bay",
+  "linkedin": "linkedin.example.com/in/owen-baptiste",
+  "github_url": "github.example.com/owen-baptiste",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Harrowgate College",
+    "location": "Fenwick Bay",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "May 2028",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Intro to Networks",
+      "Data Structures",
+      "Operating Systems"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Nodepay2ndid",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2024",
+      "end": "Mar 2026",
+      "bullets": [
+        "Built an asynchronous Python client using aiohttp to manage concurrent network sessions across a 9-file automation tool.",
+        "Iterated on request headers and identity rotation after target services began flagging traffic as automated."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Nodepay Autoref2",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2024",
+      "end": "Mar 2026",
+      "bullets": [
+        "Integrated third-party CAPTCHA-solving APIs into a Python automation project, coordinating multiple verification providers across 6 files.",
+        "Compared solver providers after the first integration proved unreliable under load, settling on a more consistent combination."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Twitch Boost V1.5 Tools",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2019",
+      "end": "Sep 2026",
+      "bullets": [
+        "Wrote C++ and C utilities with PowerShell scripting to automate stream-engagement testing across a 61-file toolset."
+      ],
+      "link": null,
+      "tech": [
+        "C++",
+        "C",
+        "PowerShell"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Organizer",
+      "organization": "Fenwick Bay Security Reading Group",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Started a peer discussion group after noticing his own automation scripts kept tripping the same anti-bot defenses he was trying to avoid.",
+        "Shifted personal focus from bypassing detection systems to understanding how they identify automated behavior in the first place."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "Python",
+      "C/C++"
+    ],
+    "DevOps": [
+      "AWS (Advanced)"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

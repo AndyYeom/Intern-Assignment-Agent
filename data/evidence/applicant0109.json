@@ -1,0 +1,77 @@
+{
+  "applicant_id": "applicant0109",
+  "github_login": "Electronscape",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0109.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Electronscape/sidbox_projects_applets_v2",
+        "https://github.com/Electronscape/Sidbox-hw-barebones",
+        "https://github.com/Electronscape/sidbox_projects_applets"
+      ],
+      "repos": [
+        {
+          "repo": "Electronscape/sidbox_projects_applets_v2",
+          "html_url": "https://github.com/Electronscape/sidbox_projects_applets_v2",
+          "level": 2,
+          "reasons": [
+            "intermediate: 74 commits; multi_month_span, many_active_days, documented",
+            "C: 87,485,090 bytes (93% of repo)"
+          ]
+        },
+        {
+          "repo": "Electronscape/Sidbox-hw-barebones",
+          "html_url": "https://github.com/Electronscape/Sidbox-hw-barebones",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: documented",
+            "C: 10,850,681 bytes (93% of repo)"
+          ]
+        },
+        {
+          "repo": "Electronscape/sidbox_projects_applets",
+          "html_url": "https://github.com/Electronscape/sidbox_projects_applets",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: documented",
+            "C: 7,879,194 bytes (54% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "shell",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Electronscape/sidbox-softwares"
+      ],
+      "repos": [
+        {
+          "repo": "Electronscape/sidbox-softwares",
+          "html_url": "https://github.com/Electronscape/sidbox-softwares",
+          "level": 3,
+          "reasons": [
+            "intermediate: 69 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "Makefile: 63,315,010 bytes (94% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 2
+  }
+}

@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Evidence collector: raw API payloads and HTTP cache are reproducible from
+# data/githubs/candidates.json, so only the normalised profiles are tracked.
+.cache/
+data/githubs/raw/
+.env
+data/.applicants.lock
+
+# Resumes: the PDFs, specs and applicants.csv are committed so the team works
+# from the same files. raw/ holds a local HTML preview of each PDF.
+data/resumes/raw/
+data/resumes/rendered/*.tmp

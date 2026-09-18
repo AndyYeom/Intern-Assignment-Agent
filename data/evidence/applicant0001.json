@@ -1,0 +1,133 @@
+{
+  "applicant_id": "applicant0001",
+  "github_login": "Umbra-Domini",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0001.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Umbra-Domini/BitShell",
+        "https://github.com/Umbra-Domini/CineLookup"
+      ],
+      "repos": [
+        {
+          "repo": "Umbra-Domini/BitShell",
+          "html_url": "https://github.com/Umbra-Domini/BitShell",
+          "level": 1,
+          "reasons": [
+            "entry: 14 commits, independent-work signals: documented",
+            "HTML: 33,697 bytes (24% of repo)",
+            "CSS: 23,730 bytes (17% of repo)"
+          ]
+        },
+        {
+          "repo": "Umbra-Domini/CineLookup",
+          "html_url": "https://github.com/Umbra-Domini/CineLookup",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: documented",
+            "HTML: 4,766 bytes (23% of repo)",
+            "CSS: 4,221 bytes (20% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Umbra-Domini/BitShell",
+        "https://github.com/Umbra-Domini/CineLookup",
+        "https://github.com/Umbra-Domini/SkribblPro"
+      ],
+      "repos": [
+        {
+          "repo": "Umbra-Domini/BitShell",
+          "html_url": "https://github.com/Umbra-Domini/BitShell",
+          "level": 1,
+          "reasons": [
+            "entry: 14 commits, independent-work signals: documented",
+            "JavaScript: 80,124 bytes (58% of repo)"
+          ]
+        },
+        {
+          "repo": "Umbra-Domini/CineLookup",
+          "html_url": "https://github.com/Umbra-Domini/CineLookup",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: documented",
+            "JavaScript: 11,637 bytes (56% of repo)"
+          ]
+        },
+        {
+          "repo": "Umbra-Domini/SkribblPro",
+          "html_url": "https://github.com/Umbra-Domini/SkribblPro",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project, all_commits_one_day",
+            "JavaScript: 40,805 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Umbra-Domini/MegaCalc"
+      ],
+      "repos": [
+        {
+          "repo": "Umbra-Domini/MegaCalc",
+          "html_url": "https://github.com/Umbra-Domini/MegaCalc",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 119,333 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "shell",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Umbra-Domini/pico-flash"
+      ],
+      "repos": [
+        {
+          "repo": "Umbra-Domini/pico-flash",
+          "html_url": "https://github.com/Umbra-Domini/pico-flash",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Shell: 28,530 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 2
+  }
+}

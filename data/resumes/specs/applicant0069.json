@@ -1,0 +1,97 @@
+{
+  "github_login": "MishaDobrynin",
+  "applicant_id": "applicant0069",
+  "first_name": "Elena",
+  "last_name": "Marsh",
+  "career_stage": "student",
+  "email": "elena.marsh@cobbleford.example",
+  "phone": "(555) 010-0142",
+  "location": "Cobbleford",
+  "linkedin": "linkedin.example.com/in/elena-marsh",
+  "github_url": "github.example.com/elena-marsh-dev",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Cobbleford State University",
+    "location": "Cobbleford",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Professional Writing",
+    "graduation": "May 2027",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Digital Logic Design",
+      "Data Structures",
+      "Technical Communication",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "TTL Simulator",
+      "organization": null,
+      "location": null,
+      "start": "Jul 2026",
+      "end": "Aug 2026",
+      "bullets": [
+        "Built a transistor-transistor logic simulator in Java to model simple TTL circuit behavior across 56 files.",
+        "Wrote JUnit test suites to validate logic gate behavior before assembling larger simulated circuits."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    },
+    {
+      "title": "Java Coursework Project",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2022",
+      "end": "Oct 2025",
+      "bullets": [
+        "Developed a Java application with an HTML and CSS interface, structured across 100 files during early coursework."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Tutor",
+      "organization": "Cobbleford Coding Circle",
+      "location": null,
+      "start": "Sep 2024",
+      "end": "Present",
+      "bullets": [
+        "After classmates struggled to follow classroom explanations of logic circuits, wrote supplementary walkthroughs breaking down gate-level behavior step by step.",
+        "Noticed recurring questions during tutoring sessions and organized answers into a shared reference document, reducing repeated explanations."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Java",
+      "Python"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

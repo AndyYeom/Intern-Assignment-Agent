@@ -1,0 +1,144 @@
+{
+  "github_login": "Terrificdatabytes",
+  "applicant_id": "applicant0145",
+  "first_name": "Priya",
+  "last_name": "Nandakumar",
+  "career_stage": "student",
+  "email": "priya@coastview.example",
+  "phone": "(555) 010-0145",
+  "location": "Coastview",
+  "linkedin": "linkedin.example.com/in/priya-nandakumar",
+  "github_url": "github.example.com/priya-nandakumar",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Coastview University",
+    "location": "Coastview",
+    "degree": "Bachelor of Science",
+    "major": "Information Systems",
+    "minor": "Organizational Communication",
+    "graduation": "June 2027",
+    "gpa": "3.8/4.0",
+    "coursework": [
+      "Software Project Management",
+      "Data Structures",
+      "Human-Computer Interaction",
+      "Statistics for Analytics"
+    ],
+    "honors": [
+      "Dean's List, Spring 2025"
+    ]
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Edugamehub1",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Sep 2025",
+      "bullets": [
+        "Coordinated the buildout of a mobile-first, offline-capable learning platform for rural STEM students using React, TypeScript, and Tailwind CSS.",
+        "Set up continuous integration to catch build errors before they reached the multilingual interface, reducing last-minute merge surprises."
+      ],
+      "link": null,
+      "tech": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Bustracker",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Oct 2025",
+      "end": "Jul 2026",
+      "bullets": [
+        "Built a real-time bus tracking system with Flask and GPS data, applying pandas and scikit-learn to estimate arrival distances.",
+        "Iterated on early distance estimates after inconsistent GPS signals produced unreliable results, tightening the calculation until accuracy stabilized."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Flask",
+        "pandas",
+        "scikit-learn"
+      ]
+    },
+    {
+      "title": "NER Explorer",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Aug 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built an open-source tool that turns RSS news feeds into an interactive knowledge graph using spaCy, pandas, and Streamlit.",
+        "Documented setup steps clearly enough that a classmate reproduced the pipeline without asking a follow-up question."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "spaCy",
+        "Streamlit",
+        "pandas"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Project Coordinator",
+      "organization": "Coastview Computing Society",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Noticed that project teams often restarted work after unclear task ownership, and introduced a shared checklist assigning owners and deadlines.",
+        "Realized that coordinating handoffs between teammates interested her more than writing any single feature herself."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "Python",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "React",
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Flask/FastAPI"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Visualization"
+    ],
+    "AI/ML": [
+      "Machine Learning",
+      "Natural Language Processing"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android",
+      "React Native"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

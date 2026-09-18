@@ -1,0 +1,697 @@
+{
+  "applicant_id": "applicant0048",
+  "login": "Fadi-khattak",
+  "html_url": "https://github.com/Fadi-khattak",
+  "created_at": "2020-01-31T18:21:46Z",
+  "account_age_days": 2419,
+  "public_repos": 6,
+  "followers": 2,
+  "following": 0,
+  "repos": [
+    {
+      "name": "chequewallet",
+      "full_name": "Fadi-khattak/chequewallet",
+      "html_url": "https://github.com/Fadi-khattak/chequewallet",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-04-25T23:59:12Z",
+      "pushed_at": "2022-06-24T10:29:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 409,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 301708,
+        "Swift": 404,
+        "Kotlin": 125,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 166,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "fonts",
+        "ios",
+        "lib",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 542,
+      "readme_excerpt": "# chequewallet\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)\n\nFor help getting started with Flutter, view our\n[online documentation](https://flutter.dev/docs), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-04-22T16:44:46+00:00",
+        "last_at": "2022-06-24T10:29:46+00:00",
+        "active_days": 2,
+        "span_days": 62,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fadi",
+          "fadi"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 88
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 301,708 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 302275,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "location_tracking_admin",
+      "full_name": "Fadi-khattak/location_tracking_admin",
+      "html_url": "https://github.com/Fadi-khattak/location_tracking_admin",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-12-20T12:53:26Z",
+      "pushed_at": "2022-12-20T12:53:30Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 240,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 12256,
+        "Swift": 404,
+        "Kotlin": 134,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 72,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "ios",
+        "lib",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 560,
+      "readme_excerpt": "# location_tracking\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-12-19T20:02:07+00:00",
+        "last_at": "2022-12-20T10:42:53+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "\"client-admin module live location\"",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 12,256 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12832,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "location_tracking",
+      "full_name": "Fadi-khattak/location_tracking",
+      "html_url": "https://github.com/Fadi-khattak/location_tracking",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-12-19T20:01:58Z",
+      "pushed_at": "2022-12-20T11:17:11Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 240,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 12256,
+        "Swift": 404,
+        "Kotlin": 134,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 72,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "ios",
+        "lib",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 560,
+      "readme_excerpt": "# location_tracking\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-12-19T20:02:07+00:00",
+        "last_at": "2022-12-20T10:42:53+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "\"client-admin module live location\"",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 12,256 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12832,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Coder",
+      "full_name": "Fadi-khattak/Coder",
+      "html_url": "https://github.com/Fadi-khattak/Coder",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-01-31T18:27:50Z",
+      "pushed_at": "2020-01-31T18:27:51Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5,
+      "default_branch": "master",
+      "license": "Apache-2.0",
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 3,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 7,
+      "readme_excerpt": "# Coder",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2020-01-31T18:27:51+00:00",
+        "last_at": "2020-01-31T18:27:51+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 326220,
+    "Swift": 1212,
+    "Kotlin": 393,
+    "Objective-C": 114
+  },
+  "total_commits": 7,
+  "skill_evidence": [
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "Fadi-khattak/chequewallet",
+        "Fadi-khattak/location_tracking_admin",
+        "Fadi-khattak/location_tracking"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 326220,
+      "commit_count": 6,
+      "first_seen": "2022-04-22T16:44:46+00:00",
+      "last_seen": "2022-12-20T10:42:53+00:00",
+      "details": [
+        "chequewallet: Dart: 301,708 bytes (100% of repo)",
+        "chequewallet: flutter project (pubspec.yaml)",
+        "location_tracking_admin: Dart: 12,256 bytes (96% of repo)",
+        "location_tracking_admin: flutter project (pubspec.yaml)",
+        "location_tracking: Dart: 12,256 bytes (96% of repo)",
+        "location_tracking: flutter project (pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Fadi-khattak/chequewallet",
+        "Fadi-khattak/location_tracking_admin",
+        "Fadi-khattak/location_tracking"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2022-04-22T16:44:46+00:00",
+      "last_seen": "2022-12-20T10:42:53+00:00",
+      "details": [
+        "chequewallet: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "location_tracking_admin: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "location_tracking: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 7,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "total_commits",
+      "distinct_skills"
+    ],
+    "reason": "total_commits: 7 < 20; distinct_skills: 2 < 3"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-16T14:25:34.714934+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - total_commits: 7 < 20; distinct_skills: 2 < 3"
+  ]
+}

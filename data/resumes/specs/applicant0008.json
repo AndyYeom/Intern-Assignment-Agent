@@ -1,0 +1,126 @@
+{
+  "github_login": "hendrywijaya98",
+  "applicant_id": "applicant0008",
+  "first_name": "Ratna",
+  "last_name": "Wijaya",
+  "career_stage": "switcher",
+  "email": "ratna@meridianbay.example",
+  "phone": "(555) 010-0108",
+  "location": "Meridian Bay",
+  "linkedin": "linkedin.example.com/in/ratna-wijaya",
+  "github_url": "github.example.com/ratna-wijaya",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Meridian Bay College of Business",
+    "location": "Meridian Bay",
+    "degree": "Bachelor of Arts",
+    "major": "Marketing",
+    "minor": null,
+    "graduation": "May 2021",
+    "gpa": null,
+    "coursework": [
+      "Consumer Behavior",
+      "Marketing Analytics",
+      "Statistics for Business"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Marketing Analyst",
+      "organization": "Meridian Bay Retail Group",
+      "location": "Meridian Bay",
+      "start": "Jul 2021",
+      "end": "Jun 2023",
+      "bullets": [
+        "Compiled weekly sales and campaign reports by hand, spending hours reconciling spreadsheets before each Monday planning meeting.",
+        "Taught herself Python and pandas to automate the reporting process after a formatting error delayed a quarterly review."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Global Superstore Sales Analysis",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2021",
+      "end": "Jul 2025",
+      "bullets": [
+        "Analyzed profit, sales and profit ratio across a multi-year sales dataset, identifying patterns worth flagging to a merchandising team.",
+        "Presented findings in a format aimed at non-technical stakeholders, translating profit-ratio trends into a short set of recommendations."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "pandas"
+      ]
+    },
+    {
+      "title": "Customer Segmentation Ecommerce Department Store",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2023",
+      "end": "Mar 2023",
+      "bullets": [
+        "Segmented e-commerce customers by purchase and transaction behavior, translating cluster results into descriptions a non-technical reader could use."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "pandas"
+      ]
+    },
+    {
+      "title": "Customer Lifetime Value Prediction Regression",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2022",
+      "end": "Feb 2023",
+      "bullets": [
+        "Built a regression model estimating customer lifetime value from spending and product history to flag high-value customers."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook"
+      ]
+    }
+  ],
+  "leadership": [],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "Backend": [
+      "Django",
+      "Flask/FastAPI",
+      "Authentication & Authorization"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Web Scraping",
+      "Data Visualization",
+      "MySQL",
+      "Data Modeling"
+    ],
+    "AI/ML": [
+      "Natural Language Processing",
+      "Machine Learning"
+    ],
+    "DevOps": [
+      "AWS",
+      "Monitoring & Logging"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

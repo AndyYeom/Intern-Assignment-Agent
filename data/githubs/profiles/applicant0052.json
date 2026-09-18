@@ -1,0 +1,1317 @@
+{
+  "applicant_id": "applicant0052",
+  "login": "shivamshashank",
+  "html_url": "https://github.com/shivamshashank",
+  "created_at": "2020-01-31T15:52:24Z",
+  "account_age_days": 2419,
+  "public_repos": 30,
+  "followers": 1,
+  "following": 1,
+  "repos": [
+    {
+      "name": "CloudInferOps",
+      "full_name": "shivamshashank/CloudInferOps",
+      "html_url": "https://github.com/shivamshashank/CloudInferOps",
+      "description": "☁️ Cloud-native multi-cloud AI inference operations CLI for 🚀 deploying, 📊 monitoring, ⚡ benchmarking, and 📈 scaling LLM workloads on ☸️ Kubernetes.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-27T17:38:26Z",
+      "pushed_at": "2026-07-07T21:10:21Z",
+      "stargazers": 8,
+      "forks": 1,
+      "open_issues": 2,
+      "size_kb": 32602,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Go": 320538,
+        "TypeScript": 33330,
+        "Python": 22869,
+        "CSS": 13885,
+        "Shell": 2440,
+        "HTML": 300,
+        "Dockerfile": 213
+      },
+      "primary_language": "Go",
+      "file_count": 150,
+      "top_level_paths": [
+        ".codecov.yml",
+        ".github",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "Dockerfile.ui",
+        "Dockerfile.webhook",
+        "LICENSE",
+        "README.md",
+        "SECURITY.md",
+        "api",
+        "cmd",
+        "deployments",
+        "docs",
+        "go.mod",
+        "go.sum",
+        "internal",
+        "scripts",
+        "web"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/pre-commit.yml",
+        ".github/workflows/release.yml",
+        "api/Dockerfile",
+        "api/pyproject.toml",
+        "api/requirements.txt",
+        "go.mod",
+        "web/package.json"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/fsnotify/fsnotify",
+          "github.com/go-viper/mapstructure/v2",
+          "github.com/inconshreveable/mousetrap",
+          "github.com/pelletier/go-toml/v2",
+          "github.com/sagikazarmark/locafero",
+          "github.com/sourcegraph/conc",
+          "github.com/spf13/afero",
+          "github.com/spf13/cast",
+          "github.com/spf13/cobra",
+          "github.com/spf13/pflag",
+          "github.com/spf13/viper",
+          "github.com/subosito/gotenv",
+          "go.yaml.in/yaml/v3",
+          "golang.org/x/sys",
+          "golang.org/x/text"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 24911,
+      "readme_excerpt": "<div align=\"center\">\n\n# 🚀 CloudInferOps\n\n### CloudInferOps — One Command Kubernetes Observability Platform\n\n**CloudInferOps** is a Go-based DevOps/SRE CLI that detects your environment,\nvalidates Kubernetes readiness, installs lightweight Kubernetes when needed, and\ndeploys a production-style observability stack with metrics, logs, traces,\ndashboards, and alerts.\n\n<br />\n\n[![CI](https://img.shields.io/github/actions/workflow/status/shivamshashank/CloudInferOps/ci.yml?branch=main&label=CI&logo=githubactions&style=flat-square)](https://github.com/shivamshashank/CloudInferOps/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/actions/workflow/status/shivamshashank/CloudInferOps/release.yml?branch=main&label=Release&logo=githubactions&style=flat-square)](https://github.com/shivamshashank/CloudInferOps/actions/workflows/release.yml)\n[![Codecov](https://img.shields.io/codecov/c/github/shivamshashank/CloudInferOps?logo=codecov&style=flat-square)](https://codecov.io/gh/shivamshashank/CloudInferOps)\n[![Go Report Card](https://goreportcard.com/badge/github.com/shivamshashank/CloudInferOps?https://img.shields.io/badge/go%20report-A+-brightgreen.svg?style=flat)](https://gorepo",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 27,
+        "first_at": "2026-03-27T17:38:27+00:00",
+        "last_at": "2026-07-07T21:10:02+00:00",
+        "active_days": 11,
+        "span_days": 102,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.037,
+        "messages_sample": [
+          "Merge pull request #16 from shivamshashank/feature/self-hosted-ui-portal",
+          "feat: implement deploy all command and add comprehensive CLI documentation",
+          "feat: implement UI dashboard with resource monitoring, deployment management, and performance benchmarking pages",
+          "feat: implement secure API authentication, log streaming, and deployment control handlers with RBAC Kubernetes integration",
+          "refactor: simplify web typescript typecheck command to use npm exec",
+          "ci: replace pre-commit action with manual pip installation and execution in workflow",
+          "chore: upgrade Node.js version to 24 and integrate web dependencies into pre-commit workflow",
+          "feat: implement self-hosted dashboard portal and incident webhook gateway with associated infrastructure and CLI support",
+          "refactor: rename StackPulse to CloudInferOps and update CI test paths",
+          "feat(cli): implement Phase 2 CLI command structure and pre-commit linting (#15)",
+          "refactor: simplify installation script, restrict support to Linux, and add SHA256 checksums to the release workflow.",
+          "refactor: rename project from StackPulse to CloudInferOps across all source files, build scripts, and CI workflows (#14)",
+          "Feature/demo (#11)",
+          "refactor: implement StartDynamicSpinner to support updating spinner messages during ArgoCD deployment checks",
+          "refactor: simplify public IP resolution, sort pending apps, and updat… (#9)",
+          "Feature/kube state metrics blackbox (#8)",
+          "feat: implement GitOps infrastructure with internal git-server, kubectl installer, and configuration support (#7)",
+          "feat: inject build metadata into binaries and update Go Report Card badge (#6)",
+          "feature/phase3 (#5)",
+          "Merge pull request #4 from shivamshashank/feature/phase2"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 9,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 109
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 1,
+          "refactor": 6,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 320,538 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 33,330 bytes (8% of repo)",
+          "strength": 0.4846852569395922
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 22,869 bytes (6% of repo)",
+          "strength": 0.45810582481102713
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 13,885 bytes (4% of repo)",
+          "strength": 0.4352791716953567
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,440 bytes (1% of repo)",
+          "strength": 0.4061995807660548
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile.ui)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (api/tests/test_chat.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (deployments/kubernetes/gateway-deployment.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/commands.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "repo_name",
+          "detail": "'monitoring' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 393575,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "go",
+          "kubernetes",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "logdoctor",
+      "full_name": "shivamshashank/logdoctor",
+      "html_url": "https://github.com/shivamshashank/logdoctor",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-12T23:36:11Z",
+      "pushed_at": "2026-03-21T03:05:09Z",
+      "stargazers": 7,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 41626,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 32445,
+        "Shell": 533
+      },
+      "primary_language": "JavaScript",
+      "file_count": 19,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "examples",
+        "install.sh",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tests"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@anthropic-ai/sdk",
+          "@google/genai",
+          "chalk",
+          "commander",
+          "inquirer",
+          "marked",
+          "marked-terminal",
+          "openai",
+          "ora"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5412,
+      "readme_excerpt": "# 🩺 LogDoctor\n\n![GitHub stars](https://img.shields.io/github/stars/shivamshashank/logdoctor?style=social)\n![GitHub forks](https://img.shields.io/github/forks/shivamshashank/logdoctor?style=social)\n![GitHub issues](https://img.shields.io/github/issues/shivamshashank/logdoctor)\n![License](https://img.shields.io/github/license/shivamshashank/logdoctor)\n\n**LogDoctor** is an open-source, privacy-first CLI tool that **diagnoses production logs and explains incidents instantly right in your terminal.**\n\n💡 Pipe logs → Scrub PII Locally → Get Root Cause Analysis.\n\n🔗 **GitHub Repository:**\nhttps://github.com/shivamshashank/logdoctor\n\n---\n\n# ✨ What LogDoctor Does\n\nLogDoctor analyzes application logs using AI to produce clear incident reports directly in your terminal.\nIt focuses on three core pillars:\n1. **Local Data Sanitization (Privacy First)**\n2. **Multi-Model AI Diagnosis**\n3. **Developer-Native Workflow**\n\n---\n\n#  Demo\n\n<video src=\"https://github.com/user-attachments/assets/b7fc5eb9-58d6-46e2-a296-ddde46b4831c\" controls=\"controls\" autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" width=\"100%\"></video>\n\n---\n\n# 🧠 Features\n\n### 1. 🛡️ Local Data Sanitization (Privacy First)\nRegular expressions ",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2026-03-12T23:34:45+00:00",
+        "last_at": "2026-03-21T03:05:09+00:00",
+        "active_days": 7,
+        "span_days": 8,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.364,
+        "messages_sample": [
+          "Create LICENSE",
+          "Merge pull request #1 from shivamshashank/feature/cli",
+          "feat: Implement an automated installation script, update README to promote it, and remove the demo video.",
+          "Update README.md",
+          "feat: Implement native JSON log parsing with recursive un-stringifying and enhanced heuristic secret scrubbing.",
+          "feat: Add Ollama AI provider, introduce `--prompt` and `--context` options for analysis, and refactor AI and input handling into dedicated services.",
+          "feat: Implement AI-powered log analysis with multi-model support and local data scrubbing, restructuring source files and updating documentation.",
+          "feat: Reimplement LogDoctor as a Node.js CLI, removing the Python backend and Next.js frontend.",
+          "dashboard design done",
+          "initial commit",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 32,445 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/ai-service.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "manifest",
+          "detail": "openai in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 32978,
+        "strong_skills": [
+          "javascript",
+          "llm-apps",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "kubeops-platform",
+      "full_name": "shivamshashank/kubeops-platform",
+      "html_url": "https://github.com/shivamshashank/kubeops-platform",
+      "description": "🚀 A zero-to-hero automation script that deploys a full LGTM Observability stack (Loki, Grafana, Tempo, Prometheus) on a local Multipass Kubernetes cluster.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-04T13:53:51Z",
+      "pushed_at": "2026-03-23T22:13:45Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 4975,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Shell": 14025
+      },
+      "primary_language": "Shell",
+      "file_count": 19,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "images",
+        "lgtm_scripts"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5752,
+      "readme_excerpt": "# 🚀 Automated LGTM Observability Stack on Multipass\n\nA \"Zero-to-Hero\" automation project that deploys a production-grade **Observability Stack** (Loki, Grafana, Tempo, Prometheus) on a local **Multipass VM**.\n\nIt provisions a single-node Kubernetes cluster from scratch using `kubeadm`, configures the underlying infrastructure (Storage, Networking, Ingress), and deploys the full monitoring stack with a single command.\n\n![LGTM Stack](https://img.shields.io/badge/Stack-Loki%20%7C%20Grafana%20%7C%20Tempo%20%7C%20Prometheus-orange)\n![Kubernetes](https://img.shields.io/badge/K8s-v1.29-blue)\n![Platform](https://img.shields.io/badge/Platform-Multipass-green)\n![License](https://img.shields.io/badge/License-MIT-lightgrey)\n\n---\n\n## 📋 Features\n\n* **Full Automation:** A single master script (`main.sh`) orchestrates the entire process: launching the VM, configuring the OS, installing Kubernetes, and deploying apps.\n* **Infrastructure-as-Code:** Modular shell scripts handle specific layers (Runtime, K8s, Helm).\n* **Production-Ready Configurations:**\n    * **Loki:** Configured in `SingleBinary` mode with filesystem storage (optimized for single-node).\n    * **Tempo:** Configured to receive OTLP tr",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-12-04T14:01:14+00:00",
+        "last_at": "2025-12-04T14:01:14+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 14,025 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "repo_name",
+          "detail": "'grafana' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "repo_name",
+          "detail": "'kubernetes' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 14025,
+        "strong_skills": [
+          "shell"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CloudGraph",
+      "full_name": "shivamshashank/CloudGraph",
+      "html_url": "https://github.com/shivamshashank/CloudGraph",
+      "description": "Graph-grounded verification of LLM-generated root cause analysis for Kubernetes. 18 scenarios, 54 runs, 1,950 claims — with a negative result: graph provenance does not predict claim correctness.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-09T20:44:06Z",
+      "pushed_at": "2026-09-01T09:27:34Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 16560,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 626936,
+        "Go": 70600,
+        "JavaScript": 68625,
+        "HTML": 64643,
+        "Shell": 36681,
+        "CSS": 31269,
+        "Dockerfile": 3138,
+        "Go Template": 2510,
+        "Cypher": 1316
+      },
+      "primary_language": "Python",
+      "file_count": 310,
+      "top_level_paths": [
+        ".dockerignore",
+        ".github",
+        ".gitignore",
+        ".gitleaksignore",
+        ".golangci.yml",
+        ".htmlhintrc",
+        ".markdownlint.yaml",
+        ".pre-commit-config.yaml",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "README.md",
+        "SECURITY.md",
+        "cmd",
+        "deployments",
+        "docs",
+        "embedded.go",
+        "experiment-1-benchmark",
+        "experiment-2-live-demo",
+        "go.mod",
+        "graph",
+        "install.sh",
+        "research",
+        "scripts",
+        "services",
+        "testing",
+        "tests"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/pre-commit.yml",
+        ".github/workflows/release.yml",
+        "go.mod",
+        "services/agent-orchestrator/Dockerfile",
+        "services/api/Dockerfile",
+        "services/api/requirements-dev.txt",
+        "services/api/requirements.txt",
+        "services/investigation-engine/Dockerfile",
+        "services/ui/Dockerfile",
+        "tests/observability/go.mod"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 32107,
+      "readme_excerpt": "<div align=\"center\">\n\n# 🚀 CloudGraph\n\n### Graph-Grounded Verification of LLM-Generated Root Cause Analysis for Kubernetes\n\nCloudGraph builds a temporal knowledge graph from live cluster telemetry,\nretrieves incident context over it, has five specialist LLM agents diagnose the\nincident, and then — the part this project is actually about: **checks every\nclaim in the generated explanation against graph evidence.**\n\nThe research question is not *\"can an LLM write a plausible root cause?\"*\nIt is *\"can we tell whether it made that up?\"*\n\n<br />\n\n[![CI](https://img.shields.io/github/actions/workflow/status/shivamshashank/CloudGraph/ci.yml?branch=main&label=CI&logo=githubactions&style=flat-square)](https://github.com/shivamshashank/CloudGraph/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/actions/workflow/status/shivamshashank/CloudGraph/release.yml?branch=main&label=Release&logo=githubactions&style=flat-square)](https://github.com/shivamshashank/CloudGraph/actions/workflows/release.yml)\n[![Codecov](https://img.shields.io/codecov/c/github/shivamshashank/CloudGraph?logo=codecov&style=flat-square)](https://codecov.io/gh/shivamshashank/CloudGraph)\n[![GitHub release](https",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 76,
+        "first_at": "2026-06-09T21:05:52+00:00",
+        "last_at": "2026-09-01T09:27:11+00:00",
+        "active_days": 36,
+        "span_days": 83,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: enhance scenario scoping in graph traversal and add verification script for reproducibility",
+          "feat: add automated result reproducibility verification and integrate new benchmark figures into documentation",
+          "feat: add dissertation manuscript and Zenodo evaluation artifact repository structure",
+          "Add script to rebuild claims.csv from raw run logs",
+          "refactor: reorganize project documentation, transition experiments to structured benchmark and live-demo directories, and prune legacy research artifacts.",
+          "Refactor comments and documentation across various modules for clarity and conciseness",
+          "Revert \"feat: add .nojekyll file to prevent Jekyll processing on GitHub Pages\"",
+          "feat: add .nojekyll file to prevent Jekyll processing on GitHub Pages",
+          "Merge branch 'research/corrected-36-scenario-evaluation' into 'main'",
+          "feat: add script to capture UI walkthrough screenshots for consistent documentation",
+          "Fix result-artifact accounting, disclose non-LLM generations, trim research/",
+          "Add ROADMAP and STATUS documents; update evaluation and findings",
+          "Add corrected 36-scenario evaluation results and fix two statistics defects",
+          "feat: Enhance semantic store with scenario filtering and isolation checks",
+          "Merge branch 'research/gpcs-real-evaluation-and-repro-infra' into 'main'",
+          "Refactor evaluation scripts and enhance dataset handling",
+          "Add detailed planning documents for CloudGraph project",
+          "Refactor testing scripts for improved modularity and clarity",
+          "fix: thread real LLM credentials into GPCS, fix orchestrator crash-loop, add LLM call logging",
+          "feat: Add workflow_dispatch trigger to CI and release workflows"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "walkthrough"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 114
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 4,
+          "test": 1,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 626,936 bytes (69% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 70,600 bytes (8% of repo)",
+          "strength": 0.47794920714836187
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 68,625 bytes (8% of repo)",
+          "strength": 0.4757686167217611
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 64,643 bytes (7% of repo)",
+          "strength": 0.47137210478316655
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 36,681 bytes (4% of repo)",
+          "strength": 0.4404993607281737
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 31,269 bytes (3% of repo)",
+          "strength": 0.4345239909110783
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 3,138 bytes (0% of repo)",
+          "strength": 0.40346465456135355
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (cmd/cloudgraph/deploy_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (deployments/docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (deployments/helm/README.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/CLUSTER_DISCOVERY_ARCHITECTURE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 901892,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "go",
+          "kubernetes",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "shivamshashank.github.io",
+      "full_name": "shivamshashank/shivamshashank.github.io",
+      "html_url": "https://github.com/shivamshashank/shivamshashank.github.io",
+      "description": "🌐 Personal website and research portfolio",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-14T19:19:49Z",
+      "pushed_at": "2026-08-14T19:52:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 927,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "HTML": 28219
+      },
+      "primary_language": "HTML",
+      "file_count": 12,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "img",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2214,
+      "readme_excerpt": "# shivamshashank.github.io\n\nPersonal site. Served by GitHub Pages from `main` at the repository root.\n\nPlain HTML and CSS in a single file. No build step, no dependencies, no\npackage manager. Edit `index.html`, push, done.\n\n## Layout\n\n```\nindex.html    the whole site — markup, styles and script\nimg/          every image the page uses\nLICENSE\n```\n\n## Images\n\n```\nimg/profile.png             header photo\nimg/cloudgraph.png          CloudGraph topology screenshot (card header)\nimg/cloudgraph-results.png  unsupported-claim-rate chart (inline figure)\nimg/microglucometer.webp    MicroGlucoMeter workflow diagram (card header)\nimg/hpe.png                 experience / education badges\nimg/unbox.png\nimg/uob.png\nimg/iitj.png\n```\n\nTwo different behaviours, worth knowing before you rename anything:\n\n- **Photo and badges** are loaded by a small script that only swaps the image in\n  once it has loaded. If the file is missing, the initials placeholder stays and\n  nothing breaks. The badge script derives the filename from each badge's\n  `data-logo` attribute, so `data-logo=\"hpe\"` looks for `img/hpe.png`.\n- **Project images** are plain `<img>` tags. A missing or renamed file here\n  *will* show a brok",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-08-14T19:19:49+00:00",
+        "last_at": "2026-08-14T19:52:21+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Add personal portfolio webpage for Shivam Shashank",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 28,219 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 28219,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 649805,
+    "Go": 391138,
+    "JavaScript": 101070,
+    "HTML": 93162,
+    "Shell": 53679,
+    "CSS": 45154,
+    "TypeScript": 33330,
+    "Dockerfile": 3351,
+    "Go Template": 2510,
+    "Cypher": 1316
+  },
+  "total_commits": 117,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/CloudGraph",
+        "shivamshashank/shivamshashank.github.io"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 138016,
+      "commit_count": 105,
+      "first_seen": "2026-03-27T17:38:27+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: CSS: 13,885 bytes (4% of repo)",
+        "CloudGraph: HTML: 64,643 bytes (7% of repo)",
+        "CloudGraph: CSS: 31,269 bytes (3% of repo)",
+        "shivamshashank.github.io: HTML: 28,219 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/kubeops-platform",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 53146,
+      "commit_count": 104,
+      "first_seen": "2025-12-04T14:01:14+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: Shell: 2,440 bytes (1% of repo)",
+        "kubeops-platform: Shell: 14,025 bytes (100% of repo)",
+        "CloudGraph: Shell: 36,681 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 391138,
+      "commit_count": 103,
+      "first_seen": "2026-03-27T17:38:27+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: Go: 320,538 bytes (81% of repo)",
+        "CloudInferOps: Go module (go.mod)",
+        "CloudGraph: Go: 70,600 bytes (8% of repo)",
+        "CloudGraph: Go module (go.mod)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 649805,
+      "commit_count": 103,
+      "first_seen": "2026-03-27T17:38:27+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: Python: 22,869 bytes (6% of repo)",
+        "CloudGraph: Python: 626,936 bytes (69% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "shivamshashank/logdoctor",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 101070,
+      "commit_count": 87,
+      "first_seen": "2026-03-12T23:34:45+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "logdoctor: JavaScript: 32,445 bytes (98% of repo)",
+        "CloudGraph: JavaScript: 68,625 bytes (8% of repo)"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "shivamshashank/logdoctor"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2026-03-12T23:34:45+00:00",
+      "last_seen": "2026-03-21T03:05:09+00:00",
+      "details": [
+        "logdoctor: openai in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/logdoctor",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 114,
+      "first_seen": "2026-03-12T23:34:45+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: test directory (api/tests/test_chat.py)",
+        "logdoctor: test directory (tests/ai-service.test.js)",
+        "CloudGraph: test file (cmd/cloudgraph/deploy_test.go)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/kubeops-platform",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 104,
+      "first_seen": "2025-12-04T14:01:14+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: kubernetes manifests (deployments/kubernetes/gateway-deployment.yaml)",
+        "kubeops-platform: 'kubernetes' in repo name/description",
+        "CloudGraph: kubernetes manifests (deployments/helm/README.md)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "language"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 3138,
+      "commit_count": 103,
+      "first_seen": "2026-03-27T17:38:27+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: Dockerfile (Dockerfile.ui)",
+        "CloudGraph: Dockerfile: 3,138 bytes (0% of repo)",
+        "CloudGraph: docker-compose (deployments/docker-compose.yml)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 103,
+      "first_seen": "2026-03-27T17:38:27+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "CloudGraph: GitHub Actions workflow (.github/workflows/ci.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/CloudGraph"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 103,
+      "first_seen": "2026-03-27T17:38:27+00:00",
+      "last_seen": "2026-09-01T09:27:11+00:00",
+      "details": [
+        "CloudInferOps: docs directory (docs/commands.md)",
+        "CloudGraph: docs directory (docs/CLUSTER_DISCOVERY_ARCHITECTURE.md)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "shivamshashank/CloudInferOps"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4846852569395922,
+      "total_bytes": 33330,
+      "commit_count": 27,
+      "first_seen": "2026-03-27T17:38:27+00:00",
+      "last_seen": "2026-07-07T21:10:02+00:00",
+      "details": [
+        "CloudInferOps: TypeScript: 33,330 bytes (8% of repo)"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "shivamshashank/CloudInferOps",
+        "shivamshashank/kubeops-platform"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 28,
+      "first_seen": "2025-12-04T14:01:14+00:00",
+      "last_seen": "2026-07-07T21:10:02+00:00",
+      "details": [
+        "CloudInferOps: 'monitoring' in repo name/description",
+        "kubeops-platform: 'grafana' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 117,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-16T14:26:26.380032+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

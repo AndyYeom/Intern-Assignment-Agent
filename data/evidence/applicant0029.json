@@ -1,0 +1,254 @@
+{
+  "applicant_id": "applicant0029",
+  "github_login": "Shaick",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0029.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shaick/LojaVirtual_DotNetCore22",
+        "https://github.com/Shaick/game-secret-number-js",
+        "https://github.com/Shaick/portifolio_min"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/LojaVirtual_DotNetCore22",
+          "html_url": "https://github.com/Shaick/LojaVirtual_DotNetCore22",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "HTML: 487,862 bytes (49% of repo)",
+            "SCSS: 258,127 bytes (26% of repo)"
+          ]
+        },
+        {
+          "repo": "Shaick/game-secret-number-js",
+          "html_url": "https://github.com/Shaick/game-secret-number-js",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "HTML: 3,501 bytes (40% of repo)",
+            "CSS: 2,491 bytes (28% of repo)"
+          ]
+        },
+        {
+          "repo": "Shaick/portifolio_min",
+          "html_url": "https://github.com/Shaick/portifolio_min",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "HTML: 4,175 bytes (63% of repo)",
+            "CSS: 2,496 bytes (37% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shaick/desafioLiterAlura"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/desafioLiterAlura",
+          "html_url": "https://github.com/Shaick/desafioLiterAlura",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; has_tests, documented",
+            "Java: 22,051 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shaick/LojaVirtual_DotNetCore22",
+        "https://github.com/Shaick/game-secret-number-js",
+        "https://github.com/Shaick/pontofinoestofados"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/LojaVirtual_DotNetCore22",
+          "html_url": "https://github.com/Shaick/LojaVirtual_DotNetCore22",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "JavaScript: 183,241 bytes (18% of repo)"
+          ]
+        },
+        {
+          "repo": "Shaick/game-secret-number-js",
+          "html_url": "https://github.com/Shaick/game-secret-number-js",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "JavaScript: 2,785 bytes (32% of repo)"
+          ]
+        },
+        {
+          "repo": "Shaick/pontofinoestofados",
+          "html_url": "https://github.com/Shaick/pontofinoestofados",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: none",
+            "JavaScript: 10,321 bytes (44% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Shaick/LojaVirtual_DotNetCore22"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/LojaVirtual_DotNetCore22",
+          "html_url": "https://github.com/Shaick/LojaVirtual_DotNetCore22",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "kubernetes manifests (LojaVirtual/LojaVirtual/wwwroot/resources/lib/charts/charts.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "mongodb",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Shaick/pontofinoestofados"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/pontofinoestofados",
+          "html_url": "https://github.com/Shaick/pontofinoestofados",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: none",
+            "mongodb in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Shaick/pontofinoestofados"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/pontofinoestofados",
+          "html_url": "https://github.com/Shaick/pontofinoestofados",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: none",
+            "express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "postgresql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shaick/desafioLiterAlura"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/desafioLiterAlura",
+          "html_url": "https://github.com/Shaick/desafioLiterAlura",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; has_tests, documented",
+            "postgresql in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "spring",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shaick/desafioLiterAlura"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/desafioLiterAlura",
+          "html_url": "https://github.com/Shaick/desafioLiterAlura",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; has_tests, documented",
+            "spring-boot-maven-plugin in pom.xml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Shaick/desafioLiterAlura"
+      ],
+      "repos": [
+        {
+          "repo": "Shaick/desafioLiterAlura",
+          "html_url": "https://github.com/Shaick/desafioLiterAlura",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; has_tests, documented",
+            "test directory (src/test/java/cloud/shaick/desafioLiterAlura/DesafioLiterAluraApplicationTests.java)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 7
+  }
+}

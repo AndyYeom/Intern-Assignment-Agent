@@ -1,0 +1,298 @@
+{
+  "applicant_id": "applicant0133",
+  "github_login": "cssantosa",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0133.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/venturex-optimizer"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/venturex-optimizer",
+          "html_url": "https://github.com/cssantosa/venturex-optimizer",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "recharts in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "deep-learning",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "integration-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/venturex-optimizer"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/venturex-optimizer",
+          "html_url": "https://github.com/cssantosa/venturex-optimizer",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "e2e suite (playwright.config.ts)",
+            "@playwright/test in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "llm-apps",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/ai-agent-job-pipeline"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/ai-agent-job-pipeline",
+          "html_url": "https://github.com/cssantosa/ai-agent-job-pipeline",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "litellm in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "nlp",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/cssantosa/ai-agent-job-pipeline",
+        "https://github.com/cssantosa/fraud-ml-classification"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/ai-agent-job-pipeline",
+          "html_url": "https://github.com/cssantosa/ai-agent-job-pipeline",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "pandas in requirements.txt"
+          ]
+        },
+        {
+          "repo": "cssantosa/fraud-ml-classification",
+          "html_url": "https://github.com/cssantosa/fraud-ml-classification",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, notebook_only, all_commits_one_day",
+            "jupyter notebook (best_model_eval.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/cssantosa/ai-agent-job-pipeline",
+        "https://github.com/cssantosa/fraud-ml-classification"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/ai-agent-job-pipeline",
+          "html_url": "https://github.com/cssantosa/ai-agent-job-pipeline",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 54,879 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "cssantosa/fraud-ml-classification",
+          "html_url": "https://github.com/cssantosa/fraud-ml-classification",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, notebook_only, all_commits_one_day",
+            "Jupyter Notebook: 797,143 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/venturex-optimizer"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/venturex-optimizer",
+          "html_url": "https://github.com/cssantosa/venturex-optimizer",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "@testing-library/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/venturex-optimizer"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/venturex-optimizer",
+          "html_url": "https://github.com/cssantosa/venturex-optimizer",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "tailwind config (tailwind.config.ts)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/venturex-optimizer"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/venturex-optimizer",
+          "html_url": "https://github.com/cssantosa/venturex-optimizer",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "TypeScript: 263,453 bytes (98% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/venturex-optimizer"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/venturex-optimizer",
+          "html_url": "https://github.com/cssantosa/venturex-optimizer",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "test directory (src/test/example.test.ts)",
+            "vitest in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "web-scraping",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/cssantosa/ai-agent-job-pipeline"
+      ],
+      "repos": [
+        {
+          "repo": "cssantosa/ai-agent-job-pipeline",
+          "html_url": "https://github.com/cssantosa/ai-agent-job-pipeline",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "beautifulsoup4 in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 4,
+    "partially_verified": 3,
+    "verified": 7
+  }
+}

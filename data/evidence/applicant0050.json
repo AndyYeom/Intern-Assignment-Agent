@@ -1,0 +1,99 @@
+{
+  "applicant_id": "applicant0050",
+  "github_login": "mogligit",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0050.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/mogligit/COVID-19-LFT-Logging-System",
+        "https://github.com/mogligit/wake"
+      ],
+      "repos": [
+        {
+          "repo": "mogligit/COVID-19-LFT-Logging-System",
+          "html_url": "https://github.com/mogligit/COVID-19-LFT-Logging-System",
+          "level": 2,
+          "reasons": [
+            "intermediate: 50 commits; multi_month_span, many_active_days, documented",
+            "C#: 35,068 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "mogligit/wake",
+          "html_url": "https://github.com/mogligit/wake",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "C#: 2,437 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/mogligit/HoneypotBrowser"
+      ],
+      "repos": [
+        {
+          "repo": "mogligit/HoneypotBrowser",
+          "html_url": "https://github.com/mogligit/HoneypotBrowser",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Java: 16,294 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 3,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "none",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Advanced; no repository shows this skill. Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/mogligit/CryptoMessages"
+      ],
+      "repos": [
+        {
+          "repo": "mogligit/CryptoMessages",
+          "html_url": "https://github.com/mogligit/CryptoMessages",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "SQL file (Server/cryptomessages.db.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 1,
+    "verified": 3
+  }
+}

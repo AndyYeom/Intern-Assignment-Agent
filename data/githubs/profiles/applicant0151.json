@@ -1,0 +1,1935 @@
+{
+  "applicant_id": "applicant0151",
+  "login": "fabianoobispo1",
+  "html_url": "https://github.com/fabianoobispo1",
+  "created_at": "2021-11-30T00:42:53Z",
+  "account_age_days": 1752,
+  "public_repos": 63,
+  "followers": 7,
+  "following": 13,
+  "repos": [
+    {
+      "name": "fabianoobispo",
+      "full_name": "fabianoobispo1/fabianoobispo",
+      "html_url": "https://github.com/fabianoobispo1/fabianoobispo",
+      "description": null,
+      "homepage": "https://fabianoobispo.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-01-05T02:26:28Z",
+      "pushed_at": "2026-09-17T01:20:37Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6967,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 679697,
+        "JavaScript": 16788,
+        "Shell": 8203,
+        "CSS": 3230,
+        "Dockerfile": 159
+      },
+      "primary_language": "TypeScript",
+      "file_count": 289,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".github",
+        ".gitignore",
+        ".vscode",
+        "ATUALIZACOES_SEGURANCA.md",
+        "CHANGELOG_PORTFOLIO.md",
+        "CLAUDE.md",
+        "FICHA_TREINO_SETUP.md",
+        "IMPORTACAO_JSON_GRANDES.md",
+        "MELHORIAS_FINANCAS.md",
+        "PORTFOLIO_GUIDE.md",
+        "README.md",
+        "RESUMO_ATUALIZACOES.md",
+        "ROADMAP.md",
+        "TERMINAL_MULTIPLE_CONNECTIONS.md",
+        "TERMINAL_QUICK_START.md",
+        "TERMINAL_SSH_SETUP.md",
+        "components.json",
+        "convex",
+        "docs",
+        "handoff",
+        "next-auth.d.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "prettier.config.js",
+        "public",
+        "scripts",
+        "src",
+        "tailwind.config.ts",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "notable_files": [
+        "package.json",
+        "scripts/terminal-server/Dockerfile",
+        "scripts/terminal-server/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@dnd-kit/sortable",
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-icons",
+          "@radix-ui/react-label",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-tooltip",
+          "@react-email/components",
+          "@react-three/drei",
+          "@react-three/fiber",
+          "@rocketseat/eslint-config",
+          "@tanstack/react-table",
+          "@types/bcrypt",
+          "@types/bcryptjs",
+          "@types/micro-cors",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/react-window",
+          "@types/three",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@uploadthing/react",
+          "@vercel/analytics",
+          "@vercel/speed-insights",
+          "@xixixao/uploadstuff",
+          "@xterm/addon-fit",
+          "@xterm/xterm",
+          "axios",
+          "bcryptjs",
+          "chart.js",
+          "class-variance-authority",
+          "clsx",
+          "convex",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "eslint-config-prettier",
+          "eslint-plugin-prettier",
+          "html5-qrcode",
+          "i",
+          "jspdf",
+          "jspdf-autotable",
+          "lucide-react",
+          "micro-cors",
+          "next",
+          "next-auth",
+          "next-themes",
+          "nextjs-toploader",
+          "npm",
+          "postcss",
+          "prettier",
+          "prettier-plugin-tailwindcss",
+          "react",
+          "react-chartjs-2",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-number-format",
+          "react-virtualized-auto-sizer",
+          "react-window",
+          "recharts",
+          "resend",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "three",
+          "typescript",
+          "uuid",
+          "vaul",
+          "zod",
+          "zustand"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5980,
+      "readme_excerpt": "# 🚀 Portfólio Fabiano Bispo\n\nPortfólio profissional e sistema de gestão pessoal desenvolvido com as tecnologias mais modernas do mercado.\n\n## ✨ Funcionalidades\n\n- 🎨 **Landing Page Moderna** - Portfólio profissional com design responsivo\n- 💰 **Sistema Financeiro Completo** - Gestão de receitas, despesas, cartões e relatórios\n- 🏋️ **Ficha de Treinos** - Gerenciamento completo de exercícios e treinos\n- 📝 **DontPad Clone** - Editor de texto colaborativo em tempo real\n- 🔐 **Autenticação Completa** - Multi-provider (Google, GitHub, Credentials)\n- 📊 **Dashboard Interativo** - Visualização de dados com gráficos\n- 🌓 **Dark/Light Mode** - Tema personalizável\n- 📱 **Totalmente Responsivo** - Funciona perfeitamente em qualquer dispositivo\n\n## 🛠️ Tecnologias\n\n### Frontend\n\n- **Framework** - [Next.js 15](https://nextjs.org) (App Router)\n- **Linguagem** - [TypeScript](https://www.typescriptlang.org)\n- **Estilização** - [Tailwind CSS](https://tailwindcss.com)\n- **Componentes** - [Shadcn/ui](https://ui.shadcn.com) + [Radix UI](https://www.radix-ui.com)\n- **Formulários** - [React Hook Form](https://react-hook-form.com)\n- **Validação** - [Zod](https://zod.dev)\n- **Gráficos** - [Chart.js](https://www.c",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.904,
+      "commits": {
+        "count": 122,
+        "first_at": "2025-01-05T02:26:28+00:00",
+        "last_at": "2026-09-17T01:20:15+00:00",
+        "active_days": 37,
+        "span_days": 619,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.008,
+        "messages_sample": [
+          "feat: save mais rapido e feedback inline no dontpad",
+          "fix: dontpad atualiza em tempo real quando editado em outra aba/dispositivo",
+          "fix: restaura verificacao de admin/dono nas funcoes Convex de forma funcional",
+          "fix: remove auth check quebrado em dontPad.listAll que derrubava admin",
+          "Adicionar Miolim aos projetos em destaque",
+          "refactor: move sorteio de dezenas pro dashboard da Mega-Sena",
+          "feat: adiciona jogo Oráculo Cósmico (gerador de dezenas da Mega-Sena)",
+          "fix: corrige erros de lint em labs/page.tsx que quebravam o build de produção",
+          "feat: Terminal SSH funcional com backend real no VPS",
+          "feat: Terminal SSH com múltiplas conexões salvas",
+          "Merge pull request #8 from fabianoobispo1/claude/todo-implementation-2yvvyi",
+          "feat: agrupa Mega-Sena num submenu Loteria no menu lateral",
+          "fix: deploy do BI da Mega-Sena para o Convex de producao",
+          "docs: documenta correcao do login com Google em producao",
+          "feat: usa SendCloud (produto próprio) em vez de Resend no alerta da Mega-Sena",
+          "docs: atualiza roadmap com as novas features do BI da Mega-Sena",
+          "feat: adiciona conferir aposta, próximo concurso, jogos salvos e alerta de acumulado ao BI da Mega-Sena",
+          "fix: mega-sena atualiza sozinha via Convex, sem precisar de VPS",
+          "fix: usa espelho comunitário da Mega-Sena em vez da API oficial da Caixa",
+          "feat: adiciona script de sync da Mega-Sena para rodar na VPS"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 234
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 679,697 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 16,788 bytes (2% of repo)",
+          "strength": 0.42370928585450457
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 8,203 bytes (1% of repo)",
+          "strength": 0.4115848982525912
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,230 bytes (0% of repo)",
+          "strength": 0.40456165078091794
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/LABS_QUICK_START.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (scripts/terminal-server/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "chart.js in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "next-auth in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "state-management",
+          "source": "manifest",
+          "detail": "zustand in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 708077,
+        "strong_skills": [
+          "auth",
+          "data-viz",
+          "docker",
+          "nextjs",
+          "react",
+          "state-management",
+          "tailwind",
+          "technical-writing",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "jf_imperadores",
+      "full_name": "fabianoobispo1/jf_imperadores",
+      "html_url": "https://github.com/fabianoobispo1/jf_imperadores",
+      "description": null,
+      "homepage": "https://jf-imperadores.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-11T03:43:47Z",
+      "pushed_at": "2026-03-23T21:32:50Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 78854,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 560966,
+        "CSS": 5818,
+        "JavaScript": 5086
+      },
+      "primary_language": "TypeScript",
+      "file_count": 225,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".github",
+        ".gitignore",
+        ".prettierrc",
+        "README.md",
+        "SETUP.md",
+        "components.json",
+        "convex",
+        "eslint.config.mjs",
+        "next-auth.d.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/eslintrc",
+          "@hookform/resolvers",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-icons",
+          "@radix-ui/react-label",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-tooltip",
+          "@react-email/components",
+          "@tailwindcss/postcss",
+          "@tanstack/react-table",
+          "@types/node",
+          "@types/qrcode",
+          "@types/react",
+          "@types/react-dom",
+          "autoprefixer",
+          "aws-sdk",
+          "axios",
+          "bcryptjs",
+          "blob-stream",
+          "chart.js",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "convex",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "eslint-config-prettier",
+          "eslint-plugin-prettier",
+          "framer-motion",
+          "jspdf",
+          "lucide-react",
+          "next",
+          "next-auth",
+          "next-themes",
+          "nextjs-toploader",
+          "pdfjs-dist",
+          "postcss",
+          "prettier",
+          "qrcode",
+          "react",
+          "react-chartjs-2",
+          "react-day-picker",
+          "react-dom",
+          "react-email",
+          "react-hook-form",
+          "react-number-format",
+          "react-scroll-parallax",
+          "resend",
+          "sonner",
+          "stripe",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3,
+      "readme_excerpt": "...",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.987,
+      "commits": {
+        "count": 75,
+        "first_at": "2025-03-11T03:43:48+00:00",
+        "last_at": "2026-03-23T21:32:48+00:00",
+        "active_days": 14,
+        "span_days": 377,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.027,
+        "messages_sample": [
+          "testes",
+          "testes",
+          "Merge pull request #1 from fabianoobispo1/vercel/react-server-components-cve-vu-r049mi",
+          "teste watas app",
+          "teste",
+          "teste",
+          "test",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "Add files via upload",
+          "Criar 01.pdf",
+          "teste",
+          "teste",
+          "testes",
+          "teste",
+          "correcao",
+          "pdf atletas",
+          "teste"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 186
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 560,966 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 5,818 bytes (1% of repo)",
+          "strength": 0.4101736408624338
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 5,086 bytes (1% of repo)",
+          "strength": 0.4088936296710791
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "aws",
+          "source": "manifest",
+          "detail": "aws-sdk in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "chart.js in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "next-auth in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 571870,
+        "strong_skills": [
+          "auth",
+          "aws",
+          "data-viz",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bruvii-site-bruvii",
+      "full_name": "fabianoobispo1/bruvii-site-bruvii",
+      "html_url": "https://github.com/fabianoobispo1/bruvii-site-bruvii",
+      "description": null,
+      "homepage": "https://bruvii-site-bruvii.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-15T00:12:27Z",
+      "pushed_at": "2026-02-15T00:20:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 89583,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 279340,
+        "CSS": 3921,
+        "JavaScript": 3365
+      },
+      "primary_language": "TypeScript",
+      "file_count": 122,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".gitignore",
+        ".replit",
+        "README copy.md",
+        "README.md",
+        "components.json",
+        "env_exemple",
+        "next-auth.d.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "prettier.config.js",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@dnd-kit/sortable",
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-icons",
+          "@radix-ui/react-label",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-tooltip",
+          "@react-email/components",
+          "@rocketseat/eslint-config",
+          "@stripe/stripe-js",
+          "@tanstack/react-table",
+          "@types/bcrypt",
+          "@types/bcryptjs",
+          "@types/micro-cors",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@uploadthing/react",
+          "@vercel/analytics",
+          "@vercel/speed-insights",
+          "@xixixao/uploadstuff",
+          "aws-sdk",
+          "axios",
+          "bcryptjs",
+          "class-variance-authority",
+          "clsx",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "eslint-config-prettier",
+          "eslint-plugin-prettier",
+          "jspdf",
+          "jspdf-autotable",
+          "lucide-react",
+          "micro-cors",
+          "next",
+          "next-auth",
+          "next-themes",
+          "nextjs-toploader",
+          "postcss",
+          "prettier",
+          "prettier-plugin-tailwindcss",
+          "react",
+          "react-chartjs-2",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-number-format",
+          "react-paginate",
+          "resend",
+          "sonner",
+          "stripe",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "uuid",
+          "vaul",
+          "xlsx",
+          "zod",
+          "zustand"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 6148,
+      "readme_excerpt": "# Frontend\n\n## Getting started\n\nTo make it easy for you to get started with GitLab, here's a list of recommended next steps.\n\nAlready a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!\n\n## Add your files\n\n- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files\n- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:\n\n```\ncd existing_repo\ngit remote add origin https://gitlab.com/bruvii/site-bruvii/frontend.git\ngit branch -M main\ngit push -uf origin main\n```\n\n## Integrate with your tools\n\n- [ ] [Set up project integrations](https://gitlab.com/bruvii/site-bruvii/frontend/-/settings/integrations)\n\n## Collaborate with your team\n\n- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)\n- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)\n- [ ] ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.952,
+      "commits": {
+        "count": 20,
+        "first_at": "2025-05-16T00:37:21+00:00",
+        "last_at": "2026-02-15T00:19:51+00:00",
+        "active_days": 8,
+        "span_days": 274,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Atualizar dependências e corrigir .gitignore",
+          "testes",
+          "nuvem de palavras",
+          "teste",
+          "pagina teste",
+          "teste",
+          "testes",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "pagina em breve",
+          "teste",
+          "testes",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "tste",
+          "primeiro commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 110
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 279,340 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,921 bytes (1% of repo)",
+          "strength": 0.41367984760628834
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,365 bytes (1% of repo)",
+          "strength": 0.4117400375402092
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "aws",
+          "source": "manifest",
+          "detail": "aws-sdk in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "next-auth in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "state-management",
+          "source": "manifest",
+          "detail": "zustand in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 286626,
+        "strong_skills": [
+          "auth",
+          "aws",
+          "nextjs",
+          "react",
+          "state-management",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "fbc_podcast",
+      "full_name": "fabianoobispo1/fbc_podcast",
+      "html_url": "https://github.com/fabianoobispo1/fbc_podcast",
+      "description": null,
+      "homepage": "https://fbc-podcast.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-11-04T22:34:06Z",
+      "pushed_at": "2024-11-14T10:53:14Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4055,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 105419,
+        "JavaScript": 4556,
+        "CSS": 3356
+      },
+      "primary_language": "TypeScript",
+      "file_count": 107,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".gitignore",
+        "README.md",
+        "app",
+        "components",
+        "components.json",
+        "constants",
+        "convex",
+        "hooks",
+        "lib",
+        "middleware.ts",
+        "next.config.mjs",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "providers",
+        "public",
+        "sampleData.jsonl",
+        "tailwind.config.ts",
+        "tsconfig.json",
+        "types"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@clerk/localizations",
+          "@clerk/nextjs",
+          "@hookform/resolvers",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-label",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-select",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-toast",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/uuid",
+          "@xixixao/uploadstuff",
+          "class-variance-authority",
+          "clsx",
+          "convex",
+          "embla-carousel",
+          "embla-carousel-autoplay",
+          "embla-carousel-react",
+          "eslint",
+          "eslint-config-next",
+          "lucide-react",
+          "next",
+          "openai",
+          "postcss",
+          "react",
+          "react-dom",
+          "react-hook-form",
+          "svix",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "uuid",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1129,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\n[fbc-podcast](https://fbc-podcast.vercel.app) \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2024-10-23T18:48:42+00:00",
+        "last_at": "2024-11-14T10:53:09+00:00",
+        "active_days": 3,
+        "span_days": 21,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Clerk em PTBR",
+          "Update README.md",
+          "first commit",
+          "Initial commit from Create Next App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 62
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 105,419 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,556 bytes (4% of repo)",
+          "strength": 0.44020082766409896
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,356 bytes (3% of repo)",
+          "strength": 0.42961237437241356
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "manifest",
+          "detail": "openai in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 113331,
+        "strong_skills": [
+          "llm-apps",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "stripe-payment-site",
+      "full_name": "fabianoobispo1/stripe-payment-site",
+      "html_url": "https://github.com/fabianoobispo1/stripe-payment-site",
+      "description": null,
+      "homepage": "https://stripe-payment-site-phi.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-09-20T10:33:22Z",
+      "pushed_at": "2024-09-21T12:12:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2230,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 88038,
+        "JavaScript": 2358,
+        "CSS": 2184
+      },
+      "primary_language": "TypeScript",
+      "file_count": 81,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".gitignore",
+        ".prettierrc",
+        "README.md",
+        "app",
+        "components",
+        "components.json",
+        "env.example.txt",
+        "lib",
+        "next.config.js",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "tailwind.config.js",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@dnd-kit/core",
+          "@dnd-kit/modifiers",
+          "@dnd-kit/sortable",
+          "@dnd-kit/utilities",
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-icons",
+          "@radix-ui/react-label",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-tooltip",
+          "@stripe/stripe-js",
+          "@tanstack/react-table",
+          "@types/bcryptjs",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/uuid",
+          "@typescript-eslint/eslint-plugin",
+          "@uploadthing/react",
+          "@vercel/analytics",
+          "autoprefixer",
+          "bcryptjs",
+          "class-variance-authority",
+          "clsx",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "lucide-react",
+          "mailersend",
+          "next",
+          "next-auth",
+          "next-themes",
+          "nextjs-toploader",
+          "postcss",
+          "prettier",
+          "prettier-plugin-tailwindcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "recharts",
+          "sharp",
+          "stripe",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "uploadthing",
+          "uuid",
+          "xlsx",
+          "zod",
+          "zustand"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1192,
+      "readme_excerpt": "### Tecnologias\n\nEste é um modelo inicial usando as seguintes ferramentas:\n\n- Framework - [Next.js 14](https://nextjs.org/13)\n- Language - [TypeScript](https://www.typescriptlang.org)\n- Styling - [Tailwind CSS](https://tailwindcss.com)\n- Auth - [next-auth](https://next-auth.js.org/)\n- Components - [Shadcn-ui](https://ui.shadcn.com)\n- Schema Validations - [Zod](https://zod.dev)\n<!--- State Management - [Zustand](https://zustand-demo.pmnd.rs)\n- File Uploading - [Uploadthing](https://uploadthing.com)\n- Tables - [Tanstack Tables](https://ui.shadcn.com/docs/components/data-table)\n- Forms - [React Hook Form](https://ui.shadcn.com/docs/components/form)\n- Linting - [ESLint](https://eslint.org)\n- Formatting - [Prettier](https://prettier.io)\n  -->\n\n## Contato\n\n<div> \n  <a href=\"https://instagram.com/fabianoobispo\" target=\"_blank\"><img src=\"https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white\" target=\"_blank\"></a>\n  <a href=\"https://www.linkedin.com/in/fabiano-bispo-canedo-[phone]/\" target=\"_blank\"><img src=\"https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white\" target=\"_blank\"></a> \n</div>\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 19,
+        "first_at": "2024-09-20T10:35:35+00:00",
+        "last_at": "2024-09-21T12:12:49+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 13,
+        "low_effort_message_ratio": 0.053,
+        "messages_sample": [
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "tete",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "teste",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 49
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 88,038 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,358 bytes (3% of repo)",
+          "strength": 0.4254698639014906
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,184 bytes (2% of repo)",
+          "strength": 0.4235904082955282
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "next-auth in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "state-management",
+          "source": "manifest",
+          "detail": "zustand in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 92580,
+        "strong_skills": [
+          "auth",
+          "data-viz",
+          "nextjs",
+          "react",
+          "state-management",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 1713460,
+    "JavaScript": 32153,
+    "CSS": 18509,
+    "Shell": 8203,
+    "Dockerfile": 159
+  },
+  "total_commits": 240,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/fbc_podcast",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1713460,
+      "commit_count": 240,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: TypeScript: 679,697 bytes (96% of repo)",
+        "fabianoobispo: typescript in package.json",
+        "jf_imperadores: TypeScript: 560,966 bytes (98% of repo)",
+        "jf_imperadores: typescript in package.json",
+        "bruvii-site-bruvii: TypeScript: 279,340 bytes (97% of repo)",
+        "bruvii-site-bruvii: typescript in package.json",
+        "fbc_podcast: TypeScript: 105,419 bytes (93% of repo)",
+        "fbc_podcast: typescript in package.json",
+        "stripe-payment-site: TypeScript: 88,038 bytes (95% of repo)",
+        "stripe-payment-site: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/fbc_podcast",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 240,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: tailwind config (tailwind.config.ts)",
+        "fabianoobispo: tailwindcss in package.json",
+        "jf_imperadores: tailwind config (tailwind.config.js)",
+        "jf_imperadores: tailwindcss in package.json",
+        "bruvii-site-bruvii: tailwind config (tailwind.config.js)",
+        "bruvii-site-bruvii: tailwindcss in package.json",
+        "fbc_podcast: tailwind config (tailwind.config.ts)",
+        "fbc_podcast: tailwindcss in package.json",
+        "stripe-payment-site: tailwind config (tailwind.config.js)",
+        "stripe-payment-site: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/fbc_podcast",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 9,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 240,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: next config (next.config.ts)",
+        "fabianoobispo: next in package.json",
+        "jf_imperadores: next config (next.config.ts)",
+        "jf_imperadores: next in package.json",
+        "bruvii-site-bruvii: next config (next.config.ts)",
+        "bruvii-site-bruvii: next in package.json",
+        "fbc_podcast: next in package.json",
+        "stripe-payment-site: next config (next.config.js)",
+        "stripe-payment-site: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/fbc_podcast",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 240,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: @types/react in package.json",
+        "jf_imperadores: @types/react in package.json",
+        "bruvii-site-bruvii: @types/react in package.json",
+        "fbc_podcast: @types/react in package.json",
+        "stripe-payment-site: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 236,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: next-auth in package.json",
+        "jf_imperadores: next-auth in package.json",
+        "bruvii-site-bruvii: next-auth in package.json",
+        "stripe-payment-site: next-auth in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 216,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: chart.js in package.json",
+        "jf_imperadores: chart.js in package.json",
+        "stripe-payment-site: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "state-management",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 161,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: zustand in package.json",
+        "bruvii-site-bruvii: zustand in package.json",
+        "stripe-payment-site: zustand in package.json"
+      ]
+    },
+    {
+      "skill_id": "aws",
+      "repos": [
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 95,
+      "first_seen": "2025-03-11T03:43:48+00:00",
+      "last_seen": "2026-03-23T21:32:48+00:00",
+      "details": [
+        "jf_imperadores: aws-sdk in package.json",
+        "bruvii-site-bruvii: aws-sdk in package.json"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "fabianoobispo1/fbc_podcast"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2024-10-23T18:48:42+00:00",
+      "last_seen": "2024-11-14T10:53:09+00:00",
+      "details": [
+        "fbc_podcast: openai in package.json"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "fabianoobispo1/fabianoobispo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 122,
+      "first_seen": "2025-01-05T02:26:28+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: docs directory (docs/LABS_QUICK_START.md)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "fabianoobispo1/fabianoobispo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 122,
+      "first_seen": "2025-01-05T02:26:28+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: Dockerfile (scripts/terminal-server/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/fbc_podcast",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.44020082766409896,
+      "total_bytes": 32153,
+      "commit_count": 240,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: JavaScript: 16,788 bytes (2% of repo)",
+        "jf_imperadores: JavaScript: 5,086 bytes (1% of repo)",
+        "bruvii-site-bruvii: JavaScript: 3,365 bytes (1% of repo)",
+        "fbc_podcast: JavaScript: 4,556 bytes (4% of repo)",
+        "stripe-payment-site: JavaScript: 2,358 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "fabianoobispo1/fabianoobispo",
+        "fabianoobispo1/jf_imperadores",
+        "fabianoobispo1/bruvii-site-bruvii",
+        "fabianoobispo1/fbc_podcast",
+        "fabianoobispo1/stripe-payment-site"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.42961237437241356,
+      "total_bytes": 18509,
+      "commit_count": 240,
+      "first_seen": "2024-09-20T10:35:35+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: CSS: 3,230 bytes (0% of repo)",
+        "jf_imperadores: CSS: 5,818 bytes (1% of repo)",
+        "bruvii-site-bruvii: CSS: 3,921 bytes (1% of repo)",
+        "fbc_podcast: CSS: 3,356 bytes (3% of repo)",
+        "stripe-payment-site: CSS: 2,184 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "fabianoobispo1/fabianoobispo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4115848982525912,
+      "total_bytes": 8203,
+      "commit_count": 122,
+      "first_seen": "2025-01-05T02:26:28+00:00",
+      "last_seen": "2026-09-17T01:20:15+00:00",
+      "details": [
+        "fabianoobispo: Shell: 8,203 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 240,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:23:22.109751+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

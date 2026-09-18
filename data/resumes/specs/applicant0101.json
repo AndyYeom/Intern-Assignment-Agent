@@ -1,0 +1,131 @@
+{
+  "github_login": "Aydana06",
+  "applicant_id": "applicant0101",
+  "first_name": "Marcus",
+  "last_name": "Whitlow",
+  "career_stage": "student",
+  "email": "marcus.whitlow@fenwickmail.example",
+  "phone": "(555) 010-0101",
+  "location": "Fenwick",
+  "linkedin": "linkedin.example.com/in/marcus-whitlow",
+  "github_url": "github.example.com/marcus-whitlow",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Fenwick State University",
+    "location": "Fenwick",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Database Systems",
+      "Web Application Development",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Icd10 Suggest Service",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Apr 2026",
+      "bullets": [
+        "Built a Java Spring Boot service with MySQL and PostgreSQL connectors to suggest diagnosis codes from input data.",
+        "Wrote an automated test suite after early manual checks missed inconsistent suggestions between similar inputs."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Pharmacy Service",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Apr 2026",
+      "end": "May 2026",
+      "bullets": [
+        "Built a Java backend for a pharmacy service prototype with an HTML and JavaScript frontend.",
+        "Packaged the service with Docker after struggling to reproduce a teammate's local environment issue."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Zohiomj",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Nov 2024",
+      "end": "Nov 2024",
+      "bullets": [
+        "Built a TypeScript web project across 50 files, applying frontend patterns from Java backend work.",
+        "Compared how the same data modeling ideas applied differently on the frontend versus the backend."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Code Review Lead",
+      "organization": "Fenwick Dev Study Group",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Led peer code reviews for classmates' backend projects, focusing feedback on data modeling choices.",
+        "Noticed reviews stalled on style debates and introduced a shared checklist to keep discussion on logic."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Java",
+      "C#",
+      "TypeScript",
+      "SQL"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "Backend": [
+      "Spring Boot"
+    ],
+    "Data": [
+      "MySQL",
+      "PostgreSQL",
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

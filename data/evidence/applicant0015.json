@@ -1,0 +1,263 @@
+{
+  "applicant_id": "applicant0015",
+  "github_login": "Kathleen-Krunitzki",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0015.json",
+  "skills": [
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Kathleen-Krunitzki/saboroteca"
+      ],
+      "repos": [
+        {
+          "repo": "Kathleen-Krunitzki/saboroteca",
+          "html_url": "https://github.com/Kathleen-Krunitzki/saboroteca",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "firebase in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kathleen-Krunitzki/finance",
+        "https://github.com/Kathleen-Krunitzki/mentalista",
+        "https://github.com/Kathleen-Krunitzki/moveit-next",
+        "https://github.com/Kathleen-Krunitzki/saboroteca"
+      ],
+      "repos": [
+        {
+          "repo": "Kathleen-Krunitzki/finance",
+          "html_url": "https://github.com/Kathleen-Krunitzki/finance",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: deployed",
+            "CSS: 4,309 bytes (32% of repo)",
+            "HTML: 3,622 bytes (27% of repo)"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/mentalista",
+          "html_url": "https://github.com/Kathleen-Krunitzki/mentalista",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "CSS: 722 bytes (34% of repo)",
+            "HTML: 574 bytes (27% of repo)"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/moveit-next",
+          "html_url": "https://github.com/Kathleen-Krunitzki/moveit-next",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "CSS: 6,525 bytes (31% of repo)"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/saboroteca",
+          "html_url": "https://github.com/Kathleen-Krunitzki/saboroteca",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "SCSS: 24,924 bytes (11% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kathleen-Krunitzki/finance",
+        "https://github.com/Kathleen-Krunitzki/mentalista"
+      ],
+      "repos": [
+        {
+          "repo": "Kathleen-Krunitzki/finance",
+          "html_url": "https://github.com/Kathleen-Krunitzki/finance",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: deployed",
+            "JavaScript: 5,483 bytes (41% of repo)"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/mentalista",
+          "html_url": "https://github.com/Kathleen-Krunitzki/mentalista",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 815 bytes (39% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kathleen-Krunitzki/databook",
+        "https://github.com/Kathleen-Krunitzki/moveit-next"
+      ],
+      "repos": [
+        {
+          "repo": "Kathleen-Krunitzki/databook",
+          "html_url": "https://github.com/Kathleen-Krunitzki/databook",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next config (next.config.js)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/moveit-next",
+          "html_url": "https://github.com/Kathleen-Krunitzki/moveit-next",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kathleen-Krunitzki/databook",
+        "https://github.com/Kathleen-Krunitzki/moveit-next",
+        "https://github.com/Kathleen-Krunitzki/saboroteca"
+      ],
+      "repos": [
+        {
+          "repo": "Kathleen-Krunitzki/databook",
+          "html_url": "https://github.com/Kathleen-Krunitzki/databook",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@chakra-ui/react in package.json"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/moveit-next",
+          "html_url": "https://github.com/Kathleen-Krunitzki/moveit-next",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/saboroteca",
+          "html_url": "https://github.com/Kathleen-Krunitzki/saboroteca",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@testing-library/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Kathleen-Krunitzki/databook",
+        "https://github.com/Kathleen-Krunitzki/moveit-next",
+        "https://github.com/Kathleen-Krunitzki/saboroteca"
+      ],
+      "repos": [
+        {
+          "repo": "Kathleen-Krunitzki/databook",
+          "html_url": "https://github.com/Kathleen-Krunitzki/databook",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 8,549 bytes (99% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/moveit-next",
+          "html_url": "https://github.com/Kathleen-Krunitzki/moveit-next",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "TypeScript: 14,690 bytes (69% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "Kathleen-Krunitzki/saboroteca",
+          "html_url": "https://github.com/Kathleen-Krunitzki/saboroteca",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 191,594 bytes (88% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Kathleen-Krunitzki/saboroteca"
+      ],
+      "repos": [
+        {
+          "repo": "Kathleen-Krunitzki/saboroteca",
+          "html_url": "https://github.com/Kathleen-Krunitzki/saboroteca",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@types/jest in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 3,
+    "verified": 4
+  }
+}

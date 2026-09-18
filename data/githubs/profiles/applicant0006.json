@@ -1,0 +1,1202 @@
+{
+  "applicant_id": "applicant0006",
+  "login": "jainharsh644",
+  "html_url": "https://github.com/jainharsh644",
+  "created_at": "2020-01-08T12:06:29Z",
+  "account_age_days": 2443,
+  "public_repos": 37,
+  "followers": 7,
+  "following": 6,
+  "repos": [
+    {
+      "name": "Tutorial-Feature-Engineering-in-ML",
+      "full_name": "jainharsh644/Tutorial-Feature-Engineering-in-ML",
+      "html_url": "https://github.com/jainharsh644/Tutorial-Feature-Engineering-in-ML",
+      "description": "FEATURE ENGINEERING STEPS",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-01-02T14:22:10Z",
+      "pushed_at": "2021-09-09T05:49:00Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6057,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 1967927
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 22,
+      "top_level_paths": [
+        "Churn_Modelling.csv",
+        "FE - CROSS VALIDATION (Part 16).ipynb",
+        "FE - Categorical Missing Values Imputation (Part 6).ipynb",
+        "FE - Feature Selection Techniques (Part 13).ipynb",
+        "FE - Feature Selection Techniques (Part 14).ipynb",
+        "FE - HANDLING OUTLIERS (Part 15).ipynb",
+        "FE - Handle Categorical Features (Part 7).ipynb",
+        "FE - Handle Categorical Features (Part 8).ipynb",
+        "FE - Handle Categorical Features (Part 9).ipynb",
+        "FE - Missing Values Imputation (Part 1).ipynb",
+        "FE - Missing Values Imputation (Part 2).ipynb",
+        "FE - Missing Values Imputation (Part 3).ipynb",
+        "FE - Missing Values Imputation (Part 4).ipynb",
+        "FE - Missing Values Imputation (Part 5).ipynb",
+        "FE - Transformation Techniques (Part 10).ipynb",
+        "FE - Transformation Techniques (Part 11).ipynb",
+        "FE - Transformation Techniques (Part 12).ipynb",
+        "IMBALANCED DATA - ALL TECHNIQUES.ipynb",
+        "README.md",
+        "mercedes.csv",
+        "santander_train.csv",
+        "titanic train.csv"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 992,
+      "readme_excerpt": "# Feature Engineering Techniques:\n\n<figure>\n    <img src=\"https://[phone]-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/03/A-Hands-on-Guide-to-Feature-Engineering-for-Machine-Learning-1024x537.png\" alt=\"SAE\" title=\"\" />\n</figure>\n\n[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 \n[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) \n\n## The Steps under Feature Engineering are:\n\n### 1. Handling Miisng Values\n### 2. Outliers Detection \n### 3. Feature Scaling/ Transformation\n### 4. Feature Selection\n### 5. Handling Imbalanced Data\n___\n\n### Link To the YouTube Channel for Video Explanation of these techniques:  [KRISH NAIK SIR](https://www.youtube.com/playlist?list=PLZoTAELRMXVPUyxuK8AphGMuIJHTyuWna)\n### My Kaggle Notebook Link:  [Harsh Jain](https://www.kaggle.com/harshjain123/feature-engineering-from-scratch)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2021-01-02T14:22:11+00:00",
+        "last_at": "2021-09-09T05:49:00+00:00",
+        "active_days": 2,
+        "span_days": 249,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [
+          "tutorial|bootcamp|course(work)?|lesson|exercise|practice|workshop"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 17,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 1,967,927 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (FE - CROSS VALIDATION (Part 16).ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "repo_name",
+          "detail": "'ml' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1967927,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Tutorial-Python-for-Beginners",
+      "full_name": "jainharsh644/Tutorial-Python-for-Beginners",
+      "html_url": "https://github.com/jainharsh644/Tutorial-Python-for-Beginners",
+      "description": "Python concepts from beginning to advanced",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-08-15T11:38:04Z",
+      "pushed_at": "2021-09-09T05:27:01Z",
+      "stargazers": 2,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 1512,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 121392
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 14,
+      "top_level_paths": [
+        "PYTHON CHAPTER_1.ipynb",
+        "PYTHON CHAPTER_2.ipynb",
+        "PYTHON CHAPTER_3.ipynb",
+        "PYTHON CHAPTER_4&5.ipynb",
+        "PYTHON CHAPTER_8&9.ipynb",
+        "PYTHON_CHAPTER 6&7.ipynb",
+        "PYTHON_CHAPTER_13 .ipynb",
+        "PYTHON_CHAPTER_14.ipynb",
+        "PYTHON_CHAPTER_15.ipynb",
+        "PYTHON_CLASS.ipynb",
+        "PYTHON_OOPS.ipynb",
+        "PYTHON_PATTERNS.ipynb",
+        "README.md",
+        "ds roadmap.png"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1151,
+      "readme_excerpt": "<figure>\n    <img src=\"https://media.geeksforgeeks.org/wp-content/cdn-uploads/[phone]/Best-Way-To-Start-Learning-Python-%E2%80%93-A-Complete-Roadmap.png\" alt=\"SAE\" title=\"\" />\n</figure>\n\n[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 \n[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   \n\n\n## List of Concepts:\n\n#### 1.  Variables - Escape Sequence & Escape Sequence as Normal Text\n#### 2.  Data Types\n#### 3.  Operators \n#### 4.  Conditional Statements \n#### 5.  Looping Constructs(For, While, nested loop, Break, Continue, Pass) \n#### 6.  Lists\n#### 7.  Tuple\n#### 8.  Dictionaries\n#### 9.  Sets\n#### 10. Strings (Manipulations) \n#### 11. Functions\n#### 12. Lambda expression\n#### 13. Recursion\n#### 14. Modules, Packages, and Standard Libraries\n#### 15. Handling Text Files in Python\n\n___\n### Link To the YouTube Channels to learn python:  [In Hindi](https://www.youtube.com/watch?v=gfDE2a7MKjA) / [Telusko](https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3) \n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2020-08-15T11:38:05+00:00",
+        "last_at": "2021-09-09T05:27:01+00:00",
+        "active_days": 4,
+        "span_days": 389,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [
+          "tutorial|bootcamp|course(work)?|lesson|exercise|practice|workshop"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 12,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 121,392 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (PYTHON CHAPTER_1.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 121392,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "harsh",
+      "full_name": "jainharsh644/harsh",
+      "html_url": "https://github.com/jainharsh644/harsh",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-07-25T06:23:25Z",
+      "pushed_at": "2021-07-25T06:24:32Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1894,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "JavaScript": 237785,
+        "HTML": 29684,
+        "CSS": 28774,
+        "SCSS": 6514,
+        "Less": 5937,
+        "PHP": 205,
+        "Ruby": 161
+      },
+      "primary_language": "JavaScript",
+      "file_count": 53,
+      "top_level_paths": [
+        "LICENSE.txt",
+        "READ-ME.txt",
+        "css",
+        "img",
+        "index.html",
+        "js",
+        "lib"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-07-25T06:24:32+00:00",
+        "last_at": "2021-07-25T06:24:32+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 25
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 237,785 bytes (77% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 29,684 bytes (10% of repo)",
+          "strength": 0.4960460751957549
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 28,774 bytes (9% of repo)",
+          "strength": 0.49310166310748726
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 6,514 bytes (2% of repo)",
+          "strength": 0.42107681356370935
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "Less: 5,937 bytes (2% of repo)",
+          "strength": 0.41920986216268685
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 308694,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "EDA-Red-Wine-Quality",
+      "full_name": "jainharsh644/EDA-Red-Wine-Quality",
+      "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-05-24T11:32:20Z",
+      "pushed_at": "2023-01-01T22:34:40Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1876,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 2542524
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 3,
+      "top_level_paths": [
+        "README.md",
+        "red-wine-quality-exploratory-data-analysis.ipynb",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "absl-py",
+          "argon2-cffi",
+          "astunparse",
+          "async-generator",
+          "attrs",
+          "backcall",
+          "bleach",
+          "cachetools",
+          "certifi",
+          "cffi",
+          "chardet",
+          "click",
+          "cycler",
+          "decorator",
+          "defusedxml",
+          "entrypoints",
+          "flask",
+          "gast",
+          "geojson",
+          "google-auth",
+          "google-auth-oauthlib",
+          "google-pasta",
+          "grpcio",
+          "gunicorn",
+          "h5py",
+          "idna",
+          "ipykernel",
+          "ipython",
+          "ipython-genutils",
+          "ipywidgets",
+          "itsdangerous",
+          "jedi",
+          "jinja2",
+          "joblib",
+          "jsonschema",
+          "jupyter",
+          "jupyter-client",
+          "jupyter-console",
+          "jupyter-core",
+          "jupyterlab-pygments",
+          "keras",
+          "keras-preprocessing",
+          "kiwisolver",
+          "markdown",
+          "markupsafe",
+          "matplotlib",
+          "mistune",
+          "nbclient",
+          "nbconvert",
+          "nbformat",
+          "nest-asyncio",
+          "notebook",
+          "numpy",
+          "oauthlib",
+          "opt-einsum",
+          "packaging",
+          "pandas",
+          "pandocfilters",
+          "parso",
+          "pexpect",
+          "pickleshare",
+          "pillow",
+          "prometheus-client",
+          "prompt-toolkit",
+          "protobuf",
+          "ptyprocess",
+          "pyasn1",
+          "pyasn1-modules",
+          "pycparser",
+          "pygments",
+          "pyparsing",
+          "pyrsistent",
+          "python-dateutil",
+          "pytz",
+          "pyyaml",
+          "pyzmq",
+          "qtconsole",
+          "qtpy",
+          "requests",
+          "requests-oauthlib",
+          "rsa",
+          "scikit-learn",
+          "scipy",
+          "send2trash",
+          "six",
+          "sklearn",
+          "tensorboard",
+          "tensorboard-plugin-wit",
+          "tensorflow-cpu",
+          "tensorflow-estimator",
+          "termcolor",
+          "terminado",
+          "testpath",
+          "threadpoolctl",
+          "tornado",
+          "traitlets",
+          "urllib3",
+          "wcwidth",
+          "webencodings",
+          "werkzeug",
+          "widgetsnbextension",
+          "wrapt"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2458,
+      "readme_excerpt": "# Exploratory Data Analysis - Red Wine Quality Data:\n\n![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Scikit-Learn](https://img.shields.io/badge/Library-ScikitLearn-orange.svg)\n\nThis repository consists of Jupyter Notebook which shows the implementation of Exploratory Data Analysis, and Machine learning models on Red Wine Quality Dataset.\n\nThe dataset had many features which had to pre-processed and transfored to build the Model. The various independent features in the dataset were:\n<ol>\n<li>Fixed acidity: It indicates the amount of tartaric acid in wine.</li>\n\n<li>Volatile acidity: It indicates the amount of acetic acid in the wine.</li>\n\n<li>Citric acid: It indicates the amount of citric acid in the wine.</li>\n\n<li>Residual sugar: It indicates the amount of sugar left in the wine after the fermentation process is done.</li>\n\n<li>Free sulfur dioxide: It measures the amount of sulfur dioxide (SO2) in free form.</li>\n\n<li>Total sulfur dioxide: It measures the total amount of SO2 in the wine. This chemical works as an antioxidant and antimicrobial agent.</li>\n\n<li>Density: It indicates the densit",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2021-05-24T11:32:42+00:00",
+        "last_at": "2023-01-01T22:34:40+00:00",
+        "active_days": 2,
+        "span_days": 587,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Update README.md",
+          "Create README.md",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 2,542,524 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (red-wine-quality-exploratory-data-analysis.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "deep-learning",
+          "source": "manifest",
+          "detail": "keras in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "manifest",
+          "detail": "prometheus-client in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2542524,
+        "strong_skills": [
+          "data-viz",
+          "deep-learning",
+          "flask-fastapi",
+          "machine-learning",
+          "monitoring",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Tutorial-PyMongo",
+      "full_name": "jainharsh644/Tutorial-PyMongo",
+      "html_url": "https://github.com/jainharsh644/Tutorial-PyMongo",
+      "description": "MongoDB Python Operations",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-01-09T09:30:32Z",
+      "pushed_at": "2023-01-06T18:23:18Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 20186
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 2,
+      "top_level_paths": [
+        "Python + Mongo = PyMongo.ipynb",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 921,
+      "readme_excerpt": "# Tutorail - PyMongo (Python + MongoDB)\n\n<figure>\n    <img src=\"https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/media/1/OvQmgluRTe5alZTfiQK0_getting-started-with-python-mongo.jpg\" alt=\"SAE\" title=\"\" />\n</figure>\n\n[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 \n[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) \n\n\n## MongoDB Operations performed using Python:\n<ul>\n    <li>Establish a Connection</li>\n    <li>Create a Collection</li>\n    <li>Insert Data</li>\n    <li>Insert Multiple Data</li>\n    <li>Find Method</li>\n    <li>Query or filter the data</li>\n    <li>Delete one or many Data</li>\n    <li>Drop the entire collection</li>\n    <li>Set limit to view N records</li>\n</ul>\n\n# Please do ⭐ the repository, if it helped you in anyway.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2021-01-09T09:31:01+00:00",
+        "last_at": "2023-01-06T18:23:18+00:00",
+        "active_days": 3,
+        "span_days": 727,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Create README.md",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "tutorial|bootcamp|course(work)?|lesson|exercise|practice|workshop"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 20,186 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Python + Mongo = PyMongo.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "repo_name",
+          "detail": "'mongodb' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 20186,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 4652029,
+    "JavaScript": 237785,
+    "HTML": 29684,
+    "CSS": 28774,
+    "SCSS": 6514,
+    "Less": 5937,
+    "PHP": 205,
+    "Ruby": 161
+  },
+  "total_commits": 37,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "jainharsh644/Tutorial-Feature-Engineering-in-ML",
+        "jainharsh644/Tutorial-Python-for-Beginners",
+        "jainharsh644/EDA-Red-Wine-Quality",
+        "jainharsh644/Tutorial-PyMongo"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4652029,
+      "commit_count": 36,
+      "first_seen": "2020-08-15T11:38:05+00:00",
+      "last_seen": "2023-01-06T18:23:18+00:00",
+      "details": [
+        "Tutorial-Feature-Engineering-in-ML: Jupyter Notebook: 1,967,927 bytes (100% of repo)",
+        "Tutorial-Python-for-Beginners: Jupyter Notebook: 121,392 bytes (100% of repo)",
+        "Tutorial-Python-for-Beginners: 'python' in repo name/description",
+        "EDA-Red-Wine-Quality: Jupyter Notebook: 2,542,524 bytes (100% of repo)",
+        "Tutorial-PyMongo: Jupyter Notebook: 20,186 bytes (100% of repo)",
+        "Tutorial-PyMongo: 'python' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "jainharsh644/harsh"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 237785,
+      "commit_count": 1,
+      "first_seen": "2021-07-25T06:24:32+00:00",
+      "last_seen": "2021-07-25T06:24:32+00:00",
+      "details": [
+        "harsh: JavaScript: 237,785 bytes (77% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "jainharsh644/Tutorial-Feature-Engineering-in-ML",
+        "jainharsh644/Tutorial-Python-for-Beginners",
+        "jainharsh644/EDA-Red-Wine-Quality",
+        "jainharsh644/Tutorial-PyMongo"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 36,
+      "first_seen": "2020-08-15T11:38:05+00:00",
+      "last_seen": "2023-01-06T18:23:18+00:00",
+      "details": [
+        "Tutorial-Feature-Engineering-in-ML: jupyter notebook (FE - CROSS VALIDATION (Part 16).ipynb)",
+        "Tutorial-Python-for-Beginners: jupyter notebook (PYTHON CHAPTER_1.ipynb)",
+        "EDA-Red-Wine-Quality: jupyter notebook (red-wine-quality-exploratory-data-analysis.ipynb)",
+        "EDA-Red-Wine-Quality: numpy in requirements.txt",
+        "Tutorial-PyMongo: jupyter notebook (Python + Mongo = PyMongo.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "jainharsh644/Tutorial-Feature-Engineering-in-ML",
+        "jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 15,
+      "first_seen": "2021-01-02T14:22:11+00:00",
+      "last_seen": "2023-01-01T22:34:40+00:00",
+      "details": [
+        "Tutorial-Feature-Engineering-in-ML: 'ml' in repo name/description",
+        "EDA-Red-Wine-Quality: scikit-learn in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2021-05-24T11:32:42+00:00",
+      "last_seen": "2023-01-01T22:34:40+00:00",
+      "details": [
+        "EDA-Red-Wine-Quality: flask in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "deep-learning",
+      "repos": [
+        "jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2021-05-24T11:32:42+00:00",
+      "last_seen": "2023-01-01T22:34:40+00:00",
+      "details": [
+        "EDA-Red-Wine-Quality: keras in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2021-05-24T11:32:42+00:00",
+      "last_seen": "2023-01-01T22:34:40+00:00",
+      "details": [
+        "EDA-Red-Wine-Quality: matplotlib in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2021-05-24T11:32:42+00:00",
+      "last_seen": "2023-01-01T22:34:40+00:00",
+      "details": [
+        "EDA-Red-Wine-Quality: prometheus-client in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "jainharsh644/harsh"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4960460751957549,
+      "total_bytes": 70909,
+      "commit_count": 1,
+      "first_seen": "2021-07-25T06:24:32+00:00",
+      "last_seen": "2021-07-25T06:24:32+00:00",
+      "details": [
+        "harsh: HTML: 29,684 bytes (10% of repo)",
+        "harsh: CSS: 28,774 bytes (9% of repo)",
+        "harsh: SCSS: 6,514 bytes (2% of repo)",
+        "harsh: Less: 5,937 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "jainharsh644/Tutorial-PyMongo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2021-01-09T09:31:01+00:00",
+      "last_seen": "2023-01-06T18:23:18+00:00",
+      "details": [
+        "Tutorial-PyMongo: 'mongodb' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 37,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-16T14:14:26.733209+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

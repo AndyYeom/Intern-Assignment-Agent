@@ -1,0 +1,110 @@
+{
+  "github_login": "Electronscape",
+  "applicant_id": "applicant0109",
+  "first_name": "Eli",
+  "last_name": "Vantassel",
+  "career_stage": "student",
+  "email": "eli.vantassel@duskridge.example",
+  "phone": "(555) 010-0109",
+  "location": "Duskridge",
+  "linkedin": "linkedin.example.com/in/eli-vantassel",
+  "github_url": "github.example.com/eli-vantassel",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Duskridge Technical Academy",
+    "location": "Duskridge",
+    "degree": "Bachelor of Science",
+    "major": "Computer Engineering",
+    "minor": null,
+    "graduation": "June 2028",
+    "gpa": "3.4/4.0",
+    "coursework": [
+      "Digital Logic",
+      "Introduction to Assembly Programming",
+      "Computer Architecture",
+      "Intro to Cybersecurity"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Sidbox Hw Barebones",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Dec 2025",
+      "bullets": [
+        "Wrote bare-metal C and ARM assembly startup code for custom hardware, working directly with a custom linker script to control memory layout."
+      ],
+      "link": null,
+      "tech": [
+        "C",
+        "Makefile",
+        "Assembly",
+        "Linker Script"
+      ]
+    },
+    {
+      "title": "Sidbox Projects Applets",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Feb 2026",
+      "bullets": [
+        "Wrote low-level applications in C and ARM Thumb-2 assembly for custom hardware, documenting the toolchain setup for future contributors."
+      ],
+      "link": null,
+      "tech": [
+        "C",
+        "Assembly",
+        "Makefile",
+        "Batchfile"
+      ]
+    },
+    {
+      "title": "Sidbox Softwares",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built C and C++ command-line tools to test and package hardware project components, automating parts of the build with shell scripts."
+      ],
+      "link": null,
+      "tech": [
+        "Makefile",
+        "C++",
+        "CMake",
+        "C"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Duskridge Hardware Hackers",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "A memory corruption bug in the bare-metal startup code sparked curiosity about how the same bug class could be exploited, not fixed."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Shell Scripting",
+      "C/C++"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

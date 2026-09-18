@@ -1,0 +1,115 @@
+{
+  "github_login": "hgorledeenn",
+  "applicant_id": "applicant0136",
+  "first_name": "Maren",
+  "last_name": "Lindqvist",
+  "career_stage": "student",
+  "email": "maren@fenwick.example",
+  "phone": "(555) 010-1361",
+  "location": "Fenwick Harbor",
+  "linkedin": "linkedin.example.com/in/maren-lindqvist",
+  "github_url": "github.example.com/maren-lindqvist",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Alderpoint College",
+    "location": "Fenwick Harbor",
+    "degree": "Bachelor of Arts",
+    "major": "Statistics",
+    "minor": "Media Studies",
+    "graduation": "May 2027",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Data Visualization",
+      "Survey Methods",
+      "Human-Computer Interaction"
+    ],
+    "honors": [
+      "Dean's List, Fall 2025"
+    ]
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Chicago Reimbursements Site",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built an auto-updating scraper pipeline in Jupyter Notebook tracking city employee reimbursement payments for public transparency.",
+        "Added continuous integration to keep the dataset current, then restructured the site's layout after early readers found the raw tables confusing."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "title": "Baby Names IOC",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Feb 2026",
+      "bullets": [
+        "Designed a survey and used R to analyze the gender split of baby names across recent years.",
+        "Rebuilt a cluttered ggplot for-loop into simpler charts after peers struggled to compare name trends at a glance."
+      ],
+      "link": null,
+      "tech": [
+        "R",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Thomas Frank Spurs",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Apr 2026",
+      "bullets": [
+        "Analyzed a football manager's tenure using Jupyter Notebook, translating match statistics into readable visual summaries for casual fans."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Founding Organizer",
+      "organization": "Alderpoint Data Story Night",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Organized a recurring night where classmates presented data projects to non-technical peers, coaching presenters to lead with takeaways over methods.",
+        "Noticed peers' charts were technically sound but hard to read, and began sketching simpler layouts before finalizing analysis."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Data": [
+      "Data Analysis (pandas)"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

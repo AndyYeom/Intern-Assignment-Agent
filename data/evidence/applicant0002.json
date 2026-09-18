@@ -1,0 +1,255 @@
+{
+  "applicant_id": "applicant0002",
+  "github_login": "Eternalon03",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0002.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/ToDoAppGroupProject"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/ToDoAppGroupProject",
+          "html_url": "https://github.com/Eternalon03/ToDoAppGroupProject",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "CI config (.gitlab-ci.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Eternalon03/ToDoAppGroupProject",
+        "https://github.com/Eternalon03/theportfoliosite"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/ToDoAppGroupProject",
+          "html_url": "https://github.com/Eternalon03/ToDoAppGroupProject",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "CSS: 8,039 bytes (11% of repo)"
+          ]
+        },
+        {
+          "repo": "Eternalon03/theportfoliosite",
+          "html_url": "https://github.com/Eternalon03/theportfoliosite",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "CSS: 69,308 bytes (40% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/LazySummarizer-and-Paraphraser"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/LazySummarizer-and-Paraphraser",
+          "html_url": "https://github.com/Eternalon03/LazySummarizer-and-Paraphraser",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: used_by_others",
+            "JavaScript: 12,053 bytes (38% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/ToDoAppGroupProject"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/ToDoAppGroupProject",
+          "html_url": "https://github.com/Eternalon03/ToDoAppGroupProject",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Kotlin: 63,873 bytes (88% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/theportfoliosite"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/theportfoliosite",
+          "html_url": "https://github.com/Eternalon03/theportfoliosite",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Eternalon03/Hack-The-North-2025",
+        "https://github.com/Eternalon03/LazySummarizer-and-Paraphraser"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/Hack-The-North-2025",
+          "html_url": "https://github.com/Eternalon03/Hack-The-North-2025",
+          "level": 1,
+          "reasons": [
+            "entry: 36 commits, independent-work signals: documented",
+            "Python: 2,913 bytes (24% of repo)"
+          ]
+        },
+        {
+          "repo": "Eternalon03/LazySummarizer-and-Paraphraser",
+          "html_url": "https://github.com/Eternalon03/LazySummarizer-and-Paraphraser",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: used_by_others",
+            "Python: 17,633 bytes (56% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/theportfoliosite"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/theportfoliosite",
+          "html_url": "https://github.com/Eternalon03/theportfoliosite",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/theportfoliosite"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/theportfoliosite",
+          "html_url": "https://github.com/Eternalon03/theportfoliosite",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/theportfoliosite"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/theportfoliosite",
+          "html_url": "https://github.com/Eternalon03/theportfoliosite",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "TypeScript: 85,029 bytes (50% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Eternalon03/ToDoAppGroupProject"
+      ],
+      "repos": [
+        {
+          "repo": "Eternalon03/ToDoAppGroupProject",
+          "html_url": "https://github.com/Eternalon03/ToDoAppGroupProject",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "junit-jupiter-api in build.gradle"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 5,
+    "verified": 5
+  }
+}

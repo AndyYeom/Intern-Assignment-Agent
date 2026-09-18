@@ -1,0 +1,130 @@
+{
+  "applicant_id": "applicant0136",
+  "github_login": "hgorledeenn",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0136.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/hgorledeenn/Chicago-Reimbursements-site"
+      ],
+      "repos": [
+        {
+          "repo": "hgorledeenn/Chicago-Reimbursements-site",
+          "html_url": "https://github.com/hgorledeenn/Chicago-Reimbursements-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 117 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/update.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/hgorledeenn/baby-names-IOC",
+        "https://github.com/hgorledeenn/one-american-day"
+      ],
+      "repos": [
+        {
+          "repo": "hgorledeenn/baby-names-IOC",
+          "html_url": "https://github.com/hgorledeenn/baby-names-IOC",
+          "level": 2,
+          "reasons": [
+            "intermediate: 29 commits; deployed, documented",
+            "HTML: 5,691 bytes (25% of repo)"
+          ]
+        },
+        {
+          "repo": "hgorledeenn/one-american-day",
+          "html_url": "https://github.com/hgorledeenn/one-american-day",
+          "level": 2,
+          "reasons": [
+            "intermediate: 16 commits; deployed, documented",
+            "HTML: 15,214 bytes (58% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/hgorledeenn/Chicago-Reimbursements-site",
+        "https://github.com/hgorledeenn/thomas-frank-spurs"
+      ],
+      "repos": [
+        {
+          "repo": "hgorledeenn/Chicago-Reimbursements-site",
+          "html_url": "https://github.com/hgorledeenn/Chicago-Reimbursements-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 117 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "jupyter notebook (chicago_reimbursements_scraper.ipynb)"
+          ]
+        },
+        {
+          "repo": "hgorledeenn/thomas-frank-spurs",
+          "html_url": "https://github.com/hgorledeenn/thomas-frank-spurs",
+          "level": 2,
+          "reasons": [
+            "intermediate: 34 commits; deployed, multi_month_span, documented",
+            "jupyter notebook (data_analysis.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/hgorledeenn/Chicago-Reimbursements-site",
+        "https://github.com/hgorledeenn/thomas-frank-spurs"
+      ],
+      "repos": [
+        {
+          "repo": "hgorledeenn/Chicago-Reimbursements-site",
+          "html_url": "https://github.com/hgorledeenn/Chicago-Reimbursements-site",
+          "level": 2,
+          "reasons": [
+            "intermediate: 117 commits; has_ci, deployed, multi_month_span, many_active_days, documented",
+            "Jupyter Notebook: 112,537 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "hgorledeenn/thomas-frank-spurs",
+          "html_url": "https://github.com/hgorledeenn/thomas-frank-spurs",
+          "level": 2,
+          "reasons": [
+            "intermediate: 34 commits; deployed, multi_month_span, documented",
+            "Jupyter Notebook: 357,471 bytes (97% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 4
+  }
+}

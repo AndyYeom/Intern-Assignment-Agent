@@ -1,0 +1,100 @@
+{
+  "applicant_id": "applicant0048",
+  "github_login": "Fadi-khattak",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0048.json",
+  "skills": [
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Fadi-khattak/chequewallet",
+        "https://github.com/Fadi-khattak/location_tracking",
+        "https://github.com/Fadi-khattak/location_tracking_admin"
+      ],
+      "repos": [
+        {
+          "repo": "Fadi-khattak/chequewallet",
+          "html_url": "https://github.com/Fadi-khattak/chequewallet",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Dart: 301,708 bytes (100% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "Fadi-khattak/location_tracking",
+          "html_url": "https://github.com/Fadi-khattak/location_tracking",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Dart: 12,256 bytes (96% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "Fadi-khattak/location_tracking_admin",
+          "html_url": "https://github.com/Fadi-khattak/location_tracking_admin",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Dart: 12,256 bytes (96% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Fadi-khattak/chequewallet",
+        "https://github.com/Fadi-khattak/location_tracking",
+        "https://github.com/Fadi-khattak/location_tracking_admin"
+      ],
+      "repos": [
+        {
+          "repo": "Fadi-khattak/chequewallet",
+          "html_url": "https://github.com/Fadi-khattak/chequewallet",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "Fadi-khattak/location_tracking",
+          "html_url": "https://github.com/Fadi-khattak/location_tracking",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "Fadi-khattak/location_tracking_admin",
+          "html_url": "https://github.com/Fadi-khattak/location_tracking_admin",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: none",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 1
+  }
+}

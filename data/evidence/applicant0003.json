@@ -1,0 +1,349 @@
+{
+  "applicant_id": "applicant0003",
+  "github_login": "calumrussell",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0003.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/rotala"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/rotala",
+          "html_url": "https://github.com/calumrussell/rotala",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "GitHub Actions workflow (.github/workflows/check.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public",
+        "https://github.com/calumrussell/radiant"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "database migrations (next/prisma/migrations/0_init/migration.sql)"
+          ]
+        },
+        {
+          "repo": "calumrussell/radiant",
+          "html_url": "https://github.com/calumrussell/radiant",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: documented",
+            "sqlalchemy in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public",
+        "https://github.com/calumrussell/rotala",
+        "https://github.com/calumrussell/fides"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "docker-compose (docker-compose.yml)"
+          ]
+        },
+        {
+          "repo": "calumrussell/rotala",
+          "html_url": "https://github.com/calumrussell/rotala",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "Dockerfile (Dockerfile)"
+          ]
+        },
+        {
+          "repo": "calumrussell/fides",
+          "html_url": "https://github.com/calumrussell/fides",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: has_docker",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/calumrussell/radiant"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/radiant",
+          "html_url": "https://github.com/calumrussell/radiant",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: documented",
+            "fastapi in pyproject.toml"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/calumrussell/fides"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/fides",
+          "html_url": "https://github.com/calumrussell/fides",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: has_docker",
+            "JavaScript: 27,449 bytes (99% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "kubernetes manifests (next/lib/components/charts/__mock__/data.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public",
+        "https://github.com/calumrussell/fides"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "next config (next/next.config.js)"
+          ]
+        },
+        {
+          "repo": "calumrussell/fides",
+          "html_url": "https://github.com/calumrussell/fides",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: has_docker",
+            "next config (next.config.js)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "jupyter notebook (research/bust.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public",
+        "https://github.com/calumrussell/radiant"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "Jupyter Notebook: 771,911 bytes (55% of repo)"
+          ]
+        },
+        {
+          "repo": "calumrussell/radiant",
+          "html_url": "https://github.com/calumrussell/radiant",
+          "level": 1,
+          "reasons": [
+            "entry: 6 commits, independent-work signals: documented",
+            "Python: 98,755 bytes (71% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/calumrussell/fides"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/fides",
+          "html_url": "https://github.com/calumrussell/fides",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: has_docker",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "SQL file (next/prisma/migrations/0_init/migration.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/calumrussell/pytho-public",
+        "https://github.com/calumrussell/rotala"
+      ],
+      "repos": [
+        {
+          "repo": "calumrussell/pytho-public",
+          "html_url": "https://github.com/calumrussell/pytho-public",
+          "level": 3,
+          "reasons": [
+            "intermediate: 124 commits; has_tests, has_docker, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 9 fix/perf/refactor commits",
+            "test file (next/lib/components/charts/__tests__/charts.test.js)"
+          ]
+        },
+        {
+          "repo": "calumrussell/rotala",
+          "html_url": "https://github.com/calumrussell/rotala",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, multi_month_span, many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "test directory (rotala-python/src/tests/__init__.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 11
+  }
+}

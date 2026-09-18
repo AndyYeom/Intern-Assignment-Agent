@@ -1,0 +1,2086 @@
+{
+  "applicant_id": "applicant0124",
+  "login": "Kh3rwa1",
+  "html_url": "https://github.com/Kh3rwa1",
+  "created_at": "2020-04-01T07:49:04Z",
+  "account_age_days": 2359,
+  "public_repos": 23,
+  "followers": 3,
+  "following": 4,
+  "repos": [
+    {
+      "name": "olitunapp",
+      "full_name": "Kh3rwa1/olitunapp",
+      "html_url": "https://github.com/Kh3rwa1/olitunapp",
+      "description": "A beautifully crafted, offline-first learning platform for Ol Chiki (Santali Script) built with Flutter and Appwrite.",
+      "homepage": "https://olitun.in",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-19T14:44:50Z",
+      "pushed_at": "2026-09-17T00:59:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 31,
+      "size_kb": 102271,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [
+        "appwrite",
+        "dart",
+        "education",
+        "flutter",
+        "learning-platform",
+        "mobile-app",
+        "offline-first",
+        "ol-chiki",
+        "santali"
+      ],
+      "languages": {
+        "Dart": 7248123,
+        "JavaScript": 1413974,
+        "Python": 20843,
+        "HTML": 20505,
+        "Shell": 14168,
+        "Objective-C": 6497,
+        "Kotlin": 341
+      },
+      "primary_language": "Dart",
+      "file_count": 1729,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".gitleaks.toml",
+        ".metadata",
+        ".release-please-manifest.json",
+        ".replit",
+        ".vscode",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "PRIVACY.md",
+        "README.md",
+        "RELEASE_CHECKLIST.md",
+        "SECURITY.md",
+        "TERMS.md",
+        "analysis_options.yaml",
+        "android",
+        "appwrite.config.json",
+        "appwrite.json",
+        "assets",
+        "database",
+        "docs",
+        "functions",
+        "integration_test",
+        "ios",
+        "l10n.yaml",
+        "lib",
+        "opencode.json",
+        "package-lock.json",
+        "package.json",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "release-please-config.json",
+        "replit.md",
+        "scripts",
+        "server.js",
+        "test"
+      ],
+      "notable_files": [
+        ".github/workflows/build-apk.yml",
+        ".github/workflows/experience-evaluation.yml",
+        ".github/workflows/flutter-ci.yml",
+        ".github/workflows/iconscout-avatar-import.yml",
+        ".github/workflows/release-checklist.yml",
+        ".github/workflows/release-please.yml",
+        ".github/workflows/security-scan.yml",
+        ".github/workflows/staging-health.yml",
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts",
+        "functions/admin-maintenance/package.json",
+        "functions/aggregateLearningAnalytics/package.json",
+        "functions/backupCollections/package.json",
+        "functions/bintiWaitlist/package.json",
+        "functions/cleanupAnalyticsEvents/package.json",
+        "functions/completeMistakeReview/package.json",
+        "functions/createRazorpayOrder/package.json",
+        "functions/delete-account/package.json",
+        "functions/generateAudio/package.json",
+        "functions/getAuthorizedLesson/package.json",
+        "functions/getUserGamificationSummary/package.json",
+        "functions/getUserMistakes/package.json",
+        "functions/manageAdminAccess/package.json",
+        "functions/markMistakeMastered/package.json",
+        "functions/mutateReviewState/package.json",
+        "functions/razorpayWebhook/package.json",
+        "functions/reconcileOrphanedDeletions/package.json",
+        "functions/reconcilePaymentAttempts/package.json",
+        "functions/recordBakhedProgress/package.json",
+        "functions/recordMistake/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@vitalets/google-translate-api",
+          "node-appwrite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 11835,
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/icons/olitun_logo.png\" width=\"140\" alt=\"Olitun\"/>\n</p>\n\n<h1 align=\"center\">Olitun — Learn Anything, Anywhere, Even Offline</h1>\n\n<p align=\"center\">\n  <em>A beautifully crafted, offline-first learning platform for Ol Chiki (Santali Script) built with Flutter.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://olitun.in\"><b>Official Website: olitun.in</b></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/actions/workflow/status/Kh3rwa1/olitunapp/flutter-ci.yml?branch=main&style=for-the-badge&label=CI\" />\n  <img src=\"https://img.shields.io/codecov/c/github/Kh3rwa1/olitunapp?style=for-the-badge&label=coverage\" />\n  <img src=\"https://img.shields.io/badge/Flutter-3.35%2B-02569B?style=for-the-badge&logo=flutter\" />\n  <img src=\"https://img.shields.io/badge/platforms-Android%20%7C%20iOS%20%7C%20Web-blue?style=for-the-badge\" />\n  <img src=\"https://img.shields.io/github/license/Kh3rwa1/olitunapp?style=for-the-badge\" />\n  <img src=\"https://img.shields.io/github/v/release/Kh3rwa1/olitunapp?style=for-the-badge\" />\n</p>\n\n<p align=\"center\">\n  <img src=\"assets/images/screenshots/screenshot_lessons.png\" width=\"800\" alt=\"Olitun lessons preview\"",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 6,
+      "contribution_share": 0.923,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-08-09T06:58:53+00:00",
+        "last_at": "2026-09-17T00:55:05+00:00",
+        "active_days": 26,
+        "span_days": 38,
+        "max_per_day": 26,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Santali AI Voice studio with Bodhan TTS and key rotation (#364)",
+          "chore(lint): wire custom_lint and riverpod_lint into CI (#363)",
+          "chore: clear deprecation backlog and harden repo hygiene (#362)",
+          "hotfix: restore vocabulary and sentence lesson blocks (#361)",
+          "Paginate review-state compatibility listing (#360)",
+          "fix: paginate review state list action (#359)",
+          "Cover web-only platform helpers (#358)",
+          "Secure premium lesson listing and permission cutover (#357)",
+          "Production hardening: durable offline retries and fail-closed delivery (#356)",
+          "feat(review): enforce Function-only review mutations, TablesDB sync, … (#355)",
+          "feat(learning): spaced repetition review, unified mistake state, and home action lifecycle (#354)",
+          "fix(web): show onboarding after guest sign-in and web OAuth (#353)",
+          "feat(profile): Ol Chiki funny avatar display names (#352)",
+          "fix(audio): single shared player for Bakhed, lessons and lock SFX (#351)",
+          "fix(ci): ignore SDK-incompatible pub majors until Appwrite builder upgrades (#344)",
+          "fix(deps): cap lottie and image_picker for Appwrite flutter-3.35 builder (#343)",
+          "feat(lessons): Eyes SFX on lock takeover (#342)",
+          "fix(motion): SpringPop plays on mount (#341)",
+          "fix(lessons): lock CTA explicitly tappable with snackbar fallback (#340)",
+          "feat(lessons): fun locked-lesson takeover; fix Bakhed tab alignment (#339)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1340
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 9,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 7,248,123 bytes (83% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,413,974 bytes (16% of repo)",
+          "strength": 0.562070255194281
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 20,843 bytes (0% of repo)",
+          "strength": 0.4023890328457344
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 20,505 bytes (0% of repo)",
+          "strength": 0.40235029115299065
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 14,168 bytes (0% of repo)",
+          "strength": 0.4016239417242415
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 6,497 bytes (0% of repo)",
+          "strength": 0.40074468869158647
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build-apk.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (database/schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ACCESSIBILITY.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (functions/admin-maintenance/test/main.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "topic",
+          "detail": "repo topic 'dart'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "flutter",
+          "source": "repo_name",
+          "detail": "'flutter' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8724451,
+        "strong_skills": [
+          "cicd",
+          "flutter",
+          "javascript",
+          "native-mobile",
+          "sql",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ArcadiaApp",
+      "full_name": "Kh3rwa1/ArcadiaApp",
+      "html_url": "https://github.com/Kh3rwa1/ArcadiaApp",
+      "description": "Arcadia App - TikTok Game",
+      "homepage": "https://arcadia-app-six.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-20T04:33:04Z",
+      "pushed_at": "2026-08-27T06:25:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 36547,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 1400888,
+        "TypeScript": 346636,
+        "Python": 247602,
+        "PHP": 118345,
+        "JavaScript": 30725,
+        "CSS": 23328,
+        "Dockerfile": 626
+      },
+      "primary_language": "HTML",
+      "file_count": 447,
+      "top_level_paths": [
+        ".agent",
+        ".docker",
+        ".dockerignore",
+        ".editorconfig",
+        ".env.example",
+        ".expo",
+        ".github",
+        ".gitignore",
+        ".prettierignore",
+        ".prettierrc",
+        "AGENTS.md",
+        "App.tsx",
+        "BRIDGE_CONTRACT.md",
+        "DESIGN_SYSTEM.md",
+        "Dockerfile",
+        "MVP_SPEC.md",
+        "README.md",
+        "TECHNICAL_SPEC.md",
+        "app",
+        "app.json",
+        "artisan",
+        "assets",
+        "babel.config.js",
+        "bootstrap",
+        "build-1768284681208.apk",
+        "build-1768285743882.apk",
+        "build-1768903203461.apk",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "durra-bird.zip",
+        "durra-blocks.zip",
+        "eas.json",
+        "eslint.config.js",
+        "games_src",
+        "index.ts",
+        "jest.config.js",
+        "neon-nebula.zip",
+        "package-lock.json"
+      ],
+      "notable_files": [
+        ".github/workflows/production.yml",
+        "Dockerfile",
+        "composer.json",
+        "package.json",
+        "server/package.json"
+      ],
+      "manifests": {
+        "composer.json": [
+          "allow-plugins",
+          "autoload",
+          "config",
+          "description",
+          "keywords",
+          "laravel/framework",
+          "laravel/tinker",
+          "license",
+          "minimum-stability",
+          "name",
+          "optimize-autoloader",
+          "pestphp/pest-plugin",
+          "php",
+          "php-http/discovery",
+          "prefer-stable",
+          "preferred-install",
+          "psr-4",
+          "require",
+          "sort-packages",
+          "type"
+        ],
+        "package.json": [
+          "@expo/metro-runtime",
+          "@expo/ngrok",
+          "@expo/vector-icons",
+          "@react-native-async-storage/async-storage",
+          "@testing-library/jest-native",
+          "@testing-library/react-native",
+          "@types/jest",
+          "@types/react",
+          "babel-preset-expo",
+          "expo",
+          "expo-blur",
+          "expo-haptics",
+          "expo-linear-gradient",
+          "expo-linking",
+          "expo-screen-orientation",
+          "expo-status-bar",
+          "jest",
+          "jest-expo",
+          "react",
+          "react-dom",
+          "react-native",
+          "react-native-safe-area-context",
+          "react-native-screens",
+          "react-native-web",
+          "react-native-webview",
+          "react-test-renderer",
+          "ts-jest",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1451,
+      "readme_excerpt": "# DURRA — TikTok Games Platform\n\n## 🌐 Backend (Laravel)\n### Overview\nHigh-performance Laravel backend for an Android-first HTML5 game streaming platform. Optimized for low-latency feed delivery and secure game deployments.\n\n### Architecture\n- **API-First**: Designed for mobile consumers.\n- **Stateless Feed**: Cursor-based pagination for fluid swipe discovery.\n- **Atomic Deployments**: Versioned game storage to prevent caching issues and allow rollbacks.\n- **Analytics Pipeline**: Lightweight logging for engagement metrics.\n\n### Tech Stack\n- Laravel 11.x\n- MySQL 8.0\n- PHP 8.2+\n- Redis (for Feed Caching & Analytics buffering)\n\n---\n\n## 📱 Mobile App (React Native)\n\n### 🚀 Quick Start\n#### Development\n```bash\ncd ArcadiaApp\nnpm install\nnpm start\n```\nThen press `a` to open on Android emulator or scan QR with Expo Go app.\n\n### 📦 Project Structure\n```\nArcadiaApp/\n├── App.tsx                    # Entry point\n├── src/\n│   ├── components/\n│   │   ├── GameCard.tsx       # WebView container with lifecycle\n│   │   └── ActionRail.tsx     # Like/Share/Restart buttons\n│   ├── screens/\n│   │   └── GameFeedScreen.tsx # Main vertical feed\n│   ├── services/\n│   │   └── api.ts             # API + Analytics",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.561,
+      "commits": {
+        "count": 23,
+        "first_at": "2026-02-06T03:22:01+00:00",
+        "last_at": "2026-08-27T06:25:38+00:00",
+        "active_days": 4,
+        "span_days": 202,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "refactor: final 10/10 pass — remove dead code, add tests, clean secrets",
+          "fix(ci): make composer audit non-blocking (pre-existing upstream vulns)",
+          "fix(ci): add .env.example for Laravel CI",
+          "fix(ci): update lockfile, use Node 22, add --passWithNoTests",
+          "fix(ci): add Expo build+test job, fix PHP 8.4 requirement",
+          "refactor: upgrade DURRA from prototype to production quality",
+          "Merge pull request #4 from Kh3rwa1/codex/implement-fallback-lock-for-game-interactions",
+          "Merge branch 'main' into codex/implement-fallback-lock-for-game-interactions",
+          "Merge pull request #6 from Kh3rwa1/codex/add-10-mobile-friendly-html5-games-09s6vx",
+          "Merge branch 'main' into codex/add-10-mobile-friendly-html5-games-09s6vx",
+          "Reduce PR merge conflicts by isolating quick-hit game additions",
+          "Merge pull request #7 from Kh3rwa1/codex/improve-game-graphics-and-logic",
+          "Add shared AAA visual and progression enhancer to all games",
+          "Add 10 quick-hit arcade games with smooth mobile gameplay",
+          "Merge pull request #5 from Kh3rwa1/codex/add-10-mobile-friendly-html5-games",
+          "Add 10 mobile-optimized AAA HTML5 games",
+          "Add interaction-based playing lock fallback for game feed",
+          "Merge pull request #3 from Kh3rwa1/codex/improve-app-ui-to-aaa+-quality",
+          "Polish game feed UI for premium visual quality",
+          "Merge pull request #2 from Kh3rwa1/codex/update-handlegameevent-with-normalized-event-map"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 216
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 2,
+          "refactor": 2,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,400,888 bytes (65% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 346,636 bytes (16% of repo)",
+          "strength": 0.5598763923160298
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 247,602 bytes (11% of repo)",
+          "strength": 0.5141996633074281
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 30,725 bytes (1% of repo)",
+          "strength": 0.41417106749994237
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 23,328 bytes (1% of repo)",
+          "strength": 0.41075940317782444
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (.agent/skills/testing-patterns/scripts/test_runner.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (.docker/nginx.conf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/production.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (database/migrations/2025_01_01_000000_create_game_system_tables.php)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "manifest",
+          "detail": "@testing-library/react-native in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/jest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2049805,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "html-css",
+          "linux",
+          "react",
+          "react-native",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "offline-qr-school-attendance",
+      "full_name": "Kh3rwa1/offline-qr-school-attendance",
+      "html_url": "https://github.com/Kh3rwa1/offline-qr-school-attendance",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-12T06:07:36Z",
+      "pushed_at": "2026-09-09T12:21:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 17,
+      "size_kb": 8925,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "TypeScript": 2926409,
+        "HTML": 139241,
+        "Shell": 100160,
+        "PLpgSQL": 58697,
+        "CSS": 8832,
+        "JavaScript": 6120,
+        "Dockerfile": 962
+      },
+      "primary_language": "TypeScript",
+      "file_count": 703,
+      "top_level_paths": [
+        ".dockerignore",
+        ".env.example",
+        ".github",
+        ".gitignore",
+        ".gitleaks.toml",
+        "CHANGELOG.md",
+        "Dockerfile",
+        "LICENSE",
+        "README.md",
+        "THREAT_MODEL.md",
+        "bin",
+        "data",
+        "docker",
+        "docker-compose.yml",
+        "docs",
+        "drizzle",
+        "drizzle.config.ts",
+        "eslint.config.mjs",
+        "index.html",
+        "k8s",
+        "metadata.json",
+        "monitoring",
+        "package-lock.json",
+        "package.json",
+        "playwright.config.ts",
+        "public",
+        "sbom.json",
+        "scripts",
+        "server.ts",
+        "sms-worker.ts",
+        "src",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "vitest.config.ts"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/full-scale-load.yml",
+        ".github/workflows/hardware-gate.yml",
+        ".github/workflows/r2-disaster-recovery.yml",
+        ".github/workflows/release.yml",
+        "Dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@axe-core/playwright",
+          "@electric-sql/pglite",
+          "@playwright/test",
+          "@tailwindcss/vite",
+          "@tanstack/react-query",
+          "@types/better-sqlite3",
+          "@types/cookie",
+          "@types/cookie-parser",
+          "@types/express",
+          "@types/express-rate-limit",
+          "@types/ioredis",
+          "@types/multer",
+          "@types/node",
+          "@types/pg",
+          "@types/qrcode",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "@zxing/browser",
+          "@zxing/library",
+          "argon2",
+          "autoprefixer",
+          "better-sqlite3",
+          "cookie",
+          "cookie-parser",
+          "dexie",
+          "dexie-react-hooks",
+          "dotenv",
+          "drizzle-kit",
+          "drizzle-orm",
+          "esbuild",
+          "exceljs",
+          "express",
+          "express-rate-limit",
+          "fake-indexeddb",
+          "ioredis",
+          "jsdom",
+          "lucide-react",
+          "motion",
+          "multer",
+          "pg",
+          "qrcode",
+          "rate-limit-redis",
+          "react",
+          "react-dom",
+          "react-router-dom",
+          "tailwindcss",
+          "tsx",
+          "typescript",
+          "vite",
+          "vitest",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 7109,
+      "readme_excerpt": "# AttendEase OS — UHF RFID Gate Attendance Appliance for Zebra FX9600\n\nAn enterprise, bilingual (**English** + **বাংলা**) UHF RFID gate attendance appliance built for **Zebra FX9600** fixed RFID readers (EPC Class 1 Gen 2 / ISO 18000-63) with legacy offline QR support. Engineered for walk-through gate attendance in schools, supporting Zebra IoT Connector HTTP webhooks, HMAC-SHA256 signature verification, per-reader Bearer authentication, duplicate debounce filtering, teacher review/finalization, automated AES-256 encrypted backups, and fail-closed tenant security.\n\n> **Hardware Architecture**:\n> - **Fixed Reader**: Zebra FX9600 UHF Fixed Reader (Ethernet / PoE, 4 or 8 antenna ports).\n> - **Tags**: Passive UHF EPC Gen2 badges/cards (ISO 18000-63).\n> - **Integration**: Zebra IoT Connector HTTP/HTTPS webhook (`POST /api/v1/schools/:schoolId/rfid/zebra/reads`).\n> - **Legacy / Unsupported**: MIFARE / DESFire / PC/SC smartcard readers are **not supported**.\n\n---\n\n## 🚀 One-Command Production Installation\n\nOn an Ubuntu 22.04/24.04 LTS (x86_64 or ARM64) server or appliance:\n\n```bash\n# 1. Clone repository\ngit clone https://github.com/Kh3rwa1/offline-qr-school-attendance.git /opt/attendease\nc",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.997,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-08-13T14:14:50+00:00",
+        "last_at": "2026-09-09T12:18:42+00:00",
+        "active_days": 8,
+        "span_days": 26,
+        "max_per_day": 67,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: harden gateway production contracts (#84)",
+          "chore(ci/security/docs): fix Playwright timeout, harden backup key handling, expand monitoring, add claims registry (#76)",
+          "feat: 10/10 truth, localization, accessibility and evidence readiness (#75)",
+          "feat: 10/10 polish — demo video, comparison table, first-run UX, CI retry hardening (#74)",
+          "fix: close all 10/10 gaps — ESLint, lazy dashboards, SCAN loop, landing page, RLS",
+          "fix(reporting): enforce immutable government-reporting contract (#72)",
+          "fix: make the alerting pipeline actually able to fire, and enable it by default (#71)",
+          "feat(reporting): deliver government-ready one-click attendance exports (#70)",
+          "feat(ops): off-site encrypted backup replication + working alert delivery (#69)",
+          "fix(e2e): eliminate English fallbacks, programmatic focus, silent skips, and expand operational states (#68)",
+          "perf: immutable static asset caching, vendor chunk splitting, non-blocking webfont loading (#65)",
+          "fix(e2e): isolate locale storage in offline scenarios (#67)",
+          "fix(test-certification): close final Bengali, keyboard and state-coverage gaps (#66)",
+          "fix(test-integrity): eliminate silent skips, expand Axe/touch coverage, RFID CI matrix, genuine zoom, exact focus (#62)",
+          "fix(logic): server-side client-clock skew guard + adaptive visibility-aware teacher polling (#64)",
+          "fix(dashboards): truthful data on every dashboard — real RFID stats, honest super-admin, locale-correct dates (#63)",
+          "feat(i18n): Hinglish (हिन्दी) as third language option — landing page + app-wide (#61)",
+          "fix: complete independently verifiable accessibility and Bengalish release gates (#60)",
+          "fix: cross-school offline scoping, 44px touch targets & real dimension verification (#59)",
+          "fix: non-super-admin dashboards verified 10/10 production standard (#58)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 376
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 14,
+          "perf": 1,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 2,926,409 bytes (90% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 139,241 bytes (4% of repo)",
+          "strength": 0.4429700338320237
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 100,160 bytes (3% of repo)",
+          "strength": 0.43090956391160284
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 58,697 bytes (2% of repo)",
+          "strength": 0.4181140043222779
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 8,832 bytes (0% of repo)",
+          "strength": 0.40272557176984103
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,120 bytes (0% of repo)",
+          "strength": 0.4018886434818192
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ACADEMIC_CALENDAR_GUIDE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (drizzle/0000_baseline.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (k8s/configmap.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "file",
+          "detail": "monitoring config (monitoring/grafana/rfid-dashboard.json)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (playwright.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/a11yAndMobileUx.test.tsx)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "@axe-core/playwright in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@types/express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "redis",
+          "source": "manifest",
+          "detail": "@types/ioredis in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "@types/pg in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "drizzle-orm in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3240421,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "integration-testing",
+          "kubernetes",
+          "linux",
+          "monitoring",
+          "nodejs",
+          "postgresql",
+          "react",
+          "redis",
+          "sql",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "annapurna-pdf-helper",
+      "full_name": "Kh3rwa1/annapurna-pdf-helper",
+      "html_url": "https://github.com/Kh3rwa1/annapurna-pdf-helper",
+      "description": "Client-side Annapurna Yojana OCR PDF helper PWA",
+      "homepage": "https://annapurna-pdf-helper-frontend.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-01T06:40:01Z",
+      "pushed_at": "2026-06-01T09:06:21Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 561,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 99208,
+        "CSS": 19248,
+        "JavaScript": 4081,
+        "HTML": 689
+      },
+      "primary_language": "TypeScript",
+      "file_count": 39,
+      "top_level_paths": [
+        ".gitignore",
+        "AUDIO.md",
+        "FIELD_NAMES.md",
+        "LOCALES.md",
+        "README.md",
+        "backend",
+        "frontend",
+        "package-lock.json",
+        "package.json"
+      ],
+      "notable_files": [
+        "backend/package.json",
+        "frontend/package.json",
+        "package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4165,
+      "readme_excerpt": "# Annapurna Yojana Client-Side PDF Helper\n\nProduction-oriented scaffold for an installable PWA that scans ID documents, runs OCR in the browser, lets the user review and correct extracted values, overlays confirmed values on the original Annapurna Yojana PDF, previews it, and downloads `annapurna_filled.pdf`.\n\n## Privacy Model\n\n- Document images, Aadhaar data, OCR text, and generated PDFs stay inside the browser.\n- The frontend never uploads document or personal data.\n- The backend skeleton is payment-ready only. It must never receive or store documents, OCR text, Aadhaar numbers, PAN numbers, addresses, or generated PDFs.\n- The app shows the required privacy line: \"🔒 Your documents never leave your phone\".\n\n## Project Layout\n\n- `frontend/` - React + Vite PWA using `tesseract.js`, `pdf-lib`, and a Workbox service worker.\n- `backend/` - Minimal Express skeleton for future payment integration.\n- `frontend/public/forms/annapurna-form.pdf` - Original 11-page form copied from the supplied PDF.\n- `frontend/public/fieldMap.json` - Placeholder coordinate map. Replace this with a calibrated map before production use.\n- `FIELD_NAMES.md` - Field-name contract shared by app code, `fieldMap.jso",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2026-06-01T06:39:55+00:00",
+        "last_at": "2026-06-01T09:05:49+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Rebuild assist flow around guided card scans",
+          "Polish assist mode for guided use",
+          "Add agent and assist mode toggle",
+          "Fix OCR targeting and PDF text fitting",
+          "Initial Annapurna PDF helper PWA"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 20
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 99,208 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 19,248 bytes (16% of repo)",
+          "strength": 0.5562008017788453
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,081 bytes (3% of repo)",
+          "strength": 0.43311801080940715
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (backend/.env.example)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 123226,
+        "strong_skills": [
+          "html-css",
+          "linux",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "anything",
+      "full_name": "Kh3rwa1/anything",
+      "html_url": "https://github.com/Kh3rwa1/anything",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-05T04:39:44Z",
+      "pushed_at": "2026-08-27T03:07:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 58743,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 853584,
+        "JavaScript": 47090,
+        "CSS": 15369,
+        "Kotlin": 4486
+      },
+      "primary_language": "TypeScript",
+      "file_count": 343,
+      "top_level_paths": [
+        ".easignore",
+        ".env.example",
+        ".eslintignore",
+        ".github",
+        ".gitignore",
+        ".oxfmtrc.json",
+        ".oxlintrc.json",
+        ".vscode",
+        ".yarn",
+        ".yarnrc.yml",
+        "README.md",
+        "apps",
+        "appwrite.json",
+        "db",
+        "package.json",
+        "publisher",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        "apps/mobile/android/app/build.gradle",
+        "apps/mobile/android/build.gradle",
+        "apps/mobile/package.json",
+        "apps/web/package.json",
+        "package.json",
+        "publisher/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@playwright/test",
+          "oxfmt",
+          "oxlint"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4095,
+      "readme_excerpt": "# IAs Academy\n\nIAs Academy is an Expo learner app backed by a Next.js admin console and API, using Appwrite Cloud for identity and data.\n\n## Local setup\n\nRequirements: Node.js 22+, Corepack, and an Appwrite Cloud project.\n\n1. Copy `apps/web/.env.example` to `apps/web/.env.local` and fill in every value.\n2. Enable Yarn: `corepack enable`.\n3. Install exactly from the lockfile: `corepack yarn install --immutable`.\n   All React Native/expo patches live in-repo under `.yarn/patches/`.\n4. In the Appwrite console (or via the Appwrite CLI), create the attributes and\n   collections below if they do not exist yet.\n5. Start the web/API app: `corepack yarn workspace web dev`.\n6. Seed demo content (optional): `corepack yarn workspace web seed`.\n\nNever expose the database URL, auth secret, OAuth secrets, session tokens, or production signing credentials through a `NEXT_PUBLIC_` or `EXPO_PUBLIC_` variable.\n\n### Appwrite schema\n\nCollections (database `main`, see `apps/web/src/lib/appwrite.ts`):\n\n- Existing content collections: courses, lessons, enrollments, enrollment codes,\n  notifications, settings, mock tests, questions, test attempts, push tokens.\n- `job_prep_code_redemptions` — one document p",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 35,
+        "first_at": "2026-07-05T04:39:51+00:00",
+        "last_at": "2026-08-27T03:07:10+00:00",
+        "active_days": 7,
+        "span_days": 52,
+        "max_per_day": 13,
+        "low_effort_message_ratio": 0.029,
+        "messages_sample": [
+          "feat: E2E tests, OpenAPI spec, CSP enforcement, rate limiter hardening",
+          "feat: production hardening — security, API, mobile, web, testing, hygiene",
+          "style(admin): redesign command center dashboard UI using Shadcn components (Card, Badge, Button, Progress, Skeleton, Avatar) for luxury agency finish",
+          "feat(web): integrate GSAP ScrollTrigger timeline entrance reveals and magnetic button cursor attraction",
+          "build(mobile): add EAS preview profile for APK generation and build helper commands",
+          "feat(landing): add interactive custom glowing cursor follower, cursor spotlight, and 3D card tilt effects",
+          "style(landing): add dynamic multi-color gradient text shimmer and animated background mesh grid drift",
+          "style(landing): add gentle float, glow pulse, and glass shine animations to web landing page",
+          "feat(web): add SEO sitemap, robots.txt, Schema.org JSON-LD structured data and component tests",
+          "feat(admin): add admin audit logging system and CSV reporting exporter with unit test coverage",
+          "feat(mobile): add native offline download manager and unit tests; fix web build engine",
+          "feat: polish app experience and test access",
+          "fix(web): remove mobile-only lucide-react-native imports and type definitions from web types file",
+          "fix(mobile): resolve type checking errors from API client and IAP test casting",
+          "fix(ci): upgrade Node 20→22, enable Corepack for Yarn 4, use --immutable",
+          "refactor: push to 10/10 - decompose god components, add unit/integration tests, rate limiting, and structured logging",
+          "style(animations): implement infinite marquee ticker and smooth lift-on-hover micro-animations",
+          "style(landing): remove AI slop design patterns, default to clean light theme with solid colors",
+          "style(partners): replace global corporate entities with Jharkhand government exams and regional employers",
+          "style(copy): simplify landing page and auth page copies for Jharkhand students"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 253
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 0,
+          "refactor": 2,
+          "test": 8,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 853,584 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 47,090 bytes (5% of repo)",
+          "strength": 0.4511553682719393
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 15,369 bytes (2% of repo)",
+          "strength": 0.4166958346776691
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 4,486 bytes (0% of repo)",
+          "strength": 0.40487328481775153
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (apps/mobile/__create/report-error-to-remote.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (apps/mobile/android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (apps/mobile/metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (apps/mobile/tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (apps/web/e2e/admin.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (apps/web/next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 920529,
+        "strong_skills": [
+          "cicd",
+          "integration-testing",
+          "linux",
+          "native-mobile",
+          "nextjs",
+          "react-native",
+          "tailwind",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 7248123,
+    "TypeScript": 4225837,
+    "HTML": 1561323,
+    "JavaScript": 1501990,
+    "Python": 268445,
+    "PHP": 118345,
+    "Shell": 114328,
+    "CSS": 66777,
+    "PLpgSQL": 58697,
+    "Objective-C": 6497,
+    "Kotlin": 4827,
+    "Dockerfile": 1588
+  },
+  "total_commits": 463,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/annapurna-pdf-helper",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1627411,
+      "commit_count": 463,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: HTML: 20,505 bytes (0% of repo)",
+        "ArcadiaApp: HTML: 1,400,888 bytes (65% of repo)",
+        "ArcadiaApp: CSS: 23,328 bytes (1% of repo)",
+        "offline-qr-school-attendance: HTML: 139,241 bytes (4% of repo)",
+        "offline-qr-school-attendance: CSS: 8,832 bytes (0% of repo)",
+        "annapurna-pdf-helper: CSS: 19,248 bytes (16% of repo)",
+        "anything: CSS: 15,369 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/annapurna-pdf-helper",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4225837,
+      "commit_count": 263,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "ArcadiaApp: TypeScript: 346,636 bytes (16% of repo)",
+        "ArcadiaApp: typescript in package.json",
+        "offline-qr-school-attendance: TypeScript: 2,926,409 bytes (90% of repo)",
+        "offline-qr-school-attendance: typescript in package.json",
+        "annapurna-pdf-helper: TypeScript: 99,208 bytes (81% of repo)",
+        "anything: TypeScript: 853,584 bytes (93% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "Kh3rwa1/olitunapp"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 7248123,
+      "commit_count": 200,
+      "first_seen": "2026-08-09T06:58:53+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: Dart: 7,248,123 bytes (83% of repo)",
+        "olitunapp: flutter project (pubspec.yaml)",
+        "olitunapp: repo topic 'dart'",
+        "olitunapp: 'flutter' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 458,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: test directory (functions/admin-maintenance/test/main.test.js)",
+        "ArcadiaApp: test file (.agent/skills/testing-patterns/scripts/test_runner.py)",
+        "ArcadiaApp: @types/jest in package.json",
+        "offline-qr-school-attendance: test directory (tests/a11yAndMobileUx.test.tsx)",
+        "offline-qr-school-attendance: vitest in package.json",
+        "anything: test file (apps/mobile/__create/report-error-to-remote.test.js)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 235,
+      "first_seen": "2026-07-05T04:39:51+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: e2e suite (playwright.config.ts)",
+        "offline-qr-school-attendance: @playwright/test in package.json",
+        "anything: e2e suite (apps/web/e2e/admin.spec.ts)",
+        "anything: @playwright/test in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 223,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "ArcadiaApp: database migrations (database/migrations/2025_01_01_000000_create_game_system_tables.php)",
+        "offline-qr-school-attendance: drizzle-orm in package.json"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest",
+        "file"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 58,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-08-27T06:25:38+00:00",
+      "details": [
+        "ArcadiaApp: @testing-library/react-native in package.json",
+        "anything: React Native bundler config (apps/mobile/metro.config.js)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 223,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "ArcadiaApp: @types/react in package.json",
+        "offline-qr-school-attendance: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest",
+        "file"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 235,
+      "first_seen": "2026-07-05T04:39:51+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: tailwindcss in package.json",
+        "anything: tailwind config (apps/mobile/tailwind.config.js)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 58697,
+      "commit_count": 200,
+      "first_seen": "2026-08-13T14:14:50+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: PLpgSQL: 58,697 bytes (2% of repo)",
+        "offline-qr-school-attendance: @types/pg in package.json"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-13T14:14:50+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: @axe-core/playwright in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-13T14:14:50+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: @types/express in package.json"
+      ]
+    },
+    {
+      "skill_id": "redis",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-13T14:14:50+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: @types/ioredis in package.json"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 458,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: GitHub Actions workflow (.github/workflows/build-apk.yml)",
+        "ArcadiaApp: GitHub Actions workflow (.github/workflows/production.yml)",
+        "offline-qr-school-attendance: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "anything: GitHub Actions workflow (.github/workflows/ci.yml)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/annapurna-pdf-helper",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 263,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "ArcadiaApp: server config (.docker/nginx.conf)",
+        "offline-qr-school-attendance: env config (.env.example)",
+        "annapurna-pdf-helper: env config (backend/.env.example)",
+        "anything: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 10983,
+      "commit_count": 235,
+      "first_seen": "2026-07-05T04:39:51+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: Objective-C: 6,497 bytes (0% of repo)",
+        "olitunapp: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "anything: Kotlin: 4,486 bytes (0% of repo)",
+        "anything: Android app manifest (apps/mobile/android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2026-08-09T06:58:53+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: SQL file (database/schema.sql)",
+        "offline-qr-school-attendance: SQL file (drizzle/0000_baseline.sql)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2026-08-09T06:58:53+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: docs directory (docs/ACCESSIBILITY.md)",
+        "offline-qr-school-attendance: docs directory (docs/ACADEMIC_CALENDAR_GUIDE.md)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 223,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "ArcadiaApp: Dockerfile (Dockerfile)",
+        "offline-qr-school-attendance: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-13T14:14:50+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: kubernetes manifests (k8s/configmap.yaml)"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-13T14:14:50+00:00",
+      "last_seen": "2026-09-09T12:18:42+00:00",
+      "details": [
+        "offline-qr-school-attendance: monitoring config (monitoring/grafana/rfid-dashboard.json)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 35,
+      "first_seen": "2026-07-05T04:39:51+00:00",
+      "last_seen": "2026-08-27T03:07:10+00:00",
+      "details": [
+        "anything: next config (apps/web/next.config.js)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/ArcadiaApp",
+        "Kh3rwa1/offline-qr-school-attendance",
+        "Kh3rwa1/annapurna-pdf-helper",
+        "Kh3rwa1/anything"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.562070255194281,
+      "total_bytes": 1501990,
+      "commit_count": 463,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: JavaScript: 1,413,974 bytes (16% of repo)",
+        "ArcadiaApp: JavaScript: 30,725 bytes (1% of repo)",
+        "offline-qr-school-attendance: JavaScript: 6,120 bytes (0% of repo)",
+        "annapurna-pdf-helper: JavaScript: 4,081 bytes (3% of repo)",
+        "anything: JavaScript: 47,090 bytes (5% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/ArcadiaApp"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5141996633074281,
+      "total_bytes": 268445,
+      "commit_count": 223,
+      "first_seen": "2026-02-06T03:22:01+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: Python: 20,843 bytes (0% of repo)",
+        "ArcadiaApp: Python: 247,602 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Kh3rwa1/olitunapp",
+        "Kh3rwa1/offline-qr-school-attendance"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43090956391160284,
+      "total_bytes": 114328,
+      "commit_count": 400,
+      "first_seen": "2026-08-09T06:58:53+00:00",
+      "last_seen": "2026-09-17T00:55:05+00:00",
+      "details": [
+        "olitunapp: Shell: 14,168 bytes (0% of repo)",
+        "offline-qr-school-attendance: Shell: 100,160 bytes (3% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 463,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 23,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:31:58.262998+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

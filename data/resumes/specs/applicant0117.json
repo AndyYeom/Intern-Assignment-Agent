@@ -1,0 +1,113 @@
+{
+  "github_login": "NrmeenAraby",
+  "applicant_id": "applicant0117",
+  "first_name": "Idris",
+  "last_name": "Mensah",
+  "career_stage": "student",
+  "email": "idris@brackwater.example",
+  "phone": "(555) 010-0117",
+  "location": "Brackwater",
+  "linkedin": "linkedin.example.com/in/idris-mensah",
+  "github_url": "github.example.com/idris-mensah",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Brackwater Polytechnic",
+    "location": "Brackwater",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Applied Statistics",
+    "graduation": "Jun 2026",
+    "gpa": "3.4/4.0",
+    "coursework": [
+      "Data Structures",
+      "Operating Systems",
+      "Applied Statistics",
+      "Data Visualization"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "M7fazty",
+      "organization": null,
+      "location": null,
+      "start": "Jul 2025",
+      "end": "Jul 2025",
+      "bullets": [
+        "Built a Qt-based C++ data structures project for a systems course, organizing the implementation across the module boundaries the assignment defined."
+      ],
+      "link": null,
+      "tech": [
+        "Makefile",
+        "CMake",
+        "C++",
+        "C"
+      ]
+    },
+    {
+      "title": "FOS Operating System",
+      "organization": null,
+      "location": null,
+      "start": "Jul 2025",
+      "end": "Jul 2025",
+      "bullets": [
+        "Implemented a small C and Assembly operating system for a coursework assignment, working through boot sequencing and Makefile build steps."
+      ],
+      "link": null,
+      "tech": [
+        "C",
+        "Assembly",
+        "Makefile",
+        "Shell"
+      ]
+    },
+    {
+      "title": "Currency Converter",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2025",
+      "end": "Aug 2025",
+      "bullets": [
+        "Wrote a C# currency converter and found inconsistent exchange-rate inputs partway through, which prompted a closer look at how the source data was formatted before trusting it."
+      ],
+      "link": null,
+      "tech": [
+        "C#"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Volunteer Analyst",
+      "organization": "Brackwater Open Data Meetup",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Volunteered with a community group cleaning a public transit dataset, cross-checking timestamps against posted schedules before using it in a course visualization exercise.",
+        "Relabeled axes and added plain-language context to a chart that had caused non-technical volunteers to misread it."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C/C++",
+      "C#",
+      "Shell Scripting",
+      "Python"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

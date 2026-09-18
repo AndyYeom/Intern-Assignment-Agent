@@ -1,0 +1,750 @@
+{
+  "applicant_id": "applicant0005",
+  "login": "eltonyeung",
+  "html_url": "https://github.com/eltonyeung",
+  "created_at": "2020-01-22T09:54:59Z",
+  "account_age_days": 2429,
+  "public_repos": 10,
+  "followers": 2,
+  "following": 7,
+  "repos": [
+    {
+      "name": "video2img",
+      "full_name": "eltonyeung/video2img",
+      "html_url": "https://github.com/eltonyeung/video2img",
+      "description": "Forked from drstarson",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-08-06T04:14:01Z",
+      "pushed_at": "2021-08-12T10:05:55Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6007,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 1247
+      },
+      "primary_language": "Python",
+      "file_count": 2,
+      "top_level_paths": [
+        "Demo.MP4",
+        "video2img.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2021-08-10T08:44:34+00:00",
+        "last_at": "2021-08-12T10:05:42+00:00",
+        "active_days": 2,
+        "span_days": 2,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Added argparse for calling subject ID directly from cmd",
+          "reinitialized & added zfill fxn"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,247 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1247,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "kps_calibration",
+      "full_name": "eltonyeung/kps_calibration",
+      "html_url": "https://github.com/eltonyeung/kps_calibration",
+      "description": "Calibrating and syncing KinectV2 and Mediapipe kps output",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-08-18T05:39:31Z",
+      "pushed_at": "2021-09-13T08:09:07Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "MATLAB": 28950
+      },
+      "primary_language": "MATLAB",
+      "file_count": 4,
+      "top_level_paths": [
+        "README.md",
+        "kps_analyses.m",
+        "kps_calibration.m",
+        "kps_timeseries.m"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 930,
+      "readme_excerpt": "# KPS_Calibration\nKeypoints analyses -- Run in the following order\n\n1) kps_timeseries.m \n2) kps_calibration.m  (In trial)\n3) kps_analyses.m\n\n\n\nkps_timeseries.m\n------------\n* Extract timeseries from Kinect & Phone .csv file\n* Visualize timeseries data, followed by time syncing between Kinect\n& phone skeleton recording and the video recording file.\n* Trim additional recording times \n* Construct \"timetables\" format datacube for stitching and synchronizing\nbetween timeseries data (using linear interpolation)\n* Save & output timetables as \"ts_cube\" for further analyses\n\nkps_calibration.m\n-------------\n(Piloting) \n* Thoughts: Scaling and Translation of kps in space for overlap\n* Skeleton-based\n* kps-based\n* Normalized space?\n* Pixel space\n* Real-life distance?   (may require visual calibration?)\n\n\nkps_analyses.m\n------------\nRequires ts_cube from kps_timeseries.m\n* Preprocessing?\n* Correlation\n* RMSE \n* Agreement (Kappa)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2021-08-18T05:43:39+00:00",
+        "last_at": "2021-09-13T08:07:08+00:00",
+        "active_days": 6,
+        "span_days": 26,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Updated protocol",
+          "added pilot correlation analysis",
+          "added save ts_cube fxn; cleaned code",
+          "updated readme.md",
+          "fixed synchronize tt & added correlation analysis",
+          "synchronize & concat timetables",
+          "Timeseries syncing",
+          "Modified translation",
+          "initiation",
+          "initial commit: kp-based linear sync"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mediapipe_eval",
+      "full_name": "eltonyeung/mediapipe_eval",
+      "html_url": "https://github.com/eltonyeung/mediapipe_eval",
+      "description": "Running mediapipe for kps extraction",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-08-11T05:01:49Z",
+      "pushed_at": "2021-12-15T12:35:27Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 790,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 16506
+      },
+      "primary_language": "Python",
+      "file_count": 12,
+      "top_level_paths": [
+        ".idea",
+        "00786.jpg",
+        "786.jpg",
+        "README.md",
+        "mediapipe_eval.py",
+        "mediapipe_eval_vid.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1092,
+      "readme_excerpt": "# mediapipe_eval\nExtract bodily keypoints from still images from Video2img output or Video files using mediapipe pose estimation model.\n\n**Requirements:**\nos\nmediapipe\ncv2\npandas\n\n\n**Configs:**\n- line 19: src_folder -- locate source folder.\n- line 23: Subject_num -- Identify subject number from the list of SUBJECT_ID in which we want to extract kps from.\n- line 24: kps_output_path -- path for outputting final kps excel sheet \n\n\n**Sample input (still image)**                ------------------------------->                    **Sample output (annotated image)**\n\n<img width=\"400\" alt=\"portfolio_view\" src=\"https://github.com/eltonyeung/mediapipe_eval/blob/main/00786.jpg\">     <img width=\"400\" alt=\"portfolio_view\" src=\"https://github.com/eltonyeung/mediapipe_eval/blob/main/786.jpg\">\n\n\n\n**kps (x, y)_rounded**\n- Nose (801, 629)\n- R_shoulder (725, 702)\n- L_shoulder (900, 742)\n- R_elbow (644, 571)\n- L_elbow (933, 894)\n- R_wrist (609, 427)\n- L_wrist (926,1030)\n- R_hip (747, 1041)\n- L_hip (859, 1046)\n- R_knee (738, 1277)\n- L_knee (877, 1271)\n- R_ankle (736, 1492)\n- L_ankle (864, 1494)\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2021-08-11T05:05:46+00:00",
+        "last_at": "2021-12-15T08:35:16+00:00",
+        "active_days": 3,
+        "span_days": 126,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.643,
+        "messages_sample": [
+          "Modified for direct video pose-estimation",
+          "Merge remote-tracking branch 'origin/main'",
+          "Added argparse for calling subject ID directly from cmd",
+          "Create README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Modified config & path directory",
+          "upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 16,506 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 16506,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Logistic_regression_clinical_deterioration",
+      "full_name": "eltonyeung/Logistic_regression_clinical_deterioration",
+      "html_url": "https://github.com/eltonyeung/Logistic_regression_clinical_deterioration",
+      "description": "Adapted from NROD08 Assignment 2, WInter 2019. By Blake Richards.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-07-21T07:58:25Z",
+      "pushed_at": "2020-08-12T08:53:06Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 17,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "MATLAB": 36701
+      },
+      "primary_language": "MATLAB",
+      "file_count": 9,
+      "top_level_paths": [
+        "autohyperparamtuning.m",
+        "backward_pass.m",
+        "calculate_error.m",
+        "calculate_loss.m",
+        "clinicaldeterioration.m",
+        "forward_pass.m",
+        "load_data.m",
+        "show_weights.m",
+        "sigmoid.m"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2020-07-21T08:01:36+00:00",
+        "last_at": "2020-08-12T08:53:05+00:00",
+        "active_days": 2,
+        "span_days": 22,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload",
+          "Grid-searching for tuning hyperparameters",
+          "Adapted from NROD08, Winter 2019, By Blake Richards"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "NOAH-SummatedCM",
+      "full_name": "eltonyeung/NOAH-SummatedCM",
+      "html_url": "https://github.com/eltonyeung/NOAH-SummatedCM",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-06-13T11:45:06Z",
+      "pushed_at": "2020-06-14T13:09:38Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 86,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "MATLAB": 67485
+      },
+      "primary_language": "MATLAB",
+      "file_count": 7,
+      "top_level_paths": [
+        "Corrected-Apple_summatedCM_pos_normalized(exclude occluded,oof,removal).jpeg",
+        "Kappa distribution",
+        "README.md",
+        "SummatedCM.m",
+        "kappadistribution.m",
+        "kappadistribution_posture (Stacked).png",
+        "kappadistribution_posture.png"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 426,
+      "readme_excerpt": "# NOAH-SummatedCM\n\nSummated confusion matrix with each second of annotation treated as an indepdent incident, displaying inter-rater agreement among their postures rating across all participants.\n\n\n- 2020-06-14 Update -\nBar plot for displaying distribution of postures across \n\n![SummatedPostureCMdistribution](/kappadistribution_posture.png)\n\n![SummatedPostureCMdistributionstacked](/kappadistribution_posture (Stacked).png)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2020-06-13T11:45:07+00:00",
+        "last_at": "2020-06-14T13:09:38+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.909,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Create Kappa distribution",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "MATLAB": 133136,
+    "Python": 17753
+  },
+  "total_commits": 41,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "eltonyeung/video2img",
+        "eltonyeung/mediapipe_eval"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 17753,
+      "commit_count": 16,
+      "first_seen": "2021-08-10T08:44:34+00:00",
+      "last_seen": "2021-12-15T08:35:16+00:00",
+      "details": [
+        "video2img: Python: 1,247 bytes (100% of repo)",
+        "mediapipe_eval: Python: 16,506 bytes (100% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 41,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 1,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "distinct_skills"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3; distinct_skills: 1 < 3"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-16T14:14:20.267870+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3; distinct_skills: 1 < 3"
+  ]
+}

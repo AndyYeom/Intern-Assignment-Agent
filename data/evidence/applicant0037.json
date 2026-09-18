@@ -1,0 +1,231 @@
+{
+  "applicant_id": "applicant0037",
+  "github_login": "sjdnye",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0037.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sjdnye/weblog-nodejs"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/weblog-nodejs",
+          "html_url": "https://github.com/sjdnye/weblog-nodejs",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "CSS: 239,469 bytes (44% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sjdnye/contact-manager-app",
+        "https://github.com/sjdnye/portfolio",
+        "https://github.com/sjdnye/todolist-nodejs",
+        "https://github.com/sjdnye/weblog-nodejs"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/contact-manager-app",
+          "html_url": "https://github.com/sjdnye/contact-manager-app",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "JavaScript: 44,029 bytes (97% of repo)"
+          ]
+        },
+        {
+          "repo": "sjdnye/portfolio",
+          "html_url": "https://github.com/sjdnye/portfolio",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "JavaScript: 80,176 bytes (99% of repo)"
+          ]
+        },
+        {
+          "repo": "sjdnye/todolist-nodejs",
+          "html_url": "https://github.com/sjdnye/todolist-nodejs",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "JavaScript: 13,617 bytes (79% of repo)"
+          ]
+        },
+        {
+          "repo": "sjdnye/weblog-nodejs",
+          "html_url": "https://github.com/sjdnye/weblog-nodejs",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "JavaScript: 276,726 bytes (51% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "mongodb",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sjdnye/todolist-nodejs"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/todolist-nodejs",
+          "html_url": "https://github.com/sjdnye/todolist-nodejs",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "mongoose in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 3,
+      "status": "conflicting",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sjdnye/Sadra-Doc"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/Sadra-Doc",
+          "html_url": "https://github.com/sjdnye/Sadra-Doc",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: none",
+            "Kotlin: 71,213 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Advanced; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sjdnye/todolist-nodejs"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/todolist-nodejs",
+          "html_url": "https://github.com/sjdnye/todolist-nodejs",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sjdnye/contact-manager-app",
+        "https://github.com/sjdnye/portfolio"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/contact-manager-app",
+          "html_url": "https://github.com/sjdnye/contact-manager-app",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "sjdnye/portfolio",
+          "html_url": "https://github.com/sjdnye/portfolio",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, follow_along_phrase",
+            "@emotion/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sjdnye/todolist-nodejs"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/todolist-nodejs",
+          "html_url": "https://github.com/sjdnye/todolist-nodejs",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "docs directory (node_modules/readable-stream/doc/wg-meetings/2015-01-30.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/sjdnye/todolist-nodejs"
+      ],
+      "repos": [
+        {
+          "repo": "sjdnye/todolist-nodejs",
+          "html_url": "https://github.com/sjdnye/todolist-nodejs",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "test directory (node_modules/bl/test/indexOf.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "conflicting": 1,
+    "partially_verified": 4,
+    "verified": 3
+  }
+}

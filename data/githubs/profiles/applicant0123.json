@@ -1,0 +1,1328 @@
+{
+  "applicant_id": "applicant0123",
+  "login": "proyectosids",
+  "html_url": "https://github.com/proyectosids",
+  "created_at": "2025-02-13T16:40:46Z",
+  "account_age_days": 580,
+  "public_repos": 23,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "edi-301-app",
+      "full_name": "proyectosids/edi-301-app",
+      "html_url": "https://github.com/proyectosids/edi-301-app",
+      "description": "Aplicacion de gestion y control de familias edi y red social.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-02T17:06:34Z",
+      "pushed_at": "2026-09-17T00:55:09Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5304,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 1125755,
+        "C++": 27283,
+        "CMake": 19968,
+        "Swift": 3495,
+        "Ruby": 3474,
+        "HTML": 3175,
+        "C": 1425,
+        "Kotlin": 370,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 306,
+      "top_level_paths": [
+        ".DS_Store",
+        ".vscode",
+        "edi301"
+      ],
+      "notable_files": [
+        "edi301/android/app/build.gradle.kts",
+        "edi301/android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 133
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 1,125,755 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 27,283 bytes (2% of repo)",
+          "strength": 0.4230239589935046
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 3,495 bytes (0% of repo)",
+          "strength": 0.40294940940081
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,175 bytes (0% of repo)",
+          "strength": 0.40267936333263854
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (0% of repo)",
+          "strength": 0.401202548897326
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (edi301/android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (edi301/pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 1161541,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "dormulv-app",
+      "full_name": "proyectosids/dormulv-app",
+      "html_url": "https://github.com/proyectosids/dormulv-app",
+      "description": "app frontend de dormitorio disciplina",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-20T14:20:52Z",
+      "pushed_at": "2026-05-07T17:08:56Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3571,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 348339,
+        "HTML": 131389,
+        "C++": 25332,
+        "CMake": 19822,
+        "Swift": 2438,
+        "C": 1425,
+        "Kotlin": 127,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 206,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "devtools_options.yaml",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 562,
+      "readme_excerpt": "# gestion_dormitorios\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 89
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 348,339 bytes (66% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 131,389 bytes (25% of repo)",
+          "strength": 0.6484146641205498
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 25,332 bytes (5% of repo)",
+          "strength": 0.4478947268911535
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 2,438 bytes (0% of repo)",
+          "strength": 0.40460947987370255
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (0% of repo)",
+          "strength": 0.40269422018868994
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 509088,
+        "strong_skills": [
+          "flutter",
+          "html-css",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "unipass-frontend",
+      "full_name": "proyectosids/unipass-frontend",
+      "html_url": "https://github.com/proyectosids/unipass-frontend",
+      "description": "unipass-frontend",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-12T21:08:18Z",
+      "pushed_at": "2025-08-09T02:16:45Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7533,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 501917,
+        "CMake": 172433,
+        "C++": 24146,
+        "Swift": 4560,
+        "Ruby": 2755,
+        "HTML": 1881,
+        "C": 1425,
+        "Kotlin": 133,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 533,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        ".vscode",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 33605,
+      "readme_excerpt": "<<<<<<< HEAD\n# UniPassULV\nProyecto de desarrollo móvil para la gestión de salidas y entrada de la Universidad Linda Vista\n=======\n# flutter_application_unipass\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\n\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n\nPara el nombre de la aplicación:\n```\nflutter pub run change_app_package_name:main com.irvingdesarrolla.UNIPASS\n```\n\nPara el icono de la aplicacion:\n```\nflutter pub run flutter_launcher_icons\n```\n\nPara cambiar el splash creen:\n```\nflutter pub run flutter_native_splash:create\n```\n\nAndroid ABB\n```\nflutter build appbundle\n```\nConsiderar que por cada Bundle que se genene vamos tenemos que cambiar la version del proyecto el los siguientes archivos:\n- android/app/build.gradle\n- android/local.propities",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 95
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 501,917 bytes (71% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 24,146 bytes (3% of repo)",
+          "strength": 0.43404258918803085
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 4,560 bytes (1% of repo)",
+          "strength": 0.4064289823033803
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,881 bytes (0% of repo)",
+          "strength": 0.4026519552001444
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (0% of repo)",
+          "strength": 0.4020090569698064
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 534100,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "edi301-backend",
+      "full_name": "proyectosids/edi301-backend",
+      "html_url": "https://github.com/proyectosids/edi301-backend",
+      "description": "backend de la app de ULV para edis 301",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-15T18:33:38Z",
+      "pushed_at": "2026-09-17T00:59:58Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1631,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 352881,
+        "TSQL": 43398
+      },
+      "primary_language": "JavaScript",
+      "file_count": 128,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "captain-definition",
+        "diagnostics",
+        "migrations",
+        "package-lock.json",
+        "package.json",
+        "send-broadcast.js",
+        "src",
+        "test"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "bcryptjs",
+          "cloudinary",
+          "cors",
+          "dotenv",
+          "express",
+          "express-fileupload",
+          "express-rate-limit",
+          "firebase-admin",
+          "joi",
+          "jsonwebtoken",
+          "mssql",
+          "node-cron",
+          "nodemon",
+          "sharp",
+          "socket.io",
+          "streamifier",
+          "uuid"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3783,
+      "readme_excerpt": "\n# 📘 EDI 301 - Sistema de Gestión Institucional\n\nSistema backend desarrollado en **Node.js + Express + SQL Server** para la gestión integral del programa **EDI 301**.  \nPermite administrar usuarios, familias, miembros, publicaciones, agenda, provisiones, mensajería y más, mediante una API REST estructurada y segura.\n\n---\n\n# 🚀 Tecnologías utilizadas\n\n- Node.js\n- Express.js\n- SQL Server\n- JWT (Autenticación basada en tokens)\n- bcrypt (Encriptación de contraseñas)\n- dotenv (Variables de entorno)\n- CORS\n- Morgan (Logs de peticiones)\n- Nodemon (Desarrollo)\n\n---\n\n# 🏗️ Estructura del Proyecto\n\nEl proyecto se organiza por capas para mantener separación de responsabilidades:\n\nconfig/         → Configuración general (DB, variables de entorno)\ncontrollers/    → Lógica de controladores\nroutes/         → Definición de endpoints\nmiddlewares/    → Autenticación y validaciones\nmodels/         → Acceso a base de datos\nservices/       → Lógica de negocio\nutils/          → Funciones auxiliares\n\n---\n\n# 📡 Endpoints Principales\n\nLa API expone las siguientes rutas base:\n\n/api/usuarios\n/api/familias\n/api/miembros\n/api/auth\n/api/publicaciones\n/api/fotos\n/api/agenda\n/api/search\n/api/roles\n/api/estados\n/api/",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 110
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 352,881 bytes (89% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "sql",
+          "source": "language",
+          "detail": "TSQL: 43,398 bytes (11% of repo)",
+          "strength": 0.5095137516749563
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (diagnostics/sql_blocking.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (migrations/001_create_usuario_sesiones.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (test/performance-guards.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase-admin in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "jsonwebtoken in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "websockets",
+          "source": "manifest",
+          "detail": "socket.io in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 396279,
+        "strong_skills": [
+          "auth",
+          "data-modeling",
+          "gcp-azure",
+          "javascript",
+          "nodejs",
+          "sql",
+          "unit-testing",
+          "websockets"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "phisycs-simulator",
+      "full_name": "proyectosids/phisycs-simulator",
+      "html_url": "https://github.com/proyectosids/phisycs-simulator",
+      "description": "phisycs-simulator",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-12T21:21:50Z",
+      "pushed_at": "2025-05-14T14:56:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 38926,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 69431,
+        "JavaScript": 4143
+      },
+      "primary_language": "Python",
+      "file_count": 1933,
+      "top_level_paths": [
+        ".env",
+        "README.md",
+        "assets",
+        "node_modules",
+        "package-lock.json",
+        "package.json",
+        "src"
+      ],
+      "notable_files": [
+        "node_modules/@mongodb-js/saslprep/package.json",
+        "node_modules/@types/webidl-conversions/package.json",
+        "node_modules/@types/whatwg-url/package.json",
+        "node_modules/accepts/package.json",
+        "node_modules/anymatch/package.json",
+        "node_modules/array-flatten/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/binary-extensions/package.json",
+        "node_modules/body-parser/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/braces/package.json",
+        "node_modules/bson/package.json",
+        "node_modules/bson/vendor/base64/package.json",
+        "node_modules/bson/vendor/text-encoding/package.json",
+        "node_modules/bytes/package.json",
+        "node_modules/call-bind-apply-helpers/package.json",
+        "node_modules/call-bound/package.json",
+        "node_modules/chokidar/package.json",
+        "node_modules/concat-map/package.json",
+        "node_modules/content-disposition/package.json",
+        "node_modules/content-type/package.json",
+        "node_modules/cookie-signature/package.json",
+        "node_modules/cookie/package.json",
+        "node_modules/cors/package.json",
+        "node_modules/debug/package.json",
+        "node_modules/depd/package.json",
+        "node_modules/destroy/package.json",
+        "node_modules/dotenv/package.json",
+        "node_modules/dunder-proto/package.json",
+        "node_modules/ee-first/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "cors",
+          "dotenv",
+          "express",
+          "mongoose",
+          "nodemon"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 47019,
+      "readme_excerpt": "# Simulador Educativo de Física\n\n## Índice\n\n- **RESUMEN.**\n- **ESPECIFICACIÓN DE REQUISITOS DEL SOFTWARE.**\n  - Introducción.\n  - Descripción general.\n  - Requisitos específicos.\n  - Casos de uso.\n  - Restricciones.\n- **DISEÑO DE ARQUITECTURA DEL SOFTWARE.**\n  - Introducción.\n  - Diagrama de arquitectura.\n  - Descripción de componentes y sus interfaces.\n  - Patrones de diseño y vista gráfica.\n  - Resultados de diseño.\n- **MANUAL DE USUARIO.**\n  - Guía de instalación.\n  - Guía de uso.\n  - Preguntas frecuentes.\n  - Solución de problemas comunes.\n- **MANUAL DE MANTENIMIENTO.**\n  - Procedimientos de mantenimiento.\n  - Plan de actualizaciones.\n  - Manejo de errores.\n  - Copias de seguridad y recuperación.\n  - Consideraciones especiales.\n- **PLAN DE GESTIÓN DE CONFIGURACIÓN.**\n  - Gestión de configuración del software.\n- **PLAN DE GESTIÓN DEL PROYECTO.**\n  - Introducción.\n  - Planificación del cronograma.\n  - Gestión de riesgo.\n  - Gestión de calidad.\n- **GUÍA DE IMPLEMENTACIÓN.**\n  - Requisitos del sistema.\n  - Descarga y configuración.\n  - Ejecución del simulador.\n  - Interacción con el simulador.\n  - Problemas comunes y soluciones.\n- **DOCUMENTACIÓN DE LA API.**\n- **REFERENCIAS.**\n\n##",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1134
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 69,431 bytes (94% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,143 bytes (6% of repo)",
+          "strength": 0.4563106532198875
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (node_modules/call-bind-apply-helpers/test/index.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongoose in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 73574,
+        "strong_skills": [
+          "mongodb",
+          "nodejs",
+          "python",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 1976011,
+    "JavaScript": 357024,
+    "CMake": 212223,
+    "HTML": 136445,
+    "C++": 76761,
+    "Python": 69431,
+    "TSQL": 43398,
+    "Swift": 10493,
+    "Ruby": 6229,
+    "C": 4275,
+    "Kotlin": 630,
+    "Objective-C": 114
+  },
+  "total_commits": 0,
+  "skill_evidence": [
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "proyectosids/edi-301-app",
+        "proyectosids/dormulv-app",
+        "proyectosids/unipass-frontend"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1976011,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi-301-app: Dart: 1,125,755 bytes (95% of repo)",
+        "edi-301-app: flutter project (edi301/pubspec.yaml)",
+        "dormulv-app: Dart: 348,339 bytes (66% of repo)",
+        "dormulv-app: flutter project (pubspec.yaml)",
+        "unipass-frontend: Dart: 501,917 bytes (71% of repo)",
+        "unipass-frontend: flutter project (pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "proyectosids/edi301-backend",
+        "proyectosids/phisycs-simulator"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 357024,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: JavaScript: 352,881 bytes (89% of repo)",
+        "phisycs-simulator: JavaScript: 4,143 bytes (6% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "proyectosids/phisycs-simulator"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 69431,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "phisycs-simulator: Python: 69,431 bytes (94% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "proyectosids/edi301-backend",
+        "proyectosids/phisycs-simulator"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: express in package.json",
+        "phisycs-simulator: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "proyectosids/edi301-backend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: firebase-admin in package.json"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "proyectosids/edi301-backend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: jsonwebtoken in package.json"
+      ]
+    },
+    {
+      "skill_id": "websockets",
+      "repos": [
+        "proyectosids/edi301-backend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: socket.io in package.json"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "proyectosids/phisycs-simulator"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "phisycs-simulator: mongoose in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "proyectosids/edi-301-app",
+        "proyectosids/dormulv-app",
+        "proyectosids/unipass-frontend"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6484146641205498,
+      "total_bytes": 136445,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi-301-app: HTML: 3,175 bytes (0% of repo)",
+        "dormulv-app: HTML: 131,389 bytes (25% of repo)",
+        "unipass-frontend: HTML: 1,881 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "proyectosids/edi-301-app",
+        "proyectosids/dormulv-app",
+        "proyectosids/unipass-frontend"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 10493,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi-301-app: Swift: 3,495 bytes (0% of repo)",
+        "edi-301-app: Android app manifest (edi301/android/app/src/debug/AndroidManifest.xml)",
+        "dormulv-app: Swift: 2,438 bytes (0% of repo)",
+        "dormulv-app: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "unipass-frontend: Swift: 4,560 bytes (1% of repo)",
+        "unipass-frontend: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "proyectosids/edi301-backend",
+        "proyectosids/phisycs-simulator"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: test directory (test/performance-guards.test.js)",
+        "phisycs-simulator: test directory (node_modules/call-bind-apply-helpers/test/index.js)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "proyectosids/edi301-backend"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 43398,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: TSQL: 43,398 bytes (11% of repo)",
+        "edi301-backend: SQL file (diagnostics/sql_blocking.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "proyectosids/edi301-backend"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi301-backend: database migrations (migrations/001_create_usuario_sesiones.sql)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "proyectosids/edi-301-app",
+        "proyectosids/dormulv-app",
+        "proyectosids/unipass-frontend"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4478947268911535,
+      "total_bytes": 81036,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "edi-301-app: C++: 27,283 bytes (2% of repo)",
+        "edi-301-app: C: 1,425 bytes (0% of repo)",
+        "dormulv-app: C++: 25,332 bytes (5% of repo)",
+        "dormulv-app: C: 1,425 bytes (0% of repo)",
+        "unipass-frontend: C++: 24,146 bytes (3% of repo)",
+        "unipass-frontend: C: 1,425 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 0,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 0,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 13,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 0 < 3; total_commits: 0 < 20"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:31:40.379240+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 0 < 3; total_commits: 0 < 20",
+    "no commits attributed to this login - check commit email config"
+  ]
+}

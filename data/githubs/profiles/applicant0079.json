@@ -1,0 +1,615 @@
+{
+  "applicant_id": "applicant0079",
+  "login": "sceuick",
+  "html_url": "https://github.com/sceuick",
+  "created_at": "2020-01-31T17:56:50Z",
+  "account_age_days": 2420,
+  "public_repos": 6,
+  "followers": 16,
+  "following": 3,
+  "repos": [
+    {
+      "name": "agn-ai",
+      "full_name": "sceuick/agn-ai",
+      "html_url": "https://github.com/sceuick/agn-ai",
+      "description": "AI Agnostic Chat",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-02-21T02:48:33Z",
+      "pushed_at": "2023-05-29T15:59:56Z",
+      "stargazers": 4,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 1370,
+      "default_branch": "dev",
+      "license": "AGPL-3.0",
+      "topics": [
+        "ai",
+        "chatbot"
+      ],
+      "languages": {
+        "TypeScript": 210154,
+        "CSS": 3748,
+        "Shell": 892,
+        "Python": 890,
+        "Dockerfile": 621,
+        "JavaScript": 540,
+        "HTML": 479
+      },
+      "primary_language": "TypeScript",
+      "file_count": 145,
+      "top_level_paths": [
+        ".babelrc",
+        ".dockerignore",
+        ".env.template",
+        ".github",
+        ".gitignore",
+        ".postcssrc",
+        ".prettierrc",
+        ".vscode",
+        "Dockerfile",
+        "LICENSE.md",
+        "README.md",
+        "common",
+        "db",
+        "docker-compose.yml",
+        "instructions",
+        "model",
+        "package.json",
+        "pnpm-lock.yaml",
+        "public.ts",
+        "requirements.sh",
+        "requirements.txt",
+        "screenshots",
+        "srv",
+        "srv.tsconfig.json",
+        "tailwind.config.js",
+        "tsconfig.json",
+        "web"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        ".github/workflows/pipeline.yml",
+        "Dockerfile",
+        "package.json",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/core",
+          "@solidjs/router",
+          "@types/bcryptjs",
+          "@types/cors",
+          "@types/express",
+          "@types/js-cookie",
+          "@types/jsonwebtoken",
+          "@types/mongodb",
+          "@types/multiparty",
+          "@types/nedb",
+          "@types/needle",
+          "@types/node",
+          "@types/showdown",
+          "@types/uuid",
+          "@types/ws",
+          "babel-preset-solid",
+          "bcryptjs",
+          "buffer",
+          "concurrently",
+          "cors",
+          "dotenv",
+          "express",
+          "frisker",
+          "gpt-3-encoder",
+          "js-cookie",
+          "jsonwebtoken",
+          "localtunnel",
+          "lucide-solid",
+          "mkdirp",
+          "mongodb",
+          "multiparty",
+          "needle",
+          "nodemon",
+          "parcel",
+          "pino",
+          "pino-pretty",
+          "postcss",
+          "prettier",
+          "prettier-plugin-tailwindcss",
+          "process",
+          "showdown",
+          "solid-js",
+          "solid-refresh",
+          "tailwindcss",
+          "typescript",
+          "uuid",
+          "ws",
+          "zustand"
+        ],
+        "requirements.txt": [
+          "accelerate",
+          "bitsandbytes",
+          "flexgen",
+          "git",
+          "numpy",
+          "safetensors"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3672,
+      "readme_excerpt": "# AgnAIstic\n\n> Agnai: AI Agnostic, Self-hosted or Multi-tenant\n\nAI Agnostic Chat\n\nBased upon the early work of https://github.com/PygmalionAI/galatea-ui.\n\n<div style=\"display: flex; flex-direction: row; gap: 0.5rem;\" >\n<img src=\"https://github.com/sceuick/agn-ai/blob/dev/screenshots/chat.png?raw=true\" height=\"150\">\n<img src=\"https://github.com/sceuick/agn-ai/blob/dev/screenshots/persona.png?raw=true\" height=\"150\">\n<img src=\"https://github.com/sceuick/agn-ai/blob/dev/screenshots/settings.png?raw=true\" height=\"150\">\n</div>\n\n## Features\n\n- Multiple AI adapters: Support for Kobold, Novel, AI Horde, Chai\n- Group Conversations: Multiple users with one character/bot\n- Multiple persona schema formats (W++, Square bracket format, Boostyle)\n- Multi-tenancy:\n  - User authentication\n  - Individual user settings: Which adapter to use and their own adapter configuration\n  - Individual user generation settings (_In progress_)\n- Chat overrides:\n  - Change the AI adapter for a specific chat\n  - Change the character for a specific chat\n\n## Roadmap\n\nSee the [roadmap here](https://github.com/users/sceuick/projects/1).\n\n## Quick Start for Users\n\n> CAUTION: This project is in an early stage of developme",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 7,
+      "contribution_share": 0.754,
+      "commits": {
+        "count": 129,
+        "first_at": "2023-02-13T01:56:23+00:00",
+        "last_at": "2023-03-05T00:25:23+00:00",
+        "active_days": 19,
+        "span_days": 19,
+        "max_per_day": 25,
+        "low_effort_message_ratio": 0.023,
+        "messages_sample": [
+          "Do not throw on horde error",
+          "- Add .env template",
+          "Use mkdirp",
+          "Server asset folder",
+          "Set default horde model to pyg 6b",
+          "Remove get summary from chat detail",
+          "Migrate to mongodb",
+          "Allow configurable asset folder",
+          "Fix settings error",
+          "Enable novel and kobold in prod",
+          "Pass params to parcel correctly",
+          "Use zustand default export",
+          "Fix middleware errors",
+          "Add file in dockerfile",
+          "Use js instead of swc-node",
+          "Support docker secret in config",
+          "Disable checks",
+          "Enable deployment",
+          "Rename ci file",
+          "Update tsconfig"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 118
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 210,154 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,748 bytes (2% of repo)",
+          "strength": 0.41724613940475974
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@types/express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "@types/jsonwebtoken in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "websockets",
+          "source": "manifest",
+          "detail": "@types/ws in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongodb in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "state-management",
+          "source": "manifest",
+          "detail": "zustand in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "git",
+          "source": "manifest",
+          "detail": "git in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 217324,
+        "strong_skills": [
+          "auth",
+          "cicd",
+          "docker",
+          "git",
+          "mongodb",
+          "nodejs",
+          "pandas",
+          "state-management",
+          "tailwind",
+          "typescript",
+          "websockets"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 210154,
+    "CSS": 3748,
+    "Shell": 892,
+    "Python": 890,
+    "Dockerfile": 621,
+    "JavaScript": 540,
+    "HTML": 479
+  },
+  "total_commits": 129,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 210154,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: TypeScript: 210,154 bytes (97% of repo)",
+        "agn-ai: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: tailwind config (tailwind.config.js)",
+        "agn-ai: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: @types/express in package.json"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: @types/jsonwebtoken in package.json"
+      ]
+    },
+    {
+      "skill_id": "websockets",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: @types/ws in package.json"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: mongodb in package.json"
+      ]
+    },
+    {
+      "skill_id": "state-management",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: zustand in package.json"
+      ]
+    },
+    {
+      "skill_id": "git",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: git in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: numpy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: GitHub Actions workflow (.github/workflows/deploy.yml)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "sceuick/agn-ai"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41724613940475974,
+      "total_bytes": 3748,
+      "commit_count": 129,
+      "first_seen": "2023-02-13T01:56:23+00:00",
+      "last_seen": "2023-03-05T00:25:23+00:00",
+      "details": [
+        "agn-ai: CSS: 3,748 bytes (2% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 129,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:23:26.733099+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3",
+    "fewer than 3 repos mined - thin evidence base"
+  ]
+}

@@ -1,0 +1,1843 @@
+{
+  "applicant_id": "applicant0056",
+  "login": "choiceoh",
+  "html_url": "https://github.com/choiceoh",
+  "created_at": "2026-03-17T13:40:29Z",
+  "account_age_days": 183,
+  "public_repos": 17,
+  "followers": 2,
+  "following": 1,
+  "repos": [
+    {
+      "name": "Deneb",
+      "full_name": "choiceoh/Deneb",
+      "html_url": "https://github.com/choiceoh/Deneb",
+      "description": "Deneb - personally optimized ai agent",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-19T12:33:28Z",
+      "pushed_at": "2026-09-16T14:34:05Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 11,
+      "size_kb": 444746,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Go": 22793858,
+        "Kotlin": 6186318,
+        "Python": 2766679,
+        "TypeScript": 2337891,
+        "Shell": 485612,
+        "JavaScript": 277033,
+        "CSS": 166424,
+        "Makefile": 34174,
+        "Rust": 32348,
+        "HTML": 6901,
+        "Swift": 697,
+        "Ruby": 46
+      },
+      "primary_language": "Go",
+      "file_count": 5448,
+      "top_level_paths": [
+        ".claude",
+        ".codex",
+        ".config",
+        ".cursor",
+        ".detect-secrets.cfg",
+        ".env.example",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".mailmap",
+        ".markdownlint-cli2.jsonc",
+        ".mcp.json",
+        ".pre-commit-config.yaml",
+        ".release-please-config.json",
+        ".release-please-manifest.json",
+        ".secrets.baseline",
+        ".shellcheckrc",
+        ".trae",
+        ".trae-html-share-packages",
+        ".vscode",
+        ".zcode",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "CLAUDE.md",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "SOUL.md",
+        "TOOLS.md",
+        "USER.md",
+        "andromeda",
+        "bench",
+        "client-android",
+        "codegraph.json",
+        "docs",
+        "even-g2",
+        "gateway-go",
+        "package.json",
+        "pyproject.toml",
+        "requirements-dev.in"
+      ],
+      "notable_files": [
+        ".github/workflows/andromeda-ci.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/claude-code-review.yml",
+        ".github/workflows/claude.yml",
+        ".github/workflows/codeql.yml",
+        ".github/workflows/deadcode-finding-dryrun.yml",
+        ".github/workflows/docs.yml",
+        ".github/workflows/generate-check.yml",
+        ".github/workflows/kotlin-lint.yml",
+        ".github/workflows/labeler.yml",
+        ".github/workflows/nightly-drift.yml",
+        ".github/workflows/patch-notes-gate.yml",
+        ".github/workflows/publish-apk.yml",
+        ".github/workflows/release-please.yml",
+        ".github/workflows/sbom.yml",
+        ".github/workflows/sop-miner-dryrun.yml",
+        ".github/workflows/tool-quality-dryrun.yml",
+        ".github/workflows/topology-parity.yml",
+        ".github/workflows/workflow-sanity.yml",
+        "andromeda/package.json",
+        "andromeda/src-tauri/Cargo.toml",
+        "client-android/app/Gemfile",
+        "client-android/app/androidApp/build.gradle.kts",
+        "client-android/app/build.gradle.kts",
+        "client-android/app/composeApp/build.gradle.kts",
+        "even-g2/package.json",
+        "gateway-go/go.mod",
+        "package.json",
+        "pyproject.toml",
+        "scripts/browser/package.json"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "e402",
+          "py312",
+          "target-version"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3002,
+      "readme_excerpt": "# Deneb\n\nPersonal AI gateway for NVIDIA DGX Spark — a chief-of-staff-style single agent\nthat does deep business analysis (mail, projects, people, deals) and proactive\nops (calendar, meeting prep, capture) in one persona, on top of general\nassistant capabilities. Korean-first, single-user, single-machine. Reachable\nfrom the mobile native client (Android / iOS, one Kotlin Multiplatform\ncodebase) and the Andromeda desktop workstation (Tauri + React).\n\n## Architecture\n\n```\nNative client (Android/iOS) ──┐\n                              ├──> Go Gateway (HTTP + SSE)\nAndromeda (desktop, Tauri) ───┘         │\n                                    200+ RPC methods, ~50 agent tools\n                                    Session management\n                                    Chat/LLM pipeline\n                                    Wiki knowledge base + Polaris session memory\n                                    GPU sidecars (OCR, ASR, embeddings)\n```\n\n| Module | Language | Description |\n|--------|----------|-------------|\n| `gateway-go/` | Go | HTTP + SSE server, RPC dispatch (200+ methods), session management, chat/LLM pipeline, ~50 built-in tool integrations |\n| `client-android/` | Kotlin | Mobile nat",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 8,
+      "contribution_share": 0.718,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-08-28T12:01:00+00:00",
+        "last_at": "2026-09-16T14:33:08+00:00",
+        "active_days": 17,
+        "span_days": 19,
+        "max_per_day": 54,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(client-android): 엔진 화면 — 게이트웨이 라우팅 판정·24시간 가용성·오늘 점유율·상세 통계 (#5101)",
+          "refactor(ai): remove unreachable tokenizer client URL (#5099)",
+          "feat(modelrole): tiny 2차 폴백은 유료 칸 — 과금은 그 칸에서만, 나머지 체인 워크의 조용한 과금을 막는다 (#5098)",
+          "feat(mailanalysis): 메일 1단계 추출·위키 질의 확장도 tiny 무료 폴백을 쓴다 (#5097)",
+          "feat(modelrole): tiny 전용 폴백 역할 — 오픈라우터 무료 모델을 게이트웨이에서 안전하게 쓴다 (#5095)",
+          "fix(scripts): 경량 모델 A/B 배터리가 업스트림 오류 한 번에 통째로 죽었다 (#5094)",
+          "feat(chat): 엔진이 죽어 있으면 재시도하지 않고 바로 폴백한다 (#5093)",
+          "fix(groupware): 디스크 정리가 ~/.cache 의 로그인 브라우저를 지우면 12시간 뒤 결재가 전부 끊겼다 (#5092)",
+          "fix(chat): 효과 라우터가 생각을 끈 턴이 앞선 추론을 빼고 보내 로컬 엔진 prefix 가 턴마다 갈라졌다 (#5091)",
+          "fix(client-android): 표본이 없다시피 한 날을 잘 측정된 날처럼 보여주고 있었다 (#5090)",
+          "fix(wire): 엔진 RPC 타입의 TS 생성물을 맞춘다 — pnpm gen:wire 를 빼먹었다 (#5089)",
+          "fix(ci): 로컬 게이트에 스크립트 레인을 만든다 — scripts/ 변경이 아무 레인도 안 골랐다 (#5088)",
+          "fix(release): 발행 APK 를 캐시가 아니라 상태 디렉터리에 둔다 (#5087)",
+          "fix(release): APK 버전코드 수위를 지워지지 않는 곳에도 남긴다 (#5086)",
+          "docs(release): ARM64 aapt2 설치 절차를 실제로 되는 것으로 고친다 (#5085)",
+          "feat(client-android): 엔진 화면을 main 에 다시 올린다 (#5083 은 스쿼시된 브랜치로 들어갔다) (#5084)",
+          "feat(observe): 로컬 엔진이 실제로 몇 퍼센트를 서빙했는지 보여준다 (#5082)",
+          "feat(chat): 프롬프트 머리의 토큰 수를 엔진에게 직접 묻는다 (#5081)",
+          "feat(modelrole): 폴백 체인이 종량제 모델에 도착하지 못하게 막는다 (#5080)",
+          "fix(tokenest): 토큰 추정기를 실제 엔진 토크나이저로 보정하고 오염된 피드백을 끊는다 (#5079)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4413
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 9,
+          "perf": 1,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 22,793,858 bytes (65% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 6,186,318 bytes (18% of repo)",
+          "strength": 0.576308748001203
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,766,679 bytes (8% of repo)",
+          "strength": 0.47884976339903973
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 2,337,891 bytes (7% of repo)",
+          "strength": 0.4666293965446459
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 485,612 bytes (1% of repo)",
+          "strength": 0.4138398387755625
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 277,033 bytes (1% of repo)",
+          "strength": 0.40789538161229627
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 166,424 bytes (0% of repo)",
+          "strength": 0.40474304862397187
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 34,174 bytes (0% of repo)",
+          "strength": 0.400973951735781
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 6,901 bytes (0% of repo)",
+          "strength": 0.40019667703308437
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/andromeda-ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (andromeda/docs/DESIGN-PHILOSOPHY.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (andromeda/docs/migration/README.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (andromeda/scripts/bump-version.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (client-android/app/androidApp/src/foss/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (gateway-go/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "repo_name",
+          "detail": "'agent' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 35055587,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "go",
+          "linux",
+          "native-mobile",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "phaeton",
+      "full_name": "choiceoh/phaeton",
+      "html_url": "https://github.com/choiceoh/phaeton",
+      "description": "Phaeton - 탑솔라 그룹 에너지 사업 통합 운영 도구",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-08T03:56:22Z",
+      "pushed_at": "2026-06-22T14:06:37Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 15,
+      "size_kb": 12845,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 1067310,
+        "Go": 916729,
+        "CSS": 13967,
+        "Shell": 6062,
+        "Makefile": 1753,
+        "JavaScript": 1463,
+        "Dockerfile": 1309,
+        "HTML": 861
+      },
+      "primary_language": "TypeScript",
+      "file_count": 354,
+      "top_level_paths": [
+        ".air.toml",
+        ".claude",
+        ".dockerignore",
+        ".env.example",
+        ".github",
+        ".gitignore",
+        ".golangci.yml",
+        "CLAUDE.md",
+        "Dockerfile",
+        "Makefile",
+        "README.md",
+        "backend",
+        "docker-compose.yml",
+        "docs",
+        "frontend",
+        "package-lock.json",
+        "scripts"
+      ],
+      "notable_files": [
+        ".github/workflows/cd.yml",
+        ".github/workflows/ci.yml",
+        "Dockerfile",
+        "backend/go.mod",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2463,
+      "readme_excerpt": "# Phaeton v2\n\n노코드 업무앱 플랫폼. 사용자가 코드 없이 앱(폼+데이터+뷰)을 만들고 ERP 기능을 직접 구성합니다.\n\n각 앱 = PostgreSQL 테이블 (동적 DDL). Go 백엔드 + Vite React SPA.\n\n## 스택\n\n| 레이어 | 기술 |\n|--------|------|\n| 백엔드 | Go 1.26, chi, pgx v5, golang-jwt, goose |\n| 프론트엔드 | Vite, React 19, shadcn/ui (Radix), Tailwind v4, React Router v7 |\n| DB | PostgreSQL 16 |\n| 배포 | Go 싱글 바이너리 (embed.FS로 SPA 내장) + Docker Compose |\n\n## 주요 기능\n\n- **앱 빌더** -- 드래그앤드롭으로 필드 추가, 3-패널 UI (팔레트/미리보기/속성)\n- **다중 뷰** -- 리스트, 칸반, 캘린더, 갤러리, 간트, 차트\n- **자동화** -- 트리거 기반 규칙 엔진 + AI 자동화\n- **AI** -- 자연어 앱 생성, 챗 어시스턴트\n- **수식 필드** -- 계산/참조 수식\n- **프로세스** -- 상태 머신 기반 워크플로우\n- **실시간** -- SSE 이벤트 스트리밍\n- **RBAC** -- 역할 기반 접근 제어 (director/pm/engineer/viewer)\n\n## 시작하기\n\n### 사전 요구사항\n\n- Go 1.26+\n- Node.js 20+\n- PostgreSQL 16 (또는 Docker)\n\n### 로컬 개발\n\n```bash\n# DB 시작 (Docker)\nmake db\n\n# 백엔드 (localhost:8080)\nmake dev-api\n\n# 프론트엔드 (localhost:5173, /api -> :8080 프록시)\nmake dev-ui\n```\n\n### 빌드\n\n```bash\nmake build          # 프론트 빌드 + Go 바이너리\n```\n\n### Docker 배포\n\n```bash\ndocker compose up --build -d        # 전체 스택 (DB + App)\ndocker compose up --build -d app    # App만 리빌드 (DB 유지)\ndocker compose logs -f app          # 로그 확인\n```\n\n## 테스트\n\n```bash\nmake test               # Go + UI 전체\nmake test",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.989,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-04-10T06:03:37+00:00",
+        "last_at": "2026-04-11T14:44:58+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 171,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #358 from choiceoh/claude/strange-margulis",
+          "fix: AppSettingsPage base-ui Select onValueChange null 타입 에러 수정",
+          "Merge pull request #357 from choiceoh/claude/mystifying-knuth",
+          "feat: 목록 표시 설정 추가 (제목열, 기본 정렬)",
+          "Merge pull request #356 from choiceoh/claude/awesome-wilbur",
+          "feat: 폼 빌더 드래그 시 같은 줄 자동 축소",
+          "fix: AppViewPage 미사용 importingCSV 변수 제거",
+          "fix: tsconfig에서 테스트 파일 제외 (vitest 제거 후 빌드 에러)",
+          "Merge branch 'claude/dreamy-lalande'",
+          "feat: air + vite build --watch 통합 개발 서버로 전환",
+          "fix: 파일 첨부 시 동일 파일 재선택 가능하도록 input 값 초기화 (#355)",
+          "refactor: 보드(칸반) 탭을 차트 탭으로 교체, 대시보드 페이지 통합 (#354)",
+          "Merge pull request #353 from choiceoh/feat/logo",
+          "feat: 회사 로고 적용 — PWA 아이콘, 네비바(흑백), 로그인(컬러), favicon",
+          "feat: 설정 페이지에 앱 수정 버튼 추가 및 앱빌더 편집 모드 구현 (#352)",
+          "Merge pull request #350 from choiceoh/feat/pwa",
+          "Merge pull request #351 from choiceoh/claude/epic-curie",
+          "docs: 디자인 철학에 '깊이 우선, 넓이 지양' 원칙 추가",
+          "feat: PWA 지원 추가 — 오프라인 캐싱, 앱 설치, 아이콘",
+          "Merge pull request #349 from choiceoh/docs/post-rollback-update"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 318
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,067,310 bytes (53% of repo)",
+          "strength": 0.9311442809837897
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 916,729 bytes (46% of repo)",
+          "strength": 0.8562080047614924
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 13,967 bytes (1% of repo)",
+          "strength": 0.4069506443043733
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 6,062 bytes (0% of repo)",
+          "strength": 0.4030167398706315
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 1,753 bytes (0% of repo)",
+          "strength": 0.4008723762773371
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,463 bytes (0% of repo)",
+          "strength": 0.40072805846762355
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,309 bytes (0% of repo)",
+          "strength": 0.4006514207341895
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/cd.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (backend/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (backend/internal/automation/evaluate_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (backend/internal/migration/compat.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/05-SOLAR-DOMAIN.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2009454,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "go",
+          "linux",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "stkernel",
+      "full_name": "choiceoh/stkernel",
+      "html_url": "https://github.com/choiceoh/stkernel",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-08T14:31:07Z",
+      "pushed_at": "2026-09-16T14:30:15Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 110879,
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "topics": [],
+      "languages": {
+        "Python": 32364317,
+        "Cuda": 2740942,
+        "Shell": 682262,
+        "C++": 34176,
+        "Jinja": 12061,
+        "Mojo": 3373,
+        "Dockerfile": 2809,
+        "Jupyter Notebook": 2044,
+        "Clojure": 336
+      },
+      "primary_language": "Python",
+      "file_count": 9540,
+      "top_level_paths": [
+        ".codegraph",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".reasonix",
+        ".zcode",
+        "KERNEL_CAMPAIGN.md",
+        "LICENSE",
+        "MEASUREMENTS.md",
+        "MEASUREMENTS_ARCHIVE.md",
+        "POSTMERGE_AUDIT_20260831.md",
+        "POSTMERGE_AUDIT_20260901.md",
+        "README.md",
+        "RUNBOOK_KERNEL_CAMPAIGN2.md",
+        "RUNBOOK_MAINTENANCE.md",
+        "RUNTIME_GUARD_AUDIT.md",
+        "SERVING_SURFACE_AUDIT.md",
+        "STEP_KERNEL_MAP.md",
+        "bench",
+        "build",
+        "census.py",
+        "docs",
+        "engine",
+        "launchers",
+        "measurements",
+        "overlay",
+        "probes",
+        "profiles",
+        "tests",
+        "tools"
+      ],
+      "notable_files": [
+        ".github/workflows/engine-check.yml",
+        ".github/workflows/mojo-host.yml",
+        "engine/runtime/Dockerfile",
+        "tools/qwen38-fi618.Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 33087,
+      "readme_excerpt": "# stkernel\n\n> 살아 있는 참조 — **이 스택이 무엇인지. 형태가 바뀌면 여기부터 고친다.** 여기가 틀리면 그건 버그다.\n\n**TP=4 DGX Spark GB10 MoE 서빙 스택** — 4× NVIDIA DGX Spark (GB10, sm_121a, 48 SM),\nCRS812 스위치드 패브릭, vLLM eldritch/b12x 포크 이미지.\n\nGLM-5.3-Flash는 EP4 MoE와 SF6·입력 준비 최적화를 기본으로 사용한다.\n고정1024토큰 ×3 합산 **72.63 tok/s**로 사용자 지정67 목표를 통과했다.\nTP 기준선80.49 tok/s와의 차이 및 프리필 비교 제한은\n[EP 기본값 문서](docs/GLM53_EP_TILED.md)에 기록했다. Attention은 TP4다.\n\n베이스 이미지는 서드파티라 소스 트리가 없다. 이 리포는 그 이미지를 **재빌드 없이**\n개선하기 위한 스택이다 — 파이썬 파일을 `site-packages` 위에 read-only 바인드\n마운트하는 오버레이 방식이며, 모든 수정부에 `# deneb fork:` 마커가 있다.\n\n```\n-v <overlay>/nvidia_model.py:/opt/venv/.../vllm/models/deepseek_v4/nvidia/model.py:ro\n```\n\n## 문서는 세 가지다\n\n제목 아래 한 줄이 그 문서가 **아직 참이어야 하는지**를 말한다. 셋은 장식이 아니라 **사실이 움직였을 때 무엇을\n할지**다 — 오늘 하나를 고치면 나머지 둘은 손대면 안 되는 것들이다.\n\n| 배너 | 뜻 | 사실이 바뀌면 |\n|---|---|---|\n| **살아 있는 참조** | 코드를 따라가야 한다 | **여기를 고친다.** 틀린 채 남아 있으면 그건 버그다 |\n| **그날의 조사** | 그날 참이었다 | **그대로 둔다.** 이후 바뀐 것은 `MEASUREMENTS.md` 가 안다 |\n| **그대로 두는 기록** | 당시의 산출물 | **고치지 않는다.** 고치면 기록이 거짓이 된다 |\n\n배너가 없으면 `tests/test_docs_status.py` 가 거절한다. 2026-09-12 에 스냅샷 크기 \"77 MiB\" 가 비교 문서 셋에\n실제 값이 45 가 된 뒤로도 한참 남아 있었다 — 그 문서들이 **참을 유지하겠다고 말한 적이 없어서** 아무도 다시\n읽지 않았기 때문이다.\n\n## 무엇을 물으면 어디를 여나\n\n| 질문 | 문서 |\n|",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 5,
+      "contribution_share": 0.668,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-13T11:29:12+00:00",
+        "last_at": "2026-09-16T14:20:10+00:00",
+        "active_days": 4,
+        "span_days": 3,
+        "max_per_day": 64,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "engine: make the free measurements free -- collect on a serving boot, and keep what a boot counted (#1064)",
+          "perf(dense): bind and tune exact-scale cuBLASLt FP8 pipelines (#1063)",
+          "engine: 드래프터 FC 보정의 빠진 절반 — 쌍 수집기, 그리고 지을 근거 (#1062)",
+          "measurement: the draft FC bias has something real to remove -- its FP8 error is 113x DC-aligned (#1061)",
+          "fix(bench): the fixed-concurrency leg prepared at C=N only, so C=1 was measured while it compiled (#1059)",
+          "fix(moe): the m=16 companion keeps private scatter -- it writes output, not scales (#1058)",
+          "measurement: 하이브리드는 자기 교정을 새로 떠줘도 더 나쁘다 — #911 의 마지막 반론을 닫는다 (#1057)",
+          "fix(moe): a lane without sf6 must not be asked for private scatter -- only m=16 was (#1056)",
+          "measurement: the hybrid arm cannot boot -- m=16's companion lane is asked for direct scatter without sf6 (#1055)",
+          "fix(kernels): main could not boot -- eight-row compact and the bound C1 contract disagree about ksr (#1054)",
+          "engine: carry the head-NLL capture into main, switched off -- the channel #911 said it never ran (#1053)",
+          "fix(supervisor): 이미 건강한 시작도 접두사 캐시를 채운다 — main 을 붉히던 두 건 (#1052)",
+          "fix(glm53): a calibrating boot could not reach the door, and the path that files it did not stamp it (#1051)",
+          "k=7 을 프로필이 정하고, 여덟 행 경로를 기본으로 받는다 (#1050)",
+          "fix(engine): `_warm` 은 문이 검증하는 옵션이어야 한다 — 아니면 워밍이 조용히 안 돈다 (#1049)",
+          "perf(engine): 공유 경계가 디스크에 갈 수 있게 하고, 부팅 뒤 캐시를 데운다 (#1046)",
+          "feat(engine): 티어 복원이 투표에서 떨어지면 그렇게 말한다 (#1047)",
+          "engine: a filed calibration is the thickness a rank keeps, and 33K was eight times its own width (#1048)",
+          "engine: a calibration blob names the weights it was summed under, and one boot can re-sum a rank (#1045)",
+          "perf(engine): 접두사 캐시의 병목은 블록이 아니라 스냅샷이었다 — 한가할 때 쓰고, 넘길 때 남기고, 켜도 반이 되지 않는다 (#1044)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 2229
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 3,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 32,364,317 bytes (90% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 682,262 bytes (2% of repo)",
+          "strength": 0.4190350959424502
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 34,176 bytes (0% of repo)",
+          "strength": 0.400953509705845
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 2,809 bytes (0% of repo)",
+          "strength": 0.4000783710429459
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 2,044 bytes (0% of repo)",
+          "strength": 0.40005702755848394
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/engine-check.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/GLM53_DRAFT_ACCEPTANCE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (engine/runtime/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (measurements/deneb_qlora_data_20260912/audit.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (measurements/glm53_ep_local_20260908/attempt2/source/tests/test_glm53_ep_local_probe.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 33085608,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "pandas",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "osty",
+      "full_name": "choiceoh/osty",
+      "html_url": "https://github.com/choiceoh/osty",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-15T01:53:38Z",
+      "pushed_at": "2026-07-05T00:03:00Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 84,
+      "size_kb": 87264,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Swift": 8157737,
+        "Go": 7949126,
+        "C": 1173896,
+        "C++": 53487,
+        "Shell": 43422,
+        "Just": 11884,
+        "JavaScript": 2149,
+        "CMake": 1124
+      },
+      "primary_language": "Swift",
+      "file_count": 1663,
+      "top_level_paths": [
+        ".claude",
+        ".envrc",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".roomodes",
+        ".vscode",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "CHANGELOG_v0.5.md",
+        "CLAUDE.md",
+        "ERROR_CODES.md",
+        "LANG_SPEC_v0.5",
+        "LICENSE",
+        "LLVM_ARTIFACT_LAYOUT.md",
+        "LLVM_BACKEND_CORPUS.md",
+        "LLVM_BACKEND_GAP_PLAN.md",
+        "LLVM_MIGRATION_PLAN.md",
+        "LLVM_PHASE1_BASELINE.md",
+        "MIR_EMITTER_PORT.md",
+        "ONB_DESIGN.md",
+        "OSTY_GRAMMAR_v0.3.md",
+        "OSTY_GRAMMAR_v0.4.md",
+        "OSTY_GRAMMAR_v0.5.md",
+        "README.md",
+        "RUNTIME_GC.md",
+        "RUNTIME_GC_DELTA.md",
+        "RUNTIME_SCHEDULER.md",
+        "SELFHOST_PORT_MATRIX.md",
+        "SPEC_GAPS.md",
+        "STDLIB_MATRIX.md",
+        "STRING_INTERP_RESOLVE_GAP.md",
+        "SUBPROCESS_SWITCHOVER.md",
+        "benchmarks",
+        "check.test",
+        "cmd",
+        "codesdoc",
+        "docs",
+        "editors",
+        "examples"
+      ],
+      "notable_files": [
+        ".github/workflows/bootstrap-smoke-test.yml",
+        ".github/workflows/build-osty-self.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/fresh-clone-source-bootstrap.yml",
+        "benchmarks/programs/big-map/go/go.mod",
+        "benchmarks/programs/dep-resolver/go/go.mod",
+        "benchmarks/programs/expr-calc/go/go.mod",
+        "benchmarks/programs/id-tracker/go/go.mod",
+        "benchmarks/programs/log-aggregator/go/go.mod",
+        "benchmarks/programs/lru-sim/go/go.mod",
+        "benchmarks/programs/markdown-stats/go/go.mod",
+        "editors/vscode-osty/package.json",
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "golang.org/x/sys",
+          "golang.org/x/term"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 57218,
+      "readme_excerpt": "# Osty\n\n- **Scope**: Project overview — build status, CLI reference, layout, testing, contributing\n- **Type**: README\nA work-in-progress implementation of the **Osty** programming language — a\ngeneral-purpose, statically-typed, GC'd language specified in\n[`LANG_SPEC_v0.5/`](./LANG_SPEC_v0.5/README.md) with grammar fixed in\n[`OSTY_GRAMMAR_v0.5.md`](./OSTY_GRAMMAR_v0.5.md).\n\nThe target is a self-hosted native runtime and LLVM backend. Current scope:\nfront-end (lex → parse → resolve → type-check), multi-file packages and\nworkspaces, formatter, linter, a JSON-RPC LSP server, an Osty-authored LLVM\nemitter core for the native backend, project scaffolding (`osty new` /\n`osty init`), a manifest-driven build orchestrator (`osty build`) that reads\n`osty.toml` / `osty.lock` and threads the front-end + native backend across\ndeclared packages, API documentation generation (`osty doc`), CI quality\ntooling (`osty ci`), profile/target/feature/cache inspection commands, and a\npackage manager (`osty add` / `osty update` / `osty publish`) backed by a\nfile-backed HTTP registry server for local/private registries. The repository\ntracks spec/grammar work in v0.5, and the shipped manifest/scaffolder path",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 5,
+      "contribution_share": 0.967,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-05-15T13:18:48+00:00",
+        "last_at": "2026-05-28T13:07:13+00:00",
+        "active_days": 14,
+        "span_days": 12,
+        "max_per_day": 71,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: harden native checker request input",
+          "ratchet MIR JSON source compat opt-in",
+          "feat: complete source selfhost ratchet",
+          "feat: drive stage0 audit to real coverage",
+          "docs: audit backend test failures exposed by PR #2020's strict env (#2021)",
+          "Make stage0 toolchain audit report 100% coverage (#2023)",
+          "feat: complete selfhost MIR rebuild ratchet (#2022)",
+          "feat: requireRealLLVMEmission strict-env mode + CI step running it (#2020)",
+          "docs: FIXME comment in mir/lower.go for method-sig self-mismatch root cause (#2017)",
+          "fix: remove just-bootstrap OSTY_STDLIB_BODY_LOWER=0 mask so CI gate actually exercises default env (#2015)",
+          "fix: inline Map.update at toolchain frontWireBuildTelemetry — unblock #1998 install-self regression (#2013)",
+          "feat: offset-keyed binding-type fallback survives the parseGenEmitFile reparse (#2012)",
+          "feat: populate match-arm pattern binding types from scrutinee shape (#2011)",
+          "feat: cross-pkg interface impl-method reach expansion (step 3.5 part 2) (#2010)",
+          "feat: register cross-pkg interface methods in MIR signature table (#2009)",
+          "test: lock in cross-pkg interface boxing for Err construct (step 3 regression guard) (#2008)",
+          "test: update 3 pre-existing backend tests to match current LIR Proto output (#2003)",
+          "feat: cross-pkg interface boxing for struct→Error assign (step 3/4) (#2007)",
+          "feat: cross-pkg interface support — step 1 + partial step 2 of 4 (#2004)",
+          "feat: wrap bare fn pointers as closure env when used as fn-typed values (#2001)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 794
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 6,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 8,157,737 bytes (47% of repo)",
+          "strength": 0.8690288667884603
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 7,949,126 bytes (46% of repo)",
+          "strength": 0.8570347830211595
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,173,896 bytes (7% of repo)",
+          "strength": 0.467493118570445
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 53,487 bytes (0% of repo)",
+          "strength": 0.4030752336092613
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 43,422 bytes (0% of repo)",
+          "strength": 0.40249654670819723
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,149 bytes (0% of repo)",
+          "strength": 0.4001235566965114
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/bootstrap-smoke-test.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (benchmarks/osty-vs-go/arith/go/arith_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (benchmarks/programs/big-map/go/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ai-agent-wiki/Authority-and-Non-Negotiables.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 17379817,
+        "strong_skills": [
+          "cicd",
+          "go",
+          "native-mobile",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "phaeton-spreadsheet",
+      "full_name": "choiceoh/phaeton-spreadsheet",
+      "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+      "description": "Phaeton 스프레드시트 UI 분리 버전 (엑셀 UX, Canvas 렌더러, Zustand 그리드)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-11T08:51:52Z",
+      "pushed_at": "2026-06-15T01:34:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 13,
+      "size_kb": 12422,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 1174195,
+        "Go": 953963,
+        "CSS": 17681,
+        "Shell": 6062,
+        "Makefile": 2017,
+        "HTML": 1608,
+        "JavaScript": 1463,
+        "Dockerfile": 1309
+      },
+      "primary_language": "TypeScript",
+      "file_count": 379,
+      "top_level_paths": [
+        ".claude",
+        ".dockerignore",
+        ".env.example",
+        ".github",
+        ".gitignore",
+        ".golangci.yml",
+        "CLAUDE.md",
+        "Dockerfile",
+        "Makefile",
+        "README.md",
+        "backend",
+        "docker-compose.yml",
+        "docs",
+        "frontend",
+        "package-lock.json",
+        "scripts"
+      ],
+      "notable_files": [
+        ".github/workflows/cd.yml",
+        ".github/workflows/ci.yml",
+        "Dockerfile",
+        "backend/go.mod",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2463,
+      "readme_excerpt": "# Phaeton v2\n\n노코드 업무앱 플랫폼. 사용자가 코드 없이 앱(폼+데이터+뷰)을 만들고 ERP 기능을 직접 구성합니다.\n\n각 앱 = PostgreSQL 테이블 (동적 DDL). Go 백엔드 + Vite React SPA.\n\n## 스택\n\n| 레이어 | 기술 |\n|--------|------|\n| 백엔드 | Go 1.26, chi, pgx v5, golang-jwt, goose |\n| 프론트엔드 | Vite, React 19, shadcn/ui (Radix), Tailwind v4, React Router v7 |\n| DB | PostgreSQL 16 |\n| 배포 | Go 싱글 바이너리 (embed.FS로 SPA 내장) + Docker Compose |\n\n## 주요 기능\n\n- **앱 빌더** -- 드래그앤드롭으로 필드 추가, 3-패널 UI (팔레트/미리보기/속성)\n- **다중 뷰** -- 리스트, 칸반, 캘린더, 갤러리, 간트, 차트\n- **자동화** -- 트리거 기반 규칙 엔진 + AI 자동화\n- **AI** -- 자연어 앱 생성, 챗 어시스턴트\n- **수식 필드** -- 계산/참조 수식\n- **프로세스** -- 상태 머신 기반 워크플로우\n- **실시간** -- SSE 이벤트 스트리밍\n- **RBAC** -- 역할 기반 접근 제어 (director/pm/engineer/viewer)\n\n## 시작하기\n\n### 사전 요구사항\n\n- Go 1.26+\n- Node.js 20+\n- PostgreSQL 16 (또는 Docker)\n\n### 로컬 개발\n\n```bash\n# DB 시작 (Docker)\nmake db\n\n# 백엔드 (localhost:8080)\nmake dev-api\n\n# 프론트엔드 (localhost:5173, /api -> :8080 프록시)\nmake dev-ui\n```\n\n### 빌드\n\n```bash\nmake build          # 프론트 빌드 + Go 바이너리\n```\n\n### Docker 배포\n\n```bash\ndocker compose up --build -d        # 전체 스택 (DB + App)\ndocker compose up --build -d app    # App만 리빌드 (DB 유지)\ndocker compose logs -f app          # 로그 확인\n```\n\n## 테스트\n\n```bash\nmake test               # Go + UI 전체\nmake test",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.99,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-04-10T07:17:27+00:00",
+        "last_at": "2026-04-11T07:26:03+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 109,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "merge: origin/main 충돌 해결 + 추가 TS 에러 수정",
+          "chore: 컨셉 변경으로 미사용 코드 일괄 제거 (-2,091줄)",
+          "fix: useGridStore 컨텍스트 에러 + 빈 워크북 클릭 처리 (#346)",
+          "refactor: 파일 메뉴 개편 — 내업무·자동화 제거, 내보내기/가져오기 통합 (#345)",
+          "fix: DropdownMenuLabel을 DropdownMenuGroup으로 감싸 Base UI error #31 해결 (#344)",
+          "Merge pull request #343 from choiceoh/claude/competent-kare",
+          "fix: 리본 탭(홈/보기/데이터) 전환 시 높이 불일치 수정",
+          "perf: Canvas 하이브리드 렌더러 — DOM 셀 2,000개를 Canvas 3레이어로 교체 (#342)",
+          "Merge pull request #340 from choiceoh/claude/hardcore-williamson",
+          "feat: 엑셀 UI 개선 6종 — 수식줄 편집·헤더 드롭다운·Name Box 점프·데이터탭·격자선·헤더 강조",
+          "feat: 단일 포트 개발 모드 — Vite watch + Go 서버 :8080 통합 (#339)",
+          "perf: 스프레드시트 그리드 렌더 최적화 — 셀당 불필요한 할당 대폭 제거 (#338)",
+          "fix: 빈 행만 있을 때 그리드 빈 화면 — 가상화 임계값을 데이터 행 기준으로 변경 (#337)",
+          "Merge pull request #336 from choiceoh/claude/dreamy-saha",
+          "feat: Zustand + Immer 그리드 상태 통합 — 4개 훅 단일 스토어 전환",
+          "feat: 트랜지션·애니메이션 전면 개선 — 공통 상수 통합 + 누락 컴포넌트 추가 (#335)",
+          "docs: 디자인 철학에 트랜지션·애니메이션·반응성 섹션 추가 (#334)",
+          "perf: 드래그 셀렉션 RAF 배칭 — 엑셀 수준 부드러움 달성 (#333)",
+          "fix: 수식창 높이 확대 및 커서 스타일 추가 (#332)",
+          "fix: 빈 행 항상 표시 — clientMode 조건 제거로 그리드 화면 채우기 (#331)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 331
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 3,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,174,195 bytes (54% of repo)",
+          "strength": 0.9440374776791713
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 953,963 bytes (44% of repo)",
+          "strength": 0.8419978149449242
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 17,681 bytes (1% of repo)",
+          "strength": 0.40819210322207594
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 6,062 bytes (0% of repo)",
+          "strength": 0.4028086946288233
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 2,017 bytes (0% of repo)",
+          "strength": 0.40093453267343065
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,608 bytes (0% of repo)",
+          "strength": 0.400745031501674
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,463 bytes (0% of repo)",
+          "strength": 0.40067784893466984
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,309 bytes (0% of repo)",
+          "strength": 0.40060649641523094
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/cd.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (backend/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (backend/internal/automation/evaluate_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (backend/internal/migration/cellformats.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/05-SOLAR-DOMAIN.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "state-management",
+          "source": "repo_name",
+          "detail": "'zustand' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2158298,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "go",
+          "linux",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 35130996,
+    "Go": 32613676,
+    "Swift": 8158434,
+    "Kotlin": 6186318,
+    "TypeScript": 4579396,
+    "Cuda": 2740942,
+    "Shell": 1223420,
+    "C": 1173896,
+    "JavaScript": 282108,
+    "CSS": 198072,
+    "C++": 87663,
+    "Makefile": 37944,
+    "Rust": 32348,
+    "Jinja": 12061,
+    "Just": 11884,
+    "HTML": 9370,
+    "Dockerfile": 5427,
+    "Mojo": 3373,
+    "Jupyter Notebook": 2044,
+    "CMake": 1124,
+    "Clojure": 336,
+    "Ruby": 46
+  },
+  "total_commits": 1000,
+  "skill_evidence": [
+    {
+      "skill_id": "go",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/osty",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 32613676,
+      "commit_count": 800,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: Go: 22,793,858 bytes (65% of repo)",
+        "Deneb: Go module (gateway-go/go.mod)",
+        "phaeton: Go: 916,729 bytes (46% of repo)",
+        "phaeton: Go module (backend/go.mod)",
+        "osty: Go: 7,949,126 bytes (46% of repo)",
+        "osty: Go module (benchmarks/programs/big-map/go/go.mod)",
+        "phaeton-spreadsheet: Go: 953,963 bytes (44% of repo)",
+        "phaeton-spreadsheet: Go module (backend/go.mod)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/stkernel"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 35133040,
+      "commit_count": 400,
+      "first_seen": "2026-08-28T12:01:00+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: Python: 2,766,679 bytes (8% of repo)",
+        "stkernel: Python: 32,364,317 bytes (90% of repo)",
+        "stkernel: Jupyter Notebook: 2,044 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9440374776791713,
+      "total_bytes": 4579396,
+      "commit_count": 600,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: TypeScript: 2,337,891 bytes (7% of repo)",
+        "phaeton: TypeScript: 1,067,310 bytes (53% of repo)",
+        "phaeton-spreadsheet: TypeScript: 1,174,195 bytes (54% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/osty"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.8690288667884603,
+      "total_bytes": 14344055,
+      "commit_count": 400,
+      "first_seen": "2026-05-15T13:18:48+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: Kotlin: 6,186,318 bytes (18% of repo)",
+        "Deneb: Android app manifest (client-android/app/androidApp/src/foss/AndroidManifest.xml)",
+        "osty: Swift: 8,157,737 bytes (47% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/stkernel",
+        "choiceoh/osty",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: GitHub Actions workflow (.github/workflows/andromeda-ci.yml)",
+        "phaeton: GitHub Actions workflow (.github/workflows/cd.yml)",
+        "stkernel: GitHub Actions workflow (.github/workflows/engine-check.yml)",
+        "osty: GitHub Actions workflow (.github/workflows/bootstrap-smoke-test.yml)",
+        "phaeton-spreadsheet: GitHub Actions workflow (.github/workflows/cd.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/stkernel",
+        "choiceoh/osty",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: docs directory (andromeda/docs/DESIGN-PHILOSOPHY.md)",
+        "phaeton: docs directory (docs/05-SOLAR-DOMAIN.md)",
+        "stkernel: docs directory (docs/GLM53_DRAFT_ACCEPTANCE.md)",
+        "osty: docs directory (docs/ai-agent-wiki/Authority-and-Non-Negotiables.md)",
+        "phaeton-spreadsheet: docs directory (docs/05-SOLAR-DOMAIN.md)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/stkernel",
+        "choiceoh/osty",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1000,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: test file (andromeda/scripts/bump-version.test.ts)",
+        "phaeton: test file (backend/internal/automation/evaluate_test.go)",
+        "stkernel: test directory (measurements/glm53_ep_local_20260908/attempt2/source/tests/test_glm53_ep_local_probe.py)",
+        "osty: test file (benchmarks/osty-vs-go/arith/go/arith_test.go)",
+        "phaeton-spreadsheet: test file (backend/internal/automation/evaluate_test.go)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "choiceoh/phaeton",
+        "choiceoh/stkernel",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 5427,
+      "commit_count": 600,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:20:10+00:00",
+      "details": [
+        "phaeton: Dockerfile: 1,309 bytes (0% of repo)",
+        "phaeton: Dockerfile (Dockerfile)",
+        "stkernel: Dockerfile: 2,809 bytes (0% of repo)",
+        "stkernel: Dockerfile (engine/runtime/Dockerfile)",
+        "phaeton-spreadsheet: Dockerfile: 1,309 bytes (0% of repo)",
+        "phaeton-spreadsheet: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 600,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: env config (.env.example)",
+        "phaeton: env config (.env.example)",
+        "phaeton-spreadsheet: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 600,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: database migrations (andromeda/docs/migration/README.md)",
+        "phaeton: database migrations (backend/internal/migration/compat.go)",
+        "phaeton-spreadsheet: database migrations (backend/internal/migration/cellformats.go)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "choiceoh/stkernel"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-13T11:29:12+00:00",
+      "last_seen": "2026-09-16T14:20:10+00:00",
+      "details": [
+        "stkernel: jupyter notebook (measurements/deneb_qlora_data_20260912/audit.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "choiceoh/stkernel",
+        "choiceoh/osty"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.467493118570445,
+      "total_bytes": 1261559,
+      "commit_count": 400,
+      "first_seen": "2026-05-15T13:18:48+00:00",
+      "last_seen": "2026-09-16T14:20:10+00:00",
+      "details": [
+        "stkernel: C++: 34,176 bytes (0% of repo)",
+        "osty: C: 1,173,896 bytes (7% of repo)",
+        "osty: C++: 53,487 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/stkernel",
+        "choiceoh/osty",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4190350959424502,
+      "total_bytes": 1261364,
+      "commit_count": 1000,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: Shell: 485,612 bytes (1% of repo)",
+        "Deneb: Makefile: 34,174 bytes (0% of repo)",
+        "phaeton: Shell: 6,062 bytes (0% of repo)",
+        "phaeton: Makefile: 1,753 bytes (0% of repo)",
+        "stkernel: Shell: 682,262 bytes (2% of repo)",
+        "osty: Shell: 43,422 bytes (0% of repo)",
+        "phaeton-spreadsheet: Shell: 6,062 bytes (0% of repo)",
+        "phaeton-spreadsheet: Makefile: 2,017 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40819210322207594,
+      "total_bytes": 206581,
+      "commit_count": 600,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: CSS: 166,424 bytes (0% of repo)",
+        "Deneb: HTML: 6,901 bytes (0% of repo)",
+        "phaeton: CSS: 13,967 bytes (1% of repo)",
+        "phaeton-spreadsheet: CSS: 17,681 bytes (1% of repo)",
+        "phaeton-spreadsheet: HTML: 1,608 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "choiceoh/Deneb",
+        "choiceoh/phaeton",
+        "choiceoh/osty",
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40789538161229627,
+      "total_bytes": 282108,
+      "commit_count": 800,
+      "first_seen": "2026-04-10T06:03:37+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: JavaScript: 277,033 bytes (1% of repo)",
+        "phaeton: JavaScript: 1,463 bytes (0% of repo)",
+        "osty: JavaScript: 2,149 bytes (0% of repo)",
+        "phaeton-spreadsheet: JavaScript: 1,463 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "choiceoh/Deneb"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-08-28T12:01:00+00:00",
+      "last_seen": "2026-09-16T14:33:08+00:00",
+      "details": [
+        "Deneb: 'agent' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "state-management",
+      "repos": [
+        "choiceoh/phaeton-spreadsheet"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-04-10T07:17:27+00:00",
+      "last_seen": "2026-04-11T07:26:03+00:00",
+      "details": [
+        "phaeton-spreadsheet: 'zustand' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 1000,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-16T14:38:07.458204+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

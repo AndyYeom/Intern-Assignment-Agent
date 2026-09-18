@@ -1,0 +1,88 @@
+{
+  "applicant_id": "applicant0053",
+  "github_login": "bcrow99",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0053.json",
+  "skills": [
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/bcrow99/DataMapper",
+        "https://github.com/bcrow99/DeltaEncoder",
+        "https://github.com/bcrow99/ContourMapping",
+        "https://github.com/bcrow99/Displayer"
+      ],
+      "repos": [
+        {
+          "repo": "bcrow99/DataMapper",
+          "html_url": "https://github.com/bcrow99/DataMapper",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 4 fix/perf/refactor commits",
+            "Java: 669,681 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "bcrow99/DeltaEncoder",
+          "html_url": "https://github.com/bcrow99/DeltaEncoder",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days",
+            "Java: 665,645 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "bcrow99/ContourMapping",
+          "html_url": "https://github.com/bcrow99/ContourMapping",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Java: 6,715 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "bcrow99/Displayer",
+          "html_url": "https://github.com/bcrow99/Displayer",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Java: 12,165 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/bcrow99/DeltaEncoder3"
+      ],
+      "repos": [
+        {
+          "repo": "bcrow99/DeltaEncoder3",
+          "html_url": "https://github.com/bcrow99/DeltaEncoder3",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "Python: 470,926 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 1
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "applicant_id": "applicant0006",
+  "github_login": "jainharsh644",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0006.json",
+  "skills": [
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/EDA-Red-Wine-Quality",
+          "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "matplotlib in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "deep-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/EDA-Red-Wine-Quality",
+          "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "keras in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/EDA-Red-Wine-Quality",
+          "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "flask in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jainharsh644/harsh"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/harsh",
+          "html_url": "https://github.com/jainharsh644/harsh",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "JavaScript: 237,785 bytes (77% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/EDA-Red-Wine-Quality",
+          "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "scikit-learn in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "monitoring",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/jainharsh644/EDA-Red-Wine-Quality"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/EDA-Red-Wine-Quality",
+          "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "prometheus-client in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+        "https://github.com/jainharsh644/Tutorial-Feature-Engineering-in-ML",
+        "https://github.com/jainharsh644/Tutorial-PyMongo",
+        "https://github.com/jainharsh644/Tutorial-Python-for-Beginners"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/EDA-Red-Wine-Quality",
+          "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "jupyter notebook (red-wine-quality-exploratory-data-analysis.ipynb)",
+            "numpy in requirements.txt"
+          ]
+        },
+        {
+          "repo": "jainharsh644/Tutorial-Feature-Engineering-in-ML",
+          "html_url": "https://github.com/jainharsh644/Tutorial-Feature-Engineering-in-ML",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "jupyter notebook (FE - CROSS VALIDATION (Part 16).ipynb)"
+          ]
+        },
+        {
+          "repo": "jainharsh644/Tutorial-PyMongo",
+          "html_url": "https://github.com/jainharsh644/Tutorial-PyMongo",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "jupyter notebook (Python + Mongo = PyMongo.ipynb)"
+          ]
+        },
+        {
+          "repo": "jainharsh644/Tutorial-Python-for-Beginners",
+          "html_url": "https://github.com/jainharsh644/Tutorial-Python-for-Beginners",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "jupyter notebook (PYTHON CHAPTER_1.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+        "https://github.com/jainharsh644/Tutorial-Feature-Engineering-in-ML",
+        "https://github.com/jainharsh644/Tutorial-PyMongo",
+        "https://github.com/jainharsh644/Tutorial-Python-for-Beginners"
+      ],
+      "repos": [
+        {
+          "repo": "jainharsh644/EDA-Red-Wine-Quality",
+          "html_url": "https://github.com/jainharsh644/EDA-Red-Wine-Quality",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "Jupyter Notebook: 2,542,524 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "jainharsh644/Tutorial-Feature-Engineering-in-ML",
+          "html_url": "https://github.com/jainharsh644/Tutorial-Feature-Engineering-in-ML",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "Jupyter Notebook: 1,967,927 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "jainharsh644/Tutorial-PyMongo",
+          "html_url": "https://github.com/jainharsh644/Tutorial-PyMongo",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "Jupyter Notebook: 20,186 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "jainharsh644/Tutorial-Python-for-Beginners",
+          "html_url": "https://github.com/jainharsh644/Tutorial-Python-for-Beginners",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, notebook_only",
+            "Jupyter Notebook: 121,392 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 7
+  }
+}

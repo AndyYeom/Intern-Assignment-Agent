@@ -1,0 +1,949 @@
+{
+  "applicant_id": "applicant0117",
+  "login": "NrmeenAraby",
+  "html_url": "https://github.com/NrmeenAraby",
+  "created_at": "2022-10-16T21:50:36Z",
+  "account_age_days": 1431,
+  "public_repos": 23,
+  "followers": 4,
+  "following": 3,
+  "repos": [
+    {
+      "name": "M7fazty",
+      "full_name": "NrmeenAraby/M7fazty",
+      "html_url": "https://github.com/NrmeenAraby/M7fazty",
+      "description": " 4th semester .. Data Structures Project using QT c++ ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-24T00:19:13Z",
+      "pushed_at": "2025-07-24T00:22:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13791,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Makefile": 740632,
+        "CMake": 556522,
+        "C++": 194567,
+        "C": 16667
+      },
+      "primary_language": "Makefile",
+      "file_count": 1237,
+      "top_level_paths": [
+        ".gitignore",
+        "CMakeLists.txt",
+        "Resources.qrc",
+        "account.cpp",
+        "account.h",
+        "add_edit_dialog.cpp",
+        "add_edit_dialog.h",
+        "add_edit_dialog.ui",
+        "adjust_balance_dialog.cpp",
+        "adjust_balance_dialog.h",
+        "adjust_balance_dialog.ui",
+        "admin.cpp",
+        "admin.h",
+        "admin.ui",
+        "admin_c.cpp",
+        "admin_c.h",
+        "admin_ui.h",
+        "build",
+        "delete_suspend_dialog.cpp",
+        "delete_suspend_dialog.h",
+        "delete_suspend_dialog.ui",
+        "editprofile_dialog.cpp",
+        "editprofile_dialog.h",
+        "editprofile_dialog.ui",
+        "files",
+        "files.cpp",
+        "files.h",
+        "login.cpp",
+        "login.h",
+        "login.ui",
+        "main.cpp",
+        "mainwindow.cpp",
+        "mainwindow.h",
+        "mainwindow.ui",
+        "matrial.qrc",
+        "photos",
+        "requestmoney_dialog.cpp",
+        "requestmoney_dialog.h",
+        "requestmoney_dialog.ui",
+        "sendmoney_dialog.cpp"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-07-24T00:20:52+00:00",
+        "last_at": "2025-07-24T00:20:52+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "m7fazty"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 63
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 740,632 bytes (49% of repo)",
+          "strength": 0.8910089446481939
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 194,567 bytes (13% of repo)",
+          "strength": 0.5289900211351456
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 16,667 bytes (1% of repo)",
+          "strength": 0.41104954428171003
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c++' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 951866,
+        "strong_skills": [
+          "shell"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ZigZag-Game",
+      "full_name": "NrmeenAraby/ZigZag-Game",
+      "html_url": "https://github.com/NrmeenAraby/ZigZag-Game",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-09T19:42:58Z",
+      "pushed_at": "2025-09-11T23:54:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 137896,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "ASP.NET": 118649,
+        "C#": 13892
+      },
+      "primary_language": "ASP.NET",
+      "file_count": 186,
+      "top_level_paths": [
+        ".gitignore",
+        "Assets",
+        "ProjectSettings",
+        "buildingZigZag.exe",
+        "buildingZigZag_Data"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 12,
+        "first_at": "2025-09-09T19:45:24+00:00",
+        "last_at": "2025-09-11T23:54:09+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "solved some bug (from falling to run if not falling any more)",
+          "Procedural creation of the road",
+          "Added background music loop and prevented to get interrupted while restarting",
+          "Added particale effect on the crystal that the player collects",
+          "Adding a highscore to save best score the player collected",
+          "Collecting crystals and increasing the score",
+          "Restart the game andd added the crystals",
+          "Added Idle state and enable the user to start the game by pressing button 'V'",
+          "Added Animate Controller to animate tha character to run and fall",
+          "Replaced the character",
+          "Added script to make the camera follows the character",
+          "Setup for the game and make thge character move"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 13,892 bytes (10% of repo)",
+          "strength": 0.5048128503632838
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "strong_skill_signal"
+        ],
+        "code_bytes": 13892,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Currency_Converter",
+      "full_name": "NrmeenAraby/Currency_Converter",
+      "html_url": "https://github.com/NrmeenAraby/Currency_Converter",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-10T01:27:35Z",
+      "pushed_at": "2025-08-14T18:35:21Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 17696,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 14848
+      },
+      "primary_language": "C#",
+      "file_count": 32,
+      "top_level_paths": [
+        ".gitignore",
+        "CurrencyConverter",
+        "CurrencyConverter.sln",
+        "packages"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-08-10T01:28:30+00:00",
+        "last_at": "2025-08-14T18:35:16+00:00",
+        "active_days": 3,
+        "span_days": 4,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "edit, add and delete data to the database through the data grid done. and also solve a bug in converting calculatuion after integrating with database",
+          "save or update, get data into the dataGrid and other helper functions implemented",
+          "Binding data using database implementd and also added the ui design that enable the user to deal with database",
+          "converting logic, clear and input validation done",
+          "Desing and Bindind data done"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 14,848 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 14848,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "FOS-Operating_System",
+      "full_name": "NrmeenAraby/FOS-Operating_System",
+      "html_url": "https://github.com/NrmeenAraby/FOS-Operating_System",
+      "description": "College Operating System Project",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-24T19:00:24Z",
+      "pushed_at": "2025-07-24T19:02:54Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1454,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 1179765,
+        "Assembly": 13378,
+        "Makefile": 7493,
+        "Shell": 6372,
+        "Linker Script": 2813,
+        "Perl": 2688,
+        "Batchfile": 269,
+        "GDB": 195
+      },
+      "primary_language": "C",
+      "file_count": 230,
+      "top_level_paths": [
+        ".bochsrc",
+        ".bochsrc-debug",
+        ".cproject",
+        ".gdbinit",
+        ".gitignore",
+        ".project",
+        ".settings",
+        "BIOS-bochs-latest",
+        "BIOS-bochs-latest_2-3",
+        "FOS_Developer_Console.bat",
+        "GNUmakefile",
+        "MS2 CHANGED FILES.txt",
+        "Readme_Project_Port_To_ModernGCC.txt",
+        "UpgradeLog.XML",
+        "VGABIOS-lgpl-latest",
+        "bochscon.bat",
+        "boot",
+        "coding",
+        "conf",
+        "grade.sh",
+        "inc",
+        "kern",
+        "lib",
+        "mergedep.pl",
+        "stdout",
+        "user"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-07-24T18:58:18+00:00",
+        "last_at": "2025-07-24T18:58:18+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "FOS-collage-operating-system-project"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 193
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,179,765 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 7,493 bytes (1% of repo)",
+          "strength": 0.40617738399783015
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 6,372 bytes (1% of repo)",
+          "strength": 0.4052532084390997
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1193630,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "cyberus_project",
+      "full_name": "NrmeenAraby/cyberus_project",
+      "html_url": "https://github.com/NrmeenAraby/cyberus_project",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-08-24T16:07:33Z",
+      "pushed_at": "2024-08-29T01:01:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2733,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 17166,
+        "Python": 16732,
+        "CSS": 449
+      },
+      "primary_language": "HTML",
+      "file_count": 32,
+      "top_level_paths": [
+        ".gitattributes",
+        "README.md",
+        "__pycache__",
+        "app.py",
+        "database",
+        "database.py",
+        "static",
+        "templates",
+        "utils.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 14,
+      "readme_excerpt": "# Cyberus\r\n \r\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.275,
+      "commits": {
+        "count": 11,
+        "first_at": "2024-08-24T16:07:33+00:00",
+        "last_at": "2024-08-29T01:01:03+00:00",
+        "active_days": 4,
+        "span_days": 4,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.364,
+        "messages_sample": [
+          "4wayt_edits_kda",
+          "7aga s8nna",
+          "edits",
+          "allaho_akbr",
+          "add",
+          "edits",
+          "edits",
+          ".",
+          "Add files via upload",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 15
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 17,166 bytes (50% of repo)",
+          "strength": 0.8997816403179317
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 16,732 bytes (49% of repo)",
+          "strength": 0.8871458933822459
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 34347,
+        "strong_skills": [
+          "html-css",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C": 1196432,
+    "Makefile": 748125,
+    "CMake": 556522,
+    "C++": 194567,
+    "ASP.NET": 118649,
+    "C#": 28740,
+    "HTML": 17166,
+    "Python": 16732,
+    "Assembly": 13378,
+    "Shell": 6372,
+    "Linker Script": 2813,
+    "Perl": 2688,
+    "CSS": 449,
+    "Batchfile": 269,
+    "GDB": 195
+  },
+  "total_commits": 30,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "NrmeenAraby/M7fazty",
+        "NrmeenAraby/FOS-Operating_System"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1390999,
+      "commit_count": 2,
+      "first_seen": "2025-07-24T00:20:52+00:00",
+      "last_seen": "2025-07-24T18:58:18+00:00",
+      "details": [
+        "M7fazty: C++: 194,567 bytes (13% of repo)",
+        "M7fazty: C: 16,667 bytes (1% of repo)",
+        "M7fazty: 'c++' in repo name/description",
+        "FOS-Operating_System: C: 1,179,765 bytes (97% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "NrmeenAraby/ZigZag-Game",
+        "NrmeenAraby/Currency_Converter"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 28740,
+      "commit_count": 17,
+      "first_seen": "2025-08-10T01:28:30+00:00",
+      "last_seen": "2025-09-11T23:54:09+00:00",
+      "details": [
+        "ZigZag-Game: C#: 13,892 bytes (10% of repo)",
+        "Currency_Converter: C#: 14,848 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "NrmeenAraby/cyberus_project"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8997816403179317,
+      "total_bytes": 17166,
+      "commit_count": 11,
+      "first_seen": "2024-08-24T16:07:33+00:00",
+      "last_seen": "2024-08-29T01:01:03+00:00",
+      "details": [
+        "cyberus_project: HTML: 17,166 bytes (50% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "NrmeenAraby/M7fazty",
+        "NrmeenAraby/FOS-Operating_System"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8910089446481939,
+      "total_bytes": 754497,
+      "commit_count": 2,
+      "first_seen": "2025-07-24T00:20:52+00:00",
+      "last_seen": "2025-07-24T18:58:18+00:00",
+      "details": [
+        "M7fazty: Makefile: 740,632 bytes (49% of repo)",
+        "FOS-Operating_System: Makefile: 7,493 bytes (1% of repo)",
+        "FOS-Operating_System: Shell: 6,372 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "NrmeenAraby/cyberus_project"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8871458933822459,
+      "total_bytes": 16732,
+      "commit_count": 11,
+      "first_seen": "2024-08-24T16:07:33+00:00",
+      "last_seen": "2024-08-29T01:01:03+00:00",
+      "details": [
+        "cyberus_project: Python: 16,732 bytes (49% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 30,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 5,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:30:14.678445+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

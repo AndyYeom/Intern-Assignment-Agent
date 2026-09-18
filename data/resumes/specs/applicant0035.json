@@ -1,0 +1,111 @@
+{
+  "github_login": "GregTMiller",
+  "applicant_id": "applicant0035",
+  "first_name": "Owen",
+  "last_name": "Castellano",
+  "career_stage": "student",
+  "email": "owen.castellano@briarmail.example",
+  "phone": "(555) 010-0135",
+  "location": "Briarcross",
+  "linkedin": "linkedin.example.com/in/owen-castellano",
+  "github_url": "github.example.com/owen-castellano",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Briarcross University",
+    "location": "Briarcross",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Game Design",
+    "graduation": "May 2023",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Computer Graphics",
+      "Software Engineering Practicum",
+      "Systems Programming",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Mass Parent Tool",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "May 2020",
+      "end": "May 2020",
+      "bullets": [
+        "Wrote a Unity editor tool in C# to batch-parent objects, replacing a manual step teammates repeated during builds.",
+        "Kept the tool small, editing two files, so it could drop into any Unity project without setup."
+      ],
+      "link": null,
+      "tech": [
+        "C#"
+      ]
+    },
+    {
+      "title": "Ludum Dare 49 Entry",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Sep 2021",
+      "end": "Oct 2021",
+      "bullets": [
+        "Built a game submission for a five-day Ludum Dare jam in C#, HLSL and ShaderLab, writing custom shaders.",
+        "Iterated the build across the jam's active days, shipping a playable entry under a tight deadline."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "HLSL",
+        "ShaderLab",
+        "C++"
+      ]
+    },
+    {
+      "title": "Unity Terminal",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Feb 2022",
+      "end": "Feb 2022",
+      "bullets": [
+        "Wrote a Python command-line tool that operates Unity Hub functions from the terminal.",
+        "Found more interest in building support tooling than gameplay code, a signal behind later enabling teams instead of just shipping features."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Tools Contributor",
+      "organization": "Briarcross Game Jam Collective",
+      "location": null,
+      "start": "Sep 2021",
+      "end": "Feb 2022",
+      "bullets": [
+        "During a jam, noticed teammates repeatedly parenting objects by hand in the Unity editor and wrote a tool to batch it.",
+        "Extended the habit after peers asked for a way to launch Unity projects without opening the Hub GUI."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C#",
+      "Python"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

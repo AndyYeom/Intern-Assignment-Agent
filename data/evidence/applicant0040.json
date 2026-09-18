@@ -1,0 +1,113 @@
+{
+  "applicant_id": "applicant0040",
+  "github_login": "omarbashaiwth",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0040.json",
+  "skills": [
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/omarbashaiwth/MyFinanceApp"
+      ],
+      "repos": [
+        {
+          "repo": "omarbashaiwth/MyFinanceApp",
+          "html_url": "https://github.com/omarbashaiwth/MyFinanceApp",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Dart: 240,260 bytes (100% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/omarbashaiwth/GetNews",
+        "https://github.com/omarbashaiwth/GetNews2",
+        "https://github.com/omarbashaiwth/MufeedApp",
+        "https://github.com/omarbashaiwth/MyAssistantApp",
+        "https://github.com/omarbashaiwth/MyFinanceApp"
+      ],
+      "repos": [
+        {
+          "repo": "omarbashaiwth/GetNews",
+          "html_url": "https://github.com/omarbashaiwth/GetNews",
+          "level": 1,
+          "reasons": [
+            "entry: 20 commits, independent-work signals: many_active_days",
+            "Kotlin: 68,059 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "omarbashaiwth/GetNews2",
+          "html_url": "https://github.com/omarbashaiwth/GetNews2",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, all_commits_one_day",
+            "Kotlin: 53,298 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "omarbashaiwth/MufeedApp",
+          "html_url": "https://github.com/omarbashaiwth/MufeedApp",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Kotlin: 4,969 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "omarbashaiwth/MyAssistantApp",
+          "html_url": "https://github.com/omarbashaiwth/MyAssistantApp",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase, all_commits_one_day",
+            "Kotlin: 132,825 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "omarbashaiwth/MyFinanceApp",
+          "html_url": "https://github.com/omarbashaiwth/MyFinanceApp",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (5 repo(s))."
+    },
+    {
+      "skill_id": "redis",
+      "claimed_level": 3,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "none",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Advanced; no repository shows this skill. Absence is not evidence against the claim."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 1,
+    "partially_verified": 1,
+    "verified": 1
+  }
+}

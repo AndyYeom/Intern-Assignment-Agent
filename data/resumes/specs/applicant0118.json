@@ -1,0 +1,95 @@
+{
+  "github_login": "Stallion77RepoOfficial",
+  "applicant_id": "applicant0118",
+  "first_name": "Owen",
+  "last_name": "Castellanos",
+  "career_stage": "new_grad",
+  "email": "owen@wraithmoor.example",
+  "phone": "(555) 010-0118",
+  "location": "Wraithmoor",
+  "linkedin": "linkedin.example.com/in/owen-castellanos",
+  "github_url": "github.example.com/owen-castellanos",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Wraithmoor College",
+    "location": "Wraithmoor",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "May 2026",
+    "gpa": "3.9/4.0",
+    "coursework": [
+      "Mobile App Development",
+      "Computer Graphics",
+      "Operating Systems",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Metalgoose",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Aug 2026",
+      "bullets": [
+        "After years of writing Python utility scripts, started experimenting with Swift and Metal out of curiosity about how native iOS rendering actually worked.",
+        "Set up continuous integration for the resulting rendering project as outside contributors began opening pull requests, catching build breaks before they reached users.",
+        "Grew the project to 172 stars and 9 forks on GitHub."
+      ],
+      "link": null,
+      "tech": [
+        "Swift",
+        "Metal"
+      ]
+    },
+    {
+      "title": "Sort Unused",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2023",
+      "end": "Dec 2025",
+      "bullets": [
+        "Published a lightweight Python tool for flagging unused project files, which attracted independent adopters and 24 GitHub stars."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Wraithmoor Mobile Dev Circle",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Paired with a classmate debugging a SwiftUI layout issue that only appeared on certain device sizes, tracing it to a misunderstood auto-layout constraint."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

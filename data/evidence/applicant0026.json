@@ -1,0 +1,112 @@
+{
+  "applicant_id": "applicant0026",
+  "github_login": "kenjpirkle",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0026.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/kenjpirkle/qilang"
+      ],
+      "repos": [
+        {
+          "repo": "kenjpirkle/qilang",
+          "html_url": "https://github.com/kenjpirkle/qilang",
+          "level": 1,
+          "reasons": [
+            "entry: 121 commits, independent-work signals: many_active_days",
+            "C++: 76,194 bytes (70% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 3,
+      "status": "conflicting",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/kenjpirkle/FlashMemX",
+        "https://github.com/kenjpirkle/UserSearch"
+      ],
+      "repos": [
+        {
+          "repo": "kenjpirkle/FlashMemX",
+          "html_url": "https://github.com/kenjpirkle/FlashMemX",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "C#: 327,711 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "kenjpirkle/UserSearch",
+          "html_url": "https://github.com/kenjpirkle/UserSearch",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: has_docker",
+            "C#: 13,331 bytes (96% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Advanced; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/kenjpirkle/UserSearch"
+      ],
+      "repos": [
+        {
+          "repo": "kenjpirkle/UserSearch",
+          "html_url": "https://github.com/kenjpirkle/UserSearch",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: has_docker",
+            "Dockerfile (src/UserSearch.WebApi/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/kenjpirkle/qilang"
+      ],
+      "repos": [
+        {
+          "repo": "kenjpirkle/qilang",
+          "html_url": "https://github.com/kenjpirkle/qilang",
+          "level": 1,
+          "reasons": [
+            "entry: 121 commits, independent-work signals: many_active_days",
+            "Python: 31,439 bytes (29% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "conflicting": 1,
+    "partially_verified": 2,
+    "verified": 1
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "github_login": "Mangoo0110",
+  "applicant_id": "applicant0121",
+  "first_name": "Owen",
+  "last_name": "Baptiste",
+  "career_stage": "student",
+  "email": "owen@kestrelridge.example",
+  "phone": "(555) 011-2947",
+  "location": "Foss Hollow",
+  "linkedin": "linkedin.example.com/in/owen-baptiste",
+  "github_url": "github.example.com/applicant0121",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Kestrel Ridge College",
+    "location": "Foss Hollow",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Technical Communication",
+    "graduation": "December 2026",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Operating Systems",
+      "Embedded Systems",
+      "Technical Writing for Engineers"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Drowsiness Detection",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2022",
+      "end": "Jun 2022",
+      "bullets": [
+        "Built a Python-based driver drowsiness detection system with serial communication to an Arduino for a university project."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Biddyutbill",
+      "organization": null,
+      "location": null,
+      "start": "Jul 2023",
+      "end": "Sep 2026",
+      "bullets": [
+        "Collaborated on a university group billing application built with Dart, PHP and C++ across a shared codebase."
+      ],
+      "link": null,
+      "tech": [
+        "Dart",
+        "PHP",
+        "C++",
+        "CMake"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Documentation Volunteer",
+      "organization": "Kestrel Robotics & Mobile Club",
+      "location": null,
+      "start": "Sep 2022",
+      "end": "Present",
+      "bullets": [
+        "After classmates struggled to reproduce Arduino serial-communication setups, wrote a step-by-step Linux environment guide covering ports, permissions and drivers.",
+        "Fielded setup questions from newer members and kept a shared troubleshooting log, discovering they preferred explaining configuration to writing new features."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "DevOps": [
+      "Linux & Server Administration"
+    ],
+    "Mobile": [
+      "Flutter",
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

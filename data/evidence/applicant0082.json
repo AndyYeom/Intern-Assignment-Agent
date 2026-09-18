@@ -1,0 +1,199 @@
+{
+  "applicant_id": "applicant0082",
+  "github_login": "LazarBojanic",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0082.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/LazarBojanic/LazarOpenGLEngine3D",
+        "https://github.com/LazarBojanic/LazarOpenGLEngine2D"
+      ],
+      "repos": [
+        {
+          "repo": "LazarBojanic/LazarOpenGLEngine3D",
+          "html_url": "https://github.com/LazarBojanic/LazarOpenGLEngine3D",
+          "level": 3,
+          "reasons": [
+            "intermediate: 26 commits; multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "C++: 2,992,256 bytes (54% of repo)",
+            "C: 2,469,954 bytes (45% of repo)"
+          ]
+        },
+        {
+          "repo": "LazarBojanic/LazarOpenGLEngine2D",
+          "html_url": "https://github.com/LazarBojanic/LazarOpenGLEngine2D",
+          "level": 2,
+          "reasons": [
+            "intermediate: 21 commits; multi_month_span, documented",
+            "C++: 2,189,062 bytes (69% of repo)",
+            "C: 910,537 bytes (29% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/LazarBojanic/WinterCubeTimer"
+      ],
+      "repos": [
+        {
+          "repo": "LazarBojanic/WinterCubeTimer",
+          "html_url": "https://github.com/LazarBojanic/WinterCubeTimer",
+          "level": 3,
+          "reasons": [
+            "intermediate: 38 commits; multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "C#: 84,939 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LazarBojanic/movie-app-js"
+      ],
+      "repos": [
+        {
+          "repo": "LazarBojanic/movie-app-js",
+          "html_url": "https://github.com/LazarBojanic/movie-app-js",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; multi_month_span, many_active_days",
+            "database migrations (movie-app-backend-nodejs/migrations/createArtist.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LazarBojanic/snowflake"
+      ],
+      "repos": [
+        {
+          "repo": "LazarBojanic/snowflake",
+          "html_url": "https://github.com/LazarBojanic/snowflake",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "Java: 407,570 bytes (30% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LazarBojanic/movie-app-js",
+        "https://github.com/LazarBojanic/snowflake"
+      ],
+      "repos": [
+        {
+          "repo": "LazarBojanic/movie-app-js",
+          "html_url": "https://github.com/LazarBojanic/movie-app-js",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; multi_month_span, many_active_days",
+            "JavaScript: 166,750 bytes (63% of repo)"
+          ]
+        },
+        {
+          "repo": "LazarBojanic/snowflake",
+          "html_url": "https://github.com/LazarBojanic/snowflake",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "JavaScript: 581,178 bytes (43% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LazarBojanic/snowflake"
+      ],
+      "repos": [
+        {
+          "repo": "LazarBojanic/snowflake",
+          "html_url": "https://github.com/LazarBojanic/snowflake",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "test directory (MessageBroker/webapps-demo/demo/test/assets/jsunittest.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "vue",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LazarBojanic/movie-app-js"
+      ],
+      "repos": [
+        {
+          "repo": "LazarBojanic/movie-app-js",
+          "html_url": "https://github.com/LazarBojanic/movie-app-js",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; multi_month_span, many_active_days",
+            "Vue: 61,943 bytes (23% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "html-css",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LazarBojanic/movie-app-js"
+      ]
+    }
+  ],
+  "status_counts": {
+    "verified": 7
+  }
+}

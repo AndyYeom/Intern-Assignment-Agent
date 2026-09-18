@@ -1,0 +1,153 @@
+{
+  "applicant_id": "applicant0121",
+  "github_login": "Mangoo0110",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0121.json",
+  "skills": [
+    {
+      "skill_id": "flutter",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Mangoo0110/app_pigeon",
+        "https://github.com/Mangoo0110/BiddyutBill",
+        "https://github.com/Mangoo0110/candypos"
+      ],
+      "repos": [
+        {
+          "repo": "Mangoo0110/app_pigeon",
+          "html_url": "https://github.com/Mangoo0110/app_pigeon",
+          "level": 2,
+          "reasons": [
+            "intermediate: 17 commits; multi_month_span, documented",
+            "Dart: 285,394 bytes (88% of repo)",
+            "flutter project (example/pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "Mangoo0110/BiddyutBill",
+          "html_url": "https://github.com/Mangoo0110/BiddyutBill",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: none",
+            "Dart: 448,288 bytes (81% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "Mangoo0110/candypos",
+          "html_url": "https://github.com/Mangoo0110/candypos",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: documented",
+            "Dart: 644,872 bytes (92% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Mangoo0110/app_pigeon"
+      ],
+      "repos": [
+        {
+          "repo": "Mangoo0110/app_pigeon",
+          "html_url": "https://github.com/Mangoo0110/app_pigeon",
+          "level": 2,
+          "reasons": [
+            "intermediate: 17 commits; multi_month_span, documented",
+            "env config (example/backend/.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Mangoo0110/app_pigeon",
+        "https://github.com/Mangoo0110/BiddyutBill",
+        "https://github.com/Mangoo0110/candypos"
+      ],
+      "repos": [
+        {
+          "repo": "Mangoo0110/app_pigeon",
+          "html_url": "https://github.com/Mangoo0110/app_pigeon",
+          "level": 2,
+          "reasons": [
+            "intermediate: 17 commits; multi_month_span, documented",
+            "Android app manifest (example/android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "Mangoo0110/BiddyutBill",
+          "html_url": "https://github.com/Mangoo0110/BiddyutBill",
+          "level": 1,
+          "reasons": [
+            "entry: 13 commits, independent-work signals: none",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "Mangoo0110/candypos",
+          "html_url": "https://github.com/Mangoo0110/candypos",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: documented",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Mangoo0110/Drowsiness-detecion"
+      ],
+      "repos": [
+        {
+          "repo": "Mangoo0110/Drowsiness-detecion",
+          "html_url": "https://github.com/Mangoo0110/Drowsiness-detecion",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Python: 5,614 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "javascript",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Mangoo0110/app_pigeon"
+      ]
+    }
+  ],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 3
+  }
+}

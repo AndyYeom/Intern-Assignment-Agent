@@ -1,0 +1,1166 @@
+{
+  "applicant_id": "applicant0166",
+  "login": "sql1freitas",
+  "html_url": "https://github.com/sql1freitas",
+  "created_at": "2021-07-24T22:04:18Z",
+  "account_age_days": 1880,
+  "public_repos": 34,
+  "followers": 3,
+  "following": 5,
+  "repos": [
+    {
+      "name": "Calculator_Matheus_Kogui",
+      "full_name": "sql1freitas/Calculator_Matheus_Kogui",
+      "html_url": "https://github.com/sql1freitas/Calculator_Matheus_Kogui",
+      "description": "Desafio para vaga de Desenvolvedor Trainee/Junior (Kogui Tecnologia)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-25T15:47:03Z",
+      "pushed_at": "2025-07-26T16:35:49Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 190,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 20168,
+        "HTML": 17173
+      },
+      "primary_language": "Python",
+      "file_count": 27,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "core",
+        "demonstração.png",
+        "docker-compose.yml",
+        "dockerfile",
+        "koguilator",
+        "manage.py",
+        "pytest.ini",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "dockerfile",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "django",
+          "pytest",
+          "pytest-django",
+          "python-decouple"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1930,
+      "readme_excerpt": "# 🧮 Koguilator – Calculadora com Histórico e Login Seguro\n\n**Koguilator** é uma aplicação Django que permite aos usuários realizar operações matemáticas simples (soma, subtração, multiplicação e divisão) após login, e armazena o histórico dos últimos cálculos feitos por cada usuário. O sistema também possui uma tela de registro com validação de senha segura e interface moderna.\n\n![Demonstração:](/demonstração.png)\n---\n\n## ✨ Funcionalidades\n\n- ✅ Registro e login com validação robusta de senha\n- ✅ Operações matemáticas: `+`, `-`, `×`, `÷`\n- ✅ Histórico dos últimos 5 cálculos por usuário\n- ✅ Logout seguro\n- ✅ Interface responsiva com Tailwind CSS\n- ✅ Testes automatizados com Pytest\n\n---\n\n## 🛠️ Tecnologias Utilizadas\n\n- **Python 3.11+**\n- **Django**\n- **SQLite (banco local padrão)**\n- **Tailwind CSS (via CDN)**\n- **Pytest** para testes\n- **python-decouple** para gerenciamento de variáveis de ambiente\n\n---\n\n## 🚀 Como rodar o projeto localmente\n\n### 1. Clone o repositório\n\n```bash\ngit clone https://github.com/seu-usuario/koguilator.git\ncd koguilator\n```\n### 2. Crie e ative um ambiente virtual\n\n```bash\npython -m venv venv\nsource venv/bin/activate  # Linux/macOS\nvenv\\Scripts\\activate     #",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 18,
+        "first_at": "2025-07-25T15:46:45+00:00",
+        "last_at": "2025-07-26T16:35:46+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.389,
+        "messages_sample": [
+          "Merge branch 'main' of https://github.com/sql1freitas/Calculator_Matheus_Kogui",
+          "Update urls.py",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Merge branch 'main' of https://github.com/sql1freitas/Calculator_Matheus_Kogui",
+          "Últimas mudanças",
+          "Update README.md",
+          "Melhora de legibilidade",
+          "Correção de validação de senha",
+          "Finalização frontend com integração",
+          "Correção da página /admin",
+          "Criação das views e testes unitários",
+          "Configuração da autenticação",
+          "Criação e edição dos models",
+          "Criação e configuração do projeto e repositório",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 20,168 bytes (54% of repo)",
+          "strength": 0.9401033716290405
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 17,173 bytes (46% of repo)",
+          "strength": 0.8598966283709595
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (koguilator/migrations/0001_initial.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (koguilator/test_all.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "django",
+          "source": "manifest",
+          "detail": "django in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 37341,
+        "strong_skills": [
+          "data-modeling",
+          "django",
+          "docker",
+          "html-css",
+          "python",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "JobManager",
+      "full_name": "sql1freitas/JobManager",
+      "html_url": "https://github.com/sql1freitas/JobManager",
+      "description": "Registro de cadastro em vagas para controle",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-30T14:11:55Z",
+      "pushed_at": "2025-07-02T14:17:24Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 27,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 9104
+      },
+      "primary_language": "Python",
+      "file_count": 29,
+      "top_level_paths": [
+        ".gitattributes",
+        "JobManager",
+        "README.md",
+        "core",
+        "db.sqlite3",
+        "manage.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 840,
+      "readme_excerpt": "# JobManager - Sistema de Acompanhamento de Candidaturas de Emprego\n\n[![Django](https://img.shields.io/badge/Django-3.2-green)](https://www.djangoproject.com/)\n[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)\n\n## Sobre o Projeto\n\n**JobManager** é uma aplicação web desenvolvida com Django que permite registrar, gerenciar e acompanhar as vagas de emprego para as quais você se candidatou. Ideal para organizar seus processos seletivos e manter tudo em um só lugar.\n\n---\n\n## Funcionalidades\n\n- Registro de vagas com detalhes como empresa, cargo, data da candidatura e status.\n- Visualização de candidaturas em andamento e concluídas.\n- Filtros e buscas para facilitar o acompanhamento.\n- Interface simples e responsiva.\n\n---\n\n## Tecnologias Utilizadas\n\n- Python 3.10\n- Django 3.2\n- SQLite (banco de dados)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2025-05-30T14:07:18+00:00",
+        "last_at": "2025-07-02T14:17:23+00:00",
+        "active_days": 2,
+        "span_days": 33,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Update README.md",
+          "Merge branch 'main' of https://github.com/sql1freitas/JobManager",
+          "Update db.sqlite3",
+          "Update settings.py",
+          "Update README.md",
+          "Create README.md",
+          "Secret Key modificada para publicação do repositório",
+          "Projeto iniciado e testado",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 15
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 9,104 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (core/migrations/0001_initial.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9104,
+        "strong_skills": [
+          "data-modeling",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Alimetria",
+      "full_name": "sql1freitas/Alimetria",
+      "html_url": "https://github.com/sql1freitas/Alimetria",
+      "description": "Sistema de Controle de Refeições - Cozinha Industrial",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-02T13:32:18Z",
+      "pushed_at": "2025-07-02T12:28:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 18,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 12239,
+        "HTML": 4979
+      },
+      "primary_language": "Python",
+      "file_count": 18,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "alimetria",
+        "core",
+        "manage.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1045,
+      "readme_excerpt": "[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)\n[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#)\n![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)\n[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)\n[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)\n[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)\n\n\n# Alimetria\nSistema de Controle de Refeições para Cozinha Industrial\n\n# Controle e cadastro de funcionários\nFeito utilizando Django com o SQLite como DB nativo, o admin realizará a criação de um user para registro e cadastro de funcionários.\n\n# Registro de alimentação\nUtilizando uma página web simples o funcionário digitará sua matrícula que foi cadastrada anteriormente na base, assim o framework realizará a confirmação da existência do funcionário, caso exista, registrará a refeição com dia, horário e funcionário.\n\n\n\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2025-06-02T12:36:15+00:00",
+        "last_at": "2025-07-02T12:28:26+00:00",
+        "active_days": 2,
+        "span_days": 29,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Update settings.py",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Criação de testes",
+          "Estilização do Front",
+          "admin editado com filtros e pesquisa",
+          "Implementação do front básico",
+          "Criação do projeto e dos models",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 15
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 12,239 bytes (71% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,979 bytes (29% of repo)",
+          "strength": 0.6891741201068649
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (core/migrations/0001_initial.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 17218,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "tarefas-ebac-matheus",
+      "full_name": "sql1freitas/tarefas-ebac-matheus",
+      "html_url": "https://github.com/sql1freitas/tarefas-ebac-matheus",
+      "description": "Tarefas EBAC",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-29T00:56:26Z",
+      "pushed_at": "2023-12-25T18:46:37Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 178,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 344006
+      },
+      "primary_language": "Java",
+      "file_count": 348,
+      "top_level_paths": [
+        "CadastroCliente",
+        "Collections_Parte_2",
+        "ExemploVendasMod30",
+        "ExemploVendasMod35",
+        "ExemploVendasMod36",
+        "Exercicio19",
+        "ExercicioAnnotation",
+        "ExercicioMod24",
+        "ExercicioModulo11",
+        "ExercicioModulo13",
+        "ExercicioModulo7",
+        "ExercicioModulo8",
+        "ExercicioModulo9",
+        "ExercicioVendasMod25",
+        "Exercicio_stream",
+        "MOD5",
+        "Mod32",
+        "ProjetoMod33",
+        "README.md",
+        "RotinaDeAcordar",
+        "Tarefa_ControleDeFluxo",
+        "TreinamentoGenerics",
+        "mod37"
+      ],
+      "notable_files": [
+        "ExercicioMod24/pom.xml",
+        "ProjetoMod33/pom.xml",
+        "mod37/pom.xml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 36,
+      "readme_excerpt": "# tarefas-ebac-matheus\nTarefas EBAC\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 35,
+        "first_at": "2023-10-29T00:56:26+00:00",
+        "last_at": "2023-12-25T18:46:37+00:00",
+        "active_days": 21,
+        "span_days": 57,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.086,
+        "messages_sample": [
+          "1st commit",
+          "Delete ExercicioMod37 directory",
+          "1st commit",
+          "Delete ExercicioMod37 directory",
+          "1st commit",
+          "1st commit",
+          "1st commit",
+          "1st commit",
+          "1st commit",
+          "1st commit",
+          "1st commit",
+          "1st commit",
+          "Exercicio_stream",
+          "ExercicioReflection",
+          "ExercícioAnnotation",
+          "1st Commit",
+          "ExercícioModulo14",
+          "Exercício_Modulo_13",
+          "Collections_Parte_2 - Exercício Módulo 12",
+          "Delete Collections_Parte_2/ExercicioModulo12 directory"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 220
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 344,006 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (ExemploVendasMod30/src/test/java/Main/AllTests.java)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 344006,
+        "strong_skills": [
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "agenda-service",
+      "full_name": "sql1freitas/agenda-service",
+      "html_url": "https://github.com/sql1freitas/agenda-service",
+      "description": "RESTful API feita com SpringBoot, Spring Data JPA, Flyway & PostgreSQL",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-01-02T20:35:08Z",
+      "pushed_at": "2024-01-03T20:11:50Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 89,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 14588
+      },
+      "primary_language": "Java",
+      "file_count": 26,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".mvn",
+        "README.md",
+        "docker-compose.yml",
+        "mvnw",
+        "mvnw.cmd",
+        "pom.xml",
+        "src"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "agenda",
+          "flyway-core",
+          "lombok",
+          "postgresql",
+          "spring-boot-maven-plugin",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-parent",
+          "spring-boot-starter-test",
+          "spring-boot-starter-validation",
+          "spring-boot-starter-web",
+          "springdoc-openapi-starter-webmvc-ui"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 102,
+      "readme_excerpt": "API com o objetivo de controle de horários com agendas relacionadas aos pacientes também cadastrados.\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 20,
+        "first_at": "2023-12-29T21:42:01+00:00",
+        "last_at": "2024-01-03T20:10:56+00:00",
+        "active_days": 4,
+        "span_days": 4,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.1,
+        "messages_sample": [
+          "Adicionado OpenAPI para utilização do Swagger3",
+          "Corrigido método findByCPF para retornar todas as listas relacionadas ao CPF do paciente informado",
+          "Retirados dados do paciente durante o retorno ao salvar e pesquisar agendas",
+          "Retirados dados do paciente durante o retorno ao salvar e pesquisar agendas",
+          "Corrigido erro em anotações da classe Agenda e no método de salvar uma nova agenda, adicionada consulta de agenda pelo CPF de um paciente.",
+          "Implementado método de deletar agenda",
+          "Implementado método de salvar novas Agendas no AgendaController",
+          "Merge remote-tracking branch 'origin/main'",
+          "Implementação dos métodos da classe AgendaService e AgendaControlle, também implementado o DTO da agenda.",
+          "Create README.md",
+          "Adição de validations e Id removido de PacienteDTO",
+          "Retirado campo CPF da classe DTO, e adicionado método para alterar um paciente",
+          "Adição de exceptions em PacienteService e implementação da AgendaDTO & AgendaAssemble",
+          "Criação de exceptions em métodos no PacienteService",
+          "Criação e implementação do Controller (Paciente)",
+          "Criação das classes de serviço e repositório.",
+          "Implementação e configuração do flyway",
+          "Criação das entidades do projeto e configuração da conexão no DB",
+          "docker configuration",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 16
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 14,588 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (src/main/resources/db/migration/V1__create_table_paciente.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (src/main/resources/db/migration/V1__create_table_paciente.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/matheus/agenda/AgendaApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "repo_name",
+          "detail": "'postgresql' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "spring",
+          "source": "repo_name",
+          "detail": "'spring' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "postgresql in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-maven-plugin in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 14588,
+        "strong_skills": [
+          "data-modeling",
+          "docker",
+          "java",
+          "postgresql",
+          "spring",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 358594,
+    "Python": 41511,
+    "HTML": 22152
+  },
+  "total_commits": 92,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "sql1freitas/Calculator_Matheus_Kogui",
+        "sql1freitas/JobManager",
+        "sql1freitas/Alimetria"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 41511,
+      "commit_count": 37,
+      "first_seen": "2025-05-30T14:07:18+00:00",
+      "last_seen": "2025-07-26T16:35:46+00:00",
+      "details": [
+        "Calculator_Matheus_Kogui: Python: 20,168 bytes (54% of repo)",
+        "JobManager: Python: 9,104 bytes (100% of repo)",
+        "Alimetria: Python: 12,239 bytes (71% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "sql1freitas/tarefas-ebac-matheus",
+        "sql1freitas/agenda-service"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 358594,
+      "commit_count": 55,
+      "first_seen": "2023-10-29T00:56:26+00:00",
+      "last_seen": "2024-01-03T20:10:56+00:00",
+      "details": [
+        "tarefas-ebac-matheus: Java: 344,006 bytes (100% of repo)",
+        "agenda-service: Java: 14,588 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "sql1freitas/Calculator_Matheus_Kogui",
+        "sql1freitas/tarefas-ebac-matheus",
+        "sql1freitas/agenda-service"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 73,
+      "first_seen": "2023-10-29T00:56:26+00:00",
+      "last_seen": "2025-07-26T16:35:46+00:00",
+      "details": [
+        "Calculator_Matheus_Kogui: test file (koguilator/test_all.py)",
+        "Calculator_Matheus_Kogui: pytest in requirements.txt",
+        "tarefas-ebac-matheus: test directory (ExemploVendasMod30/src/test/java/Main/AllTests.java)",
+        "agenda-service: test directory (src/test/java/com/matheus/agenda/AgendaApplicationTests.java)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "sql1freitas/agenda-service"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2023-12-29T21:42:01+00:00",
+      "last_seen": "2024-01-03T20:10:56+00:00",
+      "details": [
+        "agenda-service: 'postgresql' in repo name/description",
+        "agenda-service: postgresql in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "sql1freitas/agenda-service"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2023-12-29T21:42:01+00:00",
+      "last_seen": "2024-01-03T20:10:56+00:00",
+      "details": [
+        "agenda-service: 'spring' in repo name/description",
+        "agenda-service: spring-boot-maven-plugin in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "django",
+      "repos": [
+        "sql1freitas/Calculator_Matheus_Kogui"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 18,
+      "first_seen": "2025-07-25T15:46:45+00:00",
+      "last_seen": "2025-07-26T16:35:46+00:00",
+      "details": [
+        "Calculator_Matheus_Kogui: django in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "sql1freitas/Calculator_Matheus_Kogui",
+        "sql1freitas/Alimetria"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8598966283709595,
+      "total_bytes": 22152,
+      "commit_count": 28,
+      "first_seen": "2025-06-02T12:36:15+00:00",
+      "last_seen": "2025-07-26T16:35:46+00:00",
+      "details": [
+        "Calculator_Matheus_Kogui: HTML: 17,173 bytes (46% of repo)",
+        "Alimetria: HTML: 4,979 bytes (29% of repo)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "sql1freitas/Calculator_Matheus_Kogui",
+        "sql1freitas/JobManager",
+        "sql1freitas/Alimetria",
+        "sql1freitas/agenda-service"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 57,
+      "first_seen": "2023-12-29T21:42:01+00:00",
+      "last_seen": "2025-07-26T16:35:46+00:00",
+      "details": [
+        "Calculator_Matheus_Kogui: database migrations (koguilator/migrations/0001_initial.py)",
+        "JobManager: database migrations (core/migrations/0001_initial.py)",
+        "Alimetria: database migrations (core/migrations/0001_initial.py)",
+        "agenda-service: database migrations (src/main/resources/db/migration/V1__create_table_paciente.sql)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "sql1freitas/Calculator_Matheus_Kogui",
+        "sql1freitas/agenda-service"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 38,
+      "first_seen": "2023-12-29T21:42:01+00:00",
+      "last_seen": "2025-07-26T16:35:46+00:00",
+      "details": [
+        "Calculator_Matheus_Kogui: docker-compose (docker-compose.yml)",
+        "agenda-service: docker-compose (docker-compose.yml)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "sql1freitas/agenda-service"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 20,
+      "first_seen": "2023-12-29T21:42:01+00:00",
+      "last_seen": "2024-01-03T20:10:56+00:00",
+      "details": [
+        "agenda-service: SQL file (src/main/resources/db/migration/V1__create_table_paciente.sql)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 92,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:15:43.447966+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

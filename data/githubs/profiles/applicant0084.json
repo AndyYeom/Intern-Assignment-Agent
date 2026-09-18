@@ -1,0 +1,556 @@
+{
+  "applicant_id": "applicant0084",
+  "login": "bismarckbruno",
+  "html_url": "https://github.com/bismarckbruno",
+  "created_at": "2023-07-28T18:33:31Z",
+  "account_age_days": 1146,
+  "public_repos": 4,
+  "followers": 6,
+  "following": 0,
+  "repos": [
+    {
+      "name": "volei_manager_android",
+      "full_name": "bismarckbruno/volei_manager_android",
+      "html_url": "https://github.com/bismarckbruno/volei_manager_android",
+      "description": "Um aplicativo Android interativo para gerenciar partidas de vôlei com os amigos, guardar o histórico de partidas e equilibrar times automaticamente (quem jogou menos tem prioridade e as equipes são balanceadas por Elo).",
+      "homepage": "https://bismarckbruno.github.io/volei_manager_android/PRIVACY_POLICY",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-05T14:46:27Z",
+      "pushed_at": "2026-09-17T00:48:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12610,
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Kotlin": 1477300,
+        "HTML": 5445
+      },
+      "primary_language": "Kotlin",
+      "file_count": 165,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "AGENTS.md",
+        "LICENSE",
+        "PRIVACY_POLICY.md",
+        "PRIVACY_POLICY_ES_419.md",
+        "PRIVACY_POLICY_PT_BR.md",
+        "README.md",
+        "README_ES_419.md",
+        "README_PT_BR.md",
+        "TERMS_OF_USE.md",
+        "TERMS_OF_USE_ES_419.md",
+        "TERMS_OF_USE_PT_BR.md",
+        "apoio",
+        "app",
+        "build.gradle.kts",
+        "docs",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "rename.gradle.kts",
+        "settings.gradle.kts"
+      ],
+      "notable_files": [
+        ".github/workflows/android.yml",
+        "app/build.gradle.kts",
+        "build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 7067,
+      "readme_excerpt": "# Volley Manager 🏐\n\n**Volley Manager** is an Android app built with **Jetpack Compose** and **Room Database** to manage recreational volleyball matches, automate team balancing, track player performance (Elo rating), and keep player rotation fair.\n\n## ✨ Features\n\n### 🎮 Match Management\n- **Smart Automatic Team Draw**: The app selects players and balances teams as fairly as possible, mixing participants with different skill levels (using Elo rating) and evenly distributing priority players.\n- **Fair Rotation**: Smart waiting queue logic to make sure everyone gets play time.\n  - **Match-Based Priority**: When deciding who enters the court or who stays after a loss, **the app prioritizes players who have played fewer matches**.\n  - **Streak Handling by Mode**: When the streak limit is reached, the app applies the selected balancing mode: in **Rebalance**, winners are split; in **Rest**, winners may rotate out so waiting teams can play (\"King of the Court\").\n- **Manual Setup**: Dedicated screen to manually choose or adjust team composition.\n- **Live Scoreboard**: Real-time score tracking during matches.\n\n### 📊 Ranking and Stats\n- **Elo System**: Dynamic rating calculated after every ma",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.997,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-04-25T03:23:44+00:00",
+        "last_at": "2026-09-17T00:48:10+00:00",
+        "active_days": 61,
+        "span_days": 144,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: imagem exportada do Historico usa largura em px fixa e sem relacao com a densidade do dispositivo",
+          "fix: corrige NPE de inicializacao (remoteGroupVisibility referenciado antes de inicializado)",
+          "feat: adiciona opcao de apoio/doacao simbolica para Espectador na tela Premium",
+          "fix: corrige contagem do lobby, texto duplicado, stats do historico e ocultacao instantanea ao desligar sync",
+          "feat: oculta e desativa temporariamente o papel Auxiliar",
+          "fix: robusteze sincronizacao Admin/Auxiliar/Espectador em nuvem",
+          "Sync header meta, full Auxiliar roster, Elo delta, timestamps and scoreboard indicators",
+          "Espectador: lista de jogadores pré-jogo, ocultar Ausentes, gate de Elo e reaproveitar tela de Histórico rica",
+          "﻿Reuse rich GameScreenContent for Auxiliar/Espectador remote roles with bidirectional live sync",
+          "﻿fix(cloud-sync): telas Jogo/Historico mostram dados remotos ao vivo, codigo de Espectador reutilizavel e nome do grupo sincronizado",
+          "Permite corrigir perfil Espectador escolhido por engano na tela Premium",
+          "Redesenha tela Nuvem como Premium e restringe tela de Jogo para Espectador",
+          "Integra Google Play Billing para assinaturas premium",
+          "Adiciona navegacao para voltar na escolha de perfil do onboarding",
+          "Ajustes de conta e rotulo de papel sensivel ao grupo ativo",
+          "Roteia onboarding por perfil (Organizador/Auxiliar/Espectador)",
+          "Adiciona troca de e-mail/senha e recuperacao de senha (Firebase Auth)",
+          "Endurece cadastro/login: validacao de email/senha, limites de campo, mostrar/esconder senha, verificacao de email, anti-abuso de cadastro e foto de perfil do Google",
+          "Configura Web Client ID real do provedor Google Sign-In (Firebase Auth)",
+          "Adiciona login/cadastro com conta Google (Firebase Auth)"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 75
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 1,477,300 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 5,445 bytes (0% of repo)",
+          "strength": 0.4036722430357209
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/android.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/product/PERSONAS.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1482745,
+        "strong_skills": [
+          "cicd",
+          "native-mobile",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "volei_manager",
+      "full_name": "bismarckbruno/volei_manager",
+      "html_url": "https://github.com/bismarckbruno/volei_manager",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-16T05:15:24Z",
+      "pushed_at": "2026-04-04T17:35:04Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 241,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 35410
+      },
+      "primary_language": "Python",
+      "file_count": 4,
+      "top_level_paths": [
+        ".devcontainer",
+        "README.md",
+        "app.py",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "pandas",
+          "plotly",
+          "pytz",
+          "st-gsheets-connection",
+          "streamlit"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5948,
+      "readme_excerpt": "# 🏐 Vôlei Manager & Elo System\n\nUm sistema web interativo para gerenciar partidas de vôlei recreativo, equilibrar times automaticamente e manter um ranking competitivo baseado no algoritmo **Elo Rating** (o mesmo usado no Xadrez e E-Sports).\n\n## 📋 Funcionalidades\n\n* **Algoritmo de Equilíbrio:** Sorteia times equilibrados baseados na pontuação (Elo) dos jogadores presentes, distribuindo levantadores e alternando os demais para garantir partidas disputadas.\n* **Ranking Elo Dinâmico:** Atualiza a pontuação de cada jogador individualmente após cada partida (K-Factor = 32), usando a média de Elo dos times para o cálculo.\n* **Sistema de Patentes:** Classifica os jogadores automaticamente por faixa de Elo — 🐣 Iniciante (<1000), 🏐 Aprendiz, 🥉 Intermediário, 🥈 Avançado, 💎 Lenda (≥1300).\n* **Gestão de Fila de Espera:** Gerencia automaticamente quem está fora da quadra, dando prioridade para quem esperou mais (sistema FIFO).\n* **Modo \"Rei da Quadra\" Configurável:** Permite definir um limite de vitórias consecutivas (padrão: 3). Ao atingir o limite, o time vencedor é dissolvido e redistribuído para garantir rotatividade.\n* **Substituições em Jogo:** Permite substituir jogadores durante uma par",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.985,
+      "commits": {
+        "count": 66,
+        "first_at": "2026-01-16T05:20:29+00:00",
+        "last_at": "2026-04-04T17:35:04+00:00",
+        "active_days": 7,
+        "span_days": 78,
+        "max_per_day": 17,
+        "low_effort_message_ratio": 0.045,
+        "messages_sample": [
+          "Merge pull request #1 from bismarckbruno/copilot/update-readme-to-reflect-code",
+          "Correção de erro no sidebar",
+          "Correção do cache de jogadores em quadra",
+          "Correção nas proporções colunas",
+          "Atualizando proporções tabelas",
+          "Ajuste de cores",
+          "Mudanças nas proporções das tabelas",
+          "Mudança na escala da resolução",
+          "Atualização da escala da resolução de download das imagens",
+          "Alinhamento das tabelas",
+          "Correções nas tabelas",
+          "Melhorias nas tabelas",
+          "Melhorias nas tabelas mostradas",
+          "Melhorias nas cores",
+          "Correção nas cores",
+          "Correção nas cores",
+          "Update greeting from 'Hello' to 'Goodbye'",
+          "Update",
+          "Update",
+          "Update"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 35,410 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "pandas in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "plotly in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 35410,
+        "strong_skills": [
+          "data-viz",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Kotlin": 1477300,
+    "Python": 35410,
+    "HTML": 5445
+  },
+  "total_commits": 266,
+  "skill_evidence": [
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "bismarckbruno/volei_manager_android"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1477300,
+      "commit_count": 200,
+      "first_seen": "2026-04-25T03:23:44+00:00",
+      "last_seen": "2026-09-17T00:48:10+00:00",
+      "details": [
+        "volei_manager_android: Kotlin: 1,477,300 bytes (100% of repo)",
+        "volei_manager_android: Android app manifest (app/src/main/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "bismarckbruno/volei_manager"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 35410,
+      "commit_count": 66,
+      "first_seen": "2026-01-16T05:20:29+00:00",
+      "last_seen": "2026-04-04T17:35:04+00:00",
+      "details": [
+        "volei_manager: Python: 35,410 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "bismarckbruno/volei_manager"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 66,
+      "first_seen": "2026-01-16T05:20:29+00:00",
+      "last_seen": "2026-04-04T17:35:04+00:00",
+      "details": [
+        "volei_manager: pandas in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "bismarckbruno/volei_manager"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 66,
+      "first_seen": "2026-01-16T05:20:29+00:00",
+      "last_seen": "2026-04-04T17:35:04+00:00",
+      "details": [
+        "volei_manager: plotly in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "bismarckbruno/volei_manager_android"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-04-25T03:23:44+00:00",
+      "last_seen": "2026-09-17T00:48:10+00:00",
+      "details": [
+        "volei_manager_android: GitHub Actions workflow (.github/workflows/android.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "bismarckbruno/volei_manager_android"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-04-25T03:23:44+00:00",
+      "last_seen": "2026-09-17T00:48:10+00:00",
+      "details": [
+        "volei_manager_android: docs directory (docs/product/PERSONAS.md)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "bismarckbruno/volei_manager_android"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4036722430357209,
+      "total_bytes": 5445,
+      "commit_count": 200,
+      "first_seen": "2026-04-25T03:23:44+00:00",
+      "last_seen": "2026-09-17T00:48:10+00:00",
+      "details": [
+        "volei_manager_android: HTML: 5,445 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 266,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-17T01:37:13.531616+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3",
+    "fewer than 3 repos mined - thin evidence base"
+  ]
+}

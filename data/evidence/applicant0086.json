@@ -1,0 +1,544 @@
+{
+  "applicant_id": "applicant0086",
+  "github_login": "RajwanYair",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0086.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/RegiLattice",
+        "https://github.com/RajwanYair/WoodworkingShop",
+        "https://github.com/RajwanYair/Wedding",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/RegiLattice",
+          "html_url": "https://github.com/RajwanYair/RegiLattice",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_docker, deployed, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "GitHub Actions workflow (.github/workflows/branch-protection.yml)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "GitHub Actions workflow (.github/workflows/auto-label.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/RegiLattice"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/RegiLattice",
+          "html_url": "https://github.com/RajwanYair/RegiLattice",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_docker, deployed, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "C#: 13,287,718 bytes (99% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/RajwanYair/Wedding",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "database migrations (supabase/migrations/001_create_tables.sql)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "database migrations (worker/migrations/0001_initial_schema.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/RegiLattice",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/RegiLattice",
+          "html_url": "https://github.com/RajwanYair/RegiLattice",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_docker, deployed, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "Dockerfile (Dockerfile)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "integration-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/WoodworkingShop",
+        "https://github.com/RajwanYair/Wedding",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "e2e suite (playwright.config.ts)",
+            "@playwright/test in package.json"
+          ]
+        },
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "e2e suite (tests/e2e/_helpers.mjs)",
+            "@playwright/test in package.json"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "e2e suite (playwright.config.ts)",
+            "@playwright/test in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/RajwanYair/Wedding"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "JavaScript: 4,367,773 bytes (89% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/WoodworkingShop"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "@testing-library/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/RajwanYair/Wedding",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "SQL file (supabase/migrations/001_create_tables.sql)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "SQL file (worker/migrations/0001_initial_schema.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "state-management",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/WoodworkingShop"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "zustand in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/WoodworkingShop"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/RegiLattice",
+        "https://github.com/RajwanYair/WoodworkingShop",
+        "https://github.com/RajwanYair/Wedding",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/RegiLattice",
+          "html_url": "https://github.com/RajwanYair/RegiLattice",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_docker, deployed, multi_month_span, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "docs directory (docs/Api.md)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "docs directory (docs/API-BOUNDARIES.md)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "docs directory (docs/README.md)"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "docs directory (docs-site/src/content/docs/alerts.mdx)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/WoodworkingShop",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "TypeScript: 3,898,786 bytes (97% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "TypeScript: 5,651,202 bytes (93% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/WoodworkingShop",
+        "https://github.com/RajwanYair/Wedding",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "test directory (tests/__mocks__/virtual-pwa-register.ts)",
+            "vitest in package.json"
+          ]
+        },
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "test directory (tests/unit/helpers.js)",
+            "vitest in package.json"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "test directory (tests/bench/screener-10k.bench.ts)",
+            "vitest in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "web-scraping",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/RajwanYair/WoodworkingShop",
+        "https://github.com/RajwanYair/Wedding",
+        "https://github.com/RajwanYair/CrossTide"
+      ],
+      "repos": [
+        {
+          "repo": "RajwanYair/WoodworkingShop",
+          "html_url": "https://github.com/RajwanYair/WoodworkingShop",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "@axe-core/playwright in package.json"
+          ]
+        },
+        {
+          "repo": "RajwanYair/Wedding",
+          "html_url": "https://github.com/RajwanYair/Wedding",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, deployed, documented",
+            "@axe-core/playwright in package.json"
+          ]
+        },
+        {
+          "repo": "RajwanYair/CrossTide",
+          "html_url": "https://github.com/RajwanYair/CrossTide",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "@axe-core/playwright in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 2,
+    "verified": 15
+  }
+}

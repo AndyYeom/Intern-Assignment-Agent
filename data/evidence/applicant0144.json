@@ -1,0 +1,386 @@
+{
+  "applicant_id": "applicant0144",
+  "github_login": "withlaon",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0144.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/jungsan"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/jungsan",
+          "html_url": "https://github.com/withlaon/jungsan",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/deploy.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/jungsan"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/jungsan",
+          "html_url": "https://github.com/withlaon/jungsan",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "database migrations (jungsan-app/supabase/migrations/20250302000000_admin_site.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/withlaon/MONEY",
+        "https://github.com/withlaon/product"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/MONEY",
+          "html_url": "https://github.com/withlaon/MONEY",
+          "level": 2,
+          "reasons": [
+            "intermediate: 42 commits; deployed, documented",
+            "recharts in package.json"
+          ]
+        },
+        {
+          "repo": "withlaon/product",
+          "html_url": "https://github.com/withlaon/product",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "recharts in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/DETAILPAGE"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/DETAILPAGE",
+          "html_url": "https://github.com/withlaon/DETAILPAGE",
+          "level": 3,
+          "reasons": [
+            "intermediate: 37 commits; deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "JavaScript: 198,926 bytes (85% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/jungsan",
+        "https://github.com/withlaon/MONEY"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/jungsan",
+          "html_url": "https://github.com/withlaon/jungsan",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "env config (jungsan-app/.env.example)"
+          ]
+        },
+        {
+          "repo": "withlaon/MONEY",
+          "html_url": "https://github.com/withlaon/MONEY",
+          "level": 2,
+          "reasons": [
+            "intermediate: 42 commits; deployed, documented",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/jungsan",
+        "https://github.com/withlaon/MONEY",
+        "https://github.com/withlaon/product"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/jungsan",
+          "html_url": "https://github.com/withlaon/jungsan",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "next config (jungsan-app/next.config.ts)"
+          ]
+        },
+        {
+          "repo": "withlaon/MONEY",
+          "html_url": "https://github.com/withlaon/MONEY",
+          "level": 2,
+          "reasons": [
+            "intermediate: 42 commits; deployed, documented",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "withlaon/product",
+          "html_url": "https://github.com/withlaon/product",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next config (next.config.ts)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "postgresql",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/withlaon/product"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/product",
+          "html_url": "https://github.com/withlaon/product",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "pg in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/withlaon/MONEY",
+        "https://github.com/withlaon/product"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/MONEY",
+          "html_url": "https://github.com/withlaon/MONEY",
+          "level": 2,
+          "reasons": [
+            "intermediate: 42 commits; deployed, documented",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "withlaon/product",
+          "html_url": "https://github.com/withlaon/product",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/DETAILPAGE",
+        "https://github.com/withlaon/jungsan",
+        "https://github.com/withlaon/MONEY",
+        "https://github.com/withlaon/product"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/DETAILPAGE",
+          "html_url": "https://github.com/withlaon/DETAILPAGE",
+          "level": 3,
+          "reasons": [
+            "intermediate: 37 commits; deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 8 fix/perf/refactor commits",
+            "SQL file (setup.sql)"
+          ]
+        },
+        {
+          "repo": "withlaon/jungsan",
+          "html_url": "https://github.com/withlaon/jungsan",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "SQL file (jungsan-app/supabase/migrations/20250302000000_admin_site.sql)"
+          ]
+        },
+        {
+          "repo": "withlaon/MONEY",
+          "html_url": "https://github.com/withlaon/MONEY",
+          "level": 2,
+          "reasons": [
+            "intermediate: 42 commits; deployed, documented",
+            "SQL file (supabase/schema.sql)"
+          ]
+        },
+        {
+          "repo": "withlaon/product",
+          "html_url": "https://github.com/withlaon/product",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "SQL file (supabase/schema.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/withlaon/MONEY",
+        "https://github.com/withlaon/product"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/MONEY",
+          "html_url": "https://github.com/withlaon/MONEY",
+          "level": 2,
+          "reasons": [
+            "intermediate: 42 commits; deployed, documented",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "withlaon/product",
+          "html_url": "https://github.com/withlaon/product",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/jungsan",
+        "https://github.com/withlaon/MONEY",
+        "https://github.com/withlaon/product"
+      ],
+      "repos": [
+        {
+          "repo": "withlaon/jungsan",
+          "html_url": "https://github.com/withlaon/jungsan",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "TypeScript: 658,366 bytes (93% of repo)"
+          ]
+        },
+        {
+          "repo": "withlaon/MONEY",
+          "html_url": "https://github.com/withlaon/MONEY",
+          "level": 2,
+          "reasons": [
+            "intermediate: 42 commits; deployed, documented",
+            "TypeScript: 222,132 bytes (97% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "withlaon/product",
+          "html_url": "https://github.com/withlaon/product",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "TypeScript: 1,448,616 bytes (96% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "html-css",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/withlaon/DETAILPAGE"
+      ]
+    }
+  ],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 10
+  }
+}

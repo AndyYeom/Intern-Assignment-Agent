@@ -1,0 +1,104 @@
+{
+  "github_login": "mennael125",
+  "applicant_id": "applicant0031",
+  "first_name": "Mateo",
+  "last_name": "Reyes",
+  "career_stage": "student",
+  "email": "mateo.reyes@solmarpost.example",
+  "phone": "(555) 010-0131",
+  "location": "Solmar Bay",
+  "linkedin": "linkedin.example.com/in/mateo-reyes-dev",
+  "github_url": "github.example.com/mateo-reyes",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Solmar Institute of Technology",
+    "location": "Solmar Bay",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Business Innovation",
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Intro to Human-Computer Interaction",
+      "Lean Startup Practicum",
+      "Data Structures",
+      "Web Application Design"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Login Screen",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Oct 2021",
+      "end": "Oct 2021",
+      "bullets": [
+        "Prototyped a mobile login flow with Flutter and Dart, wiring native Swift and Kotlin platform code for iOS and Android.",
+        "Kept the prototype to a single screen to test the flow quickly rather than building a full app."
+      ],
+      "link": null,
+      "tech": [
+        "Dart",
+        "Swift",
+        "Kotlin",
+        "Objective-C"
+      ]
+    },
+    {
+      "title": "Menna Test",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "May 2025",
+      "end": "Sep 2025",
+      "bullets": [
+        "Built a storefront front end with Twig templating, JavaScript and Tailwind CSS across 153 files.",
+        "Configured Babel-based build tooling to support the templated storefront pages."
+      ],
+      "link": null,
+      "tech": [
+        "CSS",
+        "Twig",
+        "JavaScript",
+        "SCSS"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Founder",
+      "organization": "Campus Product Studio",
+      "location": null,
+      "start": "Sep 2024",
+      "end": "Present",
+      "bullets": [
+        "Started an informal studio prototyping small web and mobile tools for classmates and local shop owners.",
+        "After an early prototype confused a shop owner who could not tell which button mattered, began sketching flows before writing code."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C#",
+      "SQL"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "Tailwind CSS"
+    ],
+    "Mobile": [
+      "Flutter",
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

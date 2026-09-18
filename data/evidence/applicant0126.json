@@ -1,0 +1,461 @@
+{
+  "applicant_id": "applicant0126",
+  "github_login": "kanta13jp1",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0126.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app",
+        "https://github.com/kanta13jp1/angular-hosting"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "GitHub Actions workflow (.github/workflows/account-deletion-retention.yml)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/angular-hosting",
+          "html_url": "https://github.com/kanta13jp1/angular-hosting",
+          "level": 2,
+          "reasons": [
+            "intermediate: 105 commits; has_ci, has_tests, multi_month_span, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/firebase-hosting-merge.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/kanta13jp1/HexCiv"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/HexCiv",
+          "html_url": "https://github.com/kanta13jp1/HexCiv",
+          "level": 2,
+          "reasons": [
+            "intermediate: 51 commits; many_active_days, documented",
+            "C#: 2,775,767 bytes (94% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "database migrations (.claire/worktrees/instance-ps4/supabase/migrations/20260426232500_seed_competitors_jp_strength_weakness_batch6.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "Dockerfile (.devcontainer/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "Dart: 22,378,056 bytes (67% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app",
+        "https://github.com/kanta13jp1/angular-hosting"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "firebase config (.firebaserc)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/angular-hosting",
+          "html_url": "https://github.com/kanta13jp1/angular-hosting",
+          "level": 2,
+          "reasons": [
+            "intermediate: 105 commits; has_ci, has_tests, multi_month_span, many_active_days, documented",
+            "firebase config (.firebaserc)",
+            "firebase in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/kanta13jp1/angular-hosting",
+        "https://github.com/kanta13jp1/mighty-link-antigravity-live-demo",
+        "https://github.com/kanta13jp1/webanimation-star"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/angular-hosting",
+          "html_url": "https://github.com/kanta13jp1/angular-hosting",
+          "level": 2,
+          "reasons": [
+            "intermediate: 105 commits; has_ci, has_tests, multi_month_span, many_active_days, documented",
+            "HTML: 155,395 bytes (26% of repo)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/mighty-link-antigravity-live-demo",
+          "html_url": "https://github.com/kanta13jp1/mighty-link-antigravity-live-demo",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "CSS: 37,968 bytes (23% of repo)",
+            "HTML: 28,040 bytes (17% of repo)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/webanimation-star",
+          "html_url": "https://github.com/kanta13jp1/webanimation-star",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "HTML: 8,584 bytes (27% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "integration-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app",
+        "https://github.com/kanta13jp1/angular-hosting"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "e2e suite (playwright.config.ts)",
+            "@playwright/test in package.json"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/angular-hosting",
+          "html_url": "https://github.com/kanta13jp1/angular-hosting",
+          "level": 2,
+          "reasons": [
+            "intermediate: 105 commits; has_ci, has_tests, multi_month_span, many_active_days, documented",
+            "e2e suite (e2e/protractor.conf.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/kanta13jp1/mighty-link-antigravity-live-demo",
+        "https://github.com/kanta13jp1/webanimation-star"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/mighty-link-antigravity-live-demo",
+          "html_url": "https://github.com/kanta13jp1/mighty-link-antigravity-live-demo",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "JavaScript: 81,790 bytes (50% of repo)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/webanimation-star",
+          "html_url": "https://github.com/kanta13jp1/webanimation-star",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 5,383 bytes (17% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "SQL file (.claire/worktrees/instance-ps4/supabase/migrations/20260426232500_seed_competitors_jp_strength_weakness_batch6.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "docs directory (docs/ACCESSIBILITY_QA_CHECKLIST.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app",
+        "https://github.com/kanta13jp1/angular-hosting",
+        "https://github.com/kanta13jp1/webanimation-star"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "TypeScript: 3,755,182 bytes (11% of repo)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/angular-hosting",
+          "html_url": "https://github.com/kanta13jp1/angular-hosting",
+          "level": 2,
+          "reasons": [
+            "intermediate: 105 commits; has_ci, has_tests, multi_month_span, many_active_days, documented",
+            "TypeScript: 398,020 bytes (68% of repo)",
+            "typescript in package.json"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/webanimation-star",
+          "html_url": "https://github.com/kanta13jp1/webanimation-star",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "TypeScript: 16,434 bytes (52% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kanta13jp1/my_web_app",
+        "https://github.com/kanta13jp1/angular-hosting",
+        "https://github.com/kanta13jp1/mighty-link-antigravity-live-demo"
+      ],
+      "repos": [
+        {
+          "repo": "kanta13jp1/my_web_app",
+          "html_url": "https://github.com/kanta13jp1/my_web_app",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, many_active_days, used_by_others, documented",
+            "advanced: others depend on it",
+            "test file (.agents/skills/github-issue-completion-forecast/scripts/issue_completion_forecast_test.py)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/angular-hosting",
+          "html_url": "https://github.com/kanta13jp1/angular-hosting",
+          "level": 2,
+          "reasons": [
+            "intermediate: 105 commits; has_ci, has_tests, multi_month_span, many_active_days, documented",
+            "test file (src/app/class/chat.spec.ts)"
+          ]
+        },
+        {
+          "repo": "kanta13jp1/mighty-link-antigravity-live-demo",
+          "html_url": "https://github.com/kanta13jp1/mighty-link-antigravity-live-demo",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "test directory (tests/e2e.test.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 14
+  }
+}

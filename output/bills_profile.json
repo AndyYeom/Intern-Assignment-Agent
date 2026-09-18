@@ -1,0 +1,485 @@
+{
+  "applicant_id": "bill-cv",
+  "skills": [
+    {
+      "canonical_skill": "Python",
+      "category": "Programming Language",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built scalable architecture using Flutter, Flask, MySQL, and AWS (EC2/RDS)",
+          "page": null
+        }
+      ],
+      "reasoning": "Used in Flask backend for medication management app with MySQL and AWS deployment, indicating independent structural decisions and deployment."
+    },
+    {
+      "canonical_skill": "C#",
+      "category": "Programming Language",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Investigated API request/response flows in .NET (C#) services to trace root causes from logs and reports.",
+          "page": null
+        }
+      ],
+      "reasoning": "Investigated API request/response flows in .NET (C#) services to trace root causes in production UAT environment during internship."
+    },
+    {
+      "canonical_skill": "Angular",
+      "category": "Web Framework",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Contributed to UI/UX refinements by improving layout consistency, responsiveness, and form validation in Angular applications.",
+          "page": null
+        }
+      ],
+      "reasoning": "Contributed to UI/UX refinements improving layout consistency, responsiveness, and form validation in Angular applications during internship."
+    },
+    {
+      "canonical_skill": "Flutter",
+      "category": "Mobile Framework",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built scalable architecture using Flutter, Flask, MySQL, and AWS (EC2/RDS)",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Achieved SUS score 79.38, indicating strong usability and learnability",
+          "page": null
+        }
+      ],
+      "reasoning": "Designed and built mobile app architecture using Flutter for medication management system that achieved SUS score 79.38, indicating deployed, user-tested work."
+    },
+    {
+      "canonical_skill": "SQL",
+      "category": "Database",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built scalable architecture using Flutter, Flask, MySQL, and AWS (EC2/RDS)",
+          "page": null
+        }
+      ],
+      "reasoning": "Used MySQL in deployed medication management app with scalable architecture on AWS RDS."
+    },
+    {
+      "canonical_skill": "Flask",
+      "category": "Web Framework",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built scalable architecture using Flutter, Flask, MySQL, and AWS (EC2/RDS)",
+          "page": null
+        }
+      ],
+      "reasoning": "Built scalable backend architecture using Flask for deployed medication management application with AWS integration."
+    },
+    {
+      "canonical_skill": "REST APIs",
+      "category": "Web Technology",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Investigated API request/response flows in .NET (C#) services to trace root causes from logs and reports.",
+          "page": null
+        }
+      ],
+      "reasoning": "Investigated API request/response flows in production .NET services to diagnose issues during internship."
+    },
+    {
+      "canonical_skill": "LangGraph",
+      "category": "AI Framework",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Developan automated AI support assistant to standardize responses and improve service efficiency.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Langgraph",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed as technical skill and used in current role developing automated AI support assistant system."
+    },
+    {
+      "canonical_skill": "LangChain",
+      "category": "AI Framework",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Develop an automated AI support assistant to standardize responses and improve service efficiency.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Langchain",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed as technical skill and used in current role developing automated AI support assistant system."
+    },
+    {
+      "canonical_skill": "AWS",
+      "category": "Cloud Platform",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built scalable architecture using Flutter, Flask, MySQL, and AWS (EC2/RDS)",
+          "page": null
+        }
+      ],
+      "reasoning": "Deployed and maintained production application using EC2 and RDS services with architectural decisions."
+    },
+    {
+      "canonical_skill": "Docker",
+      "category": "DevOps",
+      "claimed_level": 1,
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Docker",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in tools but no evidence of containerization work, deployment decisions, or troubleshooting."
+    },
+    {
+      "canonical_skill": "Pandas",
+      "category": "Data Processing",
+      "claimed_level": 1,
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Pandas",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in tools but no evidence of data processing projects or independent analysis work."
+    },
+    {
+      "canonical_skill": "Jira",
+      "category": "Project Management",
+      "claimed_level": 2,
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Collaborated in an Agile workflow using Jira, strengthening debugging, communication, and cross-team coordination skills.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used Jira in real Agile workflow during internship for cross-team coordination and issue tracking."
+    },
+    {
+      "canonical_skill": "Natural Language Processing",
+      "category": "AI Domain",
+      "claimed_level": 1,
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Natural Language Processing",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Develop an automated AI support assistant to standardize responses and improve service efficiency.",
+          "page": null
+        }
+      ],
+      "reasoning": "Completed relevant coursework and developing AI support assistant, but no evidence of independent NLP model work or trade-offs."
+    },
+    {
+      "canonical_skill": "Database Design",
+      "category": "Data Engineering",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built scalable architecture using Flutter, Flask, MySQL, and AWS (EC2/RDS)",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Built a web-based knowledge input portal for support staff to capture and maintain structured FAQs and resolutions.",
+          "page": null
+        }
+      ],
+      "reasoning": "Designed and deployed MySQL database schema for medication management app and built knowledge input portal."
+    },
+    {
+      "canonical_skill": "Qualitative Research",
+      "category": "Research Method",
+      "claimed_level": 2,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Co-conducted a multi-source qualitative study combining a retrospective chatbot development diary with semi-structured interviews of 8 AI experts from academia and industry.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Performed five-cycle thematic analysis on 1,435 coded excerpts to identify patterns in AI governance, authority allocation, and lifecycle constraints.",
+          "page": null
+        }
+      ],
+      "reasoning": "Co-conducted multi-source qualitative study with interviews and performed five-cycle thematic analysis on 1,435 coded excerpts."
+    },
+    {
+      "canonical_skill": "User Research",
+      "category": "UX Research",
+      "claimed_level": 2,
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Applied Design Thinking and AI-assisted usability analysis to translate user insights into system requirements",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Achieved SUS score 79.38, indicating strong usability and learnability",
+          "page": null
+        }
+      ],
+      "reasoning": "Applied Design Thinking to translate user insights into system requirements for elderly medication app and achieved measurable usability outcome."
+    },
+    {
+      "canonical_skill": ".NET",
+      "category": "Backend Framework",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Investigated API request/response flows in .NET (C#) services to trace root causes from logs and reports.",
+          "page": null
+        }
+      ],
+      "reasoning": "Investigated API flows in .NET services to trace root causes from logs in production environment."
+    },
+    {
+      "canonical_skill": "Debugging",
+      "category": "Software Engineering",
+      "claimed_level": 2,
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Diagnosed and resolved production issues across frontend and backend systems in UAT environments.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Investigated API request/response flows in .NET (C#) services to trace root causes from logs and reports.",
+          "page": null
+        }
+      ],
+      "reasoning": "Diagnosed and resolved production issues across frontend and backend systems, traced root causes from logs."
+    },
+    {
+      "canonical_skill": "Agile",
+      "category": "Software Development Methodology",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Collaborated in an Agile workflow using Jira, strengthening debugging, communication, and cross-team coordination skills.",
+          "page": null
+        }
+      ],
+      "reasoning": "Collaborated in Agile workflow using Jira during internship."
+    },
+    {
+      "canonical_skill": "Thematic Analysis",
+      "category": "Research Method",
+      "claimed_level": 2,
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Performed five-cycle thematic analysis on 1,435 coded excerpts to identify patterns in AI governance, authority allocation, and lifecycle constraints.",
+          "page": null
+        }
+      ],
+      "reasoning": "Performed structured five-cycle thematic analysis on large coded dataset for research publication."
+    },
+    {
+      "canonical_skill": "Design Thinking",
+      "category": "Product Design",
+      "claimed_level": 2,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Applied Design Thinking and AI-assisted usability analysis to translate user insights into system requirements",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Designed and developed a user-centered mobile app to improve medication adherence among elderly users",
+          "page": null
+        }
+      ],
+      "reasoning": "Applied Design Thinking methodology in user-centered app development project with measurable outcomes."
+    },
+    {
+      "canonical_skill": "Mobile Application Development",
+      "category": "Software Development",
+      "claimed_level": 2,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Designed and developed a user-centered mobile app to improve medication adherence among elderly users",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Achieved SUS score 79.38, indicating strong usability and learnability",
+          "page": null
+        }
+      ],
+      "reasoning": "Designed and developed complete mobile app with user testing and measurable usability outcomes."
+    },
+    {
+      "canonical_skill": "System Architecture",
+      "category": "Software Engineering",
+      "claimed_level": 2,
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built scalable architecture using Flutter, Flask, MySQL, and AWS (EC2/RDS)",
+          "page": null
+        }
+      ],
+      "reasoning": "Built scalable architecture integrating multiple technologies for deployed application."
+    },
+    {
+      "canonical_skill": "Agile Methodology",
+      "category": "Software Engineering",
+      "claimed_level": 2,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Collaborated in an Agile workflow using Jira, strengthening debugging, communication, and cross-team coordination skills.",
+          "page": null
+        }
+      ],
+      "reasoning": "Collaborated in Agile workflow during internship with documented cross-team coordination."
+    },
+    {
+      "canonical_skill": "UI/UX Design",
+      "category": "Product Design",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Contributed to UI/UX refinements by improving layout consistency, responsiveness, and form validation in Angular applications.",
+          "page": null
+        }
+      ],
+      "reasoning": "Contributed to UI/UX improvements in production application with specific technical refinements."
+    }
+  ],
+  "domains": [
+    "AI Systems",
+    "Human-in-the-Loop AI",
+    "Mobile Application Development",
+    "Web Development",
+    "Research",
+    "AI Governance"
+  ],
+  "interests": [
+    "Human-centered AI systems",
+    "AI governance frameworks",
+    "Responsible AI deployment",
+    "Songwriting and guitar",
+    "Tennis",
+    "Strategic gaming"
+  ],
+  "education": [
+    {
+      "institution": "Chulalongkorn University",
+      "qualification": "B.Eng.",
+      "field_of_study": "Information and Communication Engineering",
+      "start_date": null,
+      "end_date": "July 2026",
+      "status": "Expected graduation"
+    },
+    {
+      "institution": "Ramkhamhaeng Advent International School",
+      "qualification": null,
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": "2022",
+      "status": "Graduate"
+    }
+  ],
+  "work_experience": [
+    {
+      "organization": "SeniorSoft Development Co., Ltd.",
+      "role": "AI Systems Engineer",
+      "start_date": "Oct 2025",
+      "end_date": "Present",
+      "description": "Develop an automated AI support assistant to standardize responses and improve service efficiency. Built a web-based knowledge input portal for support staff to capture and maintain structured FAQs and resolutions. Continuously improved system performance by addressing immediate operational gaps identified through customer support team feedback",
+      "demonstrated_skills": [
+        "LangChain",
+        "LangGraph",
+        "Python",
+        "Knowledge Management",
+        "AI Systems"
+      ]
+    },
+    {
+      "organization": "Gofive Co.",
+      "role": "Software Engineering Intern",
+      "start_date": "May 2025",
+      "end_date": "July 2025",
+      "description": "Diagnosed and resolved production issues across frontend and backend systems in UAT environments. Contributed to UI/UX refinements by improving layout consistency, responsiveness, and form validation in Angular applications. Investigated API request/response flows in .NET (C#) services to trace root causesfrom logs and reports. Collaborated in an Agile workflow using Jira, strengthening debugging, communication, and cross-team coordination skills.",
+      "demonstrated_skills": [
+        "Angular",
+        "C#",
+        ".NET",
+        "REST APIs",
+        "Debugging",
+        "Agile",
+        "Jira"
+      ]
+    }
+  ]
+}

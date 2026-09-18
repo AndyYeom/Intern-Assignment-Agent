@@ -1,0 +1,1508 @@
+{
+  "applicant_id": "applicant0104",
+  "login": "EdwinFiracative",
+  "html_url": "https://github.com/EdwinFiracative",
+  "created_at": "2022-11-11T01:32:42Z",
+  "account_age_days": 1405,
+  "public_repos": 13,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "erp-front-sakai-ng",
+      "full_name": "EdwinFiracative/erp-front-sakai-ng",
+      "html_url": "https://github.com/EdwinFiracative/erp-front-sakai-ng",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-16T21:20:41Z",
+      "pushed_at": "2026-09-15T19:54:30Z",
+      "stargazers": 0,
+      "forks": 2,
+      "open_issues": 0,
+      "size_kb": 13188,
+      "default_branch": "master",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "TypeScript": 706418,
+        "HTML": 35469,
+        "JavaScript": 3427,
+        "PowerShell": 601,
+        "CSS": 332,
+        "SCSS": 161
+      },
+      "primary_language": "TypeScript",
+      "file_count": 171,
+      "top_level_paths": [
+        ".dockerignore",
+        ".editorconfig",
+        ".gitignore",
+        ".gitmodules",
+        ".postcssrc.json",
+        ".prettierignore",
+        ".prettierrc.json",
+        ".vscode",
+        "LICENSE.md",
+        "README.md",
+        "angular.json",
+        "dockerdeploy.ps1",
+        "dockerfile",
+        "eslint.config.js",
+        "nginx.conf",
+        "package-lock.json",
+        "package.json",
+        "pedidos.json",
+        "public",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json",
+        "vercel.json"
+      ],
+      "notable_files": [
+        "dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@primeuix/themes",
+          "@tailwindcss/postcss",
+          "@types/jasmine",
+          "autoprefixer",
+          "chart.js",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-plugin-import",
+          "eslint-plugin-prefer-arrow",
+          "eslint-plugin-prettier",
+          "jasmine-core",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "keycloak-angular",
+          "keycloak-js",
+          "postcss",
+          "prettier",
+          "primeclt",
+          "primeicons",
+          "primeng",
+          "quill",
+          "rxjs",
+          "tailwindcss",
+          "tailwindcss-primeui",
+          "tslib",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1466,
+      "readme_excerpt": "# Sakai19\n\nThis project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.\n\n## Development server\n\nTo start a local development server, run:\n\n```bash\nng serve\n```\n\nOnce the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.\n\n## Code scaffolding\n\nAngular CLI includes powerful code scaffolding tools. To generate a new component, run:\n\n```bash\nng generate component component-name\n```\n\nFor a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:\n\n```bash\nng generate --help\n```\n\n## Building\n\nTo build the project run:\n\n```bash\nng build\n```\n\nThis will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.\n\n## Running unit tests\n\nTo execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:\n\n```bash\nng test\n```\n\n## Running end-to-end tests\n\nFor end-to-end (e2e) testing, run:\n\n```bash\nng e2e\n```\n\nAngular CLI does not come with an end-to-end testing fr",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 10,
+      "contribution_share": 0.024,
+      "commits": {
+        "count": 11,
+        "first_at": "2026-07-16T21:16:52+00:00",
+        "last_at": "2026-09-15T19:54:30+00:00",
+        "active_days": 8,
+        "span_days": 60,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #3 from pare1610/tablasDesplegables",
+          "Merge pull request #2 from pare1610/tablasDesplegables",
+          "feat: refactor Pedido component to use Observables for async data handling and improve error management",
+          "Merge pull request #1 from pare1610/master Pedidos table",
+          "feat: add Pedido model and service for managing order data",
+          "feat: add VSCode configuration files for launch and tasks",
+          "feat: enhance app menu with role-based access control and integrate Keycloak for authentication",
+          "feat: add nginx configuration for server setup. Full version ok in server",
+          "feat: add user profile component with authentication guard",
+          "feat: update Angular dependencies and integrate Keycloak authentication",
+          "fix: update project name and output paths to erp-front-sakai-ng"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 84
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 706,418 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 35,469 bytes (5% of repo)",
+          "strength": 0.44751958714268875
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,427 bytes (0% of repo)",
+          "strength": 0.40459132270822395
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (nginx.conf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/guards/auth-role-guard.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "chart.js in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 746408,
+        "strong_skills": [
+          "data-viz",
+          "docker",
+          "linux",
+          "tailwind",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "primeng_next_level_ui_book",
+      "full_name": "EdwinFiracative/primeng_next_level_ui_book",
+      "html_url": "https://github.com/EdwinFiracative/primeng_next_level_ui_book",
+      "description": "Personal version of the next levelui book examples repository",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-09-03T23:34:52Z",
+      "pushed_at": "2026-09-06T22:09:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 960,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "CSS": 833144,
+        "SCSS": 267239,
+        "TypeScript": 184333,
+        "HTML": 4879,
+        "JavaScript": 88
+      },
+      "primary_language": "CSS",
+      "file_count": 472,
+      "top_level_paths": [
+        ".editorconfig",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".gitignore",
+        ".prettierignore",
+        ".prettierrc",
+        ".vscode",
+        "LICENSE",
+        "README.md",
+        "apps",
+        "jest.config.ts",
+        "jest.preset.js",
+        "libs",
+        "migrations.json",
+        "nx.json",
+        "package-lock.json",
+        "package.json",
+        "tools",
+        "tsconfig.base.json",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular-devkit/core",
+          "@angular-devkit/schematics",
+          "@angular-eslint/eslint-plugin",
+          "@angular-eslint/eslint-plugin-template",
+          "@angular-eslint/template-parser",
+          "@angular/animations",
+          "@angular/cdk",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/language-service",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@ngneat/spectator",
+          "@ngx-translate/core",
+          "@ngx-translate/http-loader",
+          "@nx/angular",
+          "@nx/cypress",
+          "@nx/eslint",
+          "@nx/eslint-plugin",
+          "@nx/jest",
+          "@nx/js",
+          "@nx/web",
+          "@nx/workspace",
+          "@schematics/angular",
+          "@swc-node/register",
+          "@swc/core",
+          "@types/jest",
+          "@types/lodash",
+          "@types/node",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "cypress",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-plugin-cypress",
+          "install",
+          "jest",
+          "jest-environment-jsdom",
+          "jest-preset-angular",
+          "jsonc-eslint-parser",
+          "lodash",
+          "moment",
+          "ng-mocks",
+          "nx",
+          "prettier",
+          "primeflex",
+          "primeicons",
+          "primeng",
+          "rxjs",
+          "source-map-explorer",
+          "ts-jest",
+          "ts-node",
+          "tslib",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 801,
+      "readme_excerpt": "# Next-Level-UI-Development-with-PrimeNG\nNext-Level UI Development with PrimeNG, published by Packt\n\n## Getting Started\n\nMake sure you have NVM (Node Version Manager)[https://github.com/nvm-sh/nvm] installed on your machine. You can read Chapter 2 to follow the development configuration.\n\n```\nyarn\n\nOR \n\nnpm install\n```\n\n## Chapter structure\n\nYou can find each chapter under the `apps` folder.\n\n```\napps/\n    - chapter-1\n    - chapter-2\n    ...\n```\n\n## Starting each chapter\n\nYou can run each chapter by following the pattern below:\n\n```\nnpx nx serve CHAPTER_NAME\n\n// example\nnpx nx serve chapter-1\n```\n\n## Disclaimers\n\nI'm using Nx Workspace to manage the chapters. It works the same a normal Angular project.\n\nOne thing that you should notice is that instead `angular.json`, it is `project.json`. \n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.25,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-09-03T23:43:04+00:00",
+        "last_at": "2026-09-06T22:06:46+00:00",
+        "active_days": 2,
+        "span_days": 2,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Update MultiSelect component placeholders and styles for improved usability",
+          "Implement code changes to enhance functionality and improve performance"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following the"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 303
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 833,144 bytes (65% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 267,239 bytes (21% of repo)",
+          "strength": 0.6072129352716908
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 184,333 bytes (14% of repo)",
+          "strength": 0.5429289212930619
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,879 bytes (0% of repo)",
+          "strength": 0.4037831001881858
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (apps/chapter-13-e2e/cypress.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (apps/chapter-13/src/app/pages/tips/fake-async.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "repo_name",
+          "detail": "'next' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@nx/cypress in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@nx/jest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1289683,
+        "strong_skills": [
+          "html-css",
+          "integration-testing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "transactsql",
+      "full_name": "EdwinFiracative/transactsql",
+      "html_url": "https://github.com/EdwinFiracative/transactsql",
+      "description": "stored procedures in transactsql",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-02-03T12:23:04Z",
+      "pushed_at": "2026-07-31T13:30:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 778,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TSQL": 10706
+      },
+      "primary_language": "TSQL",
+      "file_count": 25,
+      "top_level_paths": [
+        ".gitignore",
+        ".vs",
+        "Create tabel from view metada.sql",
+        "PaintCostsUpdate.sql",
+        "README.md",
+        "StoProMasterTTree.sql",
+        "StorProcPDMSWTree.sql",
+        "pr_template_procedure.sql",
+        "queBulkInsert.sql",
+        "queComOPGeneral.sql",
+        "queComOPMasterT.sql",
+        "queCreateTable.sql",
+        "queMasterSnapShot.sql",
+        "resources",
+        "sqlCreUsers.sql",
+        "transactsql.slnx",
+        "update_dates_projects.sql"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 47,
+      "readme_excerpt": "# transactsql\nstored procedures in transactsql\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.857,
+      "commits": {
+        "count": 24,
+        "first_at": "2023-02-03T12:23:05+00:00",
+        "last_at": "2026-07-31T13:26:48+00:00",
+        "active_days": 16,
+        "span_days": 1274,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Generate CREATE TABLE script from view metadata",
+          "ok cheked",
+          "Paint costs update",
+          "Stored procedure insert Master T",
+          "First version",
+          "Standard cost added",
+          "Costo estándar y precio unitario agregado",
+          "Comparativo OP General",
+          "Comparativo OP con MasterT",
+          "Create createFormatBcp",
+          "paintcostsUpdates",
+          "bulk insert example",
+          "2025-8-6",
+          "with Foreign key",
+          "ok Function",
+          "Delete readme2.txt",
+          "Prueba de uso de editor",
+          "Create .gitignore",
+          "Update readme2.txt",
+          "Update pr_template_procedure.sql"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "sql",
+          "source": "language",
+          "detail": "TSQL: 10,706 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (Create tabel from view metada.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10706,
+        "strong_skills": [
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "MDSERP_Spring",
+      "full_name": "EdwinFiracative/MDSERP_Spring",
+      "html_url": "https://github.com/EdwinFiracative/MDSERP_Spring",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-05T21:54:57Z",
+      "pushed_at": "2026-09-17T01:12:40Z",
+      "stargazers": 0,
+      "forks": 4,
+      "open_issues": 1,
+      "size_kb": 210,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 329469,
+        "JavaScript": 11934,
+        "TSQL": 5433,
+        "PowerShell": 881
+      },
+      "primary_language": "Java",
+      "file_count": 241,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".idea",
+        ".mvn",
+        "consumoAPI.js",
+        "dockerdeploy.ps1",
+        "dockerfile",
+        "mvnw",
+        "mvnw.cmd",
+        "pom.xml",
+        "src"
+      ],
+      "notable_files": [
+        "dockerfile",
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "lombok",
+          "maven-clean-plugin",
+          "maven-compiler-plugin",
+          "mdserp",
+          "modelmapper",
+          "mssql-jdbc",
+          "spring-boot-maven-plugin",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-oauth2-resource-server",
+          "spring-boot-starter-parent",
+          "spring-boot-starter-security",
+          "spring-boot-starter-test",
+          "spring-boot-starter-web",
+          "spring-security-test",
+          "springdoc-openapi-starter-webmvc-ui"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.631,
+      "commits": {
+        "count": 41,
+        "first_at": "2025-09-05T21:50:51+00:00",
+        "last_at": "2026-09-17T01:12:22+00:00",
+        "active_days": 24,
+        "span_days": 376,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Enhance logging configuration and update Docker deployment script for context support",
+          "Refactor SecurityConfig to simplify request matchers and enhance CORS handling",
+          "Refactor SecurityConfig to simplify request matchers and enhance CORS handling",
+          "Merge pull request #12 from pare1610/PedidosMargen",
+          "Merge pull request #11 from pare1610/main-informe-pedidos",
+          "Merge pull request #10 from pare1610/actualizacion-consultas-TLP",
+          "Add ReferClassificationSons entity, DTO, and controller for managing child classifications",
+          "Refactor package names to use lowercase 'erpdb' and add ReferClassification entity, DTO, repository, service, and controller for refer classification management",
+          "Merge pull request #9 from pare1610/main",
+          "Add Vendedor entity and DTO; update ViewErpPedidoHeader to include Vendedor relationship and modify related fields",
+          "Rename table annotations in ViewErpPedidoHeader, ViewErpPedidoNote, and ViewErpPedidoReference to use 'tab' prefix",
+          "Rename table annotations in ViewErpPedidoHeader, ViewErpPedidoNote, and ViewErpPedidoReference to use 'tab' prefix",
+          "Merge pull request #8 from pare1610/main",
+          "Add Referencia entity and DTO; update ViewErpPedidoReference to reference Referencia and modify PedidoController for new endpoint",
+          "Add dataSources.xml for database configuration and update .gitignore to exclude IntelliJ IDEA files",
+          "Merge remote-tracking branch 'MDSERP/main'",
+          "Add ViewErpPedidoHeader entity, DTO, repository, and service; implement string trimming on load for Cliente and Pedido entities",
+          "Merge pull request #7 from pare1610/add-tiempo-ceco",
+          "Add Cliente entity and DTO; update Pedido entity and DTO to reference Cliente",
+          "Merge pull request #6 from pare1610/main"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 232
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 3,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 329,469 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 11,934 bytes (3% of repo)",
+          "strength": 0.43432101392799316
+        },
+        {
+          "skill_id": "sql",
+          "source": "language",
+          "detail": "TSQL: 5,433 bytes (2% of repo)",
+          "strength": 0.4156247753201598
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (src/main/resources/db/migration/update-schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (src/main/resources/db/migration/update-schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/proelectricos/mdserp/MdserpApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "spring",
+          "source": "repo_name",
+          "detail": "'spring' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-maven-plugin in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 347717,
+        "strong_skills": [
+          "data-modeling",
+          "docker",
+          "java",
+          "spring",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mds-erp-front",
+      "full_name": "EdwinFiracative/mds-erp-front",
+      "html_url": "https://github.com/EdwinFiracative/mds-erp-front",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-28T21:39:42Z",
+      "pushed_at": "2026-06-19T20:36:28Z",
+      "stargazers": 0,
+      "forks": 3,
+      "open_issues": 0,
+      "size_kb": 106,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 13594,
+        "HTML": 3992,
+        "CSS": 2346,
+        "PowerShell": 601
+      },
+      "primary_language": "TypeScript",
+      "file_count": 60,
+      "top_level_paths": [
+        ".dockerignore",
+        ".editorconfig",
+        ".gitignore",
+        ".prettierrc",
+        ".vscode",
+        "README.md",
+        "angular.json",
+        "dockerdeploy.ps1",
+        "dockerfile",
+        "nginx.conf",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json"
+      ],
+      "notable_files": [
+        "dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular/build",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/platform-browser",
+          "@angular/router",
+          "jsdom",
+          "keycloak-angular",
+          "keycloak-js",
+          "prettier",
+          "rxjs",
+          "tslib",
+          "typescript",
+          "vitest",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1465,
+      "readme_excerpt": "# MdsErpFront\n\nThis project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.\n\n## Development server\n\nTo start a local development server, run:\n\n```bash\nng serve\n```\n\nOnce the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.\n\n## Code scaffolding\n\nAngular CLI includes powerful code scaffolding tools. To generate a new component, run:\n\n```bash\nng generate component component-name\n```\n\nFor a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:\n\n```bash\nng generate --help\n```\n\n## Building\n\nTo build the project run:\n\n```bash\nng build\n```\n\nThis will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.\n\n## Running unit tests\n\nTo execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:\n\n```bash\nng test\n```\n\n## Running end-to-end tests\n\nFor end-to-end (e2e) testing, run:\n\n```bash\nng e2e\n```\n\nAngular CLI does not come with an end-to-end testing fra",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.833,
+      "commits": {
+        "count": 5,
+        "first_at": "2026-05-28T18:13:09+00:00",
+        "last_at": "2026-06-19T20:36:28+00:00",
+        "active_days": 3,
+        "span_days": 22,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "Merge pull request #2 from pare1610/main",
+          "feat: add Docker configuration and Nginx setup for Angular application",
+          "feat: implement menu component with keycloak integration",
+          "feat: implement menu component with keycloak integration",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 42
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 13,594 bytes (66% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,992 bytes (19% of repo)",
+          "strength": 0.5944187405639703
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,346 bytes (11% of repo)",
+          "strength": 0.5142551015438562
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (nginx.conf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/app/app.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 20533,
+        "strong_skills": [
+          "docker",
+          "html-css",
+          "linux",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 904345,
+    "CSS": 835822,
+    "Java": 329469,
+    "SCSS": 267400,
+    "HTML": 44340,
+    "TSQL": 16139,
+    "JavaScript": 15449,
+    "PowerShell": 2083
+  },
+  "total_commits": 83,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng",
+        "EdwinFiracative/primeng_next_level_ui_book",
+        "EdwinFiracative/mds-erp-front"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 904345,
+      "commit_count": 18,
+      "first_seen": "2026-05-28T18:13:09+00:00",
+      "last_seen": "2026-09-15T19:54:30+00:00",
+      "details": [
+        "erp-front-sakai-ng: TypeScript: 706,418 bytes (95% of repo)",
+        "erp-front-sakai-ng: typescript in package.json",
+        "primeng_next_level_ui_book: TypeScript: 184,333 bytes (14% of repo)",
+        "primeng_next_level_ui_book: typescript in package.json",
+        "mds-erp-front: TypeScript: 13,594 bytes (66% of repo)",
+        "mds-erp-front: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng",
+        "EdwinFiracative/primeng_next_level_ui_book",
+        "EdwinFiracative/mds-erp-front"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1147069,
+      "commit_count": 18,
+      "first_seen": "2026-05-28T18:13:09+00:00",
+      "last_seen": "2026-09-15T19:54:30+00:00",
+      "details": [
+        "erp-front-sakai-ng: HTML: 35,469 bytes (5% of repo)",
+        "primeng_next_level_ui_book: CSS: 833,144 bytes (65% of repo)",
+        "primeng_next_level_ui_book: SCSS: 267,239 bytes (21% of repo)",
+        "primeng_next_level_ui_book: HTML: 4,879 bytes (0% of repo)",
+        "mds-erp-front: HTML: 3,992 bytes (19% of repo)",
+        "mds-erp-front: CSS: 2,346 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "EdwinFiracative/transactsql",
+        "EdwinFiracative/MDSERP_Spring"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 16139,
+      "commit_count": 65,
+      "first_seen": "2023-02-03T12:23:05+00:00",
+      "last_seen": "2026-09-17T01:12:22+00:00",
+      "details": [
+        "transactsql: TSQL: 10,706 bytes (100% of repo)",
+        "transactsql: SQL file (Create tabel from view metada.sql)",
+        "MDSERP_Spring: TSQL: 5,433 bytes (2% of repo)",
+        "MDSERP_Spring: SQL file (src/main/resources/db/migration/update-schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "EdwinFiracative/MDSERP_Spring"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 329469,
+      "commit_count": 41,
+      "first_seen": "2025-09-05T21:50:51+00:00",
+      "last_seen": "2026-09-17T01:12:22+00:00",
+      "details": [
+        "MDSERP_Spring: Java: 329,469 bytes (95% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng",
+        "EdwinFiracative/primeng_next_level_ui_book",
+        "EdwinFiracative/MDSERP_Spring",
+        "EdwinFiracative/mds-erp-front"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 59,
+      "first_seen": "2025-09-05T21:50:51+00:00",
+      "last_seen": "2026-09-17T01:12:22+00:00",
+      "details": [
+        "erp-front-sakai-ng: test file (src/guards/auth-role-guard.spec.ts)",
+        "primeng_next_level_ui_book: test file (apps/chapter-13/src/app/pages/tips/fake-async.spec.ts)",
+        "primeng_next_level_ui_book: @nx/jest in package.json",
+        "MDSERP_Spring: test directory (src/test/java/com/proelectricos/mdserp/MdserpApplicationTests.java)",
+        "mds-erp-front: test file (src/app/app.spec.ts)",
+        "mds-erp-front: vitest in package.json"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "EdwinFiracative/primeng_next_level_ui_book"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2026-09-03T23:43:04+00:00",
+      "last_seen": "2026-09-06T22:06:46+00:00",
+      "details": [
+        "primeng_next_level_ui_book: e2e suite (apps/chapter-13-e2e/cypress.config.ts)",
+        "primeng_next_level_ui_book: @nx/cypress in package.json"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "EdwinFiracative/MDSERP_Spring"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 41,
+      "first_seen": "2025-09-05T21:50:51+00:00",
+      "last_seen": "2026-09-17T01:12:22+00:00",
+      "details": [
+        "MDSERP_Spring: 'spring' in repo name/description",
+        "MDSERP_Spring: spring-boot-maven-plugin in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2026-07-16T21:16:52+00:00",
+      "last_seen": "2026-09-15T19:54:30+00:00",
+      "details": [
+        "erp-front-sakai-ng: chart.js in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2026-07-16T21:16:52+00:00",
+      "last_seen": "2026-09-15T19:54:30+00:00",
+      "details": [
+        "erp-front-sakai-ng: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng",
+        "EdwinFiracative/MDSERP_Spring",
+        "EdwinFiracative/mds-erp-front"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 57,
+      "first_seen": "2025-09-05T21:50:51+00:00",
+      "last_seen": "2026-09-17T01:12:22+00:00",
+      "details": [
+        "erp-front-sakai-ng: Dockerfile (dockerfile)",
+        "MDSERP_Spring: Dockerfile (dockerfile)",
+        "mds-erp-front: Dockerfile (dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng",
+        "EdwinFiracative/mds-erp-front"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2026-05-28T18:13:09+00:00",
+      "last_seen": "2026-09-15T19:54:30+00:00",
+      "details": [
+        "erp-front-sakai-ng: server config (nginx.conf)",
+        "mds-erp-front: server config (nginx.conf)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "EdwinFiracative/MDSERP_Spring"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 41,
+      "first_seen": "2025-09-05T21:50:51+00:00",
+      "last_seen": "2026-09-17T01:12:22+00:00",
+      "details": [
+        "MDSERP_Spring: database migrations (src/main/resources/db/migration/update-schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "EdwinFiracative/erp-front-sakai-ng",
+        "EdwinFiracative/MDSERP_Spring"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43432101392799316,
+      "total_bytes": 15361,
+      "commit_count": 52,
+      "first_seen": "2025-09-05T21:50:51+00:00",
+      "last_seen": "2026-09-17T01:12:22+00:00",
+      "details": [
+        "erp-front-sakai-ng: JavaScript: 3,427 bytes (0% of repo)",
+        "MDSERP_Spring: JavaScript: 11,934 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "EdwinFiracative/primeng_next_level_ui_book"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2026-09-03T23:43:04+00:00",
+      "last_seen": "2026-09-06T22:06:46+00:00",
+      "details": [
+        "primeng_next_level_ui_book: 'next' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 83,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 12,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:25:18.703807+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

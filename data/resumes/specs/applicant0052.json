@@ -1,0 +1,126 @@
+{
+  "github_login": "shivamshashank",
+  "applicant_id": "applicant0052",
+  "first_name": "Priyanka",
+  "last_name": "Osei",
+  "career_stage": "student",
+  "email": "priyanka@larchmontit.example",
+  "phone": "(555) 010-0152",
+  "location": "Larchmont Vale",
+  "linkedin": "linkedin.example.com/in/priyanka-osei",
+  "github_url": "github.example.com/priyanka-osei",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Larchmont Institute of Technology",
+    "location": "Larchmont Vale",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Interaction Design",
+    "graduation": "June 2027",
+    "gpa": null,
+    "coursework": [
+      "Human-Computer Interaction",
+      "Distributed Systems",
+      "Technical Writing for Engineers"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Logdoctor",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Mar 2026",
+      "bullets": [
+        "Built a command-line log analysis tool comparing OpenAI, Anthropic and Google LLM providers, using chalk and inquirer for interactive output.",
+        "Focused on making dense log output scannable in the terminal, after early versions were hard to read at a glance."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "Shell"
+      ]
+    },
+    {
+      "title": "Cloudinferops",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Built a Kubernetes-native CLI in Go for deploying, monitoring and benchmarking LLM workloads, with CI, tests and Docker packaging.",
+        "Organized the 150-file codebase and its command structure so operators could find the right subcommand without reading source."
+      ],
+      "link": null,
+      "tech": [
+        "Go",
+        "TypeScript",
+        "Python"
+      ]
+    },
+    {
+      "title": "Kubeops Platform",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Mar 2026",
+      "bullets": [
+        "Wrote automation scripts deploying a full observability stack to a local Kubernetes cluster in a single run."
+      ],
+      "link": null,
+      "tech": [
+        "Shell"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Documentation Contributor",
+      "organization": "Larchmont Open-Source Study Group",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "New contributors to a shared campus tooling repo often gave up after the setup instructions assumed too much prior context.",
+        "Rewrote the onboarding guide with a clearer structure and screenshots of expected terminal output at each step.",
+        "Realized clear formatting changed whether people finished onboarding at all, more than the accuracy of the instructions did."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Shell Scripting",
+      "Go",
+      "Python",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "AI/ML": [
+      "LLM Application Development"
+    ],
+    "DevOps": [
+      "Kubernetes",
+      "Docker",
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

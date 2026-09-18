@@ -1,0 +1,1241 @@
+{
+  "applicant_id": "applicant0153",
+  "login": "leep-frog",
+  "html_url": "https://github.com/leep-frog",
+  "created_at": "2020-06-09T15:19:57Z",
+  "account_age_days": 2290,
+  "public_repos": 30,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "termin-all-or-nothing",
+      "full_name": "leep-frog/termin-all-or-nothing",
+      "html_url": "https://github.com/leep-frog/termin-all-or-nothing",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-08-03T14:13:20Z",
+      "pushed_at": "2025-10-14T01:20:56Z",
+      "stargazers": 5,
+      "forks": 1,
+      "open_issues": 1,
+      "size_kb": 755,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "TypeScript": 25475,
+        "Jupyter Notebook": 324,
+        "JavaScript": 317,
+        "Python": 216
+      },
+      "primary_language": "TypeScript",
+      "file_count": 32,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".gitattributes",
+        ".gitignore",
+        ".vscode",
+        ".vscode-test.mjs",
+        ".vscodeignore",
+        "LICENSE",
+        "README.md",
+        "docs",
+        "examples",
+        "logo.png",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.json",
+        "vsc-extension-quickstart.md"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@leep-frog/vscode-test-stubber",
+          "@types/glob",
+          "@types/mocha",
+          "@types/node",
+          "@types/vscode",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@vscode/test-cli",
+          "@vscode/test-electron",
+          "esbuild",
+          "eslint",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2323,
+      "readme_excerpt": "# termin-all-or-nothing\n\nThis extension (primarily written to solve [this problem](https://github.com/microsoft/vscode/issues/131319))\ndoes its best to prevent your vscode editor from ever becoming a cyborg\n(half editor, half terminal). Any time that split can occur, this extension\neither fully opens or fully closes the terminal.\n\n## Setup\n\nThe extension should start working automatically after installation.\n\nIt is also recommended to update your preferred keyboard\nbinding (in `keybindings.json`) for panel toggling to use the\nVS Code command\n`workbench.action.toggleMaximizedPanel` (as opposed to\n`workbench.action.togglePanel`) to ensure that you\nare always fully opening or closing the panel. For example,\n\n```json\n  {\n    \"key\": \"ctrl+t\",\n    \"command\": \"workbench.action.toggleMaximizedPanel\"\n  },\n```\n\n## All-or-Nothing Cases\n\nThere are many ways that a terminal/editor can be opened in VS Code. This\nextension has considered the following cases:\n\n### Open from File Explorer\n\n> Opening via both single-click and double-click works.\n\n![](./docs/gifs/FileExplorerOpen.gif)\n\n### Open from Command Prompt\n\n![](./docs/gifs/PromptFromTerminal.gif)\n\n### Ctrl+click on file reference from termina",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.988,
+      "commits": {
+        "count": 81,
+        "first_at": "2022-08-03T14:04:09+00:00",
+        "last_at": "2025-04-22T01:53:17+00:00",
+        "active_days": 26,
+        "span_days": 992,
+        "max_per_day": 15,
+        "low_effort_message_ratio": 0.309,
+        "messages_sample": [
+          "bump for non pre-release version",
+          "non-ui extension",
+          "add output channel setting flag",
+          "truncate output channel",
+          "add output channel",
+          "fix esbuild watcher",
+          "console log some stuff",
+          "remove await",
+          "remove await",
+          "combine lines",
+          "update extensionKind to ui and publish pre-release version",
+          "add other.py",
+          "auto-close panel when re-opening the same file",
+          "update echo",
+          "test before publish",
+          "update version",
+          "include logo",
+          "minor test update",
+          "add logo",
+          "add to vscode ignore"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 25,475 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/FAQ.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/runTest.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (src/test/test-workspace/notebook.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/mocha in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 26332,
+        "strong_skills": [
+          "pandas",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "command",
+      "full_name": "leep-frog/command",
+      "html_url": "https://github.com/leep-frog/command",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-04-17T22:46:29Z",
+      "pushed_at": "2026-09-17T01:12:33Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3495,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Go": 1225250
+      },
+      "primary_language": "Go",
+      "file_count": 214,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "cache",
+        "color",
+        "command",
+        "command.go",
+        "commander",
+        "commandertest",
+        "commandtest",
+        "docs",
+        "example-cli",
+        "glog",
+        "go.mod",
+        "go.sum",
+        "internal",
+        "sourcerer"
+      ],
+      "notable_files": [
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/google/go-cmp",
+          "github.com/google/uuid",
+          "golang.org/x/exp"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3167,
+      "readme_excerpt": "# Command\n\n`github.com/leep-frog/command` is a Go package for writing custom bash commands in Go! Some of the most valuable benefits of this package include:\n\n- [Simple autocomplete implementation](./docs/features/autocompletion.md)\n\n- [Automatic help documentation](./docs/features/automated_documentation.md)\n\n- [Persistent CLI data](./docs/features/persistent_data.md)\n\n- [CLI shortcutting](./docs/features/shortcuts.md)\n\n- [Testing framework for command execution, completion, and usage](./docs/features/testing.md)\n\n- [Caching previous command executions](./docs/features/caching.md)\n\nSee the following docs folders for more info:\n\n- [`docs/basics` folder](./docs/basics/): Core concepts and types for this package.\n\n- [`docs/features` folder](./docs/features/): Exhaustive list of features.\n\n## Installation\n\n1. Create a new go project (`go mod init`)\n\n1. Include this library in the project (`go get github.com/leep-frog/command`)\n\n1. Create a `main.go` with the following contents:\n\n```golang\npackage main\n\nimport (\n  \"os\"\n\n  \"github.com/leep-frog/command/sourcerer\"\n)\n\nfunc main() {\n  clis := []sourcerer.CLI{\n    // Put the CLIs you want here\n  }\n\n  opts := []sourcerer.Option{\n    // Put C",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2023-11-10T00:03:07+00:00",
+        "last_at": "2026-09-17T01:12:23+00:00",
+        "active_days": 48,
+        "span_days": 1042,
+        "max_per_day": 23,
+        "low_effort_message_ratio": 0.05,
+        "messages_sample": [
+          "rename",
+          "add OptionalGetwd",
+          "add EnvArg usage test",
+          "more env arg tests",
+          "env arg tests",
+          "DryRunWrap",
+          "add dry run flag",
+          "HiddenArg to Hidden",
+          "add BoolFlagOptions",
+          "add shadow dir for proper executable usage",
+          "minor fixes and update tests",
+          "add comment",
+          "fix top-level CLI",
+          "stuff",
+          "stuff",
+          "stuff",
+          "stuff",
+          "stuff",
+          "stuff",
+          "stuff"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 128
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 4,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,225,250 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (cache/cache_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/basics/args.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1225250,
+        "strong_skills": [
+          "go",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "what-the-beep",
+      "full_name": "leep-frog/what-the-beep",
+      "html_url": "https://github.com/leep-frog/what-the-beep",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-08-12T17:07:38Z",
+      "pushed_at": "2025-05-25T03:02:50Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2337,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "TypeScript": 30138,
+        "JavaScript": 279
+      },
+      "primary_language": "TypeScript",
+      "file_count": 26,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".gitignore",
+        ".vscode",
+        ".vscode-test.mjs",
+        ".vscodeignore",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "logo.png",
+        "media",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@leep-frog/sound-play",
+          "@leep-frog/vscode-test-stubber",
+          "@types/mocha",
+          "@types/node",
+          "@types/vscode",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@vscode/test-cli",
+          "@vscode/test-electron",
+          "esbuild",
+          "eslint",
+          "glob",
+          "mocha",
+          "node-notifier",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2712,
+      "readme_excerpt": "# What The Beep?!\n\nThis extension provides the capability to play an audio file and send\nVS Code and/or desktop notifications after built-in VS Code events, including:\n\n* [Terminal Events](#beep-via-terminal-event)\n* [Other Extension Actions](#beep-via-extensions)\n* [Keybindings](#beep-via-keybinding)\n\n### Beep via Terminal Event\n\nBeeps and notifications can be triggered via terminal events. Simply\nconfigure the `what-the-beep.terminalActions` setting:\n\n```json\n{\n  \"what-the-beep.terminalActions\": [\n    {\n      // Any combination/subset of the following fields can be set. Their\n      // names are self-explanatory and VS Code setting auto-completion\n      // will provide useful hints on how to configure each of these values.\n      \"trigger\": ...,\n      \"desktopNotification\": ...,\n      \"notification\": ...,\n    }\n  ],\n},\n```\n\nThe above configuration will cause the default beep to be played (along\nwith any other notification actions). However, you can also configure\nother beeps and actions to be triggered by terminal events:\n\n```json\n{\n  \"what-the-beep.terminalActions\": [\n    // Beeps with a different builtin sound\n    {\n      \"trigger\": ...,\n      \"command\": \"what-the-beep.beep\",\n   ",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 55,
+        "first_at": "2022-08-12T17:07:38+00:00",
+        "last_at": "2025-05-25T03:02:48+00:00",
+        "active_days": 16,
+        "span_days": 1016,
+        "max_per_day": 18,
+        "low_effort_message_ratio": 0.218,
+        "messages_sample": [
+          "update readme",
+          "no notification sound",
+          "update npm package",
+          "increase volume",
+          "update vscode-test-stubber",
+          "update leep-frog/sound-play",
+          "fix sound issue",
+          "use @leep-frog/sound-play package",
+          "fix watcher",
+          "make extension a ui extension so it always run on the local VS Code extension server and not on the remote one when using remote SSH",
+          "unbundle extension",
+          "re-add node-notifier hopefully",
+          "mark node-notifier as external in esbuild so it is not bundled and just built as normal so that desktop notifications work again",
+          "test before publish",
+          "remove other files from bundling",
+          "remove node_modules from extension building",
+          "bundle extensions",
+          "update package-lock",
+          "update activation events so terminal events are parsed System.Object[] requiring a wtb command to have been run first",
+          "update vscodeignore"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 30,138 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/suite/extension.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/mocha in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 30417,
+        "strong_skills": [
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "very-import-ant",
+      "full_name": "leep-frog/very-import-ant",
+      "html_url": "https://github.com/leep-frog/very-import-ant",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-08T18:43:01Z",
+      "pushed_at": "2026-09-08T02:25:05Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10680,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "TypeScript": 133674,
+        "JavaScript": 1021
+      },
+      "primary_language": "TypeScript",
+      "file_count": 28,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".vscode",
+        ".vscode-test.mjs",
+        ".vscodeignore",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "docs",
+        "eslint.config.mjs",
+        "logo.png",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.json",
+        "vsc-extension-quickstart.md"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@astral-sh/ruff-wasm-nodejs",
+          "@leep-frog/vscode-test-stubber",
+          "@types/mocha",
+          "@types/node",
+          "@types/vscode",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@vscode/test-cli",
+          "@vscode/test-electron",
+          "esbuild",
+          "eslint",
+          "toml",
+          "ts-node",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5751,
+      "readme_excerpt": "# Very Import-ant\n\n## Never write import statements again\n\nThe purpose of this extension is to completely remove the requirement\nfor users to manually add import statements to individual files.\n\nSimply configure the imports you use (e.g. `import pandas as pd`)\nand then those imports will be added whenever the respective variable reference (e.g. `pd`) is in your Python file.\n\n## Don't Other Extensions Do This?...Not Quite\n\nExisting Python language server extensions (e.g. Pylance) implement\nauto-importing to some extent, but with a few notable drawbacks:\n\n1. The auto-import functionality requires the language server to\ncreate a drop-down, which occasionally takes a while to load (frequently\nit would have been quicker for a user to navigate to the top of the\nfile and just add the import line manually).\n\n1. The user has to accept a selection from the drop-down, which is an interruption\nto the typing flow (albeit a somewhat small one, but one nonetheless).\n\n1. Most (all?) of the existing Python language server extensions for VS Code\n(specifically Pylance) don't allow customizing auto-import aliases.\nInstead they only support a fixed set of ones (e.g. `pd` for pandas, `np` for\nnumpy, etc",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.633,
+      "commits": {
+        "count": 150,
+        "first_at": "2024-12-08T18:43:03+00:00",
+        "last_at": "2026-06-06T23:05:12+00:00",
+        "active_days": 31,
+        "span_days": 545,
+        "max_per_day": 23,
+        "low_effort_message_ratio": 0.187,
+        "messages_sample": [
+          "depend-a-bot grouping",
+          "Merge branch 'main' of github.com:leep-frog/very-import-ant into main",
+          "run regular ruff formatting too",
+          "update readme",
+          "reference setting to remove import format bouncing",
+          "add test",
+          "add note on how to disable for files",
+          "update readme",
+          "incorporate jupyter runStartupCommands",
+          "version bump",
+          "one more speed up",
+          "speed up tests",
+          "add tests for other env vars",
+          "add tests",
+          "bump version",
+          "improve invalid start up script logic",
+          "update logs",
+          "add logs",
+          "consider notebook startup files",
+          "add test"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following the"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 2,
+          "refactor": 0,
+          "test": 5,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 133,674 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,021 bytes (1% of repo)",
+          "strength": 0.4075800883477486
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/troubleshooting.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/extension.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/mocha in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 134695,
+        "strong_skills": [
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "euler_challenge",
+      "full_name": "leep-frog/euler_challenge",
+      "html_url": "https://github.com/leep-frog/euler_challenge",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-12-08T13:35:19Z",
+      "pushed_at": "2026-09-05T18:12:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 30360,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Go": 1289482,
+        "Python": 22506,
+        "Shell": 423
+      },
+      "primary_language": "Go",
+      "file_count": 968,
+      "top_level_paths": [
+        ".vscode",
+        "aoc",
+        "bfs",
+        "binary",
+        "bread",
+        "btree",
+        "chatgpt.py",
+        "chatgpt_scipy.py",
+        "cmd",
+        "combinatorics",
+        "ec",
+        "equations",
+        "equilibrium",
+        "fraction",
+        "generator",
+        "go.mod",
+        "go.sum",
+        "hexgrid",
+        "linkedlist",
+        "maths",
+        "pair",
+        "parse",
+        "point",
+        "profiler",
+        "rgx",
+        "series",
+        "topology",
+        "unionfind",
+        "walker",
+        "yoy.py"
+      ],
+      "notable_files": [
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/ajstarks/svgo",
+          "github.com/go-fonts/liberation",
+          "github.com/go-latex/latex",
+          "github.com/go-pdf/fpdf",
+          "github.com/golang/freetype",
+          "github.com/google/btree",
+          "github.com/google/go-cmp",
+          "github.com/google/uuid",
+          "github.com/james-bowman/sparse",
+          "github.com/leep-frog/command",
+          "github.com/leep-frog/functional",
+          "golang.org/x/exp",
+          "golang.org/x/image",
+          "golang.org/x/text",
+          "gonum.org/v1/exp",
+          "gonum.org/v1/gonum",
+          "gonum.org/v1/plot"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2023-05-31T00:28:29+00:00",
+        "last_at": "2026-09-05T18:12:37+00:00",
+        "active_days": 64,
+        "span_days": 1193,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.06,
+        "messages_sample": [
+          "update more",
+          "update versions",
+          "2025 d9",
+          "2025 d08",
+          "2025 d07",
+          "more problems",
+          "2025 aoc",
+          "todo",
+          "minor edits",
+          "other parts of it",
+          "p930 stop",
+          "cg",
+          "stuff",
+          "update truth",
+          "python file",
+          "add test",
+          "p927",
+          "p928",
+          "update p929",
+          "p929 improvement"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 566
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,289,482 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 22,506 bytes (2% of repo)",
+          "strength": 0.41714859140924604
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (aoc/2021/aoc_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1312411,
+        "strong_skills": [
+          "go",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Go": 2514732,
+    "TypeScript": 189287,
+    "Python": 22722,
+    "JavaScript": 1617,
+    "Shell": 423,
+    "Jupyter Notebook": 324
+  },
+  "total_commits": 686,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "leep-frog/termin-all-or-nothing",
+        "leep-frog/what-the-beep",
+        "leep-frog/very-import-ant"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 189287,
+      "commit_count": 286,
+      "first_seen": "2022-08-03T14:04:09+00:00",
+      "last_seen": "2026-06-06T23:05:12+00:00",
+      "details": [
+        "termin-all-or-nothing: TypeScript: 25,475 bytes (97% of repo)",
+        "termin-all-or-nothing: typescript in package.json",
+        "what-the-beep: TypeScript: 30,138 bytes (99% of repo)",
+        "what-the-beep: typescript in package.json",
+        "very-import-ant: TypeScript: 133,674 bytes (99% of repo)",
+        "very-import-ant: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "leep-frog/command",
+        "leep-frog/euler_challenge"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2514732,
+      "commit_count": 400,
+      "first_seen": "2023-05-31T00:28:29+00:00",
+      "last_seen": "2026-09-17T01:12:23+00:00",
+      "details": [
+        "command: Go: 1,225,250 bytes (100% of repo)",
+        "command: Go module (go.mod)",
+        "euler_challenge: Go: 1,289,482 bytes (98% of repo)",
+        "euler_challenge: Go module (go.mod)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "leep-frog/termin-all-or-nothing",
+        "leep-frog/command",
+        "leep-frog/what-the-beep",
+        "leep-frog/very-import-ant",
+        "leep-frog/euler_challenge"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 686,
+      "first_seen": "2022-08-03T14:04:09+00:00",
+      "last_seen": "2026-09-17T01:12:23+00:00",
+      "details": [
+        "termin-all-or-nothing: test directory (src/test/runTest.ts)",
+        "termin-all-or-nothing: @types/mocha in package.json",
+        "command: test file (cache/cache_test.go)",
+        "what-the-beep: test directory (src/test/suite/extension.test.ts)",
+        "what-the-beep: @types/mocha in package.json",
+        "very-import-ant: test directory (src/test/extension.test.ts)",
+        "very-import-ant: @types/mocha in package.json",
+        "euler_challenge: test file (aoc/2021/aoc_test.go)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "leep-frog/termin-all-or-nothing",
+        "leep-frog/command",
+        "leep-frog/very-import-ant"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 431,
+      "first_seen": "2022-08-03T14:04:09+00:00",
+      "last_seen": "2026-09-17T01:12:23+00:00",
+      "details": [
+        "termin-all-or-nothing: docs directory (docs/FAQ.md)",
+        "command: docs directory (docs/basics/args.md)",
+        "very-import-ant: docs directory (docs/troubleshooting.md)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "leep-frog/termin-all-or-nothing"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 81,
+      "first_seen": "2022-08-03T14:04:09+00:00",
+      "last_seen": "2025-04-22T01:53:17+00:00",
+      "details": [
+        "termin-all-or-nothing: jupyter notebook (src/test/test-workspace/notebook.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "leep-frog/euler_challenge"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41714859140924604,
+      "total_bytes": 22506,
+      "commit_count": 200,
+      "first_seen": "2023-05-31T00:28:29+00:00",
+      "last_seen": "2026-09-05T18:12:37+00:00",
+      "details": [
+        "euler_challenge: Python: 22,506 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "leep-frog/very-import-ant"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4075800883477486,
+      "total_bytes": 1021,
+      "commit_count": 150,
+      "first_seen": "2024-12-08T18:43:03+00:00",
+      "last_seen": "2026-06-06T23:05:12+00:00",
+      "details": [
+        "very-import-ant: JavaScript: 1,021 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 686,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 5,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-17T01:28:00.343145+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

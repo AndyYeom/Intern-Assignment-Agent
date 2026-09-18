@@ -1,0 +1,1126 @@
+{
+  "applicant_id": "applicant0037",
+  "login": "sjdnye",
+  "html_url": "https://github.com/sjdnye",
+  "created_at": "2020-01-31T20:19:15Z",
+  "account_age_days": 2419,
+  "public_repos": 23,
+  "followers": 2,
+  "following": 1,
+  "repos": [
+    {
+      "name": "weblog-nodejs",
+      "full_name": "sjdnye/weblog-nodejs",
+      "html_url": "https://github.com/sjdnye/weblog-nodejs",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-05-06T09:43:12Z",
+      "pushed_at": "2023-07-16T11:49:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 25681,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 276726,
+        "CSS": 239469,
+        "EJS": 30665
+      },
+      "primary_language": "JavaScript",
+      "file_count": 96,
+      "top_level_paths": [
+        "app.js",
+        "config",
+        "controllers",
+        "middlewares",
+        "models",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "routes",
+        "utils",
+        "views"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2023-05-04T08:58:56+00:00",
+        "last_at": "2023-05-11T08:52:08+00:00",
+        "active_days": 7,
+        "span_days": 6,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.067,
+        "messages_sample": [
+          "bugs fixed",
+          "refactor for deploy",
+          "implement search feature",
+          "implement numeric captcha",
+          "send email & reset password",
+          "implement pagination",
+          "CRUD operation on blogs",
+          "implemet add posts to db and fetch them",
+          "implement google recaptcha",
+          "implement authenticate user",
+          "insert user in db & hash password",
+          "implemnt validator",
+          "create dashboard view & user model schema",
+          "implement env & connect to mongodb",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 44
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 276,726 bytes (51% of repo)",
+          "strength": 0.9060271367443221
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 239,469 bytes (44% of repo)",
+          "strength": 0.8378981823501445
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "repo_name",
+          "detail": "'nodejs' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 516195,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "portfolio",
+      "full_name": "sjdnye/portfolio",
+      "html_url": "https://github.com/sjdnye/portfolio",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-06-25T13:59:13Z",
+      "pushed_at": "2023-07-02T17:39:50Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13992,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 80176,
+        "CSS": 564,
+        "HTML": 495
+      },
+      "primary_language": "JavaScript",
+      "file_count": 67,
+      "top_level_paths": [
+        ".env",
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@emotion/cache",
+          "@emotion/react",
+          "@emotion/styled",
+          "@mui/icons-material",
+          "@mui/lab",
+          "@mui/material",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "formik",
+          "react",
+          "react-countup",
+          "react-dom",
+          "react-ellipsis-text",
+          "react-google-recaptcha",
+          "react-helmet-async",
+          "react-icons",
+          "react-particles",
+          "react-random-reveal",
+          "react-router-dom",
+          "react-scripts",
+          "react-slick",
+          "react-swipeable-views",
+          "react-text-transition",
+          "slick-carousel",
+          "stylis",
+          "stylis-plugin-rtl",
+          "tsparticles",
+          "typed.js",
+          "web-vitals",
+          "yup"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 12,
+        "first_at": "2023-06-25T12:49:43+00:00",
+        "last_at": "2023-07-02T17:38:13+00:00",
+        "active_days": 8,
+        "span_days": 7,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.083,
+        "messages_sample": [
+          "Refactor components",
+          "create Contact page",
+          "implement dark/light mode theme",
+          "create Resume page",
+          "create About page",
+          "implement animations & particles",
+          "implement ContextApi",
+          "implement drawer",
+          "implement sidebar",
+          "insert material ui",
+          "initial commit",
+          "Initialize project using Create React App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 47
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 80,176 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@emotion/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 81235,
+        "strong_skills": [
+          "javascript",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "todolist-nodejs",
+      "full_name": "sjdnye/todolist-nodejs",
+      "html_url": "https://github.com/sjdnye/todolist-nodejs",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-05-01T16:39:45Z",
+      "pushed_at": "2023-05-04T08:49:37Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7998,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 13617,
+        "EJS": 3196,
+        "CSS": 466
+      },
+      "primary_language": "JavaScript",
+      "file_count": 2281,
+      "top_level_paths": [
+        "controllers",
+        "data",
+        "model",
+        "node_modules",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "routes",
+        "server.js",
+        "utils",
+        "views"
+      ],
+      "notable_files": [
+        "node_modules/@types/bson/package.json",
+        "node_modules/@types/mongodb/package.json",
+        "node_modules/@types/node/package.json",
+        "node_modules/abbrev/package.json",
+        "node_modules/accepts/package.json",
+        "node_modules/ansi-styles/package.json",
+        "node_modules/anymatch/package.json",
+        "node_modules/array-flatten/package.json",
+        "node_modules/async/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/binary-extensions/package.json",
+        "node_modules/bl/package.json",
+        "node_modules/bluebird/package.json",
+        "node_modules/body-parser/package.json",
+        "node_modules/bootstrap-v4-rtl/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/braces/package.json",
+        "node_modules/bson/browser_build/package.json",
+        "node_modules/bson/package.json",
+        "node_modules/bytes/package.json",
+        "node_modules/call-bind/package.json",
+        "node_modules/chalk/package.json",
+        "node_modules/chokidar/package.json",
+        "node_modules/color-convert/package.json",
+        "node_modules/color-name/package.json",
+        "node_modules/concat-map/package.json",
+        "node_modules/content-disposition/package.json",
+        "node_modules/content-type/package.json",
+        "node_modules/cookie-signature/package.json",
+        "node_modules/cookie/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "body-parser",
+          "bootstrap-v4-rtl",
+          "ejs",
+          "express",
+          "font-awesome",
+          "mongoose",
+          "nodemon",
+          "uuid"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2023-05-01T15:11:20+00:00",
+        "last_at": "2023-05-03T18:21:00+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.143,
+        "messages_sample": [
+          "change database to mongodb",
+          "implement async & await approach",
+          "implement CRUD operations",
+          "create mysql databse",
+          "final commit",
+          "create todo class & save to file",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "(^|[-_])(todo|to-?do)([-_]?(app|list))?([-_]|$)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1584
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 13,617 bytes (79% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (node_modules/bl/test/indexOf.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (node_modules/readable-stream/doc/wg-meetings/2015-01-30.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "repo_name",
+          "detail": "'nodejs' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongoose in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 14083,
+        "strong_skills": [
+          "javascript",
+          "mongodb",
+          "nodejs",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Sadra-Doc",
+      "full_name": "sjdnye/Sadra-Doc",
+      "html_url": "https://github.com/sjdnye/Sadra-Doc",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-07-13T16:55:57Z",
+      "pushed_at": "2023-04-03T14:21:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 37087,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 71213
+      },
+      "primary_language": "Kotlin",
+      "file_count": 71,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "app",
+        "build.gradle",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle"
+      ],
+      "notable_files": [
+        "app/build.gradle",
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.android.tools.build",
+          "com.google.dagger",
+          "gradle",
+          "hilt-android-gradle-plugin",
+          "kotlin-gradle-plugin",
+          "org.jetbrains.kotlin"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2022-07-13T16:54:11+00:00",
+        "last_at": "2022-07-20T17:05:56+00:00",
+        "active_days": 2,
+        "span_days": 7,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "debug access permission for android above 11",
+          "finished ExportToExcelScreen ui",
+          "initial structure of project"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 36
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 71,213 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 71213,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "contact-manager-app",
+      "full_name": "sjdnye/contact-manager-app",
+      "html_url": "https://github.com/sjdnye/contact-manager-app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-06-05T16:26:36Z",
+      "pushed_at": "2023-06-15T15:02:56Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2732,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 44029,
+        "HTML": 777,
+        "CSS": 669
+      },
+      "primary_language": "JavaScript",
+      "file_count": 31,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "server",
+        "src"
+      ],
+      "notable_files": [
+        "package.json",
+        "server/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "axios",
+          "bootstrap",
+          "formik",
+          "lodash",
+          "lodash.throttle",
+          "react",
+          "react-confirm-alert",
+          "react-dom",
+          "react-hot-toast",
+          "react-router",
+          "react-router-dom",
+          "react-scripts",
+          "react-toastify",
+          "use-immer",
+          "web-vitals",
+          "yup"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2023-06-05T12:36:20+00:00",
+        "last_at": "2023-06-15T15:02:39+00:00",
+        "active_days": 8,
+        "span_days": 10,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "implement useImmer & toastify",
+          "implement Formik",
+          "implement Yup",
+          "implement debounce for search contacts",
+          "refactoring by context api",
+          "implement search contacts feature",
+          "create JSON server",
+          "implement routers",
+          "create contact & spinner components",
+          "implement navbar",
+          "Initialize project using Create React App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 44,029 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 45475,
+        "strong_skills": [
+          "javascript",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 414548,
+    "CSS": 241168,
+    "Kotlin": 71213,
+    "EJS": 33861,
+    "HTML": 1272
+  },
+  "total_commits": 48,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "sjdnye/weblog-nodejs",
+        "sjdnye/portfolio",
+        "sjdnye/todolist-nodejs",
+        "sjdnye/contact-manager-app"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 414548,
+      "commit_count": 45,
+      "first_seen": "2023-05-01T15:11:20+00:00",
+      "last_seen": "2023-07-02T17:38:13+00:00",
+      "details": [
+        "weblog-nodejs: JavaScript: 276,726 bytes (51% of repo)",
+        "portfolio: JavaScript: 80,176 bytes (99% of repo)",
+        "todolist-nodejs: JavaScript: 13,617 bytes (79% of repo)",
+        "contact-manager-app: JavaScript: 44,029 bytes (97% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "sjdnye/Sadra-Doc"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 71213,
+      "commit_count": 3,
+      "first_seen": "2022-07-13T16:54:11+00:00",
+      "last_seen": "2022-07-20T17:05:56+00:00",
+      "details": [
+        "Sadra-Doc: Kotlin: 71,213 bytes (100% of repo)",
+        "Sadra-Doc: Android app manifest (app/src/main/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "sjdnye/weblog-nodejs",
+        "sjdnye/todolist-nodejs"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2023-05-01T15:11:20+00:00",
+      "last_seen": "2023-05-11T08:52:08+00:00",
+      "details": [
+        "weblog-nodejs: 'nodejs' in repo name/description",
+        "todolist-nodejs: 'nodejs' in repo name/description",
+        "todolist-nodejs: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "sjdnye/portfolio",
+        "sjdnye/contact-manager-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2023-06-05T12:36:20+00:00",
+      "last_seen": "2023-07-02T17:38:13+00:00",
+      "details": [
+        "portfolio: @emotion/react in package.json",
+        "contact-manager-app: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "sjdnye/todolist-nodejs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2023-05-01T15:11:20+00:00",
+      "last_seen": "2023-05-03T18:21:00+00:00",
+      "details": [
+        "todolist-nodejs: mongoose in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "sjdnye/weblog-nodejs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8378981823501445,
+      "total_bytes": 239469,
+      "commit_count": 15,
+      "first_seen": "2023-05-04T08:58:56+00:00",
+      "last_seen": "2023-05-11T08:52:08+00:00",
+      "details": [
+        "weblog-nodejs: CSS: 239,469 bytes (44% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "sjdnye/todolist-nodejs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2023-05-01T15:11:20+00:00",
+      "last_seen": "2023-05-03T18:21:00+00:00",
+      "details": [
+        "todolist-nodejs: test directory (node_modules/bl/test/indexOf.js)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "sjdnye/todolist-nodejs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2023-05-01T15:11:20+00:00",
+      "last_seen": "2023-05-03T18:21:00+00:00",
+      "details": [
+        "todolist-nodejs: docs directory (node_modules/readable-stream/doc/wg-meetings/2015-01-30.md)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 48,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-16T14:14:57.453174+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,1755 @@
+{
+  "applicant_id": "applicant0140",
+  "login": "MarketDataApp",
+  "html_url": "https://github.com/MarketDataApp",
+  "created_at": "2022-09-05T13:57:06Z",
+  "account_age_days": 1472,
+  "public_repos": 11,
+  "followers": 15,
+  "following": 1,
+  "repos": [
+    {
+      "name": "sdk-go",
+      "full_name": "MarketDataApp/sdk-go",
+      "html_url": "https://github.com/MarketDataApp/sdk-go",
+      "description": "Official Go SDK for the Market Data API. Context-first access to real-time and historical stock, option, fund, and market-status data. Standard library only; requires Go 1.22+.",
+      "homepage": "https://www.marketdata.app/docs/sdk/go",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-22T19:02:38Z",
+      "pushed_at": "2026-09-17T01:03:21Z",
+      "stargazers": 10,
+      "forks": 3,
+      "open_issues": 5,
+      "size_kb": 1202,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "go",
+        "golang",
+        "golang-library",
+        "golang-package",
+        "options",
+        "options-api",
+        "options-pricing",
+        "options-trading",
+        "rest-api",
+        "restful-api",
+        "sdk",
+        "sdk-go",
+        "stock",
+        "stock-market",
+        "stocks",
+        "stocks-api",
+        "stocks-prices",
+        "trading"
+      ],
+      "languages": {
+        "Go": 1207246,
+        "Makefile": 1932
+      },
+      "primary_language": "Go",
+      "file_count": 301,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".golangci.yml",
+        "CHANGELOG.md",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "SECURITY.md",
+        "docs",
+        "examples",
+        "go.mod",
+        "integration",
+        "internal",
+        "marketdata"
+      ],
+      "notable_files": [
+        ".github/workflows/code-review.yml",
+        ".github/workflows/tag-and-release.yml",
+        ".github/workflows/tests.yml",
+        "examples/optionterm/go.mod",
+        "examples/stockterm/go.mod",
+        "examples/tuitest/go.mod",
+        "go.mod"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 11865,
+      "readme_excerpt": "<div align=\"center\">\n\n# Market Data Go SDK v2\n### Access Financial Data with Ease\n\n> This is the official Go SDK for [Market Data](https://www.marketdata.app/). It provides developers with a powerful, easy-to-use interface to obtain real-time and historical financial data. Ideal for building financial applications, trading bots, and investment strategies.\n\n[![Tests](https://github.com/MarketDataApp/sdk-go/actions/workflows/tests.yml/badge.svg)](https://github.com/MarketDataApp/sdk-go/actions/workflows/tests.yml)\n[![Coverage](https://codecov.io/gh/MarketDataApp/sdk-go/graph/badge.svg)](https://codecov.io/gh/MarketDataApp/sdk-go)\n[![License](https://img.shields.io/github/license/MarketDataApp/sdk-go.svg)](https://github.com/MarketDataApp/sdk-go/blob/main/LICENSE)\n[![Go Reference](https://pkg.go.dev/badge/github.com/MarketDataApp/sdk-go/v2.svg)](https://pkg.go.dev/github.com/MarketDataApp/sdk-go/v2)\n[![Go Report Card](https://goreportcard.com/badge/github.com/MarketDataApp/sdk-go/v2)](https://goreportcard.com/report/github.com/MarketDataApp/sdk-go/v2)\n[![Go Version](https://img.shields.io/github/go-mod/go-version/MarketDataApp/sdk-go)](https://go.dev/)\n\n#### Connect With The Market Da",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.982,
+      "commits": {
+        "count": 109,
+        "first_at": "2023-11-22T19:02:38+00:00",
+        "last_at": "2026-09-17T01:01:24+00:00",
+        "active_days": 40,
+        "span_days": 1029,
+        "max_per_day": 15,
+        "low_effort_message_ratio": 0.083,
+        "messages_sample": [
+          "ci: a documentation-only pull request should not run the suite (#21)",
+          "docs: PR review rules — the version bump becomes a calculation (#20)",
+          "feat(ci): call the code review bot, dispatch only for now (#19)",
+          "Merge pull request #17 from MarketDataApp/docs/stacked-pr-retarget",
+          "docs: retarget a stacked PR to main as soon as it is approved",
+          "ci,docs: add Dependabot (grouped), FUNDING, and the bug-finding and issue workflows (#10)",
+          "docs: add the bug report and security reporting templates (#9)",
+          "ci: add release automation — tag-and-release.yml and RELEASE_PROCESS.md (#8)",
+          "docs: collapse the four Utilities rows in the migration table into one (#6)",
+          "docs: drop the Indices and v2-API endpoint rows from the migration guide (#5)",
+          "Merge pull request #3 from MarketDataApp/release/v2.0.0",
+          "feat!: v2.0.0 — complete rewrite with an idiomatic Go API",
+          "Added context support",
+          "added vscode settings",
+          "updated LOC",
+          "added feed param",
+          "added mutual fund candles",
+          "added minask,maxask,minbid,maxbid",
+          "test fixes",
+          "updated a few tests"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 9,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 180
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 1,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 1,207,246 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 1,932 bytes (0% of repo)",
+          "strength": 0.4015977796486539
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/code-review.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/COMPARISON.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (examples/coverage_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (examples/optionterm/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "topic",
+          "detail": "repo topic 'go'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "rest-api",
+          "source": "topic",
+          "detail": "repo topic 'rest-api'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1209178,
+        "strong_skills": [
+          "cicd",
+          "go",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sdk-py",
+      "full_name": "MarketDataApp/sdk-py",
+      "html_url": "https://github.com/MarketDataApp/sdk-py",
+      "description": "Official Python SDK for the Market Data API providing real-time and historical U.S. stock and options market data. Access prices, quotes, options chains, and time series data for trading, quantitative research, analytics, and automated workflows.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-08T14:49:35Z",
+      "pushed_at": "2026-09-17T00:04:36Z",
+      "stargazers": 6,
+      "forks": 1,
+      "open_issues": 27,
+      "size_kb": 2787,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "api",
+        "financial-data",
+        "market-data",
+        "marketdata",
+        "options-api",
+        "options-data",
+        "pypi",
+        "python",
+        "quantitative-finance",
+        "rest-api",
+        "sdk",
+        "stock-api",
+        "stock-market",
+        "trading"
+      ],
+      "languages": {
+        "Python": 612779,
+        "Shell": 2844
+      },
+      "primary_language": "Python",
+      "file_count": 176,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        ".python-version",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "SECURITY.md",
+        "build.sh",
+        "docs",
+        "examples",
+        "lint.sh",
+        "publish.sh",
+        "pyproject.toml",
+        "src",
+        "test.sh",
+        "uv.lock"
+      ],
+      "notable_files": [
+        ".github/workflows/code-review.yml",
+        ".github/workflows/lint.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/test.yml",
+        "pyproject.toml"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          "-m",
+          "1.3.0",
+          "addopts",
+          "api",
+          "build-backend",
+          "candles",
+          "dataframe",
+          "description",
+          "documentation",
+          "e",
+          "e501",
+          "earnings",
+          "f",
+          "finance",
+          "financial-data",
+          "financial-news",
+          "freezegun",
+          "hatchling",
+          "hatchling.build",
+          "homepage",
+          "httpx",
+          "i",
+          "issues",
+          "license",
+          "market-data",
+          "market-status",
+          "marketdata",
+          "marketdata-app",
+          "marketdata-sdk-py",
+          "mit",
+          "mutual-funds",
+          "name",
+          "ohlcv",
+          "options",
+          "options-chain",
+          "options-trading",
+          "pandas",
+          "polars",
+          "polars-lts-cpu",
+          "pre-commit",
+          "py310",
+          "pydantic",
+          "pydantic-settings",
+          "pytest",
+          "pytest-cov",
+          "pytest-xdist",
+          "pytz",
+          "quotes",
+          "readme",
+          "readme.md",
+          "real-time-data",
+          "repository",
+          "requires-python",
+          "respx",
+          "ruff",
+          "sdk",
+          "src",
+          "stock-market",
+          "stock-prices",
+          "stocks",
+          "target-version",
+          "tenacity",
+          "trading",
+          "trading-data",
+          "version",
+          "w"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 45280,
+      "readme_excerpt": "<div align=\"center\">\n\n# Market Data Python SDK v1.1\n### Access Financial Data with Ease\n\n> This is the official Python SDK for [Market Data](https://www.marketdata.app/). It provides developers with a powerful, easy-to-use interface to obtain real-time and historical financial data. Ideal for building financial applications, trading bots, and investment strategies.\n\n[![Tests](https://github.com/MarketDataApp/sdk-py/actions/workflows/test.yml/badge.svg)](https://github.com/MarketDataApp/sdk-py/actions/workflows/test.yml)\n[![Coverage](https://codecov.io/gh/MarketDataApp/sdk-py/graph/badge.svg)](https://codecov.io/gh/MarketDataApp/sdk-py)\n[![License](https://img.shields.io/github/license/MarketDataApp/sdk-py.svg)](https://github.com/MarketDataApp/sdk-py/blob/main/LICENSE)\n[![PyPI version](https://img.shields.io/pypi/v/marketdata-sdk-py)](https://pypi.org/project/marketdata-sdk-py/)\n[![Downloads](https://pepy.tech/badge/marketdata-sdk-py)](https://pepy.tech/project/marketdata-sdk-py)\n[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/)\n\n#### Connect With The Market Data Community\n\n[![Website](https://img.shields.io/badge/Website-",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 5,
+      "contribution_share": 0.197,
+      "commits": {
+        "count": 41,
+        "first_at": "2026-01-08T14:46:07+00:00",
+        "last_at": "2026-09-17T00:04:35+00:00",
+        "active_days": 14,
+        "span_days": 251,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.024,
+        "messages_sample": [
+          "docs: PR review rules — the version bump becomes a calculation (#133)",
+          "fix(ci): only review pull requests, and stop failing at evaluation (#132)",
+          "feat(ci): review when CI goes green, or when asked (#131)",
+          "chore(ci): accept a force input, so a deliberate re-review is possible (#130)",
+          "chore(ci): Codex first, Claude as the fallback (#129)",
+          "chore(ci): back to the bot's main branch now that the work has landed (#128)",
+          "fix(ci): pin the bot code to the same branch as the workflow (#127)",
+          "chore(ci): run both review backends, from the branch that lends the credential (#126)",
+          "fix(ci): name the review bot's secrets instead of inheriting them (#125)",
+          "chore(ci): call the code review bot, with sdk-py's own review rules (#124)",
+          "Merge pull request #119 from MarketDataApp/docs/stacked-pr-retarget",
+          "docs: retarget a stacked PR to main as soon as it is approved (closes #117)",
+          "docs(github): add the community and process files required by SDK spec 17.1 (#58)",
+          "ci(dependabot): group updates so one upstream release is one PR (#53)",
+          "Document CSV byte-faithfulness as out of scope in security policy",
+          "Use readable tag pins for Actions instead of commit SHAs",
+          "Security hardening: Tier 1 fixes from SECURITY.md policy sweep",
+          "Add Dependabot config for uv and GitHub Actions",
+          "Add security policy",
+          "Pin astral-sh/setup-uv to v8.2.0"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 116
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 612,779 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,844 bytes (0% of repo)",
+          "strength": 0.40461971043966843
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/code-review.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/adr/ADR-001-modular-resource-architecture.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/tests/__init__.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "python",
+          "source": "topic",
+          "detail": "repo topic 'python'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "rest-api",
+          "source": "topic",
+          "detail": "repo topic 'rest-api'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'py' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "manifest",
+          "detail": "documentation in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "pandas in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in pyproject.toml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 615623,
+        "strong_skills": [
+          "cicd",
+          "pandas",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sdk-java",
+      "full_name": "MarketDataApp/sdk-java",
+      "html_url": "https://github.com/MarketDataApp/sdk-java",
+      "description": "Market Data Java & Kotlin SDK",
+      "homepage": "https://www.marketdata.app/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-01T13:06:30Z",
+      "pushed_at": "2026-09-17T01:03:19Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 13,
+      "size_kb": 1166,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "api",
+        "financial-data",
+        "gradle",
+        "java",
+        "jvm",
+        "kotlin",
+        "market-data",
+        "marketdata",
+        "maven",
+        "options-api",
+        "options-data",
+        "rest-api",
+        "sdk",
+        "stock-api",
+        "stock-market",
+        "trading"
+      ],
+      "languages": {
+        "Java": 785960,
+        "Makefile": 4591
+      },
+      "primary_language": "Java",
+      "file_count": 273,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "CHANGELOG.md",
+        "CLAUDE.md",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "SECURITY.md",
+        "build.gradle.kts",
+        "codecov.yml",
+        "context7.json",
+        "docs",
+        "examples",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle.kts",
+        "src"
+      ],
+      "notable_files": [
+        ".github/workflows/code-review.yml",
+        ".github/workflows/dependabot-auto-merge.yml",
+        ".github/workflows/main.yml",
+        ".github/workflows/pr-integration-on-demand.yml",
+        ".github/workflows/pr-matrix-on-demand.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/pull-request.yml",
+        ".github/workflows/tag-and-release.yml",
+        "build.gradle.kts",
+        "examples/consumer-test/build.gradle.kts",
+        "examples/mock-server/requirements.txt"
+      ],
+      "manifests": {
+        "build.gradle.kts": [
+          "git",
+          "scm"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 16861,
+      "readme_excerpt": "<div align=\"center\">\n\n# Market Data Java &amp; Kotlin SDK v1.0\n### Access Financial Data with Ease\n\n> This is the official JVM SDK for [Market Data](https://www.marketdata.app/), built for **Java and Kotlin** alike. It provides developers with a powerful, easy-to-use interface to obtain real-time and historical financial data. Ideal for building financial applications, trading bots, and investment strategies.\n\n[![Tests](https://github.com/MarketDataApp/sdk-java/actions/workflows/main.yml/badge.svg)](https://github.com/MarketDataApp/sdk-java/actions/workflows/main.yml)\n[![Coverage](https://codecov.io/gh/MarketDataApp/sdk-java/graph/badge.svg)](https://codecov.io/gh/MarketDataApp/sdk-java)\n[![License](https://img.shields.io/github/license/MarketDataApp/sdk-java.svg)](https://github.com/MarketDataApp/sdk-java/blob/main/LICENSE)\n[![Maven Central](https://img.shields.io/maven-central/v/app.marketdata/marketdata-sdk-java)](https://central.sonatype.com/artifact/app.marketdata/marketdata-sdk-java)\n[![Java](https://img.shields.io/badge/Java-17%20%7C%2021%20%7C%[phone].svg?logo=openjdk&logoColor=white)](https://adoptium.net/)\n[![Kotlin](https://img.shields.io/badge/Kotlin-first--class-7F",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 6,
+      "contribution_share": 0.095,
+      "commits": {
+        "count": 19,
+        "first_at": "2026-05-01T13:33:46+00:00",
+        "last_at": "2026-09-17T00:57:16+00:00",
+        "active_days": 9,
+        "span_days": 138,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "ci: a documentation-only pull request should not run the suite (#74)",
+          "docs: PR review rules — the version bump becomes a calculation (#73)",
+          "feat(ci): call the code review bot, dispatch only for now (#72)",
+          "chore(ci): name this workflow Tests, like every other SDK repository (#71)",
+          "Merge pull request #70 from MarketDataApp/docs/stacked-pr-retarget",
+          "docs: retarget a stacked PR to main as soon as it is approved",
+          "docs: drop the dead GitHub Discussions links from the issue template (#67)",
+          "ci(dependabot): group updates so one upstream release is one PR (#65)",
+          "docs: add security policy",
+          "docs: remove per-resource PR review guides (#37)",
+          "docs: move per-resource PR review guides into docs/adr/ (#34)",
+          "Prepare 1.0.0: branding, GitHub metadata, and release automation (#22)",
+          "chore: add context7.json to index repo docs, excluding ADRs",
+          "docs: accept ADR-003/005/006 and complete Java SDK requirements",
+          "docs: accept ADR-004 (java.net.http) and add HTTP client to Java SDK reqs",
+          "docs: accept ADR-002 (JDK 17) and add JDK targets to Java SDK reqs",
+          "docs(adr): refocus ADR-002 on JDK 11 vs 17",
+          "docs: accept ADR-001 and add Java SDK requirements doc",
+          "docs: add initial design ADRs"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 200
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 785,960 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 4,591 bytes (1% of repo)",
+          "strength": 0.4058073419678174
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/code-review.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/README.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/marketdata/sdk/AsyncSemaphoreTest.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "java",
+          "source": "topic",
+          "detail": "repo topic 'java'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "topic",
+          "detail": "repo topic 'kotlin'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "rest-api",
+          "source": "topic",
+          "detail": "repo topic 'rest-api'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "java",
+          "source": "repo_name",
+          "detail": "'java' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "repo_name",
+          "detail": "'kotlin' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "git",
+          "source": "manifest",
+          "detail": "git in build.gradle.kts",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 790551,
+        "strong_skills": [
+          "cicd",
+          "git",
+          "java",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sdk-php",
+      "full_name": "MarketDataApp/sdk-php",
+      "html_url": "https://github.com/MarketDataApp/sdk-php",
+      "description": "Market Data PHP SDK. Currently in open beta.",
+      "homepage": "https://www.marketdata.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-07-08T13:02:24Z",
+      "pushed_at": "2026-09-17T00:33:57Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 1806,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "api",
+        "composer",
+        "financial-data",
+        "market-data",
+        "marketdata",
+        "options-api",
+        "options-trading",
+        "packagist",
+        "php",
+        "rest-api",
+        "sdk",
+        "stock-api",
+        "stock-market",
+        "trading"
+      ],
+      "languages": {
+        "PHP": 1582390,
+        "Shell": 30380,
+        "Twig": 996
+      },
+      "primary_language": "PHP",
+      "file_count": 311,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".phpdoc",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "LICENSE.md",
+        "README.md",
+        "SECURITY.md",
+        "composer.json",
+        "docs",
+        "examples",
+        "phpdoc.dist.xml",
+        "phpunit.xml.dist",
+        "src",
+        "test-with-act.sh",
+        "test.sh",
+        "tests"
+      ],
+      "notable_files": [
+        ".github/workflows/code-review.yml",
+        ".github/workflows/dependabot-auto-merge.yml",
+        ".github/workflows/phpdoc.yml",
+        ".github/workflows/prepare-release.yml",
+        ".github/workflows/run-tests.yml",
+        ".github/workflows/update-changelog.yml",
+        "composer.json"
+      ],
+      "manifests": {
+        "composer.json": [
+          "allow-plugins",
+          "authors",
+          "autoload",
+          "autoload-dev",
+          "config",
+          "description",
+          "email",
+          "format",
+          "guzzlehttp/guzzle",
+          "homepage",
+          "keywords",
+          "license",
+          "minimum-stability",
+          "name",
+          "nesbot/carbon",
+          "php",
+          "phpstan/extension-installer",
+          "phpunit/phpunit",
+          "prefer-stable",
+          "psr-4",
+          "psr/log",
+          "require",
+          "require-dev",
+          "role",
+          "scripts",
+          "sort-packages",
+          "test",
+          "test-coverage",
+          "vlucas/phpdotenv"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 7963,
+      "readme_excerpt": "<div align=\"center\">\n\n# Market Data PHP SDK v1.1\n### Access Financial Data with Ease\n\n>This is the official PHP SDK for [Market Data](https://www.marketdata.app). It provides developers with a powerful, easy-to-use interface to obtain real-time and historical financial data. Ideal for building financial applications, trading bots, and investment strategies.\n\n[![Latest Version on Packagist](https://img.shields.io/packagist/v/MarketDataApp/sdk-php.svg?style=flat-square)](https://packagist.org/packages/MarketDataApp/sdk-php)\n[![Tests](https://img.shields.io/github/actions/workflow/status/MarketDataApp/sdk-php/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/MarketDataApp/sdk-php/actions/workflows/run-tests.yml)\n[![Codecov](https://codecov.io/gh/MarketDataApp/sdk-php/graph/badge.svg?token=5W2IB9F6RU)](https://codecov.io/github/MarketDataApp/sdk-php)\n[![Total Downloads](https://img.shields.io/packagist/dt/MarketDataApp/sdk-php.svg?style=flat-square)](https://packagist.org/packages/MarketDataApp/sdk-php)\n[![PHP Version](https://img.shields.io/badge/php-8.2%20%7C%208.3%20%7C%208.4%20%7C%208.5-blue.svg?style=flat-square)](https://www.php.net/)\n\n#### Connect With",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.688,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-01-17T23:20:04+00:00",
+        "last_at": "2026-09-17T00:27:47+00:00",
+        "active_days": 19,
+        "span_days": 242,
+        "max_per_day": 30,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "ci: require one aggregate test context, so the matrix can skip on non-PHP PRs (#94)",
+          "docs: PR review rules — the version bump becomes a calculation (#92)",
+          "ci: the required tests must run on every pull request (#93)",
+          "feat(ci): call the code review bot, dispatch only for now (#91)",
+          "Merge pull request #90 from MarketDataApp/docs/stacked-pr-retarget",
+          "docs: retarget a stacked PR to main as soon as it is approved",
+          "Merge pull request #87 from MarketDataApp/fix/guzzle-7-8-compat",
+          "test: cover response-aware transport failures",
+          "fix: support Guzzle 7 and 8",
+          "fix: refresh stale API status during retries (#86)",
+          "ci: run authenticated integration contracts (#85)",
+          "feat: surface API IP response headers (#84)",
+          "ci: run the test suite on pull requests, not only on push (#82)",
+          "docs: drop the dead GitHub Discussions links from the issue template (#81)",
+          "ci(phpdoc): remove no-op .nojekyll step",
+          "Merge pull request #76 from MarketDataApp/dependabot/github_actions/github-actions-ee35a46b25",
+          "ci(dependabot): add 7-day cooldown and group updates to reduce PR noise",
+          "docs: add security policy with vulnerability reporting and tiered fix rules",
+          "fix(release): update README version to v1.1",
+          "docs(release): update process for changelog-based release notes"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 166
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 1,
+          "refactor": 0,
+          "test": 4,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 30,380 bytes (2% of repo)",
+          "strength": 0.41882552984757393
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/code-review.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "rest-api",
+          "source": "topic",
+          "detail": "repo topic 'rest-api'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 30380,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sdk-js",
+      "full_name": "MarketDataApp/sdk-js",
+      "html_url": "https://github.com/MarketDataApp/sdk-js",
+      "description": "Official Market Data SDK for Javascript and Typescript",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-06T16:08:17Z",
+      "pushed_at": "2026-09-17T01:03:16Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 17,
+      "size_kb": 2392,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "api",
+        "financial-data",
+        "javascript",
+        "market-data",
+        "marketdata",
+        "nodejs",
+        "npm",
+        "options-api",
+        "options-data",
+        "rest-api",
+        "sdk",
+        "stock-api",
+        "stock-market",
+        "trading",
+        "typescript"
+      ],
+      "languages": {
+        "TypeScript": 199879
+      },
+      "primary_language": "TypeScript",
+      "file_count": 170,
+      "top_level_paths": [
+        ".biomeignore",
+        ".env.example",
+        ".github",
+        ".gitignore",
+        ".husky",
+        ".lintstagedrc.json",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "README.md",
+        "SECURITY.md",
+        "biome.json",
+        "context7.json",
+        "docs",
+        "examples",
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "src",
+        "test_api.ts",
+        "tests",
+        "tsconfig.json",
+        "tsup.config.ts",
+        "vitest.config.ts"
+      ],
+      "notable_files": [
+        ".github/workflows/code-review.yml",
+        ".github/workflows/publish.yml",
+        ".github/workflows/test.yml",
+        "examples/package.json",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@biomejs/biome",
+          "@types/node",
+          "@vitest/coverage-v8",
+          "dotenv",
+          "husky",
+          "lint-staged",
+          "neverthrow",
+          "p-limit",
+          "p-retry",
+          "tsup",
+          "tsx",
+          "typescript",
+          "vite-tsconfig-paths",
+          "vitest",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 10775,
+      "readme_excerpt": "<div align=\"center\">\n\n# Market Data JavaScript SDK v1.0\n### Access Financial Data with Ease\n\n> This is the official JavaScript/TypeScript SDK for [Market Data](https://www.marketdata.app/). It provides developers with a powerful, easy-to-use interface to obtain real-time and historical financial data. Ideal for building financial applications, trading bots, and investment strategies.\n\n[![Tests](https://github.com/MarketDataApp/sdk-js/actions/workflows/test.yml/badge.svg)](https://github.com/MarketDataApp/sdk-js/actions/workflows/test.yml)\n[![Coverage](https://codecov.io/gh/MarketDataApp/sdk-js/graph/badge.svg)](https://codecov.io/gh/MarketDataApp/sdk-js)\n[![License](https://img.shields.io/github/license/MarketDataApp/sdk-js.svg)](https://github.com/MarketDataApp/sdk-js/blob/main/LICENSE)\n[![npm version](https://img.shields.io/npm/v/@marketdata/sdk)](https://www.npmjs.com/package/@marketdata/sdk)\n[![npm downloads](https://img.shields.io/npm/dm/@marketdata/sdk)](https://www.npmjs.com/package/@marketdata/sdk)\n[![Node.js](https://img.shields.io/badge/node-%3E%3D20-blue)](https://nodejs.org/)\n\n#### Connect With The Market Data Community\n\n[![Website](https://img.shields.io/badge/Website-",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 5,
+      "contribution_share": 0.179,
+      "commits": {
+        "count": 31,
+        "first_at": "2026-01-06T16:08:17+00:00",
+        "last_at": "2026-09-17T00:57:10+00:00",
+        "active_days": 11,
+        "span_days": 253,
+        "max_per_day": 14,
+        "low_effort_message_ratio": 0.032,
+        "messages_sample": [
+          "ci: a documentation-only pull request should not run the suite (#89)",
+          "docs: PR review rules — the version bump becomes a calculation (#88)",
+          "feat(ci): call the code review bot, dispatch only for now (#87)",
+          "chore(ci): name this workflow Tests, like every other SDK repository (#86)",
+          "Merge pull request #85 from MarketDataApp/docs/stacked-pr-retarget",
+          "docs: retarget a stacked PR to main as soon as it is approved",
+          "ci(dependabot): group updates so one upstream release is one PR (#77)",
+          "docs: add security policy; harden dependabot config (#59)",
+          "chore: add context7.json to index repo docs, excluding ADRs (#54)",
+          "docs: sync from documentation@06e42a9b66147e8101bd7cc1c5d6e240d6b84f80",
+          "chore: cut v1.0.0",
+          "ci(publish): upgrade npm to 11+ for Trusted Publishing, bump rc.5",
+          "ci(publish): add diagnostics + verbose npm logging, bump to rc.4",
+          "chore: bump version to 1.0.0-rc.3",
+          "ci(publish): use npm publish instead of pnpm publish",
+          "chore: bump version to 1.0.0-rc.2",
+          "ci: add npm publish workflow with Trusted Publishing (OIDC)",
+          "chore: bump version to 1.0.0-rc.1",
+          "Merge pull request #40 from MarketDataApp/sync/docs-from-documentation",
+          "chore: rename package to @marketdata/sdk + add publishConfig"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 81
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 199,879 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/code-review.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/README.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (examples/charts/_shared/candles.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/arbitrary_params.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "javascript",
+          "source": "topic",
+          "detail": "repo topic 'javascript'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "topic",
+          "detail": "repo topic 'nodejs'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "rest-api",
+          "source": "topic",
+          "detail": "repo topic 'rest-api'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "typescript",
+          "source": "topic",
+          "detail": "repo topic 'typescript'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "javascript",
+          "source": "repo_name",
+          "detail": "'javascript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 199879,
+        "strong_skills": [
+          "cicd",
+          "kubernetes",
+          "linux",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "PHP": 1582390,
+    "Go": 1207246,
+    "Java": 785960,
+    "Python": 612779,
+    "TypeScript": 199879,
+    "Shell": 33224,
+    "Makefile": 6523,
+    "Twig": 996
+  },
+  "total_commits": 400,
+  "skill_evidence": [
+    {
+      "skill_id": "go",
+      "repos": [
+        "MarketDataApp/sdk-go"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1207246,
+      "commit_count": 109,
+      "first_seen": "2023-11-22T19:02:38+00:00",
+      "last_seen": "2026-09-17T01:01:24+00:00",
+      "details": [
+        "sdk-go: Go: 1,207,246 bytes (100% of repo)",
+        "sdk-go: Go module (examples/optionterm/go.mod)",
+        "sdk-go: repo topic 'go'",
+        "sdk-go: 'go' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 199879,
+      "commit_count": 31,
+      "first_seen": "2026-01-06T16:08:17+00:00",
+      "last_seen": "2026-09-17T00:57:10+00:00",
+      "details": [
+        "sdk-js: TypeScript: 199,879 bytes (100% of repo)",
+        "sdk-js: repo topic 'typescript'",
+        "sdk-js: 'typescript' in repo name/description",
+        "sdk-js: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "MarketDataApp/sdk-py"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 612779,
+      "commit_count": 41,
+      "first_seen": "2026-01-08T14:46:07+00:00",
+      "last_seen": "2026-09-17T00:04:35+00:00",
+      "details": [
+        "sdk-py: Python: 612,779 bytes (100% of repo)",
+        "sdk-py: repo topic 'python'",
+        "sdk-py: 'py' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "MarketDataApp/sdk-java"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 785960,
+      "commit_count": 19,
+      "first_seen": "2026-05-01T13:33:46+00:00",
+      "last_seen": "2026-09-17T00:57:16+00:00",
+      "details": [
+        "sdk-java: Java: 785,960 bytes (99% of repo)",
+        "sdk-java: repo topic 'java'",
+        "sdk-java: 'java' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "MarketDataApp/sdk-go",
+        "MarketDataApp/sdk-py",
+        "MarketDataApp/sdk-java",
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2023-11-22T19:02:38+00:00",
+      "last_seen": "2026-09-17T01:01:24+00:00",
+      "details": [
+        "sdk-go: test file (examples/coverage_test.go)",
+        "sdk-py: test directory (src/tests/__init__.py)",
+        "sdk-py: pytest in pyproject.toml",
+        "sdk-java: test directory (src/test/java/com/marketdata/sdk/AsyncSemaphoreTest.java)",
+        "sdk-js: test directory (tests/arbitrary_params.test.ts)",
+        "sdk-js: vitest in package.json"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "MarketDataApp/sdk-go",
+        "MarketDataApp/sdk-py",
+        "MarketDataApp/sdk-java",
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2023-11-22T19:02:38+00:00",
+      "last_seen": "2026-09-17T01:01:24+00:00",
+      "details": [
+        "sdk-go: docs directory (docs/COMPARISON.md)",
+        "sdk-py: docs directory (docs/adr/ADR-001-modular-resource-architecture.md)",
+        "sdk-py: documentation in pyproject.toml",
+        "sdk-java: docs directory (docs/README.md)",
+        "sdk-js: docs directory (docs/README.md)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "MarketDataApp/sdk-py"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 41,
+      "first_seen": "2026-01-08T14:46:07+00:00",
+      "last_seen": "2026-09-17T00:04:35+00:00",
+      "details": [
+        "sdk-py: pandas in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "git",
+      "repos": [
+        "MarketDataApp/sdk-java"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 19,
+      "first_seen": "2026-05-01T13:33:46+00:00",
+      "last_seen": "2026-09-17T00:57:16+00:00",
+      "details": [
+        "sdk-java: git in build.gradle.kts"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "MarketDataApp/sdk-go",
+        "MarketDataApp/sdk-py",
+        "MarketDataApp/sdk-java",
+        "MarketDataApp/sdk-php",
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2023-11-22T19:02:38+00:00",
+      "last_seen": "2026-09-17T01:01:24+00:00",
+      "details": [
+        "sdk-go: GitHub Actions workflow (.github/workflows/code-review.yml)",
+        "sdk-py: GitHub Actions workflow (.github/workflows/code-review.yml)",
+        "sdk-java: GitHub Actions workflow (.github/workflows/code-review.yml)",
+        "sdk-php: GitHub Actions workflow (.github/workflows/code-review.yml)",
+        "sdk-js: GitHub Actions workflow (.github/workflows/code-review.yml)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 31,
+      "first_seen": "2026-01-06T16:08:17+00:00",
+      "last_seen": "2026-09-17T00:57:10+00:00",
+      "details": [
+        "sdk-js: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 31,
+      "first_seen": "2026-01-06T16:08:17+00:00",
+      "last_seen": "2026-09-17T00:57:10+00:00",
+      "details": [
+        "sdk-js: kubernetes manifests (examples/charts/_shared/candles.ts)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "MarketDataApp/sdk-go",
+        "MarketDataApp/sdk-py",
+        "MarketDataApp/sdk-java",
+        "MarketDataApp/sdk-php"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41882552984757393,
+      "total_bytes": 39747,
+      "commit_count": 369,
+      "first_seen": "2023-11-22T19:02:38+00:00",
+      "last_seen": "2026-09-17T01:01:24+00:00",
+      "details": [
+        "sdk-go: Makefile: 1,932 bytes (0% of repo)",
+        "sdk-py: Shell: 2,844 bytes (0% of repo)",
+        "sdk-java: Makefile: 4,591 bytes (1% of repo)",
+        "sdk-php: Shell: 30,380 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "rest-api",
+      "repos": [
+        "MarketDataApp/sdk-go",
+        "MarketDataApp/sdk-py",
+        "MarketDataApp/sdk-java",
+        "MarketDataApp/sdk-php",
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 400,
+      "first_seen": "2023-11-22T19:02:38+00:00",
+      "last_seen": "2026-09-17T01:01:24+00:00",
+      "details": [
+        "sdk-go: repo topic 'rest-api'",
+        "sdk-py: repo topic 'rest-api'",
+        "sdk-java: repo topic 'rest-api'",
+        "sdk-php: repo topic 'rest-api'",
+        "sdk-js: repo topic 'rest-api'"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "MarketDataApp/sdk-java"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 19,
+      "first_seen": "2026-05-01T13:33:46+00:00",
+      "last_seen": "2026-09-17T00:57:16+00:00",
+      "details": [
+        "sdk-java: repo topic 'kotlin'",
+        "sdk-java: 'kotlin' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 31,
+      "first_seen": "2026-01-06T16:08:17+00:00",
+      "last_seen": "2026-09-17T00:57:10+00:00",
+      "details": [
+        "sdk-js: repo topic 'javascript'",
+        "sdk-js: 'javascript' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "MarketDataApp/sdk-js"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 31,
+      "first_seen": "2026-01-06T16:08:17+00:00",
+      "last_seen": "2026-09-17T00:57:10+00:00",
+      "details": [
+        "sdk-js: repo topic 'nodejs'"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 400,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-17T01:26:55.253804+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3"
+  ]
+}

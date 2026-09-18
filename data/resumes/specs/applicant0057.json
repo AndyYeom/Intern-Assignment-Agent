@@ -1,0 +1,127 @@
+{
+  "github_login": "AURATAO",
+  "applicant_id": "applicant0057",
+  "first_name": "Dahlia",
+  "last_name": "Okoye",
+  "career_stage": "student",
+  "email": "dahlia@bellhaven.example",
+  "phone": "(555) 010-0157",
+  "location": "Bellhaven",
+  "linkedin": "linkedin.example.com/in/dahlia-okoye",
+  "github_url": "github.example.com/dahlia-okoye",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Bellhaven Institute of Technology",
+    "location": "Bellhaven",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Organizational Studies",
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Software Engineering",
+      "Databases",
+      "Team Project Practicum"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Hora Light MVP",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built the MVP for a personal productivity product in Go and TypeScript across 315 files, backed by an automated test suite.",
+        "Coordinated which backend and frontend pieces needed to land together after a mismatched deploy briefly broke onboarding."
+      ],
+      "link": null,
+      "tech": [
+        "Go",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Hora Web",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Jul 2025",
+      "bullets": [
+        "Developed the initial web client in JavaScript, CSS and HTML across 72 files using React and Tailwind CSS."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "React"
+      ]
+    },
+    {
+      "title": "Sliceapp",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built Sliceapp, a TypeScript and Go tool that breaks larger goals into daily steps, across 67 files.",
+        "Reworked the daily-step logic after early testers found the default breakdown too rigid to actually follow."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Go"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Independent Product Coordinator",
+      "organization": "Hora Project",
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Present",
+      "bullets": [
+        "Tracked dependencies across four related repositories after a landing-page release referenced an API endpoint the backend had not shipped yet.",
+        "Started writing short milestone notes before each release, which reduced confusion about what was ready to ship."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "TypeScript",
+      "Go",
+      "SQL"
+    ],
+    "Frontend": [
+      "Tailwind CSS",
+      "React"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "Linux & Server Administration",
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "React Native"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

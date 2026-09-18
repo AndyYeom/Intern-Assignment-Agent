@@ -1,0 +1,130 @@
+{
+  "github_login": "Omegabird113",
+  "applicant_id": "applicant0102",
+  "first_name": "Owen",
+  "last_name": "Castillo",
+  "career_stage": "switcher",
+  "email": "owen.castillo@rivermoor.example",
+  "phone": "(555) 010-0102",
+  "location": "Rivermoor",
+  "linkedin": "linkedin.example.com/in/owen-castillo",
+  "github_url": "github.example.com/owen-castillo",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Bramwell Technical Institute",
+    "location": "Rivermoor",
+    "degree": "Certificate",
+    "major": "Software Development",
+    "minor": "Business Communication",
+    "graduation": "Dec 2026",
+    "gpa": "3.8/4.0",
+    "coursework": [
+      "Systems Troubleshooting",
+      "Business Writing",
+      "Intro to Databases",
+      "Client Communication"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Customer Support Technician",
+      "organization": "Larkspur Home Goods",
+      "location": "Rivermoor",
+      "start": "Jul 2023",
+      "end": "Dec 2025",
+      "bullets": [
+        "Fielded software configuration complaints from retail staff and traced recurring issues back to inconsistent keyboard shortcut behavior across store devices.",
+        "Documented common troubleshooting steps into a shared reference sheet after noticing new hires repeated the same support calls."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "CMD Delete",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a macOS Java utility restoring text-navigation shortcuts across chat, book, and sign interfaces after encountering the same friction at work.",
+        "Added continuous integration and an automated test suite to guard the shortcut configurations against regressions."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    },
+    {
+      "title": "Llamamod",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a Minecraft mod in Java adding custom blocks, farming items, and redstone-based generation features using the MCreator toolchain.",
+        "Sustained continuous integration across a codebase spanning more than 10,000 files over 52 active days of commits."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    },
+    {
+      "title": "Python Console Wordle Thingy",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Mar 2026",
+      "bullets": [
+        "Implemented a console-based Wordle clone in Python to practice core language fundamentals outside the Java ecosystem."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Documentation Volunteer",
+      "organization": "Rivermoor Coders Meetup",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Rewrote setup instructions for a beginner Java workshop after several attendees got stuck on inconsistent environment steps, cutting confusion during sessions."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Java",
+      "Python",
+      "C/C++"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

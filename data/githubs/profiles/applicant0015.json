@@ -1,0 +1,1100 @@
+{
+  "applicant_id": "applicant0015",
+  "login": "Kathleen-Krunitzki",
+  "html_url": "https://github.com/Kathleen-Krunitzki",
+  "created_at": "2020-01-31T19:57:59Z",
+  "account_age_days": 2419,
+  "public_repos": 12,
+  "followers": 11,
+  "following": 9,
+  "repos": [
+    {
+      "name": "saboroteca",
+      "full_name": "Kathleen-Krunitzki/saboroteca",
+      "html_url": "https://github.com/Kathleen-Krunitzki/saboroteca",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-20T00:44:45Z",
+      "pushed_at": "2025-07-14T23:09:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2448,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 191594,
+        "SCSS": 24924,
+        "JavaScript": 799,
+        "HTML": 731,
+        "CSS": 428
+      },
+      "primary_language": "TypeScript",
+      "file_count": 101,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "index.d.ts",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@googlemaps/js-api-loader",
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@types/google.maps",
+          "@types/jest",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "firebase",
+          "react",
+          "react-dom",
+          "react-firebase-hooks",
+          "react-icons",
+          "react-router-dom",
+          "react-scripts",
+          "react-toastify",
+          "sass",
+          "typescript",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 51,
+        "first_at": "2025-05-20T00:20:27+00:00",
+        "last_at": "2025-07-14T23:09:27+00:00",
+        "active_days": 20,
+        "span_days": 55,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Corrigido feed",
+          "Correção layout",
+          "Adicionando validações",
+          "Adicionado funcionalidade de excluir conta",
+          "permite editar e excluir pastas",
+          "adiciona deleção e edição da pasta",
+          "atualizada logica de pastas privadas",
+          "arrumado feed de avaliações",
+          "corrigido filtros de pastas",
+          "ajusta filtrode perfis",
+          "arrumado feed de avaliacoes",
+          "corrigida quantidade de restaurantes",
+          "adicionado filtros de pastas",
+          "adiciona filtro por avaliacao",
+          "adicionada logica de filtros nos feeds",
+          "atualizadas logicas dos feeds",
+          "adicionada logica de feeds",
+          "Alterado design de modal do restaurante e cards",
+          "Abre modal com \"quero visitar\" como padrão",
+          "Corrigido botões"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 83
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 191,594 bytes (88% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 24,924 bytes (11% of repo)",
+          "strength": 0.5140811805415698
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/jest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 218476,
+        "strong_skills": [
+          "gcp-azure",
+          "react",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "moveit-next",
+      "full_name": "Kathleen-Krunitzki/moveit-next",
+      "html_url": "https://github.com/Kathleen-Krunitzki/moveit-next",
+      "description": "Projeto criado na Next Level Week #4",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-02-25T03:15:37Z",
+      "pushed_at": "2021-03-04T00:31:21Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 123,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 14690,
+        "CSS": 6525
+      },
+      "primary_language": "TypeScript",
+      "file_count": 36,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "challenges.json",
+        "next-env.d.ts",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.json",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@types/js-cookie",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "js-cookie",
+          "next",
+          "react",
+          "react-dom",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 713,
+      "readme_excerpt": "![video](https://user-images.githubusercontent.com/60523636/[phone]-e0802380-7c64-11eb-8bff-8fbc9594be08.gif)\n\n## 💻 Projeto\nO Move.it consiste na utilização da técnica pomodoro, utilizado para o aumento do foco e concentração nas tarefas. É baseado na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos. Ao final deste período, uma determinada tarefa deve ser realizada para que você possa descansar a visão e o corpo, ajudando a controlar seu tempo na frente do computador.\n\n## 🚀 Tecnologias\nEsse projeto foi desenvolvido com as seguintes tecnologias:\n - React\n - TypeScript\n - Next.js\n \n## 🎉 Deploy\n\n - [Vercel](https://moveit-drab-rho.vercel.app/)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2021-02-25T03:33:10+00:00",
+        "last_at": "2021-03-04T00:31:21+00:00",
+        "active_days": 7,
+        "span_days": 6,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.267,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Adicionando README.md",
+          "Inserindo modal de level up",
+          "Utilizando storage via cookies",
+          "Inserindo notificação web e áudio",
+          "Adicionando regras de negócio",
+          "Utilizando Context API",
+          "Adicionando o componente ChallengeBox",
+          "Adicionando a função reset no componente Countdown",
+          "Corrigindo o nome do arquivo",
+          "Adicionando função para contagem regressiva do componente de cronômetro",
+          "Commit inicial conforme aula 2 do NLW-04"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 20
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 14,690 bytes (69% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,525 bytes (31% of repo)",
+          "strength": 0.707565401838322
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "repo_name",
+          "detail": "'next' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 21215,
+        "strong_skills": [
+          "html-css",
+          "nextjs",
+          "react",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "databook",
+      "full_name": "Kathleen-Krunitzki/databook",
+      "html_url": "https://github.com/Kathleen-Krunitzki/databook",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-06-13T00:10:27Z",
+      "pushed_at": "2022-06-15T00:39:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4211,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 8549,
+        "JavaScript": 118
+      },
+      "primary_language": "TypeScript",
+      "file_count": 31,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".gitignore",
+        "README.md",
+        "next-env.d.ts",
+        "next.config.js",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.json",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@chakra-ui/react",
+          "@emotion/react",
+          "@emotion/styled",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "eslint",
+          "eslint-config-next",
+          "framer-motion",
+          "next",
+          "react",
+          "react-dom",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1582,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.\n\n[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.\n\nThe `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contri",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2022-06-12T21:38:30+00:00",
+        "last_at": "2022-06-15T00:39:47+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Incluído componentes e funcionalidades",
+          "Commit inicial",
+          "Initial commit from Create Next App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 8,549 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@chakra-ui/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8667,
+        "strong_skills": [
+          "nextjs",
+          "react",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "finance",
+      "full_name": "Kathleen-Krunitzki/finance",
+      "html_url": "https://github.com/Kathleen-Krunitzki/finance",
+      "description": null,
+      "homepage": "finance-zeta.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-05-03T22:40:25Z",
+      "pushed_at": "2022-05-26T19:33:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 5483,
+        "CSS": 4309,
+        "HTML": 3622
+      },
+      "primary_language": "JavaScript",
+      "file_count": 10,
+      "top_level_paths": [
+        "README.md",
+        "assets",
+        "index.html",
+        "scripts.js",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 59,
+      "readme_excerpt": "## 🎉 Deploy\n\n - [Vercel](https://finance-zeta.vercel.app/)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2022-05-03T22:42:15+00:00",
+        "last_at": "2022-05-26T19:33:26+00:00",
+        "active_days": 5,
+        "span_days": 22,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "Create README.md",
+          "Validando campos e removendo",
+          "Atualizando totalizadores",
+          "Incluindo transações e formatando valor",
+          "Adicionando responsividade",
+          "Commit inicial"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 5,483 bytes (41% of repo)",
+          "strength": 0.8087520500969136
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,309 bytes (32% of repo)",
+          "strength": 0.721231549127777
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,622 bytes (27% of repo)",
+          "strength": 0.6700164007753093
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 13414,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mentalista",
+      "full_name": "Kathleen-Krunitzki/mentalista",
+      "html_url": "https://github.com/Kathleen-Krunitzki/mentalista",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-28T02:22:33Z",
+      "pushed_at": "2021-09-28T02:25:46Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 815,
+        "CSS": 722,
+        "HTML": 574
+      },
+      "primary_language": "JavaScript",
+      "file_count": 3,
+      "top_level_paths": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2021-09-28T02:17:01+00:00",
+        "last_at": "2021-09-28T02:24:41+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Commit inicial",
+          "Commit inicial"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 815 bytes (39% of repo)",
+          "strength": 0.7860729512079583
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 722 bytes (34% of repo)",
+          "strength": 0.7420180009474183
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 574 bytes (27% of repo)",
+          "strength": 0.6719090478446235
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2111,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 214833,
+    "SCSS": 24924,
+    "CSS": 11984,
+    "JavaScript": 7215,
+    "HTML": 4927
+  },
+  "total_commits": 77,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Kathleen-Krunitzki/saboroteca",
+        "Kathleen-Krunitzki/moveit-next",
+        "Kathleen-Krunitzki/databook"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 214833,
+      "commit_count": 69,
+      "first_seen": "2021-02-25T03:33:10+00:00",
+      "last_seen": "2025-07-14T23:09:27+00:00",
+      "details": [
+        "saboroteca: TypeScript: 191,594 bytes (88% of repo)",
+        "saboroteca: typescript in package.json",
+        "moveit-next: TypeScript: 14,690 bytes (69% of repo)",
+        "moveit-next: typescript in package.json",
+        "databook: TypeScript: 8,549 bytes (99% of repo)",
+        "databook: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Kathleen-Krunitzki/saboroteca",
+        "Kathleen-Krunitzki/moveit-next",
+        "Kathleen-Krunitzki/databook"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 69,
+      "first_seen": "2021-02-25T03:33:10+00:00",
+      "last_seen": "2025-07-14T23:09:27+00:00",
+      "details": [
+        "saboroteca: @testing-library/react in package.json",
+        "moveit-next: @types/react in package.json",
+        "databook: @chakra-ui/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Kathleen-Krunitzki/moveit-next",
+        "Kathleen-Krunitzki/databook"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "repo_name",
+        "manifest",
+        "file"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 18,
+      "first_seen": "2021-02-25T03:33:10+00:00",
+      "last_seen": "2022-06-15T00:39:47+00:00",
+      "details": [
+        "moveit-next: 'next' in repo name/description",
+        "moveit-next: next in package.json",
+        "databook: next config (next.config.js)",
+        "databook: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Kathleen-Krunitzki/saboroteca"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 51,
+      "first_seen": "2025-05-20T00:20:27+00:00",
+      "last_seen": "2025-07-14T23:09:27+00:00",
+      "details": [
+        "saboroteca: @types/jest in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "Kathleen-Krunitzki/saboroteca"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 51,
+      "first_seen": "2025-05-20T00:20:27+00:00",
+      "last_seen": "2025-07-14T23:09:27+00:00",
+      "details": [
+        "saboroteca: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Kathleen-Krunitzki/finance",
+        "Kathleen-Krunitzki/mentalista"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8087520500969136,
+      "total_bytes": 6298,
+      "commit_count": 8,
+      "first_seen": "2021-09-28T02:17:01+00:00",
+      "last_seen": "2022-05-26T19:33:26+00:00",
+      "details": [
+        "finance: JavaScript: 5,483 bytes (41% of repo)",
+        "mentalista: JavaScript: 815 bytes (39% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Kathleen-Krunitzki/saboroteca",
+        "Kathleen-Krunitzki/moveit-next",
+        "Kathleen-Krunitzki/finance",
+        "Kathleen-Krunitzki/mentalista"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7420180009474183,
+      "total_bytes": 40676,
+      "commit_count": 74,
+      "first_seen": "2021-02-25T03:33:10+00:00",
+      "last_seen": "2025-07-14T23:09:27+00:00",
+      "details": [
+        "saboroteca: SCSS: 24,924 bytes (11% of repo)",
+        "moveit-next: CSS: 6,525 bytes (31% of repo)",
+        "finance: CSS: 4,309 bytes (32% of repo)",
+        "finance: HTML: 3,622 bytes (27% of repo)",
+        "mentalista: CSS: 722 bytes (34% of repo)",
+        "mentalista: HTML: 574 bytes (27% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 77,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-16T14:13:35.739936+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

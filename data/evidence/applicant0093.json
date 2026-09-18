@@ -1,0 +1,134 @@
+{
+  "applicant_id": "applicant0093",
+  "github_login": "NoahTsai0909",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0093.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/NoahTsai0909/RealmBreakGame"
+      ],
+      "repos": [
+        {
+          "repo": "NoahTsai0909/RealmBreakGame",
+          "html_url": "https://github.com/NoahTsai0909/RealmBreakGame",
+          "level": 3,
+          "reasons": [
+            "intermediate: 142 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "C#: 797,193 bytes (86% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/NoahTsai0909/Calorie-Clash",
+        "https://github.com/NoahTsai0909/Cat-Breed-Guesser"
+      ],
+      "repos": [
+        {
+          "repo": "NoahTsai0909/Calorie-Clash",
+          "html_url": "https://github.com/NoahTsai0909/Calorie-Clash",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: none",
+            "CSS: 3,332 bytes (31% of repo)",
+            "HTML: 1,403 bytes (13% of repo)"
+          ]
+        },
+        {
+          "repo": "NoahTsai0909/Cat-Breed-Guesser",
+          "html_url": "https://github.com/NoahTsai0909/Cat-Breed-Guesser",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "CSS: 1,853 bytes (24% of repo)",
+            "HTML: 1,025 bytes (14% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/NoahTsai0909/Calorie-Clash",
+        "https://github.com/NoahTsai0909/Cat-Breed-Guesser"
+      ],
+      "repos": [
+        {
+          "repo": "NoahTsai0909/Calorie-Clash",
+          "html_url": "https://github.com/NoahTsai0909/Calorie-Clash",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: none",
+            "JavaScript: 6,018 bytes (56% of repo)"
+          ]
+        },
+        {
+          "repo": "NoahTsai0909/Cat-Breed-Guesser",
+          "html_url": "https://github.com/NoahTsai0909/Cat-Breed-Guesser",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "JavaScript: 2,337 bytes (31% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/NoahTsai0909/AudioClassifier",
+        "https://github.com/NoahTsai0909/Cat-Breed-Guesser"
+      ],
+      "repos": [
+        {
+          "repo": "NoahTsai0909/AudioClassifier",
+          "html_url": "https://github.com/NoahTsai0909/AudioClassifier",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "Python: 644 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "NoahTsai0909/Cat-Breed-Guesser",
+          "html_url": "https://github.com/NoahTsai0909/Cat-Breed-Guesser",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Python: 2,358 bytes (31% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 2
+  }
+}

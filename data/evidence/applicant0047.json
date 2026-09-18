@@ -1,0 +1,122 @@
+{
+  "applicant_id": "applicant0047",
+  "github_login": "Doha467",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0047.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Doha467/Up"
+      ],
+      "repos": [
+        {
+          "repo": "Doha467/Up",
+          "html_url": "https://github.com/Doha467/Up",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "C++: 23,037 bytes (30% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Doha467/AdstepTraining",
+        "https://github.com/Doha467/Up",
+        "https://github.com/Doha467/adsteptrain"
+      ],
+      "repos": [
+        {
+          "repo": "Doha467/AdstepTraining",
+          "html_url": "https://github.com/Doha467/AdstepTraining",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Dart: 5,438 bytes (90% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "Doha467/Up",
+          "html_url": "https://github.com/Doha467/Up",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Dart: 30,161 bytes (39% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "Doha467/adsteptrain",
+          "html_url": "https://github.com/Doha467/adsteptrain",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Dart: 5,435 bytes (91% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Doha467/AdstepTraining",
+        "https://github.com/Doha467/Up",
+        "https://github.com/Doha467/adsteptrain"
+      ],
+      "repos": [
+        {
+          "repo": "Doha467/AdstepTraining",
+          "html_url": "https://github.com/Doha467/AdstepTraining",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "Doha467/Up",
+          "html_url": "https://github.com/Doha467/Up",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "Doha467/adsteptrain",
+          "html_url": "https://github.com/Doha467/adsteptrain",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (3 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 2
+  }
+}

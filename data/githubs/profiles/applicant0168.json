@@ -1,0 +1,1313 @@
+{
+  "applicant_id": "applicant0168",
+  "login": "dav-he123",
+  "html_url": "https://github.com/dav-he123",
+  "created_at": "2020-01-31T23:17:15Z",
+  "account_age_days": 2420,
+  "public_repos": 47,
+  "followers": 5,
+  "following": 5,
+  "repos": [
+    {
+      "name": "midterm_sneakers",
+      "full_name": "dav-he123/midterm_sneakers",
+      "html_url": "https://github.com/dav-he123/midterm_sneakers",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-05-01T19:18:31Z",
+      "pushed_at": "2022-12-12T15:54:35Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 12,
+      "size_kb": 5599,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TSQL": 24666,
+        "JavaScript": 19636,
+        "HTML": 19600,
+        "CSS": 4658
+      },
+      "primary_language": "TSQL",
+      "file_count": 33,
+      "top_level_paths": [
+        ".editorconfig",
+        ".eslintrc.json",
+        ".gitignore",
+        "README.md",
+        "bin",
+        "db",
+        "lib",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "routes",
+        "server.js",
+        "styles",
+        "views"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@popperjs/core",
+          "body-parser",
+          "chalk",
+          "cookie-parser",
+          "cookie-session",
+          "dotenv",
+          "ejs",
+          "express",
+          "morgan",
+          "node-sass-middleware",
+          "nodemon",
+          "pg",
+          "pg-native"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2050,
+      "readme_excerpt": "LHL Node Skeleton\n=========\n\n## Project Setup\n\nThe following steps are only for _one_ of the group members to perform.\n\n1. Create your own copy of this repo using the `Use This Template` button, ideally using the name of your project. The repo should be marked Public\n2. Verify that the skeleton code now shows up in your repo on GitHub, you should be automatically redirected\n3. Clone your copy of the repo to your dev machine\n4. Add your team members as collaborators to the project so that they can push to this repo\n5. Let your team members know the repo URL so that they use the same repo (they should _not_ create a copy/fork of this repo since that will add additional workflow complexity to the project)\n\n\n## Getting Started\n\n1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`\n2. Update the .env file with your correct local information \n  - username: `labber` \n  - password: `labber` \n  - database: `midterm`\n3. Install dependencies: `npm i`\n4. Fix to binaries for sass: `npm rebuild node-sass`\n5. Reset database: `npm run db:reset`\n  - Check the db folder to see what gets created and seeded in the SDB\n7. Run the server: `npm run local`\n  - Note: nodemon i",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.235,
+      "commits": {
+        "count": 24,
+        "first_at": "2020-05-01T19:18:32+00:00",
+        "last_at": "2020-05-05T19:35:30+00:00",
+        "active_days": 4,
+        "span_days": 4,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.042,
+        "messages_sample": [
+          "Merge pull request #9 from dav-he123/feature/login_single_page",
+          "updated cookies for messages",
+          "Merge pull request #6 from dav-he123/feature/login",
+          "updated code for login and sql queries",
+          "updated sneakers to display in browser",
+          "updated code to find all sneakers from database",
+          "updated login.js and server.js",
+          "updated database.js",
+          "updated database.js",
+          "updated login url for index.ejs",
+          "Merge pull request #5 from dav-he123/feature/login",
+          "updated code for server.js",
+          "updated code for server.js",
+          "Merge pull request #4 from dav-he123/feature/login",
+          "updated code for server.js",
+          "Merge pull request #3 from dav-he123/feature/login",
+          "updated code for server.js",
+          "Merge pull request #2 from dav-he123/feature/login",
+          "updated login code for email",
+          "Merge branch 'feature/login'"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 19
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "sql",
+          "source": "language",
+          "detail": "TSQL: 24,666 bytes (36% of repo)",
+          "strength": 0.7597724620770129
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 19,636 bytes (29% of repo)",
+          "strength": 0.6864060676779464
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 19,600 bytes (29% of repo)",
+          "strength": 0.6858809801633605
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,658 bytes (7% of repo)",
+          "strength": 0.4679404900816803
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (db/schema/01_users.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "pg in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 68560,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "nodejs",
+          "postgresql",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "scheduler",
+      "full_name": "dav-he123/scheduler",
+      "html_url": "https://github.com/dav-he123/scheduler",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-05-10T16:38:16Z",
+      "pushed_at": "2023-01-26T09:45:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 26,
+      "size_kb": 7246,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 51265,
+        "CSS": 7974,
+        "HTML": 1574
+      },
+      "primary_language": "JavaScript",
+      "file_count": 79,
+      "top_level_paths": [
+        ".env.development",
+        ".eslintrc.json",
+        ".gitignore",
+        ".storybook",
+        "README.md",
+        "cypress",
+        "cypress.json",
+        "docs",
+        "jsconfig.json",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "stories"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/core",
+          "@storybook/addon-actions",
+          "@storybook/addon-backgrounds",
+          "@storybook/addon-links",
+          "@storybook/addons",
+          "@storybook/react",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/react-hooks",
+          "axios",
+          "babel-loader",
+          "classnames",
+          "node-sass",
+          "normalize.css",
+          "prop-types",
+          "react",
+          "react-dom",
+          "react-scripts",
+          "react-test-renderer",
+          "webpack"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 771,
+      "readme_excerpt": "# Interview Scheduler\n\nInterview Scheduler is a project using react, where a user can select time slots within a day of the week, and assign a student to an interviewer to create an appointment. The user is able to add, edit, and cancel appointments.\n\n## Setup\n\nInstall dependencies with `npm install`.\n\n## Running Webpack Development Server\n\n```sh\nnpm start\n```\n\n## Running Jest Test Framework\n\n```sh\nnpm test\n```\n\n## Running Storybook Visual Testbed\n\n```sh\nnpm run storybook\n```\n\n## Screenshots\n\n![\"A user has created 2 appointments\"](https://github.com/dav-he123/scheduler/blob/master/docs/application-form.png?raw=true)\n![\"A user is editing an appointment and deleting an appointment.\"](https://github.com/dav-he123/scheduler/blob/master/docs/edit-form.png?raw=true)\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 57,
+        "first_at": "2020-05-10T16:38:17+00:00",
+        "last_at": "2020-05-28T12:46:02+00:00",
+        "active_days": 12,
+        "span_days": 17,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.018,
+        "messages_sample": [
+          "cleaned up code by deleting console.log",
+          "included id in props for interviewer in form of edit mode",
+          "deleted unneeded comments",
+          "fixed some minor errors and solution has been reached",
+          "added a few descriptive comments for files",
+          "added descriptive comments for files",
+          "included description comments for various files",
+          "included more comments for description in various files",
+          "included comments describing lines of code",
+          "excluded unnecessary comments from files",
+          "took out extra comments and fixed a test",
+          "excluded various console.log to make code cleaner",
+          "excluded console.log to make code cleaner",
+          "fixed bug for props.interview.interviewer.name and resolved",
+          "updated README.md file",
+          "included screenshots for project",
+          "changed README.md file to include descriptions",
+          "fixed the error of not changing the number of spots remaining when user edits an appointment",
+          "updated code for testing for editing and deleting an interview in cypress",
+          "implemented cypress and cypress testing in navigation.spec.js and appointments.spec.js files"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 54
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 0,
+          "refactor": 0,
+          "test": 3,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 51,265 bytes (84% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 7,974 bytes (13% of repo)",
+          "strength": 0.5311232795619358
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,574 bytes (3% of repo)",
+          "strength": 0.4258826237810995
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (cypress/fixtures/example.json)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (cypress/integration/appointments.spec.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@storybook/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 60813,
+        "strong_skills": [
+          "integration-testing",
+          "javascript",
+          "react",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "buy_sell_sneakers",
+      "full_name": "dav-he123/buy_sell_sneakers",
+      "html_url": "https://github.com/dav-he123/buy_sell_sneakers",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-07-17T22:31:09Z",
+      "pushed_at": "2022-12-13T07:54:29Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 11,
+      "size_kb": 14854,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TSQL": 24366,
+        "JavaScript": 17835,
+        "HTML": 12574,
+        "CSS": 4080
+      },
+      "primary_language": "TSQL",
+      "file_count": 6387,
+      "top_level_paths": [
+        ".env",
+        ".gitignore",
+        "README.md",
+        "bin",
+        "db",
+        "lib",
+        "node_modules",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "routes",
+        "server.js",
+        "sms-messages",
+        "styles",
+        "views"
+      ],
+      "notable_files": [
+        "node_modules/@types/body-parser/package.json",
+        "node_modules/@types/connect/package.json",
+        "node_modules/@types/express-serve-static-core/package.json",
+        "node_modules/@types/express/package.json",
+        "node_modules/@types/mime/package.json",
+        "node_modules/@types/node/package.json",
+        "node_modules/@types/qs/package.json",
+        "node_modules/@types/range-parser/package.json",
+        "node_modules/@types/serve-static/package.json",
+        "node_modules/abbrev/package.json",
+        "node_modules/accepts/package.json",
+        "node_modules/ajv/package.json",
+        "node_modules/amdefine/package.json",
+        "node_modules/ansi-align/node_modules/ansi-regex/package.json",
+        "node_modules/ansi-align/node_modules/is-fullwidth-code-point/package.json",
+        "node_modules/ansi-align/node_modules/string-width/package.json",
+        "node_modules/ansi-align/node_modules/strip-ansi/package.json",
+        "node_modules/ansi-align/package.json",
+        "node_modules/ansi-regex/package.json",
+        "node_modules/ansi-styles/package.json",
+        "node_modules/anymatch/node_modules/normalize-path/package.json",
+        "node_modules/anymatch/package.json",
+        "node_modules/aproba/package.json",
+        "node_modules/are-we-there-yet/package.json",
+        "node_modules/arr-diff/package.json",
+        "node_modules/arr-flatten/package.json",
+        "node_modules/arr-union/package.json",
+        "node_modules/array-find-index/package.json",
+        "node_modules/array-flatten/package.json",
+        "node_modules/array-unique/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "body-parser",
+          "chalk",
+          "cookie-parser",
+          "cookie-session",
+          "dotenv",
+          "ejs",
+          "express",
+          "morgan",
+          "node-sass-middleware",
+          "nodemon",
+          "pg",
+          "pg-native",
+          "twilio"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2048,
+      "readme_excerpt": "# Sneakers Shopping Buy/Sell Website\n\n## Project Setup\n\nThe following steps are only for _one_ of the group members to perform.\n\n1. Create your own copy of this repo using the `Use This Template` button, ideally using the name of your project. The repo should be marked Public\n2. Verify that the skeleton code now shows up in your repo on GitHub, you should be automatically redirected\n3. Clone your copy of the repo to your dev machine\n4. Add your team members as collaborators to the project so that they can push to this repo\n5. Let your team members know the repo URL so that they use the same repo (they should _not_ create a copy/fork of this repo since that will add additional workflow complexity to the project)\n\n## Getting Started\n\n1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`\n2. Update the .env file with your correct local information\n\n- username: `labber`\n- password: `labber`\n- database: `midterm`\n\n3. Install dependencies: `npm i`\n4. Fix to binaries for sass: `npm rebuild node-sass`\n5. Reset database: `npm run db:reset`\n\n- Check the db folder to see what gets created and seeded in the SDB\n\n7. Run the server: `npm run local`\n\n- Note: nodemon i",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2020-07-17T22:36:06+00:00",
+        "last_at": "2020-07-18T02:41:13+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "updated gitignore file",
+          "updated gitignore file",
+          "included gitignore file",
+          "updated code for env file",
+          "updated code for buy sell sneakers"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4171
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "sql",
+          "source": "language",
+          "detail": "TSQL: 24,366 bytes (41% of repo)",
+          "strength": 0.814000509727296
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 17,835 bytes (30% of repo)",
+          "strength": 0.7030328774105854
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 12,574 bytes (21% of repo)",
+          "strength": 0.6136437006201683
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,080 bytes (7% of repo)",
+          "strength": 0.46932291224195055
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (db/schema/01_users.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (node_modules/async-foreach/test/foreach_test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (node_modules/nan/doc/asyncworker.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "pg in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 58855,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "nodejs",
+          "postgresql",
+          "sql",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LightBnB_2",
+      "full_name": "dav-he123/LightBnB_2",
+      "html_url": "https://github.com/dav-he123/LightBnB_2",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-04-29T19:14:47Z",
+      "pushed_at": "2022-12-12T15:38:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 5,
+      "size_kb": 2700,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TSQL": 6485106,
+        "JavaScript": 167553,
+        "CSS": 1302,
+        "HTML": 1226
+      },
+      "primary_language": "TSQL",
+      "file_count": 41,
+      "top_level_paths": [
+        "1_queries",
+        "LightBnB_WebApp-master",
+        "migrations",
+        "seeds"
+      ],
+      "notable_files": [
+        "LightBnB_WebApp-master/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2020-04-29T19:17:20+00:00",
+        "last_at": "2020-05-01T01:30:32+00:00",
+        "active_days": 3,
+        "span_days": 1,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.1,
+        "messages_sample": [
+          "updated database.js",
+          "updated database",
+          "updated code for database",
+          "updated database code",
+          "updated code for database",
+          "updated webapp",
+          "updated code for 1_queries",
+          "updated code for input",
+          "updated code for tables",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 32
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "sql",
+          "source": "language",
+          "detail": "TSQL: 6,485,106 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 167,553 bytes (3% of repo)",
+          "strength": 0.4251763023338037
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,302 bytes (0% of repo)",
+          "strength": 0.4001956368769202
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,226 bytes (0% of repo)",
+          "strength": 0.40018421721282965
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (1_queries/1_user_login.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (migrations/01_schema.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6655187,
+        "strong_skills": [
+          "data-modeling",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "WindBnB",
+      "full_name": "dav-he123/WindBnB",
+      "html_url": "https://github.com/dav-he123/WindBnB",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-10-20T18:57:39Z",
+      "pushed_at": "2021-10-26T13:43:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2549,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 170166,
+        "SCSS": 1302,
+        "HTML": 1226
+      },
+      "primary_language": "JavaScript",
+      "file_count": 42,
+      "top_level_paths": [
+        ".DS_Store",
+        "1_queries",
+        "LightBnB_WebApp-master",
+        "README.md",
+        "migrations",
+        "seeds"
+      ],
+      "notable_files": [
+        "LightBnB_WebApp-master/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 10,
+      "readme_excerpt": "# WindBnB\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 37,
+        "first_at": "2021-10-20T18:58:25+00:00",
+        "last_at": "2021-10-26T13:43:31+00:00",
+        "active_days": 5,
+        "span_days": 5,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.027,
+        "messages_sample": [
+          "implemented jQuery .on submite method in property_listings.js to display that the property has been reserved",
+          "added addReservation post method in apiRoutes.js",
+          "implemented ffunction for makeReservation in network.js",
+          "accecpted incoming change for return db in database.js",
+          "deleted a space in a line of code in database.js",
+          "implemented final edits in index.js",
+          "included module.exports, and implemented rest of data access in index.js",
+          "created folder db and included data access code within it",
+          "included getClient lines of code using pool.connect in database.js",
+          "included logging lines of code in database.js",
+          "included the initial structure for first route in userRoutes.js",
+          "included module.exports structure to database.js",
+          "adjusted some spacing between lines of code",
+          "finished addProperty function in database.js",
+          "finished getAllProperties function for the various WHERE criterias",
+          "finished getAllReservations function in database.js",
+          "implemented addUser function in database.js",
+          "implemented getUserWithId function",
+          "deleted unnecessary lines of code for getAllProperties and getUserWithEmail functions",
+          "implemented getAllProperties in database.sql"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 32
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 170,166 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 1,302 bytes (1% of repo)",
+          "strength": 0.4075393470531692
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,226 bytes (1% of repo)",
+          "strength": 0.4070992622789443
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (1_queries/1_user_login.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (migrations/01_schema.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 172694,
+        "strong_skills": [
+          "data-modeling",
+          "javascript",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TSQL": 6534138,
+    "JavaScript": 426455,
+    "HTML": 36200,
+    "CSS": 18014,
+    "SCSS": 1302
+  },
+  "total_commits": 133,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "dav-he123/midterm_sneakers",
+        "dav-he123/scheduler",
+        "dav-he123/buy_sell_sneakers",
+        "dav-he123/LightBnB_2",
+        "dav-he123/WindBnB"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 426455,
+      "commit_count": 133,
+      "first_seen": "2020-04-29T19:17:20+00:00",
+      "last_seen": "2021-10-26T13:43:31+00:00",
+      "details": [
+        "midterm_sneakers: JavaScript: 19,636 bytes (29% of repo)",
+        "scheduler: JavaScript: 51,265 bytes (84% of repo)",
+        "buy_sell_sneakers: JavaScript: 17,835 bytes (30% of repo)",
+        "LightBnB_2: JavaScript: 167,553 bytes (3% of repo)",
+        "WindBnB: JavaScript: 170,166 bytes (99% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "dav-he123/midterm_sneakers",
+        "dav-he123/buy_sell_sneakers",
+        "dav-he123/LightBnB_2",
+        "dav-he123/WindBnB"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 6534138,
+      "commit_count": 76,
+      "first_seen": "2020-04-29T19:17:20+00:00",
+      "last_seen": "2021-10-26T13:43:31+00:00",
+      "details": [
+        "midterm_sneakers: TSQL: 24,666 bytes (36% of repo)",
+        "midterm_sneakers: SQL file (db/schema/01_users.sql)",
+        "buy_sell_sneakers: TSQL: 24,366 bytes (41% of repo)",
+        "buy_sell_sneakers: SQL file (db/schema/01_users.sql)",
+        "LightBnB_2: TSQL: 6,485,106 bytes (97% of repo)",
+        "LightBnB_2: SQL file (1_queries/1_user_login.sql)",
+        "WindBnB: SQL file (1_queries/1_user_login.sql)"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "dav-he123/midterm_sneakers",
+        "dav-he123/buy_sell_sneakers"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 29,
+      "first_seen": "2020-05-01T19:18:32+00:00",
+      "last_seen": "2020-07-18T02:41:13+00:00",
+      "details": [
+        "midterm_sneakers: express in package.json",
+        "buy_sell_sneakers: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "dav-he123/midterm_sneakers",
+        "dav-he123/buy_sell_sneakers"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 29,
+      "first_seen": "2020-05-01T19:18:32+00:00",
+      "last_seen": "2020-07-18T02:41:13+00:00",
+      "details": [
+        "midterm_sneakers: pg in package.json",
+        "buy_sell_sneakers: pg in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "dav-he123/scheduler"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 57,
+      "first_seen": "2020-05-10T16:38:17+00:00",
+      "last_seen": "2020-05-28T12:46:02+00:00",
+      "details": [
+        "scheduler: @storybook/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "dav-he123/midterm_sneakers",
+        "dav-he123/scheduler",
+        "dav-he123/buy_sell_sneakers",
+        "dav-he123/LightBnB_2",
+        "dav-he123/WindBnB"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6858809801633605,
+      "total_bytes": 55516,
+      "commit_count": 133,
+      "first_seen": "2020-04-29T19:17:20+00:00",
+      "last_seen": "2021-10-26T13:43:31+00:00",
+      "details": [
+        "midterm_sneakers: HTML: 19,600 bytes (29% of repo)",
+        "midterm_sneakers: CSS: 4,658 bytes (7% of repo)",
+        "scheduler: CSS: 7,974 bytes (13% of repo)",
+        "scheduler: HTML: 1,574 bytes (3% of repo)",
+        "buy_sell_sneakers: HTML: 12,574 bytes (21% of repo)",
+        "buy_sell_sneakers: CSS: 4,080 bytes (7% of repo)",
+        "LightBnB_2: CSS: 1,302 bytes (0% of repo)",
+        "LightBnB_2: HTML: 1,226 bytes (0% of repo)",
+        "WindBnB: SCSS: 1,302 bytes (1% of repo)",
+        "WindBnB: HTML: 1,226 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "dav-he123/scheduler",
+        "dav-he123/buy_sell_sneakers"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 62,
+      "first_seen": "2020-05-10T16:38:17+00:00",
+      "last_seen": "2020-07-18T02:41:13+00:00",
+      "details": [
+        "scheduler: test file (cypress/integration/appointments.spec.js)",
+        "buy_sell_sneakers: test directory (node_modules/async-foreach/test/foreach_test.js)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "dav-he123/LightBnB_2",
+        "dav-he123/WindBnB"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 47,
+      "first_seen": "2020-04-29T19:17:20+00:00",
+      "last_seen": "2021-10-26T13:43:31+00:00",
+      "details": [
+        "LightBnB_2: database migrations (migrations/01_schema.sql)",
+        "WindBnB: database migrations (migrations/01_schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "dav-he123/scheduler"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 57,
+      "first_seen": "2020-05-10T16:38:17+00:00",
+      "last_seen": "2020-05-28T12:46:02+00:00",
+      "details": [
+        "scheduler: e2e suite (cypress/fixtures/example.json)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "dav-he123/buy_sell_sneakers"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2020-07-17T22:36:06+00:00",
+      "last_seen": "2020-07-18T02:41:13+00:00",
+      "details": [
+        "buy_sell_sneakers: docs directory (node_modules/nan/doc/asyncworker.md)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 133,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "javascript-frontend",
+  "collected_at": "2026-09-17T02:16:14.095967+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

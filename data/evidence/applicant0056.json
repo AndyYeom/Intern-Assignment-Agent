@@ -1,0 +1,489 @@
+{
+  "applicant_id": "applicant0056",
+  "github_login": "choiceoh",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0056.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/Deneb",
+        "https://github.com/choiceoh/osty",
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet",
+        "https://github.com/choiceoh/stkernel"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/Deneb",
+          "html_url": "https://github.com/choiceoh/Deneb",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/andromeda-ci.yml)"
+          ]
+        },
+        {
+          "repo": "choiceoh/osty",
+          "html_url": "https://github.com/choiceoh/osty",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/bootstrap-smoke-test.yml)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "GitHub Actions workflow (.github/workflows/cd.yml)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "GitHub Actions workflow (.github/workflows/cd.yml)"
+          ]
+        },
+        {
+          "repo": "choiceoh/stkernel",
+          "html_url": "https://github.com/choiceoh/stkernel",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "GitHub Actions workflow (.github/workflows/engine-check.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/Deneb",
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/Deneb",
+          "html_url": "https://github.com/choiceoh/Deneb",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "database migrations (andromeda/docs/migration/README.md)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "database migrations (backend/internal/migration/compat.go)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "database migrations (backend/internal/migration/cellformats.go)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet",
+        "https://github.com/choiceoh/stkernel"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        },
+        {
+          "repo": "choiceoh/stkernel",
+          "html_url": "https://github.com/choiceoh/stkernel",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "Dockerfile (engine/runtime/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/Deneb",
+        "https://github.com/choiceoh/osty",
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/Deneb",
+          "html_url": "https://github.com/choiceoh/Deneb",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "Go: 22,793,858 bytes (65% of repo)",
+            "Go module (gateway-go/go.mod)"
+          ]
+        },
+        {
+          "repo": "choiceoh/osty",
+          "html_url": "https://github.com/choiceoh/osty",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "Go: 7,949,126 bytes (46% of repo)",
+            "Go module (benchmarks/programs/big-map/go/go.mod)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "Go: 916,729 bytes (46% of repo)",
+            "Go module (backend/go.mod)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "Go: 953,963 bytes (44% of repo)",
+            "Go module (backend/go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/Deneb",
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/Deneb",
+          "html_url": "https://github.com/choiceoh/Deneb",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "env config (.env.example)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "env config (.env.example)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/Deneb",
+        "https://github.com/choiceoh/osty"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/Deneb",
+          "html_url": "https://github.com/choiceoh/Deneb",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "Kotlin: 6,186,318 bytes (18% of repo)",
+            "Android app manifest (client-android/app/androidApp/src/foss/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "choiceoh/osty",
+          "html_url": "https://github.com/choiceoh/osty",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "Swift: 8,157,737 bytes (47% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/choiceoh/stkernel"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/stkernel",
+          "html_url": "https://github.com/choiceoh/stkernel",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "jupyter notebook (measurements/deneb_qlora_data_20260912/audit.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/choiceoh/stkernel"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/stkernel",
+          "html_url": "https://github.com/choiceoh/stkernel",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "Python: 32,364,317 bytes (90% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/Deneb",
+        "https://github.com/choiceoh/osty",
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet",
+        "https://github.com/choiceoh/stkernel"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/Deneb",
+          "html_url": "https://github.com/choiceoh/Deneb",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "docs directory (andromeda/docs/DESIGN-PHILOSOPHY.md)"
+          ]
+        },
+        {
+          "repo": "choiceoh/osty",
+          "html_url": "https://github.com/choiceoh/osty",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "docs directory (docs/ai-agent-wiki/Authority-and-Non-Negotiables.md)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "docs directory (docs/05-SOLAR-DOMAIN.md)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "docs directory (docs/05-SOLAR-DOMAIN.md)"
+          ]
+        },
+        {
+          "repo": "choiceoh/stkernel",
+          "html_url": "https://github.com/choiceoh/stkernel",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "docs directory (docs/GLM53_DRAFT_ACCEPTANCE.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "TypeScript: 1,067,310 bytes (53% of repo)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "TypeScript: 1,174,195 bytes (54% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/choiceoh/Deneb",
+        "https://github.com/choiceoh/osty",
+        "https://github.com/choiceoh/phaeton",
+        "https://github.com/choiceoh/phaeton-spreadsheet",
+        "https://github.com/choiceoh/stkernel"
+      ],
+      "repos": [
+        {
+          "repo": "choiceoh/Deneb",
+          "html_url": "https://github.com/choiceoh/Deneb",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "test file (andromeda/scripts/bump-version.test.ts)"
+          ]
+        },
+        {
+          "repo": "choiceoh/osty",
+          "html_url": "https://github.com/choiceoh/osty",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "test file (benchmarks/osty-vs-go/arith/go/arith_test.go)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton",
+          "html_url": "https://github.com/choiceoh/phaeton",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "test file (backend/internal/automation/evaluate_test.go)"
+          ]
+        },
+        {
+          "repo": "choiceoh/phaeton-spreadsheet",
+          "html_url": "https://github.com/choiceoh/phaeton-spreadsheet",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "test file (backend/internal/automation/evaluate_test.go)"
+          ]
+        },
+        {
+          "repo": "choiceoh/stkernel",
+          "html_url": "https://github.com/choiceoh/stkernel",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, has_docker, documented",
+            "test directory (measurements/glm53_ep_local_20260908/attempt2/source/tests/test_glm53_ep_local_probe.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (5 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 11
+  }
+}

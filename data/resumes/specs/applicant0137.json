@@ -1,0 +1,119 @@
+{
+  "github_login": "SUMAN1040",
+  "applicant_id": "applicant0137",
+  "first_name": "Priya",
+  "last_name": "Vashet",
+  "career_stage": "student",
+  "email": "priya@marlowcreek.example",
+  "phone": "(555) 010-1372",
+  "location": "Marlow Creek",
+  "linkedin": "linkedin.example.com/in/priya-vashet",
+  "github_url": "github.example.com/priya-vashet",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Redgate Institute of Technology",
+    "location": "Marlow Creek",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "May 2027",
+    "gpa": "3.8/4.0",
+    "coursework": [
+      "Mobile App Development",
+      "Data Structures",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Sahaayak",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2025",
+      "end": "Oct 2025",
+      "bullets": [
+        "Built an Android personal-safety app in Kotlin that reads sensor and microphone data to flag risk in real time.",
+        "Wired the risk model to auto-trigger SMS alerts, location sharing, and an alarm, integrating on-device detection with everyday phone features."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin"
+      ]
+    },
+    {
+      "title": "Pythontutorial",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Maintained a large Python and Jupyter Notebook teaching repository with an automated test suite across sustained daily commits."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Jupyter Notebook",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Jun 2026",
+      "bullets": [
+        "Designed a 3D-interactive personal site in HTML, CSS, and JavaScript, using glassmorphism styling and a terminal-style splash screen."
+      ],
+      "link": null,
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Reviewer",
+      "organization": "Redgate Mobile Dev Circle",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "After a safety-app teammate's sensor logic broke silently on a classmate's device, started requiring test coverage before merging Android changes.",
+        "Reviews classmates' Android pull requests, walking newer students through why an untested sensor edge case can fail only on certain phones."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Data": [
+      "Data Modeling",
+      "Data Analysis (pandas)"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

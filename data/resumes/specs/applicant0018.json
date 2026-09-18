@@ -1,0 +1,133 @@
+{
+  "github_login": "S1ink",
+  "applicant_id": "applicant0018",
+  "first_name": "Theo",
+  "last_name": "Marsh",
+  "career_stage": "student",
+  "email": "theo.marsh@fernhollow.example",
+  "phone": "(555) 010-0187",
+  "location": "Ashford Bend",
+  "linkedin": "linkedin.example.com/in/theo-marsh",
+  "github_url": "github.example.com/theomarsh-dev",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Cedarholt Polytechnic Institute",
+    "location": "Ashford Bend",
+    "degree": "Bachelor of Science",
+    "major": "Computer Engineering",
+    "minor": "Applied Statistics",
+    "graduation": "May 2026",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Software Testing and Verification",
+      "Computer Systems",
+      "Data Structures and Algorithms",
+      "Robotics System Design"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Visionserver",
+      "organization": "Ridgeline Robotics",
+      "location": null,
+      "start": "Nov 2021",
+      "end": "Jan 2024",
+      "bullets": [
+        "Built a C++ vision-processing library for Raspberry Pi deployment on a competition robot, spanning nearly 6,000 files across C, C++, and NASL.",
+        "Configured continuous integration to validate builds, sustaining active development across 200 commits over 86 days."
+      ],
+      "link": null,
+      "tech": [
+        "C++",
+        "C",
+        "NASL"
+      ]
+    },
+    {
+      "title": "UE5 Lidarsim",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Oct 2023",
+      "end": "May 2024",
+      "bullets": [
+        "Built a lidar simulation in Unreal Engine 5 to model obstacle detection for a competition robot, in C++ and C#.",
+        "Iterated over 38 active days and 55 commits, coordinating changes across a multi-language codebase of roughly 300 files."
+      ],
+      "link": null,
+      "tech": [
+        "C++",
+        "C#",
+        "C"
+      ]
+    },
+    {
+      "title": "Swerve Simulation",
+      "organization": "Ridgeline Robotics",
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Jan 2024",
+      "bullets": [
+        "Extended a Java swerve-drive simulation from an earlier robotics project, adding drivetrain calculations validated with JUnit and the Jama matrix library.",
+        "Wrote JUnit test suites covering the simulation logic, sustaining development across 51 files over 33 active days."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Vision Systems Contributor",
+      "organization": "Ridgeline Robotics",
+      "location": "Ashford Bend",
+      "start": "Sep 2021",
+      "end": "Jan 2024",
+      "bullets": [
+        "After teammates struggled to reproduce intermittent vision failures during practice runs, began logging the conditions behind each failure before proposing a fix.",
+        "Traced late-season failures to code that had never been exercised outside competition, shifting focus toward testing before deployment."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Regional Robotics Tournament — Technical Inspection Award",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2023",
+      "end": "Present",
+      "bullets": [],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "skills": {
+    "Language": [
+      "C/C++",
+      "Java",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

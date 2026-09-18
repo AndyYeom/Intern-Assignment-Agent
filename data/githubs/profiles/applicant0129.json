@@ -1,0 +1,886 @@
+{
+  "applicant_id": "applicant0129",
+  "login": "rafaelcarmanhani",
+  "html_url": "https://github.com/rafaelcarmanhani",
+  "created_at": "2024-03-12T00:15:12Z",
+  "account_age_days": 919,
+  "public_repos": 5,
+  "followers": 0,
+  "following": 1,
+  "repos": [
+    {
+      "name": "projeto-ru",
+      "full_name": "rafaelcarmanhani/projeto-ru",
+      "html_url": "https://github.com/rafaelcarmanhani/projeto-ru",
+      "description": "Projeto de previsão e otimização do restaurante universitário da USP de São Carlos",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-08T22:33:11Z",
+      "pushed_at": "2026-09-17T01:07:58Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 34990,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 513891,
+        "Python": 36177
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 82,
+      "top_level_paths": [
+        "README.md",
+        "backup_previsao",
+        "interface",
+        "otimizacao",
+        "previsao"
+      ],
+      "notable_files": [
+        "backup_previsao/previsao/requirements.txt",
+        "otimizacao/requirements.txt",
+        "previsao/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1045,
+      "readme_excerpt": "# Projeto RU USP São Carlos\nProjeto de previsão e otimização do restaurante universitário da USP de São Carlos\n\n## Estrutura do repositório\n\n```text\nprojeto-ru/\n├── previsao/             # Módulo de Previsão (Python)\n│   ├── data/             # Datasets brutos e processados\n│   ├── notebooks/        # Notebooks para exploração e treino\n│   ├── scripts/          # Scripts de treino e inferência (.py)\n│   └── requirements.txt  # Dependências (pandas, scikit-learn, etc)\n│\n├── otimizacao/           # Módulo de Otimização (Python + Gurobi)\n│   ├── data/             # CSVs de entrada (itens_cardapio.csv)\n│   ├── src/              # Código fonte do modelo (gurobi_codigo.py)\n│   ├── results/          # Saídas geradas (cardapios_otimizados.json)\n│   └── requirements.txt  # Dependências (gurobipy, pandas)\n│\n├── interface/            # Interface\n│   ├── backend/          # API Express\n│   └── frontend/         # App React\n│\n├── .gitignore            # Arquivos para o Git ignorar\n└── README.md             # Documentação principal do projeto\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.087,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-01-08T22:33:57+00:00",
+        "last_at": "2026-06-11T14:47:27+00:00",
+        "active_days": 2,
+        "span_days": 153,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #10 from rafaelcarmanhani/branchsofia1",
+          "Criado usando o Colab",
+          "Criado usando o Colab",
+          "readme inicial"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 8,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 513,891 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 36,177 bytes (7% of repo)",
+          "strength": 0.4657682322912804
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (backup_previsao/previsao/data/data_treatment_completo/Tratamento_dos_dados.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 550068,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "atividade2_web",
+      "full_name": "rafaelcarmanhani/atividade2_web",
+      "html_url": "https://github.com/rafaelcarmanhani/atividade2_web",
+      "description": "Atividade 2 da disciplina de introdução ao desenvolvimento Web",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-22T01:19:35Z",
+      "pushed_at": "2026-06-22T01:21:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 30,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 6480,
+        "HTML": 3728,
+        "CSS": 3116
+      },
+      "primary_language": "JavaScript",
+      "file_count": 10,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "server.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "express",
+          "sequelize",
+          "sqlite3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1436,
+      "readme_excerpt": "# Poções e Soluções\n\nLoja de poções de Annabelle Merigold — **Atividade Prática 2** (SCC0219 - Introdução ao Desenvolvimento Web).\n\nO projeto tem um **Web Service** (Node.js + Express + Sequelize + SQLite em memória) e duas páginas web simples:\n\n- **Loja** (`index.html`): descrição da loja, histórico (fundada em 1867) com fotos, lista de poções carregada via AJAX e rodapé com contato.\n- **Administração** (`admin.html`): permite **cadastrar**, **listar** e **remover** poções.\n\n## Tecnologias\n\n- Node.js\n- Express (servidor web e API)\n- Sequelize + SQLite (banco de dados **em memória**)\n- HTML, CSS e JavaScript puro (AJAX com `fetch`)\n\n> Observação: como o banco é em memória, as poções voltam para a lista inicial sempre que o servidor é reiniciado.\n\n## Como configurar e executar\n\n1. Instale as dependências:\n\n   ```bash\n   npm install\n   ```\n\n2. Inicie o servidor:\n\n   ```bash\n   npm start\n   ```\n\n3. Abra no navegador:\n\n   - Loja: <http://localhost:3000>\n   - Administração: <http://localhost:3000/admin.html>\n\n## API (Web Service)\n\n| Método | Rota              | Descrição                  |\n| ------ | ----------------- | -------------------------- |\n| GET    | `/api/pocoes`     | Lista t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-06-22T01:21:21+00:00",
+        "last_at": "2026-06-22T01:21:21+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "versao final atividade"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,480 bytes (49% of repo)",
+          "strength": 0.8863404383068147
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,728 bytes (28% of repo)",
+          "strength": 0.67979585709997
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,116 bytes (23% of repo)",
+          "strength": 0.6338637045932153
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "sequelize in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 13324,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "javascript",
+          "nodejs"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Fonte-de-Tensao",
+      "full_name": "rafaelcarmanhani/Fonte-de-Tensao",
+      "html_url": "https://github.com/rafaelcarmanhani/Fonte-de-Tensao",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-04-23T13:14:57Z",
+      "pushed_at": "2024-08-20T01:19:47Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5494,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 11,
+      "top_level_paths": [
+        "README.md",
+        "calculos_fonte.jpg",
+        "circuit-20240730-1837.png",
+        "esquematico-fonte2.png",
+        "esquematico0_fonte.png",
+        "falstad0_fonte.png",
+        "falstad_fonte.png",
+        "pcb0_fonte.png",
+        "tinkercad0_fonte.png",
+        "tinkercad_fonte.png",
+        "video_fonte.mp4"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1819,
+      "readme_excerpt": "# Fonte de Tensão Ajustável\nRafael Perez Carmanhani - 15485420\n\n## Sobre o Projeto\nEste projeto é um sistema desenvolvido para a disciplina de Eletrônica para Computação na USP - São Carlos. O objetivo é montar uma fonte com tensão ajustável entre 3V e 12V, com capacidade de corrente de até 100mA.\n\n## Circuito no Falstad\n![circuito](falstad0_fonte.png)\nLink para o circuito: https://tinyurl.com/29hzvqvx\n\n## Projeto no Tinkercad\n![tinkercad fonte](tinkercad0_fonte.png)\n\n## Componentes utilizados\n\n| Quantidade | Componente           | Valor Individual (R$) | Valor Total (R$) |\n|------------|----------------------|-----------------------|------------------|\n| 1          | Protoboard           | 25,00                 | 25,00            |\n| 1          | Capacitor 1000uF 25V | 1,60                  | 3,20             |\n| 2          | LED Vermelho         | 1,00                  | 2,00             |\n| 20         | Fios Jumper          | 1,00                  | 20,00            |\n| 1          | Potenciometro 10k    | 3,00                  | 3,00             |\n| 13         | Resistores           | 0,15                  | 1,95             |\n| 2          | Ponte Retificadora   | 4,00          ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 23,
+        "first_at": "2024-04-23T13:14:57+00:00",
+        "last_at": "2024-08-20T01:19:46+00:00",
+        "active_days": 6,
+        "span_days": 118,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.87,
+        "messages_sample": [
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Add files via upload",
+          "Delete Copy of Fonte_Capacitor_Zener_NPN.png",
+          "Delete circuit-[phone].png",
+          "Delete esquematico-fonte.png",
+          "Add files via upload",
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sensor-zonaazul",
+      "full_name": "rafaelcarmanhani/sensor-zonaazul",
+      "html_url": "https://github.com/rafaelcarmanhani/sensor-zonaazul",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-07-16T20:57:10Z",
+      "pushed_at": "2024-07-22T21:58:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 164,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 3,
+      "top_level_paths": [
+        "Fábrica de Projetos Zona Azul.png",
+        "README.md",
+        "tinkercad_arduino.png"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2787,
+      "readme_excerpt": "# Sensor Zona Azul\nRafael Perez Carmanhani - 15485420\n\n## Sobre o Projeto\nEste projeto é um sistema desenvolvido para a disciplina de eletrônica para computação, utilizando Arduino, que mede o tempo que um veículo fica estacionado. O sistema inicia a contagem quando o veículo é estacionado e calcula a duração total do estacionamento. Utiliza sensores para detectar a presença do veículo e um display para mostrar o tempo decorrido. Este projeto poderia ser utilizado, por exemplo, em vagas com tempo limitado de estacionamento.\n\n## Esquema no Tinkercad:\n![Esquema no Tinkercad](tinkercad_arduino.png)\n\n## Código utilizado\n\n```cpp\n#include <LiquidCrystal.h>\n\nconst int trigPin = 9;\nconst int echoPin = 10;\n\nlong duration;\nint distance;\n\nLiquidCrystal lcd(12, 11, 5, 4, 3, 2);\n\nunsigned long startTime = 0;\nunsigned long elapsedTime = 0;\n\nvoid setup() {\n  pinMode(trigPin, OUTPUT);\n  pinMode(echoPin, INPUT);\n  pinMode(ledPin, OUTPUT);\n  \n  lcd.begin(16, 2);\n  lcd.print(\"Distancia: \");\n}\n\nvoid loop() {\n  digitalWrite(trigPin, LOW);\n  delayMicroseconds(2);\n  digitalWrite(trigPin, HIGH);\n  delayMicroseconds(10);\n  digitalWrite(trigPin, LOW);\n  \n  duration = pulseIn(echoPin, HIGH);\n  distance = dur",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2024-07-16T20:57:10+00:00",
+        "last_at": "2024-07-22T21:58:40+00:00",
+        "active_days": 3,
+        "span_days": 6,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Teste-1",
+      "full_name": "rafaelcarmanhani/Teste-1",
+      "html_url": "https://github.com/rafaelcarmanhani/Teste-1",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-04-23T13:10:15Z",
+      "pushed_at": "2024-04-23T13:16:35Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 1,
+      "top_level_paths": [
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 10,
+      "readme_excerpt": "# Teste-1\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2024-04-23T13:10:15+00:00",
+        "last_at": "2024-04-23T13:16:35+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 513891,
+    "Python": 36177,
+    "JavaScript": 6480,
+    "HTML": 3728,
+    "CSS": 3116
+  },
+  "total_commits": 38,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "rafaelcarmanhani/projeto-ru"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 550068,
+      "commit_count": 4,
+      "first_seen": "2026-01-08T22:33:57+00:00",
+      "last_seen": "2026-06-11T14:47:27+00:00",
+      "details": [
+        "projeto-ru: Jupyter Notebook: 513,891 bytes (93% of repo)",
+        "projeto-ru: Python: 36,177 bytes (7% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "rafaelcarmanhani/atividade2_web"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-06-22T01:21:21+00:00",
+      "last_seen": "2026-06-22T01:21:21+00:00",
+      "details": [
+        "atividade2_web: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "rafaelcarmanhani/atividade2_web"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-06-22T01:21:21+00:00",
+      "last_seen": "2026-06-22T01:21:21+00:00",
+      "details": [
+        "atividade2_web: sequelize in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "rafaelcarmanhani/atividade2_web"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8863404383068147,
+      "total_bytes": 6480,
+      "commit_count": 1,
+      "first_seen": "2026-06-22T01:21:21+00:00",
+      "last_seen": "2026-06-22T01:21:21+00:00",
+      "details": [
+        "atividade2_web: JavaScript: 6,480 bytes (49% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "rafaelcarmanhani/atividade2_web"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.67979585709997,
+      "total_bytes": 6844,
+      "commit_count": 1,
+      "first_seen": "2026-06-22T01:21:21+00:00",
+      "last_seen": "2026-06-22T01:21:21+00:00",
+      "details": [
+        "atividade2_web: HTML: 3,728 bytes (28% of repo)",
+        "atividade2_web: CSS: 3,116 bytes (23% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "rafaelcarmanhani/projeto-ru"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2026-01-08T22:33:57+00:00",
+      "last_seen": "2026-06-11T14:47:27+00:00",
+      "details": [
+        "projeto-ru: jupyter notebook (backup_previsao/previsao/data/data_treatment_completo/Tratamento_dos_dados.ipynb)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 38,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-17T01:18:30.199546+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3"
+  ]
+}

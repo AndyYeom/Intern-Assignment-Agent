@@ -1,0 +1,873 @@
+{
+  "applicant_id": "applicant0076",
+  "login": "sankalpsrv",
+  "html_url": "https://github.com/sankalpsrv",
+  "created_at": "2019-09-21T04:32:06Z",
+  "account_age_days": 2552,
+  "public_repos": 8,
+  "followers": 17,
+  "following": 45,
+  "repos": [
+    {
+      "name": "Schematise",
+      "full_name": "sankalpsrv/Schematise",
+      "html_url": "https://github.com/sankalpsrv/Schematise",
+      "description": "An LLM enabled XML generator for Indian laws in the LegalDocML and LegalRuleML formats",
+      "homepage": "https://schematise.streamlit.app",
+      "is_fork": false,
+      "is_archived": true,
+      "is_template": false,
+      "created_at": "2024-01-29T14:57:35Z",
+      "pushed_at": "2024-09-06T15:28:56Z",
+      "stargazers": 20,
+      "forks": 2,
+      "open_issues": 1,
+      "size_kb": 49433,
+      "default_branch": "main",
+      "license": "AGPL-3.0",
+      "topics": [
+        "akoma-ntoso",
+        "akomantoso",
+        "langchain",
+        "legalruleml",
+        "llama2-7b",
+        "openai-api"
+      ],
+      "languages": {
+        "Jupyter Notebook": 547142,
+        "Python": 95456
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 55,
+      "top_level_paths": [
+        ".gitattributes",
+        "Flowchart.png",
+        "LICENSE",
+        "LocalWorkflow",
+        "Notebook-of-approaches",
+        "README.md",
+        "Schematise Workflow.1.png",
+        "Schematise Workflow.2.png",
+        "Schematise-PPT-24thMarch.pptx",
+        "Schematise-demo-10thMarch.mp4",
+        "Schematise-logo-light.png",
+        "Streamlit"
+      ],
+      "notable_files": [
+        "Streamlit/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 16198,
+      "readme_excerpt": "# Schematise\n### Submission to [The Fifth Elephant's Open Source AI Hackathon](https://hasgeek.com/fifthelephant/open-source-ai-hackathon/)\n\n### Overview \nSchematise is an LLM enabled XML generator for Indian statutes and laws in the Akoma Ntoso and LegalRuleML schemas. It utilises certain examples as few shot prompts and RAG prompting with the different meta models as context. It makes use of prompt engineering and RAG prompting to generate XML, with the option for users to provide input regarding which places need further tweaking in a Human in the Loop approach. The program is available as an open-sourced streamlit app, and is built on the LangChain framework to allow users to choose between OpenAI or Llama2. The latter makes it possible to generate datasets for fine tuning, which OpenAI restricts. \n\n### Disclaimer \n\nThis is an AI application that generates XML versions of laws (statutes/rules) inputted by you. It is not a replacement for legal advice.\n\n### License \nThe application and source-code is distributed under an Affero GPL license, according to which any modification or redistribution (even if as a web-app) must be redistributed on the same terms. \n\n### Features\n1) Auto",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 46,
+        "first_at": "2024-01-29T14:57:35+00:00",
+        "last_at": "2024-04-10T14:23:51+00:00",
+        "active_days": 16,
+        "span_days": 71,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.435,
+        "messages_sample": [
+          "Merge pull request #2 from sankalpsrv/main-amended",
+          "Merge branch 'main' into main-amended",
+          "Added Documentation details to README",
+          "added updates to local workflow",
+          "Added Demo Video and PPT",
+          "Update README.md",
+          "Disclaimer bug fix",
+          "Update README.md",
+          "Merge pull request #1 from sankalpsrv/main-amended",
+          "Added new versions of the code",
+          "Create LICENSE",
+          "Update README.md",
+          "Update README.md",
+          "Removed colab metadata",
+          "Removed colab metadata",
+          "Update OpenAI_LegalRuleML.ipynb",
+          "Update OpenAI_LegalRuleML.ipynb",
+          "Update OpenAI_LegalRuleML.ipynb",
+          "Process of migrating to Local Deployment documented",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 9,
+        "code_file_count": 17
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 547,142 bytes (85% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 95,456 bytes (15% of repo)",
+          "strength": 0.5485469920541303
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Notebook-of-approaches/ConceptualEncoding_Pydantic.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "topic",
+          "detail": "repo topic 'langchain'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 642598,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Draft-PrivacyPolicyAnalyser",
+      "full_name": "sankalpsrv/Draft-PrivacyPolicyAnalyser",
+      "html_url": "https://github.com/sankalpsrv/Draft-PrivacyPolicyAnalyser",
+      "description": "An approach to generating cypher using templates and semantic similarities",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-10-02T21:01:37Z",
+      "pushed_at": "2024-10-02T22:33:59Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 633,
+      "default_branch": "main",
+      "license": "AGPL-3.0",
+      "topics": [],
+      "languages": {
+        "Python": 33492
+      },
+      "primary_language": "Python",
+      "file_count": 9,
+      "top_level_paths": [
+        "DevelopmentCode",
+        "LICENSE",
+        "Privanyze-Flowchart.png",
+        "README.md",
+        "Templatemodel.png"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 784,
+      "readme_excerpt": "# Draft-PrivacyPolicyAnalyser\nA Draft Repository for the Privacy Policy Analyser due for publication very soon. \n\nMade for the purpose of implementing a Graph Model that represents a feedback capable ontology.\n\nMost aspects are still being worked upon and will be published later.\n\nThis repository is for demonstrating the approach towards:\n1. Graph Creation - Involving Pydantic Classes and LLM Prompting through descriptions\n2. Using semantic similarity to implement an intelligent matching system for structured output generation through templates.\n3. Cypher prompts for creating differential approaches to cypher prompts of different kinds.\n\nSee Flowchart ![image](Privanyze-Flowchart.png) for a demonstration of full intended approach\n\nAnd Graph Model ![image](Templatemodel.png)",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2024-10-02T21:01:37+00:00",
+        "last_at": "2024-10-02T21:52:13+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "initial dev",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 33,492 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 33492,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sankalpsrv.github.io",
+      "full_name": "sankalpsrv/sankalpsrv.github.io",
+      "html_url": "https://github.com/sankalpsrv/sankalpsrv.github.io",
+      "description": "Redirects to website",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-03-02T04:08:02Z",
+      "pushed_at": "2025-01-01T15:42:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 224
+      },
+      "primary_language": "HTML",
+      "file_count": 1,
+      "top_level_paths": [
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2024-03-02T04:10:00+00:00",
+        "last_at": "2025-01-01T15:42:07+00:00",
+        "active_days": 2,
+        "span_days": 305,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update index.html",
+          "Create index.html"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 224 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 224,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "StudyOnMusicTest",
+      "full_name": "sankalpsrv/StudyOnMusicTest",
+      "html_url": "https://github.com/sankalpsrv/StudyOnMusicTest",
+      "description": "A Flask app to conduct a test to gauge concentration levels while using music",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-03-26T07:18:01Z",
+      "pushed_at": "2024-03-27T12:56:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 56337,
+      "default_branch": "master",
+      "license": "MIT",
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 14,
+      "top_level_paths": [
+        "LICENSE",
+        "app.py",
+        "requirements.txt",
+        "static",
+        "templates"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "flask",
+          "gunicorn",
+          "psycopg2",
+          "python-decouple"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2024-03-26T07:18:01+00:00",
+        "last_at": "2024-03-27T12:56:36+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "changed language of informed consent",
+          "added timer and informed consent",
+          "Made question paragraphs shorter",
+          "added gunicorn",
+          "Initial commit from local repo",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flask-fastapi",
+          "source": "repo_name",
+          "detail": "'flask' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "flask-fastapi"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "IntlLaw-Decisions-ContentAnalysis-Qualcoder",
+      "full_name": "sankalpsrv/IntlLaw-Decisions-ContentAnalysis-Qualcoder",
+      "html_url": "https://github.com/sankalpsrv/IntlLaw-Decisions-ContentAnalysis-Qualcoder",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-18T14:35:13Z",
+      "pushed_at": "2023-10-20T12:02:43Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2485,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 17,
+      "top_level_paths": [
+        "COP-CMA-UNFCCC-Kyoto_BKUP_20231020_17.qda",
+        "LICENSE.md",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1424,
+      "readme_excerpt": "# IntlLaw-Decisions-ContentAnalysis-Qualcoder\n\nShield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]\n\nThis work is licensed under a\n[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].\n\n[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]\n\n[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/\n[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png\n[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg\n\n# Disclaimer\n\nThis repository is offered as part of a research paper that is awaiting publication acceptance. The license does not permit you to publish the research contained herein as your own. It will be offered on more permissive terms once the paper is published, for replication and feedback of the research conducted and further analysis purposes.\n\n# Introduction\n\nThis is part of a research undertaken by me, [Sankalp Srivastava](https://www.sankalpsrv.in) to perform a content analysis of decisions rendered by the Conference of Parties of the Kyoto Protocol and the UNFCCC in the years 2019 and 2021, and 2021 and 2022, respectively. This paper is NOT PUBLISHED YET",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2023-10-20T10:50:05+00:00",
+        "last_at": "2023-10-20T12:02:43+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Update README.md",
+          "added Qualcoder files",
+          "Create README.md",
+          "Create LICENSE.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 547142,
+    "Python": 128948,
+    "HTML": 224
+  },
+  "total_commits": 60,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "sankalpsrv/Schematise",
+        "sankalpsrv/Draft-PrivacyPolicyAnalyser"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 676090,
+      "commit_count": 48,
+      "first_seen": "2024-01-29T14:57:35+00:00",
+      "last_seen": "2024-10-02T21:52:13+00:00",
+      "details": [
+        "Schematise: Jupyter Notebook: 547,142 bytes (85% of repo)",
+        "Schematise: Python: 95,456 bytes (15% of repo)",
+        "Draft-PrivacyPolicyAnalyser: Python: 33,492 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "sankalpsrv/sankalpsrv.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 224,
+      "commit_count": 2,
+      "first_seen": "2024-03-02T04:10:00+00:00",
+      "last_seen": "2025-01-01T15:42:07+00:00",
+      "details": [
+        "sankalpsrv.github.io: HTML: 224 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "sankalpsrv/StudyOnMusicTest"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2024-03-26T07:18:01+00:00",
+      "last_seen": "2024-03-27T12:56:36+00:00",
+      "details": [
+        "StudyOnMusicTest: 'flask' in repo name/description",
+        "StudyOnMusicTest: flask in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "sankalpsrv/Schematise"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 46,
+      "first_seen": "2024-01-29T14:57:35+00:00",
+      "last_seen": "2024-04-10T14:23:51+00:00",
+      "details": [
+        "Schematise: jupyter notebook (Notebook-of-approaches/ConceptualEncoding_Pydantic.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "sankalpsrv/Schematise"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 46,
+      "first_seen": "2024-01-29T14:57:35+00:00",
+      "last_seen": "2024-04-10T14:23:51+00:00",
+      "details": [
+        "Schematise: repo topic 'langchain'"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 60,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-17T01:20:34.432007+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3"
+  ]
+}
