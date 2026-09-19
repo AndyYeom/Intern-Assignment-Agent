@@ -1,0 +1,120 @@
+{
+  "github_login": "Kathleen-Krunitzki",
+  "applicant_id": "applicant0015",
+  "first_name": "Marisol",
+  "last_name": "Ferreira",
+  "career_stage": "new_grad",
+  "email": "marisol@capeverrone.example",
+  "phone": "(555) 010-0151",
+  "location": "Cape Verrone",
+  "linkedin": "linkedin.example.com/in/marisol-ferreira",
+  "github_url": "github.example.com/marisol-ferreira",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Verrone Institute of Technology",
+    "location": "Cape Verrone",
+    "degree": "Bachelor of Science",
+    "major": "Information Systems",
+    "minor": "Applied Statistics",
+    "graduation": "Dec 2025",
+    "gpa": null,
+    "coursework": [
+      "Web Application Development",
+      "Cloud Computing Fundamentals",
+      "Software Testing",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Moveit Next",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2021",
+      "end": "Mar 2021",
+      "bullets": [
+        "Built Moveit Next, a Next.js and TypeScript app from a web development bootcamp sprint, styled with custom CSS."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Next.js",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Saboroteca",
+      "organization": null,
+      "location": null,
+      "start": "May 2025",
+      "end": "Jul 2025",
+      "bullets": [
+        "Built Saboroteca, a TypeScript app integrating Firebase, and added unit tests with React Testing Library after early releases broke silently.",
+        "Deployed the app to GCP, learning to catch configuration drift between local and cloud environments."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Firebase",
+        "React Testing Library"
+      ]
+    },
+    {
+      "title": "Databook",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2022",
+      "end": "Jun 2022",
+      "bullets": [
+        "Built Databook, a Next.js app styled with Chakra UI and Emotion, focused on a clean reading interface."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Next.js",
+        "Chakra UI"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Mentor",
+      "organization": "Verrone Web Dev Study Circle",
+      "location": null,
+      "start": "Mar 2023",
+      "end": "Dec 2024",
+      "bullets": [
+        "Reviewed classmates' pull requests after a cohort project stalled on merge conflicts, and wrote a short branching guide.",
+        "Paired with newer members struggling with React state bugs, walking through the component tree until the cause was clear."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "React",
+      "Next.js",
+      "HTML/CSS"
+    ],
+    "DevOps": [
+      "GCP/Azure"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

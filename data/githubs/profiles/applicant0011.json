@@ -1,0 +1,912 @@
+{
+  "applicant_id": "applicant0011",
+  "login": "nikipetrakos",
+  "html_url": "https://github.com/nikipetrakos",
+  "created_at": "2020-01-31T23:49:34Z",
+  "account_age_days": 2419,
+  "public_repos": 7,
+  "followers": 5,
+  "following": 0,
+  "repos": [
+    {
+      "name": "nikipetrakos.github.io",
+      "full_name": "nikipetrakos/nikipetrakos.github.io",
+      "html_url": "https://github.com/nikipetrakos/nikipetrakos.github.io",
+      "description": "Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes",
+      "homepage": "https://academicpages.github.io",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-01-15T00:21:36Z",
+      "pushed_at": "2022-10-16T15:12:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 56689,
+      "default_branch": "master",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 130943,
+        "HTML": 73115,
+        "SCSS": 65568,
+        "Jupyter Notebook": 39560,
+        "Python": 15093,
+        "CSS": 8901,
+        "Ruby": 720
+      },
+      "primary_language": "JavaScript",
+      "file_count": 296,
+      "top_level_paths": [
+        ".Rhistory",
+        ".gitignore",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "Gemfile",
+        "LICENSE",
+        "README.md",
+        "_config.dev.yml",
+        "_config.yml",
+        "_data",
+        "_drafts",
+        "_includes",
+        "_layouts",
+        "_pages",
+        "_portfolio",
+        "_posts",
+        "_publications",
+        "_sass",
+        "_talks",
+        "_teaching",
+        "assets",
+        "files",
+        "images",
+        "markdown_generator",
+        "package.json",
+        "talkmap",
+        "talkmap.ipynb",
+        "talkmap.py"
+      ],
+      "notable_files": [
+        "Gemfile",
+        "package.json"
+      ],
+      "manifests": {
+        "Gemfile": [
+          "group"
+        ],
+        "package.json": [
+          "npm-run-all",
+          "onchange",
+          "uglify-js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3263,
+      "readme_excerpt": "A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.\n\nI think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.\n\n### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. \n\n# Instructions\n\n1. Register a GitHub account if you don't have one and confirm your e-mail (required!)\n1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the \"fork\" button in the top right. \n1. Go to the repository's settings (rightmost item in the tabs that start with \"Code\", should be below \"Unwatch\"). Rename the repository \"[your GitHub username].github.io\", which will also be your website's URL.\n1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were c",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 20,
+      "contribution_share": 0.128,
+      "commits": {
+        "count": 47,
+        "first_at": "2021-01-15T00:44:38+00:00",
+        "last_at": "2022-10-16T15:12:04+00:00",
+        "active_days": 14,
+        "span_days": 639,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.468,
+        "messages_sample": [
+          "Update _config.yml",
+          "Update _config.yml",
+          "Update cv.md",
+          "Update about.md",
+          "Update _config.yml",
+          "Update _config.yml",
+          "Update featured.md",
+          "add awards to CV",
+          "Add award to featured section",
+          "update cv",
+          "update side panel",
+          "add featured article",
+          "profile pic change",
+          "update about me",
+          "Update about me",
+          "small cv edits",
+          "small about me edit",
+          "small typo",
+          "Update projects",
+          "capstone description edit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 4,
+        "code_file_count": 188
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 130,943 bytes (39% of repo)",
+          "strength": 0.7921623240491165
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 73,115 bytes (22% of repo)",
+          "strength": 0.6189727463312369
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 65,568 bytes (20% of repo)",
+          "strength": 0.5963701707097934
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 39,560 bytes (12% of repo)",
+          "strength": 0.5184785864031147
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 15,093 bytes (5% of repo)",
+          "strength": 0.4452021563342318
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 8,901 bytes (3% of repo)",
+          "strength": 0.4266576819407008
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (markdown_generator/PubsFromBib.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "git",
+          "source": "repo_name",
+          "detail": "'github' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 333180,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "pandas"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "MissingnessSyntheticData",
+      "full_name": "nikipetrakos/MissingnessSyntheticData",
+      "html_url": "https://github.com/nikipetrakos/MissingnessSyntheticData",
+      "description": "This is the code for the simulation studies in \"Incorporating Missingness in the Generation of Realistic Synthetic Trial Data\".",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-10T14:36:08Z",
+      "pushed_at": "2026-07-10T16:12:34Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 148,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "R": 1345232
+      },
+      "primary_language": "R",
+      "file_count": 3,
+      "top_level_paths": [
+        "ACTGData_RCode_ToShare.R",
+        "README.md",
+        "optData_RCode_ToShare.R"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1011,
+      "readme_excerpt": "# MissingnessSyntheticData\nThis is the code for the simulation studies in *Incorporating Missingness in the Generation of Realistic Synthetic Trial Data*, preprint available [here](https://arxiv.org/abs/[phone]). Note that this work is an extension of previous work that investigated methods for generating realistic synthetic RCT data, for which the code can be found [here](https://github.com/nikipetrakos/SyntheticDataGeneration/tree/main).\n\nThe `ACTGData_RCode_ToShare.R` file includes the code for the simulations using the original, primary data set (ACTG 175); the `optData_RCode_ToShare.R` file includes the code for the simulations using the second, additional data set (opt, from the Obstetrics and Periodontal Study). In both cases, the files are organized as follows: loading necessary libraries, data preparation (data are publicly available), helper functions (both for data generation and metrics), and finally the simulations. \n\nAny questions can be directed to [email].\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-07-10T14:36:09+00:00",
+        "last_at": "2026-07-10T16:12:34+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Update README.md",
+          "Add code files",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "OptimalStudyDesign",
+      "full_name": "nikipetrakos/OptimalStudyDesign",
+      "html_url": "https://github.com/nikipetrakos/OptimalStudyDesign",
+      "description": "This is the code for the simulation studies in \"Simulation-based Power Analysis for Sequential Multiple Assignment Randomized Trials\".",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-14T15:36:31Z",
+      "pushed_at": "2026-07-14T16:10:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 19,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "R": 100195
+      },
+      "primary_language": "R",
+      "file_count": 2,
+      "top_level_paths": [
+        "OptimalDesign_RCode_ToShare.R",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 745,
+      "readme_excerpt": "# OptimalStudyDesign\nThis is the code for the simulation studies in *Simulation-based Power Analysis for Sequential Multiple Assignment Randomized Trials*, preprint available soon.\n\nThe `OptimalDesign_RCode_ToShare.R` file includes the code for the simulations using the real pilot Sequential Multiple Assignment Randomized Trial (SMART) data and the real external trial data. However, these data are not available and the variables should be replaced with variables from the user's use-case. The file is organized as follows: loading necessary libraries, helper functions, and finally the simulations. (Data preparation steps are not included as data are not publicly available.)\n\nAny questions can be directed to [email].\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-07-14T15:36:32+00:00",
+        "last_at": "2026-07-14T16:10:39+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Add R code",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SyntheticDataGeneration",
+      "full_name": "nikipetrakos/SyntheticDataGeneration",
+      "html_url": "https://github.com/nikipetrakos/SyntheticDataGeneration",
+      "description": "This is the code for the simulation studies in A Framework for Generating Realistic Synthetic Tabular Data in a Randomized Controlled Trial Setting",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-06T14:08:18Z",
+      "pushed_at": "2026-03-06T14:31:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 68,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 250811,
+        "R": 59476
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 3,
+      "top_level_paths": [
+        "ARF_Rvine_RCode_ToShare.R",
+        "CTGAN_PythonCode_ToShare.ipynb",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 779,
+      "readme_excerpt": "# SyntheticDataGeneration\nThis is the code for the simulation studies in *A Framework for Generating Realistic Synthetic Tabular Data in a Randomized Controlled Trial Setting*, paper available [here](https://onlinelibrary.wiley.com/doi/10.1002/sim.70227).\n\nThe `ARF_Rvine_RCode_ToShare.R` file includes the code for the ARF Sequential and R-Vine Copula Sequential frameworks; the `CTGAN_PythonCode_ToShare.ipynb` file includes the code for the CTGAN Simultaneous and CTGAN Sequential 1-5 frameworks. In both cases, the files are organized as follows: loading necessary libraries, data preparation (data are publicly available), helper functions (both for data generation and metrics), and finally the simulations. \n\nAny questions can be directed to [email].\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2026-03-06T14:08:18+00:00",
+        "last_at": "2026-03-06T14:31:39+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.778,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Upload jupyter notebook for CTGAN simulations",
+          "Upload R script with ARF, R-Vine Copula Sequential",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 250,811 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (CTGAN_PythonCode_ToShare.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 250811,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "biost524",
+      "full_name": "nikipetrakos/biost524",
+      "html_url": "https://github.com/nikipetrakos/biost524",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-03-13T02:25:29Z",
+      "pushed_at": "2022-03-13T02:30:11Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 771,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 2,
+      "top_level_paths": [
+        "BIOST524 Group 8 project.pdf",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 600,
+      "readme_excerpt": "# BIOST 524 - Design of Clinical Trials Culimating Course Project\n\nFor my clinical trials course at UW (BIOST 524), the culminating course project was to work in teams to create a study protocol for a mock randomized clinical trial. My group designed a trial studying restrictive versus liveral red blood cell transfusion strategies in pediatric acute respiratory distress syndrome. The clinicians in the group did the bulk of the clinical background, and myself along with another fellow biostatistics student did the bulk of the statistical methods work. The final report is included in this repo.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-03-13T02:25:29+00:00",
+        "last_at": "2022-03-13T02:30:11+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Upload final paper",
+          "Update README.md",
+          "Add description of biost524 project",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "R": 1504903,
+    "Jupyter Notebook": 290371,
+    "JavaScript": 130943,
+    "HTML": 73115,
+    "SCSS": 65568,
+    "Python": 15093,
+    "CSS": 8901,
+    "Ruby": 720
+  },
+  "total_commits": 67,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "nikipetrakos/nikipetrakos.github.io",
+        "nikipetrakos/SyntheticDataGeneration"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 305464,
+      "commit_count": 56,
+      "first_seen": "2021-01-15T00:44:38+00:00",
+      "last_seen": "2026-03-06T14:31:39+00:00",
+      "details": [
+        "nikipetrakos.github.io: Jupyter Notebook: 39,560 bytes (12% of repo)",
+        "nikipetrakos.github.io: Python: 15,093 bytes (5% of repo)",
+        "SyntheticDataGeneration: Jupyter Notebook: 250,811 bytes (81% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "nikipetrakos/nikipetrakos.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7921623240491165,
+      "total_bytes": 130943,
+      "commit_count": 47,
+      "first_seen": "2021-01-15T00:44:38+00:00",
+      "last_seen": "2022-10-16T15:12:04+00:00",
+      "details": [
+        "nikipetrakos.github.io: JavaScript: 130,943 bytes (39% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "nikipetrakos/nikipetrakos.github.io"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6189727463312369,
+      "total_bytes": 147584,
+      "commit_count": 47,
+      "first_seen": "2021-01-15T00:44:38+00:00",
+      "last_seen": "2022-10-16T15:12:04+00:00",
+      "details": [
+        "nikipetrakos.github.io: HTML: 73,115 bytes (22% of repo)",
+        "nikipetrakos.github.io: SCSS: 65,568 bytes (20% of repo)",
+        "nikipetrakos.github.io: CSS: 8,901 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "nikipetrakos/nikipetrakos.github.io",
+        "nikipetrakos/SyntheticDataGeneration"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 56,
+      "first_seen": "2021-01-15T00:44:38+00:00",
+      "last_seen": "2026-03-06T14:31:39+00:00",
+      "details": [
+        "nikipetrakos.github.io: jupyter notebook (markdown_generator/PubsFromBib.ipynb)",
+        "SyntheticDataGeneration: jupyter notebook (CTGAN_PythonCode_ToShare.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "git",
+      "repos": [
+        "nikipetrakos/nikipetrakos.github.io"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 47,
+      "first_seen": "2021-01-15T00:44:38+00:00",
+      "last_seen": "2022-10-16T15:12:04+00:00",
+      "details": [
+        "nikipetrakos.github.io: 'github' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 67,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3"
+  },
+  "search_stratum": "javascript-frontend",
+  "collected_at": "2026-09-16T14:14:41.660897+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3"
+  ]
+}

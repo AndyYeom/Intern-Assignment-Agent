@@ -1,0 +1,139 @@
+{
+  "github_login": "thiagopicorelli",
+  "applicant_id": "applicant0009",
+  "first_name": "Camila",
+  "last_name": "Duarte",
+  "career_stage": "student",
+  "email": "camila@baiaserena.example",
+  "phone": "(555) 010-0109",
+  "location": "Baia Serena",
+  "linkedin": "linkedin.example.com/in/camila-duarte",
+  "github_url": "github.example.com/camila-duarte",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Baia Serena Technical Institute",
+    "location": "Baia Serena",
+    "degree": "Bachelor of Science",
+    "major": "Information Technology",
+    "minor": "Communication",
+    "graduation": "Dec 2026",
+    "gpa": null,
+    "coursework": [
+      "Web Development Fundamentals",
+      "Software Testing",
+      "Team Collaboration Practices"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Project Starwars Planets Search",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2023",
+      "end": "Jan 2023",
+      "bullets": [
+        "Built a Star Wars planet search app in React with an automated end-to-end test suite using Cypress and Mocha.",
+        "Wrote missing test cases after an unhandled empty-search state caused confusing behavior during a team code review."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React",
+        "Cypress",
+        "Mocha"
+      ]
+    },
+    {
+      "title": "Project Solar System",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2023",
+      "end": "Sep 2023",
+      "bullets": [
+        "Developed a React application exploring the solar system, adding unit tests with Testing Library across 53 files."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "React"
+      ]
+    },
+    {
+      "title": "Spotnews",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Sep 2023",
+      "bullets": [
+        "Built a Django news aggregator that scraped articles with BeautifulSoup, packaged with Docker and covered by automated tests."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Django",
+        "BeautifulSoup",
+        "Dockerfile"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Sprint Coordinator",
+      "organization": "Baia Serena Coding Bootcamp Cohort",
+      "location": null,
+      "start": "Jan 2023",
+      "end": "Sep 2023",
+      "bullets": [
+        "Volunteered to track task ownership after a group project stalled when two teammates unknowingly duplicated the same feature.",
+        "Introduced a shared status board before each sprint review, making it easier to see who was blocked and why."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "SQL"
+    ],
+    "Frontend": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Django"
+    ],
+    "Data": [
+      "Web Scraping",
+      "MySQL",
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "Docker"
+    ],
+    "Quality": [
+      "Unit Testing",
+      "Integration & E2E Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

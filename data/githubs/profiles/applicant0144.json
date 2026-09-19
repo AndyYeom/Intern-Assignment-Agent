@@ -1,0 +1,1216 @@
+{
+  "applicant_id": "applicant0144",
+  "login": "withlaon",
+  "html_url": "https://github.com/withlaon",
+  "created_at": "2026-02-21T07:30:24Z",
+  "account_age_days": 207,
+  "public_repos": 4,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "jungsan",
+      "full_name": "withlaon/jungsan",
+      "html_url": "https://github.com/withlaon/jungsan",
+      "description": "jungsan program",
+      "homepage": "https://jungsan.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-03T07:34:24Z",
+      "pushed_at": "2026-09-03T07:38:47Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3062,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 658366,
+        "PLpgSQL": 27090,
+        "JavaScript": 13328,
+        "CSS": 4461,
+        "HTML": 2409
+      },
+      "primary_language": "TypeScript",
+      "file_count": 156,
+      "top_level_paths": [
+        ".cursor",
+        ".github",
+        "README.md",
+        "jungsan-app",
+        "package-lock.json",
+        "package.json",
+        "scripts",
+        "vercel-static",
+        "깃허브정산.txt",
+        "아이디비번.txt"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "jungsan-app/package.json",
+        "package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 357,
+      "readme_excerpt": "# 라이더 정산 시스템 (JUNGSAN)\n\n라이더 정산 시스템 프로젝트입니다.\n\n## 구조\n\n- `jungsan-app/` - Next.js 기반 웹 애플리케이션\n\n## GitHub 동기화\n\n- **원격 저장소**: https://github.com/withlaon/jungsan\n- **실시간 자동 푸시**: `npm run sync:watch` 실행 시 30초마다 변경사항을 자동 커밋 & 푸시\n- **수동 푸시**: `git add .` → `git commit -m \"메시지\"` → post-commit 훅으로 자동 푸시\n\n## 시작하기\n\n```bash\ncd jungsan-app\nnpm install\nnpm run dev\n```\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-03-05T01:48:37+00:00",
+        "last_at": "2026-09-03T07:38:47+00:00",
+        "active_days": 36,
+        "span_days": 182,
+        "max_per_day": 19,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: enrichedDetails recalculates final_amount and tax_base for correct Excel export",
+          "feat: promo recalculate button in result page, fix cron GET handler, fix recalc to include linked promos",
+          "fix: promo-realtime fallback to description when is_call_promo is null",
+          "fix: result page promo split realtime calc using shared util",
+          "fix: dashboard promo realtime calc",
+          "feat: add is_call_promo flag to promotions, split promo display in dashboard",
+          "feat: split promotion into call/general in settlement views and exports",
+          "fix: copy display_name when adding riders to promotion group",
+          "feat: add display_name to promotions and show promo items in rider settlement",
+          "feat: remove signup and withdraw - windcall only system",
+          "feat: remove Coupang Eats support - baemin only",
+          "fix: parse-excel route.ts 한국어 문자열 완전 복원 (갑지/을지 시트 감지 오류 수정)",
+          "fix: parse-excel route.ts UTF-8 re-encoding (was CP949)",
+          "feat: remove notice/manual/inquiry tabs, fix save timeout, add 4-week settlement cleanup",
+          "feat: 선지급금 등록 timeout 수정 및 공제완료 3일 후 자동 삭제",
+          "feat: 구독 시스템 완전 제거 및 무제한 이용 전환",
+          "feat: 구독 자동결제 기능 완전 제거",
+          "feat: 사이트 폐쇄 처리 - 랜딩 리다이렉트, 폐쇄 문구, site-admin 차단, windcall 전용 로그인",
+          "feat: 회원가입 경고 문구 추가 + 비활성 회원 자동 탈퇴 크론 구현",
+          "fix: email-by-username API 3단계 fallback 강화 (anon/RPC 포함) + profiles RLS 마이그레이션"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 127
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 10,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 658,366 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 27,090 bytes (4% of repo)",
+          "strength": 0.43838991913884146
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 13,328 bytes (2% of repo)",
+          "strength": 0.41888744342128015
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,461 bytes (1% of repo)",
+          "strength": 0.4063217951007151
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,409 bytes (0% of repo)",
+          "strength": 0.4034138543818926
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (jungsan-app/.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (jungsan-app/next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (jungsan-app/supabase/migrations/20250302000000_admin_site.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (jungsan-app/supabase/migrations/20250302000000_admin_site.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 705654,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "linux",
+          "nextjs",
+          "sql",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "product",
+      "full_name": "withlaon/product",
+      "html_url": "https://github.com/withlaon/product",
+      "description": null,
+      "homepage": "https://product-beta-swart.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-13T10:32:53Z",
+      "pushed_at": "2026-09-17T01:14:18Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1644,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 1448616,
+        "PLpgSQL": 47850,
+        "CSS": 15233,
+        "JavaScript": 559
+      },
+      "primary_language": "TypeScript",
+      "file_count": 101,
+      "top_level_paths": [
+        ".cursor",
+        ".git_commit_msg.txt",
+        ".gitignore",
+        "README.md",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "src",
+        "supabase",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-tooltip",
+          "@supabase/ssr",
+          "@supabase/supabase-js",
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "bcryptjs",
+          "class-variance-authority",
+          "clsx",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "exceljs",
+          "lucide-react",
+          "next",
+          "pg",
+          "react",
+          "react-dom",
+          "recharts",
+          "tailwind-merge",
+          "tailwindcss",
+          "typescript",
+          "undici",
+          "xlsx"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1450,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-03-25T05:05:57+00:00",
+        "last_at": "2026-09-17T01:13:56+00:00",
+        "active_days": 62,
+        "span_days": 175,
+        "max_per_day": 20,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: 상품관리탭 매핑 시 상품ID 없이 쇼핑몰 상품명만 입력해도 저장되도록 수정",
+          "feat: 옵션코드 CF 한글명 커피 매핑 추가",
+          "feat: 송장전송파일탭에 선택 항목 삭제 기능 추가",
+          "fix: 주문관리 매핑하기 후 바코드가 비어있는 채로 남는 문제 수정",
+          "fix: 송장전송파일 탭에 방금 저장한 송장이 안 보이는 문제 재발 방지 (근본 원인 해결)",
+          "fix: 피킹리스트 LOCA·상품약어 미표시 및 정렬 오류 수정",
+          "fix: 출고내역 바코드 미표시 - 매핑 저장 시 다른 상품 매핑이 통째로 삭제되던 치명적 버그 수정",
+          "fix: 송장전송파일 탭 출고일 필터가 UTC 기준으로 계산되어 자정~오전9시 등록건이 누락되던 문제 수정",
+          "상품관리: 상품등록/수정창 상품명 옆 글자수/byte 카운터 표시",
+          "CS관리: 반품등록 시 송장번호 기준 출고내역 판매가 0원 처리 및 대시보드 반영",
+          "상품등록: 판매상태 기본값을 판매예정으로 변경",
+          "반응형 UI 개선: 모니터 폭이 좁아져도 화면 좌우 스크롤 방지",
+          "fix(purchase): 발주추천 판매수량을 발주확정일 당일 제외하고 다음날부터 재집계",
+          "fix(inventory): 불량등록 바코드 입력 시 상품코드·옵션명 자동채움 실패 문제 수정",
+          "fix(picking-list): 피킹리스트 색상/사이즈 매핑 바코드 기준으로 전체 상품 매칭 + 하단 설명 삭제",
+          "fix(purchase): 발주 품목 삭제/수정/입고 시 상품 미매칭으로 발주수량 미차감되는 문제 수정",
+          "fix(purchase): 발주 수정 시 개별 품목 삭제해도 상품관리 발주수량이 정확히 차감되도록 수정",
+          "fix(purchase): 발주추천 목록에 품절(soldout) 상품도 포함 (삭제예정만 제외)",
+          "fix(cs): CS관리 바코드 자동입력 실시간화 + 재고 반영 정확도 개선",
+          "fix: 역대최고 매출월 선을 실선으로 변경하고 3년 제한 없이 전체기간 기준으로 계산"
+        ],
+        "attribution": "sole_author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 85
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 14,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,448,616 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 47,850 bytes (3% of repo)",
+          "strength": 0.431641426264566
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 15,233 bytes (1% of repo)",
+          "strength": 0.4100730166413403
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (supabase/schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "pg in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1512258,
+        "strong_skills": [
+          "data-viz",
+          "nextjs",
+          "postgresql",
+          "react",
+          "sql",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "DETAILPAGE",
+      "full_name": "withlaon/DETAILPAGE",
+      "html_url": "https://github.com/withlaon/DETAILPAGE",
+      "description": null,
+      "homepage": "https://detailpage-pink.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-23T00:34:15Z",
+      "pushed_at": "2026-08-18T07:30:21Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 661,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 198926,
+        "HTML": 32926,
+        "PLpgSQL": 1901
+      },
+      "primary_language": "JavaScript",
+      "file_count": 17,
+      "top_level_paths": [
+        ".cursor",
+        "README.md",
+        "assets",
+        "editor.html",
+        "index.html",
+        "js",
+        "setup.sql"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2274,
+      "readme_excerpt": "# DetailCraft — 쇼핑몰 상세페이지 제작 웹앱\n\nHTML + Tailwind CSS + JavaScript로 제작된 쇼핑몰 상품 상세페이지 제작 도구입니다.\n\n## 주요 기능\n\n- **템플릿 기반 에디터**: 이미지, 텍스트, 여백 섹션으로 구성된 상세페이지 제작\n- **드래그 & 드롭 섹션 정렬**: 섹션 순서를 자유롭게 변경\n- **Supabase 저장/불러오기**: 작업 결과를 클라우드에 저장, 편집, 삭제\n- **JPEG 다운로드**: 완성된 상세페이지를 고품질 JPEG로 다운로드\n- **AI 템플릿 생성**: 카테고리·스타일 선택으로 자동 템플릿 생성\n- **상품 카테고리**: 가방, 모자, 의류, 양산 (추가 가능)\n\n## 기술 스택\n\n| 항목 | 기술 |\n|------|------|\n| UI | HTML5, Tailwind CSS (CDN) |\n| 로직 | Vanilla JavaScript (ES6+) |\n| DB/Storage | Supabase (PostgreSQL + Storage) |\n| 이미지 캡처 | html2canvas |\n| 정렬 | SortableJS |\n| 폰트 | Noto Sans KR (Google Fonts) |\n\n## 시작하기\n\n### 1. Supabase 프로젝트 설정\n\n1. [Supabase 대시보드](https://supabase.com/dashboard/project/avhjwqlajlcahxpdyzsw)에 접속\n2. **SQL Editor**에서 `setup.sql` 파일 내용을 붙여넣고 실행\n3. **Storage** → **New bucket** 생성:\n   - 이름: `detail-images`\n   - Public bucket: **체크**\n   - File size limit: `10MB`\n4. **Settings → API** → `anon public` 키 복사\n\n### 2. 앱 실행\n\n```bash\n# 로컬 서버 실행 (Python)\npython -m http.server 8080\n\n# 또는 VS Code Live Server 사용\n```\n\n브라우저에서 `http://localhost:8080` 접속\n\n### 3. API 키 설정\n\n1. 우측 상단 ⚙️ 설정 버튼 클릭\n2. **Supabase Anon Key** 입력\n3. 저장\n\n## 파일 구조\n\n```\nDETAILPAGE/\n├── index.html          # 대시보드 (페이지 ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 37,
+        "first_at": "2026-04-23T01:01:09+00:00",
+        "last_at": "2026-08-18T07:30:28+00:00",
+        "active_days": 10,
+        "span_days": 117,
+        "max_per_day": 23,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Fix save timeout: compress base64 images before saving, add timeout to save query; update longsleeve sizeinfo",
+          "Update women-shortsleeve sizeinfo image and add shoulder column",
+          "Add women-dress category with dress sizeinfo diagram and 8 measurement columns",
+          "Update women-skirt sizeinfo: skirt diagram image and correct size columns",
+          "Add visual separator between fabric props and material field",
+          "Add material field to clothing sizeinfo variant for all women categories",
+          "Update women-shorts sizeinfo image to shorts diagram",
+          "Apply clothing sizeinfo variant to women-pants categories with pants diagram",
+          "Size Information title purple, larger fabric props text, darker note color",
+          "Multi-select season, fix sizeinfo images for longsleeve/shortsleeve",
+          "Add women clothing categories, clothing sizeinfo variant with fabric props",
+          "Fix statement timeout: exclude sections from dashboard query, improve retry UX",
+          "Optimize index.html load: remove html2canvas, move Supabase to body, slim fonts, add preconnect, inline skeleton",
+          "Dashboard: show latest 5 pages, add retry logic and timeout for Supabase",
+          "Update parasol hero brandText to Withlaon Daily Parasol",
+          "ColorOption: option name font-size 14->16px, color to black",
+          "Add parasol sizeinfo variant, center footer, fix diagram image",
+          "Fix JPEG extra margin: use offsetWidth and clip canvas to exact size",
+          "Remove image-change buttons, exact preview-match JPEG download",
+          "UX: remove section labels, larger option names, fix download margins"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 198,926 bytes (85% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 32,926 bytes (14% of repo)",
+          "strength": 0.5408580852438258
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 1,901 bytes (1% of repo)",
+          "strength": 0.40813251594631944
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (setup.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 233753,
+        "strong_skills": [
+          "javascript",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "MONEY",
+      "full_name": "withlaon/MONEY",
+      "html_url": "https://github.com/withlaon/MONEY",
+      "description": null,
+      "homepage": "https://money-app-mauve-five.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-30T06:18:23Z",
+      "pushed_at": "2026-08-20T01:00:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 336,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 222132,
+        "CSS": 6543,
+        "JavaScript": 559
+      },
+      "primary_language": "TypeScript",
+      "file_count": 42,
+      "top_level_paths": [
+        ".env.example",
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "src",
+        "supabase",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@supabase/supabase-js",
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "class-variance-authority",
+          "clsx",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "lucide-react",
+          "next",
+          "react",
+          "react-dom",
+          "recharts",
+          "tailwind-merge",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 964,
+      "readme_excerpt": "# 💰 MONEY - 스마트 금전출납부\n\n개인사업자를 위한 스마트 금전출납부 웹 애플리케이션\n\n## 주요 기능\n\n- **수입 관리**: 쇼핑몰별 판매대금 및 기타 수입 입력/관리\n- **지출 관리**: 사무실/개인 지출 구분, 고정비/변동비 분류\n- **대시보드**: 월별 수입·지출·잔액 요약\n- **분석/비교**: 최대 12개월 추이 차트, 월별 비교표\n- **예측 & 코칭**: 다음달 수입/지출 예측 + 맞춤 재무 코칭\n\n## 기술 스택\n\n- **Frontend**: Next.js 16 (App Router), TypeScript, Tailwind CSS\n- **Backend/DB**: Supabase (PostgreSQL)\n- **Charts**: Recharts\n- **Deployment**: Vercel\n\n## 로컬 개발\n\n```bash\n# 의존성 설치\nnpm install\n\n# 환경변수 설정\ncp .env.example .env.local\n# .env.local 파일에 Supabase 키 입력\n\n# 개발 서버 실행\nnpm run dev\n```\n\n## Supabase 설정\n\n1. [Supabase 대시보드](https://supabase.com/dashboard/project/isjnmoithzgefvrbhzpy)에 접속\n2. SQL 에디터에서 `supabase/schema.sql` 실행\n3. 프로젝트 설정 > API에서 `anon key` 복사\n4. `.env.local`에 키 입력\n\n## 환경변수\n\n```env\nNEXT_PUBLIC_SUPABASE_URL=https://isjnmoithzgefvrbhzpy.supabase.co\nNEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here\n```\n\n## Vercel 배포\n\n1. GitHub에 푸시\n2. [Vercel](https://vercel.com)에서 GitHub 저장소 연결\n3. 환경변수 설정 후 배포\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 42,
+        "first_at": "2026-06-30T06:37:42+00:00",
+        "last_at": "2026-08-20T01:00:34+00:00",
+        "active_days": 7,
+        "span_days": 50,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: monthly bar chart on dashboard, expense forecast table on analysis",
+          "fix: print full report by removing overflow hidden on body/main",
+          "fix: print layout - income/expense side by side, full content output",
+          "feat: report tab with detail/comparison/prediction and print support",
+          "feat: show current and next billing period in card summary panel",
+          "fix: card billing period uses date range check instead of month diff",
+          "fix: installment_months schema fallback handling",
+          "feat: installment (할부) selection in expense forms, card summary reflects monthly amount",
+          "refactor: card panel placed beside expense form (3-col layout)",
+          "feat: card payment summary panel with billing period calculation",
+          "feat: show today's saved list below each register form",
+          "feat: clickable pie boxes show category breakdown (expType, fixed/variable)",
+          "fix: category detail shows sum by description, not individual rows",
+          "feat: merge 매입원가+물류비, add clickable category detail in dashboard",
+          "feat: add register tab, calendar transactions, Malgun Gothic font",
+          "fix: dashboard layout - 3col, no radius, font fix, income detail",
+          "fix: 설정탭 한글 IME 버그 수정 (컴포넌트 내부 정의 제거 + isComposing 체크)",
+          "fix: 드래그 창 닫힘 버그 수정 + 설정탭 수정/삭제 기능 추가",
+          "feat: 거래 수정 기능, 수입 카테고리(판매대금/기타), 내역 콤보박스 + 쇼핑몰 프리셋",
+          "fix: 결제수단 선택을 지출 추가 창에서만 표시"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 27
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 10,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 222,132 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 6,543 bytes (3% of repo)",
+          "strength": 0.4285428863083138
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (supabase/schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 229234,
+        "strong_skills": [
+          "data-viz",
+          "linux",
+          "nextjs",
+          "react",
+          "sql",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 2329114,
+    "JavaScript": 213372,
+    "PLpgSQL": 76841,
+    "HTML": 35335,
+    "CSS": 26237
+  },
+  "total_commits": 479,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "withlaon/jungsan",
+        "withlaon/product",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2329114,
+      "commit_count": 442,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "jungsan: TypeScript: 658,366 bytes (93% of repo)",
+        "product: TypeScript: 1,448,616 bytes (96% of repo)",
+        "product: typescript in package.json",
+        "MONEY: TypeScript: 222,132 bytes (97% of repo)",
+        "MONEY: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "withlaon/jungsan",
+        "withlaon/DETAILPAGE"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 212254,
+      "commit_count": 237,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-03T07:38:47+00:00",
+      "details": [
+        "jungsan: JavaScript: 13,328 bytes (2% of repo)",
+        "DETAILPAGE: JavaScript: 198,926 bytes (85% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "withlaon/jungsan",
+        "withlaon/product",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 442,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "jungsan: next config (jungsan-app/next.config.ts)",
+        "product: next config (next.config.ts)",
+        "product: next in package.json",
+        "MONEY: next config (next.config.ts)",
+        "MONEY: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "withlaon/jungsan",
+        "withlaon/product",
+        "withlaon/DETAILPAGE"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 76841,
+      "commit_count": 437,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "jungsan: PLpgSQL: 27,090 bytes (4% of repo)",
+        "product: PLpgSQL: 47,850 bytes (3% of repo)",
+        "product: pg in package.json",
+        "DETAILPAGE: PLpgSQL: 1,901 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "withlaon/product",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 242,
+      "first_seen": "2026-03-25T05:05:57+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "product: @types/react in package.json",
+        "MONEY: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "withlaon/product",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 242,
+      "first_seen": "2026-03-25T05:05:57+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "product: recharts in package.json",
+        "MONEY: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "withlaon/product",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 242,
+      "first_seen": "2026-03-25T05:05:57+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "product: tailwindcss in package.json",
+        "MONEY: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "withlaon/jungsan",
+        "withlaon/product",
+        "withlaon/DETAILPAGE",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 479,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "jungsan: SQL file (jungsan-app/supabase/migrations/20250302000000_admin_site.sql)",
+        "product: SQL file (supabase/schema.sql)",
+        "DETAILPAGE: SQL file (setup.sql)",
+        "MONEY: SQL file (supabase/schema.sql)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "withlaon/jungsan",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 242,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-03T07:38:47+00:00",
+      "details": [
+        "jungsan: env config (jungsan-app/.env.example)",
+        "MONEY: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "withlaon/jungsan"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-03T07:38:47+00:00",
+      "details": [
+        "jungsan: GitHub Actions workflow (.github/workflows/deploy.yml)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "withlaon/jungsan"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-03T07:38:47+00:00",
+      "details": [
+        "jungsan: database migrations (jungsan-app/supabase/migrations/20250302000000_admin_site.sql)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "withlaon/jungsan",
+        "withlaon/product",
+        "withlaon/DETAILPAGE",
+        "withlaon/MONEY"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5408580852438258,
+      "total_bytes": 61572,
+      "commit_count": 479,
+      "first_seen": "2026-03-05T01:48:37+00:00",
+      "last_seen": "2026-09-17T01:13:56+00:00",
+      "details": [
+        "jungsan: CSS: 4,461 bytes (1% of repo)",
+        "jungsan: HTML: 2,409 bytes (0% of repo)",
+        "product: CSS: 15,233 bytes (1% of repo)",
+        "DETAILPAGE: HTML: 32,926 bytes (14% of repo)",
+        "MONEY: CSS: 6,543 bytes (3% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 479,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:21:16.161429+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

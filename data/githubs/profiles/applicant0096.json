@@ -1,0 +1,838 @@
+{
+  "applicant_id": "applicant0096",
+  "login": "kotetsu123",
+  "html_url": "https://github.com/kotetsu123",
+  "created_at": "2022-10-26T04:57:10Z",
+  "account_age_days": 1421,
+  "public_repos": 12,
+  "followers": 0,
+  "following": 2,
+  "repos": [
+    {
+      "name": "TrunBasedDemo",
+      "full_name": "kotetsu123/TrunBasedDemo",
+      "html_url": "https://github.com/kotetsu123/TrunBasedDemo",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-06T10:59:46Z",
+      "pushed_at": "2026-09-17T01:09:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2178972,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 489811,
+        "ShaderLab": 80492,
+        "HLSL": 13994
+      },
+      "primary_language": "C#",
+      "file_count": 1833,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".vsconfig",
+        "Assets",
+        "Packages",
+        "ProjectSettings",
+        "README.md",
+        "docs"
+      ],
+      "notable_files": [
+        "Assets/Resources/OccaSoftware/Low Poly Fantasy Village/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 7295,
+      "readme_excerpt": "﻿# Adventure of Paul Demo\n\nA Unity turn-based RPG prototype focused on data-driven field encounters, runtime party/inventory state, battle rewards, and save/load flow.\n\n## 中文说明\n\n这是一个 Unity 回合制 RPG 系统 demo。当前目标不是完成一款完整游戏，而是把 RPG 中常见的核心系统串成一个可以运行、可以扩展、也适合作品集展示的玩法闭环。\n\n当前 demo 的主要流程是：\n\n- 在 3D Field 场景中探索。\n- 通过场景中的敌人或 SpawnPoint 进入遭遇战。\n- 切换到回合制 Battle 场景。\n- 战斗胜利后结算 EXP、等级、掉落道具和敌人清除状态。\n- 回到 Field 场景，并保留队伍、背包、敌人清除和存档数据。\n\n### 核心系统\n\n#### Field / Encounter\n\nField 中的敌人生成点可以通过 `encounterId` 连接到战斗数据。\n\n```text\nFieldData / EnemySpawnPoint\n -> encounterId\n -> EncounterDataBase\n -> EncounterData\n -> BattleSpawner\n -> Battle enemies\n```\n\nSpawnPoint 支持两种清除策略：\n\n- `Permanent`：战胜后永久清除，适合 boss 或一次性敌人。\n- `Timed`：战胜后经过 `respawnSeconds` 可以重新刷新，适合普通小怪。\n\nField 场景中也支持 live respawn，也就是玩家不切换场景时，小怪也可以在时间到达后重新生成。\n\n#### FieldData\n\n在当前 3D demo 中，`FieldData` 更像是场景玩法配置表，而不是完整地图生成器。\n\nUnity Scene 负责：\n\n- 地形\n- 建筑\n- 灯光\n- 摄像机\n- 碰撞体\n- 大型静态场景物件\n\n`FieldData` 负责：\n\n- 敌人生成点\n- 遭遇战 id\n- 刷新规则\n- 可生成的玩法物件入口\n\n这样可以让 3D 场景的美术和空间设计继续由 Unity Scene 控制，同时让敌人、遭遇战和刷新规则保持数据驱动。\n\n#### Battle\n\nBattle 场景负责回合制战斗流程，包括角色生成、回合推进、技能/道具使用、伤害和治疗 floating text、战斗结果和奖励结算。\n\n战斗胜利后会处理：\n\n- 队伍 EXP 增加\n- 升级结果\n- 掉落道具\n- 敌人 SpawnPoint 清除\n- PartyRuntimeState 回写\n\n#### ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-03-17T16:18:43+00:00",
+        "last_at": "2026-09-17T01:09:28+00:00",
+        "active_days": 160,
+        "span_days": 183,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: add VN dialogue panel runtime interface",
+          "feat: configure field chest reward data",
+          "feat: connect chest rewards to field data",
+          "feat: add chest reward data assets",
+          "docs: add bilingual summaries to technical overview",
+          "feat: connect boss ending to demo clear flow",
+          "feat: add demo end panel flow",
+          "feat: add VN dialogue panel layout to boss field",
+          "chore: add debug logs for field auto dialogue events",
+          "feat: persist field auto event state",
+          "feat: configure boss ending placeholder dialogue",
+          "feat: support stationary boss field encounters",
+          "feat: add boss clear auto dialogue event",
+          "chore: configure boss field scene transitions",
+          "feat: add field scene transition spawn points",
+          "feat: add boss field data setup",
+          "chore: add boss field scene blockout",
+          "docs: add boss field scene setup guide",
+          "feat: add field item use failure feedback",
+          "fix: prevent field camera rotation while paused"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 121
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 489,811 bytes (84% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/BOSS_FIELD_SCENE_SETUP.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 489811,
+        "strong_skills": [
+          "csharp",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "2D_Roguelike",
+      "full_name": "kotetsu123/2D_Roguelike",
+      "html_url": "https://github.com/kotetsu123/2D_Roguelike",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-04T05:58:11Z",
+      "pushed_at": "2026-04-18T09:05:54Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6011,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 12853
+      },
+      "primary_language": "C#",
+      "file_count": 102,
+      "top_level_paths": [
+        "2D_RogueLike"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2026-04-04T05:58:11+00:00",
+        "last_at": "2026-04-18T09:05:52+00:00",
+        "active_days": 3,
+        "span_days": 14,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "update some of logic",
+          "feat: Add some takedamageEffect",
+          "feat: Add monsters",
+          "feat: creat some player Animation ande maked playaer movement logic",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 12,853 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12853,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "wuxingzhanji",
+      "full_name": "kotetsu123/wuxingzhanji",
+      "html_url": "https://github.com/kotetsu123/wuxingzhanji",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-02-27T16:33:25Z",
+      "pushed_at": "2024-06-20T02:08:27Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 224560,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 863285,
+        "ShaderLab": 87368,
+        "HLSL": 13994
+      },
+      "primary_language": "C#",
+      "file_count": 9471,
+      "top_level_paths": [
+        ".gitignore",
+        ".vsconfig",
+        "Assets",
+        "Packages",
+        "ProjectSettings",
+        "app.config",
+        "packages.config"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 30,
+        "first_at": "2024-02-27T16:40:46+00:00",
+        "last_at": "2024-06-20T02:07:50+00:00",
+        "active_days": 30,
+        "span_days": 113,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "garbage_Test",
+          "24/05/08",
+          "24/05/05",
+          "24/05/04",
+          "24/05/03",
+          "24/05/01",
+          "24/04/30",
+          "24/04/29",
+          "24/04/26",
+          "24/04/22",
+          "24/04/19",
+          "24/04/17",
+          "24/04/13",
+          "24/04/11",
+          "24/04/08",
+          "24/04/07",
+          "24/04/05",
+          "24/04/01",
+          "24/03/28",
+          "24/03/27"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 197
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 863,285 bytes (89% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 863285,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "adventure",
+      "full_name": "kotetsu123/adventure",
+      "html_url": "https://github.com/kotetsu123/adventure",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-26T15:14:29Z",
+      "pushed_at": "2024-02-18T16:58:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 16276,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "ShaderLab": 80492,
+        "C#": 15566,
+        "HLSL": 13994
+      },
+      "primary_language": "ShaderLab",
+      "file_count": 431,
+      "top_level_paths": [
+        ".gitignore",
+        ".vsconfig",
+        "Assets",
+        "Packages",
+        "ProjectSettings"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 20,
+        "first_at": "2023-08-26T15:20:35+00:00",
+        "last_at": "2024-02-18T16:58:13+00:00",
+        "active_days": 18,
+        "span_days": 176,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "24/02/19",
+          "24/02/18",
+          "24/02/17",
+          "24/02/16",
+          "24/02/07",
+          "10/29 23:00",
+          "10/13 11:10",
+          "10/04 23:40",
+          "09/27 20:30",
+          "09/25 23:00",
+          "09/18 22:55",
+          "09/17 20:20",
+          "23/09/04 22:",
+          "23/09/03",
+          "23/08/29",
+          "23/08/28",
+          "23/08/28",
+          "23/8/27",
+          "23/8/27",
+          "23/8/26"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 15,566 bytes (14% of repo)",
+          "strength": 0.5414422273107259
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "strong_skill_signal"
+        ],
+        "code_bytes": 15566,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ClassProject",
+      "full_name": "kotetsu123/ClassProject",
+      "html_url": "https://github.com/kotetsu123/ClassProject",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-29T05:46:56Z",
+      "pushed_at": "2023-09-19T08:42:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 54889,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 21694
+      },
+      "primary_language": "C#",
+      "file_count": 258,
+      "top_level_paths": [
+        ".gitignore",
+        ".vsconfig",
+        "Assets",
+        "Packages",
+        "ProjectSettings"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2023-08-29T08:44:30+00:00",
+        "last_at": "2023-09-19T08:42:31+00:00",
+        "active_days": 9,
+        "span_days": 20,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "09/19 16:40",
+          "23/09/12 21:20",
+          "23/09/10 23:00",
+          "23/09/05 23:00",
+          "23/09/05 20:53",
+          "23/09/02/21:50",
+          "23/09/01/27:28",
+          "23/09/1",
+          "23/31/16:40",
+          "23/08/30",
+          "23/08/29"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 21,694 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 21694,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 1403209,
+    "ShaderLab": 248352,
+    "HLSL": 41982
+  },
+  "total_commits": 266,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "kotetsu123/TrunBasedDemo",
+        "kotetsu123/2D_Roguelike",
+        "kotetsu123/wuxingzhanji",
+        "kotetsu123/adventure",
+        "kotetsu123/ClassProject"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1403209,
+      "commit_count": 266,
+      "first_seen": "2023-08-26T15:20:35+00:00",
+      "last_seen": "2026-09-17T01:09:28+00:00",
+      "details": [
+        "TrunBasedDemo: C#: 489,811 bytes (84% of repo)",
+        "2D_Roguelike: C#: 12,853 bytes (100% of repo)",
+        "wuxingzhanji: C#: 863,285 bytes (89% of repo)",
+        "adventure: C#: 15,566 bytes (14% of repo)",
+        "ClassProject: C#: 21,694 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "kotetsu123/TrunBasedDemo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-03-17T16:18:43+00:00",
+      "last_seen": "2026-09-17T01:09:28+00:00",
+      "details": [
+        "TrunBasedDemo: docs directory (docs/BOSS_FIELD_SCENE_SETUP.md)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 266,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 2 < 3"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:36:05.129069+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 2 < 3"
+  ]
+}

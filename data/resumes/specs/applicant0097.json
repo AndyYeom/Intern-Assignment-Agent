@@ -1,0 +1,115 @@
+{
+  "github_login": "briezar",
+  "applicant_id": "applicant0097",
+  "first_name": "Derek",
+  "last_name": "Voss",
+  "career_stage": "student",
+  "email": "derek.voss@millhavenmail.example",
+  "phone": "(555) 010-0197",
+  "location": "Millhaven",
+  "linkedin": "linkedin.example.com/in/derek-voss",
+  "github_url": "github.example.com/derek-voss",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Millhaven Institute of Technology",
+    "location": "Millhaven",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Software Testing",
+      "Game Programming",
+      "Systems Programming"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Game Dev Kit",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Apr 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a reusable C# toolkit of common game systems, maintained across 596 files and 78 commits.",
+        "Set up continuous integration checks after a broken build shipped to a teammate undetected for days."
+      ],
+      "link": null,
+      "tech": [
+        "C#"
+      ]
+    },
+    {
+      "title": "Zoo Tycoon",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "May 2026",
+      "end": "May 2026",
+      "bullets": [
+        "Built an isometric zoo-building game in C# with custom ShaderLab and HLSL shaders across 4,082 files.",
+        "Reproduced an animal-pathing bug that only appeared after specific save-and-reload sequences, then documented the steps."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "ShaderLab",
+        "HLSL"
+      ]
+    },
+    {
+      "title": "Magic Tiles",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Jun 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Built a rhythm game in C# and HLSL where tapped tiles must sync with the beat.",
+        "Tracked down timing bugs caused by frame-rate drift between different devices during testing."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "ShaderLab",
+        "CSS",
+        "HLSL"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Bug Bash Organizer",
+      "organization": "Millhaven Student Devs",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Organized peer bug-hunting sessions for classmates' game projects, using a shared checklist for reporting steps.",
+        "Noticed vague bug reports wasted testing time and required environment, sequence, and expected behavior for each report."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C#",
+      "TypeScript"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

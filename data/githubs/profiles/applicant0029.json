@@ -1,0 +1,1088 @@
+{
+  "applicant_id": "applicant0029",
+  "login": "Shaick",
+  "html_url": "https://github.com/Shaick",
+  "created_at": "2020-01-31T23:29:30Z",
+  "account_age_days": 2419,
+  "public_repos": 25,
+  "followers": 9,
+  "following": 11,
+  "repos": [
+    {
+      "name": "game-secret-number-js",
+      "full_name": "Shaick/game-secret-number-js",
+      "html_url": "https://github.com/Shaick/game-secret-number-js",
+      "description": "Jogo do numero secreto com responsive voice",
+      "homepage": "https://gamejs-xi.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-01-23T19:39:18Z",
+      "pushed_at": "2024-01-23T19:42:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1960,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 3501,
+        "JavaScript": 2785,
+        "CSS": 2491
+      },
+      "primary_language": "HTML",
+      "file_count": 10,
+      "top_level_paths": [
+        "app.js",
+        "img",
+        "index.html",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2024-01-23T19:42:48+00:00",
+        "last_at": "2024-01-23T19:42:48+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,501 bytes (40% of repo)",
+          "strength": 0.7988834453685769
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,785 bytes (32% of repo)",
+          "strength": 0.7173065967870571
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,491 bytes (28% of repo)",
+          "strength": 0.6838099578443659
+        },
+        {
+          "skill_id": "javascript",
+          "source": "repo_name",
+          "detail": "'js' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8777,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "pontofinoestofados",
+      "full_name": "Shaick/pontofinoestofados",
+      "html_url": "https://github.com/Shaick/pontofinoestofados",
+      "description": "Node Express EJS Mongo - Ponto Fino Estofados",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-04-05T14:07:33Z",
+      "pushed_at": "2025-04-15T04:52:11Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7216,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "EJS": 12467,
+        "JavaScript": 10321,
+        "CSS": 612
+      },
+      "primary_language": "EJS",
+      "file_count": 36,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "app.js",
+        "npm.txt",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "server"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "bootstrap-icons",
+          "connect-flash",
+          "cookie-parser",
+          "dotenv",
+          "ejs",
+          "express",
+          "express-ejs-layouts",
+          "express-fileupload",
+          "express-session",
+          "mongodb",
+          "mongoose",
+          "nodemon"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 67,
+      "readme_excerpt": "# pontofinoestofados\nNode Express EJS Mongo - Ponto Fino Estofados\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-04-05T14:07:33+00:00",
+        "last_at": "2025-04-15T04:52:10+00:00",
+        "active_days": 4,
+        "span_days": 9,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Add files via upload",
+          "submit-sofa",
+          "submit",
+          "add uploads folder",
+          "inauguração",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 10,321 bytes (44% of repo)",
+          "strength": 0.8410683760683761
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "repo_name",
+          "detail": "'express' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "repo_name",
+          "detail": "'mongo' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongodb in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10933,
+        "strong_skills": [
+          "javascript",
+          "mongodb",
+          "nodejs"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LojaVirtual_DotNetCore22",
+      "full_name": "Shaick/LojaVirtual_DotNetCore22",
+      "html_url": "https://github.com/Shaick/LojaVirtual_DotNetCore22",
+      "description": "Loja Virtual com dotnet core 2.2 + bootstrap",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-26T16:01:30Z",
+      "pushed_at": "2022-11-07T03:48:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 24163,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 487862,
+        "SCSS": 258127,
+        "JavaScript": 183241,
+        "C#": 46971,
+        "CSS": 23561
+      },
+      "primary_language": "HTML",
+      "file_count": 565,
+      "top_level_paths": [
+        ".gitignore",
+        "LojaVirtual",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 72,
+      "readme_excerpt": "# LojaVirtual_DotNetCore22\nLoja Virtual com dotnet core 2.2 + bootstrap\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-09-26T16:01:30+00:00",
+        "last_at": "2022-11-07T03:47:10+00:00",
+        "active_days": 3,
+        "span_days": 41,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "FILTRO CATEGORIA",
+          "bancoini",
+          "begin",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 243
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 487,862 bytes (49% of repo)",
+          "strength": 0.8879781387970337
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 258,127 bytes (26% of repo)",
+          "strength": 0.6581884488508265
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 183,241 bytes (18% of repo)",
+          "strength": 0.5832846217399741
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 46,971 bytes (5% of repo)",
+          "strength": 0.44698218175925875
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 23,561 bytes (2% of repo)",
+          "strength": 0.42356660885290703
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (LojaVirtual/LojaVirtual/wwwroot/resources/lib/charts/charts.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "csharp",
+          "source": "repo_name",
+          "detail": "'dotnet' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 999762,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "kubernetes"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "portifolio_min",
+      "full_name": "Shaick/portifolio_min",
+      "html_url": "https://github.com/Shaick/portifolio_min",
+      "description": "Portifólio Curso Oracle One + Alura",
+      "homepage": "https://portifolio-min.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-02-01T12:18:47Z",
+      "pushed_at": "2024-02-01T12:23:33Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 196,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 4175,
+        "CSS": 2496
+      },
+      "primary_language": "HTML",
+      "file_count": 10,
+      "top_level_paths": [
+        "README.md",
+        "about.html",
+        "assets",
+        "index.html",
+        "styles"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 335,
+      "readme_excerpt": "\n# portifolio_min\nPortifólio Curso Oracle One + Alura\n\n![image](https://user-images.githubusercontent.com/77756047/[phone]fedf0-f91b-490f-8a65-a60ce860bc5c.png)\n\n## Ferramentas utilizadas:\n\n* HTML\n\n* CSS\n\n* Flex-box\n\n## Feito por:\n\n### Wilson Cardoso (Shaick)\n\n### Linkedin: https://www.linkedin.com/in/wilson-cardoso-87389a32/\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2024-02-01T12:18:47+00:00",
+        "last_at": "2024-02-01T12:23:33+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.4,
+        "messages_sample": [
+          "Update README.md",
+          "inicio",
+          "Delete Portifolio-HTML-e-CSS-Curso3-aula_5 directory",
+          "Ok",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,175 bytes (63% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,496 bytes (37% of repo)",
+          "strength": 0.7741567980812472
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6671,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "desafioLiterAlura",
+      "full_name": "Shaick/desafioLiterAlura",
+      "html_url": "https://github.com/Shaick/desafioLiterAlura",
+      "description": "Spring Boot Challenge LiterAlura - Catálogo de Livros que oferece interação textual (via console) com os usuários, proporcionando no mínimo 5 opções de interação. Os livros serão buscados através de uma API específica.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-07-02T03:13:43Z",
+      "pushed_at": "2024-07-16T19:31:58Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 31,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Java": 22051
+      },
+      "primary_language": "Java",
+      "file_count": 19,
+      "top_level_paths": [
+        ".gitignore",
+        ".mvn",
+        "LICENSE",
+        "README.md",
+        "mvnw",
+        "mvnw.cmd",
+        "pom.xml",
+        "src"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "desafioliteralura",
+          "jackson-databind",
+          "postgresql",
+          "spring-boot-maven-plugin",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-parent",
+          "spring-boot-starter-test"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3241,
+      "readme_excerpt": "\n<h1>Challenge LiterAlura Spring Boot</h1>\n\n\n# desafioLiterAlura Challenge LiterAlura Spring Boot\n<h2>Sobre</h2>\n<p>Spring Boot Challenge LiterAlura - Catálogo de Livros que oferece interação textual (via console) com os usuários, proporcionando no mínimo 5 opções de interação. Os livros serão buscados através de uma API específica.</p>\n<p>Esta aplicação permite buscar livros, listar livros registrados, listar autores, e muitas outras funcionalidades relacionadas à leitura e organização de livros.</p>\n\n## Tecnologias\n<ul>\n<li>Java 17v\n<li>Spring Boot 2.7</li>\n<li>Hibernate</li>\n<li>PostgreSQL</li>\n<li>Gutendex API</li>\n<li>Maven</li>\n</ul>\n\n![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)\n![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)\n![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)\n![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)\n![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-b",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2024-07-02T03:13:43+00:00",
+        "last_at": "2024-07-16T19:31:58+00:00",
+        "active_days": 2,
+        "span_days": 14,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.091,
+        "messages_sample": [
+          "Update badge README.md",
+          "Update links README.md",
+          "Update2 README.md",
+          "UL in README.md",
+          "correcao",
+          "Atualizando README.md",
+          "finish",
+          "Merge branch 'main' of https://github.com/Shaick/desafioLiterAlura",
+          "ok2",
+          "projeto inicial",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 22,051 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/cloud/shaick/desafioLiterAlura/DesafioLiterAluraApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "spring",
+          "source": "repo_name",
+          "detail": "'spring' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "postgresql in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-maven-plugin in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 22051,
+        "strong_skills": [
+          "java",
+          "postgresql",
+          "spring",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "HTML": 495538,
+    "SCSS": 258127,
+    "JavaScript": 196347,
+    "C#": 46971,
+    "CSS": 29160,
+    "Java": 22051,
+    "EJS": 12467
+  },
+  "total_commits": 27,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Shaick/game-secret-number-js",
+        "Shaick/LojaVirtual_DotNetCore22",
+        "Shaick/portifolio_min"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 782213,
+      "commit_count": 10,
+      "first_seen": "2022-09-26T16:01:30+00:00",
+      "last_seen": "2024-02-01T12:23:33+00:00",
+      "details": [
+        "game-secret-number-js: HTML: 3,501 bytes (40% of repo)",
+        "game-secret-number-js: CSS: 2,491 bytes (28% of repo)",
+        "LojaVirtual_DotNetCore22: HTML: 487,862 bytes (49% of repo)",
+        "LojaVirtual_DotNetCore22: SCSS: 258,127 bytes (26% of repo)",
+        "LojaVirtual_DotNetCore22: CSS: 23,561 bytes (2% of repo)",
+        "portifolio_min: HTML: 4,175 bytes (63% of repo)",
+        "portifolio_min: CSS: 2,496 bytes (37% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "Shaick/desafioLiterAlura"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 22051,
+      "commit_count": 11,
+      "first_seen": "2024-07-02T03:13:43+00:00",
+      "last_seen": "2024-07-16T19:31:58+00:00",
+      "details": [
+        "desafioLiterAlura: Java: 22,051 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "Shaick/pontofinoestofados"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2025-04-05T14:07:33+00:00",
+      "last_seen": "2025-04-15T04:52:10+00:00",
+      "details": [
+        "pontofinoestofados: 'express' in repo name/description",
+        "pontofinoestofados: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "Shaick/pontofinoestofados"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2025-04-05T14:07:33+00:00",
+      "last_seen": "2025-04-15T04:52:10+00:00",
+      "details": [
+        "pontofinoestofados: 'mongo' in repo name/description",
+        "pontofinoestofados: mongodb in package.json"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "Shaick/desafioLiterAlura"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2024-07-02T03:13:43+00:00",
+      "last_seen": "2024-07-16T19:31:58+00:00",
+      "details": [
+        "desafioLiterAlura: 'spring' in repo name/description",
+        "desafioLiterAlura: spring-boot-maven-plugin in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "Shaick/desafioLiterAlura"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2024-07-02T03:13:43+00:00",
+      "last_seen": "2024-07-16T19:31:58+00:00",
+      "details": [
+        "desafioLiterAlura: postgresql in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Shaick/game-secret-number-js",
+        "Shaick/pontofinoestofados",
+        "Shaick/LojaVirtual_DotNetCore22"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 0.8410683760683761,
+      "total_bytes": 196347,
+      "commit_count": 11,
+      "first_seen": "2022-09-26T16:01:30+00:00",
+      "last_seen": "2025-04-15T04:52:10+00:00",
+      "details": [
+        "game-secret-number-js: JavaScript: 2,785 bytes (32% of repo)",
+        "game-secret-number-js: 'js' in repo name/description",
+        "pontofinoestofados: JavaScript: 10,321 bytes (44% of repo)",
+        "LojaVirtual_DotNetCore22: JavaScript: 183,241 bytes (18% of repo)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "Shaick/LojaVirtual_DotNetCore22"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2022-09-26T16:01:30+00:00",
+      "last_seen": "2022-11-07T03:47:10+00:00",
+      "details": [
+        "LojaVirtual_DotNetCore22: kubernetes manifests (LojaVirtual/LojaVirtual/wwwroot/resources/lib/charts/charts.js)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Shaick/desafioLiterAlura"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2024-07-02T03:13:43+00:00",
+      "last_seen": "2024-07-16T19:31:58+00:00",
+      "details": [
+        "desafioLiterAlura: test directory (src/test/java/cloud/shaick/desafioLiterAlura/DesafioLiterAluraApplicationTests.java)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "Shaick/LojaVirtual_DotNetCore22"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 0.44698218175925875,
+      "total_bytes": 46971,
+      "commit_count": 4,
+      "first_seen": "2022-09-26T16:01:30+00:00",
+      "last_seen": "2022-11-07T03:47:10+00:00",
+      "details": [
+        "LojaVirtual_DotNetCore22: C#: 46,971 bytes (5% of repo)",
+        "LojaVirtual_DotNetCore22: 'dotnet' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 27,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-16T14:13:53.971973+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

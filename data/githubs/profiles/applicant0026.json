@@ -1,0 +1,890 @@
+{
+  "applicant_id": "applicant0026",
+  "login": "kenjpirkle",
+  "html_url": "https://github.com/kenjpirkle",
+  "created_at": "2020-01-31T22:09:03Z",
+  "account_age_days": 2419,
+  "public_repos": 9,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "project-tobu",
+      "full_name": "kenjpirkle/project-tobu",
+      "html_url": "https://github.com/kenjpirkle/project-tobu",
+      "description": "Voxel-based procedurally generated world",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-07-07T21:02:36Z",
+      "pushed_at": "2021-01-09T16:43:13Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5351,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Zig": 91707,
+        "GLSL": 10612
+      },
+      "primary_language": "Zig",
+      "file_count": 116,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "TODO",
+        "build.zig",
+        "deps",
+        "fonts",
+        "shaders",
+        "src"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 56,
+      "readme_excerpt": "# project-tobu\nVoxel-based procedurally generated world\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 42,
+        "first_at": "2020-07-07T21:02:36+00:00",
+        "last_at": "2021-01-09T16:43:13+00:00",
+        "active_days": 6,
+        "span_days": 185,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.048,
+        "messages_sample": [
+          "Update README.md",
+          "Add inital local meshing and drawing logic",
+          "Modify height_scale constant",
+          "Modify buffer sizes for local chunk allocation",
+          "Add draw commands and vertices for local chunks",
+          "Fix mesh generation bugs and implement mesh generation for local chunks",
+          "Modify DefaultShader to utilize new terrain structures",
+          "Add initial implementation of terrain and lod mesh generation with perlin noise",
+          "Add temporary tests in main.zig",
+          "Refactor game.zig to utilize terrain code",
+          "Simplify fragment shader and implement terrain shader logic",
+          "Add game_constants file for world and lod sizes",
+          "Add falloff map generation to perlin_noise, and embed maps",
+          "Add Vec2 type",
+          "Change order of c imports",
+          "Rename world_generator to world",
+          "Add TODO file to project",
+          "Add temporary embedded files to .gitignore",
+          "Add initial terrain generation and camera movement",
+          "Add vertex and fragment shaders for use with DefaultShader"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 62
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 2,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "neuro-zig",
+      "full_name": "kenjpirkle/neuro-zig",
+      "html_url": "https://github.com/kenjpirkle/neuro-zig",
+      "description": "The official repository for Neuro, the most advanced learning and memorization application based on spaced-repetition and incremental reading. Built with Zig.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-06-17T15:57:31Z",
+      "pushed_at": "2020-09-01T15:26:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3520,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Zig": 157571,
+        "GLSL": 3883
+      },
+      "primary_language": "Zig",
+      "file_count": 120,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "TODO.txt",
+        "build.zig",
+        "deps",
+        "fonts",
+        "shaders",
+        "src"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 171,
+      "readme_excerpt": "# neuro-zig\nThe official repository for Neuro, the most advanced learning and memorization application based on spaced-repetition and incremental reading. Built with Zig.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 170,
+        "first_at": "2020-06-17T15:57:32+00:00",
+        "last_at": "2020-09-01T15:26:08+00:00",
+        "active_days": 20,
+        "span_days": 75,
+        "max_per_day": 18,
+        "low_effort_message_ratio": 0.006,
+        "messages_sample": [
+          "Add checks for maximized window to discriminate between Border and TitleBar buttons",
+          "Add glfw callback for window maximize",
+          "Fix TitleBar cursor position bug",
+          "Add Border widget indices",
+          "Add Border widget function calls to widget static dispatch",
+          "Add Border widgets to window.zig",
+          "Update glfw3 for diagonal resize cursors",
+          "Refactor Window",
+          "Add Widget function calls for Window",
+          "Refactor widget_colours.zig",
+          "Remove unnecessary *Widget function argument",
+          "Add window shadow meshes",
+          "Add window transparency",
+          "Add additional utils function",
+          "Remove unnecessary *Widget parameter from functions and casts",
+          "Rename Background type to Window",
+          "Replace QuadShader with DefaultShader to add arbitrary mesh sizes",
+          "Refactor Background to utilize mesh types and widget_components",
+          "Refactor title bar buttons to utilize mesh types and widget_components",
+          "Refactor SearchBar to utilize mesh types and widget_components"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 64
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 5,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "FlashMemX",
+      "full_name": "kenjpirkle/FlashMemX",
+      "html_url": "https://github.com/kenjpirkle/FlashMemX",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-01-09T17:35:05Z",
+      "pushed_at": "2021-01-09T17:39:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 32114,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 327711
+      },
+      "primary_language": "C#",
+      "file_count": 618,
+      "top_level_paths": [
+        ".vs",
+        "FlashMemX.Models",
+        "FlashMemX.Testing",
+        "FlashMemX.UI",
+        "FlashMemX.sln",
+        "packages"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-01-09T17:38:53+00:00",
+        "last_at": "2021-01-09T17:38:53+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Add initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 257
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 327,711 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 327711,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "qilang",
+      "full_name": "kenjpirkle/qilang",
+      "html_url": "https://github.com/kenjpirkle/qilang",
+      "description": "The official repository for the QI programming language",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-02-02T16:31:40Z",
+      "pushed_at": "2020-03-04T22:23:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 110,
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C++": 76194,
+        "Python": 31439,
+        "Makefile": 1771
+      },
+      "primary_language": "C++",
+      "file_count": 29,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "includes",
+        "makefile",
+        "src",
+        "tests"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 65,
+      "readme_excerpt": "# qilang\nThe official repository for the QI programming language\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 121,
+        "first_at": "2020-02-02T16:31:41+00:00",
+        "last_at": "2020-03-04T22:23:19+00:00",
+        "active_days": 15,
+        "span_days": 31,
+        "max_per_day": 21,
+        "low_effort_message_ratio": 0.041,
+        "messages_sample": [
+          "Add state_generator.py to project",
+          "Add source backup folder to .gitignore",
+          "Add main.cpp for initial tests",
+          "Add small changes to parser watch_for_modules logic",
+          "Add test.qi to .gitignore",
+          "Make changes to mutex behaviour in compile_context",
+          "Move unnecessary main.cpp to tests",
+          "Add changes to parser watch_for_modules method",
+          "Add notes to .gitignore",
+          "Add notes to .gitignore",
+          "Fix public inline bugs",
+          "Make unlock inline",
+          "Replace try_lock with lock in compile_context",
+          "Remove unnecessary parser_state enum",
+          "Add tables for keyword and builtin_type lookups",
+          "Add keyword enum to project",
+          "Add builtin_type enum to project",
+          "Fix parser bug in compile_context",
+          "Add work on compile_context",
+          "Add work on parser"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 24
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 3,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 76,194 bytes (70% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 31,439 bytes (29% of repo)",
+          "strength": 0.6873660926474352
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 1,771 bytes (2% of repo)",
+          "strength": 0.4161877079448649
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 109404,
+        "strong_skills": [
+          "c-cpp",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "UserSearch",
+      "full_name": "kenjpirkle/UserSearch",
+      "html_url": "https://github.com/kenjpirkle/UserSearch",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-30T17:15:51Z",
+      "pushed_at": "2023-02-01T16:26:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 16,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 13331,
+        "Dockerfile": 623
+      },
+      "primary_language": "C#",
+      "file_count": 38,
+      "top_level_paths": [
+        ".dockerignore",
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "UserSearch.sln",
+        "src",
+        "tests"
+      ],
+      "notable_files": [
+        "src/UserSearch.WebApi/Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 312,
+      "readme_excerpt": "# UserSearch\n\n## Project Setup\nFrom the root directory, use the following command to start the Asp.NET Web Api project:\n```sh\ndotnet build\ndotnet run --project src/UserSearch.WebApi/UserSearch.WebApi.csproj\n```\n\n### Run Tests\nFrom the root directory, use the following command to run tests:\n```sh\ndotnet test\n```",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2023-01-30T17:15:52+00:00",
+        "last_at": "2023-02-01T16:26:38+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.111,
+        "messages_sample": [
+          "Add tests",
+          "Add Repository implementation",
+          "Add EF Core in-memory db and create UserContext",
+          "Add CommandHandler",
+          "Add Application layer interfaces and Mapper",
+          "Add WebApi project",
+          "Add domain entity",
+          "Add initial project files",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 14
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 13,331 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (src/UserSearch.WebApi/Dockerfile)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 13954,
+        "strong_skills": [
+          "csharp",
+          "docker"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 341042,
+    "Zig": 249278,
+    "C++": 76194,
+    "Python": 31439,
+    "GLSL": 14495,
+    "Makefile": 1771,
+    "Dockerfile": 623
+  },
+  "total_commits": 343,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "kenjpirkle/FlashMemX",
+        "kenjpirkle/UserSearch"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 341042,
+      "commit_count": 10,
+      "first_seen": "2021-01-09T17:38:53+00:00",
+      "last_seen": "2023-02-01T16:26:38+00:00",
+      "details": [
+        "FlashMemX: C#: 327,711 bytes (100% of repo)",
+        "UserSearch: C#: 13,331 bytes (96% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "kenjpirkle/qilang"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 76194,
+      "commit_count": 121,
+      "first_seen": "2020-02-02T16:31:41+00:00",
+      "last_seen": "2020-03-04T22:23:19+00:00",
+      "details": [
+        "qilang: C++: 76,194 bytes (70% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "kenjpirkle/qilang"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6873660926474352,
+      "total_bytes": 31439,
+      "commit_count": 121,
+      "first_seen": "2020-02-02T16:31:41+00:00",
+      "last_seen": "2020-03-04T22:23:19+00:00",
+      "details": [
+        "qilang: Python: 31,439 bytes (29% of repo)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "kenjpirkle/UserSearch"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2023-01-30T17:15:52+00:00",
+      "last_seen": "2023-02-01T16:26:38+00:00",
+      "details": [
+        "UserSearch: Dockerfile (src/UserSearch.WebApi/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "kenjpirkle/qilang"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4161877079448649,
+      "total_bytes": 1771,
+      "commit_count": 121,
+      "first_seen": "2020-02-02T16:31:41+00:00",
+      "last_seen": "2020-03-04T22:23:19+00:00",
+      "details": [
+        "qilang: Makefile: 1,771 bytes (2% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 343,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:14:29.296681+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

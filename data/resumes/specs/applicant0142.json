@@ -1,0 +1,112 @@
+{
+  "github_login": "LucasJaider",
+  "applicant_id": "applicant0142",
+  "first_name": "Tomas",
+  "last_name": "Reyburn",
+  "career_stage": "student",
+  "email": "tomas@oakmere.example",
+  "phone": "(555) 010-1421",
+  "location": "Oakmere",
+  "linkedin": "linkedin.example.com/in/tomas-reyburn",
+  "github_url": "github.example.com/tomas-reyburn",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Oakmere University",
+    "location": "Oakmere",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Organizational Behavior",
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Software Engineering Practices",
+      "Mobile Development",
+      "Team Dynamics"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Mastodoncli",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2023",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a Go command-line and terminal-UI client for a social network, with OAuth login, timeline browsing, and an automated test suite."
+      ],
+      "link": null,
+      "tech": [
+        "Go"
+      ]
+    },
+    {
+      "title": "Projeto Mobile",
+      "organization": null,
+      "location": null,
+      "start": "Oct 2023",
+      "end": "Feb 2026",
+      "bullets": [
+        "Contributed to a cross-platform mobile app spanning TypeScript, Java, and Objective-C, covering parts of it with automated tests.",
+        "Untangled handoff confusion after native and web pieces drifted out of sync, tracking which language owned which feature."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Java",
+        "Objective-C"
+      ]
+    },
+    {
+      "title": "Projetoulbra",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built a Java class project across dozens of files with a classmate, splitting work along module boundaries."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Coordinator",
+      "organization": "Oakmere CS Study Cohort",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "After the mobile team repeatedly lost track of who owned which platform, began running short weekly check-ins to clarify ownership.",
+        "Found that enabling teammates to unblock each other felt more satisfying than finishing a feature alone, and started seeking more coordination roles."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Go",
+      "Java",
+      "TypeScript"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android",
+      "React Native"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

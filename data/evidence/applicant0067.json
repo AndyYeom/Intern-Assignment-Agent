@@ -1,0 +1,258 @@
+{
+  "applicant_id": "applicant0067",
+  "github_login": "YourSchoolDebts",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0067.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/YourSchoolDebts/Pages_sem3"
+      ],
+      "repos": [
+        {
+          "repo": "YourSchoolDebts/Pages_sem3",
+          "html_url": "https://github.com/YourSchoolDebts/Pages_sem3",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_ci, has_tests, documented",
+            "GitHub Actions workflow (.github/workflows/browserstack.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/YourSchoolDebts/Films_sem4",
+        "https://github.com/YourSchoolDebts/Pages_sem3",
+        "https://github.com/YourSchoolDebts/SoftwareDetective",
+        "https://github.com/YourSchoolDebts/shop"
+      ],
+      "repos": [
+        {
+          "repo": "YourSchoolDebts/Films_sem4",
+          "html_url": "https://github.com/YourSchoolDebts/Films_sem4",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "CSS: 1,324 bytes (14% of repo)",
+            "HTML: 1,268 bytes (13% of repo)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/Pages_sem3",
+          "html_url": "https://github.com/YourSchoolDebts/Pages_sem3",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_ci, has_tests, documented",
+            "CSS: 973,236 bytes (32% of repo)",
+            "HTML: 837,733 bytes (27% of repo)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/SoftwareDetective",
+          "html_url": "https://github.com/YourSchoolDebts/SoftwareDetective",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: none",
+            "HTML: 13,010 bytes (60% of repo)",
+            "CSS: 8,673 bytes (40% of repo)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/shop",
+          "html_url": "https://github.com/YourSchoolDebts/shop",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "CSS: 4,990 bytes (24% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/YourSchoolDebts/Films_sem4",
+        "https://github.com/YourSchoolDebts/Pages_sem3",
+        "https://github.com/YourSchoolDebts/recepies",
+        "https://github.com/YourSchoolDebts/shop"
+      ],
+      "repos": [
+        {
+          "repo": "YourSchoolDebts/Films_sem4",
+          "html_url": "https://github.com/YourSchoolDebts/Films_sem4",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "JavaScript: 7,114 bytes (73% of repo)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/Pages_sem3",
+          "html_url": "https://github.com/YourSchoolDebts/Pages_sem3",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_ci, has_tests, documented",
+            "JavaScript: 880,372 bytes (29% of repo)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/recepies",
+          "html_url": "https://github.com/YourSchoolDebts/recepies",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "JavaScript: 14,472 bytes (86% of repo)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/shop",
+          "html_url": "https://github.com/YourSchoolDebts/shop",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "JavaScript: 13,876 bytes (68% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/YourSchoolDebts/Films_sem4",
+        "https://github.com/YourSchoolDebts/recepies",
+        "https://github.com/YourSchoolDebts/shop"
+      ],
+      "repos": [
+        {
+          "repo": "YourSchoolDebts/Films_sem4",
+          "html_url": "https://github.com/YourSchoolDebts/Films_sem4",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/recepies",
+          "html_url": "https://github.com/YourSchoolDebts/recepies",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/shop",
+          "html_url": "https://github.com/YourSchoolDebts/shop",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@testing-library/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/YourSchoolDebts/Pages_sem3"
+      ],
+      "repos": [
+        {
+          "repo": "YourSchoolDebts/Pages_sem3",
+          "html_url": "https://github.com/YourSchoolDebts/Pages_sem3",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_ci, has_tests, documented",
+            "docs directory (site/content/docs/5.3/about/brand.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/YourSchoolDebts/Films_sem4",
+        "https://github.com/YourSchoolDebts/Pages_sem3",
+        "https://github.com/YourSchoolDebts/recepies",
+        "https://github.com/YourSchoolDebts/shop"
+      ],
+      "repos": [
+        {
+          "repo": "YourSchoolDebts/Films_sem4",
+          "html_url": "https://github.com/YourSchoolDebts/Films_sem4",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test file (src/App.test.js)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/Pages_sem3",
+          "html_url": "https://github.com/YourSchoolDebts/Pages_sem3",
+          "level": 1,
+          "reasons": [
+            "entry: 2 commits, independent-work signals: has_ci, has_tests, documented",
+            "test directory (js/tests/browsers.js)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/recepies",
+          "html_url": "https://github.com/YourSchoolDebts/recepies",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test file (src/App.test.js)"
+          ]
+        },
+        {
+          "repo": "YourSchoolDebts/shop",
+          "html_url": "https://github.com/YourSchoolDebts/shop",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test file (src/App.test.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 4
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "applicant_id": "applicant0040",
+  "login": "omarbashaiwth",
+  "html_url": "https://github.com/omarbashaiwth",
+  "created_at": "2020-01-31T18:34:52Z",
+  "account_age_days": 2419,
+  "public_repos": 11,
+  "followers": 1,
+  "following": 4,
+  "repos": [
+    {
+      "name": "MyAssistantApp",
+      "full_name": "omarbashaiwth/MyAssistantApp",
+      "html_url": "https://github.com/omarbashaiwth/MyAssistantApp",
+      "description": "This app made to help college students to manage their timetables, deadlines, and tests date.",
+      "homepage": "https://play.google.com/store/apps/details?id=com.omarahmed.myassistant",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-10-04T11:48:44Z",
+      "pushed_at": "2022-09-02T16:25:25Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5532,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 132825
+      },
+      "primary_language": "Kotlin",
+      "file_count": 213,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "app",
+        "build.gradle",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle"
+      ],
+      "notable_files": [
+        "app/build.gradle",
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "androidx.navigation",
+          "com.android.tools.build",
+          "com.google.gms",
+          "google-services",
+          "gradle",
+          "kotlin-gradle-plugin",
+          "navigation-safe-args-gradle-plugin",
+          "org.jetbrains.kotlin"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1569,
+      "readme_excerpt": "# About this app:\nThis is my first app I made and published in Google Play (https://play.google.com/store/apps/details?id=com.omarahmed.myassistant). \n\nThe following are the functions of this app:\n1) Users can save all their lecture timetables.\n2) Users can save all their assignments information and the app reminds them before the deadline.\n3) Users can save all their test information and the app will remind them before the day of the test.\n4) Users will get a schedule of the upcoming public holidays based on their country.\n\n# Screenshots:\n\nHome Screen               |  Timetable Screen              | Assignments Screen   \n:-------------------------:|:-------------------------:|:-------------------------:\n<img src=\"https://play-lh.googleusercontent.com/p-OyvKRG40gXPVdawoD1FmAHh6nYf0U21_AdS4rS-FlRoyBozWkFci-ipyf_zR0dvA=w2560-h1440-rw\" width=\"200\" height=\"400\" /> | <img src=\"https://play-lh.googleusercontent.com/xdPGMqIHHHOVoDzsXBQvx_7hey5igDX5PUSJpXXVolDhx5xr3b98qb6V8LhhTho48-3y=w2560-h1440-rw\" width=\"200\" height=\"400\" /> | <img src=\"https://play-lh.googleusercontent.com/yKsTkmgGmul4uZ9JRQmtNYeFDHPJ9MlsQNAgLgJTwwmPhHlWbV7_Qcg7ukD9RrIg6A=w2560-h1440-rw\" width=\"200\" height=\"400\" />\nAdd",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2022-09-02T16:15:53+00:00",
+        "last_at": "2022-09-02T16:25:25+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Create README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "this is my first",
+          "following a"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 71
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 132,825 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 132825,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "MyFinanceApp",
+      "full_name": "omarbashaiwth/MyFinanceApp",
+      "html_url": "https://github.com/omarbashaiwth/MyFinanceApp",
+      "description": "This is my first flutter app. It is a personal expenses tracker app where the user can monitor and manage his expenses and income.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-05-06T09:06:41Z",
+      "pushed_at": "2024-07-21T07:09:25Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3798,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 240260,
+        "Swift": 404,
+        "Kotlin": 136,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 187,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "ios",
+        "lib",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1237,
+      "readme_excerpt": "# About the app\n\nThis is my first flutter app. It is a personal expenses tracker app where the user can monitor and manage his expenses and income. \nI used Firebase as a backend and database storage.\n\n#  Tools used\n\n1. Email/Password and Google auth using FirebaseAuth.\n2. MVC Architecture.\n3. Dark Theme Support.\n4. Push Notification Support using Firebase Cloud Messaging (FCM).\n\n\n# Screenshots\n\nLogin Screen               |  Transactions Screen              | Wallets Screen           | Add Transactions Screen            | Charts Screen\n:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:\n![image](https://github.com/omarbashaiwth/myfinance_app/assets/60521259/1063d06a-85cc-429b-b9ac-6ffbd38ee85f)|![image](https://github.com/omarbashaiwth/myfinance_app/assets/60521259/8a8c5f2d-2bb6-411a-8324-777edf4cbde0)|![image](https://github.com/omarbashaiwth/myfinance_app/assets/60521259/4598bf49-fde9-4873-b151-831ef14f3cc7)|![image](https://github.com/omarbashaiwth/myfinance_app/assets/60521259/819c9a3f-6a7a-4b57-b485-870d74675e5b)|![image](https://github.com/omarbashaiwth/myfinance_app/assets/60521259/02505e0",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 87,
+        "first_at": "2023-05-06T09:06:48+00:00",
+        "last_at": "2024-07-21T07:09:15+00:00",
+        "active_days": 48,
+        "span_days": 441,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.023,
+        "messages_sample": [
+          "Upgrade the targetSdkVersion to 34, Added the Libya Currency",
+          "Update the version number",
+          "Fix the issue of google signing by updating the SHA key in Firebase",
+          "Implemented signing app for release it in GooglePlay",
+          "Implemented the tutorial part when lunch the app for the first time",
+          "Fixed the issue of navigation in the auth screen after user getting authorized",
+          "Edit the color of making transfer balance",
+          "Implemented the logic of editing the income transactions",
+          "Implemented the logic of editing the income transactions",
+          "Implemented the logic of adding new expenses categories",
+          "Changed the colors in the AddTransaction based on the type of the transaction added",
+          "Implemented some cleans in the EditTransactionScreen",
+          "Implemented the logic of editing transaction (without editing the wallet)",
+          "Implemented the option of delete transactions related to wallet when delete it.",
+          "Recorded a transaction when creating a new wallet.",
+          "Recorded a transaction when creating a new wallet.",
+          "Merge remote-tracking branch 'origin/master'",
+          "Changed the layout of walletsScreen & added the ability to display all the transactions related to each wallet.",
+          "Update README.md",
+          "Added the support of firebase cloud messaging."
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "this is my first"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 79
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 240,260 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "repo_name",
+          "detail": "'flutter' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 240838,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "MufeedApp",
+      "full_name": "omarbashaiwth/MufeedApp",
+      "html_url": "https://github.com/omarbashaiwth/MufeedApp",
+      "description": "A blog app in which I share topics about useful apps or websites with users (under development)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-14T16:30:34Z",
+      "pushed_at": "2023-03-04T02:45:45Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 697,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 4969
+      },
+      "primary_language": "Kotlin",
+      "file_count": 43,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "app",
+        "build.gradle",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle"
+      ],
+      "notable_files": [
+        "app/build.gradle",
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.google.dagger",
+          "hilt-android-gradle-plugin"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2022-09-14T16:30:44+00:00",
+        "last_at": "2022-09-14T16:30:44+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 7
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 4,969 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4969,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "GetNews",
+      "full_name": "omarbashaiwth/GetNews",
+      "html_url": "https://github.com/omarbashaiwth/GetNews",
+      "description": "GetNews app is a news app that fetches news from newsapi.org",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-02-28T17:38:07Z",
+      "pushed_at": "2021-03-23T03:59:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 505,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 68059
+      },
+      "primary_language": "Kotlin",
+      "file_count": 111,
+      "top_level_paths": [
+        "app"
+      ],
+      "notable_files": [
+        "app/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 20,
+        "first_at": "2021-02-28T17:25:12+00:00",
+        "last_at": "2021-03-23T03:59:50+00:00",
+        "active_days": 10,
+        "span_days": 22,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.05,
+        "messages_sample": [
+          "use searchView extension function and do some modifications",
+          "showing a message when there is no forYou news",
+          "enable user to bookmark news from DetailsFragment.kt",
+          "hide mini fabs in DetailsFragment.kt when they been clicked",
+          "edit DiffCallbacks.kt",
+          "add getCountry() to get country name automatically for (for you) news",
+          "add ClickListeners.kt to hold all click listeners",
+          "edit explore header",
+          "repackage",
+          "edit viewModels",
+          "remove splash screen",
+          "put some padding to increase the accuracy of click listener",
+          "solve the problem of crashing when click back button before webView finishing loading.",
+          "dark mode",
+          "splash screen",
+          "edit bnv items color",
+          "add search feature and other some modifications",
+          "third commit",
+          "second commit",
+          "first commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 42
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 68,059 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 68059,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "GetNews2",
+      "full_name": "omarbashaiwth/GetNews2",
+      "html_url": "https://github.com/omarbashaiwth/GetNews2",
+      "description": "A new version of GetNews app with the latest features of kotlin",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-04-23T03:47:35Z",
+      "pushed_at": "2022-09-02T17:57:49Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 443,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 53298
+      },
+      "primary_language": "Kotlin",
+      "file_count": 117,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "app",
+        "build.gradle",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "screenshot_1.jpeg",
+        "screenshot_2.jpeg",
+        "screenshot_3.jpeg",
+        "settings.gradle"
+      ],
+      "notable_files": [
+        "app/build.gradle",
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.google.dagger",
+          "hilt-android-gradle-plugin"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 957,
+      "readme_excerpt": "# About this app:\nThis is a news app that retrieves news from https://newsapi.org/v2/. I made this app mainly to practice RESTful Api using the new Jetpack libraries such as Coroutines and Flow.\nThe following are the technologies and libraries that I applied in building this app:\n1) Retrofit to retrieve data from the API server.\n2) Hilt dagger for dependency injection.\n3) Room for caching favorite news.\n4) Datastore.\n5) Flow and Coroutines.\n\n# Screenshots:\n\nHome Screen               |  Explore Screen              | Bookmarks Screen           \n:-------------------------:|:-------------------------:|:-------------------------:\n<img src=\"https://github.com/om2013ab/GetNews2/blob/master/screenshot_1.jpeg\" width=\"200\" height=\"400\" /> | <img src=\"https://github.com/om2013ab/GetNews2/blob/master/screenshot_2.jpeg\" width=\"200\" height=\"400\" /> | <img src=\"https://github.com/om2013ab/GetNews2/blob/master/screenshot_3.jpeg\" width=\"200\" height=\"400\" />\n\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2022-09-02T15:17:06+00:00",
+        "last_at": "2022-09-02T17:57:49+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.714,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Create README.md",
+          "Fix the issue of gradle in github version",
+          "Fix the issue of gradle in github version"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following a"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 34
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 53,298 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "repo_name",
+          "detail": "'kotlin' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 53298,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Kotlin": 259287,
+    "Dart": 240260,
+    "Swift": 404,
+    "Objective-C": 38
+  },
+  "total_commits": 120,
+  "skill_evidence": [
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "omarbashaiwth/MyAssistantApp",
+        "omarbashaiwth/MyFinanceApp",
+        "omarbashaiwth/MufeedApp",
+        "omarbashaiwth/GetNews",
+        "omarbashaiwth/GetNews2"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 259151,
+      "commit_count": 120,
+      "first_seen": "2021-02-28T17:25:12+00:00",
+      "last_seen": "2024-07-21T07:09:15+00:00",
+      "details": [
+        "MyAssistantApp: Kotlin: 132,825 bytes (100% of repo)",
+        "MyAssistantApp: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "MyFinanceApp: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "MufeedApp: Kotlin: 4,969 bytes (100% of repo)",
+        "MufeedApp: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "GetNews: Kotlin: 68,059 bytes (100% of repo)",
+        "GetNews: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "GetNews2: Kotlin: 53,298 bytes (100% of repo)",
+        "GetNews2: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "GetNews2: 'kotlin' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "omarbashaiwth/MyFinanceApp"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 240260,
+      "commit_count": 87,
+      "first_seen": "2023-05-06T09:06:48+00:00",
+      "last_seen": "2024-07-21T07:09:15+00:00",
+      "details": [
+        "MyFinanceApp: Dart: 240,260 bytes (100% of repo)",
+        "MyFinanceApp: flutter project (pubspec.yaml)",
+        "MyFinanceApp: 'flutter' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 120,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 2 < 3"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-16T14:14:45.064227+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 2 < 3"
+  ]
+}

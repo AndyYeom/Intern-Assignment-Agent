@@ -1,0 +1,1323 @@
+{
+  "applicant_id": "applicant0003",
+  "login": "calumrussell",
+  "html_url": "https://github.com/calumrussell",
+  "created_at": "2020-01-31T23:19:39Z",
+  "account_age_days": 2419,
+  "public_repos": 33,
+  "followers": 16,
+  "following": 1,
+  "repos": [
+    {
+      "name": "rotala",
+      "full_name": "calumrussell/rotala",
+      "html_url": "https://github.com/calumrussell/rotala",
+      "description": "Backtesting engine written in Rust",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-08-28T15:32:43Z",
+      "pushed_at": "2025-03-10T07:19:36Z",
+      "stargazers": 76,
+      "forks": 12,
+      "open_issues": 9,
+      "size_kb": 1009,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "backtest",
+        "backtesting",
+        "rust",
+        "trading",
+        "trading-strategies"
+      ],
+      "languages": {
+        "Rust": 232383,
+        "Python": 19339,
+        "Dockerfile": 61
+      },
+      "primary_language": "Rust",
+      "file_count": 57,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "Cargo.toml",
+        "Dockerfile",
+        "LICENCE",
+        "README.md",
+        "data",
+        "docker-compose.yml",
+        "rotala",
+        "rotala-client",
+        "rotala-http",
+        "rotala-python"
+      ],
+      "notable_files": [
+        ".github/workflows/check.yml",
+        ".github/workflows/lint.yml",
+        ".github/workflows/test.yml",
+        "Cargo.toml",
+        "Dockerfile",
+        "data/requirements.txt",
+        "rotala-client/Cargo.toml",
+        "rotala-http/Cargo.toml",
+        "rotala-python/requirements.txt",
+        "rotala/Cargo.toml"
+      ],
+      "manifests": {
+        "Cargo.toml": [
+          "members",
+          "resolver"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 576,
+      "readme_excerpt": "[Docs](https://docs.rs/rotala)\n\n# What is Rotala?\n\nRotala is a backend backtesting library/application built with Rust. You can run Rotala as a standalone server or import the exchange in Rust. Alator is an example implementation of the latter approach.\n\nAlator started out as a backtesting library used in another application. Over time it became clear that backtesting was a standalone application, and then it moved towards developing something cross-language that could run on a server. This transition is still at an early stage and this isn't a production application.\n\n",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 6,
+      "contribution_share": 0.928,
+      "commits": {
+        "count": 200,
+        "first_at": "2024-01-04T10:21:27+00:00",
+        "last_at": "2025-01-01T19:47:56+00:00",
+        "active_days": 47,
+        "span_days": 363,
+        "max_per_day": 20,
+        "low_effort_message_ratio": 0.005,
+        "messages_sample": [
+          "fix (#133)",
+          "http returns taker_trades as flat list (#132)",
+          "Add docker for uist_server_v2 (#131)",
+          "Adding support for multiple exchanges (#130)",
+          "Fixes bug when lifting multiple levels and in Minerva depth dataset (#129)",
+          "112 last fixes (#128)",
+          "112 exchange logic includes trades (#126)",
+          "112 tick returns time (#124)",
+          "112 tick returns time (#122)",
+          "112 no position by position (#121)",
+          "impl basic db connection (#120)",
+          "111 http perf python fix (#119)",
+          "111 removing mutex from http (#118)",
+          "111 insert groups orders (#117)",
+          "111 consolidate modification into order (#116)",
+          "111 fetch quotes depth removal (#115)",
+          "Merge pull request #113 from calumrussell/106-more-complex-grid-strategy",
+          "implement very basic grid",
+          "Merge pull request #110 from calumrussell/106-implement-cancel-modify",
+          "clippy"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 38
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 19,339 bytes (8% of repo)",
+          "strength": 0.47680820388985756
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/check.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (rotala-python/src/tests/__init__.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 19400,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "roshar",
+      "full_name": "calumrussell/roshar",
+      "html_url": "https://github.com/calumrussell/roshar",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-14T22:02:25Z",
+      "pushed_at": "2026-06-04T21:03:30Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 1749,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Rust": 864334
+      },
+      "primary_language": "Rust",
+      "file_count": 150,
+      "top_level_paths": [
+        ".claude",
+        ".gitignore",
+        ".radiant",
+        "Cargo.toml",
+        "LICENSE",
+        "release.toml",
+        "roshar-bt",
+        "roshar-bt-py",
+        "roshar-clients",
+        "roshar-types",
+        "roshar-ws",
+        "roshar-ws-mgr"
+      ],
+      "notable_files": [
+        "Cargo.toml",
+        "roshar-bt-py/Cargo.toml",
+        "roshar-bt-py/pyproject.toml",
+        "roshar-bt/Cargo.toml",
+        "roshar-clients/Cargo.toml",
+        "roshar-types/Cargo.toml",
+        "roshar-ws-mgr/Cargo.toml",
+        "roshar-ws/Cargo.toml"
+      ],
+      "manifests": {
+        "Cargo.toml": [
+          "anyhow",
+          "authors",
+          "bytes",
+          "edition",
+          "env_logger",
+          "futures",
+          "license",
+          "log",
+          "members",
+          "resolver",
+          "roshar-types",
+          "roshar-ws-mgr",
+          "rust_decimal",
+          "serde_json",
+          "thiserror",
+          "tokio",
+          "tokio-uring",
+          "version"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.885,
+      "commits": {
+        "count": 185,
+        "first_at": "2025-11-17T20:25:27+00:00",
+        "last_at": "2026-06-04T21:03:30+00:00",
+        "active_days": 50,
+        "span_days": 199,
+        "max_per_day": 21,
+        "low_effort_message_ratio": 0.016,
+        "messages_sample": [
+          "Binance: add book ticker stream support (#64)",
+          "Pacifica: add trading API (create/cancel/edit orders, positions) (#65)",
+          "Hyperliquid: per-action response decoders for create/modify/cancel (#63)",
+          "chore: Release",
+          "chore: Release",
+          "Hyperliquid: serialize order wire prices/sizes via rust_decimal (#62)",
+          "Hyperliquid: surface request/response and inner-status errors (#61)",
+          "Add Phoenix.trade REST and WebSocket API client (#60)",
+          "Hyperliquid: standalone exchange signing and outcome spot balances (#59)",
+          "Add outcomeMeta endpoint support for Hyperliquid info API. (#58)",
+          "feat: add deribit websocket client and type definitions (#57)",
+          "chore: Release",
+          "chore: Release",
+          "chore: Release",
+          "feat(hyperliquid): pass reduce_only and order_type into modify_order (#56)",
+          "Add KuCoin Futures, Bitget, and Coinbase exchange clients (#55)",
+          "Add Aster, Pacifica, Lighter, and Paradex exchange clients (#54)",
+          "Merge pull request #53 from calumrussell/feat/streaming-event-feed",
+          "Add streaming event feed for incremental backtests.",
+          "Merge pull request #52 from calumrussell/feat/derive-client"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 127
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "radiant",
+      "full_name": "calumrussell/radiant",
+      "html_url": "https://github.com/calumrussell/radiant",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-23T22:24:55Z",
+      "pushed_at": "2026-02-07T21:48:48Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 64,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 98755,
+        "Rust": 39579
+      },
+      "primary_language": "Python",
+      "file_count": 16,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "pyproject.toml",
+        "radiant",
+        "radiant-tui"
+      ],
+      "notable_files": [
+        "pyproject.toml",
+        "radiant-tui/Cargo.toml"
+      ],
+      "manifests": {
+        "pyproject.toml": [
+          ".",
+          "0.1.0",
+          "build-backend",
+          "claude-agent-sdk",
+          "description",
+          "fastapi",
+          "httpx",
+          "name",
+          "python-telegram-bot",
+          "radiant",
+          "requires-python",
+          "setuptools",
+          "setuptools.build_meta",
+          "sqlalchemy",
+          "textual",
+          "uvicorn",
+          "version"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 9602,
+      "readme_excerpt": "# Radiant\n\nTask runner using Claude Agent SDK. Instead of a human guiding an AI through a task, the AI guides AI through the tasks reducing the amount of manual intervention that is required in intermediate steps.\n\n## Architecture\n\nPlanner receives a task from the user, plans the work and creates prompts for workers to complete the task, and then scrutinizes the result before user can manually intervene. Planning stage requires approval and AI can ask clarifying questions or user can intervene at this stage.\n\nRadiant processes tasks through four phases:\n\n1. **Planning** - Understand the request, explore the codebase, create implementation plan with subtasks\n2. **Implementation** - Workers execute subtasks sequentially, fixing failures if needed\n3. **Testing** - Run tests and verify the implementation works correctly\n4. **Review** - Review completed work and provide final summary\n\nThe planning stage requires user approval. AI can ask clarifying questions, or the user can provide feedback to revise the plan.\n\n### Components\n\n- **API Server** (`radiant/api.py`) - FastAPI REST API for task CRUD\n- **Planner** (`radiant/planner.py`) - Background loop that advances tasks through phases\n- ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2026-01-23T22:24:17+00:00",
+        "last_at": "2026-01-26T20:01:58+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix bugs with final stages",
+          "add telegram bot",
+          "add pr/finished phases, refined the review prompt",
+          "add worker.md file/refine prompts",
+          "add repo argument to cli",
+          "first"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 98,755 bytes (71% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "fastapi in pyproject.toml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "sqlalchemy in pyproject.toml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 98755,
+        "strong_skills": [
+          "data-modeling",
+          "flask-fastapi",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "fides",
+      "full_name": "calumrussell/fides",
+      "html_url": "https://github.com/calumrussell/fides",
+      "description": "Upload FM24 HTML exports, apply a formula to those stats and get back a sortable table",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-19T17:05:50Z",
+      "pushed_at": "2023-12-02T03:05:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 63,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 27449,
+        "Dockerfile": 160,
+        "CSS": 1
+      },
+      "primary_language": "JavaScript",
+      "file_count": 14,
+      "top_level_paths": [
+        ".eslintrc.json",
+        ".gitignore",
+        "Dockerfile",
+        "README.md",
+        "docker-compose.yml",
+        "lib",
+        "next.config.js",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "Dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "eslint",
+          "eslint-config-next",
+          "expr-eval",
+          "next",
+          "react",
+          "react-dom"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2023-11-19T14:59:42+00:00",
+        "last_at": "2023-12-02T03:05:21+00:00",
+        "active_days": 3,
+        "span_days": 12,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "build",
+          "fix alert for formula parsing failure",
+          "fix alert for formula parsing failure",
+          "fix alert for formula parsing failure",
+          "added alert for formula parsing failure",
+          "fix error",
+          "fix error",
+          "fix for sweeper and gk",
+          "added preloads",
+          "remove ts",
+          "nuke README.md",
+          "first",
+          "Initial commit from Create Next App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 27,449 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "html-css",
+          "source": "repo_name",
+          "detail": "'html' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 27610,
+        "strong_skills": [
+          "docker",
+          "javascript",
+          "nextjs",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "pytho-public",
+      "full_name": "calumrussell/pytho-public",
+      "html_url": "https://github.com/calumrussell/pytho-public",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-07-20T17:46:32Z",
+      "pushed_at": "2023-07-21T14:49:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1471,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 771911,
+        "Rust": 333469,
+        "JavaScript": 126575,
+        "TypeScript": 116221,
+        "Python": 42254,
+        "CSS": 1132,
+        "Dockerfile": 295
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 194,
+      "top_level_paths": [
+        ".gitmodules",
+        "antevorta",
+        "data",
+        "db",
+        "docker-compose.yml",
+        "monitor",
+        "next",
+        "panacea",
+        "research"
+      ],
+      "notable_files": [
+        "antevorta/Cargo.toml",
+        "next/Dockerfile",
+        "next/lib/panacea/Cargo.toml",
+        "next/lib/panacea/antevorta/Cargo.toml",
+        "next/lib/panacea/pkg/package.json",
+        "next/package.json",
+        "panacea/Cargo.toml",
+        "panacea/pkg/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 124,
+        "first_at": "2022-12-08T22:06:02+00:00",
+        "last_at": "2023-07-02T17:43:24+00:00",
+        "active_days": 45,
+        "span_days": 205,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.024,
+        "messages_sample": [
+          "fixed build fail due to lack of key on simulation results components",
+          "Merge pull request #16 from calumrussell/15-product",
+          "tided up the results in incomesim",
+          "add test data to panacea, update antevorta for changes",
+          "reworked file structure of antevorta",
+          "working build process",
+          "Merge branch '15-product' of github.com:calumrussell/pytho into 15-product",
+          "updated imports for new panacea file structure, fixed bug with ordering of riskattribution inputs causing unordered inputs to panacea and bad results",
+          "update antevorta's alator version",
+          "moved panacea to top-level",
+          "added fly config to db",
+          "fix syntax error",
+          "build changes for fly.io deployment",
+          "fixed data tasks for limited fly.io server memory",
+          "integrating bug fix for cagr calculation on alator",
+          "upsert working for plan and portfolio, required changes to db so prisma files part of this commit",
+          "suggest query speed up",
+          "data coverage task fix",
+          "fix portfolio saving to server",
+          "user creation task fixed for new api_user model"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 3,
+        "code_file_count": 150
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 8,
+          "perf": 1,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 771,911 bytes (55% of repo)",
+          "strength": 0.9545907374105242
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 126,575 bytes (9% of repo)",
+          "strength": 0.49093965831259967
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 116,221 bytes (8% of repo)",
+          "strength": 0.483500675715968
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 42,254 bytes (3% of repo)",
+          "strength": 0.43035800373170524
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,132 bytes (0% of repo)",
+          "strength": 0.40081330194121956
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (next/lib/components/charts/__mock__/data.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (next/lib/components/charts/__tests__/charts.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next/next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (next/prisma/migrations/0_init/migration.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (next/prisma/migrations/0_init/migration.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (research/bust.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1058388,
+        "strong_skills": [
+          "data-modeling",
+          "docker",
+          "kubernetes",
+          "nextjs",
+          "pandas",
+          "python",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Rust": 1469765,
+    "Jupyter Notebook": 771911,
+    "Python": 160348,
+    "JavaScript": 154024,
+    "TypeScript": 116221,
+    "CSS": 1133,
+    "Dockerfile": 516
+  },
+  "total_commits": 528,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "calumrussell/rotala",
+        "calumrussell/radiant",
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 932259,
+      "commit_count": 330,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2026-01-26T20:01:58+00:00",
+      "details": [
+        "rotala: Python: 19,339 bytes (8% of repo)",
+        "radiant: Python: 98,755 bytes (71% of repo)",
+        "pytho-public: Jupyter Notebook: 771,911 bytes (55% of repo)",
+        "pytho-public: Python: 42,254 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "calumrussell/fides",
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 154024,
+      "commit_count": 137,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2023-12-02T03:05:21+00:00",
+      "details": [
+        "fides: JavaScript: 27,449 bytes (99% of repo)",
+        "pytho-public: JavaScript: 126,575 bytes (9% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "calumrussell/fides",
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 137,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2023-12-02T03:05:21+00:00",
+      "details": [
+        "fides: next config (next.config.js)",
+        "fides: next in package.json",
+        "pytho-public: next config (next/next.config.js)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "calumrussell/radiant",
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest",
+        "file"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 130,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2026-01-26T20:01:58+00:00",
+      "details": [
+        "radiant: sqlalchemy in pyproject.toml",
+        "pytho-public: database migrations (next/prisma/migrations/0_init/migration.sql)"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "calumrussell/radiant"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2026-01-23T22:24:17+00:00",
+      "last_seen": "2026-01-26T20:01:58+00:00",
+      "details": [
+        "radiant: fastapi in pyproject.toml"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "calumrussell/fides"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2023-11-19T14:59:42+00:00",
+      "last_seen": "2023-12-02T03:05:21+00:00",
+      "details": [
+        "fides: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "calumrussell/rotala",
+        "calumrussell/fides",
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 337,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2025-01-01T19:47:56+00:00",
+      "details": [
+        "rotala: Dockerfile (Dockerfile)",
+        "fides: Dockerfile (Dockerfile)",
+        "pytho-public: docker-compose (docker-compose.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "calumrussell/rotala",
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 324,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2025-01-01T19:47:56+00:00",
+      "details": [
+        "rotala: test directory (rotala-python/src/tests/__init__.py)",
+        "pytho-public: test file (next/lib/components/charts/__tests__/charts.test.js)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "calumrussell/rotala"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2024-01-04T10:21:27+00:00",
+      "last_seen": "2025-01-01T19:47:56+00:00",
+      "details": [
+        "rotala: GitHub Actions workflow (.github/workflows/check.yml)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 124,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2023-07-02T17:43:24+00:00",
+      "details": [
+        "pytho-public: kubernetes manifests (next/lib/components/charts/__mock__/data.js)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 124,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2023-07-02T17:43:24+00:00",
+      "details": [
+        "pytho-public: SQL file (next/prisma/migrations/0_init/migration.sql)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 124,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2023-07-02T17:43:24+00:00",
+      "details": [
+        "pytho-public: jupyter notebook (research/bust.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.483500675715968,
+      "total_bytes": 116221,
+      "commit_count": 124,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2023-07-02T17:43:24+00:00",
+      "details": [
+        "pytho-public: TypeScript: 116,221 bytes (8% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "calumrussell/fides",
+        "calumrussell/pytho-public"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "language"
+      ],
+      "max_strength": 0.40081330194121956,
+      "total_bytes": 1132,
+      "commit_count": 137,
+      "first_seen": "2022-12-08T22:06:02+00:00",
+      "last_seen": "2023-12-02T03:05:21+00:00",
+      "details": [
+        "fides: 'html' in repo name/description",
+        "pytho-public: CSS: 1,132 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 528,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 12,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-16T14:14:12.705346+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

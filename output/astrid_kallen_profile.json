@@ -1,0 +1,314 @@
+{
+  "applicant_id": "applicant0003",
+  "skills": [
+    {
+      "canonical_skill": "Rust",
+      "category": "Programming Language",
+      "claimed_level": 3,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Engineered a backtesting engine in Rust with an automated test suite, CI pipeline and Docker packaging across 57 files.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Documented the engine's assumptions after realizing undocumented edge cases made results hard for others to trust.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Built a FastAPI service backed by SQLAlchemy, structuring the project with Rust components for performance-sensitive pieces.",
+          "page": null
+        }
+      ],
+      "reasoning": "Engineered a backtesting engine across 57 files with CI pipeline and Docker packaging over 3.5 years. Documented edge cases after realizing undocumented assumptions made results hard to trust, demonstrating debugging and judgment. Mixed Rust/JavaScript project and performance-sensitive Rust components in FastAPI service show architectural decisions."
+    },
+    {
+      "canonical_skill": "Python",
+      "category": "Programming Language",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a FastAPI service backed by SQLAlchemy, structuring the project with Rust components for performance-sensitive pieces.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Built a mixed Rust, JavaScript and Jupyter Notebook project with Docker packaging and automated tests over 45 active days.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Language: Python, JavaScript, SQL",
+          "page": null
+        }
+      ],
+      "reasoning": "Built multiple independent projects including FastAPI service with SQLAlchemy, and mixed-language projects. Appears to make structural decisions (FastAPI service architecture). Listed as primary language skill. No explicit evidence of advanced debugging or design trade-offs specific to Python."
+    },
+    {
+      "canonical_skill": "Docker",
+      "category": "DevOps",
+      "claimed_level": 2,
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Engineered a backtesting engine in Rust with an automated test suite, CI pipeline and Docker packaging across 57 files.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Built a mixed Rust, JavaScript and Jupyter Notebook project with Docker packaging and automated tests over 45 active days.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Wrote setup notes after a teammate lost an afternoon to an environment mismatch the original code never mentioned.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used Docker packaging independently across multiple projects (Rotala and Pytho Public). Wrote setup notes after teammate lost time to environment mismatch, showing independent problem-solving and documentation of deployment issues."
+    },
+    {
+      "canonical_skill": "CI/CD",
+      "category": "DevOps",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Engineered a backtesting engine in Rust with an automated test suite, CI pipeline and Docker packaging across 57 files.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "DevOps: Docker, CI/CD, Kubernetes",
+          "page": null
+        }
+      ],
+      "reasoning": "Built CI pipeline for Rotala backtesting engine, demonstrating independent setup and integration. Evidence shows implementation in real project context."
+    },
+    {
+      "canonical_skill": "FastAPI",
+      "category": "Backend Framework",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a FastAPI service backed by SQLAlchemy, structuring the project with Rust components for performance-sensitive pieces.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Backend: Flask/FastAPI",
+          "page": null
+        }
+      ],
+      "reasoning": "Built a FastAPI service with SQLAlchemy backend, making structural decisions about integrating Rust components. Independent project architecture choice indicates intermediate proficiency."
+    },
+    {
+      "canonical_skill": "Flask",
+      "category": "Backend Framework",
+      "claimed_level": 1,
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Backend: Flask/FastAPI",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section but no project evidence demonstrates Flask usage. Only FastAPI is shown in projects. Cannot assign intermediate without demonstrated use."
+    },
+    {
+      "canonical_skill": "SQLAlchemy",
+      "category": "Database",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a FastAPI service backed by SQLAlchemy, structuring the project with Rust components for performance-sensitive pieces.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used SQLAlchemy as backend for FastAPI service in Radiant project, making architectural decisions about data layer integration. Independent project context supports intermediate level."
+    },
+    {
+      "canonical_skill": "SQL",
+      "category": "Database",
+      "claimed_level": 2,
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Coursework: Systems Programming, Databases, Technical Writing for Engineers",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Language: Python, JavaScript, SQL",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Built a FastAPI service backed by SQLAlchemy, structuring the project with Rust components for performance-sensitive pieces.",
+          "page": null
+        }
+      ],
+      "reasoning": "Completed database coursework and used SQLAlchemy in Radiant project, implying SQL knowledge for data modeling. Project context suggests practical application beyond coursework."
+    },
+    {
+      "canonical_skill": "React",
+      "category": "Frontend Framework",
+      "claimed_level": 1,
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Frontend: Next.js, React",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section under Frontend but no project evidence demonstrates React usage. Cannot assign intermediate without demonstrated project work."
+    },
+    {
+      "canonical_skill": "Next.js",
+      "category": "Frontend Framework",
+      "claimed_level": 1,
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Frontend: Next.js, React",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section under Frontend but no project evidence demonstrates Next.js usage. Cannot assign intermediate without demonstrated project work."
+    },
+    {
+      "canonical_skill": "Kubernetes",
+      "category": "DevOps",
+      "claimed_level": 1,
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "DevOps: Docker, CI/CD, Kubernetes",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in DevOps skills section but no project evidence demonstrates Kubernetes usage or deployment. Cannot assign intermediate without demonstrated work."
+    },
+    {
+      "canonical_skill": "pandas",
+      "category": "Data Analysis",
+      "claimed_level": 1,
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Data: Data Modeling, Data Analysis (pandas)",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed under Data skills but no project evidence demonstrates pandas usage or data analysis work. Cannot assign intermediate without demonstrated application."
+    },
+    {
+      "canonical_skill": "Data Modeling",
+      "category": "Data",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a FastAPI service backed by SQLAlchemy, structuring the project with Rust components for performance-sensitive pieces.",
+          "page": null
+        }
+      ],
+      "reasoning": "Radiant project includes SQLAlchemy which requires schema design. Applicant structured the database-backed FastAPI service, indicating independent data modeling decisions."
+    },
+    {
+      "canonical_skill": "Technical Documentation",
+      "category": "Professional Skills",
+      "claimed_level": 2,
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Documented the engine's assumptions after realizing undocumented edge cases made results hard for others to trust.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Wrote setup notes after a teammate lost an afternoon to an environment mismatch the original code never mentioned.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Turned scattered troubleshooting messages into a single reference page, cutting repeated questions in later semesters.",
+          "page": null
+        }
+      ],
+      "reasoning": "Multiple instances of independent documentation work that others relied on: documented Rotala engine assumptions for trust, wrote setup notes after teammate issue, created reference page from troubleshooting messages that reduced repeated questions. Work was used by others."
+    },
+    {
+      "canonical_skill": "Testing",
+      "category": "Quality Assurance",
+      "claimed_level": 2,
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Engineered a backtesting engine in Rust with an automated test suite, CI pipeline and Docker packaging across 57 files.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Built a mixed Rust, JavaScript and Jupyter Notebook project with Docker packaging and automated tests over 45 active days.",
+          "page": null
+        }
+      ],
+      "reasoning": "Engineered automated test suite for Rotala backtesting engine across 57 files. Built automated tests for Pytho Public project. Independent test design and implementation across multiple projects."
+    },
+    {
+      "canonical_skill": "CI/CD",
+      "category": "DevOps",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Engineered a backtesting engine in Rust with an automated test suite, CI pipeline and Docker packaging across 57 files.",
+          "page": null
+        }
+      ],
+      "reasoning": "Rotala project includes CI pipeline implementation. Applicant set up continuous integration for a multi-file backtesting engine, indicating independent pipeline design and configuration."
+    }
+  ],
+  "domains": [
+    "Software Engineering",
+    "Backend Development",
+    "DevOps",
+    "Systems Programming",
+    "Data Engineering",
+    "Technical Communication"
+  ],
+  "interests": [],
+  "education": [
+    {
+      "institution": "Halvorsen Coastal University",
+      "qualification": "Bachelor of Science",
+      "field_of_study": "Computer Science; Minor in Rhetoric and Technical Communication",
+      "start_date": null,
+      "end_date": "May 2026",
+      "status": "In Progress"
+    }
+  ],
+  "work_experience": []
+}

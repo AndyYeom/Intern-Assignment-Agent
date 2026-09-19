@@ -1,0 +1,97 @@
+{
+  "applicant_id": "applicant0027",
+  "github_login": "SoumadipDey",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0027.json",
+  "skills": [
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SoumadipDey/AI-Lab-Programs"
+      ],
+      "repos": [
+        {
+          "repo": "SoumadipDey/AI-Lab-Programs",
+          "html_url": "https://github.com/SoumadipDey/AI-Lab-Programs",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "jupyter notebook (BCA2023 5th Sem - BCA57203/NLP_Language_Modelling.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SoumadipDey/AI-Lab-Programs",
+        "https://github.com/SoumadipDey/ComSys-Trainer",
+        "https://github.com/SoumadipDey/Longest-Compound-Words",
+        "https://github.com/SoumadipDey/PerpCheck_2.0",
+        "https://github.com/SoumadipDey/SysInfo_AMD"
+      ],
+      "repos": [
+        {
+          "repo": "SoumadipDey/AI-Lab-Programs",
+          "html_url": "https://github.com/SoumadipDey/AI-Lab-Programs",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Jupyter Notebook: 1,353,622 bytes (97% of repo)"
+          ]
+        },
+        {
+          "repo": "SoumadipDey/ComSys-Trainer",
+          "html_url": "https://github.com/SoumadipDey/ComSys-Trainer",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 87,902 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "SoumadipDey/Longest-Compound-Words",
+          "html_url": "https://github.com/SoumadipDey/Longest-Compound-Words",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: documented",
+            "Python: 5,963 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "SoumadipDey/PerpCheck_2.0",
+          "html_url": "https://github.com/SoumadipDey/PerpCheck_2.0",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: none",
+            "Python: 176,501 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "SoumadipDey/SysInfo_AMD",
+          "html_url": "https://github.com/SoumadipDey/SysInfo_AMD",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: none",
+            "Python: 53,471 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (5 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 1
+  }
+}

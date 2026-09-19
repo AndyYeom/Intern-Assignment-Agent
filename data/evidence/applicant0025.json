@@ -1,0 +1,198 @@
+{
+  "applicant_id": "applicant0025",
+  "github_login": "callumfowler101",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0025.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/callumfowler101/gameJam2020"
+      ],
+      "repos": [
+        {
+          "repo": "callumfowler101/gameJam2020",
+          "html_url": "https://github.com/callumfowler101/gameJam2020",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: none",
+            "C++: 31,410 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/callumfowler101/callumfowler101.github.io",
+        "https://github.com/callumfowler101/stag-dd"
+      ],
+      "repos": [
+        {
+          "repo": "callumfowler101/callumfowler101.github.io",
+          "html_url": "https://github.com/callumfowler101/callumfowler101.github.io",
+          "level": 2,
+          "reasons": [
+            "intermediate: 83 commits; multi_month_span, many_active_days",
+            "HTML: 38,965 bytes (62% of repo)",
+            "CSS: 7,764 bytes (12% of repo)"
+          ]
+        },
+        {
+          "repo": "callumfowler101/stag-dd",
+          "html_url": "https://github.com/callumfowler101/stag-dd",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "CSS: 26,424 bytes (33% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/callumfowler101/callumfowler101.github.io",
+        "https://github.com/callumfowler101/dialogflow-app",
+        "https://github.com/callumfowler101/stag-dd"
+      ],
+      "repos": [
+        {
+          "repo": "callumfowler101/callumfowler101.github.io",
+          "html_url": "https://github.com/callumfowler101/callumfowler101.github.io",
+          "level": 2,
+          "reasons": [
+            "intermediate: 83 commits; multi_month_span, many_active_days",
+            "JavaScript: 15,827 bytes (25% of repo)"
+          ]
+        },
+        {
+          "repo": "callumfowler101/dialogflow-app",
+          "html_url": "https://github.com/callumfowler101/dialogflow-app",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "JavaScript: 2,474 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "callumfowler101/stag-dd",
+          "html_url": "https://github.com/callumfowler101/stag-dd",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "JavaScript: 52,811 bytes (67% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "mongodb",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/callumfowler101/stag-dd"
+      ],
+      "repos": [
+        {
+          "repo": "callumfowler101/stag-dd",
+          "html_url": "https://github.com/callumfowler101/stag-dd",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "mongodb in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/callumfowler101/gameJam2020"
+      ],
+      "repos": [
+        {
+          "repo": "callumfowler101/gameJam2020",
+          "html_url": "https://github.com/callumfowler101/gameJam2020",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: none",
+            "iOS project (bin/gameJamDraftDebug.app/Contents/Info.plist)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/callumfowler101/stag-dd"
+      ],
+      "repos": [
+        {
+          "repo": "callumfowler101/stag-dd",
+          "html_url": "https://github.com/callumfowler101/stag-dd",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/callumfowler101/stag-dd"
+      ],
+      "repos": [
+        {
+          "repo": "callumfowler101/stag-dd",
+          "html_url": "https://github.com/callumfowler101/stag-dd",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 5
+  }
+}

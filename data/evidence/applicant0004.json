@@ -1,0 +1,79 @@
+{
+  "applicant_id": "applicant0004",
+  "github_login": "MatiasRepettoZecchi",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0004.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/MatiasRepettoZecchi/dynamics_simulation_aerospace_w_CADAC_course"
+      ],
+      "repos": [
+        {
+          "repo": "MatiasRepettoZecchi/dynamics_simulation_aerospace_w_CADAC_course",
+          "html_url": "https://github.com/MatiasRepettoZecchi/dynamics_simulation_aerospace_w_CADAC_course",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "C++: 559,440 bytes (96% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/MatiasRepettoZecchi/LuaInjectorFromFile-Java"
+      ],
+      "repos": [
+        {
+          "repo": "MatiasRepettoZecchi/LuaInjectorFromFile-Java",
+          "html_url": "https://github.com/MatiasRepettoZecchi/LuaInjectorFromFile-Java",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, all_commits_one_day",
+            "Java: 3,262 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/MatiasRepettoZecchi/SimplePrograms"
+      ],
+      "repos": [
+        {
+          "repo": "MatiasRepettoZecchi/SimplePrograms",
+          "html_url": "https://github.com/MatiasRepettoZecchi/SimplePrograms",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; multi_month_span, many_active_days",
+            "Python: 2,443 bytes (27% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 2
+  }
+}

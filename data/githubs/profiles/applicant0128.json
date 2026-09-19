@@ -1,0 +1,872 @@
+{
+  "applicant_id": "applicant0128",
+  "login": "patriesp95",
+  "html_url": "https://github.com/patriesp95",
+  "created_at": "2022-11-24T07:09:48Z",
+  "account_age_days": 1392,
+  "public_repos": 19,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "HoroscApp",
+      "full_name": "patriesp95/HoroscApp",
+      "html_url": "https://github.com/patriesp95/HoroscApp",
+      "description": "Curso android intermedio @ArisGuimera",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-09-06T14:51:50Z",
+      "pushed_at": "2024-09-08T18:42:34Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2084,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 32202
+      },
+      "primary_language": "Kotlin",
+      "file_count": 147,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "app",
+        "build.gradle.kts",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle.kts"
+      ],
+      "notable_files": [
+        "app/build.gradle.kts",
+        "build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2024-08-28T12:43:14+00:00",
+        "last_at": "2024-09-08T18:42:10+00:00",
+        "active_days": 3,
+        "span_days": 11,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.111,
+        "messages_sample": [
+          "palmistry",
+          "permissions management",
+          "luck screen completed",
+          "buildTypes",
+          "navigate to horoscope detail II (add images)",
+          "navigate to horoscope detail II (add imageview)",
+          "navigate to horoscope detail I",
+          "add toolbar",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 30
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 32,202 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 32202,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "GHFollowers",
+      "full_name": "patriesp95/GHFollowers",
+      "html_url": "https://github.com/patriesp95/GHFollowers",
+      "description": "Example app featuring Sean Allen's take home project source code",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-07-01T07:32:43Z",
+      "pushed_at": "2023-07-09T13:50:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1038,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Swift": 53945
+      },
+      "primary_language": "Swift",
+      "file_count": 64,
+      "top_level_paths": [
+        "GHFollowers",
+        "GHFollowers.xcodeproj",
+        "GHFollowersTests",
+        "GHFollowersUITests",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 14,
+      "readme_excerpt": "# GHFollowers\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.943,
+      "commits": {
+        "count": 33,
+        "first_at": "2023-07-01T15:35:51+00:00",
+        "last_at": "2023-07-09T13:50:45+00:00",
+        "active_days": 7,
+        "span_days": 7,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.03,
+        "messages_sample": [
+          "Date Conversions & Date Label",
+          "ItemInfoVC - Subclasses",
+          "ItemInfoVC - Superclass",
+          "Item Info View",
+          "UserInfoVC Cleanup & Setup",
+          "Child View Controller - UserInfoHeaderVC",
+          "Network Call - Get User Info",
+          "Modal Presentation & Passing Data",
+          "Search Functionality",
+          "Empty State View",
+          "Loading View",
+          "Pagination - Getting the Next 100 Followers",
+          "Downloading & Caching Avatar Images",
+          "ARC, Memory Leaks, and Capture Lists [weak self]",
+          "Running the App on iOS 15 & Fixing Issues",
+          "UICollectionView - Diffable Data Source",
+          "UICollectionView FlowLayout",
+          "UICollectionView Initial Setup",
+          "UICollectionView Custom Follower Cell",
+          "Result Type Refactor"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 33
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 53,945 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (GHFollowers.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 53945,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "MyGames",
+      "full_name": "patriesp95/MyGames",
+      "html_url": "https://github.com/patriesp95/MyGames",
+      "description": "App de ejemplo para la formación de Architect Coders",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-11-24T07:13:54Z",
+      "pushed_at": "2024-09-11T06:25:47Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 359,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 76128
+      },
+      "primary_language": "Kotlin",
+      "file_count": 133,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "app",
+        "appTestShared",
+        "build.gradle",
+        "buildSrc",
+        "data",
+        "domain",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "testShared",
+        "usecases"
+      ],
+      "notable_files": [
+        "app/build.gradle",
+        "appTestShared/build.gradle",
+        "build.gradle",
+        "buildSrc/build.gradle.kts",
+        "data/build.gradle",
+        "domain/build.gradle",
+        "testShared/build.gradle",
+        "usecases/build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "kotlin-gradle-plugin",
+          "org.jetbrains.kotlin"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2196,
+      "readme_excerpt": "\n# MyGamesAC\n\nThis readme file is intended to briefly describe of what this project does and which technologies and principles (such as SOLID) are represented here.\n\nIn this project you will find \n- MVVM Architecture\n- Clean Architecture\n- Dependency Injection using Dagger Hilt\n- Retrofit\n- Mappers\n- Fragments\n- Navigation Component\n- Safe Args\n- Coroutines\n- Data persistence using Google's ORM Room\n- Modularization\n- Testing\n    - Unitary tests\n    - Integration tests\n    - UI tests using espresso\n\n\n\n\n## 🚀 About Me\nI'm a young mobile developer mainly interested in Android although I am currently working as an iOS developer in worldwide travelling company eDreams Odigeo 🛩️\n\n\n## 🔗 Links\n[![github profile](https://img.shields.io/badge/github-572364?style=for-the-badge&logo=github&logoColor=white)](https://github.com/patriesp95)\n[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patricia-martinez-espert-7470291a7/)\n\n\n## Installation\n\nInstall my project simply cloning it \n\n```bash\n  git clone [email]:patriesp95/MyGames.git\n```\n\n```bash\n  git clone https://github.com/patriesp95/MyGames.git\n```\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.727,
+      "commits": {
+        "count": 80,
+        "first_at": "2022-11-24T10:53:14+00:00",
+        "last_at": "2024-09-11T06:25:46+00:00",
+        "active_days": 16,
+        "span_days": 656,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.113,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "add README.md",
+          "UI Tests: Configure MockWebServer (test passed)",
+          "UI Tests: Configure MockWebServer (test failed because of a timeout)",
+          "UI Tests: Configure MockWebServer",
+          "UI Tests: Configure Hilt II",
+          "UI Tests: Configure Hilt and MainInstrumentationTest.kt all test passed",
+          "UI Tests first steps",
+          "MainIntegrationTests.kt 'data is loaded from server when local source is empty' passed",
+          "MainIntegrationTests.kt 'data is loaded from local source when available' passed",
+          "fix some things II",
+          "fix some things II"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 67
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 6,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 76,128 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/androidTest/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 76128,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "TestingSPM",
+      "full_name": "patriesp95/TestingSPM",
+      "html_url": "https://github.com/patriesp95/TestingSPM",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-18T20:38:35Z",
+      "pushed_at": "2026-04-19T17:31:12Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Swift": 639
+      },
+      "primary_language": "Swift",
+      "file_count": 11,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "TestingSPM",
+        "TestingSPM.xcodeproj"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 13,
+      "readme_excerpt": "# TestingSPM\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-04-19T17:25:28+00:00",
+        "last_at": "2026-04-19T17:31:10+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "feat: create base SwiftUI app",
+          "Add initial files",
+          "Initial Commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 639 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (TestingSPM.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 639,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "RandomUser",
+      "full_name": "patriesp95/RandomUser",
+      "html_url": "https://github.com/patriesp95/RandomUser",
+      "description": "MVVM personal project featuring random user api",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-09-09T15:28:19Z",
+      "pushed_at": "2024-09-17T12:56:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 176,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 8682
+      },
+      "primary_language": "Kotlin",
+      "file_count": 61,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "app",
+        "build.gradle.kts",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle.kts"
+      ],
+      "notable_files": [
+        "app/build.gradle.kts",
+        "build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1660,
+      "readme_excerpt": "# RandomUser\n\nThis readme file is intended to briefly describe of what this project does and which technologies and principles (such as SOLID) are represented here.\n\nIn this project you will find \n- MVVM Architecture\n- Clean Architecture\n- Dependency Injection using Dagger Hilt\n- Retrofit\n- Mappers\n- Coroutines\n\n## 🚀 About Me\nI'm a young mobile developer mainly interested in Android although I am currently working as an iOS developer in worldwide travelling company eDreams Odigeo 🛩️\n\n\n## 🔗 Links\n[![github profile](https://img.shields.io/badge/github-572364?style=for-the-badge&logo=github&logoColor=white)](https://github.com/patriesp95)\n[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patricia-martinez-espert-7470291a7/)\n\n## Branches\n[Room](https://github.com/patriesp95/RandomUser/tree/room)\n\n## Installation\n\nInstall my project simply cloning it \n\n```bash\n  git clone [email]:patriesp95/RandomUser.git\n```\n\n```bash\n  git clone https://github.com/patriesp95/RandomUser.git\n```\n\n## Screenshots\n![Screenshot 2024-09-10 at 21 38 15](https://github.com/user-attachments/assets/3271671b-6392-49d3-8b",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2024-09-09T15:26:57+00:00",
+        "last_at": "2024-09-17T12:56:01+00:00",
+        "active_days": 4,
+        "span_days": 7,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.571,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Create README.md",
+          "minor changes",
+          "add menu and buttons",
+          "View.GONE, View.VISIBLE and androidx.constraintlayout.widget.Group",
+          "add some changes",
+          "add progress bar",
+          "project structure and functionality done",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 19
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 8,682 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8682,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Kotlin": 117012,
+    "Swift": 54584
+  },
+  "total_commits": 139,
+  "skill_evidence": [
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "patriesp95/HoroscApp",
+        "patriesp95/GHFollowers",
+        "patriesp95/MyGames",
+        "patriesp95/TestingSPM",
+        "patriesp95/RandomUser"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 171596,
+      "commit_count": 139,
+      "first_seen": "2022-11-24T10:53:14+00:00",
+      "last_seen": "2026-04-19T17:31:10+00:00",
+      "details": [
+        "HoroscApp: Kotlin: 32,202 bytes (100% of repo)",
+        "HoroscApp: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "GHFollowers: Swift: 53,945 bytes (100% of repo)",
+        "GHFollowers: iOS project (GHFollowers.xcodeproj/project.pbxproj)",
+        "MyGames: Kotlin: 76,128 bytes (100% of repo)",
+        "MyGames: Android app manifest (app/src/androidTest/debug/AndroidManifest.xml)",
+        "TestingSPM: Swift: 639 bytes (100% of repo)",
+        "TestingSPM: iOS project (TestingSPM.xcodeproj/project.pbxproj)",
+        "RandomUser: Kotlin: 8,682 bytes (100% of repo)",
+        "RandomUser: Android app manifest (app/src/main/AndroidManifest.xml)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 139,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 1,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 1 < 3"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:33:30.929287+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 1 < 3"
+  ]
+}

@@ -1,0 +1,1509 @@
+{
+  "applicant_id": "applicant0145",
+  "login": "Terrificdatabytes",
+  "html_url": "https://github.com/Terrificdatabytes",
+  "created_at": "2020-06-13T14:56:23Z",
+  "account_age_days": 2286,
+  "public_repos": 75,
+  "followers": 3,
+  "following": 6,
+  "repos": [
+    {
+      "name": "anna-univ-notifications",
+      "full_name": "Terrificdatabytes/anna-univ-notifications",
+      "html_url": "https://github.com/Terrificdatabytes/anna-univ-notifications",
+      "description": "An automated system that fetches notifications about semester exam results from coe.annauniv.edu website and delivers them to an Android app.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-17T08:43:29Z",
+      "pushed_at": "2026-09-17T01:20:46Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 109958,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "anna-university",
+        "annauniversityresults",
+        "coe-annauniv"
+      ],
+      "languages": {
+        "TypeScript": 37202,
+        "JavaScript": 14015,
+        "Kotlin": 6502,
+        "Objective-C": 2315,
+        "Ruby": 2041,
+        "Objective-C++": 819
+      },
+      "primary_language": "TypeScript",
+      "file_count": 105,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "IMPLEMENTATION.md",
+        "LICENSE",
+        "README.md",
+        "app",
+        "data",
+        "docs",
+        "push-notification.jpg",
+        "scraper",
+        "screenshot-1.jpg",
+        "scripts",
+        "widget.jpg",
+        "worker"
+      ],
+      "notable_files": [
+        ".github/workflows/build-apk.yml",
+        ".github/workflows/fetch-notifications.yml",
+        ".github/workflows/process-notification.yml",
+        ".github/workflows/test-notifications.yml",
+        ".github/workflows/test-python-script.yml",
+        "app/Gemfile",
+        "app/android/app/build.gradle",
+        "app/android/build.gradle",
+        "app/package.json",
+        "scraper/package.json",
+        "scripts/package.json",
+        "scripts/requirements.txt",
+        "worker/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 9505,
+      "readme_excerpt": "# Anna University Notifications\n\nAn automated system that fetches notifications from Anna University COE website and delivers them to an Android app.\n\n## 📥 Download\n\n[**Download Latest APK (v2.0)**](https://github.com/Terrificdatabytes/anna-univ-notifications/releases/download/v2.0/anna-univ-notifications-v2.0.apk)\n\n## 📸 Screenshots\n\n| App Interface | Home Screen Widget |Push notification|\n|:-------------:|:------------------:|:---------------:|\n| <img src=\"screenshot-1.jpg\" alt=\"App Screenshot\" width=\"300\"/> | <img src=\"widget.jpg\" alt=\"Home Screen Widget\" width=\"300\"/> |<img src=\"push-notification.jpg\" alt=\"push notification\" width=\"300\"/> \n\n## 🚀 Features\n\n- ✅ Automatic notification scraping every 15 minutes\n- ✅ **Real-time push notifications** when new notifications are posted on COE website\n- ✅ **Automatic update notifications** - app checks for new versions and provides direct APK download link\n- ✅ Manual test notification workflow to test push notifications\n- ✅ Manual APK build trigger with version management\n- ✅ Pull-to-refresh in the app\n- ✅ Offline caching with AsyncStorage\n- ✅ Clean notification list UI with teal theme (#37B3B3)\n- ✅ Tap to open official links in browser\n-",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 3,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 77,
+        "first_at": "2025-12-17T08:43:29+00:00",
+        "last_at": "2026-09-10T14:46:23+00:00",
+        "active_days": 20,
+        "span_days": 267,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.117,
+        "messages_sample": [
+          "Add files via upload",
+          "Add temporary upload step for decoded script",
+          "Add MIT License to the project",
+          "Update developer information in App.tsx",
+          "Update developer information in App.tsx",
+          "Merge pull request #45 from Terrificdatabytes/copilot/fix-scraper-timeout-error",
+          "Merge pull request #44 from Terrificdatabytes/copilot/fix-notification-count-logic",
+          "Merge pull request #43 from Terrificdatabytes/copilot/add-notification-comparison-logic",
+          "Merge pull request #42 from Terrificdatabytes/copilot/fix-repeating-notification-bug",
+          "Update APK download link to version 2.0",
+          "Merge pull request #41 from Terrificdatabytes/copilot/fix-build-apk-workflow",
+          "Merge pull request #40 from Terrificdatabytes/copilot/update-actions-for-node-24-again",
+          "Merge pull request #39 from Terrificdatabytes/copilot/update-in-process-notification-workflow",
+          "Merge pull request #38 from Terrificdatabytes/copilot/fix-test-script-error",
+          "Refactor artifact upload steps in workflow",
+          "Refactor workflow to remove Colab patching",
+          "Update test-python-script.yml",
+          "Add output artifacts upload step to workflow",
+          "Merge pull request #37 from Terrificdatabytes/copilot/fix-live-notification-data-error",
+          "Merge pull request #36 from Terrificdatabytes/copilot/update-keras-file-download-path"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 22
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 0,
+          "refactor": 2,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 37,202 bytes (59% of repo)",
+          "strength": 0.9915031640538048
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 14,015 bytes (22% of repo)",
+          "strength": 0.6228352466053996
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 6,502 bytes (10% of repo)",
+          "strength": 0.5033802906477566
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 2,315 bytes (4% of repo)",
+          "strength": 0.436807962603746
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build-apk.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (app/__tests__/App.test.tsx)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (app/metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/FCM_SETUP.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 60034,
+        "strong_skills": [
+          "cicd",
+          "javascript",
+          "native-mobile",
+          "react-native",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bustracker",
+      "full_name": "Terrificdatabytes/bustracker",
+      "html_url": "https://github.com/Terrificdatabytes/bustracker",
+      "description": "🚌 Real-time metropolitan bus tracking system with 98-99% accurate AI-calculated distances.  Flask + Socket.IO + GPS tracking. Zero API costs. Production-ready.",
+      "homepage": "https://bustracker-1-udzb.onrender.com/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-10T18:47:36Z",
+      "pushed_at": "2026-07-21T17:17:22Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 2225,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "bustracker",
+        "bustrackingapp"
+      ],
+      "languages": {
+        "Python": 127299,
+        "JavaScript": 64170,
+        "HTML": 54212,
+        "CSS": 1375
+      },
+      "primary_language": "Python",
+      "file_count": 28,
+      "top_level_paths": [
+        ".python-version",
+        "14BA.jpg",
+        "21CA.jpeg",
+        "BusFleet.jpeg",
+        "README.md",
+        "Realtime_Timings.jpeg",
+        "__pycache__",
+        "app.py",
+        "bus_data.csv",
+        "bus_drivers.csv",
+        "bus_history.csv",
+        "bus_locations.csv",
+        "bustime.zip",
+        "manage_drivers.py",
+        "manual_distances.py",
+        "model.pkl",
+        "model_class.py",
+        "render.yaml",
+        "requirements.txt",
+        "static",
+        "templates",
+        "train.py"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "bidict",
+          "dnspython",
+          "eventlet",
+          "flask",
+          "flask-cors",
+          "flask-socketio",
+          "greenlet",
+          "gunicorn",
+          "numpy",
+          "pandas",
+          "python-engineio",
+          "python-socketio",
+          "requests",
+          "scikit-learn",
+          "setuptools",
+          "werkzeug",
+          "wheel"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 13966,
+      "readme_excerpt": "# 🚌 Real-Time Bus Tracking System\n\n[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)\n[![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com/)\n[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/Status-Production-success.svg)]()\n\nA production-ready, real-time bus tracking system with **98-99% accurate distance calculations**, live GPS tracking, and instant passenger notifications. Built with Flask, Socket.IO, and AI-calculated road distances.\n\n\n\n## 🌟 Features\n\n### 🎯 Core Features\n- **Real-Time GPS Tracking** - Bus locations update every 2 seconds\n- **AI-Calculated Distances** - 98-99% accurate route distances using road network analysis\n- **Live Distance Updates** - Passengers see exact distance to their bus\n- **Multi-Route Support** - Handles city and intercity routes simultaneously\n- **Bidirectional Routes** - Supports forward and backward journey tracking\n- **Zero API Costs** - All distances pre-calculated and cached\n- **Offline Capable** - Works without external API dependencies after initial setup\n\n### 👨‍✈️ Driver Features\n- Mob",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 108,
+        "first_at": "2025-10-10T18:47:55+00:00",
+        "last_at": "2026-07-21T17:17:22+00:00",
+        "active_days": 17,
+        "span_days": 283,
+        "max_per_day": 15,
+        "low_effort_message_ratio": 0.259,
+        "messages_sample": [
+          "Update script.js",
+          "Update script.js",
+          "Refactor GPS speed handling to server-side computation",
+          "Add GPS speed fallback to speed calculation",
+          "Add GPSManager for real-time GPS data handling",
+          "Remove rounding for latitude and longitude in speed calculation",
+          "Round lat/lng to four decimal places in calculations",
+          "Round latitude and longitude to four decimal places",
+          "Adjust collage item border radius and height",
+          "Refactor home collage layout and styles",
+          "Rename WhatsApp Image 2026-07-17 at 9.34.03 PM.jpeg to 21CA.jpeg",
+          "Rename WhatsApp Image 2026-07-17 at 9.33.02 PM.jpeg to BusFleet.jpeg",
+          "Rename WhatsApp Image 2026-07-17 at 9.32.12 PM.jpeg to Realtime_Timings.jpeg",
+          "Rename IMG_20260130_[phone]_HDR_AE~3.jpg to 14BA.jpg",
+          "Update image sources and labels in index.html",
+          "Update image source for city route photo",
+          "Add files via upload",
+          "Add files via upload",
+          "Implement home collage and marquee for bus features",
+          "Enhance speed calculation with surge detection"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 127,299 bytes (52% of repo)",
+          "strength": 0.9152637458713814
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 64,170 bytes (26% of repo)",
+          "strength": 0.6597386827278027
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 54,212 bytes (22% of repo)",
+          "strength": 0.6194320316041707
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,375 bytes (1% of repo)",
+          "strength": 0.40556553979664534
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "repo_name",
+          "detail": "'flask' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "websockets",
+          "source": "repo_name",
+          "detail": "'socket.io' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 247056,
+        "strong_skills": [
+          "flask-fastapi",
+          "html-css",
+          "javascript",
+          "machine-learning",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "edugamehub1",
+      "full_name": "Terrificdatabytes/edugamehub1",
+      "html_url": "https://github.com/Terrificdatabytes/edugamehub1",
+      "description": "A gamified digital learning platform for rural school students (grades 6–12) focusing on STEM subjects. Built with React, TypeScript, and Tailwind CSS, designed to be mobile-first, offline-capable, and multilingual.",
+      "homepage": "https://terrificdatabytes.github.io/edugamehub1/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-14T09:51:59Z",
+      "pushed_at": "2025-09-20T13:17:10Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 208,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 351804,
+        "CSS": 141774,
+        "HTML": 6873,
+        "Shell": 3484,
+        "JavaScript": 2143
+      },
+      "primary_language": "TypeScript",
+      "file_count": 90,
+      "top_level_paths": [
+        ".github",
+        "README.md",
+        "dist",
+        "index.html",
+        "package.json",
+        "src",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "package.json",
+        "src/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@types/node",
+          "@vitejs/plugin-react",
+          "@vitejs/plugin-react-swc",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "embla-carousel-react",
+          "input-otp",
+          "lucide-react",
+          "next-themes",
+          "path",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-resizable-panels",
+          "recharts",
+          "sonner",
+          "tailwind-merge",
+          "vaul",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4506,
+      "readme_excerpt": "# EduGameHub - Rural Learning Platform\n\nA gamified digital learning platform for rural school students (grades 6–12) focusing on STEM subjects. Built with React, TypeScript, and Tailwind CSS, designed to be mobile-first, offline-capable, and multilingual.\n\n## 🌟 Features\n\n- **Gamified Learning**: Pokemon Red-style top-down adventure games\n- **Multilingual Support**: English, Spanish, and Tamil with quick toggle\n- **Offline Access**: Downloadable lessons and offline capability\n- **Mobile-First Design**: Optimized for low-cost devices\n- **Dark/Light Mode**: Theme toggle with proper color system\n- **Role-Based Access**: Student, Teacher, and Admin dashboards\n- **PWA Support**: Progressive Web App capabilities\n\n## 🚀 Live Demo\n\nVisit the live demo: [https://terrificdatabytes.github.io/edugamehub1/](https://terrificdatabytes.github.io/edugamehub1/)\n\n## 🛠️ Technologies Used\n\n- **Frontend**: React 18, TypeScript, Vite\n- **Styling**: Tailwind CSS v4\n- **Icons**: Lucide React\n- **Components**: Custom shadcn/ui components\n- **Deployment**: GitHub Pages with GitHub Actions\n\n## 🏁 Quick Start\n\n### Prerequisites\n\n- Node.js 18 or higher\n- npm or yarn\n\n### Installation\n\n1. Clone the repository:\n   `",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 16,
+        "first_at": "2025-09-14T09:54:00+00:00",
+        "last_at": "2025-09-20T13:17:10+00:00",
+        "active_days": 2,
+        "span_days": 6,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Enhance LoginScreen with role selection and UI updates",
+          "Refactor LoginScreen by removing demo logic and UI",
+          "Refactor LoginScreen component for improved structure",
+          "Enhance localization and refactor LoginScreen",
+          "Refactor LoginScreen component and improve styling",
+          "Enhance accessibility and dark mode styles",
+          "Enhance README with project details and instructions",
+          "Update README.md",
+          "Update main.tsx",
+          "Update vite.config.ts",
+          "Update deploy.yml",
+          "Update deploy.yml",
+          "Create sample",
+          "Update deploy.yml",
+          "Add deploy workflow configuration",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 74
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 4,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 351,804 bytes (70% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 141,774 bytes (28% of repo)",
+          "strength": 0.6801425867158817
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 6,873 bytes (1% of repo)",
+          "strength": 0.413580910452539
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 3,484 bytes (1% of repo)",
+          "strength": 0.406884314275665
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,143 bytes (0% of repo)",
+          "strength": 0.40423452511272967
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "html-css",
+          "source": "repo_name",
+          "detail": "'css' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "repo_name",
+          "detail": "'tailwind' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 506078,
+        "strong_skills": [
+          "cicd",
+          "data-viz",
+          "html-css",
+          "react",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "pratechos",
+      "full_name": "Terrificdatabytes/pratechos",
+      "html_url": "https://github.com/Terrificdatabytes/pratechos",
+      "description": "open source os",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-05-17T07:52:04Z",
+      "pushed_at": "2021-07-31T17:00:09Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 29,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [
+        "assembler",
+        "assembly",
+        "virtualization",
+        "x86-64"
+      ],
+      "languages": {
+        "Assembly": 1126
+      },
+      "primary_language": "Assembly",
+      "file_count": 4,
+      "top_level_paths": [
+        ".github",
+        "LICENSE",
+        "README.md",
+        "src"
+      ],
+      "notable_files": [
+        ".github/workflows/blank.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 391,
+      "readme_excerpt": "# pratechos\npratechos  is an open source operating system developed by pratechsolutions.it is written in assembly language.\nit is still under developing process so we realeased the boot loader of our os you can run see in real computer or any other virtualization softwares like oracle vm virtual box,vm ware etc..\n# how to compile\nplease download flat assembler (fasm) to create a os image\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2021-05-17T07:52:05+00:00",
+        "last_at": "2021-07-31T17:00:09+00:00",
+        "active_days": 2,
+        "span_days": 75,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.182,
+        "messages_sample": [
+          "1",
+          "code realeased",
+          "1",
+          "version 0.0.01",
+          "1",
+          "1",
+          "1",
+          "version 0.0.01",
+          "upload",
+          "create src",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/blank.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "NER-EXPLORER",
+      "full_name": "Terrificdatabytes/NER-EXPLORER",
+      "html_url": "https://github.com/Terrificdatabytes/NER-EXPLORER",
+      "description": "Turn any RSS news feed into an interactive knowledge graph of people, organizations, and places — 100% open-source, no paid APIs, no keys.",
+      "homepage": "https://ner-explorer.streamlit.app/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-30T15:34:17Z",
+      "pushed_at": "2026-09-12T18:15:45Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 51,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 40166
+      },
+      "primary_language": "Python",
+      "file_count": 11,
+      "top_level_paths": [
+        ".devcontainer",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "app.py",
+        "debug_decode.py",
+        "knowledge_graph.py",
+        "ner_engine.py",
+        "news_fetcher.py",
+        "requirements-trf.txt",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "feedparser",
+          "googlenewsdecoder",
+          "https",
+          "lxml_html_clean",
+          "networkx",
+          "newspaper4k",
+          "pandas",
+          "pyvis",
+          "spacy",
+          "streamlit"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5612,
+      "readme_excerpt": "# News NER Explorer\n\n**Turn any RSS news feed into an interactive knowledge graph of people, organizations, and places — 100% open-source, no paid APIs, no keys.**\n\nPoint it at a topic or a feed and it pulls real articles (not just headlines), runs Named Entity Recognition over the full text, merges entity variants into single identities, and renders an interactive graph of who and what is connected — all in your browser, with CSV/JSON export.\n\n---\n\n## What makes this different from a typical \"spaCy demo\"\n\nA lot of NER projects stop at \"highlight entities in a text box.\" This one builds a **complete pipeline**, and each stage solves a real problem the naive version runs into:\n\n**1. Ingestion → Scraping**\nRSS feeds (including Google News search) only give you a headline and a one-line summary — not the article. Google News links are also redirect wrappers, not real URLs, and resolving them requires decoding a signed internal payload (not a normal HTTP redirect). This project:\n- Resolves Google News redirect links via signature decoding, with a fallback to legacy base64 decoding for older link formats\n- Scrapes the real article body with a realistic browser User-Agent to get past bas",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2026-08-30T15:34:52+00:00",
+        "last_at": "2026-09-12T18:15:45+00:00",
+        "active_days": 3,
+        "span_days": 13,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.357,
+        "messages_sample": [
+          "Create LICENSE",
+          "Enhance README with project details and instructions",
+          "Added Dev Container Folder",
+          "Add libraries to requirements-trf.txt",
+          "Remove deployment instructions from README",
+          "Revise README for clarity and detail",
+          "Add files via upload",
+          "Add files via upload",
+          "Update requirements.txt to simplify package list",
+          "Add newline at end of news_fetcher.py",
+          "Update ner_engine.py",
+          "Fix formatting in knowledge_graph.py",
+          "Fix formatting and update sidebar captions in app.py",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 40,166 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "pandas in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nlp",
+          "source": "manifest",
+          "detail": "spacy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "streamlit in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 40166,
+        "strong_skills": [
+          "data-viz",
+          "nlp",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 389006,
+    "Python": 167465,
+    "CSS": 143149,
+    "JavaScript": 80328,
+    "HTML": 61085,
+    "Kotlin": 6502,
+    "Shell": 3484,
+    "Objective-C": 2315,
+    "Ruby": 2041,
+    "Assembly": 1126,
+    "Objective-C++": 819
+  },
+  "total_commits": 226,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Terrificdatabytes/anna-univ-notifications",
+        "Terrificdatabytes/edugamehub1"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 389006,
+      "commit_count": 93,
+      "first_seen": "2025-09-14T09:54:00+00:00",
+      "last_seen": "2026-09-10T14:46:23+00:00",
+      "details": [
+        "anna-univ-notifications: TypeScript: 37,202 bytes (59% of repo)",
+        "edugamehub1: TypeScript: 351,804 bytes (70% of repo)",
+        "edugamehub1: 'typescript' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Terrificdatabytes/bustracker",
+        "Terrificdatabytes/NER-EXPLORER"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 167465,
+      "commit_count": 122,
+      "first_seen": "2025-10-10T18:47:55+00:00",
+      "last_seen": "2026-09-12T18:15:45+00:00",
+      "details": [
+        "bustracker: Python: 127,299 bytes (52% of repo)",
+        "NER-EXPLORER: Python: 40,166 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "Terrificdatabytes/bustracker",
+        "Terrificdatabytes/NER-EXPLORER"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 122,
+      "first_seen": "2025-10-10T18:47:55+00:00",
+      "last_seen": "2026-09-12T18:15:45+00:00",
+      "details": [
+        "bustracker: numpy in requirements.txt",
+        "NER-EXPLORER: pandas in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "Terrificdatabytes/edugamehub1",
+        "Terrificdatabytes/NER-EXPLORER"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 30,
+      "first_seen": "2025-09-14T09:54:00+00:00",
+      "last_seen": "2026-09-12T18:15:45+00:00",
+      "details": [
+        "edugamehub1: recharts in package.json",
+        "NER-EXPLORER: streamlit in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "Terrificdatabytes/bustracker"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 108,
+      "first_seen": "2025-10-10T18:47:55+00:00",
+      "last_seen": "2026-07-21T17:17:22+00:00",
+      "details": [
+        "bustracker: 'flask' in repo name/description",
+        "bustracker: flask in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Terrificdatabytes/edugamehub1"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2025-09-14T09:54:00+00:00",
+      "last_seen": "2025-09-20T13:17:10+00:00",
+      "details": [
+        "edugamehub1: 'react' in repo name/description",
+        "edugamehub1: react in package.json"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "Terrificdatabytes/bustracker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 108,
+      "first_seen": "2025-10-10T18:47:55+00:00",
+      "last_seen": "2026-07-21T17:17:22+00:00",
+      "details": [
+        "bustracker: scikit-learn in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "Terrificdatabytes/NER-EXPLORER"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 14,
+      "first_seen": "2026-08-30T15:34:52+00:00",
+      "last_seen": "2026-09-12T18:15:45+00:00",
+      "details": [
+        "NER-EXPLORER: spacy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Terrificdatabytes/bustracker",
+        "Terrificdatabytes/edugamehub1"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 0.6801425867158817,
+      "total_bytes": 204234,
+      "commit_count": 124,
+      "first_seen": "2025-09-14T09:54:00+00:00",
+      "last_seen": "2026-07-21T17:17:22+00:00",
+      "details": [
+        "bustracker: HTML: 54,212 bytes (22% of repo)",
+        "bustracker: CSS: 1,375 bytes (1% of repo)",
+        "edugamehub1: CSS: 141,774 bytes (28% of repo)",
+        "edugamehub1: HTML: 6,873 bytes (1% of repo)",
+        "edugamehub1: 'css' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Terrificdatabytes/anna-univ-notifications",
+        "Terrificdatabytes/bustracker",
+        "Terrificdatabytes/edugamehub1"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6597386827278027,
+      "total_bytes": 80328,
+      "commit_count": 201,
+      "first_seen": "2025-09-14T09:54:00+00:00",
+      "last_seen": "2026-09-10T14:46:23+00:00",
+      "details": [
+        "anna-univ-notifications: JavaScript: 14,015 bytes (22% of repo)",
+        "bustracker: JavaScript: 64,170 bytes (26% of repo)",
+        "edugamehub1: JavaScript: 2,143 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Terrificdatabytes/anna-univ-notifications",
+        "Terrificdatabytes/edugamehub1",
+        "Terrificdatabytes/pratechos"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 104,
+      "first_seen": "2021-05-17T07:52:05+00:00",
+      "last_seen": "2026-09-10T14:46:23+00:00",
+      "details": [
+        "anna-univ-notifications: GitHub Actions workflow (.github/workflows/build-apk.yml)",
+        "edugamehub1: GitHub Actions workflow (.github/workflows/deploy.yml)",
+        "pratechos: GitHub Actions workflow (.github/workflows/blank.yml)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Terrificdatabytes/anna-univ-notifications"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 8817,
+      "commit_count": 77,
+      "first_seen": "2025-12-17T08:43:29+00:00",
+      "last_seen": "2026-09-10T14:46:23+00:00",
+      "details": [
+        "anna-univ-notifications: Kotlin: 6,502 bytes (10% of repo)",
+        "anna-univ-notifications: Objective-C: 2,315 bytes (4% of repo)",
+        "anna-univ-notifications: Android app manifest (app/android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Terrificdatabytes/anna-univ-notifications"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 77,
+      "first_seen": "2025-12-17T08:43:29+00:00",
+      "last_seen": "2026-09-10T14:46:23+00:00",
+      "details": [
+        "anna-univ-notifications: test file (app/__tests__/App.test.tsx)"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "Terrificdatabytes/anna-univ-notifications"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 77,
+      "first_seen": "2025-12-17T08:43:29+00:00",
+      "last_seen": "2026-09-10T14:46:23+00:00",
+      "details": [
+        "anna-univ-notifications: React Native bundler config (app/metro.config.js)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Terrificdatabytes/anna-univ-notifications"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 77,
+      "first_seen": "2025-12-17T08:43:29+00:00",
+      "last_seen": "2026-09-10T14:46:23+00:00",
+      "details": [
+        "anna-univ-notifications: docs directory (docs/FCM_SETUP.md)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Terrificdatabytes/edugamehub1"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.406884314275665,
+      "total_bytes": 3484,
+      "commit_count": 16,
+      "first_seen": "2025-09-14T09:54:00+00:00",
+      "last_seen": "2025-09-20T13:17:10+00:00",
+      "details": [
+        "edugamehub1: Shell: 3,484 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "websockets",
+      "repos": [
+        "Terrificdatabytes/bustracker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 108,
+      "first_seen": "2025-10-10T18:47:55+00:00",
+      "last_seen": "2026-07-21T17:17:22+00:00",
+      "details": [
+        "bustracker: 'socket.io' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Terrificdatabytes/edugamehub1"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2025-09-14T09:54:00+00:00",
+      "last_seen": "2025-09-20T13:17:10+00:00",
+      "details": [
+        "edugamehub1: 'tailwind' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 226,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 15,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:21:37.153317+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

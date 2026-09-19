@@ -1,0 +1,1138 @@
+{
+  "applicant_id": "applicant0105",
+  "login": "Vishesh-Kumar-Gavel",
+  "html_url": "https://github.com/Vishesh-Kumar-Gavel",
+  "created_at": "2021-06-04T10:25:11Z",
+  "account_age_days": 1930,
+  "public_repos": 7,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "interview-experience-hub",
+      "full_name": "Vishesh-Kumar-Gavel/interview-experience-hub",
+      "html_url": "https://github.com/Vishesh-Kumar-Gavel/interview-experience-hub",
+      "description": " Platform for students to share interview experiences and prepare effectively for  interviews. Integrated frequently asked coding questions to oﬀer focused preparation and practical insights",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-07T11:36:41Z",
+      "pushed_at": "2026-08-07T12:13:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 318,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 8344
+      },
+      "primary_language": "JavaScript",
+      "file_count": 15,
+      "top_level_paths": [
+        ".gitignore",
+        ".node-version",
+        "images",
+        "index.js",
+        "models",
+        "package-lock.json",
+        "package.json",
+        "routes",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "bcrypt",
+          "cors",
+          "dotenv",
+          "express",
+          "install",
+          "mongodb",
+          "mongoose",
+          "multer",
+          "nodemon",
+          "npm",
+          "path"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 8,344 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongodb in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 8344,
+        "strong_skills": [
+          "javascript",
+          "mongodb",
+          "nodejs"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "workout-tracker",
+      "full_name": "Vishesh-Kumar-Gavel/workout-tracker",
+      "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker",
+      "description": "workout tracker website with SpringBoot.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-06T19:31:16Z",
+      "pushed_at": "2026-09-17T01:11:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 114,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 17593,
+        "HTML": 136
+      },
+      "primary_language": "Java",
+      "file_count": 34,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitattributes",
+        ".gitignore",
+        ".mvn",
+        "hs_err_pid434.log",
+        "mvnw",
+        "mvnw.cmd",
+        "pom.xml",
+        "src"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "lombok",
+          "maven-compiler-plugin",
+          "opencsv",
+          "postgresql",
+          "spring-boot-maven-plugin",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-parent",
+          "spring-boot-starter-web",
+          "workout-tracker"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2025-08-06T20:13:29+00:00",
+        "last_at": "2026-09-13T18:52:14+00:00",
+        "active_days": 13,
+        "span_days": 402,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Feat(Workout):Implement find by Id",
+          "fix(createWorkout): Fix setting Exercise Set Weight",
+          "feat(Workouts): Implement getWorkoutService",
+          "Chore(local): move local repos",
+          "feat(CreateRoutine): Implement Basic Create Routine",
+          "Making backend up to date",
+          "feattemp get all exercise description",
+          "deleteWorkout by Name",
+          "get post done",
+          "create workout and get all workouts is now working",
+          "layers added",
+          "made all the tables still has some sql problems",
+          "added index.html",
+          "saved changes in Exercise class?",
+          "Initial commit: workout-tracker"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 17,593 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (src/main/resources/schema-postgres.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "manifest",
+          "detail": "postgresql in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-maven-plugin in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 17729,
+        "strong_skills": [
+          "java",
+          "postgresql",
+          "spring",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "workout-tracker-next",
+      "full_name": "Vishesh-Kumar-Gavel/workout-tracker-next",
+      "html_url": "https://github.com/Vishesh-Kumar-Gavel/workout-tracker-next",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-24T05:28:20Z",
+      "pushed_at": "2026-09-16T04:02:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 227,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 57997,
+        "JavaScript": 559,
+        "CSS": 488
+      },
+      "primary_language": "TypeScript",
+      "file_count": 39,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "note.png",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "babel-plugin-react-compiler",
+          "cva",
+          "eslint",
+          "eslint-config-next",
+          "next",
+          "react",
+          "react-dom",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1450,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2026-02-25T04:45:14+00:00",
+        "last_at": "2026-09-16T04:02:45+00:00",
+        "active_days": 11,
+        "span_days": 202,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.067,
+        "messages_sample": [
+          "chore(CVA):buttons",
+          "Feat(logWorkout):Implement fetch Routine Page",
+          "fix(CreateRoutine): Implement setting reps for each set",
+          "fix(create-routine): Setting Exercise Weight",
+          "feat(Buttons): Implement class-variance-authority",
+          "feat(Workouts): Implement show exercise namesin Workout card",
+          "chore(deps): update package-lock.json",
+          "feat(CreateRoutine): Implement basic create routine",
+          "feat(CreateRoutine): Implement add exercise button",
+          "feat(Routines): Implement delete workout api integration",
+          "fix(Exercises): fix exerciseId to sync with database",
+          "Implemented Create Routine Functionality",
+          "secong commit",
+          "initial commit",
+          "Initial commit from Create Next App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 57,997 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "repo_name",
+          "detail": "'next' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 59044,
+        "strong_skills": [
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "simongame",
+      "full_name": "Vishesh-Kumar-Gavel/simongame",
+      "html_url": "https://github.com/Vishesh-Kumar-Gavel/simongame",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-08T21:32:08Z",
+      "pushed_at": "2023-09-08T21:32:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 49,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 2234,
+        "HTML": 881,
+        "CSS": 650
+      },
+      "primary_language": "JavaScript",
+      "file_count": 9,
+      "top_level_paths": [
+        "README.md",
+        "game.js",
+        "index.html",
+        "sounds",
+        "styles.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 11,
+      "readme_excerpt": "# SimonGame",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2023-09-08T21:32:08+00:00",
+        "last_at": "2023-09-08T21:32:59+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,234 bytes (59% of repo)",
+          "strength": 0.9933598937583001
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 881 bytes (23% of repo)",
+          "strength": 0.6339973439575033
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 650 bytes (17% of repo)",
+          "strength": 0.5726427622841965
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3765,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bird",
+      "full_name": "Vishesh-Kumar-Gavel/bird",
+      "html_url": "https://github.com/Vishesh-Kumar-Gavel/bird",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-08T21:09:00Z",
+      "pushed_at": "2023-09-08T21:10:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 4863,
+        "CSS": 735,
+        "HTML": 576
+      },
+      "primary_language": "JavaScript",
+      "file_count": 6,
+      "top_level_paths": [
+        "Flappy-bird.png",
+        "README.md",
+        "boxes.js",
+        "game.js",
+        "index.css",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6,
+      "readme_excerpt": "# bird",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2023-09-08T21:09:00+00:00",
+        "last_at": "2023-09-08T21:10:03+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,863 bytes (79% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 735 bytes (12% of repo)",
+          "strength": 0.5190476190476191
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 576 bytes (9% of repo)",
+          "strength": 0.4932944606413994
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6174,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 57997,
+    "Java": 17593,
+    "JavaScript": 16000,
+    "CSS": 1873,
+    "HTML": 1593
+  },
+  "total_commits": 34,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Vishesh-Kumar-Gavel/interview-experience-hub",
+        "Vishesh-Kumar-Gavel/simongame",
+        "Vishesh-Kumar-Gavel/bird"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 15441,
+      "commit_count": 4,
+      "first_seen": "2023-09-08T21:09:00+00:00",
+      "last_seen": "2023-09-08T21:32:59+00:00",
+      "details": [
+        "interview-experience-hub: JavaScript: 8,344 bytes (100% of repo)",
+        "simongame: JavaScript: 2,234 bytes (59% of repo)",
+        "bird: JavaScript: 4,863 bytes (79% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 57997,
+      "commit_count": 15,
+      "first_seen": "2026-02-25T04:45:14+00:00",
+      "last_seen": "2026-09-16T04:02:45+00:00",
+      "details": [
+        "workout-tracker-next: TypeScript: 57,997 bytes (98% of repo)",
+        "workout-tracker-next: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 17593,
+      "commit_count": 15,
+      "first_seen": "2025-08-06T20:13:29+00:00",
+      "last_seen": "2026-09-13T18:52:14+00:00",
+      "details": [
+        "workout-tracker: Java: 17,593 bytes (99% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 15,
+      "first_seen": "2026-02-25T04:45:14+00:00",
+      "last_seen": "2026-09-16T04:02:45+00:00",
+      "details": [
+        "workout-tracker-next: next config (next.config.ts)",
+        "workout-tracker-next: 'next' in repo name/description",
+        "workout-tracker-next: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "Vishesh-Kumar-Gavel/interview-experience-hub"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "interview-experience-hub: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "Vishesh-Kumar-Gavel/interview-experience-hub"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "interview-experience-hub: mongodb in package.json"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 15,
+      "first_seen": "2025-08-06T20:13:29+00:00",
+      "last_seen": "2026-09-13T18:52:14+00:00",
+      "details": [
+        "workout-tracker: postgresql in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 15,
+      "first_seen": "2025-08-06T20:13:29+00:00",
+      "last_seen": "2026-09-13T18:52:14+00:00",
+      "details": [
+        "workout-tracker: spring-boot-maven-plugin in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 15,
+      "first_seen": "2026-02-25T04:45:14+00:00",
+      "last_seen": "2026-09-16T04:02:45+00:00",
+      "details": [
+        "workout-tracker-next: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker-next"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 15,
+      "first_seen": "2026-02-25T04:45:14+00:00",
+      "last_seen": "2026-09-16T04:02:45+00:00",
+      "details": [
+        "workout-tracker-next: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Vishesh-Kumar-Gavel/simongame",
+        "Vishesh-Kumar-Gavel/bird"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6339973439575033,
+      "total_bytes": 2842,
+      "commit_count": 4,
+      "first_seen": "2023-09-08T21:09:00+00:00",
+      "last_seen": "2023-09-08T21:32:59+00:00",
+      "details": [
+        "simongame: HTML: 881 bytes (23% of repo)",
+        "simongame: CSS: 650 bytes (17% of repo)",
+        "bird: CSS: 735 bytes (12% of repo)",
+        "bird: HTML: 576 bytes (9% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "Vishesh-Kumar-Gavel/workout-tracker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 15,
+      "first_seen": "2025-08-06T20:13:29+00:00",
+      "last_seen": "2026-09-13T18:52:14+00:00",
+      "details": [
+        "workout-tracker: SQL file (src/main/resources/schema-postgres.sql)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 34,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 12,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:25:31.884011+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

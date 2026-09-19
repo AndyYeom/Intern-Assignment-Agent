@@ -1,0 +1,235 @@
+{
+  "applicant_id": "applicant0064",
+  "github_login": "Special-Sharpie",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0064.json",
+  "skills": [
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/server_metrics_dashboard"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/server_metrics_dashboard",
+          "html_url": "https://github.com/Special-Sharpie/server_metrics_dashboard",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_docker",
+            "Dockerfile (mc-status-db/dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/OOSDthreadedGroup5"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/OOSDthreadedGroup5",
+          "html_url": "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+          "level": 3,
+          "reasons": [
+            "intermediate: 28 commits; many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "CSS: 15,424 bytes (22% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/server_metrics_mod"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/server_metrics_mod",
+          "html_url": "https://github.com/Special-Sharpie/server_metrics_mod",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "Java: 13,779 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+        "https://github.com/Special-Sharpie/server_metrics_dashboard"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/OOSDthreadedGroup5",
+          "html_url": "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+          "level": 3,
+          "reasons": [
+            "intermediate: 28 commits; many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "JavaScript: 25,071 bytes (35% of repo)"
+          ]
+        },
+        {
+          "repo": "Special-Sharpie/server_metrics_dashboard",
+          "html_url": "https://github.com/Special-Sharpie/server_metrics_dashboard",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_docker",
+            "JavaScript: 4,685 bytes (13% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "mysql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+        "https://github.com/Special-Sharpie/server_metrics_mod"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/OOSDthreadedGroup5",
+          "html_url": "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+          "level": 3,
+          "reasons": [
+            "intermediate: 28 commits; many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "mysql in package.json"
+          ]
+        },
+        {
+          "repo": "Special-Sharpie/server_metrics_mod",
+          "html_url": "https://github.com/Special-Sharpie/server_metrics_mod",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: none",
+            "mysql in build.gradle"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/OOSDthreadedGroup5"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/OOSDthreadedGroup5",
+          "html_url": "https://github.com/Special-Sharpie/OOSDthreadedGroup5",
+          "level": 3,
+          "reasons": [
+            "intermediate: 28 commits; many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/server_metrics_dashboard"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/server_metrics_dashboard",
+          "html_url": "https://github.com/Special-Sharpie/server_metrics_dashboard",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_docker",
+            "Python: 6,597 bytes (19% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/server_metrics_dashboard"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/server_metrics_dashboard",
+          "html_url": "https://github.com/Special-Sharpie/server_metrics_dashboard",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_docker",
+            "SQL file (mc-status-db/install.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "vue",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Special-Sharpie/server_metrics_dashboard"
+      ],
+      "repos": [
+        {
+          "repo": "Special-Sharpie/server_metrics_dashboard",
+          "html_url": "https://github.com/Special-Sharpie/server_metrics_dashboard",
+          "level": 1,
+          "reasons": [
+            "entry: 3 commits, independent-work signals: has_docker",
+            "Vue: 21,006 bytes (60% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 5,
+    "verified": 4
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "applicant_id": "applicant0078",
+  "github_login": "Aryo80",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0078.json",
+  "skills": [
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "https://github.com/Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 47 commits; many_active_days, documented",
+            "matplotlib in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-monitoring-grafana-evidently",
+          "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "matplotlib in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+        "https://github.com/Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/mlops-batch-deployment-pipenv-docker",
+          "html_url": "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Dockerfile (Dockerfile)"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-monitoring-grafana-evidently",
+          "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "docker-compose (docker-compose.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "etl",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "https://github.com/Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 47 commits; many_active_days, documented",
+            "prefect in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-monitoring-grafana-evidently",
+          "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "prefect in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/experiment-tracking-mlflow-zoomcamp",
+          "html_url": "https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp",
+          "level": 1,
+          "reasons": [
+            "entry: 16 commits, independent-work signals: documented",
+            "HTML: 25,788 bytes (15% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+        "https://github.com/Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 47 commits; many_active_days, documented",
+            "scikit-learn in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-batch-deployment-pipenv-docker",
+          "html_url": "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "scikit-learn in Pipfile"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-monitoring-grafana-evidently",
+          "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "scikit-learn in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "nlp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 47 commits; many_active_days, documented",
+            "nltk in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "https://github.com/Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+        "https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp",
+        "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+        "https://github.com/Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 47 commits; many_active_days, documented",
+            "numpy in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+          "html_url": "https://github.com/Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "jupyter notebook (Pandas_Data_cleaning.ipynb)"
+          ]
+        },
+        {
+          "repo": "Aryo80/experiment-tracking-mlflow-zoomcamp",
+          "html_url": "https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp",
+          "level": 1,
+          "reasons": [
+            "entry: 16 commits, independent-work signals: documented",
+            "jupyter notebook (02-experiment-tracking/duration-prediction.ipynb)"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-batch-deployment-pipenv-docker",
+          "html_url": "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "jupyter notebook (starter.ipynb)",
+            "numpy in Pipfile"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-monitoring-grafana-evidently",
+          "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "jupyter notebook (baseline_model_nyc_taxi_data.ipynb)",
+            "numpy in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "postgresql",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/mlops-monitoring-grafana-evidently",
+          "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "psycopg in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+        "https://github.com/Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+        "https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp",
+        "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+        "https://github.com/Aryo80/mlops-monitoring-grafana-evidently"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 47 commits; many_active_days, documented",
+            "Python: 46,261 bytes (97% of repo)"
+          ]
+        },
+        {
+          "repo": "Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+          "html_url": "https://github.com/Aryo80/Data-Cleaning-pandas-Jupyter-Notebook-Dashboard-Tableau",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only, all_commits_one_day",
+            "Jupyter Notebook: 32,052 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Aryo80/experiment-tracking-mlflow-zoomcamp",
+          "html_url": "https://github.com/Aryo80/experiment-tracking-mlflow-zoomcamp",
+          "level": 1,
+          "reasons": [
+            "entry: 16 commits, independent-work signals: documented",
+            "Jupyter Notebook: 135,596 bytes (80% of repo)"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-batch-deployment-pipenv-docker",
+          "html_url": "https://github.com/Aryo80/mlops-batch-deployment-pipenv-docker",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Jupyter Notebook: 7,727 bytes (82% of repo)",
+            "Python: 1,356 bytes (14% of repo)"
+          ]
+        },
+        {
+          "repo": "Aryo80/mlops-monitoring-grafana-evidently",
+          "html_url": "https://github.com/Aryo80/mlops-monitoring-grafana-evidently",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Jupyter Notebook: 9,371,052 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "web-scraping",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer"
+      ],
+      "repos": [
+        {
+          "repo": "Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "html_url": "https://github.com/Aryo80/Hello-Fresh-Canada-Review-Analyzer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 47 commits; many_active_days, documented",
+            "selenium in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 8
+  }
+}

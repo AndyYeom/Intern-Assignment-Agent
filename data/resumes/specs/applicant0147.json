@@ -1,0 +1,140 @@
+{
+  "github_login": "rilsonjoas",
+  "applicant_id": "applicant0147",
+  "first_name": "Owen",
+  "last_name": "Fairweather",
+  "career_stage": "student",
+  "email": "owen@rivermoor.example",
+  "phone": "(555) 010-0147",
+  "location": "Rivermoor",
+  "linkedin": "linkedin.example.com/in/owen-fairweather",
+  "github_url": "github.example.com/owen-fairweather",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Rivermoor Polytechnic",
+    "location": "Rivermoor",
+    "degree": "Bachelor of Science",
+    "major": "Computer Engineering",
+    "minor": null,
+    "graduation": "June 2026",
+    "gpa": "3.9/4.0",
+    "coursework": [
+      "Database Systems",
+      "Distributed Systems",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Lecionario",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Aug 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a large TypeScript web application across roughly 500 files, adding an automated test suite and CI to catch regressions early.",
+        "Packaged the application with Docker so teammates could run an identical environment instead of debugging local setup differences."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Scriptorium Divinum",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Aug 2025",
+      "end": "Aug 2026",
+      "bullets": [
+        "Modeled relational data in PLpgSQL for a content-heavy TypeScript application, then wrote automated tests around the trickiest queries.",
+        "Introduced stricter ESLint rules after a subtle bug slipped past review, cutting down on repeated review comments."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "PLpgSQL",
+        "Python"
+      ]
+    },
+    {
+      "title": "A Bancada Evangelica",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Aug 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a NestJS backend and React frontend to evaluate public figures against defined criteria using official public data sources.",
+        "Wrote end-to-end tests with Playwright after early manual QA missed a data-parsing edge case, catching similar issues automatically since."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "NestJS",
+        "Playwright",
+        "React"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Testing Practices Lead",
+      "organization": "Rivermoor Dev Circle",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Started a weekly session where classmates traded flaky-test fixes, after noticing several projects shipped without any automated tests.",
+        "Learned that a small, consistent testing habit prevented more bugs than any single clever fix."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "SQL"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "Tailwind CSS",
+      "React"
+    ],
+    "Backend": [
+      "Node.js"
+    ],
+    "Data": [
+      "Data Modeling",
+      "Data Visualization"
+    ],
+    "DevOps": [
+      "Docker",
+      "Linux & Server Administration",
+      "CI/CD",
+      "Kubernetes"
+    ],
+    "Quality": [
+      "Unit Testing",
+      "Integration & E2E Testing"
+    ],
+    "Mobile": [
+      "React Native"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

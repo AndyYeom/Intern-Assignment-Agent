@@ -1,0 +1,137 @@
+{
+  "github_login": "RajwanYair",
+  "applicant_id": "applicant0086",
+  "first_name": "Diego",
+  "last_name": "Marchetti",
+  "career_stage": "student",
+  "email": "diego.marchetti@rosemont.example",
+  "phone": "(555) 010-0186",
+  "location": "Rosemont",
+  "linkedin": "linkedin.example.com/in/diego-marchetti",
+  "github_url": "github.example.com/diego-marchetti",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Rosemont Institute of Technology",
+    "location": "Rosemont",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "June 2027",
+    "gpa": null,
+    "coursework": [
+      "Software Testing",
+      "Systems Programming",
+      "Web Application Development",
+      "Operating Systems"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Regilattice",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a C# and PowerShell toolkit for Windows registry tweaks, shipping both a WinForms GUI and a CLI across 597 files.",
+        "Set up continuous integration and Docker packaging, and grew the project to 12 stars from other developers."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "PowerShell",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Woodworkingshop",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a React and TypeScript browser PWA for cabinet planning, implementing bin-packing logic to reduce material waste in cut lists.",
+        "Wrote an automated test suite with Playwright and accessibility checks, catching regressions before they reached the exported PDF or DXF output."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "React",
+        "Playwright"
+      ]
+    },
+    {
+      "title": "Crosstide",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a TypeScript stock-analysis PWA on Cloudflare Workers, implementing technical indicators and a consensus signal system.",
+        "Configured CI, an automated test suite and Docker packaging, treating reliability as part of the build from day one."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Cloudflare Workers",
+        "Docker"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Contributor Reviewer",
+      "organization": "Rosemont Open-Source Study Group",
+      "location": "Rosemont",
+      "start": "Apr 2026",
+      "end": "Present",
+      "bullets": [
+        "Reviewed pull requests from newer contributors on personal projects, catching untested edge cases before merge."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "JavaScript",
+      "C#",
+      "C/C++",
+      "SQL"
+    ],
+    "Frontend": [
+      "React",
+      "Tailwind CSS",
+      "Frontend State Management"
+    ],
+    "Data": [
+      "Web Scraping",
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "CI/CD",
+      "Docker",
+      "Linux & Server Administration"
+    ],
+    "Quality": [
+      "Unit Testing",
+      "Integration & E2E Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

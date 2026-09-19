@@ -1,0 +1,575 @@
+{
+  "applicant_id": "applicant0066",
+  "login": "dondadabempah",
+  "html_url": "https://github.com/dondadabempah",
+  "created_at": "2021-01-25T23:58:29Z",
+  "account_age_days": 2060,
+  "public_repos": 6,
+  "followers": 2,
+  "following": 0,
+  "repos": [
+    {
+      "name": "full_stack_ayfc_agency",
+      "full_name": "dondadabempah/full_stack_ayfc_agency",
+      "html_url": "https://github.com/dondadabempah/full_stack_ayfc_agency",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-05-11T13:28:04Z",
+      "pushed_at": "2021-05-19T13:15:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 96725,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 12341837,
+        "HTML": 186947,
+        "JavaScript": 131352,
+        "CSS": 115048,
+        "PowerShell": 8834,
+        "Shell": 2914
+      },
+      "primary_language": "Python",
+      "file_count": 6506,
+      "top_level_paths": [
+        ".idea",
+        "ayfc_talent_agency",
+        "bin",
+        "lib",
+        "pyvenv.cfg"
+      ],
+      "notable_files": [
+        "lib/python3.9/site-packages/pkg_resources/tests/data/my-test-package-source/setup.py"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2021-05-11T13:14:45+00:00",
+        "last_at": "2021-05-11T13:18:31+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "changed timezone in settings.py",
+          "skeleton of djangorestapi first created"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1821
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 12,341,837 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 186,947 bytes (1% of repo)",
+          "strength": 0.4146201606452588
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 131,352 bytes (1% of repo)",
+          "strength": 0.4102723624400286
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 115,048 bytes (1% of repo)",
+          "strength": 0.4089973106918845
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 8,834 bytes (0% of repo)",
+          "strength": 0.40069086157649075
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,914 bytes (0% of repo)",
+          "strength": 0.4002278889103344
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (ayfc_talent_agency/api/migrations/__init__.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (lib/python3.9/site-packages/django/test/__init__.py)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12786932,
+        "strong_skills": [
+          "data-modeling",
+          "python",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ayfc_talent_agency",
+      "full_name": "dondadabempah/ayfc_talent_agency",
+      "html_url": "https://github.com/dondadabempah/ayfc_talent_agency",
+      "description": "AYFC Talent Scouting Agency Full Stack Typescript App",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-05-08T13:59:43Z",
+      "pushed_at": "2021-05-08T14:02:34Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 214,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 26,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.json",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@types/jest",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "react",
+          "react-dom",
+          "react-scripts",
+          "typescript",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2099,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `yarn start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in the browser.\n\nThe page will reload if you make edits.\\\nYou will also see any lint errors in the console.\n\n### `yarn test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `yarn build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `yarn eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can’t go back!**\n\nIf you aren’t satisfied with the build tool and configuration choices, you can `eject` a",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2021-05-08T13:41:08+00:00",
+        "last_at": "2021-05-08T13:54:38+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Typescript initial skeleton",
+          "Initialize project using Create React App"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/App.test.tsx)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/jest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "react",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 12341837,
+    "HTML": 186947,
+    "JavaScript": 131352,
+    "CSS": 115048,
+    "PowerShell": 8834,
+    "Shell": 2914
+  },
+  "total_commits": 4,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "dondadabempah/full_stack_ayfc_agency"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 12341837,
+      "commit_count": 2,
+      "first_seen": "2021-05-11T13:14:45+00:00",
+      "last_seen": "2021-05-11T13:18:31+00:00",
+      "details": [
+        "full_stack_ayfc_agency: Python: 12,341,837 bytes (97% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "dondadabempah/full_stack_ayfc_agency",
+        "dondadabempah/ayfc_talent_agency"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2021-05-08T13:41:08+00:00",
+      "last_seen": "2021-05-11T13:18:31+00:00",
+      "details": [
+        "full_stack_ayfc_agency: test directory (lib/python3.9/site-packages/django/test/__init__.py)",
+        "ayfc_talent_agency: test file (src/App.test.tsx)",
+        "ayfc_talent_agency: @types/jest in package.json"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "dondadabempah/ayfc_talent_agency"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2021-05-08T13:41:08+00:00",
+      "last_seen": "2021-05-08T13:54:38+00:00",
+      "details": [
+        "ayfc_talent_agency: 'typescript' in repo name/description",
+        "ayfc_talent_agency: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "dondadabempah/ayfc_talent_agency"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2021-05-08T13:41:08+00:00",
+      "last_seen": "2021-05-08T13:54:38+00:00",
+      "details": [
+        "ayfc_talent_agency: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "dondadabempah/full_stack_ayfc_agency"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2021-05-11T13:14:45+00:00",
+      "last_seen": "2021-05-11T13:18:31+00:00",
+      "details": [
+        "full_stack_ayfc_agency: database migrations (ayfc_talent_agency/api/migrations/__init__.py)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "dondadabempah/full_stack_ayfc_agency"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4146201606452588,
+      "total_bytes": 301995,
+      "commit_count": 2,
+      "first_seen": "2021-05-11T13:14:45+00:00",
+      "last_seen": "2021-05-11T13:18:31+00:00",
+      "details": [
+        "full_stack_ayfc_agency: HTML: 186,947 bytes (1% of repo)",
+        "full_stack_ayfc_agency: CSS: 115,048 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "dondadabempah/full_stack_ayfc_agency"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4102723624400286,
+      "total_bytes": 131352,
+      "commit_count": 2,
+      "first_seen": "2021-05-11T13:14:45+00:00",
+      "last_seen": "2021-05-11T13:18:31+00:00",
+      "details": [
+        "full_stack_ayfc_agency: JavaScript: 131,352 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "dondadabempah/full_stack_ayfc_agency"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40069086157649075,
+      "total_bytes": 11748,
+      "commit_count": 2,
+      "first_seen": "2021-05-11T13:14:45+00:00",
+      "last_seen": "2021-05-11T13:18:31+00:00",
+      "details": [
+        "full_stack_ayfc_agency: PowerShell: 8,834 bytes (0% of repo)",
+        "full_stack_ayfc_agency: Shell: 2,914 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 1,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 4,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 5,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3; total_commits: 4 < 20"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:16:21.471702+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3; total_commits: 4 < 20",
+    "fewer than 3 repos mined - thin evidence base"
+  ]
+}

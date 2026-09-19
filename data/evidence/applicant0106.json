@@ -1,0 +1,165 @@
+{
+  "applicant_id": "applicant0106",
+  "github_login": "benny-dreamly",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0106.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/benny-dreamly/ArchipelagoMusicClient"
+      ],
+      "repos": [
+        {
+          "repo": "benny-dreamly/ArchipelagoMusicClient",
+          "html_url": "https://github.com/benny-dreamly/ArchipelagoMusicClient",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "GitHub Actions workflow (.github/workflows/build_jar.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/benny-dreamly/ContractorsLoophole"
+      ],
+      "repos": [
+        {
+          "repo": "benny-dreamly/ContractorsLoophole",
+          "html_url": "https://github.com/benny-dreamly/ContractorsLoophole",
+          "level": 2,
+          "reasons": [
+            "intermediate: 38 commits; multi_month_span, documented",
+            "C#: 8,281 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "java",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/benny-dreamly/ArchipelagoMusicClient"
+      ],
+      "repos": [
+        {
+          "repo": "benny-dreamly/ArchipelagoMusicClient",
+          "html_url": "https://github.com/benny-dreamly/ArchipelagoMusicClient",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "Java: 207,803 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/benny-dreamly/adventures-of-dreamland",
+        "https://github.com/benny-dreamly/city-folk-decomp"
+      ],
+      "repos": [
+        {
+          "repo": "benny-dreamly/adventures-of-dreamland",
+          "html_url": "https://github.com/benny-dreamly/adventures-of-dreamland",
+          "level": 2,
+          "reasons": [
+            "intermediate: 71 commits; many_active_days, documented",
+            "Python: 50,980 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "benny-dreamly/city-folk-decomp",
+          "html_url": "https://github.com/benny-dreamly/city-folk-decomp",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Python: 105,304 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/benny-dreamly/ArchipelagoMusicClient",
+        "https://github.com/benny-dreamly/city-folk-decomp"
+      ],
+      "repos": [
+        {
+          "repo": "benny-dreamly/ArchipelagoMusicClient",
+          "html_url": "https://github.com/benny-dreamly/ArchipelagoMusicClient",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "docs directory (docs/AI-DISCLOSURE.md)"
+          ]
+        },
+        {
+          "repo": "benny-dreamly/city-folk-decomp",
+          "html_url": "https://github.com/benny-dreamly/city-folk-decomp",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "docs directory (docs/comment_section.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/benny-dreamly/ArchipelagoMusicClient"
+      ],
+      "repos": [
+        {
+          "repo": "benny-dreamly/ArchipelagoMusicClient",
+          "html_url": "https://github.com/benny-dreamly/ArchipelagoMusicClient",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, has_tests, many_active_days, documented",
+            "test directory (src/test/java/app/logic/QueueManagerTest.java)",
+            "junit-bom in build.gradle.kts"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 6
+  }
+}

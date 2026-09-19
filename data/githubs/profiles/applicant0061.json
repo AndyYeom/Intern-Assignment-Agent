@@ -1,0 +1,1012 @@
+{
+  "applicant_id": "applicant0061",
+  "login": "y0ussefmohamed",
+  "html_url": "https://github.com/y0ussefmohamed",
+  "created_at": "2022-08-03T22:10:33Z",
+  "account_age_days": 1504,
+  "public_repos": 13,
+  "followers": 3,
+  "following": 1,
+  "repos": [
+    {
+      "name": "AIChat",
+      "full_name": "y0ussefmohamed/AIChat",
+      "html_url": "https://github.com/y0ussefmohamed/AIChat",
+      "description": "Advanced Architecure AI Chat App",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-01T22:14:24Z",
+      "pushed_at": "2026-09-16T14:30:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2427,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Swift": 284987
+      },
+      "primary_language": "Swift",
+      "file_count": 144,
+      "top_level_paths": [
+        ".claude",
+        ".gitignore",
+        ".swiftlint.yml",
+        "AGENTS.md",
+        "AGENT_CONTEXT.md",
+        "AIChat",
+        "AIChat.xcodeproj",
+        "AIChatTests",
+        "AIChatUITests"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 101,
+        "first_at": "2026-03-01T22:13:46+00:00",
+        "last_at": "2026-09-16T14:30:23+00:00",
+        "active_days": 45,
+        "span_days": 198,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.04,
+        "messages_sample": [
+          "[Bug] Concurrency Simulatore Issues Fixed",
+          ".",
+          "[Feature] App Delegate Methods for User Lifecycle Observing",
+          "[Feature] V1 DeepLink Handling",
+          "[Feature] Push Notifications",
+          "[Feature] App Store Rating",
+          "[Feature] Adding ATT Prompt",
+          "[Feature] Better Models",
+          "Clean.",
+          "[Feature] Rauth & Listener Reset when Sign",
+          "[Feature] Analytics for User & Auth Managers",
+          "[Feature] Analytics on the rest of the views using same style",
+          "[Feature] Analytics on LinkProviderView",
+          "[Feature] Analytics on UserChatsView",
+          "[Feature] Analytics on ChatView",
+          "[Feature] Adding First Events",
+          "[Feature] Firebase Crashlytics",
+          "[Feature] Mixpanel Analytics",
+          "[Feature] Firebase Analytics",
+          "swiftlint"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 116
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 284,987 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (AIChat.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 284987,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Fullstack_EcommerceWebsite",
+      "full_name": "y0ussefmohamed/Fullstack_EcommerceWebsite",
+      "html_url": "https://github.com/y0ussefmohamed/Fullstack_EcommerceWebsite",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-02T06:07:31Z",
+      "pushed_at": "2025-11-08T15:55:24Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 14654,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 60986,
+        "CSS": 20344,
+        "HTML": 695
+      },
+      "primary_language": "JavaScript",
+      "file_count": 208,
+      "top_level_paths": [
+        ".idea",
+        "ecommerce-backend",
+        "ecommerce-project"
+      ],
+      "notable_files": [
+        "ecommerce-backend/package.json",
+        "ecommerce-project/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-09-02T06:07:37+00:00",
+        "last_at": "2025-11-08T15:55:24+00:00",
+        "active_days": 2,
+        "span_days": 67,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Delete ecommerce-project/starting-code directory",
+          "Delete chatbot-project directory",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 47
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 60,986 bytes (74% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 20,344 bytes (25% of repo)",
+          "strength": 0.648021944529107
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (ecommerce-project/src/pages/home/tests/HomePage.test.jsx)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 82025,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Credit-Card-Fraud-Detection",
+      "full_name": "y0ussefmohamed/Credit-Card-Fraud-Detection",
+      "html_url": "https://github.com/y0ussefmohamed/Credit-Card-Fraud-Detection",
+      "description": "A robust Machine Learning pipeline for detecting credit card fraud in highly imbalanced datasets. Features advanced time-amount feature engineering, SMOTE/Hybrid sampling, and XGBoost with dynamic threshold tuning to maximize F1-score.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-08T10:45:22Z",
+      "pushed_at": "2026-08-06T21:37:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 124,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 294526
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 3,
+      "top_level_paths": [
+        "Credit_Card_Fraud_Detection.ipynb",
+        "LICENSE",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1836,
+      "readme_excerpt": "💳 Credit Card Fraud Detection System\nThis project implements a comprehensive Machine Learning pipeline to identify fraudulent credit card transactions. Addressing the challenge of extreme class imbalance (0.17% fraud rate), the system utilizes advanced feature extraction, hybrid sampling techniques, and ensemble learning to achieve high precision and recall.\n\nKey Features\nAdvanced Feature Engineering:\n\nTemporal Analysis: Extracted cyclical time features (Sine/Cosine of hours) and categorized transactions by part of day.\n\nTransactional Behavior: Created features tracking spending deviations from daily/hourly means and transaction frequency.\n\nV-Column Interaction: Analyzed specific anonymized PCA features correlated with transaction amounts.\n\nHandling Class Imbalance:\n\nImplemented and compared various sampling strategies including SMOTE, RandomUnderSampler (RUS), RandomOverSampler (ROS), and hybrid combinations.\n\nUtilized XGBoost scale_pos_weight to penalize false negatives.\n\nModel Optimization:\n\nBenchmarked Logistic Regression, Random Forest, and XGBoost.\n\nThreshold Tuning: Maximized the F1-Score by analyzing the Precision-Recall curve to find the optimal probability threshold rathe",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2025-12-08T10:45:22+00:00",
+        "last_at": "2026-08-06T21:37:23+00:00",
+        "active_days": 2,
+        "span_days": 241,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Update README.md",
+          "Add files via upload",
+          "Revise README for Credit Card Fraud Detection project",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 294,526 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Credit_Card_Fraud_Detection.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 294526,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "yc-startup-app",
+      "full_name": "y0ussefmohamed/yc-startup-app",
+      "html_url": "https://github.com/y0ussefmohamed/yc-startup-app",
+      "description": "A Next.js startup directory app with Sanity CMS, NextAuth, and user profiles",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-11T20:12:22Z",
+      "pushed_at": "2026-08-06T21:38:22Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1000,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 55749,
+        "CSS": 7505,
+        "JavaScript": 6842
+      },
+      "primary_language": "TypeScript",
+      "file_count": 60,
+      "top_level_paths": [
+        "Documents",
+        "README.md"
+      ],
+      "notable_files": [
+        "Documents/Important/NextJS Projects/yc-startup-app/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3771,
+      "readme_excerpt": "#  YC Startup App\n\nA modern startup directory application built with Next.js, Sanity CMS, and NextAuth. Users can create profiles, upload photos, and share their startup ideas.\n\n##  Features\n\n- 🔐 **GitHub OAuth Authentication** - Secure login with NextAuth.js\n- 👤 **User Profiles** - Custom profile photos and bio management\n- 🏢 **Startup Management** - Create, view, and manage startup listings\n- 🎨 **Modern Design** - Pink-themed UI with responsive design\n- 📱 **Mobile Friendly** - Optimized for all device sizes\n- 🔍 **Search & Filter** - Find startups by category or keywords\n- 📊 **Content Management** - Multiple options for managing content\n\n## 🛠️ Tech Stack\n\n- **Frontend**: Next.js 15, React 19, TypeScript\n- **Styling**: Tailwind CSS, Custom CSS\n- **Authentication**: NextAuth.js v5\n- **CMS**: Sanity.io\n- **Database**: Sanity (NoSQL)\n- **Deployment**: Vercel (recommended)\n\n## Getting Started\n\n### Prerequisites\n\n- Node.js 18+ \n- npm or yarn\n- Sanity account\n- GitHub OAuth app\n\n### Installation\n\n1. **Clone the repository**\n   ```bash\n   git clone https://github.com/YOUR_USERNAME/yc-startup-app.git\n   cd yc-startup-app\n   ```\n\n2. **Install dependencies**\n   ```bash\n   npm install\n   ```\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2024-11-14T20:07:58+00:00",
+        "last_at": "2026-08-06T21:38:22+00:00",
+        "active_days": 3,
+        "span_days": 630,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.222,
+        "messages_sample": [
+          "Revise README structure and remove acknowledgments",
+          "Delete Documents/Important/NextJS Projects/yc-startup-app/README.md",
+          "Update README.md",
+          "Create README.md",
+          "Delete Documents/Important/NextJS Projects/yc-startup-app/.cursor directory",
+          "Delete WebstormProjects/nth directory",
+          "Update README with comprehensive project documentation",
+          "Initial commit: YC Startup App with Next.js, Sanity, and NextAuth",
+          "lkf"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 38
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 55,749 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 7,505 bytes (11% of repo)",
+          "strength": 0.5070674503538005
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,842 bytes (10% of repo)",
+          "strength": 0.49760899338050674
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (Documents/Important/NextJS Projects/yc-startup-app/next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (Documents/Important/NextJS Projects/yc-startup-app/tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cms",
+          "source": "repo_name",
+          "detail": "'cms' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "repo_name",
+          "detail": "'next.js' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 70096,
+        "strong_skills": [
+          "nextjs",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "TourismApp",
+      "full_name": "y0ussefmohamed/TourismApp",
+      "html_url": "https://github.com/y0ussefmohamed/TourismApp",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-30T22:33:25Z",
+      "pushed_at": "2025-12-30T22:37:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1272,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Swift": 17711
+      },
+      "primary_language": "Swift",
+      "file_count": 77,
+      "top_level_paths": [
+        ".DS_Store",
+        "LICENSE",
+        "README.md",
+        "TouristApp",
+        "TouristApp.xcodeproj"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2023,
+      "readme_excerpt": "# TourismApp 🌍\n\n**TourismApp** is a modern iOS application designed to help users explore beautiful tourist locations with an immersive and interactive experience. Built with **SwiftUI** and following the **MVVM** architecture, this app showcases advanced map integration and fluid animations.\n\n## 🚀 Features\n\n### 📍 Interactive Map with MapKit\n\n- **Dynamic Map**: Browsing locations updates the map region automatically.\n- **Custom Annotations**: Locations are pinned on the map with custom headers.\n- **Sync Animations**: The map seamlessly synchronizes with the location list. When you select a location, the map smoothly flies to the coordinate with a `easeInOut` animation calculation.\n\n### 🔄 Synchronized Animations\n\nThe application relies heavily on synchronized state changes to provide a premium feel:\n\n- **List to Map**: Tapping a location in the list instantly centers the map.\n- **Map to Detail**: Selecting a location provides a detailed view with smooth transitions.\n- **Declarative UX**: All animations are driven by SwiftUI's state management, ensuring bug-free UI updates.\n\n## 🏗 Architecture\n\nThe app is built using the **MVVM (Model-View-ViewModel)** design pattern to ensure clean c",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-12-30T22:33:25+00:00",
+        "last_at": "2025-12-30T22:37:23+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.6,
+        "messages_sample": [
+          "Update README.md",
+          "Docs: Update README with MapKit and MVVM details",
+          "Merge branch 'main' of https://github.com/y0ussefmohamed/TourismApp",
+          "Initial commit",
+          "Initial commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following the"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 17,711 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (TouristApp.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 17711,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Swift": 302698,
+    "Jupyter Notebook": 294526,
+    "JavaScript": 67828,
+    "TypeScript": 55749,
+    "CSS": 27849,
+    "HTML": 695
+  },
+  "total_commits": 122,
+  "skill_evidence": [
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "y0ussefmohamed/AIChat",
+        "y0ussefmohamed/TourismApp"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 302698,
+      "commit_count": 106,
+      "first_seen": "2025-12-30T22:33:25+00:00",
+      "last_seen": "2026-09-16T14:30:23+00:00",
+      "details": [
+        "AIChat: Swift: 284,987 bytes (100% of repo)",
+        "AIChat: iOS project (AIChat.xcodeproj/project.pbxproj)",
+        "TourismApp: Swift: 17,711 bytes (100% of repo)",
+        "TourismApp: iOS project (TouristApp.xcodeproj/project.pbxproj)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "y0ussefmohamed/Fullstack_EcommerceWebsite",
+        "y0ussefmohamed/yc-startup-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 67828,
+      "commit_count": 12,
+      "first_seen": "2024-11-14T20:07:58+00:00",
+      "last_seen": "2026-08-06T21:38:22+00:00",
+      "details": [
+        "Fullstack_EcommerceWebsite: JavaScript: 60,986 bytes (74% of repo)",
+        "yc-startup-app: JavaScript: 6,842 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "y0ussefmohamed/Credit-Card-Fraud-Detection"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 294526,
+      "commit_count": 4,
+      "first_seen": "2025-12-08T10:45:22+00:00",
+      "last_seen": "2026-08-06T21:37:23+00:00",
+      "details": [
+        "Credit-Card-Fraud-Detection: Jupyter Notebook: 294,526 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "y0ussefmohamed/yc-startup-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 55749,
+      "commit_count": 9,
+      "first_seen": "2024-11-14T20:07:58+00:00",
+      "last_seen": "2026-08-06T21:38:22+00:00",
+      "details": [
+        "yc-startup-app: TypeScript: 55,749 bytes (80% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "y0ussefmohamed/Fullstack_EcommerceWebsite",
+        "y0ussefmohamed/yc-startup-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.648021944529107,
+      "total_bytes": 27849,
+      "commit_count": 12,
+      "first_seen": "2024-11-14T20:07:58+00:00",
+      "last_seen": "2026-08-06T21:38:22+00:00",
+      "details": [
+        "Fullstack_EcommerceWebsite: CSS: 20,344 bytes (25% of repo)",
+        "yc-startup-app: CSS: 7,505 bytes (11% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "y0ussefmohamed/yc-startup-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2024-11-14T20:07:58+00:00",
+      "last_seen": "2026-08-06T21:38:22+00:00",
+      "details": [
+        "yc-startup-app: next config (Documents/Important/NextJS Projects/yc-startup-app/next.config.ts)",
+        "yc-startup-app: 'next.js' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "y0ussefmohamed/Fullstack_EcommerceWebsite"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-09-02T06:07:37+00:00",
+      "last_seen": "2025-11-08T15:55:24+00:00",
+      "details": [
+        "Fullstack_EcommerceWebsite: test file (ecommerce-project/src/pages/home/tests/HomePage.test.jsx)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "y0ussefmohamed/Credit-Card-Fraud-Detection"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2025-12-08T10:45:22+00:00",
+      "last_seen": "2026-08-06T21:37:23+00:00",
+      "details": [
+        "Credit-Card-Fraud-Detection: jupyter notebook (Credit_Card_Fraud_Detection.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "y0ussefmohamed/yc-startup-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2024-11-14T20:07:58+00:00",
+      "last_seen": "2026-08-06T21:38:22+00:00",
+      "details": [
+        "yc-startup-app: tailwind config (Documents/Important/NextJS Projects/yc-startup-app/tailwind.config.ts)"
+      ]
+    },
+    {
+      "skill_id": "cms",
+      "repos": [
+        "y0ussefmohamed/yc-startup-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2024-11-14T20:07:58+00:00",
+      "last_seen": "2026-08-06T21:38:22+00:00",
+      "details": [
+        "yc-startup-app: 'cms' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 122,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-16T14:39:20.504399+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

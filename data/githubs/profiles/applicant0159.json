@@ -1,0 +1,988 @@
+{
+  "applicant_id": "applicant0159",
+  "login": "Beetroit",
+  "html_url": "https://github.com/Beetroit",
+  "created_at": "2021-07-24T23:28:24Z",
+  "account_age_days": 1880,
+  "public_repos": 48,
+  "followers": 20,
+  "following": 28,
+  "repos": [
+    {
+      "name": "Draft",
+      "full_name": "Beetroit/Draft",
+      "html_url": "https://github.com/Beetroit/Draft",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-13T02:47:15Z",
+      "pushed_at": "2026-07-15T14:11:45Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13032,
+      "default_branch": "jules-1002366644931719191-c2ce2502",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 15480
+      },
+      "primary_language": "Python",
+      "file_count": 5,
+      "top_level_paths": [
+        "audit_data.py",
+        "data",
+        "scrape_data.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-07-13T03:15:55+00:00",
+        "last_at": "2026-07-15T14:11:40+00:00",
+        "active_days": 2,
+        "span_days": 2,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Fix HON ticker, reconcile spinoff gaps, and output per-ticker detailed validation report",
+          "Scrape and clean S&P 100 daily OHLCV historical dataset (2010-2026) in Parquet format"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 15,480 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 15480,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "My-Utils",
+      "full_name": "Beetroit/My-Utils",
+      "html_url": "https://github.com/Beetroit/My-Utils",
+      "description": "Public Repo of fun and useful python util scripts and functions. Feel free to add yours.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-01-13T15:52:48Z",
+      "pushed_at": "2024-01-13T16:20:17Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 4797
+      },
+      "primary_language": "Python",
+      "file_count": 5,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "webscraping"
+      ],
+      "notable_files": [
+        "webscraping/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 100,
+      "readme_excerpt": "# My-Utils\nPublic Repo of fun and useful python util scripts and functions. Feel free to add yours.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-01-13T15:52:48+00:00",
+        "last_at": "2024-01-13T16:20:07+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "add: initial files and requirements",
+          "add: initial files and requirements",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 4,797 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4797,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "HouseHunter",
+      "full_name": "Beetroit/HouseHunter",
+      "html_url": "https://github.com/Beetroit/HouseHunter",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-04-04T14:07:56Z",
+      "pushed_at": "2025-05-17T12:10:30Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2200,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 330694,
+        "JavaScript": 245206,
+        "CSS": 27640,
+        "Nix": 1592,
+        "HTML": 1067,
+        "Mako": 689
+      },
+      "primary_language": "Python",
+      "file_count": 110,
+      "top_level_paths": [
+        ".gitignore",
+        ".idx",
+        ".vscode",
+        "README.md",
+        "api",
+        "frontend",
+        "markdown"
+      ],
+      "notable_files": [
+        "api/pyproject.toml",
+        "api/requirements.txt",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2461,
+      "readme_excerpt": "# Ulo\n\nUlo is a web application designed to connect renters with property listers and agents. It provides features for browsing property listings, user authentication, property management, agent verification, user profiles, reviews, and real-time chat between users.\n\n## Core Technologies\n\n*   **Backend:**\n    *   Python 3.10+\n    *   Quart (Async Web Framework, ASGI)\n    *   SQLAlchemy (Async ORM) with Alembic (Migrations)\n    *   Pydantic (Data Validation & Schemas)\n    *   Quart-Auth (Authentication)\n    *   Quart-Schema (Schema Integration & OpenAPI)\n    *   Redis (for WebSocket Pub/Sub)\n    *   SQLite (Default Development DB) / PostgreSQL (Production)\n    *   Hypercorn (ASGI Server)\n*   **Frontend:**\n    *   React (UI Library)\n    *   Vite (Build Tool & Dev Server)\n    *   React Router (Routing)\n    *   Axios (HTTP Client)\n    *   CSS (Styling)\n\n## Getting Started (Local Development)\n\n### Prerequisites\n\n*   Python 3.10+ & pip\n*   Node.js 16+ & npm (or yarn)\n*   Redis Server (for chat functionality)\n\n### Backend Setup\n\n1.  **Navigate to API directory:**\n    ```bash\n    cd api\n    ```\n2.  **Create & Activate Python Virtual Environment:**\n    ```bash\n    python -m venv venv\n    so",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 32,
+        "first_at": "2025-04-03T05:59:09+00:00",
+        "last_at": "2025-05-17T12:10:22+00:00",
+        "active_days": 6,
+        "span_days": 44,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: Update application name from HouseHunter to Ulo in README.md",
+          "fix: Correct user extraction from useAuth in MaintenanceDashboardPage",
+          "refactor: Update dev script in package.json and clean up ManageLeasesPage component",
+          "refactor: Clean up import statements for Pydantic models in maintenance_request.py",
+          "feat: Implement 401 redirect using custom history and Axios interceptor",
+          "refactor: Simplify user authentication by replacing useContext with useAuth in SubmitMaintenanceRequestPage",
+          "fix: Ensure package-mode is set to false in pyproject.toml",
+          "feat: Update task checklist with completed tasks and summaries",
+          "refactor: Remove updateMaintenanceRequestStatus function from apiService",
+          "feat: Configure IDX workspace with Nix and enable AI features",
+          "feat: Add modal styles and refactor ManageLeasesPage to use useAuth for authentication",
+          "feat: Refactor exception handling to use AuthorizationException across services and routes",
+          "feat: Enhance Dashboard with Tenant Leases and Maintenance Requests",
+          "feat: implement lease management features with Lease and LeaseAgreementTemplate models",
+          "feat: enhance listing creation with owner search, image uploads, and UI improvements",
+          "feat: implement basic internationalization (i18n) with language switcher",
+          "feat: add initial README with project overview and setup instructions",
+          "feat: implement property verification workflow with document uploads and admin review",
+          "feat: refine chat session retrieval and update task checklist for Cameroon focus",
+          "feat: implement direct chat functionality and enhance chat management with nullable property_id"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 87
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 6,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 330,694 bytes (54% of repo)",
+          "strength": 0.9449012008805578
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 245,206 bytes (40% of repo)",
+          "strength": 0.8040383069034155
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 27,640 bytes (5% of repo)",
+          "strength": 0.44554382357205946
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,067 bytes (0% of repo)",
+          "strength": 0.40175814977392865
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (api/migrations/README)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 604607,
+        "strong_skills": [
+          "data-modeling",
+          "javascript",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "JIT-HUB",
+      "full_name": "Beetroit/JIT-HUB",
+      "html_url": "https://github.com/Beetroit/JIT-HUB",
+      "description": "A Just In Time hub with multiple implementations",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-13T21:14:18Z",
+      "pushed_at": "2023-10-22T23:24:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 73,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 63043,
+        "HTML": 6423,
+        "Python": 5664,
+        "CSS": 133
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 19,
+      "top_level_paths": [
+        ".gitignore",
+        "Frontend",
+        "JIT_Dictionary",
+        "LICENSE",
+        "README.md",
+        "app.py",
+        "class.py",
+        "gpt.py",
+        "raw.txt",
+        "requirements.txt",
+        "strings.xml",
+        "test.ipynb",
+        "ussds.csv"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "blinker",
+          "certifi",
+          "charset-normalizer",
+          "click",
+          "colorama",
+          "flask",
+          "gunicorn",
+          "idna",
+          "itsdangerous",
+          "jinja2",
+          "markupsafe",
+          "packaging",
+          "requests",
+          "urllib3",
+          "werkzeug"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 59,
+      "readme_excerpt": "# JIT-HUB\nA Just In Time hub with multiple implementations\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.828,
+      "commits": {
+        "count": 24,
+        "first_at": "2023-10-13T21:14:18+00:00",
+        "last_at": "2023-10-22T23:24:44+00:00",
+        "active_days": 3,
+        "span_days": 9,
+        "max_per_day": 18,
+        "low_effort_message_ratio": 0.042,
+        "messages_sample": [
+          "returning result in ussdict",
+          "returning result in ussdict",
+          "returning result in ussdict",
+          "returning result in ussdict",
+          "returning result in ussdict",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "added summarizer",
+          "fix: call back url",
+          "fix: call back url",
+          "fix: call back url",
+          "call back url"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 13,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 63,043 bytes (84% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 6,423 bytes (9% of repo)",
+          "strength": 0.48534073847707376
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 5,664 bytes (8% of repo)",
+          "strength": 0.4752561019358782
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (test.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 75263,
+        "strong_skills": [
+          "flask-fastapi",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "My-Porfolio-Site",
+      "full_name": "Beetroit/My-Porfolio-Site",
+      "html_url": "https://github.com/Beetroit/My-Porfolio-Site",
+      "description": "My Portfolio site with basic info about me, will be modified as new info is available.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-04-01T01:10:19Z",
+      "pushed_at": "2023-04-04T00:32:08Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 353,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 1302,
+        "Python": 531
+      },
+      "primary_language": "HTML",
+      "file_count": 5,
+      "top_level_paths": [
+        ".gitignore",
+        "app.py",
+        "main.html",
+        "pic.jpeg",
+        "profile.jpg"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2023-04-01T01:10:20+00:00",
+        "last_at": "2023-04-04T00:22:25+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "updated html",
+          "updated routes in app.py",
+          "pics",
+          "webpage commit",
+          "initial commit for flask_app",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,302 bytes (71% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 531 bytes (29% of repo)",
+          "strength": 0.6896890343698854
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1833,
+        "strong_skills": [
+          "html-css",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 357166,
+    "JavaScript": 245206,
+    "Jupyter Notebook": 63043,
+    "CSS": 27773,
+    "HTML": 8792,
+    "Nix": 1592,
+    "Mako": 689
+  },
+  "total_commits": 67,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "Beetroit/Draft",
+        "Beetroit/My-Utils",
+        "Beetroit/HouseHunter",
+        "Beetroit/JIT-HUB",
+        "Beetroit/My-Porfolio-Site"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 420209,
+      "commit_count": 67,
+      "first_seen": "2023-04-01T01:10:20+00:00",
+      "last_seen": "2026-07-15T14:11:40+00:00",
+      "details": [
+        "Draft: Python: 15,480 bytes (100% of repo)",
+        "My-Utils: Python: 4,797 bytes (100% of repo)",
+        "My-Utils: 'python' in repo name/description",
+        "HouseHunter: Python: 330,694 bytes (54% of repo)",
+        "JIT-HUB: Jupyter Notebook: 63,043 bytes (84% of repo)",
+        "JIT-HUB: Python: 5,664 bytes (8% of repo)",
+        "My-Porfolio-Site: Python: 531 bytes (29% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Beetroit/HouseHunter",
+        "Beetroit/JIT-HUB",
+        "Beetroit/My-Porfolio-Site"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 36432,
+      "commit_count": 62,
+      "first_seen": "2023-04-01T01:10:20+00:00",
+      "last_seen": "2025-05-17T12:10:22+00:00",
+      "details": [
+        "HouseHunter: CSS: 27,640 bytes (5% of repo)",
+        "HouseHunter: HTML: 1,067 bytes (0% of repo)",
+        "JIT-HUB: HTML: 6,423 bytes (9% of repo)",
+        "My-Porfolio-Site: HTML: 1,302 bytes (71% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "Beetroit/JIT-HUB"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 24,
+      "first_seen": "2023-10-13T21:14:18+00:00",
+      "last_seen": "2023-10-22T23:24:44+00:00",
+      "details": [
+        "JIT-HUB: flask in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Beetroit/HouseHunter"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8040383069034155,
+      "total_bytes": 245206,
+      "commit_count": 32,
+      "first_seen": "2025-04-03T05:59:09+00:00",
+      "last_seen": "2025-05-17T12:10:22+00:00",
+      "details": [
+        "HouseHunter: JavaScript: 245,206 bytes (40% of repo)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "Beetroit/HouseHunter"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 32,
+      "first_seen": "2025-04-03T05:59:09+00:00",
+      "last_seen": "2025-05-17T12:10:22+00:00",
+      "details": [
+        "HouseHunter: database migrations (api/migrations/README)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "Beetroit/JIT-HUB"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 24,
+      "first_seen": "2023-10-13T21:14:18+00:00",
+      "last_seen": "2023-10-22T23:24:44+00:00",
+      "details": [
+        "JIT-HUB: jupyter notebook (test.ipynb)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 67,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:14:08.675711+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

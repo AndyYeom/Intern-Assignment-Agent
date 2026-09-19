@@ -1,0 +1,101 @@
+{
+  "github_login": "jads15",
+  "applicant_id": "applicant0073",
+  "first_name": "Camila",
+  "last_name": "Duarte",
+  "career_stage": "student",
+  "email": "camila.duarte@alvoratech.example",
+  "phone": "(555) 010-0198",
+  "location": "Porto Alvora",
+  "linkedin": "linkedin.example.com/in/camila-duarte",
+  "github_url": "github.example.com/camila-duarte",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Alvora Institute of Technology",
+    "location": "Porto Alvora",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Finance",
+    "graduation": "Dec 2027",
+    "gpa": "8.7/10.0",
+    "coursework": [
+      "Data Structures and Algorithms",
+      "Object-Oriented Programming",
+      "Numerical Methods",
+      "Databases"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Sistema Banc Rio",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2023",
+      "end": "Jan 2023",
+      "bullets": [
+        "Built a banking-system simulation in Python and C, using Cython to bridge performance-sensitive components across 9,878 files.",
+        "Integrated Flask and NumPy to model core banking operations, structuring the project's data layer for a university systems course."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "C",
+        "Cython"
+      ]
+    },
+    {
+      "title": "Alest1",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Implemented core data structures and algorithms in Python for a data-structures course, earning the top grade in the section."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Volunteer Workshop Assistant",
+      "organization": "Alvora Community Finance Workshop",
+      "location": null,
+      "start": "Sep 2022",
+      "end": "Dec 2022",
+      "bullets": [
+        "Helped neighbors organize personal budget spreadsheets, noticing how many financial tools failed to handle irregular income patterns.",
+        "That gap motivated closer attention to numerical precision and edge cases while building the banking-system project afterward."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "Java"
+    ],
+    "Backend": [
+      "Flask/FastAPI"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Modeling"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

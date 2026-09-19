@@ -1,0 +1,350 @@
+{
+  "applicant_id": "applicant0145",
+  "github_login": "Terrificdatabytes",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0145.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/edugamehub1",
+        "https://github.com/Terrificdatabytes/pratechos"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/edugamehub1",
+          "html_url": "https://github.com/Terrificdatabytes/edugamehub1",
+          "level": 3,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, deployed, used_by_others, documented",
+            "advanced: others depend on it",
+            "GitHub Actions workflow (.github/workflows/deploy.yml)"
+          ]
+        },
+        {
+          "repo": "Terrificdatabytes/pratechos",
+          "html_url": "https://github.com/Terrificdatabytes/pratechos",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "GitHub Actions workflow (.github/workflows/blank.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/edugamehub1",
+        "https://github.com/Terrificdatabytes/NER-EXPLORER"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/edugamehub1",
+          "html_url": "https://github.com/Terrificdatabytes/edugamehub1",
+          "level": 3,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, deployed, used_by_others, documented",
+            "advanced: others depend on it",
+            "recharts in package.json"
+          ]
+        },
+        {
+          "repo": "Terrificdatabytes/NER-EXPLORER",
+          "html_url": "https://github.com/Terrificdatabytes/NER-EXPLORER",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; deployed, documented",
+            "streamlit in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/bustracker"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/bustracker",
+          "html_url": "https://github.com/Terrificdatabytes/bustracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 108 commits; deployed, multi_month_span, many_active_days, documented",
+            "flask in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/edugamehub1",
+        "https://github.com/Terrificdatabytes/bustracker"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/edugamehub1",
+          "html_url": "https://github.com/Terrificdatabytes/edugamehub1",
+          "level": 3,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, deployed, used_by_others, documented",
+            "advanced: others depend on it",
+            "CSS: 141,774 bytes (28% of repo)"
+          ]
+        },
+        {
+          "repo": "Terrificdatabytes/bustracker",
+          "html_url": "https://github.com/Terrificdatabytes/bustracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 108 commits; deployed, multi_month_span, many_active_days, documented",
+            "HTML: 54,212 bytes (22% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/bustracker"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/bustracker",
+          "html_url": "https://github.com/Terrificdatabytes/bustracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 108 commits; deployed, multi_month_span, many_active_days, documented",
+            "JavaScript: 64,170 bytes (26% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/bustracker"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/bustracker",
+          "html_url": "https://github.com/Terrificdatabytes/bustracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 108 commits; deployed, multi_month_span, many_active_days, documented",
+            "scikit-learn in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "nlp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/NER-EXPLORER"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/NER-EXPLORER",
+          "html_url": "https://github.com/Terrificdatabytes/NER-EXPLORER",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; deployed, documented",
+            "spacy in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/NER-EXPLORER",
+        "https://github.com/Terrificdatabytes/bustracker"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/NER-EXPLORER",
+          "html_url": "https://github.com/Terrificdatabytes/NER-EXPLORER",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; deployed, documented",
+            "pandas in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Terrificdatabytes/bustracker",
+          "html_url": "https://github.com/Terrificdatabytes/bustracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 108 commits; deployed, multi_month_span, many_active_days, documented",
+            "numpy in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/NER-EXPLORER",
+        "https://github.com/Terrificdatabytes/bustracker"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/NER-EXPLORER",
+          "html_url": "https://github.com/Terrificdatabytes/NER-EXPLORER",
+          "level": 2,
+          "reasons": [
+            "intermediate: 14 commits; deployed, documented",
+            "Python: 40,166 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Terrificdatabytes/bustracker",
+          "html_url": "https://github.com/Terrificdatabytes/bustracker",
+          "level": 2,
+          "reasons": [
+            "intermediate: 108 commits; deployed, multi_month_span, many_active_days, documented",
+            "Python: 127,299 bytes (52% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/edugamehub1"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/edugamehub1",
+          "html_url": "https://github.com/Terrificdatabytes/edugamehub1",
+          "level": 3,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, deployed, used_by_others, documented",
+            "advanced: others depend on it",
+            "react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "react-native",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Terrificdatabytes/edugamehub1"
+      ],
+      "repos": [
+        {
+          "repo": "Terrificdatabytes/edugamehub1",
+          "html_url": "https://github.com/Terrificdatabytes/edugamehub1",
+          "level": 3,
+          "reasons": [
+            "intermediate: 16 commits; has_ci, deployed, used_by_others, documented",
+            "advanced: others depend on it",
+            "TypeScript: 351,804 bytes (70% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "weak",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Entry; only self-declared signals (repo name or topic). Absence is not evidence against the claim."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 4,
+    "verified": 11
+  }
+}

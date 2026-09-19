@@ -1,0 +1,876 @@
+{
+  "applicant_id": "applicant0050",
+  "login": "mogligit",
+  "html_url": "https://github.com/mogligit",
+  "created_at": "2020-01-31T22:14:11Z",
+  "account_age_days": 2419,
+  "public_repos": 7,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "bae-phone",
+      "full_name": "mogligit/bae-phone",
+      "html_url": "https://github.com/mogligit/bae-phone",
+      "description": "Collaborative university project - website to buy and sell items",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-03-18T18:38:06Z",
+      "pushed_at": "2021-03-18T18:48:32Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1705,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "PHP": 41919,
+        "CSS": 3684
+      },
+      "primary_language": "PHP",
+      "file_count": 529,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "SECURITYPolicy.md",
+        "buy.php",
+        "config",
+        "controllers",
+        "css",
+        "dashboard.php",
+        "header.php",
+        "index.php",
+        "lib",
+        "log.php",
+        "logout.php",
+        "media",
+        "phonead.php",
+        "photo",
+        "redirection.php",
+        "signup.php",
+        "user_verificaiton.php"
+      ],
+      "notable_files": [
+        "lib/composer.json",
+        "lib/vendor/doctrine/lexer/composer.json",
+        "lib/vendor/egulias/email-validator/composer.json",
+        "lib/vendor/swiftmailer/swiftmailer/composer.json",
+        "lib/vendor/symfony/polyfill-iconv/composer.json",
+        "lib/vendor/symfony/polyfill-intl-idn/composer.json",
+        "lib/vendor/symfony/polyfill-mbstring/composer.json",
+        "lib/vendor/symfony/polyfill-php72/composer.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1611,
+      "readme_excerpt": "\n## User Registration & Login System Features\n* Connecting MySQL backend database with PHPmyAdmin\n* Building user registration form with Bootstrap\n* PHP server-side validation\n* Handling error messages\n* Securely hash password\n* Sending verification mail with SwiftMailer\n\nTo send the verification mail to the user, We need to install the SwiftMailer php plugin\nWe used the following composer command to install the SwiftMailer library.\n(composer require \"swiftmailer/swiftmailer:^6.0\")\n\nComposer should be installed on the development machine.\n\n## Login System\n* Build login form with Bootstrap\n* Password verification\n* Storing data in session\n* Allowing access to only verified users\n* Display user data to logged-in users\n* Building logout\n\n## External Database\n\nWe created an external database that can be accessed by the everyone. Follow these instructions to connect to the Database\n\nGo to the following web address:\n> [http://ssd.ennio.co.uk/](http://ssd.ennio.co.uk/)\n\nWhen prompted, log in with these credentials:\n\n__Username__\n\n`ssd-cwk1-bae`\n\n__Password__\n\n`luwandagga`\n\n### Generate your own local database\n\nIf you want to generate your own local database, follow these steps\n\n* Open you",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2021-03-18T18:38:07+00:00",
+        "last_at": "2021-03-18T18:42:41+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "added the files from the previously private repository",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 448
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,684 bytes (8% of repo)",
+          "strength": 0.48078415893691206
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "strong_skill_signal"
+        ],
+        "code_bytes": 3684,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "COVID-19-LFT-Logging-System",
+      "full_name": "mogligit/COVID-19-LFT-Logging-System",
+      "html_url": "https://github.com/mogligit/COVID-19-LFT-Logging-System",
+      "description": "** Work in progress. Do not use ** Software for logging and reporting COVID-19 Lateral Flow Tests (LFTs) in an easy and efficient way. Made for institutions using the Multiple Upload method set out by the UK Department of Health & Social Care.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-03-21T22:57:10Z",
+      "pushed_at": "2022-01-12T01:15:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 1450,
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C#": 35068
+      },
+      "primary_language": "C#",
+      "file_count": 19,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "App.xaml",
+        "App.xaml.cs",
+        "AssemblyInfo.cs",
+        "BuildScript.cs",
+        "COVID-19 LFT Logging System.csproj",
+        "COVID-19 LFT Logging System.sln",
+        "DataQueryWindow.xaml",
+        "DataQueryWindow.xaml.cs",
+        "Database.cs",
+        "LICENSE",
+        "LogTestWindow.xaml",
+        "LogTestWindow.xaml.cs",
+        "MainWindow.xaml",
+        "MainWindow.xaml.cs",
+        "Patient.cs",
+        "README.md",
+        "Test.cs"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1012,
+      "readme_excerpt": "# COVID-19 LFT Logging System\n\n**ATTENTION: This software is work in progress. Do NOT in any circumstances rely on it. I take no responsability for this software's loss, corruption, or mishandling of data**\n\nSoftware for logging and reporting COVID-19 Lateral Flow Tests (LFTs) in an easy and efficient way.\n\nMade for institutions using the Multiple Upload method set out by the UK Department of Health &amp; Social Care.\nMore information [here](https://www.gov.uk/government/publications/organisation-testing-registration-record-of-users/multiple-registration-upload-guidance).\n\n## Aims of this software\nThis piece of software aims to facilitate logging, managing and uploading test data in bulk. It will allow the institution to accurately keep track of who has had a test, how many tests each patient has had and when those tests were done. It also generate reports on the aforementioned.\n\nThis tool is designed to output to the Microsoft Excel spreadsheet government is currently providing for bulk uploads.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 50,
+        "first_at": "2021-03-21T22:55:54+00:00",
+        "last_at": "2022-01-12T01:12:23+00:00",
+        "active_days": 14,
+        "span_days": 296,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.06,
+        "messages_sample": [
+          "binded button to window",
+          "renamed DataQuery window",
+          "created new DataQuery window",
+          "renamed button content",
+          "progressed status label change",
+          "implemented \"Now\" button",
+          "attached objects to event handlers",
+          "renamed \"New Patient\" tab",
+          "updated design",
+          "added submission status label",
+          "added Submit Test functionality",
+          "added more overloads to constructor",
+          "created Test object",
+          "cosmetic change",
+          "added Submit button",
+          "added Test Type radio buttons and improved how DoB are displayed",
+          "filter will now reset when field is blank",
+          "changed database lookup logic so it makes more sense",
+          "moved database build script to its own place",
+          "changed UI drastically"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 3,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 35,068 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 35068,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "HoneypotBrowser",
+      "full_name": "mogligit/HoneypotBrowser",
+      "html_url": "https://github.com/mogligit/HoneypotBrowser",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": true,
+      "is_template": false,
+      "created_at": "2020-11-14T13:11:12Z",
+      "pushed_at": "2023-02-25T12:29:08Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7116,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 16294
+      },
+      "primary_language": "Java",
+      "file_count": 9,
+      "top_level_paths": [
+        ".gitignore",
+        "LargeDataset-Honeypots.csv",
+        "README.md",
+        "SampleDataset-Honeypots.csv",
+        "src"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 66,
+      "readme_excerpt": "# HoneypotBrowser\n\nThis is a university assignment from 1st Year.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2020-11-14T13:57:18+00:00",
+        "last_at": "2023-02-25T12:29:08+00:00",
+        "active_days": 3,
+        "span_days": 832,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "commit",
+          "Create .gitignore",
+          "Add files via upload",
+          "Create README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "university assignment"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 16,294 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 16294,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "wake",
+      "full_name": "mogligit/wake",
+      "html_url": "https://github.com/mogligit/wake",
+      "description": "Simple Wake-On-LAN command line based tool ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-01-31T23:22:21Z",
+      "pushed_at": "2022-03-24T13:15:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 22,
+      "default_branch": "master",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C#": 2437
+      },
+      "primary_language": "C#",
+      "file_count": 7,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "wake",
+        "wake.sln"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 582,
+      "readme_excerpt": "# wake\nSimple Wake-On-LAN command line based tool.\n\nCoded in C# using Visual Studio 2019.\n\n## Setup\n\nDownload from the [releases page](https://github.com/mogligit/wake/releases).\n\nNo install is needed. Extract the ZIP file and **run the file wake.exe through the command line**.\n\n## Usage\n\n`wake <mac> <address>`\n\nNote: the address could be the broadcast address of your network, the packet will still be received. This is useful when the recipient cannot respond to an ARP request by the router, if you attempt to send the packet directly to the last IP assigned to the recipient.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2020-01-31T23:22:22+00:00",
+        "last_at": "2021-03-28T23:20:47+00:00",
+        "active_days": 2,
+        "span_days": 421,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.222,
+        "messages_sample": [
+          "Update README.md",
+          "what is going on with my commits",
+          "Merge branch 'master' of https://github.com/mogligit/wake",
+          "minor changes in comments and prompts",
+          "updated gitignore",
+          "Merge branch 'master' of https://github.com/mogligit/wake",
+          "Add project files.",
+          "Add .gitignore and .gitattributes.",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 2,437 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2437,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CryptoMessages",
+      "full_name": "mogligit/CryptoMessages",
+      "html_url": "https://github.com/mogligit/CryptoMessages",
+      "description": "Encrypted messaging client+server in Visual Basic.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-02-07T04:29:30Z",
+      "pushed_at": "2023-06-17T23:45:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 265,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Visual Basic .NET": 122119
+      },
+      "primary_language": "Visual Basic .NET",
+      "file_count": 112,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "Assets",
+        "Client",
+        "CryptoMessages.sln",
+        "Elgamal",
+        "NetworkInterface",
+        "PacketType",
+        "README.md",
+        "SHAService",
+        "Serialization",
+        "Server"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 231,
+      "readme_excerpt": "# CryptoMessages\nEncrypted messaging client+server in Visual Basic.\nThis was built in Visual Studio 2022.\n\n## How to use\n1. Open Server\n2. Start server with command `auto`\n3. Open Client and connect to server's IP address\n4. Done!\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.889,
+      "commits": {
+        "count": 16,
+        "first_at": "2023-02-10T01:46:19+00:00",
+        "last_at": "2023-06-17T23:45:17+00:00",
+        "active_days": 5,
+        "span_days": 127,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.062,
+        "messages_sample": [
+          "Create README.md",
+          "move and rename logo files",
+          "delete .dll builds",
+          "ignore .dll compilations",
+          "removed ability to specify connection string",
+          "database is autogenerated at startup",
+          "fix log off socket disconnect and general cleanup",
+          "change error message for failed command",
+          "fix Stop command bug",
+          "made server single-instance and viceversa with client",
+          "fix database issues",
+          "fix everything",
+          "adapt to new NetworkInterface implementation",
+          "add TryDisconnect method",
+          "increase buffer read timeout",
+          "using Socket class now"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (Server/cryptomessages.db.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Visual Basic .NET": 122119,
+    "PHP": 41919,
+    "C#": 37505,
+    "Java": 16294,
+    "CSS": 3684
+  },
+  "total_commits": 82,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "mogligit/COVID-19-LFT-Logging-System",
+        "mogligit/wake"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 37505,
+      "commit_count": 59,
+      "first_seen": "2020-01-31T23:22:22+00:00",
+      "last_seen": "2022-01-12T01:12:23+00:00",
+      "details": [
+        "COVID-19-LFT-Logging-System: C#: 35,068 bytes (100% of repo)",
+        "wake: C#: 2,437 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "mogligit/HoneypotBrowser"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 16294,
+      "commit_count": 5,
+      "first_seen": "2020-11-14T13:57:18+00:00",
+      "last_seen": "2023-02-25T12:29:08+00:00",
+      "details": [
+        "HoneypotBrowser: Java: 16,294 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "mogligit/CryptoMessages"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2023-02-10T01:46:19+00:00",
+      "last_seen": "2023-06-17T23:45:17+00:00",
+      "details": [
+        "CryptoMessages: SQL file (Server/cryptomessages.db.sql)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "mogligit/bae-phone"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.48078415893691206,
+      "total_bytes": 3684,
+      "commit_count": 2,
+      "first_seen": "2021-03-18T18:38:07+00:00",
+      "last_seen": "2021-03-18T18:42:41+00:00",
+      "details": [
+        "bae-phone: CSS: 3,684 bytes (8% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 82,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-16T14:26:03.339207+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,1187 @@
+{
+  "applicant_id": "applicant0058",
+  "login": "715d",
+  "html_url": "https://github.com/715d",
+  "created_at": "2024-03-08T17:07:09Z",
+  "account_age_days": 921,
+  "public_repos": 10,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "rumpus",
+      "full_name": "715d/rumpus",
+      "html_url": "https://github.com/715d/rumpus",
+      "description": "A warm, earthy terminal color scheme inspired by 1970s rumpus rooms and mid-century modern design aesthetics.",
+      "homepage": "https://rumpus.dev/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-15T14:41:26Z",
+      "pushed_at": "2026-01-01T16:04:25Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 762,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "delta-theme",
+        "fish-theme",
+        "ghostty-theme",
+        "helix-theme",
+        "retro",
+        "theme",
+        "tmux-theme",
+        "zellij-theme"
+      ],
+      "languages": {
+        "Lua": 14531,
+        "Nix": 8771,
+        "Shell": 3425
+      },
+      "primary_language": "Lua",
+      "file_count": 29,
+      "top_level_paths": [
+        ".envrc",
+        ".github",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "bat",
+        "delta",
+        "docs",
+        "fish",
+        "flake.lock",
+        "flake.nix",
+        "ghostty",
+        "helix",
+        "iterm",
+        "nix",
+        "nvim",
+        "tmux",
+        "vscode",
+        "zed",
+        "zellij",
+        "zsh"
+      ],
+      "notable_files": [
+        ".github/workflows/nix.yml",
+        ".github/workflows/publish-vscode-extension.yml",
+        "vscode/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 10750,
+      "readme_excerpt": "# Rumpus\n\nA warm, earthy terminal color scheme inspired by 1970s rumpus rooms and mid-century modern design aesthetics.\n\n![Rumpus syntax highlighting](docs/rumpus-highlight.png)\n\n## Features\n\n- 🟤 **Authentic 70s palette** - Harvest gold, avocado green, burnt orange, and walnut\n- 🪵 **Furniture-inspired** - Based on iconic wood paneling and appliances, not sci-fi or neon\n- 🎨 **Period-accurate** - Colors that intentionally \"clash\" in that distinctive 70s way\n- 🔧 **Multi-tool support** - Ghostty, Zellij, tmux, Fish shell, Zsh shell, Delta, Bat, Helix, Zed, Neovim, iTerm2, VS Code\n- 📚 **Well-documented** - Complete ANSI color mapping\n\n## Color Palette\n\n### Primary Colors\n\n| Color | Hex | RGB | Usage |\n|-------|-----|-----|-------|\n| Walnut | `#2A1810` | `42 24 16` | Primary background |\n| Chocolate Brown | `#5F3822` | `95 56 34` | Secondary background, dark accent |\n| Cork | `#A07D67` | `[phone]` | Comments, inactive UI elements |\n| Almond | `#F4DDB3` | `[phone]` | Primary text |\n| Harvest Gold | `#E9A131` | `233 161 49` | Highlights, active elements |\n| Burnt Orange | `#F67422` | `246 116 34` | Emphasis, keywords |\n| Avocado Green | `#79966d` | `[phone]` | Success, strings ",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2025-10-15T14:48:37+00:00",
+        "last_at": "2025-11-04T04:03:06+00:00",
+        "active_days": 5,
+        "span_days": 19,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.154,
+        "messages_sample": [
+          "chore: update demo screenshot",
+          "feat: slightly increase contrast",
+          "fix(bat): cover json keys",
+          "fix(website): update prism.js highlights to match actual theme",
+          "refactor: adjust contrast and expand helix theme",
+          "feat(bat): extend theme to cover more languages",
+          "feat(helix): add more treesitter coverage",
+          "refactor: adjust names to be more accurate",
+          "Create CNAME",
+          "chore: move site; add screenshot",
+          "Create CNAME",
+          "fix: bat is case sensitive",
+          "Initial implementation"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 2,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 3,425 bytes (13% of repo)",
+          "strength": 0.5281475661316273
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/nix.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3425,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "unusedfunc",
+      "full_name": "715d/unusedfunc",
+      "html_url": "https://github.com/715d/unusedfunc",
+      "description": "Go linter that identifies unused functions",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-08T17:11:24Z",
+      "pushed_at": "2026-09-16T14:34:56Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 5,
+      "size_kb": 5551,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [],
+      "languages": {
+        "Go": 199696,
+        "Nix": 2576,
+        "Makefile": 1588,
+        "Ruby": 1266
+      },
+      "primary_language": "Go",
+      "file_count": 227,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".golangci.yaml",
+        ".goreleaser.yaml",
+        "CLAUDE.md",
+        "CONTRIBUTING.md",
+        "Casks",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "cmd",
+        "default.nix",
+        "docs",
+        "flake.lock",
+        "flake.nix",
+        "go.mod",
+        "go.sum",
+        "internal",
+        "pkg",
+        "testdata"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/release.yml",
+        "go.mod",
+        "testdata/blank-import-effects/go.mod",
+        "testdata/cross-package-test-usage/go.mod",
+        "testdata/generic-complex-patterns/go.mod",
+        "testdata/generic-functions/go.mod",
+        "testdata/generic-method-calls/go.mod",
+        "testdata/go-linkname-directive/go.mod",
+        "testdata/interface-dispatch-cross-package/go.mod",
+        "testdata/interface-internal-test-type/go.mod",
+        "testdata/interface-type-alias/go.mod",
+        "testdata/multi-package-integration/go.mod",
+        "testdata/reflection-and-embedding/go.mod",
+        "testdata/type-assert-interface-to-concrete/go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "4d63.com/gocheckcompilerdirectives",
+          "4d63.com/gochecknoglobals",
+          "al.essio.dev/pkg/shellescape",
+          "cel.dev/expr",
+          "charm.land/lipgloss/v2",
+          "cloud.google.com/go",
+          "cloud.google.com/go/auth",
+          "cloud.google.com/go/auth/oauth2adapt",
+          "cloud.google.com/go/compute/metadata",
+          "cloud.google.com/go/iam",
+          "cloud.google.com/go/kms",
+          "cloud.google.com/go/longrunning",
+          "cloud.google.com/go/monitoring",
+          "cloud.google.com/go/storage",
+          "code.gitea.io/sdk/gitea",
+          "codeberg.org/chavacava/garif",
+          "codeberg.org/polyfloyd/go-errorlint",
+          "dario.cat/mergo",
+          "dev.gaijin.team/go/exhaustruct/v4",
+          "dev.gaijin.team/go/exhaustruct/v5",
+          "dev.gaijin.team/go/golib",
+          "github.com/42wim/httpsig",
+          "github.com/4meepo/tagalign",
+          "github.com/abirdcfly/dupword",
+          "github.com/adminbenni/iota-mixing",
+          "github.com/agnivade/levenshtein",
+          "github.com/alecthomas/chroma/v2",
+          "github.com/alecthomas/go-check-sumtype",
+          "github.com/aleksi/pointer",
+          "github.com/alexkohler/nakedret/v2",
+          "github.com/alexkohler/prealloc",
+          "github.com/alfatraining/structtag",
+          "github.com/alingse/asasalint",
+          "github.com/alingse/nilnesserr",
+          "github.com/alwxsin/noinlineerr",
+          "github.com/anchore/go-macholibre",
+          "github.com/antonboom/errname",
+          "github.com/antonboom/nilnil",
+          "github.com/antonboom/testifylint",
+          "github.com/asaskevich/govalidator",
+          "github.com/ashanbrown/forbidigo/v2",
+          "github.com/ashanbrown/makezero/v2",
+          "github.com/atc0005/go-teams-notify/v2",
+          "github.com/avast/retry-go/v4",
+          "github.com/aws/aws-sdk-go-v2",
+          "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+          "github.com/aws/aws-sdk-go-v2/config",
+          "github.com/aws/aws-sdk-go-v2/credentials",
+          "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+          "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
+          "github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager",
+          "github.com/aws/aws-sdk-go-v2/internal/configsources",
+          "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+          "github.com/aws/aws-sdk-go-v2/internal/v4a",
+          "github.com/aws/aws-sdk-go-v2/service/ecr",
+          "github.com/aws/aws-sdk-go-v2/service/ecrpublic",
+          "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+          "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+          "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+          "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+          "github.com/aws/aws-sdk-go-v2/service/kms",
+          "github.com/aws/aws-sdk-go-v2/service/s3",
+          "github.com/aws/aws-sdk-go-v2/service/signin",
+          "github.com/aws/aws-sdk-go-v2/service/sso",
+          "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+          "github.com/aws/aws-sdk-go-v2/service/sts",
+          "github.com/aws/smithy-go",
+          "github.com/awslabs/amazon-ecr-credential-helper/ecr-login",
+          "github.com/azure/azure-sdk-for-go",
+          "github.com/azure/azure-sdk-for-go/sdk/azcore",
+          "github.com/azure/azure-sdk-for-go/sdk/azidentity",
+          "github.com/azure/azure-sdk-for-go/sdk/internal",
+          "github.com/azure/azure-sdk-for-go/sdk/security/keyvault/azkeys",
+          "github.com/azure/azure-sdk-for-go/sdk/security/keyvault/internal",
+          "github.com/azure/azure-sdk-for-go/sdk/storage/azblob",
+          "github.com/azure/go-ansiterm",
+          "github.com/azure/go-autorest",
+          "github.com/azure/go-autorest/autorest",
+          "github.com/azure/go-autorest/autorest/adal",
+          "github.com/azure/go-autorest/autorest/azure/auth",
+          "github.com/azure/go-autorest/autorest/azure/cli",
+          "github.com/azure/go-autorest/autorest/date",
+          "github.com/azure/go-autorest/logger",
+          "github.com/azure/go-autorest/tracing",
+          "github.com/azuread/microsoft-authentication-library-for-go",
+          "github.com/bahlo/generic-list-go",
+          "github.com/beorn7/perks",
+          "github.com/bkielbasa/cyclop",
+          "github.com/blacktop/go-dwarf",
+          "github.com/blacktop/go-macho",
+          "github.com/blakesmith/ar",
+          "github.com/blang/semver",
+          "github.com/blizzy78/varnamelen",
+          "github.com/bluesky-social/indigo",
+          "github.com/bombsimon/wsl/v4",
+          "github.com/bombsimon/wsl/v5",
+          "github.com/breml/bidichk",
+          "github.com/breml/errchkjson",
+          "github.com/buger/jsonparser",
+          "github.com/burntsushi/toml",
+          "github.com/butuzov/ireturn",
+          "github.com/butuzov/mirror",
+          "github.com/caarlos0/env/v11",
+          "github.com/caarlos0/go-reddit/v3",
+          "github.com/caarlos0/go-version",
+          "github.com/caarlos0/log",
+          "github.com/carlmjohnson/versioninfo",
+          "github.com/catenacyber/perfsprint",
+          "github.com/cavaliergopher/cpio",
+          "github.com/ccojocar/zxcvbn-go",
+          "github.com/cenkalti/backoff/v4",
+          "github.com/cenkalti/backoff/v5",
+          "github.com/cespare/xxhash/v2",
+          "github.com/charithe/durationcheck",
+          "github.com/charmbracelet/colorprofile",
+          "github.com/charmbracelet/fang",
+          "github.com/charmbracelet/ultraviolet",
+          "github.com/charmbracelet/x/ansi",
+          "github.com/charmbracelet/x/exp/charmtone",
+          "github.com/charmbracelet/x/term"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2729,
+      "readme_excerpt": "# `unusedfunc`\n\n[![CI](https://github.com/715d/unusedfunc/workflows/CI/badge.svg)](https://github.com/715d/unusedfunc/actions)\n[![codecov](https://codecov.io/gh/715d/unusedfunc/branch/main/graph/badge.svg)](https://codecov.io/gh/715d/unusedfunc)\n[![Go Report Card](https://goreportcard.com/badge/github.com/715d/unusedfunc)](https://goreportcard.com/report/github.com/715d/unusedfunc)\n\n`unusedfunc` finds unreachable Go functions and methods with SSA-based reachability analysis.\n\n| Declaration | Normal mode | `--strict` |\n|---|---|---|\n| Unexported | Report when unused | Report when unused |\n| Exported in `/internal` or `main` | Report when unused | Report when unused |\n| Other exported declaration | Keep as public API | Report when unused |\n\nUse strict mode only when no external code imports the selected packages.\n\n## Install\n\n```bash\ngo install github.com/715d/unusedfunc/cmd/unusedfunc@latest\n```\n\nBuilding from source requires the Go version in [`go.mod`](go.mod). See [CONTRIBUTING.md](CONTRIBUTING.md#building) or [Nix usage](docs/nix.md).\n\n## Use\n\nRun the command from the module that you want to inspect:\n\n```bash\nunusedfunc ./...\nunusedfunc ./internal/...\nunusedfunc --strict ./...\nu",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.714,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-11-08T18:18:19+00:00",
+        "last_at": "2026-09-16T14:31:15+00:00",
+        "active_days": 3,
+        "span_days": 311,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "refactor: streamline documentation across project guides and references",
+          "refactor: update reachability analysis, documentation, and test suite",
+          "refactor: migrate build and test workflows to use go.mod toolchain and tools",
+          "feat: add --strict mode support",
+          "feat: initial push"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 125
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 3,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 199,696 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 1,588 bytes (1% of repo)",
+          "strength": 0.40774158322201964
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/architecture.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (internal/analysis/func_info_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 201284,
+        "strong_skills": [
+          "cicd",
+          "go",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "go-truenas",
+      "full_name": "715d/go-truenas",
+      "html_url": "https://github.com/715d/go-truenas",
+      "description": "A Go client for the TrueNAS Scale Websocket API",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-19T14:33:00Z",
+      "pushed_at": "2026-03-22T17:51:08Z",
+      "stargazers": 2,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 152,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Go": 565246,
+        "Makefile": 1891
+      },
+      "primary_language": "Go",
+      "file_count": 66,
+      "top_level_paths": [
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".golangci.yml",
+        "CHANGELOG.md",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "go.mod",
+        "go.sum",
+        "truenas"
+      ],
+      "notable_files": [
+        ".github/workflows/build-qemu.sh",
+        ".github/workflows/test.yml",
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/cenkalti/backoff/v4",
+          "github.com/davecgh/go-spew",
+          "github.com/gorilla/websocket",
+          "github.com/pmezard/go-difflib",
+          "github.com/puzpuzpuz/xsync/v3",
+          "github.com/stretchr/testify",
+          "gopkg.in/yaml.v3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 8078,
+      "readme_excerpt": "# go-truenas\n\n[![Test](https://github.com/715d/go-truenas/actions/workflows/test.yml/badge.svg)](https://github.com/715d/go-truenas/actions/workflows/test.yml)\n[![GoDoc](https://godoc.org/github.com/715d/go-truenas?status.svg)](https://godoc.org/github.com/715d/go-truenas)\n\nA Go client library for interacting with the TrueNAS WebSocket API.\n\n[Official TrueNAS Websocket API Documentation](https://www.truenas.com/docs/api/scale_websocket_api.html)\n\n_**Disclaimer**_: Much of this code was generated from the API documentation. There may be cases where the API behavior does not match the spec. A subset of methods are fully tested with a live TrueNAS instance as part of an integration test suite. See [Contributing](#Contributing) to help increase this coverage. Any workflows using this library should _always_ be tested with a throwaway TrueNAS instance before connecting to one with important data.\n\nCurrently tested against `TrueNAS-SCALE-25.10.2`.\n\n## Installation\n\n```bash\ngo get github.com/715d/go-truenas\n```\n\n## Usage\n\n### Basic Example\n\n```go\npackage main\n\nimport (\n    \"context\"\n    \"errors\"\n    \"fmt\"\n    \"log\"\n    \"time\"\n    \n    \"github.com/715d/go-truenas/truenas\"\n)\n\nfunc main() {\n",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-06-13T18:41:01+00:00",
+        "last_at": "2026-03-22T17:50:01+00:00",
+        "active_days": 5,
+        "span_days": 281,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(dataset): unmarshal UserProperties into correct type",
+          "feat: support new JSON-RPC 2.0 Websocket API",
+          "fix: address concurrency issue in reconnect loop",
+          "fix: handle unmarshaling PoolScan timestamps",
+          "feat: implement support for most of the API surface"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following the"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 48
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 565,246 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 1,891 bytes (0% of repo)",
+          "strength": 0.40333429136169924
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/test.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (truenas/client_alert_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "websockets",
+          "source": "repo_name",
+          "detail": "'websocket' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 567137,
+        "strong_skills": [
+          "cicd",
+          "go",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "zellij-claude",
+      "full_name": "715d/zellij-claude",
+      "html_url": "https://github.com/715d/zellij-claude",
+      "description": "Simple Claude Code plugin for Zellij",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-19T22:10:06Z",
+      "pushed_at": "2026-04-12T16:52:52Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 46,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Rust": 3603
+      },
+      "primary_language": "Rust",
+      "file_count": 9,
+      "top_level_paths": [
+        ".cargo",
+        ".github",
+        ".gitignore",
+        "Cargo.lock",
+        "Cargo.toml",
+        "LICENSE",
+        "README.md",
+        "src"
+      ],
+      "notable_files": [
+        ".github/workflows/pr-validation.yml",
+        ".github/workflows/release.yml",
+        "Cargo.toml"
+      ],
+      "manifests": {
+        "Cargo.toml": [
+          "authors",
+          "edition",
+          "name",
+          "version",
+          "zellij-tile"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5061,
+      "readme_excerpt": "# Zellij Claude Plugin\n\nA Zellij plugin that provides seamless integration with Claude, Anthropic's AI assistant. Launch Claude panes and send messages directly through Zellij's pipe interface.\n\n## Features\n\n- **Launch or Focus**: Automatically launches a new Claude pane or focuses an existing one\n- **Send Messages**: Send messages to Claude programmatically via pipe commands\n\n## Installation\n\n### Prerequisites\n\n- [Zellij](https://github.com/zellij-org/zellij) terminal multiplexer\n- [Claude CLI](https://claude.ai/download) installed and in your PATH\n- Rust toolchain with `wasm32-wasip1` target\n\n### Building from Source\n\n```bash\n# Clone the repository\ngit clone https://github.com/715d/zellij-claude.git\ncd zellij-claude\n\n# Add WASM target if not already installed\nrustup target add wasm32-wasip1\n\n# Build the plugin\ncargo build --release --target wasm32-wasip1\n```\n\nThe compiled plugin will be at `target/wasm32-wasip1/release/zellij-claude.wasm`\n\n### Installing the Plugin\n\n#### Option 1: Download from GitHub Releases\n\nDue to GitHub's authentication requirements, you need to download the plugin first:\n\n```bash\n# Download latest release\nwget https://github.com/715d/zellij-claude/releases/",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-08-19T22:23:08+00:00",
+        "last_at": "2025-08-20T18:58:55+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: hide self on init",
+          "feat: implement focus and message pipe handlers"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/pr-validation.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "nur",
+      "full_name": "715d/nur",
+      "html_url": "https://github.com/715d/nur",
+      "description": "Personal NUR repository",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-08T16:12:25Z",
+      "pushed_at": "2026-06-22T06:53:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 18,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Nix": 7722
+      },
+      "primary_language": "Nix",
+      "file_count": 15,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "ci.nix",
+        "default.nix",
+        "flake.lock",
+        "flake.nix",
+        "lib",
+        "modules",
+        "overlay.nix",
+        "overlays",
+        "pkgs"
+      ],
+      "notable_files": [
+        ".github/workflows/build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 474,
+      "readme_excerpt": "# NUR Packages\n\nPersonal [NUR](https://github.com/nix-community/NUR) repository.\n\n## Packages\n\n- `unusedfunc` - Go linter detecting unused functions with /internal awareness\n- `moon` - Task runner and repo management tool for the web ecosystem, written in Rust\n\n## Installation\n\nAfter this repository is added to NUR:\n\n```bash\nnix-env -iA nur.repos.715d.moon\nnix-env -iA nur.repos.715d.unusedfunc\n```\n\n## Local Testing\n\n```bash\nnix-build -A moon\nnix-build -A unusedfunc\n```\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.667,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-11-08T16:12:27+00:00",
+        "last_at": "2026-03-21T14:40:44+00:00",
+        "active_days": 3,
+        "span_days": 132,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "chore(moon): bump to v2.1.1",
+          "feat: add moon v2",
+          "fix: define mainProgram",
+          "chore: remove example-package",
+          "feat: add unusedfunc tool",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Go": 764942,
+    "Nix": 19069,
+    "Lua": 14531,
+    "Rust": 3603,
+    "Makefile": 3479,
+    "Shell": 3425,
+    "Ruby": 1266
+  },
+  "total_commits": 31,
+  "skill_evidence": [
+    {
+      "skill_id": "go",
+      "repos": [
+        "715d/unusedfunc",
+        "715d/go-truenas"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 764942,
+      "commit_count": 10,
+      "first_seen": "2025-06-13T18:41:01+00:00",
+      "last_seen": "2026-09-16T14:31:15+00:00",
+      "details": [
+        "unusedfunc: Go: 199,696 bytes (97% of repo)",
+        "unusedfunc: Go module (go.mod)",
+        "unusedfunc: 'go' in repo name/description",
+        "go-truenas: Go: 565,246 bytes (100% of repo)",
+        "go-truenas: Go module (go.mod)",
+        "go-truenas: 'go' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "715d/rumpus",
+        "715d/unusedfunc",
+        "715d/go-truenas",
+        "715d/zellij-claude",
+        "715d/nur"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 31,
+      "first_seen": "2025-06-13T18:41:01+00:00",
+      "last_seen": "2026-09-16T14:31:15+00:00",
+      "details": [
+        "rumpus: GitHub Actions workflow (.github/workflows/nix.yml)",
+        "unusedfunc: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "go-truenas: GitHub Actions workflow (.github/workflows/test.yml)",
+        "zellij-claude: GitHub Actions workflow (.github/workflows/pr-validation.yml)",
+        "nur: GitHub Actions workflow (.github/workflows/build.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "715d/unusedfunc",
+        "715d/go-truenas"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2025-06-13T18:41:01+00:00",
+      "last_seen": "2026-09-16T14:31:15+00:00",
+      "details": [
+        "unusedfunc: test file (internal/analysis/func_info_test.go)",
+        "go-truenas: test file (truenas/client_alert_test.go)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "715d/unusedfunc"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2025-11-08T18:18:19+00:00",
+      "last_seen": "2026-09-16T14:31:15+00:00",
+      "details": [
+        "unusedfunc: docs directory (docs/architecture.md)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "715d/rumpus",
+        "715d/unusedfunc",
+        "715d/go-truenas"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5281475661316273,
+      "total_bytes": 6904,
+      "commit_count": 23,
+      "first_seen": "2025-06-13T18:41:01+00:00",
+      "last_seen": "2026-09-16T14:31:15+00:00",
+      "details": [
+        "rumpus: Shell: 3,425 bytes (13% of repo)",
+        "unusedfunc: Makefile: 1,588 bytes (1% of repo)",
+        "go-truenas: Makefile: 1,891 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "websockets",
+      "repos": [
+        "715d/go-truenas"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2025-06-13T18:41:01+00:00",
+      "last_seen": "2026-03-22T17:50:01+00:00",
+      "details": [
+        "go-truenas: 'websocket' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 31,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-16T14:38:37.287756+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

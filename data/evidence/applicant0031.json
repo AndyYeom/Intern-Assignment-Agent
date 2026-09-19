@@ -1,0 +1,178 @@
+{
+  "applicant_id": "applicant0031",
+  "github_login": "mennael125",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0031.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/mennael125/Projects"
+      ],
+      "repos": [
+        {
+          "repo": "mennael125/Projects",
+          "html_url": "https://github.com/mennael125/Projects",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "C#: 35,101 bytes (83% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/mennael125/Login_Screen"
+      ],
+      "repos": [
+        {
+          "repo": "mennael125/Login_Screen",
+          "html_url": "https://github.com/mennael125/Login_Screen",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Dart: 4,426 bytes (89% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/mennael125/Bootstrap-page",
+        "https://github.com/mennael125/Projects",
+        "https://github.com/mennael125/font",
+        "https://github.com/mennael125/menna-test"
+      ],
+      "repos": [
+        {
+          "repo": "mennael125/Bootstrap-page",
+          "html_url": "https://github.com/mennael125/Bootstrap-page",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "HTML: 12,604 bytes (71% of repo)",
+            "CSS: 5,184 bytes (29% of repo)"
+          ]
+        },
+        {
+          "repo": "mennael125/Projects",
+          "html_url": "https://github.com/mennael125/Projects",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "HTML: 5,906 bytes (14% of repo)"
+          ]
+        },
+        {
+          "repo": "mennael125/font",
+          "html_url": "https://github.com/mennael125/font",
+          "level": 1,
+          "reasons": [
+            "entry: 7 commits, independent-work signals: none",
+            "CSS: 570 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "mennael125/menna-test",
+          "html_url": "https://github.com/mennael125/menna-test",
+          "level": 1,
+          "reasons": [
+            "entry: 49 commits, independent-work signals: documented",
+            "CSS: 1,062,216 bytes (73% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/mennael125/Login_Screen"
+      ],
+      "repos": [
+        {
+          "repo": "mennael125/Login_Screen",
+          "html_url": "https://github.com/mennael125/Login_Screen",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/mennael125/Projects"
+      ],
+      "repos": [
+        {
+          "repo": "mennael125/Projects",
+          "html_url": "https://github.com/mennael125/Projects",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "SQL file (Windows application c#/Project/SQLQuery1.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/mennael125/menna-test"
+      ],
+      "repos": [
+        {
+          "repo": "mennael125/menna-test",
+          "html_url": "https://github.com/mennael125/menna-test",
+          "level": 1,
+          "reasons": [
+            "entry: 49 commits, independent-work signals: documented",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 4
+  }
+}

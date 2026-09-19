@@ -1,0 +1,144 @@
+{
+  "applicant_id": "applicant0001",
+  "skills": [
+    {
+      "canonical_skill": "Python",
+      "category": "Programming Language",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a terminal-based step-by-step calculator covering PreCalc 12 topics, adding optional graphing through Plotly for visual verification.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Structured the codebase across 19 files to keep calculation logic separate from the command-line interface.",
+          "page": null
+        }
+      ],
+      "reasoning": "Applicant structured a Python project across 19 files with separation of concerns between calculation logic and CLI, demonstrating independent architectural decisions beyond a single-file script."
+    },
+    {
+      "canonical_skill": "JavaScript",
+      "category": "Programming Language",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Developed a browser extension converting binary, hex, decimal and text with automatic format detection and IPv4/IPv6 support.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Built a browser extension that suggests words in real time using frequency analysis learned from prior rounds played.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Iterated on the filtering logic after early guesses surfaced irrelevant words, tightening the matching criteria.",
+          "page": null
+        }
+      ],
+      "reasoning": "Built two distinct browser extensions involving format conversion with automatic detection and real-time suggestion logic, with iteration on filtering logic based on observed performance. Demonstrates independent structural decisions and problem-solving."
+    },
+    {
+      "canonical_skill": "HTML",
+      "category": "Frontend Technology",
+      "claimed_level": 1,
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Developed a browser extension converting binary, hex, decimal and text with automatic format detection and IPv4/IPv6 support.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Frontend: HTML/CSS",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills and used for browser extension development, but no evidence of independent structural decisions or complex HTML work. Browser extensions typically use minimal HTML."
+    },
+    {
+      "canonical_skill": "CSS",
+      "category": "Frontend Technology",
+      "claimed_level": 1,
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Developed a browser extension converting binary, hex, decimal and text with automatic format detection and IPv4/IPv6 support.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Frontend: HTML/CSS",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills and used for browser extension development, but no evidence of independent styling decisions or complex CSS work."
+    },
+    {
+      "canonical_skill": "Plotly",
+      "category": "Data Visualization Library",
+      "claimed_level": 1,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a terminal-based step-by-step calculator covering PreCalc 12 topics, adding optional graphing through Plotly for visual verification.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used Plotly to add graphing functionality as an optional feature. No evidence of complex visualization decisions, customization, or performance considerations that would indicate intermediate proficiency."
+    },
+    {
+      "canonical_skill": "Shell Scripting",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Language: JavaScript, Python, Shell Scripting",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section only with no supporting project or work evidence demonstrating use."
+    }
+  ],
+  "domains": [
+    "Software Development",
+    "Frontend Development",
+    "Data Visualization"
+  ],
+  "interests": [],
+  "education": [
+    {
+      "institution": "Fernbrook Institute of Technology",
+      "qualification": "Bachelor of Science",
+      "field_of_study": "Computer Science",
+      "start_date": null,
+      "end_date": "May 2027",
+      "status": "In Progress"
+    }
+  ],
+  "work_experience": [
+    {
+      "organization": "Fernbrook Coding Circle",
+      "role": "Peer Debugging Session Lead",
+      "start_date": "Feb 2026",
+      "end_date": "Present",
+      "description": "Noticed classmates abandoning side projects after getting stuck alone, so started a weekly drop-in debugging session. Began keeping a shared log of recurring issues, which shortened later sessions once patterns became easy to recognize.",
+      "demonstrated_skills": [
+        "Technical Mentoring",
+        "Problem Solving",
+        "Documentation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "github_login": "bcrow99",
+  "applicant_id": "applicant0053",
+  "first_name": "Marcus",
+  "last_name": "Adeyemi",
+  "career_stage": "student",
+  "email": "marcus@ridgeport.example",
+  "phone": "(555) 010-0153",
+  "location": "Ridgeport",
+  "linkedin": "linkedin.example.com/in/marcus-adeyemi",
+  "github_url": "github.example.com/marcus-adeyemi",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Kestrel Polytechnic",
+    "location": "Ridgeport",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Entrepreneurship Studies",
+    "graduation": "May 2027",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Data Structures",
+      "Software Design",
+      "Intro to Venture Building"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Deltaencoder",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2020",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a Java image-compression tool encoding pixel deltas, iterating across 200 commits over 82 active days to refine accuracy.",
+        "Rewrote core encoding logic after early output distorted certain image formats, tightening delta calculations for reliability."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    },
+    {
+      "title": "Datamapper",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2019",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a Java data-mapping utility across 9 files, sustaining 200 commits over 109 active days of iterative refinement.",
+        "Restructured the mapping schema mid-project after realizing the original format could not handle irregular inputs."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    },
+    {
+      "title": "Deltaencoder3",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Restarted the encoder in Python to test whether the same compression logic could reach a broader set of users."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Student Member",
+      "organization": "Kestrel Founders Lab",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Pitched the delta-encoding tool at a campus venture showcase, fielding questions about who would actually use it.",
+        "Learned that a tool built for oneself needs simpler onboarding before someone else will try it, and began rewriting accordingly."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Java",
+      "Python"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

@@ -1,0 +1,1155 @@
+{
+  "applicant_id": "applicant0070",
+  "login": "hmc437",
+  "html_url": "https://github.com/hmc437",
+  "created_at": "2021-01-25T23:38:48Z",
+  "account_age_days": 2060,
+  "public_repos": 20,
+  "followers": 4,
+  "following": 12,
+  "repos": [
+    {
+      "name": "web-and-alexa-skill-study-app",
+      "full_name": "hmc437/web-and-alexa-skill-study-app",
+      "html_url": "https://github.com/hmc437/web-and-alexa-skill-study-app",
+      "description": "Este proyecto se centra en ofrecer una skill de Alexa y una aplicación web para estudiantes como plataforma para estudiar, organizarse, evaluando el progreso del estudiante y brindando múltiples herramientas para estudiar haciendo uso de la tecnología. Cuenta con diferentes herramientas para estudiar de una forma efectiva y diferente a la habitual.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-07-31T21:47:54Z",
+      "pushed_at": "2024-07-31T22:00:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3284,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "HTML": 30191,
+        "JavaScript": 25809,
+        "Python": 21438,
+        "CSS": 15363
+      },
+      "primary_language": "HTML",
+      "file_count": 37,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "app.py",
+        "package-lock.json",
+        "package.json",
+        "static",
+        "templates"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "concurrently",
+          "flowbite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 31,
+      "readme_excerpt": "# web-and-alexa-skill-study-app",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2024-07-31T21:47:54+00:00",
+        "last_at": "2024-07-31T22:00:53+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Delete Web directory",
+          "Backend y frontend de la aplicación web",
+          "Create Readme.md",
+          "Delete frontend directory",
+          "backend files",
+          "Backend y frontend de la web",
+          "Readme.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 30,191 bytes (33% of repo)",
+          "strength": 0.7253305460070474
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 25,809 bytes (28% of repo)",
+          "strength": 0.6781112272497064
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 21,438 bytes (23% of repo)",
+          "strength": 0.6310104416978266
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 15,363 bytes (17% of repo)",
+          "strength": 0.5655477850454198
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 92801,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Google-Cloud-Projects",
+      "full_name": "hmc437/Google-Cloud-Projects",
+      "html_url": "https://github.com/hmc437/Google-Cloud-Projects",
+      "description": "En este repositorio analizo proyectos llevados a cabo en Google Cloud, los cuales han sido diseñados correctamente para cada caso y probado en ambientes de producción. ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-07-25T19:37:26Z",
+      "pushed_at": "2024-08-14T16:26:15Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4577,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HCL": 2465
+      },
+      "primary_language": "HCL",
+      "file_count": 13,
+      "top_level_paths": [
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-0.jpg",
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-1.jpg",
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-2.jpg",
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-3.jpg",
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-4.jpg",
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-5.jpg",
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-6.jpg",
+        "Comparacion_servicios_AWS_Azure_Google_Cloud-images-7.jpg",
+        "Managing Cloud Infrastructure with Terraform",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 193,
+      "readme_excerpt": "# Google-Cloud-Projects\nEn este repositorio analizo proyectos llevados a cabo en Google Cloud, los cuales han sido diseñados correctamente para cada caso y probado en ambientes de producción. \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2024-07-25T19:37:26+00:00",
+        "last_at": "2024-08-14T16:26:13+00:00",
+        "active_days": 4,
+        "span_days": 19,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.4,
+        "messages_sample": [
+          "Comparacion_servicios_AWS_Azure_Google_Cloud",
+          "README.md",
+          "Add files via upload",
+          "Terraform",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "gcp-azure",
+          "source": "language",
+          "detail": "HCL: 2,465 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "terraform (Managing Cloud Infrastructure with Terraform/k8s.tf)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files"
+        ],
+        "code_bytes": 2465,
+        "strong_skills": [
+          "gcp-azure"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sanatis-workbench-tfm",
+      "full_name": "hmc437/sanatis-workbench-tfm",
+      "html_url": "https://github.com/hmc437/sanatis-workbench-tfm",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-22T21:52:15Z",
+      "pushed_at": "2026-07-22T21:53:32Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 33238,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 29036142,
+        "Python": 565283,
+        "TypeScript": 100711,
+        "HCL": 81649,
+        "CSS": 49811,
+        "PowerShell": 9472,
+        "HTML": 1118,
+        "Dockerfile": 1112
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 241,
+      "top_level_paths": [
+        ".dockerignore",
+        ".env.example",
+        ".github",
+        ".gitignore",
+        ".terraform-docs.yml",
+        "Dockerfile.api",
+        "Dockerfile.mcp",
+        "Dockerfile.vertex-router",
+        "Dockerfile.warmer",
+        "README.md",
+        "debug_dermatology_request.json",
+        "deploy",
+        "docs",
+        "frontend",
+        "model_registry",
+        "pytest.ini",
+        "request-dermatology.json",
+        "requirements-api.txt",
+        "requirements-mcp.txt",
+        "requirements-test.txt",
+        "requirements-tfm.txt",
+        "requirements-warmer.txt",
+        "scripts",
+        "src",
+        "terraform",
+        "tests",
+        "tfm"
+      ],
+      "notable_files": [
+        ".github/workflows/ci-checks.yml",
+        ".github/workflows/deploy-agent-runtime.yml",
+        ".github/workflows/deploy-backend.yml",
+        ".github/workflows/deploy-cloud-run-workbench.yml",
+        ".github/workflows/deploy-dermatology-specialist.yml",
+        ".github/workflows/deploy-mcp-cloud-run.yml",
+        ".github/workflows/deploy-stack.yml",
+        ".github/workflows/deploy-vertex-domain-router.yml",
+        ".github/workflows/deploy-vertex-warmer.yml",
+        ".github/workflows/promote-model.yml",
+        ".github/workflows/terraform-apply-infra.yml",
+        ".github/workflows/terraform-plan-infra.yml",
+        "deploy/agent_runtime/clinical_orchestrator_agent/requirements.txt",
+        "deploy/models/clinical_branch/Dockerfile",
+        "deploy/models/clinical_branch/requirements.txt",
+        "deploy/models/dermatology/Dockerfile",
+        "deploy/models/dermatology/requirements.txt",
+        "deploy/models/metadata_branch/Dockerfile",
+        "deploy/models/metadata_branch/requirements.txt",
+        "frontend/package.json",
+        "src/vertex_domain_router/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 13966,
+      "readme_excerpt": "# Clinical Image Agent Platform · Sanatis Workbench\n\nPrototipo de investigación desarrollado como Trabajo de Fin de Máster. El objetivo es explorar cómo combinar modelos de visión por computador, fusión multimodal y componentes de orquestación con agentes de IA para apoyar la revisión asistida de imágenes clínicas, utilizando la dermatología como principal caso de estudio. Los resultados son **orientativos y no han sido validados clínicamente**.\n\nEste repositorio es una copia pública saneada preparada para la evaluación del Trabajo Fin de Máster. El desarrollo original se realizó en un repositorio privado.\n\n---\n\n## Descripción\n\nEl proyecto abarca varias líneas de trabajo que se integran de forma progresiva:\n\n- **Modelos unimodales**: clasificadores entrenados sobre imagen dermoscópica, imagen clínica de primer plano y metadatos estructurados del paciente, de forma independiente.\n- **Ensemble dermatoscópico**: combinación de varios modelos de imagen dermoscópica para mejorar la robustez de las predicciones.\n- **Fusión multimodal**: integración de las tres ramas a nivel de probabilidades, con variante calibrada mediante *temperature scaling*.\n- **Router visual de dominio**: component",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2026-07-22T21:51:49+00:00",
+        "last_at": "2026-07-22T21:51:49+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Versión final del TFM Sanatis Workbench"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 17,
+        "code_file_count": 85
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 29,036,142 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 565,283 bytes (2% of repo)",
+          "strength": 0.4189404374518224
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 100,711 bytes (0% of repo)",
+          "strength": 0.4033744343916419
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "language",
+          "detail": "HCL: 81,649 bytes (0% of repo)",
+          "strength": 0.4027357408192071
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 49,811 bytes (0% of repo)",
+          "strength": 0.4016689731159662
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 9,472 bytes (0% of repo)",
+          "strength": 0.4003173699254067
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,118 bytes (0% of repo)",
+          "strength": 0.40003745983705713
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,112 bytes (0% of repo)",
+          "strength": 0.4000372588003645
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci-checks.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile.api)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/knowledge_sources/README.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (scripts/test_agent_runtime.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "terraform (terraform/backend.tf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (tfm/notebooks/TFM_DATA_00_dataset_eda_and_splits.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 29845298,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "gcp-azure",
+          "linux",
+          "pandas",
+          "python",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "public-tenders-extraction",
+      "full_name": "hmc437/public-tenders-extraction",
+      "html_url": "https://github.com/hmc437/public-tenders-extraction",
+      "description": "Program designed to automatically extract tenders from public repositories",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-09T21:35:11Z",
+      "pushed_at": "2023-11-09T21:39:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1020,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 27808
+      },
+      "primary_language": "Python",
+      "file_count": 8,
+      "top_level_paths": [
+        "AtomToJSON.py",
+        "ETL_Licitaciones.xml",
+        "apacheNifi.yml",
+        "getLicitacion.py",
+        "getResultadoLic.py",
+        "getURILists.py",
+        "parseURILists.py",
+        "postgresql-42.4.1.jar"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2023-11-09T21:39:01+00:00",
+        "last_at": "2023-11-09T21:39:01+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "apache-and-phyton-files"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 27,808 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 27808,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "cifar10-cnn-classification",
+      "full_name": "hmc437/cifar10-cnn-classification",
+      "html_url": "https://github.com/hmc437/cifar10-cnn-classification",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-25T19:15:31Z",
+      "pushed_at": "2026-05-25T20:42:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 669,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 784801
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 2,
+      "top_level_paths": [
+        ".gitignore",
+        "muinar06_act2_individual.ipynb"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-05-25T19:15:19+00:00",
+        "last_at": "2026-05-25T20:42:52+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "m2 entrenado",
+          "Initial CIFAR-10 CNN classification notebook"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 784,801 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (muinar06_act2_individual.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 784801,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 29820943,
+    "Python": 614529,
+    "TypeScript": 100711,
+    "HCL": 84114,
+    "CSS": 65174,
+    "HTML": 31309,
+    "JavaScript": 25809,
+    "PowerShell": 9472,
+    "Dockerfile": 1112
+  },
+  "total_commits": 17,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "hmc437/web-and-alexa-skill-study-app",
+        "hmc437/sanatis-workbench-tfm",
+        "hmc437/public-tenders-extraction",
+        "hmc437/cifar10-cnn-classification"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 30435472,
+      "commit_count": 12,
+      "first_seen": "2023-11-09T21:39:01+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "web-and-alexa-skill-study-app: Python: 21,438 bytes (23% of repo)",
+        "sanatis-workbench-tfm: Jupyter Notebook: 29,036,142 bytes (97% of repo)",
+        "sanatis-workbench-tfm: Python: 565,283 bytes (2% of repo)",
+        "public-tenders-extraction: Python: 27,808 bytes (100% of repo)",
+        "cifar10-cnn-classification: Jupyter Notebook: 784,801 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "hmc437/Google-Cloud-Projects",
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 84114,
+      "commit_count": 6,
+      "first_seen": "2024-07-25T19:37:26+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "Google-Cloud-Projects: HCL: 2,465 bytes (100% of repo)",
+        "Google-Cloud-Projects: terraform (Managing Cloud Infrastructure with Terraform/k8s.tf)",
+        "sanatis-workbench-tfm: HCL: 81,649 bytes (0% of repo)",
+        "sanatis-workbench-tfm: terraform (terraform/backend.tf)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "hmc437/web-and-alexa-skill-study-app",
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7253305460070474,
+      "total_bytes": 96483,
+      "commit_count": 9,
+      "first_seen": "2024-07-31T21:47:54+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "web-and-alexa-skill-study-app: HTML: 30,191 bytes (33% of repo)",
+        "web-and-alexa-skill-study-app: CSS: 15,363 bytes (17% of repo)",
+        "sanatis-workbench-tfm: CSS: 49,811 bytes (0% of repo)",
+        "sanatis-workbench-tfm: HTML: 1,118 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "hmc437/web-and-alexa-skill-study-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6781112272497064,
+      "total_bytes": 25809,
+      "commit_count": 8,
+      "first_seen": "2024-07-31T21:47:54+00:00",
+      "last_seen": "2024-07-31T22:00:53+00:00",
+      "details": [
+        "web-and-alexa-skill-study-app: JavaScript: 25,809 bytes (28% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm",
+        "hmc437/cifar10-cnn-classification"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2026-05-25T19:15:19+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: jupyter notebook (tfm/notebooks/TFM_DATA_00_dataset_eda_and_splits.ipynb)",
+        "cifar10-cnn-classification: jupyter notebook (muinar06_act2_individual.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1112,
+      "commit_count": 1,
+      "first_seen": "2026-07-22T21:51:49+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: Dockerfile: 1,112 bytes (0% of repo)",
+        "sanatis-workbench-tfm: Dockerfile (Dockerfile.api)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-07-22T21:51:49+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-07-22T21:51:49+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: GitHub Actions workflow (.github/workflows/ci-checks.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-07-22T21:51:49+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: docs directory (docs/knowledge_sources/README.md)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2026-07-22T21:51:49+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: test file (scripts/test_agent_runtime.py)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4033744343916419,
+      "total_bytes": 100711,
+      "commit_count": 1,
+      "first_seen": "2026-07-22T21:51:49+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: TypeScript: 100,711 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "hmc437/sanatis-workbench-tfm"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4003173699254067,
+      "total_bytes": 9472,
+      "commit_count": 1,
+      "first_seen": "2026-07-22T21:51:49+00:00",
+      "last_seen": "2026-07-22T21:51:49+00:00",
+      "details": [
+        "sanatis-workbench-tfm: PowerShell: 9,472 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 17,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "total_commits"
+    ],
+    "reason": "total_commits: 17 < 20"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:17:17.623122+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - total_commits: 17 < 20"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "applicant_id": "applicant0004",
+  "skills": [
+    {
+      "canonical_skill": "C++",
+      "category": "Programming Language",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Completed an aerospace dynamics simulation course project in C++, structuring flight-model logic and a scripted output pipeline across 37 files.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Iterated over three active days after an early model produced physically implausible results, isolating the faulty calculation.",
+          "page": null
+        }
+      ],
+      "reasoning": "Completed aerospace dynamics simulation course project in C++, structuring flight-model logic across 37 files and independently isolating a faulty calculation after early model produced implausible results. Demonstrates independent structural decisions and debugging beyond tutorial follow-along."
+    },
+    {
+      "canonical_skill": "Java",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a small Java utility for loading Lua scripts from file, written mainly to practice Java outside coursework.",
+          "page": null
+        }
+      ],
+      "reasoning": "Built a small utility for practice outside coursework. No evidence of structural complexity, deployment, or use by others. Described as mainly for practice."
+    },
+    {
+      "canonical_skill": "Python",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Maintained a personal collection of small Pascal, Python and MATLAB programs across five years to practice new syntax.",
+          "page": null
+        }
+      ],
+      "reasoning": "Maintained a personal collection of small programs to practice syntax over five years. No evidence of independent projects with structural decisions or use beyond personal practice."
+    },
+    {
+      "canonical_skill": "Pascal",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Maintained a personal collection of small Pascal, Python and MATLAB programs across five years to practice new syntax.",
+          "page": null
+        }
+      ],
+      "reasoning": "Part of personal collection of small programs for syntax practice. No evidence of independent structural work or application beyond learning."
+    },
+    {
+      "canonical_skill": "MATLAB",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Maintained a personal collection of small Pascal, Python and MATLAB programs across five years to practice new syntax.",
+          "page": null
+        }
+      ],
+      "reasoning": "Part of personal collection of small programs for syntax practice. No evidence of independent projects or structural decisions."
+    },
+    {
+      "canonical_skill": "Debugging",
+      "category": "Technical Skill",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Iterated over three active days after an early model produced physically implausible results, isolating the faulty calculation.",
+          "page": null
+        }
+      ],
+      "reasoning": "Debugged physically implausible simulation results over three days, isolating the faulty calculation in a multi-file C++ project. Demonstrates independent problem-solving beyond entry level."
+    },
+    {
+      "canonical_skill": "Flight Dynamics",
+      "category": "Domain Knowledge",
+      "claimed_level": 1,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Coursework: Flight Dynamics, Intro to Programming, Engineering Design",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Completed an aerospace dynamics simulation course project in C++",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed as coursework and applied in a course project. No evidence of independent application or judgment beyond course requirements."
+    },
+    {
+      "canonical_skill": "Lua",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Built a small Java utility for loading Lua scripts from file, written mainly to practice Java outside coursework.",
+          "page": null
+        }
+      ],
+      "reasoning": "Built a utility to load Lua scripts from file, but described as practice work with no evidence of structural complexity or independent problem-solving."
+    },
+    {
+      "canonical_skill": "MATLAB",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Maintained a personal collection of small Pascal, Python and MATLAB programs across five years to practice new syntax.",
+          "page": null
+        }
+      ],
+      "reasoning": "Maintained small practice programs over five years, but characterized as syntax practice without evidence of independent structural decisions or application to real problems."
+    },
+    {
+      "canonical_skill": "Pascal",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Maintained a personal collection of small Pascal, Python and MATLAB programs across five years to practice new syntax.",
+          "page": null
+        }
+      ],
+      "reasoning": "Maintained small practice programs, but described as syntax practice without evidence of independent structural decisions or real-world application."
+    },
+    {
+      "canonical_skill": "Community Building",
+      "category": "Professional Skill",
+      "claimed_level": 2,
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Started a monthly meetup where students demoed unfinished side projects",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Began pairing first-time presenters with a returning member after noticing newcomers rarely returned without a familiar face nearby.",
+          "page": null
+        }
+      ],
+      "reasoning": "Started and organized monthly meetup, identified a problem with newcomer retention, and implemented a pairing solution. Demonstrates independent judgment and initiative."
+    }
+  ],
+  "domains": [
+    "Aerospace Engineering",
+    "Software Development"
+  ],
+  "interests": [],
+  "education": [
+    {
+      "institution": "Camden Hollow College of Engineering",
+      "qualification": "Bachelor of Science",
+      "field_of_study": "Aerospace Engineering; Minor in Computer Science",
+      "start_date": null,
+      "end_date": "May 2028",
+      "status": "In Progress"
+    }
+  ],
+  "work_experience": []
+}

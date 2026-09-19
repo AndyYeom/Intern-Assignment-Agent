@@ -1,0 +1,1467 @@
+{
+  "applicant_id": "applicant0012",
+  "login": "valdirsb",
+  "html_url": "https://github.com/valdirsb",
+  "created_at": "2020-01-31T23:45:42Z",
+  "account_age_days": 2419,
+  "public_repos": 38,
+  "followers": 13,
+  "following": 28,
+  "repos": [
+    {
+      "name": "artemis",
+      "full_name": "valdirsb/artemis",
+      "html_url": "https://github.com/valdirsb/artemis",
+      "description": "Artemis é um framework modular para Go que traz uma estrutura inspirada no Laravel, com foco em produtividade e organização de código.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-13T14:11:45Z",
+      "pushed_at": "2025-10-22T20:17:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 112998,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Go": 378443,
+        "Makefile": 7511
+      },
+      "primary_language": "Go",
+      "file_count": 382,
+      "top_level_paths": [
+        "AppExample",
+        "CHANGELOG.md",
+        "EXAMPLES.md",
+        "README.md",
+        "docs",
+        "go.mod",
+        "go.sum",
+        "internal",
+        "logo.png",
+        "logo_artemis.png",
+        "main.go"
+      ],
+      "notable_files": [
+        "AppExample/meuApp/go.mod",
+        "go.mod"
+      ],
+      "manifests": {
+        "go.mod": [
+          "github.com/fsnotify/fsnotify",
+          "github.com/go-viper/mapstructure/v2",
+          "github.com/inconshreveable/mousetrap",
+          "github.com/pelletier/go-toml/v2",
+          "github.com/sagikazarmark/locafero",
+          "github.com/sourcegraph/conc",
+          "github.com/spf13/afero",
+          "github.com/spf13/cast",
+          "github.com/spf13/cobra",
+          "github.com/spf13/pflag",
+          "github.com/spf13/viper",
+          "github.com/subosito/gotenv",
+          "go.yaml.in/yaml/v3",
+          "golang.org/x/sys",
+          "golang.org/x/text"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 8439,
+      "readme_excerpt": "# 🏹 Artemis Go Framework\n**Build monoliths, modularly.**\n\n<div align=\"center\">\n\n![Logo do Projeto](logo_artemis.png)\n<br>\n**Framework modular para desenvolvimento de aplicações Go enterprise**\n\n![Artemis Framework](https://img.shields.io/badge/Artemis-Framework-blue)\n![Version](https://img.shields.io/badge/version-1.0.0-green)\n![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)\n![Architecture](https://img.shields.io/badge/Architecture-Clean%20%7C%20Hexagonal%20%7C%20DDD-orange)\n\n[📚 Documentação Completa](docs/framework/README.md) • [🚀 Início Rápido](docs/framework/02-quickstart.md) • [🏗️ Arquitetura](docs/ARCHITECTURE.md)\n\n</div>\n\n---\n\n## 🎯 O que é o Artemis?\n\nO **Artemis Framework** é um framework empresarial em Go que implementa Clean Architecture, Hexagonal Architecture (Ports & Adapters), Domain-Driven Design (DDD) e CQRS. Ele fornece uma base sólida e padronizada para desenvolvimento de aplicações complexas e escaláveis.\n\n### ⭐ Principais Características\n\n✅ **Clean Architecture** - Separação clara de responsabilidades  \n✅ **Modular** - Sistema de módulos auto-registráveis  \n✅ **CQRS** - Separação entre Commands e Queries  \n✅ **DI Container** - Injeção de dependências p",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 53,
+        "first_at": "2025-10-13T14:13:13+00:00",
+        "last_at": "2025-10-22T20:03:33+00:00",
+        "active_days": 7,
+        "span_days": 9,
+        "max_per_day": 23,
+        "low_effort_message_ratio": 0.019,
+        "messages_sample": [
+          "Merge pull request #1 from valdirsb/feat/AppExample",
+          "fix: reorder logo and description for improved clarity in README",
+          "fix: add line break for improved readability in README",
+          "feat: add framework configuration and core features",
+          "feat: add user service implementation with CRUD operations and email notifications",
+          "recatory cli",
+          "feat: Enhance module registration process to count and log enabled modules",
+          "feat: Improve Mermaid diagrams in architecture documentation for clarity and consistency",
+          "feat: Enhance architecture documentation with improved Mermaid diagram configurations and styling",
+          "feat: Update architecture documentation with Mermaid diagrams for clarity and consistency",
+          "feat: Add comprehensive guide on mocks and fixtures for the Artemis Framework",
+          "feat: Add comprehensive FAQ documentation and update summary",
+          "feat: Add comprehensive guide on working with events in the Artemis Framework",
+          "feat: Add comprehensive documentation for Artemis Framework",
+          "feat: add user management proto definitions and gRPC service implementation",
+          "feat: Implement pagination for product listing",
+          "feat: implement user repository with MySQL and GORM integration",
+          "feat: add SQLite driver support and integration tests for order, product, and user repositories",
+          "Add unit tests for container registry, event bus, and typed event publisher",
+          "Refactor order application service and gRPC handler"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 116
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 1,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 378,443 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 7,511 bytes (2% of repo)",
+          "strength": 0.41946086839364277
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (AppExample/meuApp/docs/ARCHITECTURE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (AppExample/meuApp/go.mod)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (AppExample/meuApp/internal/modules/order/tests/integration/repository_test.go)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 385954,
+        "strong_skills": [
+          "go",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "avatar-creator",
+      "full_name": "valdirsb/avatar-creator",
+      "html_url": "https://github.com/valdirsb/avatar-creator",
+      "description": "Criador de avatar para os personagens do \"Mundo em Verade\"",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-04-25T23:57:12Z",
+      "pushed_at": "2025-07-05T14:32:50Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 138265,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 15870,
+        "Vue": 13245,
+        "HTML": 916,
+        "JavaScript": 577
+      },
+      "primary_language": "TypeScript",
+      "file_count": 1071,
+      "top_level_paths": [
+        ".browserslistrc",
+        ".eslintrc.js",
+        ".github",
+        ".gitignore",
+        "README.md",
+        "babel.config.js",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "tsconfig.json",
+        "vue.config.js"
+      ],
+      "notable_files": [
+        ".github/workflows/main.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "@vue/cli-plugin-babel",
+          "@vue/cli-plugin-eslint",
+          "@vue/cli-plugin-typescript",
+          "@vue/cli-service",
+          "@vue/eslint-config-typescript",
+          "core-js",
+          "eslint",
+          "eslint-plugin-vue",
+          "typescript",
+          "vue",
+          "vue-class-component"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1997,
+      "readme_excerpt": "# Avatar Builder para Mundo em Verdade\n\n## Descrição do Projeto\nEste projeto é um criador de avatares personalizado para o canal do YouTube \"Mundo em Verdade\". A aplicação permite que usuários gerem avatares únicos para representar personagens do canal, oferecendo uma experiência criativa e interativa.\n\n## Recursos Principais\n## Demonstração\n\nVocê pode testar a aplicação diretamente pelo link: [https://avatar.mundoemverade.com.br/](https://avatar.mundoemverade.com.br/)\n\n\n- Geração de avatares personalizados com múltiplas opções de customização\n- Interface intuitiva e amigável para criação de personagens\n- Suporte a diferentes estilos e características visuais\n- Compatível com o tema e identidade visual do canal Mundo em Verdade\n\n## Tecnologias Utilizadas\n- Vue.js\n- JavaScript\n- HTML5\n- CSS3\n\n## Requisitos do Sistema\n- Node.js (versão 14.x ou superior)\n- npm (gerenciador de pacotes)\n- Navegador web moderno\n\n## Instalação Rápida\n```bash\n# Clonar o repositório\ngit clone https://github.com/seu-usuario/avatar-builder.git\n\n# Navegar para o diretório do projeto\ncd avatar-builder\n\n# Instalar dependências\nnpm install\n```\n\n## Comandos Disponíveis\n### Desenvolvimento\nInicia o servidor de dese",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 16,
+        "first_at": "2024-11-20T15:10:15+00:00",
+        "last_at": "2025-07-05T14:31:25+00:00",
+        "active_days": 7,
+        "span_days": 226,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "nova versão dos personagens",
+          "adiciona novos arquivos de imagens para o personagem Noah",
+          "adiciona novos arquivos e configurações para o personagem Noah",
+          "novos modelos de personagens",
+          "inclusão de novos avatars",
+          "link de demonstração no readme",
+          "correção no readme",
+          "teste",
+          "up",
+          "correção2",
+          "correção",
+          "up",
+          "up",
+          "atualização no readme e configuração de deploy",
+          "nova liry",
+          "init"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 15,870 bytes (52% of repo)",
+          "strength": 0.918491897543126
+        },
+        {
+          "skill_id": "vue",
+          "source": "language",
+          "detail": "Vue: 13,245 bytes (43% of repo)",
+          "strength": 0.8327300052273916
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/main.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "vue",
+          "source": "manifest",
+          "detail": "vue in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 30608,
+        "strong_skills": [
+          "cicd",
+          "typescript",
+          "vue"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "kellysantos",
+      "full_name": "valdirsb/kellysantos",
+      "html_url": "https://github.com/valdirsb/kellysantos",
+      "description": "Loja virtual feita com wordpress / woo-commerce.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-07-19T19:19:07Z",
+      "pushed_at": "2020-07-20T02:31:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 43050,
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "topics": [],
+      "languages": {
+        "PHP": 30824546,
+        "JavaScript": 8174101,
+        "CSS": 4513303,
+        "HTML": 27267,
+        "Shell": 8492,
+        "Smarty": 33
+      },
+      "primary_language": "PHP",
+      "file_count": 7599,
+      "top_level_paths": [
+        ".htaccess",
+        "index.php",
+        "license.txt",
+        "readme.html",
+        "wp-activate.php",
+        "wp-admin",
+        "wp-blog-header.php",
+        "wp-comments-post.php",
+        "wp-config-sample.php",
+        "wp-config.php",
+        "wp-content",
+        "wp-cron.php",
+        "wp-includes",
+        "wp-links-opml.php",
+        "wp-load.php",
+        "wp-login.php",
+        "wp-mail.php",
+        "wp-settings.php",
+        "wp-signup.php",
+        "wp-trackback.php",
+        "xmlrpc.php"
+      ],
+      "notable_files": [
+        "wp-content/plugins/jetpack/composer.json",
+        "wp-content/plugins/mailchimp-for-woocommerce/composer.json",
+        "wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/composer.json",
+        "wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/package.json",
+        "wp-content/themes/twentynineteen/package.json",
+        "wp-content/themes/twentytwenty/package.json",
+        "wp-includes/sodium_compat/composer.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 7709,
+      "readme_excerpt": "<!DOCTYPE html>\n<html lang=\"pt-br\">\n<head>\n\t<meta name=\"viewport\" content=\"width=device-width\" />\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<title>WordPress &#8250; Leia-me</title>\n    <link rel=\"stylesheet\" href=\"wp-admin/css/install.css?ver=20100228\" type=\"text/css\" />\n</head>\n<body>\n<h1 id=\"logo\">\n\t<a href=\"https://wordpress.org/\"><img alt=\"WordPress\" src=\"wp-admin/images/wordpress-logo.png\" /></a>\n</h1>\n<p style=\"text-align: center\">Plataforma de publicação semântica pessoal</p>\n\n<h2>Saudações</h2>\n<p>O WordPress é um projeto muito especial para mim. Todo desenvolvedor e colaborador acrescenta algo único nessa mistura, e juntos nós criamos algo bonito do qual me orgulho de fazer parte. Milhares de horas foram investidas no WordPress, e nós nos dedicamos a melhorá-lo todos os dias. Obrigado por torná-lo parte de seu mundo.</p>\n<p style=\"text-align: right\">&#8212; Matt Mullenweg</p>\n\n<h2>A famosa instalação de 5 minutos</h2>\n<ol>\n\t<li>Descompacte o pacote em uma pasta vazia e envie tudo.</li>\n\t<li>Abra <span class=\"file\"><a href=\"wp-admin/install.php\">wp-admin/install.php</a></span> em seu navegador. Você terá acesso ao processo de configuração do ar",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2020-07-19T19:25:11+00:00",
+        "last_at": "2020-07-20T02:31:05+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "htaccess corrigido",
+          "banco",
+          "outro commit",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6168
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 8,174,101 bytes (19% of repo)",
+          "strength": 0.5877043590457572
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,513,303 bytes (10% of repo)",
+          "strength": 0.5036403448886053
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 27,267 bytes (0% of repo)",
+          "strength": 0.40062614038633737
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 8,492 bytes (0% of repo)",
+          "strength": 0.40019500437014627
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/ActionMigrator.php)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/docs/admin.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/chip/test/index.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (wp-content/plugins/woocommerce/packages/woocommerce-blocks/docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cms",
+          "source": "repo_name",
+          "detail": "'wordpress' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12723163,
+        "strong_skills": [
+          "data-modeling",
+          "docker",
+          "javascript",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "suporteglpi",
+      "full_name": "valdirsb/suporteglpi",
+      "html_url": "https://github.com/valdirsb/suporteglpi",
+      "description": "Aplicativo glpi para o grupo FST criado com React-Native.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-01-31T23:55:05Z",
+      "pushed_at": "2023-01-05T06:12:41Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 20,
+      "size_kb": 2979,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 92316,
+        "Objective-C": 4166,
+        "Java": 3086,
+        "Ruby": 2775,
+        "Starlark": 1912
+      },
+      "primary_language": "JavaScript",
+      "file_count": 115,
+      "top_level_paths": [
+        ".buckconfig",
+        ".eslintrc.js",
+        ".flowconfig",
+        ".gitattributes",
+        ".gitignore",
+        ".prettierrc.js",
+        ".watchmanconfig",
+        "App.js",
+        "README.rdoc",
+        "__tests__",
+        "android",
+        "app.json",
+        "babel.config.js",
+        "index.js",
+        "ios",
+        "metro.config.js",
+        "package-lock.json",
+        "package.json",
+        "pass",
+        "src",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/core",
+          "@babel/runtime",
+          "@react-native-community/async-storage",
+          "@react-native-community/cameraroll",
+          "@react-native-community/eslint-config",
+          "@react-native-community/masked-view",
+          "axios",
+          "babel-jest",
+          "eslint",
+          "jest",
+          "metro-react-native-babel-preset",
+          "moment",
+          "native-base",
+          "react",
+          "react-native",
+          "react-native-base64",
+          "react-native-gesture-handler",
+          "react-native-image-picker",
+          "react-native-modal-selector",
+          "react-native-reanimated",
+          "react-native-render-html",
+          "react-native-safe-area-context",
+          "react-native-screens",
+          "react-native-webview",
+          "react-navigation",
+          "react-navigation-drawer",
+          "react-navigation-stack",
+          "react-navigation-tabs",
+          "react-test-renderer"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 31,
+        "first_at": "2020-02-01T00:21:37+00:00",
+        "last_at": "2020-04-01T00:22:42+00:00",
+        "active_days": 21,
+        "span_days": 60,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Off - Password",
+          "Exclusao de arquivos antigos",
+          "Alteração da Notas da versao 0.7",
+          "Correções nos textos content que mostravam em entidade html",
+          "correção do bug da pesquisas Salvas(totalcount<=0)",
+          "hb7ti",
+          "Merge branch 'master' of https://github.com/valdirsb/suportefst",
+          "Atualizacao - Pesquisas salvas",
+          "Inclusao das Pesquisas Salvas",
+          "Config3",
+          "Config",
+          "Config",
+          "modificacao no config",
+          "Bugs",
+          "install react-native-fetch_blob",
+          "Install image Picker",
+          "Criação da pagina sobre o App",
+          "Correção no filtro",
+          "Criação da newTicket, correção dos atrib e requer.",
+          "Correção dos filtros"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 43
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 92,316 bytes (89% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 4,166 bytes (4% of repo)",
+          "strength": 0.4399597141623903
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 3,086 bytes (3% of repo)",
+          "strength": 0.4296004987770371
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "jest in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react-native",
+          "source": "manifest",
+          "detail": "react-native in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 99568,
+        "strong_skills": [
+          "javascript",
+          "native-mobile",
+          "react",
+          "react-native",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "app-clima",
+      "full_name": "valdirsb/app-clima",
+      "html_url": "https://github.com/valdirsb/app-clima",
+      "description": "App simples que pesquisa o clima das cidades escolhidas.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-02-23T03:22:17Z",
+      "pushed_at": "2022-02-23T03:44:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4048,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Vue": 4868,
+        "HTML": 832,
+        "JavaScript": 603
+      },
+      "primary_language": "Vue",
+      "file_count": 15,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "babel.config.js",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vue.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@vue/cli-plugin-babel",
+          "@vue/cli-plugin-eslint",
+          "@vue/cli-service",
+          "axios",
+          "babel-eslint",
+          "core-js",
+          "eslint",
+          "eslint-plugin-vue",
+          "sass",
+          "sass-loader",
+          "sweetalert2",
+          "vue",
+          "vue-cli-plugin-vuetify",
+          "vue-template-compiler",
+          "vuetify",
+          "vuetify-loader"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 410,
+      "readme_excerpt": "# clima-app\n\nLink: [https://app-clima.valdirbarbosa.com.br](https://app-clima.valdirbarbosa.com.br).\n\n## Project setup\n```\nnpm install\n```\n\n### Compiles and hot-reloads for development\n```\nnpm run serve\n```\n\n### Compiles and minifies for production\n```\nnpm run build\n```\n\n### Lints and fixes files\n```\nnpm run lint\n```\n\n### Customize configuration\nSee [Configuration Reference](https://cli.vuejs.org/config/).\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2022-02-22T00:31:56+00:00",
+        "last_at": "2022-02-23T03:44:06+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "Update README.md",
+          "https",
+          "exclusão de arquivo",
+          "primeiro Commit",
+          "init"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "vue",
+          "source": "language",
+          "detail": "Vue: 4,868 bytes (77% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 832 bytes (13% of repo)",
+          "strength": 0.5320006346184357
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 603 bytes (10% of repo)",
+          "strength": 0.4956687291765826
+        },
+        {
+          "skill_id": "vue",
+          "source": "manifest",
+          "detail": "vue in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6303,
+        "strong_skills": [
+          "vue"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "PHP": 30824546,
+    "JavaScript": 8267597,
+    "CSS": 4513303,
+    "Go": 378443,
+    "HTML": 29015,
+    "Vue": 18113,
+    "TypeScript": 15870,
+    "Shell": 8492,
+    "Makefile": 7511,
+    "Objective-C": 4166,
+    "Java": 3086,
+    "Ruby": 2775,
+    "Starlark": 1912,
+    "Smarty": 33
+  },
+  "total_commits": 109,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "valdirsb/kellysantos",
+        "valdirsb/suporteglpi",
+        "valdirsb/app-clima"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 8267020,
+      "commit_count": 40,
+      "first_seen": "2020-02-01T00:21:37+00:00",
+      "last_seen": "2022-02-23T03:44:06+00:00",
+      "details": [
+        "kellysantos: JavaScript: 8,174,101 bytes (19% of repo)",
+        "suporteglpi: JavaScript: 92,316 bytes (89% of repo)",
+        "app-clima: JavaScript: 603 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "vue",
+      "repos": [
+        "valdirsb/avatar-creator",
+        "valdirsb/app-clima"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 18113,
+      "commit_count": 21,
+      "first_seen": "2022-02-22T00:31:56+00:00",
+      "last_seen": "2025-07-05T14:31:25+00:00",
+      "details": [
+        "avatar-creator: Vue: 13,245 bytes (43% of repo)",
+        "avatar-creator: vue in package.json",
+        "app-clima: Vue: 4,868 bytes (77% of repo)",
+        "app-clima: vue in package.json"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "valdirsb/artemis"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 378443,
+      "commit_count": 53,
+      "first_seen": "2025-10-13T14:13:13+00:00",
+      "last_seen": "2025-10-22T20:03:33+00:00",
+      "details": [
+        "artemis: Go: 378,443 bytes (98% of repo)",
+        "artemis: Go module (AppExample/meuApp/go.mod)",
+        "artemis: 'go' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "valdirsb/avatar-creator"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.918491897543126,
+      "total_bytes": 15870,
+      "commit_count": 16,
+      "first_seen": "2024-11-20T15:10:15+00:00",
+      "last_seen": "2025-07-05T14:31:25+00:00",
+      "details": [
+        "avatar-creator: TypeScript: 15,870 bytes (52% of repo)",
+        "avatar-creator: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "valdirsb/artemis",
+        "valdirsb/kellysantos",
+        "valdirsb/suporteglpi"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 88,
+      "first_seen": "2020-02-01T00:21:37+00:00",
+      "last_seen": "2025-10-22T20:03:33+00:00",
+      "details": [
+        "artemis: test directory (AppExample/meuApp/internal/modules/order/tests/integration/repository_test.go)",
+        "kellysantos: test directory (wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/chip/test/index.js)",
+        "suporteglpi: jest in package.json"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "valdirsb/suporteglpi"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 31,
+      "first_seen": "2020-02-01T00:21:37+00:00",
+      "last_seen": "2020-04-01T00:22:42+00:00",
+      "details": [
+        "suporteglpi: React Native bundler config (metro.config.js)",
+        "suporteglpi: react-native in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "valdirsb/suporteglpi"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 31,
+      "first_seen": "2020-02-01T00:21:37+00:00",
+      "last_seen": "2020-04-01T00:22:42+00:00",
+      "details": [
+        "suporteglpi: 'react' in repo name/description",
+        "suporteglpi: react in package.json"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "valdirsb/artemis",
+        "valdirsb/kellysantos"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 57,
+      "first_seen": "2020-07-19T19:25:11+00:00",
+      "last_seen": "2025-10-22T20:03:33+00:00",
+      "details": [
+        "artemis: docs directory (AppExample/meuApp/docs/ARCHITECTURE.md)",
+        "kellysantos: docs directory (wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/docs/admin.md)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "valdirsb/suporteglpi"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 4166,
+      "commit_count": 31,
+      "first_seen": "2020-02-01T00:21:37+00:00",
+      "last_seen": "2020-04-01T00:22:42+00:00",
+      "details": [
+        "suporteglpi: Objective-C: 4,166 bytes (4% of repo)",
+        "suporteglpi: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "valdirsb/avatar-creator"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2024-11-20T15:10:15+00:00",
+      "last_seen": "2025-07-05T14:31:25+00:00",
+      "details": [
+        "avatar-creator: GitHub Actions workflow (.github/workflows/main.yml)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "valdirsb/kellysantos"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2020-07-19T19:25:11+00:00",
+      "last_seen": "2020-07-20T02:31:05+00:00",
+      "details": [
+        "kellysantos: database migrations (wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/ActionMigrator.php)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "valdirsb/kellysantos"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2020-07-19T19:25:11+00:00",
+      "last_seen": "2020-07-20T02:31:05+00:00",
+      "details": [
+        "kellysantos: docker-compose (wp-content/plugins/woocommerce/packages/woocommerce-blocks/docker-compose.yml)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "valdirsb/kellysantos",
+        "valdirsb/app-clima"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5320006346184357,
+      "total_bytes": 4541402,
+      "commit_count": 9,
+      "first_seen": "2020-07-19T19:25:11+00:00",
+      "last_seen": "2022-02-23T03:44:06+00:00",
+      "details": [
+        "kellysantos: CSS: 4,513,303 bytes (10% of repo)",
+        "kellysantos: HTML: 27,267 bytes (0% of repo)",
+        "app-clima: HTML: 832 bytes (13% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "valdirsb/suporteglpi"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4296004987770371,
+      "total_bytes": 3086,
+      "commit_count": 31,
+      "first_seen": "2020-02-01T00:21:37+00:00",
+      "last_seen": "2020-04-01T00:22:42+00:00",
+      "details": [
+        "suporteglpi: Java: 3,086 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "valdirsb/artemis",
+        "valdirsb/kellysantos"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41946086839364277,
+      "total_bytes": 16003,
+      "commit_count": 57,
+      "first_seen": "2020-07-19T19:25:11+00:00",
+      "last_seen": "2025-10-22T20:03:33+00:00",
+      "details": [
+        "artemis: Makefile: 7,511 bytes (2% of repo)",
+        "kellysantos: Shell: 8,492 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "valdirsb/artemis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 53,
+      "first_seen": "2025-10-13T14:13:13+00:00",
+      "last_seen": "2025-10-22T20:03:33+00:00",
+      "details": [
+        "artemis: 'c' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "cms",
+      "repos": [
+        "valdirsb/kellysantos"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2020-07-19T19:25:11+00:00",
+      "last_seen": "2020-07-20T02:31:05+00:00",
+      "details": [
+        "kellysantos: 'wordpress' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 109,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 12,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "javascript-frontend",
+  "collected_at": "2026-09-16T14:15:07.184250+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,125 @@
+{
+  "github_login": "Aryo80",
+  "applicant_id": "applicant0078",
+  "first_name": "Owen",
+  "last_name": "Castellano",
+  "career_stage": "new_grad",
+  "email": "owen.castellano@brindlewood.example",
+  "phone": "(555) 010-0234",
+  "location": "Brindlewood",
+  "linkedin": "linkedin.example.com/in/owen-castellano",
+  "github_url": "github.example.com/owen-castellano",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Brindlewood Polytechnic",
+    "location": "Brindlewood",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "May 2024",
+    "gpa": "3.8/4.0",
+    "coursework": [
+      "Machine Learning Systems",
+      "Distributed Systems",
+      "Databases",
+      "Software Engineering"
+    ],
+    "honors": [
+      "Dean's List, Fall 2023"
+    ]
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "MLflow Experiment Tracking",
+      "organization": null,
+      "location": null,
+      "start": "May 2024",
+      "end": "Jun 2024",
+      "bullets": [
+        "Set up MLflow experiment tracking across a 211-file project, logging model runs during a machine-learning operations training program."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "title": "MLOps Monitoring with Grafana and Evidently",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2024",
+      "end": "Jun 2024",
+      "bullets": [
+        "Built a monitoring pipeline with Evidently and Grafana in Docker to track model drift, connecting metrics to a PostgreSQL backend.",
+        "Containerized the monitoring stack with Docker so metrics dashboards could run independent of the training environment."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Docker",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "MLOps Batch Deployment",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2024",
+      "end": "Jun 2024",
+      "bullets": [
+        "Packaged a batch-scoring pipeline with Pipenv and Docker, using pandas and scikit-learn to structure the deployment workflow."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Docker"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Cohort Participant",
+      "organization": "Brindlewood MLOps Cohort",
+      "location": null,
+      "start": "Jul 2024",
+      "end": "Aug 2024",
+      "bullets": [
+        "After scraped review data for a sentiment-analysis side project came in inconsistent formats, learned why reliable pipelines mattered more than model choice.",
+        "Maintained a shared troubleshooting log for cohort peers working through the same deployment exercises, cutting down repeated setup questions."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Visualization",
+      "ETL & Data Pipelines",
+      "Web Scraping",
+      "PostgreSQL"
+    ],
+    "AI/ML": [
+      "Machine Learning",
+      "Natural Language Processing"
+    ],
+    "DevOps": [
+      "Docker"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

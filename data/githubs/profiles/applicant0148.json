@@ -1,0 +1,1566 @@
+{
+  "applicant_id": "applicant0148",
+  "login": "CarolenePremLeela",
+  "html_url": "https://github.com/CarolenePremLeela",
+  "created_at": "2020-06-24T05:32:15Z",
+  "account_age_days": 2275,
+  "public_repos": 8,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "elevated-everyday-eye",
+      "full_name": "CarolenePremLeela/elevated-everyday-eye",
+      "html_url": "https://github.com/CarolenePremLeela/elevated-everyday-eye",
+      "description": "Lovable supabase",
+      "homepage": "https://carolenepremleela.github.io/elevated-everyday-eye/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-05T06:10:56Z",
+      "pushed_at": "2026-09-17T01:14:25Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11088,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 205243,
+        "CSS": 1850,
+        "HTML": 1553,
+        "JavaScript": 846
+      },
+      "primary_language": "TypeScript",
+      "file_count": 100,
+      "top_level_paths": [
+        ".env",
+        ".github",
+        ".gitignore",
+        ".lovable",
+        "README.md",
+        "bun.lock",
+        "bun.lockb",
+        "components.json",
+        "eslint.config.js",
+        "index.html",
+        "manual_readme.md",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "supabase",
+        "tailwind.config.ts",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts",
+        "workspace.code-workspace"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@eslint/js",
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@supabase/supabase-js",
+          "@tailwindcss/typography",
+          "@tanstack/react-query",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react-swc",
+          "autoprefixer",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "date-fns",
+          "embla-carousel-react",
+          "eslint",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-react-refresh",
+          "globals",
+          "input-otp",
+          "lovable-tagger",
+          "lucide-react",
+          "next-themes",
+          "postcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-resizable-panels",
+          "react-router-dom",
+          "recharts",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "typescript-eslint",
+          "vaul",
+          "vite",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2351,
+      "readme_excerpt": "# Welcome to your Lovable project\n\n## Project info\n\n**URL**: https://lovable.dev/projects/1f664c0a-cc69-48c6-8206-dcbd9ebc8e56\n\n## How can I edit this code?\n\nThere are several ways of editing your application.\n\n**Use Lovable**\n\nSimply visit the [Lovable Project](https://lovable.dev/projects/1f664c0a-cc69-48c6-8206-dcbd9ebc8e56) and start prompting.\n\nChanges made via Lovable will be committed automatically to this repo.\n\n**Use your preferred IDE**\n\nIf you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.\n\nThe only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)\n\nFollow these steps:\n\n```sh\n# Step 1: Clone the repository using the project's Git URL.\ngit clone <YOUR_GIT_URL>\n\n# Step 2: Navigate to the project directory.\ncd <YOUR_PROJECT_NAME>\n\n# Step 3: Install the necessary dependencies.\nnpm i\n\n# Step 4: Start the development server with auto-reloading and an instant preview.\nnpm run dev\n```\n\n**Edit a file directly in GitHub**\n\n- Navigate to the desired file(s).\n- Click the \"Edit\" button (pencil icon) at the top right of the file ",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.244,
+      "commits": {
+        "count": 22,
+        "first_at": "2025-11-05T07:34:03+00:00",
+        "last_at": "2026-02-11T04:08:14+00:00",
+        "active_days": 8,
+        "span_days": 97,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.045,
+        "messages_sample": [
+          "Update Hero component title to include 'Raja Singh'",
+          "Delete src/integrations/supabase directory",
+          "Delete supabase directory",
+          "Update footer copyright text to include 'Raja Singh'",
+          "Update experience period and achievements wording",
+          "Update tags in Experience component TechStack",
+          "Modify experience entries with new company details",
+          "Modify Supabase credentials in .env file",
+          "Replace Supabase credentials with new values",
+          "postman api readme update",
+          "api get and post tested",
+          "correction jwt supabase",
+          "c# api integration with supabase",
+          "Add README for Elevated Everyday Eye project",
+          "manually adding supbase credentials",
+          "connecting supabase manually",
+          "connecting supabase manually",
+          "Add GitHub Actions workflow for Jekyll deployment",
+          "Add GitHub Actions workflow for GitHub Pages deployment",
+          "Delete CNAME"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 78
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 205,243 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,850 bytes (1% of repo)",
+          "strength": 0.4088308861436236
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,553 bytes (1% of repo)",
+          "strength": 0.40741317090867435
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (supabase/migrations/20260304064241_5b4a71c1-efbe-411a-bbc5-0dd287fcfebc.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (supabase/migrations/20260304064241_5b4a71c1-efbe-411a-bbc5-0dd287fcfebc.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 209492,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "data-viz",
+          "react",
+          "sql",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Kube-Credential",
+      "full_name": "CarolenePremLeela/Kube-Credential",
+      "html_url": "https://github.com/CarolenePremLeela/Kube-Credential",
+      "description": "Kube Credential – Microservice Credential Issuance and Verification System",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-06T17:08:18Z",
+      "pushed_at": "2026-03-04T15:42:43Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 28322,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 24408,
+        "Dockerfile": 699,
+        "HTML": 291
+      },
+      "primary_language": "TypeScript",
+      "file_count": 2876,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        "Kube_Credential_Assignment_SFSD.pdf",
+        "README.md",
+        "backend",
+        "docker-compose.yml",
+        "frontend",
+        "k8s",
+        "node_modules",
+        "package-lock.json",
+        "package.json"
+      ],
+      "notable_files": [
+        "backend/issuance-service/Dockerfile",
+        "backend/issuance-service/package.json",
+        "backend/shared/package.json",
+        "backend/verification-service/Dockerfile",
+        "backend/verification-service/package.json",
+        "frontend/Dockerfile",
+        "frontend/node_modules/@babel/code-frame/package.json",
+        "frontend/node_modules/@babel/compat-data/package.json",
+        "frontend/node_modules/@babel/core/package.json",
+        "frontend/node_modules/@babel/generator/package.json",
+        "frontend/node_modules/@babel/helper-compilation-targets/package.json",
+        "frontend/node_modules/@babel/helper-globals/package.json",
+        "frontend/node_modules/@babel/helper-module-imports/package.json",
+        "frontend/node_modules/@babel/helper-module-transforms/package.json",
+        "frontend/node_modules/@babel/helper-plugin-utils/package.json",
+        "frontend/node_modules/@babel/helper-string-parser/package.json",
+        "frontend/node_modules/@babel/helper-validator-identifier/package.json",
+        "frontend/node_modules/@babel/helper-validator-option/package.json",
+        "frontend/node_modules/@babel/helpers/package.json",
+        "frontend/node_modules/@babel/parser/package.json",
+        "frontend/node_modules/@babel/plugin-transform-react-jsx-self/package.json",
+        "frontend/node_modules/@babel/plugin-transform-react-jsx-source/package.json",
+        "frontend/node_modules/@babel/template/package.json",
+        "frontend/node_modules/@babel/traverse/package.json",
+        "frontend/node_modules/@babel/types/package.json",
+        "frontend/node_modules/@esbuild/win32-x64/package.json",
+        "frontend/node_modules/@jridgewell/gen-mapping/package.json",
+        "frontend/node_modules/@jridgewell/remapping/package.json",
+        "frontend/node_modules/@jridgewell/resolve-uri/package.json",
+        "frontend/node_modules/@jridgewell/sourcemap-codec/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@types/jest",
+          "jest",
+          "ts-jest"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 11104,
+      "readme_excerpt": "# 🧩 Kube Credential – Microservice Credential Issuance and Verification System\n\n**Author:** Carolene Prem Leela\n**Website:** https://carolenepremleela.github.io/Carolene-CV/\n**Email:** [[email]](mailto:[email])\n**Job Role:** Senior Full Stack Engineer\n**Date:** October 2025\n\n---\n\n## 📘 Overview\n\n**Kube Credential** is a microservice-based system designed to issue and verify credentials securely.\nIt demonstrates scalable, containerized deployment using **Docker**, **TypeScript**, **MySQL**, and **Kubernetes (AWS EKS)**.\n## Structure\n- `backend/issuance-service` - issuance API\n- `backend/verification-service` - verification API\n- `backend/shared` - shared types and DB\n- `frontend` - simple React UI\n- `k8s-manifests` - Kubernetes manifests\n- `docker-compose.yml` - local development with MariaDB\n\n## Run locally (docker-compose)\n\n1. `docker-compose up --build`\n2. Frontend will be available at `http://localhost:3000`\n3. Issuance at `http://localhost:3001/issuance`\n4. Verification at `http://localhost:3002/verification`\n\n## Notes & next steps:\n- Replace example DB credentials before deploying to production.\n- Consider adding readiness/liveness endpoi",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 17,
+        "first_at": "2025-10-06T17:08:19+00:00",
+        "last_at": "2026-03-04T15:42:42+00:00",
+        "active_days": 5,
+        "span_days": 148,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.412,
+        "messages_sample": [
+          "Add files via upload",
+          "mysql success",
+          "frontend port correction",
+          "build success",
+          "compiled success",
+          "solving docker error",
+          "docker changes",
+          "updated docket",
+          "changed scaffold structure",
+          "added ignore files",
+          "Clean up ignored files",
+          "Create ingress.yaml",
+          "Create IssuePage.tsx",
+          "Create index.ts",
+          "Create index.ts",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1921
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 24,408 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (backend/issuance-service/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (backend/issuance-service/tests/issuance.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (backend/mysql/init.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (frontend/nginx.conf)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (k8s/frontend-deployment.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "@types/jest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 25398,
+        "strong_skills": [
+          "docker",
+          "kubernetes",
+          "linux",
+          "sql",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Automation_CAN",
+      "full_name": "CarolenePremLeela/Automation_CAN",
+      "html_url": "https://github.com/CarolenePremLeela/Automation_CAN",
+      "description": "Vehicle Automation using CAN Protocol with MSP430 [Ultra Low Power Consumption]",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-19T06:09:13Z",
+      "pushed_at": "2025-05-19T06:14:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3541,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 2200
+      },
+      "primary_language": "C++",
+      "file_count": 7,
+      "top_level_paths": [
+        "ACK REVIEW1.pptx",
+        "README.md",
+        "RVV PPT.pptx",
+        "RVV Program.txt",
+        "RVVreport(1).docx",
+        "RVVreport(3).docx",
+        "main_code.ino"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 97,
+      "readme_excerpt": "# Automation_CAN\nVehicle Automation using CAN Protocol with MSP430 [Ultra Low Power Consumption]\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-05-19T06:09:13+00:00",
+        "last_at": "2025-05-19T06:14:12+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Create main_code.ino",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 2,200 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files"
+        ],
+        "code_bytes": 2200,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "tucker_steve",
+      "full_name": "CarolenePremLeela/tucker_steve",
+      "html_url": "https://github.com/CarolenePremLeela/tucker_steve",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-26T07:21:44Z",
+      "pushed_at": "2025-07-26T07:23:05Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 25525,
+      "default_branch": "741-confirmation-timeout-to-ocpp-request",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Java": 1460219,
+        "CSS": 11459,
+        "JavaScript": 6510,
+        "Dockerfile": 1431
+      },
+      "primary_language": "Java",
+      "file_count": 540,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".mvn",
+        "Dockerfile",
+        "LICENSE-HEADER.txt",
+        "LICENSE.txt",
+        "README.md",
+        "docker-compose.yml",
+        "k8s",
+        "mvnw",
+        "mvnw.cmd",
+        "pom.xml",
+        "src",
+        "website"
+      ],
+      "notable_files": [
+        ".github/workflows/main.yml",
+        ".github/workflows/review.yml",
+        "Dockerfile",
+        "k8s/docker/Dockerfile",
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "annotations",
+          "apache-jstl",
+          "byte-buddy",
+          "commons-logging",
+          "compositejks",
+          "cxf-rt-features-logging",
+          "cxf-rt-frontend-jaxws",
+          "cxf-rt-transports-http",
+          "cxf-rt-transports-http-hc",
+          "disruptor",
+          "encoder-jakarta-jsp",
+          "flyway-maven-plugin",
+          "flyway-mysql",
+          "git-commit-id-maven-plugin",
+          "guava",
+          "hamcrest",
+          "hibernate-validator",
+          "hikaricp",
+          "httpclient5",
+          "jackson-annotations",
+          "jackson-databind",
+          "jackson-datatype-joda",
+          "jackson-module-jakarta-xmlbind-annotations",
+          "jakarta.mail",
+          "jakarta.servlet-api",
+          "jakarta.servlet.jsp.jstl",
+          "jakarta.servlet.jsp.jstl-api",
+          "jakarta.websocket-api",
+          "jakarta.websocket-client-api",
+          "java-semver",
+          "jcl-over-slf4j",
+          "jetty-ee10-annotations",
+          "jetty-ee10-apache-jsp",
+          "jetty-ee10-jspc-maven-plugin",
+          "jetty-ee10-webapp",
+          "jetty-ee10-websocket-jetty-server",
+          "jetty-rewrite",
+          "jetty-server",
+          "jetty-websocket-jetty-client",
+          "joda-time",
+          "jooq",
+          "jooq-codegen",
+          "jooq-codegen-maven",
+          "jooq-meta",
+          "json-path",
+          "junit-bom",
+          "junit-jupiter-engine",
+          "junit-jupiter-params",
+          "license-maven-plugin",
+          "license-maven-plugin-git",
+          "log4j-api",
+          "log4j-bom",
+          "log4j-core",
+          "log4j-slf4j2-impl",
+          "log4j-web",
+          "lombok",
+          "maven-checkstyle-plugin",
+          "maven-compiler-plugin",
+          "maven-dependency-plugin",
+          "maven-enforcer-plugin",
+          "maven-jar-plugin",
+          "maven-pmd-plugin",
+          "maven-surefire-plugin",
+          "mockito-junit-jupiter",
+          "mysql-connector-j",
+          "nv-i18n",
+          "ocpp-jaxb",
+          "properties-maven-plugin",
+          "slf4j-api",
+          "slf4j-bom",
+          "spotbugs-maven-plugin",
+          "spring-framework-bom",
+          "spring-jcl",
+          "spring-security-config",
+          "spring-security-web",
+          "spring-test",
+          "spring-webmvc",
+          "spring-websocket",
+          "springdoc-openapi-starter-webmvc-ui",
+          "steve"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 9214,
+      "readme_excerpt": "![SteVe](src/main/resources/webapp/static/images/logo.png) \n\n[![build and run tests](https://github.com/steve-community/steve/actions/workflows/main.yml/badge.svg)](https://github.com/steve-community/steve/actions/workflows/main.yml)\n\n\n# Introduction\n\nSteVe started its life at the RWTH Aachen University [in 2013](https://github.com/steve-community/steve/issues/827). \nThe name is derived from _Steckdosenverwaltung_ in German (in English: socket administration). \nThe aim of SteVe is to support the deployment and popularity of electric mobility, so it is easy to install and to use. \nIt provides basic functions for the administration of charge points, user data, and RFID cards for user authentication and was tested successfully in operation.\n\nSteVe is considered as an open platform to implement, test and evaluate novel ideas for electric mobility, like authentication protocols, reservation mechanisms for charge points, and business models for electric mobility. \nThe project is distributed under [GPL](LICENSE.txt) and is free to use. \nIf you are going to deploy it we are happy to see the [logo](website/logo/managed-by-steve.pdf) on a charge point.\n\n## Relation to Powerfill\n\n[Powerfill](",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 32,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following a"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 369
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,460,219 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 11,459 bytes (1% of repo)",
+          "strength": 0.40774456126881314
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,510 bytes (0% of repo)",
+          "strength": 0.4043997812950496
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,431 bytes (0% of repo)",
+          "strength": 0.4009671408653174
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/main.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (k8s/docker/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (src/main/resources/db/migration/B1_0_5__stevedb.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (src/main/resources/db/migration/B1_0_5__stevedb.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/de/rwth/idsg/steve/ApplicationJsonTest.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "hibernate-validator in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit-bom in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysql-connector-j in pom.xml",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-webmvc in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 1479619,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "java",
+          "kubernetes",
+          "mysql",
+          "spring",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Carolene-CV",
+      "full_name": "CarolenePremLeela/Carolene-CV",
+      "html_url": "https://github.com/CarolenePremLeela/Carolene-CV",
+      "description": null,
+      "homepage": "https://carolenepremleela.github.io/Carolene-CV/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-04-17T04:55:23Z",
+      "pushed_at": "2025-10-06T09:41:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 430,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 19388
+      },
+      "primary_language": "HTML",
+      "file_count": 6,
+      "top_level_paths": [
+        ".nojekyll",
+        "2025 SOFT CAROLENE RESUME.pdf",
+        "CAROLENE RESUME 2025.pdf",
+        "Carolene-professional-cv.pdf",
+        "README.md",
+        "index.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 243,
+      "readme_excerpt": "https://www.notion.so/Carolene-Prem-Leela-Raja-Singh-1d02ec1d2680801b967deb33f11f75a8?\n\nthis html is created with help of deepseek\nmy cv which is created with help of claude \nmy resume which is created with help of  chatgpt with my documents \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 25,
+        "first_at": "2025-04-17T04:57:56+00:00",
+        "last_at": "2025-10-06T09:41:13+00:00",
+        "active_days": 8,
+        "span_days": 172,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.76,
+        "messages_sample": [
+          "Update index.html",
+          "Update index.html",
+          "Update index.html",
+          "Rename Old_index.html to index.html",
+          "Delete index.html",
+          "Rename updated_index.html to index.html",
+          "Rename index.html to Old_index.html",
+          "Add files via upload",
+          "Update index.html",
+          "Update index.html",
+          "Update README.md",
+          "Update index.html",
+          "Update index.html",
+          "Update index.html",
+          "Add files via upload",
+          "Update index.html",
+          "Update index.html",
+          "Update index.html",
+          "Update index.html",
+          "Rename .nojeky11 to .nojekyll"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 19,388 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "repo_name",
+          "detail": "'cv' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 19388,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 1460219,
+    "TypeScript": 229651,
+    "HTML": 21232,
+    "CSS": 13309,
+    "JavaScript": 7356,
+    "C++": 2200,
+    "Dockerfile": 2130
+  },
+  "total_commits": 67,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye",
+        "CarolenePremLeela/tucker_steve",
+        "CarolenePremLeela/Carolene-CV"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 34250,
+      "commit_count": 47,
+      "first_seen": "2025-04-17T04:57:56+00:00",
+      "last_seen": "2026-02-11T04:08:14+00:00",
+      "details": [
+        "elevated-everyday-eye: CSS: 1,850 bytes (1% of repo)",
+        "elevated-everyday-eye: HTML: 1,553 bytes (1% of repo)",
+        "tucker_steve: CSS: 11,459 bytes (1% of repo)",
+        "Carolene-CV: HTML: 19,388 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye",
+        "CarolenePremLeela/Kube-Credential"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 229651,
+      "commit_count": 39,
+      "first_seen": "2025-10-06T17:08:19+00:00",
+      "last_seen": "2026-03-04T15:42:42+00:00",
+      "details": [
+        "elevated-everyday-eye: TypeScript: 205,243 bytes (98% of repo)",
+        "elevated-everyday-eye: typescript in package.json",
+        "Kube-Credential: TypeScript: 24,408 bytes (96% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "CarolenePremLeela/Automation_CAN"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2200,
+      "commit_count": 3,
+      "first_seen": "2025-05-19T06:09:13+00:00",
+      "last_seen": "2025-05-19T06:14:12+00:00",
+      "details": [
+        "Automation_CAN: C++: 2,200 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1460219,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "tucker_steve: Java: 1,460,219 bytes (99% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "CarolenePremLeela/Kube-Credential",
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 17,
+      "first_seen": "2025-10-06T17:08:19+00:00",
+      "last_seen": "2026-03-04T15:42:42+00:00",
+      "details": [
+        "Kube-Credential: test directory (backend/issuance-service/tests/issuance.test.ts)",
+        "Kube-Credential: @types/jest in package.json",
+        "tucker_steve: test directory (src/test/java/de/rwth/idsg/steve/ApplicationJsonTest.java)",
+        "tucker_steve: junit-bom in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye",
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2025-11-05T07:34:03+00:00",
+      "last_seen": "2026-02-11T04:08:14+00:00",
+      "details": [
+        "elevated-everyday-eye: database migrations (supabase/migrations/20260304064241_5b4a71c1-efbe-411a-bbc5-0dd287fcfebc.sql)",
+        "tucker_steve: database migrations (src/main/resources/db/migration/B1_0_5__stevedb.sql)",
+        "tucker_steve: hibernate-validator in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2025-11-05T07:34:03+00:00",
+      "last_seen": "2026-02-11T04:08:14+00:00",
+      "details": [
+        "elevated-everyday-eye: tailwind config (tailwind.config.ts)",
+        "elevated-everyday-eye: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2025-11-05T07:34:03+00:00",
+      "last_seen": "2026-02-11T04:08:14+00:00",
+      "details": [
+        "elevated-everyday-eye: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2025-11-05T07:34:03+00:00",
+      "last_seen": "2026-02-11T04:08:14+00:00",
+      "details": [
+        "elevated-everyday-eye: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "tucker_steve: mysql-connector-j in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "tucker_steve: spring-webmvc in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye",
+        "CarolenePremLeela/Kube-Credential",
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 39,
+      "first_seen": "2025-10-06T17:08:19+00:00",
+      "last_seen": "2026-03-04T15:42:42+00:00",
+      "details": [
+        "elevated-everyday-eye: SQL file (supabase/migrations/20260304064241_5b4a71c1-efbe-411a-bbc5-0dd287fcfebc.sql)",
+        "Kube-Credential: SQL file (backend/mysql/init.sql)",
+        "tucker_steve: SQL file (src/main/resources/db/migration/B1_0_5__stevedb.sql)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "CarolenePremLeela/Kube-Credential",
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "language"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1431,
+      "commit_count": 17,
+      "first_seen": "2025-10-06T17:08:19+00:00",
+      "last_seen": "2026-03-04T15:42:42+00:00",
+      "details": [
+        "Kube-Credential: Dockerfile (backend/issuance-service/Dockerfile)",
+        "tucker_steve: Dockerfile: 1,431 bytes (0% of repo)",
+        "tucker_steve: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "CarolenePremLeela/elevated-everyday-eye",
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2025-11-05T07:34:03+00:00",
+      "last_seen": "2026-02-11T04:08:14+00:00",
+      "details": [
+        "elevated-everyday-eye: GitHub Actions workflow (.github/workflows/deploy.yml)",
+        "tucker_steve: GitHub Actions workflow (.github/workflows/main.yml)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "CarolenePremLeela/Kube-Credential",
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 17,
+      "first_seen": "2025-10-06T17:08:19+00:00",
+      "last_seen": "2026-03-04T15:42:42+00:00",
+      "details": [
+        "Kube-Credential: kubernetes manifests (k8s/frontend-deployment.yaml)",
+        "tucker_steve: kubernetes manifests (k8s/docker/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "CarolenePremLeela/Kube-Credential"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 17,
+      "first_seen": "2025-10-06T17:08:19+00:00",
+      "last_seen": "2026-03-04T15:42:42+00:00",
+      "details": [
+        "Kube-Credential: server config (frontend/nginx.conf)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "CarolenePremLeela/tucker_steve"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4043997812950496,
+      "total_bytes": 6510,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "tucker_steve: JavaScript: 6,510 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "computer-vision",
+      "repos": [
+        "CarolenePremLeela/Carolene-CV"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2025-04-17T04:57:56+00:00",
+      "last_seen": "2025-10-06T09:41:13+00:00",
+      "details": [
+        "Carolene-CV: 'cv' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 67,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 16,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:22:33.268398+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

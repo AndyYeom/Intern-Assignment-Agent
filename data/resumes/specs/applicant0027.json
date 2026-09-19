@@ -1,0 +1,107 @@
+{
+  "github_login": "SoumadipDey",
+  "applicant_id": "applicant0027",
+  "first_name": "Tomasz",
+  "last_name": "Wieczorek",
+  "career_stage": "student",
+  "email": "tomasz@norrfjord.example",
+  "phone": "(555) 010-0271",
+  "location": "Norrfjord",
+  "linkedin": "linkedin.example.com/in/tomasz-wieczorek",
+  "github_url": "github.example.com/tomasz-wieczorek",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Norrfjord Polytechnic",
+    "location": "Norrfjord",
+    "degree": "Bachelor of Computer Applications",
+    "major": "Computer Applications",
+    "minor": "Statistics",
+    "graduation": "Jun 2026",
+    "gpa": null,
+    "coursework": [
+      "Data Analysis with Python",
+      "Applied Statistics",
+      "Database Fundamentals",
+      "Artificial Intelligence Lab"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Sysinfo AMD",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2021",
+      "end": "Apr 2021",
+      "bullets": [
+        "Built a PySide2 desktop tool to monitor CPU, GPU and RAM usage on AMD systems, reading live hardware stats."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "PySide2"
+      ]
+    },
+    {
+      "title": "AI Lab Programs",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2025",
+      "end": "Nov 2025",
+      "bullets": [
+        "Worked through a semester of AI lab exercises in Python and Jupyter notebooks, iterating over 17 active days."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "title": "Perpcheck 2.0",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2020",
+      "end": "Apr 2021",
+      "bullets": [
+        "Built a PyQt5 desktop app matching faces against a records database, then grew wary of trusting matches uncritically."
+      ],
+      "link": null,
+      "tech": [
+        "Python",
+        "PyQt5"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Norrfjord Polytechnic Coding Circle",
+      "location": null,
+      "start": "Apr 2020",
+      "end": "Present",
+      "bullets": [
+        "Solved timed coding challenges with peers, including a compound-word puzzle that pushed for a cleaner, less brute-force solution.",
+        "After a facial-recognition side project raised questions about false matches, started asking harder questions about how training data was collected."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python"
+    ],
+    "Data": [
+      "Data Analysis (pandas)"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

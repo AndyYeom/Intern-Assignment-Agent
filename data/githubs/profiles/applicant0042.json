@@ -1,0 +1,917 @@
+{
+  "applicant_id": "applicant0042",
+  "login": "MatthewMer",
+  "html_url": "https://github.com/MatthewMer",
+  "created_at": "2020-01-31T23:16:52Z",
+  "account_age_days": 2419,
+  "public_repos": 10,
+  "followers": 2,
+  "following": 1,
+  "repos": [
+    {
+      "name": "gameboyx",
+      "full_name": "MatthewMer/gameboyx",
+      "html_url": "https://github.com/MatthewMer/gameboyx",
+      "description": "Gameboy (Color) emulator",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-15T10:29:40Z",
+      "pushed_at": "2025-01-22T14:07:26Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 68329,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C++": 522420,
+        "Python": 1195,
+        "GLSL": 640,
+        "C": 388
+      },
+      "primary_language": "C++",
+      "file_count": 77,
+      "top_level_paths": [
+        ".gitignore",
+        ".gitmodules",
+        "LICENSE",
+        "README.md",
+        "docs",
+        "gameboyx",
+        "gameboyx.sln",
+        "gameboyx_win_x64",
+        "gameboyx_win_x86",
+        "img",
+        "nfdext-lib"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4412,
+      "readme_excerpt": "[![Build status](https://ci.appveyor.com/api/projects/status/96gwu2lp9txol3w5?svg=true)](https://ci.appveyor.com/project/MatthewMer/gameboyx)\n\n## GBX (Game Boy Color Emulator Extended) ##\n\nThis is a Gameboy (Color) emulator utilising [ImGui](https://github.com/ocornut/imgui) with [SDL2](https://github.com/libsdl-org/SDL/releases/tag/release-2.28.2) and [Vulkan](https://vulkan.lunarg.com/) graphics API.\n\n### How do I get set up? ###\n\n### Precompiled: ###\n* download the precompiled binaries from the releases section\n\nalternatively you can build the application from source as described in the following sections\n\n### Build from source: ###\n\n* install latest [Vulkan SDK](https://vulkan.lunarg.com/) (Requires a GPU with at least Vulkan 1.0 support)\n* clone repository with following command (to clone the required submodules):\n```\ngit clone --recurse-submodules https://github.com/MatthewMer/gameboyx.git --recursive\n```\n* in the cloned repository open gameboyx.sln with Visual Studio 2022\n* you can either build an installer or create a portable executable, as described in the following section\n\n### Portable: ###\n* set configuration to `Release_portable` , set your target platform and start c",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2024-02-05T20:38:42+00:00",
+        "last_at": "2025-01-22T14:06:41+00:00",
+        "active_days": 73,
+        "span_days": 351,
+        "max_per_day": 19,
+        "low_effort_message_ratio": 0.02,
+        "messages_sample": [
+          "changed sampling rate update to callback for emulator",
+          "optimizations for channel 3 hybrid approach",
+          "changed channel 3 to a hybrid configuration: for steady sounds it is better to sample from wave ram directly, for more complex sounds it switches to a ring buffer (ringbuffer approach needs some optim",
+          "- changed virtual hardware structure to use smart pointers for singleton instances and other small optimizations",
+          "- fixed breakpoints for temporary table (when program counter is set to RAM)",
+          "- made gui table functionality more robust, fixed and simplified for instruction debugger",
+          "-fixed compiler warnings",
+          "- altered logic of channel 3 to ouput more tricky wave forms, e.g. playing the \"pikachu\" sound in pokemon yellow, as it relies on fast changes in output volume while wave RAM is completely set to 0xFF",
+          "- errors regarding graphics for original gameboy games (DMG) in CGB compatibility mode fixed -> instead of passing the color palettes from palette ram just transfer the palette ram values to the DMG p",
+          "- further fixes, but needs some more tweaks (graphics are a bit buggy for DMG in CGB mode)",
+          "- some fixes for gameboy games in color gameboy compatibility mode (needs some further investigation)",
+          "- decoupled virtual hardware from gui related stuff (no gui headers in Virtual hardware source files)",
+          "- cleanup of gameboy APU (GameboyAPU class)",
+          "- further cleanup of gameboy audio",
+          "some restructuring of audio backend to reduce the number of cache misses (CPU is less likely to acquire cachlines from RAM)",
+          "- cleanup GameboyAPU",
+          "- Update Beta V1.1.0",
+          "- removed try/catch that was outsourced to seperate function",
+          "fixes for CoreLoader: wchar_t variadic unpack for function template is deleted function ->  just pass the value as std::string (no need to implement a template for wchar)",
+          "update for backend. implemented basic approach for dynamically loading emulated hardware components (DLLs) during runtime -> move different hardware to seperate projects and compile to dynamic library"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 46
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 1,
+          "refactor": 4,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 522,420 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,195 bytes (0% of repo)",
+          "strength": 0.40227773933894095
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 524003,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "UnityGPUInstancing",
+      "full_name": "MatthewMer/UnityGPUInstancing",
+      "html_url": "https://github.com/MatthewMer/UnityGPUInstancing",
+      "description": "Custom classes for simple, large scale GPU instancing",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-11T21:50:22Z",
+      "pushed_at": "2025-12-05T10:12:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6212,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "C#": 95927,
+        "Mathematica": 15479
+      },
+      "primary_language": "C#",
+      "file_count": 110,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".gitmodules",
+        ".vsconfig",
+        "Assets",
+        "LICENSE",
+        "Packages",
+        "ProjectSettings",
+        "README.md",
+        "img"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 937,
+      "readme_excerpt": "# GPU Instancing Toolkit\n\nA flexible Unity instancing system designed for large-scale rendering of many object types with individual transform data.  \nSupports custom memory management and per-chunk buffer reuse to reduce allocations and improve performance.  \nAll classes are designed with a focus on modularity, performance, thread safety, and serving as a solid baseline for custom implementations.\n\n## Features\n\n- 🚀 High-performance, flawless GPU instancing\n- 📦 Global memory pooling\n- 🧠 Custom buffer management logic\n- 🎯 Designed for large, diverse object sets (e.g., prefabs)\n\n## Notes\n\nMissing:\n- ❌ Occlusion culling\n- ❌ Spatial partitioning\n- ❌ This version is not final and needs some cleanup, I will tackle this in the future\n\n## Example / Benchmark\n\n![Benchmark](img/benchmark.png)\n![Runtime Demo](img/GPUInstancingRuntime.mp4)\n\n## Requirements\n\n- Unity 2022.3 or newer (project created with Unity 6)\n- Compute shader support",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-06-11T21:50:23+00:00",
+        "last_at": "2025-12-05T09:39:52+00:00",
+        "active_days": 4,
+        "span_days": 176,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.4,
+        "messages_sample": [
+          "LFS installed, Demo Video",
+          "Changelog: cleanup project and namespaces, added @ManagedRenderTexture and @ManagedSystemBuffer (@NativeArray<T>) and proper Buffer Pools",
+          "Changelog: minor fixes, added ttl based buffer auto release",
+          "Initial commit",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 16
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 95,927 bytes (86% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 95927,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "chip8-emulator",
+      "full_name": "MatthewMer/chip8-emulator",
+      "html_url": "https://github.com/MatthewMer/chip8-emulator",
+      "description": "Simple chip8 emulator (commandline tool)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-15T08:51:28Z",
+      "pushed_at": "2023-08-25T10:11:23Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 56056,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C": 2415743,
+        "C++": 26630,
+        "CMake": 18475,
+        "Objective-C": 11506,
+        "Shell": 7288
+      },
+      "primary_language": "C",
+      "file_count": 159,
+      "top_level_paths": [
+        ".gitignore",
+        ".vs",
+        "Chip8",
+        "Chip8.sln",
+        "LICENSE",
+        "README.md",
+        "bin",
+        "include",
+        "lib",
+        "pics",
+        "x64"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 619,
+      "readme_excerpt": "# README #\n\n### How do I get set up? ###\n\n* compile with VS2022\n* precompiled binary in ./bin (SDL2.dll in same directoy required)\n\n### Who do I talk to? ###\n\n* Repo owner\n\n### Links ###\n\n* http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#8xy6\n* http://johnearnest.github.io/Octo/docs/chip8ref.pdf\n* https://github.com/Timendus/chip8-test-suite#chip-8-splash-screen\n* https://github.com/loktar00/chip8/blob/master/roms/Tetris%20%5BFran%20Dachille%2C%201991%5D.ch8\n\n### Screenshots ###\n\n![Output instructions](./pics/debug.png)\n![Corax test](./pics/corax.png)\n![Flags test](./pics/flags.png)\n![Quirks](./pics/quirks.png)",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2023-08-15T08:51:29+00:00",
+        "last_at": "2023-08-25T10:11:13+00:00",
+        "active_days": 3,
+        "span_days": 10,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.091,
+        "messages_sample": [
+          "V1.7: fixed key mapping and took hybrid rom instructions (0x0nnn) into account",
+          "V1.6: added sound support",
+          "V1.5: fixed timers and clock, fixed screen refresh, fixed key handling (checks for key up)",
+          "V1.5: fixed timers and clock, fixed screen refresh, fixed key handling (checks for key up)",
+          "fixed .ignore",
+          "V1.4: added basic error handling",
+          "V1.4: added basic error handling",
+          "V1.4: added basic error handling",
+          "V1.3: fixed commandline switches",
+          "Initial commit V1.0: chip8 emulator with old monochrome monitor bending effect",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 98
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 2,415,743 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 26,630 bytes (1% of repo)",
+          "strength": 0.4107394535178869
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 11,506 bytes (0% of repo)",
+          "strength": 0.4046401859623285
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 7,288 bytes (0% of repo)",
+          "strength": 0.40293913395562747
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2461167,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "n64-rom-dump-converter",
+      "full_name": "MatthewMer/n64-rom-dump-converter",
+      "html_url": "https://github.com/MatthewMer/n64-rom-dump-converter",
+      "description": "commandline tool to convert n64 rom dumps to different formats",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-15T09:11:26Z",
+      "pushed_at": "2023-11-08T09:03:49Z",
+      "stargazers": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 35,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C++": 5050
+      },
+      "primary_language": "C++",
+      "file_count": 8,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "bin",
+        "n64romdumpconverter",
+        "n64romdumpconverter.sln"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 511,
+      "readme_excerpt": "# README #\n\n* Usage (commandline tool): \n```n64romdumpconverter.exe <path/to/rom_dump> <target_format>```\ne.g. ```n64romdumpconverter.exe TLoZOoT.n64 v``` would convert the n64 file to a v64 file.\nPossible target formats are n64 (n), v64 (v), z64 (z).\n\n### What is this repository for? ###\n\n* Tool for converting N64 ROM dumps (n64, z64, v64)\n\n### How do I get set up? ###\n\n* compile with Visual Studio 2022\n* The already compiled executable is located in ./bin\n\n### Who do I talk to? ###\n\n* Repo owner or admin",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2023-08-15T09:11:26+00:00",
+        "last_at": "2023-11-08T09:04:13+00:00",
+        "active_days": 2,
+        "span_days": 84,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "changed output to overwrite instead of append",
+          "fixed .ignore",
+          "Initial commit V1.0",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 5,050 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5050,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "backend",
+      "full_name": "MatthewMer/backend",
+      "html_url": "https://github.com/MatthewMer/backend",
+      "description": "custom Hardware Backend for Vulkan, SDL, IO, ...",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-06-17T13:43:27Z",
+      "pushed_at": "2025-01-22T13:56:05Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 312,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "C++": 190476,
+        "C": 667
+      },
+      "primary_language": "C++",
+      "file_count": 41,
+      "top_level_paths": [
+        ".gitignore",
+        ".gitmodules",
+        "LICENSE",
+        "backend",
+        "backend.sln",
+        "imgui-lib"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 37,
+        "first_at": "2024-06-17T13:43:27+00:00",
+        "last_at": "2025-01-22T13:55:30+00:00",
+        "active_days": 13,
+        "span_days": 219,
+        "max_per_day": 17,
+        "low_effort_message_ratio": 0.054,
+        "messages_sample": [
+          "changed audio callback signature",
+          "added callback for sampling rate update",
+          "some restructuring of audio backend to reduce the number of cache misses (CPU is less likely to acquire cachlines from RAM)",
+          "update for LFE -> just add to regular output for mono/stereo",
+          "further cleanup and proper audio settings",
+          "cleanup and commenting of AudioMgr and derived classes + used helpers",
+          "return settings structs by value instead of passing a struct by reference into the Get<...>Settings() methods",
+          "warning and error fixes",
+          "cleanup. TODO: cleanup Graphics backend, make functions more generic and more flexible to use",
+          "updated project name",
+          "fir finally fixed: logically ignore zeropadding to power of 2 and treat it as if it was size N = L + B - 1 -> smooth transitions between blocks and accidentially copied the samples from signal X[n] to",
+          "fixed error with overlap add, just add the overlap with offset B * j (where j is the the difference between different convolution results). was just thinking too complicated",
+          "error correction for overlap add",
+          "some fixes for FFT based convolution in frequency domain for reverbaration, still needs improvement but distance is definitely audible. Will try out FIR with convolution in time domain and IIR based a",
+          "finished reverb with convolution in frequency domain for the most part, just wanted to finish it. But change code to use IIR Butterworth filter with convolution in time domain (with aperiodic impulse ",
+          "update FFT: no temp buffer required, all in place -> sort is commplexity",
+          "update for FFT: reduced buffer size by N (perhaps change it to inplace swaps, dicarding the entire temporary buffer)",
+          "added more settings regarding audio config",
+          "update FFT -> preallocate memory (can still be optimized) and other fixes",
+          "- updated output directory"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 31
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 2,
+          "refactor": 3,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 190,476 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 191143,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C": 2416798,
+    "C++": 744576,
+    "C#": 95927,
+    "CMake": 18475,
+    "Mathematica": 15479,
+    "Objective-C": 11506,
+    "Shell": 7288,
+    "Python": 1195,
+    "GLSL": 640
+  },
+  "total_commits": 257,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "MatthewMer/gameboyx",
+        "MatthewMer/chip8-emulator",
+        "MatthewMer/n64-rom-dump-converter",
+        "MatthewMer/backend"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 3160319,
+      "commit_count": 252,
+      "first_seen": "2023-08-15T08:51:29+00:00",
+      "last_seen": "2025-01-22T14:06:41+00:00",
+      "details": [
+        "gameboyx: C++: 522,420 bytes (100% of repo)",
+        "chip8-emulator: C: 2,415,743 bytes (97% of repo)",
+        "chip8-emulator: C++: 26,630 bytes (1% of repo)",
+        "n64-rom-dump-converter: C++: 5,050 bytes (100% of repo)",
+        "backend: C++: 190,476 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "MatthewMer/UnityGPUInstancing"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 95927,
+      "commit_count": 5,
+      "first_seen": "2025-06-11T21:50:23+00:00",
+      "last_seen": "2025-12-05T09:39:52+00:00",
+      "details": [
+        "UnityGPUInstancing: C#: 95,927 bytes (86% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "MatthewMer/chip8-emulator"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4046401859623285,
+      "total_bytes": 11506,
+      "commit_count": 11,
+      "first_seen": "2023-08-15T08:51:29+00:00",
+      "last_seen": "2023-08-25T10:11:13+00:00",
+      "details": [
+        "chip8-emulator: Objective-C: 11,506 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "MatthewMer/chip8-emulator"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40293913395562747,
+      "total_bytes": 7288,
+      "commit_count": 11,
+      "first_seen": "2023-08-15T08:51:29+00:00",
+      "last_seen": "2023-08-25T10:11:13+00:00",
+      "details": [
+        "chip8-emulator: Shell: 7,288 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "MatthewMer/gameboyx"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40227773933894095,
+      "total_bytes": 1195,
+      "commit_count": 200,
+      "first_seen": "2024-02-05T20:38:42+00:00",
+      "last_seen": "2025-01-22T14:06:41+00:00",
+      "details": [
+        "gameboyx: Python: 1,195 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 257,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 2 < 3"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-16T14:24:10.490703+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 2 < 3"
+  ]
+}

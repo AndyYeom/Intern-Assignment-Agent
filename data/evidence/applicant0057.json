@@ -1,0 +1,368 @@
+{
+  "applicant_id": "applicant0057",
+  "github_login": "AURATAO",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0057.json",
+  "skills": [
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_light_MVP"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "database migrations (supabase/migrations/20260711094158_remote_schema.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/AURATAO/hora-pocketbase"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/hora-pocketbase",
+          "html_url": "https://github.com/AURATAO/hora-pocketbase",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_Landing_web",
+        "https://github.com/AURATAO/Hora_light_MVP",
+        "https://github.com/AURATAO/SliceApp"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_Landing_web",
+          "html_url": "https://github.com/AURATAO/Hora_Landing_web",
+          "level": 3,
+          "reasons": [
+            "intermediate: 76 commits; deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "Go module (backend/go.mod)"
+          ]
+        },
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "Go: 961,994 bytes (48% of repo)",
+            "Go module (server/go.mod)"
+          ]
+        },
+        {
+          "repo": "AURATAO/SliceApp",
+          "html_url": "https://github.com/AURATAO/SliceApp",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: documented",
+            "Go: 38,790 bytes (29% of repo)",
+            "Go module (backend/go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_Landing_web",
+        "https://github.com/AURATAO/Hora_light_MVP",
+        "https://github.com/AURATAO/Hora_web",
+        "https://github.com/AURATAO/hora-pocketbase"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_Landing_web",
+          "html_url": "https://github.com/AURATAO/Hora_Landing_web",
+          "level": 3,
+          "reasons": [
+            "intermediate: 76 commits; deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "JavaScript: 170,004 bytes (86% of repo)"
+          ]
+        },
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "JavaScript: 412,044 bytes (21% of repo)"
+          ]
+        },
+        {
+          "repo": "AURATAO/Hora_web",
+          "html_url": "https://github.com/AURATAO/Hora_web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 34 commits; deployed, many_active_days",
+            "JavaScript: 126,488 bytes (95% of repo)"
+          ]
+        },
+        {
+          "repo": "AURATAO/hora-pocketbase",
+          "html_url": "https://github.com/AURATAO/hora-pocketbase",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "JavaScript: 20,218 bytes (97% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_Landing_web",
+        "https://github.com/AURATAO/Hora_light_MVP"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_Landing_web",
+          "html_url": "https://github.com/AURATAO/Hora_Landing_web",
+          "level": 3,
+          "reasons": [
+            "intermediate: 76 commits; deployed, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 11 fix/perf/refactor commits",
+            "env config (Hora/.env.example)"
+          ]
+        },
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "env config (mobile/.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_web"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_web",
+          "html_url": "https://github.com/AURATAO/Hora_web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 34 commits; deployed, many_active_days",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "react-native",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_light_MVP",
+        "https://github.com/AURATAO/SliceApp"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "React Native bundler config (mobile/metro.config.js)"
+          ]
+        },
+        {
+          "repo": "AURATAO/SliceApp",
+          "html_url": "https://github.com/AURATAO/SliceApp",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: documented",
+            "React Native bundler config (app/metro.config.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_light_MVP"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "SQL file (supabase/migrations/20260711094158_remote_schema.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_light_MVP",
+        "https://github.com/AURATAO/Hora_web",
+        "https://github.com/AURATAO/SliceApp"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "tailwind config (mobile/tailwind.config.js)"
+          ]
+        },
+        {
+          "repo": "AURATAO/Hora_web",
+          "html_url": "https://github.com/AURATAO/Hora_web",
+          "level": 2,
+          "reasons": [
+            "intermediate: 34 commits; deployed, many_active_days",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "AURATAO/SliceApp",
+          "html_url": "https://github.com/AURATAO/SliceApp",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: documented",
+            "tailwind config (app/tailwind.config.js)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_light_MVP",
+        "https://github.com/AURATAO/SliceApp"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "TypeScript: 551,903 bytes (28% of repo)"
+          ]
+        },
+        {
+          "repo": "AURATAO/SliceApp",
+          "html_url": "https://github.com/AURATAO/SliceApp",
+          "level": 1,
+          "reasons": [
+            "entry: 15 commits, independent-work signals: documented",
+            "TypeScript: 95,504 bytes (71% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/AURATAO/Hora_light_MVP"
+      ],
+      "repos": [
+        {
+          "repo": "AURATAO/Hora_light_MVP",
+          "html_url": "https://github.com/AURATAO/Hora_light_MVP",
+          "level": 3,
+          "reasons": [
+            "intermediate: 83 commits; has_tests, deployed, multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 7 fix/perf/refactor commits",
+            "test file (server/admin_reassign_test.go)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 11
+  }
+}

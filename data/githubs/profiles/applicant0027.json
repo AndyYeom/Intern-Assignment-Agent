@@ -1,0 +1,892 @@
+{
+  "applicant_id": "applicant0027",
+  "login": "SoumadipDey",
+  "html_url": "https://github.com/SoumadipDey",
+  "created_at": "2020-01-31T22:07:23Z",
+  "account_age_days": 2419,
+  "public_repos": 22,
+  "followers": 14,
+  "following": 2,
+  "repos": [
+    {
+      "name": "ComSys-Trainer",
+      "full_name": "SoumadipDey/ComSys-Trainer",
+      "html_url": "https://github.com/SoumadipDey/ComSys-Trainer",
+      "description": "A basic training kit to visualize various modulation techniques in Communication Systems.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-10-13T16:18:20Z",
+      "pushed_at": "2022-10-13T16:23:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 521,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "amplitude-modulation",
+        "ask",
+        "communication-systems",
+        "frequency-modulation",
+        "fsk",
+        "modulation-techniques",
+        "pam",
+        "psk",
+        "pwm"
+      ],
+      "languages": {
+        "Python": 87902
+      },
+      "primary_language": "Python",
+      "file_count": 11,
+      "top_level_paths": [
+        ".gitignore",
+        "BGen.py",
+        "ComSysTrainerUI.py",
+        "ComSysTrainerUI.ui",
+        "LICENSE",
+        "README.md",
+        "logo.png",
+        "logo_gradient.png",
+        "main.py",
+        "mplwidget.py",
+        "mplwidgetfsk.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 107,
+      "readme_excerpt": "# ComSys-Trainer\nA basic training kit to visualize various modulation techniques in Communication Systems.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2022-10-13T16:18:20+00:00",
+        "last_at": "2022-10-13T16:23:13+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Delete test.py",
+          "Initial Commit",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 87,902 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 87902,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SysInfo_AMD",
+      "full_name": "SoumadipDey/SysInfo_AMD",
+      "html_url": "https://github.com/SoumadipDey/SysInfo_AMD",
+      "description": "GUI System monitoring tool made using PySide2. Shows CPU, GPU, and RAM usage for systems with AMD GPU.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-04-05T12:47:37Z",
+      "pushed_at": "2021-04-11T18:06:56Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1175,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "cpu-monitoring",
+        "cputil",
+        "gpu-monitoring",
+        "memory-monitoring",
+        "pyadl",
+        "pyside2",
+        "system-monitoring"
+      ],
+      "languages": {
+        "Python": 53471
+      },
+      "primary_language": "Python",
+      "file_count": 17,
+      "top_level_paths": [
+        "OpenHardwareMonitor",
+        "README.md",
+        "__pycache__",
+        "hw_info_fetch_example.py",
+        "main.py",
+        "ui_functions.py",
+        "ui_main.py",
+        "ui_main.ui"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 494,
+      "readme_excerpt": "# SysInfo for AMD GPUs\nGUI System monitoring tool made using PySide2 . Shows CPU, GPU and RAM usage for systems with AMD GPU\n## How to Use ? \nSteps:\n  * 1. Execute the `OpenHardwareMonitor.exe` file within the `OpenHardwareMonitor` folder\n  * 2. Run `main.py`\n### Notes:\n  __This program is still under development, one may observe slow operation since the entire program is single threaded for now,\n  I'll update this once I implement the `setDynamicValues()` function in a seperate thread.__\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2021-04-05T12:47:37+00:00",
+        "last_at": "2021-04-11T18:06:56+00:00",
+        "active_days": 2,
+        "span_days": 6,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 53,471 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "repo_name",
+          "detail": "'monitoring' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 53471,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Longest-Compound-Words",
+      "full_name": "SoumadipDey/Longest-Compound-Words",
+      "html_url": "https://github.com/SoumadipDey/Longest-Compound-Words",
+      "description": "Impledge Technologies Interview Coding Test 2022",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-09-27T20:50:28Z",
+      "pushed_at": "2022-09-29T16:05:23Z",
+      "stargazers": 2,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 1427,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "compound-words",
+        "interview",
+        "interview-questions"
+      ],
+      "languages": {
+        "Python": 5963
+      },
+      "primary_language": "Python",
+      "file_count": 10,
+      "top_level_paths": [
+        ".gitignore",
+        "Exercise_Fresher_Word_Problem.pdf",
+        "Input_01.txt",
+        "Input_02.txt",
+        "LICENSE",
+        "Output_1.png",
+        "Output_2.png",
+        "README.md",
+        "Solution.py",
+        "Trie.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2929,
+      "readme_excerpt": "## Longest-Compound-Words\nImpledge Technologies interview coding test 2022\n\nThe problem statement can be found in the [Exercise_Fresher_Word_Problem.pdf](https://github.com/SoumadipDey/Longest-Compound-Words/blob/main/Exercise_Fresher_Word_Problem.pdf \"Exercise_Fresher_Word_Problem.pdf\") file.\n\n## Code Execution Procedure\n**Requires Python version 3.7 or newer to be Installed**\n\n 1. Download / Clone the repo into your machine.\n 2. Open the `Solution.py` file and scroll to the code segment with the comment \n `#Change the file path here`.\n 3. Enter the relative path of the text file for the input w.r.t the solution file as a parameter to `sol.buildTrie()`.\n 4. Execute the file `Solution.py`.\n\n\n## A brief study of the problem\n\n - Compounded words are the words formed using one or more of the valid words only in the selected file. \n - Since the files are already sorted alphabetically and only contain one word per line some of the the valid words that compose the compounded words are bound to come before the compounded word itself.\n - Thus the compounded word can be thought of as the combination of some of the the words that have been already read i.e. -> prefix, and a suffix.\n - If the",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2022-09-27T20:50:28+00:00",
+        "last_at": "2022-09-29T16:05:23+00:00",
+        "active_days": 3,
+        "span_days": 1,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.6,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Output Screenshots",
+          "Added Results",
+          "Update README.md",
+          "Added Approach and Algo",
+          "Update README.md",
+          "Update README.md",
+          "Added Instructions",
+          "minor change to comment",
+          "Added solution and problem statements.",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 5,963 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5963,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "PerpCheck_2.0",
+      "full_name": "SoumadipDey/PerpCheck_2.0",
+      "html_url": "https://github.com/SoumadipDey/PerpCheck_2.0",
+      "description": "A facial recognition-based Criminal DB checker. Built using PyQt5 and facial-recognition library.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-04-14T20:45:34Z",
+      "pushed_at": "2021-04-11T18:38:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4879,
+      "default_branch": "master",
+      "license": null,
+      "topics": [
+        "criminal-dabase",
+        "facial-recognition",
+        "pyqt5"
+      ],
+      "languages": {
+        "Python": 176501
+      },
+      "primary_language": "Python",
+      "file_count": 22,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "__pycache__",
+        "baseManIcon.png",
+        "data",
+        "detailsWindow.py",
+        "detailsWindow.ui",
+        "facialRecogProj.py",
+        "facialRecogProj.ui",
+        "img",
+        "logo.png",
+        "resources.qrc",
+        "resources_rc.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 668,
+      "readme_excerpt": "# PerpCheck 2.0\nA facial recognition based Criminal DB checker. Made Using the facial-recognition library,PyQt5.\n## How to use ?\n  * Insert known images in the `known` folder under the `img` folder. Rename them according to the name of the respective `cID` in the `data` folder.\n  * Insert unknown images in the unknown folder.(Or you can select a picture from anywhere on your pc)\n  * Inside the `data` folder create a data sub-folder with the `cID` of the person and insert details of the person in a json file named `allData` within that sub-folder.Follow the already existing `allData.json` files for a better understanding.\n  * Run the `facialRecogProj.py` file.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2020-04-14T20:45:35+00:00",
+        "last_at": "2021-04-11T18:38:13+00:00",
+        "active_days": 2,
+        "span_days": 361,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.364,
+        "messages_sample": [
+          "Delete tempCodeRunnerFile.py",
+          "Update README.md",
+          "Delete 003.jpg",
+          "Delete 004.jpg",
+          "Delete Sir.jpg",
+          "Delete soumadip_adm2k18.jpg",
+          "Delete soumadip_h2k19.jpg",
+          "Delete maa.jpg",
+          "Add files via upload",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 176,501 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 176501,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AI-Lab-Programs",
+      "full_name": "SoumadipDey/AI-Lab-Programs",
+      "html_url": "https://github.com/SoumadipDey/AI-Lab-Programs",
+      "description": "All AI Lab Programs for BCA23 Batch",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-25T05:39:59Z",
+      "pushed_at": "2025-11-24T22:42:16Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11469,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 1353622,
+        "Python": 38439
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 39,
+      "top_level_paths": [
+        ".gitignore",
+        "BCA2023 5th Sem - BCA57203",
+        "LICENSE",
+        "MCA2025 1st Sem - MCA17405",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1720,
+      "readme_excerpt": "# AI-Lab-Programs\nAll AI Lab Programs\n\n## For BCA23\nThe following programs have been implemented till now:\n> Search Methods\n1. DFS & BFS\n2. DLS & IDS\n3. UCS Single Source Multiple Destinations\n4. Dijkstra Single Source All Destinations\n5. A Star Single Source Multiple Destinations\n\n> Fuzzy Logic\n1. Basic Fuzzy Operations - Union, Intersection, Complement, Algebraic Sum, Algebraic Product, Cartesian Product\n2. Fuzzy Logic Based Temperature Controller - Based on Target Temp and Current Temp\n3. Fuzzy Logic Based Resturant Rating System - Based on Service Quality, Food Quality and Ambience\n\n> Bayesian Methods\n1. Simple Bayes' Theorem Based COVID probablity prediction\n2. SkLearn Based Naive Bayes implementation on a dataset with Mixed type of features (categorical and numerical)\n\n> 2 Player Game Playing Algorithms\n1. Tic-Tac-Toe using the Minimax Algorithm\n2. Tic-Tac-Toe using the Minimax Algorithm - Optimization using $\\alpha - \\beta$ pruning.\n\n> Simple Rule based Expert System\n1. Dengue Detection Expert System \n\n## For MCA25\nThe following programs have been implemented till now:\n> Search Methods\n1. DFS & BFS\n2. DLS & IDS\n3. UCS\n4. A Star\n\n> Fuzzy Logic\n1. Basic Fuzzy Operations - Unio",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 47,
+        "first_at": "2025-08-25T05:39:59+00:00",
+        "last_at": "2025-11-24T22:42:08+00:00",
+        "active_days": 17,
+        "span_days": 91,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.149,
+        "messages_sample": [
+          "simulated annealing implemented",
+          "updates",
+          "updates",
+          "updates to readme",
+          "Neural Net Credit Card Defaulter",
+          "update",
+          "Updates",
+          "Metro Interstate Traffic Regression using Decision Tree",
+          "updates",
+          "minor updates",
+          "Decision Tree - Mental Disorders implemented",
+          "updates to readme",
+          "small change",
+          "dijkstra single source multiple destinations implemented",
+          "made rule based expert system for dengue severity detection",
+          "some updates to mca fuzzy",
+          "basic NLP stuff",
+          "updates",
+          "updates",
+          "implemented alpha beta pruning"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [
+          "(^|[-_])(assignment|homework|lab\\d*|week\\d+|day\\d+)([-_]|$)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 7,
+        "code_file_count": 17
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 1,353,622 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 38,439 bytes (3% of repo)",
+          "strength": 0.4276130140848713
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (BCA2023 5th Sem - BCA57203/NLP_Language_Modelling.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1392061,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 1353622,
+    "Python": 362276
+  },
+  "total_commits": 85,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "SoumadipDey/ComSys-Trainer",
+        "SoumadipDey/SysInfo_AMD",
+        "SoumadipDey/Longest-Compound-Words",
+        "SoumadipDey/PerpCheck_2.0",
+        "SoumadipDey/AI-Lab-Programs"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1715898,
+      "commit_count": 85,
+      "first_seen": "2020-04-14T20:45:35+00:00",
+      "last_seen": "2025-11-24T22:42:08+00:00",
+      "details": [
+        "ComSys-Trainer: Python: 87,902 bytes (100% of repo)",
+        "SysInfo_AMD: Python: 53,471 bytes (100% of repo)",
+        "Longest-Compound-Words: Python: 5,963 bytes (100% of repo)",
+        "PerpCheck_2.0: Python: 176,501 bytes (100% of repo)",
+        "AI-Lab-Programs: Jupyter Notebook: 1,353,622 bytes (97% of repo)",
+        "AI-Lab-Programs: Python: 38,439 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "SoumadipDey/AI-Lab-Programs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 47,
+      "first_seen": "2025-08-25T05:39:59+00:00",
+      "last_seen": "2025-11-24T22:42:08+00:00",
+      "details": [
+        "AI-Lab-Programs: jupyter notebook (BCA2023 5th Sem - BCA57203/NLP_Language_Modelling.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "SoumadipDey/SysInfo_AMD"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2021-04-05T12:47:37+00:00",
+      "last_seen": "2021-04-11T18:06:56+00:00",
+      "details": [
+        "SysInfo_AMD: 'monitoring' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 85,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 2 < 3"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:13:57.961736+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 2 < 3"
+  ]
+}

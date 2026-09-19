@@ -1,0 +1,1012 @@
+{
+  "quota": 10,
+  "strata": {
+    "python-backend": {
+      "filled": 10,
+      "strict": 5,
+      "relaxed": 5,
+      "partial": 0,
+      "need": 0,
+      "eligible": 59
+    },
+    "python-data-ml": {
+      "filled": 10,
+      "strict": 10,
+      "relaxed": 0,
+      "partial": 0,
+      "need": 0,
+      "eligible": 42
+    },
+    "javascript-frontend": {
+      "filled": 10,
+      "strict": 10,
+      "relaxed": 0,
+      "partial": 0,
+      "need": 0,
+      "eligible": 99
+    },
+    "typescript-fullstack": {
+      "filled": 10,
+      "strict": 10,
+      "relaxed": 0,
+      "partial": 0,
+      "need": 0,
+      "eligible": 55
+    },
+    "java-backend": {
+      "filled": 10,
+      "strict": 4,
+      "relaxed": 6,
+      "partial": 0,
+      "need": 0,
+      "eligible": 31
+    },
+    "go-systems": {
+      "filled": 10,
+      "strict": 5,
+      "relaxed": 5,
+      "partial": 0,
+      "need": 0,
+      "eligible": 15
+    },
+    "cpp-systems": {
+      "filled": 10,
+      "strict": 4,
+      "relaxed": 6,
+      "partial": 0,
+      "need": 0,
+      "eligible": 34
+    },
+    "mobile": {
+      "filled": 10,
+      "strict": 6,
+      "relaxed": 4,
+      "partial": 0,
+      "need": 0,
+      "eligible": 44
+    },
+    "csharp": {
+      "filled": 10,
+      "strict": 8,
+      "relaxed": 2,
+      "partial": 0,
+      "need": 0,
+      "eligible": 28
+    },
+    "android-kotlin": {
+      "filled": 10,
+      "strict": 1,
+      "relaxed": 7,
+      "partial": 2,
+      "need": 0,
+      "eligible": 14
+    }
+  },
+  "placements": [
+    {
+      "applicant_id": "applicant0001",
+      "login": "Umbra-Domini",
+      "stratum": "python-backend",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.2,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0003",
+      "login": "calumrussell",
+      "stratum": "python-backend",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.5,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0027",
+      "login": "SoumadipDey",
+      "stratum": "python-backend",
+      "tier": "relaxed",
+      "support": 4,
+      "share": 0.8,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0054",
+      "login": "Shishir-Singh-666",
+      "stratum": "python-backend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0065",
+      "login": "appliks",
+      "stratum": "python-backend",
+      "tier": "relaxed",
+      "support": 3,
+      "share": 1.0,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0068",
+      "login": "AlexSpandex",
+      "stratum": "python-backend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4998,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0073",
+      "login": "jads15",
+      "stratum": "python-backend",
+      "tier": "relaxed",
+      "support": 2,
+      "share": 0.5,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0106",
+      "login": "benny-dreamly",
+      "stratum": "python-backend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0110",
+      "login": "SilverDreams115",
+      "stratum": "python-backend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.3686,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0118",
+      "login": "Stallion77RepoOfficial",
+      "stratum": "python-backend",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.8,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0006",
+      "login": "jainharsh644",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.8,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0007",
+      "login": "certiprince",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.9054,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0008",
+      "login": "hendrywijaya98",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 5,
+      "share": 1.0,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0077",
+      "login": "sameerk15",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 5,
+      "share": 0.9979,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0078",
+      "login": "Aryo80",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 5,
+      "share": 0.9453,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0131",
+      "login": "thomaslu678",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.75,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0132",
+      "login": "Jeferson100",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 5,
+      "share": 0.9994,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0133",
+      "login": "cssantosa",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.7298,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0136",
+      "login": "hgorledeenn",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4927,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0145",
+      "login": "Terrificdatabytes",
+      "stratum": "python-data-ml",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5823,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0009",
+      "login": "thiagopicorelli",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.6825,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0010",
+      "login": "LucasMSCaetano",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.809,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0039",
+      "login": "abhyudaya001",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 5,
+      "share": 1.0,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0046",
+      "login": "sergiordg00",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.8486,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0062",
+      "login": "i529",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.707,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0067",
+      "login": "YourSchoolDebts",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 5,
+      "share": 1.0,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0093",
+      "login": "NoahTsai0909",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5629,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0105",
+      "login": "Vishesh-Kumar-Gavel",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5585,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0127",
+      "login": "Frankbell84",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.8012,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0139",
+      "login": "artifishvr",
+      "stratum": "javascript-frontend",
+      "tier": "strict",
+      "support": 5,
+      "share": 0.9605,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0014",
+      "login": "Roman-Ghorjomeladze",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 5,
+      "share": 0.7224,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0015",
+      "login": "Kathleen-Krunitzki",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.4409,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0016",
+      "login": "George2f",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.7253,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0086",
+      "login": "RajwanYair",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4396,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0124",
+      "login": "Kh3rwa1",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.4642,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0126",
+      "login": "kanta13jp1",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.2623,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0144",
+      "login": "withlaon",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.5507,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0147",
+      "login": "rilsonjoas",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.5811,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0148",
+      "login": "CarolenePremLeela",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5401,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0151",
+      "login": "fabianoobispo1",
+      "stratum": "typescript-fullstack",
+      "tier": "strict",
+      "support": 5,
+      "share": 0.6443,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0004",
+      "login": "MatiasRepettoZecchi",
+      "stratum": "java-backend",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.3333,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0029",
+      "login": "Shaick",
+      "stratum": "java-backend",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.2,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0041",
+      "login": "stevensolleder",
+      "stratum": "java-backend",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.3333,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0053",
+      "login": "bcrow99",
+      "stratum": "java-backend",
+      "tier": "relaxed",
+      "support": 4,
+      "share": 0.8,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0064",
+      "login": "Special-Sharpie",
+      "stratum": "java-backend",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.3333,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0069",
+      "login": "MishaDobrynin",
+      "stratum": "java-backend",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.8741,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0072",
+      "login": "HugoDaSilvaGit",
+      "stratum": "java-backend",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.3333,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0098",
+      "login": "Plinharesz",
+      "stratum": "java-backend",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.8,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0101",
+      "login": "Aydana06",
+      "stratum": "java-backend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.25,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0102",
+      "login": "Omegabird113",
+      "stratum": "java-backend",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0012",
+      "login": "valdirsb",
+      "stratum": "go-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.2,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0052",
+      "login": "shivamshashank",
+      "stratum": "go-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.2151,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0056",
+      "login": "choiceoh",
+      "stratum": "go-systems",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.3733,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0057",
+      "login": "AURATAO",
+      "stratum": "go-systems",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.17,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0058",
+      "login": "715d",
+      "stratum": "go-systems",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.6667,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0115",
+      "login": "emilyspringerton",
+      "stratum": "go-systems",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.3793,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0141",
+      "login": "bilizada",
+      "stratum": "go-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.2,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0142",
+      "login": "LucasJaider",
+      "stratum": "go-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.3333,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0152",
+      "login": "keanhor2",
+      "stratum": "go-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.1966,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0153",
+      "login": "leep-frog",
+      "stratum": "go-systems",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.3966,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0018",
+      "login": "S1ink",
+      "stratum": "cpp-systems",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.5736,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0025",
+      "login": "callumfowler101",
+      "stratum": "cpp-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.1923,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0028",
+      "login": "tmaswang03",
+      "stratum": "cpp-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.2,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0042",
+      "login": "MatthewMer",
+      "stratum": "cpp-systems",
+      "tier": "relaxed",
+      "support": 4,
+      "share": 0.7986,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0055",
+      "login": "p-adic",
+      "stratum": "cpp-systems",
+      "tier": "relaxed",
+      "support": 4,
+      "share": 0.7978,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0082",
+      "login": "LazarBojanic",
+      "stratum": "cpp-systems",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4007,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0109",
+      "login": "Electronscape",
+      "stratum": "cpp-systems",
+      "tier": "relaxed",
+      "support": 3,
+      "share": 0.9995,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0114",
+      "login": "Alexander23W4",
+      "stratum": "cpp-systems",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5445,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0116",
+      "login": "u-wyh",
+      "stratum": "cpp-systems",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4067,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0117",
+      "login": "NrmeenAraby",
+      "stratum": "cpp-systems",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.5,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0031",
+      "login": "mennael125",
+      "stratum": "mobile",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.25,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0047",
+      "login": "Doha467",
+      "stratum": "mobile",
+      "tier": "relaxed",
+      "support": 3,
+      "share": 0.8501,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0048",
+      "login": "Fadi-khattak",
+      "stratum": "mobile",
+      "tier": "relaxed",
+      "support": 3,
+      "share": 1.0,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0060",
+      "login": "Inazumimakoto",
+      "stratum": "mobile",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.3341,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0061",
+      "login": "y0ussefmohamed",
+      "stratum": "mobile",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0095",
+      "login": "0ryo",
+      "stratum": "mobile",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.3973,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0120",
+      "login": "amrshipl83",
+      "stratum": "mobile",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.6335,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0121",
+      "login": "Mangoo0110",
+      "stratum": "mobile",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.6985,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0122",
+      "login": "HideoTakayan",
+      "stratum": "mobile",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.1867,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0125",
+      "login": "SooyAldahir",
+      "stratum": "mobile",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.4538,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0026",
+      "login": "kenjpirkle",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.6667,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0033",
+      "login": "beharkadri",
+      "stratum": "csharp",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.2,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0035",
+      "login": "GregTMiller",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.5856,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0050",
+      "login": "mogligit",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.6667,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0087",
+      "login": "yaoqiafan",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.6667,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0089",
+      "login": "Antonio-Zago",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 5,
+      "share": 0.7204,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0091",
+      "login": "Damyan23",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.3651,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0096",
+      "login": "kotetsu123",
+      "stratum": "csharp",
+      "tier": "relaxed",
+      "support": 4,
+      "share": 1.0,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0097",
+      "login": "briezar",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 4,
+      "share": 0.7493,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0130",
+      "login": "Aavash232311",
+      "stratum": "csharp",
+      "tier": "strict",
+      "support": 3,
+      "share": 0.3771,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0002",
+      "login": "Eternalon03",
+      "stratum": "android-kotlin",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.1706,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0037",
+      "login": "sjdnye",
+      "stratum": "android-kotlin",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.1538,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0038",
+      "login": "PrimqulovDev",
+      "stratum": "android-kotlin",
+      "tier": "relaxed",
+      "support": 5,
+      "share": 0.7516,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0040",
+      "login": "omarbashaiwth",
+      "stratum": "android-kotlin",
+      "tier": "relaxed",
+      "support": 4,
+      "share": 0.6154,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0081",
+      "login": "Isaac11PG",
+      "stratum": "android-kotlin",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.1923,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0085",
+      "login": "claudio3964",
+      "stratum": "android-kotlin",
+      "tier": "relaxed",
+      "support": 1,
+      "share": 0.1482,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0108",
+      "login": "skycar321",
+      "stratum": "android-kotlin",
+      "tier": "partial",
+      "support": 0,
+      "share": 0.0112,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0119",
+      "login": "Iconia7",
+      "stratum": "android-kotlin",
+      "tier": "partial",
+      "support": 0,
+      "share": 0.0004,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0128",
+      "login": "patriesp95",
+      "stratum": "android-kotlin",
+      "tier": "relaxed",
+      "support": 3,
+      "share": 0.5769,
+      "pinned": true
+    },
+    {
+      "applicant_id": "applicant0137",
+      "login": "SUMAN1040",
+      "stratum": "android-kotlin",
+      "tier": "strict",
+      "support": 2,
+      "share": 0.3077,
+      "pinned": true
+    }
+  ],
+  "spare": [
+    "applicant0013",
+    "applicant0070",
+    "applicant0074",
+    "applicant0075",
+    "applicant0090",
+    "applicant0092",
+    "applicant0094",
+    "applicant0100",
+    "applicant0104",
+    "applicant0135",
+    "applicant0146",
+    "applicant0154",
+    "applicant0156",
+    "applicant0157",
+    "applicant0159",
+    "applicant0160",
+    "applicant0161",
+    "applicant0163",
+    "applicant0164",
+    "applicant0166",
+    "applicant0167",
+    "applicant0168",
+    "applicant0169"
+  ]
+}

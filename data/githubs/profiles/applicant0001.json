@@ -1,0 +1,952 @@
+{
+  "applicant_id": "applicant0001",
+  "login": "Umbra-Domini",
+  "html_url": "https://github.com/Umbra-Domini",
+  "created_at": "2020-01-31T23:47:24Z",
+  "account_age_days": 2419,
+  "public_repos": 10,
+  "followers": 2,
+  "following": 3,
+  "repos": [
+    {
+      "name": "MegaCalc",
+      "full_name": "Umbra-Domini/MegaCalc",
+      "html_url": "https://github.com/Umbra-Domini/MegaCalc",
+      "description": "A terminal-based step-by-step math calculator covering all major PreCalc 12 topics. Built in Python with optional graphing via Plotly.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-18T04:00:07Z",
+      "pushed_at": "2026-03-18T06:31:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 100,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "algebra",
+        "calculator",
+        "cli",
+        "education",
+        "graphing",
+        "graphing-calculator-programs",
+        "mathamatics",
+        "precalculus",
+        "python-3",
+        "terminal",
+        "trigonometry"
+      ],
+      "languages": {
+        "Python": 119333
+      },
+      "primary_language": "Python",
+      "file_count": 19,
+      "top_level_paths": [
+        "README.md",
+        "main.py",
+        "modules"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5316,
+      "readme_excerpt": "# MegaCalc — PreCalc 12 Toolkit\n\nA terminal-based step-by-step math calculator covering all major PreCalc 12 topics.\nBuilt in Python with optional graphing via Plotly.\n\n---\n\n## Getting Started\n\n### Requirements\n\n- Python 3.8+\n- Optional (for graphs): `numpy` and `plotly`\n\n### Install dependencies\n\n```bash\npip install numpy plotly\n```\n\n### Run\n\n```bash\npython main.py\n```\n\n---\n\n## Project Structure\n\n```\nmegacalc/\n├── main.py                   ← Entry point / main menu\n└── modules/\n    ├── utils.py              ← Shared helpers (formatting, input, graph engine)\n    ├── m01_transformations.py\n    ├── m02_polynomials.py\n    ├── m03_rational.py\n    ├── m04_explog.py\n    ├── m05_trig_functions.py\n    ├── m06_trig_identities.py\n    ├── m07_sequences.py\n    ├── m08_combinatorics.py\n    ├── m09_binomial.py\n    └── m10_inverses.py\n```\n\n---\n\n## Modules\n\n### 1 · Function Transformations\nAnalyse `y = a·f(b(x−h)) + k` for any parent function.\n- Describe all 4 transformation parameters step by step\n- Map key points from parent to transformed graph\n- Identify stretch/reflection/translation from two points\n- Supported parents: linear, quadratic, cubic, sqrt, abs, rational, exponential, log, sin, cos",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-03-18T04:00:08+00:00",
+        "last_at": "2026-03-18T06:31:35+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Add files via upload",
+          "Revise README for MegaCalc project",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 119,333 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 119333,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "BitShell",
+      "full_name": "Umbra-Domini/BitShell",
+      "html_url": "https://github.com/Umbra-Domini/BitShell",
+      "description": "Fast binary, hex, decimal, text & Base64 converter with smart format detection, IPv4/IPv6 support, conversion history, and one-click copy. Right-click any text on any page to convert it instantly.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-03T07:49:25Z",
+      "pushed_at": "2026-03-25T07:50:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 95,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "base64",
+        "binary",
+        "chrome",
+        "chrome-extension",
+        "connversion",
+        "decimal",
+        "developer-tools",
+        "hex",
+        "ipv4",
+        "ipv6"
+      ],
+      "languages": {
+        "JavaScript": 80124,
+        "HTML": 33697,
+        "CSS": 23730
+      },
+      "primary_language": "JavaScript",
+      "file_count": 12,
+      "top_level_paths": [
+        "README.md",
+        "icons",
+        "js",
+        "manifest.json",
+        "popup.css",
+        "popup.html",
+        "privacy.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6377,
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"icons/icon128.png\" width=\"96\" alt=\"BitShell Logo\" />\n\n# BitShell\n\n**A fast, developer-focused binary, hex, decimal, text & Base64 converter with smart format detection, IPv4 subnet calculator, history, and one-click copy**\n\n![Manifest Version](https://img.shields.io/badge/Manifest-v3-blue?style=flat-square)\n![Version](https://img.shields.io/badge/Version-1.0.6-brightgreen?style=flat-square)\n![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)\n![Platform](https://img.shields.io/badge/Chrome%20%7C%20Edge%20%7C%20Brave-supported-orange?style=flat-square)\n\n</div>\n\n---\n\n## What is BitShell?\n\nBitShell is a browser extension built for developers, students, and anyone who regularly works with number systems. Type or paste any value — binary, hex, decimal, text, or Base64 — and instantly see every other representation side by side. It also supports IPv4 and IPv6 addresses with full conversion across all formats, and automatically performs a full subnet breakdown when it detects CIDR notation.\n\n---\n\n## Features\n\n### ⚡ Smart Format Detection\nBitShell automatically detects what you're typing — binary, hex, decimal, text, Base64, IPv4, IPv",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2026-03-03T07:49:25+00:00",
+        "last_at": "2026-03-25T07:50:20+00:00",
+        "active_days": 3,
+        "span_days": 22,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.286,
+        "messages_sample": [
+          "Delete js/converter (Copy).js",
+          "Add files via upload",
+          "Delete converter.js",
+          "Delete popup.js",
+          "Add files via upload",
+          "Enhance README with subnet calculator and version update",
+          "Change privacy policy link to external URL",
+          "Fix privacy policy link in README",
+          "Update installation link for Chrome Web Store",
+          "Update Chrome Web Store installation link in README",
+          "Move popup.css to root directory",
+          "Add files via upload",
+          "Revise README for clarity and additional details",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 80,124 bytes (58% of repo)",
+          "strength": 0.9825039439916831
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 33,697 bytes (24% of repo)",
+          "strength": 0.6449782262578971
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 23,730 bytes (17% of repo)",
+          "strength": 0.5725178297504199
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 137551,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CineLookup",
+      "full_name": "Umbra-Domini/CineLookup",
+      "html_url": "https://github.com/Umbra-Domini/CineLookup",
+      "description": "Right-click any selected text to search across IMDb, Wikipedia, YouTube, Rotten Tomatoes, and TMDb at once. Includes a popup with recent search history, starred saves, and one-click copy.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-03T07:42:14Z",
+      "pushed_at": "2026-03-18T06:55:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 21,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "chrome-extension",
+        "context-menu",
+        "imdb",
+        "movie-finder-app",
+        "rotten-tomatoes",
+        "tmdb",
+        "tv-shows",
+        "wikipedia",
+        "youtube"
+      ],
+      "languages": {
+        "JavaScript": 11637,
+        "HTML": 4766,
+        "CSS": 4221
+      },
+      "primary_language": "JavaScript",
+      "file_count": 10,
+      "top_level_paths": [
+        "README.md",
+        "css",
+        "icons",
+        "js",
+        "manifest.json",
+        "popup.html",
+        "privacy.html"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4748,
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"icons/search-128.png\" width=\"96\" alt=\"CineLookup Logo\" />\n\n# CineLookup\n\n**Right-click any movie or show title to instantly search it across IMDb, Wikipedia, YouTube, Rotten Tomatoes, and TMDb**\n\n![Manifest Version](https://img.shields.io/badge/Manifest-v3-blue?style=flat-square)\n![Version](https://img.shields.io/badge/Version-1.3-brightgreen?style=flat-square)\n![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)\n![Platform](https://img.shields.io/badge/Chrome%20%7C%20Edge%20%7C%20Brave-supported-orange?style=flat-square)\n\n</div>\n\n---\n\n## What is CineLookup?\n\nCineLookup is a browser extension that adds a right-click context menu to any webpage. Highlight any movie, TV show, or actor name, right-click, and instantly open search results across the most popular film and media databases — without ever leaving the page you're on.\n\nIt also comes with a popup panel to view your recent searches, star the ones you want to keep, and copy any query to your clipboard in one click.\n\n---\n\n## Features\n\n### 🖱️ Right-Click Context Menu\nHighlight any text on any webpage, right-click, and choose **\"Search selected text on...\"** to open a submenu",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-03-03T07:42:14+00:00",
+        "last_at": "2026-03-18T06:55:06+00:00",
+        "active_days": 2,
+        "span_days": 14,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Revise privacy policy link in README",
+          "Add files via upload",
+          "Revise README with detailed features and usage",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 11,637 bytes (56% of repo)",
+          "strength": 0.9642455391776571
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,766 bytes (23% of repo)",
+          "strength": 0.6310899922420481
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,221 bytes (20% of repo)",
+          "strength": 0.6046644685802949
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 20624,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SkribblPro",
+      "full_name": "Umbra-Domini/SkribblPro",
+      "html_url": "https://github.com/Umbra-Domini/SkribblPro",
+      "description": "Supercharge your skribbl.io game with real-time word suggestions, auto-guessing, and smart filtering powered by frequency analysis. Learns from every round you play to surface the best guesses instantly.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-03T07:30:47Z",
+      "pushed_at": "2026-03-03T08:09:32Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 34,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "auto-guesss",
+        "browser-e",
+        "chrome-extension",
+        "chromium",
+        "javascript",
+        "skribbl",
+        "skribbl-io",
+        "word-game"
+      ],
+      "languages": {
+        "JavaScript": 40805
+      },
+      "primary_language": "JavaScript",
+      "file_count": 8,
+      "top_level_paths": [
+        "README.md",
+        "content.js",
+        "icons",
+        "manifest.json",
+        "skribblWordlist"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5286,
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"icons/icon128.png\" width=\"96\" alt=\"SkribblPro Logo\" />\n\n# SkribblPro\n\n**An intelligent browser extension that helps you guess words faster on [skribbl.io](https://skribbl.io)**\n\n![Manifest Version](https://img.shields.io/badge/Manifest-v3-blue?style=flat-square)\n![Version](https://img.shields.io/badge/Version-1.0.2-brightgreen?style=flat-square)\n![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)\n![Platform](https://img.shields.io/badge/Chrome%20%7C%20Edge%20%7C%20Brave-supported-orange?style=flat-square)\n\n</div>\n\n---\n\n## What is SkribblPro?\n\nSkribblPro is a Chrome extension that injects a sleek overlay into [skribbl.io](https://skribbl.io) and uses smart word filtering, hint matching, and frequency-based scoring to surface the most likely answers in real time — so you can guess the word before anyone else.\n\n---\n\n## Features\n\n### 🔍 Real-Time Guess Suggestions\nAs letters are revealed on the board, SkribblPro instantly narrows down a list of possible words and displays them as clickable buttons at the bottom of your screen. Click any suggestion to submit it as your guess immediately.\n\n### 🤖 Auto Guess Mode\nToggle **Auto Guess**",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-03-03T07:30:47+00:00",
+        "last_at": "2026-03-03T08:09:31+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Add files via upload",
+          "Add files via upload",
+          "Revise README.md for clarity and detail",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 40,805 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "topic",
+          "detail": "repo topic 'javascript'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 40805,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "pico-flash",
+      "full_name": "Umbra-Domini/pico-flash",
+      "html_url": "https://github.com/Umbra-Domini/pico-flash",
+      "description": "Automated flash tool for pico-ducky — wipes, flashes CircuitPython, and arms payloads in one command.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-04-05T22:43:06Z",
+      "pushed_at": "2026-04-12T05:37:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 171,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "bash",
+        "hid",
+        "linux",
+        "pico-ducky",
+        "raspberry-pi",
+        "raspberry-pi-pico",
+        "rubber-ducky"
+      ],
+      "languages": {
+        "Shell": 28530
+      },
+      "primary_language": "Shell",
+      "file_count": 5,
+      "top_level_paths": [
+        "README.md",
+        "imgs",
+        "needed_files",
+        "pico_flash.sh"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 10210,
+      "readme_excerpt": "# pico-flash\n\n> Automated flash & management tool for [pico-ducky](https://github.com/dbisu/pico-ducky) on Linux.  \n> Wipes, flashes CircuitPython, copies project files, and optionally arms a payload — in one command.  \n> One-time setup. Run forever.\n> Visit [pico-ducky-gui](https://github.com/umbra-domini/pico-flash-gui) for the gui and automatic version of this stool. \n\n---\n\n## What it does\n\nFlashing a Pico for pico-ducky manually means: holding BOOTSEL, copying a nuke file, waiting for remount, copying CircuitPython, waiting again, copying lib files and scripts, then copying the payload. Every time.\n\nThis script automates all of it. On startup it detects what's plugged in and routes automatically:\n\n- **Flash Mode** — hold BOOTSEL while plugging in → full wipe + reflash across 5 steps\n- **Setup Mode** — bridge GP0→GND, plug in normally → management menu (no payload fire)\n- **Nothing detected** — script waits up to 60s and routes as soon as a device appears\n\n### Flash Mode — 5 steps\n\n1. **Detect** — waits for the Pico to appear in BOOTSEL mode\n2. **Wipe** — copies `flash_nuke.uf2` to fully erase flash\n3. **Flash** — installs CircuitPython automatically (auto-detects the `.uf2` in ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 18,
+        "first_at": "2026-04-05T22:43:07+00:00",
+        "last_at": "2026-04-12T05:37:10+00:00",
+        "active_days": 3,
+        "span_days": 6,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.722,
+        "messages_sample": [
+          "Update GUI link in README.md",
+          "Update README with pico-ducky-gui link",
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md formatting and content",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Update README.md",
+          "add needed_files folder structure",
+          "Update README.md",
+          "Add files via upload",
+          "Enhance README with usage and setup details",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 28,530 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "topic",
+          "detail": "repo topic 'bash'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "linux",
+          "source": "topic",
+          "detail": "repo topic 'linux'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 28530,
+        "strong_skills": [
+          "shell"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 132566,
+    "Python": 119333,
+    "HTML": 38463,
+    "Shell": 28530,
+    "CSS": 27951
+  },
+  "total_commits": 43,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Umbra-Domini/BitShell",
+        "Umbra-Domini/CineLookup",
+        "Umbra-Domini/SkribblPro"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 132566,
+      "commit_count": 22,
+      "first_seen": "2026-03-03T07:30:47+00:00",
+      "last_seen": "2026-03-25T07:50:20+00:00",
+      "details": [
+        "BitShell: JavaScript: 80,124 bytes (58% of repo)",
+        "CineLookup: JavaScript: 11,637 bytes (56% of repo)",
+        "SkribblPro: JavaScript: 40,805 bytes (100% of repo)",
+        "SkribblPro: repo topic 'javascript'"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Umbra-Domini/MegaCalc"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 119333,
+      "commit_count": 3,
+      "first_seen": "2026-03-18T04:00:08+00:00",
+      "last_seen": "2026-03-18T06:31:35+00:00",
+      "details": [
+        "MegaCalc: Python: 119,333 bytes (100% of repo)",
+        "MegaCalc: 'python' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Umbra-Domini/pico-flash"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 28530,
+      "commit_count": 18,
+      "first_seen": "2026-04-05T22:43:07+00:00",
+      "last_seen": "2026-04-12T05:37:10+00:00",
+      "details": [
+        "pico-flash: Shell: 28,530 bytes (100% of repo)",
+        "pico-flash: repo topic 'bash'"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Umbra-Domini/BitShell",
+        "Umbra-Domini/CineLookup"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6449782262578971,
+      "total_bytes": 66414,
+      "commit_count": 18,
+      "first_seen": "2026-03-03T07:42:14+00:00",
+      "last_seen": "2026-03-25T07:50:20+00:00",
+      "details": [
+        "BitShell: HTML: 33,697 bytes (24% of repo)",
+        "BitShell: CSS: 23,730 bytes (17% of repo)",
+        "CineLookup: HTML: 4,766 bytes (23% of repo)",
+        "CineLookup: CSS: 4,221 bytes (20% of repo)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "Umbra-Domini/pico-flash"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 18,
+      "first_seen": "2026-04-05T22:43:07+00:00",
+      "last_seen": "2026-04-12T05:37:10+00:00",
+      "details": [
+        "pico-flash: repo topic 'linux'"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 43,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-16T14:14:00.008092+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

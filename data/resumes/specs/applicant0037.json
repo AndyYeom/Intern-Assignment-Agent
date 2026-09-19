@@ -1,0 +1,127 @@
+{
+  "github_login": "sjdnye",
+  "applicant_id": "applicant0037",
+  "first_name": "Diego",
+  "last_name": "Park",
+  "career_stage": "student",
+  "email": "diego.park@colvertonmail.example",
+  "phone": "(555) 010-0137",
+  "location": "Colverton",
+  "linkedin": "linkedin.example.com/in/diego-park",
+  "github_url": "github.example.com/diego-park",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Colverton Institute",
+    "location": "Colverton",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Educational Technology",
+    "graduation": "May 2024",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Web Application Development",
+      "Database Systems",
+      "Technical Communication",
+      "Mobile App Development"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Todolist Nodejs",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "May 2023",
+      "end": "May 2023",
+      "bullets": [
+        "Built a task-tracking web app with Node.js, Express, MongoDB and EJS templates.",
+        "Covered core routes with an automated test suite to catch regressions early."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "EJS",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Sadra Doc",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jul 2022",
+      "end": "Apr 2023",
+      "bullets": [
+        "Developed an Android reference app in Kotlin, using Dagger and Hilt for dependency injection across modules.",
+        "Structured the app's build with Gradle across 71 files over eight months of iteration."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin"
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Jun 2023",
+      "end": "Jul 2023",
+      "bullets": [
+        "Built a personal portfolio site in React, styled with Emotion.",
+        "Covered key components with React Testing Library across eight active days of work."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Documentation Editor",
+      "organization": "Colverton CS Study Circle",
+      "location": null,
+      "start": "Sep 2022",
+      "end": "May 2023",
+      "bullets": [
+        "After classmates repeatedly asked the same setup questions for a shared Node.js project, wrote a short onboarding guide.",
+        "Found clear written walkthroughs unblocked more peers than answering questions individually, and repeated this for other group projects."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript"
+    ],
+    "Frontend": [
+      "React",
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Node.js"
+    ],
+    "Data": [
+      "MongoDB"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android (Advanced)"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

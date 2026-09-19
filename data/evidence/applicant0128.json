@@ -1,0 +1,79 @@
+{
+  "applicant_id": "applicant0128",
+  "github_login": "patriesp95",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0128.json",
+  "skills": [
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/patriesp95/MyGames",
+        "https://github.com/patriesp95/GHFollowers",
+        "https://github.com/patriesp95/HoroscApp",
+        "https://github.com/patriesp95/RandomUser",
+        "https://github.com/patriesp95/TestingSPM"
+      ],
+      "repos": [
+        {
+          "repo": "patriesp95/MyGames",
+          "html_url": "https://github.com/patriesp95/MyGames",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; multi_month_span, many_active_days, documented",
+            "Kotlin: 76,128 bytes (100% of repo)",
+            "Android app manifest (app/src/androidTest/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "patriesp95/GHFollowers",
+          "html_url": "https://github.com/patriesp95/GHFollowers",
+          "level": 1,
+          "reasons": [
+            "entry: 33 commits, independent-work signals: none",
+            "Swift: 53,945 bytes (100% of repo)",
+            "iOS project (GHFollowers.xcodeproj/project.pbxproj)"
+          ]
+        },
+        {
+          "repo": "patriesp95/HoroscApp",
+          "html_url": "https://github.com/patriesp95/HoroscApp",
+          "level": 1,
+          "reasons": [
+            "entry: 9 commits, independent-work signals: none",
+            "Kotlin: 32,202 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "patriesp95/RandomUser",
+          "html_url": "https://github.com/patriesp95/RandomUser",
+          "level": 1,
+          "reasons": [
+            "entry: 14 commits, independent-work signals: documented",
+            "Kotlin: 8,682 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "patriesp95/TestingSPM",
+          "html_url": "https://github.com/patriesp95/TestingSPM",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Swift: 639 bytes (100% of repo)",
+            "iOS project (TestingSPM.xcodeproj/project.pbxproj)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (5 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 1
+  }
+}

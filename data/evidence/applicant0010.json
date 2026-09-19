@@ -1,0 +1,251 @@
+{
+  "applicant_id": "applicant0010",
+  "github_login": "LucasMSCaetano",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0010.json",
+  "skills": [
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+        "https://github.com/LucasMSCaetano/estudo-electron",
+        "https://github.com/LucasMSCaetano/judo"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+          "html_url": "https://github.com/LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "SCSS: 2,793 bytes (12% of repo)"
+          ]
+        },
+        {
+          "repo": "LucasMSCaetano/estudo-electron",
+          "html_url": "https://github.com/LucasMSCaetano/estudo-electron",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: none",
+            "HTML: 2,384 bytes (27% of repo)"
+          ]
+        },
+        {
+          "repo": "LucasMSCaetano/judo",
+          "html_url": "https://github.com/LucasMSCaetano/judo",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "CSS: 331,499 bytes (21% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/BOT_BGNET",
+        "https://github.com/LucasMSCaetano/clone-tabnews",
+        "https://github.com/LucasMSCaetano/estudo-electron",
+        "https://github.com/LucasMSCaetano/judo"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/BOT_BGNET",
+          "html_url": "https://github.com/LucasMSCaetano/BOT_BGNET",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "JavaScript: 7,498 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "LucasMSCaetano/clone-tabnews",
+          "html_url": "https://github.com/LucasMSCaetano/clone-tabnews",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "JavaScript: 3,348 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "LucasMSCaetano/estudo-electron",
+          "html_url": "https://github.com/LucasMSCaetano/estudo-electron",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: none",
+            "JavaScript: 5,979 bytes (69% of repo)"
+          ]
+        },
+        {
+          "repo": "LucasMSCaetano/judo",
+          "html_url": "https://github.com/LucasMSCaetano/judo",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "JavaScript: 581,709 bytes (36% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (4 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/clone-tabnews"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/clone-tabnews",
+          "html_url": "https://github.com/LucasMSCaetano/clone-tabnews",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "postgresql",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/clone-tabnews"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/clone-tabnews",
+          "html_url": "https://github.com/LucasMSCaetano/clone-tabnews",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "pg in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+        "https://github.com/LucasMSCaetano/clone-tabnews"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+          "html_url": "https://github.com/LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "@types/react-dom in package.json"
+          ]
+        },
+        {
+          "repo": "LucasMSCaetano/clone-tabnews",
+          "html_url": "https://github.com/LucasMSCaetano/clone-tabnews",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+          "html_url": "https://github.com/LucasMSCaetano/Desafio02-TrilhaReact-RocketSeat",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "TypeScript: 17,703 bytes (79% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/clone-tabnews"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/clone-tabnews",
+          "html_url": "https://github.com/LucasMSCaetano/clone-tabnews",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "test file (testes/integration/api/v1/status/get.test.js)",
+            "jest in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "web-scraping",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/LucasMSCaetano/BOT_BGNET"
+      ],
+      "repos": [
+        {
+          "repo": "LucasMSCaetano/BOT_BGNET",
+          "html_url": "https://github.com/LucasMSCaetano/BOT_BGNET",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "puppeteer in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 5,
+    "verified": 3
+  }
+}

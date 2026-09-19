@@ -1,0 +1,1370 @@
+{
+  "applicant_id": "applicant0060",
+  "login": "Inazumimakoto",
+  "html_url": "https://github.com/Inazumimakoto",
+  "created_at": "2025-11-12T13:14:26Z",
+  "account_age_days": 308,
+  "public_repos": 16,
+  "followers": 4,
+  "following": 10,
+  "repos": [
+    {
+      "name": "Shift-Sync",
+      "full_name": "Inazumimakoto/Shift-Sync",
+      "html_url": "https://github.com/Inazumimakoto/Shift-Sync",
+      "description": "バ先の便利アプリ",
+      "homepage": "https://testflight.apple.com/join/Cjyt88rk",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-01T04:40:06Z",
+      "pushed_at": "2026-09-16T14:31:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12008,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Swift": 346798,
+        "Go": 38786,
+        "Python": 33268,
+        "Rust": 967
+      },
+      "primary_language": "Swift",
+      "file_count": 81,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitignore",
+        "AGENTS.md",
+        "Desktop.code-workspace",
+        "LICENSE",
+        "README.md",
+        "ShiftSync",
+        "shift_sync_go",
+        "shift_sync_py",
+        "shift_sync_rc"
+      ],
+      "notable_files": [
+        "shift_sync_go/go.mod",
+        "shift_sync_rc/Cargo.toml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1121,
+      "readme_excerpt": "# Shift-Sync\n\nバイト先のシフト管理システム (ShiftWeb) からシフト情報を取得し、iCloud/Googleカレンダーに自動同期し、打刻にも使え、ウィジェットからも同期できるツール群です。\n\n## 📱 プラットフォーム\n\n| ディレクトリ | 言語 | 説明 |\n|-------------|------|------|\n| `ShiftSync/` | Swift (iOS/macOS) | ネイティブアプリ版（シフト同期 + 打刻 + ウィジェット同期） |\n| `shift_sync_go/` | Go | CLI版（メイン） |\n| `shift_sync_py/` | Python | CLI版（プロトタイプ） |\n| `shift_sync_rc/` | Rust | CLI版（実験的） |\n\n---\n\n## 🍎 iOS アプリ (推奨)\n\n### 機能\n- シフトの自動同期（iCloud/Googleカレンダー対応）\n- ShiftWebの打刻ページ表示・打刻操作\n- ホーム画面ウィジェットの「同期」ボタンからワンタップ同期\n- 変更通知（追加・更新・削除）\n- オートメーション対応（ショートカット連携）\n- 全履歴同期\n\n### セットアップ\nTestFlightからダウンロード: [https://testflight.apple.com/join/Cjyt88rk](https://testflight.apple.com/join/Cjyt88rk)\n\nインストール後はアプリ内の「打刻」タブから打刻ページを開いて利用できます。\nホーム画面にウィジェットを配置すると、「同期」ボタンから同期を実行できます。\n\n```bash\ncd ShiftSync/ShiftSync\nopen ShiftSync.xcodeproj\n```\nXcodeでビルド・実機にインストール\n\n---\n\n## 💻 Go CLI\n\n### ビルド\n```bash\ncd shift_sync_go\ngo build -o shift-sync\n```\n\n### 実行\n```bash\n./shift-sync\n```\n\n初回実行時に対話形式でセットアップが行われます。\n\n---\n\n## 🐍 Python CLI\n\n### セットアップ\n```bash\ncd shift_sync_py\npip install -r requirements.txt\n```\n\n### 実行\n```bash\npython shift_sync.py\n```\n\n---\n\n## 📄 ライセンス\n\nMIT License\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 31,
+        "first_at": "2026-02-01T05:05:36+00:00",
+        "last_at": "2026-09-16T14:31:43+00:00",
+        "active_days": 9,
+        "span_days": 227,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "ios: set release version to 1.3.0",
+          "ios: bump version to 1.2.5 (build 14)",
+          "ios: add clock-out alarms and push notifications",
+          "ios: bump version to 1.2.3",
+          "ios: add detailed sync history logging",
+          "ios: migrate setup state and bump version to 1.2.2",
+          "ios: bump version to 1.2.1",
+          "ios: improve re-login and sync error handling",
+          "ios: bump version to 1.2.0 (build 9)",
+          "ios: simplify tips line to emoji prefix",
+          "ios: emphasize tips line with lightbulb icon",
+          "ios: use accent color for timecard guide banner",
+          "ios: update guide banner copy with tips line",
+          "ios: update timecard guide copy to app-first messaging",
+          "ios: shorten timecard guide delay and refine tips copy",
+          "ios: delay timecard guide banner and update copy",
+          "ios: keep loading indicator centered on timecard",
+          "ios: switch timecard guide to banner and fix settings focus",
+          "ios: add first-time timecard guide and settings highlight",
+          "docs: document widget button sync in iOS app"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 48
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 346,798 bytes (83% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "go",
+          "source": "language",
+          "detail": "Go: 38,786 bytes (9% of repo)",
+          "strength": 0.4923874336321129
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 33,268 bytes (8% of repo)",
+          "strength": 0.4792436740595352
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (ShiftSync/ShiftSync/Info.plist)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "go",
+          "source": "file",
+          "detail": "Go module (shift_sync_go/go.mod)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 418852,
+        "strong_skills": [
+          "go",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "inazu",
+      "full_name": "Inazumimakoto/inazu",
+      "html_url": "https://github.com/Inazumimakoto/inazu",
+      "description": "自宅サーバーで公開してるポートフォリオサイト．→稲積（いなずみ）って名前なのでドメインはinazu.me(いなずみー)．簡易的な自作ロードバランサを作りフェイルオーバー構成に．自宅サーバー障害時には友人宅のラズパイにアクセスが飛びます．フォールバックする様子はREADMEで!",
+      "homepage": "https://inazu.me",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-15T06:59:44Z",
+      "pushed_at": "2026-07-25T17:11:15Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 147476,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 128227,
+        "HTML": 66249,
+        "CSS": 43192,
+        "Shell": 2196
+      },
+      "primary_language": "JavaScript",
+      "file_count": 56,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "Modelfile",
+        "README.md",
+        "docs",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "server.js",
+        "src",
+        "workers"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "better-sqlite3",
+          "dotenv",
+          "express",
+          "express-rate-limit",
+          "express-session",
+          "marked",
+          "multer",
+          "sharp"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5345,
+      "readme_excerpt": "# inazu.me / chat.inazu.me\n\n## Failover Demo\n\nMac mini が止まってもサイトは落ちず、Cloudflare Worker 経由で Raspberry Pi 側へ切り替わる様子です。\n\n![フォールバックする様子](docs/assets/fallback-demo.gif)\n\n`inazu.me` のポートフォリオサイトと `chat.inazu.me` のローカル LLM チャットアプリを同じ Node.js サーバーで配信しているリポジトリです。\n\n- `inazu.me`: ポートフォリオサイト\n- `chat.inazu.me`: Cloudflare Turnstile を通して使うチャットボットアプリ\n\n## Overview\n\nこのプロジェクトは Express サーバー 1 台でホスト名ごとに表示内容を切り替えます。\n\n- `https://inazu.me/` は [`public/index.html`](public/index.html) を返します\n- `https://chat.inazu.me/` は最初に [`public/verify.html`](public/verify.html) を返します\n- 認証通過後に [`public/chat.html`](public/chat.html) から `/api/chat` を叩いて Ollama と会話します\n\nチャット側は Cloudflare Turnstile、セッション管理、簡易 Bot ブロック、レート制限を挟んだ上で、ローカルの Ollama にストリーミングでプロキシします。\n\n## Stack\n\n- Node.js + Express\n- Ollama\n- Cloudflare Turnstile\n- express-session\n- express-rate-limit\n- marked\n\n## Local Setup\n\nNode.js は `fetch` を使っているので 18 以上を前提にしています。\n\n```bash\nnpm install\nollama create nazumi -f Modelfile\nollama serve\nnpm start\n```\n\nサーバーはデフォルトで `http://localhost:3000` で起動します。\n\n## Environment Variables\n\n`.env` に最低限これを入れてください。\n\n```env\nTURNSTILE_SECRET=your_turnstile_secret\nSESSION_SECRET=your_random_session_secret\n```\n\n補足:\n\n- `TURNSTILE_SECRET` がないと `/",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.934,
+      "commits": {
+        "count": 171,
+        "first_at": "2026-01-15T07:01:15+00:00",
+        "last_at": "2026-07-25T17:10:58+00:00",
+        "active_days": 16,
+        "span_days": 191,
+        "max_per_day": 82,
+        "low_effort_message_ratio": 0.006,
+        "messages_sample": [
+          "Update chat card for Nazumi markov-chain rewrite and add news entry",
+          "Document self-hosted deployment flow",
+          "Describe failover demo in README",
+          "Add failover demo to README",
+          "Add Parallel Memory card to work section and news entry",
+          "Add /news update log and homepage News card",
+          "Add easter-egg reveal flow for the LockBit-homage loader",
+          "Hold intro loader for 7s so the reference lands",
+          "Add LockBit-style intro loader to homepage",
+          "Add .inazumi brand TLD card to wishlist",
+          "Add terminal.inazu.me card and rewrite work section intro",
+          "Polish wishlist cards and unify glass fallback structure",
+          "Rewrite wishlist as minimal one-liner cards",
+          "Soften portfolio control text shadows",
+          "Tighten portfolio text shadows",
+          "Improve portfolio text readability",
+          "Refine analytics visitor and reload counting",
+          "Add basic auth raw analytics view",
+          "Add public local analytics dashboard",
+          "Polish failover fallback pages"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 27
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 3,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 128,227 bytes (53% of repo)",
+          "strength": 0.9345820965213621
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 66,249 bytes (28% of repo)",
+          "strength": 0.6761940099389654
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 43,192 bytes (18% of repo)",
+          "strength": 0.5800687055998399
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,196 bytes (1% of repo)",
+          "strength": 0.4091551879398326
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/failover-runbook.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "repo_name",
+          "detail": "'readme' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 239864,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "nodejs",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "parallelmemory",
+      "full_name": "Inazumimakoto/parallelmemory",
+      "html_url": "https://github.com/Inazumimakoto/parallelmemory",
+      "description": "並列で神経衰弱をして脳を怖がらせましょう！🦈",
+      "homepage": "https://parallelmemory.inazu.me/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-05T08:40:01Z",
+      "pushed_at": "2026-07-06T13:49:33Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4125,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 32160,
+        "HTML": 31825,
+        "CSS": 16785
+      },
+      "primary_language": "TypeScript",
+      "file_count": 27,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "index.html",
+        "media",
+        "package-lock.json",
+        "package.json",
+        "promo-video",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts",
+        "wrangler.jsonc"
+      ],
+      "notable_files": [
+        "package.json",
+        "promo-video/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "lucide-react",
+          "react",
+          "react-dom",
+          "typescript",
+          "vite",
+          "vitest",
+          "wrangler"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 490,
+      "readme_excerpt": "# Parallel Memory\n\n複数の神経衰弱ボードを順番に切り替えながら解く、記憶力チャレンジWebアプリです。難易度と並列数を選び、タイム・手数・マッチ数を見ながら全ボードクリアを目指します。\n\n## Play\n\nhttps://parallelmemory.inazu.me/\n\n## Demo\n\n### Promo\n\n![Parallel Memory promo](media/parallel-memory-promo.webp)\n\n### Gameplay\n\n![Parallel Memory gameplay](media/parallel-memory-gameplay-2x.gif)\n\n## Features\n\n- Easy 3x4、Normal 4x4、Hard Trump の3段階難易度\n- 1から10まで選べる並列ボード数\n- ボードごとの進捗、タイム、手数、マッチ数の表示\n- 同じ配置でのリトライ、新しいシャッフル、次の並列数への挑戦\n- クリア結果のランク表示とX共有\n\nDeployed to Cloudflare Workers.\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 12,
+        "first_at": "2026-07-05T08:39:12+00:00",
+        "last_at": "2026-07-06T13:49:26+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Update README gameplay GIF reference",
+          "Use full gameplay GIF at 2x speed",
+          "Add gameplay GIF to README",
+          "Show WebP promo directly",
+          "Use animated WebP promo in README",
+          "Add play link and deployment note",
+          "Trim README after promo features",
+          "Add promo video README and HyperFrames source",
+          "Add README.md with initial content",
+          "Sync npm lockfile",
+          "Center turn rail cards",
+          "init"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 10
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 32,160 bytes (40% of repo)",
+          "strength": 0.7981676364987
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 31,825 bytes (39% of repo)",
+          "strength": 0.7940200569518385
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 16,785 bytes (21% of repo)",
+          "strength": 0.6078123065494614
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/game/game.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 80770,
+        "strong_skills": [
+          "html-css",
+          "react",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "chat.inazu.me",
+      "full_name": "Inazumimakoto/chat.inazu.me",
+      "html_url": "https://github.com/Inazumimakoto/chat.inazu.me",
+      "description": "人工無能と会話できるwebアプリ",
+      "homepage": "https://chat.inazu.me/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-25T16:41:17Z",
+      "pushed_at": "2026-07-28T13:08:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2799,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 212549,
+        "CSS": 12083,
+        "JavaScript": 9259,
+        "HTML": 4466,
+        "Dockerfile": 4056
+      },
+      "primary_language": "TypeScript",
+      "file_count": 66,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "SPEC.md",
+        "THIRD_PARTY_NOTICES.md",
+        "config",
+        "docker",
+        "docs",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "test",
+        "tsconfig.json",
+        "vitest.config.ts",
+        "worker-configuration.d.ts",
+        "wrangler.jsonc"
+      ],
+      "notable_files": [
+        "docker/mecab/Dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@types/he",
+          "@types/node",
+          "he",
+          "tsx",
+          "typescript",
+          "vitest",
+          "wrangler",
+          "yaml"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1878,
+      "readme_excerpt": "# 人工無能「なずみ」\n\n2018〜2026年、約15,000件の自分のツイートを学習したチャットボットです。\n人工知能ではなく人工無能です。支離滅裂な出力をたくさんしますがそれが人工無能です。\n\n### [chat.inazu.me で話しかける →](https://chat.inazu.me/)\n\n## Screenshots\n\n### PC\n\n<p align=\"center\">\n  <img src=\"./docs/screenshots/desktop.png\" alt=\"人工無能なずみのPC画面\" width=\"900\">\n</p>\n\n### Smartphone\n\n<p align=\"center\">\n  <img src=\"./docs/screenshots/mobile.png\" alt=\"人工無能なずみのスマートフォン画面\" width=\"390\">\n</p>\n\n## これは何\n\n入力された言葉を理解したり、質問に正しく答えたりはしません。\n自分のツイートに現れた語のつながりをたどり、それらしい長さの壊れた日本語を返します。\n\nたとえば「自己紹介して」と話しかけると、\n「己の親指と技術に限界を知る」のような、意味がありそうで意味のない返事が来ます。\n\n- 学習元は自分のツイート約15,000件\n- 生成方式は2-gramマルコフ連鎖\n- 文章の分割にはMeCab + NEologdを使用\n- 実行環境はCloudflare Workers\n- 会話の保存、ユーザー学習、セッションはなし\n\nLLMのAPIを呼んでいるわけではありません。数MBの自作モデルをWorkerが直接読み、\nブラウザから届いた一言ごとにその場で文章を組み立てています。\n\n## 仕組み\n\nXには、これまでのポストを含む自分のアカウントデータを\n[アーカイブとして一括ダウンロード](https://help.x.com/ja/managing-your-account/accessing-your-x-data)\nできる機能があります。なずみは、その中から自分のポストだけを使っています。\n\n```text\nXからダウンロードしたデータアーカイブ\n  ↓ 自分のポストだけを抽出・プライバシーフィルター\nMeCabで形態素へ分割\n  ↓\n2-gramのflat binaryモデル\n  ↓\nCloudflare Workerで文章生成\n  ↓ 出力漏えいチェック\n支離滅裂な返答\n```\n\nモデルはJSONではなく、TypedArrayから直接参照できる独自のflat binaryです。\n応答エンジンはCLIとWorkerで共有し、同じ入力とseedからは同じ返答を生成できます。\n\n## プライバシー\n\n元データが個人のTwitterアーカイブなので、面白さよりも先に漏えい防",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-07-28T12:59:59+00:00",
+        "last_at": "2026-07-28T13:08:27+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Improve archive explanation",
+          "Initial public release"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 50
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 212,549 bytes (88% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 12,083 bytes (5% of repo)",
+          "strength": 0.44984468654733867
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 9,259 bytes (4% of repo)",
+          "strength": 0.4381951462999097
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,466 bytes (2% of repo)",
+          "strength": 0.41842310437146524
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 4,056 bytes (2% of repo)",
+          "strength": 0.41673177593610905
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (docker/mecab/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (test/generator.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 242413,
+        "strong_skills": [
+          "docker",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "lifelog",
+      "full_name": "Inazumimakoto/lifelog",
+      "html_url": "https://github.com/Inazumimakoto/lifelog",
+      "description": "名前被り多すぎて検索でヒットしないので改名しました．（lifelog→lifelify）",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-13T10:11:44Z",
+      "pushed_at": "2026-09-06T05:31:16Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6357,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Swift": 1672354,
+        "TypeScript": 20245,
+        "HTML": 3943,
+        "JavaScript": 831
+      },
+      "primary_language": "Swift",
+      "file_count": 238,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "AGENTS.md",
+        "GEMINI.md",
+        "LICENSE",
+        "LifelogWidgets",
+        "LifelogWidgetsExtension.entitlements",
+        "README.md",
+        "assets",
+        "docs",
+        "firebase.json",
+        "firestore.indexes.json",
+        "firestore.rules",
+        "functions",
+        "lifelog",
+        "lifelog.xcodeproj",
+        "lifelogTests",
+        "public",
+        "storage.rules"
+      ],
+      "notable_files": [
+        ".github/workflows/update-loc.yml",
+        "functions/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6343,
+      "readme_excerpt": "# lifelify\n\n日記、予定、ToDo、習慣、ヘルス記録、記念日をひとつにまとめる iOS 向けライフログアプリです。\n\n毎日の予定確認、ちょっとしたメモ、タスク管理、習慣の積み上げ、歩数や睡眠の振り返り、日記と写真の記録までを、落ち着いたカードレイアウトでまとめて扱えます。\n\n対応言語: 日本語、English、한국어、简体中文、繁體中文。アプリ内の独自言語切替は持たず、iOS のアプリ言語設定に従います。\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/platform-iOS_17+-blue?style=plastic\" alt=\"Platform iOS 17+\">\n  <img src=\"https://img.shields.io/badge/Swift-5.9-orange?style=plastic\" alt=\"Swift 5.9\">\n  <img src=\"https://img.shields.io/badge/downloads-200+-brightgreen?style=plastic\" alt=\"200+ downloads\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://apps.apple.com/jp/app/lifelog-%E6%97%A5%E8%A8%98-%E4%BA%88%E5%AE%9A-todo-%E7%BF%92%E6%85%A3-%E5%81%A5%E5%BA%B7-%E3%83%A1%E3%83%A2/id[phone]\">\n    <img src=\"https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg\" alt=\"Download on the App Store\" height=\"48\">\n  </a>\n</p>\n\n## Milestone\n\n200ダウンロード & 10レビューいただきました！皆さん本当にありがとうございます！このまま高評価を維持できるように頑張ります！\n\n<p align=\"center\">\n  <img src=\"https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/ce/26/5ace26e1-cb6b-5aa3-edee-d195e854785a/Apple_iPhone_16_Pro_Max_Screenshot_1.png/600x1300bb.webp\" width=\"23%\" alt=\"lifelify home screenshot\">\n  <img src",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.903,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-02-02T15:17:12+00:00",
+        "last_at": "2026-09-06T05:30:45+00:00",
+        "active_days": 26,
+        "span_days": 215,
+        "max_per_day": 46,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Add month calendar to schedule widget",
+          "Update agent workflow guidelines",
+          "Add global localization support",
+          "Add local LLM config loader",
+          "Gate widgets and wallpaper calendar premium access",
+          "Keep only plastic badges and center-align them",
+          "Add shields.io badges and update download count to 200",
+          "Merge origin/main (LOC stats bot commit)",
+          "Fix health data fetch regression and sync external calendars at launch",
+          "Merge origin/main",
+          "Merge pr19/shared-module",
+          "Share Color(hex:) and event merge logic between app and widget targets",
+          "Merge pr18/drop-legacy-mirrors",
+          "Drop write-only UserDefaults mirrors and dead pendingLetterCount",
+          "Merge origin/main (LOC stats bot commit)",
+          "Normalize hand-written pbxproj test-target entries",
+          "Merge pr17/appdatastore-split",
+          "Split AppDataStore into per-domain extension files",
+          "Merge pr16/save-centralization",
+          "Centralize SwiftData saves and log failures"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 149
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 1,672,354 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 20,245 bytes (1% of repo)",
+          "strength": 0.4119272546458557
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,943 bytes (0% of repo)",
+          "strength": 0.4023230014852363
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/update-loc.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (LifelogWidgets/Info.plist)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/CHANGELOG.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (firebase.json)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1697373,
+        "strong_skills": [
+          "cicd",
+          "gcp-azure",
+          "native-mobile",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Swift": 2019152,
+    "TypeScript": 264954,
+    "JavaScript": 138317,
+    "HTML": 106483,
+    "CSS": 72060,
+    "Go": 38786,
+    "Python": 33268,
+    "Dockerfile": 4056,
+    "Shell": 2196,
+    "Rust": 967
+  },
+  "total_commits": 416,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Inazumimakoto/parallelmemory",
+        "Inazumimakoto/chat.inazu.me",
+        "Inazumimakoto/lifelog"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 264954,
+      "commit_count": 214,
+      "first_seen": "2026-02-02T15:17:12+00:00",
+      "last_seen": "2026-09-06T05:30:45+00:00",
+      "details": [
+        "parallelmemory: TypeScript: 32,160 bytes (40% of repo)",
+        "parallelmemory: typescript in package.json",
+        "chat.inazu.me: TypeScript: 212,549 bytes (88% of repo)",
+        "chat.inazu.me: typescript in package.json",
+        "lifelog: TypeScript: 20,245 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Inazumimakoto/Shift-Sync",
+        "Inazumimakoto/lifelog"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2019152,
+      "commit_count": 231,
+      "first_seen": "2026-02-01T05:05:36+00:00",
+      "last_seen": "2026-09-16T14:31:43+00:00",
+      "details": [
+        "Shift-Sync: Swift: 346,798 bytes (83% of repo)",
+        "Shift-Sync: iOS project (ShiftSync/ShiftSync/Info.plist)",
+        "lifelog: Swift: 1,672,354 bytes (99% of repo)",
+        "lifelog: iOS project (LifelogWidgets/Info.plist)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Inazumimakoto/inazu",
+        "Inazumimakoto/chat.inazu.me"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9345820965213621,
+      "total_bytes": 137486,
+      "commit_count": 173,
+      "first_seen": "2026-01-15T07:01:15+00:00",
+      "last_seen": "2026-07-28T13:08:27+00:00",
+      "details": [
+        "inazu: JavaScript: 128,227 bytes (53% of repo)",
+        "chat.inazu.me: JavaScript: 9,259 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Inazumimakoto/parallelmemory",
+        "Inazumimakoto/chat.inazu.me"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 14,
+      "first_seen": "2026-07-05T08:39:12+00:00",
+      "last_seen": "2026-07-28T13:08:27+00:00",
+      "details": [
+        "parallelmemory: test file (src/game/game.test.ts)",
+        "parallelmemory: vitest in package.json",
+        "chat.inazu.me: test directory (test/generator.test.ts)",
+        "chat.inazu.me: vitest in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "Inazumimakoto/inazu"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 171,
+      "first_seen": "2026-01-15T07:01:15+00:00",
+      "last_seen": "2026-07-25T17:10:58+00:00",
+      "details": [
+        "inazu: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "Inazumimakoto/parallelmemory"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2026-07-05T08:39:12+00:00",
+      "last_seen": "2026-07-06T13:49:26+00:00",
+      "details": [
+        "parallelmemory: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Inazumimakoto/inazu",
+        "Inazumimakoto/parallelmemory",
+        "Inazumimakoto/chat.inazu.me",
+        "Inazumimakoto/lifelog"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7940200569518385,
+      "total_bytes": 178543,
+      "commit_count": 385,
+      "first_seen": "2026-01-15T07:01:15+00:00",
+      "last_seen": "2026-09-06T05:30:45+00:00",
+      "details": [
+        "inazu: HTML: 66,249 bytes (28% of repo)",
+        "inazu: CSS: 43,192 bytes (18% of repo)",
+        "parallelmemory: HTML: 31,825 bytes (39% of repo)",
+        "parallelmemory: CSS: 16,785 bytes (21% of repo)",
+        "chat.inazu.me: CSS: 12,083 bytes (5% of repo)",
+        "chat.inazu.me: HTML: 4,466 bytes (2% of repo)",
+        "lifelog: HTML: 3,943 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Inazumimakoto/inazu",
+        "Inazumimakoto/lifelog"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 371,
+      "first_seen": "2026-01-15T07:01:15+00:00",
+      "last_seen": "2026-09-06T05:30:45+00:00",
+      "details": [
+        "inazu: docs directory (docs/failover-runbook.md)",
+        "inazu: 'readme' in repo name/description",
+        "lifelog: docs directory (docs/CHANGELOG.md)"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "Inazumimakoto/Shift-Sync"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 38786,
+      "commit_count": 31,
+      "first_seen": "2026-02-01T05:05:36+00:00",
+      "last_seen": "2026-09-16T14:31:43+00:00",
+      "details": [
+        "Shift-Sync: Go: 38,786 bytes (9% of repo)",
+        "Shift-Sync: Go module (shift_sync_go/go.mod)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Inazumimakoto/chat.inazu.me"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 4056,
+      "commit_count": 2,
+      "first_seen": "2026-07-28T12:59:59+00:00",
+      "last_seen": "2026-07-28T13:08:27+00:00",
+      "details": [
+        "chat.inazu.me: Dockerfile: 4,056 bytes (2% of repo)",
+        "chat.inazu.me: Dockerfile (docker/mecab/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Inazumimakoto/lifelog"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-02-02T15:17:12+00:00",
+      "last_seen": "2026-09-06T05:30:45+00:00",
+      "details": [
+        "lifelog: GitHub Actions workflow (.github/workflows/update-loc.yml)"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "Inazumimakoto/lifelog"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-02-02T15:17:12+00:00",
+      "last_seen": "2026-09-06T05:30:45+00:00",
+      "details": [
+        "lifelog: firebase config (firebase.json)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Inazumimakoto/Shift-Sync"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4792436740595352,
+      "total_bytes": 33268,
+      "commit_count": 31,
+      "first_seen": "2026-02-01T05:05:36+00:00",
+      "last_seen": "2026-09-16T14:31:43+00:00",
+      "details": [
+        "Shift-Sync: Python: 33,268 bytes (8% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Inazumimakoto/inazu"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4091551879398326,
+      "total_bytes": 2196,
+      "commit_count": 171,
+      "first_seen": "2026-01-15T07:01:15+00:00",
+      "last_seen": "2026-07-25T17:10:58+00:00",
+      "details": [
+        "inazu: Shell: 2,196 bytes (1% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 416,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 12,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-16T14:39:06.472294+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

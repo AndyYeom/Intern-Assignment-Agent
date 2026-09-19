@@ -1,0 +1,88 @@
+{
+  "applicant_id": "applicant0042",
+  "github_login": "MatthewMer",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0042.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/MatthewMer/backend",
+        "https://github.com/MatthewMer/gameboyx",
+        "https://github.com/MatthewMer/chip8-emulator",
+        "https://github.com/MatthewMer/n64-rom-dump-converter"
+      ],
+      "repos": [
+        {
+          "repo": "MatthewMer/backend",
+          "html_url": "https://github.com/MatthewMer/backend",
+          "level": 3,
+          "reasons": [
+            "intermediate: 37 commits; multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 10 fix/perf/refactor commits",
+            "C++: 190,476 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "MatthewMer/gameboyx",
+          "html_url": "https://github.com/MatthewMer/gameboyx",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 12 fix/perf/refactor commits",
+            "C++: 522,420 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "MatthewMer/chip8-emulator",
+          "html_url": "https://github.com/MatthewMer/chip8-emulator",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: none",
+            "C: 2,415,743 bytes (97% of repo)"
+          ]
+        },
+        {
+          "repo": "MatthewMer/n64-rom-dump-converter",
+          "html_url": "https://github.com/MatthewMer/n64-rom-dump-converter",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "C++: 5,050 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/MatthewMer/UnityGPUInstancing"
+      ],
+      "repos": [
+        {
+          "repo": "MatthewMer/UnityGPUInstancing",
+          "html_url": "https://github.com/MatthewMer/UnityGPUInstancing",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: documented",
+            "C#: 95,927 bytes (86% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 2
+  }
+}

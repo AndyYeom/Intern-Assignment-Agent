@@ -1,0 +1,1072 @@
+{
+  "applicant_id": "applicant0109",
+  "login": "Electronscape",
+  "html_url": "https://github.com/Electronscape",
+  "created_at": "2022-06-19T21:59:32Z",
+  "account_age_days": 1550,
+  "public_repos": 6,
+  "followers": 2,
+  "following": 0,
+  "repos": [
+    {
+      "name": "sidbox-softwares",
+      "full_name": "Electronscape/sidbox-softwares",
+      "html_url": "https://github.com/Electronscape/sidbox-softwares",
+      "description": "These are softwares i'll use for creating and managing stuff for the sidbox developement, Here you'll be able to see the tools i've written and used for testing and creating bits needed for the ROM. PLEASE NOTE: Some of the testing you'll see are going to be testing code too, i'll do my best to make that known in the README files",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-30T14:40:03Z",
+      "pushed_at": "2026-09-15T22:04:34Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 515294,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [],
+      "languages": {
+        "Makefile": 63315010,
+        "C++": 2713690,
+        "CMake": 1150355,
+        "C": 130289,
+        "Qt Script": 18297,
+        "TypeScript": 3207
+      },
+      "primary_language": "Makefile",
+      "file_count": 6911,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "HIDFiffy",
+        "LICENSE",
+        "README.md",
+        "SIDBOX FIRMWARES HERE",
+        "SidboxTerminal",
+        "asound-test",
+        "graphics-3d",
+        "graphics-OS_WindowingTest",
+        "graphics-editor",
+        "graphics-test",
+        "graphics-test.png",
+        "hidjibjab",
+        "packet2",
+        "sidbox5.bin"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1885,
+      "readme_excerpt": "This is where I keep my softwares, and tools and scrap code to make sure things at least work before I start adding things to the sidbox firmware.\nSo far ALL these projects are written in QT6's Creator, I have VisualCode but for essentially ANY GUI work, QTCreator is on point.\n\nIf you're following this, you should be able to cloan this compile it with your own system to see what they do. Sorry there isn't much else at the moment. \n\nAdded tools to help me do things and test\n- SIDBOX GRAPHICS TEST: (very early stages at the moment)\n  Essentially this is the testing ground for any new Sidbox Graphics routines. It's designed to work like the VRAM in the sidbox's pixel array arrangement.\n  I can test new features without burning it to ROM first. \n\n- SIDBOX TERMINAL:\n  This allows me to communicate directly to the sidbox, it's a little bit like terminal, since the sidbox internally sends commands to this, giving it an almost perfect commandline system.\n  The sidbox terminal still under development with the more things I need to test. I'll add its function here.\n  This uses QT6, and is being coded in the Linux FEDORA KDE environment (the source code should still compile in windows, tested",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 69,
+        "first_at": "2025-11-30T14:39:52+00:00",
+        "last_at": "2026-03-17T22:56:28+00:00",
+        "active_days": 23,
+        "span_days": 107,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.145,
+        "messages_sample": [
+          "update all",
+          "main program upload",
+          "before the re-write too many tiny little bits everywhere",
+          "gui overload!! OMG!",
+          "os stuff",
+          "dual layer work now",
+          "command line changes",
+          "hex edit highliter",
+          "stuff",
+          "some more gui clean up",
+          "slight pre-check fix",
+          "a slight pre-check added",
+          "rotation is now cell aware",
+          "animator slight gui update",
+          "cell animation systems added",
+          "some more changes",
+          "More Gradient fill options and indicators of th ranges of the gradient and cycles",
+          "some niggly changes!",
+          "a few changes, sorry so many",
+          "bug fix in the importer!"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 131
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 63,315,010 bytes (94% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 2,713,690 bytes (4% of repo)",
+          "strength": 0.4403038143823764
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 130,289 bytes (0% of repo)",
+          "strength": 0.4019350565731773
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 3,207 bytes (0% of repo)",
+          "strength": 0.40004763047095443
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "repo_name",
+          "detail": "'readme' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 66162196,
+        "strong_skills": [
+          "shell"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sidbox_projects_applets",
+      "full_name": "Electronscape/sidbox_projects_applets",
+      "html_url": "https://github.com/Electronscape/sidbox_projects_applets",
+      "description": "Applications that run nativally on the sidbox, in the ARM world, thumb2 to be precice, you'll need to get a compiler for this, DONT worry if you cant get this to work at all since, sidbox is not yet released, and when it IS done i hope to have ALL the setups and how toos done",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-30T14:48:43Z",
+      "pushed_at": "2026-02-25T21:01:43Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 32644,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "C": 7879194,
+        "Assembly": 6331888,
+        "Makefile": 171535,
+        "Batchfile": 112941,
+        "Linker Script": 78376,
+        "Shell": 2889
+      },
+      "primary_language": "C",
+      "file_count": 1047,
+      "top_level_paths": [
+        "$basicappletSettup",
+        ".backup",
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE",
+        "SidboxApplets.rar",
+        "SidboxApplets.zip",
+        "_Applications",
+        "_GAMES",
+        "_coreapi_",
+        "_testApps",
+        "build_logs",
+        "build_output.txt",
+        "commands",
+        "compileall.bat",
+        "compileall_fast.bat",
+        "compileall_slow.bat",
+        "desktop.ini",
+        "linux clear tmp.txt",
+        "makeall.sh",
+        "makeconfig.mk",
+        "newdate.sh",
+        "readme.txt",
+        "resetme.gif",
+        "resetme.psd",
+        "test-drawing.iff",
+        "test-drawing.png",
+        "vscode setups.txt"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1177,
+      "readme_excerpt": "best file structure\n\n/_coreapi_\n/yourproject/main.c\n\nwork on your project and use \n\nwindows\ncompile.bat\n\nlinux:::\nMake or ./compile.sh\n\nthings to prepare first\nmake the script executable\n\tchmod +x compile.sh\n\n\nthen run it, passing the root folder of your project\n\t./compile.sh\n\n\n---\nI tried to set this up so you could just drop it in to VSCode\n\nOpen folder, and it should work from there, USE CTRL+SHIFT+B to launch compile.bat\n\nif doing this on Linux, change the json file in the .vscode folder\n\n\nUSING MSYS - PATH to your compiler is required\n\nexport PATH=\"/C/ST/STM32CubeIDE_1.6.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_[phone]/tools/bin:$PATH\"\n\nNote, your STM32 Compiler might be different so make sure your compiler/bin is in the path\n\nnavigate to your project root\n\teg. cd /W/Work/Programming/SidboxApplets/Sturdust\n\nsimply type make, be sure to have make installed in MSYS (or linux)\n\n\tpacman -Syu\t\t(may need to close and reopen shell)\n\tpackman -S make\n\nonce installed\n\nchecks:\n\t- be sure to be in project root directory\n\t- make clean\n\t- make\n\nyou may need to rename applet.bin to applet.app\n\n.",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2025-11-30T14:48:28+00:00",
+        "last_at": "2026-02-25T21:01:41+00:00",
+        "active_days": 4,
+        "span_days": 87,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.444,
+        "messages_sample": [
+          "applet test",
+          "updated apps",
+          "klonk",
+          "Update main.c",
+          "KFMTracker",
+          "Update main.c",
+          "Delete applet.app",
+          "Update main.c",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 92
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 7,879,194 bytes (54% of repo)",
+          "strength": 0.9405288930242207
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 171,535 bytes (1% of repo)",
+          "strength": 0.41176765334943016
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,889 bytes (0% of repo)",
+          "strength": 0.4001981913342846
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8053618,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sidbox_projects_applets_v2",
+      "full_name": "Electronscape/sidbox_projects_applets_v2",
+      "html_url": "https://github.com/Electronscape/sidbox_projects_applets_v2",
+      "description": "new version of applets ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-23T14:49:51Z",
+      "pushed_at": "2026-09-17T01:12:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 223094,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 87485090,
+        "Assembly": 5583014,
+        "C++": 289738,
+        "Makefile": 217201,
+        "Shell": 196483,
+        "Tree-sitter Query": 155718,
+        "HTML": 57544,
+        "Linker Script": 52024,
+        "Python": 35774,
+        "Perl": 17004,
+        "Lex": 3451
+      },
+      "primary_language": "C",
+      "file_count": 1679,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "_coreapi_",
+        "_sturdustv2",
+        "api.html",
+        "base_tests",
+        "baseline-app-noapis.zip",
+        "basic.txt",
+        "crt-colours.pal",
+        "lcd-toothache_pallete.pal",
+        "project-base",
+        "test.txt",
+        "tools"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1070,
+      "readme_excerpt": "# Applet Version 2\n\nApplet Version 2 is the baseline application format for running software on the newer **SIDBOX OS**.\n\nWith the introduction of a full windowing desktop environment, applications are no longer assumed to be single, fixed binaries. Applets must now support relocation in memory and are designed with **multiple concurrent launches** in mind.\n\nThis version formalises how applications are loaded, how they access the system API, and how they coexist safely within the OS.\n\n---\n\n## Key Changes\n\n### Memory Relocation\n\nApplications are now relocated at load time rather than running from a fixed address.  \nThis allows:\n\n- Multiple instances of the same app to run simultaneously\n- Safer memory isolation\n- Future support for unloading and reloading applets dynamically\n\n---\n\n## API Access Model\n\nAPI access has been streamlined and unified.\n\nThe SIDBOX API is exposed through a structured root object, allowing both explicit and convenience-style access depending on context.\n\n### Explicit API Access\n\n```c\nAPI->gui->console->printf(0, \"hello world\\n\");\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 74,
+        "first_at": "2026-01-23T14:49:30+00:00",
+        "last_at": "2026-09-17T01:12:55+00:00",
+        "active_days": 33,
+        "span_days": 236,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.108,
+        "messages_sample": [
+          "cubey demo ported",
+          "core api update",
+          "a lot of api updates",
+          "image viewer and api updates",
+          "cli print f api fix",
+          "image viewer",
+          "api updates",
+          "some more API updates",
+          "bubba scrensaver updated",
+          "toothache update",
+          "flite code test",
+          "speech synth attempt 1",
+          "more images in the demo",
+          "menu house keeping added",
+          "test demos",
+          "updates",
+          "more EBI APIS",
+          "sprite demo",
+          "crt demo",
+          "crt image buffer and 3d primative"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 432
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 87,485,090 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 289,738 bytes (0% of repo)",
+          "strength": 0.4030792712927623
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 217,201 bytes (0% of repo)",
+          "strength": 0.40230836412227344
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 196,483 bytes (0% of repo)",
+          "strength": 0.40208817780690076
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 57,544 bytes (0% of repo)",
+          "strength": 0.4006115648871419
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 35,774 bytes (0% of repo)",
+          "strength": 0.4003801981487664
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 88281830,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "VHDLstuff",
+      "full_name": "Electronscape/VHDLstuff",
+      "html_url": "https://github.com/Electronscape/VHDLstuff",
+      "description": "A bunch of VHDLStuff",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-16T13:22:10Z",
+      "pushed_at": "2026-03-16T13:22:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 16403,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "VHDL": 112297,
+        "Verilog": 53853,
+        "Tcl": 5538,
+        "HTML": 4292,
+        "Stata": 782,
+        "Wolfram Language": 662,
+        "Standard ML": 96,
+        "Scheme": 60
+      },
+      "primary_language": "VHDL",
+      "file_count": 443,
+      "top_level_paths": [
+        ".gitattributes",
+        "README.md",
+        "vga_2 - PONG 1"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 34,
+      "readme_excerpt": "# VHDLstuff\n A bunch of VHDLStuff\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2026-03-16T13:21:24+00:00",
+        "last_at": "2026-03-16T13:21:59+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "vhdl",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 4,292 bytes (2% of repo)",
+          "strength": 0.4241693884446447
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "strong_skill_signal"
+        ],
+        "code_bytes": 4292,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Sidbox-hw-barebones",
+      "full_name": "Electronscape/Sidbox-hw-barebones",
+      "html_url": "https://github.com/Electronscape/Sidbox-hw-barebones",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-23T22:02:11Z",
+      "pushed_at": "2025-12-25T01:36:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6178,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C": 10850681,
+        "Makefile": 769266,
+        "Assembly": 29408,
+        "Linker Script": 12766,
+        "Shell": 2315,
+        "Batchfile": 1712
+      },
+      "primary_language": "C",
+      "file_count": 533,
+      "top_level_paths": [
+        ".backups",
+        ".cproject",
+        ".gitattributes",
+        ".mxproject",
+        ".project",
+        ".settings",
+        "CPU Check Sheet.txt",
+        "Core",
+        "DATE FORMAT.txt",
+        "README.md",
+        "Release",
+        "STM32H743IITX_FLASH.ld",
+        "STM32H743IITX_RAM.ld",
+        "SidBox5.6 Release.cfg",
+        "SidBox5.6.cfg",
+        "SidBox5.6.launch",
+        "build_number.h",
+        "build_number.txt",
+        "go.cmd",
+        "newdate.sh",
+        "xmasg1.ppb"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3265,
+      "readme_excerpt": "# SidBox 5.6 Firmware\n\nSidBox 5.6 is a custom embedded hardware platform built around the STM32H7\nseries, designed for audio, graphics, and real-time experimentation\n(emulation, UI, and hardware-driven fun).\n\nThis repository contains the **base firmware and hardware abstraction layer**\nfor the SidBox 5.6 system.\n\n---\n\n## Why a Rewrite?\n\nThe original SidBox firmware *works*, but over time it became:\n\n- difficult to extend\n- hard to reason about\n- tightly coupled in places it shouldn’t be\n- full of “it works, don’t touch it” logic\n\nThis version is a **clean re-architecture**, not a feature-for-feature port.\n\nThe goals of this rewrite are:\n- clearer hardware abstractions\n- deterministic timing where it matters\n- clean memory and DMA usage\n- a structure that allows future expansion without turning into spaghetti\n\nThings **will** break during development — that’s expected.\nThe focus is correctness, clarity, and long-term maintainability.\n\nPut the xmasg1.bbp in the root directory of the sdcard\n\n---\n\n## Hardware Overview\n\n- MCU: STM32H743 (Cortex-M7)\n- External SDRAM (used for VRAM and application memory)\n- DMA2D-based graphics pipeline\n- LCD driven via FMC (8080-style bus)\n- UART for deb",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-12-23T22:02:02+00:00",
+        "last_at": "2025-12-25T01:36:18+00:00",
+        "active_days": 3,
+        "span_days": 1,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Create xmasg1.ppb",
+          "Update README.md",
+          "new commands",
+          "gfx lib update",
+          "a bug in the audio setup and no cache clean up, now added",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 206
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 1,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 10,850,681 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 769,266 bytes (7% of repo)",
+          "strength": 0.46594001721905126
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 2,315 bytes (0% of repo)",
+          "strength": 0.4001984373933881
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 11622262,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C": 106345254,
+    "Makefile": 64473012,
+    "Assembly": 11944310,
+    "C++": 3003428,
+    "CMake": 1150355,
+    "Shell": 201687,
+    "Tree-sitter Query": 155718,
+    "Linker Script": 143166,
+    "Batchfile": 114653,
+    "VHDL": 112297,
+    "HTML": 61836,
+    "Verilog": 53853,
+    "Python": 35774,
+    "Qt Script": 18297,
+    "Perl": 17004,
+    "Tcl": 5538,
+    "Lex": 3451,
+    "TypeScript": 3207,
+    "Stata": 782,
+    "Wolfram Language": 662,
+    "Standard ML": 96,
+    "Scheme": 60
+  },
+  "total_commits": 160,
+  "skill_evidence": [
+    {
+      "skill_id": "shell",
+      "repos": [
+        "Electronscape/sidbox-softwares",
+        "Electronscape/sidbox_projects_applets",
+        "Electronscape/sidbox_projects_applets_v2",
+        "Electronscape/Sidbox-hw-barebones"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 64674699,
+      "commit_count": 158,
+      "first_seen": "2025-11-30T14:39:52+00:00",
+      "last_seen": "2026-09-17T01:12:55+00:00",
+      "details": [
+        "sidbox-softwares: Makefile: 63,315,010 bytes (94% of repo)",
+        "sidbox_projects_applets: Makefile: 171,535 bytes (1% of repo)",
+        "sidbox_projects_applets: Shell: 2,889 bytes (0% of repo)",
+        "sidbox_projects_applets_v2: Makefile: 217,201 bytes (0% of repo)",
+        "sidbox_projects_applets_v2: Shell: 196,483 bytes (0% of repo)",
+        "Sidbox-hw-barebones: Makefile: 769,266 bytes (7% of repo)",
+        "Sidbox-hw-barebones: Shell: 2,315 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Electronscape/sidbox-softwares",
+        "Electronscape/sidbox_projects_applets",
+        "Electronscape/sidbox_projects_applets_v2",
+        "Electronscape/Sidbox-hw-barebones"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 109348682,
+      "commit_count": 158,
+      "first_seen": "2025-11-30T14:39:52+00:00",
+      "last_seen": "2026-09-17T01:12:55+00:00",
+      "details": [
+        "sidbox-softwares: C++: 2,713,690 bytes (4% of repo)",
+        "sidbox-softwares: C: 130,289 bytes (0% of repo)",
+        "sidbox_projects_applets: C: 7,879,194 bytes (54% of repo)",
+        "sidbox_projects_applets_v2: C: 87,485,090 bytes (93% of repo)",
+        "sidbox_projects_applets_v2: C++: 289,738 bytes (0% of repo)",
+        "Sidbox-hw-barebones: C: 10,850,681 bytes (93% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Electronscape/sidbox_projects_applets_v2",
+        "Electronscape/VHDLstuff"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4241693884446447,
+      "total_bytes": 61836,
+      "commit_count": 76,
+      "first_seen": "2026-01-23T14:49:30+00:00",
+      "last_seen": "2026-09-17T01:12:55+00:00",
+      "details": [
+        "sidbox_projects_applets_v2: HTML: 57,544 bytes (0% of repo)",
+        "VHDLstuff: HTML: 4,292 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Electronscape/sidbox_projects_applets_v2"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4003801981487664,
+      "total_bytes": 35774,
+      "commit_count": 74,
+      "first_seen": "2026-01-23T14:49:30+00:00",
+      "last_seen": "2026-09-17T01:12:55+00:00",
+      "details": [
+        "sidbox_projects_applets_v2: Python: 35,774 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Electronscape/sidbox-softwares"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40004763047095443,
+      "total_bytes": 3207,
+      "commit_count": 69,
+      "first_seen": "2025-11-30T14:39:52+00:00",
+      "last_seen": "2026-03-17T22:56:28+00:00",
+      "details": [
+        "sidbox-softwares: TypeScript: 3,207 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Electronscape/sidbox-softwares"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 69,
+      "first_seen": "2025-11-30T14:39:52+00:00",
+      "last_seen": "2026-03-17T22:56:28+00:00",
+      "details": [
+        "sidbox-softwares: 'readme' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 160,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "distinct_skills"
+    ],
+    "reason": "distinct_skills: 2 < 3"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-17T01:28:15.981256+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - distinct_skills: 2 < 3"
+  ]
+}

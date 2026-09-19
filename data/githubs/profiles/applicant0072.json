@@ -1,0 +1,1184 @@
+{
+  "applicant_id": "applicant0072",
+  "login": "HugoDaSilvaGit",
+  "html_url": "https://github.com/HugoDaSilvaGit",
+  "created_at": "2021-01-25T23:33:45Z",
+  "account_age_days": 2060,
+  "public_repos": 8,
+  "followers": 2,
+  "following": 1,
+  "repos": [
+    {
+      "name": "GSB",
+      "full_name": "HugoDaSilvaGit/GSB",
+      "html_url": "https://github.com/HugoDaSilvaGit/GSB",
+      "description": "Application web de gestion de frais",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-12-04T19:55:36Z",
+      "pushed_at": "2022-09-13T07:25:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 593,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "bulma",
+        "css",
+        "doctrine",
+        "html",
+        "javascript",
+        "jquery",
+        "mariadb",
+        "php",
+        "symfony",
+        "twig"
+      ],
+      "languages": {
+        "Twig": 169498,
+        "CSS": 96596,
+        "PHP": 83917,
+        "JavaScript": 2681,
+        "Shell": 1634
+      },
+      "primary_language": "Twig",
+      "file_count": 113,
+      "top_level_paths": [
+        ".DS_Store",
+        ".env",
+        ".gitignore",
+        ".idea",
+        "README.md",
+        "bd",
+        "bin",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "migrations",
+        "public",
+        "src",
+        "symfony.lock",
+        "templates"
+      ],
+      "notable_files": [
+        "composer.json"
+      ],
+      "manifests": {
+        "composer.json": [
+          "allow-contrib",
+          "assets",
+          "auto-scripts",
+          "autoload",
+          "autoload-dev",
+          "cache",
+          "composer/package-versions-deprecated",
+          "config",
+          "conflict",
+          "doctrine/annotations",
+          "doctrine/doctrine-bundle",
+          "doctrine/doctrine-migrations-bundle",
+          "doctrine/orm",
+          "ext-ctype",
+          "ext-iconv",
+          "ext-json",
+          "ext-pdo",
+          "extra",
+          "license",
+          "paragonie/random_compat",
+          "php",
+          "post-install-cmd",
+          "post-update-cmd",
+          "preferred-install",
+          "psr-4",
+          "replace",
+          "require",
+          "require-dev",
+          "scripts",
+          "sort-packages",
+          "symfony",
+          "symfony/asset",
+          "symfony/console",
+          "symfony/dotenv",
+          "symfony/flex",
+          "symfony/framework-bundle",
+          "symfony/maker-bundle",
+          "symfony/polyfill-ctype",
+          "symfony/polyfill-iconv",
+          "symfony/polyfill-php56",
+          "symfony/polyfill-php70",
+          "symfony/polyfill-php71",
+          "symfony/proxy-manager-bridge",
+          "symfony/symfony",
+          "symfony/twig-bundle",
+          "symfony/web-server-bundle",
+          "symfony/yaml",
+          "twig/extra-bundle",
+          "twig/intl-extra",
+          "twig/twig",
+          "type"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 807,
+      "readme_excerpt": "## GSB [SYMFONY]\n\n\n**Implementation**\n\n> `Continuous integration`\n\n**Introduction**\n\n>GSB is a web App using Symfony framework and depending on twig template. This App is a expense management App for medical field professionals.\n\n**Before Use**\n\n>credentials are necessary to connect, you can find credentials profils in the SQL file:\n```Shell\ncd bd/gsb_peupler.sql\n```\n\n**Prerequisites**\n\n>MySQL/PHP connector (PDO) is required; MySQL provides PHP support through the MySQL Connector/PHP (PDO), which is available through the apt Package Index.\n```Shell\n$ apt-get install php7.3-mysql\n```\n\n>Full installation steps can be found here: https://www.scriptcase.net/docs/en_us/v9/manual/02-scriptcase-installation/06-linux_php/\n\n**About the project**\n\n>GSB was a study project during my 2021-2022 study period.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.282,
+      "commits": {
+        "count": 11,
+        "first_at": "2021-12-04T19:56:49+00:00",
+        "last_at": "2022-09-13T07:24:25+00:00",
+        "active_days": 7,
+        "span_days": 282,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.364,
+        "messages_sample": [
+          "front-end: espace visiteur FINAL",
+          "back-end: continuous implementation espace visiteur FINAL",
+          "doc: data UML",
+          "front-end: espace visiteur modif 🚀",
+          "back-end: continuous implementation espace visiteur 🚀",
+          "front-end: espace visiteur 🚀",
+          "back-end: continuous implementation espace visiteur 🚀",
+          "Update README.md",
+          "Update README.md",
+          "Create README.md",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 61
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 96,596 bytes (27% of repo)",
+          "strength": 0.6726190005813855
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,681 bytes (1% of repo)",
+          "strength": 0.4075664783278676
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 1,634 bytes (0% of repo)",
+          "strength": 0.40461157239378426
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (bd/gsb_interroger.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (migrations/.gitignore)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "html-css",
+          "source": "topic",
+          "detail": "repo topic 'css'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "javascript",
+          "source": "topic",
+          "detail": "repo topic 'javascript'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "mysql",
+          "source": "topic",
+          "detail": "repo topic 'mariadb'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 100911,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Resanet",
+      "full_name": "HugoDaSilvaGit/Resanet",
+      "html_url": "https://github.com/HugoDaSilvaGit/Resanet",
+      "description": "Application web de gestion de réservations de repas",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-05-08T01:01:59Z",
+      "pushed_at": "2021-12-08T00:42:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 161,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "bootstrap",
+        "flask",
+        "html",
+        "mariadb",
+        "python"
+      ],
+      "languages": {
+        "Python": 29915,
+        "HTML": 29433,
+        "CSS": 725
+      },
+      "primary_language": "Python",
+      "file_count": 37,
+      "top_level_paths": [
+        ".idea",
+        ".vscode",
+        "Application",
+        "BD",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 849,
+      "readme_excerpt": "## Resanet [Flask]\n\n**Implementation**\n\n> `Continuous integration`\n\n**Introduction**\n\n>Resanet is a web App using Flask framework and depending on Jinja template. This App is a meal reservation App for public catering, specifically school or internal company.\n\n**Before Use**\n\n>credentials are necessary to connect, you can find credentials profils in the SQL file:\n```Shell\ncd BD/resanet.sql\n```\n\n**Prerequisites**\n\n>MariaDB/Python connector is required; MariaDB provides Python support through the MariaDB Connector/Python, which is available through the Python Package Index. To install, use PIP:\n```Shell\n$ pip3 install mariadb\n```\n\n>Full installation steps can be found here: https://mariadb.com/fr/resources/blog/how-to-connect-python-programs-to-mariadb/\n\n**About the project**\n\n>Resanet was a study project during my 2020-2021 study period.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.688,
+      "commits": {
+        "count": 11,
+        "first_at": "2021-11-28T03:06:53+00:00",
+        "last_at": "2021-12-08T00:42:48+00:00",
+        "active_days": 2,
+        "span_days": 9,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 25
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 29,915 bytes (50% of repo)",
+          "strength": 0.8979774607560802
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 29,433 bytes (49% of repo)",
+          "strength": 0.8899538894345214
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (BD/resanet.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "topic",
+          "detail": "repo topic 'flask'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "html-css",
+          "source": "topic",
+          "detail": "repo topic 'html'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "mysql",
+          "source": "topic",
+          "detail": "repo topic 'mariadb'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "python",
+          "source": "topic",
+          "detail": "repo topic 'python'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 60073,
+        "strong_skills": [
+          "html-css",
+          "python",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sbateliers",
+      "full_name": "HugoDaSilvaGit/sbateliers",
+      "html_url": "https://github.com/HugoDaSilvaGit/sbateliers",
+      "description": "Application web de participation à des ateliers",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-11-28T23:32:37Z",
+      "pushed_at": "2021-11-28T23:36:11Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 8,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "bootstrap",
+        "html",
+        "mariadb",
+        "pdo",
+        "php"
+      ],
+      "languages": {
+        "PHP": 25257
+      },
+      "primary_language": "PHP",
+      "file_count": 12,
+      "top_level_paths": [
+        "bd",
+        "controleurs",
+        "testER.php",
+        "vues"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-11-28T23:35:05+00:00",
+        "last_at": "2021-11-28T23:35:05+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "first"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 12
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (bd/peuplerSbateliers.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "html-css",
+          "source": "topic",
+          "detail": "repo topic 'html'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "mysql",
+          "source": "topic",
+          "detail": "repo topic 'mariadb'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "suivateliers",
+      "full_name": "HugoDaSilvaGit/suivateliers",
+      "html_url": "https://github.com/HugoDaSilvaGit/suivateliers",
+      "description": "Application web de suivi de participation à des ateliers",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-11-28T23:36:51Z",
+      "pushed_at": "2021-11-28T23:38:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "bootstrap",
+        "html",
+        "mariadb",
+        "pdo",
+        "php"
+      ],
+      "languages": {
+        "PHP": 19372
+      },
+      "primary_language": "PHP",
+      "file_count": 8,
+      "top_level_paths": [
+        "controleurs",
+        "vues"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-11-28T23:37:15+00:00",
+        "last_at": "2021-11-28T23:37:15+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "topic",
+          "detail": "repo topic 'html'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "mysql",
+          "source": "topic",
+          "detail": "repo topic 'mariadb'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "GSB-RV-DR",
+      "full_name": "HugoDaSilvaGit/GSB-RV-DR",
+      "html_url": "https://github.com/HugoDaSilvaGit/GSB-RV-DR",
+      "description": "Application lourde de consultation de rapport de visites",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-12-10T12:29:47Z",
+      "pushed_at": "2021-12-10T12:46:18Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 51,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "gradle",
+        "java",
+        "javafx",
+        "mariadb"
+      ],
+      "languages": {
+        "Java": 25029
+      },
+      "primary_language": "Java",
+      "file_count": 76,
+      "top_level_paths": [
+        ".DS_Store",
+        ".idea",
+        "GSB-RV-DR.iml",
+        "README.md",
+        "pom.xml",
+        "src",
+        "target"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "gsb-rv-dr",
+          "javafx-controls",
+          "javafx-fxml",
+          "javafx-maven-plugin",
+          "junit-jupiter-api",
+          "junit-jupiter-engine",
+          "maven-compiler-plugin"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 834,
+      "readme_excerpt": "## GSB-RV-DR [JAVA FX]\n\n\n**Implementation**\n\n> `Continuous integration`\n\n**Introduction**\n\n>GSB-RV-DR is an heavy client App using Java FX framework. This App is an expense management App for medical field professionals.\n\n**Before Use**\n\n>credentials are necessary to connect, you can find credentials profils in the SQL file:\n```Shell\ncd bd/gsbrv.sql\n```\n\n**Prerequisites**\n\n>JDBC jar connector for MariaDB is required on java 8 and must be installed in the modules prerequisities in your IDE. MariaDB provides connector support through the JDBC MariaDB Connector/Java 8 driver, which is available through mariaDB webpage.\n\n>Full download steps can be found here: https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector\n\n**About the project**\n\n>GSB-RV-DR was a study project during my 2021-2022 study period.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2021-12-10T12:31:22+00:00",
+        "last_at": "2021-12-10T12:46:18+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Update README.md",
+          "Create README.md",
+          "first"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 25,029 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (src/main/java/fr/gsb/rv/dr/bd/gsbrv.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "java",
+          "source": "topic",
+          "detail": "repo topic 'java'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "mysql",
+          "source": "topic",
+          "detail": "repo topic 'mariadb'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit-jupiter-api in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 25029,
+        "strong_skills": [
+          "java",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Twig": 169498,
+    "PHP": 128546,
+    "CSS": 97321,
+    "Python": 29915,
+    "HTML": 29433,
+    "Java": 25029,
+    "JavaScript": 2681,
+    "Shell": 1634
+  },
+  "total_commits": 27,
+  "skill_evidence": [
+    {
+      "skill_id": "java",
+      "repos": [
+        "HugoDaSilvaGit/GSB-RV-DR"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 25029,
+      "commit_count": 3,
+      "first_seen": "2021-12-10T12:31:22+00:00",
+      "last_seen": "2021-12-10T12:46:18+00:00",
+      "details": [
+        "GSB-RV-DR: Java: 25,029 bytes (100% of repo)",
+        "GSB-RV-DR: repo topic 'java'"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "HugoDaSilvaGit/GSB-RV-DR"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2021-12-10T12:31:22+00:00",
+      "last_seen": "2021-12-10T12:46:18+00:00",
+      "details": [
+        "GSB-RV-DR: junit-jupiter-api in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "HugoDaSilvaGit/Resanet"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 0.8979774607560802,
+      "total_bytes": 29915,
+      "commit_count": 11,
+      "first_seen": "2021-11-28T03:06:53+00:00",
+      "last_seen": "2021-12-08T00:42:48+00:00",
+      "details": [
+        "Resanet: Python: 29,915 bytes (50% of repo)",
+        "Resanet: repo topic 'python'"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "HugoDaSilvaGit/GSB",
+        "HugoDaSilvaGit/Resanet",
+        "HugoDaSilvaGit/sbateliers",
+        "HugoDaSilvaGit/suivateliers"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 0.8899538894345214,
+      "total_bytes": 126029,
+      "commit_count": 24,
+      "first_seen": "2021-11-28T03:06:53+00:00",
+      "last_seen": "2022-09-13T07:24:25+00:00",
+      "details": [
+        "GSB: CSS: 96,596 bytes (27% of repo)",
+        "GSB: repo topic 'css'",
+        "Resanet: HTML: 29,433 bytes (49% of repo)",
+        "Resanet: repo topic 'html'",
+        "sbateliers: repo topic 'html'",
+        "suivateliers: repo topic 'html'"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "HugoDaSilvaGit/GSB",
+        "HugoDaSilvaGit/Resanet",
+        "HugoDaSilvaGit/sbateliers",
+        "HugoDaSilvaGit/GSB-RV-DR"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 26,
+      "first_seen": "2021-11-28T03:06:53+00:00",
+      "last_seen": "2022-09-13T07:24:25+00:00",
+      "details": [
+        "GSB: SQL file (bd/gsb_interroger.sql)",
+        "Resanet: SQL file (BD/resanet.sql)",
+        "sbateliers: SQL file (bd/peuplerSbateliers.sql)",
+        "GSB-RV-DR: SQL file (src/main/java/fr/gsb/rv/dr/bd/gsbrv.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "HugoDaSilvaGit/GSB"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2021-12-04T19:56:49+00:00",
+      "last_seen": "2022-09-13T07:24:25+00:00",
+      "details": [
+        "GSB: database migrations (migrations/.gitignore)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "HugoDaSilvaGit/GSB"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 0.4075664783278676,
+      "total_bytes": 2681,
+      "commit_count": 11,
+      "first_seen": "2021-12-04T19:56:49+00:00",
+      "last_seen": "2022-09-13T07:24:25+00:00",
+      "details": [
+        "GSB: JavaScript: 2,681 bytes (1% of repo)",
+        "GSB: repo topic 'javascript'"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "HugoDaSilvaGit/GSB"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40461157239378426,
+      "total_bytes": 1634,
+      "commit_count": 11,
+      "first_seen": "2021-12-04T19:56:49+00:00",
+      "last_seen": "2022-09-13T07:24:25+00:00",
+      "details": [
+        "GSB: Shell: 1,634 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "HugoDaSilvaGit/GSB",
+        "HugoDaSilvaGit/Resanet",
+        "HugoDaSilvaGit/sbateliers",
+        "HugoDaSilvaGit/suivateliers",
+        "HugoDaSilvaGit/GSB-RV-DR"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 27,
+      "first_seen": "2021-11-28T03:06:53+00:00",
+      "last_seen": "2022-09-13T07:24:25+00:00",
+      "details": [
+        "GSB: repo topic 'mariadb'",
+        "Resanet: repo topic 'mariadb'",
+        "sbateliers: repo topic 'mariadb'",
+        "suivateliers: repo topic 'mariadb'",
+        "GSB-RV-DR: repo topic 'mariadb'"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "HugoDaSilvaGit/Resanet"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2021-11-28T03:06:53+00:00",
+      "last_seen": "2021-12-08T00:42:48+00:00",
+      "details": [
+        "Resanet: repo topic 'flask'"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 3,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 27,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:17:31.255333+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

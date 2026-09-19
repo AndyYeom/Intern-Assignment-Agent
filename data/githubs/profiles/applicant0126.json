@@ -1,0 +1,1749 @@
+{
+  "applicant_id": "applicant0126",
+  "login": "kanta13jp1",
+  "html_url": "https://github.com/kanta13jp1",
+  "created_at": "2021-01-10T19:09:49Z",
+  "account_age_days": 2075,
+  "public_repos": 39,
+  "followers": 0,
+  "following": 5,
+  "repos": [
+    {
+      "name": "my_web_app",
+      "full_name": "kanta13jp1/my_web_app",
+      "html_url": "https://github.com/kanta13jp1/my_web_app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-17T12:40:31Z",
+      "pushed_at": "2026-09-17T00:48:23Z",
+      "stargazers": 3,
+      "forks": 1,
+      "open_issues": 696,
+      "size_kb": 169366,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Dart": 22378056,
+        "TypeScript": 3755182,
+        "Python": 2860856,
+        "HTML": 2753521,
+        "PLpgSQL": 1137107,
+        "PowerShell": 151109,
+        "JavaScript": 132148,
+        "Shell": 35893,
+        "C++": 27013,
+        "CMake": 20046,
+        "Dockerfile": 4973,
+        "HCL": 3438,
+        "Swift": 3433,
+        "C": 1425,
+        "CSS": 685,
+        "Kotlin": 118,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 9571,
+      "top_level_paths": [
+        ".agents",
+        ".aidesigner",
+        ".aiexclude",
+        ".chrome-profile",
+        ".ci-logs",
+        ".claire",
+        ".claude",
+        ".codex",
+        ".codex_tmp",
+        ".devcontainer",
+        ".env.example",
+        ".firebase",
+        ".firebaserc",
+        ".gemini",
+        ".gitattributes",
+        ".githooks",
+        ".github",
+        ".gitignore",
+        ".markdownlint.json",
+        ".markdownlintignore",
+        ".metadata",
+        ".playwright-mcp",
+        ".vscode",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "DESIGN.md",
+        "DETAILED_DESIGN.md",
+        "FIX_USER_STATS_406_ERROR.md",
+        "LICENSE",
+        "README.md",
+        "SamiWISE GMAT チューター AI システム構成表.csv",
+        "TEST_COVERAGE.md",
+        "The SamiWISE Blueprint.pdf",
+        "USER_MANUAL.md",
+        "ai_prompt_draft.md",
+        "analysis_options.yaml",
+        "android",
+        "apply_user_stats_fix.sql",
+        "assets",
+        "batch_analysis.py"
+      ],
+      "notable_files": [
+        ".devcontainer/Dockerfile",
+        ".github/workflows/README.md",
+        ".github/workflows/account-deletion-retention.yml",
+        ".github/workflows/account-retention-config-audit.yml",
+        ".github/workflows/activation-experiment-report.yml",
+        ".github/workflows/aero-lab-checks.yml",
+        ".github/workflows/ai-bench-source-recheck.yml",
+        ".github/workflows/ai-context-snapshot.yml",
+        ".github/workflows/ai-model-telemetry-review.yml",
+        ".github/workflows/ai-tool-changelog-watch.yml",
+        ".github/workflows/ai-tool-watch.yml",
+        ".github/workflows/ai-university-reminder.yml",
+        ".github/workflows/ai-university-update.yml",
+        ".github/workflows/asset-ai-browser-integration.yml",
+        ".github/workflows/blog-backfill-from-apis.yml",
+        ".github/workflows/blog-backfill.yml",
+        ".github/workflows/blog-batch-publish.yml",
+        ".github/workflows/blog-draft-register.yml",
+        ".github/workflows/blog-draft.yml",
+        ".github/workflows/blog-engagement.yml",
+        ".github/workflows/blog-news-prod-smoke.yml",
+        ".github/workflows/blog-news-signal-draft.yml",
+        ".github/workflows/blog-news-signal-lint.yml",
+        ".github/workflows/blog-publish-orphan-cleanup.yml",
+        ".github/workflows/blog-publish.yml",
+        ".github/workflows/blog-verify.yml",
+        ".github/workflows/build-in-public-extract.yml",
+        ".github/workflows/cdp-benchmark-update.yml",
+        ".github/workflows/ci-auto-fix.yml",
+        ".github/workflows/ci.yml"
+      ],
+      "manifests": {
+        "package.json": [
+          "@playwright/test",
+          "lefthook"
+        ],
+        "requirements.txt": [
+          "google-genai",
+          "notebooklm-py",
+          "supabase",
+          "yt-dlp"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5375,
+      "readme_excerpt": "﻿# AI開発コンテキスト設計書 (AI_DEV_HANDOVER)\n\n## 1. プロジェクト概要\n\n* **プロジェクト名**: 自分株式会社 (Me Inc.)\n* **コンセプト**: ユーザーはCEO。実務は全てAI（CXO）が担当する経営シミュレーション型生産性アプリ。\n* **技術スタック**: Flutter (Web), Supabase (Auth, DB, Edge Functions), AI (Gemini/OpenAI/Anthropic).\n* **AI tool update gate (2026-05-07 #1706)**: Claude/Codex/Gemini/Copilot changes must be verified against official sources, then routed through the two-instance flow in `docs/AI_FALLBACK_RUNBOOK.md`.\n\n## Windows 開発環境セットアップ\n\n新規 Windows 11 環境では、初期セットアップとプロキシ解除手順を\n[docs/setup/windows-dev-setup.md](docs/setup/windows-dev-setup.md) にまとめています。\n一括インストールは以下を使用します。\n\n```powershell\npowershell -ExecutionPolicy Bypass -File scripts/setup_windows_dev.ps1\n```\n\nVS Code 統合ターミナルが起動しない、または終了コードだけで落ちる場合は\n[docs/VSCODE_TERMINAL_TROUBLESHOOTING.md](docs/VSCODE_TERMINAL_TROUBLESHOOTING.md)\nを参照してください。\n\n### Git hooks (推奨 / コミット前の静的監査)\n\nクローン後、ローカル git hooks を有効化すると、コミット前に\n`scripts/check_duplicate_dispose.py`(二重 dispose / 二重 await / 二重 setState の\n検知)が自動実行されます。CI と同じゲートを手元で前倒しでき、手戻りを減らせます。\n\n```bash\ngit config core.hooksPath .githooks\n```\n\n詳細は [.githooks/README.md](.githooks/README.md) を参照。CI でも同じ監査が走るため\n未設定でも検出はされますが、ローカル有効化を推奨します(CI で hook の健全性も検証)。\n\n## 2. 組織構造 (AI Agents) & ",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 10,
+      "contribution_share": 0.582,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-09-02T00:00:15+00:00",
+        "last_at": "2026-09-16T18:09:37+00:00",
+        "active_days": 14,
+        "span_days": 14,
+        "max_per_day": 63,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix(asset-liability): exclude tombstoned recurring income templates from manual sync restore (#5385)",
+          "fix(asset-ai): exclude future-usage and instrumental-use mentions of paid debts from urging detection (#5435)",
+          "fix(asset-ai): exclude exemplar/general-advice mentions of paid debts from urging detection (#5434)",
+          "fix(asset): migrate legacy Claude subscription to Claude Pro 3000 yen and sync mirror (#5433)",
+          "fix(asset): purge out-of-cycle legacy salary plans from monthly income plans (#5432)",
+          "fix(asset): provide unpaid breakdown, scope salary payslips, align acom shopping day to 26th, and exclude card-billed au (#5431)",
+          "fix(asset): resolve false positive paid debt urging grounding rejection for auPay card and compound clauses (#5430)",
+          "fix(asset): align acom default annual rates to 15.0% for card loan and 14.6% for shopping (#5429)",
+          "fix(asset): align mobit default annual rate to 15% and resolve ai summary rate grounding discrepancy (#5428)",
+          "fix(asset): reconcile income plans with confirmed salary payslips and eliminate ghost plans (#5427)",
+          "fix(asset-liability): stop deleted recurring income templates from resurrecting (#5384)",
+          "fix(asset-ai): eliminate false rejection for paid debts and past unreceived salary triage (#5378)",
+          "fix(asset): align income grounding and actionable fallback summary (#5419)",
+          "Merge pull request #5417 from kanta13jp1/codex/issue-5102-observability-routing",
+          "fix: route observability breaches to canonical alerts (#5102)",
+          "Merge pull request #5416 from kanta13jp1/codex/issue-2878-server-plan-ci",
+          "ci: run Remote Control server plan regression tests (#2878)",
+          "fix(asset): remove contradictory advice persona and expire old summaries (#5414)",
+          "Merge pull request #5097 from kanta13jp1/codex/cloud-first-default-20260830",
+          "Merge main into cloud-first defaults; preserve formatter and migration guidance"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4502
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 15,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 22,378,056 bytes (67% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 3,755,182 bytes (11% of repo)",
+          "strength": 0.5128867389641877
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,860,856 bytes (9% of repo)",
+          "strength": 0.4860018780677289
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,753,521 bytes (8% of repo)",
+          "strength": 0.482775217382116
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 1,137,107 bytes (3% of repo)",
+          "strength": 0.43418324360399857
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 151,109 bytes (0% of repo)",
+          "strength": 0.40454257669485516
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 132,148 bytes (0% of repo)",
+          "strength": 0.40397257890047394
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 35,893 bytes (0% of repo)",
+          "strength": 0.4010790006241087
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 27,013 bytes (0% of repo)",
+          "strength": 0.4008120537112821
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 4,973 bytes (0% of repo)",
+          "strength": 0.40014949628350077
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "language",
+          "detail": "HCL: 3,438 bytes (0% of repo)",
+          "strength": 0.4001033517439525
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 3,433 bytes (0% of repo)",
+          "strength": 0.4001032014360061
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (0% of repo)",
+          "strength": 0.40004283776472727
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (.agents/skills/github-issue-completion-forecast/scripts/issue_completion_forecast_test.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (.claire/worktrees/instance-ps4/supabase/migrations/20260426232500_seed_competitors_jp_strength_weakness_batch6.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (.claire/worktrees/instance-ps4/supabase/migrations/20260426232500_seed_competitors_jp_strength_weakness_batch6.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (.devcontainer/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (.firebaserc)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/account-deletion-retention.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ACCESSIBILITY_QA_CHECKLIST.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (playwright.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 33244995,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "flutter",
+          "gcp-azure",
+          "integration-testing",
+          "linux",
+          "native-mobile",
+          "sql",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "HexCiv",
+      "full_name": "kanta13jp1/HexCiv",
+      "html_url": "https://github.com/kanta13jp1/HexCiv",
+      "description": "Civilization-like 4X strategy game built with Unity 6.3 - 80 civs, culture victory, world history encyclopedia, spectator mode up to 256x. Co-developed by Claude Code x OpenAI Codex",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-21T13:55:25Z",
+      "pushed_at": "2026-08-24T16:06:37Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 52468,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [],
+      "languages": {
+        "C#": 2775767,
+        "ASP.NET": 181725,
+        "PowerShell": 6727
+      },
+      "primary_language": "C#",
+      "file_count": 472,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "ART_ASSET_PROVENANCE.md",
+        "Assets",
+        "Build_WorldHistory",
+        "CIVILIZATIONS.md",
+        "CLAUDE.md",
+        "COLLABORATION.md",
+        "GLOBAL_HISTORY_CATALOG.md",
+        "LEADERS.md",
+        "LICENSE.md",
+        "MARITIME_HISTORY_AND_NAVAL_SYSTEM.md",
+        "MARKETING_EXPERIMENT_H10_UPDATES.md",
+        "MARKETING_EXPERIMENT_H4_H7.md",
+        "MARKETING_HANDOFF.md",
+        "MARKET_SYSTEM.md",
+        "MASTERPIECE_CATALOG.md",
+        "MATERIAL_CULTURE_CATALOG.md",
+        "MERGE_PLAN.md",
+        "NATURAL_GEOGRAPHY_CATALOG.md",
+        "Packages",
+        "ProjectSettings",
+        "README.md",
+        "RESEARCH_CULTURE_CATALOG.md",
+        "SEASONAL_WATER_AND_CONVOYS.md",
+        "SIMULATION_AND_GENERATION_CATALOG.md",
+        "URUK_HISTORICAL_CAMPAIGN.md",
+        "WORLD_HISTORY_CATALOG.md",
+        "scripts"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 13889,
+      "readme_excerpt": "# HexCiv — Civilization風 4Xストラテジー (Unity)\n\nUnity 6.3 LTS (6000.3.20f1) 製の、シヴィライゼーション風ターン制ストラテジーゲームです。\n外部アセット不要・スクリプトのみで動作します(マップ・ユニット・UIはすべて実行時に生成)。\n\n## 遊び方(起動方法)\n\n### A. Unityエディタで開く\n1. Unity Hub で「開く」→ このフォルダ (`C:\\Users\\kanta\\GitHub\\HexCiv`) を選択(Unity 6.3 LTS)\n2. `Assets/Scenes/Main.unity` を開いて ▶ Play\n   (どのシーンでも Play すれば自動的にゲームが起動します)\n\n### B. ビルド済みEXEで遊ぶ\n`Build\\HexCiv.exe` をダブルクリック(ビルド済みの場合)\n\n起動すると**タイトル画面**が表示されます — 「つづける(クイックロード)」「史実キャンペーン：ウルク」「新しいゲーム / 設定」「シミュレーション観戦」「そのまま遊ぶ」「終了」から選べます(Escで閉じてそのまま遊ぶことも可能)。\n初回起動時はさらに6ページの「はじめてガイド」が表示されます。閉じた後も、画面右下の「？ 遊び方」からいつでも再表示できます。\n\n## ゲーム概要\n\n- **文明**: 世界各地域・各時代の92文明から選択可能（AI文明は重複なしで割当）\n- **指導者**: 179件から文明ごとの指導者を選択可能（史料上の個人名が不明な場合は明記）\n- **世界史図鑑**: 文明・指導者・作品・生活技術・自然地理・歴史船舶を含む32分類、台帳1303件を6地域別に閲覧可能\n- **遺産・偉人・作品**: 遺産を探索し、世界で一度だけ偉人を登用・作品を収蔵\n- **国家運営**: 国庫、税制、都市・軍事維持費、安定度、戦争疲弊を管理（AIも自動判断）\n- **補給・兵站**: 都市から補給線が伸び、港からは海上補給を展開。沿岸封鎖・護送船団・遠征による逼迫・孤立・消耗が戦争へ影響\n- **海軍**: 帆走・航海術を研究し、港湾都市でガレー船・三段櫂船を建造。水域移動、艦隊戦、敵港封鎖、味方船団護衛をAIも実行\n- **人口・社会**: 都市人口を農民・工人・学者へ配分し、食料・住居・奉仕の需要、教育、満足度、移住をシミュレーション\n- **政治・法律**: 政治力、正統性、4利害集団の支持を調整し、文化・満足・税収・補給に影響する法律を制定\n- **市場・交易・地域産業**: 5財の生産・需要・在庫・価格と平時交易を計算し、生活技術72件が地域産業として発展\n- **自然地理とマップ**: 毎回生成される大陸・山岳・流向付き河川・季節氾濫原・内陸湖・森林・砂",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 51,
+        "first_at": "2026-07-21T13:55:04+00:00",
+        "last_at": "2026-08-05T14:29:44+00:00",
+        "active_days": 11,
+        "span_days": 15,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(uruk): model information personnel capacity",
+          "feat: connect historical information to transport forecasts",
+          "feat: add evidence-aware information transmission",
+          "feat: add evidence-aware kinship diplomacy",
+          "feat: target individual water agreements",
+          "feat: add land rights disputes and sales update",
+          "feat: add multi-party water arbitration and update assets",
+          "feat: add water agreement management and H10 update experiment",
+          "docs: itch.io本人確認待ちを記録",
+          "feat: 水利紛争の実測解決と販促実験を追加",
+          "feat: ウルク外交履歴と評判を追加",
+          "feat: ウルク地域契約と販売検証基盤を追加",
+          "feat: 30ターン体験版と配布パッケージを追加",
+          "feat: 実ゲーム画面をヘッドレスで PNG に焼く手段を追加",
+          "docs: Codex へ体験版モード(ターン数制限)を依頼",
+          "feat: 有償配布の準備 — LICENSE とリリースパッケージ作成",
+          "feat: UIをヘッドレスでPNGに焼く手段を追加し、見つけた欠陥3件を修正",
+          "feat: 成長の記録に起点を置き、増えたものを名前で残す",
+          "feat: 「成長の記録」を追加し、Core指標が常に0だった欠陥を修正",
+          "docs: 第20弾「成長の記録」の作業中宣言"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 123
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 2,775,767 bytes (94% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 6,727 bytes (0% of repo)",
+          "strength": 0.4022694004727721
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2782494,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mighty-link-antigravity-live-demo",
+      "full_name": "kanta13jp1/mighty-link-antigravity-live-demo",
+      "html_url": "https://github.com/kanta13jp1/mighty-link-antigravity-live-demo",
+      "description": "Synthetic GitHub Pages target for the MightyLINK Antigravity workshop demo",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-08T11:58:12Z",
+      "pushed_at": "2026-08-14T08:39:50Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6754,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 81790,
+        "CSS": 37968,
+        "HTML": 28040,
+        "Python": 16000
+      },
+      "primary_language": "JavaScript",
+      "file_count": 110,
+      "top_level_paths": [
+        ".agents",
+        ".gitattributes",
+        ".gitignore",
+        "DEMO_CONCEPTS.md",
+        "ICON_SOURCES.md",
+        "PROMPT_00_GRILL_ME.txt",
+        "PROMPT_01_FIND_SKILLS.txt",
+        "PROMPT_02_INSTALL_SKILL.txt",
+        "PROMPT_03_BUILD.txt",
+        "PROMPT_04_APPLY_SKILL.txt",
+        "PROMPT_05_MCP_CHECK.txt",
+        "PROMPT_06_PUBLISH.txt",
+        "PROMPT_10_CLI_READONLY.txt",
+        "PROMPT_11_SDK_READONLY.txt",
+        "README.md",
+        "SELF_REVIEW.md",
+        "SITE_BRIEF.md",
+        "SOURCE_AUDIT.md",
+        "TEST_SPEC.md",
+        "TEST_SPECIFICATION.md",
+        "antigravity_sdk_readonly.py",
+        "app.js",
+        "assets",
+        "favicon.ico",
+        "glass-towers",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "product-data.js",
+        "scripts",
+        "skills-lock.json",
+        "styles.css",
+        "tests"
+      ],
+      "notable_files": [
+        "glass-towers/package.json",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "jsdom"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2634,
+      "readme_excerpt": "# MightyLINK Antigravity Live Demo\n\nThis public repository supports the August 26 Antigravity workshop. It demonstrates a test-first workflow: define acceptance criteria, build with an IDE agent, inspect the same workspace from CLI and SDK, verify in a browser, and publish to GitHub Pages.\n\n- All content is synthetic. Customer, employee, credential, and production data are prohibited.\n- The comparison covers only Codex, Claude Code, Claude Cowork, Kiro, and Antigravity.\n- Product facts were checked against official sources on 2026-08-13 JST.\n- Official icons are stored locally so they remain visible on GitHub Pages; `ICON_SOURCES.md` records provenance.\n- `/grill-me` and `/find-skills` are baseline workspace Skills in `.agents/skills/`.\n- `anthropics/skills@frontend-design` is installed project-locally during the demo and removed after rehearsal.\n- The production MightyLINK repository and Firebase Hosting are not used.\n\n## Test-first flow\n\nRead `TEST_SPEC.md` before implementation. Run the contract tests after every material change:\n\n```powershell\npython -m unittest discover -s tests -v\nnode --check app.js\nnode --check product-data.js\n```\n\nThe tests prevent scope drift, missing off",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 54,
+        "first_at": "2026-08-08T11:58:12+00:00",
+        "last_at": "2026-08-14T08:39:42+00:00",
+        "active_days": 5,
+        "span_days": 5,
+        "max_per_day": 26,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: complete 10 hypothesis validation, add interactive Model Router diagnoser simulator, 8/8 test suites pass",
+          "feat: add Model Router guide section and eliminate 100% of broken links (39/39 passing)",
+          "feat: add model-router skill for dynamic AI model switching based on task tier",
+          "feat: complete synchronization of all 5 AI agent base models with August 2026 official primary sources",
+          "feat: update Antigravity model to Gemini 3.7 Flash and add official https://antigravity.google/docs/models doc source",
+          "feat: update base models and evidence links to latest August 2026 primary sources (GPT-5.6, Claude Opus 5, Gemini 3.1 Pro)",
+          "feat: add underlying Model specs to comparison matrix and clarify per-request cost & quota differences",
+          "feat: add team size cost & quota simulator (1, 5, 20, 50 users) to comparison section",
+          "feat(glass-towers): migrate runtime to WebGPU and Rapier WASM",
+          "feat(glass-towers): deploy verified production build",
+          "fix(glass-towers): Update path references and add importmap for GitHub Pages deployment",
+          "feat: Add Glass Towers 3D minimalist physics game built with Three.js and Cannon-es",
+          "docs: Add Google Cloud Data Agent Kit and GCP integration steps to demo concepts and prompts",
+          "Add Antigravity Docs Build with Google page coverage checklist to DEMO_CONCEPTS.md",
+          "Add Antigravity Docs Getting Started page coverage checklist to DEMO_CONCEPTS.md",
+          "Add Antigravity Docs Overview page coverage checklist to DEMO_CONCEPTS.md",
+          "Add Antigravity Docs Home page coverage checklist to DEMO_CONCEPTS.md",
+          "Add Antigravity Official Docs Coverage Checklist to DEMO_CONCEPTS.md",
+          "Update Codex doc URL to final redirected destination https://learn.chatgpt.com/docs",
+          "Configure Google Antigravity Sidecar process for periodic official doc fetching"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [
+          "tutorial|bootcamp|course(work)?|lesson|exercise|practice|workshop"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 28
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 6,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 81,790 bytes (50% of repo)",
+          "strength": 0.8993345462093554
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 37,968 bytes (23% of repo)",
+          "strength": 0.6317977020476441
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 28,040 bytes (17% of repo)",
+          "strength": 0.5711864613731548
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 16,000 bytes (10% of repo)",
+          "strength": 0.4976812903698458
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/e2e.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "git",
+          "source": "repo_name",
+          "detail": "'github' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 163798,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "angular-hosting",
+      "full_name": "kanta13jp1/angular-hosting",
+      "html_url": "https://github.com/kanta13jp1/angular-hosting",
+      "description": "angular-hosting",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-01-11T06:08:47Z",
+      "pushed_at": "2024-10-30T01:42:47Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 8939,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 398020,
+        "HTML": 155395,
+        "SCSS": 29973,
+        "JavaScript": 3200,
+        "CSS": 2442,
+        "Stylus": 80
+      },
+      "primary_language": "TypeScript",
+      "file_count": 220,
+      "top_level_paths": [
+        ".editorconfig",
+        ".firebase",
+        ".firebaserc",
+        ".github",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "angular.json",
+        "database.rules.json",
+        "e2e",
+        "firebase.json",
+        "firestore.indexes.json",
+        "firestore.rules",
+        "functions",
+        "karma.conf.js",
+        "ngsw-config.json",
+        "package.json",
+        "pnpm-lock.yaml",
+        "public",
+        "remoteconfig.template.json",
+        "src",
+        "storage.rules",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json",
+        "tslint.json"
+      ],
+      "notable_files": [
+        ".github/workflows/firebase-hosting-merge.yml",
+        ".github/workflows/firebase-hosting-pull-request.yml",
+        "functions/package.json",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/architect",
+          "@angular-devkit/build-angular",
+          "@angular/animations",
+          "@angular/cdk",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/fire",
+          "@angular/forms",
+          "@angular/localize",
+          "@angular/material",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@angular/service-worker",
+          "@ng-bootstrap/ng-bootstrap",
+          "@types/google.analytics",
+          "@types/jasmine",
+          "@types/node",
+          "angular-in-memory-web-api",
+          "angular2-promise-buttons",
+          "async-lock",
+          "bootstrap",
+          "codelyzer",
+          "firebase",
+          "firebase-functions",
+          "firebase-tools",
+          "fuzzy",
+          "inquirer",
+          "inquirer-autocomplete-prompt",
+          "jasmine-core",
+          "jasmine-spec-reporter",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "moment",
+          "open",
+          "protractor",
+          "rxjs",
+          "ts-node",
+          "tslib",
+          "tslint",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1023,
+      "readme_excerpt": "# AngularHosting\n\nThis project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.\n\n## Development server\n\nRun `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.\n\n## Code scaffolding\n\nRun `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.\n\n## Build\n\nRun `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.\n\n## Running unit tests\n\nRun `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).\n\n## Running end-to-end tests\n\nRun `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).\n\n## Further help\n\nTo get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.\n",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.938,
+      "commits": {
+        "count": 105,
+        "first_at": "2021-01-11T06:08:49+00:00",
+        "last_at": "2023-02-16T14:53:31+00:00",
+        "active_days": 39,
+        "span_days": 766,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.01,
+        "messages_sample": [
+          "岡山県候補者データ追加",
+          "update workspace settings",
+          "茨城県候補者データ更新",
+          "告示日、投票日、定数を追加",
+          "愛媛県候補者データ追加",
+          "候補者データ追加",
+          "候補者データ追加",
+          "log",
+          "log",
+          "サムネイル画像更新",
+          "候補者データ更新",
+          "ブロック毎のフィルター機能に対応",
+          "候補者データ追加",
+          "フィルター機能修正",
+          "フィルター機能修正",
+          "フィルター機能追加",
+          "フィルター機能追加",
+          "画面デザイン修正",
+          "ビルドエラー修正",
+          "ng update @angular/material --force"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 148
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 398,020 bytes (68% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 155,395 bytes (26% of repo)",
+          "strength": 0.6637792602400231
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 29,973 bytes (5% of repo)",
+          "strength": 0.4508784437541376
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,200 bytes (1% of repo)",
+          "strength": 0.4054319227308992
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,442 bytes (0% of repo)",
+          "strength": 0.4041452360340174
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (.firebaserc)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/firebase-hosting-merge.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (e2e/protractor.conf.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (src/app/class/chat.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 589030,
+        "strong_skills": [
+          "cicd",
+          "gcp-azure",
+          "html-css",
+          "integration-testing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "webanimation-star",
+      "full_name": "kanta13jp1/webanimation-star",
+      "html_url": "https://github.com/kanta13jp1/webanimation-star",
+      "description": null,
+      "homepage": "webanimation-star.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-05-24T17:04:26Z",
+      "pushed_at": "2022-05-24T22:55:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5075,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 16434,
+        "HTML": 8584,
+        "JavaScript": 5383,
+        "SCSS": 697,
+        "CSS": 634
+      },
+      "primary_language": "TypeScript",
+      "file_count": 92,
+      "top_level_paths": [
+        ".gitignore",
+        "composite-vs-wrapper.html",
+        "composite.html",
+        "docs",
+        "favicon.ico",
+        "index.html",
+        "package.json",
+        "public",
+        "src",
+        "static",
+        "tsconfig.json",
+        "vite.config.ts",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "sass",
+          "typescript",
+          "vite"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-05-24T17:04:32+00:00",
+        "last_at": "2022-05-24T22:54:53+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "edit vite.config.ts",
+          "yarn install",
+          "delete package-lock.json",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 39
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 16,434 bytes (52% of repo)",
+          "strength": 0.9178999117609984
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 8,584 bytes (27% of repo)",
+          "strength": 0.6705155678810034
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 5,383 bytes (17% of repo)",
+          "strength": 0.5696394806504476
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 31732,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 22378056,
+    "TypeScript": 4169636,
+    "HTML": 2945540,
+    "Python": 2876856,
+    "C#": 2775767,
+    "PLpgSQL": 1137107,
+    "JavaScript": 222521,
+    "ASP.NET": 181725,
+    "PowerShell": 157836,
+    "CSS": 41729,
+    "Shell": 35893,
+    "SCSS": 30670,
+    "C++": 27013,
+    "CMake": 20046,
+    "Dockerfile": 4973,
+    "HCL": 3438,
+    "Swift": 3433,
+    "C": 1425,
+    "Kotlin": 118,
+    "Stylus": 80,
+    "Objective-C": 38
+  },
+  "total_commits": 414,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/angular-hosting",
+        "kanta13jp1/webanimation-star"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4169636,
+      "commit_count": 309,
+      "first_seen": "2021-01-11T06:08:49+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: TypeScript: 3,755,182 bytes (11% of repo)",
+        "angular-hosting: TypeScript: 398,020 bytes (68% of repo)",
+        "angular-hosting: typescript in package.json",
+        "webanimation-star: TypeScript: 16,434 bytes (52% of repo)",
+        "webanimation-star: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 22378056,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: Dart: 22,378,056 bytes (67% of repo)",
+        "my_web_app: flutter project (pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "kanta13jp1/HexCiv"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2775767,
+      "commit_count": 51,
+      "first_seen": "2026-07-21T13:55:04+00:00",
+      "last_seen": "2026-08-05T14:29:44+00:00",
+      "details": [
+        "HexCiv: C#: 2,775,767 bytes (94% of repo)"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/angular-hosting"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 3438,
+      "commit_count": 305,
+      "first_seen": "2021-01-11T06:08:49+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: HCL: 3,438 bytes (0% of repo)",
+        "my_web_app: firebase config (.firebaserc)",
+        "angular-hosting: firebase config (.firebaserc)",
+        "angular-hosting: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/angular-hosting"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 305,
+      "first_seen": "2021-01-11T06:08:49+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: e2e suite (playwright.config.ts)",
+        "my_web_app: @playwright/test in package.json",
+        "angular-hosting: e2e suite (e2e/protractor.conf.js)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/mighty-link-antigravity-live-demo",
+        "kanta13jp1/angular-hosting",
+        "kanta13jp1/webanimation-star"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8993345462093554,
+      "total_bytes": 222521,
+      "commit_count": 363,
+      "first_seen": "2021-01-11T06:08:49+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: JavaScript: 132,148 bytes (0% of repo)",
+        "mighty-link-antigravity-live-demo: JavaScript: 81,790 bytes (50% of repo)",
+        "angular-hosting: JavaScript: 3,200 bytes (1% of repo)",
+        "webanimation-star: JavaScript: 5,383 bytes (17% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/mighty-link-antigravity-live-demo",
+        "kanta13jp1/angular-hosting",
+        "kanta13jp1/webanimation-star"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6705155678810034,
+      "total_bytes": 3015923,
+      "commit_count": 363,
+      "first_seen": "2021-01-11T06:08:49+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: HTML: 2,753,521 bytes (8% of repo)",
+        "mighty-link-antigravity-live-demo: CSS: 37,968 bytes (23% of repo)",
+        "mighty-link-antigravity-live-demo: HTML: 28,040 bytes (17% of repo)",
+        "angular-hosting: HTML: 155,395 bytes (26% of repo)",
+        "angular-hosting: SCSS: 29,973 bytes (5% of repo)",
+        "angular-hosting: CSS: 2,442 bytes (0% of repo)",
+        "webanimation-star: HTML: 8,584 bytes (27% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/mighty-link-antigravity-live-demo",
+        "kanta13jp1/angular-hosting"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 359,
+      "first_seen": "2021-01-11T06:08:49+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: test file (.agents/skills/github-issue-completion-forecast/scripts/issue_completion_forecast_test.py)",
+        "mighty-link-antigravity-live-demo: test directory (tests/e2e.test.js)",
+        "angular-hosting: test file (src/app/class/chat.spec.ts)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/angular-hosting"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 305,
+      "first_seen": "2021-01-11T06:08:49+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: GitHub Actions workflow (.github/workflows/account-deletion-retention.yml)",
+        "angular-hosting: GitHub Actions workflow (.github/workflows/firebase-hosting-merge.yml)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 4973,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: Dockerfile: 4,973 bytes (0% of repo)",
+        "my_web_app: Dockerfile (.devcontainer/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 3433,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: Swift: 3,433 bytes (0% of repo)",
+        "my_web_app: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: SQL file (.claire/worktrees/instance-ps4/supabase/migrations/20260426232500_seed_competitors_jp_strength_weakness_batch6.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: database migrations (.claire/worktrees/instance-ps4/supabase/migrations/20260426232500_seed_competitors_jp_strength_weakness_batch6.sql)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: docs directory (docs/ACCESSIBILITY_QA_CHECKLIST.md)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/mighty-link-antigravity-live-demo"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4976812903698458,
+      "total_bytes": 2876856,
+      "commit_count": 254,
+      "first_seen": "2026-08-08T11:58:12+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: Python: 2,860,856 bytes (9% of repo)",
+        "mighty-link-antigravity-live-demo: Python: 16,000 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43418324360399857,
+      "total_bytes": 1137107,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: PLpgSQL: 1,137,107 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "kanta13jp1/my_web_app",
+        "kanta13jp1/HexCiv"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40454257669485516,
+      "total_bytes": 193729,
+      "commit_count": 251,
+      "first_seen": "2026-07-21T13:55:04+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: PowerShell: 151,109 bytes (0% of repo)",
+        "my_web_app: Shell: 35,893 bytes (0% of repo)",
+        "HexCiv: PowerShell: 6,727 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "kanta13jp1/my_web_app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4008120537112821,
+      "total_bytes": 28438,
+      "commit_count": 200,
+      "first_seen": "2026-09-02T00:00:15+00:00",
+      "last_seen": "2026-09-16T18:09:37+00:00",
+      "details": [
+        "my_web_app: C++: 27,013 bytes (0% of repo)",
+        "my_web_app: C: 1,425 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "git",
+      "repos": [
+        "kanta13jp1/mighty-link-antigravity-live-demo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 54,
+      "first_seen": "2026-08-08T11:58:12+00:00",
+      "last_seen": "2026-08-14T08:39:42+00:00",
+      "details": [
+        "mighty-link-antigravity-live-demo: 'github' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 414,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 15,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:33:01.163962+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

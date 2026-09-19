@@ -1,0 +1,825 @@
+{
+  "applicant_id": "applicant0165",
+  "login": "agusierrali",
+  "html_url": "https://github.com/agusierrali",
+  "created_at": "2021-07-24T22:17:37Z",
+  "account_age_days": 1880,
+  "public_repos": 6,
+  "followers": 9,
+  "following": 14,
+  "repos": [
+    {
+      "name": "python-deps-graph",
+      "full_name": "agusierrali/python-deps-graph",
+      "html_url": "https://github.com/agusierrali/python-deps-graph",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-07-24T22:29:02Z",
+      "pushed_at": "2021-07-24T22:35:46Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4663,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 17141
+      },
+      "primary_language": "Python",
+      "file_count": 25,
+      "top_level_paths": [
+        "Data-csv",
+        "DataCleaning",
+        "Imagenes",
+        "Procesamieto",
+        "dataset.json",
+        "dep.json",
+        "grafos",
+        "model"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-07-24T22:35:28+00:00",
+        "last_at": "2021-07-24T22:35:28+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "all the work of the advanced aspects of data networks 2020 matter task"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 17,141 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 17141,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sentiment-analist-tw",
+      "full_name": "agusierrali/sentiment-analist-tw",
+      "html_url": "https://github.com/agusierrali/sentiment-analist-tw",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-07-24T22:20:23Z",
+      "pushed_at": "2021-07-24T22:27:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 14269,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 19257,
+        "Jupyter Notebook": 7262
+      },
+      "primary_language": "Python",
+      "file_count": 17,
+      "top_level_paths": [
+        "CrossValidation.ipynb",
+        "GRUPO.txt",
+        "README.md",
+        "constants.py",
+        "crossValidation.py",
+        "data.py",
+        "es_odio.py",
+        "model.py",
+        "requirements.txt",
+        "res.txt",
+        "resources"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "absl-py",
+          "astunparse",
+          "cachetools",
+          "certifi",
+          "chardet",
+          "click",
+          "gast",
+          "google-auth",
+          "google-auth-oauthlib",
+          "google-pasta",
+          "grpcio",
+          "h5py",
+          "idna",
+          "joblib",
+          "keras",
+          "keras-preprocessing",
+          "markdown",
+          "nltk",
+          "numpy",
+          "oauthlib",
+          "opt-einsum",
+          "pandas",
+          "protobuf",
+          "pyasn1",
+          "pyasn1-modules",
+          "python-dateutil",
+          "pytz",
+          "pyyaml",
+          "regex",
+          "requests",
+          "requests-oauthlib",
+          "rsa",
+          "scikit-learn",
+          "scipy",
+          "six",
+          "sklearn",
+          "tensorboard",
+          "tensorboard-plugin-wit",
+          "tensorflow",
+          "tensorflow-estimator",
+          "termcolor",
+          "threadpoolctl",
+          "tqdm",
+          "urllib3",
+          "werkzeug",
+          "wrapt"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3897,
+      "readme_excerpt": "# ipln-lab-2020\nGrupo 14 integrantes :\n- Agustina Sierra\n- Agustina Salmanton\n- Maria Eugenia Miranda\n- Sebastian Volti\n\n## Ejecucion \nPara la ejecución hay que instalar los requerimientos mediante el comando:\n\n`pip3 install -r requirements.txt`\n\nPara la ejecucion del archivo principal, se respeta el formato pedido:\n\n`python3 es_odio.py <data_path> test_file1.csv ... test_fileN.csv`\n\nPara la ejecucion del modelo con el archivo *test.csv* recibido como resource:\n\n`python3 es_odio.py ./resources`\n\nPara la ejecución del cross validation, se debe ejecutar el siguiente comando:\n\n`python3 crossValidation.py`\n\n\n## Archivos\n Se incluyen los siguientes archivos:\n - **es_odio.py**: archivo principal, donde se crea un modelo, se lo entrena y evalua\n - **model.py**: archivo donde se encuentran los modelos implementados\n - **data.py**: archivo donde se cargan y limpian los datos\n - **constants.py**: archivo donde se tienen constantes generales\n - **crossValidation.py**: ejecucion de la configuracion de los hiperparametros mediante cross validation.\n \n## Limpieza de datos\nLibrerias utilizadas:\n- pandas v1.0.3\n- nltk v3.5\n\nEn el archivo **data.py** se encuentan las diferentes funciones que se uti",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2021-07-24T22:23:44+00:00",
+        "last_at": "2021-07-24T22:23:44+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "all the work of the ipln 2020 matter task"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 19,257 bytes (73% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 7,262 bytes (27% of repo)",
+          "strength": 0.6738413967344168
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (CrossValidation.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "deep-learning",
+          "source": "manifest",
+          "detail": "keras in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nlp",
+          "source": "manifest",
+          "detail": "nltk in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 26519,
+        "strong_skills": [
+          "deep-learning",
+          "machine-learning",
+          "nlp",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sample-rails-capistrano",
+      "full_name": "agusierrali/sample-rails-capistrano",
+      "html_url": "https://github.com/agusierrali/sample-rails-capistrano",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-07T16:59:23Z",
+      "pushed_at": "2021-10-08T15:40:24Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 383,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [],
+      "languages": {
+        "Ruby": 89242,
+        "HTML": 19634,
+        "SCSS": 5357,
+        "JavaScript": 4403,
+        "Dockerfile": 740,
+        "CSS": 709
+      },
+      "primary_language": "Ruby",
+      "file_count": 206,
+      "top_level_paths": [
+        ".browserslistrc",
+        ".github",
+        ".gitignore",
+        ".rbenv-gemsets",
+        ".rspec",
+        ".rubocop.yml",
+        ".ruby-version",
+        "Capfile",
+        "Dockerfile",
+        "Gemfile",
+        "Gemfile.lock",
+        "Guardfile",
+        "HELP.md",
+        "LICENSE.md",
+        "Procfile",
+        "README.md",
+        "Rakefile",
+        "app",
+        "babel.config.js",
+        "bin",
+        "config",
+        "config.ru",
+        "db",
+        "docker-compose.yml",
+        "lib",
+        "log",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "spec",
+        "storage",
+        "test",
+        "tmp",
+        "vendor",
+        "yarn.lock"
+      ],
+      "notable_files": [
+        ".github/workflows/test.yml",
+        "Dockerfile",
+        "Gemfile",
+        "package.json"
+      ],
+      "manifests": {
+        "Gemfile": [
+          "group"
+        ],
+        "package.json": [
+          "@rails/actioncable",
+          "@rails/activestorage",
+          "@rails/ujs",
+          "@rails/webpacker",
+          "bootstrap",
+          "jquery",
+          "turbolinks",
+          "webpack-dev-server"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1414,
+      "readme_excerpt": "# Ruby on Rails Tutorial sample application\n\nThis is a fork of the [*Ruby on Rails Tutorial*](http://www.railstutorial.org/) application by Michael Hartl. \nWe created this project to help you try RubyMine features.\nTo get started with the app, follow the [step-by-step tutorial](https://www.jetbrains.com/help/ruby/get-started.html) \nor check out our [YouTube channel](https://www.youtube.com/playlist?list=PLQ176FUIyIUanO72dRf6lOefKIznviKKJ).\n\n## Getting started\n\nTo get started with the app, first clone the repo and `cd` into the directory:\n\n```\n$ git clone https://github.com/JetBrains/sample_rails_app.git \n$ cd sample_rails_app\n```\n\nThen install the needed gems (while skipping any gems needed only in production):\n\n```\n$ bundle install --without production\n```\n\nInstall JavaScript dependencies:\n\n```\n$ yarn install\n```\n\nNext, migrate the database:\n\n```\n$ rails db:migrate\n```\n\nFinally, run the test suite to verify that everything is working correctly:\n\n```\n$ rails test\n```\n\nIf the test suite passes, you'll be ready to run the app in a local server:\n\n```\n$ rails server\n```\n\n## Help page\n\nFor general help on the Rails Tutorial, see the [Rails Tutorial Help page](https://www.railstutorial.o",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 6,
+      "contribution_share": 0.092,
+      "commits": {
+        "count": 12,
+        "first_at": "2021-09-07T17:12:43+00:00",
+        "last_at": "2021-10-08T15:31:51+00:00",
+        "active_days": 3,
+        "span_days": 30,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.083,
+        "messages_sample": [
+          "Merge pull request #2 from agusierrali/test",
+          "test workflows",
+          "test workflows",
+          "test workflows",
+          "Merge pull request #1 from agusierrali/test",
+          "test workflows",
+          "test workflows",
+          "test workflows",
+          "merge conflict on deploy.rb",
+          "modifications on deploy.rb",
+          "Update deploy.rb",
+          "capistrano first file"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [
+          "(^|[-_])(demo|sample|test|playground|sandbox|scratch)([-_]|$)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 109
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 8,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 19,634 bytes (16% of repo)",
+          "strength": 0.5635008535620603
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 5,357 bytes (4% of repo)",
+          "strength": 0.4446100678685931
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,403 bytes (4% of repo)",
+          "strength": 0.43666569513261444
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/test.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 30843,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Ruby": 89242,
+    "Python": 36398,
+    "HTML": 19634,
+    "Jupyter Notebook": 7262,
+    "SCSS": 5357,
+    "JavaScript": 4403,
+    "Dockerfile": 740,
+    "CSS": 709
+  },
+  "total_commits": 14,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "agusierrali/python-deps-graph",
+        "agusierrali/sentiment-analist-tw"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 43660,
+      "commit_count": 2,
+      "first_seen": "2021-07-24T22:23:44+00:00",
+      "last_seen": "2021-07-24T22:35:28+00:00",
+      "details": [
+        "python-deps-graph: Python: 17,141 bytes (100% of repo)",
+        "python-deps-graph: 'python' in repo name/description",
+        "sentiment-analist-tw: Python: 19,257 bytes (73% of repo)",
+        "sentiment-analist-tw: Jupyter Notebook: 7,262 bytes (27% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "agusierrali/sentiment-analist-tw"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2021-07-24T22:23:44+00:00",
+      "last_seen": "2021-07-24T22:23:44+00:00",
+      "details": [
+        "sentiment-analist-tw: jupyter notebook (CrossValidation.ipynb)",
+        "sentiment-analist-tw: numpy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "deep-learning",
+      "repos": [
+        "agusierrali/sentiment-analist-tw"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2021-07-24T22:23:44+00:00",
+      "last_seen": "2021-07-24T22:23:44+00:00",
+      "details": [
+        "sentiment-analist-tw: keras in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "agusierrali/sentiment-analist-tw"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2021-07-24T22:23:44+00:00",
+      "last_seen": "2021-07-24T22:23:44+00:00",
+      "details": [
+        "sentiment-analist-tw: nltk in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "agusierrali/sentiment-analist-tw"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2021-07-24T22:23:44+00:00",
+      "last_seen": "2021-07-24T22:23:44+00:00",
+      "details": [
+        "sentiment-analist-tw: scikit-learn in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "agusierrali/sample-rails-capistrano"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2021-09-07T17:12:43+00:00",
+      "last_seen": "2021-10-08T15:31:51+00:00",
+      "details": [
+        "sample-rails-capistrano: GitHub Actions workflow (.github/workflows/test.yml)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "agusierrali/sample-rails-capistrano"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2021-09-07T17:12:43+00:00",
+      "last_seen": "2021-10-08T15:31:51+00:00",
+      "details": [
+        "sample-rails-capistrano: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "agusierrali/sample-rails-capistrano"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5635008535620603,
+      "total_bytes": 24991,
+      "commit_count": 12,
+      "first_seen": "2021-09-07T17:12:43+00:00",
+      "last_seen": "2021-10-08T15:31:51+00:00",
+      "details": [
+        "sample-rails-capistrano: HTML: 19,634 bytes (16% of repo)",
+        "sample-rails-capistrano: SCSS: 5,357 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "agusierrali/sample-rails-capistrano"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43666569513261444,
+      "total_bytes": 4403,
+      "commit_count": 12,
+      "first_seen": "2021-09-07T17:12:43+00:00",
+      "last_seen": "2021-10-08T15:31:51+00:00",
+      "details": [
+        "sample-rails-capistrano: JavaScript: 4,403 bytes (4% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 14,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3; total_commits: 14 < 20"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T02:15:29.307387+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3; total_commits: 14 < 20"
+  ]
+}

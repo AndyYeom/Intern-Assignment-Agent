@@ -1,0 +1,90 @@
+{
+  "applicant_id": "applicant0038",
+  "github_login": "PrimqulovDev",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0038.json",
+  "skills": [
+    {
+      "skill_id": "graphql",
+      "claimed_level": 3,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "none",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Advanced; no repository shows this skill. Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/PrimqulovDev/MP4-Downloader",
+        "https://github.com/PrimqulovDev/MVVM-Dagger2-RxJava-Retrofit-Oauth2-ViewBinding",
+        "https://github.com/PrimqulovDev/MVVM-Hilt-Kotlin-Coroutines-Retrofit-Oauth2-ViewBinding",
+        "https://github.com/PrimqulovDev/Offline-Watcher",
+        "https://github.com/PrimqulovDev/UzGardens_app"
+      ],
+      "repos": [
+        {
+          "repo": "PrimqulovDev/MP4-Downloader",
+          "html_url": "https://github.com/PrimqulovDev/MP4-Downloader",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: none",
+            "Kotlin: 65,379 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "PrimqulovDev/MVVM-Dagger2-RxJava-Retrofit-Oauth2-ViewBinding",
+          "html_url": "https://github.com/PrimqulovDev/MVVM-Dagger2-RxJava-Retrofit-Oauth2-ViewBinding",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: documented",
+            "Kotlin: 56,351 bytes (96% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "PrimqulovDev/MVVM-Hilt-Kotlin-Coroutines-Retrofit-Oauth2-ViewBinding",
+          "html_url": "https://github.com/PrimqulovDev/MVVM-Hilt-Kotlin-Coroutines-Retrofit-Oauth2-ViewBinding",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Kotlin: 57,104 bytes (93% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "PrimqulovDev/Offline-Watcher",
+          "html_url": "https://github.com/PrimqulovDev/Offline-Watcher",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Kotlin: 54,256 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "PrimqulovDev/UzGardens_app",
+          "html_url": "https://github.com/PrimqulovDev/UzGardens_app",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "Kotlin: 39,106 bytes (100% of repo)",
+            "Android app manifest (app/src/main/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (5 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "not_observed": 1,
+    "verified": 1
+  }
+}
