@@ -1,0 +1,15 @@
+{
+  "test_suite_version": "1.0",
+  "test_cases": [
+    {"case_id": "PUB-001", "scenario": "first_valid_publication", "expected_status": "published"},
+    {"case_id": "PUB-002", "scenario": "exact_retry", "expected_status": "already_published"},
+    {"case_id": "PUB-003", "scenario": "conflicting_retry", "expected_error_code": "IDEMPOTENCY_CONFLICT"},
+    {"case_id": "PUB-004", "scenario": "invalid_validation", "expected_error_code": "PROFILE_INVALID"},
+    {"case_id": "PUB-005", "scenario": "pending_clarification", "expected_error_code": "PENDING_CLARIFICATION"},
+    {"case_id": "PUB-006", "scenario": "active_escalation", "expected_error_code": "ACTIVE_ESCALATION"},
+    {"case_id": "PUB-007", "scenario": "unresolved_requirement", "expected_error_code": "UNRESOLVED_REQUIREMENTS_PRESENT"},
+    {"case_id": "PUB-008", "scenario": "request_id_mismatch", "expected_error_code": "REQUEST_ID_MISMATCH"},
+    {"case_id": "PUB-009", "scenario": "repository_failure", "expected_error_code": "REPOSITORY_FAILURE"},
+    {"case_id": "PUB-010", "scenario": "warning_only_valid", "expected_status": "published"}
+  ]
+}

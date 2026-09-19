@@ -1,0 +1,83 @@
+{
+  "test_cases": [
+    {
+      "test_case_id": "STATE-001", "description": "Create the initial catalog state", "operation": "create_initial_catalog_state",
+      "input": {"request": {"request_id": "STATE-001", "request_type": "new_project", "source_reference": "manual-test-001", "submitted_project_name": "Python Reporting Application", "submitted_project_description": "Build a reporting application using Python."}},
+      "expected": {"status": "received", "stage": "received", "state_version": 1, "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "validation_result_present": false, "pending_clarification_present": false, "escalation_present": false, "recovery_history_length": 0, "retry_counts": {}, "errors_length": 0}
+    },
+    {
+      "test_case_id": "STATE-002", "description": "Apply an extraction result to the initial state", "initial_state_reference": "STATE-001.result", "operation": "apply_extraction",
+      "input": {"extraction_result": {"project_summary": "Build a Python reporting application.", "requirements": [{"raw_skill": "Python", "importance": "hard_requirement", "required_level": 2, "confidence": 0.98, "evidence_text": "using Python", "decision_basis": "Python is explicitly required."}], "uncertainties": []}},
+      "expected": {"status": "processing", "stage": "extracted", "state_version": 2, "extraction_result_present": true, "normalization_result_present": false, "candidate_profile_present": false, "validation_result_present": false, "pending_clarification_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "STATE-003", "description": "Apply a normalization result after extraction", "initial_state_reference": "STATE-002.result", "operation": "apply_normalization",
+      "input": {"normalization_result": {"mappings": [{"source_requirement_index": 0, "raw_skill": "Python", "status": "resolved", "match_method": "exact", "skill_id": "python", "canonical_skill": "Python", "candidates": [], "match_score": null, "decision_basis": "Python exactly matches the taxonomy."}], "unresolved_skills": []}},
+      "expected": {"status": "processing", "stage": "normalized", "state_version": 3, "extraction_result_present": true, "normalization_result_present": true, "candidate_profile_present": false, "validation_result_present": false, "pending_clarification_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "STATE-004", "description": "Apply a candidate profile after normalization", "initial_state_reference": "STATE-003.result", "operation": "apply_profile",
+      "input": {"candidate_profile": {"request_id": "STATE-001", "project_name": "Python Reporting Application", "project_description": "Build a reporting application using Python.", "project_summary": "Build a Python reporting application.", "requirements": [{"skill_id": "python", "canonical_name": "Python", "importance": "hard_requirement", "required_level": 2, "evidence_text": "using Python", "confidence": 0.98, "decision_basis": "Python is explicitly required.", "provenance": [{"source_requirement_index": 0, "raw_skill": "Python", "importance": "hard_requirement", "required_level": 2, "evidence_text": "using Python", "extraction_decision_basis": "Python is explicitly required.", "extraction_confidence": 0.98, "match_method": "exact", "taxonomy_decision_basis": "Python exactly matches the taxonomy."}]}], "unresolved_skills": [], "unresolved_requirements": []}},
+      "expected": {"status": "processing", "stage": "profile_built", "state_version": 4, "extraction_result_present": true, "normalization_result_present": true, "candidate_profile_present": true, "validation_result_present": false, "pending_clarification_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "STATE-005", "description": "Apply a valid validation result", "initial_state_reference": "STATE-004.result", "operation": "apply_validation",
+      "input": {"validation_result": {"valid": true, "issues": []}},
+      "expected": {"status": "processing", "stage": "validated", "state_version": 5, "extraction_result_present": true, "normalization_result_present": true, "candidate_profile_present": true, "validation_result_present": true, "validation_valid": true, "pending_clarification_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "STATE-006", "description": "Apply a blocking validation result", "initial_state_reference": "STATE-004.result", "operation": "apply_validation",
+      "input": {"validation_result": {"valid": false, "issues": [{"code": "LOW_EXTRACTION_CONFIDENCE", "field": "requirements[0].confidence", "severity": "warning", "category": "ambiguity", "message": "Extraction confidence is below the configured threshold.", "resolvable_by": ["reextract_field", "request_clarification"]}, {"code": "MISSING_REQUIRED_LEVEL", "field": "requirements[0].required_level", "severity": "blocking", "category": "missing_information", "message": "A hard requirement must have a required level.", "resolvable_by": ["reextract_field", "request_clarification"]}]}},
+      "expected": {"status": "processing", "stage": "validated", "state_version": 5, "validation_result_present": true, "validation_valid": false, "pending_clarification_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "STATE-007", "description": "Apply a recovery result containing an updated extraction", "initial_state_reference": "STATE-006.result", "operation": "apply_recovery_result",
+      "input": {"action_request": {"request_id": "STATE-001", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "issue_field": "requirements[0].confidence", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}}, "recovery_result": {"request_id": "STATE-001", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "status": "succeeded", "changed": true, "extraction_result": {"project_summary": "Build a Python reporting application.", "requirements": [{"raw_skill": "Python", "importance": "hard_requirement", "required_level": 2, "confidence": 0.95, "evidence_text": "using Python", "decision_basis": "Python is explicitly required."}], "uncertainties": []}, "message": "Requirement extraction produced an updated result.", "error_code": null}},
+      "expected": {"status": "processing", "stage": "extracted", "state_version": 6, "extraction_result_present": true, "normalization_result_present": false, "candidate_profile_present": false, "validation_result_present": false, "pending_clarification_present": false, "escalation_present": false, "recovery_history_length": 1, "retry_counts": {"reextract_field": 1}, "latest_history": {"sequence": 1, "status": "succeeded", "changed": true, "produced_extraction_result": true}}
+    },
+    {
+      "test_case_id": "STATE-008", "description": "Apply a clarification recovery result", "initial_state_reference": "STATE-006.result", "operation": "apply_recovery_result",
+      "input": {"action_request": {"request_id": "STATE-001", "action": "request_clarification", "issue_code": "MISSING_REQUIRED_LEVEL", "issue_field": "requirements[0].required_level", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}}, "recovery_result": {"request_id": "STATE-001", "action": "request_clarification", "issue_code": "MISSING_REQUIRED_LEVEL", "status": "awaiting_input", "changed": false, "clarification_request": {"clarification_id": "clarification-STATE-001-MISSING_REQUIRED_LEVEL-requirements-0-required-level", "request_id": "STATE-001", "issue_code": "MISSING_REQUIRED_LEVEL", "field": "requirements[0].required_level", "question": "What minimum proficiency level is required for Python?", "related_raw_skill": "Python", "options": [{"value": "1", "label": "Entry (1)", "skill_id": null}, {"value": "2", "label": "Intermediate (2)", "skill_id": null}, {"value": "3", "label": "Advanced (3)", "skill_id": null}], "allow_free_text": true}, "message": "A clarification request was prepared.", "error_code": null}},
+      "expected": {"status": "awaiting_clarification", "stage": "awaiting_clarification", "state_version": 6, "pending_clarification_present": true, "escalation_present": false, "existing_artifacts_preserved": true, "recovery_history_length": 1, "retry_counts": {"request_clarification": 1}, "latest_history": {"sequence": 1, "status": "awaiting_input", "changed": false, "produced_clarification_request": true}}
+    },
+    {
+      "test_case_id": "STATE-009", "description": "Apply a no-change recovery result", "initial_state_reference": "STATE-006.result", "operation": "apply_recovery_result",
+      "input": {"action_request": {"request_id": "STATE-001", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "issue_field": "requirements[0].confidence", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}}, "recovery_result": {"request_id": "STATE-001", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "status": "no_change", "changed": false, "message": "Requirement extraction produced no change.", "error_code": null}},
+      "expected": {"status": "processing", "stage": "recovery", "state_version": 6, "existing_artifacts_preserved": true, "validation_result_present": true, "pending_clarification_present": false, "escalation_present": false, "recovery_history_length": 1, "retry_counts": {"reextract_field": 1}, "latest_history": {"sequence": 1, "status": "no_change", "changed": false}}
+    },
+    {
+      "test_case_id": "STATE-010", "description": "Apply a failed recovery result", "initial_state_reference": "STATE-006.result", "operation": "apply_recovery_result",
+      "input": {"action_request": {"request_id": "STATE-001", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "issue_field": "requirements[0].confidence", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}}, "recovery_result": {"request_id": "STATE-001", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "status": "failed", "changed": false, "message": "Requirement extraction failed.", "error_code": "REEXTRACTION_FAILED"}},
+      "expected": {"status": "retryable_failure", "stage": "validated", "state_version": 6, "existing_artifacts_preserved": true, "validation_result_present": true, "recovery_history_length": 1, "retry_counts": {"reextract_field": 1}, "errors_length": 1, "latest_error": {"code": "REEXTRACTION_FAILED", "retryable": true, "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "field": "requirements[0].confidence"}}
+    },
+    {
+      "test_case_id": "STATE-011", "description": "Apply an escalation recovery result", "initial_state_reference": "STATE-006.result", "operation": "apply_recovery_result",
+      "input": {"action_request": {"request_id": "STATE-001", "action": "escalate", "issue_code": "MISSING_REQUIRED_LEVEL", "issue_field": "requirements[0].required_level", "attempt_number": 2, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}}, "recovery_result": {"request_id": "STATE-001", "action": "escalate", "issue_code": "MISSING_REQUIRED_LEVEL", "status": "escalated", "changed": false, "escalation": {"escalation_id": "escalation-STATE-001-MISSING_REQUIRED_LEVEL-requirements-0-required-level", "request_id": "STATE-001", "issue_code": "MISSING_REQUIRED_LEVEL", "field": "requirements[0].required_level", "reason": "Automatic recovery is unsafe or has been exhausted.", "context_summary": "Request STATE-001 is blocked by a missing required proficiency level.", "recommended_review": "Confirm the minimum required Python proficiency level."}, "message": "A human-review escalation was prepared.", "error_code": null}},
+      "expected": {"status": "escalated", "stage": "escalated", "state_version": 6, "existing_artifacts_preserved": true, "pending_clarification_present": false, "escalation_present": true, "recovery_history_length": 1, "retry_counts": {"escalate": 1}, "latest_history": {"sequence": 1, "status": "escalated", "changed": false, "produced_escalation": true}}
+    },
+    {
+      "test_case_id": "STATE-012", "description": "Reject normalization before extraction", "initial_state_reference": "STATE-001.result", "operation": "apply_normalization",
+      "input": {"normalization_result": {"mappings": [], "unresolved_skills": []}},
+      "expected": {"exception": "InvalidStateTransitionError", "original_state_unchanged": true, "original_state_version": 1}
+    },
+    {
+      "test_case_id": "STATE-013", "description": "Reject a profile with a mismatched request ID", "initial_state_reference": "STATE-003.result", "operation": "apply_profile",
+      "input": {"candidate_profile": {"request_id": "DIFFERENT-REQUEST", "project_name": "Python Reporting Application", "project_description": "Build a reporting application using Python.", "project_summary": "Build a Python reporting application.", "requirements": [], "unresolved_skills": [], "unresolved_requirements": []}},
+      "expected": {"exception": "InvalidStateTransitionError", "original_state_unchanged": true, "original_state_version": 3}
+    },
+    {
+      "test_case_id": "STATE-014", "description": "Reject validation before a profile exists", "initial_state_reference": "STATE-003.result", "operation": "apply_validation",
+      "input": {"validation_result": {"valid": true, "issues": []}},
+      "expected": {"exception": "InvalidStateTransitionError", "original_state_unchanged": true, "original_state_version": 3}
+    },
+    {
+      "test_case_id": "STATE-015", "description": "Reject mismatched recovery request and recovery result", "initial_state_reference": "STATE-006.result", "operation": "apply_recovery_result",
+      "input": {"action_request": {"request_id": "STATE-001", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "issue_field": "requirements[0].confidence", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}}, "recovery_result": {"request_id": "STATE-001", "action": "lookup_taxonomy", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "status": "no_change", "changed": false, "message": "No change.", "error_code": null}},
+      "expected": {"exception": "InvalidStateTransitionError", "original_state_unchanged": true, "original_state_version": 5}
+    },
+    {
+      "test_case_id": "STATE-016", "description": "Round-trip a validated unpublished state through JSON", "initial_state_reference": "STATE-005.result", "operation": "json_round_trip", "input": {},
+      "expected": {"restored_state_equals_original": true, "status": "processing", "stage": "validated", "state_version": 5}
+    }
+  ]
+}

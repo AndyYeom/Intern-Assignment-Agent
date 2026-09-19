@@ -1,0 +1,76 @@
+{
+  "test_suite_version": "1.0",
+  "test_cases": [
+    {
+      "case_id": "CLR-001",
+      "scenario": "needs_review_aws",
+      "expected_status": "applied",
+      "expected_stage": "normalized"
+    },
+    {
+      "case_id": "CLR-002",
+      "scenario": "missing_level_2",
+      "expected_status": "applied",
+      "expected_stage": "extracted"
+    },
+    {
+      "case_id": "CLR-003",
+      "scenario": "unknown_option",
+      "expected_status": "rejected",
+      "expected_error_code": "INVALID_SELECTED_OPTION"
+    },
+    {
+      "case_id": "CLR-004",
+      "scenario": "wrong_clarification_id",
+      "expected_status": "rejected",
+      "expected_error_code": "CLARIFICATION_ID_MISMATCH"
+    },
+    {
+      "case_id": "CLR-005",
+      "scenario": "wrong_request_id",
+      "expected_status": "rejected",
+      "expected_error_code": "REQUEST_ID_MISMATCH"
+    },
+    {
+      "case_id": "CLR-006",
+      "scenario": "unauthorized",
+      "expected_status": "rejected",
+      "expected_error_code": "UNAUTHORIZED_RESPONDENT"
+    },
+    {
+      "case_id": "CLR-007",
+      "scenario": "no_pending",
+      "expected_status": "rejected",
+      "expected_error_code": "NO_PENDING_CLARIFICATION"
+    },
+    {
+      "case_id": "CLR-008",
+      "scenario": "replay",
+      "expected_status": "rejected",
+      "expected_error_code": "CLARIFICATION_ALREADY_APPLIED"
+    },
+    {
+      "case_id": "CLR-009",
+      "scenario": "verbatim_evidence",
+      "expected_status": "applied",
+      "expected_stage": "extracted"
+    },
+    {
+      "case_id": "CLR-010",
+      "scenario": "paraphrased_evidence",
+      "expected_status": "rejected",
+      "expected_error_code": "EVIDENCE_NOT_VERBATIM"
+    },
+    {
+      "case_id": "CLR-011",
+      "scenario": "both_answer_forms",
+      "expected_status": "contract_validation_failure"
+    },
+    {
+      "case_id": "CLR-012",
+      "scenario": "free_text_taxonomy_skill",
+      "expected_status": "rejected",
+      "expected_error_code": "UNSUPPORTED_CLARIFICATION"
+    }
+  ]
+}

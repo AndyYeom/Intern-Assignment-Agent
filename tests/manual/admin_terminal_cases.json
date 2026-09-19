@@ -1,0 +1,40 @@
+{
+  "test_suite_version": "1.0",
+  "test_cases": [
+    {
+      "case_id": "AUTH-001",
+      "description": "Valid clarifier authenticates for the clarifier role.",
+      "expected": "authenticated"
+    },
+    {
+      "case_id": "AUTH-002",
+      "description": "Clarifier credentials are rejected for escalation review.",
+      "expected": "Authentication failed."
+    },
+    {
+      "case_id": "AUTH-003",
+      "description": "Three wrong passwords stop at the configured limit.",
+      "expected": "MAX_AUTHENTICATION_ATTEMPTS"
+    },
+    {
+      "case_id": "AUTH-004",
+      "description": "Valid escalator authenticates for the escalator role.",
+      "expected": "authenticated"
+    },
+    {
+      "case_id": "AUTH-005",
+      "description": "Terminal cancellation returns a safe rejection.",
+      "expected": "AUTHENTICATION_CANCELLED"
+    },
+    {
+      "case_id": "TERM-CLR-001",
+      "description": "Authenticated clarifier selects a numbered stored option.",
+      "expected": "applied with safe audit event"
+    },
+    {
+      "case_id": "TERM-ESC-001",
+      "description": "Authenticated escalator acknowledges review without publishing.",
+      "expected": "review recorded with safe audit event"
+    }
+  ]
+}

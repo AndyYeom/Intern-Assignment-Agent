@@ -1,0 +1,12 @@
+{
+  "test_suite_version": "1.0",
+  "thread_id_policy": "request_id",
+  "test_cases": [
+    {"case_id": "E2E-001", "scenario": "valid_project", "expected_outcome": "completed"},
+    {"case_id": "E2E-002", "scenario": "ambiguous_cloud_project", "expected_outcome": "awaiting_clarification_then_completed"},
+    {"case_id": "E2E-003", "scenario": "unmapped_skill", "expected_outcome": "escalated"},
+    {"case_id": "E2E-004", "scenario": "publication_retry", "expected_outcome": "completed_without_duplicate"},
+    {"case_id": "E2E-005", "scenario": "repository_failure", "expected_outcome": "permanent_failure"},
+    {"case_id": "E2E-006", "scenario": "transition_limit", "expected_outcome": "permanent_failure"}
+  ]
+}

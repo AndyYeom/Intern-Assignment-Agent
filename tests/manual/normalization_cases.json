@@ -1,0 +1,141 @@
+{
+  "test_suite_version": "1.0.0",
+  "cases": [
+    {
+      "case_id": "exact-python",
+      "raw_skill": "Python",
+      "expected_status": "resolved",
+      "expected_match_method": "exact",
+      "expected_skill_id": "python"
+    },
+    {
+      "case_id": "exact-python-casefold",
+      "raw_skill": "PYTHON",
+      "expected_status": "resolved",
+      "expected_match_method": "exact",
+      "expected_skill_id": "python"
+    },
+    {
+      "case_id": "exact-postgresql",
+      "raw_skill": "PostgreSQL",
+      "expected_status": "resolved",
+      "expected_match_method": "exact",
+      "expected_skill_id": "postgresql"
+    },
+    {
+      "case_id": "exact-docker",
+      "raw_skill": "Docker",
+      "expected_status": "resolved",
+      "expected_match_method": "exact",
+      "expected_skill_id": "docker"
+    },
+    {
+      "case_id": "alias-py",
+      "raw_skill": "py",
+      "expected_status": "resolved",
+      "expected_match_method": "alias",
+      "expected_skill_id": "python"
+    },
+    {
+      "case_id": "alias-fastapi",
+      "raw_skill": "FastAPI",
+      "expected_status": "resolved",
+      "expected_match_method": "alias",
+      "expected_skill_id": "flask-fastapi"
+    },
+    {
+      "case_id": "alias-rag-hyphenated",
+      "raw_skill": "retrieval-augmented generation",
+      "expected_status": "resolved",
+      "expected_match_method": "alias",
+      "expected_skill_id": "rag"
+    },
+    {
+      "case_id": "alias-embeddings",
+      "raw_skill": "embeddings",
+      "expected_status": "resolved",
+      "expected_match_method": "alias",
+      "expected_skill_id": "rag"
+    },
+    {
+      "case_id": "alias-ml",
+      "raw_skill": "ML",
+      "expected_status": "resolved",
+      "expected_match_method": "alias",
+      "expected_skill_id": "machine-learning"
+    },
+    {
+      "case_id": "alias-reactjs",
+      "raw_skill": "reactjs",
+      "expected_status": "resolved",
+      "expected_match_method": "alias",
+      "expected_skill_id": "react"
+    },
+    {
+      "case_id": "llm-vector-search",
+      "raw_skill": "vector search",
+      "expected_status": "resolved",
+      "expected_match_method": "llm_selected",
+      "expected_skill_id": "rag"
+    },
+    {
+      "case_id": "llm-machine-learning-hyphenated",
+      "raw_skill": "machine-learning",
+      "expected_status": "resolved",
+      "expected_match_method": "llm_selected",
+      "expected_skill_id": "machine-learning"
+    },
+    {
+      "case_id": "llm-rest-api-development",
+      "raw_skill": "REST API development",
+      "expected_status": "resolved",
+      "expected_match_method": "llm_selected",
+      "expected_skill_id": "rest-api"
+    },
+    {
+      "case_id": "review-postgresql-schema-design",
+      "raw_skill": "PostgreSQL database schema design",
+      "expected_status": "needs_review",
+      "expected_match_method": "unresolved",
+      "expected_candidate_ids": ["postgresql", "data-modeling"]
+    },
+    {
+      "case_id": "review-react-state-management",
+      "raw_skill": "React interface state management",
+      "expected_status": "needs_review",
+      "expected_match_method": "unresolved",
+      "expected_candidate_ids": ["react", "state-management"]
+    },
+    {
+      "case_id": "review-python-data-analysis",
+      "raw_skill": "Python data analysis",
+      "expected_status": "needs_review",
+      "expected_match_method": "unresolved",
+      "expected_candidate_ids": ["python", "pandas"]
+    },
+    {
+      "case_id": "unmapped-performance-optimization",
+      "raw_skill": "Performance Optimization",
+      "expected_status": "unmapped",
+      "expected_match_method": "unresolved"
+    },
+    {
+      "case_id": "unmapped-performance-profiling",
+      "raw_skill": "Performance Profiling",
+      "expected_status": "unmapped",
+      "expected_match_method": "unresolved"
+    },
+    {
+      "case_id": "unmapped-llm-response-evaluation",
+      "raw_skill": "evaluation of LLM responses",
+      "expected_status": "unmapped",
+      "expected_match_method": "unresolved"
+    },
+    {
+      "case_id": "unmapped-quantum-computing",
+      "raw_skill": "Quantum Computing",
+      "expected_status": "unmapped",
+      "expected_match_method": "unresolved"
+    }
+  ]
+}
