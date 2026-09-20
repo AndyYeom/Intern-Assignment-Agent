@@ -228,3 +228,6 @@ data/.applicants.lock
 # from the same files. raw/ holds a local HTML preview of each PDF.
 data/resumes/raw/
 data/resumes/rendered/*.tmp
+
+# Generated matching result artifacts
+src/matching/artifacts/*.json

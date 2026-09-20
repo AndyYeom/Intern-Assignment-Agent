@@ -1,0 +1,504 @@
+{
+  "students": [
+    {
+      "student_id": "S001",
+      "skills": [
+        {
+          "skill": "python",
+          "level": 5,
+          "confidence": 0.98
+        },
+        {
+          "skill": "data_analysis",
+          "level": 4,
+          "confidence": 0.95
+        },
+        {
+          "skill": "machine_learning",
+          "level": 4,
+          "confidence": 0.9
+        },
+        {
+          "skill": "communication",
+          "level": 3,
+          "confidence": 0.88
+        }
+      ]
+    },
+    {
+      "student_id": "S002",
+      "skills": [
+        {
+          "skill": "python",
+          "level": 4,
+          "confidence": 0.94
+        },
+        {
+          "skill": "data_analysis",
+          "level": 5,
+          "confidence": 0.97
+        },
+        {
+          "skill": "statistics",
+          "level": 4,
+          "confidence": 0.91
+        },
+        {
+          "skill": "project_management",
+          "level": 2,
+          "confidence": 0.78
+        }
+      ]
+    },
+    {
+      "student_id": "S003",
+      "skills": [
+        {
+          "skill": "machine_learning",
+          "level": 5,
+          "confidence": 0.93
+        },
+        {
+          "skill": "python",
+          "level": 4,
+          "confidence": 0.92
+        },
+        {
+          "skill": "data_visualization",
+          "level": 3,
+          "confidence": 0.86
+        },
+        {
+          "skill": "communication",
+          "level": 2,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "student_id": "S004",
+      "skills": [
+        {
+          "skill": "data_analysis",
+          "level": 4,
+          "confidence": 0.9
+        },
+        {
+          "skill": "statistics",
+          "level": 4,
+          "confidence": 0.89
+        },
+        {
+          "skill": "public_health",
+          "level": 2,
+          "confidence": 0.76
+        },
+        {
+          "skill": "communication",
+          "level": 4,
+          "confidence": 0.92
+        }
+      ]
+    },
+    {
+      "student_id": "S005",
+      "skills": [
+        {
+          "skill": "python",
+          "level": 3,
+          "confidence": 0.87
+        },
+        {
+          "skill": "data_analysis",
+          "level": 3,
+          "confidence": 0.85
+        },
+        {
+          "skill": "machine_learning",
+          "level": 2,
+          "confidence": 0.75
+        },
+        {
+          "skill": "project_management",
+          "level": 4,
+          "confidence": 0.91
+        }
+      ]
+    },
+    {
+      "student_id": "S006",
+      "skills": [
+        {
+          "skill": "javascript",
+          "level": 5,
+          "confidence": 0.97
+        },
+        {
+          "skill": "ui_ux",
+          "level": 3,
+          "confidence": 0.84
+        },
+        {
+          "skill": "accessibility",
+          "level": 4,
+          "confidence": 0.91
+        },
+        {
+          "skill": "testing",
+          "level": 3,
+          "confidence": 0.88
+        }
+      ]
+    },
+    {
+      "student_id": "S007",
+      "skills": [
+        {
+          "skill": "ui_ux",
+          "level": 5,
+          "confidence": 0.96
+        },
+        {
+          "skill": "accessibility",
+          "level": 4,
+          "confidence": 0.92
+        },
+        {
+          "skill": "javascript",
+          "level": 3,
+          "confidence": 0.85
+        },
+        {
+          "skill": "communication",
+          "level": 4,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "student_id": "S008",
+      "skills": [
+        {
+          "skill": "javascript",
+          "level": 4,
+          "confidence": 0.93
+        },
+        {
+          "skill": "testing",
+          "level": 5,
+          "confidence": 0.96
+        },
+        {
+          "skill": "accessibility",
+          "level": 3,
+          "confidence": 0.86
+        },
+        {
+          "skill": "project_management",
+          "level": 3,
+          "confidence": 0.84
+        }
+      ]
+    },
+    {
+      "student_id": "S009",
+      "skills": [
+        {
+          "skill": "accessibility",
+          "level": 5,
+          "confidence": 0.95
+        },
+        {
+          "skill": "ui_ux",
+          "level": 4,
+          "confidence": 0.91
+        },
+        {
+          "skill": "testing",
+          "level": 3,
+          "confidence": 0.82
+        },
+        {
+          "skill": "communication",
+          "level": 5,
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "student_id": "S010",
+      "skills": [
+        {
+          "skill": "javascript",
+          "level": 4,
+          "confidence": 0.9
+        },
+        {
+          "skill": "ui_ux",
+          "level": 3,
+          "confidence": 0.87
+        },
+        {
+          "skill": "testing",
+          "level": 4,
+          "confidence": 0.92
+        },
+        {
+          "skill": "python",
+          "level": 2,
+          "confidence": 0.72
+        }
+      ]
+    },
+    {
+      "student_id": "S011",
+      "skills": [
+        {
+          "skill": "iot",
+          "level": 5,
+          "confidence": 0.97
+        },
+        {
+          "skill": "embedded_systems",
+          "level": 4,
+          "confidence": 0.94
+        },
+        {
+          "skill": "python",
+          "level": 3,
+          "confidence": 0.86
+        },
+        {
+          "skill": "cybersecurity",
+          "level": 2,
+          "confidence": 0.77
+        }
+      ]
+    },
+    {
+      "student_id": "S012",
+      "skills": [
+        {
+          "skill": "embedded_systems",
+          "level": 5,
+          "confidence": 0.96
+        },
+        {
+          "skill": "iot",
+          "level": 4,
+          "confidence": 0.93
+        },
+        {
+          "skill": "cybersecurity",
+          "level": 3,
+          "confidence": 0.85
+        },
+        {
+          "skill": "testing",
+          "level": 3,
+          "confidence": 0.81
+        }
+      ]
+    },
+    {
+      "student_id": "S013",
+      "skills": [
+        {
+          "skill": "cybersecurity",
+          "level": 5,
+          "confidence": 0.95
+        },
+        {
+          "skill": "iot",
+          "level": 3,
+          "confidence": 0.86
+        },
+        {
+          "skill": "python",
+          "level": 4,
+          "confidence": 0.9
+        },
+        {
+          "skill": "networking",
+          "level": 4,
+          "confidence": 0.92
+        }
+      ]
+    },
+    {
+      "student_id": "S014",
+      "skills": [
+        {
+          "skill": "iot",
+          "level": 4,
+          "confidence": 0.91
+        },
+        {
+          "skill": "embedded_systems",
+          "level": 3,
+          "confidence": 0.88
+        },
+        {
+          "skill": "python",
+          "level": 4,
+          "confidence": 0.89
+        },
+        {
+          "skill": "project_management",
+          "level": 2,
+          "confidence": 0.74
+        }
+      ]
+    },
+    {
+      "student_id": "S015",
+      "skills": [
+        {
+          "skill": "embedded_systems",
+          "level": 4,
+          "confidence": 0.9
+        },
+        {
+          "skill": "cybersecurity",
+          "level": 4,
+          "confidence": 0.91
+        },
+        {
+          "skill": "testing",
+          "level": 4,
+          "confidence": 0.87
+        },
+        {
+          "skill": "communication",
+          "level": 3,
+          "confidence": 0.82
+        }
+      ]
+    },
+    {
+      "student_id": "S016",
+      "skills": [
+        {
+          "skill": "public_health",
+          "level": 5,
+          "confidence": 0.97
+        },
+        {
+          "skill": "data_analysis",
+          "level": 4,
+          "confidence": 0.93
+        },
+        {
+          "skill": "communication",
+          "level": 4,
+          "confidence": 0.94
+        },
+        {
+          "skill": "statistics",
+          "level": 3,
+          "confidence": 0.84
+        }
+      ]
+    },
+    {
+      "student_id": "S017",
+      "skills": [
+        {
+          "skill": "public_health",
+          "level": 4,
+          "confidence": 0.92
+        },
+        {
+          "skill": "communication",
+          "level": 5,
+          "confidence": 0.96
+        },
+        {
+          "skill": "project_management",
+          "level": 4,
+          "confidence": 0.9
+        },
+        {
+          "skill": "data_analysis",
+          "level": 2,
+          "confidence": 0.76
+        }
+      ]
+    },
+    {
+      "student_id": "S018",
+      "skills": [
+        {
+          "skill": "data_analysis",
+          "level": 5,
+          "confidence": 0.95
+        },
+        {
+          "skill": "public_health",
+          "level": 3,
+          "confidence": 0.86
+        },
+        {
+          "skill": "statistics",
+          "level": 4,
+          "confidence": 0.91
+        },
+        {
+          "skill": "data_visualization",
+          "level": 4,
+          "confidence": 0.89
+        }
+      ]
+    },
+    {
+      "student_id": "S019",
+      "skills": [
+        {
+          "skill": "communication",
+          "level": 5,
+          "confidence": 0.94
+        },
+        {
+          "skill": "project_management",
+          "level": 5,
+          "confidence": 0.95
+        },
+        {
+          "skill": "public_health",
+          "level": 3,
+          "confidence": 0.84
+        },
+        {
+          "skill": "accessibility",
+          "level": 2,
+          "confidence": 0.73
+        }
+      ]
+    },
+    {
+      "student_id": "S020",
+      "skills": [
+        {
+          "skill": "public_health",
+          "level": 4,
+          "confidence": 0.9
+        },
+        {
+          "skill": "data_analysis",
+          "level": 3,
+          "confidence": 0.87
+        },
+        {
+          "skill": "communication",
+          "level": 4,
+          "confidence": 0.91
+        },
+        {
+          "skill": "project_management",
+          "level": 3,
+          "confidence": 0.85
+        }
+      ]
+    }
+  ]
+}
