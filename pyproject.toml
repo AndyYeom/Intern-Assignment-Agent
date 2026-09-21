@@ -23,4 +23,72 @@ dev = [
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-catalog-agent"
+version = "0.1.0"
+description = "Python project catalog agent"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "argon2-cffi",
+    "langgraph>=1.2,<2",
+    "langgraph-checkpoint-sqlite>=3,<4",
+    "openai>=1.66",
+    "pydantic>=2",
+    "pydantic-settings",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mypy",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+project_catalog_agent = ["resources/*.json", "resources/*.md"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers --strict-config"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/project_catalog_agent/catalog/contracts/common.py" = ["UP042"]
+"src/project_catalog_agent/catalog/contracts/taxonomy.py" = ["UP042"]
+"src/project_catalog_agent/catalog/contracts/recovery.py" = ["UP042"]
+"src/project_catalog_agent/catalog/contracts/state.py" = ["UP042"]
+"src/project_catalog_agent/catalog/contracts/decision.py" = ["UP042"]
+"src/project_catalog_agent/catalog/contracts/clarification_application.py" = ["UP042"]
+"src/project_catalog_agent/admin/contracts.py" = ["UP042"]
+"src/project_catalog_agent/admin/roles.py" = ["UP042"]
+"src/project_catalog_agent/demo/scenarios.py" = ["UP042"]
+"src/project_catalog_agent/persistence/contracts.py" = ["UP042"]
+"src/project_catalog_agent/workflow/contracts.py" = ["UP042"]
+"src/project_catalog_agent/extraction/quality.py" = ["UP042"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+mypy_path = "src"
+plugins = ["pydantic.mypy"]
+files = ["src"]
 markers = ["real_data: reads the real data/ corpus instead of an isolated copy"]

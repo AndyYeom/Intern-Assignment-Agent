@@ -1,0 +1,95 @@
+{
+  "test_cases": [
+    {
+      "test_case_id": "REC-001",
+      "description": "Rebuild an inconsistent project profile",
+      "context_reference": "context_rebuild",
+      "action_request": {"request_id": "REC-001", "action": "rebuild_profile", "issue_code": "PROVENANCE_IMPORTANCE_CONFLICT", "issue_field": "requirements[0].importance", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}},
+      "expected": {"status": "succeeded", "changed": true, "error_code": null, "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": true, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-002",
+      "description": "Rebuild produces an identical profile",
+      "context_reference": "context_rebuild_no_change",
+      "action_request": {"request_id": "REC-002", "action": "rebuild_profile", "issue_code": "EMPTY_PROVENANCE", "issue_field": "requirements[0].provenance", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}},
+      "expected": {"status": "no_change", "changed": false, "error_code": null, "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-003",
+      "description": "Re-extract a low-confidence requirement",
+      "context_reference": "context_low_confidence",
+      "action_request": {"request_id": "REC-003", "action": "reextract_field", "issue_code": "LOW_EXTRACTION_CONFIDENCE", "issue_field": "requirements[0].confidence", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}},
+      "expected": {"status": "succeeded", "changed": true, "error_code": null, "extraction_result_present": true, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-004",
+      "description": "Resolve an unmapped skill through taxonomy lookup",
+      "context_reference": "context_unmapped_resolvable",
+      "action_request": {"request_id": "REC-004", "action": "lookup_taxonomy", "issue_code": "UNMAPPED_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 0, "context": {}},
+      "expected": {"status": "succeeded", "changed": true, "error_code": null, "extraction_result_present": false, "normalization_result_present": true, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-005",
+      "description": "Taxonomy lookup cannot resolve the unmapped skill",
+      "context_reference": "context_unmapped_unchanged",
+      "action_request": {"request_id": "REC-005", "action": "lookup_taxonomy", "issue_code": "UNMAPPED_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 0, "context": {}},
+      "expected": {"status": "no_change", "changed": false, "error_code": null, "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-006",
+      "description": "Reconsider an ambiguous mapping with a valid preferred candidate",
+      "context_reference": "context_needs_review",
+      "action_request": {"request_id": "REC-006", "action": "reconsider_mapping", "issue_code": "NEEDS_REVIEW_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 0, "context": {"preferred_candidate_skill_id": "aws", "rejected_candidate_skill_ids": ["gcp-azure"]}},
+      "expected": {"status": "succeeded", "changed": true, "error_code": null, "extraction_result_present": false, "normalization_result_present": true, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-007",
+      "description": "Reject an invalid preferred mapping candidate",
+      "context_reference": "context_needs_review",
+      "action_request": {"request_id": "REC-007", "action": "reconsider_mapping", "issue_code": "NEEDS_REVIEW_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 0, "context": {"preferred_candidate_skill_id": "python", "rejected_candidate_skill_ids": []}},
+      "expected": {"status": "failed", "changed": false, "error_code": "INVALID_MAPPING_HINT", "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-008",
+      "description": "Request clarification for an ambiguous taxonomy mapping",
+      "context_reference": "context_needs_review",
+      "action_request": {"request_id": "REC-008", "action": "request_clarification", "issue_code": "NEEDS_REVIEW_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 0, "context": {}},
+      "expected": {"status": "awaiting_input", "changed": false, "error_code": null, "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": true, "escalation_present": false, "clarification": {"issue_code": "NEEDS_REVIEW_REQUIREMENT", "field": "unresolved_requirements[0]", "related_raw_skill": "AWS, Azure, or GCP", "expected_option_skill_ids": ["aws", "gcp-azure"], "allow_free_text": true}}
+    },
+    {
+      "test_case_id": "REC-009",
+      "description": "Request clarification for a missing required level",
+      "context_reference": "context_missing_level",
+      "action_request": {"request_id": "REC-009", "action": "request_clarification", "issue_code": "MISSING_REQUIRED_LEVEL", "issue_field": "requirements[0].required_level", "attempt_number": 1, "target_requirement_index": 0, "target_provenance_index": null, "target_unresolved_index": null, "context": {}},
+      "expected": {"status": "awaiting_input", "changed": false, "error_code": null, "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": true, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-010",
+      "description": "Escalate an unresolved requirement",
+      "context_reference": "context_unmapped_unchanged",
+      "action_request": {"request_id": "REC-010", "action": "escalate", "issue_code": "UNMAPPED_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 2, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 0, "context": {}},
+      "expected": {"status": "escalated", "changed": false, "error_code": null, "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": true}
+    },
+    {
+      "test_case_id": "REC-011",
+      "description": "Reject an action not permitted by the validation issue",
+      "context_reference": "context_unmapped_unchanged",
+      "action_request": {"request_id": "REC-011", "action": "rebuild_profile", "issue_code": "UNMAPPED_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 0, "context": {}},
+      "expected": {"status": "failed", "changed": false, "error_code": "ACTION_NOT_PERMITTED", "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-012",
+      "description": "Reject a request whose issue field does not exist",
+      "context_reference": "context_unmapped_unchanged",
+      "action_request": {"request_id": "REC-012", "action": "lookup_taxonomy", "issue_code": "UNMAPPED_REQUIREMENT", "issue_field": "unresolved_requirements[1]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 1, "context": {}},
+      "expected": {"status": "failed", "changed": false, "error_code": "ISSUE_NOT_FOUND", "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    },
+    {
+      "test_case_id": "REC-013",
+      "description": "Reject contradictory field and target indexes",
+      "context_reference": "context_unmapped_unchanged",
+      "action_request": {"request_id": "REC-013", "action": "lookup_taxonomy", "issue_code": "UNMAPPED_REQUIREMENT", "issue_field": "unresolved_requirements[0]", "attempt_number": 1, "target_requirement_index": null, "target_provenance_index": null, "target_unresolved_index": 1, "context": {}},
+      "expected": {"status": "failed", "changed": false, "error_code": "INVALID_ACTION_TARGET", "extraction_result_present": false, "normalization_result_present": false, "candidate_profile_present": false, "clarification_request_present": false, "escalation_present": false}
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "test_cases": [
+    {"case_id": "DEC-001", "scenario": "initial", "expected_type": "run_extraction", "expected_reason": "EXTRACTION_REQUIRED"},
+    {"case_id": "DEC-002", "scenario": "extracted", "expected_type": "run_normalization", "expected_reason": "NORMALIZATION_REQUIRED"},
+    {"case_id": "DEC-003", "scenario": "normalized", "expected_type": "build_profile", "expected_reason": "PROFILE_BUILD_REQUIRED"},
+    {"case_id": "DEC-004", "scenario": "profiled", "expected_type": "run_validation", "expected_reason": "VALIDATION_REQUIRED"},
+    {"case_id": "DEC-005", "scenario": "valid", "expected_type": "publish_profile", "expected_reason": "PROFILE_READY_TO_PUBLISH"},
+    {"case_id": "DEC-006", "scenario": "missing_level", "expected_type": "execute_recovery", "expected_action": "reextract_field", "expected_attempt": 1},
+    {"case_id": "DEC-007", "scenario": "reextract_no_change", "expected_type": "execute_recovery", "expected_action": "request_clarification"},
+    {"case_id": "DEC-008", "scenario": "needs_review", "expected_type": "execute_recovery", "expected_action": "reconsider_mapping"},
+    {"case_id": "DEC-009", "scenario": "reconsider_no_change", "expected_type": "execute_recovery", "expected_action": "request_clarification"},
+    {"case_id": "DEC-010", "scenario": "clarification_pending", "expected_type": "wait_for_clarification", "expected_reason": "AWAITING_CLARIFICATION"},
+    {"case_id": "DEC-011", "scenario": "recovery_exhausted", "expected_type": "execute_recovery", "expected_action": "escalate"},
+    {"case_id": "DEC-012", "scenario": "already_escalated", "expected_type": "stop_escalated", "expected_reason": "ALREADY_ESCALATED"},
+    {"case_id": "DEC-013", "scenario": "valid_with_warning", "expected_type": "publish_profile", "expected_reason": "PROFILE_READY_TO_PUBLISH"},
+    {"case_id": "DEC-014", "scenario": "warning_and_blocking", "expected_type": "execute_recovery", "expected_action": "reextract_field", "expected_issue": "MISSING_REQUIRED_LEVEL"},
+    {"case_id": "DEC-015", "scenario": "preferred_not_permitted", "expected_type": "execute_recovery", "expected_action": "request_clarification"}
+  ]
+}
