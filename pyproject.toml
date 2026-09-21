@@ -91,3 +91,4 @@ strict = true
 mypy_path = "src"
 plugins = ["pydantic.mypy"]
 files = ["src"]
+markers = ["real_data: reads the real data/ corpus instead of an isolated copy"]

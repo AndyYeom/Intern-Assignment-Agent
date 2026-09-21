@@ -5,8 +5,8 @@ import pytest
 
 from generator.schemas import GitHubProfile, RepoRecord
 from src.evidence_agent.claims import parse_skill
+from src.evidence_agent.evidence_models import ApplicantProfile, SkillClaim
 from src.evidence_agent.observe import observe
-from src.evidence_agent.schemas import ApplicantProfile, SkillClaim
 from src.evidence_agent.verify import verify
 
 SIGNAL = {"skill_id": "python", "source": "language", "detail": "Python: 40,000 bytes",
