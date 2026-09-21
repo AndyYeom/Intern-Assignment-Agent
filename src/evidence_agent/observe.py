@@ -20,6 +20,8 @@ from dataclasses import dataclass, field
 
 from generator.schemas import GitHubProfile, RepoRecord
 
+from .evidence_models import Strength
+
 # Sources that show the skill was actually used. Topics and repo names are
 # self-declared and never enough on their own.
 HARD_SOURCES = {"language", "manifest", "file"}
@@ -37,7 +39,7 @@ INDEPENDENT_WORK_FLAGS = ("has_ci", "has_tests", "has_docker", "deployed",
 class Observation:
     skill_id: str
     level: int | None = None
-    strength: str = "none"
+    strength: Strength = "none"
     repos: list[tuple[RepoRecord, int, list[str]]] = field(default_factory=list)
     weak_only: bool = False
 

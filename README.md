@@ -153,6 +153,45 @@ uv run python -m src.evidence_agent plant                        # plant 10 exag
 uv run python -m src.evidence_agent eval                         # how many were caught
 ```
 
+### The agent: after the profile agent, LLM bounded by rules
+
+`src/evidence_agent/evidence_graph.py` mirrors `src/profile_agent/profile_graph.py`
+(a compiled LangGraph, one entry function, a CLI) and runs after it, since it
+verifies A's verdicts:
+
+```python
+profile = evaluate_resume(pdf, applicant_id="applicant0001")   # agent A
+report = evaluate_github("applicant0001", profile)             # agent C
+report.payload()   # {applicant_id, skill_verification: [...]} for resolve_profile
+```
+
+`load_inputs -> assess_rules -> verify_with_llm -> reconcile`:
+
+- **assess_rules** reads every claim deterministically, and settles the ones
+  that need no judgment: GitHub already meets the claim, or no repository
+  touches the skill.
+- **verify_with_llm** sends only the remaining claims, with only the
+  repositories behind them, to the same Ollama gateway as the profile agent
+  (`LLM_GATEWAY_URL`, `LLM_GATEWAY_API_KEY`, `LLM_MODEL`), with the shared scale
+  from `data/proficiency_levels.md` verbatim in the prompt.
+- **reconcile** keeps a model verdict only if it cites repositories that exist
+  and stays within one level of the rules; otherwise that skill falls back to
+  the rules, as does everything when the gateway is missing or fails.
+
+Every verdict carries `method` (`llm` or `rules`), the rules' own reading
+(`rule_observed_level`, `rule_status`) and `notes` saying why; the report's
+`trace` records which skills and repositories the model saw, and the tokens it
+used. On the 100 applicants, 18% of claims need the model, 68 applicants need
+one call each, and prompts are 88% smaller than sending every claim and repo.
+
+A's free-text skill names are mapped onto `data/taxonomy.json` ids; names that
+match nothing are listed in `unmapped_claims` and never verified.
+
+```powershell
+uv run python -m src.evidence_agent.evidence_graph applicant0001 --profile a.json --payload
+uv run python -m src.evidence_agent.evidence_graph applicant0001 --profile a.json --rules-only
+```
+
 Without `--claims`, claims are read literally from each resume spec: a stated
 level such as `Python (Advanced)`, otherwise Intermediate when the skill appears
 in a project or job, and Entry when it appears only in the skills list.
