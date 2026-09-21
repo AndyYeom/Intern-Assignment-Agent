@@ -1,1 +1,1 @@
-"""Project Catalog Agent tests."""
+"""Project test package."""

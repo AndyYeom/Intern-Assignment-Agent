@@ -202,5 +202,7 @@ data/.applicants.lock
 data/resumes/raw/
 data/resumes/rendered/*.tmp
 
+# Generated matching result artifacts
+src/matching/artifacts/*.json
 # Integration-test outputs (real LLM runs)
 output/integration/

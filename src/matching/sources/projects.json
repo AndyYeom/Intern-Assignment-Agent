@@ -1,0 +1,168 @@
+{
+  "projects": [
+    {
+      "project_id": "P001",
+      "team_size": {
+        "min": 4,
+        "max": 6
+      },
+      "requirements": [
+        {
+          "skill": "python",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 2,
+          "confidence": 0.9
+        },
+        {
+          "skill": "data_analysis",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 2,
+          "confidence": 0.9
+        },
+        {
+          "skill": "machine_learning",
+          "level": 2,
+          "importance": "soft",
+          "scope": "team",
+          "min_members": 1,
+          "confidence": 0.8
+        },
+        {
+          "skill": "communication",
+          "level": 3,
+          "importance": "soft",
+          "scope": "individual",
+          "min_members": 1,
+          "confidence": 0.75
+        }
+      ]
+    },
+    {
+      "project_id": "P002",
+      "team_size": {
+        "min": 4,
+        "max": 6
+      },
+      "requirements": [
+        {
+          "skill": "javascript",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 2,
+          "confidence": 0.9
+        },
+        {
+          "skill": "ui_ux",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 1,
+          "confidence": 0.9
+        },
+        {
+          "skill": "accessibility",
+          "level": 3,
+          "importance": "hard",
+          "scope": "individual",
+          "min_members": 1,
+          "confidence": 0.95
+        },
+        {
+          "skill": "testing",
+          "level": 2,
+          "importance": "soft",
+          "scope": "team",
+          "min_members": 2,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "project_id": "P003",
+      "team_size": {
+        "min": 4,
+        "max": 5
+      },
+      "requirements": [
+        {
+          "skill": "iot",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 2,
+          "confidence": 0.95
+        },
+        {
+          "skill": "embedded_systems",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 1,
+          "confidence": 0.9
+        },
+        {
+          "skill": "python",
+          "level": 2,
+          "importance": "soft",
+          "scope": "team",
+          "min_members": 2,
+          "confidence": 0.75
+        },
+        {
+          "skill": "cybersecurity",
+          "level": 2,
+          "importance": "hard",
+          "scope": "individual",
+          "min_members": 1,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "project_id": "P004",
+      "team_size": {
+        "min": 4,
+        "max": 5
+      },
+      "requirements": [
+        {
+          "skill": "data_analysis",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 2,
+          "confidence": 0.9
+        },
+        {
+          "skill": "public_health",
+          "level": 3,
+          "importance": "hard",
+          "scope": "team",
+          "min_members": 1,
+          "confidence": 0.95
+        },
+        {
+          "skill": "communication",
+          "level": 3,
+          "importance": "hard",
+          "scope": "individual",
+          "min_members": 1,
+          "confidence": 0.9
+        },
+        {
+          "skill": "project_management",
+          "level": 2,
+          "importance": "soft",
+          "scope": "team",
+          "min_members": 1,
+          "confidence": 0.8
+        }
+      ]
+    }
+  ]
+}
