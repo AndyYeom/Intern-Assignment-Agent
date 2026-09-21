@@ -1,4 +1,4 @@
-"""Every test runs against a throwaway copy of data/. None can touch the real one.
+"""Evidence-agent tests run against a throwaway copy of data/, never the real one.
 
 Modules bind data paths at import time (`from generator.config import
 CANDIDATES_PATH`), so patching `config` alone leaves their copies pointing at the
@@ -34,6 +34,10 @@ def _under(path: Path, root: Path) -> bool:
 @pytest.fixture(autouse=True)
 def isolated_data(request: pytest.FixtureRequest, tmp_path: Path,
                   monkeypatch: pytest.MonkeyPatch) -> Path:
+    # Only the tests that read data/ are isolated: this conftest covers the whole
+    # repository, and other agents' tests assert their tmp_path stays empty.
+    if request.path.parent != Path(__file__).parent:
+        return REAL_DATA
     # Opt-out for tests that must read the real corpus (and write nothing to data/).
     if request.node.get_closest_marker("real_data"):
         return REAL_DATA

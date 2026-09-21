@@ -1,49 +1,25 @@
 [project]
 name = "intern-assignment-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "NUS ISS hackathon: profile, catalog, evidence and matching agents"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "argon2-cffi",
     "docling>=2.127.0",
     "httpx>=0.28.1",
     "langchain>=1.4.0",
-    "pandas>=3.0.5",
-    "streamlit>=1.64.0",
     "langchain-ollama>=1.1.0",
     "langgraph>=1.2.11",
-    "pydantic>=2.13.5",
-    "python-dotenv>=1.2.3",
-    "scipy>=1.18.1",
-    "weasyprint>=70.0"
-]
-
-[dependency-groups]
-dev = [
-    "pytest>=9.1.1",
-]
-
-[tool.pytest.ini_options]
-pythonpath = ["src", "."]
-
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "project-catalog-agent"
-version = "0.1.0"
-description = "Python project catalog agent"
-readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-    "argon2-cffi",
-    "langgraph>=1.2,<2",
     "langgraph-checkpoint-sqlite>=3,<4",
     "openai>=1.66",
-    "pydantic>=2",
+    "pandas>=3.0.5",
+    "pydantic>=2.13.5",
     "pydantic-settings",
-    "python-dotenv",
+    "python-dotenv>=1.2.3",
+    "scipy>=1.18.1",
+    "streamlit>=1.64.0",
+    "weasyprint>=70.0",
 ]
 
 [project.optional-dependencies]
@@ -54,6 +30,18 @@ dev = [
     "ruff",
 ]
 
+[dependency-groups]
+dev = [
+    "mypy",
+    "pytest>=9.1.1",
+    "pytest-cov",
+    "ruff",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
@@ -61,11 +49,13 @@ where = ["src"]
 project_catalog_agent = ["resources/*.json", "resources/*.md"]
 
 [tool.pytest.ini_options]
+pythonpath = ["src", "."]
 addopts = "-q --strict-markers --strict-config"
 testpaths = ["tests"]
+markers = ["real_data: reads the real data/ corpus instead of an isolated copy"]
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py312"
 line-length = 88
 src = ["src", "tests"]
 
@@ -88,9 +78,8 @@ ignore = ["E501"]
 "src/project_catalog_agent/extraction/quality.py" = ["UP042"]
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.12"
 strict = true
 mypy_path = "src"
 plugins = ["pydantic.mypy"]
 files = ["src"]
-markers = ["real_data: reads the real data/ corpus instead of an isolated copy"]

@@ -122,6 +122,8 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
@@ -192,13 +194,11 @@ __marimo__/
 
 data/runs/
 .DS_Store
-__pycache__/
-.venv/
+
 # Evidence collector: raw API payloads and HTTP cache are reproducible from
 # data/githubs/candidates.json, so only the normalised profiles are tracked.
 .cache/
 data/githubs/raw/
-.env
 data/.applicants.lock
 
 # Resumes: the PDFs, specs and applicants.csv are committed so the team works
@@ -210,3 +210,6 @@ data/resumes/rendered/*.tmp
 src/matching/artifacts/*.json
 # Integration-test outputs (real LLM runs)
 output/integration/
+
+# setuptools build metadata
+*.egg-info/
