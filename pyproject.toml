@@ -23,7 +23,6 @@ dev = [
 
 [tool.pytest.ini_options]
 pythonpath = ["src", "."]
-pythonpath = ["."]
 
 [build-system]
 requires = ["setuptools>=68"]
