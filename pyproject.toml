@@ -8,12 +8,14 @@ dependencies = [
     "docling>=2.127.0",
     "httpx>=0.28.1",
     "langchain>=1.4.0",
+    "pandas>=3.0.5",
+    "streamlit>=1.64.0",
     "langchain-ollama>=1.1.0",
     "langgraph>=1.2.11",
     "pydantic>=2.13.5",
     "python-dotenv>=1.2.3",
     "scipy>=1.18.1",
-    "weasyprint>=70.0",
+    "weasyprint>=70.0"
 ]
 
 [dependency-groups]
