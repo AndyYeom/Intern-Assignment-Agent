@@ -1,0 +1,296 @@
+{
+  "applicant_id": "applicant0125",
+  "github_login": "SooyAldahir",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0125.json",
+  "skills": [
+    {
+      "skill_id": "auth",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/appEDIBack",
+        "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/appEDIBack",
+          "html_url": "https://github.com/SooyAldahir/appEDIBack",
+          "level": 2,
+          "reasons": [
+            "intermediate: 22 commits; multi_month_span, many_active_days",
+            "jsonwebtoken in package.json"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "html_url": "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "jsonwebtoken in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/SooyAldahir/Integration_tests"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/Integration_tests",
+          "html_url": "https://github.com/SooyAldahir/Integration_tests",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "C++: 24,091 bytes (38% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/Front-End-Clean",
+        "https://github.com/SooyAldahir/Integration_tests",
+        "https://github.com/SooyAldahir/appEDIFront"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/Front-End-Clean",
+          "html_url": "https://github.com/SooyAldahir/Front-End-Clean",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Dart: 382,680 bytes (87% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/Integration_tests",
+          "html_url": "https://github.com/SooyAldahir/Integration_tests",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "Dart: 9,319 bytes (15% of repo)",
+            "flutter project (task_app/pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/appEDIFront",
+          "html_url": "https://github.com/SooyAldahir/appEDIFront",
+          "level": 1,
+          "reasons": [
+            "entry: 20 commits, independent-work signals: many_active_days",
+            "Dart: 1,125,755 bytes (95% of repo)",
+            "flutter project (edi301/pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/appEDIBack"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/appEDIBack",
+          "html_url": "https://github.com/SooyAldahir/appEDIBack",
+          "level": 2,
+          "reasons": [
+            "intermediate: 22 commits; multi_month_span, many_active_days",
+            "firebase-admin in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/appEDIBack",
+        "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/appEDIBack",
+          "html_url": "https://github.com/SooyAldahir/appEDIBack",
+          "level": 2,
+          "reasons": [
+            "intermediate: 22 commits; multi_month_span, many_active_days",
+            "JavaScript: 112,176 bytes (85% of repo)"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "html_url": "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "JavaScript: 8,713 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/Front-End-Clean",
+        "https://github.com/SooyAldahir/Integration_tests",
+        "https://github.com/SooyAldahir/appEDIFront"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/Front-End-Clean",
+          "html_url": "https://github.com/SooyAldahir/Front-End-Clean",
+          "level": 1,
+          "reasons": [
+            "entry: all_commits_one_day",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/Integration_tests",
+          "html_url": "https://github.com/SooyAldahir/Integration_tests",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "Android app manifest (task_app/android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/appEDIFront",
+          "html_url": "https://github.com/SooyAldahir/appEDIFront",
+          "level": 1,
+          "reasons": [
+            "entry: 20 commits, independent-work signals: many_active_days",
+            "Android app manifest (edi301/android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (3 repo(s))."
+    },
+    {
+      "skill_id": "nodejs",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/appEDIBack",
+        "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/appEDIBack",
+          "html_url": "https://github.com/SooyAldahir/appEDIBack",
+          "level": 2,
+          "reasons": [
+            "intermediate: 22 commits; multi_month_span, many_active_days",
+            "express in package.json"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "html_url": "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "express in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/appEDIBack"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/appEDIBack",
+          "html_url": "https://github.com/SooyAldahir/appEDIBack",
+          "level": 2,
+          "reasons": [
+            "intermediate: 22 commits; multi_month_span, many_active_days",
+            "TSQL: 20,194 bytes (15% of repo)",
+            "SQL file (src/dataBase/script_DB.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/SooyAldahir/Integration_tests",
+        "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "repos": [
+        {
+          "repo": "SooyAldahir/Integration_tests",
+          "html_url": "https://github.com/SooyAldahir/Integration_tests",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "test directory (task-api/node_modules/call-bind-apply-helpers/test/index.js)"
+          ]
+        },
+        {
+          "repo": "SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "html_url": "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit, single_commit, all_commits_one_day",
+            "test directory (node_modules/call-bind-apply-helpers/test/index.js)",
+            "chai in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 8
+  }
+}

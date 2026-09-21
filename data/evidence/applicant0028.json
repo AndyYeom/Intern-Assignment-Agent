@@ -1,0 +1,274 @@
+{
+  "applicant_id": "applicant0028",
+  "github_login": "tmaswang03",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0028.json",
+  "skills": [
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/tmaswang03/CP-Solutions"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/CP-Solutions",
+          "html_url": "https://github.com/tmaswang03/CP-Solutions",
+          "level": 2,
+          "reasons": [
+            "intermediate: 49 commits; multi_month_span, many_active_days",
+            "C++: 1,212,410 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/tmaswang03/2024CxC"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/2024CxC",
+          "html_url": "https://github.com/tmaswang03/2024CxC",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "matplotlib in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/tmaswang03/tmaswang03.github.io",
+        "https://github.com/tmaswang03/financial_analysis"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/tmaswang03.github.io",
+          "html_url": "https://github.com/tmaswang03/tmaswang03.github.io",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; multi_month_span, many_active_days",
+            "CSS: 11,599 bytes (30% of repo)"
+          ]
+        },
+        {
+          "repo": "tmaswang03/financial_analysis",
+          "html_url": "https://github.com/tmaswang03/financial_analysis",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "HTML: 1,951 bytes (30% of repo)",
+            "CSS: 810 bytes (12% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/tmaswang03/tmaswang03.github.io",
+        "https://github.com/tmaswang03/financial_analysis"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/tmaswang03.github.io",
+          "html_url": "https://github.com/tmaswang03/tmaswang03.github.io",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; multi_month_span, many_active_days",
+            "JavaScript: 23,902 bytes (62% of repo)"
+          ]
+        },
+        {
+          "repo": "tmaswang03/financial_analysis",
+          "html_url": "https://github.com/tmaswang03/financial_analysis",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "JavaScript: 1,528 bytes (23% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/tmaswang03/2024CxC"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/2024CxC",
+          "html_url": "https://github.com/tmaswang03/2024CxC",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "scikit-learn in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/tmaswang03/Machine-Learning",
+        "https://github.com/tmaswang03/2024CxC"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/Machine-Learning",
+          "html_url": "https://github.com/tmaswang03/Machine-Learning",
+          "level": 2,
+          "reasons": [
+            "intermediate: 15 commits; multi_month_span, many_active_days, documented",
+            "jupyter notebook (Advanced_Learning_Algorithms/Module_1_Notes.ipynb)"
+          ]
+        },
+        {
+          "repo": "tmaswang03/2024CxC",
+          "html_url": "https://github.com/tmaswang03/2024CxC",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "jupyter notebook (EY/preprocess.ipynb)",
+            "numpy in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/tmaswang03/Machine-Learning",
+        "https://github.com/tmaswang03/2024CxC",
+        "https://github.com/tmaswang03/financial_analysis"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/Machine-Learning",
+          "html_url": "https://github.com/tmaswang03/Machine-Learning",
+          "level": 2,
+          "reasons": [
+            "intermediate: 15 commits; multi_month_span, many_active_days, documented",
+            "Jupyter Notebook: 130,599 bytes (92% of repo)"
+          ]
+        },
+        {
+          "repo": "tmaswang03/2024CxC",
+          "html_url": "https://github.com/tmaswang03/2024CxC",
+          "level": 1,
+          "reasons": [
+            "entry: notebook_only",
+            "Jupyter Notebook: 4,506,339 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "tmaswang03/financial_analysis",
+          "html_url": "https://github.com/tmaswang03/financial_analysis",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Python: 2,256 bytes (34% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/tmaswang03/tmaswang03.github.io",
+        "https://github.com/tmaswang03/financial_analysis"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/tmaswang03.github.io",
+          "html_url": "https://github.com/tmaswang03/tmaswang03.github.io",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; multi_month_span, many_active_days",
+            "@testing-library/react in package.json"
+          ]
+        },
+        {
+          "repo": "tmaswang03/financial_analysis",
+          "html_url": "https://github.com/tmaswang03/financial_analysis",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "@testing-library/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/tmaswang03/tmaswang03.github.io"
+      ],
+      "repos": [
+        {
+          "repo": "tmaswang03/tmaswang03.github.io",
+          "html_url": "https://github.com/tmaswang03/tmaswang03.github.io",
+          "level": 2,
+          "reasons": [
+            "intermediate: 11 commits; multi_month_span, many_active_days",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 8
+  }
+}

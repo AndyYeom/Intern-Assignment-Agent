@@ -1,0 +1,1218 @@
+{
+  "applicant_id": "applicant0062",
+  "login": "i529",
+  "html_url": "https://github.com/i529",
+  "created_at": "2020-07-29T23:48:39Z",
+  "account_age_days": 2240,
+  "public_repos": 21,
+  "followers": 5,
+  "following": 4,
+  "repos": [
+    {
+      "name": "Disvet-Project",
+      "full_name": "i529/Disvet-Project",
+      "html_url": "https://github.com/i529/Disvet-Project",
+      "description": "Projeto desenvolvido para a empresa Disvet onde consiste na reformulação do site, dando uma cara nova, mais moderna e convidativa para os usuários.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-29T22:36:34Z",
+      "pushed_at": "2026-07-14T15:56:01Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 74164,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "CSS": 27106,
+        "HTML": 26916,
+        "TypeScript": 17524,
+        "JavaScript": 1444
+      },
+      "primary_language": "CSS",
+      "file_count": 7224,
+      "top_level_paths": [
+        "README.md",
+        "back-end",
+        "front-end"
+      ],
+      "notable_files": [
+        "back-end/package.json",
+        "front-end/disvet/package.json",
+        "front-end/node_modules/@angular-devkit/architect/package.json",
+        "front-end/node_modules/@angular-devkit/core/package.json",
+        "front-end/node_modules/@angular-devkit/schematics/package.json",
+        "front-end/node_modules/@angular-devkit/schematics/tasks/package.json",
+        "front-end/node_modules/@angular-devkit/schematics/testing/package.json",
+        "front-end/node_modules/@angular-devkit/schematics/tools/package.json",
+        "front-end/node_modules/@angular/cli/bin/package.json",
+        "front-end/node_modules/@angular/cli/package.json",
+        "front-end/node_modules/@inquirer/checkbox/dist/commonjs/package.json",
+        "front-end/node_modules/@inquirer/checkbox/dist/esm/package.json",
+        "front-end/node_modules/@inquirer/checkbox/package.json",
+        "front-end/node_modules/@inquirer/confirm/dist/commonjs/package.json",
+        "front-end/node_modules/@inquirer/confirm/dist/esm/package.json",
+        "front-end/node_modules/@inquirer/confirm/package.json",
+        "front-end/node_modules/@inquirer/core/dist/commonjs/package.json",
+        "front-end/node_modules/@inquirer/core/dist/esm/package.json",
+        "front-end/node_modules/@inquirer/core/package.json",
+        "front-end/node_modules/@inquirer/editor/dist/commonjs/package.json",
+        "front-end/node_modules/@inquirer/editor/dist/esm/package.json",
+        "front-end/node_modules/@inquirer/editor/package.json",
+        "front-end/node_modules/@inquirer/expand/dist/commonjs/package.json",
+        "front-end/node_modules/@inquirer/expand/dist/esm/package.json",
+        "front-end/node_modules/@inquirer/expand/package.json",
+        "front-end/node_modules/@inquirer/figures/dist/commonjs/package.json",
+        "front-end/node_modules/@inquirer/figures/dist/esm/package.json",
+        "front-end/node_modules/@inquirer/figures/package.json",
+        "front-end/node_modules/@inquirer/input/dist/commonjs/package.json",
+        "front-end/node_modules/@inquirer/input/dist/esm/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 422,
+      "readme_excerpt": "# Disvet-Project\n\n## Como instalar\n\n- Ao instalar os arquivos na sua máquina, entre nos diretórios: Front-End e Back-end e digite ´npm i` para instalar as depedências, após isso, já pode rodar o projeto.\n\n## Como abrir\n\n- Acesse o diretório 'front-end' pelo cmd e digite `npm run dev`\n- Acesse o diretório 'back-end' pelo cmd e digite `npm run app`\n- Feito esses 2 passos, tanto seu back-end quanto front-end está online.\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-07-29T22:45:27+00:00",
+        "last_at": "2026-07-14T15:56:00+00:00",
+        "active_days": 3,
+        "span_days": 349,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.4,
+        "messages_sample": [
+          "Update README.md",
+          "adição de rotas, atualização da navbar, adição da seção sobre nós",
+          "Create README.md",
+          "Adicionando a pasta de front-end no repositório",
+          "Primeiro commit do projeto disvet"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4212
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 27,106 bytes (37% of repo)",
+          "strength": 0.7713659405398
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 26,916 bytes (37% of repo)",
+          "strength": 0.7687628442252363
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 17,524 bytes (24% of repo)",
+          "strength": 0.6400876832442801
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,444 bytes (2% of repo)",
+          "strength": 0.4197835319906837
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (front-end/node_modules/@angular/cli/src/commands/e2e/cli.d.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (front-end/node_modules/@angular/cli/src/commands/test/cli.d.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (front-end/node_modules/@schematics/angular/migrations/migration-collection.json)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (front-end/node_modules/node-gyp/gyp/docs/GypVsCMake.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 72990,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "integration-testing",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Minimal-API-Formula-1",
+      "full_name": "i529/Minimal-API-Formula-1",
+      "html_url": "https://github.com/i529/Minimal-API-Formula-1",
+      "description": "Uma API simples desenvolvida com Node.js, TypeScript e Fastify, utilizando dados em memória para representar equipes e pilotos da Fórmula 1.  Este projeto foi criado com fins de estudo para aprender os conceitos de API, rotas, parâmetros, tipagem com TypeScript e organização de código.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-07-14T23:43:49Z",
+      "pushed_at": "2026-07-15T00:22:20Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2692,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 2488
+      },
+      "primary_language": "TypeScript",
+      "file_count": 8,
+      "top_level_paths": [
+        ".env",
+        ".github",
+        ".gitignore",
+        "README.MD",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@fastify/cors",
+          "@types/node",
+          "fastify",
+          "tsup",
+          "tsx",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2091,
+      "readme_excerpt": "<div align=\"center\">\n\n  <img src=\"./.github/assets/formula1.png\" alt=\"Logo\" height=\"200\">\n  <h1 align=\"center\"><strong>MINIMAL API - F1</strong></h1>\n  <p align=\"center\">\n\t  A minimal API for Formula 1 that provides information about drivers and teams.\n  </p>\n\n</div>\n\n<br />\n\n  <!-- Badges -->\n<div align=\"center\">\n  \n  [![TypeScript version][ts-badge]][typescript-5-4]\n  [![Node.js version][nodejs-badge]][nodejs]\n\n</div>\n\n# 🚀 Technologies\n\nThis code source was developed with the following items:\n\n### 📦 Dependencies\n\n- [typescript][typescript-npm] - Superset for application scale JavaScript development\n- [tsx][tsx-npm] - TypeScript Execute (tsx): Enable Node.js to run TypeScript\n- [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild\n- [@types/node][@types/node-npm] - type definitions for node\n\n### 📄 Files\n\n- `.gitignore` - Ignore folders like node_modules\n- `.env` - Enviroment variables\n- `tsconfig.json` - Typescript configure Options\n\n### ⚡ Scripts\n\n- `npm run dist`: Compiles TypeScript files to JavaScript in the dist directory.\n- `npm run start:dev`: Runs the server in development mode with environment variables loaded from the .env file.\n- `npm run ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2026-07-15T00:13:37+00:00",
+        "last_at": "2026-07-15T00:22:09+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "enviando para o repositório nova foto da logo",
+          "enviando para o repositório nova foto da logo",
+          "Remove credits section from README",
+          "Update README.MD",
+          "enviando para o repositório"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 2,488 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "repo_name",
+          "detail": "'node.js' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "typescript",
+          "source": "repo_name",
+          "detail": "'typescript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "fastify in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2488,
+        "strong_skills": [
+          "nodejs",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Hype_Club._Project",
+      "full_name": "i529/Hype_Club._Project",
+      "html_url": "https://github.com/i529/Hype_Club._Project",
+      "description": "Uma agência criativa dinâmica chamada Hype Club. que se difere das demais pela sua criatividade e imaginação!",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-08-05T14:55:59Z",
+      "pushed_at": "2025-07-11T15:17:53Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12954,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "CSS": 19028,
+        "HTML": 8860,
+        "TypeScript": 8103
+      },
+      "primary_language": "CSS",
+      "file_count": 123,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "angular.json",
+        "dist",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular/animations",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@types/jasmine",
+          "jasmine-core",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "rxjs",
+          "tslib",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 713,
+      "readme_excerpt": "# HypeClub\n\nHypeClub é uma empresa fictícia, com o intuito de praticar a criação de uma landing page. Em maioria, utilizei Angular como framework e aprendi a modularizar o projeto.\n\n# Como instalar\n\nClone o repositório para a sua máquina e em sequência acesse a pasta pelo cmd, quando acessada, use npm install para que instale as depedências que foram utilizadas no projeto.\n\n# Stacks\n\n- Front End: Angular, CSS, HTML, TypeScript\n\n## Development server\n\nRode `ng serve` para rodar no servidor de desenvolvimento. Navegue para `http://localhost:4200/`. O app tem refresh automático no site para cada atualização que fizer no codigo enquanto está rodando.\n\n## Build\n\nRode `ng build` para rodar a build do projeto.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2024-07-08T23:01:05+00:00",
+        "last_at": "2025-07-11T15:17:53+00:00",
+        "active_days": 8,
+        "span_days": 367,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.643,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update package.json",
+          "Update package.json",
+          "Update package.json",
+          "Add files via upload",
+          "Delete package.json",
+          "Add files via upload",
+          "finalização da responsividade do footer",
+          "atualização de arquivos com relação a responsividade do site",
+          "atualização do projeto",
+          "Primeiro commit do projeto hype club.",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 39
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 19,028 bytes (53% of repo)",
+          "strength": 0.9286877274874275
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 8,860 bytes (25% of repo)",
+          "strength": 0.6461726542746797
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 8,103 bytes (23% of repo)",
+          "strength": 0.6251396182378928
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 35991,
+        "strong_skills": [
+          "html-css",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Job-Finder",
+      "full_name": "i529/Job-Finder",
+      "html_url": "https://github.com/i529/Job-Finder",
+      "description": "Job Finder feito no curso de javaScript onde utiliza as stacks: Bootstrap, Node.JS, ExpressJS, JavaScript, Handlebars",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-13T13:14:35Z",
+      "pushed_at": "2025-03-20T23:23:38Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 11883,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Handlebars": 7018,
+        "CSS": 4947,
+        "JavaScript": 3250
+      },
+      "primary_language": "Handlebars",
+      "file_count": 5514,
+      "top_level_paths": [
+        "app.js",
+        "db",
+        "models",
+        "node_modules",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "routes",
+        "views"
+      ],
+      "notable_files": [
+        "node_modules/@gar/promisify/package.json",
+        "node_modules/@isaacs/cliui/package.json",
+        "node_modules/@npmcli/fs/package.json",
+        "node_modules/@npmcli/move-file/package.json",
+        "node_modules/@tootallnate/once/package.json",
+        "node_modules/@types/debug/package.json",
+        "node_modules/@types/ms/package.json",
+        "node_modules/@types/node/package.json",
+        "node_modules/@types/validator/package.json",
+        "node_modules/abbrev/package.json",
+        "node_modules/accepts/package.json",
+        "node_modules/agent-base/node_modules/debug/package.json",
+        "node_modules/agent-base/node_modules/ms/package.json",
+        "node_modules/agent-base/package.json",
+        "node_modules/agentkeepalive/package.json",
+        "node_modules/aggregate-error/package.json",
+        "node_modules/ansi-regex/package.json",
+        "node_modules/ansi-styles/package.json",
+        "node_modules/anymatch/package.json",
+        "node_modules/aproba/package.json",
+        "node_modules/are-we-there-yet/package.json",
+        "node_modules/array-flatten/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/base64-js/package.json",
+        "node_modules/binary-extensions/package.json",
+        "node_modules/bindings/package.json",
+        "node_modules/bl/package.json",
+        "node_modules/body-parser/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/braces/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "body-parser",
+          "express",
+          "express-handlebars",
+          "nodemon",
+          "sequelize",
+          "sqlite3"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-03-13T13:20:48+00:00",
+        "last_at": "2025-03-20T23:23:38+00:00",
+        "active_days": 2,
+        "span_days": 7,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Delete index.html",
+          "primeiro commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3873
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,947 bytes (33% of repo)",
+          "strength": 0.7251396648044692
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,250 bytes (21% of repo)",
+          "strength": 0.6136049950706539
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (node_modules/bl/test/convert.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (node_modules/node-gyp/docs/Common-issues.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "repo_name",
+          "detail": "'expressjs' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "javascript",
+          "source": "repo_name",
+          "detail": "'javascript' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "sequelize in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8197,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "javascript",
+          "nodejs",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Exercicio-Da-Faculdade-Site-Petshop",
+      "full_name": "i529/Exercicio-Da-Faculdade-Site-Petshop",
+      "html_url": "https://github.com/i529/Exercicio-Da-Faculdade-Site-Petshop",
+      "description": "Projeto de um site feito com HTML, CSS, JavaScript e BootsTrap, sendo o Bootstrap a navbar do site.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-04-05T01:49:32Z",
+      "pushed_at": "2023-04-05T14:18:18Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 690,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 14961,
+        "CSS": 714
+      },
+      "primary_language": "HTML",
+      "file_count": 11,
+      "top_level_paths": [
+        "Atividade 1.html",
+        "PetBanho.jpg",
+        "PugMaw.jpg",
+        "PugMawbrincando.jpg",
+        "README.md",
+        "SingedCarlos.jpg",
+        "Singed_9.jpg",
+        "atividade 1 depoimentos.html",
+        "atividade 1 produtos.html",
+        "cachorro-Analise.jpg",
+        "estilo.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 371,
+      "readme_excerpt": "# Exercicio-Da-Faculdade-Site-Petshop\nProjeto de um site feito com HTML, CSS, JavaScript e BootsTrap, sendo o Bootstrap a navbar do site.\n\nProjeto onde aprendi o básico de HTML, CSS JSS e utilizei um pouco de Bootstrap, HTML para montar o esqueleto do site, CSS para formatar o mesmo, JSS para produzir algumas\ncondicionais do site e Bootstrap para implementar a navbar.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2023-04-05T14:13:04+00:00",
+        "last_at": "2023-04-05T14:18:18+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Create README.md",
+          "Commit do Site Da Faculdade"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 14,961 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "repo_name",
+          "detail": "'css' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "javascript",
+          "source": "repo_name",
+          "detail": "'javascript' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 15675,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "CSS": 51795,
+    "HTML": 50737,
+    "TypeScript": 28115,
+    "Handlebars": 7018,
+    "JavaScript": 4694
+  },
+  "total_commits": 28,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "i529/Disvet-Project",
+        "i529/Hype_Club._Project",
+        "i529/Job-Finder",
+        "i529/Exercicio-Da-Faculdade-Site-Petshop"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 101818,
+      "commit_count": 23,
+      "first_seen": "2023-04-05T14:13:04+00:00",
+      "last_seen": "2026-07-14T15:56:00+00:00",
+      "details": [
+        "Disvet-Project: CSS: 27,106 bytes (37% of repo)",
+        "Disvet-Project: HTML: 26,916 bytes (37% of repo)",
+        "Hype_Club._Project: CSS: 19,028 bytes (53% of repo)",
+        "Hype_Club._Project: HTML: 8,860 bytes (25% of repo)",
+        "Job-Finder: CSS: 4,947 bytes (33% of repo)",
+        "Exercicio-Da-Faculdade-Site-Petshop: HTML: 14,961 bytes (95% of repo)",
+        "Exercicio-Da-Faculdade-Site-Petshop: 'css' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "i529/Disvet-Project",
+        "i529/Minimal-API-Formula-1",
+        "i529/Hype_Club._Project"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 28115,
+      "commit_count": 24,
+      "first_seen": "2024-07-08T23:01:05+00:00",
+      "last_seen": "2026-07-15T00:22:09+00:00",
+      "details": [
+        "Disvet-Project: TypeScript: 17,524 bytes (24% of repo)",
+        "Minimal-API-Formula-1: TypeScript: 2,488 bytes (100% of repo)",
+        "Minimal-API-Formula-1: 'typescript' in repo name/description",
+        "Minimal-API-Formula-1: typescript in package.json",
+        "Hype_Club._Project: TypeScript: 8,103 bytes (23% of repo)",
+        "Hype_Club._Project: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "i529/Minimal-API-Formula-1",
+        "i529/Job-Finder"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2025-03-13T13:20:48+00:00",
+      "last_seen": "2026-07-15T00:22:09+00:00",
+      "details": [
+        "Minimal-API-Formula-1: 'node.js' in repo name/description",
+        "Minimal-API-Formula-1: fastify in package.json",
+        "Job-Finder: 'expressjs' in repo name/description",
+        "Job-Finder: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "i529/Disvet-Project",
+        "i529/Job-Finder"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2025-03-13T13:20:48+00:00",
+      "last_seen": "2026-07-14T15:56:00+00:00",
+      "details": [
+        "Disvet-Project: database migrations (front-end/node_modules/@schematics/angular/migrations/migration-collection.json)",
+        "Job-Finder: sequelize in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "i529/Disvet-Project",
+        "i529/Job-Finder",
+        "i529/Exercicio-Da-Faculdade-Site-Petshop"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 0.6136049950706539,
+      "total_bytes": 4694,
+      "commit_count": 9,
+      "first_seen": "2023-04-05T14:13:04+00:00",
+      "last_seen": "2026-07-14T15:56:00+00:00",
+      "details": [
+        "Disvet-Project: JavaScript: 1,444 bytes (2% of repo)",
+        "Job-Finder: JavaScript: 3,250 bytes (21% of repo)",
+        "Job-Finder: 'javascript' in repo name/description",
+        "Exercicio-Da-Faculdade-Site-Petshop: 'javascript' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "i529/Disvet-Project",
+        "i529/Job-Finder"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2025-03-13T13:20:48+00:00",
+      "last_seen": "2026-07-14T15:56:00+00:00",
+      "details": [
+        "Disvet-Project: test directory (front-end/node_modules/@angular/cli/src/commands/test/cli.d.ts)",
+        "Job-Finder: test directory (node_modules/bl/test/convert.js)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "i529/Disvet-Project",
+        "i529/Job-Finder"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2025-03-13T13:20:48+00:00",
+      "last_seen": "2026-07-14T15:56:00+00:00",
+      "details": [
+        "Disvet-Project: docs directory (front-end/node_modules/node-gyp/gyp/docs/GypVsCMake.md)",
+        "Job-Finder: docs directory (node_modules/node-gyp/docs/Common-issues.md)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "i529/Disvet-Project"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2025-07-29T22:45:27+00:00",
+      "last_seen": "2026-07-14T15:56:00+00:00",
+      "details": [
+        "Disvet-Project: e2e suite (front-end/node_modules/@angular/cli/src/commands/e2e/cli.d.ts)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "i529/Minimal-API-Formula-1"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2026-07-15T00:13:37+00:00",
+      "last_seen": "2026-07-15T00:22:09+00:00",
+      "details": [
+        "Minimal-API-Formula-1: 'c' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 28,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:15:41.884109+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

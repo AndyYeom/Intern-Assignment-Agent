@@ -1,0 +1,110 @@
+{
+  "github_login": "bilizada",
+  "applicant_id": "applicant0141",
+  "first_name": "Ilse",
+  "last_name": "Kowalczyk",
+  "career_stage": "student",
+  "email": "ilse@brindlewood.example",
+  "phone": "(555) 010-1411",
+  "location": "Brindlewood",
+  "linkedin": "linkedin.example.com/in/ilse-kowalczyk",
+  "github_url": "github.example.com/ilse-kowalczyk",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Brindlewood State University",
+    "location": "Brindlewood",
+    "degree": "Bachelor of Science",
+    "major": "Computer Engineering",
+    "minor": "Visual Arts",
+    "graduation": "May 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Distributed Systems",
+      "Intro to Interaction Design",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Gorm Txflow",
+      "organization": null,
+      "location": null,
+      "start": "Oct 2023",
+      "end": "Sep 2026",
+      "bullets": [
+        "Wrote a Go transaction manager for GORM supporting multiple propagation modes, with an automated test suite covering rollback behavior.",
+        "Kept the library's public interface small and consistent so other developers could adopt it without reading internal transaction logic."
+      ],
+      "link": null,
+      "tech": [
+        "Go"
+      ]
+    },
+    {
+      "title": "Site De Assinatura",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2024",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built a signature-collection site in HTML and CSS, redoing the form layout after early testers missed required fields."
+      ],
+      "link": null,
+      "tech": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Criandoaventura Ernani3c",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2024",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built an interactive choose-your-own-adventure web page in HTML, CSS, and JavaScript, focusing on how choices were visually presented."
+      ],
+      "link": null,
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Brindlewood Systems Guild",
+      "location": null,
+      "start": "Feb 2025",
+      "end": "Present",
+      "bullets": [
+        "After backend teammates dismissed a confusing button layout as a frontend detail, started pairing with them to test interfaces before merging.",
+        "Noticed correct backend logic still frustrated users when the interface hid what was happening, and shifted personal focus toward interface clarity."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Go"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

@@ -1,0 +1,96 @@
+{
+  "applicant_id": "applicant0096",
+  "github_login": "kotetsu123",
+  "profile_tier": "relaxed",
+  "claims_source": "resume_spec:applicant0096.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/kotetsu123/TrunBasedDemo",
+        "https://github.com/kotetsu123/adventure",
+        "https://github.com/kotetsu123/wuxingzhanji",
+        "https://github.com/kotetsu123/2D_Roguelike",
+        "https://github.com/kotetsu123/ClassProject"
+      ],
+      "repos": [
+        {
+          "repo": "kotetsu123/TrunBasedDemo",
+          "html_url": "https://github.com/kotetsu123/TrunBasedDemo",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days, documented",
+            "C#: 489,811 bytes (84% of repo)"
+          ]
+        },
+        {
+          "repo": "kotetsu123/adventure",
+          "html_url": "https://github.com/kotetsu123/adventure",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; multi_month_span, many_active_days",
+            "C#: 15,566 bytes (14% of repo)"
+          ]
+        },
+        {
+          "repo": "kotetsu123/wuxingzhanji",
+          "html_url": "https://github.com/kotetsu123/wuxingzhanji",
+          "level": 2,
+          "reasons": [
+            "intermediate: 30 commits; multi_month_span, many_active_days",
+            "C#: 863,285 bytes (89% of repo)"
+          ]
+        },
+        {
+          "repo": "kotetsu123/2D_Roguelike",
+          "html_url": "https://github.com/kotetsu123/2D_Roguelike",
+          "level": 1,
+          "reasons": [
+            "entry: 5 commits, independent-work signals: none",
+            "C#: 12,853 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "kotetsu123/ClassProject",
+          "html_url": "https://github.com/kotetsu123/ClassProject",
+          "level": 1,
+          "reasons": [
+            "entry: 11 commits, independent-work signals: many_active_days",
+            "C#: 21,694 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/kotetsu123/TrunBasedDemo"
+      ],
+      "repos": [
+        {
+          "repo": "kotetsu123/TrunBasedDemo",
+          "html_url": "https://github.com/kotetsu123/TrunBasedDemo",
+          "level": 2,
+          "reasons": [
+            "intermediate: 200 commits; multi_month_span, many_active_days, documented",
+            "docs directory (docs/BOSS_FIELD_SCENE_SETUP.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 2
+  }
+}

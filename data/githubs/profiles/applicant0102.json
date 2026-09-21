@@ -1,0 +1,1111 @@
+{
+  "applicant_id": "applicant0102",
+  "login": "Omegabird113",
+  "html_url": "https://github.com/Omegabird113",
+  "created_at": "2023-06-24T17:16:53Z",
+  "account_age_days": 1180,
+  "public_repos": 13,
+  "followers": 7,
+  "following": 15,
+  "repos": [
+    {
+      "name": "llamamod",
+      "full_name": "Omegabird113/llamamod",
+      "html_url": "https://github.com/Omegabird113/llamamod",
+      "description": "Building Blocks, Farming Items, Generation Features, Redstone Features, and much more! (Made with MCreator)",
+      "homepage": "https://omegabird113.github.io/llamamod/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-01T23:45:20Z",
+      "pushed_at": "2026-09-05T10:20:20Z",
+      "stargazers": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 39793,
+      "default_branch": "master",
+      "license": "NOASSERTION",
+      "topics": [
+        "mcreator-mod",
+        "minecraft-mod",
+        "minecraft-neoforge-mod",
+        "neoforge-mod"
+      ],
+      "languages": {
+        "Java": 1098898
+      },
+      "primary_language": "Java",
+      "file_count": 10494,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "README.md",
+        "SECURITY.md",
+        "build.gradle",
+        "documentation",
+        "elements",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "llamamod.mcreator",
+        "mcreator.gradle",
+        "mkdocs.yml",
+        "run",
+        "settings.gradle",
+        "src",
+        "updates.json"
+      ],
+      "notable_files": [
+        ".github/workflows/build.yml",
+        ".github/workflows/dependency_submission.yml",
+        ".github/workflows/documentation_deployment.yml",
+        ".github/workflows/documentation_sync.yml",
+        ".github/workflows/release.yml",
+        "build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 12481,
+      "readme_excerpt": "# LlamaBlocks\n[![Build status](https://img.shields.io/github/actions/workflow/status/Omegabird113/llamamod/build.yml)](https://github.com/Omegabird113/llamamod/actions/workflows/build.yml)\n[![License](https://img.shields.io/badge/license-GPL%203.0-brightgreen.svg)](https://github.com/Omegabird113/llamamod/blob/master/LICENSE)\n[![Modrinth Downloads](https://img.shields.io/modrinth/dt/XITt2S5x)](https://modrinth.com/mod/llamablocks)\n[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1435491)](https://www.curseforge.com/minecraft/mc-mods/llamablocks)\n[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Omegabird113/llamamod/total)](https://github.com/Omegabird113/llamamod/releases)\n\nLlamaBlocks is a complex, multi-year long development, [MCreator](https://mcreator.net) mod which adds a ton of features. These include 702 variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named Acid, and more!\n\n![This showcases Teal Bricks, White Large Tiles, Secur",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.962,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-03-25T22:48:42+00:00",
+        "last_at": "2026-09-05T10:20:20+00:00",
+        "active_days": 52,
+        "span_days": 163,
+        "max_per_day": 15,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Add [FEATURE] title prefix for feature request issue template",
+          "Disable blank issues in issue template selection",
+          "Add 1.3.2 and 1.4.0 to updates.json",
+          "Make banana plants have a cahnce of dropping XP",
+          "docs: Add more changelogs to navigation",
+          "Fix another accidental recipe unlock requirement inclusion",
+          "Fix accidental recipe unlock requirement inclusion",
+          "Update computer power output slider with random button",
+          "Fix oreintation of upgrade template recipes",
+          "Clarify warning about unofficial download sources",
+          "Fix download safety notice formatting",
+          "Add downloading safety notice",
+          "Bump version to 1.4.0",
+          "MCreator 2026.2.33518 which also bumps NeoForge to 26.1.2.95 from 26.1.2.71",
+          "Reduce Diamond Banana saturation modifier to 1.1 to try to keep it in the 20 point cap",
+          "Bump version to 1.4.0-rc.1",
+          "Migrate to Zensical (#47)",
+          "Add new tabs to mkdocs.yml navigation",
+          "Only run doc sync on Saturdays (not Wednesdays too).",
+          "Increase Banana Plant hitbox height from 12 to 13.75 pixels"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 851
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,098,898 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (documentation/README.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1098898,
+        "strong_skills": [
+          "cicd",
+          "java",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CMD_Delete",
+      "full_name": "Omegabird113/CMD_Delete",
+      "html_url": "https://github.com/Omegabird113/CMD_Delete",
+      "description": "Fix macOS text navigation shortcuts in chat/books/signs/etc + allow  custom shortcuts.",
+      "homepage": "https://omegabird113.github.io/CMD_Delete/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-06T22:13:28Z",
+      "pushed_at": "2026-09-17T01:09:50Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 13203,
+      "default_branch": "master",
+      "license": "Apache-2.0",
+      "topics": [
+        "fabric-mod",
+        "macos",
+        "minecraft-mod"
+      ],
+      "languages": {
+        "Java": 196842
+      },
+      "primary_language": "Java",
+      "file_count": 130,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".idea",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "LICENSE-header",
+        "NOTICE",
+        "README.md",
+        "SECURITY.md",
+        "build.gradle",
+        "changelog.md",
+        "common",
+        "docs",
+        "fabric",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "licenses",
+        "neoforge",
+        "settings.gradle",
+        "zensical.toml"
+      ],
+      "notable_files": [
+        ".github/workflows/dependency_submission.yml",
+        ".github/workflows/docs_deployment.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/tests.yml",
+        "build.gradle",
+        "common/build.gradle",
+        "fabric/build.gradle",
+        "neoforge/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5026,
+      "readme_excerpt": "# CMD + Delete\n\n[![Build status](https://img.shields.io/github/actions/workflow/status/Omegabird113/cmd_delete/tests.yml)](https://github.com/Omegabird113/cmd_delete/actions/workflows/tests.yml)\n[![GitHub License](https://img.shields.io/github/license/Omegabird113/cmd_delete)](https://github.com/Omegabird113/cmd_delete/blob/master/LICENSE)\n[![Modrinth Downloads](https://img.shields.io/modrinth/dt/xrOWVab9)](https://modrinth.com/mod/cmd-delete)\n[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1455987)](https://www.curseforge.com/minecraft/mc-mods/cmd-delete)\n[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Omegabird113/cmd_delete/total)](https://github.com/Omegabird113/cmd_delete/releases)\n\nIn Minecraft on macOS, pressing `option` + `backspace` deletes a single character, and pressing `command` + `backspace`\ndeletes a word. **This is completely inconsistent with the native OS**, so I fixed it...\n\nThis mod also functions as a fully configurable text editing/navigation shortcut framework for Minecraft with custom\n mappings, JSONs and sharecodes, in-game switching, and more!\n\n## Some Context\n\n1. If you use this mod on Windows or Linux",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.983,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-07-24T12:55:40+00:00",
+        "last_at": "2026-09-17T01:09:50+00:00",
+        "active_days": 33,
+        "span_days": 54,
+        "max_per_day": 35,
+        "low_effort_message_ratio": 0.01,
+        "messages_sample": [
+          "NF bump",
+          "26.3 support (#31)",
+          "SDL fix prep to stop NF 26.3 failures hopefully in tests workflow",
+          "Try newer mesa install",
+          "Use mesa & more xfvb args to try to fix tests workflow",
+          "Add .idea/modules.xml to .gitignore",
+          "A lot of code style and format fixes + code reformat + more annotations",
+          "Mark started boolean as volatile in NeoForgeClient",
+          "Remove non-needed null check from NeoForgeClient",
+          "Revert \"Used NF version bump\"",
+          "Used NF version bump",
+          "Differentiate NF/Fabric release builds better in release workflow",
+          "Run code format on .idea files & some fixes in them",
+          "Add -common suffix to common project version and jar",
+          "Update compatibility details in README",
+          "Fix test & release workflows",
+          "Run :common:build instead of just :common:test in tests.yml",
+          "Fix common build",
+          "Release 1.5.0-beta.1",
+          "Code reformat & fixes"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 54
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 0,
+          "test": 4,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 196,842 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/dependency_submission.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (common/src/test/java/io/github/omegabird113/cmd_delete/TestLoader.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/actions_list.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 196842,
+        "strong_skills": [
+          "cicd",
+          "java",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LlamaBlocks-Documentation",
+      "full_name": "Omegabird113/LlamaBlocks-Documentation",
+      "html_url": "https://github.com/Omegabird113/LlamaBlocks-Documentation",
+      "description": "The auto-synced documentation repo for LlamaBlocks (Omegabird113/llamamod)",
+      "homepage": "https://omegabird113.github.io/llamamod/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-19T22:51:56Z",
+      "pushed_at": "2026-08-22T04:27:13Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 34367,
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "topics": [
+        "documentation",
+        "markdown",
+        "mkdocs"
+      ],
+      "languages": {
+        "HTML": 53
+      },
+      "primary_language": "HTML",
+      "file_count": 78,
+      "top_level_paths": [
+        ".gitignore",
+        ".nojekyll",
+        "README.md",
+        "changelogs",
+        "development",
+        "features",
+        "google1f31befd49f39119.html",
+        "history",
+        "images",
+        "license.md",
+        "mod-license.md",
+        "page-index.md",
+        "robots.txt"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 7577,
+      "readme_excerpt": "# LlamaBlocks Documentation\n\nThis is a detailed set of player and developer documentation for LlamaBlocks hosted in its own [GitHub repository](https://github.com/Omegabird113/LlamaBlocks-Documentation/) and is synced into the `documentation` folder of the main LlamaBlocks repository and then published to its [own website](https://omegabird113.github.io/llamamod/).\n\n## The Mod Itself\n\nLlamaBlocks is a complex, multi-year long development, mod which adds a ton of features. These include `721` variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named `Acid`, and more! In April 2026, it was featured by the MCreator maintainers in their Mod of the Week program.\n\n### Where to Download\n\nYou can click any of the platform links below to see LlamaBlocks's page on that website:\n\n[![Modrinth](https://img.shields.io/badge/Modrinth-30B27B?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxNCIgdmlld0JveD0iMCAwIDU",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 166,
+        "first_at": "2026-03-19T22:51:57+00:00",
+        "last_at": "2026-08-22T01:49:40+00:00",
+        "active_days": 32,
+        "span_days": 155,
+        "max_per_day": 20,
+        "low_effort_message_ratio": 0.157,
+        "messages_sample": [
+          "1.4.0 changelog + fix to 1.3.2",
+          "Clarify safety warning",
+          "Add download safety warning to docs",
+          "Update load requirements for MCreator bump",
+          "Add v1.4.0-rc.1 changelog",
+          "Lots more typo & grammar & clarity fixes",
+          "Remove password changer unsupported blocks warning because it is mo longer accurate",
+          "Some updates & typo fixes",
+          "Update docs for 1.4.0 Beta 3",
+          "Update documentation for new updates & MCreator version",
+          "Fix index for license.md change",
+          "Internal formatting improvement + de-capitalize name of LICENSE.md",
+          "Internal format improvement in mod-license.md",
+          "Some phrasing changes in load_requirements.md",
+          "Minor README fixes",
+          "Working link in LICENSE.md",
+          "Working link in mod-license.md",
+          "1.3.2 Beta 2 header fix",
+          "Update docs for 1.3.2-beta2 w/ MCreator 2026.1 migration & SemVer versioning",
+          "Add authenticator_showcase.png to index"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 53 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "topic",
+          "detail": "repo topic 'documentation'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "repo_name",
+          "detail": "'documentation' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 53,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "cTimedTyperV1",
+      "full_name": "Omegabird113/cTimedTyperV1",
+      "html_url": "https://github.com/Omegabird113/cTimedTyperV1",
+      "description": "A C port of my Timed Typer project (I’ve only been learning C for a week so please excuse any bad code) ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-06-21T00:02:14Z",
+      "pushed_at": "2026-06-26T23:41:49Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 58,
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "topics": [
+        "c-port",
+        "c23",
+        "game",
+        "terminal-game",
+        "typing-game"
+      ],
+      "languages": {
+        "C": 14655,
+        "CMake": 306
+      },
+      "primary_language": "C",
+      "file_count": 19,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".idea",
+        "CMakeLists.txt",
+        "LICENSE",
+        "game.c",
+        "game.h",
+        "ldistance.c",
+        "ldistance.h",
+        "main.c",
+        "utils.c",
+        "utils.h",
+        "words.c",
+        "words.h"
+      ],
+      "notable_files": [
+        ".github/workflows/build.yml",
+        ".github/workflows/release.yml"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 26,
+        "first_at": "2026-06-21T00:02:19+00:00",
+        "last_at": "2026-06-26T23:41:46+00:00",
+        "active_days": 5,
+        "span_days": 5,
+        "max_per_day": 17,
+        "low_effort_message_ratio": 0.038,
+        "messages_sample": [
+          "Syntax fix",
+          "separate some functions into utils.c/h",
+          "Add LICENSE",
+          "Add a const",
+          "Undo CLion's suggestion of using auto as a type + some formatting improvements",
+          "Fix bug where the min was > max in getRoundScore() + add erroring to prevent that from happening again.",
+          "Make prompt & input pointers",
+          "Automatically determine difficulty + use fgets() everywhere to fix double-enter",
+          "Ask if ready to play at start",
+          "Ask for next round/stop + play for 255 rounds",
+          "Code reformat",
+          "Create release workflow",
+          "Add windows to build workflow",
+          "Log time limit + some linux build fixes",
+          "Hopefully fix build workflow",
+          "Create build workflow",
+          "print the time limit",
+          "Add scoring",
+          "Create ldistance.c + header",
+          "Fix segfault & input"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 14,655 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 14655,
+        "strong_skills": [
+          "c-cpp",
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Python-console-wordle-thingy",
+      "full_name": "Omegabird113/Python-console-wordle-thingy",
+      "html_url": "https://github.com/Omegabird113/Python-console-wordle-thingy",
+      "description": "Wordle, but Python",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-18T14:35:05Z",
+      "pushed_at": "2026-03-19T22:18:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 26,
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "topics": [
+        "game",
+        "python",
+        "python3",
+        "terminal",
+        "wordle-game"
+      ],
+      "languages": {
+        "Python": 8961
+      },
+      "primary_language": "Python",
+      "file_count": 6,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "LICENSE.md",
+        "game.py",
+        "main.py",
+        "words.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2026-01-18T14:35:49+00:00",
+        "last_at": "2026-03-19T22:18:03+00:00",
+        "active_days": 5,
+        "span_days": 60,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "Delete old license",
+          "Change License to Apache 2.0 from MIT",
+          "Remove improper commas in color format strings",
+          "Merge remote-tracking branch 'origin/main'",
+          "Miscellaneous Improvements",
+          "Clarity Improvements, more Type Hints, and other minor improvements",
+          "Allow guessing invalid words",
+          "Merge remote-tracking branch 'origin/main'",
+          "Minor improvements",
+          "Create LICENSE.txt",
+          "Finished implementing the game",
+          "Merge remote-tracking branch 'origin/main'",
+          "Fixed correctiveness algorithm",
+          "Create .gitignore",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 8,961 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "topic",
+          "detail": "repo topic 'python'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8961,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 1295740,
+    "C": 14655,
+    "Python": 8961,
+    "CMake": 306,
+    "HTML": 53
+  },
+  "total_commits": 607,
+  "skill_evidence": [
+    {
+      "skill_id": "java",
+      "repos": [
+        "Omegabird113/llamamod",
+        "Omegabird113/CMD_Delete"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1295740,
+      "commit_count": 400,
+      "first_seen": "2026-03-25T22:48:42+00:00",
+      "last_seen": "2026-09-17T01:09:50+00:00",
+      "details": [
+        "llamamod: Java: 1,098,898 bytes (100% of repo)",
+        "CMD_Delete: Java: 196,842 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Omegabird113/Python-console-wordle-thingy"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 8961,
+      "commit_count": 15,
+      "first_seen": "2026-01-18T14:35:49+00:00",
+      "last_seen": "2026-03-19T22:18:03+00:00",
+      "details": [
+        "Python-console-wordle-thingy: Python: 8,961 bytes (100% of repo)",
+        "Python-console-wordle-thingy: repo topic 'python'",
+        "Python-console-wordle-thingy: 'python' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Omegabird113/cTimedTyperV1"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 14655,
+      "commit_count": 26,
+      "first_seen": "2026-06-21T00:02:19+00:00",
+      "last_seen": "2026-06-26T23:41:46+00:00",
+      "details": [
+        "cTimedTyperV1: C: 14,655 bytes (98% of repo)",
+        "cTimedTyperV1: 'c' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Omegabird113/LlamaBlocks-Documentation"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 53,
+      "commit_count": 166,
+      "first_seen": "2026-03-19T22:51:57+00:00",
+      "last_seen": "2026-08-22T01:49:40+00:00",
+      "details": [
+        "LlamaBlocks-Documentation: HTML: 53 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "Omegabird113/llamamod",
+        "Omegabird113/CMD_Delete",
+        "Omegabird113/LlamaBlocks-Documentation"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 566,
+      "first_seen": "2026-03-19T22:51:57+00:00",
+      "last_seen": "2026-09-17T01:09:50+00:00",
+      "details": [
+        "llamamod: docs directory (documentation/README.md)",
+        "CMD_Delete: docs directory (docs/actions_list.md)",
+        "LlamaBlocks-Documentation: repo topic 'documentation'",
+        "LlamaBlocks-Documentation: 'documentation' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Omegabird113/llamamod",
+        "Omegabird113/CMD_Delete",
+        "Omegabird113/cTimedTyperV1"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 426,
+      "first_seen": "2026-03-25T22:48:42+00:00",
+      "last_seen": "2026-09-17T01:09:50+00:00",
+      "details": [
+        "llamamod: GitHub Actions workflow (.github/workflows/build.yml)",
+        "CMD_Delete: GitHub Actions workflow (.github/workflows/dependency_submission.yml)",
+        "cTimedTyperV1: GitHub Actions workflow (.github/workflows/build.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Omegabird113/CMD_Delete"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2026-07-24T12:55:40+00:00",
+      "last_seen": "2026-09-17T01:09:50+00:00",
+      "details": [
+        "CMD_Delete: test directory (common/src/test/java/io/github/omegabird113/cmd_delete/TestLoader.java)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 607,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:24:52.123198+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

@@ -1,0 +1,269 @@
+{
+  "applicant_id": "applicant0139",
+  "github_login": "artifishvr",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0139.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/artifishvr/SongLinker",
+        "https://github.com/artifishvr/UwuifierBot"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/SongLinker",
+          "html_url": "https://github.com/artifishvr/SongLinker",
+          "level": 3,
+          "reasons": [
+            "intermediate: 9 commits; has_ci, has_docker, multi_month_span, used_by_others, documented",
+            "advanced: others depend on it",
+            "GitHub Actions workflow (.github/workflows/deploy-image.yml)"
+          ]
+        },
+        {
+          "repo": "artifishvr/UwuifierBot",
+          "html_url": "https://github.com/artifishvr/UwuifierBot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 7 commits; has_ci, has_docker, multi_month_span, documented",
+            "GitHub Actions workflow (.github/workflows/codeql-analysis.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/artifishvr/SongLinker"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/SongLinker",
+          "html_url": "https://github.com/artifishvr/SongLinker",
+          "level": 3,
+          "reasons": [
+            "intermediate: 9 commits; has_ci, has_docker, multi_month_span, used_by_others, documented",
+            "advanced: others depend on it",
+            "sequelize in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/artifishvr/SongLinker",
+        "https://github.com/artifishvr/UwuifierBot"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/SongLinker",
+          "html_url": "https://github.com/artifishvr/SongLinker",
+          "level": 3,
+          "reasons": [
+            "intermediate: 9 commits; has_ci, has_docker, multi_month_span, used_by_others, documented",
+            "advanced: others depend on it",
+            "Dockerfile (Dockerfile)"
+          ]
+        },
+        {
+          "repo": "artifishvr/UwuifierBot",
+          "html_url": "https://github.com/artifishvr/UwuifierBot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 7 commits; has_ci, has_docker, multi_month_span, documented",
+            "Dockerfile (Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/artifishvr/tbhcreature"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/tbhcreature",
+          "html_url": "https://github.com/artifishvr/tbhcreature",
+          "level": 3,
+          "reasons": [
+            "intermediate: 24 commits; deployed, multi_month_span, many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "CSS: 1,744 bytes (42% of repo)",
+            "HTML: 1,442 bytes (35% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/artifishvr/SongLinker",
+        "https://github.com/artifishvr/tbhcreature",
+        "https://github.com/artifishvr/UwuifierBot",
+        "https://github.com/artifishvr/VideoDestroyer",
+        "https://github.com/artifishvr/blahaj"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/SongLinker",
+          "html_url": "https://github.com/artifishvr/SongLinker",
+          "level": 3,
+          "reasons": [
+            "intermediate: 9 commits; has_ci, has_docker, multi_month_span, used_by_others, documented",
+            "advanced: others depend on it",
+            "JavaScript: 7,504 bytes (98% of repo)"
+          ]
+        },
+        {
+          "repo": "artifishvr/tbhcreature",
+          "html_url": "https://github.com/artifishvr/tbhcreature",
+          "level": 3,
+          "reasons": [
+            "intermediate: 24 commits; deployed, multi_month_span, many_active_days, used_by_others",
+            "advanced: others depend on it",
+            "JavaScript: 971 bytes (23% of repo)"
+          ]
+        },
+        {
+          "repo": "artifishvr/UwuifierBot",
+          "html_url": "https://github.com/artifishvr/UwuifierBot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 7 commits; has_ci, has_docker, multi_month_span, documented",
+            "JavaScript: 22,951 bytes (99% of repo)"
+          ]
+        },
+        {
+          "repo": "artifishvr/VideoDestroyer",
+          "html_url": "https://github.com/artifishvr/VideoDestroyer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; deployed, multi_month_span, many_active_days",
+            "Svelte: 21,450 bytes (52% of repo)",
+            "JavaScript: 9,858 bytes (24% of repo)"
+          ]
+        },
+        {
+          "repo": "artifishvr/blahaj",
+          "html_url": "https://github.com/artifishvr/blahaj",
+          "level": 2,
+          "reasons": [
+            "intermediate: 64 commits; deployed, multi_month_span, many_active_days",
+            "Svelte: 14,911 bytes (81% of repo)",
+            "JavaScript: 2,895 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (5 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/artifishvr/UwuifierBot"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/UwuifierBot",
+          "html_url": "https://github.com/artifishvr/UwuifierBot",
+          "level": 2,
+          "reasons": [
+            "intermediate: 7 commits; has_ci, has_docker, multi_month_span, documented",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/artifishvr/VideoDestroyer",
+        "https://github.com/artifishvr/blahaj"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/VideoDestroyer",
+          "html_url": "https://github.com/artifishvr/VideoDestroyer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; deployed, multi_month_span, many_active_days",
+            "tailwind config (tailwind.config.ts)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "artifishvr/blahaj",
+          "html_url": "https://github.com/artifishvr/blahaj",
+          "level": 2,
+          "reasons": [
+            "intermediate: 64 commits; deployed, multi_month_span, many_active_days",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/artifishvr/VideoDestroyer"
+      ],
+      "repos": [
+        {
+          "repo": "artifishvr/VideoDestroyer",
+          "html_url": "https://github.com/artifishvr/VideoDestroyer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 35 commits; deployed, multi_month_span, many_active_days",
+            "TypeScript: 8,189 bytes (20% of repo)",
+            "typescript in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 8
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "applicant_id": "applicant0134",
+  "login": "TimoteoSantana",
+  "html_url": "https://github.com/TimoteoSantana",
+  "created_at": "2024-09-02T00:09:25Z",
+  "account_age_days": 745,
+  "public_repos": 4,
+  "followers": 2,
+  "following": 12,
+  "repos": [
+    {
+      "name": "A7-APRENDIZADO-DE-M-QUINA",
+      "full_name": "TimoteoSantana/A7-APRENDIZADO-DE-M-QUINA",
+      "html_url": "https://github.com/TimoteoSantana/A7-APRENDIZADO-DE-M-QUINA",
+      "description": "Solução de aprendizado supervisionado ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-13T03:59:48Z",
+      "pushed_at": "2026-09-17T01:14:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 330,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 261372
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 4,
+      "top_level_paths": [
+        "README.md",
+        "projeto"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 67,
+      "readme_excerpt": "# A7-APRENDIZADO-DE-M-QUINA\nSolução de aprendizado supervisionado \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-11-13T04:01:37+00:00",
+        "last_at": "2026-09-17T01:14:02+00:00",
+        "active_days": 3,
+        "span_days": 307,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Add files via upload",
+          "Criado usando o Colab",
+          "Criado usando o Colab",
+          "Criado usando o Colab",
+          "Criado usando o Colab",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 2,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 261,372 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (projeto/cd_projeto_aplicado_IV_doc._com CRONGR REF TEOR.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 261372,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Projeto-1",
+      "full_name": "TimoteoSantana/Projeto-1",
+      "html_url": "https://github.com/TimoteoSantana/Projeto-1",
+      "description": "Teste 01",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-18T02:53:44Z",
+      "pushed_at": "2025-06-12T05:23:34Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 8,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 9897
+      },
+      "primary_language": "Python",
+      "file_count": 4,
+      "top_level_paths": [
+        "Analise Exploratoriao.txt",
+        "IA deepseek MODEL",
+        "README.md",
+        "configuration_deepseek.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 43,
+      "readme_excerpt": "# Projeto-1\nTeste 01\ndocs/source/index.mdx\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2025-03-18T02:53:45+00:00",
+        "last_at": "2025-06-12T05:23:33+00:00",
+        "active_days": 3,
+        "span_days": 86,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.8,
+        "messages_sample": [
+          "Add files via upload",
+          "Create IA deepseek MODEL",
+          "Update README.md",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 9,897 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9897,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 261372,
+    "Python": 9897
+  },
+  "total_commits": 11,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "TimoteoSantana/A7-APRENDIZADO-DE-M-QUINA",
+        "TimoteoSantana/Projeto-1"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 271269,
+      "commit_count": 11,
+      "first_seen": "2025-03-18T02:53:45+00:00",
+      "last_seen": "2026-09-17T01:14:02+00:00",
+      "details": [
+        "A7-APRENDIZADO-DE-M-QUINA: Jupyter Notebook: 261,372 bytes (100% of repo)",
+        "Projeto-1: Python: 9,897 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "TimoteoSantana/A7-APRENDIZADO-DE-M-QUINA"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 6,
+      "first_seen": "2025-11-13T04:01:37+00:00",
+      "last_seen": "2026-09-17T01:14:02+00:00",
+      "details": [
+        "A7-APRENDIZADO-DE-M-QUINA: jupyter notebook (projeto/cd_projeto_aplicado_IV_doc._com CRONGR REF TEOR.ipynb)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 11,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits",
+      "distinct_skills"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3; total_commits: 11 < 20; distinct_skills: 2 < 3"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-17T01:19:36.602786+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3; total_commits: 11 < 20; distinct_skills: 2 < 3",
+    "fewer than 3 repos mined - thin evidence base"
+  ]
+}

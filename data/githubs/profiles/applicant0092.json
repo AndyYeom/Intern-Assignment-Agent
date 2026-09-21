@@ -1,0 +1,842 @@
+{
+  "applicant_id": "applicant0092",
+  "login": "thinhabc01",
+  "html_url": "https://github.com/thinhabc01",
+  "created_at": "2020-03-28T12:14:32Z",
+  "account_age_days": 2363,
+  "public_repos": 46,
+  "followers": 4,
+  "following": 12,
+  "repos": [
+    {
+      "name": "RunFromZombiesFullProject",
+      "full_name": "thinhabc01/RunFromZombiesFullProject",
+      "html_url": "https://github.com/thinhabc01/RunFromZombiesFullProject",
+      "description": "Unity | C# | 3D Game",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-04-22T09:55:29Z",
+      "pushed_at": "2026-09-06T15:30:15Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 61648,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "ShaderLab": 29096,
+        "C#": 18268
+      },
+      "primary_language": "ShaderLab",
+      "file_count": 1062,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "Assets",
+        "Builds",
+        "Packages",
+        "ProjectSettings",
+        "README.md",
+        "UserSettings",
+        "gif"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2411,
+      "readme_excerpt": "# Run From Zombies\n### Run from zombies and avoid obstacles.\n\n<p align=\"center\">\n<img src=\"/gif/runfromzombies.gif\"/>\n</p>\n\n#### Download\n<ul>\n  <li><strong><a href=\"https://leonardusoa.github.io/runfromzomzom/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">WEB</a></strong></li>\n  <li><strong><a href=\"https://drive.google.com/open?id=1uvBmY5E_QmEVHbXUQTm9RDA6CNmryacl\" target=\"_blank\" rel=\"noopener noreferrer\">WINDOWS</a></strong> (37MB)</li>\n  <li><strong><a href=\"https://github.com/leonardusoa/RunFromZombiesFullProject\" target=\"_blank\" rel=\"noopener noreferrer\">SOURCE</a></strong></li>\n</ul>\n\n#### Controls\nPress the left and right arrow keys to move forward or click left and right of the screen to move forward.\n\n#### Made By\nLeonardus Asaba(except musics, sounds, and 3d models)\n\n#### Tools Used\n<ul>\n  <li>Unity(C#)</li>\n  <li>Visual Studio</li>\n</ul>\n\n#### Font, Musics, Sounds, and 3D Models\n<ul>\n  <li>ZOMBIE(Font)</li>\n  <li><a href=\"https://assetstore.unity.com/packages/audio/sound-fx/voices/attack-jump-hit-damage-human-sounds-32785\" target=\"_blank\" rel=\"noopener noreferrer\">Attack Jump & Hit Damage Human Sounds</a></li>\n  <li><a href=\"https://assetstore.unity.com/packages",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 16
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 18,268 bytes (39% of repo)",
+          "strength": 0.7856937758635251
+        },
+        {
+          "skill_id": "csharp",
+          "source": "repo_name",
+          "detail": "'c#' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 18268,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Merge-Room",
+      "full_name": "thinhabc01/Merge-Room",
+      "html_url": "https://github.com/thinhabc01/Merge-Room",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-02T11:00:53Z",
+      "pushed_at": "2026-09-17T01:12:00Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 123971,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 4993813,
+        "ShaderLab": 289820,
+        "HLSL": 48061,
+        "Objective-C": 27511,
+        "Objective-C++": 23992,
+        "PHP": 10045,
+        "JavaScript": 4082
+      },
+      "primary_language": "C#",
+      "file_count": 7050,
+      "top_level_paths": [
+        ".gitignore",
+        ".vscode",
+        ".vsconfig",
+        "Assets",
+        "Packages",
+        "ProjectSettings"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-11-02T11:03:43+00:00",
+        "last_at": "2026-09-16T18:35:17+00:00",
+        "active_days": 2,
+        "span_days": 318,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "clear code",
+          "update dll",
+          "add demo"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1186
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 4,993,813 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 27,511 bytes (1% of repo)",
+          "strength": 0.40509715555338166
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,082 bytes (0% of repo)",
+          "strength": 0.4007563007149469
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (Assets/Feel/NiceVibrations/Plugins/iOS/LofeltHaptics.framework/Info.plist)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5025406,
+        "strong_skills": [
+          "csharp",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Impostor-Sort-Puzzle-Pro",
+      "full_name": "thinhabc01/Impostor-Sort-Puzzle-Pro",
+      "html_url": "https://github.com/thinhabc01/Impostor-Sort-Puzzle-Pro",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-02T09:49:45Z",
+      "pushed_at": "2026-09-07T17:43:25Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 23232,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 3167863,
+        "ShaderLab": 214545,
+        "HLSL": 75460
+      },
+      "primary_language": "C#",
+      "file_count": 2356,
+      "top_level_paths": [
+        ".gitignore",
+        ".vsconfig",
+        "Assets",
+        "Packages",
+        "ProjectSettings",
+        "Screenshots"
+      ],
+      "notable_files": [
+        "Assets/ThirdParties/Spine/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-11-02T09:53:33+00:00",
+        "last_at": "2026-09-07T17:42:27+00:00",
+        "active_days": 2,
+        "span_days": 309,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "update",
+          "add demo"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 469
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 3,167,863 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3167863,
+        "strong_skills": [
+          "csharp",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "UI-News-Unity",
+      "full_name": "thinhabc01/UI-News-Unity",
+      "html_url": "https://github.com/thinhabc01/UI-News-Unity",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-10-29T03:49:31Z",
+      "pushed_at": "2022-10-29T03:57:47Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3192,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 197836,
+        "ShaderLab": 80492,
+        "HLSL": 13994
+      },
+      "primary_language": "C#",
+      "file_count": 385,
+      "top_level_paths": [
+        ".gitignore",
+        "Assets",
+        "Packages",
+        "ProjectSettings",
+        "UserSettings"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2022-10-29T03:49:32+00:00",
+        "last_at": "2022-10-29T03:49:32+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 34
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 197,836 bytes (68% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 197836,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Assets-Pinner",
+      "full_name": "thinhabc01/Assets-Pinner",
+      "html_url": "https://github.com/thinhabc01/Assets-Pinner",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-06-15T10:11:09Z",
+      "pushed_at": "2024-06-17T10:21:24Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 21,
+      "default_branch": "master",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "C#": 33772
+      },
+      "primary_language": "C#",
+      "file_count": 11,
+      "top_level_paths": [
+        "Editor",
+        "Editor.meta",
+        "LICENSE",
+        "LICENSE.meta",
+        "README.md",
+        "README.md.meta",
+        "package.json",
+        "package.json.meta"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 16,
+      "readme_excerpt": "# Assets-Pinner\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.333,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-06-15T10:11:10+00:00",
+        "last_at": "2024-06-17T04:05:07+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update package.json",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 33,772 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 33772,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 8411552,
+    "ShaderLab": 613953,
+    "HLSL": 137515,
+    "Objective-C": 27511,
+    "Objective-C++": 23992,
+    "PHP": 10045,
+    "JavaScript": 4082
+  },
+  "total_commits": 9,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "thinhabc01/RunFromZombiesFullProject",
+        "thinhabc01/Merge-Room",
+        "thinhabc01/Impostor-Sort-Puzzle-Pro",
+        "thinhabc01/UI-News-Unity",
+        "thinhabc01/Assets-Pinner"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 8411552,
+      "commit_count": 9,
+      "first_seen": "2022-10-29T03:49:32+00:00",
+      "last_seen": "2026-09-16T18:35:17+00:00",
+      "details": [
+        "RunFromZombiesFullProject: C#: 18,268 bytes (39% of repo)",
+        "RunFromZombiesFullProject: 'c#' in repo name/description",
+        "Merge-Room: C#: 4,993,813 bytes (93% of repo)",
+        "Impostor-Sort-Puzzle-Pro: C#: 3,167,863 bytes (92% of repo)",
+        "UI-News-Unity: C#: 197,836 bytes (68% of repo)",
+        "Assets-Pinner: C#: 33,772 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "thinhabc01/Merge-Room",
+        "thinhabc01/Impostor-Sort-Puzzle-Pro"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 27511,
+      "commit_count": 5,
+      "first_seen": "2025-11-02T09:53:33+00:00",
+      "last_seen": "2026-09-16T18:35:17+00:00",
+      "details": [
+        "Merge-Room: Objective-C: 27,511 bytes (1% of repo)",
+        "Merge-Room: iOS project (Assets/Feel/NiceVibrations/Plugins/iOS/LofeltHaptics.framework/Info.plist)",
+        "Impostor-Sort-Puzzle-Pro: Android app manifest (Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "thinhabc01/Merge-Room"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4007563007149469,
+      "total_bytes": 4082,
+      "commit_count": 3,
+      "first_seen": "2025-11-02T11:03:43+00:00",
+      "last_seen": "2026-09-16T18:35:17+00:00",
+      "details": [
+        "Merge-Room: JavaScript: 4,082 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 9,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 2,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "total_commits",
+      "distinct_skills"
+    ],
+    "reason": "total_commits: 9 < 20; distinct_skills: 2 < 3"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:35:14.759249+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - total_commits: 9 < 20; distinct_skills: 2 < 3"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "github_login": "jainharsh644",
+  "applicant_id": "applicant0006",
+  "first_name": "Naledi",
+  "last_name": "Mokoena",
+  "career_stage": "student",
+  "email": "naledi@thornfield.example",
+  "phone": "(555) 010-0106",
+  "location": "Thornfield",
+  "linkedin": null,
+  "github_url": "github.example.com/naledi-mokoena",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Thornfield University",
+    "location": "Thornfield",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Science, Technology, and Policy",
+    "graduation": "May 2028",
+    "gpa": null,
+    "coursework": [
+      "Intro to Machine Learning",
+      "Data Ethics",
+      "Systems Fundamentals"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "EDA Red Wine Quality",
+      "organization": null,
+      "location": null,
+      "start": "May 2021",
+      "end": "Jan 2023",
+      "bullets": [
+        "Ran exploratory analysis on a red wine quality dataset in Jupyter, using pandas and matplotlib to inspect feature distributions.",
+        "Logged evaluation metrics with Prometheus while testing a small Keras model, prompting questions about what normal metric behavior looked like."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "pandas",
+        "matplotlib",
+        "Keras",
+        "Prometheus"
+      ]
+    },
+    {
+      "title": "Tutorial Feature Engineering In ML",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2021",
+      "end": "Sep 2021",
+      "bullets": [
+        "Worked through feature engineering techniques in Jupyter Notebook, documenting each transformation's effect on a sample dataset across 22 files."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "title": "Tutorial Pymongo",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2021",
+      "end": "Jan 2023",
+      "bullets": [
+        "Practiced MongoDB operations from Python in a Jupyter notebook, building small scripts to insert, query and update sample records."
+      ],
+      "link": null,
+      "tech": [
+        "Jupyter Notebook",
+        "MongoDB"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Discussion Facilitator",
+      "organization": "Thornfield Data Ethics Reading Group",
+      "location": null,
+      "start": "Sep 2022",
+      "end": "Jan 2023",
+      "bullets": [
+        "Noticed classmates trusted model outputs without questioning input data quality, so proposed a recurring discussion on dataset reliability.",
+        "Facilitated sessions comparing how small data or metric errors could mislead a system meant to catch anomalies."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "JavaScript"
+    ],
+    "Backend": [
+      "Flask/FastAPI"
+    ],
+    "Data": [
+      "Data Analysis (pandas)",
+      "Data Visualization"
+    ],
+    "AI/ML": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "DevOps": [
+      "Monitoring & Logging"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

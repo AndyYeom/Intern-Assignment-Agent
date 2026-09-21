@@ -1,0 +1,100 @@
+{
+  "github_login": "stevensolleder",
+  "applicant_id": "applicant0041",
+  "first_name": "Owen",
+  "last_name": "Castellan",
+  "career_stage": "student",
+  "email": "owen@corvaleview.example",
+  "phone": "(555) 010-0141",
+  "location": "Milbrook",
+  "linkedin": "linkedin.example.com/in/owen-castellan",
+  "github_url": "github.example.com/owen-castellan",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Corvale University",
+    "location": "Milbrook",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "June 2026",
+    "gpa": null,
+    "coursework": [
+      "Software Testing",
+      "Object-Oriented Design",
+      "Data Structures"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "PersistentObjectStorage",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2021",
+      "end": "Mar 2022",
+      "bullets": [
+        "Built a Java library for persisting objects to a per-user folder, including first-run detection logic.",
+        "Added an automated test suite after an edge case in first-run detection surfaced during manual testing."
+      ],
+      "link": null,
+      "tech": [
+        "Java"
+      ]
+    },
+    {
+      "title": "FileHashComparator",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2024",
+      "end": "Dec 2024",
+      "bullets": [
+        "Wrote a Swift command-line tool that generates file hashes and compares them to flag differences.",
+        "Organized the 15-file project to separate hashing from comparison logic, aiding manual verification."
+      ],
+      "link": null,
+      "tech": [
+        "Swift"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Debugging Volunteer",
+      "organization": "Corvale Campus Coding Help Desk",
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Present",
+      "bullets": [
+        "Noticed peers' bug reports often lacked steps to reproduce failures, making issues hard to confirm.",
+        "Introduced a short reporting checklist covering environment, steps, and expected versus actual behavior.",
+        "Found that clearer reports cut back-and-forth with peers, and started writing tests instead of one-off fixes."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "Java",
+      "Python"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

@@ -1,0 +1,911 @@
+{
+  "applicant_id": "applicant0149",
+  "login": "rapaglaz",
+  "html_url": "https://github.com/rapaglaz",
+  "created_at": "2022-11-05T10:08:05Z",
+  "account_age_days": 1411,
+  "public_repos": 4,
+  "followers": 1,
+  "following": 1,
+  "repos": [
+    {
+      "name": "rapaglaz-portfolio",
+      "full_name": "rapaglaz/rapaglaz-portfolio",
+      "html_url": "https://github.com/rapaglaz/rapaglaz-portfolio",
+      "description": "Portfolio built with Angular 22, featuring zoneless change detection, i18n, and Cloudflare Workers integration",
+      "homepage": "https://rapaglaz.de",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-14T01:33:37Z",
+      "pushed_at": "2026-09-17T01:14:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 3836,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "angular",
+        "playwright",
+        "tailwindcss",
+        "transloco",
+        "vitest"
+      ],
+      "languages": {
+        "TypeScript": 136111,
+        "HTML": 13819,
+        "CSS": 9992,
+        "JavaScript": 5156
+      },
+      "primary_language": "TypeScript",
+      "file_count": 146,
+      "top_level_paths": [
+        ".editorconfig",
+        ".github",
+        ".gitignore",
+        ".lintstagedrc.json",
+        ".npmrc",
+        ".nvmrc",
+        ".postcssrc.json",
+        ".prettierignore",
+        ".prettierrc",
+        ".vscode",
+        "AGENTS.md",
+        "LICENCE.md",
+        "README.md",
+        "angular.json",
+        "commitlint.config.cjs",
+        "docs",
+        "e2e",
+        "eslint.config.mjs",
+        "lefthook.yml",
+        "package.json",
+        "playwright.config.ts",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "public",
+        "renovate.json",
+        "sonar-project.properties",
+        "src",
+        "transloco.config.ts",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.spec.json",
+        "vitest.config.ts"
+      ],
+      "notable_files": [
+        ".github/workflows/main-branch-ci-cd.yaml",
+        ".github/workflows/pull-request-checks.yaml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-eslint/builder",
+          "@angular-eslint/eslint-plugin",
+          "@angular-eslint/eslint-plugin-template",
+          "@angular-eslint/template-parser",
+          "@angular/build",
+          "@angular/cdk",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/platform-browser",
+          "@angular/platform-server",
+          "@angular/router",
+          "@angular/ssr",
+          "@axe-core/playwright",
+          "@commitlint/cli",
+          "@commitlint/config-conventional",
+          "@eslint/js",
+          "@fontsource/inter",
+          "@fontsource/manrope",
+          "@jsverse/transloco",
+          "@jsverse/transloco-keys-manager",
+          "@jsverse/transloco-utils",
+          "@jsverse/transloco-validator",
+          "@playwright/test",
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@vitest/coverage-v8",
+          "@vitest/ui",
+          "angular-eslint",
+          "daisyui",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-plugin-prettier",
+          "jsdom",
+          "lefthook",
+          "lighthouse",
+          "lint-staged",
+          "playwright-ng-schematics",
+          "postcss",
+          "prettier",
+          "prettier-plugin-organize-imports",
+          "prettier-plugin-tailwindcss",
+          "rxjs",
+          "serve",
+          "tailwindcss",
+          "tslib",
+          "typescript",
+          "typescript-eslint",
+          "valibot",
+          "vitest"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 918,
+      "readme_excerpt": "# Paul Glaz Portfolio\n\nPersonal portfolio site. Small app, mostly static sections.\n\nBuilt with Angular 22, standalone components, signals, no Zone.js. Static build with hydration.\n\n## What’s inside\n\n- Angular 22 (standalone, signals, OnPush)\n- Zoneless setup (no `zone.js` dependency)\n- Static build (SSG via `outputMode: static`) + client hydration\n- Transloco i18n (runtime switch, JSON in `public/i18n`)\n- Locale routes: `/en` and `/de`, root uses the default language\n- CV download flow: Turnstile -> Worker -> signed R2 URL\n- Feature flag for “Open to Work” (Worker + KV)\n- Unit tests with Vitest, E2E with Playwright + axe\n- Tailwind CSS 4 + DaisyUI + small custom CSS\n- CI/CD with GitHub Actions\n\n## Docs\n\n- [Architecture](./docs/ARCHITECTURE.md)\n- [CI/CD strategy](./docs/CI_STRATEGY.md)\n- [Security notes](./docs/SECURITY.md)\n- [Local setup](./docs/SETUP.md)\n\n## Licence\n\nMIT. See [LICENCE.md](./LICENCE.md).\n",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.276,
+      "commits": {
+        "count": 189,
+        "first_at": "2025-11-17T21:02:28+00:00",
+        "last_at": "2026-09-16T13:18:32+00:00",
+        "active_days": 54,
+        "span_days": 302,
+        "max_per_day": 17,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(hero): update hero name to Radoslaw Glaz (#682)",
+          "refactor(ci): merge deploy into main branch CI/CD pipeline (#663)",
+          "fix(ci): make lighthouse result formatting resilient to null scores (#664)",
+          "ci: deploy FTP directly without retry wrapper (#662)",
+          "chore(dependencies): update angular dependencies to 22.1.x (#623)",
+          "chore(hero): adjust animation timing for hero elements (#606)",
+          "feat(navbar): enhance fade-in animation timing (#605)",
+          "feat(navbar): add fade-in animation to navbar (#604)",
+          "Merge pull request #598 from rapaglaz/renovate/pin-dependencies",
+          "fix(deploy): retry FTP deployment on failure (#597)",
+          "feat(tests): add vitest UI and watch mode commands (#596)",
+          "chore(deps): update node and pnpm versions (#590)",
+          "chore(deps): adjust version ranges for low-risk dependencies (#589)",
+          "feat(skills): add ngrx to skills list (#588)",
+          "fix(ci): require e2e-tests in quality-check gate (#587)",
+          "chore(de): update hero description (#586)",
+          "chore(en): update English profile translations (#585)",
+          "chore(de): update German profile translations (#584)",
+          "Merge pull request #529 from rapaglaz/renovate/commitlint",
+          "fix(footer): unify social icon sizes and style (#515)"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 103
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 0,
+          "refactor": 1,
+          "test": 2,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 136,111 bytes (82% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 13,819 bytes (8% of repo)",
+          "strength": 0.4837119422333685
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 9,992 bytes (6% of repo)",
+          "strength": 0.46052896206641714
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 5,156 bytes (3% of repo)",
+          "strength": 0.4312337198172985
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (.github/actions/e2e/action.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/main-branch-ci-cd.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/ARCHITECTURE.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (e2e/accessibility.spec.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "topic",
+          "detail": "repo topic 'playwright'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "topic",
+          "detail": "repo topic 'tailwindcss'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "@axe-core/playwright in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "manifest",
+          "detail": "@playwright/test in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "vitest in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 165078,
+        "strong_skills": [
+          "cicd",
+          "integration-testing",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "own-dark-001",
+      "full_name": "rapaglaz/own-dark-001",
+      "html_url": "https://github.com/rapaglaz/own-dark-001",
+      "description": "A sleek, minimalist dark theme, designed for clarity and comfort.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-13T18:05:43Z",
+      "pushed_at": "2026-09-16T21:54:40Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 37531,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 2992
+      },
+      "primary_language": "JavaScript",
+      "file_count": 26,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".lintstagedrc.js",
+        ".prettierignore",
+        ".prettierrc",
+        ".vscodeignore",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "commitlint.config.js",
+        "images",
+        "lefthook.yml",
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "release.config.js",
+        "renovate.json",
+        "screenshots",
+        "themes"
+      ],
+      "notable_files": [
+        ".github/workflows/release.yml",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@commitlint/cli",
+          "@commitlint/config-conventional",
+          "@semantic-release/changelog",
+          "@semantic-release/commit-analyzer",
+          "@semantic-release/git",
+          "@semantic-release/github",
+          "@semantic-release/npm",
+          "@vscode/vsce",
+          "conventional-changelog-conventionalcommits",
+          "lefthook",
+          "lint-staged",
+          "prettier",
+          "semantic-release",
+          "semantic-release-vsce"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 821,
+      "readme_excerpt": "# Own Dark 001\n\nA calm dark theme built for daily work.\nCool blue-grey UI, pastel syntax highlighting, low visual noise.\n\n## Install\n\n[VS Code Marketplace →](https://marketplace.visualstudio.com/items?itemName=own-themes.own-dark-001)\n\n## Screenshots\n\n##### TypeScript\n\n![TypeScript](https://github.com/rapaglaz/own-dark-001/blob/main/screenshots/screenshot-60.png?raw=true)\n\n##### HTML\n\n![HTML](https://github.com/rapaglaz/own-dark-001/blob/main/screenshots/screenshot-61.png?raw=true)\n\n##### CSS\n\n![CSS](https://github.com/rapaglaz/own-dark-001/blob/main/screenshots/screenshot-62.png?raw=true)\n\n##### JSON\n\n![JSON](https://github.com/rapaglaz/own-dark-001/blob/main/screenshots/screenshot-63.png?raw=true)\n\n##### YAML\n\n![JSON](https://github.com/rapaglaz/own-dark-001/blob/main/screenshots/screenshot-64.png?raw=true)\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.284,
+      "commits": {
+        "count": 120,
+        "first_at": "2025-05-13T18:03:33+00:00",
+        "last_at": "2026-09-02T20:18:12+00:00",
+        "active_days": 38,
+        "span_days": 477,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "style(breadcrumbs): improve colors",
+          "fix(release): trigger republish with corrected changelog",
+          "chore(release): revert conventional-changelog-conventionalcommits to 9.3.1 (#281)",
+          "chore(release): force conventional-changelog-writer@9 to fix semantic-release (#279)",
+          "style(theme): update bracket highlight and indent guide colors",
+          "chore: add CODEOWNERS file for repository ownership (#255)",
+          "style(theme): adjust editor line highlight border color",
+          "fix(theme): restore blue hue to 'storage.modifier' and darken comments",
+          "style(theme): recede modifiers, split cyan roles, and tune type palette",
+          "fix(theme): lift ansiBlack off terminal background and unify method color with function color",
+          "docs(screenshots): update screenshots",
+          "style(theme): consolidate type tokens, deepen methods, and lift numeric color",
+          "style(theme): update line highlight colors",
+          "style(theme): tune selection and line-number contrast",
+          "style(theme): rebalance token contrast and lift dim UI values",
+          "style(theme): tune comment colors to neutral gray palette",
+          "style(theme): consolidate blue palette and fix symbol icon colors",
+          "style(theme): improve contrast for cursor, line highlight, and storage.modifier",
+          "style(theme): tune string color to #43a083",
+          "style(theme): tune keyword, modifier, constant and tag token colors"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 1
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,992 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/release.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2992,
+        "strong_skills": [
+          "cicd",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "own-nvim-001",
+      "full_name": "rapaglaz/own-nvim-001",
+      "html_url": "https://github.com/rapaglaz/own-nvim-001",
+      "description": "Neovim config.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-01T03:06:32Z",
+      "pushed_at": "2026-06-07T20:01:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 148,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Lua": 72717
+      },
+      "primary_language": "Lua",
+      "file_count": 41,
+      "top_level_paths": [
+        ".gitignore",
+        ".luarc.json",
+        "LICENSE.md",
+        "README.md",
+        "init.lua",
+        "lazy-lock.json",
+        "lua",
+        "stylua.toml"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 541,
+      "readme_excerpt": "# My Neovim Config\n\nPersonal setup for coding and scripting. Nothing fancy, just what I need.\n\n## Requirements\n\n- Neovim 0.11+\n- Node 22+\n- `git`, `ripgrep`, `fd`\n\n## Installation\n\nClone the repo:\n\n```sh\ngit clone https://github.com/rapaglaz/own-nvim-001 ~/.config/nvim\n```\n\nStart Neovim:\n\n```sh\nnvim\n```\n\nPlugins install automatically on first run. Takes a minute or two.\n\nAfter plugins are installed, run the following command inside Neovim to install all LSP servers, formatters, and linters:\n\n```\n:MasonToolsInstall\n```\n\n---\n\nThat's it.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 88,
+        "first_at": "2025-06-01T03:06:00+00:00",
+        "last_at": "2026-06-07T20:01:01+00:00",
+        "active_days": 22,
+        "span_days": 371,
+        "max_per_day": 20,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat(lsp): add SchemaStore.nvim for JSON and YAML schema validation (#53)",
+          "refactor(lsp): defer to nvim 0.10-0.12 built-in LSP defaults (#52)",
+          "chore: remove Comment.nvim plugin (#50)",
+          "fix: replace deprecated vim.lsp.set_log_level() (#51)",
+          "chore(treesitter): remove 'apache' from the list of languages",
+          "refactor: use nvim 0.11 virtual_lines for current-line diagnostics (#49)",
+          "feat(lsp): add haskell-language-server configuration (#48)",
+          "chore: update lazy-lock.json",
+          "feat(treesitter): add additional parsers and filetype mappings (#47)",
+          "chore(lsp): enable dynamic registration for watched files (#46)",
+          "chore: disable legacy remote providers for Lua config (#45)",
+          "feat(filetypes): add custom filetype detection for templates (#44)",
+          "chore: replace nvim-web-devicons with mini.icons (#43)",
+          "chore: disable vertical and horizontal scrolling in editor (#42)",
+          "docs(README): update LSP installation command and instructions (#41)",
+          "Remove peek.nvim plugin (#40)",
+          "fix: remove redundant fileencoding option and fix tree-sitter-cli mason package name (#39)",
+          "fix: use catppuccin-nvim theme name in lazy and lualine config (#38)",
+          "feat(neotree): float window + smart VCS root + S-F12 panel binding (#36)",
+          "treesitter: trim parser list and disable lazy loading (#37)"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 35
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 2,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 136111,
+    "Lua": 72717,
+    "HTML": 13819,
+    "CSS": 9992,
+    "JavaScript": 8148
+  },
+  "total_commits": 397,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio",
+        "rapaglaz/own-dark-001"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 8148,
+      "commit_count": 309,
+      "first_seen": "2025-05-13T18:03:33+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: JavaScript: 5,156 bytes (3% of repo)",
+        "own-dark-001: JavaScript: 2,992 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 136111,
+      "commit_count": 189,
+      "first_seen": "2025-11-17T21:02:28+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: TypeScript: 136,111 bytes (82% of repo)",
+        "rapaglaz-portfolio: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "topic",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 189,
+      "first_seen": "2025-11-17T21:02:28+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: e2e suite (.github/actions/e2e/action.yaml)",
+        "rapaglaz-portfolio: repo topic 'playwright'",
+        "rapaglaz-portfolio: @playwright/test in package.json"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 189,
+      "first_seen": "2025-11-17T21:02:28+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: test file (e2e/accessibility.spec.ts)",
+        "rapaglaz-portfolio: vitest in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 189,
+      "first_seen": "2025-11-17T21:02:28+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: repo topic 'tailwindcss'",
+        "rapaglaz-portfolio: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 189,
+      "first_seen": "2025-11-17T21:02:28+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: @axe-core/playwright in package.json"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio",
+        "rapaglaz/own-dark-001"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 309,
+      "first_seen": "2025-05-13T18:03:33+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: GitHub Actions workflow (.github/workflows/main-branch-ci-cd.yaml)",
+        "own-dark-001: GitHub Actions workflow (.github/workflows/release.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 189,
+      "first_seen": "2025-11-17T21:02:28+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: docs directory (docs/ARCHITECTURE.md)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "rapaglaz/rapaglaz-portfolio"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4837119422333685,
+      "total_bytes": 23811,
+      "commit_count": 189,
+      "first_seen": "2025-11-17T21:02:28+00:00",
+      "last_seen": "2026-09-16T13:18:32+00:00",
+      "details": [
+        "rapaglaz-portfolio: HTML: 13,819 bytes (8% of repo)",
+        "rapaglaz-portfolio: CSS: 9,992 bytes (6% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 397,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:22:45.878880+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "github_login": "SooyAldahir",
+  "applicant_id": "applicant0125",
+  "first_name": "Selin",
+  "last_name": "Aksoy",
+  "career_stage": "student",
+  "email": "selin@cinderbrook.example",
+  "phone": "(555) 011-6224",
+  "location": "Ferrous Hill",
+  "linkedin": "linkedin.example.com/in/selin-aksoy",
+  "github_url": "github.example.com/applicant0125",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Cinderbrook Institute",
+    "location": "Ferrous Hill",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Business Administration",
+    "graduation": "June 2028",
+    "gpa": "3.65/4.0",
+    "coursework": [
+      "Human-Computer Interaction",
+      "Intro to Product Management",
+      "Databases"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Appediback",
+      "organization": null,
+      "location": null,
+      "start": "Oct 2025",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built a Node.js backend with JWT authentication and bcrypt password hashing, connecting to a TSQL database for the Appedi application."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "TSQL"
+      ]
+    },
+    {
+      "title": "Appedifront",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built the companion Flutter front end in Dart and C++, aligning UI flows with the backend's authentication endpoints."
+      ],
+      "link": null,
+      "tech": [
+        "Dart",
+        "C++",
+        "CMake",
+        "Swift"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Feature Planning Volunteer",
+      "organization": "Ferrous Hill App Collective",
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Present",
+      "bullets": [
+        "When teammates disagreed on login error messages, drafted a table mapping backend auth codes to plain-language user feedback.",
+        "Enjoyed reconciling what the authentication system actually allowed with what the interface promised users more than writing new endpoints."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "C/C++",
+      "SQL"
+    ],
+    "Backend": [
+      "Node.js",
+      "Authentication & Authorization"
+    ],
+    "DevOps": [
+      "GCP/Azure"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Flutter",
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

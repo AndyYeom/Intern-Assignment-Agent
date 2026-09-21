@@ -1,0 +1,1073 @@
+{
+  "applicant_id": "applicant0063",
+  "login": "GenshinMinecraft",
+  "html_url": "https://github.com/GenshinMinecraft",
+  "created_at": "2020-07-29T23:40:35Z",
+  "account_age_days": 2240,
+  "public_repos": 29,
+  "followers": 35,
+  "following": 14,
+  "repos": [
+    {
+      "name": "Feishin-for-CF-Pages",
+      "full_name": "GenshinMinecraft/Feishin-for-CF-Pages",
+      "html_url": "https://github.com/GenshinMinecraft/Feishin-for-CF-Pages",
+      "description": "将 Feishin 部署在 Cloudflare Pages 上",
+      "homepage": "https://feishin-for-cf-pages.pages.dev",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-08-30T11:10:05Z",
+      "pushed_at": "2024-10-05T10:52:06Z",
+      "stargazers": 37,
+      "forks": 71,
+      "open_issues": 4,
+      "size_kb": 7863,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "cloudflare",
+        "cloudflare-pages",
+        "jellyfin",
+        "jellyfin-client",
+        "jellyfin-web",
+        "music-library",
+        "music-player",
+        "navidrome",
+        "navidrome-client"
+      ],
+      "languages": {
+        "HTML": 734
+      },
+      "primary_language": "HTML",
+      "file_count": 79,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "Readme.md",
+        "static"
+      ],
+      "notable_files": [
+        ".github/workflows/build.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 266,
+      "readme_excerpt": "# Feishin-for-CF-Pages\n\n本项目提供了将 [Feishin](https://github.com/jeffvli/feishin) 部署在 Cloudflare Pages 上的一种方法\n\n详细部署教程: https://blog.highp.ing/p/feishin-for-cfpages/\n\n感谢:\n- https://github.com/jeffvli/feishin\n- Cloudflare\n\n如果需要构建一个新的 static，仅需随意开启一个 Issue 即可触发 Workflows\n\n",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.5,
+      "commits": {
+        "count": 2,
+        "first_at": "2024-09-07T00:36:20+00:00",
+        "last_at": "2024-09-07T00:39:18+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Sat Sep  7 00:39:18 UTC 2024",
+          "commit message"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 32
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 734 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 734,
+        "strong_skills": [
+          "cicd",
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "komari-monitor-rs",
+      "full_name": "GenshinMinecraft/komari-monitor-rs",
+      "html_url": "https://github.com/GenshinMinecraft/komari-monitor-rs",
+      "description": "Komari Monitor Agent in Rust",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-01T09:24:29Z",
+      "pushed_at": "2026-02-06T14:40:24Z",
+      "stargazers": 131,
+      "forks": 21,
+      "open_issues": 3,
+      "size_kb": 229,
+      "default_branch": "main",
+      "license": "WTFPL",
+      "topics": [],
+      "languages": {
+        "Rust": 110700,
+        "Nix": 5231,
+        "Shell": 195
+      },
+      "primary_language": "Rust",
+      "file_count": 35,
+      "top_level_paths": [
+        ".envrc",
+        ".github",
+        ".gitignore",
+        ".idea",
+        "Cargo.lock",
+        "Cargo.toml",
+        "LICENSE",
+        "README.md",
+        "build.rs",
+        "flake.lock",
+        "flake.nix",
+        "install.sh",
+        "src"
+      ],
+      "notable_files": [
+        ".github/workflows/build.yaml",
+        "Cargo.toml"
+      ],
+      "manifests": {
+        "Cargo.toml": [
+          "authors",
+          "codegen-units",
+          "curl",
+          "debug",
+          "debug-assertions",
+          "description",
+          "edition",
+          "futures",
+          "heim-virt",
+          "icmp-socket",
+          "incremental",
+          "libc",
+          "license",
+          "log",
+          "lto",
+          "minimal",
+          "miniserde",
+          "name",
+          "netstat2",
+          "nyquest",
+          "nyquest-backend-curl",
+          "nyquest-preset",
+          "nyquest-support",
+          "opt-level",
+          "overflow-checks",
+          "palc",
+          "panic",
+          "portable-pty",
+          "raw-cpuid",
+          "repository",
+          "rpath",
+          "rustls",
+          "rustls-ffi",
+          "rustls-pki-types",
+          "simple_logger",
+          "sysinfo",
+          "thunk-rs",
+          "time",
+          "tokio",
+          "tokio-tungstenite",
+          "ureq",
+          "ureq-support",
+          "url",
+          "version",
+          "win-toast-notify",
+          "winxp-support"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 7576,
+      "readme_excerpt": "# Komari-Monitor-rs\n\n![](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Frsbench%2Frsbench&label=&icon=github&color=%23160d27)\n![komari-monitor-rs](https://socialify.git.ci/GenshinMinecraft/komari-monitor-rs/image?custom_description=Komari+%E7%AC%AC%E4%B8%89%E6%96%B9+Agent+%7C+%E9%AB%98%E6%80%A7%E8%83%BD&description=1&font=KoHo&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Auto)\n\n## About\n\n`Komari-Monitor-rs` 是一个适用于 [komari-monitor](https://github.com/komari-monitor) 监控服务的第三方**高性能**监控\nAgent\n\n致力于实现[原版 Agent](https://github.com/komari-monitor/komari-agent) 的所有功能，并拓展更多功能\n\n## 近期更新\n\n### Windows Toast Notify\n\n由于安全性问题，现在默认情况下在 Windows 系统下运行时会发送 Windows 系统 Toast 通知，内容为:\n\n```\nKomari-monitor-rs Is Running!\nKomari-monitor-rs is an application used to monitor your system, granting it near-complete access to your computer. If you did not actively install this program, please check your system immediately. If you have intentionally used this software on your system, please ignore this message or add `--disable-toast-notify` to your startup parameters.\n```\n\n可以通过 `--disable-toast-notify` 参数关闭\n\n### Dry Run 支持\n\n现在可以不提供任何参数，仅提供 `--dry-run` ",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 8,
+      "contribution_share": 0.862,
+      "commits": {
+        "count": 119,
+        "first_at": "2025-07-01T09:24:46+00:00",
+        "last_at": "2026-02-06T14:40:24+00:00",
+        "active_days": 43,
+        "span_days": 220,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #25 from guodonn01/main",
+          "Merge pull request #23 from guodonn01/main",
+          "refactor(command_parser): 移除未使用的退出函数导入",
+          "Merge remote-tracking branch 'origin/main'",
+          "fix(network): 修复网络统计功能在无权限时的崩溃问题",
+          "Merge pull request #21 from LZYxiaobai/main",
+          "refactor(get_info): 重构IP获取和磁盘过滤逻辑",
+          "fix(network): 优化网络信息保存逻辑",
+          "feat(network): 添加网络启动ID支持并优化数据持久化",
+          "feat(network): 添加网络启动ID支持并优化数据持久化",
+          "docs(readme): 更新 README 文档内容与使用说明",
+          "feat(windows): 添加 Windows Toast 通知功能",
+          "fix(network): 修复网络流量统计方向错误",
+          "Merge pull request #19 from BlacK201/dev",
+          "feat(cli): 添加命令行参数和连接URL的显示实现",
+          "feat(network): 改进网络统计功能",
+          "refactor(network): 优化网络流量统计逻辑并改进错误处理",
+          "feat(monitor): 支持 dry-run 模式预览监控设备",
+          "chore(ci): 更新Windows构建产物名称",
+          "feat(cli): 添加dry-run模式和网络接口过滤"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 3,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/build.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "repo_name",
+          "detail": "'agent' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 195,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Cloudflare-Workers-Ai-Telegram-Bot",
+      "full_name": "GenshinMinecraft/Cloudflare-Workers-Ai-Telegram-Bot",
+      "html_url": "https://github.com/GenshinMinecraft/Cloudflare-Workers-Ai-Telegram-Bot",
+      "description": "一个很简单很简单的 Telegram AI Bot，基于 Python + Cloudflare Workers AI API",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-04-27T04:07:49Z",
+      "pushed_at": "2024-06-25T15:58:09Z",
+      "stargazers": 45,
+      "forks": 5,
+      "open_issues": 0,
+      "size_kb": 23,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Python": 6663
+      },
+      "primary_language": "Python",
+      "file_count": 3,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "main.py"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 993,
+      "readme_excerpt": "# Cloudflare-Workers-Ai-Telegram-Bot\n\n## 该项目已经停止开发，如需继续使用更好的服务请移步 [Rust 版本](https://github.com/GenshinMinecraft/Rust-Cloudflare-Workers-AI-Telegram-Bot)\n\n一个很简单很简单的 Telegram AI Bot，基于 Python + Cloudflare Workers AI API\n\n没有技术含量，可在 [这里](https://developers.cloudflare.com/workers-ai/models/)查看支持的模型\n\n需要配置项: \n- ACCOUNT_ID = Cloudflare 的 Account ID，最简单的获取方式就是打开 Cloudflare Dash，URL 中的那串就是，比如 `41810b51b9f7521da5fea96d12xxxxxx`\n- AUTH_TOKEN = [这里](https://dash.cloudflare.com/profile/api-tokens)获取，最好不要使用 Global API\n- Chat_MODEL = 对话使用的大模型，默认是阿里云的通义千问，可以在[这里](https://developers.cloudflare.com/workers-ai/models/)查看支持的模型，更改即可，非必要无需更改\n- Image_MODEL = 绘图使用的大模型，非必要无需更改\n- Audio2Text_MODEL = 语音识别使用的大模型，非必要无需更改 (该功能尚未完工)\n- Telegram_Bot_Token = Telegram 的 Bot Token\n- ADMIN_ID = Telegram 管理员 ID\n\nPS: 目前所用模型都是 Beta，Beta 模型限时免费，所以你可以随便用而不用担心付费\n\n使用方法: 通过 `/start` 查看\n请勿在使用命令时使用 `/start@xxxbot` 这种类型，目前尚未适配，请直接使用 `/start`\n\nDemo Bot: <https://t.me/cloudflareworkersaibot>\n\nTO DO LIST:\n\n- 适配 `/start@xxxbot` 命令\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.818,
+      "commits": {
+        "count": 9,
+        "first_at": "2024-04-27T04:07:49+00:00",
+        "last_at": "2024-06-25T15:58:09+00:00",
+        "active_days": 4,
+        "span_days": 59,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.889,
+        "messages_sample": [
+          "Update README.md",
+          "Merge pull request #1 from ddaaww/main",
+          "Update main.py",
+          "Update README.md",
+          "Update README.md",
+          "Update main.py",
+          "Update README.md",
+          "Create main.py",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 6,663 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6663,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ak_monitor_client_rs",
+      "full_name": "GenshinMinecraft/ak_monitor_client_rs",
+      "html_url": "https://github.com/GenshinMinecraft/ak_monitor_client_rs",
+      "description": "第三方 Akile Monitor Agent 监控端 | 提供更多功能",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-05T13:48:00Z",
+      "pushed_at": "2025-03-30T02:42:42Z",
+      "stargazers": 36,
+      "forks": 4,
+      "open_issues": 0,
+      "size_kb": 91,
+      "default_branch": "main",
+      "license": "WTFPL",
+      "topics": [],
+      "languages": {
+        "Rust": 29021,
+        "Shell": 7017
+      },
+      "primary_language": "Rust",
+      "file_count": 19,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".idea",
+        "Cargo.lock",
+        "Cargo.toml",
+        "LICENSE",
+        "README.md",
+        "build.sh",
+        "setup-client-rs.sh",
+        "src"
+      ],
+      "notable_files": [
+        ".github/workflows/Build.yaml",
+        "Cargo.toml"
+      ],
+      "manifests": {
+        "Cargo.toml": [
+          "authors",
+          "clap",
+          "codegen-units",
+          "description",
+          "edition",
+          "flate2",
+          "futures-util",
+          "heim-virt",
+          "license",
+          "log",
+          "lto",
+          "name",
+          "opt-level",
+          "panic",
+          "readme",
+          "repository",
+          "rustls",
+          "serde",
+          "serde_json",
+          "simple_logger",
+          "strip",
+          "sysinfo",
+          "systemstat",
+          "tokio",
+          "tokio-tungstenite",
+          "version",
+          "whoami"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 5026,
+      "readme_excerpt": "# ak-monitor-client-rs\n\n该项目是一个 `高性能的`、`低占用的`、`配置项更多的`、`可自由调整作弊倍率的` 第三方 [Akile Monitor](https://github.com/akile-network/akile_monitor) 客户端\n\n该项目并非官方项目, 出现的任何问题本人概不负责\n\n## 一键脚本\n\n- 交互模式\n  ```bash\n  wget -O setup-client-rs.sh \"https://ghfast.top/https://raw.githubusercontent.com/GenshinMinecraft/ak_monitor_client_rs/refs/heads/main/setup-client-rs.sh\" && chmod +x setup-client-rs.sh && sudo bash ./setup-client-rs.sh\n  ```\n- 直接传入参数\n  ```bash\n  wget -O setup-client-rs.sh \"https://ghfast.top/https://raw.githubusercontent.com/GenshinMinecraft/ak_monitor_client_rs/refs/heads/main/setup-client-rs.sh\" && chmod +x setup-client-rs.sh\n  # 四个参数依次为 主端地址 AuthSecret 主机名 是否开启 TLS\n  # 其中，前两者是必须的，后两者可选，TLS 用 0 / 1 表示\n  bash ./setup-client-rs.sh \"[phone]\" \"GenshinMinecraft\"\n  bash ./setup-client-rs.sh \"[phone]\" \"GenshinMinecraft\" \"GenArch\" 1\n  ```\n\n## 下载\n\n请前往本项目的 [Release](https://github.com/GenshinMinecraft/ak_monitor_client_rs/releases/tag/latest) 处下载\n\n每次 Push 将会自动构建并推送到该 Tag, 所以直接右键获取的文件链接是永久性的\n\n挑选对应架构的压缩文件下载解压上传至服务器即可使用\n\n## 使用\n\n不论何时何地, 你都可以使用 `--help` 参数以查阅帮助信息\n\n```\nAkile Monitor Client By Rust\n\nUsage: \n\nOptions:\n  -n, --name <NAME>                  主机名, 将展示在面板上, 默认为本机 Hostname\n  -s,",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.932,
+      "commits": {
+        "count": 69,
+        "first_at": "2024-12-05T13:49:33+00:00",
+        "last_at": "2025-03-30T02:42:42+00:00",
+        "active_days": 9,
+        "span_days": 114,
+        "max_per_day": 30,
+        "low_effort_message_ratio": 0.043,
+        "messages_sample": [
+          "Merge pull request #9 from billzhong/main",
+          "Merge pull request #8 from bimoe/main",
+          "Merge pull request #7 from kobe-koto/main",
+          "CI: Delete Freebsd Build",
+          "Fallback: Delete freebsd code",
+          "Test: Support Freebsd",
+          "Test: Support Freebsd",
+          "Test: Add freebsd build support",
+          "Change get hostname mode to fit android",
+          "Fix Bug: Telegram Bot Can Not Read Physical Core Count",
+          "Fix install.rs L377: \"",
+          "Download Upxed Binary",
+          "Disable Binary Optimize",
+          "Disable Binary Optimize",
+          "Disable Binary Optimize",
+          "optimize install",
+          "Merge pull request #6 from kobe-koto/main",
+          "Fix build Bug",
+          "Fix build Bug",
+          "Fix build Bug"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 7,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 4,
+          "refactor": 0,
+          "test": 3,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 7,017 bytes (19% of repo)",
+          "strength": 0.5947111382429657
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/Build.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "repo_name",
+          "detail": "'agent' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "manifest",
+          "detail": "readme in Cargo.toml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 7017,
+        "strong_skills": [
+          "cicd",
+          "shell",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Rust-Cloudflare-Workers-AI-Telegram-Bot",
+      "full_name": "GenshinMinecraft/Rust-Cloudflare-Workers-AI-Telegram-Bot",
+      "html_url": "https://github.com/GenshinMinecraft/Rust-Cloudflare-Workers-AI-Telegram-Bot",
+      "description": "Rust 编写的 Telegram Cloudflare Workers AI Bot",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-06-10T13:19:08Z",
+      "pushed_at": "2024-06-28T12:19:46Z",
+      "stargazers": 47,
+      "forks": 4,
+      "open_issues": 1,
+      "size_kb": 72,
+      "default_branch": "main",
+      "license": "WTFPL",
+      "topics": [],
+      "languages": {
+        "Rust": 18957
+      },
+      "primary_language": "Rust",
+      "file_count": 12,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        "Cargo.lock",
+        "Cargo.toml",
+        "LICENSE",
+        "README.md",
+        "README_cn.md",
+        "config.yaml.exp",
+        "src"
+      ],
+      "notable_files": [
+        ".github/workflows/rust.yml",
+        "Cargo.toml"
+      ],
+      "manifests": {
+        "Cargo.toml": [
+          "codegen-units",
+          "edition",
+          "lazy_static",
+          "log",
+          "lto",
+          "name",
+          "opt-level",
+          "panic",
+          "reqwest",
+          "serde",
+          "serde_json",
+          "serde_yaml",
+          "simple_logger",
+          "strip",
+          "teloxide",
+          "tokio",
+          "version"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2983,
+      "readme_excerpt": "# Rust-Cloudflare-Workers-AI-Telegram-Bot\n\n[简体中文](https://github.com/GenshinMinecraft/Rust-Cloudflare-Workers-AI-Telegram-Bot/blob/main/README_cn.md) [English](https://github.com/GenshinMinecraft/Rust-Cloudflare-Workers-AI-Telegram-Bot/blob/main/README.md)\n\nFor the Python implementation, please refer to [Cloudflare-Workers-Ai-Telegram-Bot](https://github.com/GenshinMinecraft/Cloudflare-Workers-Ai-Telegram-Bot).\n\n## Introduction\n\nA Rust-built Cloudflare Workers AI Bot with support for **context preservation**.\n\nEngages in conversations with users by invoking the Workers AI REST API.\n\nUses Workers KV to store context information for users.\n\n## To Do List\n\n- [x] Context Preservation Implemented\n- [x] Proxy Support (leveraging environment variables supported by reqwest)\n- [x] User/Group ID Authentication\n\nFor additional features, please submit an issue or a pull request.\n\n## Running the Bot\n\n### Telegram Setup\n\nCreate a new bot and obtain your bot ID along with user or group IDs. Detailed steps are not covered here.\n\n### Cloudflare Setup\n\nAcquire your Account ID and corresponding API Token (a Global API Token can be used for simplicity).\n\nSet up a Workers KV namespace for key-value sto",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 2,
+      "contribution_share": 0.9,
+      "commits": {
+        "count": 18,
+        "first_at": "2024-06-10T13:21:31+00:00",
+        "last_at": "2024-06-28T12:08:18+00:00",
+        "active_days": 6,
+        "span_days": 17,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.389,
+        "messages_sample": [
+          "Renew Eng Readme",
+          "Renew Eng Readme",
+          "v0.0.10",
+          "Proxy Added",
+          "ToDoList",
+          "ToDoList",
+          "ToDoList",
+          "Readme",
+          "Update Cargo.toml",
+          "Update Cargo.toml",
+          "Update Workflows",
+          "Update Workflows",
+          "actions build",
+          "Create rust.yml",
+          "Read Var",
+          "上下文支持",
+          "first commit",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/rust.yml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 0,
+        "strong_skills": [
+          "cicd"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Rust": 158678,
+    "Shell": 7212,
+    "Python": 6663,
+    "Nix": 5231,
+    "HTML": 734
+  },
+  "total_commits": 217,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "GenshinMinecraft/Cloudflare-Workers-Ai-Telegram-Bot"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 6663,
+      "commit_count": 9,
+      "first_seen": "2024-04-27T04:07:49+00:00",
+      "last_seen": "2024-06-25T15:58:09+00:00",
+      "details": [
+        "Cloudflare-Workers-Ai-Telegram-Bot: Python: 6,663 bytes (100% of repo)",
+        "Cloudflare-Workers-Ai-Telegram-Bot: 'python' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "GenshinMinecraft/Feishin-for-CF-Pages"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 734,
+      "commit_count": 2,
+      "first_seen": "2024-09-07T00:36:20+00:00",
+      "last_seen": "2024-09-07T00:39:18+00:00",
+      "details": [
+        "Feishin-for-CF-Pages: HTML: 734 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "GenshinMinecraft/ak_monitor_client_rs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 69,
+      "first_seen": "2024-12-05T13:49:33+00:00",
+      "last_seen": "2025-03-30T02:42:42+00:00",
+      "details": [
+        "ak_monitor_client_rs: readme in Cargo.toml"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "GenshinMinecraft/Feishin-for-CF-Pages",
+        "GenshinMinecraft/komari-monitor-rs",
+        "GenshinMinecraft/ak_monitor_client_rs",
+        "GenshinMinecraft/Rust-Cloudflare-Workers-AI-Telegram-Bot"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 208,
+      "first_seen": "2024-06-10T13:21:31+00:00",
+      "last_seen": "2026-02-06T14:40:24+00:00",
+      "details": [
+        "Feishin-for-CF-Pages: GitHub Actions workflow (.github/workflows/build.yml)",
+        "komari-monitor-rs: GitHub Actions workflow (.github/workflows/build.yaml)",
+        "ak_monitor_client_rs: GitHub Actions workflow (.github/workflows/Build.yaml)",
+        "Rust-Cloudflare-Workers-AI-Telegram-Bot: GitHub Actions workflow (.github/workflows/rust.yml)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "GenshinMinecraft/ak_monitor_client_rs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5947111382429657,
+      "total_bytes": 7017,
+      "commit_count": 69,
+      "first_seen": "2024-12-05T13:49:33+00:00",
+      "last_seen": "2025-03-30T02:42:42+00:00",
+      "details": [
+        "ak_monitor_client_rs: Shell: 7,017 bytes (19% of repo)"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "GenshinMinecraft/komari-monitor-rs",
+        "GenshinMinecraft/ak_monitor_client_rs"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 188,
+      "first_seen": "2024-12-05T13:49:33+00:00",
+      "last_seen": "2026-02-06T14:40:24+00:00",
+      "details": [
+        "komari-monitor-rs: 'agent' in repo name/description",
+        "ak_monitor_client_rs: 'agent' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 217,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 5,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3"
+  },
+  "search_stratum": "python-backend",
+  "collected_at": "2026-09-17T01:15:56.382563+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3"
+  ]
+}

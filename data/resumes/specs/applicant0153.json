@@ -1,0 +1,114 @@
+{
+  "github_login": "leep-frog",
+  "applicant_id": "applicant0153",
+  "first_name": "Sofia",
+  "last_name": "Marchetti",
+  "career_stage": "student",
+  "email": "sofia@alderbrook.example",
+  "phone": "(555) 010-0153",
+  "location": "Alderbrook",
+  "linkedin": "linkedin.example.com/in/sofia-marchetti",
+  "github_url": "github.example.com/sofia-marchetti",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Alderbrook University",
+    "location": "Alderbrook",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Applied Mathematics",
+    "graduation": "June 2026",
+    "gpa": "3.85/4.0",
+    "coursework": [
+      "Algorithms",
+      "Discrete Mathematics",
+      "Software Design"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Command",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Apr 2021",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a Go command-line tool refined over many small iterations, adding tests as edge cases surfaced during everyday use.",
+        "Kept the tool's behavior backward compatible across dozens of small releases by relying on its test suite before each change."
+      ],
+      "link": null,
+      "tech": [
+        "Go"
+      ]
+    },
+    {
+      "title": "Termin All Or Nothing",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Aug 2022",
+      "end": "Oct 2025",
+      "bullets": [
+        "Built a VS Code extension in TypeScript, writing a test suite around its editor integration using a custom test stubber.",
+        "Debugged inconsistent extension behavior across editor versions, learning to isolate environment differences before touching application logic."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Euler Challenge",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Dec 2021",
+      "end": "Sep 2026",
+      "bullets": [
+        "Solved a long series of computational problems in Go and Python, generating charts and PDFs to visualize each solution."
+      ],
+      "link": null,
+      "tech": [
+        "Go",
+        "Python",
+        "Shell"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Peer Tutor",
+      "organization": "Alderbrook CS Peer Consulting",
+      "location": null,
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Volunteered to debug classmates' projects across unfamiliar languages and frameworks, often starting with only a vague description of the bug.",
+        "Found that asking for a minimal reproduction case before diving in saved far more time than guessing at the cause."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "Go"
+    ],
+    "Data": [
+      "Data Analysis (pandas)"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Product": [
+      "Technical Writing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

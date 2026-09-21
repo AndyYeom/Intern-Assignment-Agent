@@ -1,0 +1,89 @@
+{
+  "applicant_id": "applicant0035",
+  "github_login": "GregTMiller",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0035.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/GregTMiller/LudumDare49Project",
+        "https://github.com/GregTMiller/MassParentTool"
+      ],
+      "repos": [
+        {
+          "repo": "GregTMiller/LudumDare49Project",
+          "html_url": "https://github.com/GregTMiller/LudumDare49Project",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: none",
+            "C#: 28,207,430 bytes (93% of repo)"
+          ]
+        },
+        {
+          "repo": "GregTMiller/MassParentTool",
+          "html_url": "https://github.com/GregTMiller/MassParentTool",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project, all_commits_one_day",
+            "C#: 7,280 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (2 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/GregTMiller/LudumDare49Project"
+      ],
+      "repos": [
+        {
+          "repo": "GregTMiller/LudumDare49Project",
+          "html_url": "https://github.com/GregTMiller/LudumDare49Project",
+          "level": 1,
+          "reasons": [
+            "entry: 17 commits, independent-work signals: none",
+            "iOS project (HumansLivedHere/Library/PackageCache/com.unity.ide.visualstudio@2.0.9/Editor/AppleEventIntegration~/AppleEventIntegration.xcodeproj/project.pbxproj)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "partially_verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/GregTMiller/UnityTerminal"
+      ],
+      "repos": [
+        {
+          "repo": "GregTMiller/UnityTerminal",
+          "html_url": "https://github.com/GregTMiller/UnityTerminal",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project, all_commits_one_day",
+            "Python: 3,532 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 2,
+    "verified": 1
+  }
+}

@@ -1,0 +1,984 @@
+{
+  "applicant_id": "applicant0039",
+  "login": "abhyudaya001",
+  "html_url": "https://github.com/abhyudaya001",
+  "created_at": "2020-01-31T18:37:01Z",
+  "account_age_days": 2419,
+  "public_repos": 29,
+  "followers": 2,
+  "following": 3,
+  "repos": [
+    {
+      "name": "TheITJobBoard",
+      "full_name": "abhyudaya001/TheITJobBoard",
+      "html_url": "https://github.com/abhyudaya001/TheITJobBoard",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-02-10T18:46:42Z",
+      "pushed_at": "2023-03-14T04:10:18Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10189,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 28021,
+        "CSS": 4765,
+        "HTML": 1721,
+        "Shell": 122
+      },
+      "primary_language": "JavaScript",
+      "file_count": 37,
+      "top_level_paths": [
+        ".gitignore",
+        "client",
+        "server"
+      ],
+      "notable_files": [
+        "client/package.json",
+        "server/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 12,
+        "first_at": "2023-02-10T18:45:54+00:00",
+        "last_at": "2023-03-14T04:09:57+00:00",
+        "active_days": 9,
+        "span_days": 31,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "home",
+          "home",
+          "home",
+          "home",
+          "home",
+          "form-complete",
+          "form",
+          "form",
+          "postjob",
+          "card-transition",
+          "finish",
+          "Back end completed , frontend is having some issue"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 24
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 28,021 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,765 bytes (14% of repo)",
+          "strength": 0.5376014323255076
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,721 bytes (5% of repo)",
+          "strength": 0.4496982298073869
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 34629,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "seekSocial",
+      "full_name": "abhyudaya001/seekSocial",
+      "html_url": "https://github.com/abhyudaya001/seekSocial",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-12-13T14:01:39Z",
+      "pushed_at": "2022-12-25T08:09:06Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 26028,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 62740,
+        "HTML": 1721,
+        "CSS": 189,
+        "Shell": 167
+      },
+      "primary_language": "JavaScript",
+      "file_count": 4482,
+      "top_level_paths": [
+        ".sfdx",
+        "README.md",
+        "client",
+        "package-lock.json",
+        "server"
+      ],
+      "notable_files": [
+        "client/package.json",
+        "server/node_modules/@aws-crypto/ie11-detection/node_modules/tslib/modules/package.json",
+        "server/node_modules/@aws-crypto/ie11-detection/node_modules/tslib/package.json",
+        "server/node_modules/@aws-crypto/ie11-detection/node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json",
+        "server/node_modules/@aws-crypto/ie11-detection/package.json",
+        "server/node_modules/@aws-crypto/sha256-browser/node_modules/tslib/modules/package.json",
+        "server/node_modules/@aws-crypto/sha256-browser/node_modules/tslib/package.json",
+        "server/node_modules/@aws-crypto/sha256-browser/node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json",
+        "server/node_modules/@aws-crypto/sha256-browser/package.json",
+        "server/node_modules/@aws-crypto/sha256-js/node_modules/tslib/modules/package.json",
+        "server/node_modules/@aws-crypto/sha256-js/node_modules/tslib/package.json",
+        "server/node_modules/@aws-crypto/sha256-js/node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json",
+        "server/node_modules/@aws-crypto/sha256-js/package.json",
+        "server/node_modules/@aws-crypto/supports-web-crypto/node_modules/tslib/modules/package.json",
+        "server/node_modules/@aws-crypto/supports-web-crypto/node_modules/tslib/package.json",
+        "server/node_modules/@aws-crypto/supports-web-crypto/node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json",
+        "server/node_modules/@aws-crypto/supports-web-crypto/package.json",
+        "server/node_modules/@aws-crypto/util/node_modules/tslib/modules/package.json",
+        "server/node_modules/@aws-crypto/util/node_modules/tslib/package.json",
+        "server/node_modules/@aws-crypto/util/node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json",
+        "server/node_modules/@aws-crypto/util/package.json",
+        "server/node_modules/@aws-sdk/abort-controller/package.json",
+        "server/node_modules/@aws-sdk/client-cognito-identity/package.json",
+        "server/node_modules/@aws-sdk/client-sso/package.json",
+        "server/node_modules/@aws-sdk/client-sts/package.json",
+        "server/node_modules/@aws-sdk/config-resolver/package.json",
+        "server/node_modules/@aws-sdk/credential-provider-cognito-identity/package.json",
+        "server/node_modules/@aws-sdk/credential-provider-env/package.json",
+        "server/node_modules/@aws-sdk/credential-provider-imds/package.json",
+        "server/node_modules/@aws-sdk/credential-provider-ini/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 553,
+      "readme_excerpt": "# seekSocial\n\n  A social media platform developed using MERN stack having all the functionality of a Social Media Application i.e Posting Content , liking , adding friends etc.\n  \n  # SNAPSHOTS :-)\n  \n  ![image](https://user-images.githubusercontent.com/60521322/[phone]be7b-a9af-4409-ae81-f705f9b9b39c.png)\n  \n  ![image](https://user-images.githubusercontent.com/60521322/[phone]-ff9070b5-bf57-4a83-b936-cebb7a05cf8b.png)\n  \n  ![image](https://user-images.githubusercontent.com/60521322/[phone]-a65e97b2-adee-4567-b274-a1d255b9596a.png)\n\n  \n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2022-12-14T07:36:25+00:00",
+        "last_at": "2022-12-25T08:09:06+00:00",
+        "active_days": 4,
+        "span_days": 11,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.364,
+        "messages_sample": [
+          "Create README.md",
+          ".",
+          ".",
+          ".",
+          "Changes to readme",
+          "Some updates",
+          "Frontend complted",
+          "Nav Bar Completed",
+          "Day Night Theme",
+          "Getting frontend ready",
+          "init"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3187
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 62,740 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,721 bytes (3% of repo)",
+          "strength": 0.4265516762577719
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (server/node_modules/@aws-crypto/ie11-detection/node_modules/tslib/test/validateModuleExportsMatchCommonJS/index.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (server/node_modules/concat-stream/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 64817,
+        "strong_skills": [
+          "javascript",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Interview-Helper",
+      "full_name": "abhyudaya001/Interview-Helper",
+      "html_url": "https://github.com/abhyudaya001/Interview-Helper",
+      "description": null,
+      "homepage": "https://interview-helper-ebon.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-20T11:27:27Z",
+      "pushed_at": "2025-07-20T15:41:11Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 67,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 16710,
+        "CSS": 5968,
+        "HTML": 361
+      },
+      "primary_language": "JavaScript",
+      "file_count": 23,
+      "top_level_paths": [
+        ".gitignore",
+        "backend",
+        "my-interview-coach"
+      ],
+      "notable_files": [
+        "backend/package.json",
+        "my-interview-coach/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2025-07-20T11:27:13+00:00",
+        "last_at": "2025-07-20T15:41:01+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.1,
+        "messages_sample": [
+          "adding free model",
+          "adding new logo",
+          "removing vercel.json from root",
+          "aremoving local  port",
+          "added modifications",
+          "changing vercel location",
+          "Merge branch 'main' of https://github.com/abhyudaya001/Interview-Helper",
+          "added vercel.json file",
+          "Update InterviewScreen.jsx",
+          "Day 1"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 13
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 16,710 bytes (73% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 5,968 bytes (26% of repo)",
+          "strength": 0.659039020790833
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 23039,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "gadget_review",
+      "full_name": "abhyudaya001/gadget_review",
+      "html_url": "https://github.com/abhyudaya001/gadget_review",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-06-08T01:33:58Z",
+      "pushed_at": "2023-06-08T01:34:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 10014,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "PHP": 23800,
+        "CSS": 9849
+      },
+      "primary_language": "PHP",
+      "file_count": 49,
+      "top_level_paths": [
+        "README.md",
+        "Sample images",
+        "admin.css",
+        "admin_index.php",
+        "brands.php",
+        "categories.php",
+        "connect.php",
+        "database",
+        "img",
+        "index.css",
+        "index.php",
+        "inscat.css",
+        "insert_products.php",
+        "login.css",
+        "login.php",
+        "logout.php",
+        "prod_review.php",
+        "reviewpage",
+        "sign-up.php",
+        "style.css"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 345,
+      "readme_excerpt": "# How to run this project ?\n- First download the *XAMPP* server and start it.\n- Now download this project,unzip it and save it in htdocs folder.\n- Location of htdocs :-  \n    1. Windows = c:/xampp/htdocs\n    2. Linux = /opt/lampp/htdocs\n- Open your browser.\n- Type in URL = localhost/gadget_review\n\n## You are done..!  Now enjoy the project ## \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2023-06-08T01:33:52+00:00",
+        "last_at": "2023-06-08T01:33:52+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "final"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 16
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 9,849 bytes (29% of repo)",
+          "strength": 0.6926981485333888
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (database/review.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9849,
+        "strong_skills": [
+          "html-css",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "jhatpat",
+      "full_name": "abhyudaya001/jhatpat",
+      "html_url": "https://github.com/abhyudaya001/jhatpat",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-06-08T01:19:59Z",
+      "pushed_at": "2023-06-08T01:20:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 23857,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 716365,
+        "CSS": 133849,
+        "PHP": 103650,
+        "Hack": 8829,
+        "JavaScript": 1876
+      },
+      "primary_language": "HTML",
+      "file_count": 410,
+      "top_level_paths": [
+        "admin",
+        "bootstrap",
+        "css",
+        "dataimg",
+        "dbcon.php",
+        "header.php",
+        "images",
+        "index.php",
+        "javascript",
+        "jhatpat",
+        "jhatpat-foods.sql",
+        "login.php",
+        "logout.php",
+        "menu",
+        "other",
+        "otpconfirmation.php",
+        "register.php",
+        "screenshots",
+        "ulogin"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2023-06-08T01:19:48+00:00",
+        "last_at": "2023-06-08T01:19:48+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "final otp confirmation"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 127
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 716,365 bytes (74% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 133,849 bytes (14% of repo)",
+          "strength": 0.5387656041195601
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,876 bytes (0% of repo)",
+          "strength": 0.40194491011011135
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (jhatpat-foods.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 852090,
+        "strong_skills": [
+          "html-css",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "HTML": 720168,
+    "CSS": 154620,
+    "PHP": 127450,
+    "JavaScript": 109347,
+    "Hack": 8829,
+    "Shell": 289
+  },
+  "total_commits": 35,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "abhyudaya001/TheITJobBoard",
+        "abhyudaya001/seekSocial",
+        "abhyudaya001/Interview-Helper",
+        "abhyudaya001/gadget_review",
+        "abhyudaya001/jhatpat"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 874238,
+      "commit_count": 35,
+      "first_seen": "2022-12-14T07:36:25+00:00",
+      "last_seen": "2025-07-20T15:41:01+00:00",
+      "details": [
+        "TheITJobBoard: CSS: 4,765 bytes (14% of repo)",
+        "TheITJobBoard: HTML: 1,721 bytes (5% of repo)",
+        "seekSocial: HTML: 1,721 bytes (3% of repo)",
+        "Interview-Helper: CSS: 5,968 bytes (26% of repo)",
+        "gadget_review: CSS: 9,849 bytes (29% of repo)",
+        "jhatpat: HTML: 716,365 bytes (74% of repo)",
+        "jhatpat: CSS: 133,849 bytes (14% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "abhyudaya001/TheITJobBoard",
+        "abhyudaya001/seekSocial",
+        "abhyudaya001/Interview-Helper",
+        "abhyudaya001/jhatpat"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 109347,
+      "commit_count": 34,
+      "first_seen": "2022-12-14T07:36:25+00:00",
+      "last_seen": "2025-07-20T15:41:01+00:00",
+      "details": [
+        "TheITJobBoard: JavaScript: 28,021 bytes (81% of repo)",
+        "seekSocial: JavaScript: 62,740 bytes (97% of repo)",
+        "Interview-Helper: JavaScript: 16,710 bytes (73% of repo)",
+        "jhatpat: JavaScript: 1,876 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "abhyudaya001/gadget_review",
+        "abhyudaya001/jhatpat"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2023-06-08T01:19:48+00:00",
+      "last_seen": "2023-06-08T01:33:52+00:00",
+      "details": [
+        "gadget_review: SQL file (database/review.sql)",
+        "jhatpat: SQL file (jhatpat-foods.sql)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "abhyudaya001/seekSocial"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2022-12-14T07:36:25+00:00",
+      "last_seen": "2022-12-25T08:09:06+00:00",
+      "details": [
+        "seekSocial: test directory (server/node_modules/@aws-crypto/ie11-detection/node_modules/tslib/test/validateModuleExportsMatchCommonJS/index.js)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "abhyudaya001/seekSocial"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2022-12-14T07:36:25+00:00",
+      "last_seen": "2022-12-25T08:09:06+00:00",
+      "details": [
+        "seekSocial: docs directory (server/node_modules/concat-stream/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 2,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 35,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 5,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-16T14:14:03.900199+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

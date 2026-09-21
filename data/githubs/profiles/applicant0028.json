@@ -1,0 +1,1218 @@
+{
+  "applicant_id": "applicant0028",
+  "login": "tmaswang03",
+  "html_url": "https://github.com/tmaswang03",
+  "created_at": "2020-01-31T21:58:34Z",
+  "account_age_days": 2419,
+  "public_repos": 19,
+  "followers": 34,
+  "following": 28,
+  "repos": [
+    {
+      "name": "tmaswang03.github.io",
+      "full_name": "tmaswang03/tmaswang03.github.io",
+      "html_url": "https://github.com/tmaswang03/tmaswang03.github.io",
+      "description": "Personal site to get to know me. ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-08-20T00:46:34Z",
+      "pushed_at": "2023-01-14T07:16:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4445,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "css",
+        "html",
+        "personal-website",
+        "styled-components",
+        "tailwindcss"
+      ],
+      "languages": {
+        "JavaScript": 23902,
+        "CSS": 11599,
+        "HTML": 3241
+      },
+      "primary_language": "JavaScript",
+      "file_count": 39,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "craco.config.js",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "reportWebVitals.js",
+        "src",
+        "tailwind.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@craco/craco",
+          "@fortawesome/fontawesome-svg-core",
+          "@fortawesome/free-brands-svg-icons",
+          "@fortawesome/free-solid-svg-icons",
+          "@fortawesome/react-fontawesome",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "aos",
+          "autoprefixer",
+          "gh-pages",
+          "particles-bg",
+          "postcss",
+          "react",
+          "react-dom",
+          "react-icons",
+          "react-router-dom",
+          "react-scripts",
+          "react-snowfall",
+          "react-type-animation",
+          "react-vertical-timeline-component",
+          "spotify-web-api-node",
+          "styled-components",
+          "tailwindcss",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 493,
+      "readme_excerpt": "# Personal-Site\nThis project was made with ReactJS as well as Tailwind CSS and Styled Components. Pretty much everything about me can be located on my site. Currently, I am still editing and updating the site as I go. The site can be found at https://tmaswang04.ca, deployed using Github Pages. \n\nTo run the project locally, download the repository and run a development server using \n```\nnpm start \n```\nThe result can then be seen on http://localhost:3000 with the browser of your choice. \n\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 11,
+        "first_at": "2021-08-20T00:52:47+00:00",
+        "last_at": "2023-01-13T21:10:46+00:00",
+        "active_days": 9,
+        "span_days": 511,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.182,
+        "messages_sample": [
+          "changed resume url",
+          "updated gitignore and home",
+          "added resume link",
+          "Updated styling on home page and navbar",
+          "Edited Font-weight",
+          "First Update",
+          "Update README.md",
+          "Added interests",
+          "finished name info stuff",
+          "play4d around with stuff",
+          "Create README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 23,902 bytes (62% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 11,599 bytes (30% of repo)",
+          "strength": 0.6993908419802799
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,241 bytes (8% of repo)",
+          "strength": 0.48365598058954107
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "html-css",
+          "source": "topic",
+          "detail": "repo topic 'css'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "topic",
+          "detail": "repo topic 'tailwindcss'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 38742,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Machine-Learning",
+      "full_name": "tmaswang03/Machine-Learning",
+      "html_url": "https://github.com/tmaswang03/Machine-Learning",
+      "description": "My Machine Learning Stuff ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-10-29T19:46:14Z",
+      "pushed_at": "2024-05-13T03:33:12Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4200,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 130599,
+        "PureBasic": 9623,
+        "Python": 1068
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 27,
+      "top_level_paths": [
+        ".gitattributes",
+        ".idea",
+        "Advanced_Learning_Algorithms",
+        "Diabetes Detection With Logistic Regression",
+        "DigitRecog",
+        "Heart_Attack_Analyis_Random_forest",
+        "Heart_Disease_Prediction_Logistic_Regression",
+        "Logistic_Regression_Diabetes",
+        "README.md",
+        "Resnet50_CNN_Flower_Detection",
+        "SVM_Fraud_Detection",
+        "Templates",
+        "Titanic_Survival_Prediction_Models"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 830,
+      "readme_excerpt": "# Machine Learning\nDocumented machine learning journey that I have embarked on. Currently, you will find logistic regression and SVM models in my repository trained via kaggle data sets. Feel free to explore and let me know if you spot any problems. \n\n# Available Models\nSome models featured include Random Forests, Support Vector Machines, Neural Networks and basic logistic regression. All models have been trained on kaggle data sets. Hyperparameter tuning is completed using HyperOpt for Support Vector Machines and Random Forests. \n\n# Data Preprocessing\nSo far, I haven't learnt alot of data preprocessing. As of now, data is prepared using onehotencoding done via dummys in Panda's library. Afterwards, I use a simpleimputer from Scikit-learn. Typically, I will stick to the mean strategy but it varies based on data sets. \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2022-11-10T05:58:54+00:00",
+        "last_at": "2024-05-13T03:33:12+00:00",
+        "active_days": 9,
+        "span_days": 549,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Update README.md",
+          "Delete Land_Classification_CNN directory",
+          "Create Neural_Netowrk_Classifier.ipynb",
+          "Merge branch 'main' of https://github.com/tmaswang03/Machine-Learning",
+          "Add Flower-species recognition",
+          "Update README.md",
+          "Update README.md",
+          "Added Heart Attack Prediction Random Forest",
+          "Added Titanic Survival Prediction Using Random Forests",
+          "Changed error on template",
+          "added templates with svm, logreg and random forest",
+          "Update README.md",
+          "Added Kaggle Machine Learning Models",
+          "Digit Recognition Made with CNN",
+          "mnist digit recognition"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 12,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 130,599 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 1,068 bytes (1% of repo)",
+          "strength": 0.4075589213674004
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Advanced_Learning_Algorithms/Module_1_Notes.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 131667,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "financial_analysis",
+      "full_name": "tmaswang03/financial_analysis",
+      "html_url": "https://github.com/tmaswang03/financial_analysis",
+      "description": "Financial Analysis that allows users to input certain stocks and outputs a graph of last days and OBV value of the stock's queried days. Made with ReactJs front-end, Flask backend and Yfinance API.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-05T23:50:14Z",
+      "pushed_at": "2023-01-12T04:37:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7697,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 2256,
+        "HTML": 1951,
+        "JavaScript": 1528,
+        "CSS": 810
+      },
+      "primary_language": "Python",
+      "file_count": 22,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "Backend",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "pyvenv.cfg",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "plotly.js",
+          "react",
+          "react-dom",
+          "react-plotly.js",
+          "react-scripts",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 14,
+        "first_at": "2023-01-05T23:35:12+00:00",
+        "last_at": "2023-01-12T04:37:14+00:00",
+        "active_days": 5,
+        "span_days": 6,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.071,
+        "messages_sample": [
+          "newest update of graph plotting",
+          "api now returns a plot of recent graph",
+          "updated python requirements",
+          "Finished connect Flask backend to React frontend + OBV calculations",
+          "created default home page",
+          "deleted public logo",
+          "deleted unnecessary files",
+          "initialized react app",
+          "removed packages and node modules (oops)",
+          "created react app",
+          "added python requirements",
+          "fixed gitignore",
+          "fixed gitignore",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,256 bytes (34% of repo)",
+          "strength": 0.744690603514133
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,951 bytes (30% of repo)",
+          "strength": 0.6980901451489687
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,528 bytes (23% of repo)",
+          "strength": 0.6334606569900688
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 810 bytes (12% of repo)",
+          "strength": 0.5237585943468297
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "repo_name",
+          "detail": "'flask' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'reactjs' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6545,
+        "strong_skills": [
+          "html-css",
+          "javascript",
+          "python",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "2024CxC",
+      "full_name": "tmaswang03/2024CxC",
+      "html_url": "https://github.com/tmaswang03/2024CxC",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-02-10T06:51:08Z",
+      "pushed_at": "2024-03-02T05:00:03Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 54763,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 4506339
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 43,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitignore",
+        "EY",
+        "Infinite_Investment_Systems",
+        "OwnersBox",
+        "QuadReal",
+        "README.md",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "joblib",
+          "matplotlib",
+          "numpy",
+          "pandas",
+          "scikit-learn",
+          "seaborn"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 9,
+      "readme_excerpt": "# 2024CxC",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.603,
+      "commits": {
+        "count": 41,
+        "first_at": "2024-02-10T06:51:09+00:00",
+        "last_at": "2024-03-02T04:59:59+00:00",
+        "active_days": 12,
+        "span_days": 20,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.024,
+        "messages_sample": [
+          "finish aggregating dfs",
+          "finished final notebook",
+          "update final nootebook",
+          "things for sub",
+          "added tqdm progress bar",
+          "finished predictions",
+          "thingy",
+          "thingy",
+          "more stuff",
+          "stuff",
+          "changes again",
+          "small changes",
+          "QuadReal",
+          "add interpolation",
+          "preprocessing modification",
+          "stuff",
+          "final model",
+          "stuff",
+          "finished quadreal :)",
+          "losing brain cells"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 23,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 4,506,339 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (EY/preprocess.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "matplotlib in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4506339,
+        "strong_skills": [
+          "data-viz",
+          "machine-learning",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CP-Solutions",
+      "full_name": "tmaswang03/CP-Solutions",
+      "html_url": "https://github.com/tmaswang03/CP-Solutions",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-04-10T04:27:26Z",
+      "pushed_at": "2022-12-06T03:12:24Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 344844,
+      "default_branch": "main1",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 1212410
+      },
+      "primary_language": "C++",
+      "file_count": 1002,
+      "top_level_paths": [
+        "APIO",
+        "BOI",
+        "BOJ",
+        "CCC",
+        "CCO",
+        "COCI",
+        "CSES",
+        "CodeForces",
+        "DMOPC",
+        "DWITE",
+        "IOI",
+        "MCPT",
+        "Other",
+        "README.md",
+        "TLE",
+        "TSSPC",
+        "Templates",
+        "USACO",
+        "UTS",
+        "VM7WC",
+        "WAC",
+        "WC"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 377,
+      "readme_excerpt": "# CP-Solutions\nHere lies my Competitive Programming Solution across various sites that I use :). Please ignore the bad formatting. \n\n# 💻 Competitive Progamming Accounts\n\nDMOJ: https://dmoj.ca/user/Tmaswang03\n\nCodeforces: https://codeforces.com/profile/thotmas123\n\nLeetcode: https://leetcode.com/tmaswang03/\n\nCSEC: https://cses.fi/user/34971\n\nhttps://clist.by/coder/tmaswang03/\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.99,
+      "commits": {
+        "count": 49,
+        "first_at": "2021-04-10T04:27:26+00:00",
+        "last_at": "2022-12-06T03:12:24+00:00",
+        "active_days": 9,
+        "span_days": 604,
+        "max_per_day": 36,
+        "low_effort_message_ratio": 0.184,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Delete Main",
+          "Update README.md",
+          "Delete COCI '18 Contest 6 #5 Mobitel.cpp",
+          "Updated CCC '03 S5",
+          "Updated CCC '00 S2",
+          "Update CCO '96 P1 - Train Swapping.cpp",
+          "Update Another Contest 7 Problem 1 - Lonely Users.cpp",
+          "Delete CCC/CCC '05 J5 - Bananas directory",
+          "Delete IOI '02 P4 - Batch Scheduling - Olympiads.cpp",
+          "Delete Moose '20 Contest 3 S5 - Larry and 3.cpp",
+          "Delete Moose '20 Contest 2 S2 - Squares Nah.cpp",
+          "Delete WC '18 Contest 2 S2 - Plutonium.cpp",
+          "Delete CCC/CCC '10 J2 - Up and Down directory",
+          "Delete CCC/CCC '13 J2 - Rotating letters directory",
+          "Delete CCC/CCC '14 S5 - Lazy Fox SSY74 directory"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1000
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 1,212,410 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1212410,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 4636938,
+    "C++": 1212410,
+    "JavaScript": 25430,
+    "CSS": 12409,
+    "PureBasic": 9623,
+    "HTML": 5192,
+    "Python": 3324
+  },
+  "total_commits": 130,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "tmaswang03/Machine-Learning",
+        "tmaswang03/financial_analysis",
+        "tmaswang03/2024CxC"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 4640262,
+      "commit_count": 70,
+      "first_seen": "2022-11-10T05:58:54+00:00",
+      "last_seen": "2024-05-13T03:33:12+00:00",
+      "details": [
+        "Machine-Learning: Jupyter Notebook: 130,599 bytes (92% of repo)",
+        "Machine-Learning: Python: 1,068 bytes (1% of repo)",
+        "financial_analysis: Python: 2,256 bytes (34% of repo)",
+        "2024CxC: Jupyter Notebook: 4,506,339 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "tmaswang03/tmaswang03.github.io",
+        "tmaswang03/financial_analysis"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 25430,
+      "commit_count": 25,
+      "first_seen": "2021-08-20T00:52:47+00:00",
+      "last_seen": "2023-01-13T21:10:46+00:00",
+      "details": [
+        "tmaswang03.github.io: JavaScript: 23,902 bytes (62% of repo)",
+        "financial_analysis: JavaScript: 1,528 bytes (23% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "tmaswang03/CP-Solutions"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1212410,
+      "commit_count": 49,
+      "first_seen": "2021-04-10T04:27:26+00:00",
+      "last_seen": "2022-12-06T03:12:24+00:00",
+      "details": [
+        "CP-Solutions: C++: 1,212,410 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "tmaswang03/tmaswang03.github.io",
+        "tmaswang03/financial_analysis"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 25,
+      "first_seen": "2021-08-20T00:52:47+00:00",
+      "last_seen": "2023-01-13T21:10:46+00:00",
+      "details": [
+        "tmaswang03.github.io: @testing-library/react in package.json",
+        "financial_analysis: 'reactjs' in repo name/description",
+        "financial_analysis: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "tmaswang03/Machine-Learning",
+        "tmaswang03/2024CxC"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 56,
+      "first_seen": "2022-11-10T05:58:54+00:00",
+      "last_seen": "2024-05-13T03:33:12+00:00",
+      "details": [
+        "Machine-Learning: jupyter notebook (Advanced_Learning_Algorithms/Module_1_Notes.ipynb)",
+        "2024CxC: jupyter notebook (EY/preprocess.ipynb)",
+        "2024CxC: numpy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "tmaswang03/tmaswang03.github.io"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "topic",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2021-08-20T00:52:47+00:00",
+      "last_seen": "2023-01-13T21:10:46+00:00",
+      "details": [
+        "tmaswang03.github.io: tailwind config (tailwind.config.js)",
+        "tmaswang03.github.io: repo topic 'tailwindcss'",
+        "tmaswang03.github.io: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "tmaswang03/2024CxC"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 41,
+      "first_seen": "2024-02-10T06:51:09+00:00",
+      "last_seen": "2024-03-02T04:59:59+00:00",
+      "details": [
+        "2024CxC: matplotlib in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "tmaswang03/2024CxC"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 41,
+      "first_seen": "2024-02-10T06:51:09+00:00",
+      "last_seen": "2024-03-02T04:59:59+00:00",
+      "details": [
+        "2024CxC: scikit-learn in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "tmaswang03/tmaswang03.github.io",
+        "tmaswang03/financial_analysis"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 0.6993908419802799,
+      "total_bytes": 17601,
+      "commit_count": 25,
+      "first_seen": "2021-08-20T00:52:47+00:00",
+      "last_seen": "2023-01-13T21:10:46+00:00",
+      "details": [
+        "tmaswang03.github.io: CSS: 11,599 bytes (30% of repo)",
+        "tmaswang03.github.io: HTML: 3,241 bytes (8% of repo)",
+        "tmaswang03.github.io: repo topic 'css'",
+        "financial_analysis: HTML: 1,951 bytes (30% of repo)",
+        "financial_analysis: CSS: 810 bytes (12% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "tmaswang03/financial_analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 14,
+      "first_seen": "2023-01-05T23:35:12+00:00",
+      "last_seen": "2023-01-12T04:37:14+00:00",
+      "details": [
+        "financial_analysis: 'flask' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 130,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:15:03.718097+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

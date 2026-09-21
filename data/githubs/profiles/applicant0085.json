@@ -1,0 +1,1167 @@
+{
+  "applicant_id": "applicant0085",
+  "login": "claudio3964",
+  "html_url": "https://github.com/claudio3964",
+  "created_at": "2025-11-04T16:01:32Z",
+  "account_age_days": 316,
+  "public_repos": 6,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "en-escena-web",
+      "full_name": "claudio3964/en-escena-web",
+      "html_url": "https://github.com/claudio3964/en-escena-web",
+      "description": null,
+      "homepage": "https://en-escena-web.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-01T20:07:28Z",
+      "pushed_at": "2026-09-09T00:08:58Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 34509,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 34966,
+        "CSS": 306,
+        "JavaScript": 244
+      },
+      "primary_language": "TypeScript",
+      "file_count": 30,
+      "top_level_paths": [
+        ".env.example",
+        ".gitignore",
+        "README.md",
+        "next-env.d.ts",
+        "next.config.js",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.ts",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@mercadopago/sdk-react",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "autoprefixer",
+          "eslint",
+          "eslint-config-next",
+          "next",
+          "postcss",
+          "react",
+          "react-dom",
+          "resend",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1165,
+      "readme_excerpt": "# En Escena — Sitio Web\n\nAgencia creativa especializada en marketing digital, fotografía, video, diseño gráfico y dirección de arte.\n\n## Equipo\n- **Tamara** — Edición · Video · Fotografía · Diseño gráfico\n- **Camilla** — Marketing digital\n- **Jamyla** — Fotografía · Dirección de arte\n\n## Stack\n- **Next.js 14** (App Router)\n- **Tailwind CSS**\n- **TypeScript**\n- **Mercado Pago** (pagos)\n- **Resend** (emails)\n- **Vercel** (hosting)\n\n## Estructura de URLs (SEO)\n- `/` — Inicio\n- `/servicios` — Listado\n- `/servicios/[slug]` — Detalle por servicio\n- `/portfolio` — Galería\n- `/sobre-nosotras` — Equipo\n- `/blog` — Contenido SEO\n- `/contacto` — Formulario + WhatsApp\n- `/contratar` — Brief + checkout\n\n## Instalación\n```bash\nnpm install\nnpm run dev\n```\n\n## Variables de entorno\nCopiar `.env.example` a `.env.local` y completar.\n\n## Deploy\nConectá el repo a Vercel. El deploy es automático en cada push a `main`.\n\n## Próximos pasos\n1. Comprar dominio `enescena.uy` o similar\n2. Configurar cuenta de Mercado Pago y obtener credenciales\n3. Subir imágenes del portfolio a Cloudinary\n4. Crear posts iniciales en el blog (SEO)\n5. Conectar Google Analytics + Search Console\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2026-08-01T20:25:33+00:00",
+        "last_at": "2026-09-09T00:07:45+00:00",
+        "active_days": 3,
+        "span_days": 38,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: add scroll-driven hero visuals",
+          "Agregar secuencia visual de video y fotografías",
+          "v2: hero con fade, textos profesionales, portfolio y blog",
+          "Remove build cache and local env from repo",
+          "Primer commit - En Escena web"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 34,966 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 35516,
+        "strong_skills": [
+          "linux",
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "app-kilometros-completa",
+      "full_name": "claudio3964/app-kilometros-completa",
+      "html_url": "https://github.com/claudio3964/app-kilometros-completa",
+      "description": "App completa de registro de kilómetros",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-06T00:01:21Z",
+      "pushed_at": "2026-09-17T01:05:06Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 22049,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 523523,
+        "PLpgSQL": 76719,
+        "TypeScript": 2099
+      },
+      "primary_language": "Kotlin",
+      "file_count": 181,
+      "top_level_paths": [
+        ".claude",
+        ".gitignore",
+        ".idea",
+        "CLAUDE.md",
+        "ESTRATEGIA_MULTIEMPRESA.md",
+        "FASE1_MULTIEMPRESA.md",
+        "MULTIEMPRESA.md",
+        "PLAN_DESARROLLO_KOTLIN.md",
+        "RUTAUY_CONTEXT.md",
+        "app",
+        "build.gradle.kts",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "legacy",
+        "mandato de sesion.md",
+        "settings.gradle.kts",
+        "shared",
+        "supabase"
+      ],
+      "notable_files": [
+        "app/build.gradle.kts",
+        "build.gradle.kts",
+        "shared/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 162,
+        "first_at": "2026-05-06T17:49:35+00:00",
+        "last_at": "2026-09-17T01:02:12+00:00",
+        "active_days": 49,
+        "span_days": 133,
+        "max_per_day": 11,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: card de guardia en curso en Home, en carrusel con viaje cuando coexisten",
+          "docs: poner en orden la documentacion del proyecto -- una sola fuente de verdad por archivo",
+          "docs: cerrar cabo suelto jornadas_insert en Estado_actual.md con verificacion real",
+          "docs: cerrar hallazgo mensajes_select/update en Estado_actual.md con verificacion real",
+          "fix(security): cerrar mensajes_select/update -- 5 RPCs reemplazan el acceso directo con anon",
+          "fix(security): cast p_fecha::date en sincronizar_jornada_js + cerrar hallazgo jornadas_update",
+          "fix(security): cerrar jornadas_update -- RPC sincronizar_jornada_js reemplaza el upsert directo del JS viejo",
+          "docs: cerrar hallazgo choferes_update en Estado_actual.md con verificacion real",
+          "fix(security): cerrar choferes_update -- 3 RPCs reemplazan el PATCH directo con anon",
+          "Merge remote-tracking branch 'origin/main'",
+          "fix(security): cerrar choferes_insert -- RPC registrar_chofer reemplaza el INSERT directo con anon",
+          "feat(room): Pieza 4 -- desglose completo persistido, migracion real testeada, sync de jornada reabierta",
+          "docs: completar espejo de PANORAMA.md con nota de sharedKit.xcframework",
+          "docs: documentar regeneración de sharedKit.xcframework para driverlog (iOS)",
+          "docs: regla de espejo para PANORAMA.md entre repos Android/iOS",
+          "docs: log de sesión 19/08 en PANORAMA.md -- contrato de Mensajes portado a :shared",
+          "docs: mandato de sesión -- leer PANORAMA.md antes del protocolo de inicio",
+          "feat: portar contrato de Mensajes a :shared (KMP) -- DTOs, serializers flexibles y bridge Android",
+          "docs: log de sesión 19/08 en PANORAMA.md -- frente SolapamientoValidator cerrado",
+          "docs: agregar convención de mensaje detallado para ports a :shared"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 111
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 5,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 523,523 bytes (87% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "postgresql",
+          "source": "language",
+          "detail": "PLpgSQL: 76,719 bytes (13% of repo)",
+          "strength": 0.5273680523158809
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 2,099 bytes (0% of repo)",
+          "strength": 0.4034847370509396
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (supabase/functions/actualizar_fcm_token.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (supabase/migrations/20260724000000_puntas_configuracion.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 602341,
+        "strong_skills": [
+          "data-modeling",
+          "native-mobile",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "cot-admin-next",
+      "full_name": "claudio3964/cot-admin-next",
+      "html_url": "https://github.com/claudio3964/cot-admin-next",
+      "description": "CodeFlixLabs Repository - https://codeflixlabs.com",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-11T01:30:20Z",
+      "pushed_at": "2026-09-10T02:29:24Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 189,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 246433,
+        "CSS": 2407,
+        "JavaScript": 559
+      },
+      "primary_language": "TypeScript",
+      "file_count": 50,
+      "top_level_paths": [
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@supabase/ssr",
+          "@supabase/supabase-js",
+          "@tailwindcss/postcss",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "eslint",
+          "eslint-config-next",
+          "lucide-react",
+          "next",
+          "react",
+          "react-dom",
+          "tailwindcss",
+          "typescript"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1450,
+      "readme_excerpt": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-t",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 17,
+        "first_at": "2026-06-15T23:11:19+00:00",
+        "last_at": "2026-09-10T02:27:55+00:00",
+        "active_days": 13,
+        "span_days": 86,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Mejora visual del login con estados de error y éxito",
+          "feat(admin): mejora de estilos, contraste de iconos y diseño en panel",
+          "feat: rediseño visual completo del dashboard",
+          "feat: rediseño visual del login con glassmorphism y animaciones",
+          "feat: boton \"Anular guardia\" en mensajes/page.tsx (Caso A/B), espejo de anularAsignacion",
+          "feat: borrado (soft-delete) de jornadas desde el panel admin",
+          "feat: Caso B de edición de guardias en ModalEditarAsignacion.tsx",
+          "fix: link \"Ver jornada\" del cartel de jornada colgada — navegación interna en vez de pestaña nueva",
+          "feat: guard de jornada colgada — Capa 1 extendida a ModalEditarAsignacion (Caso A)",
+          "feat: guard de \"jornada colgada\" en el composer de mensajes (capa 1)",
+          "feat: validación de continuidad geográfica en asignación de viajes (pasos 6-7)",
+          "feat: validación de continuidad geográfica en asignación de viajes",
+          "Fix km en editar_viaje_en_jornada (CASO B)",
+          "feat: edicion de asignaciones (viaje/guardia) en mensajes",
+          "Session guard: refresh token silencioso + timeout de inactividad 20min",
+          "Snapshot completo del dashboard: 10 tabs, auth admin, redirect fix",
+          "Initial commit from Create Next App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 37
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 246,433 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,407 bytes (1% of repo)",
+          "strength": 0.4096512014883781
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "repo_name",
+          "detail": "'next' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 249399,
+        "strong_skills": [
+          "nextjs",
+          "react",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "app_kilometro",
+      "full_name": "claudio3964/app_kilometro",
+      "html_url": "https://github.com/claudio3964/app_kilometro",
+      "description": "registro y control de kilometros",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-04T19:10:56Z",
+      "pushed_at": "2025-11-04T19:32:41Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 8,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 26961
+      },
+      "primary_language": "HTML",
+      "file_count": 3,
+      "top_level_paths": [
+        "README.md",
+        "index.html.html",
+        "manifest.json"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 49,
+      "readme_excerpt": "# app_kilometro\nregistro y control de kilometros\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-11-04T19:10:56+00:00",
+        "last_at": "2025-11-04T19:32:41+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 26,961 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 26961,
+        "strong_skills": [
+          "html-css"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "driverlog-rutauy",
+      "full_name": "claudio3964/driverlog-rutauy",
+      "html_url": "https://github.com/claudio3964/driverlog-rutauy",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-08-16T23:57:58Z",
+      "pushed_at": "2026-09-04T02:48:34Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 27,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Swift": 32509
+      },
+      "primary_language": "Swift",
+      "file_count": 23,
+      "top_level_paths": [
+        ".claude",
+        "CLAUDE.md",
+        "driverlog",
+        "driverlog.xcodeproj"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2026-08-06T02:22:05+00:00",
+        "last_at": "2026-09-04T02:48:32+00:00",
+        "active_days": 5,
+        "span_days": 29,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.125,
+        "messages_sample": [
+          "docs: corregir nota de deuda de PANORAMA.md -- ya resuelta",
+          "docs: documentar regeneración de sharedKit.xcframework y deuda de PANORAMA.md",
+          "docs: protocolo de cierre propio + regla de espejo para PANORAMA.md",
+          "docs: agregar CLAUDE.md y copia de PANORAMA.md para sesiones de Claude Code",
+          "fix: estructurar MainTabView y corregir redeclaracion de vistas",
+          "feat(ios): integracion exitosa de sharekit KMP",
+          "estado Fase 1 - modelos SwiftData",
+          "Initial Commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 14
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 32,509 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (driverlog.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 32509,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Kotlin": 523523,
+    "TypeScript": 283498,
+    "PLpgSQL": 76719,
+    "Swift": 32509,
+    "HTML": 26961,
+    "CSS": 2713,
+    "JavaScript": 803
+  },
+  "total_commits": 194,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "claudio3964/en-escena-web",
+        "claudio3964/app-kilometros-completa",
+        "claudio3964/cot-admin-next"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 283498,
+      "commit_count": 184,
+      "first_seen": "2026-05-06T17:49:35+00:00",
+      "last_seen": "2026-09-17T01:02:12+00:00",
+      "details": [
+        "en-escena-web: TypeScript: 34,966 bytes (98% of repo)",
+        "en-escena-web: typescript in package.json",
+        "app-kilometros-completa: TypeScript: 2,099 bytes (0% of repo)",
+        "cot-admin-next: TypeScript: 246,433 bytes (99% of repo)",
+        "cot-admin-next: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "claudio3964/app-kilometros-completa",
+        "claudio3964/driverlog-rutauy"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 556032,
+      "commit_count": 170,
+      "first_seen": "2026-05-06T17:49:35+00:00",
+      "last_seen": "2026-09-17T01:02:12+00:00",
+      "details": [
+        "app-kilometros-completa: Kotlin: 523,523 bytes (87% of repo)",
+        "app-kilometros-completa: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "driverlog-rutauy: Swift: 32,509 bytes (100% of repo)",
+        "driverlog-rutauy: iOS project (driverlog.xcodeproj/project.pbxproj)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "claudio3964/cot-admin-next",
+        "claudio3964/app_kilometro"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 29368,
+      "commit_count": 19,
+      "first_seen": "2025-11-04T19:10:56+00:00",
+      "last_seen": "2026-09-10T02:27:55+00:00",
+      "details": [
+        "cot-admin-next: CSS: 2,407 bytes (1% of repo)",
+        "app_kilometro: HTML: 26,961 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "claudio3964/en-escena-web",
+        "claudio3964/cot-admin-next"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file",
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2026-06-15T23:11:19+00:00",
+      "last_seen": "2026-09-10T02:27:55+00:00",
+      "details": [
+        "en-escena-web: next config (next.config.js)",
+        "en-escena-web: next in package.json",
+        "cot-admin-next: next config (next.config.ts)",
+        "cot-admin-next: 'next' in repo name/description",
+        "cot-admin-next: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "claudio3964/en-escena-web",
+        "claudio3964/cot-admin-next"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2026-06-15T23:11:19+00:00",
+      "last_seen": "2026-09-10T02:27:55+00:00",
+      "details": [
+        "en-escena-web: tailwind config (tailwind.config.ts)",
+        "en-escena-web: tailwindcss in package.json",
+        "cot-admin-next: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "claudio3964/en-escena-web",
+        "claudio3964/cot-admin-next"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2026-06-15T23:11:19+00:00",
+      "last_seen": "2026-09-10T02:27:55+00:00",
+      "details": [
+        "en-escena-web: @types/react in package.json",
+        "cot-admin-next: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "claudio3964/en-escena-web"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2026-08-01T20:25:33+00:00",
+      "last_seen": "2026-09-09T00:07:45+00:00",
+      "details": [
+        "en-escena-web: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "claudio3964/app-kilometros-completa"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 162,
+      "first_seen": "2026-05-06T17:49:35+00:00",
+      "last_seen": "2026-09-17T01:02:12+00:00",
+      "details": [
+        "app-kilometros-completa: SQL file (supabase/functions/actualizar_fcm_token.sql)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "claudio3964/app-kilometros-completa"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 162,
+      "first_seen": "2026-05-06T17:49:35+00:00",
+      "last_seen": "2026-09-17T01:02:12+00:00",
+      "details": [
+        "app-kilometros-completa: database migrations (supabase/migrations/20260724000000_puntas_configuracion.sql)"
+      ]
+    },
+    {
+      "skill_id": "postgresql",
+      "repos": [
+        "claudio3964/app-kilometros-completa"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5273680523158809,
+      "total_bytes": 76719,
+      "commit_count": 162,
+      "first_seen": "2026-05-06T17:49:35+00:00",
+      "last_seen": "2026-09-17T01:02:12+00:00",
+      "details": [
+        "app-kilometros-completa: PLpgSQL: 76,719 bytes (13% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 194,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-17T01:37:27.167224+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

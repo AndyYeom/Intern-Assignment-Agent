@@ -1,0 +1,136 @@
+{
+  "github_login": "Roman-Ghorjomeladze",
+  "applicant_id": "applicant0014",
+  "first_name": "Noor",
+  "last_name": "Delacroix",
+  "career_stage": "student",
+  "email": "noor@ashfordmills.example",
+  "phone": "(555) 010-0141",
+  "location": "Ashford Mills",
+  "linkedin": "linkedin.example.com/in/noor-delacroix",
+  "github_url": "github.example.com/noor-delacroix",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Ashford Mills College of Technology",
+    "location": "Ashford Mills",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Technical Communication",
+    "graduation": "May 2027",
+    "gpa": null,
+    "coursework": [
+      "Human-Computer Interaction",
+      "Software Engineering Practices",
+      "Database Systems",
+      "Technical Writing"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Peer Technical Consultant",
+      "organization": "Ashford Mills College IT Help Desk",
+      "location": "Ashford Mills",
+      "start": "Sep 2025",
+      "end": "Present",
+      "bullets": [
+        "Translated ambiguous error reports from student researchers into reproducible steps the systems team could act on.",
+        "Noticed recurring confusion during account migrations and drafted a short walkthrough that cut repeat tickets."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Family Tree",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2026",
+      "end": "Apr 2026",
+      "bullets": [
+        "Built a family-tree app with a NestJS backend and React frontend, modeling relationships across PostgreSQL and Neo4j.",
+        "Added GEDCOM import/export and collaboration features so relatives could edit a shared tree together."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "NestJS",
+        "React",
+        "PostgreSQL",
+        "Neo4j"
+      ]
+    },
+    {
+      "title": "Doodledraw",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Apr 2026",
+      "bullets": [
+        "Developed a multiplayer drawing game in TypeScript, packaging it with Docker and an automated Playwright test suite.",
+        "Debugged timing-dependent multiplayer failures, learning to reproduce state-dependent bugs before trusting a fix."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "HTML",
+        "JavaScript",
+        "Docker",
+        "Playwright"
+      ]
+    },
+    {
+      "title": "All App",
+      "organization": null,
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built a cross-platform React Native app with Expo, targeting shared behavior across iOS and Android.",
+        "Chose Expo's component library to keep the interface consistent without duplicating platform-specific logic."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "React Native",
+        "Expo"
+      ]
+    }
+  ],
+  "leadership": [],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript"
+    ],
+    "Frontend": [
+      "React",
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Node.js"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "Linux & Server Administration",
+      "Docker",
+      "CI/CD"
+    ],
+    "Quality": [
+      "Integration & E2E Testing",
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "React Native"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

@@ -1,0 +1,1183 @@
+{
+  "applicant_id": "applicant0081",
+  "login": "Isaac11PG",
+  "html_url": "https://github.com/Isaac11PG",
+  "created_at": "2023-06-22T23:56:03Z",
+  "account_age_days": 1182,
+  "public_repos": 13,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "TT-B141",
+      "full_name": "Isaac11PG/TT-B141",
+      "html_url": "https://github.com/Isaac11PG/TT-B141",
+      "description": "mHealth & Explainable AI system for cognitive decline risk estimation and longitudinal follow-up using digital MoCA (TT 2026-B141).",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-09-16T23:35:43Z",
+      "pushed_at": "2026-09-17T00:32:49Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 25866,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 2192
+      },
+      "primary_language": "Python",
+      "file_count": 11,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "backend",
+        "data_pipeline",
+        "docs",
+        "mobile",
+        "models"
+      ],
+      "notable_files": [
+        "data_pipeline/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3793,
+      "readme_excerpt": "# TT-B141\n# Cognitive Risk Estimation and Longitudinal Support System for Neurodegenerative Disease Screening (TT 2026-B141)\n\nAn end-to-end mobile and cloud-based clinical decision support system designed to assist healthcare professionals in the early detection and longitudinal monitoring of cognitive decline associated with neurodegenerative disorders, including Mild Cognitive Impairment (MCI), Alzheimer's Disease, and Vascular Dementia.\n\n---\n\n## 📌 Project Overview\n\nDementia affects over 55 million individuals globally, with late-stage diagnosis representing a major bottleneck due to manual assessment protocols and limited specialist availability. This project introduces an integrated mHealth platform that digitalizes the **Montreal Cognitive Assessment (MoCA)** test, couples assessment results with socio-demographic and lifestyle factors, and leverages supervised Machine Learning models to compute probabilistic risk profiles.\n\nTo bridge clinical adoption barriers and comply with ethical medical standards, the system incorporates **eXplainable Artificial Intelligence (XAI)** through SHAP (SHapley Additive exPlanations), providing medical practitioners with transparent, domain-lev",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2026-09-16T23:35:44+00:00",
+        "last_at": "2026-09-17T00:32:49+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "Merge pull request #1 from Isaac11PG/feature/data-pipeline",
+          "docs: add first exposition presentation PDF",
+          "docs: add Phase 1 documentation and data pipeline baseline",
+          "feat: setup project folder structure and gitignore",
+          "Revise README for project details and structure",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 2,192 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2192,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Proyecto-Ing-software",
+      "full_name": "Isaac11PG/Proyecto-Ing-software",
+      "html_url": "https://github.com/Isaac11PG/Proyecto-Ing-software",
+      "description": "Prácticas de la materia de ingeniería de software ",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-05T03:13:56Z",
+      "pushed_at": "2025-06-26T02:13:28Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 146062,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 334286,
+        "JavaScript": 193737,
+        "Java": 168802,
+        "CSS": 8485,
+        "Kotlin": 4326,
+        "Dockerfile": 1356,
+        "TypeScript": 1208
+      },
+      "primary_language": "HTML",
+      "file_count": 329,
+      "top_level_paths": [
+        "Practica 1",
+        "Practica 6",
+        "Practica2",
+        "README.md",
+        "REPORTES_DOCUMENTACION",
+        "Tarea4",
+        "sismo-deteccion"
+      ],
+      "notable_files": [
+        "Practica 1/HOLASPRING6CV3/dockerfile",
+        "Practica 1/HOLASPRING6CV3/pom.xml",
+        "Practica2/HOLASPRING6CV3/dockerfile",
+        "Practica2/HOLASPRING6CV3/pom.xml",
+        "sismo-deteccion/package.json",
+        "sismo-deteccion/sismo-deteccion/Dockerfile",
+        "sismo-deteccion/sismo-deteccion/build.gradle",
+        "sismo-deteccion/sismo-mobile-expo/android/app/build.gradle",
+        "sismo-deteccion/sismo-mobile-expo/android/build.gradle",
+        "sismo-deteccion/sismo-mobile-expo/package.json",
+        "sismo-deteccion/sismos-frontend/Dockerfile",
+        "sismo-deteccion/sismos-frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2603,
+      "readme_excerpt": "# Sistema de Alerta y Visualización de Sismos - Gestión de Usuarios \n\n## Descripción del Proyecto\nEste es un proyecto de aplicación web de gestión de usuarios desarrollado con Spring Boot, que incluye funcionalidades de autenticación, registro, perfil de usuario y administración.\n\n## Características Principales\n- Registro de usuarios\n- Autenticación con Spring Security\n- Gestión de roles (USER, ADMIN)\n- Perfil de usuario\n- Panel de administración para gestión de usuarios\n\n## Requisitos Previos\n- Java 21\n- Maven\n- MySQL 8.0+\n\n## Configuración del Entorno\n\n### 1. Base de Datos\n- Crear base de datos MySQL:\n  ```sql\n  CREATE DATABASE tarea2;\n  ```\n\n- Credenciales de base de datos (configuradas en `application.properties`):\n  - Usuario: `admin`\n  - Contraseña: `admin`\n  - Base de datos: `tarea2`\n\n### 2. Configuración de Base de Datos\nEl proyecto incluye un `schema.sql` que se ejecutará automáticamente al iniciar la aplicación. Este script:\n- Crea la base de datos\n- Configura tablas de usuarios y roles\n- Inserta roles predeterminados (ROLE_ADMIN, ROLE_USER)\n- Crea un usuario de base de datos\n\n### 3. Dependencias\nLas dependencias principales incluyen:\n- Spring Boot Web\n- Spring Security\n-",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.179,
+      "commits": {
+        "count": 10,
+        "first_at": "2025-03-05T03:13:57+00:00",
+        "last_at": "2025-03-15T05:23:37+00:00",
+        "active_days": 4,
+        "span_days": 10,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.3,
+        "messages_sample": [
+          "README.md",
+          "README.md",
+          "README.md",
+          "home.html",
+          "Revert \"[868czdhkp] Home-update\"",
+          "README.md",
+          "Merge pull request #4 from Isaac11PG/Branch-Luis2",
+          "Add files via upload",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 172
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 334,286 bytes (47% of repo)",
+          "strength": 0.8693709632125808
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 193,737 bytes (27% of repo)",
+          "strength": 0.6720261162594777
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 168,802 bytes (24% of repo)",
+          "strength": 0.6370148834597024
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 8,485 bytes (1% of repo)",
+          "strength": 0.41191378826172426
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 4,326 bytes (1% of repo)",
+          "strength": 0.4060741364785173
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,356 bytes (0% of repo)",
+          "strength": 0.4019039595619208
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 1,208 bytes (0% of repo)",
+          "strength": 0.40169615276607695
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "docker-compose (Practica 1/HOLASPRING6CV3/docker-compose.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (Practica 1/HOLASPRING6CV3/src/main/resources/schema.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (Practica 1/HOLASPRING6CV3/src/test/java/com/holamundo/HOLASPRING6CV3/Holaspring6Cv3ApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (sismo-deteccion/sismo-mobile-expo/android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "server config (sismo-deteccion/sismos-frontend/nginx.conf)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 712200,
+        "strong_skills": [
+          "docker",
+          "html-css",
+          "java",
+          "javascript",
+          "linux",
+          "native-mobile",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Proyecto_individual-Ing-de-Software",
+      "full_name": "Isaac11PG/Proyecto_individual-Ing-de-Software",
+      "html_url": "https://github.com/Isaac11PG/Proyecto_individual-Ing-de-Software",
+      "description": "Proyecto individual de la materia de Ing. de Software",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-03-10T02:51:01Z",
+      "pushed_at": "2025-05-29T06:02:49Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 54979,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 332984,
+        "CSS": 42454,
+        "Java": 42083,
+        "JavaScript": 6416,
+        "Dockerfile": 645
+      },
+      "primary_language": "HTML",
+      "file_count": 103,
+      "top_level_paths": [
+        "Practica2-Software",
+        "Practica3-Software",
+        "Proyecto-ind-IPG",
+        "README.md"
+      ],
+      "notable_files": [
+        "Proyecto-ind-IPG/Individual-main/Dockerfile",
+        "Proyecto-ind-IPG/Individual-main/pom.xml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4055,
+      "readme_excerpt": "# Proyecto de Autenticación en Spring Boot\n\nEste proyecto es una aplicación de autenticación y gestión de usuarios desarrollada con **Spring Boot**, que incluye registro de nuevos usuarios, inicio de sesión y gestión segura de sesiones mediante JWT y OAuth 2.0.\n\n## Características Principales\n- Registro de usuarios mediante un endpoint REST.\n- Inicio de sesión con validación de credenciales.\n- Gestión de sesiones seguras con **JWT**.\n- Soporte para autenticación mediante **Google** y **Facebook** (OAuth 2.0, opcional).\n- Base de datos MySQL con persistencia a través de **Spring Data JPA**.\n\n## Requisitos\n### Dependencias Necesarias\nAntes de ejecutar el proyecto, asegúrese de tener instaladas las siguientes dependencias:\n- **Java 21**\n- **Spring Boot 3.x**\n- **Maven**\n- **MySQL Server**\n\nLas dependencias clave en `pom.xml` incluyen:\n```xml\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-web</artifactId>\n</dependency>\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-security</artifactId>\n</dependency>\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2025-03-10T02:51:02+00:00",
+        "last_at": "2025-05-29T06:02:49+00:00",
+        "active_days": 3,
+        "span_days": 80,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "README.md",
+          "Proyecto Individual",
+          "Add files via upload",
+          "README.md",
+          "README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 59
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 332,984 bytes (78% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 42,454 bytes (10% of repo)",
+          "strength": 0.49999010791790516
+        },
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 42,083 bytes (10% of repo)",
+          "strength": 0.49911630733285917
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,416 bytes (2% of repo)",
+          "strength": 0.41511133302872005
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Proyecto-ind-IPG/Individual-main/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (Proyecto-ind-IPG/Individual-main/bd.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (Proyecto-ind-IPG/Individual-main/src/test/java/mx/ipn/escom/Recomendaciones/RecomendacionesApplicationTests.java)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 424582,
+        "strong_skills": [
+          "docker",
+          "html-css",
+          "sql",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Proyecto-final-senales",
+      "full_name": "Isaac11PG/Proyecto-final-senales",
+      "html_url": "https://github.com/Isaac11PG/Proyecto-final-senales",
+      "description": "Proyecto final de la clase de señales, actividad altruista",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-30T21:53:02Z",
+      "pushed_at": "2025-06-30T23:20:06Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1195,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 421380,
+        "JavaScript": 3242,
+        "CSS": 903
+      },
+      "primary_language": "HTML",
+      "file_count": 1012,
+      "top_level_paths": [
+        ".github",
+        "README.md",
+        "proyecto-terminado-pages"
+      ],
+      "notable_files": [
+        ".github/workflows/jekyll-gh-pages.yml",
+        ".github/workflows/static.yml",
+        "proyecto-terminado-pages/node_modules/accepts/package.json",
+        "proyecto-terminado-pages/node_modules/anymatch/package.json",
+        "proyecto-terminado-pages/node_modules/array-flatten/package.json",
+        "proyecto-terminado-pages/node_modules/axios/package.json",
+        "proyecto-terminado-pages/node_modules/balanced-match/package.json",
+        "proyecto-terminado-pages/node_modules/binary-extensions/package.json",
+        "proyecto-terminado-pages/node_modules/body-parser/package.json",
+        "proyecto-terminado-pages/node_modules/brace-expansion/package.json",
+        "proyecto-terminado-pages/node_modules/braces/package.json",
+        "proyecto-terminado-pages/node_modules/bytes/package.json",
+        "proyecto-terminado-pages/node_modules/call-bind-apply-helpers/package.json",
+        "proyecto-terminado-pages/node_modules/call-bound/package.json",
+        "proyecto-terminado-pages/node_modules/chokidar/package.json",
+        "proyecto-terminado-pages/node_modules/concat-map/package.json",
+        "proyecto-terminado-pages/node_modules/content-disposition/package.json",
+        "proyecto-terminado-pages/node_modules/content-type/package.json",
+        "proyecto-terminado-pages/node_modules/cookie-signature/package.json",
+        "proyecto-terminado-pages/node_modules/cookie/package.json",
+        "proyecto-terminado-pages/node_modules/cors/package.json",
+        "proyecto-terminado-pages/node_modules/debug/package.json",
+        "proyecto-terminado-pages/node_modules/depd/package.json",
+        "proyecto-terminado-pages/node_modules/destroy/package.json",
+        "proyecto-terminado-pages/node_modules/dotenv/package.json",
+        "proyecto-terminado-pages/node_modules/dunder-proto/package.json",
+        "proyecto-terminado-pages/node_modules/ee-first/package.json",
+        "proyecto-terminado-pages/node_modules/encodeurl/package.json",
+        "proyecto-terminado-pages/node_modules/es-define-property/package.json",
+        "proyecto-terminado-pages/node_modules/es-errors/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 84,
+      "readme_excerpt": "# Proyecto-final-senales\nProyecto final de la clase de señales, actividad altruista\n",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2025-06-30T21:53:03+00:00",
+        "last_at": "2025-06-30T23:19:57+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.286,
+        "messages_sample": [
+          "Proyecto terminado",
+          "Merge branch 'main' of https://github.com/Isaac11PG/Proyecto-final-senales",
+          "Elminados",
+          "Create jekyll-gh-pages.yml",
+          "Create static.yml",
+          "Proyecto final",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 488
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 421,380 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,242 bytes (1% of repo)",
+          "strength": 0.4076188238058869
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/jekyll-gh-pages.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (proyecto-terminado-pages/node_modules/call-bind-apply-helpers/test/index.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 425525,
+        "strong_skills": [
+          "cicd",
+          "html-css",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Proyecto-en-android-studio",
+      "full_name": "Isaac11PG/Proyecto-en-android-studio",
+      "html_url": "https://github.com/Isaac11PG/Proyecto-en-android-studio",
+      "description": "Native Android mHealth application built with Kotlin, Room ORM, and Coroutines, providing local-first emotional tracking, guided meditation, box breathing, and gamified cognitive stimulation",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-07T07:03:28Z",
+      "pushed_at": "2026-09-17T01:12:10Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 457,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Kotlin": 111024
+      },
+      "primary_language": "Kotlin",
+      "file_count": 98,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        ".kotlin",
+        "README.md",
+        "Salud_mental.pdf",
+        "app",
+        "build.gradle.kts",
+        "gradle",
+        "gradle.properties",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle.kts"
+      ],
+      "notable_files": [
+        "app/build.gradle.kts",
+        "build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5344,
+      "readme_excerpt": "# MindCare — Mental Health & Cognitive Well-Being Native Android Application\n\nA native Android mobile platform designed for mental wellness and stress management, combining positive psychology and neuroscience principles with modern Android development standards. The application provides an offline, privacy-first ecosystem featuring emotional self-reporting, guided mindfulness, box-breathing exercises, and gamified anti-stress mini-games.\n\n---\n\n## 📌 Features & Architecture\n\n- **User Authentication & Session Management:** Decoupled login and registration flow utilizing local credentials, lifecycle-aware components, and persistent session state handling via `SharedPreferences` and `Room ORM`.\n- **Guided Meditation Hub:** Two-tier catalog supporting multiple session routines (Beginners, Sleep, Anxiety Relief, Gratitude, Body Scan) powered by dynamic card generation following the DRY principle, immersive countdown timers, and post-session mood logging.\n- **4-4-4 Box Breathing Guide:** Visual respiratory pacing via `ValueAnimator` scale transitions synchronized with stateful `CountDownTimer` callbacks to stimulate parasympathetic nervous system activation.\n- **Personal Emotional Journal",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-01-07T07:09:55+00:00",
+        "last_at": "2026-09-17T01:12:10+00:00",
+        "active_days": 2,
+        "span_days": 252,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Add Android APK download and installation instructions",
+          "Description about project",
+          "Add files via upload",
+          "Carga inicial del proyecto Android"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "following the"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 29
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 111,024 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "repo_name",
+          "detail": "'kotlin' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 111024,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "HTML": 1088650,
+    "Java": 210885,
+    "JavaScript": 203395,
+    "Kotlin": 115350,
+    "CSS": 51842,
+    "Python": 2192,
+    "Dockerfile": 2001,
+    "TypeScript": 1208
+  },
+  "total_commits": 33,
+  "skill_evidence": [
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software",
+        "Isaac11PG/Proyecto_individual-Ing-de-Software",
+        "Isaac11PG/Proyecto-final-senales"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1139589,
+      "commit_count": 23,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-06-30T23:19:57+00:00",
+      "details": [
+        "Proyecto-Ing-software: HTML: 334,286 bytes (47% of repo)",
+        "Proyecto-Ing-software: CSS: 8,485 bytes (1% of repo)",
+        "Proyecto_individual-Ing-de-Software: HTML: 332,984 bytes (78% of repo)",
+        "Proyecto_individual-Ing-de-Software: CSS: 42,454 bytes (10% of repo)",
+        "Proyecto-final-senales: HTML: 421,380 bytes (99% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software",
+        "Isaac11PG/Proyecto-en-android-studio"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "file",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 115350,
+      "commit_count": 14,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2026-09-17T01:12:10+00:00",
+      "details": [
+        "Proyecto-Ing-software: Kotlin: 4,326 bytes (1% of repo)",
+        "Proyecto-Ing-software: Android app manifest (sismo-deteccion/sismo-mobile-expo/android/app/src/debug/AndroidManifest.xml)",
+        "Proyecto-en-android-studio: Kotlin: 111,024 bytes (100% of repo)",
+        "Proyecto-en-android-studio: Android app manifest (app/src/main/AndroidManifest.xml)",
+        "Proyecto-en-android-studio: 'kotlin' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Isaac11PG/TT-B141"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2192,
+      "commit_count": 6,
+      "first_seen": "2026-09-16T23:35:44+00:00",
+      "last_seen": "2026-09-17T00:32:49+00:00",
+      "details": [
+        "TT-B141: Python: 2,192 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software",
+        "Isaac11PG/Proyecto_individual-Ing-de-Software",
+        "Isaac11PG/Proyecto-final-senales"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6720261162594777,
+      "total_bytes": 203395,
+      "commit_count": 23,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-06-30T23:19:57+00:00",
+      "details": [
+        "Proyecto-Ing-software: JavaScript: 193,737 bytes (27% of repo)",
+        "Proyecto_individual-Ing-de-Software: JavaScript: 6,416 bytes (2% of repo)",
+        "Proyecto-final-senales: JavaScript: 3,242 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software",
+        "Isaac11PG/Proyecto_individual-Ing-de-Software"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.6370148834597024,
+      "total_bytes": 210885,
+      "commit_count": 16,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-05-29T06:02:49+00:00",
+      "details": [
+        "Proyecto-Ing-software: Java: 168,802 bytes (24% of repo)",
+        "Proyecto_individual-Ing-de-Software: Java: 42,083 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software",
+        "Isaac11PG/Proyecto_individual-Ing-de-Software",
+        "Isaac11PG/Proyecto-final-senales"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-06-30T23:19:57+00:00",
+      "details": [
+        "Proyecto-Ing-software: test directory (Practica 1/HOLASPRING6CV3/src/test/java/com/holamundo/HOLASPRING6CV3/Holaspring6Cv3ApplicationTests.java)",
+        "Proyecto_individual-Ing-de-Software: test directory (Proyecto-ind-IPG/Individual-main/src/test/java/mx/ipn/escom/Recomendaciones/RecomendacionesApplicationTests.java)",
+        "Proyecto-final-senales: test directory (proyecto-terminado-pages/node_modules/call-bind-apply-helpers/test/index.js)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software",
+        "Isaac11PG/Proyecto_individual-Ing-de-Software"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1356,
+      "commit_count": 16,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-05-29T06:02:49+00:00",
+      "details": [
+        "Proyecto-Ing-software: Dockerfile: 1,356 bytes (0% of repo)",
+        "Proyecto-Ing-software: docker-compose (Practica 1/HOLASPRING6CV3/docker-compose.yml)",
+        "Proyecto_individual-Ing-de-Software: Dockerfile (Proyecto-ind-IPG/Individual-main/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software",
+        "Isaac11PG/Proyecto_individual-Ing-de-Software"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-05-29T06:02:49+00:00",
+      "details": [
+        "Proyecto-Ing-software: SQL file (Practica 1/HOLASPRING6CV3/src/main/resources/schema.sql)",
+        "Proyecto_individual-Ing-de-Software: SQL file (Proyecto-ind-IPG/Individual-main/bd.sql)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-03-15T05:23:37+00:00",
+      "details": [
+        "Proyecto-Ing-software: server config (sismo-deteccion/sismos-frontend/nginx.conf)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "Isaac11PG/Proyecto-final-senales"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2025-06-30T21:53:03+00:00",
+      "last_seen": "2025-06-30T23:19:57+00:00",
+      "details": [
+        "Proyecto-final-senales: GitHub Actions workflow (.github/workflows/jekyll-gh-pages.yml)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "Isaac11PG/Proyecto-Ing-software"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40169615276607695,
+      "total_bytes": 1208,
+      "commit_count": 10,
+      "first_seen": "2025-03-05T03:13:57+00:00",
+      "last_seen": "2025-03-15T05:23:37+00:00",
+      "details": [
+        "Proyecto-Ing-software: TypeScript: 1,208 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 33,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 10,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "android-kotlin",
+  "collected_at": "2026-09-17T01:36:33.888157+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

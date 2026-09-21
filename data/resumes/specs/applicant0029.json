@@ -1,0 +1,126 @@
+{
+  "github_login": "Shaick",
+  "applicant_id": "applicant0029",
+  "first_name": "Renato",
+  "last_name": "Salviati",
+  "career_stage": "student",
+  "email": "renato@valeverde.example",
+  "phone": "(555) 010-0291",
+  "location": "Vale Verde",
+  "linkedin": "linkedin.example.com/in/renato-salviati",
+  "github_url": "github.example.com/renato-salviati",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Vale Verde Technical Institute",
+    "location": "Vale Verde",
+    "degree": "Bachelor of Science",
+    "major": "Software Development",
+    "minor": null,
+    "graduation": "Dec 2025",
+    "gpa": null,
+    "coursework": [
+      "Backend Development with Java",
+      "Relational Databases",
+      "Web Development Fundamentals",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Desafioliteralura",
+      "organization": null,
+      "location": null,
+      "start": "Jul 2024",
+      "end": "Jul 2024",
+      "bullets": [
+        "Built a Spring Boot console app that catalogs books by consuming an external API, backed by a PostgreSQL database via JPA.",
+        "Wrote an automated test suite after an early version silently failed on malformed API responses."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Pontofinoestofados",
+      "organization": null,
+      "location": null,
+      "start": "Apr 2025",
+      "end": "Apr 2025",
+      "bullets": [
+        "Built a Node and Express storefront for a furniture retailer, using EJS templates and MongoDB with Mongoose for product data."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "Express",
+        "MongoDB",
+        "EJS"
+      ]
+    },
+    {
+      "title": "Lojavirtual Dotnetcore22",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2022",
+      "end": "Nov 2022",
+      "bullets": [
+        "Built an online store as an early coursework project, one of the first larger codebases spread across 565 files."
+      ],
+      "link": null,
+      "tech": [
+        "HTML",
+        "SCSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Study Partner",
+      "organization": "Vale Verde Backend Bootcamp Cohort",
+      "location": null,
+      "start": "Jun 2024",
+      "end": "Jul 2024",
+      "bullets": [
+        "Paired with a cohort-mate stuck on a broken JPA mapping, tracing the issue back to a mismatched column name in the migration."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Java",
+      "JavaScript"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Backend": [
+      "Node.js",
+      "Spring Boot"
+    ],
+    "Data": [
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "DevOps": [
+      "Kubernetes"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

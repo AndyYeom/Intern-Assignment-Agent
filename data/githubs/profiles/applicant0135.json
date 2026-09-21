@@ -1,0 +1,1470 @@
+{
+  "applicant_id": "applicant0135",
+  "login": "alina1114",
+  "html_url": "https://github.com/alina1114",
+  "created_at": "2020-12-10T15:00:00Z",
+  "account_age_days": 2106,
+  "public_repos": 10,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "Foodalyze",
+      "full_name": "alina1114/Foodalyze",
+      "html_url": "https://github.com/alina1114/Foodalyze",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-21T19:14:48Z",
+      "pushed_at": "2025-12-10T18:52:43Z",
+      "stargazers": 0,
+      "forks": 2,
+      "open_issues": 0,
+      "size_kb": 427844,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "HTML": 15116187,
+        "Python": 113334,
+        "Jupyter Notebook": 44962,
+        "Dockerfile": 1612,
+        "Makefile": 1071
+      },
+      "primary_language": "HTML",
+      "file_count": 11636,
+      "top_level_paths": [
+        ".DS_Store",
+        ".dvc",
+        ".dvcignore",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".pre-commit-config",
+        ".vscode",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTION.md",
+        "Dockerfile",
+        "Dockerfile.ui",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "SECURITY.md",
+        "class_mapping.json",
+        "data",
+        "docker-compose.yml",
+        "drift_metrics.json",
+        "drift_report.html",
+        "experiments",
+        "faiss_index",
+        "mlflow-data",
+        "models",
+        "monitoring",
+        "requirements.txt",
+        "requirements.txt.save",
+        "scripts",
+        "src",
+        "tests",
+        "yolo_data_drift_report.html"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        "Dockerfile",
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "accelerate",
+          "boto3",
+          "faiss-cpu",
+          "fastapi",
+          "httpx",
+          "huggingface-hub",
+          "langchain",
+          "langchain-community",
+          "langchain-core",
+          "langchain-huggingface",
+          "numpy",
+          "opencv-python-headless",
+          "prometheus-client",
+          "python-multipart",
+          "safetensors",
+          "sentence-transformers",
+          "starlette",
+          "starlette-prometheus",
+          "torch",
+          "torchvision",
+          "transformers",
+          "ultralytics",
+          "uvicorn"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 13897,
+      "readme_excerpt": "\n## Project Overview\nThis is a Food Prediction + RAG (Retrieval-Augmented Generation) system that acts as an AI Nutritionist for Indian Cuisine. \nIt uses **Qwen/Qwen2-0.5B-Instruct** to answer questions based on a curated dataset of nutrition facts and healthy swaps.\n\n## 📂 Structure\n- `src/`: Source code for the API (`app.py`), Ingestion (`ingest.py`), and Frontend (`ui.py`).\n- `data/`: The dataset (`csv`, `json`) and evaluation data (`eval.jsonl`).\n- `experiments/`: Prompt engineering reports and evaluation scripts (D1).\n- `faiss_index/`: The pre-built Vector Database.\n\n## 🚀 How to Run\n1. **Install:** `make install`\n2. **Run RAG API:** `make rag`\n3. **Run Frontend:** `streamlit run src/ui.py`\n# Foodalyze\n\n## Your pocket nutritionist, powered by AI.\nA dual-engine system: **YOLOv8** for food detection and **Qwen/Qwen2-0.5B-Instruct** for nutritional RAG analysis.\n\n-----\n\n## 🏗️ System Architecture\n\nThis project consists of two main pipelines: Computer Vision (CV) for detection and Large Language Models (LLM) for RAG-based Q&A.\n\n### 1. Computer Vision & MLOps Pipeline (YOLOv8)\nThis diagram shows the complete MLOps workflow — from model training to a monitored API endpoint.\n\n```mermaid",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 4,
+      "contribution_share": 0.544,
+      "commits": {
+        "count": 190,
+        "first_at": "2025-10-21T19:14:49+00:00",
+        "last_at": "2025-12-10T18:52:33+00:00",
+        "active_days": 8,
+        "span_days": 49,
+        "max_per_day": 86,
+        "low_effort_message_ratio": 0.395,
+        "messages_sample": [
+          "Resolving CI errors",
+          "Update test_extra_coverage.py",
+          "Update test_extra_coverage.py",
+          "Update ci.yml",
+          "Resolving CI errors",
+          "Update test_extra_coverage.py",
+          "Resolving CI errors",
+          "Update test_extra_coverage.py",
+          "Resolving CI errors",
+          "Update test_extra_coverage.py",
+          "Update ci.yml",
+          "Resolving CI errors",
+          "Update test_extra_coverage.py",
+          "Update test_extra_coverage.py",
+          "Resolving CI errors",
+          "Update test_extra_coverage.py",
+          "Resolving CI errors",
+          "Update test_extra_coverage.py",
+          "Create test_extra_coverage.py",
+          "Update app.py"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 20
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 15,116,187 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 113,334 bytes (1% of repo)",
+          "strength": 0.4074185225191636
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 44,962 bytes (0% of repo)",
+          "strength": 0.4029430851245578
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,612 bytes (0% of repo)",
+          "strength": 0.40010551695255525
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 1,071 bytes (0% of repo)",
+          "strength": 0.40007010462542597
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "file",
+          "detail": "monitoring config (monitoring/prometheus.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (scripts/mlops_run1_yolo8.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (tests/test_api.py)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "aws",
+          "source": "manifest",
+          "detail": "boto3 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "rag",
+          "source": "manifest",
+          "detail": "faiss-cpu in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "fastapi in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "manifest",
+          "detail": "langchain in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "manifest",
+          "detail": "prometheus-client in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "deep-learning",
+          "source": "manifest",
+          "detail": "torch in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "manifest",
+          "detail": "torchvision in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nlp",
+          "source": "manifest",
+          "detail": "transformers in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 15277166,
+        "strong_skills": [
+          "aws",
+          "cicd",
+          "computer-vision",
+          "deep-learning",
+          "docker",
+          "flask-fastapi",
+          "html-css",
+          "llm-apps",
+          "monitoring",
+          "nlp",
+          "pandas",
+          "rag",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bykea-hci-prototype",
+      "full_name": "alina1114/bykea-hci-prototype",
+      "html_url": "https://github.com/alina1114/bykea-hci-prototype",
+      "description": null,
+      "homepage": "https://bykea-hci-prototype.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-01T05:10:51Z",
+      "pushed_at": "2025-12-01T07:31:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1707,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 629212,
+        "CSS": 84920,
+        "HTML": 732
+      },
+      "primary_language": "TypeScript",
+      "file_count": 148,
+      "top_level_paths": [
+        "Bykea Redesigned Workable Prototype (1) (1) (1)"
+      ],
+      "notable_files": [
+        "Bykea Redesigned Workable Prototype (1) (1) (1)/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2025-12-01T05:12:23+00:00",
+        "last_at": "2025-12-01T07:31:01+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.714,
+        "messages_sample": [
+          "Update index.html",
+          "Delete Bykea Redesigned Workable Prototype (1) (1) (1)/vercel.json",
+          "Update vite.config.ts",
+          "Update vercel.json",
+          "Create vercel.json",
+          "Update index.html",
+          "Initial Figma export"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 122
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 629,212 bytes (88% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 84,920 bytes (12% of repo)",
+          "strength": 0.518791826137559
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 714864,
+        "strong_skills": [
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AQI_Predictor",
+      "full_name": "alina1114/AQI_Predictor",
+      "html_url": "https://github.com/alina1114/AQI_Predictor",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-07-13T14:32:53Z",
+      "pushed_at": "2026-09-17T01:13:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 386318,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 2994843,
+        "Python": 31314,
+        "Dockerfile": 489
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 221,
+      "top_level_paths": [
+        ".github",
+        "10Pearls2"
+      ],
+      "notable_files": [
+        ".github/workflows/daily_aqi_train.yml",
+        ".github/workflows/daily_collection.yml",
+        ".github/workflows/preprocessing_pipeline.yml",
+        ".github/workflows/run_selected_feature_pipeline.yml",
+        "10Pearls2/streamlit/Dockerfile",
+        "10Pearls2/streamlit/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.332,
+      "commits": {
+        "count": 89,
+        "first_at": "2025-07-13T14:40:40+00:00",
+        "last_at": "2025-08-18T07:34:04+00:00",
+        "active_days": 8,
+        "span_days": 35,
+        "max_per_day": 34,
+        "low_effort_message_ratio": 0.809,
+        "messages_sample": [
+          "Add Karachi AQI Prediction Report PDF",
+          "Add Dockerfile for Streamlit AQI dashboard",
+          "Delete 10Pearls2/streamlit/val_predictions.csv",
+          "Add Streamlit dashboard inside 10Pearls2/streamlit",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.yml",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.py",
+          "Update daily_aqi_train.yml",
+          "Update daily_aqi_train.yml"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 10,
+        "code_file_count": 6
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 2,994,843 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 31,314 bytes (1% of repo)",
+          "strength": 0.4103461058875072
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/daily_aqi_train.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (10Pearls2/EDA and Feature Selection/EDA_(after_feature_engineering)+Feature_Selection.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (10Pearls2/streamlit/Dockerfile)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3026646,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Inflation-Forecasting-Kaggle-Comp",
+      "full_name": "alina1114/Inflation-Forecasting-Kaggle-Comp",
+      "html_url": "https://github.com/alina1114/Inflation-Forecasting-Kaggle-Comp",
+      "description": "This repository contains the code and methodology I used for an inflation forecasting competition organized by EGF. The goal was to predict inflation trends based on historical data.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-01-03T18:36:41Z",
+      "pushed_at": "2025-01-03T19:14:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2344,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 3506746
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 9,
+      "top_level_paths": [
+        "Inflation Forecasting Graph.png",
+        "README.md",
+        "Sarima & LSTM.ipynb",
+        "X_test.csv",
+        "X_train.csv",
+        "inflation_comparison_ensemble.csv",
+        "kaggle-EGF.xlsx",
+        "y_test.csv",
+        "y_train.csv"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 39,
+      "readme_excerpt": "\"# Inflation-Forecasting-Kaggle-Comp\" \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2025-01-03T19:05:45+00:00",
+        "last_at": "2025-01-03T19:14:06+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Rename Inflation Forecasting Graph to Inflation Forecasting Graph.png",
+          "Renamed Inflation Forecasting Graph",
+          "Delete WhatsApp Image 2025-01-03 at 22.58.40_6d95a298.jpg",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 3,506,746 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Sarima & LSTM.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3506746,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "mongo-blog-app",
+      "full_name": "alina1114/mongo-blog-app",
+      "html_url": "https://github.com/alina1114/mongo-blog-app",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-06T17:45:18Z",
+      "pushed_at": "2024-12-06T18:43:35Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3532,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 12751,
+        "HTML": 1721,
+        "CSS": 930
+      },
+      "primary_language": "JavaScript",
+      "file_count": 1761,
+      "top_level_paths": [
+        "README.md",
+        "data",
+        "frontend",
+        "index.js",
+        "node_modules",
+        "operations",
+        "package-lock.json",
+        "package.json",
+        "setup",
+        "userRoutes.js"
+      ],
+      "notable_files": [
+        "frontend/blog-interface/package.json",
+        "node_modules/@mongodb-js/saslprep/package.json",
+        "node_modules/@types/node/package.json",
+        "node_modules/@types/webidl-conversions/package.json",
+        "node_modules/@types/whatwg-url/package.json",
+        "node_modules/accepts/package.json",
+        "node_modules/array-flatten/package.json",
+        "node_modules/body-parser/node_modules/debug/package.json",
+        "node_modules/body-parser/node_modules/ms/package.json",
+        "node_modules/body-parser/package.json",
+        "node_modules/bson/package.json",
+        "node_modules/bson/vendor/base64/package.json",
+        "node_modules/bson/vendor/text-encoding/package.json",
+        "node_modules/bytes/package.json",
+        "node_modules/call-bind-apply-helpers/package.json",
+        "node_modules/call-bind/package.json",
+        "node_modules/content-disposition/package.json",
+        "node_modules/content-type/package.json",
+        "node_modules/cookie-signature/package.json",
+        "node_modules/cookie/package.json",
+        "node_modules/cors/package.json",
+        "node_modules/debug/package.json",
+        "node_modules/define-data-property/package.json",
+        "node_modules/depd/package.json",
+        "node_modules/destroy/package.json",
+        "node_modules/dunder-proto/package.json",
+        "node_modules/ee-first/package.json",
+        "node_modules/encodeurl/package.json",
+        "node_modules/es-define-property/package.json",
+        "node_modules/es-errors/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "body-parser",
+          "cors",
+          "express",
+          "mongoose"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3314,
+      "readme_excerpt": "<<<<<<< HEAD\nBlog Application - MongoDB Project\nProject Overview\nThis project demonstrates the implementation of a MongoDB-based blog application. It includes features for managing users, blogs, comments, and tags, along with sample data and CRUD operations.\nSetup Instructions\nPrerequisites\nMongoDB installed on your system.\nNode.js and npm installed on your system.\nA terminal or command prompt for running scripts.\nStep 1: Clone the Repository\nClone the project repository to your local machine:\ngit clone https://github.com/alina1114/mongo-blog-app\ncd submission\nStep 2: Install Dependencies\nRun the following command in the project directory to install the required Node.js modules:\nnpm install\n\nHere is a full README file for your MongoDB Blog Application Submission:\n\nBlog Application - MongoDB Project\nProject Overview\nThis project demonstrates the implementation of a MongoDB-based blog application. It includes features for managing users, blogs, comments, and tags, along with sample data and CRUD operations.\n\nProject Structure\nsubmission/\n├── setup/\n│   ├── create_collections.js       # Script to create MongoDB collections and schemas\n│   ├── insert_sample_data.js       # Script to po",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2024-12-06T17:45:18+00:00",
+        "last_at": "2024-12-06T18:43:24+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.4,
+        "messages_sample": [
+          "Update code with frontend and backend fixes",
+          "update README",
+          "Merge remote and local repositories",
+          "Initial commit of MongoDB Blog App project",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1059
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 12,751 bytes (83% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,721 bytes (11% of repo)",
+          "strength": 0.511738735229191
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 930 bytes (6% of repo)",
+          "strength": 0.46038176860148033
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (frontend/blog-interface/src/App.test.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (node_modules/smart-buffer/docs/CHANGELOG.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "repo_name",
+          "detail": "'mongo' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongoose in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 15402,
+        "strong_skills": [
+          "javascript",
+          "mongodb",
+          "nodejs",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "HTML": 15118640,
+    "Jupyter Notebook": 6546551,
+    "TypeScript": 629212,
+    "Python": 144648,
+    "CSS": 85850,
+    "JavaScript": 12751,
+    "Dockerfile": 2101,
+    "Makefile": 1071
+  },
+  "total_commits": 295,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "alina1114/Foodalyze",
+        "alina1114/AQI_Predictor",
+        "alina1114/Inflation-Forecasting-Kaggle-Comp"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 6691199,
+      "commit_count": 283,
+      "first_seen": "2025-01-03T19:05:45+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: Python: 113,334 bytes (1% of repo)",
+        "Foodalyze: Jupyter Notebook: 44,962 bytes (0% of repo)",
+        "AQI_Predictor: Jupyter Notebook: 2,994,843 bytes (99% of repo)",
+        "AQI_Predictor: Python: 31,314 bytes (1% of repo)",
+        "Inflation-Forecasting-Kaggle-Comp: Jupyter Notebook: 3,506,746 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "alina1114/Foodalyze",
+        "alina1114/bykea-hci-prototype",
+        "alina1114/mongo-blog-app"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 15203758,
+      "commit_count": 202,
+      "first_seen": "2024-12-06T17:45:18+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: HTML: 15,116,187 bytes (99% of repo)",
+        "bykea-hci-prototype: CSS: 84,920 bytes (12% of repo)",
+        "mongo-blog-app: HTML: 1,721 bytes (11% of repo)",
+        "mongo-blog-app: CSS: 930 bytes (6% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "alina1114/bykea-hci-prototype"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 629212,
+      "commit_count": 7,
+      "first_seen": "2025-12-01T05:12:23+00:00",
+      "last_seen": "2025-12-01T07:31:01+00:00",
+      "details": [
+        "bykea-hci-prototype: TypeScript: 629,212 bytes (88% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "alina1114/mongo-blog-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 12751,
+      "commit_count": 5,
+      "first_seen": "2024-12-06T17:45:18+00:00",
+      "last_seen": "2024-12-06T18:43:24+00:00",
+      "details": [
+        "mongo-blog-app: JavaScript: 12,751 bytes (83% of repo)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "alina1114/Foodalyze",
+        "alina1114/AQI_Predictor",
+        "alina1114/Inflation-Forecasting-Kaggle-Comp"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 283,
+      "first_seen": "2025-01-03T19:05:45+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: jupyter notebook (scripts/mlops_run1_yolo8.ipynb)",
+        "Foodalyze: numpy in requirements.txt",
+        "AQI_Predictor: jupyter notebook (10Pearls2/EDA and Feature Selection/EDA_(after_feature_engineering)+Feature_Selection.ipynb)",
+        "Inflation-Forecasting-Kaggle-Comp: jupyter notebook (Sarima & LSTM.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: monitoring config (monitoring/prometheus.yml)",
+        "Foodalyze: prometheus-client in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "alina1114/mongo-blog-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2024-12-06T17:45:18+00:00",
+      "last_seen": "2024-12-06T18:43:24+00:00",
+      "details": [
+        "mongo-blog-app: 'mongo' in repo name/description",
+        "mongo-blog-app: mongoose in package.json"
+      ]
+    },
+    {
+      "skill_id": "aws",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: boto3 in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "rag",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: faiss-cpu in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: fastapi in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: langchain in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "deep-learning",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: torch in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "computer-vision",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: torchvision in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: transformers in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "alina1114/mongo-blog-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2024-12-06T17:45:18+00:00",
+      "last_seen": "2024-12-06T18:43:24+00:00",
+      "details": [
+        "mongo-blog-app: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "alina1114/Foodalyze",
+        "alina1114/AQI_Predictor"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1612,
+      "commit_count": 279,
+      "first_seen": "2025-07-13T14:40:40+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: Dockerfile: 1,612 bytes (0% of repo)",
+        "Foodalyze: Dockerfile (Dockerfile)",
+        "AQI_Predictor: Dockerfile (10Pearls2/streamlit/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "alina1114/Foodalyze",
+        "alina1114/AQI_Predictor"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 279,
+      "first_seen": "2025-07-13T14:40:40+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "AQI_Predictor: GitHub Actions workflow (.github/workflows/daily_aqi_train.yml)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "alina1114/Foodalyze",
+        "alina1114/mongo-blog-app"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 195,
+      "first_seen": "2024-12-06T17:45:18+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: test directory (tests/test_api.py)",
+        "mongo-blog-app: test file (frontend/blog-interface/src/App.test.js)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "alina1114/mongo-blog-app"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2024-12-06T17:45:18+00:00",
+      "last_seen": "2024-12-06T18:43:24+00:00",
+      "details": [
+        "mongo-blog-app: docs directory (node_modules/smart-buffer/docs/CHANGELOG.md)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "alina1114/Foodalyze"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.40007010462542597,
+      "total_bytes": 1071,
+      "commit_count": 190,
+      "first_seen": "2025-10-21T19:14:49+00:00",
+      "last_seen": "2025-12-10T18:52:33+00:00",
+      "details": [
+        "Foodalyze: Makefile: 1,071 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 295,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 19,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-17T01:19:52.152679+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

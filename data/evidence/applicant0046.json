@@ -1,0 +1,296 @@
+{
+  "applicant_id": "applicant0046",
+  "github_login": "sergiordg00",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0046.json",
+  "skills": [
+    {
+      "skill_id": "auth",
+      "claimed_level": 3,
+      "status": "partially_verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "next-auth in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Advanced; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "prisma schema (prisma/schema.prisma)",
+            "prisma in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "javascript",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk",
+        "https://github.com/sergiordg00/just-a-blog",
+        "https://github.com/sergiordg00/reactsounds",
+        "https://github.com/sergiordg00/portfolio"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "JavaScript: 109,782 bytes (96% of repo)"
+          ]
+        },
+        {
+          "repo": "sergiordg00/just-a-blog",
+          "html_url": "https://github.com/sergiordg00/just-a-blog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, many_active_days, documented",
+            "JavaScript: 44,690 bytes (93% of repo)"
+          ]
+        },
+        {
+          "repo": "sergiordg00/reactsounds",
+          "html_url": "https://github.com/sergiordg00/reactsounds",
+          "level": 2,
+          "reasons": [
+            "intermediate: 26 commits; deployed, many_active_days, documented",
+            "JavaScript: 121,639 bytes (97% of repo)"
+          ]
+        },
+        {
+          "repo": "sergiordg00/portfolio",
+          "html_url": "https://github.com/sergiordg00/portfolio",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "JavaScript: 37,733 bytes (89% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "linux",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "env config (.env.example)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "llm-apps",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "openai in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "nextjs",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk",
+        "https://github.com/sergiordg00/just-a-blog"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "next config (next.config.js)",
+            "next in package.json"
+          ]
+        },
+        {
+          "repo": "sergiordg00/just-a-blog",
+          "html_url": "https://github.com/sergiordg00/just-a-blog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, many_active_days, documented",
+            "next config (next.config.js)",
+            "next in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "react",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk",
+        "https://github.com/sergiordg00/just-a-blog",
+        "https://github.com/sergiordg00/reactsounds",
+        "https://github.com/sergiordg00/portfolio"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "@headlessui/react in package.json"
+          ]
+        },
+        {
+          "repo": "sergiordg00/just-a-blog",
+          "html_url": "https://github.com/sergiordg00/just-a-blog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, many_active_days, documented",
+            "@portabletext/react in package.json"
+          ]
+        },
+        {
+          "repo": "sergiordg00/reactsounds",
+          "html_url": "https://github.com/sergiordg00/reactsounds",
+          "level": 2,
+          "reasons": [
+            "intermediate: 26 commits; deployed, many_active_days, documented",
+            "@types/react in package.json"
+          ]
+        },
+        {
+          "repo": "sergiordg00/portfolio",
+          "html_url": "https://github.com/sergiordg00/portfolio",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "@types/react in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (4 repo(s))."
+    },
+    {
+      "skill_id": "tailwind",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/sergiordg00/bytetalk",
+        "https://github.com/sergiordg00/just-a-blog",
+        "https://github.com/sergiordg00/reactsounds",
+        "https://github.com/sergiordg00/portfolio"
+      ],
+      "repos": [
+        {
+          "repo": "sergiordg00/bytetalk",
+          "html_url": "https://github.com/sergiordg00/bytetalk",
+          "level": 2,
+          "reasons": [
+            "intermediate: 80 commits; deployed, many_active_days, documented",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "sergiordg00/just-a-blog",
+          "html_url": "https://github.com/sergiordg00/just-a-blog",
+          "level": 2,
+          "reasons": [
+            "intermediate: 20 commits; deployed, many_active_days, documented",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "sergiordg00/reactsounds",
+          "html_url": "https://github.com/sergiordg00/reactsounds",
+          "level": 2,
+          "reasons": [
+            "intermediate: 26 commits; deployed, many_active_days, documented",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        },
+        {
+          "repo": "sergiordg00/portfolio",
+          "html_url": "https://github.com/sergiordg00/portfolio",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "tailwind config (tailwind.config.js)",
+            "tailwindcss in package.json"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (4 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "partially_verified": 1,
+    "verified": 7
+  }
+}

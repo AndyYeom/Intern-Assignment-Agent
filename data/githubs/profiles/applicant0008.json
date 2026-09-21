@@ -1,0 +1,1289 @@
+{
+  "applicant_id": "applicant0008",
+  "login": "hendrywijaya98",
+  "html_url": "https://github.com/hendrywijaya98",
+  "created_at": "2019-10-31T10:39:59Z",
+  "account_age_days": 2512,
+  "public_repos": 41,
+  "followers": 14,
+  "following": 31,
+  "repos": [
+    {
+      "name": "Global_Superstore_Sales_Analysis",
+      "full_name": "hendrywijaya98/Global_Superstore_Sales_Analysis",
+      "html_url": "https://github.com/hendrywijaya98/Global_Superstore_Sales_Analysis",
+      "description": "Analysis of Sales of Global Superstore from Profit, Sales, Profit Ratio with Global Superstore Dataset (AHM Data Analyst Technical Test)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-24T05:43:18Z",
+      "pushed_at": "2025-07-07T09:49:08Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 8298,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 368589
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 17,
+      "top_level_paths": [
+        "Dataset Global Superstore.xlsx",
+        "Global_Superstore_Sales_Analysis.ipynb",
+        "README.md",
+        "images"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 5652,
+      "readme_excerpt": "# Global Superstore Sales Analysis. \nAnalysis of Sales of Global Superstore from Profit, Sales, Profit Ratio with Global Superstore Dataset (AHM Data Analyst Technical Test). Global Superstore dataset is contains data on order details of customers for orders of a superstore globally \n\n## Data Inspection\nGlobal Superstore dataset have 51290 rows and 24 columns, which is included 4 kind of data types like datetime64[ns], float64, int64, object(categorical)\n```\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 51290 entries, 0 to 51289\nData columns (total 24 columns):\n #   Column          Non-Null Count  Dtype         \n---  ------          --------------  -----         \n 0   Row ID          51290 non-null  int64         \n 1   Order ID        51290 non-null  object        \n 2   Order Date      51290 non-null  datetime64[ns]\n 3   Ship Date       51290 non-null  datetime64[ns]\n 4   Ship Mode       51290 non-null  object        \n 5   Customer ID     51290 non-null  object        \n 6   Customer Name   51290 non-null  object        \n 7   Segment         51290 non-null  object        \n 8   City            51290 non-null  object        \n 9   State           51290 non-null  object        \n 10 ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 12,
+        "first_at": "2021-09-24T05:46:09+00:00",
+        "last_at": "2025-07-07T09:49:08+00:00",
+        "active_days": 4,
+        "span_days": 1382,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "finishing Readme Story Telling",
+          "add all images to Readme",
+          "Delete a",
+          "Add files via upload",
+          "Create a",
+          "Delete a",
+          "Create README.md",
+          "Create a",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 368,589 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Global_Superstore_Sales_Analysis.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 368589,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "American-Influencer-Analysis-Project",
+      "full_name": "hendrywijaya98/American-Influencer-Analysis-Project",
+      "html_url": "https://github.com/hendrywijaya98/American-Influencer-Analysis-Project",
+      "description": "Analysis of American Influencer based on their Instagram datasets (Marketing Analytics Kompas Gramedia Recruitment Test)",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-09-24T05:04:05Z",
+      "pushed_at": "2021-09-24T14:49:36Z",
+      "stargazers": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2484,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 1432471
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 24,
+      "top_level_paths": [
+        "American_Instagram_Influencers_Analysis.ipynb",
+        "Marketing Analyst Test Data.xls",
+        "README.md",
+        "images",
+        "influencer_dataset.csv"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 9859,
+      "readme_excerpt": "# Influencer Analysis Report\nAnalysis of American Influencer based on their Instagram datasets (Marketing Analytics Kompas Gramedia Recruitment Test)\n\n### Background\nInfluencer now is the essential parts for promoting business product. Besides emerging Interesting Job in Digital Era\n\nWith the Big numbers of World Wide Internet Users are reach **4,66 Billions**, Besides Instagram is the one of Social Media with the most users from whole internet users that Approximately 1 Billions Monthly Users\n\n## Data Collections\nThere is a .xls file containing these data \n- Influencer Data: contains a list of influencers and their statistics including followers, likes, posts, prices, gender, account created, category ID.\n  - which have 220 rows and 13 columns\n  - and this data is clean because has no duplicates and missing value   \n- Influencer Category: contains category group, category ID, and category name.\n  - which have 21 rows and 3 columns\n  - and this data is clean because has no duplicates and missing value\n- Influencer Agency: contains agency location, agency location ID, and agency fee.\n  - which have 45 rows and 3 columns\n  - and this data is clean because has no duplicates and missin",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2021-09-24T05:29:03+00:00",
+        "last_at": "2021-09-24T14:49:36+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.556,
+        "messages_sample": [
+          "Update Readme by inserting sample sintaxes",
+          "Update README.md",
+          "Create README.md",
+          "Delete a",
+          "Add files via upload",
+          "Create a",
+          "Delete Exploratory Data Analysis from American Instagram Influencers.ipynb",
+          "add new ipynb file",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 1,432,471 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (American_Instagram_Influencers_Analysis.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1432471,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Customer_Lifetime_Value_Prediction_Regression",
+      "full_name": "hendrywijaya98/Customer_Lifetime_Value_Prediction_Regression",
+      "html_url": "https://github.com/hendrywijaya98/Customer_Lifetime_Value_Prediction_Regression",
+      "description": "Predicting Customer Who have high value based on number of their spent and product/service from company that customer used bring impact to company profit and revenue",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-08-08T02:05:56Z",
+      "pushed_at": "2023-02-17T07:53:09Z",
+      "stargazers": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 3427,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 4736624
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 4,
+      "top_level_paths": [
+        "Insurance_Customer_Lifetime_Value_Prediction.ipynb",
+        "Marketing_Customer_Lifetime_Value_Prediction_Project.ipynb",
+        "squark_automotive_CLV_production_data.csv",
+        "squark_automotive_CLV_training_data.csv"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2022-08-08T02:20:10+00:00",
+        "last_at": "2023-02-17T07:53:09+00:00",
+        "active_days": 2,
+        "span_days": 193,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "remake project from scratch by its own code",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 2,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 4,736,624 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Insurance_Customer_Lifetime_Value_Prediction.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4736624,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Customer_Segmentation_Ecommerce_Department_Store",
+      "full_name": "hendrywijaya98/Customer_Segmentation_Ecommerce_Department_Store",
+      "html_url": "https://github.com/hendrywijaya98/Customer_Segmentation_Ecommerce_Department_Store",
+      "description": "Determine the Segment or Group of Customer based on Customer Characteristic in Purchase and Transaction Behaviour",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-03-08T11:52:13Z",
+      "pushed_at": "2023-03-09T03:06:13Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 41637,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 4371681
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 9,
+      "top_level_paths": [
+        "Olist_Ecommerce_Customer_Segmentation.ipynb",
+        "brazil_state_isocode.csv",
+        "customer_order_transaction_dataset.csv",
+        "olist_customers_dataset.csv",
+        "olist_order_items_dataset.csv",
+        "olist_order_payments_dataset.csv",
+        "olist_orders_dataset.csv",
+        "olist_products_dataset.csv",
+        "product_category_name_translation.csv"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2023-03-08T11:57:03+00:00",
+        "last_at": "2023-03-09T03:04:40+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "add 4 rest dataset",
+          "add olist_order_items_dataset.csv",
+          "first commit",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": true,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 4,371,681 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Olist_Ecommerce_Customer_Segmentation.ipynb)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4371681,
+        "strong_skills": [
+          "pandas",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Dicoding_Olist_Ecommerce_Analysis",
+      "full_name": "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis",
+      "html_url": "https://github.com/hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis",
+      "description": "Dicoding Final Project from Data analysis with Python class, which is using one of mandatory provided dataset by Dicoding that is E-commerce public dataset from Olist Marketplace Platform",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-11-27T04:46:14Z",
+      "pushed_at": "2023-12-01T03:29:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 32545,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Jupyter Notebook": 2731724,
+        "Python": 25326
+      },
+      "primary_language": "Jupyter Notebook",
+      "file_count": 15,
+      "top_level_paths": [
+        "Dicoding_DataAnalysisProject_HendryWijaya.ipynb",
+        "README.md",
+        "brazil_state_isocode.csv",
+        "customer_seller_exploration.py",
+        "olist_customers_dataset.csv",
+        "olist_order_items_dataset.csv",
+        "olist_order_payments_dataset.csv",
+        "olist_order_reviews_dataset.csv",
+        "olist_orders_dataset.csv",
+        "olist_products_dataset.csv",
+        "olist_sellers_dataset.csv",
+        "pages",
+        "product_category_name_translation.csv",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "alabaster",
+          "altair",
+          "anaconda-client",
+          "anaconda-navigator",
+          "anaconda-project",
+          "anyio",
+          "appdirs",
+          "argon2-cffi",
+          "argon2-cffi-bindings",
+          "arrow",
+          "asgiref",
+          "astroid",
+          "astropy",
+          "atomicwrites",
+          "attrs",
+          "automat",
+          "autopep8",
+          "babel",
+          "backcall",
+          "backports.functools-lru-cache",
+          "backports.tempfile",
+          "backports.weakref",
+          "bcrypt",
+          "beautifulsoup4",
+          "binaryornot",
+          "bitarray",
+          "bkcharts",
+          "black",
+          "bleach",
+          "blinker",
+          "bokeh",
+          "boto3",
+          "botocore",
+          "bottleneck",
+          "brotlipy",
+          "cachetools",
+          "certifi",
+          "cffi",
+          "chardet",
+          "charset-normalizer",
+          "click",
+          "cloudpickle",
+          "clyent",
+          "colorama",
+          "colorcet",
+          "comtypes",
+          "conda",
+          "conda-build",
+          "conda-content-trust",
+          "conda-pack",
+          "conda-package-handling",
+          "conda-repo-cli",
+          "conda-token",
+          "conda-verify",
+          "constantly",
+          "cookiecutter",
+          "cryptography",
+          "cssselect",
+          "cycler",
+          "cython",
+          "cytoolz",
+          "daal4py",
+          "dask",
+          "datashader",
+          "datashape",
+          "debugpy",
+          "decorator",
+          "defusedxml",
+          "diff-match-patch",
+          "dill",
+          "distributed",
+          "django",
+          "docutils",
+          "entrypoints",
+          "et-xmlfile",
+          "exceptiongroup",
+          "fastjsonschema",
+          "filelock",
+          "flake8",
+          "flask",
+          "fonttools",
+          "fsspec",
+          "future",
+          "fuzzywuzzy",
+          "gensim",
+          "gitdb",
+          "gitpython",
+          "glob2",
+          "greenlet",
+          "h11",
+          "h5py",
+          "heapdict",
+          "holoviews",
+          "html-parser",
+          "html5lib",
+          "hvplot",
+          "hyperlink",
+          "idna",
+          "imagecodecs",
+          "imageio",
+          "imagesize",
+          "importlib-metadata",
+          "incremental",
+          "inflection",
+          "iniconfig",
+          "intake",
+          "intervaltree",
+          "ipykernel",
+          "ipython",
+          "ipython-genutils",
+          "ipywidgets",
+          "isort",
+          "itemadapter",
+          "itemloaders",
+          "itsdangerous",
+          "jdcal",
+          "jedi",
+          "jellyfish",
+          "jinja2",
+          "jinja2-time"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 639,
+      "readme_excerpt": "# Dicoding_Olist_Ecommerce_Analysis\nDicoding Final Project from Data analysis with Python class, which is using one of mandatory provided dataset by Dicoding that is E-commerce public dataset from Olist Marketplace Platform\n\n## Dataset Used \n[E-Commerce Public Dataset from Olist Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/)\n\n## Setup environment\n```\nconda create --name base_hendry python=3.9.13\nconda activate base_hendry\npip install numpy pandas scipy scikit-learn matplotlib seaborn jupyter streamlit babel datetime warning\n```\n\n## Run steamlit app\n```\nstreamlit run customer_seller_exploration.py\n```\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2023-11-27T04:46:15+00:00",
+        "last_at": "2023-12-01T03:29:53+00:00",
+        "active_days": 4,
+        "span_days": 3,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 1,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 2,731,724 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 25,326 bytes (1% of repo)",
+          "strength": 0.40918590522478737
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (Dicoding_DataAnalysisProject_HendryWijaya.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "python",
+          "source": "repo_name",
+          "detail": "'python' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "web-scraping",
+          "source": "manifest",
+          "detail": "beautifulsoup4 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "bokeh in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "aws",
+          "source": "manifest",
+          "detail": "boto3 in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "django",
+          "source": "manifest",
+          "detail": "django in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "source": "manifest",
+          "detail": "flask in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nlp",
+          "source": "manifest",
+          "detail": "gensim in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysql in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "nose in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "pandas",
+          "source": "manifest",
+          "detail": "numpy in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "monitoring",
+          "source": "manifest",
+          "detail": "prometheus-client in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "python",
+          "source": "manifest",
+          "detail": "py in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "pyjwt in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "manifest",
+          "detail": "scikit-learn in requirements.txt",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "sqlalchemy in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2757050,
+        "strong_skills": [
+          "auth",
+          "aws",
+          "data-modeling",
+          "data-viz",
+          "django",
+          "flask-fastapi",
+          "machine-learning",
+          "monitoring",
+          "mysql",
+          "nlp",
+          "pandas",
+          "python",
+          "unit-testing",
+          "web-scraping"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Jupyter Notebook": 13641089,
+    "Python": 25326
+  },
+  "total_commits": 37,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "hendrywijaya98/Global_Superstore_Sales_Analysis",
+        "hendrywijaya98/American-Influencer-Analysis-Project",
+        "hendrywijaya98/Customer_Lifetime_Value_Prediction_Regression",
+        "hendrywijaya98/Customer_Segmentation_Ecommerce_Department_Store",
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 13666415,
+      "commit_count": 37,
+      "first_seen": "2021-09-24T05:29:03+00:00",
+      "last_seen": "2025-07-07T09:49:08+00:00",
+      "details": [
+        "Global_Superstore_Sales_Analysis: Jupyter Notebook: 368,589 bytes (100% of repo)",
+        "American-Influencer-Analysis-Project: Jupyter Notebook: 1,432,471 bytes (100% of repo)",
+        "Customer_Lifetime_Value_Prediction_Regression: Jupyter Notebook: 4,736,624 bytes (100% of repo)",
+        "Customer_Segmentation_Ecommerce_Department_Store: Jupyter Notebook: 4,371,681 bytes (100% of repo)",
+        "Dicoding_Olist_Ecommerce_Analysis: Jupyter Notebook: 2,731,724 bytes (99% of repo)",
+        "Dicoding_Olist_Ecommerce_Analysis: Python: 25,326 bytes (1% of repo)",
+        "Dicoding_Olist_Ecommerce_Analysis: 'python' in repo name/description",
+        "Dicoding_Olist_Ecommerce_Analysis: py in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "hendrywijaya98/Global_Superstore_Sales_Analysis",
+        "hendrywijaya98/American-Influencer-Analysis-Project",
+        "hendrywijaya98/Customer_Lifetime_Value_Prediction_Regression",
+        "hendrywijaya98/Customer_Segmentation_Ecommerce_Department_Store",
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 37,
+      "first_seen": "2021-09-24T05:29:03+00:00",
+      "last_seen": "2025-07-07T09:49:08+00:00",
+      "details": [
+        "Global_Superstore_Sales_Analysis: jupyter notebook (Global_Superstore_Sales_Analysis.ipynb)",
+        "American-Influencer-Analysis-Project: jupyter notebook (American_Instagram_Influencers_Analysis.ipynb)",
+        "Customer_Lifetime_Value_Prediction_Regression: jupyter notebook (Insurance_Customer_Lifetime_Value_Prediction.ipynb)",
+        "Customer_Segmentation_Ecommerce_Department_Store: jupyter notebook (Olist_Ecommerce_Customer_Segmentation.ipynb)",
+        "Dicoding_Olist_Ecommerce_Analysis: jupyter notebook (Dicoding_DataAnalysisProject_HendryWijaya.ipynb)",
+        "Dicoding_Olist_Ecommerce_Analysis: numpy in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "web-scraping",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: beautifulsoup4 in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: bokeh in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "aws",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: boto3 in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "django",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: django in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "flask-fastapi",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: flask in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "nlp",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: gensim in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: mysql in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: nose in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "monitoring",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: prometheus-client in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: pyjwt in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: scikit-learn in requirements.txt"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "hendrywijaya98/Dicoding_Olist_Ecommerce_Analysis"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 10,
+      "first_seen": "2023-11-27T04:46:15+00:00",
+      "last_seen": "2023-12-01T03:29:53+00:00",
+      "details": [
+        "Dicoding_Olist_Ecommerce_Analysis: sqlalchemy in requirements.txt"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 37,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 14,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "python-data-ml",
+  "collected_at": "2026-09-16T14:14:22.950341+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

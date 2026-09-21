@@ -1,0 +1,131 @@
+{
+  "github_login": "CarolenePremLeela",
+  "applicant_id": "applicant0148",
+  "first_name": "Devon",
+  "last_name": "Ashworth",
+  "career_stage": "student",
+  "email": "devon@marlowebay.example",
+  "phone": "(555) 010-0148",
+  "location": "Marlowe Bay",
+  "linkedin": "linkedin.example.com/in/devon-ashworth",
+  "github_url": "github.example.com/devon-ashworth",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Marlowe College of Technology",
+    "location": "Marlowe Bay",
+    "degree": "Bachelor of Arts",
+    "major": "Digital Media",
+    "minor": "Computer Science",
+    "graduation": "June 2027",
+    "gpa": "3.6/4.0",
+    "coursework": [
+      "Intro to Programming",
+      "Human-Centered Design",
+      "Systems Programming"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Kube Credential",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Oct 2025",
+      "end": "Mar 2026",
+      "bullets": [
+        "Designed a microservice system for issuing and verifying credentials, containerizing each service with Docker and covering logic with Jest tests.",
+        "Got pulled into the infrastructure side of the project after container networking issues took longer to fix than any UI bug."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Docker",
+        "Jest"
+      ]
+    },
+    {
+      "title": "Elevated Everyday Eye",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a React and TypeScript interface styled with Tailwind CSS, iterating on layout after early feedback called it cluttered.",
+        "Set up continuous integration to catch broken builds before they reached the deployed preview."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Carolene CV",
+      "organization": "Personal Project",
+      "location": null,
+      "start": "Apr 2025",
+      "end": "Oct 2025",
+      "bullets": [
+        "Built a personal portfolio site in plain HTML, an early project that first drew interest toward structuring a codebase well."
+      ],
+      "link": null,
+      "tech": [
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Volunteer Mentor",
+      "organization": "Marlowe Student Build Nights",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Helped classmates debug container startup failures during a campus build night, translating cryptic Docker logs into plain next steps.",
+        "Discovered that explaining infrastructure problems clearly interested him as much as building the interfaces he once focused on."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "C/C++",
+      "Java",
+      "SQL"
+    ],
+    "Frontend": [
+      "HTML/CSS",
+      "Tailwind CSS",
+      "React"
+    ],
+    "Backend": [
+      "Spring Boot"
+    ],
+    "Data": [
+      "Data Modeling",
+      "Data Visualization",
+      "MySQL"
+    ],
+    "DevOps": [
+      "Docker",
+      "CI/CD",
+      "Kubernetes",
+      "Linux & Server Administration"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

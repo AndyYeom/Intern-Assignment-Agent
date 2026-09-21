@@ -1,0 +1,598 @@
+{
+  "applicant_id": "applicant0024",
+  "login": "yunusmrcoban",
+  "html_url": "https://github.com/yunusmrcoban",
+  "created_at": "2020-01-31T20:23:03Z",
+  "account_age_days": 2419,
+  "public_repos": 23,
+  "followers": 19,
+  "following": 64,
+  "repos": [
+    {
+      "name": "wazuh-custom",
+      "full_name": "yunusmrcoban/wazuh-custom",
+      "html_url": "https://github.com/yunusmrcoban/wazuh-custom",
+      "description": "This repo contains custom rules, decoders and scripts for Wazuh.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-10-31T09:34:25Z",
+      "pushed_at": "2025-10-21T18:13:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 28,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 16656
+      },
+      "primary_language": "Python",
+      "file_count": 8,
+      "top_level_paths": [
+        "AzureDevops",
+        "EntraID",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 80,
+      "readme_excerpt": "# wazuh-custom\nThis repo contains custom rules, decoders and scripts for Wazuh.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 15,
+        "first_at": "2024-10-31T09:34:26+00:00",
+        "last_at": "2025-10-21T18:13:30+00:00",
+        "active_days": 3,
+        "span_days": 355,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.667,
+        "messages_sample": [
+          "Update AzureDevopsLogs.py",
+          "Update AzureDevopsLogs.py",
+          "Update README.md",
+          "Update README.md",
+          "Create README.md",
+          "Update AzureDevops_rules.xml",
+          "Create AzureDevops_rules.xml",
+          "Create AzureDevopsLogs.py",
+          "Delete AzureDevops",
+          "Create AzureDevops",
+          "README.md",
+          "EntraID_decoder.xml",
+          "EntraID_rules.xml",
+          "SignIns.py",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 16,656 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 16656,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "KQL-Advanced-Hunting-Queries-for-Defender-For-Endpoint",
+      "full_name": "yunusmrcoban/KQL-Advanced-Hunting-Queries-for-Defender-For-Endpoint",
+      "html_url": "https://github.com/yunusmrcoban/KQL-Advanced-Hunting-Queries-for-Defender-For-Endpoint",
+      "description": "KQL Queries. Defender For Endpoint and Detection Queries in KQL. Microsoft Defender for Endpoint.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-03-29T21:53:10Z",
+      "pushed_at": "2026-06-03T13:26:14Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 17,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 5,
+      "top_level_paths": [
+        "Malicious 3CX Applications (via network activities).yml",
+        "Malicious 3CX Applications Process (via Hash).yml",
+        "README.md",
+        "Supply Chain Compromise - Shai-Hulud Package Execution with IDE Persistence-2.yml",
+        "Supply Chain Compromise - Shai-Hulud Package Execution with IDE Persistence.yml"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 154,
+      "readme_excerpt": "# KQL-Advanced-Hunting-Queries-for-Defender-For-Endpoint\n\nThis repository contains KQL queries that Microsoft Sentinel and Microsoft Defender will use.\n\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 10,
+        "first_at": "2023-03-29T21:56:09+00:00",
+        "last_at": "2026-06-03T13:26:14+00:00",
+        "active_days": 4,
+        "span_days": 1161,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.2,
+        "messages_sample": [
+          "Update Supply Chain Compromise - Shai-Hulud Package Execution with IDE Persistence.yml",
+          "Update README.md",
+          "Create Supply Chain Compromise - Shai-Hulud Package Execution with IDE Persistence.yml",
+          "Rename Supply Chain Compromise - Shai-Hulud Package Execution with IDE Persistence-2 to Supply Chain Compromise - Shai-Hulud Package Execution with IDE Persistence-2.yml",
+          "Create Supply Chain Compromise - Shai-Hulud Package Execution with IDE Persistence-2",
+          "Create README.md",
+          "Update Malicious 3CX Applications Process (via Hash).yml",
+          "Update Malicious 3CX Applications (via network activities).yml",
+          "Create Malicious 3CX Applications (via network activities).yml",
+          "Create Malicious 3CX Applications Process (via Hash).yml"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Sigma-Rules",
+      "full_name": "yunusmrcoban/Sigma-Rules",
+      "html_url": "https://github.com/yunusmrcoban/Sigma-Rules",
+      "description": "Sigma Rules for Threat Hunting",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-05-28T17:54:56Z",
+      "pushed_at": "2023-06-02T14:15:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 3,
+      "top_level_paths": [
+        "README.md",
+        "grafana-8.4.3-cve_2022_32275",
+        "web_cve_2022_22972_vmware_auth_bypass.yml"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 112,
+      "readme_excerpt": "# Sigma-Rules\n## Sigma Rules for Threat Hunting\nI am publishing the Sigma rules that I think might be specific.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2022-05-28T18:02:45+00:00",
+        "last_at": "2023-06-02T14:15:26+00:00",
+        "active_days": 4,
+        "span_days": 369,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.75,
+        "messages_sample": [
+          "Create README.md",
+          "Create grafana-8.4.3-cve_2022_32275",
+          "Update web_cve_2022_22972_vmware_auth_bypass.yml",
+          "Create web_cve_2022_22972_vmware_auth_bypass.yml"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "yunusmrcoban",
+      "full_name": "yunusmrcoban/yunusmrcoban",
+      "html_url": "https://github.com/yunusmrcoban/yunusmrcoban",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-10T11:22:37Z",
+      "pushed_at": "2026-05-14T22:08:54Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 1,
+      "top_level_paths": [
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1672,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2025-05-10T11:22:38+00:00",
+        "last_at": "2026-05-14T22:08:54+00:00",
+        "active_days": 4,
+        "span_days": 369,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.571,
+        "messages_sample": [
+          "Remove GitHub Gists link from README",
+          "Remove GitHub stats from README",
+          "Revise personal introduction in README",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": false,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "project_name",
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Python": 16656
+  },
+  "total_commits": 36,
+  "skill_evidence": [
+    {
+      "skill_id": "python",
+      "repos": [
+        "yunusmrcoban/wazuh-custom"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 16656,
+      "commit_count": 15,
+      "first_seen": "2024-10-31T09:34:26+00:00",
+      "last_seen": "2025-10-21T18:13:30+00:00",
+      "details": [
+        "wazuh-custom: Python: 16,656 bytes (100% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 36,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 1,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "distinct_skills"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3; distinct_skills: 1 < 3"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-16T14:15:10.665425+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3; distinct_skills: 1 < 3"
+  ]
+}

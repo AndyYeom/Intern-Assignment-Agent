@@ -1,0 +1,56 @@
+{
+  "applicant_id": "applicant0043",
+  "login": "edtan-caseware",
+  "html_url": "https://github.com/edtan-caseware",
+  "created_at": "2020-01-31T16:33:07Z",
+  "account_age_days": 2419,
+  "public_repos": 7,
+  "followers": 1,
+  "following": 0,
+  "repos": [],
+  "external_contributions": [],
+  "languages_bytes": {},
+  "total_commits": 0,
+  "skill_evidence": [],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 0,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 0,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 0,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 0,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "readable_repos",
+      "total_commits",
+      "distinct_skills"
+    ],
+    "reason": "skill_relevant_repos: 0 < 3; readable_repos: 0 < 1; total_commits: 0 < 20; distinct_skills: 0 < 3"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-16T14:24:11.544912+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 0 < 3; readable_repos: 0 < 1; total_commits: 0 < 20; distinct_skills: 0 < 3",
+    "fewer than 3 repos mined - thin evidence base",
+    "no commits attributed to this login - check commit email config"
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "applicant_id": "applicant0095",
+  "login": "0ryo",
+  "html_url": "https://github.com/0ryo",
+  "created_at": "2022-12-20T02:01:06Z",
+  "account_age_days": 1366,
+  "public_repos": 4,
+  "followers": 1,
+  "following": 2,
+  "repos": [
+    {
+      "name": "EditorMain",
+      "full_name": "0ryo/EditorMain",
+      "html_url": "https://github.com/0ryo/EditorMain",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-05T08:37:00Z",
+      "pushed_at": "2026-09-17T01:11:20Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 771229,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 1068005,
+        "ShaderLab": 98735,
+        "HLSL": 19973
+      },
+      "primary_language": "C#",
+      "file_count": 485,
+      "top_level_paths": [
+        ".ai",
+        ".claude",
+        ".gitignore",
+        ".plastic",
+        ".vscode",
+        ".vsconfig",
+        "AGENTS.md",
+        "Assembly-CSharp.csproj",
+        "Assets",
+        "Docs",
+        "Editor.sln",
+        "EditorMain.sln",
+        "Logs",
+        "Packages",
+        "ProjectSettings",
+        "README.md",
+        "ignore.conf"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 3083,
+      "readme_excerpt": "﻿# EditorMain (SkillSync Editor)\n\n## 概要\nUnity上で動作する、オブジェクト配置・編集ツールのエディタ拡張プロジェクトです。\nコマンドパターンを採用し、Undo/Redo機能を含む堅牢な編集システムを提供します。\n\n## 機能 (Features)\n\n### 1. オブジェクト操作\n- **配置 (Place)**: プレハブを選択してシーンに配置します。\n- **移動 (Move)**: 配置されたオブジェクトを移動します。\n- **回転 (Rotate)**: オブジェクトを回転させます (Q/Eキーで15度単位)。\n- **削除 (Delete)**: 選択したオブジェクトを削除します。\n- **複製 (Duplicate)**: 選択したオブジェクトを複製します (Ctrl+D)。\n\n### 2. コマンドシステム (Undo/Redo)\n- 全ての操作（配置、移動、回転、削除）はコマンドとして管理されます。\n- `Ctrl+Z` で元に戻す (Undo)、`Ctrl+Y` でやり直し (Redo) が可能です。\n\n### 3. UI（Canvas/Prefab運用）\n- UIは **uGUI（Canvas） + Prefab** を正として運用します。\n- `Assets/UI/Prefabs/UIRoot.prefab` に以下の操作ウィンドウを統合しています。\n  - オブジェクト一覧ウィンドウ（`Panel_Catalog`）\n  - ノード追加ウィンドウ（`Panel_ScenarioGraph`）\n- オブジェクト一覧ウィンドウは以下に対応しています。\n  - `typeId` の部分一致検索（大文字小文字無視）\n  - スクロールカード表示\n  - クリック配置（1回で終了）\n  - ドラッグ&ドロップ配置（都度配置）\n  - `+` ボタン未実装フィードバック\n- 両ウィンドウは隙間なく接続され、以下のリサイズに対応しています。\n  - オブジェクト一覧: 左右方向リサイズ\n  - ノード追加: 上下方向リサイズ\n\n### 4. シナリオ作成UI（MVP）\n- ノード追加・接続・保存（`curriculum.json`）に対応。\n- 保存先は `Assets/Exports/<ProjectName>-curriculum.json`。\n- ノードUIはCanvas上のPrefab参照で構築し、見た目調整はPrefab側で行います。\n\n## 主要スクリプト (Key Scripts)\n\n### Core Systems\n- **`CommandService.cs`**: コマンドの実行と履歴（スタック）を管理するシングルトンサービス。\n- **`CommandStack.cs`**: Undo",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-02-20T01:52:45+00:00",
+        "last_at": "2026-09-17T01:11:24+00:00",
+        "active_days": 23,
+        "span_days": 208,
+        "max_per_day": 40,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge branch 'codex/function-preserving-refactor'",
+          "Add model part authoring and scenario playback improvements",
+          "refactor: separate object condition reference presentation",
+          "refactor: separate scenario graph viewport presentation",
+          "refactor: separate scenario node view lifecycle",
+          "refactor: separate scenario connection line presentation",
+          "refactor: separate scenario validation text",
+          "refactor: separate scenario minimap layout",
+          "fix: make validation panel minimize reliable",
+          "refactor: separate scenario graph layout",
+          "refactor: separate scenario graph command processing",
+          "refactor: separate scenario export building",
+          "refactor: separate scenario graph traversal",
+          "refactor: separate scenario connection rules",
+          "refactor: separate scenario graph validation",
+          "fix: ignore camera input outside game view",
+          "fix: restrict camera navigation to viewport",
+          "refactor: separate camera navigation calculations",
+          "refactor: separate transform gizmo geometry",
+          "refactor: separate outliner data processing"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 106
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 16,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 1,068,005 bytes (90% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1068005,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "YT-Tracker-mobile",
+      "full_name": "0ryo/YT-Tracker-mobile",
+      "html_url": "https://github.com/0ryo/YT-Tracker-mobile",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-08T03:08:30Z",
+      "pushed_at": "2026-02-19T23:11:21Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 2472,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Swift": 61359
+      },
+      "primary_language": "Swift",
+      "file_count": 32,
+      "top_level_paths": [
+        ".gitignore",
+        "App",
+        "Models",
+        "Resources",
+        "Services",
+        "Utilities",
+        "ViewModels",
+        "Views",
+        "YTTracker.xcodeproj",
+        "YTTrackerTests",
+        "YTTrackerUITests"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 36,
+        "first_at": "2026-02-08T02:06:26+00:00",
+        "last_at": "2026-02-19T23:11:17+00:00",
+        "active_days": 9,
+        "span_days": 11,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.028,
+        "messages_sample": [
+          "Merge pull request #6 from 0ryo/phase8",
+          "最後の仕上げを行いました。",
+          "期間内の合計値を表示するようにしました。",
+          "表示範囲の変更を2つのグラフ同士で同期するように変更しました。",
+          "増減のグラフを追加しました。HistoryListViewを折りたたみ可能にしました。",
+          "Merge pull request #5 from 0ryo/phase7",
+          "Merge pull request #4 from 0ryo/phase6",
+          "変動グラフを作るための準備をしました。",
+          "Y軸の範囲を、最大値と最小値のそれぞれ20％になるように修正しました。",
+          "Charts: Xの範囲を調整できるようにしました。Xの範囲に合わせて範囲を7等分した日付をX軸ラベルに表示するようにしました。",
+          "HistoryListViewのUIを調整。固定幅にしました。",
+          "セグメントコントロールを親が持つように変更しました。",
+          "AddChannelSheetの大きさの調整を行いました。",
+          "更新機能とボタンのUIを実装しました。",
+          "JSONインポートおよびエクスポート機能が完成しました。",
+          "Merge pull request #3 from 0ryo/phase5",
+          "JSON変換用の中間モデル(DTO)を作成しました。",
+          "設定画面を作成しました。",
+          "セグメントコントロールを使うことにしました。",
+          "前日との計算ロジックを実装しました。"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 22
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 61,359 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (YTTracker.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 61359,
+        "strong_skills": [
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "PortfolioITO",
+      "full_name": "0ryo/PortfolioITO",
+      "html_url": "https://github.com/0ryo/PortfolioITO",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-18T07:48:28Z",
+      "pushed_at": "2025-11-11T08:19:56Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 56533,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Swift": 77711,
+        "TypeScript": 49921,
+        "CSS": 2272,
+        "JavaScript": 1991,
+        "Shell": 70
+      },
+      "primary_language": "Swift",
+      "file_count": 119,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitignore",
+        "PocketGarden",
+        "README.md",
+        "WaterTracker",
+        "photon"
+      ],
+      "notable_files": [
+        "photon/package.json",
+        "photon/public/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 458,
+      "readme_excerpt": "これは **伊藤 瞭汰** のポートフォリオ用リポジトリです。  \n以下の3つのプロジェクトを収録しています。\n\n---\n\n## プロジェクト一覧\n\n### 1. Photon  \n昨年度の卒業研究で開発した、軽量な Web ベースの 3D モデルビューワーです。  \nブラウザ上で動作し、さまざまな 3D フォーマットの読み込み・表示・操作が可能です。\n\n### 2. PocketGarden  \nSwift を用いて個人制作した ToDo アプリケーションです。  \n基本的なタスク管理機能に加え、25 分集中タイマー、タスク達成によるプレイヤーレベルアップエフェクトを備えています。\n\n### 3. WaterTracker\nSwift を用いて個人制作した、飲んだ水の量を記録するアプリケーションです。\n記録はグラフと日別合計の一覧表示で確認することができます。\n\n---\n\n## 利用方法\n\n各プロジェクトはサブフォルダに分かれています。詳細はそれぞれのフォルダ内の README をご参照ください。\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 18,
+        "first_at": "2025-06-19T06:26:50+00:00",
+        "last_at": "2025-11-11T08:19:55+00:00",
+        "active_days": 2,
+        "span_days": 145,
+        "max_per_day": 13,
+        "low_effort_message_ratio": 0.222,
+        "messages_sample": [
+          "READMEを更新しました。",
+          "READMEを更新しました。",
+          "READMEと紹介動画を追加しました。",
+          "READMEを更新しました。",
+          "WaterTrackerを追加しました。",
+          "add 紹介動画",
+          "Update README.md",
+          "Update README.md",
+          "Create README.md",
+          "add some files",
+          "tidy folder",
+          "Squashed 'PocketGarden/' content from commit fb03021",
+          "Delete PocketGarden directory",
+          "Merge commit '78ba60a3b5fa8b8a3111aefa7615492b0c228e62' as 'photon'",
+          "Squashed 'photon/' content from commit c9497c2",
+          "Merge commit 'aa8400ecf2c803c17f20282e665f0ee1d4ac6939' as 'PocketGarden'",
+          "Squashed 'PocketGarden/' content from commit ce0bbf1",
+          "initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 57
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 77,711 bytes (59% of repo)",
+          "strength": 0.9888758382904558
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 49,921 bytes (38% of repo)",
+          "strength": 0.7782896980259917
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,272 bytes (2% of repo)",
+          "strength": 0.41721668624256436
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,991 bytes (2% of repo)",
+          "strength": 0.41508733376274015
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "iOS project (PocketGarden/PocketGarden.xcodeproj/project.pbxproj)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 131965,
+        "strong_skills": [
+          "native-mobile",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CleanWeb",
+      "full_name": "0ryo/CleanWeb",
+      "html_url": "https://github.com/0ryo/CleanWeb",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-02-24T08:31:55Z",
+      "pushed_at": "2026-02-24T10:12:36Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 28,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 24124,
+        "HTML": 1096,
+        "CSS": 1066
+      },
+      "primary_language": "JavaScript",
+      "file_count": 9,
+      "top_level_paths": [
+        "README.md",
+        "content.js",
+        "cw-icon-128.png",
+        "cw-icon-16.png",
+        "cw-icon-48.png",
+        "manifest.json",
+        "popup.css",
+        "popup.html",
+        "popup.js"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 835,
+      "readme_excerpt": "# CleanWeb\n\n掃除モードを有効化すると、ページ上でホバー中のDOM要素をクリックして掃除（非表示化）できるChrome拡張です。\n掃除済み要素はURL単位で保存され、ページを再読み込みしても自動で掃除状態が再適用されます。\n元に戻すモードでは掃除済み要素を再表示し、クリックで復活できます。\n\n## インストール（開発モード）\n\n1. Chromeで `chrome://extensions` を開く\n2. 右上の「デベロッパーモード」をON\n3. 「パッケージ化されていない拡張機能を読み込む」を選択\n4. このディレクトリ（`CleanWeb`）を指定\n\n## 使い方\n\n1. 拡張アイコンをクリックしてポップアップを開く\n2. 「掃除モードを開始」を押す\n3. ページ上で掃除したい要素にマウスを合わせる（赤枠でハイライト）\n4. クリックするとその要素が掃除状態（非表示）になる\n5. 掃除モード中は画面全体に赤系オーバーレイと「掃除モードON」ラベルが表示される\n6. 「元に戻すモードを開始」を押すと、掃除済み要素を一時表示する\n7. 元に戻すモードでは掃除済み要素に薄緑オーバーレイが表示され、ホバー選択してクリックで復活できる\n8. 元に戻すモード中の上部表示「元に戻すモード中」の下に、掃除済み要素を全復活するボタンが表示される\n9. 停止は各モードの停止ボタンか `Esc`\n10. 同じURLを再読み込みしたときも、復活していない掃除済み要素は自動で掃除状態になる\n\n## ファイル構成\n\n- `manifest.json`: 拡張設定（Manifest V3）\n- `content.js`: 掃除/元に戻すモード本体（ホバー選択・掃除状態の永続化・復活）\n- `popup.html`: ポップアップUI\n- `popup.css`: ポップアップスタイル\n- `popup.js`: 掃除モード/元に戻すモードのON/OFF制御\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-02-24T08:33:17+00:00",
+        "last_at": "2026-02-24T10:12:35+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "名前を変えました。",
+          "アイコンを追加しました。",
+          "拡張機能完成"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 24,124 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,096 bytes (4% of repo)",
+          "strength": 0.4416951989652287
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,066 bytes (4% of repo)",
+          "strength": 0.44055390702274977
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 26286,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 1068005,
+    "Swift": 139070,
+    "ShaderLab": 98735,
+    "TypeScript": 49921,
+    "JavaScript": 26115,
+    "HLSL": 19973,
+    "CSS": 3338,
+    "HTML": 1096,
+    "Shell": 70
+  },
+  "total_commits": 257,
+  "skill_evidence": [
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "0ryo/YT-Tracker-mobile",
+        "0ryo/PortfolioITO"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 139070,
+      "commit_count": 54,
+      "first_seen": "2025-06-19T06:26:50+00:00",
+      "last_seen": "2026-02-19T23:11:17+00:00",
+      "details": [
+        "YT-Tracker-mobile: Swift: 61,359 bytes (100% of repo)",
+        "YT-Tracker-mobile: iOS project (YTTracker.xcodeproj/project.pbxproj)",
+        "PortfolioITO: Swift: 77,711 bytes (59% of repo)",
+        "PortfolioITO: iOS project (PocketGarden/PocketGarden.xcodeproj/project.pbxproj)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "0ryo/PortfolioITO",
+        "0ryo/CleanWeb"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 26115,
+      "commit_count": 21,
+      "first_seen": "2025-06-19T06:26:50+00:00",
+      "last_seen": "2026-02-24T10:12:35+00:00",
+      "details": [
+        "PortfolioITO: JavaScript: 1,991 bytes (2% of repo)",
+        "CleanWeb: JavaScript: 24,124 bytes (92% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "0ryo/EditorMain"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1068005,
+      "commit_count": 200,
+      "first_seen": "2026-02-20T01:52:45+00:00",
+      "last_seen": "2026-09-17T01:11:24+00:00",
+      "details": [
+        "EditorMain: C#: 1,068,005 bytes (90% of repo)"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "0ryo/PortfolioITO"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7782896980259917,
+      "total_bytes": 49921,
+      "commit_count": 18,
+      "first_seen": "2025-06-19T06:26:50+00:00",
+      "last_seen": "2025-11-11T08:19:55+00:00",
+      "details": [
+        "PortfolioITO: TypeScript: 49,921 bytes (38% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "0ryo/PortfolioITO",
+        "0ryo/CleanWeb"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4416951989652287,
+      "total_bytes": 4434,
+      "commit_count": 21,
+      "first_seen": "2025-06-19T06:26:50+00:00",
+      "last_seen": "2026-02-24T10:12:35+00:00",
+      "details": [
+        "PortfolioITO: CSS: 2,272 bytes (2% of repo)",
+        "CleanWeb: HTML: 1,096 bytes (4% of repo)",
+        "CleanWeb: CSS: 1,066 bytes (4% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 3,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 257,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:35:51.397361+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

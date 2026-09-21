@@ -1,0 +1,1293 @@
+{
+  "applicant_id": "applicant0018",
+  "login": "S1ink",
+  "html_url": "https://github.com/S1ink",
+  "created_at": "2020-01-31T23:51:05Z",
+  "account_age_days": 2419,
+  "public_repos": 37,
+  "followers": 33,
+  "following": 40,
+  "repos": [
+    {
+      "name": "VisionServer",
+      "full_name": "S1ink/VisionServer",
+      "html_url": "https://github.com/S1ink/VisionServer",
+      "description": "A C++ vision processing library designed for raspberry pi deployment on an FRC robot",
+      "homepage": "https://s1ink.github.io/VisionServer/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-11-10T03:09:14Z",
+      "pushed_at": "2024-01-16T00:31:48Z",
+      "stargazers": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 118317,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [
+        "cpp",
+        "cscore",
+        "frc",
+        "ml",
+        "networktables",
+        "opencv",
+        "raspberry-pi",
+        "tensorflow-lite",
+        "vision",
+        "wpilib"
+      ],
+      "languages": {
+        "C++": 47445434,
+        "C": 2499963,
+        "NASL": 231971,
+        "Objective-C": 108980,
+        "Makefile": 54366,
+        "Assembly": 22941,
+        "Pawn": 5435,
+        "Python": 5047,
+        "Batchfile": 96
+      },
+      "primary_language": "C++",
+      "file_count": 5998,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".gitmodules",
+        ".vscode",
+        "LICENSE",
+        "README.md",
+        "docs",
+        "frc-config",
+        "lib-vs"
+      ],
+      "notable_files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/doxygen-pages.yml",
+        ".github/workflows/update-deps.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4755,
+      "readme_excerpt": "[![CI](https://github.com/S1ink/VisionServer/actions/workflows/ci.yml/badge.svg)](https://github.com/S1ink/VisionServer/actions/workflows/ci.yml) [![Build Docs](https://github.com/S1ink/VisionServer/actions/workflows/doxygen-pages.yml/badge.svg?branch=main)](https://github.com/S1ink/VisionServer/actions/workflows/doxygen-pages.yml)\r\n\r\n# VisionServer\r\n### | [Get Started](#get-started) | [Vision Resources](#more-on-vision-processing) | [Docs](https://S1ink.github.io/VisionServer) |\r\n\r\n## Project Overview\r\n - This project originally existed as a testing environment for vision processing code that would be run on an FRC robot (Raspberry Pi coprocessor).\r\n - C++ was chosen as the primary development language, and a more generalized program framework was created, titled 'VisionServer'.\r\n - VisionServer[v1.*] was released as a framework which could be reimplemented by modifying the main source file(s) and recompiling the entire project. These releases were utilized during 2021 testing and the 2022 Rapid React season; provided features for both ease of use [on a robot] and advanced vision processing techniques.\r\n - VisionServer[v2.*+] now comes with a redesigned program (library) structure",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 3,
+      "contribution_share": 0.82,
+      "commits": {
+        "count": 200,
+        "first_at": "2022-01-01T00:35:06+00:00",
+        "last_at": "2024-01-16T00:31:41+00:00",
+        "active_days": 86,
+        "span_days": 744,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.055,
+        "messages_sample": [
+          "update to wpilib 2024.1.1 and minimize linked deps",
+          "Merge pull request #16 from S1ink/temp-additions",
+          "?",
+          "update frc apriltag dictionary",
+          "refresh info",
+          "remove unecessary params",
+          "rescale rect",
+          "delete old includes and add more stats",
+          "add the thresholding to ws*T*",
+          "cleanup neon, add more useless functions, more abstraction features",
+          "fix neon, update deinterlacing wst algo",
+          "maps and names",
+          "Merge pull request #15 from FRC3407/more-calibration-features",
+          "convert to struct subclassing, fix props deduction, fix methods",
+          "search algos",
+          "i think i dug myself into a hole",
+          "split up calib types",
+          "fix the libraries (back to 64-bit)",
+          "Merge pull request #14 from FRC3407/merge-local",
+          "split up aprilpose routine for easier extendability"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 8,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5843
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 47,445,434 bytes (94% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 2,499,963 bytes (5% of repo)",
+          "strength": 0.44962781269543106
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Objective-C: 108,980 bytes (0% of repo)",
+          "strength": 0.4021634076294522
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 54,366 bytes (0% of repo)",
+          "strength": 0.40107924223878505
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 5,047 bytes (0% of repo)",
+          "strength": 0.4001001901110832
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/ci.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (docs/Build.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "topic",
+          "detail": "repo topic 'cpp'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "machine-learning",
+          "source": "topic",
+          "detail": "repo topic 'ml'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "topic",
+          "detail": "repo topic 'opencv'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "repo_name",
+          "detail": "'c++' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 50113790,
+        "strong_skills": [
+          "c-cpp",
+          "cicd",
+          "technical-writing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "UE5-LidarSim",
+      "full_name": "S1ink/UE5-LidarSim",
+      "html_url": "https://github.com/S1ink/UE5-LidarSim",
+      "description": "Lidar simulation for obstacle detection in Unreal Engine 5",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-10-30T19:15:44Z",
+      "pushed_at": "2024-05-01T01:52:08Z",
+      "stargazers": 16,
+      "forks": 0,
+      "open_issues": 2,
+      "size_kb": 478658,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "lidar-simulation",
+        "object-detection",
+        "pcl",
+        "ue5"
+      ],
+      "languages": {
+        "C++": 164480,
+        "C#": 5145,
+        "C": 1846
+      },
+      "primary_language": "C++",
+      "file_count": 308,
+      "top_level_paths": [
+        ".gitignore",
+        ".vsconfig",
+        "Config",
+        "Content",
+        "Plugins",
+        "README.md",
+        "Source",
+        "Testing",
+        "UESim.uproject"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 457,
+      "readme_excerpt": "# UE5-LidarSim\n\n## Installation\n⚠️ **Important** ⚠️\n\nThe third party dependencies were too large to store directly within the repo, so they have been zipped and attached under the [releases tab](https://github.com/S1ink/UE5-LidarSim/releases/tag/thirdparty-binaries)! Follow the provided instructions for proper installation. Otherwise, the project should be usable out of the box - although a manual rebuild may be required when switching engine versions.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": true,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 55,
+        "first_at": "2023-10-30T19:17:08+00:00",
+        "last_at": "2024-05-01T01:52:04+00:00",
+        "active_days": 38,
+        "span_days": 183,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.018,
+        "messages_sample": [
+          "handle 0-result filter returns and reorganize everything",
+          "add imu simulation + more NT helpers",
+          "update map metadata format + map major order",
+          "organize levels for demo, add minimum range filter for robot sim",
+          "tuning i guess",
+          "tuning and organization",
+          "stop nt client :|",
+          "add nt client option",
+          "invert y pixel order for nt grid",
+          "test QRG and add NT grid viewer (hud)",
+          "mirror exported rotation",
+          "invert y position for export",
+          "export points in lidar coords and pose",
+          "point cloud nt logging",
+          "Merge branch 'main' of https://github.com/S1ink/UE5-LidarSim",
+          "reimplement PMF",
+          "grammar",
+          "important notice",
+          "oops forgor to save the model to project :/",
+          "got the robot model yeah boi :]"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 29
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": true,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 164,480 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 5,145 bytes (3% of repo)",
+          "strength": 0.43000507374424835
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,846 bytes (1% of repo)",
+          "strength": 0.41076566883029786
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 171471,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Swerve-Simulation",
+      "full_name": "S1ink/Swerve-Simulation",
+      "html_url": "https://github.com/S1ink/Swerve-Simulation",
+      "description": "An extension of the original team project during summer 2023",
+      "homepage": "https://github.com/FRC3407/Swerve-Sim",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-08T15:58:56Z",
+      "pushed_at": "2024-01-02T06:17:12Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12178,
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "topics": [
+        "frc",
+        "java",
+        "simulation",
+        "swerve-drive",
+        "wpilib"
+      ],
+      "languages": {
+        "Java": 147982
+      },
+      "primary_language": "Java",
+      "file_count": 51,
+      "top_level_paths": [
+        ".gitignore",
+        ".gitmodules",
+        ".vscode",
+        ".wpilib",
+        "LICENSE",
+        "README.md",
+        "WPILib-License.md",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "networktables.json",
+        "settings.gradle",
+        "simgui-ds.json",
+        "simgui.json",
+        "src",
+        "swerve-model",
+        "vendordeps"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "gov.nist.math",
+          "jama",
+          "junit-jupiter-api",
+          "junit-jupiter-engine",
+          "junit-jupiter-params",
+          "org.junit.jupiter"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1936,
+      "readme_excerpt": "# Swerve-Simulation\n#### A generic swerve simulator and swerve framework based on second order kinematics control.\n- ## Resources Used\n  - [Swerve base CAD (onshape)](https://cad.onshape.com/documents/e5ac6c72dd56b8c17b755e80/w/53462e21ae53c65e73ff644e/e/8f86e6f27e761f0f1d59d196?renderMode=0&uiState=648e46aaf2f9a210eca5e3a9)\n  - [SDS MK4i page (for CAD specs)](https://www.swervedrivespecialties.com/products/mk4i-swerve-module)\n  - [AdvantageScope Docs](https://github.com/Mechanical-Advantage/AdvantageScope/blob/main/docs/INDEX.md)\n  - [AdvantageScope 3d field docs](https://github.com/Mechanical-Advantage/AdvantageScope/blob/main/docs/tabs/3D-FIELD.md)\n  - [AdvantageScope custom configurations (robot models)](https://github.com/Mechanical-Advantage/AdvantageScope/blob/main/docs/CUSTOM-CONFIG.md)\n  - [AdvantageScope converting CAD to glTF](https://github.com/Mechanical-Advantage/AdvantageScope/blob/main/docs/GLTF-CONVERT.md)\n  - [WPILib coordinate systems](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/geometry/coordinate-systems.html)\n  - [WPILib state-space control](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/state-space/state-space-intro.ht",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 44,
+        "first_at": "2023-06-17T20:05:43+00:00",
+        "last_at": "2024-01-02T06:17:08+00:00",
+        "active_days": 33,
+        "span_days": 198,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.045,
+        "messages_sample": [
+          "start docs",
+          "final polishes",
+          "some comments",
+          "odometry, telemetry, and accessors",
+          "utilities",
+          "curvature descretization",
+          "drive interface",
+          "tuning",
+          "characterization :/",
+          "utils and nothing",
+          "progress?",
+          "just a mess",
+          "begin control",
+          "Create README.md",
+          "giga debug, might have fixed the main bug",
+          "Merge pull request #2 from S1ink/simulator-V0",
+          "resync",
+          "Merge pull request #1 from S1ink/simulator-V0",
+          "linear movement is looking mint",
+          "add debug, dynamics ACTUALLY WORKING!!!!!!!!!"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 17
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 147,982 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (src/main/java/frc/robot/swerve/doc/tutorial.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "java",
+          "source": "topic",
+          "detail": "repo topic 'java'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit-jupiter-api in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 147982,
+        "strong_skills": [
+          "java",
+          "technical-writing",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Web-RT",
+      "full_name": "S1ink/Web-RT",
+      "html_url": "https://github.com/S1ink/Web-RT",
+      "description": "RayTracing [demo] website using WebGL",
+      "homepage": "https://S1ink.github.io/Web-RT",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-01-25T02:27:43Z",
+      "pushed_at": "2025-12-15T04:24:10Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 14778,
+      "default_branch": "main",
+      "license": null,
+      "topics": [
+        "javascript",
+        "pbr",
+        "raytracing",
+        "webgl"
+      ],
+      "languages": {
+        "JavaScript": 78893,
+        "GLSL": 42232,
+        "HTML": 26114,
+        "CSS": 2685,
+        "Batchfile": 41
+      },
+      "primary_language": "JavaScript",
+      "file_count": 36,
+      "top_level_paths": [
+        ".github",
+        ".gitignore",
+        ".gitmodules",
+        "README.md",
+        "about.html",
+        "app.js",
+        "credits.html",
+        "editor.html",
+        "envs.js",
+        "fragment.glsl",
+        "index.html",
+        "math.js",
+        "ref-only",
+        "render.js",
+        "resources",
+        "scene.js",
+        "serve.bat",
+        "server.exe",
+        "theme.css",
+        "todo.txt"
+      ],
+      "notable_files": [
+        ".github/workflows/pages.yml"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1640,
+      "readme_excerpt": "## Example Renders...\n\n#### All the newest features:\n\n![download (3)](https://github.com/S1ink/Web-RT/assets/60528506/0bff878d-a419-42ce-98fc-685e6fff0257)\n![download (2)](https://github.com/S1ink/Web-RT/assets/60528506/890d4b2d-04f6-4bdf-8b32-888a660517d2)\n![download (11)](https://user-images.githubusercontent.com/60528506/[phone]e-4bae-4df5-b958-12d68ae999b2.png)\n![download (8)](https://user-images.githubusercontent.com/60528506/[phone]-d7cb6174-d15b-4a04-bb0e-6ffdc465a13e.png)\n![download (6)](https://user-images.githubusercontent.com/60528506/[phone]-f54f54b5-38b1-4b8b-829b-536590cfcbd5.png)\n![download (10)](https://user-images.githubusercontent.com/60528506/[phone]-abb26f32-5939-40e4-ba9d-139e4efaba56.png)\n![download (7)](https://user-images.githubusercontent.com/60528506/[phone]d-4787-9c6b-f41d6b81eb42.png)\n![download (9)](https://user-images.githubusercontent.com/60528506/[phone]-b9c[phone]df-9a45-627d69f847f3.png)\n\n\n#### Older Versions:\n\n![download (2)](https://user-images.githubusercontent.com/60528506/[phone]d9f27-5bfa-4f5c-b4b6-038a561465ee.png)\n![webgl-cube-refraction](https://user-images.githubusercontent.com/60528506/2101622",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.75,
+      "commits": {
+        "count": 81,
+        "first_at": "2022-12-17T07:03:32+00:00",
+        "last_at": "2025-12-15T04:23:59+00:00",
+        "active_days": 34,
+        "span_days": 1093,
+        "max_per_day": 8,
+        "low_effort_message_ratio": 0.074,
+        "messages_sample": [
+          "refraction 2",
+          "update default scene",
+          "bonus scene",
+          "Update README.md",
+          "scene generators",
+          "fix random generators",
+          "fix uniformly random vector generation",
+          "Update README.md",
+          "Merge branch 'main' of https://github.com/S1ink/Web-RT",
+          "material chain algorithm",
+          "Update README.md",
+          "Merge pull request #1 from S1ink/pbr-materials",
+          "cleanup",
+          "fix refraction",
+          "eh",
+          "scrollbar hide/popout",
+          "Merge pull request #29 from S2ink/main",
+          "depth of field render on readme",
+          "Merge pull request #28 from S2ink/webgl",
+          "fix and make production ready"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 11
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 4,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 78,893 bytes (53% of repo)",
+          "strength": 0.9260760844196979
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 26,114 bytes (17% of repo)",
+          "strength": 0.574133964591738
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,685 bytes (2% of repo)",
+          "strength": 0.4179041776414497
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/pages.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "javascript",
+          "source": "topic",
+          "detail": "repo topic 'javascript'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 107692,
+        "strong_skills": [
+          "cicd",
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "AprilVision",
+      "full_name": "S1ink/AprilVision",
+      "html_url": "https://github.com/S1ink/AprilVision",
+      "description": "A reusable AprilTag detection program based on vision code from 2023 (FRC)",
+      "homepage": "https://github.com/S1ink/VisionServer",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-01-07T21:34:40Z",
+      "pushed_at": "2024-01-16T01:18:05Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1425,
+      "default_branch": "frc-2024",
+      "license": null,
+      "topics": [
+        "frc",
+        "opencv",
+        "raspberry-pi",
+        "vision",
+        "wpilib"
+      ],
+      "languages": {
+        "C++": 87056,
+        "HTML": 9663,
+        "Makefile": 3604
+      },
+      "primary_language": "C++",
+      "file_count": 8,
+      "top_level_paths": [
+        ".gitmodules",
+        ".vscode",
+        "makefile",
+        "src"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2024-01-07T21:42:58+00:00",
+        "last_at": "2024-01-16T01:18:01+00:00",
+        "active_days": 3,
+        "span_days": 8,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "makefile update names",
+          "rename sources",
+          "use 2024 deps + update VS",
+          "2024 field/tags working with 2023 deps",
+          "import project"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 87,056 bytes (87% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 9,663 bytes (10% of repo)",
+          "strength": 0.49631888998534734
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Makefile: 3,604 bytes (4% of repo)",
+          "strength": 0.43592396559114066
+        },
+        {
+          "skill_id": "computer-vision",
+          "source": "topic",
+          "detail": "repo topic 'opencv'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 100323,
+        "strong_skills": [
+          "c-cpp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C++": 47696970,
+    "C": 2501809,
+    "NASL": 231971,
+    "Java": 147982,
+    "Objective-C": 108980,
+    "JavaScript": 78893,
+    "Makefile": 57970,
+    "GLSL": 42232,
+    "HTML": 35777,
+    "Assembly": 22941,
+    "Pawn": 5435,
+    "C#": 5145,
+    "Python": 5047,
+    "CSS": 2685,
+    "Batchfile": 137
+  },
+  "total_commits": 385,
+  "skill_evidence": [
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "S1ink/VisionServer",
+        "S1ink/UE5-LidarSim",
+        "S1ink/AprilVision"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "topic",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 50198779,
+      "commit_count": 260,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2024-05-01T01:52:04+00:00",
+      "details": [
+        "VisionServer: C++: 47,445,434 bytes (94% of repo)",
+        "VisionServer: C: 2,499,963 bytes (5% of repo)",
+        "VisionServer: repo topic 'cpp'",
+        "VisionServer: 'c++' in repo name/description",
+        "UE5-LidarSim: C++: 164,480 bytes (96% of repo)",
+        "UE5-LidarSim: C: 1,846 bytes (1% of repo)",
+        "AprilVision: C++: 87,056 bytes (87% of repo)"
+      ]
+    },
+    {
+      "skill_id": "java",
+      "repos": [
+        "S1ink/Swerve-Simulation"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 147982,
+      "commit_count": 44,
+      "first_seen": "2023-06-17T20:05:43+00:00",
+      "last_seen": "2024-01-02T06:17:08+00:00",
+      "details": [
+        "Swerve-Simulation: Java: 147,982 bytes (100% of repo)",
+        "Swerve-Simulation: repo topic 'java'"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "S1ink/Web-RT"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 0.9260760844196979,
+      "total_bytes": 78893,
+      "commit_count": 81,
+      "first_seen": "2022-12-17T07:03:32+00:00",
+      "last_seen": "2025-12-15T04:23:59+00:00",
+      "details": [
+        "Web-RT: JavaScript: 78,893 bytes (53% of repo)",
+        "Web-RT: repo topic 'javascript'"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "S1ink/Swerve-Simulation"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 44,
+      "first_seen": "2023-06-17T20:05:43+00:00",
+      "last_seen": "2024-01-02T06:17:08+00:00",
+      "details": [
+        "Swerve-Simulation: junit-jupiter-api in build.gradle"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "S1ink/VisionServer",
+        "S1ink/Web-RT"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 281,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2025-12-15T04:23:59+00:00",
+      "details": [
+        "VisionServer: GitHub Actions workflow (.github/workflows/ci.yml)",
+        "Web-RT: GitHub Actions workflow (.github/workflows/pages.yml)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "S1ink/VisionServer",
+        "S1ink/Swerve-Simulation"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 244,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2024-01-16T00:31:41+00:00",
+      "details": [
+        "VisionServer: docs directory (docs/Build.md)",
+        "Swerve-Simulation: docs directory (src/main/java/frc/robot/swerve/doc/tutorial.md)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "S1ink/Web-RT",
+        "S1ink/AprilVision"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.574133964591738,
+      "total_bytes": 38462,
+      "commit_count": 86,
+      "first_seen": "2022-12-17T07:03:32+00:00",
+      "last_seen": "2025-12-15T04:23:59+00:00",
+      "details": [
+        "Web-RT: HTML: 26,114 bytes (17% of repo)",
+        "Web-RT: CSS: 2,685 bytes (2% of repo)",
+        "AprilVision: HTML: 9,663 bytes (10% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "S1ink/VisionServer",
+        "S1ink/AprilVision"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43592396559114066,
+      "total_bytes": 57970,
+      "commit_count": 205,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2024-01-16T01:18:01+00:00",
+      "details": [
+        "VisionServer: Makefile: 54,366 bytes (0% of repo)",
+        "AprilVision: Makefile: 3,604 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "S1ink/UE5-LidarSim"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.43000507374424835,
+      "total_bytes": 5145,
+      "commit_count": 55,
+      "first_seen": "2023-10-30T19:17:08+00:00",
+      "last_seen": "2024-05-01T01:52:04+00:00",
+      "details": [
+        "UE5-LidarSim: C#: 5,145 bytes (3% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "S1ink/VisionServer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4021634076294522,
+      "total_bytes": 108980,
+      "commit_count": 200,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2024-01-16T00:31:41+00:00",
+      "details": [
+        "VisionServer: Objective-C: 108,980 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "S1ink/VisionServer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4001001901110832,
+      "total_bytes": 5047,
+      "commit_count": 200,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2024-01-16T00:31:41+00:00",
+      "details": [
+        "VisionServer: Python: 5,047 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "computer-vision",
+      "repos": [
+        "S1ink/VisionServer",
+        "S1ink/AprilVision"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 205,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2024-01-16T01:18:01+00:00",
+      "details": [
+        "VisionServer: repo topic 'opencv'",
+        "AprilVision: repo topic 'opencv'"
+      ]
+    },
+    {
+      "skill_id": "machine-learning",
+      "repos": [
+        "S1ink/VisionServer"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 200,
+      "first_seen": "2022-01-01T00:35:06+00:00",
+      "last_seen": "2024-01-16T00:31:41+00:00",
+      "details": [
+        "VisionServer: repo topic 'ml'"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 385,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-16T14:13:51.406731+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

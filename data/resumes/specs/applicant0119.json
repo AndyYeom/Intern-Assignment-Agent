@@ -1,0 +1,128 @@
+{
+  "github_login": "Iconia7",
+  "applicant_id": "applicant0119",
+  "first_name": "Naledi",
+  "last_name": "Kruger",
+  "career_stage": "student",
+  "email": "naledi@sableridge.example",
+  "phone": "(555) 010-0119",
+  "location": "Sable Ridge",
+  "linkedin": "linkedin.example.com/in/naledi-kruger",
+  "github_url": "github.example.com/naledi-kruger",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Sable Ridge University",
+    "location": "Sable Ridge",
+    "degree": "Bachelor of Science",
+    "major": "Information Systems",
+    "minor": null,
+    "graduation": "Jul 2027",
+    "gpa": "3.65/4.0",
+    "coursework": [
+      "Web Application Development",
+      "Mobile Development",
+      "Cloud Computing Fundamentals",
+      "Networks"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Nexora Website",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2025",
+      "end": "Aug 2026",
+      "bullets": [
+        "Built a Next.js and React marketing site styled with Tailwind CSS, adding continuous integration after an untested change broke the deployed build.",
+        "Wired up recharts-based data visualizations for the site's dashboard pages, working through mismatched data shapes between the API and chart components."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Dita App",
+      "organization": null,
+      "location": null,
+      "start": "Nov 2025",
+      "end": "Jun 2026",
+      "bullets": [
+        "Developed a Flutter mobile app in Dart, working through native C++ and CMake build configuration to support platform-specific functionality."
+      ],
+      "link": null,
+      "tech": [
+        "Dart",
+        "HTML",
+        "C++",
+        "CMake"
+      ]
+    },
+    {
+      "title": "Bingwa Sokoni Application",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2025",
+      "end": "Apr 2026",
+      "bullets": [
+        "Automated a set of manual service-ordering steps with a PowerShell and JavaScript script, turning a repetitive task into a single command."
+      ],
+      "link": null,
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PowerShell"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Deployment Helper",
+      "organization": "Sable Ridge Web Guild",
+      "location": null,
+      "start": "Mar 2026",
+      "end": "Present",
+      "bullets": [
+        "Took over a club project's flaky CI pipeline after repeated silent failures blocked a demo day, adding clearer build logs so teammates could self-diagnose failures.",
+        "Grew curious about what happened after a push and started reading about the runners and containers behind the pipeline."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Frontend": [
+      "Tailwind CSS",
+      "React",
+      "Next.js",
+      "Frontend State Management",
+      "HTML/CSS"
+    ],
+    "Data": [
+      "Data Visualization"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Mobile": [
+      "Flutter",
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

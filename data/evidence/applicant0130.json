@@ -1,0 +1,366 @@
+{
+  "applicant_id": "applicant0130",
+  "github_login": "Aavash232311",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0130.json",
+  "skills": [
+    {
+      "skill_id": "computer-vision",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+        "https://github.com/Aavash232311/Transformer"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "html_url": "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "level": 3,
+          "reasons": [
+            "intermediate: 189 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "torchvision in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aavash232311/Transformer",
+          "html_url": "https://github.com/Aavash232311/Transformer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 57 commits; has_tests, many_active_days",
+            "torchvision in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aavash232311/pipeline-orchestrator",
+        "https://github.com/Aavash232311/ASP.NET-WEB-API-AUTHORIZATION-WITH-IDENTITY-FRAMEWORK",
+        "https://github.com/Aavash232311/PropertyRentApp"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/pipeline-orchestrator",
+          "html_url": "https://github.com/Aavash232311/pipeline-orchestrator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 64 commits; has_docker, multi_month_span, many_active_days",
+            "C#: 32,675 bytes (38% of repo)"
+          ]
+        },
+        {
+          "repo": "Aavash232311/ASP.NET-WEB-API-AUTHORIZATION-WITH-IDENTITY-FRAMEWORK",
+          "html_url": "https://github.com/Aavash232311/ASP.NET-WEB-API-AUTHORIZATION-WITH-IDENTITY-FRAMEWORK",
+          "level": 1,
+          "reasons": [
+            "entry: single_commit, all_commits_one_day",
+            "C#: 52,678 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Aavash232311/PropertyRentApp",
+          "html_url": "https://github.com/Aavash232311/PropertyRentApp",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: documented",
+            "C#: 158,898 bytes (43% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (3 repo(s))."
+    },
+    {
+      "skill_id": "data-viz",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "html_url": "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "level": 3,
+          "reasons": [
+            "intermediate: 189 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "matplotlib in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "deep-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+        "https://github.com/Aavash232311/Transformer"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "html_url": "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "level": 3,
+          "reasons": [
+            "intermediate: 189 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "torch in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aavash232311/Transformer",
+          "html_url": "https://github.com/Aavash232311/Transformer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 57 commits; has_tests, many_active_days",
+            "torch in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aavash232311/pipeline-orchestrator"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/pipeline-orchestrator",
+          "html_url": "https://github.com/Aavash232311/pipeline-orchestrator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 64 commits; has_docker, multi_month_span, many_active_days",
+            "Dockerfile (pipeline-orchestrator/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "machine-learning",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "html_url": "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "level": 3,
+          "reasons": [
+            "intermediate: 189 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "scikit-learn in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (1 repo(s))."
+    },
+    {
+      "skill_id": "nlp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aavash232311/Transformer"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Transformer",
+          "html_url": "https://github.com/Aavash232311/Transformer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 57 commits; has_tests, many_active_days",
+            "datasets in requirements.txt"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "pandas",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+        "https://github.com/Aavash232311/Transformer",
+        "https://github.com/Aavash232311/pipeline-orchestrator"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "html_url": "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "level": 3,
+          "reasons": [
+            "intermediate: 189 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "jupyter notebook (analysis/Discrete_fourier_transform.ipynb)",
+            "numpy in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aavash232311/Transformer",
+          "html_url": "https://github.com/Aavash232311/Transformer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 57 commits; has_tests, many_active_days",
+            "jupyter notebook (transformer_notes/attention.ipynb)",
+            "numpy in requirements.txt"
+          ]
+        },
+        {
+          "repo": "Aavash232311/pipeline-orchestrator",
+          "html_url": "https://github.com/Aavash232311/pipeline-orchestrator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 64 commits; has_docker, multi_month_span, many_active_days",
+            "jupyter notebook (pipeline-orchestrator.PythonService/Exploring/cosine_similarity.ipynb)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "python",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+        "https://github.com/Aavash232311/Transformer",
+        "https://github.com/Aavash232311/pipeline-orchestrator"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "html_url": "https://github.com/Aavash232311/Empirical-Analysis-of-Phase-Transitions-in-Transformer-Models-Using-Mechanistic-Interpretability",
+          "level": 3,
+          "reasons": [
+            "intermediate: 189 commits; multi_month_span, many_active_days, documented",
+            "advanced: sustained maintenance, 3 fix/perf/refactor commits",
+            "Jupyter Notebook: 6,346,559 bytes (95% of repo)"
+          ]
+        },
+        {
+          "repo": "Aavash232311/Transformer",
+          "html_url": "https://github.com/Aavash232311/Transformer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 57 commits; has_tests, many_active_days",
+            "Jupyter Notebook: 96,009 bytes (82% of repo)",
+            "Python: 21,026 bytes (18% of repo)"
+          ]
+        },
+        {
+          "repo": "Aavash232311/pipeline-orchestrator",
+          "html_url": "https://github.com/Aavash232311/pipeline-orchestrator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 64 commits; has_docker, multi_month_span, many_active_days",
+            "Jupyter Notebook: 27,658 bytes (32% of repo)",
+            "Python: 14,060 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aavash232311/pipeline-orchestrator"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/pipeline-orchestrator",
+          "html_url": "https://github.com/Aavash232311/pipeline-orchestrator",
+          "level": 2,
+          "reasons": [
+            "intermediate: 64 commits; has_docker, multi_month_span, many_active_days",
+            "SQL file (pipeline-orchestrator.PythonService/src/query/create_skill_table.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "typescript",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/Aavash232311/PropertyRentApp"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/PropertyRentApp",
+          "html_url": "https://github.com/Aavash232311/PropertyRentApp",
+          "level": 1,
+          "reasons": [
+            "entry: 8 commits, independent-work signals: documented",
+            "TypeScript: 187,556 bytes (50% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Aavash232311/Transformer"
+      ],
+      "repos": [
+        {
+          "repo": "Aavash232311/Transformer",
+          "html_url": "https://github.com/Aavash232311/Transformer",
+          "level": 2,
+          "reasons": [
+            "intermediate: 57 commits; has_tests, many_active_days",
+            "test directory (src/test/__init__.py)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 12
+  }
+}

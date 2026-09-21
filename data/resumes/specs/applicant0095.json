@@ -1,0 +1,113 @@
+{
+  "github_login": "0ryo",
+  "applicant_id": "applicant0095",
+  "first_name": "Owen",
+  "last_name": "Marsh",
+  "career_stage": "student",
+  "email": "owen.marsh@reedmoormail.example",
+  "phone": "(555) 010-0195",
+  "location": "Reedmoor",
+  "linkedin": "linkedin.example.com/in/owen-marsh",
+  "github_url": "github.example.com/owen-marsh",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Reedmoor College of Technology",
+    "location": "Reedmoor",
+    "degree": "Bachelor of Science",
+    "major": "Software Engineering",
+    "minor": "Professional Writing",
+    "graduation": "May 2027",
+    "gpa": "3.7/4.0",
+    "coursework": [
+      "Mobile App Development",
+      "Technical Communication",
+      "Object-Oriented Design"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "YT Tracker Mobile",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Feb 2026",
+      "end": "Feb 2026",
+      "bullets": [
+        "Built a Swift iOS app to track and organize saved videos across 32 files over nine active days.",
+        "Documented local setup steps after a classmate could not get the project running from the README."
+      ],
+      "link": null,
+      "tech": [
+        "Swift"
+      ]
+    },
+    {
+      "title": "Editormain",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Oct 2025",
+      "end": "Sep 2026",
+      "bullets": [
+        "Maintained a C# editor tool with custom ShaderLab and HLSL shaders across 485 files and 200 commits.",
+        "Wrote inline comments and a changelog so contributors could follow shader changes without asking directly."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "ShaderLab",
+        "HLSL"
+      ]
+    },
+    {
+      "title": "Portfolioito",
+      "organization": "Independent Project",
+      "location": null,
+      "start": "Jun 2025",
+      "end": "Nov 2025",
+      "bullets": [
+        "Built a personal portfolio site in Swift and TypeScript to showcase mobile and web projects.",
+        "Reorganized the project's structure after a peer struggled to find where key components lived."
+      ],
+      "link": null,
+      "tech": [
+        "Swift",
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "New Member Guide Writer",
+      "organization": "Reedmoor Coders Circle",
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Wrote onboarding guides for new club members after noticing repeated setup questions in the group chat.",
+        "Ran two walkthrough sessions on mobile app setup, adjusting explanations after members got stuck at different steps."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript",
+      "C#",
+      "TypeScript"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

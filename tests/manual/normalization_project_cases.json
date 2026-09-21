@@ -1,0 +1,237 @@
+{
+  "test_suite_version": "1.0.0",
+  "cases": [
+    {
+      "request": {
+        "request_id": "NORM-MANUAL-001",
+        "project_name": "Customer Management Web Application",
+        "project_description": "Students must independently build a backend using Python and FastAPI, expose REST APIs, and store application data in PostgreSQL. React experience is helpful but not required."
+      },
+      "extraction": {
+        "project_summary": "An independently built customer-management backend with API, database, and optional frontend work.",
+        "requirements": [
+          {
+            "raw_skill": "Python",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.99,
+            "evidence_text": "Students must independently build a backend using Python and FastAPI",
+            "decision_basis": "Python is essential to the mandatory independent backend work."
+          },
+          {
+            "raw_skill": "FastAPI",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.99,
+            "evidence_text": "Students must independently build a backend using Python and FastAPI",
+            "decision_basis": "FastAPI is essential to the mandatory independent backend work."
+          },
+          {
+            "raw_skill": "REST APIs",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.98,
+            "evidence_text": "expose REST APIs",
+            "decision_basis": "REST API capability is required for a mandatory task."
+          },
+          {
+            "raw_skill": "PostgreSQL",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.99,
+            "evidence_text": "store application data in PostgreSQL",
+            "decision_basis": "PostgreSQL is required for mandatory application storage."
+          },
+          {
+            "raw_skill": "React",
+            "importance": "preferred",
+            "required_level": 1,
+            "confidence": 0.99,
+            "evidence_text": "React experience is helpful but not required.",
+            "decision_basis": "React is explicitly helpful but optional."
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "request_id": "NORM-MANUAL-002",
+        "project_name": "Document Retrieval Assistant",
+        "project_description": "Applicants need basic Python experience. During the project, students will learn retrieval-augmented generation, embeddings, vector search, and FAISS to build a question-answering assistant over internal documents."
+      },
+      "extraction": {
+        "project_summary": "A document question-answering assistant with Python prerequisites and explicit retrieval learning goals.",
+        "requirements": [
+          {
+            "raw_skill": "Python",
+            "importance": "hard_requirement",
+            "required_level": 1,
+            "confidence": 0.99,
+            "evidence_text": "Applicants need basic Python experience.",
+            "decision_basis": "Basic Python is an explicit prerequisite."
+          },
+          {
+            "raw_skill": "retrieval-augmented generation",
+            "importance": "learning_opportunity",
+            "required_level": 1,
+            "confidence": 0.99,
+            "evidence_text": "students will learn retrieval-augmented generation",
+            "decision_basis": "The description explicitly says this will be learned."
+          },
+          {
+            "raw_skill": "embeddings",
+            "importance": "learning_opportunity",
+            "required_level": 1,
+            "confidence": 0.99,
+            "evidence_text": "students will learn retrieval-augmented generation, embeddings, vector search, and FAISS",
+            "decision_basis": "The description explicitly says this will be learned."
+          },
+          {
+            "raw_skill": "vector search",
+            "importance": "learning_opportunity",
+            "required_level": 1,
+            "confidence": 0.99,
+            "evidence_text": "students will learn retrieval-augmented generation, embeddings, vector search, and FAISS",
+            "decision_basis": "The description explicitly says this will be learned."
+          },
+          {
+            "raw_skill": "FAISS",
+            "importance": "learning_opportunity",
+            "required_level": 1,
+            "confidence": 0.99,
+            "evidence_text": "students will learn retrieval-augmented generation, embeddings, vector search, and FAISS",
+            "decision_basis": "The description explicitly says this will be learned."
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "request_id": "NORM-MANUAL-003",
+        "project_name": "Rental Property Data Platform",
+        "project_description": "The student must design a PostgreSQL database schema for rental listings, normalize the data model, and build queries used by the reporting service."
+      },
+      "extraction": {
+        "project_summary": "A rental-listing data platform requiring database schema and data-model work.",
+        "requirements": [
+          {
+            "raw_skill": "PostgreSQL database schema design",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.96,
+            "evidence_text": "must design a PostgreSQL database schema for rental listings",
+            "decision_basis": "The compound capability is necessary for mandatory schema work."
+          },
+          {
+            "raw_skill": "Data Modeling",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.96,
+            "evidence_text": "normalize the data model",
+            "decision_basis": "Data modeling is necessary for the mandatory normalization task."
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "request_id": "NORM-MANUAL-004",
+        "project_name": "Production Model Performance Optimization",
+        "project_description": "Students must profile an existing machine-learning service, diagnose unfamiliar latency and memory bottlenecks, compare optimization trade-offs, and modify another team's production code. Advanced Python and machine-learning capability are required."
+      },
+      "extraction": {
+        "project_summary": "Advanced diagnosis and optimization of another team's production machine-learning service.",
+        "requirements": [
+          {
+            "raw_skill": "Performance Profiling",
+            "importance": "hard_requirement",
+            "required_level": 3,
+            "confidence": 0.96,
+            "evidence_text": "Students must profile an existing machine-learning service",
+            "decision_basis": "Profiling is mandatory and involves an existing production system."
+          },
+          {
+            "raw_skill": "Performance Optimization",
+            "importance": "hard_requirement",
+            "required_level": 3,
+            "confidence": 0.98,
+            "evidence_text": "diagnose unfamiliar latency and memory bottlenecks, compare optimization trade-offs",
+            "decision_basis": "Mandatory unfamiliar diagnosis and trade-offs are Advanced evidence."
+          },
+          {
+            "raw_skill": "Python",
+            "importance": "hard_requirement",
+            "required_level": 3,
+            "confidence": 0.99,
+            "evidence_text": "Advanced Python and machine-learning capability are required.",
+            "decision_basis": "Python supports mandatory Advanced production optimization work."
+          },
+          {
+            "raw_skill": "Machine Learning",
+            "importance": "hard_requirement",
+            "required_level": 3,
+            "confidence": 0.99,
+            "evidence_text": "Advanced Python and machine-learning capability are required.",
+            "decision_basis": "Machine learning supports mandatory Advanced production optimization work."
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "request_id": "NORM-MANUAL-005",
+        "project_name": "Cloud-Deployed Mobile Application",
+        "project_description": "Develop a mobile application and deploy its backend to a cloud platform. The project owner has not yet decided whether the app will use React Native, Flutter, or native iOS and Android development. The cloud provider may be AWS, Azure, or GCP."
+      },
+      "extraction": {
+        "project_summary": "A mobile application with unresolved framework and cloud-platform choices.",
+        "requirements": [
+          {
+            "raw_skill": "React Native, Flutter, or native iOS and Android development",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.9,
+            "evidence_text": "has not yet decided whether the app will use React Native, Flutter, or native iOS and Android development",
+            "decision_basis": "Mobile development is mandatory, but the canonical technology is unresolved."
+          },
+          {
+            "raw_skill": "AWS, Azure, or GCP",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.9,
+            "evidence_text": "The cloud provider may be AWS, Azure, or GCP.",
+            "decision_basis": "Cloud deployment is mandatory, but the provider is unresolved."
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "request_id": "NORM-MANUAL-006",
+        "project_name": "LLM Quality Evaluation Framework",
+        "project_description": "Build a framework for evaluating the factual correctness, relevance, consistency, and safety of responses produced by several language models. Students must design evaluation criteria and compare model outputs. Previous experience with LLM APIs is preferred."
+      },
+      "extraction": {
+        "project_summary": "A framework for evaluating language-model response quality and safety.",
+        "requirements": [
+          {
+            "raw_skill": "LLM Response Evaluation",
+            "importance": "hard_requirement",
+            "required_level": 2,
+            "confidence": 0.98,
+            "evidence_text": "evaluating the factual correctness, relevance, consistency, and safety of responses produced by several language models",
+            "decision_basis": "Evaluation capability is essential to the mandatory framework work."
+          },
+          {
+            "raw_skill": "LLM APIs",
+            "importance": "preferred",
+            "required_level": 1,
+            "confidence": 0.97,
+            "evidence_text": "Previous experience with LLM APIs is preferred.",
+            "decision_basis": "LLM API experience is explicitly preferred."
+          }
+        ]
+      }
+    }
+  ]
+}

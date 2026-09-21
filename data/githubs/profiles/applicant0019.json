@@ -1,0 +1,983 @@
+{
+  "applicant_id": "applicant0019",
+  "login": "moe-fun",
+  "html_url": "https://github.com/moe-fun",
+  "created_at": "2020-01-31T23:41:46Z",
+  "account_age_days": 2419,
+  "public_repos": 11,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "recipe",
+      "full_name": "moe-fun/recipe",
+      "html_url": "https://github.com/moe-fun/recipe",
+      "description": "Practice JPA App",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-11-18T03:06:02Z",
+      "pushed_at": "2020-11-18T04:33:31Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 82,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 5651,
+        "HTML": 187
+      },
+      "primary_language": "Java",
+      "file_count": 17,
+      "top_level_paths": [
+        ".gitignore",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "org.springframework.boot",
+          "spring-boot-devtools",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-test",
+          "spring-boot-starter-thymeleaf",
+          "spring-boot-starter-web"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 6,
+        "first_at": "2020-11-18T03:06:15+00:00",
+        "last_at": "2020-11-18T04:33:25+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.167,
+        "messages_sample": [
+          "Merge pull request #2 from moe-fun/jpa_enumeration",
+          "Added Enum",
+          "Merge pull request #1 from moe-fun/one_to_many",
+          "Added two models",
+          "Created two models and one controller",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 4,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "tutorial|bootcamp|course(work)?|lesson|exercise|practice|workshop"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 5,651 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/msg/recipe/RecipeApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-devtools in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 5838,
+        "strong_skills": [
+          "java",
+          "spring",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "spring_mjm",
+      "full_name": "moe-fun/spring_mjm",
+      "html_url": "https://github.com/moe-fun/spring_mjm",
+      "description": "Small project",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-11-06T19:30:01Z",
+      "pushed_at": "2020-11-07T03:06:11Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 62,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 538
+      },
+      "primary_language": "Java",
+      "file_count": 10,
+      "top_level_paths": [
+        ".gitignore",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.h2database",
+          "h2",
+          "org.springframework.boot",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-test",
+          "spring-boot-starter-web"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2020-11-06T19:31:28+00:00",
+        "last_at": "2020-11-06T19:31:28+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 538 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/example/spring_mjm/SpringMjmApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "spring",
+          "source": "repo_name",
+          "detail": "'spring' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-starter-data-jpa in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 538,
+        "strong_skills": [
+          "java",
+          "spring",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sfg-pet-clinic-080623",
+      "full_name": "moe-fun/sfg-pet-clinic-080623",
+      "html_url": "https://github.com/moe-fun/sfg-pet-clinic-080623",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-06T20:26:49Z",
+      "pushed_at": "2023-08-07T01:24:25Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 7,
+      "size_kb": 65,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 1205
+      },
+      "primary_language": "Java",
+      "file_count": 15,
+      "top_level_paths": [
+        ".gitignore",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.h2database",
+          "com.mysql",
+          "h2",
+          "lombok",
+          "mysql-connector-j",
+          "org.projectlombok",
+          "org.springframework.boot",
+          "spring-boot-devtools",
+          "spring-boot-starter-actuator",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-test",
+          "spring-boot-starter-thymeleaf",
+          "spring-boot-starter-web"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2023-08-06T20:26:56+00:00",
+        "last_at": "2023-08-07T01:22:54+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Adding Model Pojos. Closes #2",
+          "Updated Git Ignore",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 7
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,205 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/example/sfgpetclinic/SfgPetClinicApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "mysql",
+          "source": "manifest",
+          "detail": "mysql-connector-j in build.gradle",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-devtools in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1205,
+        "strong_skills": [
+          "java",
+          "mysql",
+          "spring",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "spring_di_080123",
+      "full_name": "moe-fun/spring_di_080123",
+      "html_url": "https://github.com/moe-fun/spring_di_080123",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-02T17:47:29Z",
+      "pushed_at": "2023-08-02T17:55:17Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 64,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 3100
+      },
+      "primary_language": "Java",
+      "file_count": 17,
+      "top_level_paths": [
+        ".gitignore",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "org.springframework.boot",
+          "spring-boot-starter",
+          "spring-boot-starter-test"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2023-08-02T17:54:12+00:00",
+        "last_at": "2023-08-02T17:54:12+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial Commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 3,100 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/example/spring_di_080123/SpringDi080123ApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "spring",
+          "source": "repo_name",
+          "detail": "'spring' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-starter in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3100,
+        "strong_skills": [
+          "java",
+          "spring",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SpringWebPractice",
+      "full_name": "moe-fun/SpringWebPractice",
+      "html_url": "https://github.com/moe-fun/SpringWebPractice",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-07-23T23:01:06Z",
+      "pushed_at": "2023-07-24T16:28:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 62,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 1647
+      },
+      "primary_language": "Java",
+      "file_count": 12,
+      "top_level_paths": [
+        ".gitignore",
+        "build.gradle",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle",
+        "src"
+      ],
+      "notable_files": [
+        "build.gradle"
+      ],
+      "manifests": {
+        "build.gradle": [
+          "com.h2database",
+          "h2",
+          "org.springframework.boot",
+          "spring-boot-starter-data-jpa",
+          "spring-boot-starter-test",
+          "spring-boot-starter-web"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2023-07-23T23:01:18+00:00",
+        "last_at": "2023-07-24T16:27:48+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Book and Auth Domain",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [
+          "tutorial|bootcamp|course(work)?|lesson|exercise|practice|workshop"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 1,647 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/com/example/springpractice/SpringPracticeApplicationTests.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "spring",
+          "source": "manifest",
+          "detail": "spring-boot-starter-data-jpa in build.gradle",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1647,
+        "strong_skills": [
+          "java",
+          "spring",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 12141,
+    "HTML": 187
+  },
+  "total_commits": 13,
+  "skill_evidence": [
+    {
+      "skill_id": "java",
+      "repos": [
+        "moe-fun/recipe",
+        "moe-fun/spring_mjm",
+        "moe-fun/sfg-pet-clinic-080623",
+        "moe-fun/spring_di_080123",
+        "moe-fun/SpringWebPractice"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 12141,
+      "commit_count": 13,
+      "first_seen": "2020-11-06T19:31:28+00:00",
+      "last_seen": "2023-08-07T01:22:54+00:00",
+      "details": [
+        "recipe: Java: 5,651 bytes (97% of repo)",
+        "spring_mjm: Java: 538 bytes (100% of repo)",
+        "sfg-pet-clinic-080623: Java: 1,205 bytes (100% of repo)",
+        "spring_di_080123: Java: 3,100 bytes (100% of repo)",
+        "SpringWebPractice: Java: 1,647 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "repos": [
+        "moe-fun/recipe",
+        "moe-fun/spring_mjm",
+        "moe-fun/sfg-pet-clinic-080623",
+        "moe-fun/spring_di_080123",
+        "moe-fun/SpringWebPractice"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2020-11-06T19:31:28+00:00",
+      "last_seen": "2023-08-07T01:22:54+00:00",
+      "details": [
+        "recipe: spring-boot-devtools in build.gradle",
+        "spring_mjm: 'spring' in repo name/description",
+        "spring_mjm: spring-boot-starter-data-jpa in build.gradle",
+        "sfg-pet-clinic-080623: spring-boot-devtools in build.gradle",
+        "spring_di_080123: 'spring' in repo name/description",
+        "spring_di_080123: spring-boot-starter in build.gradle",
+        "SpringWebPractice: spring-boot-starter-data-jpa in build.gradle"
+      ]
+    },
+    {
+      "skill_id": "mysql",
+      "repos": [
+        "moe-fun/sfg-pet-clinic-080623"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2023-08-06T20:26:56+00:00",
+      "last_seen": "2023-08-07T01:22:54+00:00",
+      "details": [
+        "sfg-pet-clinic-080623: mysql-connector-j in build.gradle"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "moe-fun/recipe",
+        "moe-fun/spring_mjm",
+        "moe-fun/sfg-pet-clinic-080623",
+        "moe-fun/spring_di_080123",
+        "moe-fun/SpringWebPractice"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2020-11-06T19:31:28+00:00",
+      "last_seen": "2023-08-07T01:22:54+00:00",
+      "details": [
+        "recipe: test directory (src/test/java/com/msg/recipe/RecipeApplicationTests.java)",
+        "spring_mjm: test directory (src/test/java/com/example/spring_mjm/SpringMjmApplicationTests.java)",
+        "sfg-pet-clinic-080623: test directory (src/test/java/com/example/sfgpetclinic/SfgPetClinicApplicationTests.java)",
+        "spring_di_080123: test directory (src/test/java/com/example/spring_di_080123/SpringDi080123ApplicationTests.java)",
+        "SpringWebPractice: test directory (src/test/java/com/example/springpractice/SpringPracticeApplicationTests.java)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 2,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 13,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 4,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 2 < 3; total_commits: 13 < 20"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-16T14:14:39.529455+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 2 < 3; total_commits: 13 < 20"
+  ]
+}

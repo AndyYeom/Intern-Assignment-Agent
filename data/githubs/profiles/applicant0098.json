@@ -1,0 +1,863 @@
+{
+  "applicant_id": "applicant0098",
+  "login": "Plinharesz",
+  "html_url": "https://github.com/Plinharesz",
+  "created_at": "2024-03-19T14:08:53Z",
+  "account_age_days": 911,
+  "public_repos": 11,
+  "followers": 7,
+  "following": 7,
+  "repos": [
+    {
+      "name": "TIL2026",
+      "full_name": "Plinharesz/TIL2026",
+      "html_url": "https://github.com/Plinharesz/TIL2026",
+      "description": "A repository to document my daily learnings, tips and code snippets throughout 2026. The goal is to maintain consistency and reinforce knowledge.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-01-03T01:06:57Z",
+      "pushed_at": "2026-09-17T01:13:56Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 857,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 26278
+      },
+      "primary_language": "Java",
+      "file_count": 81,
+      "top_level_paths": [
+        ".gitignore",
+        "Java",
+        "LeetCode",
+        "NoteBook",
+        "README.md",
+        "algorithms",
+        "git"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 14408,
+      "readme_excerpt": "# Today I Learned (TIL) - 2026\n\nA repository to document my daily learnings, tips, and code snippets throughout 2026.\nThe goal is to maintain consistency and reinforce knowledge. \n\n## Categories\n- [Algorithms](./algorithms)\n- [LeetCode](./LeetCode)\n- [Git & GitHub](./git)\n- [Java](./Java)\n\n## Recent History\n\n### January\n\n- [Jan 01] - Happy new year\n- [Jan 02] - Project setup & [How to create folders on github](./git/creating-folders-on-github.md).\n- [Jan 03] - Refreshed core concepts of [Arrays](./algorithms/Arrays) and [HashMaps](./algorithms/HashMaps) to start my Data Structures & Algorithms journey.\n- [Jan 04] - First LeetCode exercise done ([Contains Duplicate](LeetCode/Contains%20Duplicate%20-%20217)).\n- [Jan 05] - Learned about [HashSet](./algorithms/HashSets) and implemented 3 solutions for Contains Duplicate ([Brute Force](LeetCode/Contains%20Duplicate%20-%20217/containsDuplicate_bruteForce.java) vs [Sorting](LeetCode/Contains%20Duplicate%20-%20217/containsDuplicate_sorting.java) vs [HashSet](LeetCode/Contains%20Duplicate%20-%20217/containsDuplicate_hashSet.java)).\n- [Jan 06] - Second LeetCode exercise done ([Valid Anagram](LeetCode/Valid%20Anagram%20-%20242)).\n- [Jan 07] -",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 200,
+        "first_at": "2026-03-10T14:32:53+00:00",
+        "last_at": "2026-09-17T01:13:55+00:00",
+        "active_days": 134,
+        "span_days": 190,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.53,
+        "messages_sample": [
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Update README.md",
+          "Merge remote-tracking branch 'origin/main'",
+          "feat: update entry for Aug 05",
+          "Update README.md",
+          "feat: update entry for Aug 04"
+        ],
+        "attribution": "author",
+        "truncated": true
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 34
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 26,278 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 26278,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "ToDoList---Java-Swing",
+      "full_name": "Plinharesz/ToDoList---Java-Swing",
+      "html_url": "https://github.com/Plinharesz/ToDoList---Java-Swing",
+      "description": "Projeto de estudo para criar uma aplicação To-Do List com Java e a biblioteca Swing para a interface gráfica.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-28T05:26:33Z",
+      "pushed_at": "2025-09-28T14:28:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "Java": 3767
+      },
+      "primary_language": "Java",
+      "file_count": 13,
+      "top_level_paths": [
+        ".gitignore",
+        ".idea",
+        "LICENSE",
+        "README.md",
+        "ToDoList.iml",
+        "src"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 134,
+      "readme_excerpt": "# ToDoList---Java-Swing\nProjeto de estudo para criar uma aplicação To-Do List com Java e a biblioteca Swing para a interface gráfica.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-09-28T05:26:33+00:00",
+        "last_at": "2025-09-28T14:25:16+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.333,
+        "messages_sample": [
+          "Merge branch 'main' of https://github.com/Plinharesz/ToDoList---Java-Swing",
+          "Commit inicial: Lógica de back-end e estrutura do projeto",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [
+          "(^|[-_])(todo|to-?do)([-_]?(app|list))?([-_]|$)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 4
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 3,767 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "repo_name",
+          "detail": "'java' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3767,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "estudos-java",
+      "full_name": "Plinharesz/estudos-java",
+      "html_url": "https://github.com/Plinharesz/estudos-java",
+      "description": "Exercícios e anotações dos cursos de Java que estou fazendo.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-04-06T03:02:06Z",
+      "pushed_at": "2026-01-20T03:01:53Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 29,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 21670
+      },
+      "primary_language": "Java",
+      "file_count": 27,
+      "top_level_paths": [
+        "README.md",
+        "alura"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 810,
+      "readme_excerpt": "# Estudos em Java\n\nEste repositório contém exercícios, anotações e projetos desenvolvidos durante meus estudos em Java. O objetivo é praticar a linguagem, consolidar conceitos e acompanhar minha evolução ao longo do tempo.\n\n## Sobre\n\nOrganizo aqui os materiais produzidos em cursos, leituras e projetos pessoais. Os principais tópicos abordados incluem:\n\n- Sintaxe básica e tipos de dados\n- Programação orientada a objetos (POO)\n- Manipulação de arquivos\n- Estruturas de dados\n- API Java padrão (Collections, Streams, etc.)\n\n## Cursos utilizados como base\n\n- Curso de teconlogia da ALURA\n\n- Outros conteúdos complementares (documentações oficiais, vídeos e artigos)\n\n## Ferramentas e Tecnologias\n\n- Java\n- IntelliJ IDEA\n- Git e GitHub.\n\nEste repositório está em constante evolução conforme avanço nos estudos.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 28,
+        "first_at": "2025-04-06T03:02:06+00:00",
+        "last_at": "2026-01-20T03:01:53+00:00",
+        "active_days": 8,
+        "span_days": 288,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.107,
+        "messages_sample": [
+          "Merge pull request #1 from Plinharesz/yolo-test",
+          "Fix punctuation in Git and GitHub list item",
+          "Add toString exercise",
+          "add esmalte project",
+          "add exercicio screenmatch",
+          "add exercicio AppBoletim",
+          "add README ao exercicio",
+          "add exercicio IdadePessoa",
+          "Update README.md",
+          "feat: adiciona arquivos iniciais do projeto Carro com README",
+          "docs: adiciona README e finaliza exercício ContaBancaria",
+          "docs: adiciona README e finaliza exercício ContaBancaria",
+          "docs: adiciona README e finaliza exercício ContaBancaria",
+          "novo exercicio, CalculadoraComFatorial",
+          "README.md atualizado",
+          "Code .java finalizado",
+          "Code .java finalizado",
+          "Code .java finalizado",
+          "move README do exercicio para pasta ConvertorDeTemperatura",
+          "Work in Progress..."
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 16
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 1,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 21,670 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "java",
+          "source": "repo_name",
+          "detail": "'java' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 21670,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "chatbot-selecao-brasileira-rag",
+      "full_name": "Plinharesz/chatbot-selecao-brasileira-rag",
+      "html_url": "https://github.com/Plinharesz/chatbot-selecao-brasileira-rag",
+      "description": "Chatbot RAG especialista na Seleção Brasileira.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-18T13:17:26Z",
+      "pushed_at": "2025-11-26T20:08:07Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 585,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Python": 10214,
+        "HTML": 7837
+      },
+      "primary_language": "Python",
+      "file_count": 13,
+      "top_level_paths": [
+        "Documents"
+      ],
+      "notable_files": [
+        "Documents/Faculdade/Inteligencia Artificial/A3v2.0/requirements.txt"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2025-11-25T13:32:41+00:00",
+        "last_at": "2025-11-26T20:05:23+00:00",
+        "active_days": 2,
+        "span_days": 1,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Refactor: ajusta leitura de CSV, melhora retrieval (k=60) e expande base de dados",
+          "Primeiro commit: exercício de NLP e tokenização"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 10,214 bytes (57% of repo)",
+          "strength": 0.9658412276328181
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 7,837 bytes (43% of repo)",
+          "strength": 0.8341587723671819
+        },
+        {
+          "skill_id": "rag",
+          "source": "repo_name",
+          "detail": "'rag' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 18051,
+        "strong_skills": [
+          "html-css",
+          "python"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "leetcode-solutions",
+      "full_name": "Plinharesz/leetcode-solutions",
+      "html_url": "https://github.com/Plinharesz/leetcode-solutions",
+      "description": "My solutions to algorithm and data structure problems (LeetCode style), written for study and interview preparation",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-12-18T17:34:56Z",
+      "pushed_at": "2026-01-28T18:20:16Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 4739
+      },
+      "primary_language": "Java",
+      "file_count": 13,
+      "top_level_paths": [
+        ".gitignore",
+        "Questions",
+        "README.md",
+        "playground.java"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2385,
+      "readme_excerpt": "#  Data Structures & Algorithms in Java\n\n![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)\n![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)\n![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)\n\nThis repository contains my solutions to algorithmic problems from **LeetCode**, following the **NeetCode 150** roadmap. The src.src.src.main goal is to master Data Structures, Algorithms, and problem-solving patterns for technical interviews.\n\nAll solutions are implemented in **Java**, with a strong focus on **Code Cleanliness** and **Time/Space Complexity analysis**.\n\n##  Study Roadmap & Progress\n\nI am following a structured pattern-based approach. Below is the log of solved problems:\n\n###  Arrays & Hashing\n| Problem | Difficulty | Solution | Pattern | Time Complexity | Space Complexity |\n| :--- | :---: | :---: | :--- | :---: | :---: |\n| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [View Code](./src/main/java/arrays_hashing/ContainsDuplicate.java) | HashMap / HashSet | $O(n)$ | ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 9,
+        "first_at": "2025-12-18T17:16:06+00:00",
+        "last_at": "2026-01-28T18:20:12+00:00",
+        "active_days": 6,
+        "span_days": 41,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.111,
+        "messages_sample": [
+          "feat: new exercise validSudoku with solution",
+          "feat: new exercise Encode and Decode Strings with solution",
+          "add groupAnagrams resolution",
+          "add validAnagram and twoSum",
+          "add validAnagram and twoSum",
+          "Update README.md",
+          "Update README author name",
+          "docs: adiciona README profissional",
+          "feat: estrutura inicial do projeto"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "(freecodecamp|the[-_]?odin|cs50|leetcode|hackerrank|codewars|advent[-_]?of[-_]?code)"
+        ],
+        "follow_along_phrases": [
+          "following a",
+          "following the"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 10
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 4,739 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4739,
+        "strong_skills": [
+          "java"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 56454,
+    "Python": 10214,
+    "HTML": 7837
+  },
+  "total_commits": 242,
+  "skill_evidence": [
+    {
+      "skill_id": "java",
+      "repos": [
+        "Plinharesz/TIL2026",
+        "Plinharesz/ToDoList---Java-Swing",
+        "Plinharesz/estudos-java",
+        "Plinharesz/leetcode-solutions"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 56454,
+      "commit_count": 240,
+      "first_seen": "2025-04-06T03:02:06+00:00",
+      "last_seen": "2026-09-17T01:13:55+00:00",
+      "details": [
+        "TIL2026: Java: 26,278 bytes (100% of repo)",
+        "ToDoList---Java-Swing: Java: 3,767 bytes (100% of repo)",
+        "ToDoList---Java-Swing: 'java' in repo name/description",
+        "estudos-java: Java: 21,670 bytes (100% of repo)",
+        "estudos-java: 'java' in repo name/description",
+        "leetcode-solutions: Java: 4,739 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "Plinharesz/chatbot-selecao-brasileira-rag"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.9658412276328181,
+      "total_bytes": 10214,
+      "commit_count": 2,
+      "first_seen": "2025-11-25T13:32:41+00:00",
+      "last_seen": "2025-11-26T20:05:23+00:00",
+      "details": [
+        "chatbot-selecao-brasileira-rag: Python: 10,214 bytes (57% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Plinharesz/chatbot-selecao-brasileira-rag"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8341587723671819,
+      "total_bytes": 7837,
+      "commit_count": 2,
+      "first_seen": "2025-11-25T13:32:41+00:00",
+      "last_seen": "2025-11-26T20:05:23+00:00",
+      "details": [
+        "chatbot-selecao-brasileira-rag: HTML: 7,837 bytes (43% of repo)"
+      ]
+    },
+    {
+      "skill_id": "rag",
+      "repos": [
+        "Plinharesz/chatbot-selecao-brasileira-rag"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2025-11-25T13:32:41+00:00",
+      "last_seen": "2025-11-26T20:05:23+00:00",
+      "details": [
+        "chatbot-selecao-brasileira-rag: 'rag' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 242,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-17T01:23:50.569246+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

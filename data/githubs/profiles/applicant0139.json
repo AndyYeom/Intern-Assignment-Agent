@@ -1,0 +1,1285 @@
+{
+  "applicant_id": "applicant0139",
+  "login": "artifishvr",
+  "html_url": "https://github.com/artifishvr",
+  "created_at": "2019-12-30T04:41:49Z",
+  "account_age_days": 2452,
+  "public_repos": 57,
+  "followers": 19,
+  "following": 35,
+  "repos": [
+    {
+      "name": "SongLinker",
+      "full_name": "artifishvr/SongLinker",
+      "html_url": "https://github.com/artifishvr/SongLinker",
+      "description": "Discord bot that watches for links to music and creates a song link",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-06-19T19:20:20Z",
+      "pushed_at": "2026-02-14T12:52:46Z",
+      "stargazers": 4,
+      "forks": 1,
+      "open_issues": 1,
+      "size_kb": 342,
+      "default_branch": "main",
+      "license": "AGPL-3.0",
+      "topics": [
+        "apple-music",
+        "bot",
+        "discord",
+        "discord-bot",
+        "discord-js",
+        "nodejs",
+        "odesli",
+        "songlink",
+        "soundcloud",
+        "spotify"
+      ],
+      "languages": {
+        "JavaScript": 7504,
+        "Dockerfile": 192
+      },
+      "primary_language": "JavaScript",
+      "file_count": 16,
+      "top_level_paths": [
+        ".dockerignore",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        "Dockerfile",
+        "LICENSE",
+        "README.md",
+        "SongLinker.code-workspace",
+        "commands",
+        "icon.png",
+        "index.js",
+        "package.json",
+        "pnpm-lock.yaml",
+        "util-scripts",
+        "utils"
+      ],
+      "notable_files": [
+        ".github/workflows/deploy-image.yml",
+        "Dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "discord.js",
+          "dotenv",
+          "node-vibrant",
+          "nodemon",
+          "odesli.js",
+          "sequelize",
+          "slash-create",
+          "sqlite3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2100,
+      "readme_excerpt": "<div id=\"top\"></div>\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <a href=\"https://github.com/artificialbutter/SongLinker/\">\n    <img src=\"icon.png\" alt=\"Icon\" width=\"128\" height=\"128\">\n  </a>\n  <h3 align=\"center\">SongLinker</h3>\n  <img src='https://img.shields.io/github/license/artificialbutter/SongLinker?style=flat-square'>\n  <img src='https://img.shields.io/github/commit-activity/m/artificialbutter/SongLinker?style=flat-square'>\n  <img src='https://status.arti.lol/api/badge/11/uptime?style=flat-square'>\n  \n  <p align=\"center\">\n    <a href=\"https://discord.com/api/oauth2/authorize?client_id=[phone]&permissions=[phone]&scope=bot\" target=\"_blank\"><strong>Invite the bot! »</strong></a>\n    <br />\n    <a href=\"https://github.com/artificialbutter/SongLinker/issues\">Report Bug</a>\n  </p>\n</div>\n\n\n\n<!-- TABLE OF CONTENTS -->\n<details>\n  <summary>Table of Contents</summary>\n  <ol>\n    <li>\n      <a href=\"#about-the-project\">About The Project</a>\n      <ul>\n        <li><a href=\"#built-with\">Built With</a></li>\n      </ul>\n    </li>\n    <li><a href=\"#self-hosting\">Self Hosting</a></li>\n    <li><a href=\"#contributing\">Contributing</a></li>\n    <li><a href=\"#license\">Li",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.883,
+      "commits": {
+        "count": 9,
+        "first_at": "2024-04-29T06:09:50+00:00",
+        "last_at": "2026-01-23T08:17:51+00:00",
+        "active_days": 7,
+        "span_days": 634,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.111,
+        "messages_sample": [
+          "Merge pull request #11 from artifishvr/dependabot/npm_and_yarn/npm_and_yarn-f3562b46b9",
+          "Merge pull request #10 from artifishvr/dependabot/npm_and_yarn/npm_and_yarn-2b901f0e0d",
+          "Merge pull request #9 from artifishvr/dependabot/npm_and_yarn/npm_and_yarn-[phone]f",
+          "Merge pull request #8 from artifishvr/dependabot/npm_and_yarn/npm_and_yarn-cab25fcd96",
+          "Merge pull request #7 from artifishvr/dependabot/npm_and_yarn/npm_and_yarn-5134b82be1",
+          "Merge pull request #6 from artifishvr/dependabot/npm_and_yarn/npm_and_yarn-2f6774edab",
+          "Delete .github/dependabot.yml",
+          "Merge pull request #5 from artifishvr/dependabot/npm_and_yarn/npm_and_yarn-faa7759b81",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 5
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 7,504 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/deploy-image.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "topic",
+          "detail": "repo topic 'nodejs'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "sequelize in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 7696,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "UwuifierBot",
+      "full_name": "artifishvr/UwuifierBot",
+      "html_url": "https://github.com/artifishvr/UwuifierBot",
+      "description": "The discord bot to make your messages worse.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": true,
+      "is_template": false,
+      "created_at": "2022-05-03T03:05:54Z",
+      "pushed_at": "2025-05-05T16:13:46Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 822,
+      "default_branch": "main",
+      "license": "AGPL-3.0",
+      "topics": [
+        "bot",
+        "discord",
+        "discord-bot",
+        "discord-js",
+        "javascript",
+        "nodejs",
+        "slash-commands",
+        "slash-create",
+        "uwuifier",
+        "uwuify"
+      ],
+      "languages": {
+        "JavaScript": 22951,
+        "Dockerfile": 191
+      },
+      "primary_language": "JavaScript",
+      "file_count": 31,
+      "top_level_paths": [
+        ".dockerignore",
+        ".env.example",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".markdownlint.json",
+        "Dockerfile",
+        "LICENSE",
+        "README.md",
+        "commands",
+        "icon.png",
+        "index.js",
+        "package.json",
+        "pnpm-lock.yaml",
+        "screenshot.png",
+        "utils"
+      ],
+      "notable_files": [
+        ".github/workflows/codeql-analysis.yml",
+        ".github/workflows/deploy-image.yml",
+        "Dockerfile",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@patarapolw/uwuifier",
+          "discord.js",
+          "dotenv",
+          "slash-create",
+          "snowflake-codon"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2713,
+      "readme_excerpt": "> [!IMPORTANT]\n> This repository has not and will not be maintained with new updates. UwUifier's website and hosted bot will stay online indefinitely, or until it breaks.\n\n\n<div id=\"top\"></div>\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <a href=\"https://github.com/artificialbutter/UwuifierBot\">\n    <img src=\"icon.png\" alt=\"Icon\" width=\"80\" height=\"80\">\n  </a>\n\n  <h3 align=\"center\">UwUifier</h3>\n  <img src='https://img.shields.io/github/license/artificialbutter/UwuifierBot?style=flat-square'>\n  <img src='https://img.shields.io/github/commit-activity/m/artificialbutter/UwuifierBot?style=flat-square'>\n  <img src='https://status.arti.lol/api/badge/1/uptime?style=flat-square'>\n  \n  <p align=\"center\">\n    <a href=\"https://discord.com/api/oauth2/authorize?client_id=[phone]&permissions=[phone]&scope=bot%20applications.commands\"><strong>Invite the bot! »</strong></a>\n    <br />\n    <a href=\"https://github.com/artificialbutter/UwuifierBot/issues\">Report Bug</a>\n  </p>\n</div>\n\n<!-- TABLE OF CONTENTS -->\n<details>\n  <summary>Table of Contents</summary>\n  <ol>\n    <li>\n      <a href=\"#about\">About</a>\n      <ul>\n        <li><a href=\"#built-with\">Built With</a></li>\n     ",
+      "has_ci": true,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 6,
+      "contribution_share": 0.646,
+      "commits": {
+        "count": 7,
+        "first_at": "2024-04-29T06:08:18+00:00",
+        "last_at": "2025-05-05T16:13:45+00:00",
+        "active_days": 5,
+        "span_days": 371,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.286,
+        "messages_sample": [
+          "Update README.md",
+          "Delete renovate.json",
+          "Merge pull request #47 from artifishvr/renovate/discord.js-14.x-lockfile",
+          "Merge pull request #48 from artifishvr/dependabot/npm_and_yarn/ws-8.17.1",
+          "Merge pull request #46 from artifishvr/renovate/discord.js-14.x-lockfile",
+          "Merge pull request #45 from artifishvr/renovate/discord.js-14.x-lockfile",
+          "Update README.md"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 16
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 22,951 bytes (99% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/codeql-analysis.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "javascript",
+          "source": "topic",
+          "detail": "repo topic 'javascript'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "topic",
+          "detail": "repo topic 'nodejs'",
+          "strength": 0.3
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 23142,
+        "strong_skills": [
+          "cicd",
+          "docker",
+          "javascript",
+          "linux"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "tbhcreature",
+      "full_name": "artifishvr/tbhcreature",
+      "html_url": "https://github.com/artifishvr/tbhcreature",
+      "description": "the tbh creature",
+      "homepage": "https://tbh.arti.lol",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-08-30T06:35:52Z",
+      "pushed_at": "2024-04-02T07:04:48Z",
+      "stargazers": 5,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 110,
+      "default_branch": "main",
+      "license": "Unlicense",
+      "topics": [
+        "funny",
+        "joke",
+        "joke-website",
+        "meme",
+        "tbh",
+        "website",
+        "yippie"
+      ],
+      "languages": {
+        "CSS": 1744,
+        "HTML": 1442,
+        "JavaScript": 971
+      },
+      "primary_language": "CSS",
+      "file_count": 10,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "favicon.ico",
+        "index.html",
+        "tbh.css",
+        "tbh.js",
+        "tbh.png",
+        "yippee.mp3"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 267,
+      "readme_excerpt": "# tbh creature\na dumb website <br>\nuses basic HTML5/JS, doesn't need anything special to be set up.\n\n\n\n\n## apps\n[artificialbutter/tbhmobile](https://github.com/artificialbutter/tbhmobile)\n\n[artificialbutter/tbhdesktop](https://github.com/artificialbutter/tbhdesktop)\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 24,
+        "first_at": "2022-08-30T06:21:31+00:00",
+        "last_at": "2024-04-02T07:04:42+00:00",
+        "active_days": 8,
+        "span_days": 581,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "analytics",
+          "Update README.md",
+          "off it goes into the public domain",
+          "Update README.md",
+          "Update README.md",
+          "Higher quality tbh",
+          "disable image dragging",
+          "better confetti",
+          "favicon!!! finally!!!",
+          "update canvas-confetti",
+          "better sfx",
+          "oopsies i left a development logging thing in here",
+          "Overengineered",
+          "Click popup",
+          "metadata (but more)",
+          "twitter",
+          "Update README.md",
+          "Create README.md",
+          "Hope that meta images work",
+          "No more audio delay"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": true,
+          "has_license": true,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 3
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": true,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,744 bytes (42% of repo)",
+          "strength": 0.819533317296127
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,442 bytes (35% of repo)",
+          "strength": 0.7468847726726004
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 971 bytes (23% of repo)",
+          "strength": 0.6335819100312725
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4157,
+        "strong_skills": [
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "blahaj",
+      "full_name": "artifishvr/blahaj",
+      "html_url": "https://github.com/artifishvr/blahaj",
+      "description": "blahaj go spinny",
+      "homepage": "https://blahaj.ca",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-03-11T07:35:42Z",
+      "pushed_at": "2025-09-18T00:24:21Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 95612,
+      "default_branch": "main",
+      "license": "AGPL-3.0",
+      "topics": [
+        "blahaj",
+        "ikea",
+        "pride",
+        "sveltekit",
+        "threejs",
+        "trans"
+      ],
+      "languages": {
+        "Svelte": 14911,
+        "JavaScript": 2895,
+        "HTML": 440,
+        "CSS": 114
+      },
+      "primary_language": "Svelte",
+      "file_count": 22,
+      "top_level_paths": [
+        ".gitattributes",
+        ".gitignore",
+        ".npmrc",
+        "LICENSE",
+        "package.json",
+        "pnpm-lock.yaml",
+        "postcss.config.cjs",
+        "src",
+        "static",
+        "svelte.config.js",
+        "tailwind.config.cjs",
+        "vite.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@fontsource-variable/nunito",
+          "@sveltejs/adapter-auto",
+          "@sveltejs/kit",
+          "@sveltejs/vite-plugin-svelte",
+          "autoprefixer",
+          "postcss",
+          "postcss-load-config",
+          "prettier",
+          "prettier-plugin-svelte",
+          "prettier-plugin-tailwindcss",
+          "screenfull",
+          "svelte",
+          "tailwindcss",
+          "three",
+          "vite"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.987,
+      "commits": {
+        "count": 64,
+        "first_at": "2024-04-07T10:58:37+00:00",
+        "last_at": "2025-09-18T00:24:19+00:00",
+        "active_days": 19,
+        "span_days": 528,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.016,
+        "messages_sample": [
+          "oop",
+          "remove music player (im not maintaining a cobalt instance for this",
+          "bump deps",
+          "remove unused dependencies",
+          "update for all-around broken youtube",
+          "use an instance with working yt download",
+          "use own cobalt v10 instance",
+          "remove experimental header",
+          "new pink wowww",
+          "different query strings",
+          "really terrible pink mode",
+          "make loading bar more accurate, bump",
+          "nightlight quotes",
+          "quotesss",
+          "dr pepper catgirl",
+          "loading quotes",
+          "change api domain speedrun",
+          "disable attention grab when clicked",
+          "do it the classic way",
+          "query string"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "Svelte: 14,911 bytes (81% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,895 bytes (16% of repo)",
+          "strength": 0.5576797385620915
+        },
+        {
+          "skill_id": "go",
+          "source": "repo_name",
+          "detail": "'go' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 18360,
+        "strong_skills": [
+          "javascript",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "VideoDestroyer",
+      "full_name": "artifishvr/VideoDestroyer",
+      "html_url": "https://github.com/artifishvr/VideoDestroyer",
+      "description": "absolutely destroy the quality of video files. infinite entertainment! ",
+      "homepage": "https://destroy.arti.lol",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-05-28T04:12:04Z",
+      "pushed_at": "2026-09-02T00:58:13Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13147,
+      "default_branch": "main",
+      "license": "AGPL-3.0",
+      "topics": [
+        "ffmpeg",
+        "ffmpeg-wasm",
+        "shadcn-ui",
+        "svelte",
+        "wasm"
+      ],
+      "languages": {
+        "Svelte": 21450,
+        "JavaScript": 9858,
+        "TypeScript": 8189,
+        "CSS": 1527,
+        "HTML": 426
+      },
+      "primary_language": "Svelte",
+      "file_count": 54,
+      "top_level_paths": [
+        ".gitignore",
+        ".npmrc",
+        "LICENSE",
+        "README.md",
+        "components.json",
+        "icon.png",
+        "package.json",
+        "pnpm-lock.yaml",
+        "postcss.config.js",
+        "src",
+        "static",
+        "svelte.config.js",
+        "tailwind.config.ts",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@ffmpeg/ffmpeg",
+          "@fontsource-variable/dm-sans",
+          "@sveltejs/adapter-auto",
+          "@sveltejs/kit",
+          "@sveltejs/vite-plugin-svelte",
+          "autoprefixer",
+          "bits-ui",
+          "clsx",
+          "lucide-svelte",
+          "mode-watcher",
+          "svelte",
+          "svelte-check",
+          "svelte-file-dropzone",
+          "svelte-legos",
+          "svelte-sonner",
+          "tailwind-merge",
+          "tailwind-variants",
+          "tailwindcss",
+          "typescript",
+          "vaul-svelte",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 533,
+      "readme_excerpt": "<div align=\"center\">\n<img \n    width=\"128\" height=\"128\"\n    src=\"icon.png\" \n    alt=\":3 icon\">\n</img>\n    </div>\n<h1 align=\"center\">VideoDestroyer</h1>\n<p align=\"center\">absolutely destroy the quality of video files</p>\n<p align=\"center\"><i>\"what purpose does this serve\"</i> <br>-me, 5 hours into the project</p>\n\n## Usage\n\nHead to [destroy.arti.lol](https://destroy.arti.lol) and input the video you want to destroy.\n\nAll processing is done in the browser. Requires a modern browser that supports [WASM](https://caniuse.com/wasm).\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 35,
+        "first_at": "2024-05-28T04:12:03+00:00",
+        "last_at": "2026-09-02T00:58:11+00:00",
+        "active_days": 8,
+        "span_days": 826,
+        "max_per_day": 16,
+        "low_effort_message_ratio": 0.086,
+        "messages_sample": [
+          "agressively compress audio in normalization/transcoding step",
+          "catch errors thrown by ffmpeg, minor design and typography improvements, scaffolding for multithreading (currently hangs for some reason) (gosh this code is bad)",
+          "ana",
+          "fix yarper bug",
+          "change icon",
+          "custom file uploader",
+          "typography, file name preservation, empty file handling",
+          "naming fixes",
+          "fine-tune encoding settings",
+          "branding and such",
+          "style adjustments, view button",
+          "refactor like everything idk the dr pepper catgirl says long commit messages are better so im gonna make this commit message better so like i got the uuuh shadcn and i did a design thing anddd idk its",
+          "update brand",
+          "it is now much slower",
+          "i may be stupid",
+          "...",
+          "give up, its here now",
+          "im so confused",
+          "Revert \"Merge branch 'main' of https://github.com/artifishvr/VideoDestroyerWeb\"",
+          "Merge branch 'main' of https://github.com/artifishvr/VideoDestroyerWeb"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 5,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 44
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 1
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "Svelte: 21,450 bytes (52% of repo)",
+          "strength": 0.917490952955368
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 9,858 bytes (24% of repo)",
+          "strength": 0.6378287092882992
+        },
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 8,189 bytes (20% of repo)",
+          "strength": 0.5975633293124246
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,527 bytes (4% of repo)",
+          "strength": 0.43683956574185767
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 41450,
+        "strong_skills": [
+          "javascript",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 44179,
+    "Svelte": 36361,
+    "TypeScript": 8189,
+    "CSS": 3385,
+    "HTML": 2308,
+    "Dockerfile": 383
+  },
+  "total_commits": 139,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "artifishvr/SongLinker",
+        "artifishvr/UwuifierBot",
+        "artifishvr/tbhcreature",
+        "artifishvr/blahaj",
+        "artifishvr/VideoDestroyer"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "language",
+        "topic"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 80540,
+      "commit_count": 139,
+      "first_seen": "2022-08-30T06:21:31+00:00",
+      "last_seen": "2026-09-02T00:58:11+00:00",
+      "details": [
+        "SongLinker: JavaScript: 7,504 bytes (98% of repo)",
+        "UwuifierBot: JavaScript: 22,951 bytes (99% of repo)",
+        "UwuifierBot: repo topic 'javascript'",
+        "tbhcreature: JavaScript: 971 bytes (23% of repo)",
+        "blahaj: Svelte: 14,911 bytes (81% of repo)",
+        "blahaj: JavaScript: 2,895 bytes (16% of repo)",
+        "VideoDestroyer: Svelte: 21,450 bytes (52% of repo)",
+        "VideoDestroyer: JavaScript: 9,858 bytes (24% of repo)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "artifishvr/blahaj",
+        "artifishvr/VideoDestroyer"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "manifest",
+        "file"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 99,
+      "first_seen": "2024-04-07T10:58:37+00:00",
+      "last_seen": "2026-09-02T00:58:11+00:00",
+      "details": [
+        "blahaj: tailwindcss in package.json",
+        "VideoDestroyer: tailwind config (tailwind.config.ts)",
+        "VideoDestroyer: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "artifishvr/VideoDestroyer"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 8189,
+      "commit_count": 35,
+      "first_seen": "2024-05-28T04:12:03+00:00",
+      "last_seen": "2026-09-02T00:58:11+00:00",
+      "details": [
+        "VideoDestroyer: TypeScript: 8,189 bytes (20% of repo)",
+        "VideoDestroyer: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "artifishvr/SongLinker"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 9,
+      "first_seen": "2024-04-29T06:09:50+00:00",
+      "last_seen": "2026-01-23T08:17:51+00:00",
+      "details": [
+        "SongLinker: sequelize in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "artifishvr/tbhcreature",
+        "artifishvr/VideoDestroyer"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.819533317296127,
+      "total_bytes": 4713,
+      "commit_count": 59,
+      "first_seen": "2022-08-30T06:21:31+00:00",
+      "last_seen": "2026-09-02T00:58:11+00:00",
+      "details": [
+        "tbhcreature: CSS: 1,744 bytes (42% of repo)",
+        "tbhcreature: HTML: 1,442 bytes (35% of repo)",
+        "VideoDestroyer: CSS: 1,527 bytes (4% of repo)"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "artifishvr/SongLinker",
+        "artifishvr/UwuifierBot"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2024-04-29T06:08:18+00:00",
+      "last_seen": "2026-01-23T08:17:51+00:00",
+      "details": [
+        "SongLinker: GitHub Actions workflow (.github/workflows/deploy-image.yml)",
+        "UwuifierBot: GitHub Actions workflow (.github/workflows/codeql-analysis.yml)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "artifishvr/SongLinker",
+        "artifishvr/UwuifierBot"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2024-04-29T06:08:18+00:00",
+      "last_seen": "2026-01-23T08:17:51+00:00",
+      "details": [
+        "SongLinker: Dockerfile (Dockerfile)",
+        "UwuifierBot: Dockerfile (Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "artifishvr/UwuifierBot"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2024-04-29T06:08:18+00:00",
+      "last_seen": "2025-05-05T16:13:45+00:00",
+      "details": [
+        "UwuifierBot: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "artifishvr/SongLinker",
+        "artifishvr/UwuifierBot"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "topic"
+      ],
+      "max_strength": 0.3,
+      "total_bytes": 0,
+      "commit_count": 16,
+      "first_seen": "2024-04-29T06:08:18+00:00",
+      "last_seen": "2026-01-23T08:17:51+00:00",
+      "details": [
+        "SongLinker: repo topic 'nodejs'",
+        "UwuifierBot: repo topic 'nodejs'"
+      ]
+    },
+    {
+      "skill_id": "go",
+      "repos": [
+        "artifishvr/blahaj"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 64,
+      "first_seen": "2024-04-07T10:58:37+00:00",
+      "last_seen": "2025-09-18T00:24:19+00:00",
+      "details": [
+        "blahaj: 'go' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 139,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "go-systems",
+  "collected_at": "2026-09-17T01:26:37.957589+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

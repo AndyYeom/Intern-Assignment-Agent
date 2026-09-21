@@ -1,0 +1,1443 @@
+{
+  "applicant_id": "applicant0046",
+  "login": "sergiordg00",
+  "html_url": "https://github.com/sergiordg00",
+  "created_at": "2020-01-31T21:36:42Z",
+  "account_age_days": 2419,
+  "public_repos": 5,
+  "followers": 2,
+  "following": 2,
+  "repos": [
+    {
+      "name": "just-a-blog",
+      "full_name": "sergiordg00/just-a-blog",
+      "html_url": "https://github.com/sergiordg00/just-a-blog",
+      "description": "A simple blog app built with Next.js and Sanity as CMS. Explore interesting topics, categories and articles.",
+      "homepage": "https://blog.sergiordg.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-09T09:23:22Z",
+      "pushed_at": "2023-09-13T00:22:05Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4078,
+      "default_branch": "master",
+      "license": null,
+      "topics": [
+        "article",
+        "blog",
+        "nextjs",
+        "react",
+        "sanity",
+        "webapp"
+      ],
+      "languages": {
+        "JavaScript": 44690,
+        "CSS": 3573
+      },
+      "primary_language": "JavaScript",
+      "file_count": 62,
+      "top_level_paths": [
+        ".env",
+        ".eslintrc.json",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "app",
+        "assets",
+        "component.example.jsx",
+        "context",
+        "hooks",
+        "jsconfig.json",
+        "lib",
+        "next.config.js",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "services",
+        "shared-components",
+        "tailwind.config.js",
+        "utils"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@portabletext/react",
+          "@sanity/image-url",
+          "@tailwindcss/forms",
+          "autoprefixer",
+          "axios",
+          "clsx",
+          "eslint",
+          "eslint-config-next",
+          "eslint-plugin-simple-import-sort",
+          "eslint-plugin-tailwindcss",
+          "next",
+          "next-sanity",
+          "postcss",
+          "react",
+          "react-dom",
+          "react-hot-toast",
+          "react-icons",
+          "react-loader-spinner",
+          "react-markdown",
+          "tailwindcss"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2657,
+      "readme_excerpt": "# 📰 Just a Blog 📰\n[Visit Site](https://blog.sergiordg.com)\n\nA simple blog app built with Next.js and Sanity as CMS. Explore interesting topics, categories and articles.\n\n![Screenshot](https://blog.sergiordg.com/share.jpg)\n\n## Features 🚀\n- Explore various article categories to discover a wide range of content.\n- Utilize a robust search feature to find specific articles quickly.\n- Engage with the community by commenting on articles.\n- Content management powered by Sanity, making it easy to create and update articles.\n\n## Technologies and Tools 🔧\n![nextjs](https://img.shields.io/static/v1?label=&message=next.js&color=eaeffc&logo=next.js&logoColor=000&style=for-the-badge) \n![tailwind](https://img.shields.io/static/v1?label=&message=tailwind%20css&color=eaeffc&logo=tailwind%20css&logoColor=06B6D4&style=for-the-badge)\n![figma](https://img.shields.io/static/v1?label=&message=figma&color=eaeffc&logo=figma&logoColor=F24E1E&style=for-the-badge)\n![html](https://img.shields.io/static/v1?label=&message=html&color=eaeffc&logo=html5&logoColor=E34F26&style=for-the-badge) \n![css](https://img.shields.io/static/v1?label=&message=css&color=eaeffc&logo=css3&logoColor=1572B6&style=for-the-badge)\n![javas",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 20,
+        "first_at": "2023-08-09T07:50:28+00:00",
+        "last_at": "2023-09-13T00:22:05+00:00",
+        "active_days": 10,
+        "span_days": 34,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "feat: linkedin link",
+          "feat: new readme",
+          "feat: og image",
+          "style: updated article page gradient",
+          "fix: post page styles",
+          "feat: migration from strapi to sanity CMS",
+          "refactor: api and hooks",
+          "fix: cache in fetch",
+          "feat: first iteration of the app completed",
+          "feat: article page but comments and view system",
+          "feat: discover category page",
+          "feat: home page completed with data optimizations",
+          "feat: an easy cache system for client side requests",
+          "feat: search skeleton and results prototype",
+          "feat: home ui prototype completed",
+          "feat: lots of improvements and additions in home prototype",
+          "feat: sidebar prototype",
+          "feat: generic drawer component",
+          "Project init",
+          "Initial commit from Create Next App"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 51
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 2,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 44,690 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,573 bytes (7% of repo)",
+          "strength": 0.47403186706172434
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "topic",
+          "detail": "repo topic 'nextjs'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "react",
+          "source": "topic",
+          "detail": "repo topic 'react'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "repo_name",
+          "detail": "'next.js' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@portabletext/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 48263,
+        "strong_skills": [
+          "javascript",
+          "nextjs",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "portfolio",
+      "full_name": "sergiordg00/portfolio",
+      "html_url": "https://github.com/sergiordg00/portfolio",
+      "description": "My personal portfolio built with React.js where i showcase my frontend development experience, personal projects and some of my skills.",
+      "homepage": "https://sergiordg.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-29T10:53:30Z",
+      "pushed_at": "2023-09-28T09:27:03Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1150,
+      "default_branch": "master",
+      "license": null,
+      "topics": [
+        "experience",
+        "portfolio",
+        "projects",
+        "react",
+        "reactjs",
+        "webapp",
+        "workexperience"
+      ],
+      "languages": {
+        "JavaScript": 37733,
+        "CSS": 2660,
+        "HTML": 2050
+      },
+      "primary_language": "JavaScript",
+      "file_count": 59,
+      "top_level_paths": [
+        ".eslintrc.cjs",
+        ".gitignore",
+        "component.template.jsx",
+        "index.html",
+        "jsconfig.json",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "vercel.json",
+        "vite.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/eslint-parser",
+          "@babel/preset-react",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "clsx",
+          "eslint",
+          "eslint-plugin-react",
+          "eslint-plugin-simple-import-sort",
+          "eslint-plugin-tailwindcss",
+          "framer-motion",
+          "hamburger-react",
+          "postcss",
+          "react",
+          "react-dom",
+          "react-icons",
+          "react-router-dom",
+          "tailwindcss",
+          "vite",
+          "vite-plugin-svgr"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 30,
+        "first_at": "2023-08-29T10:53:15+00:00",
+        "last_at": "2023-09-28T09:27:03+00:00",
+        "active_days": 10,
+        "span_days": 29,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "fix: remove pascal case on svg import",
+          "feat: add new technologies and updated cv",
+          "fix: change role",
+          "feat: add new cv versions",
+          "feat: add new skills row",
+          "fix: keywords fix",
+          "fix: skill section fix",
+          "fix: linkedin link",
+          "feat: add new cv",
+          "feat: updated cv and links",
+          "feat: delete readme",
+          "fix: full path for og image",
+          "feat: cv file",
+          "feat: new update to experience text",
+          "feat: improvements to experience text",
+          "feat: new experience text",
+          "feat: SEO improvements",
+          "fix: vercel file for CSR",
+          "fix: new domain link",
+          "feat: framer motion animations"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 30
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 8,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 37,733 bytes (89% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,660 bytes (6% of repo)",
+          "strength": 0.4626722898946823
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 2,050 bytes (5% of repo)",
+          "strength": 0.4483000730391349
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "topic",
+          "detail": "repo topic 'react'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react.js' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 42443,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "bytetalk",
+      "full_name": "sergiordg00/bytetalk",
+      "html_url": "https://github.com/sergiordg00/bytetalk",
+      "description": "A chat application built with Next.js. Chat with your friends and use brand new features such as GPT-Advisor to answer texts like never before!",
+      "homepage": "https://bytetalk.sergiordg.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-07-19T12:42:00Z",
+      "pushed_at": "2023-09-13T00:21:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 603,
+      "default_branch": "master",
+      "license": null,
+      "topics": [
+        "chat",
+        "gpt-3",
+        "nextjs",
+        "openai",
+        "prisma",
+        "pusher",
+        "react"
+      ],
+      "languages": {
+        "JavaScript": 109782,
+        "CSS": 4745
+      },
+      "primary_language": "JavaScript",
+      "file_count": 103,
+      "top_level_paths": [
+        ".env.example",
+        ".eslintrc.json",
+        ".gitignore",
+        "README.md",
+        "app",
+        "assets",
+        "component.template.jsx",
+        "context",
+        "hooks",
+        "jsconfig.json",
+        "libs",
+        "middleware.js",
+        "next.config.js",
+        "package-lock.json",
+        "package.json",
+        "pages",
+        "postcss.config.js",
+        "prisma",
+        "public",
+        "services",
+        "shared-components",
+        "tailwind.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@headlessui/react",
+          "@next-auth/prisma-adapter",
+          "@prisma/client",
+          "@tailwindcss/forms",
+          "autoprefixer",
+          "axios",
+          "bcrypt",
+          "clsx",
+          "date-fns",
+          "eslint",
+          "eslint-config-next",
+          "eslint-plugin-simple-import-sort",
+          "eslint-plugin-tailwindcss",
+          "lodash",
+          "next",
+          "next-auth",
+          "next-cloudinary",
+          "openai",
+          "postcss",
+          "prisma",
+          "pusher",
+          "pusher-js",
+          "react",
+          "react-dom",
+          "react-hot-toast",
+          "react-icons",
+          "react-loader-spinner",
+          "react-select",
+          "tailwindcss",
+          "uuid"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3274,
+      "readme_excerpt": "# 💬 ByteTalk 💬\n[Visit Site](https://bytetalk.sergiordg.com)\n\nA chat application built with Next.js. Chat with your friends and use brand new features such as GPT-Advisor to answer texts like never before!\n\n![Screenshot](https://bytetalk.sergiordg.com/share.jpg)\n\n## Features 🚀\n- Robust reply system that facilitates organized conversations.\n- Integrated sound system for notifications to keep users informed.\n- Real-time notifications using WebSockets for instant updates.\n- Utilizes the OpenAI API to provide AI-powered suggestions for responses.\n- Offers two color modes to tailor the interface to users' preferences.\n- Supports both individual and group conversations for versatile communication.\n- Image storage in the cloud using Cloudinary for seamless multimedia sharing.\n\n## Technologies and Tools 🔧\n![nextjs](https://img.shields.io/static/v1?label=&message=next.js&color=eaeffc&logo=next.js&logoColor=000&style=for-the-badge) \n![tailwind](https://img.shields.io/static/v1?label=&message=tailwind%20css&color=eaeffc&logo=tailwind%20css&logoColor=06B6D4&style=for-the-badge)\n![figma](https://img.shields.io/static/v1?label=&message=figma&color=eaeffc&logo=figma&logoColor=F24E1E&style=for-the-",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 80,
+        "first_at": "2023-07-19T12:12:12+00:00",
+        "last_at": "2023-09-13T00:21:26+00:00",
+        "active_days": 13,
+        "span_days": 55,
+        "max_per_day": 12,
+        "low_effort_message_ratio": 0.025,
+        "messages_sample": [
+          "feat: linkedin link",
+          "feat: live site link",
+          "feat: new readme",
+          "fix: correct way of importing og image",
+          "feat: share image",
+          "feat: chat frame",
+          "style: users aside border fix",
+          "fix: outdated prisma client on vercel",
+          "fix: ignorecase config",
+          "refactor: final touches in some components",
+          "fix: pusher limits on add / remove operations in conversations",
+          "fix: socket size limits and loading messages",
+          "feat: loading messages",
+          "fix: initial scroll to bottom flickering",
+          "feat: sound system for notifications",
+          "feat: switch component to toggle theme",
+          "feat: dark mode completed",
+          "feat: more dark mode improvements",
+          "feat: dark mode in aside",
+          "feat: dark mode for sidebar"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 88
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 109,782 bytes (96% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,745 bytes (4% of repo)",
+          "strength": 0.44143127821387096
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "prisma schema (prisma/schema.prisma)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "topic",
+          "detail": "repo topic 'nextjs'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "react",
+          "source": "topic",
+          "detail": "repo topic 'react'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@headlessui/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "next-auth in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "llm-apps",
+          "source": "manifest",
+          "detail": "openai in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "prisma in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 114527,
+        "strong_skills": [
+          "auth",
+          "data-modeling",
+          "javascript",
+          "linux",
+          "llm-apps",
+          "nextjs",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "reactsounds",
+      "full_name": "sergiordg00/reactsounds",
+      "html_url": "https://github.com/sergiordg00/reactsounds",
+      "description": "A music app built with React.js that allows you to listen to any artist, album, playlist or track that you want.",
+      "homepage": "https://reactsounds.sergiordg.com",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-08-21T16:51:44Z",
+      "pushed_at": "2023-10-12T23:00:32Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 499,
+      "default_branch": "master",
+      "license": null,
+      "topics": [
+        "deezer-api",
+        "music",
+        "music-player",
+        "react",
+        "webapp"
+      ],
+      "languages": {
+        "JavaScript": 121639,
+        "CSS": 3223,
+        "HTML": 1022
+      },
+      "primary_language": "JavaScript",
+      "file_count": 66,
+      "top_level_paths": [
+        ".env",
+        ".eslintrc.cjs",
+        ".gitignore",
+        "README.md",
+        "component.template.jsx",
+        "index.html",
+        "jsconfig.json",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "src",
+        "tailwind.config.js",
+        "vercel.json",
+        "vite.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/eslint-parser",
+          "@babel/preset-react",
+          "@types/react",
+          "@types/react-dom",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "clsx",
+          "eslint",
+          "eslint-plugin-react",
+          "eslint-plugin-simple-import-sort",
+          "eslint-plugin-tailwindcss",
+          "postcss",
+          "react",
+          "react-dom",
+          "react-icons",
+          "react-loader-spinner",
+          "react-router-dom",
+          "tailwindcss",
+          "uuid",
+          "vite"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 2652,
+      "readme_excerpt": "# 🎧 ReactSounds 🎧\n[Visit Site](https://reactsounds.sergiordg.com)\n\nA music app built with React.js that allows you to listen to any artist, album, playlist or track that you want.\n\n![Screenshot](https://reactsounds.sergiordg.com/share.jpg)\n\n## Features 🚀\n- Utilizes the Deezer API to fetch comprehensive music data.\n- Implements a powerful search feature for discovering artists, tracks, playlists, and albums.\n- Allows users to create a personalized Music Vault to store their favorite artists, tracks, playlists, and albums for quick access.\n- Features a versatile music player with a wide range of controls for an enhanced listening experience.\n\n## Technologies and Tools 🔧\n![react](https://img.shields.io/static/v1?label=&message=react&color=eaeffc&logo=react&logoColor=61DAFB&style=for-the-badge) \n![tailwind](https://img.shields.io/static/v1?label=&message=tailwind%20css&color=eaeffc&logo=tailwind%20css&logoColor=06B6D4&style=for-the-badge)\n![figma](https://img.shields.io/static/v1?label=&message=figma&color=eaeffc&logo=figma&logoColor=F24E1E&style=for-the-badge)\n![html](https://img.shields.io/static/v1?label=&message=html&color=eaeffc&logo=html5&logoColor=E34F26&style=for-the-badge) \n![",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 26,
+        "first_at": "2023-08-21T16:51:40+00:00",
+        "last_at": "2023-10-12T23:00:28+00:00",
+        "active_days": 8,
+        "span_days": 52,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.038,
+        "messages_sample": [
+          "feat: new idea for refactoring the code",
+          "feat: linkedin link",
+          "feat: live site link",
+          "feat: new readme",
+          "fix: full path to image",
+          "feat: social media share image",
+          "Update GenericAudioPlayer.jsx",
+          "fix: loading flag fix in catch statement",
+          "feat: error handling in search operations",
+          "fix: proxy url change",
+          "fix: vercel file for CSR",
+          "fix: proxy for client fetching (cors)",
+          "fix: aside navigation, empty results in search and api proxy",
+          "feat: search completed",
+          "feat: artist page",
+          "feat: track grid",
+          "feat: playbum header component",
+          "feat: discover new music",
+          "feat: main song section",
+          "feat: music vault integration with player"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 4,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 55
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 6,
+          "perf": 0,
+          "refactor": 1,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 121,639 bytes (97% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 3,223 bytes (3% of repo)",
+          "strength": 0.42560293603635097
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,022 bytes (1% of repo)",
+          "strength": 0.4081185853643037
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "topic",
+          "detail": "repo topic 'react'",
+          "strength": 0.3
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react.js' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 125884,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "sergiordg00",
+      "full_name": "sergiordg00/sergiordg00",
+      "html_url": "https://github.com/sergiordg00/sergiordg00",
+      "description": "Repository to store the README.md of my GitHub profile.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2023-09-06T15:48:35Z",
+      "pushed_at": "2023-09-28T08:28:45Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 379,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {},
+      "primary_language": null,
+      "file_count": 2,
+      "top_level_paths": [
+        "README.md",
+        "images"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 4040,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 7,
+        "first_at": "2023-09-06T15:48:35+00:00",
+        "last_at": "2023-09-28T08:28:45+00:00",
+        "active_days": 3,
+        "span_days": 21,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.143,
+        "messages_sample": [
+          "feat: add new technologies",
+          "feat: new about me text",
+          "feat: cv link update and linkedin",
+          "feat: banner path to readme",
+          "feat: main banner",
+          "feat: initial readme information",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 0
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "git",
+          "source": "repo_name",
+          "detail": "'github' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": false,
+          "has_code_files": false,
+          "code_bytes": false,
+          "strong_skill_signal": false,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "project_name",
+          "has_code_files",
+          "code_bytes",
+          "strong_skill_signal"
+        ],
+        "code_bytes": 0,
+        "strong_skills": []
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 313844,
+    "CSS": 14201,
+    "HTML": 3072
+  },
+  "total_commits": 163,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "sergiordg00/just-a-blog",
+        "sergiordg00/portfolio",
+        "sergiordg00/bytetalk",
+        "sergiordg00/reactsounds"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 313844,
+      "commit_count": 156,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-10-12T23:00:28+00:00",
+      "details": [
+        "just-a-blog: JavaScript: 44,690 bytes (93% of repo)",
+        "portfolio: JavaScript: 37,733 bytes (89% of repo)",
+        "bytetalk: JavaScript: 109,782 bytes (96% of repo)",
+        "reactsounds: JavaScript: 121,639 bytes (97% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "sergiordg00/just-a-blog",
+        "sergiordg00/portfolio",
+        "sergiordg00/bytetalk",
+        "sergiordg00/reactsounds"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "topic",
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 156,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-10-12T23:00:28+00:00",
+      "details": [
+        "just-a-blog: repo topic 'react'",
+        "just-a-blog: @portabletext/react in package.json",
+        "portfolio: repo topic 'react'",
+        "portfolio: 'react.js' in repo name/description",
+        "portfolio: @types/react in package.json",
+        "bytetalk: repo topic 'react'",
+        "bytetalk: @headlessui/react in package.json",
+        "reactsounds: repo topic 'react'",
+        "reactsounds: 'react.js' in repo name/description",
+        "reactsounds: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "sergiordg00/just-a-blog",
+        "sergiordg00/portfolio",
+        "sergiordg00/bytetalk",
+        "sergiordg00/reactsounds"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 156,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-10-12T23:00:28+00:00",
+      "details": [
+        "just-a-blog: tailwind config (tailwind.config.js)",
+        "just-a-blog: tailwindcss in package.json",
+        "portfolio: tailwind config (tailwind.config.js)",
+        "portfolio: tailwindcss in package.json",
+        "bytetalk: tailwind config (tailwind.config.js)",
+        "bytetalk: tailwindcss in package.json",
+        "reactsounds: tailwind config (tailwind.config.js)",
+        "reactsounds: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "sergiordg00/just-a-blog",
+        "sergiordg00/bytetalk"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "file",
+        "topic",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 100,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-09-13T00:22:05+00:00",
+      "details": [
+        "just-a-blog: next config (next.config.js)",
+        "just-a-blog: repo topic 'nextjs'",
+        "just-a-blog: 'next.js' in repo name/description",
+        "just-a-blog: next in package.json",
+        "bytetalk: next config (next.config.js)",
+        "bytetalk: repo topic 'nextjs'",
+        "bytetalk: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "sergiordg00/bytetalk"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 80,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-09-13T00:21:26+00:00",
+      "details": [
+        "bytetalk: prisma schema (prisma/schema.prisma)",
+        "bytetalk: prisma in package.json"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "sergiordg00/bytetalk"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 80,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-09-13T00:21:26+00:00",
+      "details": [
+        "bytetalk: next-auth in package.json"
+      ]
+    },
+    {
+      "skill_id": "llm-apps",
+      "repos": [
+        "sergiordg00/bytetalk"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 80,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-09-13T00:21:26+00:00",
+      "details": [
+        "bytetalk: openai in package.json"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "sergiordg00/bytetalk"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 80,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-09-13T00:21:26+00:00",
+      "details": [
+        "bytetalk: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "sergiordg00/just-a-blog",
+        "sergiordg00/portfolio",
+        "sergiordg00/bytetalk",
+        "sergiordg00/reactsounds"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.47403186706172434,
+      "total_bytes": 17273,
+      "commit_count": 156,
+      "first_seen": "2023-07-19T12:12:12+00:00",
+      "last_seen": "2023-10-12T23:00:28+00:00",
+      "details": [
+        "just-a-blog: CSS: 3,573 bytes (7% of repo)",
+        "portfolio: CSS: 2,660 bytes (6% of repo)",
+        "portfolio: HTML: 2,050 bytes (5% of repo)",
+        "bytetalk: CSS: 4,745 bytes (4% of repo)",
+        "reactsounds: CSS: 3,223 bytes (3% of repo)",
+        "reactsounds: HTML: 1,022 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "git",
+      "repos": [
+        "sergiordg00/sergiordg00"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "repo_name"
+      ],
+      "max_strength": 0.2,
+      "total_bytes": 0,
+      "commit_count": 7,
+      "first_seen": "2023-09-06T15:48:35+00:00",
+      "last_seen": "2023-09-28T08:28:45+00:00",
+      "details": [
+        "sergiordg00: 'github' in repo name/description"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 163,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 8,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "cpp-systems",
+  "collected_at": "2026-09-16T14:25:10.910618+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

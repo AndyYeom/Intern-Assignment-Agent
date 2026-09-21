@@ -1,0 +1,102 @@
+{
+  "github_login": "yaoqiafan",
+  "applicant_id": "applicant0087",
+  "first_name": "Marisol",
+  "last_name": "Duarte",
+  "career_stage": "switcher",
+  "email": "marisol.duarte@calderbrook.example",
+  "phone": "(555) 010-0187",
+  "location": "Calderbrook",
+  "linkedin": "linkedin.example.com/in/marisol-duarte",
+  "github_url": "github.example.com/marisol-duarte",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Calderbrook Technical College",
+    "location": "Calderbrook",
+    "degree": "Bachelor of Science",
+    "major": "Information Systems",
+    "minor": "Operations Management",
+    "graduation": "May 2026",
+    "gpa": null,
+    "coursework": [
+      "Systems Administration",
+      "Network Fundamentals",
+      "Database Systems",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Inventory Operations Coordinator",
+      "organization": "Calderbrook Distribution Center",
+      "location": "Calderbrook",
+      "start": "Jan 2023",
+      "end": "Dec 2025",
+      "bullets": [
+        "Managed manual weighing logs for incoming freight, tracking discrepancies that recurred when handwritten records didn't match scale readings.",
+        "Grew frustrated with recurring downtime on the warehouse's shared Windows terminals, and began teaching myself scripting to diagnose recurring failures."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Automaticweighingsystem",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Built a C# application to automate freight weighing logs, replacing the handwritten process from a previous logistics role.",
+        "Structured the implementation across 162 files over 18 commits, translating a familiar manual workflow into working software."
+      ],
+      "link": null,
+      "tech": [
+        "C#"
+      ]
+    },
+    {
+      "title": "PF.UI",
+      "organization": null,
+      "location": null,
+      "start": "Jun 2026",
+      "end": "Jul 2026",
+      "bullets": [
+        "Wrote a C# and batch-scripting utility spanning 757 files, extending the systems-administration skills first sparked by warehouse terminal troubleshooting.",
+        "Tested the utility's behavior across a small Linux server environment to build confidence before wider use."
+      ],
+      "link": null,
+      "tech": [
+        "C#",
+        "Batchfile",
+        "Linux"
+      ]
+    }
+  ],
+  "leadership": [],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "C#",
+      "TypeScript"
+    ],
+    "Frontend": [
+      "Vue",
+      "Tailwind CSS"
+    ],
+    "DevOps": [
+      "Linux & Server Administration"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

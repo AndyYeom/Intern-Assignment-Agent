@@ -1,0 +1,1083 @@
+{
+  "applicant_id": "applicant0033",
+  "login": "beharkadri",
+  "html_url": "https://github.com/beharkadri",
+  "created_at": "2020-01-31T23:01:13Z",
+  "account_age_days": 2419,
+  "public_repos": 15,
+  "followers": 5,
+  "following": 5,
+  "repos": [
+    {
+      "name": "food-wizard",
+      "full_name": "beharkadri/food-wizard",
+      "html_url": "https://github.com/beharkadri/food-wizard",
+      "description": null,
+      "homepage": "https://food-wizard-omega.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-05-03T15:02:23Z",
+      "pushed_at": "2024-05-19T20:51:12Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 4595,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 38007,
+        "HTML": 1719,
+        "CSS": 1703
+      },
+      "primary_language": "JavaScript",
+      "file_count": 39,
+      "top_level_paths": [
+        ".env",
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "tailwind.config.js"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "react",
+          "react-dom",
+          "react-hot-toast",
+          "react-icons",
+          "react-router-dom",
+          "react-scripts",
+          "react-simple-star-rating",
+          "tailwindcss",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.75,
+      "commits": {
+        "count": 3,
+        "first_at": "2024-05-19T15:59:19+00:00",
+        "last_at": "2024-05-19T20:51:07+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Fixed registration",
+          "Added auth checks on recipe details",
+          "Auth flow, favorite, rating and style changes"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 38,007 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,719 bytes (4% of repo)",
+          "strength": 0.4414926742137151
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,703 bytes (4% of repo)",
+          "strength": 0.44110647131236574
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 41429,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "tailwind"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "netflix-clone",
+      "full_name": "beharkadri/netflix-clone",
+      "html_url": "https://github.com/beharkadri/netflix-clone",
+      "description": "Netflix clone built with React JS (Styled components, Context API, Firebase)",
+      "homepage": "https://netflix-clone-e0613.web.app/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-01-04T13:28:42Z",
+      "pushed_at": "2021-08-30T10:53:19Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 18154,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 76098,
+        "HTML": 351,
+        "Shell": 25
+      },
+      "primary_language": "JavaScript",
+      "file_count": 179,
+      "top_level_paths": [
+        ".env",
+        ".eslintcache",
+        ".firebase",
+        ".firebaserc",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "firebase.json",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "babel-eslint",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-config-react-app",
+          "eslint-plugin-flowtype",
+          "eslint-plugin-import",
+          "eslint-plugin-jest",
+          "eslint-plugin-jsx-a11y",
+          "eslint-plugin-prettier",
+          "eslint-plugin-react",
+          "eslint-plugin-react-hooks",
+          "eslint-plugin-testing-library",
+          "firebase",
+          "fuse.js",
+          "normalize.css",
+          "prettier",
+          "react",
+          "react-dom",
+          "react-router-dom",
+          "react-scripts",
+          "styled-components",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 140,
+      "readme_excerpt": "# Netflix Clone\n\nNetflix clone built with React JS (Styled components, Context API, Firebase, Fuse.js)\n\nhttps://netflix-clone-e0613.web.app\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2021-08-30T10:33:52+00:00",
+        "last_at": "2021-08-30T10:53:19+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Create README.md",
+          "Deploy app-code"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 47
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 76,098 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (.firebaserc)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "repo_name",
+          "detail": "'firebase' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "javascript",
+          "source": "repo_name",
+          "detail": "'js' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 76474,
+        "strong_skills": [
+          "gcp-azure",
+          "javascript",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "notes-app",
+      "full_name": "beharkadri/notes-app",
+      "html_url": "https://github.com/beharkadri/notes-app",
+      "description": "Application for writing writing and saving notes.",
+      "homepage": "https://notes-app-f9ab7.web.app/",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-08-30T10:18:03Z",
+      "pushed_at": "2021-08-30T10:27:21Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 173,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 4897,
+        "CSS": 2320,
+        "HTML": 471
+      },
+      "primary_language": "JavaScript",
+      "file_count": 17,
+      "top_level_paths": [
+        ".eslintcache",
+        ".firebase",
+        ".firebaserc",
+        ".gitignore",
+        "README.md",
+        "firebase.json",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@material-ui/core",
+          "@material-ui/icons",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "local-storage",
+          "react",
+          "react-dom",
+          "react-onclickoutside",
+          "react-scripts",
+          "reactjs-popup",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 131,
+      "readme_excerpt": "# Note keeper app\n\nWrite notes which are saved in local storage.\nThe app is deployed on firebase: https://notes-app-f9ab7.web.app/\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2021-08-30T10:20:35+00:00",
+        "last_at": "2021-08-30T10:27:21+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "Update README.md",
+          "Deploy app to github"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,897 bytes (64% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 2,320 bytes (30% of repo)",
+          "strength": 0.7017689906347555
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 471 bytes (6% of repo)",
+          "strength": 0.461264308012487
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "file",
+          "detail": "firebase config (.firebaserc)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 7688,
+        "strong_skills": [
+          "gcp-azure",
+          "html-css",
+          "javascript",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "dnick-prototype",
+      "full_name": "beharkadri/dnick-prototype",
+      "html_url": "https://github.com/beharkadri/dnick-prototype",
+      "description": null,
+      "homepage": "dnick-prototype.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-04-29T11:45:23Z",
+      "pushed_at": "2022-04-29T11:47:39Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 1397,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 9165,
+        "HTML": 1721,
+        "SCSS": 1498,
+        "CSS": 366
+      },
+      "primary_language": "JavaScript",
+      "file_count": 32,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "react",
+          "react-dom",
+          "react-router-dom",
+          "react-scripts",
+          "sass",
+          "web-vitals"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 3359,
+      "readme_excerpt": "# Getting Started with Create React App\n\nThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.\\\nOpen [http://localhost:3000](http://localhost:3000) to view it in your browser.\n\nThe page will reload when you make changes.\\\nYou may also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.\\\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.\\\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.\\\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can't go back!**\n\nIf you aren't satisfied with the build tool and configuration choices, you can `",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2022-04-29T11:46:54+00:00",
+        "last_at": "2022-04-29T11:46:54+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Deploy code"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "bootstrapped with"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 21
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 9,165 bytes (72% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,721 bytes (13% of repo)",
+          "strength": 0.5349803921568628
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "SCSS: 1,498 bytes (12% of repo)",
+          "strength": 0.5174901960784314
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@testing-library/react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 12750,
+        "strong_skills": [
+          "javascript",
+          "react"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Tetris",
+      "full_name": "beharkadri/Tetris",
+      "html_url": "https://github.com/beharkadri/Tetris",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-06-10T21:18:00Z",
+      "pushed_at": "2021-06-13T20:42:56Z",
+      "stargazers": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 2664,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 36506
+      },
+      "primary_language": "C#",
+      "file_count": 49,
+      "top_level_paths": [
+        ".vs",
+        "README.md",
+        "Tetris",
+        "Tetris.sln"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 8667,
+      "readme_excerpt": "# Tetris\nWindows Forms проектна задача изработена од: Бехар Кадри (191046), Агон Османи (191025) и Агрон Бајрами (191042).\n\n# Опис на апликацијата\nИзработената апликација е класичната игра Tetris. Апликацијата овозможува играње на играта Tetris, со цел да обезбедиме најдобро корисничко искуство имплементиравме позадинска музика, звучни ефекти и различни \"quality of life features\" (Pause/Resume, Speed Up, Instant Drop). Oвозможува зачување на играта со цел да може да се продолжи подоцна и зачува Highscore на ниво на компјутер.\n\nИграта е направена со минималистичен дизајн со цел да биде поупотреблива од страна на играчите.\n\n![image](https://user-images.githubusercontent.com/60615745/[phone]f80-cc98-11eb-955d-52eecc4c344d.png)\n\n\n# Упатство за употреба\n1. При стартување на апликацијата веднаш почнува и играта.\n\n![image](https://user-images.githubusercontent.com/60615745/[phone]fb100-cc98-11eb-8c7d-547f8eacbd1a.png)\n\n2. Апликацијата има само еден прозорец (слика 1/2) каде има можност да започнеме нова игра (File New), да продолжиме веќе постоечка игра (File Load) да зачуваме игра (File Save) да се прави Pause/Resume на играта и Mute на Музиката/Ефектите. Исто така во овој ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.538,
+      "commits": {
+        "count": 7,
+        "first_at": "2021-06-11T09:17:07+00:00",
+        "last_at": "2021-06-13T20:33:37+00:00",
+        "active_days": 3,
+        "span_days": 2,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.143,
+        "messages_sample": [
+          "Create README.md",
+          "Documentation of crucial methods",
+          "Quality of life improvements (pause/resume, game icon, inputs)",
+          "Implement all shapes and gameplay features (show next shape, faster drop, instant drop)",
+          "Fix Rotation On Corners",
+          "Fix collision detection",
+          "draw shapes and collision detection"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 18
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 2,
+          "perf": 1,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 36,506 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 36506,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 128167,
+    "C#": 36506,
+    "CSS": 4389,
+    "HTML": 4262,
+    "SCSS": 1498,
+    "Shell": 25
+  },
+  "total_commits": 15,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "beharkadri/food-wizard",
+        "beharkadri/netflix-clone",
+        "beharkadri/notes-app",
+        "beharkadri/dnick-prototype"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 128167,
+      "commit_count": 8,
+      "first_seen": "2021-08-30T10:20:35+00:00",
+      "last_seen": "2024-05-19T20:51:07+00:00",
+      "details": [
+        "food-wizard: JavaScript: 38,007 bytes (92% of repo)",
+        "netflix-clone: JavaScript: 76,098 bytes (100% of repo)",
+        "netflix-clone: 'js' in repo name/description",
+        "notes-app: JavaScript: 4,897 bytes (64% of repo)",
+        "dnick-prototype: JavaScript: 9,165 bytes (72% of repo)"
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "beharkadri/Tetris"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 36506,
+      "commit_count": 7,
+      "first_seen": "2021-06-11T09:17:07+00:00",
+      "last_seen": "2021-06-13T20:33:37+00:00",
+      "details": [
+        "Tetris: C#: 36,506 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "beharkadri/food-wizard",
+        "beharkadri/netflix-clone",
+        "beharkadri/notes-app",
+        "beharkadri/dnick-prototype"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 8,
+      "first_seen": "2021-08-30T10:20:35+00:00",
+      "last_seen": "2024-05-19T20:51:07+00:00",
+      "details": [
+        "food-wizard: @testing-library/react in package.json",
+        "netflix-clone: 'react' in repo name/description",
+        "netflix-clone: @testing-library/react in package.json",
+        "notes-app: @testing-library/react in package.json",
+        "dnick-prototype: @testing-library/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "beharkadri/netflix-clone",
+        "beharkadri/notes-app"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "file",
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 4,
+      "first_seen": "2021-08-30T10:20:35+00:00",
+      "last_seen": "2021-08-30T10:53:19+00:00",
+      "details": [
+        "netflix-clone: firebase config (.firebaserc)",
+        "netflix-clone: 'firebase' in repo name/description",
+        "netflix-clone: firebase in package.json",
+        "notes-app: firebase config (.firebaserc)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "beharkadri/food-wizard"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2024-05-19T15:59:19+00:00",
+      "last_seen": "2024-05-19T20:51:07+00:00",
+      "details": [
+        "food-wizard: tailwind config (tailwind.config.js)",
+        "food-wizard: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "beharkadri/food-wizard",
+        "beharkadri/notes-app",
+        "beharkadri/dnick-prototype"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7017689906347555,
+      "total_bytes": 9432,
+      "commit_count": 6,
+      "first_seen": "2021-08-30T10:20:35+00:00",
+      "last_seen": "2024-05-19T20:51:07+00:00",
+      "details": [
+        "food-wizard: HTML: 1,719 bytes (4% of repo)",
+        "food-wizard: CSS: 1,703 bytes (4% of repo)",
+        "notes-app: CSS: 2,320 bytes (30% of repo)",
+        "notes-app: HTML: 471 bytes (6% of repo)",
+        "dnick-prototype: HTML: 1,721 bytes (13% of repo)",
+        "dnick-prototype: SCSS: 1,498 bytes (12% of repo)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 15,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "total_commits"
+    ],
+    "reason": "total_commits: 15 < 20"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-16T14:14:07.997143+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - total_commits: 15 < 20"
+  ]
+}

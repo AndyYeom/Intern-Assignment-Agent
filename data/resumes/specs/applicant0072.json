@@ -1,0 +1,103 @@
+{
+  "github_login": "HugoDaSilvaGit",
+  "applicant_id": "applicant0072",
+  "first_name": "Julien",
+  "last_name": "Faucher",
+  "career_stage": "student",
+  "email": "julien.faucher@vireuxtech.example",
+  "phone": "(555) 010-0173",
+  "location": "Vireux",
+  "linkedin": "linkedin.example.com/in/julien-faucher",
+  "github_url": "github.example.com/julien-faucher",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Vireux Institute of Applied Sciences",
+    "location": "Vireux",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": null,
+    "graduation": "June 2027",
+    "gpa": "3.5/4.0",
+    "coursework": [
+      "Web Application Development",
+      "Databases",
+      "Object-Oriented Programming",
+      "Software Testing"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "GSB Fee Management",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2021",
+      "end": "Sep 2022",
+      "bullets": [
+        "Built a fee-management web application in PHP with Twig templates, structuring data models across 113 files.",
+        "Noticed the fee-approval workflow lacked clear role separation and began mapping which user actions should require authorization."
+      ],
+      "link": null,
+      "tech": [
+        "PHP",
+        "Twig",
+        "CSS"
+      ]
+    },
+    {
+      "title": "GSB RV DR",
+      "organization": null,
+      "location": null,
+      "start": "Dec 2021",
+      "end": "Dec 2021",
+      "bullets": [
+        "Developed a JavaFX desktop client for consulting sales-visit reports, backed by a Java service layer.",
+        "Wrote JUnit tests for the reporting module after inconsistent input data caused unexpected report failures."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "JavaFX"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Co-organizer",
+      "organization": "Vireux Dev Study Group",
+      "location": null,
+      "start": "Jan 2022",
+      "end": "Sep 2022",
+      "bullets": [
+        "After a teammate's form accepted unvalidated input during a class project, proposed a pre-submission checklist covering input handling for future assignments.",
+        "Began reading about common web application vulnerabilities, drawn from firsthand frustration with the fee-management app's access design."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Java",
+      "Python",
+      "SQL"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

@@ -1,0 +1,1105 @@
+{
+  "applicant_id": "applicant0013",
+  "login": "oumayma-boubaker1",
+  "html_url": "https://github.com/oumayma-boubaker1",
+  "created_at": "2020-01-31T22:26:44Z",
+  "account_age_days": 2419,
+  "public_repos": 6,
+  "followers": 2,
+  "following": 10,
+  "repos": [
+    {
+      "name": "TestPlatform0",
+      "full_name": "oumayma-boubaker1/TestPlatform0",
+      "html_url": "https://github.com/oumayma-boubaker1/TestPlatform0",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-06-13T22:43:20Z",
+      "pushed_at": "2021-07-30T09:38:24Z",
+      "stargazers": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3956,
+      "default_branch": "main",
+      "license": "MIT",
+      "topics": [],
+      "languages": {
+        "TypeScript": 24115,
+        "HTML": 20885,
+        "JavaScript": 13684,
+        "CSS": 5675
+      },
+      "primary_language": "TypeScript",
+      "file_count": 92,
+      "top_level_paths": [
+        ".editorconfig",
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "angular.json",
+        "e2e",
+        "models",
+        "package-lock.json",
+        "package.json",
+        "server",
+        "server.js",
+        "src",
+        "tsconfig.json",
+        "tslint.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@angular-devkit/build-angular",
+          "@angular/animations",
+          "@angular/cli",
+          "@angular/common",
+          "@angular/compiler",
+          "@angular/compiler-cli",
+          "@angular/core",
+          "@angular/forms",
+          "@angular/language-service",
+          "@angular/platform-browser",
+          "@angular/platform-browser-dynamic",
+          "@angular/router",
+          "@auth0/angular-jwt",
+          "@ng-bootstrap/ng-bootstrap",
+          "@swimlane/ngx-datatable",
+          "@types/jasmine",
+          "@types/jasminewd2",
+          "@types/node",
+          "bcrypt",
+          "bcryptjs",
+          "body-parser",
+          "bootstrap",
+          "codelyzer",
+          "core-js",
+          "cors",
+          "express",
+          "express-jwt",
+          "jasmine-core",
+          "jasmine-spec-reporter",
+          "jquery",
+          "jsonwebtoken",
+          "jwks-rsa",
+          "karma",
+          "karma-chrome-launcher",
+          "karma-coverage-istanbul-reporter",
+          "karma-jasmine",
+          "karma-jasmine-html-reporter",
+          "method-override",
+          "mongoose",
+          "ngx-datatable",
+          "nodemon",
+          "passport",
+          "passport-jwt",
+          "primeicons",
+          "primeng",
+          "protractor",
+          "rxjs",
+          "ts-node",
+          "tslib",
+          "tslint",
+          "typescript",
+          "zone.js"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 1682,
+      "readme_excerpt": "# OumaymaBk Test Platform\n\nThis project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.\n\nThis project is a complete running model of a Quiz Webapp.\n## The technologies used are\n\n## 1. Angular\n## 2. Node.js\n## 3. MongoDB\n## 4. Express.js\n\n## Features\n\nAs Entreprise:\n\nAble to create a profile.\nAble to create a new module, mark it as enabled/disabled.\nAble to add MCQ's for each module.\nAble to specify the correct answer for every question.\nAble to set the duration of the exam.\nAble to manage tests.\n\nAs a Candidate:\nAble to enter my details.\nAble to open the list of available modules and select the enabled ones.\nCan select the correct answers for every question and submit the answer.\nAble to see the score after submission.\n\n\n## Development server\n\nRun `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.\n\n## Code scaffolding\n\nRun `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.\n\n## Build\n\nRun `ng build` to build the project. The build artifacts will be sto",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 12,
+        "first_at": "2021-06-13T22:43:41+00:00",
+        "last_at": "2021-07-30T09:38:49+00:00",
+        "active_days": 3,
+        "span_days": 46,
+        "max_per_day": 10,
+        "low_effort_message_ratio": 0.417,
+        "messages_sample": [
+          "img update",
+          "add svg files",
+          "Update index.html",
+          "Update home.component.css",
+          "update in css",
+          "delete login comp",
+          "move Login and signup component under auth repo",
+          "Update api",
+          "Update app-routing.module.ts",
+          "update navbar",
+          "add auth repo",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": true,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 50
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 24,115 bytes (37% of repo)",
+          "strength": 0.7746950698426016
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 20,885 bytes (32% of repo)",
+          "strength": 0.7245078388414985
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 13,684 bytes (21% of repo)",
+          "strength": 0.6126198356096273
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 5,675 bytes (9% of repo)",
+          "strength": 0.4881772557062727
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (e2e/protractor.conf.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (src/tailwind.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "jsonwebtoken in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "mongodb",
+          "source": "manifest",
+          "detail": "mongoose in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 64359,
+        "strong_skills": [
+          "auth",
+          "html-css",
+          "integration-testing",
+          "javascript",
+          "mongodb",
+          "nodejs",
+          "tailwind",
+          "typescript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "chat_dmw",
+      "full_name": "oumayma-boubaker1/chat_dmw",
+      "html_url": "https://github.com/oumayma-boubaker1/chat_dmw",
+      "description": "Chat App With ReactNative and Firebase",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-12-16T20:37:43Z",
+      "pushed_at": "2020-12-16T20:37:53Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 162,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 3356
+      },
+      "primary_language": "JavaScript",
+      "file_count": 13,
+      "top_level_paths": [
+        ".expo-shared",
+        ".gitattributes",
+        ".gitignore",
+        "App.js",
+        "README.md",
+        "app.json",
+        "assets",
+        "babel.config.js",
+        "package-lock.json",
+        "package.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/core",
+          "@react-native-community/async-storage",
+          "cached-firebase",
+          "expo",
+          "expo-status-bar",
+          "firebase",
+          "react",
+          "react-dom",
+          "react-native",
+          "react-native-gifted-chat",
+          "react-native-web"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 52,
+      "readme_excerpt": "# chat_dmwm\n Chat App With ReactNative and Firebase\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2020-12-16T20:37:13+00:00",
+        "last_at": "2020-12-16T20:37:13+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 2
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,356 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "repo_name",
+          "detail": "'firebase' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react-native",
+          "source": "manifest",
+          "detail": "expo in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 3356,
+        "strong_skills": [
+          "gcp-azure",
+          "javascript",
+          "react",
+          "react-native"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "expo-firebase-auth-starter-master",
+      "full_name": "oumayma-boubaker1/expo-firebase-auth-starter-master",
+      "html_url": "https://github.com/oumayma-boubaker1/expo-firebase-auth-starter-master",
+      "description": "first react native app",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-12-17T00:03:26Z",
+      "pushed_at": "2020-12-17T00:03:33Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 86,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 28526
+      },
+      "primary_language": "JavaScript",
+      "file_count": 31,
+      "top_level_paths": [
+        ".gitattributes",
+        "App.js",
+        "README.md",
+        "__tests__",
+        "_universe",
+        "api",
+        "app.json",
+        "assets",
+        "components",
+        "constants",
+        "navigation",
+        "package.json",
+        "screens"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@expo/samples",
+          "expo",
+          "firebase",
+          "jest-expo",
+          "react",
+          "react-native",
+          "react-navigation"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 60,
+      "readme_excerpt": "# expo-firebase-auth-starter-master\n first react native app\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2020-12-17T00:02:57+00:00",
+        "last_at": "2020-12-17T00:02:57+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [
+          "(portfolio|starter|boilerplate|template)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 20
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 28,526 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "auth",
+          "source": "repo_name",
+          "detail": "'auth' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react-native",
+          "source": "repo_name",
+          "detail": "'expo' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "repo_name",
+          "detail": "'firebase' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react-native",
+          "source": "manifest",
+          "detail": "expo in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 28526,
+        "strong_skills": [
+          "gcp-azure",
+          "javascript",
+          "react",
+          "react-native"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "weather-app-react-native-master",
+      "full_name": "oumayma-boubaker1/weather-app-react-native-master",
+      "html_url": "https://github.com/oumayma-boubaker1/weather-app-react-native-master",
+      "description": "react native app",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-12-17T00:07:36Z",
+      "pushed_at": "2020-12-17T00:07:44Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 15,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 9754
+      },
+      "primary_language": "JavaScript",
+      "file_count": 16,
+      "top_level_paths": [
+        ".expo-shared",
+        ".gitattributes",
+        ".gitignore",
+        "App.js",
+        "README.md",
+        "app.json",
+        "assets",
+        "babel.config.js",
+        "components",
+        "package.json",
+        "utils"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@babel/core",
+          "@react-native-community/picker",
+          "babel-preset-expo",
+          "expo",
+          "expo-location",
+          "expo-status-bar",
+          "react",
+          "react-dom",
+          "react-native",
+          "react-native-dotenv",
+          "react-native-web"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 55,
+      "readme_excerpt": "# weather-app-react-native-oumaymabk\n react native app\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2020-12-17T00:07:21+00:00",
+        "last_at": "2020-12-17T00:07:21+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 7
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 9,754 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "react",
+          "source": "repo_name",
+          "detail": "'react' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "react-native",
+          "source": "manifest",
+          "detail": "expo in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "react in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 9754,
+        "strong_skills": [
+          "javascript",
+          "react",
+          "react-native"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 55320,
+    "TypeScript": 24115,
+    "HTML": 20885,
+    "CSS": 5675
+  },
+  "total_commits": 15,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0",
+        "oumayma-boubaker1/chat_dmw",
+        "oumayma-boubaker1/expo-firebase-auth-starter-master",
+        "oumayma-boubaker1/weather-app-react-native-master"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 55320,
+      "commit_count": 15,
+      "first_seen": "2020-12-16T20:37:13+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: JavaScript: 13,684 bytes (21% of repo)",
+        "chat_dmw: JavaScript: 3,356 bytes (100% of repo)",
+        "expo-firebase-auth-starter-master: JavaScript: 28,526 bytes (100% of repo)",
+        "weather-app-react-native-master: JavaScript: 9,754 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "oumayma-boubaker1/chat_dmw",
+        "oumayma-boubaker1/expo-firebase-auth-starter-master",
+        "oumayma-boubaker1/weather-app-react-native-master"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2020-12-16T20:37:13+00:00",
+      "last_seen": "2020-12-17T00:07:21+00:00",
+      "details": [
+        "chat_dmw: react in package.json",
+        "expo-firebase-auth-starter-master: 'react' in repo name/description",
+        "expo-firebase-auth-starter-master: react in package.json",
+        "weather-app-react-native-master: 'react' in repo name/description",
+        "weather-app-react-native-master: react in package.json"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "oumayma-boubaker1/chat_dmw",
+        "oumayma-boubaker1/expo-firebase-auth-starter-master",
+        "oumayma-boubaker1/weather-app-react-native-master"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2020-12-16T20:37:13+00:00",
+      "last_seen": "2020-12-17T00:07:21+00:00",
+      "details": [
+        "chat_dmw: expo in package.json",
+        "expo-firebase-auth-starter-master: 'expo' in repo name/description",
+        "expo-firebase-auth-starter-master: expo in package.json",
+        "weather-app-react-native-master: expo in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "oumayma-boubaker1/chat_dmw",
+        "oumayma-boubaker1/expo-firebase-auth-starter-master"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2020-12-16T20:37:13+00:00",
+      "last_seen": "2020-12-17T00:02:57+00:00",
+      "details": [
+        "chat_dmw: 'firebase' in repo name/description",
+        "chat_dmw: firebase in package.json",
+        "expo-firebase-auth-starter-master: 'firebase' in repo name/description",
+        "expo-firebase-auth-starter-master: firebase in package.json"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0",
+        "oumayma-boubaker1/expo-firebase-auth-starter-master"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest",
+        "repo_name"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 13,
+      "first_seen": "2020-12-17T00:02:57+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: jsonwebtoken in package.json",
+        "expo-firebase-auth-starter-master: 'auth' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 24115,
+      "commit_count": 12,
+      "first_seen": "2021-06-13T22:43:41+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: TypeScript: 24,115 bytes (37% of repo)",
+        "TestPlatform0: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2021-06-13T22:43:41+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "mongodb",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2021-06-13T22:43:41+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: mongoose in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7245078388414985,
+      "total_bytes": 26560,
+      "commit_count": 12,
+      "first_seen": "2021-06-13T22:43:41+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: HTML: 20,885 bytes (32% of repo)",
+        "TestPlatform0: CSS: 5,675 bytes (9% of repo)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2021-06-13T22:43:41+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: e2e suite (e2e/protractor.conf.js)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "oumayma-boubaker1/TestPlatform0"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 12,
+      "first_seen": "2021-06-13T22:43:41+00:00",
+      "last_seen": "2021-07-30T09:38:49+00:00",
+      "details": [
+        "TestPlatform0: tailwind config (src/tailwind.config.js)"
+      ]
+    }
+  ],
+  "tier": "relaxed",
+  "usability": {
+    "tier": "relaxed",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 15,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 11,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "total_commits"
+    ],
+    "reason": "total_commits: 15 < 20"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-16T14:14:47.931199+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "relaxed - total_commits: 15 < 20"
+  ]
+}

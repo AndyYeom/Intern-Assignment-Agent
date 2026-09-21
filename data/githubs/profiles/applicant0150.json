@@ -1,0 +1,2151 @@
+{
+  "applicant_id": "applicant0150",
+  "login": "thealphakenya",
+  "html_url": "https://github.com/thealphakenya",
+  "created_at": "2024-04-27T06:01:48Z",
+  "account_age_days": 872,
+  "public_repos": 17,
+  "followers": 5,
+  "following": 4,
+  "repos": [
+    {
+      "name": "qmoi-enhanced",
+      "full_name": "thealphakenya/qmoi-enhanced",
+      "html_url": "https://github.com/thealphakenya/qmoi-enhanced",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-26T05:18:15Z",
+      "pushed_at": "2026-09-17T01:19:27Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 1993,
+      "size_kb": 2634490,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 63678954,
+        "Python": 11299490,
+        "JavaScript": 3471098,
+        "Shell": 522856,
+        "CSS": 256510,
+        "PowerShell": 138531,
+        "HTML": 101310,
+        "Batchfile": 16358,
+        "Roff": 13318,
+        "Jupyter Notebook": 9534,
+        "Inno Setup": 4714,
+        "Kotlin": 4442,
+        "Rust": 3456,
+        "Dockerfile": 3115,
+        "NSIS": 148
+      },
+      "primary_language": "TypeScript",
+      "file_count": 30716,
+      "top_level_paths": [
+        ".env.example",
+        ".github",
+        ".gitignore",
+        ".qmoi_memory_index.json",
+        "ACCOUNTABILITY.md",
+        "ADVANCEMENT.md",
+        "ALLAUTO.md",
+        "ALLBACKEND.md",
+        "ALLFRONTEND.md",
+        "ALLMDFILESREFS.md",
+        "ALLPLATFORMSDEVICE.md",
+        "ALLPORTS.md",
+        "ALLROUTES.md",
+        "API.md",
+        "AUTODEV.md",
+        "BUILD.md",
+        "DOWNLOAD.md",
+        "ENDPOINTS.md",
+        "ENHANCEMENT_SESSION_2026_08_18.md",
+        "FINAL_SESSION_COMPLETION_REPORT.md",
+        "FINAL_VALIDATION_EVIDENCE_2026_08_29.md",
+        "FINANCIALMANAGER.md",
+        "GITHUBCLONED.md",
+        "GITHUB_ACTIONS_EXECUTION_GUIDE.md",
+        "GITHUB_SETUP_COMPLETE.md",
+        "IMPLEMENTATION_COMPLETE.md",
+        "INSTALL.md",
+        "MEMORY_INDEX.md",
+        "MERGE.md",
+        "MODELEVOLUTIONO.md",
+        "MODEL_CARD.md",
+        "MONITORING_GUIDE.md",
+        "MONITORING_INDEX.md",
+        "MONITORING_SUMMARY.md",
+        "MONITORING_VERIFICATION_CHECKLIST.txt",
+        "OLLAMA_AUTOMATION_GUIDE.md",
+        "OLLAMA_ENHANCEMENT_COMPLETE.md",
+        "OLLAMA_ENHANCEMENT_SUCCESS.md",
+        "PHASE_1_4_COMPLETION_SUMMARY.md",
+        "PLATFORM_REQUIREMENTS.md"
+      ],
+      "notable_files": [
+        ".github/workflows/auto-merge-automated-pr.yml",
+        ".github/workflows/branch-sync.yml",
+        ".github/workflows/ollama-autonomous-agent-realtime-monitor.yml",
+        ".github/workflows/ollama-autonomous-agent.yml",
+        ".github/workflows/ollama-master-orchestrator.yml",
+        ".github/workflows/ollama-pr-validation.yml",
+        ".github/workflows/pr-monitor.yml",
+        ".github/workflows/security-merge-gates.yml",
+        ".github/workflows/workflow-tracker.yml",
+        "package.json",
+        "qmoi-enhanced-history-14/Dockerfile",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/code-frame/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/compat-data/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/core/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/generator/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-compilation-targets/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-globals/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-module-imports/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-module-transforms/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-plugin-utils/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-string-parser/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-validator-identifier/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-validator-option/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helpers/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/parser/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/plugin-transform-react-jsx-self/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/plugin-transform-react-jsx-source/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/template/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/traverse/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/types/package.json"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "pip-audit",
+          "pytest",
+          "pyyaml",
+          "requests",
+          "urllib3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 11428,
+      "readme_excerpt": "# QMOI Enhanced - Ollama Autonomous Agent v2\n\nEnterprise-grade platform-specific feature validation system for comprehensive cross-platform development, autonomous problem resolution, release readiness, Vercel deployment safety, and real-time monitoring.\n\n## 🚀 Production goals\n\n- Keep QMOI autonomous, self-healing, and deployment-safe across GitHub, Vercel, release pipelines, and real-time monitors.\n- Automatically detect and repair errors in workflows, code, config, and deployment contracts before false-success claims are allowed.\n- Keep releases and downloads evidence-based, versioned, and linked to verified GitHub release assets instead of placeholder URLs.\n- Maintain finance, wallet, trading, revenue, and money-making automation under explicit safety gates and memory synchronization.\n- Ensure all monitoring and tracker systems validate freshness, stale-state handling, and failure-safe behavior.\n\n## 🎯 Overview\n\nThe QMOI Enhanced project includes a sophisticated **Ollama Autonomous Agent** that validates **293+ platform-specific features** across **6 platforms** and **4 applications** with intelligent, thorough validation.\n\n### 📊 Coverage Matrix\n\n| Platform | Features | Apps | Va",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 10,
+      "contribution_share": 0.091,
+      "commits": {
+        "count": 128,
+        "first_at": "2026-08-14T23:54:24+00:00",
+        "last_at": "2026-09-10T09:06:50+00:00",
+        "active_days": 12,
+        "span_days": 26,
+        "max_per_day": 46,
+        "low_effort_message_ratio": 0.398,
+        "messages_sample": [
+          "Create o.txt",
+          "fix: persist autonomous resume checkpoints",
+          "fix: align hosted Ollama timeout configuration",
+          "fix: finalize hosted resume evidence",
+          "fix: persist final autonomous resume evidence",
+          "docs: record autonomous agent monitoring journey",
+          "ci: upload autonomous resume evidence",
+          "feat: preserve detailed autonomous resume progress",
+          "docs: record final agent run",
+          "docs: refresh current agent proof",
+          "docs: record verified autonomous agent success",
+          "fix: accept verified health mappings in success contract",
+          "fix: fail closed on invalid ollama repair plans",
+          "fix: GitHub-hosted Ollama bootstrap and realtime repo monitoring",
+          "Finalize GitHub-hosted Ollama autonomous agent contract and monitoring",
+          "ey",
+          "Update oe.md",
+          "Update ollama-autonomous-agent-realtime-monitor.yml",
+          "Update ollama-autonomous-agent-realtime-monitor.yml",
+          "Update ollama-autonomous-agent-realtime-monitor.yml"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 2,
+        "code_file_count": 19425
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 63,678,954 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 11,299,490 bytes (14% of repo)",
+          "strength": 0.5420893514766907
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,471,098 bytes (4% of repo)",
+          "strength": 0.44364852429021473
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 522,856 bytes (1% of repo)",
+          "strength": 0.4065748339045122
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 256,510 bytes (0% of repo)",
+          "strength": 0.403225573857518
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 138,531 bytes (0% of repo)",
+          "strength": 0.401742006050664
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 101,310 bytes (0% of repo)",
+          "strength": 0.401273957691728
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 9,534 bytes (0% of repo)",
+          "strength": 0.4001198885858547
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 4,442 bytes (0% of repo)",
+          "strength": 0.4000558574678379
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 3,115 bytes (0% of repo)",
+          "strength": 0.40003917064662653
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/auto-merge-automated-pr.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (qmoi-enhanced-history-14/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (qmoi-enhanced-history-14/__tests__/api.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (qmoi-enhanced-history-14/_archive_qmoi-enhanced/cypress/e2e/qmoi_kernel_panel.cy.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (qmoi-enhanced-history-14/_archive_qmoi-enhanced/docs/ACCESSIBILITY.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/android/app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/node_modules/metro/src/integration_tests/metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (qmoi-enhanced-history-14/_archive_qmoi-enhanced/notebooks/enhanced-trading-engine-demo.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (qmoi-enhanced-history-14/k8s/deployment-orchestrator.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 79485840,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "integration-testing",
+          "kubernetes",
+          "linux",
+          "native-mobile",
+          "nextjs",
+          "pandas",
+          "react-native",
+          "sql",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Alpha-Q-ai",
+      "full_name": "thealphakenya/Alpha-Q-ai",
+      "html_url": "https://github.com/thealphakenya/Alpha-Q-ai",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-06-08T00:36:25Z",
+      "pushed_at": "2026-09-17T01:16:55Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 16,
+      "size_kb": 127722,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 63678954,
+        "Python": 11299490,
+        "JavaScript": 3471098,
+        "Shell": 522856,
+        "CSS": 256510,
+        "PowerShell": 138531,
+        "HTML": 101310,
+        "Batchfile": 16358,
+        "Roff": 13318,
+        "Jupyter Notebook": 9534,
+        "Inno Setup": 4714,
+        "Kotlin": 4442,
+        "Rust": 3456,
+        "Dockerfile": 3115,
+        "NSIS": 148
+      },
+      "primary_language": "TypeScript",
+      "file_count": 30716,
+      "top_level_paths": [
+        ".env.example",
+        ".github",
+        ".gitignore",
+        ".qmoi_memory_index.json",
+        "ACCOUNTABILITY.md",
+        "ADVANCEMENT.md",
+        "ALLAUTO.md",
+        "ALLBACKEND.md",
+        "ALLFRONTEND.md",
+        "ALLMDFILESREFS.md",
+        "ALLPLATFORMSDEVICE.md",
+        "ALLPORTS.md",
+        "ALLROUTES.md",
+        "API.md",
+        "AUTODEV.md",
+        "BUILD.md",
+        "DOWNLOAD.md",
+        "ENDPOINTS.md",
+        "ENHANCEMENT_SESSION_2026_08_18.md",
+        "FINAL_SESSION_COMPLETION_REPORT.md",
+        "FINAL_VALIDATION_EVIDENCE_2026_08_29.md",
+        "FINANCIALMANAGER.md",
+        "GITHUBCLONED.md",
+        "GITHUB_ACTIONS_EXECUTION_GUIDE.md",
+        "GITHUB_SETUP_COMPLETE.md",
+        "IMPLEMENTATION_COMPLETE.md",
+        "INSTALL.md",
+        "MEMORY_INDEX.md",
+        "MERGE.md",
+        "MODELEVOLUTIONO.md",
+        "MODEL_CARD.md",
+        "MONITORING_GUIDE.md",
+        "MONITORING_INDEX.md",
+        "MONITORING_SUMMARY.md",
+        "MONITORING_VERIFICATION_CHECKLIST.txt",
+        "OLLAMA_AUTOMATION_GUIDE.md",
+        "OLLAMA_ENHANCEMENT_COMPLETE.md",
+        "OLLAMA_ENHANCEMENT_SUCCESS.md",
+        "PHASE_1_4_COMPLETION_SUMMARY.md",
+        "PLATFORM_REQUIREMENTS.md"
+      ],
+      "notable_files": [
+        ".github/workflows/auto-merge-automated-pr.yml",
+        ".github/workflows/branch-sync.yml",
+        ".github/workflows/ollama-autonomous-agent-realtime-monitor.yml",
+        ".github/workflows/ollama-autonomous-agent.yml",
+        ".github/workflows/ollama-master-orchestrator.yml",
+        ".github/workflows/ollama-pr-validation.yml",
+        ".github/workflows/pr-monitor.yml",
+        ".github/workflows/security-merge-gates.yml",
+        ".github/workflows/workflow-tracker.yml",
+        "package.json",
+        "qmoi-enhanced-history-14/Dockerfile",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/code-frame/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/compat-data/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/core/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/generator/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-compilation-targets/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-globals/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-module-imports/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-module-transforms/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-plugin-utils/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-string-parser/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-validator-identifier/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helper-validator-option/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/helpers/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/parser/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/plugin-transform-react-jsx-self/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/plugin-transform-react-jsx-source/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/template/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/traverse/package.json",
+        "qmoi-enhanced-history-14/_archive_qmoi-enhanced/dashboard/node_modules/@babel/types/package.json"
+      ],
+      "manifests": {
+        "requirements.txt": [
+          "pip-audit",
+          "pytest",
+          "pyyaml",
+          "requests",
+          "urllib3"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 11428,
+      "readme_excerpt": "# QMOI Enhanced - Ollama Autonomous Agent v2\n\nEnterprise-grade platform-specific feature validation system for comprehensive cross-platform development, autonomous problem resolution, release readiness, Vercel deployment safety, and real-time monitoring.\n\n## 🚀 Production goals\n\n- Keep QMOI autonomous, self-healing, and deployment-safe across GitHub, Vercel, release pipelines, and real-time monitors.\n- Automatically detect and repair errors in workflows, code, config, and deployment contracts before false-success claims are allowed.\n- Keep releases and downloads evidence-based, versioned, and linked to verified GitHub release assets instead of placeholder URLs.\n- Maintain finance, wallet, trading, revenue, and money-making automation under explicit safety gates and memory synchronization.\n- Ensure all monitoring and tracker systems validate freshness, stale-state handling, and failure-safe behavior.\n\n## 🎯 Overview\n\nThe QMOI Enhanced project includes a sophisticated **Ollama Autonomous Agent** that validates **293+ platform-specific features** across **6 platforms** and **4 applications** with intelligent, thorough validation.\n\n### 📊 Coverage Matrix\n\n| Platform | Features | Apps | Va",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": true,
+      "has_releases": true,
+      "contributors_count": 10,
+      "contribution_share": 0.09,
+      "commits": {
+        "count": 128,
+        "first_at": "2026-08-14T23:54:24+00:00",
+        "last_at": "2026-09-10T09:06:50+00:00",
+        "active_days": 12,
+        "span_days": 26,
+        "max_per_day": 46,
+        "low_effort_message_ratio": 0.398,
+        "messages_sample": [
+          "Create o.txt",
+          "fix: persist autonomous resume checkpoints",
+          "fix: align hosted Ollama timeout configuration",
+          "fix: finalize hosted resume evidence",
+          "fix: persist final autonomous resume evidence",
+          "docs: record autonomous agent monitoring journey",
+          "ci: upload autonomous resume evidence",
+          "feat: preserve detailed autonomous resume progress",
+          "docs: record final agent run",
+          "docs: refresh current agent proof",
+          "docs: record verified autonomous agent success",
+          "fix: accept verified health mappings in success contract",
+          "fix: fail closed on invalid ollama repair plans",
+          "fix: GitHub-hosted Ollama bootstrap and realtime repo monitoring",
+          "Finalize GitHub-hosted Ollama autonomous agent contract and monitoring",
+          "ey",
+          "Update oe.md",
+          "Update ollama-autonomous-agent-realtime-monitor.yml",
+          "Update ollama-autonomous-agent-realtime-monitor.yml",
+          "Update ollama-autonomous-agent-realtime-monitor.yml"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 6,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 2,
+        "code_file_count": 19425
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 7,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": true,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 63,678,954 bytes (80% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Python: 11,299,490 bytes (14% of repo)",
+          "strength": 0.5420893514766907
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 3,471,098 bytes (4% of repo)",
+          "strength": 0.44364852429021473
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "Shell: 522,856 bytes (1% of repo)",
+          "strength": 0.4065748339045122
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 256,510 bytes (0% of repo)",
+          "strength": 0.403225573857518
+        },
+        {
+          "skill_id": "shell",
+          "source": "language",
+          "detail": "PowerShell: 138,531 bytes (0% of repo)",
+          "strength": 0.401742006050664
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 101,310 bytes (0% of repo)",
+          "strength": 0.401273957691728
+        },
+        {
+          "skill_id": "python",
+          "source": "language",
+          "detail": "Jupyter Notebook: 9,534 bytes (0% of repo)",
+          "strength": 0.4001198885858547
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Kotlin: 4,442 bytes (0% of repo)",
+          "strength": 0.4000558574678379
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 3,115 bytes (0% of repo)",
+          "strength": 0.40003917064662653
+        },
+        {
+          "skill_id": "linux",
+          "source": "file",
+          "detail": "env config (.env.example)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/auto-merge-automated-pr.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (qmoi-enhanced-history-14/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test file (qmoi-enhanced-history-14/__tests__/api.test.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "integration-testing",
+          "source": "file",
+          "detail": "e2e suite (qmoi-enhanced-history-14/_archive_qmoi-enhanced/cypress/e2e/qmoi_kernel_panel.cy.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "technical-writing",
+          "source": "file",
+          "detail": "docs directory (qmoi-enhanced-history-14/_archive_qmoi-enhanced/docs/ACCESSIBILITY.md)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/android/app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react-native",
+          "source": "file",
+          "detail": "React Native bundler config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/node_modules/metro/src/integration_tests/metro.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "file",
+          "detail": "next config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/next.config.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "pandas",
+          "source": "file",
+          "detail": "jupyter notebook (qmoi-enhanced-history-14/_archive_qmoi-enhanced/notebooks/enhanced-trading-engine-demo.ipynb)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "kubernetes",
+          "source": "file",
+          "detail": "kubernetes manifests (qmoi-enhanced-history-14/k8s/deployment-orchestrator.yaml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "pytest in requirements.txt",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 79485840,
+        "strong_skills": [
+          "cicd",
+          "data-modeling",
+          "docker",
+          "integration-testing",
+          "kubernetes",
+          "linux",
+          "native-mobile",
+          "nextjs",
+          "pandas",
+          "react-native",
+          "sql",
+          "tailwind",
+          "technical-writing",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "simtwoo",
+      "full_name": "thealphakenya/simtwoo",
+      "html_url": "https://github.com/thealphakenya/simtwoo",
+      "description": null,
+      "homepage": "replit.com/@thealphakenya/NewsSimulationTool",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-04-20T04:39:04Z",
+      "pushed_at": "2025-04-20T23:40:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 970,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 310696,
+        "HTML": 527,
+        "CSS": 189,
+        "JavaScript": 80
+      },
+      "primary_language": "TypeScript",
+      "file_count": 88,
+      "top_level_paths": [
+        ".gitignore",
+        ".replit",
+        "attached_assets",
+        "client",
+        "drizzle.config.ts",
+        "generated-icon.png",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "server",
+        "shared",
+        "tailwind.config.ts",
+        "theme.json",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@hookform/resolvers",
+          "@jridgewell/trace-mapping",
+          "@neondatabase/serverless",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@replit/vite-plugin-cartographer",
+          "@replit/vite-plugin-runtime-error-modal",
+          "@replit/vite-plugin-shadcn-theme-json",
+          "@tailwindcss/typography",
+          "@tailwindcss/vite",
+          "@tanstack/react-query",
+          "@types/connect-pg-simple",
+          "@types/express",
+          "@types/express-session",
+          "@types/node",
+          "@types/passport",
+          "@types/passport-local",
+          "@types/react",
+          "@types/react-dom",
+          "@types/ws",
+          "@vitejs/plugin-react",
+          "autoprefixer",
+          "axios",
+          "bitget-api",
+          "chartjs",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "connect-pg-simple",
+          "crypto-js",
+          "date-fns",
+          "decimal.js",
+          "drizzle-kit",
+          "drizzle-orm",
+          "drizzle-zod",
+          "embla-carousel-react",
+          "esbuild",
+          "express",
+          "express-session",
+          "framer-motion",
+          "input-otp",
+          "lucide-react",
+          "memorystore",
+          "next-themes",
+          "passport",
+          "passport-local",
+          "postcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-icons",
+          "react-resizable-panels",
+          "recharts",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "technicalindicators",
+          "tsx",
+          "tw-animate-css",
+          "typescript",
+          "vaul",
+          "vite",
+          "wouter",
+          "ws",
+          "zod",
+          "zod-validation-error"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 3,
+      "contribution_share": 0.1,
+      "commits": {
+        "count": 3,
+        "first_at": "2025-04-20T04:44:54+00:00",
+        "last_at": "2025-04-20T23:35:01+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Assistant checkpoint: Fix syntax error in BitgetService class",
+          "Assistant checkpoint: Enhanced trading functionality with improved execution",
+          "huu hh"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 78
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 310,696 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "@types/express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "@types/passport in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "websockets",
+          "source": "manifest",
+          "detail": "@types/ws in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "manifest",
+          "detail": "drizzle-orm in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 311492,
+        "strong_skills": [
+          "auth",
+          "data-modeling",
+          "data-viz",
+          "nodejs",
+          "react",
+          "tailwind",
+          "typescript",
+          "websockets"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Trading_ai_running",
+      "full_name": "thealphakenya/Trading_ai_running",
+      "html_url": "https://github.com/thealphakenya/Trading_ai_running",
+      "description": null,
+      "homepage": "https://trading-ai-running.vercel.app",
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-05-01T23:30:13Z",
+      "pushed_at": "2025-06-12T14:57:53Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "size_kb": 284,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "TypeScript": 319580,
+        "CSS": 4834,
+        "JavaScript": 2653
+      },
+      "primary_language": "TypeScript",
+      "file_count": 123,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "app",
+        "components",
+        "components.json",
+        "contexts",
+        "hooks",
+        "lib",
+        "middleware.ts",
+        "next.config.mjs",
+        "package.json",
+        "pnpm-lock.yaml",
+        "postcss.config.mjs",
+        "public",
+        "styles",
+        "tailwind.config.ts",
+        "tsconfig.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@hookform/resolvers",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-tooltip",
+          "@supabase/auth-helpers-nextjs",
+          "@supabase/ssr",
+          "@supabase/supabase-js",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "autoprefixer",
+          "axios",
+          "class-variance-authority",
+          "clsx",
+          "cmdk",
+          "crypto",
+          "crypto-js",
+          "date-fns",
+          "embla-carousel-react",
+          "input-otp",
+          "lucide-react",
+          "next",
+          "next-themes",
+          "postcss",
+          "react",
+          "react-day-picker",
+          "react-dom",
+          "react-hook-form",
+          "react-resizable-panels",
+          "recharts",
+          "sonner",
+          "tailwind-merge",
+          "tailwindcss",
+          "tailwindcss-animate",
+          "typescript",
+          "vaul",
+          "zod"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 24,
+      "readme_excerpt": "# alphaqmoi's Trading AI",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.5,
+      "commits": {
+        "count": 8,
+        "first_at": "2025-04-28T17:40:29+00:00",
+        "last_at": "2025-05-01T23:44:18+00:00",
+        "active_days": 2,
+        "span_days": 3,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Merge pull request #1 from thealphakenya/dependabot/npm_and_yarn/npm_and_yarn-6be369af6d",
+          "changes updates",
+          "fix connection to bitget",
+          "fix connection to bitget",
+          "fixed bitget connection",
+          "Your commit message here",
+          "Added proxy settings to .env and updated code",
+          "prepare for deployment"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": true,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 112
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "typescript",
+          "source": "language",
+          "detail": "TypeScript: 319,580 bytes (98% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 4,834 bytes (1% of repo)",
+          "strength": 0.41477984633117987
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 2,653 bytes (1% of repo)",
+          "strength": 0.4081114878602855
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (app/api/bitget/test/route.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (lib/create-tables.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "file",
+          "detail": "tailwind config (tailwind.config.ts)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "react",
+          "source": "manifest",
+          "detail": "@types/react in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nextjs",
+          "source": "manifest",
+          "detail": "next in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "data-viz",
+          "source": "manifest",
+          "detail": "recharts in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "tailwind",
+          "source": "manifest",
+          "detail": "tailwindcss in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "typescript",
+          "source": "manifest",
+          "detail": "typescript in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 327067,
+        "strong_skills": [
+          "data-viz",
+          "nextjs",
+          "react",
+          "sql",
+          "tailwind",
+          "typescript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "qmoi-enhanced-new",
+      "full_name": "thealphakenya/qmoi-enhanced-new",
+      "html_url": "https://github.com/thealphakenya/qmoi-enhanced-new",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-03T13:18:15Z",
+      "pushed_at": "2026-02-21T23:10:42Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 862,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 35794
+      },
+      "primary_language": "JavaScript",
+      "file_count": 230,
+      "top_level_paths": [
+        ".github",
+        "README.md",
+        "TRACKS.md",
+        "mdfilesref.md",
+        "node_modules",
+        "package-lock.json",
+        "package.json",
+        "scripts"
+      ],
+      "notable_files": [
+        ".github/workflows/qmoi-crossrepo-sync.yml",
+        "node_modules/@octokit/auth-token/package.json",
+        "node_modules/@octokit/core/package.json",
+        "node_modules/@octokit/endpoint/package.json",
+        "node_modules/@octokit/graphql/package.json",
+        "node_modules/@octokit/openapi-types/package.json",
+        "node_modules/@octokit/plugin-paginate-rest/package.json",
+        "node_modules/@octokit/plugin-request-log/package.json",
+        "node_modules/@octokit/plugin-rest-endpoint-methods/package.json",
+        "node_modules/@octokit/request-error/package.json",
+        "node_modules/@octokit/request/package.json",
+        "node_modules/@octokit/rest/package.json",
+        "node_modules/@octokit/types/package.json",
+        "node_modules/before-after-hook/package.json",
+        "node_modules/fast-content-type-parse/package.json",
+        "node_modules/universal-user-agent/package.json",
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "@octokit/rest"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 557,
+      "readme_excerpt": "# QMOI Cross-Repo Sync & Automation\n\nThis repository is part of an automated system that:\n- Syncs changes, enhancements, and fixes across all related repositories\n- Updates TRACKS.md and all markdown files with every change\n- Automatically triggers and fixes GitHub Actions workflows\n- Documents all automation features in README files\n- Notifies via GitHub issues/comments\n\n## Features\n- Cross-repo sync\n- Automated markdown updates\n- Workflow error detection and auto-fix\n- Real-time notifications\n\nFor more details, see TRACKS.md and automation scripts.\n",
+      "has_ci": true,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.017,
+      "commits": {
+        "count": 7,
+        "first_at": "2025-10-03T22:29:50+00:00",
+        "last_at": "2025-10-04T01:02:17+00:00",
+        "active_days": 2,
+        "span_days": 0,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Resolve TRACKS.md and automation script merge conflicts and continue rebase (3)",
+          "Resolve TRACKS.md merge conflict",
+          "Update TRACKS.md with latest automation logs (2)",
+          "Update TRACKS.md with latest automation logs",
+          "Update TRACKS.md with latest automation logs",
+          "QMOI: automation logs and .md updates",
+          "QMOI Automation: sync, fixes, enhancements"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": true,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 155
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 3,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 35,794 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "cicd",
+          "source": "file",
+          "detail": "GitHub Actions workflow (.github/workflows/qmoi-crossrepo-sync.yml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (node_modules/fast-content-type-parse/test/index.test.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": false
+        },
+        "failed": [
+          "own_share"
+        ],
+        "code_bytes": 35794,
+        "strong_skills": [
+          "cicd",
+          "javascript",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "TypeScript": 127988184,
+    "Python": 22598980,
+    "JavaScript": 6980723,
+    "Shell": 1045712,
+    "CSS": 518043,
+    "PowerShell": 277062,
+    "HTML": 203147,
+    "Batchfile": 32716,
+    "Roff": 26636,
+    "Jupyter Notebook": 19068,
+    "Inno Setup": 9428,
+    "Kotlin": 8884,
+    "Rust": 6912,
+    "Dockerfile": 6230,
+    "NSIS": 296
+  },
+  "total_commits": 274,
+  "skill_evidence": [
+    {
+      "skill_id": "typescript",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/simtwoo",
+        "thealphakenya/Trading_ai_running"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "manifest"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 127988184,
+      "commit_count": 267,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: TypeScript: 63,678,954 bytes (80% of repo)",
+        "Alpha-Q-ai: TypeScript: 63,678,954 bytes (80% of repo)",
+        "simtwoo: TypeScript: 310,696 bytes (100% of repo)",
+        "simtwoo: typescript in package.json",
+        "Trading_ai_running: TypeScript: 319,580 bytes (98% of repo)",
+        "Trading_ai_running: typescript in package.json"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/Trading_ai_running",
+        "thealphakenya/qmoi-enhanced-new"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 6980643,
+      "commit_count": 271,
+      "first_seen": "2025-04-28T17:40:29+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: JavaScript: 3,471,098 bytes (4% of repo)",
+        "Alpha-Q-ai: JavaScript: 3,471,098 bytes (4% of repo)",
+        "Trading_ai_running: JavaScript: 2,653 bytes (1% of repo)",
+        "qmoi-enhanced-new: JavaScript: 35,794 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/Trading_ai_running",
+        "thealphakenya/qmoi-enhanced-new"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 271,
+      "first_seen": "2025-04-28T17:40:29+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: test file (qmoi-enhanced-history-14/__tests__/api.test.ts)",
+        "qmoi-enhanced: pytest in requirements.txt",
+        "Alpha-Q-ai: test file (qmoi-enhanced-history-14/__tests__/api.test.ts)",
+        "Alpha-Q-ai: pytest in requirements.txt",
+        "Trading_ai_running: test directory (app/api/bitget/test/route.ts)",
+        "qmoi-enhanced-new: test directory (node_modules/fast-content-type-parse/test/index.test.js)"
+      ]
+    },
+    {
+      "skill_id": "tailwind",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/simtwoo",
+        "thealphakenya/Trading_ai_running"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 267,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: tailwind config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/tailwind.config.ts)",
+        "Alpha-Q-ai: tailwind config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/tailwind.config.ts)",
+        "simtwoo: tailwind config (tailwind.config.ts)",
+        "simtwoo: tailwindcss in package.json",
+        "Trading_ai_running: tailwind config (tailwind.config.ts)",
+        "Trading_ai_running: tailwindcss in package.json"
+      ]
+    },
+    {
+      "skill_id": "nextjs",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/Trading_ai_running"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 264,
+      "first_seen": "2025-04-28T17:40:29+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: next config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/next.config.js)",
+        "Alpha-Q-ai: next config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/next.config.js)",
+        "Trading_ai_running: next in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/simtwoo"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 259,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: database migrations (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+        "Alpha-Q-ai: database migrations (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+        "simtwoo: drizzle-orm in package.json"
+      ]
+    },
+    {
+      "skill_id": "react",
+      "repos": [
+        "thealphakenya/simtwoo",
+        "thealphakenya/Trading_ai_running"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2025-05-01T23:44:18+00:00",
+      "details": [
+        "simtwoo: @types/react in package.json",
+        "Trading_ai_running: @types/react in package.json"
+      ]
+    },
+    {
+      "skill_id": "data-viz",
+      "repos": [
+        "thealphakenya/simtwoo",
+        "thealphakenya/Trading_ai_running"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 11,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2025-05-01T23:44:18+00:00",
+      "details": [
+        "simtwoo: recharts in package.json",
+        "Trading_ai_running: recharts in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "thealphakenya/simtwoo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2025-04-20T23:35:01+00:00",
+      "details": [
+        "simtwoo: @types/express in package.json"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "thealphakenya/simtwoo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2025-04-20T23:35:01+00:00",
+      "details": [
+        "simtwoo: @types/passport in package.json"
+      ]
+    },
+    {
+      "skill_id": "websockets",
+      "repos": [
+        "thealphakenya/simtwoo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 3,
+      "first_seen": "2025-04-20T04:44:54+00:00",
+      "last_seen": "2025-04-20T23:35:01+00:00",
+      "details": [
+        "simtwoo: @types/ws in package.json"
+      ]
+    },
+    {
+      "skill_id": "cicd",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/qmoi-enhanced-new"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 263,
+      "first_seen": "2025-10-03T22:29:50+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: GitHub Actions workflow (.github/workflows/auto-merge-automated-pr.yml)",
+        "Alpha-Q-ai: GitHub Actions workflow (.github/workflows/auto-merge-automated-pr.yml)",
+        "qmoi-enhanced-new: GitHub Actions workflow (.github/workflows/qmoi-crossrepo-sync.yml)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/Trading_ai_running"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 264,
+      "first_seen": "2025-04-28T17:40:29+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: SQL file (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+        "Alpha-Q-ai: SQL file (qmoi-enhanced-history-14/db/migrations/001_create_trades.sql)",
+        "Trading_ai_running: SQL file (lib/create-tables.sql)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 8884,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: Kotlin: 4,442 bytes (0% of repo)",
+        "qmoi-enhanced: Android app manifest (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/android/app/src/main/AndroidManifest.xml)",
+        "Alpha-Q-ai: Kotlin: 4,442 bytes (0% of repo)",
+        "Alpha-Q-ai: Android app manifest (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/android/app/src/main/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 6230,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: Dockerfile: 3,115 bytes (0% of repo)",
+        "qmoi-enhanced: Dockerfile (qmoi-enhanced-history-14/Dockerfile)",
+        "Alpha-Q-ai: Dockerfile: 3,115 bytes (0% of repo)",
+        "Alpha-Q-ai: Dockerfile (qmoi-enhanced-history-14/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "linux",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: env config (.env.example)",
+        "Alpha-Q-ai: env config (.env.example)"
+      ]
+    },
+    {
+      "skill_id": "integration-testing",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: e2e suite (qmoi-enhanced-history-14/_archive_qmoi-enhanced/cypress/e2e/qmoi_kernel_panel.cy.js)",
+        "Alpha-Q-ai: e2e suite (qmoi-enhanced-history-14/_archive_qmoi-enhanced/cypress/e2e/qmoi_kernel_panel.cy.js)"
+      ]
+    },
+    {
+      "skill_id": "technical-writing",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: docs directory (qmoi-enhanced-history-14/_archive_qmoi-enhanced/docs/ACCESSIBILITY.md)",
+        "Alpha-Q-ai: docs directory (qmoi-enhanced-history-14/_archive_qmoi-enhanced/docs/ACCESSIBILITY.md)"
+      ]
+    },
+    {
+      "skill_id": "react-native",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: React Native bundler config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/node_modules/metro/src/integration_tests/metro.config.js)",
+        "Alpha-Q-ai: React Native bundler config (qmoi-enhanced-history-14/_archive_qmoi-enhanced/mobile/node_modules/metro/src/integration_tests/metro.config.js)"
+      ]
+    },
+    {
+      "skill_id": "pandas",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: jupyter notebook (qmoi-enhanced-history-14/_archive_qmoi-enhanced/notebooks/enhanced-trading-engine-demo.ipynb)",
+        "Alpha-Q-ai: jupyter notebook (qmoi-enhanced-history-14/_archive_qmoi-enhanced/notebooks/enhanced-trading-engine-demo.ipynb)"
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: kubernetes manifests (qmoi-enhanced-history-14/k8s/deployment-orchestrator.yaml)",
+        "Alpha-Q-ai: kubernetes manifests (qmoi-enhanced-history-14/k8s/deployment-orchestrator.yaml)"
+      ]
+    },
+    {
+      "skill_id": "python",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.5420893514766907,
+      "total_bytes": 22618048,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: Python: 11,299,490 bytes (14% of repo)",
+        "qmoi-enhanced: Jupyter Notebook: 9,534 bytes (0% of repo)",
+        "Alpha-Q-ai: Python: 11,299,490 bytes (14% of repo)",
+        "Alpha-Q-ai: Jupyter Notebook: 9,534 bytes (0% of repo)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai",
+        "thealphakenya/Trading_ai_running"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.41477984633117987,
+      "total_bytes": 720474,
+      "commit_count": 264,
+      "first_seen": "2025-04-28T17:40:29+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: CSS: 256,510 bytes (0% of repo)",
+        "qmoi-enhanced: HTML: 101,310 bytes (0% of repo)",
+        "Alpha-Q-ai: CSS: 256,510 bytes (0% of repo)",
+        "Alpha-Q-ai: HTML: 101,310 bytes (0% of repo)",
+        "Trading_ai_running: CSS: 4,834 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "shell",
+      "repos": [
+        "thealphakenya/qmoi-enhanced",
+        "thealphakenya/Alpha-Q-ai"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4065748339045122,
+      "total_bytes": 1322774,
+      "commit_count": 256,
+      "first_seen": "2026-08-14T23:54:24+00:00",
+      "last_seen": "2026-09-10T09:06:50+00:00",
+      "details": [
+        "qmoi-enhanced: Shell: 522,856 bytes (1% of repo)",
+        "qmoi-enhanced: PowerShell: 138,531 bytes (0% of repo)",
+        "Alpha-Q-ai: Shell: 522,856 bytes (1% of repo)",
+        "Alpha-Q-ai: PowerShell: 138,531 bytes (0% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 1,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 274,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 21,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos"
+    ],
+    "reason": "skill_relevant_repos: 1 < 3"
+  },
+  "search_stratum": "typescript-fullstack",
+  "collected_at": "2026-09-17T01:23:05.787498+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 1 < 3"
+  ]
+}

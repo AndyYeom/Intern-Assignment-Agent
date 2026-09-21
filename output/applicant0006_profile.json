@@ -1,0 +1,173 @@
+{
+  "applicant_id": "applicant0006",
+  "skills": [
+    {
+      "canonical_skill": "Python",
+      "category": "Programming Language",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Ran exploratory analysis on a red wine quality dataset in Jupyter, using pandas and matplotlib to inspect feature distributions.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Practiced MongoDB operations from Python in a Jupyter notebook, building small scripts to insert, query and update sample records.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used independently in multiple projects (EDA Red Wine Quality, Tutorial Feature Engineering) to build analysis scripts with pandas, matplotlib, and Keras. Evidence of independent work beyond single exercises, though projects appear primarily educational rather than production systems."
+    },
+    {
+      "canonical_skill": "JavaScript",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Language: Python, JavaScript",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section but no project or work evidence demonstrating use. Insufficient evidence of independent structural decisions."
+    },
+    {
+      "canonical_skill": "pandas",
+      "category": "Data Analysis",
+      "claimed_level": 2,
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Ran exploratory analysis on a red wine quality dataset in Jupyter, using pandas and matplotlib to inspect feature distributions.",
+          "page": null
+        },
+        {
+          "source": "resume",
+          "text": "Worked through feature engineering techniques in Jupyter Notebook, documenting each transformation's effect on a sample dataset across 22 files.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used independently in exploratory data analysis project to inspect feature distributions. Applied across multiple projects including feature engineering tutorial with 22 documented files."
+    },
+    {
+      "canonical_skill": "matplotlib",
+      "category": "Data Visualization",
+      "claimed_level": 2,
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Ran exploratory analysis on a red wine quality dataset in Jupyter, using pandas and matplotlib to inspect feature distributions.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used to inspect feature distributions in exploratory analysis project, demonstrating independent application for visualization tasks."
+    },
+    {
+      "canonical_skill": "Keras",
+      "category": "Deep Learning",
+      "claimed_level": 1,
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Logged evaluation metrics with Prometheus while testing a small Keras model, prompting questions about what normal metric behavior looked like.",
+          "page": null
+        }
+      ],
+      "reasoning": "Tested a small Keras model in a learning context (EDA Red Wine Quality project). No evidence of choosing model architecture independently or handling non-trivial problems. Work appears exploratory and educational."
+    },
+    {
+      "canonical_skill": "Prometheus",
+      "category": "Monitoring & Logging",
+      "claimed_level": 1,
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Logged evaluation metrics with Prometheus while testing a small Keras model, prompting questions about what normal metric behavior looked like.",
+          "page": null
+        }
+      ],
+      "reasoning": "Used to log evaluation metrics during model testing. Evidence suggests exploratory usage with questions about normal behavior, indicating learning stage rather than independent proficiency."
+    },
+    {
+      "canonical_skill": "MongoDB",
+      "category": "Database",
+      "claimed_level": 1,
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Practiced MongoDB operations from Python in a Jupyternotebook, building small scripts to insert, query and update sample records.",
+          "page": null
+        }
+      ],
+      "reasoning": "Practiced basic CRUD operations following tutorial format. Built small scripts but evidence describes this as practice work rather than independent structural decisions."
+    },
+    {
+      "canonical_skill": "Flask",
+      "category": "Backend",
+      "claimed_level": 1,
+      "confidence": 0.3,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Backend: Flask/FastAPI",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section under Backend but no project or work experience demonstrates its use. Skills list alone does not justify scoring above Entry."
+    },
+    {
+      "canonical_skill": "FastAPI",
+      "category": "Backend",
+      "claimed_level": 1,
+      "confidence": 0.3,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Backend: Flask/FastAPI",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section under Backend but no project or work experience demonstrates its use. Skills list alone does not justify scoring above Entry."
+    },
+    {
+      "canonical_skill": "JavaScript",
+      "category": "Programming Language",
+      "claimed_level": 1,
+      "confidence": 0.3,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Language: Python, JavaScript",
+          "page": null
+        }
+      ],
+      "reasoning": "Listed in skills section under Language but no project or work experience demonstrates its use. Skills list alone does not justify scoring above Entry."
+    },
+    {
+      "canonical_skill": "Feature Engineering",
+      "category": "Machine Learning",
+      "claimed_level": 1,
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "resume",
+          "text": "Worked through feature engineering techniques in Jupyter Notebook, documenting each transformation's effect on a sample dataset across 22 files.",
+          "page": null
+        }
+      ],
+      "reasoning": "Worked through tutorial-based feature engineering techniques across 22 files, documenting transformations. This is follow-along tutorial work where structural decisions were made by the tutorial author."
+    }
+  ],
+  "domains": [],
+  "interests": [],
+  "education": [],
+  "work_experience": []
+}

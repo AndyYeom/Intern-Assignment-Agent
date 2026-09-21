@@ -1,0 +1,218 @@
+{
+  "applicant_id": "applicant0089",
+  "github_login": "Antonio-Zago",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0089.json",
+  "skills": [
+    {
+      "skill_id": "csharp",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Antonio-Zago/AppTreinos",
+        "https://github.com/Antonio-Zago/EcommerceModelo",
+        "https://github.com/Antonio-Zago/FamilyBudgetControlAluraChallenge",
+        "https://github.com/Antonio-Zago/IWantApp",
+        "https://github.com/Antonio-Zago/LanchesMac"
+      ],
+      "repos": [
+        {
+          "repo": "Antonio-Zago/AppTreinos",
+          "html_url": "https://github.com/Antonio-Zago/AppTreinos",
+          "level": 2,
+          "reasons": [
+            "intermediate: 38 commits; multi_month_span, many_active_days",
+            "C#: 124,761 bytes (29% of repo)"
+          ]
+        },
+        {
+          "repo": "Antonio-Zago/EcommerceModelo",
+          "html_url": "https://github.com/Antonio-Zago/EcommerceModelo",
+          "level": 2,
+          "reasons": [
+            "intermediate: 24 commits; has_docker, many_active_days",
+            "C#: 102,898 bytes (37% of repo)"
+          ]
+        },
+        {
+          "repo": "Antonio-Zago/FamilyBudgetControlAluraChallenge",
+          "html_url": "https://github.com/Antonio-Zago/FamilyBudgetControlAluraChallenge",
+          "level": 1,
+          "reasons": [
+            "entry: 16 commits, independent-work signals: documented",
+            "C#: 35,808 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Antonio-Zago/IWantApp",
+          "html_url": "https://github.com/Antonio-Zago/IWantApp",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "C#: 44,524 bytes (100% of repo)"
+          ]
+        },
+        {
+          "repo": "Antonio-Zago/LanchesMac",
+          "html_url": "https://github.com/Antonio-Zago/LanchesMac",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "C#: 107,992 bytes (92% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Antonio-Zago/EcommerceModelo"
+      ],
+      "repos": [
+        {
+          "repo": "Antonio-Zago/EcommerceModelo",
+          "html_url": "https://github.com/Antonio-Zago/EcommerceModelo",
+          "level": 2,
+          "reasons": [
+            "intermediate: 24 commits; has_docker, many_active_days",
+            "database migrations (database/migrations/V10__checkout.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Antonio-Zago/EcommerceModelo"
+      ],
+      "repos": [
+        {
+          "repo": "Antonio-Zago/EcommerceModelo",
+          "html_url": "https://github.com/Antonio-Zago/EcommerceModelo",
+          "level": 2,
+          "reasons": [
+            "intermediate: 24 commits; has_docker, many_active_days",
+            "Dockerfile (EcommerceModelo/EcommerceModeloMvc/Dockerfile)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Antonio-Zago/AppTreinos"
+      ],
+      "repos": [
+        {
+          "repo": "Antonio-Zago/AppTreinos",
+          "html_url": "https://github.com/Antonio-Zago/AppTreinos",
+          "level": 2,
+          "reasons": [
+            "intermediate: 38 commits; multi_month_span, many_active_days",
+            "Dart: 256,323 bytes (60% of repo)",
+            "flutter project (gym_squad_front_end/pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Antonio-Zago/EcommerceModelo"
+      ],
+      "repos": [
+        {
+          "repo": "Antonio-Zago/EcommerceModelo",
+          "html_url": "https://github.com/Antonio-Zago/EcommerceModelo",
+          "level": 2,
+          "reasons": [
+            "intermediate: 24 commits; has_docker, many_active_days",
+            "HTML: 122,220 bytes (44% of repo)",
+            "CSS: 37,820 bytes (14% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/Antonio-Zago/AppTreinos"
+      ],
+      "repos": [
+        {
+          "repo": "Antonio-Zago/AppTreinos",
+          "html_url": "https://github.com/Antonio-Zago/AppTreinos",
+          "level": 2,
+          "reasons": [
+            "intermediate: 38 commits; multi_month_span, many_active_days",
+            "Android app manifest (gym_squad_front_end/android/app/src/main/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "sql",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/Antonio-Zago/AppTreinos",
+        "https://github.com/Antonio-Zago/EcommerceModelo"
+      ],
+      "repos": [
+        {
+          "repo": "Antonio-Zago/AppTreinos",
+          "html_url": "https://github.com/Antonio-Zago/AppTreinos",
+          "level": 2,
+          "reasons": [
+            "intermediate: 38 commits; multi_month_span, many_active_days",
+            "SQL file (bkp/gym_squad_db_dados_treino.sql)"
+          ]
+        },
+        {
+          "repo": "Antonio-Zago/EcommerceModelo",
+          "html_url": "https://github.com/Antonio-Zago/EcommerceModelo",
+          "level": 2,
+          "reasons": [
+            "intermediate: 24 commits; has_docker, many_active_days",
+            "SQL file (database/migrations/V10__checkout.sql)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 7
+  }
+}

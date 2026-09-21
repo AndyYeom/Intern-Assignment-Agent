@@ -1,0 +1,182 @@
+{
+  "applicant_id": "applicant0058",
+  "github_login": "715d",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0058.json",
+  "skills": [
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/715d/rumpus",
+        "https://github.com/715d/unusedfunc",
+        "https://github.com/715d/go-truenas",
+        "https://github.com/715d/nur",
+        "https://github.com/715d/zellij-claude"
+      ],
+      "repos": [
+        {
+          "repo": "715d/rumpus",
+          "html_url": "https://github.com/715d/rumpus",
+          "level": 2,
+          "reasons": [
+            "intermediate: 13 commits; has_ci, deployed, documented",
+            "GitHub Actions workflow (.github/workflows/nix.yml)"
+          ]
+        },
+        {
+          "repo": "715d/unusedfunc",
+          "html_url": "https://github.com/715d/unusedfunc",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; has_ci, has_tests, documented",
+            "GitHub Actions workflow (.github/workflows/ci.yml)"
+          ]
+        },
+        {
+          "repo": "715d/go-truenas",
+          "html_url": "https://github.com/715d/go-truenas",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "GitHub Actions workflow (.github/workflows/test.yml)"
+          ]
+        },
+        {
+          "repo": "715d/nur",
+          "html_url": "https://github.com/715d/nur",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "GitHub Actions workflow (.github/workflows/build.yml)"
+          ]
+        },
+        {
+          "repo": "715d/zellij-claude",
+          "html_url": "https://github.com/715d/zellij-claude",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project",
+            "GitHub Actions workflow (.github/workflows/pr-validation.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (5 repo(s))."
+    },
+    {
+      "skill_id": "docker",
+      "claimed_level": 3,
+      "status": "not_observed",
+      "observed_level": null,
+      "evidence_strength": "none",
+      "repo_links": [],
+      "repos": [],
+      "rationale": "Claimed Advanced; no repository shows this skill. Absence is not evidence against the claim."
+    },
+    {
+      "skill_id": "go",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/715d/unusedfunc",
+        "https://github.com/715d/go-truenas"
+      ],
+      "repos": [
+        {
+          "repo": "715d/unusedfunc",
+          "html_url": "https://github.com/715d/unusedfunc",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; has_ci, has_tests, documented",
+            "Go: 199,696 bytes (97% of repo)",
+            "Go module (go.mod)"
+          ]
+        },
+        {
+          "repo": "715d/go-truenas",
+          "html_url": "https://github.com/715d/go-truenas",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "Go: 565,246 bytes (100% of repo)",
+            "Go module (go.mod)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Intermediate (2 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/715d/unusedfunc"
+      ],
+      "repos": [
+        {
+          "repo": "715d/unusedfunc",
+          "html_url": "https://github.com/715d/unusedfunc",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; has_ci, has_tests, documented",
+            "docs directory (docs/architecture.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/715d/unusedfunc",
+        "https://github.com/715d/go-truenas"
+      ],
+      "repos": [
+        {
+          "repo": "715d/unusedfunc",
+          "html_url": "https://github.com/715d/unusedfunc",
+          "level": 2,
+          "reasons": [
+            "intermediate: 5 commits; has_ci, has_tests, documented",
+            "test file (internal/analysis/func_info_test.go)"
+          ]
+        },
+        {
+          "repo": "715d/go-truenas",
+          "html_url": "https://github.com/715d/go-truenas",
+          "level": 1,
+          "reasons": [
+            "entry: follow_along_phrase",
+            "test file (truenas/client_alert_test.go)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Intermediate (2 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [
+    {
+      "skill_id": "shell",
+      "observed_level": 2,
+      "evidence_strength": "moderate",
+      "repo_links": [
+        "https://github.com/715d/rumpus"
+      ]
+    }
+  ],
+  "status_counts": {
+    "not_observed": 1,
+    "verified": 4
+  }
+}

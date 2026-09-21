@@ -1,0 +1,1146 @@
+{
+  "applicant_id": "applicant0089",
+  "login": "Antonio-Zago",
+  "html_url": "https://github.com/Antonio-Zago",
+  "created_at": "2021-03-08T18:44:11Z",
+  "account_age_days": 2018,
+  "public_repos": 37,
+  "followers": 6,
+  "following": 8,
+  "repos": [
+    {
+      "name": "AppTreinos",
+      "full_name": "Antonio-Zago/AppTreinos",
+      "html_url": "https://github.com/Antonio-Zago/AppTreinos",
+      "description": "Aplicativo mobile para acompanhamento de treinos na academia e compartilhamento do desempenho e rotina de treino com grupos online",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2024-12-06T22:29:11Z",
+      "pushed_at": "2025-09-09T01:17:11Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 13679,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 256323,
+        "C#": 124761,
+        "C++": 23799,
+        "CMake": 18278,
+        "Swift": 1665,
+        "HTML": 1236,
+        "C": 820,
+        "Kotlin": 132,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 476,
+      "top_level_paths": [
+        ".$DER.drawio.bkp",
+        ".$Fluxo salvar treinos individuais.drawio.bkp",
+        ".gitattributes",
+        ".gitignore",
+        "DER.drawio",
+        "Fluxo salvar treinos individuais.drawio",
+        "GymSquad.postman_collection.json",
+        "GymSquadBackEnd",
+        "README.md",
+        "UserStorysTreinos.xlsx",
+        "bkp",
+        "clean arq",
+        "db",
+        "gym_squad_front_end",
+        "idéias para design telas",
+        "imagens figma"
+      ],
+      "notable_files": [
+        "gym_squad_front_end/android/app/build.gradle",
+        "gym_squad_front_end/android/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 239,
+      "readme_excerpt": "# GymSquad - treino de academia compartilhado\n Aplicativo mobile para acompanhamento de treinos na academia e compartilhamento do desempenho e rotina de treino com grupos online\n\n ## Padrão de commits:\n GS-Numero task - Mensagem do commit\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 38,
+        "first_at": "2024-12-06T22:29:26+00:00",
+        "last_at": "2025-09-09T01:09:38+00:00",
+        "active_days": 28,
+        "span_days": 276,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.079,
+        "messages_sample": [
+          "GS-8.1 - Notificações de treinos realizados para outros membros do grupo",
+          "GS-14.1 - Ajustes no Drawer, inclusão do email, nome e foto do usuário logado",
+          "GS-7.1 - Tela de calendário dos treinos executados + refresh token",
+          "GS-12.6 - Cadastro de imagem na publicação",
+          "GS-12.6 - Publicações dentro dos grupos",
+          "GS-12.5 - Rotina de ranking de grupos por quantidade de treinos realizados",
+          "GS-12.4 - Rotina de solicitações dos grupos de usuários",
+          "GS-12.2 - Lista de grupos",
+          "GS-12.1 - CRUD grupos e grupos usuários",
+          "GS-5.1 - Tela principal + drawer com navegação entre telas",
+          "GS-4.2 - Testes, conclusão de treinos offline",
+          "GS-2.7 - Cadastro e listagem de treinos offline",
+          "backup",
+          "Adaptando para sqlite os dados armazenados no dispositivo",
+          "GS-1.2 - Tela de cadastro + Exception Middleware",
+          "GS-1.1 - Tela de login adaptada",
+          "GS-4.1 - Rotina para atualizar as cargas e repetições do treino padrão ao finalizar um treino",
+          "GS-2.6.1 - Exclusão de séries e exercicios na edição e inclusão de novos treinos",
+          "GS-2.6 - Rotinas de cadastro, atualização e exclusão de treinos",
+          "GS-2.5 - Feito a tela de criação de novos treinos,  + lógica para permitir criação offline do treino e salvamento no aparelho"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 268
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": true,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 256,323 bytes (60% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 124,761 bytes (29% of repo)",
+          "strength": 0.6921447505221847
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 23,799 bytes (6% of repo)",
+          "strength": 0.4557285763794573
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 1,665 bytes (0% of repo)",
+          "strength": 0.40389882262581606
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,236 bytes (0% of repo)",
+          "strength": 0.40289426112042565
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (bkp/gym_squad_db_dados_treino.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (gym_squad_front_end/android/app/src/main/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (gym_squad_front_end/pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 408774,
+        "strong_skills": [
+          "csharp",
+          "flutter",
+          "native-mobile",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "EcommerceModelo",
+      "full_name": "Antonio-Zago/EcommerceModelo",
+      "html_url": "https://github.com/Antonio-Zago/EcommerceModelo",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-05-08T01:07:16Z",
+      "pushed_at": "2026-07-02T01:20:14Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 122127,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "HTML": 122220,
+        "C#": 102898,
+        "CSS": 37820,
+        "JavaScript": 12744,
+        "Dockerfile": 1572
+      },
+      "primary_language": "HTML",
+      "file_count": 247,
+      "top_level_paths": [
+        ".$DER.drawio.bkp",
+        ".gitattributes",
+        ".gitignore",
+        "Backlog.xlsx",
+        "DER.drawio",
+        "EcommerceModelo",
+        "README.md",
+        "database",
+        "~$Backlog.xlsx"
+      ],
+      "notable_files": [
+        "EcommerceModelo/EcommerceModeloMvc/Dockerfile"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 19,
+      "readme_excerpt": "# EcommerceModelo\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": true,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 24,
+        "first_at": "2026-05-08T01:06:28+00:00",
+        "last_at": "2026-07-02T01:19:25+00:00",
+        "active_days": 18,
+        "span_days": 55,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.042,
+        "messages_sample": [
+          "EM-16.10 - Nova página para admistradores",
+          "EM-12.1,12.2 - Rotina para visualizar as compras",
+          "EM-10.1 - Implementado lógica para retornar produtos mais vendidos e produtos novos",
+          "EM-3.6 - Tela de detalhes dos produtos",
+          "EM-3.4 - Implementado lógica para retornar produtos tela principal",
+          "EM-3.4 - Criação da rotina para finalizar compra",
+          "Ajuste",
+          "Ajuste porta do redis",
+          "EM-4.1,4.2 - Implementado carrinho de compras",
+          "Alterações no projeto para rodar redis como back service",
+          "EM-4.5,4.6,4.7 - Rotina de cadastro, login, autorização",
+          "EM-2.3 - Rotina de importação de arquivo excel com BackgroundService + Queue + ConcurrentDictionary",
+          "EM-2.3 - Rotina de inclusão de produtos por excel",
+          "EM-1.4 - Cadastro de tipos de tamanhos",
+          "EM-1.2 - Rotina para salvar produtos no banco de dados",
+          "EM-1.2 - Ajustes tela de cadastro de produtos + Rotina de cadastro no banco de dados",
+          "EM-3.3 - Retornando produtos para tela home",
+          "EM-3.2 - Ajustes no mapeamento das entidades",
+          "EM-3.2 - Criação das principais telas da aplicação",
+          "EM-3.2 - Tela de produtos femininos"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": true,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 152
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 122,220 bytes (44% of repo)",
+          "strength": 0.8408232162565734
+        },
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 102,898 bytes (37% of repo)",
+          "strength": 0.7711326076449754
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 37,820 bytes (14% of repo)",
+          "strength": 0.5364092132124334
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 12,744 bytes (5% of repo)",
+          "strength": 0.4459650717392716
+        },
+        {
+          "skill_id": "docker",
+          "source": "language",
+          "detail": "Dockerfile: 1,572 bytes (1% of repo)",
+          "strength": 0.40566989114674634
+        },
+        {
+          "skill_id": "docker",
+          "source": "file",
+          "detail": "Dockerfile (EcommerceModelo/EcommerceModeloMvc/Dockerfile)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (database/migrations/V10__checkout.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (database/migrations/V10__checkout.sql)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 277254,
+        "strong_skills": [
+          "csharp",
+          "data-modeling",
+          "docker",
+          "html-css",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "IWantApp",
+      "full_name": "Antonio-Zago/IWantApp",
+      "html_url": "https://github.com/Antonio-Zago/IWantApp",
+      "description": "Projeto desenvolvido no curso da Udemy: .NET 6 WEB API - Do zero ao avançado",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-08-03T10:52:57Z",
+      "pushed_at": "2022-08-20T21:51:59Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 7236,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 44524
+      },
+      "primary_language": "C#",
+      "file_count": 122,
+      "top_level_paths": [
+        ".gitattributes",
+        ".vs",
+        "Domain",
+        "Endpoints",
+        "IWantApp.csproj",
+        "IWantApp.sln",
+        "Infra",
+        "Migrations",
+        "Program.cs",
+        "Properties",
+        "README.md",
+        "appsettings.Development.json",
+        "appsettings.json",
+        "bin",
+        "obj"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 13,
+      "readme_excerpt": "# IWantApp\n \n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 8,
+        "first_at": "2022-08-03T10:52:49+00:00",
+        "last_at": "2022-08-20T21:51:43+00:00",
+        "active_days": 5,
+        "span_days": 17,
+        "max_per_day": 3,
+        "low_effort_message_ratio": 0.125,
+        "messages_sample": [
+          "Paginação e ordenação com Dapper",
+          "Lista de Claims",
+          "Conclusão das validações de categoria",
+          "Validações com de categoria com Flunt",
+          "Atualização ConnectionStrings",
+          "Criação dos demais EndPoints de category",
+          "Criação dos domain categoria e produtos e dos endpoints de categoria",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "udemy"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 29
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 44,524 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "csharp",
+          "source": "repo_name",
+          "detail": "'.net' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 44524,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "FamilyBudgetControlAluraChallenge",
+      "full_name": "Antonio-Zago/FamilyBudgetControlAluraChallenge",
+      "html_url": "https://github.com/Antonio-Zago/FamilyBudgetControlAluraChallenge",
+      "description": "API para controle de orçamento familiar. Projeto proposto para desenvolvimento no Back End Challenger da Allura",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-08-05T14:11:38Z",
+      "pushed_at": "2022-08-09T23:49:02Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 6919,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 35808
+      },
+      "primary_language": "C#",
+      "file_count": 127,
+      "top_level_paths": [
+        ".gitattributes",
+        ".vs",
+        "Domain",
+        "EndPoints",
+        "FamilyBudgetControlAluraChallenge.csproj",
+        "FamilyBudgetControlAluraChallenge.sln",
+        "Infra",
+        "Migrations",
+        "Program.cs",
+        "Properties",
+        "README.md",
+        "appsettings.Development.json",
+        "appsettings.json",
+        "bin",
+        "img",
+        "obj"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 2981,
+      "readme_excerpt": "# FamilyBudgetControlAluraChallenge\nAPI para controle de orçamento familiar. Projeto proposto para desenvolvimento no Back End Challenger da Alura. #alurachallengebackend4\n\n## :clipboard: Tecnologias\n\n<div style=\"display: inline_block\">\n  <img align=\"center\"  height=\"100\" width=\"100\" src=\"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg\" />\n  <img align=\"center\"  height=\"100\" width=\"100\" src=\"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg\" />\n  <img align=\"center\"  height=\"100\" width=\"100\" src=\"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg\" /> \n  <img align=\"center\"  height=\"100\" width=\"100\" src=\"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg\" />\n  <img align=\"center\"  height=\"100\" width=\"100\" src=\"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg\" />\n</div>\n\n<br>\n\n## :hourglass_flowing_sand: Planejamento de Entregas\n- [x] [SPRINT 1] - 01/08/2022 a 07/08/2022\n\n- [ ] [SPRINT 2] - 08/08/2022 a 14/08/2022\n\n- [ ] [SPRINT 3] - 15/08/2022 a 21/08/2022\n\n\n\n## :card_index_dividers: Backlog SPRINT 1\n* Banc",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 16,
+        "first_at": "2022-08-05T14:10:56+00:00",
+        "last_at": "2022-08-09T23:48:58+00:00",
+        "active_days": 5,
+        "span_days": 4,
+        "max_per_day": 9,
+        "low_effort_message_ratio": 0.375,
+        "messages_sample": [
+          "endpoint de busca de despesas por mes, e endpoint de resumo mensal",
+          "Criação dos endpoints de busca por mes e por descrição",
+          "Criação da entidade de CategoriaDespesa",
+          "Criação de usuarios com autenticação usando o Identity",
+          "Update README.md",
+          "update readme",
+          "update readme",
+          "Merge branch 'main' of https://github.com/Antonio-Zago/FamilyBudgetControlAluraChallenge",
+          "Imagens de backlog",
+          "update readme",
+          "Create Read.Me",
+          "Conclusão dos EndPoints de Despesas",
+          "Conclusão endpoints de receita",
+          "Cadastro de receitas",
+          "Criação dos dominios de receita e despesa, endpoint de post de receitas",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 37
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 35,808 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 35808,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "LanchesMac",
+      "full_name": "Antonio-Zago/LanchesMac",
+      "html_url": "https://github.com/Antonio-Zago/LanchesMac",
+      "description": "Projeto de site de vendas de lanches desenvolvido durante o curso da Udemy do Macoratti: \"Curso de ASP .NET Core MVC - Criando um Site do Zero\"",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2021-10-01T13:24:04Z",
+      "pushed_at": "2022-04-11T20:37:51Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 12867,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C#": 107992,
+        "HTML": 8100,
+        "CSS": 1346,
+        "JavaScript": 226
+      },
+      "primary_language": "C#",
+      "file_count": 245,
+      "top_level_paths": [
+        ".gitattributes",
+        ".vs",
+        "LanchesMac",
+        "LanchesMac.sln",
+        "README.md"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 158,
+      "readme_excerpt": "# LanchesMac\n projeto de site de vendas de lanches desenvolvido durante o curso da Udemy do Macoratti: \"Curso de ASP .NET Core MVC - Criando um Site do Zero\"\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 13,
+        "first_at": "2021-10-01T13:23:49+00:00",
+        "last_at": "2022-04-11T20:31:35+00:00",
+        "active_days": 5,
+        "span_days": 192,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.077,
+        "messages_sample": [
+          "teste",
+          "Acertando Carousel da página index",
+          "Implementação do carrinho de compras",
+          "Uso do migration para criação da tabela CarrinhoDeCompraItens",
+          "Implementação da partial view na tela de lista de lanches",
+          "Implementando o ViewModel",
+          "Aplicando bootstrap na página de lista de lanches",
+          "Ajuste da View List",
+          "Imagens dos lanches e ajuste da view de lista de lanches",
+          "Criação da View de exibição da lista de lanches através do Scaffold",
+          "Migrations, DataAnotations, Padrão Repository",
+          "Criação das classes lanche e categorias, no padrão para trabalhar com Entity Framework Core",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": true,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [
+          "udemy"
+        ],
+        "notebook_count": 0,
+        "code_file_count": 59
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "csharp",
+          "source": "language",
+          "detail": "C#: 107,992 bytes (92% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 8,100 bytes (7% of repo)",
+          "strength": 0.46884008702746804
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 1,346 bytes (1% of repo)",
+          "strength": 0.4114393527332064
+        },
+        {
+          "skill_id": "csharp",
+          "source": "repo_name",
+          "detail": "'.net' in repo name/description",
+          "strength": 0.2
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 117664,
+        "strong_skills": [
+          "csharp"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "C#": 415983,
+    "Dart": 256323,
+    "HTML": 131556,
+    "CSS": 39166,
+    "C++": 23799,
+    "CMake": 18278,
+    "JavaScript": 12970,
+    "Swift": 1665,
+    "Dockerfile": 1572,
+    "C": 820,
+    "Kotlin": 132,
+    "Objective-C": 38
+  },
+  "total_commits": 99,
+  "skill_evidence": [
+    {
+      "skill_id": "csharp",
+      "repos": [
+        "Antonio-Zago/AppTreinos",
+        "Antonio-Zago/EcommerceModelo",
+        "Antonio-Zago/IWantApp",
+        "Antonio-Zago/FamilyBudgetControlAluraChallenge",
+        "Antonio-Zago/LanchesMac"
+      ],
+      "signal_count": 7,
+      "sources": [
+        "language",
+        "repo_name"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 415983,
+      "commit_count": 99,
+      "first_seen": "2021-10-01T13:23:49+00:00",
+      "last_seen": "2026-07-02T01:19:25+00:00",
+      "details": [
+        "AppTreinos: C#: 124,761 bytes (29% of repo)",
+        "EcommerceModelo: C#: 102,898 bytes (37% of repo)",
+        "IWantApp: C#: 44,524 bytes (100% of repo)",
+        "IWantApp: '.net' in repo name/description",
+        "FamilyBudgetControlAluraChallenge: C#: 35,808 bytes (100% of repo)",
+        "LanchesMac: C#: 107,992 bytes (92% of repo)",
+        "LanchesMac: '.net' in repo name/description"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "Antonio-Zago/AppTreinos"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 256323,
+      "commit_count": 38,
+      "first_seen": "2024-12-06T22:29:26+00:00",
+      "last_seen": "2025-09-09T01:09:38+00:00",
+      "details": [
+        "AppTreinos: Dart: 256,323 bytes (60% of repo)",
+        "AppTreinos: flutter project (gym_squad_front_end/pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Antonio-Zago/AppTreinos",
+        "Antonio-Zago/EcommerceModelo",
+        "Antonio-Zago/LanchesMac"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8408232162565734,
+      "total_bytes": 170722,
+      "commit_count": 75,
+      "first_seen": "2021-10-01T13:23:49+00:00",
+      "last_seen": "2026-07-02T01:19:25+00:00",
+      "details": [
+        "AppTreinos: HTML: 1,236 bytes (0% of repo)",
+        "EcommerceModelo: HTML: 122,220 bytes (44% of repo)",
+        "EcommerceModelo: CSS: 37,820 bytes (14% of repo)",
+        "LanchesMac: HTML: 8,100 bytes (7% of repo)",
+        "LanchesMac: CSS: 1,346 bytes (1% of repo)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "Antonio-Zago/AppTreinos",
+        "Antonio-Zago/EcommerceModelo"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 62,
+      "first_seen": "2024-12-06T22:29:26+00:00",
+      "last_seen": "2026-07-02T01:19:25+00:00",
+      "details": [
+        "AppTreinos: SQL file (bkp/gym_squad_db_dados_treino.sql)",
+        "EcommerceModelo: SQL file (database/migrations/V10__checkout.sql)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Antonio-Zago/AppTreinos"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1665,
+      "commit_count": 38,
+      "first_seen": "2024-12-06T22:29:26+00:00",
+      "last_seen": "2025-09-09T01:09:38+00:00",
+      "details": [
+        "AppTreinos: Swift: 1,665 bytes (0% of repo)",
+        "AppTreinos: Android app manifest (gym_squad_front_end/android/app/src/main/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "docker",
+      "repos": [
+        "Antonio-Zago/EcommerceModelo"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 1572,
+      "commit_count": 24,
+      "first_seen": "2026-05-08T01:06:28+00:00",
+      "last_seen": "2026-07-02T01:19:25+00:00",
+      "details": [
+        "EcommerceModelo: Dockerfile: 1,572 bytes (1% of repo)",
+        "EcommerceModelo: Dockerfile (EcommerceModelo/EcommerceModeloMvc/Dockerfile)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "Antonio-Zago/EcommerceModelo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 24,
+      "first_seen": "2026-05-08T01:06:28+00:00",
+      "last_seen": "2026-07-02T01:19:25+00:00",
+      "details": [
+        "EcommerceModelo: database migrations (database/migrations/V10__checkout.sql)"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "Antonio-Zago/AppTreinos"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4557285763794573,
+      "total_bytes": 23799,
+      "commit_count": 38,
+      "first_seen": "2024-12-06T22:29:26+00:00",
+      "last_seen": "2025-09-09T01:09:38+00:00",
+      "details": [
+        "AppTreinos: C++: 23,799 bytes (6% of repo)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Antonio-Zago/EcommerceModelo"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4459650717392716,
+      "total_bytes": 12744,
+      "commit_count": 24,
+      "first_seen": "2026-05-08T01:06:28+00:00",
+      "last_seen": "2026-07-02T01:19:25+00:00",
+      "details": [
+        "EcommerceModelo: JavaScript: 12,744 bytes (5% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 99,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 7,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "csharp",
+  "collected_at": "2026-09-17T01:34:26.679877+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

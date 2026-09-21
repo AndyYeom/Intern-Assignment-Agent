@@ -1,0 +1,366 @@
+{
+  "applicant_id": "applicant0120",
+  "github_login": "amrshipl83",
+  "profile_tier": "strict",
+  "claims_source": "resume_spec:applicant0120.json",
+  "skills": [
+    {
+      "skill_id": "aws",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/amrshipl83/my_second_app-"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "AWS IaC (flutter/packages/flutter_driver/lib/fix_data/template.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "c-cpp",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/amrshipl83/my_second_app-"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "C++: 17,350,660 bytes (16% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "cicd",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/amrshipl83/aksab_admin",
+        "https://github.com/amrshipl83/aksabsaels",
+        "https://github.com/amrshipl83/my_test_app"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/aksab_admin",
+          "html_url": "https://github.com/amrshipl83/aksab_admin",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 15 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/deploy.yml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/aksabsaels",
+          "html_url": "https://github.com/amrshipl83/aksabsaels",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 12 fix/perf/refactor commits",
+            "GitHub Actions workflow (.github/workflows/android_build.yml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/my_test_app",
+          "html_url": "https://github.com/amrshipl83/my_test_app",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "GitHub Actions workflow (.github/workflows/flutter_build.yml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (3 repo(s))."
+    },
+    {
+      "skill_id": "data-modeling",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/amrshipl83/my_second_app-"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "database migrations (flutter/packages/flutter_tools/lib/src/android/migrations/android_studio_java_gradle_conflict_migration.dart)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "flutter",
+      "claimed_level": 2,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/amrshipl83/aksab_admin",
+        "https://github.com/amrshipl83/aksabsaels",
+        "https://github.com/amrshipl83/my_second_app-",
+        "https://github.com/amrshipl83/my_test_app"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/aksab_admin",
+          "html_url": "https://github.com/amrshipl83/aksab_admin",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 15 fix/perf/refactor commits",
+            "Dart: 575,891 bytes (92% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/aksabsaels",
+          "html_url": "https://github.com/amrshipl83/aksabsaels",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 12 fix/perf/refactor commits",
+            "Dart: 318,096 bytes (63% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "Dart: 81,335,515 bytes (76% of repo)",
+            "flutter project (flutter/dev/a11y_assessments/pubspec.yaml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/my_test_app",
+          "html_url": "https://github.com/amrshipl83/my_test_app",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Dart: 1,171,383 bytes (86% of repo)",
+            "flutter project (pubspec.yaml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Intermediate; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "gcp-azure",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/amrshipl83/aksabsaels",
+        "https://github.com/amrshipl83/my_second_app-"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/aksabsaels",
+          "html_url": "https://github.com/amrshipl83/aksabsaels",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 12 fix/perf/refactor commits",
+            "firebase config (firebase.json)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "firebase config (flutter/dev/docs/.firebaserc)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "html-css",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/amrshipl83/aksabsaels",
+        "https://github.com/amrshipl83/3dmodels"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/aksabsaels",
+          "html_url": "https://github.com/amrshipl83/aksabsaels",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 12 fix/perf/refactor commits",
+            "HTML: 130,995 bytes (26% of repo)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/3dmodels",
+          "html_url": "https://github.com/amrshipl83/3dmodels",
+          "level": 1,
+          "reasons": [
+            "entry: single_file_project, all_commits_one_day",
+            "HTML: 8,013 bytes (100% of repo)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (2 repo(s))."
+    },
+    {
+      "skill_id": "kubernetes",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/amrshipl83/my_second_app-"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "kubernetes manifests (flutter/dev/integration_tests/new_gallery/lib/studies/rally/charts/line_chart.dart)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "native-mobile",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 3,
+      "evidence_strength": "strong",
+      "repo_links": [
+        "https://github.com/amrshipl83/aksab_admin",
+        "https://github.com/amrshipl83/aksabsaels",
+        "https://github.com/amrshipl83/my_second_app-",
+        "https://github.com/amrshipl83/my_test_app"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/aksab_admin",
+          "html_url": "https://github.com/amrshipl83/aksab_admin",
+          "level": 3,
+          "reasons": [
+            "intermediate: 200 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 15 fix/perf/refactor commits",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/aksabsaels",
+          "html_url": "https://github.com/amrshipl83/aksabsaels",
+          "level": 3,
+          "reasons": [
+            "intermediate: 122 commits; has_ci, multi_month_span, many_active_days",
+            "advanced: sustained maintenance, 12 fix/perf/refactor commits",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        },
+        {
+          "repo": "amrshipl83/my_test_app",
+          "html_url": "https://github.com/amrshipl83/my_test_app",
+          "level": 1,
+          "reasons": [
+            "entry: tutorial_name_hit",
+            "Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Advanced (4 repo(s))."
+    },
+    {
+      "skill_id": "technical-writing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/amrshipl83/my_second_app-"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "docs directory (flutter/dev/docs/README.md)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    },
+    {
+      "skill_id": "unit-testing",
+      "claimed_level": 1,
+      "status": "verified",
+      "observed_level": 1,
+      "evidence_strength": "weak",
+      "repo_links": [
+        "https://github.com/amrshipl83/my_second_app-"
+      ],
+      "repos": [
+        {
+          "repo": "amrshipl83/my_second_app-",
+          "html_url": "https://github.com/amrshipl83/my_second_app-",
+          "level": 1,
+          "reasons": [
+            "entry: 4 commits, independent-work signals: has_tests",
+            "test directory (flutter/engine/src/flutter/shell/platform/android/test/io/flutter/CustomShadowContextImpl.java)"
+          ]
+        }
+      ],
+      "rationale": "Claimed Entry; GitHub evidence supports Entry (1 repo(s))."
+    }
+  ],
+  "unclaimed_observed": [],
+  "status_counts": {
+    "verified": 11
+  }
+}

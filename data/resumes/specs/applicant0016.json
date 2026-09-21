@@ -1,0 +1,139 @@
+{
+  "github_login": "George2f",
+  "applicant_id": "applicant0016",
+  "first_name": "Esperanza",
+  "last_name": "Duarte",
+  "career_stage": "switcher",
+  "email": "esperanza@thornfieldharbor.example",
+  "phone": "(555) 010-0161",
+  "location": "Thornfield Harbor",
+  "linkedin": "linkedin.example.com/in/esperanza-duarte",
+  "github_url": "github.example.com/esperanza-duarte",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Thornfield Harbor Technical College",
+    "location": "Thornfield Harbor",
+    "degree": "Associate of Applied Science",
+    "major": "Web & Systems Development",
+    "minor": null,
+    "graduation": "Aug 2024",
+    "gpa": null,
+    "coursework": [
+      "Relational Database Design",
+      "Systems Administration",
+      "Web Application Development",
+      "Version Control & Collaboration"
+    ],
+    "honors": []
+  },
+  "experience": [
+    {
+      "title": "Inventory Operations Coordinator",
+      "organization": "Thornfield Harbor Distribution Center",
+      "location": "Thornfield Harbor",
+      "start": "Jan 2019",
+      "end": "Jun 2023",
+      "bullets": [
+        "Tracked shipment and inventory records across spreadsheets shared by three shifts, and repeatedly found conflicting counts after handoffs.",
+        "Built a validation-rule spreadsheet to catch entry errors before the next shift, sparking interest in sturdier data systems."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Dumbest Graph App",
+      "organization": null,
+      "location": null,
+      "start": "Oct 2023",
+      "end": "Jul 2024",
+      "bullets": [
+        "Modeled relational data with Prisma and Express, building a graph visualization app after leaving the warehouse floor for coursework.",
+        "Iterated on the schema over 34 active days as the data model grew messier than expected."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Express",
+        "Prisma",
+        "React"
+      ]
+    },
+    {
+      "title": "September Testing",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2021",
+      "end": "Oct 2022",
+      "bullets": [
+        "Set up continuous integration and an automated test suite for a TypeScript project, treating reliability as a first-class concern."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "SCSS"
+      ]
+    },
+    {
+      "title": "Bpm Light",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2024",
+      "end": "Mar 2024",
+      "bullets": [
+        "Prototyped a lightweight business-process tool in Vue and TypeScript, drawing on firsthand experience with brittle handoff processes."
+      ],
+      "link": null,
+      "tech": [
+        "TypeScript",
+        "Vue",
+        "JavaScript"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Group Organizer",
+      "organization": "Thornfield Harbor Career-Change Coders",
+      "location": null,
+      "start": "Sep 2023",
+      "end": "Present",
+      "bullets": [
+        "Started a study group for other career-changers learning web development, organizing sessions around debugging real projects instead of tutorials."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "TypeScript",
+      "SQL"
+    ],
+    "Frontend": [
+      "Tailwind CSS",
+      "React",
+      "Vue (Advanced)"
+    ],
+    "Backend": [
+      "Node.js"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "DevOps": [
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

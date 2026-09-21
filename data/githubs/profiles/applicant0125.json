@@ -1,0 +1,1294 @@
+{
+  "applicant_id": "applicant0125",
+  "login": "SooyAldahir",
+  "html_url": "https://github.com/SooyAldahir",
+  "created_at": "2022-10-13T20:24:27Z",
+  "account_age_days": 1434,
+  "public_repos": 43,
+  "followers": 0,
+  "following": 0,
+  "repos": [
+    {
+      "name": "appEDIFront",
+      "full_name": "SooyAldahir/appEDIFront",
+      "html_url": "https://github.com/SooyAldahir/appEDIFront",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-11-12T16:37:18Z",
+      "pushed_at": "2026-09-17T00:54:59Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5161,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 1125755,
+        "C++": 27283,
+        "CMake": 19968,
+        "Swift": 3495,
+        "Ruby": 3474,
+        "HTML": 3175,
+        "C": 1425,
+        "Kotlin": 370,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 306,
+      "top_level_paths": [
+        ".DS_Store",
+        ".vscode",
+        "edi301"
+      ],
+      "notable_files": [
+        "edi301/android/app/build.gradle.kts",
+        "edi301/android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 4,
+      "contribution_share": 0.267,
+      "commits": {
+        "count": 20,
+        "first_at": "2025-11-12T16:49:04+00:00",
+        "last_at": "2026-01-06T17:49:05+00:00",
+        "active_days": 9,
+        "span_days": 55,
+        "max_per_day": 6,
+        "low_effort_message_ratio": 0.05,
+        "messages_sample": [
+          "modifcacion en el login",
+          "Chat semi listo",
+          "Envio de notificaciones listo",
+          "02 de enero de 2026",
+          "NOTIFICACIONES PUSH Y LOCALES LISTAS",
+          "01-01-2026",
+          "[phone]",
+          "29-12-2025",
+          "18-12-2025",
+          "01-12-2025",
+          "29-11-2025",
+          "Changes on register_page --Send code verification : DONE",
+          "22/11/25",
+          "Changes on register page",
+          "Actualizar descripcion de familia: DONE",
+          "cambios en el boton de editar familias: DONE",
+          "cambios en el boton de editar familias",
+          "cambios en familia",
+          "11 10 25",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 133
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 1,125,755 bytes (95% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 27,283 bytes (2% of repo)",
+          "strength": 0.4230239589935046
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 3,495 bytes (0% of repo)",
+          "strength": 0.40294940940081
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,175 bytes (0% of repo)",
+          "strength": 0.40267936333263854
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (0% of repo)",
+          "strength": 0.401202548897326
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (edi301/android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (edi301/pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 1161541,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Front-End-Clean",
+      "full_name": "SooyAldahir/Front-End-Clean",
+      "html_url": "https://github.com/SooyAldahir/Front-End-Clean",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2026-03-26T06:30:18Z",
+      "pushed_at": "2026-03-26T12:49:52Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3127,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 382680,
+        "C++": 27134,
+        "CMake": 19947,
+        "Swift": 3387,
+        "HTML": 3175,
+        "Ruby": 2880,
+        "C": 1425,
+        "Kotlin": 135,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 269,
+      "top_level_paths": [
+        ".DS_Store",
+        ".flutter-plugins-dependencies",
+        ".gitignore",
+        ".vscode",
+        "README.md",
+        "analysis_options.yaml",
+        "android",
+        "assets",
+        "ios",
+        "lib",
+        "linux",
+        "macos",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "web",
+        "windows"
+      ],
+      "notable_files": [
+        "android/app/build.gradle.kts",
+        "android/build.gradle.kts"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 13850,
+      "readme_excerpt": "# EDI 301 — Frontend Flutter\n\n<div align=\"center\">\n\n```\n ███████╗██████╗ ██╗    ██████╗  ██████╗  ██╗\n ██╔════╝██╔══██╗██║    ╚════██╗██╔═████╗███║\n █████╗  ██║  ██║██║     █████╔╝██║██╔██║╚██║\n ██╔══╝  ██║  ██║██║     ╚═══██╗████╔╝██║ ██║\n ███████╗██████╔╝██║    ██████╔╝╚██████╔╝ ██║\n ╚══════╝╚═════╝ ╚═╝    ╚═════╝  ╚═════╝  ╚═╝\n```\n\n**Aplicación móvil de gestión de familias escolares**  \nFlutter · Clean Architecture · Node.js API\n\n![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter)\n![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart)\n![Firebase](https://img.shields.io/badge/Firebase-Messaging-FFCA28?style=flat-square&logo=firebase)\n\n</div>\n\n---\n\n## Índice\n\n- [Descripción](#descripción)\n- [Arquitectura](#arquitectura)\n- [Estructura del Proyecto](#estructura-del-proyecto)\n- [Requisitos](#requisitos)\n- [Instalación](#instalación)\n- [Configuración](#configuración)\n- [Módulos y Funcionalidades](#módulos-y-funcionalidades)\n- [Patrones Implementados](#patrones-implementados)\n- [Modelos de Datos](#modelos-de-datos)\n- [Navegación y Rutas](#navegación-y-rutas)\n- [Variables de Entorno](#variables-de-entorno)\n\n---\n\n## Descri",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 4,
+        "first_at": "2026-03-26T06:33:30+00:00",
+        "last_at": "2026-03-26T12:49:51+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Update README with full university name",
+          "agrego readme",
+          "Add proper .gitignore, remove build artifacts",
+          "first commit"
+        ],
+        "attribution": "sole_author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": true
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 96
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 382,680 bytes (87% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 27,134 bytes (6% of repo)",
+          "strength": 0.4615561216966386
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 3,387 bytes (1% of repo)",
+          "strength": 0.40768373937445695
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 3,175 bytes (1% of repo)",
+          "strength": 0.4072027967268677
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (0% of repo)",
+          "strength": 0.40323275128686187
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 417974,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "appEDIBack",
+      "full_name": "SooyAldahir/appEDIBack",
+      "html_url": "https://github.com/SooyAldahir/appEDIBack",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-10-30T16:17:49Z",
+      "pushed_at": "2026-02-02T18:28:22Z",
+      "stargazers": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 5225,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 112176,
+        "TSQL": 20194
+      },
+      "primary_language": "JavaScript",
+      "file_count": 74,
+      "top_level_paths": [
+        ".DS_Store",
+        ".gitignore",
+        "package-lock.json",
+        "package.json",
+        "src"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "bcrypt",
+          "bcryptjs",
+          "cors",
+          "dotenv",
+          "express",
+          "express-fileupload",
+          "firebase-admin",
+          "http",
+          "joi",
+          "jsonwebtoken",
+          "mssql",
+          "multer",
+          "node-cron",
+          "nodemon",
+          "uuid"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.579,
+      "commits": {
+        "count": 22,
+        "first_at": "2025-10-30T16:18:38+00:00",
+        "last_at": "2026-01-06T15:27:56+00:00",
+        "active_days": 12,
+        "span_days": 67,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.136,
+        "messages_sample": [
+          "Chat casi listo",
+          "Permismos de publicacion listos",
+          "02 de enero de 2026",
+          "NOTIFICACIONES PUSH Y LOCALES LISTAS",
+          "01-01-2026",
+          "[phone]",
+          "[phone]",
+          "29-12-2025",
+          "18-12-2025",
+          "29-11-2025",
+          "Changes on register_page --Send code verification: DONE",
+          "22/11/25",
+          "Agregar descripcion de familia: DONE",
+          "Boton de actualizar foto perfil y portada: DONE",
+          "cambios en el boton de editar familias",
+          "cambios en el boton de editar familia",
+          "16 11 25",
+          "changes on family table",
+          "new changes in repotes pdf and mi agenda",
+          "changes"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": true,
+          "many_active_days": true,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 3,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 66
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": true,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 112,176 bytes (85% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "sql",
+          "source": "language",
+          "detail": "TSQL: 20,194 bytes (15% of repo)",
+          "strength": 0.5525572259575433
+        },
+        {
+          "skill_id": "sql",
+          "source": "file",
+          "detail": "SQL file (src/dataBase/script_DB.sql)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "gcp-azure",
+          "source": "manifest",
+          "detail": "firebase-admin in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "jsonwebtoken in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 132370,
+        "strong_skills": [
+          "auth",
+          "gcp-azure",
+          "javascript",
+          "nodejs",
+          "sql"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Integration_tests",
+      "full_name": "SooyAldahir/Integration_tests",
+      "html_url": "https://github.com/SooyAldahir/Integration_tests",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-09-04T15:46:49Z",
+      "pushed_at": "2025-09-10T05:39:37Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3576,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "C++": 24091,
+        "CMake": 19716,
+        "Dart": 9319,
+        "JavaScript": 5030,
+        "Swift": 1812,
+        "C": 1425,
+        "HTML": 1214,
+        "Kotlin": 122,
+        "Objective-C": 38
+      },
+      "primary_language": "C++",
+      "file_count": 2183,
+      "top_level_paths": [
+        ".gitignore",
+        "README.md",
+        "task-api",
+        "task_app"
+      ],
+      "notable_files": [
+        "task-api/node_modules/@isaacs/cliui/package.json",
+        "task-api/node_modules/@noble/hashes/esm/package.json",
+        "task-api/node_modules/@noble/hashes/package.json",
+        "task-api/node_modules/@paralleldrive/cuid2/package.json",
+        "task-api/node_modules/@pkgjs/parseargs/package.json",
+        "task-api/node_modules/accepts/package.json",
+        "task-api/node_modules/ansi-regex/package.json",
+        "task-api/node_modules/ansi-styles/package.json",
+        "task-api/node_modules/argparse/package.json",
+        "task-api/node_modules/asap/package.json",
+        "task-api/node_modules/asynckit/package.json",
+        "task-api/node_modules/balanced-match/package.json",
+        "task-api/node_modules/body-parser/package.json",
+        "task-api/node_modules/brace-expansion/package.json",
+        "task-api/node_modules/browser-stdout/package.json",
+        "task-api/node_modules/bytes/package.json",
+        "task-api/node_modules/call-bind-apply-helpers/package.json",
+        "task-api/node_modules/call-bound/package.json",
+        "task-api/node_modules/camelcase/package.json",
+        "task-api/node_modules/chai/package.json",
+        "task-api/node_modules/chalk/node_modules/supports-color/package.json",
+        "task-api/node_modules/chalk/package.json",
+        "task-api/node_modules/chokidar/esm/package.json",
+        "task-api/node_modules/chokidar/package.json",
+        "task-api/node_modules/cliui/node_modules/ansi-regex/package.json",
+        "task-api/node_modules/cliui/node_modules/emoji-regex/package.json",
+        "task-api/node_modules/cliui/node_modules/string-width/package.json",
+        "task-api/node_modules/cliui/node_modules/strip-ansi/package.json",
+        "task-api/node_modules/cliui/node_modules/wrap-ansi/package.json",
+        "task-api/node_modules/cliui/package.json"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 22,
+      "readme_excerpt": "﻿# Integration_tests\r\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 2,
+      "contribution_share": 0.667,
+      "commits": {
+        "count": 4,
+        "first_at": "2025-09-04T21:48:28+00:00",
+        "last_at": "2025-09-10T05:39:37+00:00",
+        "active_days": 3,
+        "span_days": 5,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.25,
+        "messages_sample": [
+          "Merge pull request #2 from SooyAldahir/Duilio",
+          "Merge pull request #1 from SooyAldahir/Duilio",
+          "chore: add .gitignore and remove heavy folders from repo",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 0,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1033
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": true,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C++: 24,091 bytes (38% of repo)",
+          "strength": 0.7838163366100022
+        },
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 9,319 bytes (15% of repo)",
+          "strength": 0.54846973728233
+        },
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 5,030 bytes (8% of repo)",
+          "strength": 0.48013765195086594
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "language",
+          "detail": "Swift: 1,812 bytes (3% of repo)",
+          "strength": 0.4288686730288209
+        },
+        {
+          "skill_id": "c-cpp",
+          "source": "language",
+          "detail": "C: 1,425 bytes (2% of repo)",
+          "strength": 0.4227030127296191
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 1,214 bytes (2% of repo)",
+          "strength": 0.4193413736517597
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (task-api/node_modules/call-bind-apply-helpers/test/index.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (task_app/android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (task_app/pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 43051,
+        "strong_skills": [
+          "c-cpp",
+          "flutter",
+          "native-mobile",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Lab1_Pruebas_a_nivel_componente",
+      "full_name": "SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+      "html_url": "https://github.com/SooyAldahir/Lab1_Pruebas_a_nivel_componente",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2025-08-28T15:10:32Z",
+      "pushed_at": "2025-08-28T15:12:26Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3538,
+      "default_branch": "main",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 8713
+      },
+      "primary_language": "JavaScript",
+      "file_count": 2258,
+      "top_level_paths": [
+        "README.md",
+        "lib",
+        "node_modules",
+        "package-lock.json",
+        "package.json",
+        "test"
+      ],
+      "notable_files": [
+        "node_modules/@isaacs/cliui/package.json",
+        "node_modules/@noble/hashes/esm/package.json",
+        "node_modules/@noble/hashes/package.json",
+        "node_modules/@paralleldrive/cuid2/package.json",
+        "node_modules/@pkgjs/parseargs/package.json",
+        "node_modules/accepts/package.json",
+        "node_modules/ansi-regex/package.json",
+        "node_modules/ansi-styles/package.json",
+        "node_modules/argparse/package.json",
+        "node_modules/asap/package.json",
+        "node_modules/assertion-error/package.json",
+        "node_modules/asynckit/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/body-parser/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/browser-stdout/package.json",
+        "node_modules/buffer-equal-constant-time/package.json",
+        "node_modules/bytes/package.json",
+        "node_modules/call-bind-apply-helpers/package.json",
+        "node_modules/call-bound/package.json",
+        "node_modules/camelcase/package.json",
+        "node_modules/chai/package.json",
+        "node_modules/chalk/node_modules/supports-color/package.json",
+        "node_modules/chalk/package.json",
+        "node_modules/check-error/package.json",
+        "node_modules/chokidar/esm/package.json",
+        "node_modules/chokidar/package.json",
+        "node_modules/cliui/node_modules/ansi-regex/package.json",
+        "node_modules/cliui/node_modules/emoji-regex/package.json",
+        "node_modules/cliui/node_modules/string-width/package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "chai",
+          "express",
+          "jsonwebtoken",
+          "mocha",
+          "supertest"
+        ]
+      },
+      "has_readme": true,
+      "readme_length": 36,
+      "readme_excerpt": "﻿# Lab1_Pruebas_a_nivel_componente\r\n",
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2025-08-28T15:11:28+00:00",
+        "last_at": "2025-08-28T15:11:28+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 1.0,
+        "messages_sample": [
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": true,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [
+          "(^|[-_])(assignment|homework|lab\\d*|week\\d+|day\\d+)([-_]|$)"
+        ],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1146
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 8,713 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (node_modules/call-bind-apply-helpers/test/index.js)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "chai in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "nodejs",
+          "source": "manifest",
+          "detail": "express in package.json",
+          "strength": 0.9
+        },
+        {
+          "skill_id": "auth",
+          "source": "manifest",
+          "detail": "jsonwebtoken in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8713,
+        "strong_skills": [
+          "auth",
+          "javascript",
+          "nodejs",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Dart": 1517754,
+    "JavaScript": 125919,
+    "C++": 78508,
+    "CMake": 59631,
+    "TSQL": 20194,
+    "Swift": 8694,
+    "HTML": 7564,
+    "Ruby": 6354,
+    "C": 4275,
+    "Kotlin": 627,
+    "Objective-C": 114
+  },
+  "total_commits": 51,
+  "skill_evidence": [
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "SooyAldahir/appEDIFront",
+        "SooyAldahir/Front-End-Clean",
+        "SooyAldahir/Integration_tests"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 1517754,
+      "commit_count": 28,
+      "first_seen": "2025-09-04T21:48:28+00:00",
+      "last_seen": "2026-03-26T12:49:51+00:00",
+      "details": [
+        "appEDIFront: Dart: 1,125,755 bytes (95% of repo)",
+        "appEDIFront: flutter project (edi301/pubspec.yaml)",
+        "Front-End-Clean: Dart: 382,680 bytes (87% of repo)",
+        "Front-End-Clean: flutter project (pubspec.yaml)",
+        "Integration_tests: Dart: 9,319 bytes (15% of repo)",
+        "Integration_tests: flutter project (task_app/pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "SooyAldahir/appEDIBack",
+        "SooyAldahir/Integration_tests",
+        "SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 125919,
+      "commit_count": 27,
+      "first_seen": "2025-08-28T15:11:28+00:00",
+      "last_seen": "2026-01-06T15:27:56+00:00",
+      "details": [
+        "appEDIBack: JavaScript: 112,176 bytes (85% of repo)",
+        "Integration_tests: JavaScript: 5,030 bytes (8% of repo)",
+        "Lab1_Pruebas_a_nivel_componente: JavaScript: 8,713 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "SooyAldahir/Integration_tests",
+        "SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 5,
+      "first_seen": "2025-08-28T15:11:28+00:00",
+      "last_seen": "2025-09-10T05:39:37+00:00",
+      "details": [
+        "Integration_tests: test directory (task-api/node_modules/call-bind-apply-helpers/test/index.js)",
+        "Lab1_Pruebas_a_nivel_componente: test directory (node_modules/call-bind-apply-helpers/test/index.js)",
+        "Lab1_Pruebas_a_nivel_componente: chai in package.json"
+      ]
+    },
+    {
+      "skill_id": "nodejs",
+      "repos": [
+        "SooyAldahir/appEDIBack",
+        "SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2025-08-28T15:11:28+00:00",
+      "last_seen": "2026-01-06T15:27:56+00:00",
+      "details": [
+        "appEDIBack: express in package.json",
+        "Lab1_Pruebas_a_nivel_componente: express in package.json"
+      ]
+    },
+    {
+      "skill_id": "auth",
+      "repos": [
+        "SooyAldahir/appEDIBack",
+        "SooyAldahir/Lab1_Pruebas_a_nivel_componente"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 23,
+      "first_seen": "2025-08-28T15:11:28+00:00",
+      "last_seen": "2026-01-06T15:27:56+00:00",
+      "details": [
+        "appEDIBack: jsonwebtoken in package.json",
+        "Lab1_Pruebas_a_nivel_componente: jsonwebtoken in package.json"
+      ]
+    },
+    {
+      "skill_id": "gcp-azure",
+      "repos": [
+        "SooyAldahir/appEDIBack"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 22,
+      "first_seen": "2025-10-30T16:18:38+00:00",
+      "last_seen": "2026-01-06T15:27:56+00:00",
+      "details": [
+        "appEDIBack: firebase-admin in package.json"
+      ]
+    },
+    {
+      "skill_id": "c-cpp",
+      "repos": [
+        "SooyAldahir/appEDIFront",
+        "SooyAldahir/Front-End-Clean",
+        "SooyAldahir/Integration_tests"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.7838163366100022,
+      "total_bytes": 82783,
+      "commit_count": 28,
+      "first_seen": "2025-09-04T21:48:28+00:00",
+      "last_seen": "2026-03-26T12:49:51+00:00",
+      "details": [
+        "appEDIFront: C++: 27,283 bytes (2% of repo)",
+        "appEDIFront: C: 1,425 bytes (0% of repo)",
+        "Front-End-Clean: C++: 27,134 bytes (6% of repo)",
+        "Front-End-Clean: C: 1,425 bytes (0% of repo)",
+        "Integration_tests: C++: 24,091 bytes (38% of repo)",
+        "Integration_tests: C: 1,425 bytes (2% of repo)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "SooyAldahir/appEDIFront",
+        "SooyAldahir/Front-End-Clean",
+        "SooyAldahir/Integration_tests"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 8694,
+      "commit_count": 28,
+      "first_seen": "2025-09-04T21:48:28+00:00",
+      "last_seen": "2026-03-26T12:49:51+00:00",
+      "details": [
+        "appEDIFront: Swift: 3,495 bytes (0% of repo)",
+        "appEDIFront: Android app manifest (edi301/android/app/src/debug/AndroidManifest.xml)",
+        "Front-End-Clean: Swift: 3,387 bytes (1% of repo)",
+        "Front-End-Clean: Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+        "Integration_tests: Swift: 1,812 bytes (3% of repo)",
+        "Integration_tests: Android app manifest (task_app/android/app/src/debug/AndroidManifest.xml)"
+      ]
+    },
+    {
+      "skill_id": "sql",
+      "repos": [
+        "SooyAldahir/appEDIBack"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 20194,
+      "commit_count": 22,
+      "first_seen": "2025-10-30T16:18:38+00:00",
+      "last_seen": "2026-01-06T15:27:56+00:00",
+      "details": [
+        "appEDIBack: TSQL: 20,194 bytes (15% of repo)",
+        "appEDIBack: SQL file (src/dataBase/script_DB.sql)"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "SooyAldahir/appEDIFront",
+        "SooyAldahir/Front-End-Clean",
+        "SooyAldahir/Integration_tests"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.4193413736517597,
+      "total_bytes": 7564,
+      "commit_count": 28,
+      "first_seen": "2025-09-04T21:48:28+00:00",
+      "last_seen": "2026-03-26T12:49:51+00:00",
+      "details": [
+        "appEDIFront: HTML: 3,175 bytes (0% of repo)",
+        "Front-End-Clean: HTML: 3,175 bytes (1% of repo)",
+        "Integration_tests: HTML: 1,214 bytes (2% of repo)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 5,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 51,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 9,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "mobile",
+  "collected_at": "2026-09-17T01:32:41.654641+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

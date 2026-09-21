@@ -1,0 +1,992 @@
+{
+  "applicant_id": "applicant0017",
+  "login": "shwetargpv",
+  "html_url": "https://github.com/shwetargpv",
+  "created_at": "2020-01-31T23:55:08Z",
+  "account_age_days": 2419,
+  "public_repos": 9,
+  "followers": 1,
+  "following": 0,
+  "repos": [
+    {
+      "name": "DailyMail_WebSite_Automation",
+      "full_name": "shwetargpv/DailyMail_WebSite_Automation",
+      "html_url": "https://github.com/shwetargpv/DailyMail_WebSite_Automation",
+      "description": "This is daily mail website automation project",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-05-30T03:34:31Z",
+      "pushed_at": "2022-06-29T18:10:01Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 4689,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 54288,
+        "Gherkin": 5547
+      },
+      "primary_language": "Java",
+      "file_count": 29,
+      "top_level_paths": [
+        ".gitignore",
+        "debug.log",
+        "pom.xml",
+        "src",
+        "testng.xml"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "amazon-shopping",
+          "cucumber-java",
+          "cucumber-reporting",
+          "cucumber-testng",
+          "extentreports",
+          "guava",
+          "junit",
+          "maven-compiler-plugin",
+          "maven-failsafe-plugin",
+          "maven-resources-plugin",
+          "poi",
+          "poi-ooxml",
+          "selenium-java",
+          "testng"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 7
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 54,288 bytes (91% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/ConstantVariables/Constant.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 54288,
+        "strong_skills": [
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Automation-DemoWebsite",
+      "full_name": "shwetargpv/Automation-DemoWebsite",
+      "html_url": "https://github.com/shwetargpv/Automation-DemoWebsite",
+      "description": "This repository is for demo website automation code",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-05-27T04:36:11Z",
+      "pushed_at": "2022-06-29T18:09:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 4328,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 50497,
+        "HTML": 15016,
+        "Gherkin": 1544
+      },
+      "primary_language": "Java",
+      "file_count": 16,
+      "top_level_paths": [
+        ".gitignore",
+        "debug.log",
+        "pom.xml",
+        "src",
+        "testng.xml"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "amazon-shopping",
+          "cucumber-java",
+          "cucumber-reporting",
+          "cucumber-testng",
+          "extentreports",
+          "guava",
+          "junit",
+          "maven-compiler-plugin",
+          "maven-failsafe-plugin",
+          "maven-resources-plugin",
+          "poi",
+          "poi-ooxml",
+          "selenium-java",
+          "testng"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 50,497 bytes (75% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 15,016 bytes (22% of repo)",
+          "strength": 0.6239288963120927
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/ConstantVariables/Constant.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 65513,
+        "strong_skills": [
+          "html-css",
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "CalenderAutomation",
+      "full_name": "shwetargpv/CalenderAutomation",
+      "html_url": "https://github.com/shwetargpv/CalenderAutomation",
+      "description": "This is about the automating a calender.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-05-18T09:57:52Z",
+      "pushed_at": "2022-06-29T18:08:43Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 4314,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 34649,
+        "HTML": 15035,
+        "Gherkin": 445
+      },
+      "primary_language": "Java",
+      "file_count": 15,
+      "top_level_paths": [
+        ".gitignore",
+        "debug.log",
+        "pom.xml",
+        "src",
+        "testng.xml"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "amazon-shopping",
+          "cucumber-java",
+          "cucumber-reporting",
+          "cucumber-testng",
+          "extentreports",
+          "guava",
+          "junit",
+          "maven-compiler-plugin",
+          "maven-failsafe-plugin",
+          "maven-resources-plugin",
+          "poi",
+          "poi-ooxml",
+          "selenium-java",
+          "testng"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 34,649 bytes (69% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 15,035 bytes (30% of repo)",
+          "strength": 0.699926190428694
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/ConstantVariables/Constant.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 49684,
+        "strong_skills": [
+          "html-css",
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Trading_Information",
+      "full_name": "shwetargpv/Trading_Information",
+      "html_url": "https://github.com/shwetargpv/Trading_Information",
+      "description": "Share_Market_Trading_Info",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-05-17T02:20:38Z",
+      "pushed_at": "2022-06-29T18:08:38Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 4349,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 32246,
+        "HTML": 16769,
+        "Gherkin": 213
+      },
+      "primary_language": "Java",
+      "file_count": 22,
+      "top_level_paths": [
+        ".gitignore",
+        "debug.log",
+        "pom.xml",
+        "src",
+        "testng.xml"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "amazon-shopping",
+          "cucumber-java",
+          "cucumber-reporting",
+          "cucumber-testng",
+          "extentreports",
+          "guava",
+          "junit",
+          "maven-compiler-plugin",
+          "maven-failsafe-plugin",
+          "maven-resources-plugin",
+          "poi",
+          "poi-ooxml",
+          "selenium-java",
+          "testng"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 32,246 bytes (66% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 16,769 bytes (34% of repo)",
+          "strength": 0.7406394734703827
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/ConstantVariables/Constant.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 49015,
+        "strong_skills": [
+          "html-css",
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "SeleniumJava",
+      "full_name": "shwetargpv/SeleniumJava",
+      "html_url": "https://github.com/shwetargpv/SeleniumJava",
+      "description": null,
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-04-19T07:55:39Z",
+      "pushed_at": "2022-06-29T18:05:04Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "size_kb": 6057,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Java": 20067,
+        "HTML": 16619,
+        "Gherkin": 519
+      },
+      "primary_language": "Java",
+      "file_count": 16,
+      "top_level_paths": [
+        ".gitignore",
+        "pom.xml",
+        "src",
+        "testng.xml"
+      ],
+      "notable_files": [
+        "pom.xml"
+      ],
+      "manifests": {
+        "pom.xml": [
+          "amazon-shopping",
+          "cucumber-java",
+          "cucumber-reporting",
+          "cucumber-testng",
+          "extentreports",
+          "guava",
+          "java-client",
+          "junit",
+          "maven-compiler-plugin",
+          "maven-failsafe-plugin",
+          "maven-resources-plugin",
+          "poi",
+          "poi-ooxml",
+          "testng"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": true,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 0.0,
+      "commits": {
+        "count": 0,
+        "first_at": null,
+        "last_at": null,
+        "active_days": 0,
+        "span_days": 0,
+        "max_per_day": 0,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": true,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 2,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "java",
+          "source": "language",
+          "detail": "Java: 20,067 bytes (54% of repo)",
+          "strength": 0.9393629888455853
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "HTML: 16,619 bytes (45% of repo)",
+          "strength": 0.8466872732159656
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "file",
+          "detail": "test directory (src/test/java/ConstantVariables/Constant.java)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "unit-testing",
+          "source": "manifest",
+          "detail": "junit in pom.xml",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": false,
+          "own_share": false
+        },
+        "failed": [
+          "own_commits",
+          "own_share"
+        ],
+        "code_bytes": 36686,
+        "strong_skills": [
+          "html-css",
+          "java",
+          "unit-testing"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "Java": 191747,
+    "HTML": 63439,
+    "Gherkin": 8268
+  },
+  "total_commits": 0,
+  "skill_evidence": [
+    {
+      "skill_id": "java",
+      "repos": [
+        "shwetargpv/DailyMail_WebSite_Automation",
+        "shwetargpv/Automation-DemoWebsite",
+        "shwetargpv/CalenderAutomation",
+        "shwetargpv/Trading_Information",
+        "shwetargpv/SeleniumJava"
+      ],
+      "signal_count": 5,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 191747,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "DailyMail_WebSite_Automation: Java: 54,288 bytes (91% of repo)",
+        "Automation-DemoWebsite: Java: 50,497 bytes (75% of repo)",
+        "CalenderAutomation: Java: 34,649 bytes (69% of repo)",
+        "Trading_Information: Java: 32,246 bytes (66% of repo)",
+        "SeleniumJava: Java: 20,067 bytes (54% of repo)"
+      ]
+    },
+    {
+      "skill_id": "unit-testing",
+      "repos": [
+        "shwetargpv/DailyMail_WebSite_Automation",
+        "shwetargpv/Automation-DemoWebsite",
+        "shwetargpv/CalenderAutomation",
+        "shwetargpv/Trading_Information",
+        "shwetargpv/SeleniumJava"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "file",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "DailyMail_WebSite_Automation: test directory (src/test/java/ConstantVariables/Constant.java)",
+        "DailyMail_WebSite_Automation: junit in pom.xml",
+        "Automation-DemoWebsite: test directory (src/test/java/ConstantVariables/Constant.java)",
+        "Automation-DemoWebsite: junit in pom.xml",
+        "CalenderAutomation: test directory (src/test/java/ConstantVariables/Constant.java)",
+        "CalenderAutomation: junit in pom.xml",
+        "Trading_Information: test directory (src/test/java/ConstantVariables/Constant.java)",
+        "Trading_Information: junit in pom.xml",
+        "SeleniumJava: test directory (src/test/java/ConstantVariables/Constant.java)",
+        "SeleniumJava: junit in pom.xml"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "shwetargpv/Automation-DemoWebsite",
+        "shwetargpv/CalenderAutomation",
+        "shwetargpv/Trading_Information",
+        "shwetargpv/SeleniumJava"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.8466872732159656,
+      "total_bytes": 63439,
+      "commit_count": 0,
+      "first_seen": null,
+      "last_seen": null,
+      "details": [
+        "Automation-DemoWebsite: HTML: 15,016 bytes (22% of repo)",
+        "CalenderAutomation: HTML: 15,035 bytes (30% of repo)",
+        "Trading_Information: HTML: 16,769 bytes (34% of repo)",
+        "SeleniumJava: HTML: 16,619 bytes (45% of repo)"
+      ]
+    }
+  ],
+  "tier": "unusable",
+  "usability": {
+    "tier": "unusable",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 0,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 5,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 0,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 3,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [
+      "skill_relevant_repos",
+      "total_commits"
+    ],
+    "reason": "skill_relevant_repos: 0 < 3; total_commits: 0 < 20"
+  },
+  "search_stratum": "java-backend",
+  "collected_at": "2026-09-16T14:14:55.304385+00:00",
+  "collector_version": "0.1.0",
+  "notes": [
+    "unusable - skill_relevant_repos: 0 < 3; total_commits: 0 < 20",
+    "no commits attributed to this login - check commit email config"
+  ]
+}

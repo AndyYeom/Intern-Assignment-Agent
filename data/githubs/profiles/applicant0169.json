@@ -1,0 +1,911 @@
+{
+  "applicant_id": "applicant0169",
+  "login": "Lucasmick1",
+  "html_url": "https://github.com/Lucasmick1",
+  "created_at": "2020-01-31T23:00:38Z",
+  "account_age_days": 2420,
+  "public_repos": 13,
+  "followers": 5,
+  "following": 2,
+  "repos": [
+    {
+      "name": "WaEncrypt",
+      "full_name": "Lucasmick1/WaEncrypt",
+      "html_url": "https://github.com/Lucasmick1/WaEncrypt",
+      "description": "a script to securely encode / decode strings",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-10-26T21:37:45Z",
+      "pushed_at": "2020-10-26T22:15:48Z",
+      "stargazers": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "size_kb": 5,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 4672
+      },
+      "primary_language": "JavaScript",
+      "file_count": 2,
+      "top_level_paths": [
+        "README.md",
+        "WaEcrypt.js"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 1325,
+      "readme_excerpt": "# WaEncrypt\na script to securely encode / decode strings\n# Usage\nyou need to instantiate the WaEncrypt class, something like: _const encrypt = new WaEncrypt()_\n\n## To encode something\nusing the previous example of instantiation we call the _encode_ method of the class, this method takes two arguments in the form of a string, the first is a secret and the second a string that you want to encode: \n\n<br/>_const encrypt = new WaEncrypt()<br/>\nencrypt.encode('<b>mySecret</b>', '<b>my text that i want encode</b>')_\n\nusing a secret literally like <b>'mySecret'</b> and the literal text <b>'my string that i want encode'</b>, the class return the string  : </br>\n<b> _8G tg)t t0vt 7 dvnt gnu6#g37/735vug85v4vhgqq{8_ </b> \n\n## To decode a string\n\nTake the previous example, now we can use a method _decode_ of the class, this method take two arguments too, the first is your secret used to encode and the second is the encoded string:\n\n<br/>_const encrypt = new WaEncrypt()_<br/>\n_encrypt.decode('<b>mySecret</b>', '<b>_8G tg)t t0vt 7 dvnt gnu6#g37/735vug85v4vhgqq{8_</b>')_\n\nand the return is : _<b>'my text that i want encode'</b>_\n\n# Secret\n It's important that you use a very scrambled string to be ",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2020-10-26T21:35:59+00:00",
+        "last_at": "2020-10-26T22:15:39+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 5,
+        "low_effort_message_ratio": 0.4,
+        "messages_sample": [
+          "Merge branch 'master' of https://github.com/Lucasmick1/WaEncrypt",
+          "change the file name",
+          "Update README.md",
+          "Create README.md",
+          "script to encode/decode strings"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": true
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,672 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4672,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "be-the-hero-ongs",
+      "full_name": "Lucasmick1/be-the-hero-ongs",
+      "html_url": "https://github.com/Lucasmick1/be-the-hero-ongs",
+      "description": "A project to help ongs find \"heroes\" to help them with the cost of maintenance.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-03-28T15:25:06Z",
+      "pushed_at": "2023-01-11T02:22:40Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 12,
+      "size_kb": 955,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 17792,
+        "CSS": 5661,
+        "HTML": 423
+      },
+      "primary_language": "JavaScript",
+      "file_count": 35,
+      "top_level_paths": [
+        "assets-frontend.zip",
+        "backend",
+        "frontend"
+      ],
+      "notable_files": [
+        "backend/package.json",
+        "frontend/package.json"
+      ],
+      "manifests": {},
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 1,
+        "first_at": "2020-03-28T15:33:43+00:00",
+        "last_at": "2020-03-28T15:33:43+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 1,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "back-end e front-end da aplicação"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": true,
+          "all_commits_one_day": true,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 3,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 24
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": true
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 17,792 bytes (75% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "html-css",
+          "source": "language",
+          "detail": "CSS: 5,661 bytes (24% of repo)",
+          "strength": 0.637100016753225
+        },
+        {
+          "skill_id": "data-modeling",
+          "source": "file",
+          "detail": "database migrations (backend/src/database/migrations/20200324111754_create_ongs.js)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 23876,
+        "strong_skills": [
+          "data-modeling",
+          "html-css",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "Walltec",
+      "full_name": "Lucasmick1/Walltec",
+      "html_url": "https://github.com/Lucasmick1/Walltec",
+      "description": "Walletc App",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-08-27T01:41:10Z",
+      "pushed_at": "2020-08-27T01:52:48Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 55,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "Dart": 7972,
+        "Swift": 404,
+        "Kotlin": 124,
+        "Objective-C": 38
+      },
+      "primary_language": "Dart",
+      "file_count": 66,
+      "top_level_paths": [
+        ".gitignore",
+        ".metadata",
+        "README.md",
+        "android",
+        "ios",
+        "lib",
+        "pubspec.lock",
+        "pubspec.yaml",
+        "test"
+      ],
+      "notable_files": [
+        "android/app/build.gradle",
+        "android/build.gradle"
+      ],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 537,
+      "readme_excerpt": "# Walltec\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)\n\nFor help getting started with Flutter, view our\n[online documentation](https://flutter.dev/docs), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 2,
+        "first_at": "2020-08-27T01:50:23+00:00",
+        "last_at": "2020-08-27T01:52:39+00:00",
+        "active_days": 1,
+        "span_days": 0,
+        "max_per_day": 2,
+        "low_effort_message_ratio": 0.5,
+        "messages_sample": [
+          "url",
+          "first commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": true,
+          "burst_only": true,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 9
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "flutter",
+          "source": "language",
+          "detail": "Dart: 7,972 bytes (93% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "native-mobile",
+          "source": "file",
+          "detail": "Android app manifest (android/app/src/debug/AndroidManifest.xml)",
+          "strength": 0.6
+        },
+        {
+          "skill_id": "flutter",
+          "source": "file",
+          "detail": "flutter project (pubspec.yaml)",
+          "strength": 0.6
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 8538,
+        "strong_skills": [
+          "flutter",
+          "native-mobile"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "graphql",
+      "full_name": "Lucasmick1/graphql",
+      "html_url": "https://github.com/Lucasmick1/graphql",
+      "description": "Repositório de estudos do GraphQL",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2022-06-08T10:57:06Z",
+      "pushed_at": "2022-06-22T12:48:50Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 47,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 4645
+      },
+      "primary_language": "JavaScript",
+      "file_count": 14,
+      "top_level_paths": [
+        ".gitignore",
+        "api",
+        "package-lock.json",
+        "package.json"
+      ],
+      "notable_files": [
+        "package.json"
+      ],
+      "manifests": {
+        "package.json": [
+          "apollo-datasource-rest",
+          "apollo-server",
+          "graphql",
+          "json-server",
+          "nodemon"
+        ]
+      },
+      "has_readme": false,
+      "readme_length": 0,
+      "readme_excerpt": null,
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 30,
+        "first_at": "2022-06-08T11:02:56+00:00",
+        "last_at": "2022-06-22T12:48:42+00:00",
+        "active_days": 3,
+        "span_days": 14,
+        "max_per_day": 22,
+        "low_effort_message_ratio": 0.0,
+        "messages_sample": [
+          "Criando interfaces e retornos personalizados",
+          "Criando UserInput",
+          "Bug fix: Nome do Enum escrito errado no resolver",
+          "Criando enumeração de valores",
+          "data",
+          "Criando tipo scalar personalizado",
+          "Buscando ultimo id no endpoint e utilizando para criar o usuário",
+          "Criando endpoint de identificação de id do usuário",
+          "Alterando mock",
+          "Adicionando método de deleção no resolver do usuário",
+          "Adicionando método de deleção no schema do usuário",
+          "Criando método de deleção no datasource do usuário",
+          "Alterando mock",
+          "Alterando datasource de updateUser",
+          "Alterando schema de updateUser",
+          "Alterando path",
+          "Criando servidor",
+          "Criando barrel dos datasources",
+          "Criando barrel dos resolvers",
+          "Criando barrel das schemas"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": false,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": true,
+          "is_template": false,
+          "mostly_low_effort_commits": false
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": true,
+          "documented": false
+        },
+        "entry_flag_count": 1,
+        "intermediate_flag_count": 1,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 8
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 1,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 4,645 bytes (100% of repo)",
+          "strength": 1.0
+        },
+        {
+          "skill_id": "graphql",
+          "source": "repo_name",
+          "detail": "'graphql' in repo name/description",
+          "strength": 0.2
+        },
+        {
+          "skill_id": "graphql",
+          "source": "manifest",
+          "detail": "apollo-server in package.json",
+          "strength": 0.9
+        }
+      ],
+      "skill_relevant": true,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": true,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [],
+        "code_bytes": 4645,
+        "strong_skills": [
+          "graphql",
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    },
+    {
+      "name": "organize-my-array",
+      "full_name": "Lucasmick1/organize-my-array",
+      "html_url": "https://github.com/Lucasmick1/organize-my-array",
+      "description": "A little function to make your array in ascending or descending order.",
+      "homepage": null,
+      "is_fork": false,
+      "is_archived": false,
+      "is_template": false,
+      "created_at": "2020-07-26T20:05:00Z",
+      "pushed_at": "2020-10-01T00:57:33Z",
+      "stargazers": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size_kb": 3,
+      "default_branch": "master",
+      "license": null,
+      "topics": [],
+      "languages": {
+        "JavaScript": 1737
+      },
+      "primary_language": "JavaScript",
+      "file_count": 2,
+      "top_level_paths": [
+        "README.md",
+        "organizeMyArray.js"
+      ],
+      "notable_files": [],
+      "manifests": {},
+      "has_readme": true,
+      "readme_length": 369,
+      "readme_excerpt": "# organize-my-array\nA little function to make your array of numbers in ascending or descending order.\n# How this works\nThe function requires you to pass a numeric array as a parameter, and as an optional second parameter you can pass a string with the order 'ascending' or 'decreasing'. If the \nsecond parameter is omitted, the function will assume 'ascending' order.\n\n",
+      "has_ci": false,
+      "has_tests": false,
+      "has_docker": false,
+      "has_releases": false,
+      "contributors_count": 1,
+      "contribution_share": 1.0,
+      "commits": {
+        "count": 5,
+        "first_at": "2020-07-26T20:05:01+00:00",
+        "last_at": "2020-10-01T00:57:22+00:00",
+        "active_days": 2,
+        "span_days": 66,
+        "max_per_day": 4,
+        "low_effort_message_ratio": 0.8,
+        "messages_sample": [
+          "checking if it's a number",
+          "Update README.md",
+          "first commit",
+          "Update README.md",
+          "Initial commit"
+        ],
+        "attribution": "author",
+        "truncated": false
+      },
+      "structure": {
+        "entry_flags": {
+          "is_fork": false,
+          "single_commit": false,
+          "all_commits_one_day": false,
+          "burst_only": false,
+          "notebook_only": false,
+          "single_file_project": true,
+          "tutorial_name_hit": false,
+          "follow_along_phrase": false,
+          "no_readme": false,
+          "is_template": false,
+          "mostly_low_effort_commits": true
+        },
+        "intermediate_flags": {
+          "has_ci": false,
+          "has_tests": false,
+          "has_docker": false,
+          "deployed": false,
+          "multi_month_span": false,
+          "many_active_days": false,
+          "used_by_others": false,
+          "has_license": false,
+          "substantial_tree": false,
+          "documented": false
+        },
+        "entry_flag_count": 2,
+        "intermediate_flag_count": 0,
+        "tutorial_name_matches": [],
+        "follow_along_phrases": [],
+        "notebook_count": 0,
+        "code_file_count": 1
+      },
+      "judgment": {
+        "commit_message_kinds": {
+          "fix": 0,
+          "perf": 0,
+          "refactor": 0,
+          "test": 0,
+          "revert": 0
+        },
+        "sustained_maintenance": false,
+        "recently_active": false,
+        "has_releases": false,
+        "others_depend": false,
+        "multi_contributor": false,
+        "handles_issues": false
+      },
+      "skill_signals": [
+        {
+          "skill_id": "javascript",
+          "source": "language",
+          "detail": "JavaScript: 1,737 bytes (100% of repo)",
+          "strength": 1.0
+        }
+      ],
+      "skill_relevant": false,
+      "relevance": {
+        "rules": {
+          "not_fork": true,
+          "project_name": true,
+          "has_code_files": true,
+          "code_bytes": false,
+          "strong_skill_signal": true,
+          "own_commits": true,
+          "own_share": true
+        },
+        "failed": [
+          "code_bytes"
+        ],
+        "code_bytes": 1737,
+        "strong_skills": [
+          "javascript"
+        ]
+      },
+      "tree_truncated": false
+    }
+  ],
+  "external_contributions": [],
+  "languages_bytes": {
+    "JavaScript": 28846,
+    "Dart": 7972,
+    "CSS": 5661,
+    "HTML": 423,
+    "Swift": 404,
+    "Kotlin": 124,
+    "Objective-C": 38
+  },
+  "total_commits": 43,
+  "skill_evidence": [
+    {
+      "skill_id": "javascript",
+      "repos": [
+        "Lucasmick1/WaEncrypt",
+        "Lucasmick1/be-the-hero-ongs",
+        "Lucasmick1/graphql",
+        "Lucasmick1/organize-my-array"
+      ],
+      "signal_count": 4,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 28846,
+      "commit_count": 41,
+      "first_seen": "2020-03-28T15:33:43+00:00",
+      "last_seen": "2022-06-22T12:48:42+00:00",
+      "details": [
+        "WaEncrypt: JavaScript: 4,672 bytes (100% of repo)",
+        "be-the-hero-ongs: JavaScript: 17,792 bytes (75% of repo)",
+        "graphql: JavaScript: 4,645 bytes (100% of repo)",
+        "organize-my-array: JavaScript: 1,737 bytes (100% of repo)"
+      ]
+    },
+    {
+      "skill_id": "flutter",
+      "repos": [
+        "Lucasmick1/Walltec"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "language",
+        "file"
+      ],
+      "max_strength": 1.0,
+      "total_bytes": 7972,
+      "commit_count": 2,
+      "first_seen": "2020-08-27T01:50:23+00:00",
+      "last_seen": "2020-08-27T01:52:39+00:00",
+      "details": [
+        "Walltec: Dart: 7,972 bytes (93% of repo)",
+        "Walltec: flutter project (pubspec.yaml)"
+      ]
+    },
+    {
+      "skill_id": "graphql",
+      "repos": [
+        "Lucasmick1/graphql"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "repo_name",
+        "manifest"
+      ],
+      "max_strength": 0.9,
+      "total_bytes": 0,
+      "commit_count": 30,
+      "first_seen": "2022-06-08T11:02:56+00:00",
+      "last_seen": "2022-06-22T12:48:42+00:00",
+      "details": [
+        "graphql: 'graphql' in repo name/description",
+        "graphql: apollo-server in package.json"
+      ]
+    },
+    {
+      "skill_id": "html-css",
+      "repos": [
+        "Lucasmick1/be-the-hero-ongs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "language"
+      ],
+      "max_strength": 0.637100016753225,
+      "total_bytes": 5661,
+      "commit_count": 1,
+      "first_seen": "2020-03-28T15:33:43+00:00",
+      "last_seen": "2020-03-28T15:33:43+00:00",
+      "details": [
+        "be-the-hero-ongs: CSS: 5,661 bytes (24% of repo)"
+      ]
+    },
+    {
+      "skill_id": "data-modeling",
+      "repos": [
+        "Lucasmick1/be-the-hero-ongs"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 1,
+      "first_seen": "2020-03-28T15:33:43+00:00",
+      "last_seen": "2020-03-28T15:33:43+00:00",
+      "details": [
+        "be-the-hero-ongs: database migrations (backend/src/database/migrations/20200324111754_create_ongs.js)"
+      ]
+    },
+    {
+      "skill_id": "native-mobile",
+      "repos": [
+        "Lucasmick1/Walltec"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "file"
+      ],
+      "max_strength": 0.6,
+      "total_bytes": 0,
+      "commit_count": 2,
+      "first_seen": "2020-08-27T01:50:23+00:00",
+      "last_seen": "2020-08-27T01:52:39+00:00",
+      "details": [
+        "Walltec: Android app manifest (android/app/src/debug/AndroidManifest.xml)"
+      ]
+    }
+  ],
+  "tier": "strict",
+  "usability": {
+    "tier": "strict",
+    "checks": {
+      "skill_relevant_repos": {
+        "actual": 4,
+        "required": 3,
+        "tier": "relaxed"
+      },
+      "readable_repos": {
+        "actual": 4,
+        "required": 1,
+        "tier": "relaxed"
+      },
+      "total_commits": {
+        "actual": 43,
+        "required": 20,
+        "tier": "strict"
+      },
+      "distinct_skills": {
+        "actual": 6,
+        "required": 3,
+        "tier": "strict"
+      }
+    },
+    "failed": [],
+    "reason": "meets all thresholds"
+  },
+  "search_stratum": "javascript-frontend",
+  "collected_at": "2026-09-17T02:16:27.374715+00:00",
+  "collector_version": "0.1.0",
+  "notes": []
+}

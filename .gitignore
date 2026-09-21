@@ -1,49 +1,22 @@
-# Byte-compiled / optimized / DLL files
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and compiled files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
-# C extensions
-*.so
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#   Usually these files are written by a python script from a template
-#   before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
+# Coverage output
 .coverage
 .coverage.*
-.cache
-nosetests.xml
+htmlcov/
 coverage.xml
 *.cover
 *.py.cover
@@ -221,3 +194,19 @@ data/runs/
 .DS_Store
 __pycache__/
 .venv/
+# Evidence collector: raw API payloads and HTTP cache are reproducible from
+# data/githubs/candidates.json, so only the normalised profiles are tracked.
+.cache/
+data/githubs/raw/
+.env
+data/.applicants.lock
+
+# Resumes: the PDFs, specs and applicants.csv are committed so the team works
+# from the same files. raw/ holds a local HTML preview of each PDF.
+data/resumes/raw/
+data/resumes/rendered/*.tmp
+
+# Generated matching result artifacts
+src/matching/artifacts/*.json
+# Integration-test outputs (real LLM runs)
+output/integration/

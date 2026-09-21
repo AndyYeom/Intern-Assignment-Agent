@@ -1,0 +1,124 @@
+{
+  "github_login": "sergiordg00",
+  "applicant_id": "applicant0046",
+  "first_name": "Diego",
+  "last_name": "Marchetti",
+  "career_stage": "student",
+  "email": "diego@rosewoodit.example",
+  "phone": "(555) 010-0146",
+  "location": "Rosewood Bay",
+  "linkedin": "linkedin.example.com/in/diego-marchetti",
+  "github_url": "github.example.com/diego-marchetti",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Rosewood Institute of Technology",
+    "location": "Rosewood Bay",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minor": "Cognitive Science",
+    "graduation": "June 2026",
+    "gpa": null,
+    "coursework": [
+      "Human-Computer Interaction",
+      "Web Application Development",
+      "Intro to Artificial Intelligence"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "Bytetalk",
+      "organization": null,
+      "location": null,
+      "start": "Jul 2023",
+      "end": "Sep 2023",
+      "bullets": [
+        "Built a Next.js chat application with authentication, adding a GPT-Advisor feature using the OpenAI API to draft reply suggestions.",
+        "Noticed the assistant's suggestions broke formatting in edge cases, and iterated on prompts to make output more predictable."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "Next.js"
+      ]
+    },
+    {
+      "title": "Just A Blog",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2023",
+      "end": "Sep 2023",
+      "bullets": [
+        "Built a blog application with Next.js and Sanity CMS, modeling content types for articles and categories."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "Next.js"
+      ]
+    },
+    {
+      "title": "Reactsounds",
+      "organization": null,
+      "location": null,
+      "start": "Aug 2023",
+      "end": "Oct 2023",
+      "bullets": [
+        "Developed a React music browsing app styled with Tailwind CSS, letting users explore artists, albums and playlists."
+      ],
+      "link": null,
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Workshop Helper",
+      "organization": "Rosewood Web Dev Meetup",
+      "location": null,
+      "start": "Oct 2023",
+      "end": "Present",
+      "bullets": [
+        "Ran a short session for classmates on integrating third-party APIs into React projects after several asked the same setup questions.",
+        "Simplified the walkthrough into a one-page setup guide after some attendees got stuck configuring environment variables."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "JavaScript"
+    ],
+    "Frontend": [
+      "React",
+      "Tailwind CSS",
+      "Next.js"
+    ],
+    "Backend": [
+      "Authentication & Authorization (Advanced)"
+    ],
+    "Data": [
+      "Data Modeling"
+    ],
+    "AI/ML": [
+      "LLM Application Development"
+    ],
+    "DevOps": [
+      "Linux & Server Administration"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}

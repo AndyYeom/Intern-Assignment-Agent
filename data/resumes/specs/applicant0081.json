@@ -1,0 +1,121 @@
+{
+  "github_login": "Isaac11PG",
+  "applicant_id": "applicant0081",
+  "first_name": "Renata",
+  "last_name": "Solis",
+  "career_stage": "student",
+  "email": "renata.solis@cardenalbluffs.example",
+  "phone": "(555) 010-0257",
+  "location": "Cardenal Bluffs",
+  "linkedin": "linkedin.example.com/in/renata-solis",
+  "github_url": "github.example.com/renata-solis",
+  "portfolio": null,
+  "photo": false,
+  "objective": null,
+  "education": {
+    "school": "Cardenal Bluffs University",
+    "location": "Cardenal Bluffs",
+    "degree": "Bachelor of Science",
+    "major": "Software Engineering",
+    "minor": "Public Health",
+    "graduation": "Dec 2026",
+    "gpa": "8.9/10.0",
+    "coursework": [
+      "Mobile Application Development",
+      "Software Testing",
+      "Databases",
+      "Human-Computer Interaction"
+    ],
+    "honors": []
+  },
+  "experience": [],
+  "projects": [
+    {
+      "title": "TT B141 Cognitive Risk Estimation",
+      "organization": null,
+      "location": null,
+      "start": "Sep 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Built a Python system estimating cognitive-decline risk from a digital Montreal Cognitive Assessment, focusing on explainable outputs clinicians could interpret.",
+        "Structured longitudinal follow-up data from the digital assessment, wanting the numbers behind the app to be trustworthy, not just functional."
+      ],
+      "link": null,
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "title": "mHealth Android App",
+      "organization": null,
+      "location": null,
+      "start": "Jan 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Developed a native Android app in Kotlin with Room and Coroutines for local-first emotional tracking, guided meditation, and cognitive-stimulation exercises.",
+        "Noticed the app's local tracking data could reveal usage patterns beyond feature testing, which shaped interest in the later data project."
+      ],
+      "link": null,
+      "tech": [
+        "Kotlin"
+      ]
+    },
+    {
+      "title": "Individual Software Engineering Project",
+      "organization": null,
+      "location": null,
+      "start": "Mar 2025",
+      "end": "May 2025",
+      "bullets": [
+        "Delivered an individual software engineering project in Java with an HTML and CSS front end, including automated tests and Docker packaging."
+      ],
+      "link": null,
+      "tech": [
+        "Java",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Member",
+      "organization": "Cardenal Bluffs Data Curiosity Circle",
+      "location": null,
+      "start": "Jun 2026",
+      "end": "Present",
+      "bullets": [
+        "Started informally comparing app usage logs with self-reported mood entries, curious whether the numbers matched what users actually said."
+      ],
+      "link": null,
+      "tech": []
+    }
+  ],
+  "awards": [],
+  "skills": {
+    "Language": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "SQL"
+    ],
+    "Frontend": [
+      "HTML/CSS"
+    ],
+    "DevOps": [
+      "Docker",
+      "Linux & Server Administration",
+      "CI/CD"
+    ],
+    "Quality": [
+      "Unit Testing"
+    ],
+    "Mobile": [
+      "Native iOS/Android"
+    ]
+  },
+  "authored_by": "gen",
+  "drafted_from_profile": true,
+  "batch": null,
+  "notes": []
+}
