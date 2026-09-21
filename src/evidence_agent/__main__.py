@@ -2,6 +2,7 @@
 
     python -m src.evidence_agent verify [--appids ...] [--claims DIR]
     python -m src.evidence_agent eval       planted exaggerations caught
+    python -m src.evidence_agent rules      rewrite RULES.md from the code
 
 Claims come from the profile agent's JSON in --claims DIR (<applicant_id>.json)
 when present, otherwise from the resume spec (see claims.py).
@@ -92,7 +93,17 @@ def cmd_plant(_: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_rules(_: argparse.Namespace) -> int:
+    from .rules import RULES_PATH, sync_rules_doc
+
+    print(f"[rules] {RULES_PATH} {'rewritten' if sync_rules_doc() else 'already up to date'}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
+    from .rules import sync_rules_doc
+
+    sync_rules_doc()
     parser = argparse.ArgumentParser(prog="evidence_agent", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -100,6 +111,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--appids", nargs="*")
     p.add_argument("--claims", help="directory of profile-agent JSON, one per applicant")
     p.set_defaults(func=cmd_verify)
+    sub.add_parser("rules", help="rewrite RULES.md from the code").set_defaults(func=cmd_rules)
     sub.add_parser("plant", help="plant 10 exaggerations (idempotent)").set_defaults(func=cmd_plant)
     sub.add_parser("eval", help="how many planted exaggerations were caught").set_defaults(
         func=cmd_eval)

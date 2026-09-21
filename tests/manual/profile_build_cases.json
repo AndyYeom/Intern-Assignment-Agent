@@ -1,0 +1,458 @@
+[
+  {
+    "case_id": "BUILD-001",
+    "description": "Build a simple profile from two resolved requirements.",
+    "request": {
+      "request_id": "BUILD-001",
+      "project_name": "Python API Service",
+      "project_description": "Build a Python REST API using FastAPI."
+    },
+    "extraction_result": {
+      "project_summary": "Build a Python REST API service.",
+      "requirements": [
+        {
+          "raw_skill": "Python",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "confidence": 0.98,
+          "evidence_text": "Build a Python REST API using FastAPI.",
+          "decision_basis": "Python is required for independent backend implementation."
+        },
+        {
+          "raw_skill": "FastAPI",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "confidence": 0.97,
+          "evidence_text": "Build a Python REST API using FastAPI.",
+          "decision_basis": "FastAPI is the required backend framework."
+        }
+      ],
+      "uncertainties": []
+    },
+    "normalization_result": {
+      "mappings": [
+        {
+          "source_requirement_index": 0,
+          "raw_skill": "Python",
+          "status": "resolved",
+          "match_method": "exact",
+          "skill_id": "python",
+          "canonical_skill": "Python",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a canonical taxonomy name."
+        },
+        {
+          "source_requirement_index": 1,
+          "raw_skill": "FastAPI",
+          "status": "resolved",
+          "match_method": "alias",
+          "skill_id": "flask-fastapi",
+          "canonical_skill": "Flask/FastAPI",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a taxonomy alias."
+        }
+      ],
+      "unresolved_skills": []
+    },
+    "expected": {
+      "result_type": "profile",
+      "requirement_count": 2,
+      "requirement_order": [
+        "python",
+        "flask-fastapi"
+      ],
+      "requirements": [
+        {
+          "skill_id": "python",
+          "canonical_skill": "Python",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "provenance_count": 1
+        },
+        {
+          "skill_id": "flask-fastapi",
+          "canonical_skill": "Flask/FastAPI",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "provenance_count": 1
+        }
+      ],
+      "unresolved_skills": []
+    }
+  },
+  {
+    "case_id": "BUILD-002",
+    "description": "Merge three extracted requirements that normalize to the same canonical RAG skill.",
+    "request": {
+      "request_id": "BUILD-002",
+      "project_name": "Document Retrieval Assistant",
+      "project_description": "Students will learn retrieval-augmented generation. Basic embeddings knowledge would be helpful. Students must independently implement retrieval using FAISS."
+    },
+    "extraction_result": {
+      "project_summary": "Build a document retrieval assistant using RAG technologies.",
+      "requirements": [
+        {
+          "raw_skill": "retrieval-augmented generation",
+          "importance": "learning_opportunity",
+          "required_level": null,
+          "confidence": 0.98,
+          "evidence_text": "Students will learn retrieval-augmented generation.",
+          "decision_basis": "The description explicitly presents RAG as a learning opportunity."
+        },
+        {
+          "raw_skill": "embeddings",
+          "importance": "preferred",
+          "required_level": 1,
+          "confidence": 0.92,
+          "evidence_text": "Basic embeddings knowledge would be helpful.",
+          "decision_basis": "Embeddings are helpful but not mandatory."
+        },
+        {
+          "raw_skill": "FAISS",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "confidence": 0.95,
+          "evidence_text": "Students must independently implement retrieval using FAISS.",
+          "decision_basis": "Independent FAISS implementation is a mandatory task."
+        }
+      ],
+      "uncertainties": []
+    },
+    "normalization_result": {
+      "mappings": [
+        {
+          "source_requirement_index": 0,
+          "raw_skill": "retrieval-augmented generation",
+          "status": "resolved",
+          "match_method": "alias",
+          "skill_id": "rag",
+          "canonical_skill": "RAG & Vector Search",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a taxonomy alias."
+        },
+        {
+          "source_requirement_index": 1,
+          "raw_skill": "embeddings",
+          "status": "resolved",
+          "match_method": "alias",
+          "skill_id": "rag",
+          "canonical_skill": "RAG & Vector Search",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a taxonomy alias."
+        },
+        {
+          "source_requirement_index": 2,
+          "raw_skill": "FAISS",
+          "status": "resolved",
+          "match_method": "alias",
+          "skill_id": "rag",
+          "canonical_skill": "RAG & Vector Search",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a taxonomy alias."
+        }
+      ],
+      "unresolved_skills": []
+    },
+    "expected": {
+      "result_type": "profile",
+      "requirement_count": 1,
+      "requirement_order": [
+        "rag"
+      ],
+      "requirements": [
+        {
+          "skill_id": "rag",
+          "canonical_skill": "RAG & Vector Search",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "provenance_count": 3,
+          "provenance_raw_skills": [
+            "retrieval-augmented generation",
+            "embeddings",
+            "FAISS"
+          ]
+        }
+      ],
+      "unresolved_skills": []
+    }
+  },
+  {
+    "case_id": "BUILD-003",
+    "description": "Build a candidate profile containing resolved, unmapped and needs-review requirements.",
+    "request": {
+      "request_id": "BUILD-003",
+      "project_name": "Production ML Optimization",
+      "project_description": "Advanced Python is required. Students must optimize service performance. The completed system may be deployed to AWS, Azure, or GCP."
+    },
+    "extraction_result": {
+      "project_summary": "Optimize and deploy a production machine-learning service.",
+      "requirements": [
+        {
+          "raw_skill": "Python",
+          "importance": "hard_requirement",
+          "required_level": 3,
+          "confidence": 0.99,
+          "evidence_text": "Advanced Python is required.",
+          "decision_basis": "Python is required for advanced production work."
+        },
+        {
+          "raw_skill": "Performance Optimization",
+          "importance": "hard_requirement",
+          "required_level": 3,
+          "confidence": 0.97,
+          "evidence_text": "Students must optimize service performance.",
+          "decision_basis": "Performance optimization is a mandatory advanced task."
+        },
+        {
+          "raw_skill": "AWS, Azure, or GCP",
+          "importance": "preferred",
+          "required_level": 1,
+          "confidence": 0.85,
+          "evidence_text": "The completed system may be deployed to AWS, Azure, or GCP.",
+          "decision_basis": "Cloud deployment is useful, but the provider remains undecided."
+        }
+      ],
+      "uncertainties": []
+    },
+    "normalization_result": {
+      "mappings": [
+        {
+          "source_requirement_index": 0,
+          "raw_skill": "Python",
+          "status": "resolved",
+          "match_method": "exact",
+          "skill_id": "python",
+          "canonical_skill": "Python",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a canonical taxonomy name."
+        },
+        {
+          "source_requirement_index": 1,
+          "raw_skill": "Performance Optimization",
+          "status": "unmapped",
+          "match_method": "unresolved",
+          "skill_id": null,
+          "canonical_skill": null,
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "No equivalent canonical taxonomy skill exists."
+        },
+        {
+          "source_requirement_index": 2,
+          "raw_skill": "AWS, Azure, or GCP",
+          "status": "needs_review",
+          "match_method": "unresolved",
+          "skill_id": null,
+          "canonical_skill": null,
+          "candidates": [
+            {
+              "skill_id": "aws",
+              "canonical_name": "AWS",
+              "score": null
+            },
+            {
+              "skill_id": "gcp-azure",
+              "canonical_name": "GCP/Azure",
+              "score": null
+            }
+          ],
+          "match_score": null,
+          "decision_basis": "Multiple cloud-platform taxonomy skills are plausible."
+        }
+      ],
+      "unresolved_skills": [
+        "Performance Optimization",
+        "AWS, Azure, or GCP"
+      ]
+    },
+    "expected": {
+      "result_type": "profile",
+      "requirement_count": 1,
+      "requirement_order": [
+        "python"
+      ],
+      "requirements": [
+        {
+          "skill_id": "python",
+          "canonical_skill": "Python",
+          "importance": "hard_requirement",
+          "required_level": 3,
+          "provenance_count": 1
+        }
+      ],
+      "unresolved_skills": [
+        "Performance Optimization",
+        "AWS, Azure, or GCP"
+      ],
+      "unresolved_statuses": [
+        "unmapped",
+        "needs_review"
+      ]
+    }
+  },
+  {
+    "case_id": "BUILD-004",
+    "description": "Verify that mappings are joined by source index rather than mapping-list position.",
+    "request": {
+      "request_id": "BUILD-004",
+      "project_name": "Full-Stack Reporting Application",
+      "project_description": "Build a reporting application using Python, React, and PostgreSQL."
+    },
+    "extraction_result": {
+      "project_summary": "Build a full-stack reporting application.",
+      "requirements": [
+        {
+          "raw_skill": "Python",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "confidence": 0.98,
+          "evidence_text": "Build a reporting application using Python, React, and PostgreSQL.",
+          "decision_basis": "Python is required for the application."
+        },
+        {
+          "raw_skill": "React",
+          "importance": "preferred",
+          "required_level": 1,
+          "confidence": 0.91,
+          "evidence_text": "Build a reporting application using Python, React, and PostgreSQL.",
+          "decision_basis": "React is used for the frontend."
+        },
+        {
+          "raw_skill": "PostgreSQL",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "confidence": 0.97,
+          "evidence_text": "Build a reporting application using Python, React, and PostgreSQL.",
+          "decision_basis": "PostgreSQL is required for application data."
+        }
+      ],
+      "uncertainties": []
+    },
+    "normalization_result": {
+      "mappings": [
+        {
+          "source_requirement_index": 2,
+          "raw_skill": "PostgreSQL",
+          "status": "resolved",
+          "match_method": "exact",
+          "skill_id": "postgresql",
+          "canonical_skill": "PostgreSQL",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a canonical taxonomy name."
+        },
+        {
+          "source_requirement_index": 0,
+          "raw_skill": "Python",
+          "status": "resolved",
+          "match_method": "exact",
+          "skill_id": "python",
+          "canonical_skill": "Python",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a canonical taxonomy name."
+        },
+        {
+          "source_requirement_index": 1,
+          "raw_skill": "React",
+          "status": "resolved",
+          "match_method": "exact",
+          "skill_id": "react",
+          "canonical_skill": "React",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a canonical taxonomy name."
+        }
+      ],
+      "unresolved_skills": []
+    },
+    "expected": {
+      "result_type": "profile",
+      "requirement_count": 3,
+      "requirement_order": [
+        "python",
+        "react",
+        "postgresql"
+      ],
+      "requirements": [
+        {
+          "skill_id": "python",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "provenance_count": 1
+        },
+        {
+          "skill_id": "react",
+          "importance": "preferred",
+          "required_level": 1,
+          "provenance_count": 1
+        },
+        {
+          "skill_id": "postgresql",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "provenance_count": 1
+        }
+      ],
+      "unresolved_skills": []
+    }
+  },
+  {
+    "case_id": "BUILD-005",
+    "description": "Reject inconsistent input when an extracted requirement has no normalization mapping.",
+    "request": {
+      "request_id": "BUILD-005",
+      "project_name": "Incomplete Mapping Test",
+      "project_description": "Build a backend using Python and FastAPI."
+    },
+    "extraction_result": {
+      "project_summary": "Build a Python and FastAPI backend.",
+      "requirements": [
+        {
+          "raw_skill": "Python",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "confidence": 0.98,
+          "evidence_text": "Build a backend using Python and FastAPI.",
+          "decision_basis": "Python is required for backend implementation."
+        },
+        {
+          "raw_skill": "FastAPI",
+          "importance": "hard_requirement",
+          "required_level": 2,
+          "confidence": 0.97,
+          "evidence_text": "Build a backend using Python and FastAPI.",
+          "decision_basis": "FastAPI is required for backend implementation."
+        }
+      ],
+      "uncertainties": []
+    },
+    "normalization_result": {
+      "mappings": [
+        {
+          "source_requirement_index": 0,
+          "raw_skill": "Python",
+          "status": "resolved",
+          "match_method": "exact",
+          "skill_id": "python",
+          "canonical_skill": "Python",
+          "candidates": [],
+          "match_score": null,
+          "decision_basis": "Raw skill matched a canonical taxonomy name."
+        }
+      ],
+      "unresolved_skills": []
+    },
+    "expected": {
+      "result_type": "error",
+      "error_type": "ProjectProfileBuildError",
+      "error_reason": "Missing normalization mapping for source requirement index 1."
+    }
+  }
+]

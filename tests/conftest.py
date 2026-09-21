@@ -32,7 +32,11 @@ def _under(path: Path, root: Path) -> bool:
 
 
 @pytest.fixture(autouse=True)
-def isolated_data(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
+def isolated_data(request: pytest.FixtureRequest, tmp_path: Path,
+                  monkeypatch: pytest.MonkeyPatch) -> Path:
+    # Opt-out for tests that must read the real corpus (and write nothing to data/).
+    if request.node.get_closest_marker("real_data"):
+        return REAL_DATA
     data = tmp_path / "data"
     cache = tmp_path / "cache"
     for relative in READ_ONLY_INPUTS:
