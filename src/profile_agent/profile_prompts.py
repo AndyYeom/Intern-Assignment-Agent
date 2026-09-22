@@ -24,6 +24,93 @@ A level is a claim about what the person can DO, not how long they have been doi
 Time spent is not evidence.
 """
 
+CANONICAL_SKILL_TAXONOMY = """
+CANONICAL SKILL TAXONOMY (taxonomy_version 0.1)
+
+Use the skill `id` below as `canonical_skill` and the matching `category` in
+the output. Aliases are matching hints only; never emit an alias as the
+canonical_skill value. If a demonstrated skill does not map to one of these
+entries, do not invent a new canonical skill: record it as `unmapped` only
+when the output schema permits it, otherwise omit it from `skills`.
+
+Language:
+- python (Python; python3, py)
+- javascript (JavaScript; js, es6, ecmascript)
+- typescript (TypeScript; ts)
+- java (Java)
+- c-cpp (C/C++; c, c++, cpp)
+- csharp (C#; c-sharp, dotnet, .net)
+- go (Go; golang)
+- sql (SQL; ansi sql)
+- shell (Shell Scripting; bash, zsh, shell)
+
+Frontend:
+- html-css (HTML/CSS; html, css, html5, css3)
+- react (React; react.js, reactjs)
+- vue (Vue; vue.js, vuejs, nuxt)
+- nextjs (Next.js; next, nextjs)
+- tailwind (Tailwind CSS; tailwindcss)
+- responsive-design (Responsive Design; mobile-first, media queries)
+- accessibility (Web Accessibility; a11y, wcag)
+- state-management (Frontend State Management; redux, zustand, pinia)
+
+Backend:
+- nodejs (Node.js; node, express, expressjs)
+- django (Django; django rest framework, drf)
+- flask-fastapi (Flask/FastAPI; flask, fastapi)
+- spring (Spring Boot; spring, springboot)
+- rest-api (REST API Design; restful api, api design)
+- graphql (GraphQL; apollo)
+- auth (Authentication & Authorization; oauth, jwt, auth0, sso)
+- websockets (Realtime & WebSockets; socket.io, websocket)
+
+Data:
+- postgresql (PostgreSQL; postgres, psql)
+- mysql (MySQL; mariadb)
+- mongodb (MongoDB; mongo, nosql)
+- redis (Redis; caching)
+- data-modeling (Data Modeling; schema design, erd, normalization)
+- etl (ETL & Data Pipelines; airflow, dbt, data pipeline)
+- pandas (Data Analysis (pandas); pandas, numpy, data wrangling)
+- data-viz (Data Visualization; matplotlib, plotly, d3, tableau)
+- web-scraping (Web Scraping; beautifulsoup, scrapy, selenium, crawler)
+
+AI/ML:
+- machine-learning (Machine Learning; scikit-learn, sklearn, ml, supervised learning)
+- deep-learning (Deep Learning; neural networks, pytorch, tensorflow, keras)
+- nlp (Natural Language Processing; nlp, text mining, spacy, huggingface)
+- computer-vision (Computer Vision; cv, opencv, image classification)
+- llm-apps (LLM Application Development; prompt engineering, langchain, openai api, agent)
+- rag (RAG & Vector Search; retrieval augmented generation, embeddings, pinecone, faiss)
+- recsys (Recommendation Systems; recommender, collaborative filtering)
+
+DevOps:
+- git (Git & Version Control; github, gitlab, version control)
+- docker (Docker; containers, docker compose)
+- kubernetes (Kubernetes; k8s, helm)
+- cicd (CI/CD; github actions, jenkins, gitlab ci, continuous integration)
+- aws (AWS; amazon web services, ec2, s3, lambda, bedrock)
+- gcp-azure (GCP/Azure; google cloud, azure, firebase)
+- linux (Linux & Server Administration; ubuntu, unix, sysadmin)
+- monitoring (Monitoring & Logging; prometheus, grafana, datadog, observability)
+
+Quality:
+- unit-testing (Unit Testing; pytest, jest, junit, tdd)
+- integration-testing (Integration & E2E Testing; cypress, playwright, selenium testing)
+- code-review (Code Review & Refactoring; clean code, refactoring, pull request review)
+
+Mobile:
+- react-native (React Native; expo)
+- flutter (Flutter; dart)
+- native-mobile (Native iOS/Android; swift, kotlin, swiftui, jetpack compose)
+
+Product:
+- ui-ux (UI/UX Design; figma, wireframing, prototyping, user research)
+- cms (CMS & WordPress; wordpress, webflow, shopify, headless cms)
+- technical-writing (Technical Writing; documentation, api docs, readme)
+- agile (Agile & Project Management; scrum, kanban, jira, sprint planning)
+"""
+
 SYSTEM_PROMPT = """You are the Applicant Profile Agent.
 
 Your task is to extract and normalize an applicant's skills from their résumé,
@@ -31,6 +118,8 @@ CV, and optional portfolio. Score every identified skill using the shared
 1-3 proficiency taxonomy.
 
 {proficiency_taxonomy}
+
+{canonical_skill_taxonomy}
 
 BOUNDARY TESTS
 
@@ -106,13 +195,14 @@ the preferred learning target.
 INSTRUCTIONS
 
 1. Extract technical skills, domain skills, and relevant professional skills.
-2. Normalize similar terms into canonical skill names.
+2. Normalize similar terms into the canonical skill IDs from the supplied taxonomy.
 3. Retain distinct technologies when they represent separate tools.
 4. Examples:
-   - Keep PyTorch and TensorFlow as separate skills, but associate both with
-     the Deep Learning domain.
-   - Normalize Postgres to PostgreSQL.
-   - Normalize Amazon Web Services to AWS.
+     - Map PyTorch and TensorFlow to `deep-learning` and category `AI/ML`.
+     - Map Postgres to `postgresql` and category `Data`.
+     - Map Amazon Web Services to `aws` and category `DevOps`.
+     - Do not emit `PyTorch`, `TensorFlow`, `PostgreSQL`, or `AWS` as
+         `canonical_skill`; emit their taxonomy IDs instead.
 5. Score only from evidence explicitly present in the supplied documents.
 6. Do not assign a high score merely because a skill appears in a skill list.
 7. Give greater weight to demonstrated projects, work experience, deployed
@@ -126,7 +216,7 @@ INSTRUCTIONS
 13. This evaluation concerns self-reported evidence only.
 14. If no portfolio was supplied, evaluate only the résumé and do not penalize
     the applicant.
-15. Deduplicate skills after normalization.
+15. Deduplicate skills after normalization; each canonical skill ID may appear once.
 16. Keep reasoning short, specific, and tied directly to the cited evidence.
 17. Return one valid JSON object only.
 18. Do not wrap the JSON in a Markdown code block.
