@@ -1,6 +1,31 @@
 # Intern-Assignment-Agent
 
-NUS ISS Hackathon résumé extraction test using Docling.
+NUS ISS Hackathon applicant profiling, GitHub evidence, project catalog and assignment components.
+
+## Local demo and verification
+
+After `uv sync --locked`, run the checked-in sample workflows with visible progress:
+
+```sh
+uv run python scripts/run_local_demo.py --test
+```
+
+This runs six controlled catalog scenarios, rules-only evidence verification of a
+saved applicant profile, the 20-student/4-project matching fixture, and the test
+suite. Logs are saved in `data/runs/local-check/`; matching JSON is saved under
+`src/matching/artifacts/`. It stops with a nonzero exit code on failure. Omit
+`--test` for a shorter demo. No API keys or model calls are required for this mode.
+
+These are **separate component checks**, not an integrated live-agent workflow.
+`pipeline.orchestrator` still uses stub agents; its `llm_calls` field counts stub
+invocations in demo mode, not actual paid requests. All assignment results are
+drafts for mentor review. The repository currently has no web UI entry point.
+
+For live profile/evidence calls, configure the three `LLM_*` gateway settings below.
+The live catalog workflow separately needs `OPENAI_API_KEY` and administrator
+credentials (see `.env.example` and `python -m project_catalog_agent.admin_setup --help`).
+Profile/evidence proficiency is 1–3; the current matching fixtures use 1–5.
+Do not feed one into the other without an explicit, validated schema/scale adapter.
 
 ## Setup
 
