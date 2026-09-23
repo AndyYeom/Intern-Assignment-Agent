@@ -1,0 +1,60 @@
+{
+  "applicants": [
+    {
+      "applicant_id": "applicant0004",
+      "resume": "data/resumes/rendered/applicant0004.pdf",
+      "saved_profile": "output/applicant0004_profile.json"
+    },
+    {
+      "applicant_id": "applicant0006",
+      "resume": "data/resumes/rendered/applicant0006.pdf",
+      "saved_profile": "output/applicant0006_profile.json"
+    }
+  ],
+  "projects": [
+    {
+      "request": {
+        "request_id": "DEMO-JAVA",
+        "project_name": "Java learning project",
+        "project_description": "Build a small application using Java. Entry proficiency is required, with normal mentoring."
+      },
+      "min_team_size": 1,
+      "capacity": 2,
+      "replay_extraction": {
+        "project_summary": "Build a small application using Java. Entry proficiency is required, with normal mentoring.",
+        "requirements": [
+          {
+            "raw_skill": "Java",
+            "importance": "hard_requirement",
+            "required_level": 1,
+            "confidence": 0.95,
+            "evidence_text": "Build a small application using Java. Entry proficiency is required, with normal mentoring.",
+            "decision_basis": "Synthetic replay fixture: explicitly stated Entry requirement."
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "request_id": "DEMO-PYTHON",
+        "project_name": "Python learning project",
+        "project_description": "Build a small application using Python. Entry proficiency is required, with normal mentoring."
+      },
+      "min_team_size": 1,
+      "capacity": 2,
+      "replay_extraction": {
+        "project_summary": "Build a small application using Python. Entry proficiency is required, with normal mentoring.",
+        "requirements": [
+          {
+            "raw_skill": "Python",
+            "importance": "hard_requirement",
+            "required_level": 1,
+            "confidence": 0.95,
+            "evidence_text": "Build a small application using Python. Entry proficiency is required, with normal mentoring.",
+            "decision_basis": "Synthetic replay fixture: explicitly stated Entry requirement."
+          }
+        ]
+      }
+    }
+  ]
+}

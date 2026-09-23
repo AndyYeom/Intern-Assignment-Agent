@@ -24,8 +24,48 @@ drafts for mentor review. The repository currently has no web UI entry point.
 For live profile/evidence calls, configure the three `LLM_*` gateway settings below.
 The live catalog workflow separately needs `OPENAI_API_KEY` and administrator
 credentials (see `.env.example` and `python -m project_catalog_agent.admin_setup --help`).
-Profile/evidence proficiency is 1–3; the current matching fixtures use 1–5.
-Do not feed one into the other without an explicit, validated schema/scale adapter.
+Profile/evidence proficiency is 1–3; the older matching fixtures use 1–5.
+The connected preview below uses 1–3 on both sides without rescaling.
+
+## Connected agent preview
+
+```sh
+# Replays saved profile outputs and explicit synthetic catalog extraction fixtures.
+uv run python -m pipeline.integrated --mode replay --output-dir data/runs/connected-01
+
+# New resume/PDF and catalog model calls; provide a real local environment file.
+uv run python -m pipeline.integrated --mode live --env-file /path/to/.env --output-dir data/runs/live-01
+```
+
+Use a new output directory for each run. `--input` accepts a manifest shaped like
+`data/integration-demo.json`; paths inside it are repository-relative. The default
+contains two existing applicants and two small synthetic projects. Each project
+must explicitly specify capacity; it is never invented by a model. Preview runs
+are limited to five applicants and five projects.
+
+Unlike `run_local_demo.py`, this carries the **same applicants and projects**
+through profile output → the real evidence graph → profile resolution → catalog
+normalization/build/validation → schema adapters → scoring → the existing GA.
+Replay replaces only profile extraction and catalog extraction with declared
+fixtures. Live invokes `evaluate_resume` and `LLMRequirementExtractor`; evidence
+may fall back to rules, which is recorded in `evidence.json`. Both modes use the
+existing collected GitHub corpus, not fresh GitHub API collection. Live needs the
+three `LLM_*` settings and `OPENAI_API_KEY` (`OPENAI_MODEL` is optional).
+
+Adapters preserve the common 1–3 scale, normalize aliases, retain unmapped skill
+warnings, and reject unresolved catalog requirements. The matching taxonomy is
+flat so unrelated skills in the same category are not treated as interchangeable.
+`scores.json` records pairwise fit and per-skill growth diagnostics; the existing
+optimizer still uses its existing fitness function. It is not a new LLM scoring
+or critic agent, and its pedagogical scoring policy still needs evaluation.
+
+Artifacts include source profiles, evidence with links, resolved skills, catalog
+validation, matching inputs, pairwise scores, status, and `assignment-draft.json`.
+Exit codes: 0 = complete draft, 1 = failure, 2 = applicants remain unassigned.
+No result is published or approved. This is a preview that lists all three human
+reviews as pending; production review/resume gates and a critic are not yet wired.
+Live provider behavior must be tested with real credentials before calling the
+full AI workflow validated.
 
 ## Setup
 
