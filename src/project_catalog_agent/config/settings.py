@@ -13,4 +13,8 @@ class Settings(BaseSettings):
     openai_api_key: SecretStr | None = None
     openai_model: str = "gpt-4o-mini"
 
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
+    # The repository shares .env with the profile, evidence and admin agents.
+    # Their settings must not prevent the catalog agent from starting.
+    model_config = SettingsConfigDict(
+        env_file=".env", env_file_encoding="utf-8", extra="ignore"
+    )

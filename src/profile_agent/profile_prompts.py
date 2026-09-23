@@ -269,6 +269,7 @@ def build_profile_prompt(applicant_id: str, resume_text: str, portfolio_text: st
         [("system", SYSTEM_PROMPT), ("human", HUMAN_PROMPT)]
     ).format(
         proficiency_taxonomy=PROFICIENCY_TAXONOMY,
+        canonical_skill_taxonomy=CANONICAL_SKILL_TAXONOMY,
         applicant_id=applicant_id,
         resume_text=resume_text,
         portfolio_text=portfolio_text,
@@ -313,6 +314,7 @@ Return exactly one corrected JSON object only. Do not include any markdown fence
 """)]
     ).format(
         proficiency_taxonomy=PROFICIENCY_TAXONOMY,
+        canonical_skill_taxonomy=CANONICAL_SKILL_TAXONOMY,
         applicant_id=applicant_id,
         resume_text=resume_text,
         portfolio_text=portfolio_text,
