@@ -19,9 +19,10 @@ import {
   Tooltip,
 } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
-import { Pencil, Plus, Trash2 } from "lucide-react";
+import { Pencil, Plus, Sparkles, Trash2 } from "lucide-react";
 import { ApiError } from "@/lib/api";
 import { useApi } from "@/lib/api-context";
+import { CatalogSuggestModal } from "@/components/CatalogSuggestModal";
 import { ErrorAlert } from "@/components/ErrorAlert";
 import { ProjectStatusBadge } from "@/components/StatusBadge";
 import { describeError } from "@/lib/format";
@@ -30,6 +31,7 @@ import type {
   ProjectOut,
   ProjectStatus,
   RequirementIn,
+  RequirementSuggestion,
   RoleOut,
   SkillOut,
 } from "@/lib/types";
@@ -48,6 +50,13 @@ export default function ProjectsPage() {
     role: RoleOut | null;
   } | null>(null);
   const [deleteTarget, setDeleteTarget] = useState<ProjectOut | null>(null);
+  const [suggestState, setSuggestState] = useState<{
+    project: ProjectOut;
+    loading: boolean;
+    result: RequirementSuggestion | null;
+    error: unknown;
+    version: number;
+  } | null>(null);
 
   const load = useCallback(async () => {
     try {
@@ -68,6 +77,19 @@ export default function ProjectsPage() {
   useEffect(() => {
     load();
   }, [load]);
+
+  function handleSuggest(project: ProjectOut) {
+    const version = (suggestState?.version ?? 0) + 1;
+    setSuggestState({ project, loading: true, result: null, error: null, version });
+    api
+      .suggestRequirements(project.id)
+      .then((result) => {
+        setSuggestState({ project, loading: false, result, error: null, version });
+      })
+      .catch((err) => {
+        setSuggestState({ project, loading: false, result: null, error: err, version });
+      });
+  }
 
   async function handleDeleteRole(role: RoleOut) {
     if (!confirm(`Delete role "${role.name}"?`)) return;
@@ -149,6 +171,16 @@ export default function ProjectsPage() {
                 >
                   Add role
                 </Button>
+                {project.roles.length > 0 && (
+                  <Button
+                    size="xs"
+                    variant="light"
+                    leftSection={<Sparkles size={14} />}
+                    onClick={() => handleSuggest(project)}
+                  >
+                    Suggest with catalog agent
+                  </Button>
+                )}
                 <Button
                   size="xs"
                   variant="light"
@@ -163,9 +195,18 @@ export default function ProjectsPage() {
 
             <Stack gap={8} mt="sm">
               {project.roles.length === 0 && (
-                <Text size="sm" c="dimmed">
-                  No roles defined yet.
-                </Text>
+                <Group justify="space-between" align="center">
+                  <Text size="sm" c="dimmed">
+                    No roles defined yet.
+                  </Text>
+                  <Button
+                    size="xs"
+                    leftSection={<Sparkles size={14} />}
+                    onClick={() => handleSuggest(project)}
+                  >
+                    Suggest with catalog agent
+                  </Button>
+                </Group>
               )}
               {project.roles.map((role) => (
                 <Card key={role.id} withBorder padding="sm" radius="sm">
@@ -260,6 +301,22 @@ export default function ProjectsPage() {
           onClose={() => setDeleteTarget(null)}
           onSaved={() => {
             setDeleteTarget(null);
+            load();
+          }}
+        />
+      )}
+
+      {suggestState && (
+        <CatalogSuggestModal
+          project={suggestState.project}
+          loading={suggestState.loading}
+          suggestion={suggestState.result}
+          error={suggestState.error}
+          version={suggestState.version}
+          onRetry={() => handleSuggest(suggestState.project)}
+          onClose={() => setSuggestState(null)}
+          onCreated={() => {
+            setSuggestState(null);
             load();
           }}
         />
