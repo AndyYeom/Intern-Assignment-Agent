@@ -289,8 +289,11 @@ class UnassignedApplicant(ApiModel):
 class RoleUtilization(ApiModel):
     role_id: uuid.UUID
     role_name: str
+    # Seats this run could fill (role capacity minus earlier approved placements).
     capacity: int
     filled: int
+    # Seats already taken by approved placements from earlier runs.
+    filled_before: int = 0
 
 
 class ProjectUtilization(ApiModel):
@@ -298,6 +301,7 @@ class ProjectUtilization(ApiModel):
     project_name: str
     capacity: int
     filled: int
+    filled_before: int = 0
     roles: list[RoleUtilization]
 
 

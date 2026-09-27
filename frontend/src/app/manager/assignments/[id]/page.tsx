@@ -146,9 +146,17 @@ export default function RunDetailPage({
       </Card>
 
       <Card withBorder radius="md" p="md">
-        <Title order={4} mb="sm">
+        <Title order={4} mb={4}>
           Capacity utilization
         </Title>
+        <Text size="xs" c="dimmed" mb="sm">
+          Seats offered in this run exclude seats already taken by approved
+          placements from earlier runs
+          {Number(run.configuration.excluded_placed_applicants ?? 0) > 0
+            ? `; ${run.configuration.excluded_placed_applicants} applicant(s) with an approved placement were left out`
+            : ""}
+          .
+        </Text>
         <Stack gap="md">
           {run.utilization.map((p) => (
             <div key={p.project_id}>
@@ -158,6 +166,7 @@ export default function RunDetailPage({
                 </Text>
                 <Text size="xs" c="dimmed">
                   {p.filled} / {p.capacity}
+                  {p.filled_before > 0 && ` (+${p.filled_before} approved earlier)`}
                 </Text>
               </Group>
               <Stack gap={6}>
@@ -171,8 +180,13 @@ export default function RunDetailPage({
                       style={{ flex: 1 }}
                       size="sm"
                     />
-                    <Text size="xs" w={50} ta="right">
+                    <Text size="xs" w={140} ta="right">
                       {r.filled}/{r.capacity}
+                      {r.filled_before > 0 && (
+                        <Text span size="xs" c="dimmed">
+                          {" "}+{r.filled_before} earlier
+                        </Text>
+                      )}
                     </Text>
                   </Group>
                 ))}

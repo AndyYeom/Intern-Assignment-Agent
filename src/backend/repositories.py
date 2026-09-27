@@ -100,10 +100,41 @@ def agent_runs_for(session: Session, applicant_id: uuid.UUID) -> Sequence[AgentR
     ).all()
 
 
+def approved_placements(
+    session: Session, *, exclude_assignment: uuid.UUID | None = None
+) -> dict[uuid.UUID, Assignment]:
+    """Committed placements: each applicant's approved assignment (newest if several).
+
+    Approval is what commits a seat. Later runs skip these applicants and only
+    offer each role's remaining seats; rejecting the approval releases both.
+    """
+    stmt = (
+        select(Assignment)
+        .join(AssignmentRun, Assignment.assignment_run_id == AssignmentRun.id)
+        .where(Assignment.status == "approved", AssignmentRun.status == "completed")
+        .order_by(Assignment.updated_at.desc())
+    )
+    if exclude_assignment is not None:
+        stmt = stmt.where(Assignment.id != exclude_assignment)
+    placed: dict[uuid.UUID, Assignment] = {}
+    for row in session.scalars(stmt):
+        placed.setdefault(row.applicant_id, row)
+    return placed
+
+
+def filled_seats(placements: dict[uuid.UUID, Assignment]) -> dict[uuid.UUID, int]:
+    """Approved placements per role."""
+    counts: dict[uuid.UUID, int] = {}
+    for a in placements.values():
+        counts[a.project_role_id] = counts.get(a.project_role_id, 0) + 1
+    return counts
+
+
 def latest_assignments(
     session: Session, applicant_ids: Sequence[uuid.UUID]
 ) -> dict[uuid.UUID, Assignment]:
-    """Each applicant's assignment from the newest completed run that placed them."""
+    """Each applicant's approved placement, else their proposal from the newest
+    completed run that placed them."""
     if not applicant_ids:
         return {}
     rows = session.execute(
@@ -114,7 +145,9 @@ def latest_assignments(
     ).scalars()
     latest: dict[uuid.UUID, Assignment] = {}
     for row in rows:
-        latest.setdefault(row.applicant_id, row)
+        current = latest.get(row.applicant_id)
+        if current is None or (row.status == "approved" and current.status != "approved"):
+            latest[row.applicant_id] = row
     return latest
 
 

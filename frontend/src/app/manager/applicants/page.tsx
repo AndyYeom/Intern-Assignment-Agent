@@ -29,6 +29,12 @@ const STATUS_OPTIONS = [
   { value: "failed", label: "Failed" },
 ];
 
+const PLACEMENT_OPTIONS = [
+  { value: "", label: "Any placement" },
+  { value: "assigned", label: "Assigned (approved)" },
+  { value: "unassigned", label: "Not assigned" },
+];
+
 export default function ApplicantsPage() {
   const api = useApi();
   const router = useRouter();
@@ -38,6 +44,7 @@ export default function ApplicantsPage() {
   const [error, setError] = useState<unknown>(null);
   const [loading, setLoading] = useState(true);
   const [status, setStatus] = useState<string>("");
+  const [placement, setPlacement] = useState<"" | "assigned" | "unassigned">("");
   const [query, setQuery] = useState("");
 
   useEffect(() => {
@@ -48,6 +55,7 @@ export default function ApplicantsPage() {
         const data = await api.listApplicants({
           status: status || undefined,
           q: query || undefined,
+          placement: placement || undefined,
         });
         if (!cancelled) {
           setApplicants(data);
@@ -63,7 +71,7 @@ export default function ApplicantsPage() {
       cancelled = true;
       clearTimeout(handle);
     };
-  }, [api, status, query]);
+  }, [api, status, query, placement]);
 
   // While any applicant is still being processed, refresh the list quietly.
   const inProgress = (applicants ?? []).some(
@@ -77,6 +85,7 @@ export default function ApplicantsPage() {
           await api.listApplicants({
             status: status || undefined,
             q: query || undefined,
+            placement: placement || undefined,
           }),
         );
       } catch {
@@ -84,7 +93,7 @@ export default function ApplicantsPage() {
       }
     }, 10000);
     return () => clearInterval(timer);
-  }, [inProgress, api, status, query]);
+  }, [inProgress, api, status, query, placement]);
 
   return (
     <Stack gap="lg">
@@ -105,6 +114,13 @@ export default function ApplicantsPage() {
           value={status}
           onChange={(v) => setStatus(v ?? "")}
           w={200}
+          allowDeselect={false}
+        />
+        <Select
+          data={PLACEMENT_OPTIONS}
+          value={placement}
+          onChange={(v) => setPlacement((v ?? "") as typeof placement)}
+          w={220}
           allowDeselect={false}
         />
       </Group>
@@ -150,7 +166,14 @@ export default function ApplicantsPage() {
                     </Stack>
                   </Table.Td>
                   <Table.Td>
-                    <ApplicantStatusBadge status={a.status} />
+                    <Group gap={4}>
+                      <ApplicantStatusBadge status={a.status} />
+                      {a.assignment?.status === "approved" && (
+                        <Badge size="sm" color="teal" variant="filled">
+                          Assigned
+                        </Badge>
+                      )}
+                    </Group>
                   </Table.Td>
                   <Table.Td>
                     <Group gap={4}>
@@ -182,10 +205,18 @@ export default function ApplicantsPage() {
                   </Table.Td>
                   <Table.Td>{formatDateOnly(a.submitted_at)}</Table.Td>
                   <Table.Td>
-                    {a.assignment ? (
-                      <Text size="sm">
-                        {a.assignment.project_name} · {a.assignment.role_name}
-                      </Text>
+                    {a.assignment && a.assignment.status !== "rejected" ? (
+                      <Stack gap={0}>
+                        <Text
+                          size="sm"
+                          c={a.assignment.status === "approved" ? undefined : "dimmed"}
+                        >
+                          {a.assignment.project_name} · {a.assignment.role_name}
+                        </Text>
+                        <Text size="xs" c="dimmed">
+                          {a.assignment.status === "approved" ? "approved" : "proposed, not approved"}
+                        </Text>
+                      </Stack>
                     ) : (
                       <Text c="dimmed" size="sm">
                         —

@@ -2,7 +2,7 @@
 
 import logging
 import uuid
-from typing import Annotated
+from typing import Annotated, Literal
 
 from fastapi import APIRouter, BackgroundTasks, Depends, Query, Response
 from fastapi.responses import StreamingResponse
@@ -63,8 +63,13 @@ def list_applicants(
     session: DB,
     status: Annotated[s.ApplicantStatus | None, Query()] = None,
     q: Annotated[str | None, Query(max_length=100)] = None,
+    # assigned = has an approved placement; unassigned = does not.
+    placement: Annotated[Literal["assigned", "unassigned"] | None, Query()] = None,
 ) -> list[s.ApplicantListItem]:
     applicants = repo.list_applicants(session, status=status, query=q)
+    if placement is not None:
+        placed = repo.approved_placements(session)
+        applicants = [a for a in applicants if (a.id in placed) == (placement == "assigned")]
     latest = repo.latest_assignments(session, [a.id for a in applicants])
     names = _names(session)
     return [ser.applicant_item(a, latest.get(a.id), names) for a in applicants]
@@ -358,6 +363,18 @@ def _run_detail(session: Session, run_id: uuid.UUID) -> s.RunDetail:
     for x in scores:
         candidates[x.applicant_id] = candidates.get(x.applicant_id, 0) + int(x.candidate)
     active = [a for a in assignments if a.status != "rejected"]
+    seats = config.get("role_seats") or {}
+    before = {uuid.UUID(k): int(v) for k, v in (config.get("filled_before") or {}).items()}
+
+    def offered(r: ProjectRole) -> int:
+        return int(seats.get(str(r.id), 0 if r.id in before else r.capacity))
+
+    # Roles filled entirely by earlier approvals were not offered, but are shown as full.
+    shown = role_ids | set(before)
+    projects = [p for p in repo.list_projects(session) if any(r.id in shown for r in p.roles)]
+    project_by_id = {p.id: p for p in projects}
+    roles = {r.id: r for p in projects for r in p.roles}
+    run_roles = [r for p in projects for r in p.roles if r.id in shown]
     return s.RunDetail(
         **_run_summary(run, len(active)).model_dump(),
         configuration=config,
@@ -394,17 +411,19 @@ def _run_detail(session: Session, run_id: uuid.UUID) -> s.RunDetail:
             s.ProjectUtilization(
                 project_id=p.id,
                 project_name=p.name,
-                capacity=sum(r.capacity for r in p.roles if r.id in role_ids),
+                capacity=sum(offered(r) for r in run_roles if r.project_id == p.id),
                 filled=sum(1 for a in active if a.project_id == p.id),
+                filled_before=sum(before.get(r.id, 0) for r in run_roles if r.project_id == p.id),
                 roles=[
                     s.RoleUtilization(
                         role_id=r.id,
                         role_name=r.name,
-                        capacity=r.capacity,
+                        capacity=offered(r),
                         filled=sum(1 for a in active if a.project_role_id == r.id),
+                        filled_before=before.get(r.id, 0),
                     )
                     for r in p.roles
-                    if r.id in role_ids
+                    if r.id in shown
                 ],
             )
             for p in projects
@@ -429,6 +448,13 @@ def update_assignment(assignment_id: uuid.UUID, body: s.AssignmentPatch, session
         raise ApiError(409, "role_full", str(exc)) from None
     except assign.RunInputError as exc:
         raise ApiError(422, "invalid_role", str(exc)) from None
+    if body.status == "approved" and assignment.status != "approved":
+        try:
+            assign.check_approval(session, assignment)
+        except assign.AlreadyPlacedError as exc:
+            raise ApiError(409, "already_placed", str(exc)) from None
+        except assign.RoleFullError as exc:
+            raise ApiError(409, "role_full", str(exc)) from None
     if body.status is not None:
         assignment.status = body.status
     if body.note is not None:

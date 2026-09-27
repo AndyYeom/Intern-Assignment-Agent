@@ -11,6 +11,9 @@ project role is therefore handed to it as one matching unit:
 so capacity is enforced per role, scores are applicant x role, and the
 optimizer itself is unchanged. It is a global optimization (genetic
 algorithm), not a greedy one-by-one assignment.
+
+Approved placements are commitments: a new run leaves out applicants who
+already have one and offers each role only its remaining seats.
 """
 
 import logging
@@ -69,17 +72,35 @@ def create_run(
         for p in repo.list_projects(session, status=None if project_ids else "active")
         if project_ids is None or p.id in set(project_ids)
     ]
-    roles = [r for p in projects for r in p.roles if r.requirements]
-    applicants = repo.ready_applicants(session, applicant_ids)
-    if not roles:
+    placed = repo.approved_placements(session)
+    filled = repo.filled_seats(placed)
+    all_roles = [r for p in projects for r in p.roles if r.requirements]
+    if not all_roles:
         raise RunInputError("No project roles with skill requirements to assign to.")
+    seats = {r.id: r.capacity - filled.get(r.id, 0) for r in all_roles}
+    roles = [r for r in all_roles if seats[r.id] > 0]
+    ready = repo.ready_applicants(session, applicant_ids)
+    applicants = [a for a in ready if a.id not in placed]
+    if not roles:
+        raise RunInputError("Every role is already filled by approved placements.")
     if not applicants:
-        raise RunInputError("No applicants with status 'ready' to assign.")
+        raise RunInputError(
+            "No applicants left to assign: every 'ready' applicant already has an approved placement."
+            if ready
+            else "No applicants with status 'ready' to assign."
+        )
     run = AssignmentRun(
         status="queued",
         configuration={
             "project_ids": [str(p.id) for p in projects],
             "role_ids": [str(r.id) for r in roles],
+            # Seats left after approved placements; the optimizer's team size.
+            "role_seats": {str(r.id): seats[r.id] for r in roles},
+            # Approved placements from earlier runs, per role (full roles included).
+            "filled_before": {
+                str(r.id): filled[r.id] for r in all_roles if filled.get(r.id)
+            },
+            "excluded_placed_applicants": len(ready) - len(applicants),
             "applicant_ids": [str(a.id) for a in applicants],
             "ga": GAConfig(seed=seed).model_dump(),
             "unit": "project_role",
@@ -93,7 +114,11 @@ def create_run(
 
 
 def _matching_input(
-    applicants: list[Applicant], roles: list[ProjectRole], skills: list[tuple[str, str]], ga: dict
+    applicants: list[Applicant],
+    roles: list[ProjectRole],
+    skills: list[tuple[str, str]],
+    ga: dict,
+    seats: dict[str, int] | None = None,
 ) -> MatchingInput:
     return MatchingInput(
         students=[
@@ -109,7 +134,7 @@ def _matching_input(
                 project_id=str(r.id),
                 name=f"{r.project.name} / {r.name}",
                 min_team_size=1,
-                max_team_size=r.capacity,
+                max_team_size=(seats or {}).get(str(r.id), r.capacity),
                 requirements=[
                     ProjectSkillRequirement(
                         skill_id=q.skill_id,
@@ -202,7 +227,7 @@ def _execute(session: Session, run_id: uuid.UUID) -> None:
     skills = [(s.id, s.name) for s in repo.list_skills(session)]
     names = dict(skills)
 
-    data = _matching_input(applicants, roles, skills, config["ga"])
+    data = _matching_input(applicants, roles, skills, config["ga"], config.get("role_seats"))
     context = preprocess_inputs(data)
     options = build_candidate_options(context)
     students = {s.student_id: s for s in data.students}
@@ -285,12 +310,15 @@ def override_role(session: Session, assignment: Assignment, role_id: uuid.UUID) 
     if role is None:
         raise RunInputError("Unknown role.")
     if role_id != assignment.project_role_id:
-        taken = sum(
-            1
-            for a in repo.run_assignments(session, run.id)
+        in_run = [
+            a for a in repo.run_assignments(session, run.id)
             if a.project_role_id == role_id and a.status != "rejected"
-        )
-        if taken >= role.capacity:
+        ]
+        elsewhere = [
+            a for a in repo.approved_placements(session).values()
+            if a.project_role_id == role_id and a.assignment_run_id != run.id
+        ]
+        if len(in_run) + len(elsewhere) >= role.capacity:
             raise RoleFullError(f"{role.name} is already at capacity ({role.capacity}).")
     assignment.project_role_id = role.id
     assignment.project_id = role.project_id
@@ -310,6 +338,29 @@ def override_role(session: Session, assignment: Assignment, role_id: uuid.UUID) 
 
 class RoleFullError(RunInputError):
     """The target role has no free capacity."""
+
+
+class AlreadyPlacedError(RunInputError):
+    """The applicant already has an approved placement from another run."""
+
+
+def check_approval(session: Session, assignment: Assignment) -> None:
+    """Approving commits a seat: one approved placement per applicant, and
+    approved placements never exceed a role's capacity across runs."""
+    placed = repo.approved_placements(session, exclude_assignment=assignment.id)
+    existing = placed.get(assignment.applicant_id)
+    if existing is not None:
+        role = session.get(ProjectRole, existing.project_role_id)
+        raise AlreadyPlacedError(
+            f"This applicant is already placed in {role.project.name} / {role.name}. "
+            "Reject that placement first."
+        )
+    role = session.get(ProjectRole, assignment.project_role_id)
+    if repo.filled_seats(placed).get(role.id, 0) >= role.capacity:
+        raise RoleFullError(
+            f"{role.project.name} / {role.name} is already full "
+            f"({role.capacity} approved placement(s))."
+        )
 
 
 def project_capacity(project: Project) -> int:

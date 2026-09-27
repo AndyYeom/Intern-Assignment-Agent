@@ -137,9 +137,11 @@ export function createApiClient(baseUrl: string) {
     async listApplicants(params?: {
       status?: string;
       q?: string;
+      placement?: "assigned" | "unassigned";
     }): Promise<ApplicantListItem[]> {
       const search = new URLSearchParams();
       if (params?.status) search.set("status", params.status);
+      if (params?.placement) search.set("placement", params.placement);
       if (params?.q) search.set("q", params.q);
       const qs = search.toString();
       return request<ApplicantListItem[]>(

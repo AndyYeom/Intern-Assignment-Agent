@@ -54,6 +54,10 @@ Manager  ──┴─► Next.js frontend ─►│ FastAPI API  │─► Postg
   applicant × role, not a greedy one. Runs, pairwise scores and placements are
   stored. A manager override changes the placement but keeps the solver's
   original role, so run history is never rewritten.
+- **Approval commits a seat.** Each applicant can hold one approved placement,
+  and approvals never exceed a role's capacity across runs. A new run leaves
+  out applicants who already have an approved placement and offers each role
+  only its remaining seats; rejecting an approval releases both.
 
 ### Repository data layout
 

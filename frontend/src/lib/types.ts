@@ -271,8 +271,11 @@ export interface UnassignedApplicant {
 export interface RoleUtilization {
   role_id: string;
   role_name: string;
+  /** Seats this run could fill (capacity minus earlier approved placements). */
   capacity: number;
   filled: number;
+  /** Seats already taken by approved placements from earlier runs. */
+  filled_before: number;
 }
 
 export interface ProjectUtilization {
@@ -280,6 +283,7 @@ export interface ProjectUtilization {
   project_name: string;
   capacity: number;
   filled: number;
+  filled_before: number;
   roles: RoleUtilization[];
 }
 

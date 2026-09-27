@@ -190,3 +190,84 @@ def test_project_and_role_editing(client):
     assert bad.status_code == 422 and bad.json()["error"]["code"] == "unknown_skill"
     assert client.patch(f"/api/manager/projects/{p['id']}", json={"status": "archived"}).json()["status"] == "archived"
     assert client.delete(f"/api/manager/roles/{rid}").status_code == 204
+
+
+def test_approved_placements_carry_over_to_later_runs(client, monkeypatch):
+    """Approving commits a seat: the next run skips placed applicants and only
+    offers the remaining seats; rejecting the approval releases both."""
+    import backend.api.routes_public as public
+
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"python": 2}))
+    for i in range(4):
+        assert apply(client, f"Carry {i}", f"carry{i}@example.com").status_code == 201
+    project = _project(client, "Carry Over", [role("Dev", 2, ("python", 2, "hard_requirement"))])
+    dev = project["roles"][0]
+
+    def run():
+        r = client.post("/api/manager/assignment-runs", json={})
+        assert r.status_code == 202, r.text
+        return client.get(f"/api/manager/assignment-runs/{r.json()['id']}").json()
+
+    first = run()
+    assert len(first["assignments"]) == 2
+    approved = first["assignments"][0]
+    ok = client.patch(f"/api/manager/assignments/{approved['id']}", json={"status": "approved"})
+    assert ok.status_code == 200
+
+    # Shown as the applicant's placement, and filterable.
+    placed_id = approved["applicant"]["id"]
+    assigned = client.get("/api/manager/applicants", params={"placement": "assigned"}).json()
+    assert [a["id"] for a in assigned] == [placed_id]
+    assert assigned[0]["assignment"]["status"] == "approved"
+    assert len(client.get("/api/manager/applicants", params={"placement": "unassigned"}).json()) == 3
+
+    # Second run: the placed applicant is left out and only one seat is offered.
+    second = run()
+    assert second["applicant_count"] == 3
+    assert second["configuration"]["role_seats"] == {dev["id"]: 1}
+    assert second["configuration"]["excluded_placed_applicants"] == 1
+    assert len(second["assignments"]) == 1
+    assert placed_id not in {a["applicant"]["id"] for a in second["assignments"]}
+    util = second["utilization"][0]["roles"][0]
+    assert util["capacity"] == 1 and util["filled_before"] == 1
+
+    # The earlier approval still wins over the newer run's proposals.
+    detail = client.get(f"/api/manager/applicants/{placed_id}").json()
+    assert detail["assignment"]["run_id"] == first["id"]
+
+    # Approving a second person from run 1 would overfill across runs? No: 2 seats.
+    other_first = first["assignments"][1]
+    new = second["assignments"][0]
+    assert client.patch(f"/api/manager/assignments/{new['id']}", json={"status": "approved"}).status_code == 200
+    full = client.patch(f"/api/manager/assignments/{other_first['id']}", json={"status": "approved"})
+    assert full.status_code == 409 and full.json()["error"]["code"] == "role_full"
+
+    # Role full: a further run has nothing to assign to.
+    full_role = client.get(f"/api/manager/assignment-runs/{second['id']}").json()["utilization"][0]["roles"][0]
+    assert full_role["filled_before"] == 1
+    blocked = client.post("/api/manager/assignment-runs", json={})
+    assert blocked.status_code == 422 and "filled" in blocked.json()["error"]["message"]
+
+    # Rejecting an approval releases the seat and the applicant.
+    client.patch(f"/api/manager/assignments/{approved['id']}", json={"status": "rejected"})
+    third = run()
+    assert third["configuration"]["role_seats"] == {dev["id"]: 1}
+    assert placed_id in third["configuration"]["applicant_ids"]
+
+
+def test_one_approved_placement_per_applicant(client, monkeypatch):
+    import backend.api.routes_public as public
+
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"python": 2}))
+    apply(client, "Twice", "twice@example.com")
+    _project(client, "First", [role("A", 1, ("python", 2, "hard_requirement"))])
+    first = client.post("/api/manager/assignment-runs", json={}).json()["id"]
+    a1 = client.get(f"/api/manager/assignment-runs/{first}").json()["assignments"][0]
+    client.patch(f"/api/manager/assignments/{a1['id']}", json={"status": "approved"})
+    client.patch(f"/api/manager/assignments/{a1['id']}", json={"status": "proposed"})  # un-approve
+
+    second = client.post("/api/manager/assignment-runs", json={}).json()["id"]
+    a2 = client.get(f"/api/manager/assignment-runs/{second}").json()["assignments"][0]
+    assert client.patch(f"/api/manager/assignments/{a2['id']}", json={"status": "approved"}).status_code == 200
+    again = client.patch(f"/api/manager/assignments/{a1['id']}", json={"status": "approved"})
+    assert again.status_code == 409 and again.json()["error"]["code"] == "already_placed"

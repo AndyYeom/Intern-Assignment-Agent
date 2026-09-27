@@ -199,7 +199,14 @@ export default function ApplicantDetailPage({
         {applicant.assignment ? (
           <Text size="sm">
             {applicant.assignment.project_name} · {applicant.assignment.role_name}{" "}
-            — score {applicant.assignment.score.toFixed(1)}
+            — score {applicant.assignment.score.toFixed(1)}{" "}
+            <Badge
+              size="sm"
+              variant="light"
+              color={applicant.assignment.status === "approved" ? "teal" : "gray"}
+            >
+              {applicant.assignment.status}
+            </Badge>
           </Text>
         ) : (
           <Text size="sm" c="dimmed">
