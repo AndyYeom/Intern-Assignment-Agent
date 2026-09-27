@@ -126,11 +126,21 @@ class ApplicantSkillOut(ApiModel):
 
 
 class ProcessingStage(ApiModel):
+    run_id: uuid.UUID
     agent_type: Literal["profile", "github", "evidence", "resolve"]
     status: Literal["running", "succeeded", "failed", "skipped"]
     started_at: datetime
     completed_at: datetime | None
     message: str | None
+    model: str | None
+    # Small summary (counts, notes); the full output is fetched per run.
+    details: dict[str, object] | None
+    error: str | None
+    has_output: bool
+
+
+class AgentRunOut(ProcessingStage):
+    output: dict[str, object] | None
 
 
 class RoleScoreOut(ApiModel):

@@ -61,12 +61,40 @@ def applicant_item(a: Applicant, assignment: Assignment | None, names: dict) -> 
 def stage(run: AgentRun) -> s.ProcessingStage:
     note = (run.details or {}).get("note")
     return s.ProcessingStage(
+        run_id=run.id,
         agent_type=run.agent_type,
         status=run.status,
         started_at=run.started_at,
         completed_at=run.completed_at,
-        message=STAGE_MESSAGES.get((run.agent_type, run.status), note if run.status != "failed" else None),
+        message=note or STAGE_MESSAGES.get((run.agent_type, run.status)),
+        model=run.model,
+        details=run.details,
+        error=run.error,
+        has_output=run.output is not None,
     )
+
+
+def agent_run(run: AgentRun) -> s.AgentRunOut:
+    return s.AgentRunOut(**stage(run).model_dump(), output=run.output)
+
+
+def latest_attempt(runs: list[AgentRun]) -> list[AgentRun]:
+    """The newest run of each stage in the latest attempt.
+
+    An attempt starts with a profile run (full reprocess) or a github run
+    (GitHub re-verification, which keeps the earlier profile run); stages
+    older than the attempt's start are left out.
+    """
+    latest: dict[str, AgentRun] = {}
+    for run in sorted(runs, key=lambda r: r.started_at):
+        latest[run.agent_type] = run
+    profile, github = latest.get("profile"), latest.get("github")
+    start = github.started_at if github else (profile.started_at if profile else None)
+    order = ("profile", "github", "evidence", "resolve")
+    return [
+        latest[t] for t in order
+        if t in latest and (t == "profile" or start is None or latest[t].started_at >= start)
+    ]
 
 
 def applicant_detail(
@@ -77,12 +105,6 @@ def applicant_detail(
     names: dict,
 ) -> s.ApplicantDetail:
     item = applicant_item(a, assignment, names)
-    # Only the most recent processing attempt, which starts with a profile run.
-    starts = [r.started_at for r in runs if r.agent_type == "profile"]
-    attempt = [r for r in runs if not starts or r.started_at >= max(starts)]
-    latest: dict[str, AgentRun] = {}
-    for run in attempt:
-        latest[run.agent_type] = run
     return s.ApplicantDetail(
         **item.model_dump(),
         portfolio_url=a.portfolio_url,
@@ -124,7 +146,7 @@ def applicant_detail(
             )
             for k in sorted(a.skills, key=lambda k: (-k.final_level, k.skill.name))
         ],
-        stages=[stage(r) for r in latest.values()],
+        stages=[stage(r) for r in latest_attempt(runs)],
         scores=[
             s.RoleScoreOut(
                 run_id=x.assignment_run_id,

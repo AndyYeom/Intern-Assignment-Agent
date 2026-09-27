@@ -128,3 +128,88 @@ def test_process_applicant_persists_everything_and_writes_no_files(db, stub_agen
     with session_scope() as session:
         applicant = session.get(Applicant, applicant_id)
         assert applicant.status == "ready"
+
+
+def test_reverify_github_reuses_the_profile_and_replaces_skipped_stages(db, client, stub_agents, monkeypatch):
+    """GitHub rate-limited on first processing -> skipped with a readable reason;
+    re-verification later collects GitHub and reruns evidence + resolve without
+    calling the resume LLM again."""
+    import generator.github.collector as collector
+    from generator.github.client import RateLimited
+
+    import src.profile_agent.profile_graph as profile_graph
+    from backend.api import routes_manager
+    from backend.services.processing import process_applicant
+
+    real_collect = collector.collect_user
+    resume_calls = {"n": 0}
+    real_evaluate = profile_graph.evaluate_resume
+
+    def counting_evaluate(*args, **kwargs):
+        resume_calls["n"] += 1
+        return real_evaluate(*args, **kwargs)
+
+    def limited(*args, **kwargs):
+        raise RateLimited("rate limit exhausted")
+
+    monkeypatch.setattr(profile_graph, "evaluate_resume", counting_evaluate)
+    monkeypatch.setattr(collector, "collect_user", limited)
+    applicant_id = _make_applicant("testapplicant0002")
+    process_applicant(applicant_id)
+
+    detail = client.get(f"/api/manager/applicants/{applicant_id}").json()
+    stages = {s["agent_type"]: s for s in detail["stages"]}
+    assert detail["status"] == "ready"
+    assert [s["agent_type"] for s in detail["stages"]] == ["profile", "github", "evidence", "resolve"]
+    assert stages["github"]["status"] == "skipped"
+    assert "rate limit" in stages["github"]["message"].lower()
+    assert "RateLimited" in stages["github"]["error"]
+    assert stages["evidence"]["status"] == "skipped"
+    assert detail["skills"][0]["observed_level"] is None
+
+    # Full outputs are served per run, not inlined in the (polled) detail.
+    profile_run = client.get(
+        f"/api/manager/applicants/{applicant_id}/agent-runs/{stages['profile']['run_id']}"
+    ).json()
+    assert profile_run["output"]["skills"][0]["canonical_skill"] == "Python"
+    assert "output" not in stages["profile"] and stages["profile"]["has_output"]
+
+    # Quota exhausted: refused up front with the reason.
+    def no_quota():
+        raise routes_manager.GitHubUnavailable("GitHub quota for anonymous access is nearly used up")
+
+    monkeypatch.setattr(routes_manager, "check_github_available", no_quota)
+    r = client.post(f"/api/manager/applicants/{applicant_id}/reverify-github")
+    assert r.status_code == 409
+    assert r.json()["error"]["code"] == "github_unavailable"
+    assert "quota" in r.json()["error"]["message"]
+
+    # Quota back: collection works now.
+    monkeypatch.setattr(routes_manager, "check_github_available", lambda: {"remaining": 5000})
+    monkeypatch.setattr(collector, "collect_user", real_collect)
+    r = client.post(f"/api/manager/applicants/{applicant_id}/reverify-github")
+    assert r.status_code == 202, r.text
+
+    detail = client.get(f"/api/manager/applicants/{applicant_id}").json()
+    stages = {s["agent_type"]: s for s in detail["stages"]}
+    assert detail["status"] == "ready"
+    assert len(detail["stages"]) == 4
+    assert stages["github"]["status"] == "succeeded" and stages["github"]["has_output"]
+    assert stages["evidence"]["status"] == "succeeded"
+    assert stages["resolve"]["started_at"] > stages["github"]["started_at"]
+    assert stages["profile"]["started_at"] < stages["github"]["started_at"]
+    assert detail["skills"][0]["observed_level"] is not None
+    assert resume_calls["n"] == 1
+
+
+def test_reverify_github_refusals(db, client, stub_agents):
+    no_github = _make_applicant("testapplicant0003", github_login=None)
+    r = client.post(f"/api/manager/applicants/{no_github}/reverify-github")
+    assert r.status_code == 409 and r.json()["error"]["code"] == "no_github"
+
+    never_profiled = _make_applicant("testapplicant0004")
+    r = client.post(f"/api/manager/applicants/{never_profiled}/reverify-github")
+    assert r.status_code == 409 and r.json()["error"]["code"] == "no_profile"
+
+    r = client.get(f"/api/manager/applicants/{never_profiled}/agent-runs/{uuid.uuid4()}")
+    assert r.status_code == 404

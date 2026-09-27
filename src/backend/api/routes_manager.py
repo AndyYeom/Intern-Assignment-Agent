@@ -16,6 +16,7 @@ from backend.api import serializers as ser
 from backend.api.deps import db_session, storage
 from backend.api.errors import ApiError, not_found
 from backend.db.models import (
+    AgentRun,
     Applicant,
     ApplicantDocument,
     Assignment,
@@ -24,7 +25,13 @@ from backend.db.models import (
     ProjectRoleSkill,
 )
 from backend.services import assignment as assign
-from backend.services.processing import process_applicant
+from backend.services.processing import (
+    GitHubUnavailable,
+    check_github_available,
+    latest_profile_output,
+    process_applicant,
+    reverify_github,
+)
 from backend.storage import Storage
 
 log = logging.getLogger(__name__)
@@ -112,6 +119,49 @@ def reprocess_applicant(
     session.commit()
     background.add_task(process_applicant, applicant.id)
     return s.ApplicationCreated(id=applicant.id, status="processing")
+
+
+@router.post(
+    "/applicants/{applicant_id}/reverify-github",
+    response_model=s.ApplicationCreated,
+    status_code=202,
+)
+def reverify_applicant_github(
+    applicant_id: uuid.UUID, session: DB, background: BackgroundTasks
+) -> s.ApplicationCreated:
+    """Re-collect GitHub and rerun evidence + resolve, keeping the resume profile.
+
+    Refuses up front (409, with the reason) when it cannot work, so a manager
+    never waits minutes for another "skipped".
+    """
+    applicant = repo.get_applicant(session, applicant_id)
+    if applicant is None:
+        raise not_found("Applicant")
+    if applicant.status == "processing":
+        raise ApiError(409, "already_processing", "This applicant is already being processed.")
+    if not applicant.github_login:
+        raise ApiError(409, "no_github", "This applicant did not provide a GitHub profile.")
+    if latest_profile_output(applicant.id) is None:
+        raise ApiError(
+            409, "no_profile",
+            "The resume has not been analysed successfully yet. Use Reprocess instead.",
+        )
+    try:
+        check_github_available()
+    except GitHubUnavailable as exc:
+        raise ApiError(409, "github_unavailable", str(exc)) from exc
+    applicant.status, applicant.status_detail = "processing", None
+    session.commit()
+    background.add_task(reverify_github, applicant.id)
+    return s.ApplicationCreated(id=applicant.id, status="processing")
+
+
+@router.get("/applicants/{applicant_id}/agent-runs/{run_id}", response_model=s.AgentRunOut)
+def get_agent_run(applicant_id: uuid.UUID, run_id: uuid.UUID, session: DB) -> s.AgentRunOut:
+    run = session.get(AgentRun, run_id)
+    if run is None or run.applicant_id != applicant_id:
+        raise not_found("Agent run")
+    return ser.agent_run(run)
 
 
 # ---- projects and roles ---------------------------------------------------
