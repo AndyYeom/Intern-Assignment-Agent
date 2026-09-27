@@ -10,6 +10,7 @@ README; this file is the data contract.
 | path | holds | real or synthetic |
 | --- | --- | --- |
 | `../resources/taxonomy.json`, `../resources/proficiency_levels.md` | the shared skill list and 1-3 scale; every agent injects the same copy (moved to `resources/`) | — |
+| `../resources/career_path.md` | career families and creative types the resume generator spreads applicants across (moved to `resources/`) | — |
 | `githubs/` | public GitHub profiles | **real**, collected from the public API |
 | `resumes/` | applicant resumes, MIT format | **synthetic**, drafted from `githubs/` |
 | `applicants.csv` | one row per applicant, pairing profile and resume | index |

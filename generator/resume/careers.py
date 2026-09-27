@@ -1,6 +1,6 @@
 """Assign each applicant a career direction, spread across the corpus.
 
-legacy/resumes/career_path.md describes the space: 15 career families and 7
+resources/career_path.md describes the space: 15 career families and 7
 creative types (obvious ... wildcard). Left to itself, every LLM call picks the
 obvious path, and separate calls cannot coordinate - five subagents would all
 write "Full-Stack Engineer". So the direction is assigned here, deterministically,
@@ -20,10 +20,10 @@ import hashlib
 from collections import Counter
 from dataclasses import dataclass
 
-from generator.config import DATA
+from generator.config import RESOURCES
 from generator.schemas import GitHubProfile
 
-GUIDE_PATH = DATA / "resumes" / "career_path.md"
+GUIDE_PATH = RESOURCES / "career_path.md"
 
 INFRA = {"linux", "shell", "docker", "cicd", "aws", "gcp-azure", "kubernetes", "monitoring",
          "go", "c-cpp"}

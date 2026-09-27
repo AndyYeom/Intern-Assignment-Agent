@@ -2,6 +2,10 @@
 
 NUS ISS Hackathon applicant profiling, GitHub evidence, project catalog and assignment components.
 
+The dataset pairs real public GitHub activity with synthetic resumes; see
+[DATA_NOTICE.md](DATA_NOTICE.md) for how it was collected and pseudonymised,
+acceptable use, and removal requests.
+
 ## Local demo and verification
 
 After `uv sync --locked`, run the checked-in sample workflows with visible progress:
@@ -64,7 +68,7 @@ Manager  ──┴─► Next.js frontend ─►│ FastAPI API  │─► Postg
 | Folder | Holds | Committed |
 |---|---|---|
 | `data/` | Blob storage (`STORAGE_ROOT`): uploaded resumes as `resumes/<applicant>/<id>.pdf`. Same layout as the S3 bucket that will replace it. | No |
-| `resources/` | Reference files the system reads: skill taxonomy, proficiency scale, seed projects | Yes |
+| `resources/` | Reference files the system reads: skill taxonomy, proficiency scale, seed projects, and the career-path guide used by the resume generator | Yes |
 | `legacy/` | The historical file-based dataset (GitHub corpus, synthetic resumes, evidence), loaded once by the legacy import and still used by the generator tools; see [`legacy/README.md`](legacy/README.md) | Yes |
 
 Everything structured, such as applicants, skills, evidence, GitHub snapshots,
