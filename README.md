@@ -22,8 +22,8 @@ invocations in demo mode, not actual paid requests. All assignment results are
 drafts for mentor review. The repository currently has no web UI entry point.
 
 For live profile/evidence calls, configure the three `LLM_*` gateway settings below.
-The live catalog workflow separately needs `OPENAI_API_KEY` and administrator
-credentials (see `.env.example` and `python -m project_catalog_agent.admin_setup --help`).
+The live catalog workflow uses `OPENAI_API_KEY` when it is set, otherwise the same
+`LLM_*` gateway; the admin terminal also needs administrator credentials (see `.env.example` and `python -m project_catalog_agent.admin_setup --help`).
 Profile/evidence proficiency is 1–3; the older matching fixtures use 1–5.
 The connected preview below uses 1–3 on both sides without rescaling.
 
@@ -50,7 +50,9 @@ Replay replaces only profile extraction and catalog extraction with declared
 fixtures. Live invokes `evaluate_resume` and `LLMRequirementExtractor`; evidence
 may fall back to rules, which is recorded in `evidence.json`. Both modes use the
 existing collected GitHub corpus, not fresh GitHub API collection. Live needs the
-three `LLM_*` settings and `OPENAI_API_KEY` (`OPENAI_MODEL` is optional).
+three `LLM_*` settings. Catalog extraction uses OpenAI if `OPENAI_API_KEY` is set
+(`OPENAI_MODEL` is optional), and the `LLM_*` gateway otherwise; `status.json`
+records which one ran as `catalog_llm`.
 
 Adapters preserve the common 1–3 scale, normalize aliases, retain unmapped skill
 warnings, and reject unresolved catalog requirements. The matching taxonomy is

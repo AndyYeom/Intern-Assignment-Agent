@@ -82,7 +82,10 @@ def test_insufficient_capacity_is_explicit(tmp_path):
 def test_live_mode_uses_live_profile_and_catalog_boundaries(tmp_path, monkeypatch):
     from src.profile_agent import profile_graph
 
-    from project_catalog_agent.llm.openai_client import OpenAIStructuredLLMClient
+    from project_catalog_agent.llm import (
+        GatewayStructuredLLMClient,
+        OpenAIStructuredLLMClient,
+    )
 
     calls = []
     data = inputs()
@@ -107,6 +110,12 @@ def test_live_mode_uses_live_profile_and_catalog_boundaries(tmp_path, monkeypatc
     monkeypatch.setattr(profile_graph, "evaluate_resume", profile_call)
     monkeypatch.setattr(
         OpenAIStructuredLLMClient, "from_settings", lambda settings: FakeNetworkClient()
+    )
+    # Without OPENAI_API_KEY the catalog falls back to the gateway client.
+    monkeypatch.setattr(
+        GatewayStructuredLLMClient,
+        "from_environment",
+        classmethod(lambda cls: FakeNetworkClient()),
     )
     # Exercise the actual evidence graph without any network fallback.
     import pipeline.integrated as integrated

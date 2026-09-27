@@ -270,12 +270,16 @@ def _text(message: Any) -> str:
 
 
 def _clean_json_text(text: str) -> str:
-    cleaned = text.strip()
-    if cleaned.startswith("```"):
-        cleaned = cleaned.strip("`")
-        if cleaned.lower().startswith("json"):
-            cleaned = cleaned[4:]
-    return cleaned.strip()
+    # The gateway can keep the model writing after a complete answer, so the
+    # reply may be fenced and followed by prose; keep only the first object.
+    start = text.find("{")
+    if start == -1:
+        return text.strip()
+    try:
+        obj, _ = json.JSONDecoder().raw_decode(text, start)
+    except json.JSONDecodeError:
+        return text[start:].strip().rstrip("`").strip()
+    return json.dumps(obj, ensure_ascii=False)
 
 
 def _is_transient(exc: BaseException) -> bool:

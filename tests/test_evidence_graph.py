@@ -150,3 +150,8 @@ def test_rules_doc_matches_the_code():
     from src.evidence_agent.rules import RULES_PATH, sync_rules_doc
 
     assert not sync_rules_doc(), f"{RULES_PATH.name} was out of date and has been rewritten"
+
+
+def test_clean_json_text_keeps_first_object_when_gateway_keeps_writing():
+    reply = '```json\n{"verdicts": []}\n```I have already completed the JSON.\n```'
+    assert json.loads(eg._clean_json_text(reply)) == {"verdicts": []}

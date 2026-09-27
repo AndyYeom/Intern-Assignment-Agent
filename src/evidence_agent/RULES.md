@@ -78,17 +78,17 @@ Everything else, one or two levels short, or only weakly signalled, goes to the
 model in one call per applicant, with only the repositories behind those claims
 ([`_prompt_parts()`](../../src/evidence_agent/evidence_graph.py#L250)).
 
-## 6. How far the model is trusted ([`_accept()`](../../src/evidence_agent/evidence_graph.py#L341))
+## 6. How far the model is trusted ([`_accept()`](../../src/evidence_agent/evidence_graph.py#L345))
 
 - A verdict with a level must cite at least one repository URL that exists in
   the profile; otherwise the rules' verdict is kept for that skill
-  ([evidence_graph.py:346](../../src/evidence_agent/evidence_graph.py#L346)).
+  ([evidence_graph.py:350](../../src/evidence_agent/evidence_graph.py#L350)).
 - The model may move at most 1 level(s) from the rules' level
   ([`MAX_LEVEL_SHIFT`](../../src/evidence_agent/evidence_graph.py#L78)).
 - Where the rules found no repository, the model's level is capped at
   2 ([`UNSEEN_LEVEL_CAP`](../../src/evidence_agent/evidence_graph.py#L79)).
 - The status is always recomputed from the levels, never taken from the model
-  ([`_status()`](../../src/evidence_agent/evidence_graph.py#L334)).
+  ([`_status()`](../../src/evidence_agent/evidence_graph.py#L338)).
 - A missing or failing gateway, or output still invalid after correction,
-  falls back to the rules ([`reconcile()`](../../src/evidence_agent/evidence_graph.py#L372)). Every verdict records
+  falls back to the rules ([`reconcile()`](../../src/evidence_agent/evidence_graph.py#L376)). Every verdict records
   `method` (`llm` or `rules`), the rules' own level, and notes on why.
