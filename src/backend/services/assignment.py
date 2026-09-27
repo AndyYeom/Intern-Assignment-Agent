@@ -301,6 +301,114 @@ def _execute(session: Session, run_id: uuid.UUID) -> None:
     }
 
 
+def open_seats(session: Session, run: AssignmentRun, role: ProjectRole) -> int:
+    """Seats this run can still offer for a role: what it started with, minus
+    its own non-rejected assignments to that role, never exceeding what
+    capacity has left after approved placements from other runs."""
+    config = run.configuration or {}
+    offered = int((config.get("role_seats") or {}).get(str(role.id), role.capacity))
+    taken = sum(
+        1
+        for a in repo.run_assignments(session, run.id)
+        if a.project_role_id == role.id and a.status != "rejected"
+    )
+    elsewhere = sum(
+        1
+        for a in repo.approved_placements(session).values()
+        if a.project_role_id == role.id and a.assignment_run_id != run.id
+    )
+    return max(0, min(offered - taken, role.capacity - elsewhere))
+
+
+class RunNotCompletedError(RunInputError):
+    """Manual assignment requires a completed run."""
+
+
+class InvalidApplicantError(RunInputError):
+    """The applicant is not part of this run."""
+
+
+class InvalidRoleError(RunInputError):
+    """The role is not part of this run."""
+
+
+class AlreadyAssignedError(RunInputError):
+    """The applicant already has a live assignment in this run."""
+
+
+def assign_manually(
+    session: Session,
+    run: AssignmentRun,
+    applicant_id: uuid.UUID,
+    role_id: uuid.UUID,
+    note: str | None,
+) -> Assignment:
+    """A human placement: skips the solver, goes straight to approved.
+
+    Since approval commits a seat, it is subject to the same rules as
+    approving a proposed assignment (one placement per applicant, capacity
+    across runs) plus this run's own remaining seats.
+    """
+    if run.status != "completed":
+        raise RunNotCompletedError("This run has not completed yet.")
+    config = run.configuration or {}
+    if str(applicant_id) not in config.get("applicant_ids", []):
+        raise InvalidApplicantError("This applicant was not part of this run.")
+    if str(role_id) not in config.get("role_ids", []):
+        raise InvalidRoleError("This role was not part of this run.")
+    role = session.get(ProjectRole, role_id)
+    if role is None:
+        raise InvalidRoleError("Unknown role.")
+
+    existing = next(
+        (a for a in repo.run_assignments(session, run.id) if a.applicant_id == applicant_id), None
+    )
+    if existing is not None and existing.status != "rejected":
+        raise AlreadyAssignedError("This applicant already has an assignment in this run.")
+
+    if open_seats(session, run, role) < 1:
+        raise RoleFullError(f"{role.project.name} / {role.name} has no open seats in this run.")
+
+    applicant = session.get(Applicant, applicant_id)
+    names = {s.id: s.name for s in repo.list_skills(session)}
+    levels = {s.skill_id: s.final_level for s in applicant.skills}
+    score = next(
+        (
+            x.fit_score
+            for x in repo.run_scores(session, run.id)
+            if x.applicant_id == applicant_id and x.project_role_id == role_id
+        ),
+        0.0,
+    )
+    # Computed before the row is added: explain() lazy-loads role.requirements,
+    # which would otherwise autoflush a not-yet-complete row.
+    reason = explain(levels, role, names)
+
+    if existing is not None:
+        assignment = existing
+        assignment.project_id = role.project_id
+        assignment.project_role_id = role.id
+        assignment.solver_role_id = role.id
+    else:
+        assignment = Assignment(
+            assignment_run_id=run.id,
+            applicant_id=applicant_id,
+            project_id=role.project_id,
+            project_role_id=role.id,
+            solver_role_id=role.id,
+        )
+        session.add(assignment)
+    assignment.score = round(score, 2)
+    assignment.reason = reason
+    assignment.note = note
+    assignment.status = "approved"
+    assignment.manual = True
+    session.flush()
+
+    check_approval(session, assignment)
+    return assignment
+
+
 def override_role(session: Session, assignment: Assignment, role_id: uuid.UUID) -> None:
     """Move an assignment to another role in the same run, respecting capacity."""
     run = session.get(AssignmentRun, assignment.assignment_run_id)

@@ -32,6 +32,8 @@ from sqlalchemy.dialects.postgresql import ARRAY, JSONB, UUID
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 APPLICANT_STATUSES = ("submitted", "processing", "ready", "failed")
+SKILL_SOURCES = ("agent", "manager")
+EVIDENCE_SOURCES = ("resume", "portfolio", "github", "manager")
 DOCUMENT_TYPES = ("resume", "portfolio")
 VERIFICATION_STATUSES = ("verified", "partially_verified", "not_observed", "conflicting")
 REQUIREMENT_TYPES = ("hard_requirement", "preferred", "learning_opportunity")
@@ -102,8 +104,13 @@ class Applicant(TimestampMixin, Base):
     documents: Mapped[list["ApplicantDocument"]] = relationship(
         back_populates="applicant", cascade="all, delete-orphan", order_by="ApplicantDocument.created_at"
     )
+    # Active skills only: soft-deleted rows stay in the table but are hidden
+    # from every reader (API, scoring, assignment).
     skills: Mapped[list["ApplicantSkill"]] = relationship(
-        back_populates="applicant", cascade="all, delete-orphan"
+        back_populates="applicant",
+        cascade="all, delete-orphan",
+        primaryjoin="and_(Applicant.id == ApplicantSkill.applicant_id, "
+        "ApplicantSkill.deleted_at.is_(None))",
     )
 
     __table_args__ = (
@@ -139,7 +146,12 @@ class ApplicantDocument(Base):
 
 
 class ApplicantSkill(Base):
-    """One resolved skill: the resume claim, GitHub verification and final level."""
+    """One resolved skill: the resume claim, GitHub verification and final level.
+
+    Manager overrides: a skill a manager added (source "manager"), edited
+    (edited_at) or deleted (deleted_at, soft) is pinned - reprocessing and the
+    legacy import leave it as the manager left it.
+    """
 
     __tablename__ = "applicant_skills"
 
@@ -162,12 +174,25 @@ class ApplicantSkill(Base):
     claim_summary: Mapped[str | None] = mapped_column(Text)
     verification_summary: Mapped[str | None] = mapped_column(Text)
     method: Mapped[str | None] = mapped_column(String(10))
+    source: Mapped[str] = mapped_column(String(10), nullable=False, server_default="agent")
+    edited_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    deleted_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
 
     applicant: Mapped[Applicant] = relationship(back_populates="skills")
     skill: Mapped[Skill] = relationship()
+    # Active evidence only (soft-deleted rows are hidden).
     evidence: Mapped[list["ApplicantSkillEvidence"]] = relationship(
-        back_populates="applicant_skill", cascade="all, delete-orphan"
+        back_populates="applicant_skill",
+        cascade="all, delete-orphan",
+        primaryjoin="and_(ApplicantSkill.id == ApplicantSkillEvidence.applicant_skill_id, "
+        "ApplicantSkillEvidence.deleted_at.is_(None))",
+        order_by="ApplicantSkillEvidence.position",
     )
+
+    @property
+    def pinned(self) -> bool:
+        """Owned by a manager: never overwritten by reprocessing."""
+        return self.source == "manager" or self.edited_at is not None or self.deleted_at is not None
 
     __table_args__ = (
         UniqueConstraint("applicant_id", "skill_id", name="uq_applicant_skills"),
@@ -184,6 +209,7 @@ class ApplicantSkill(Base):
             "verification_status IS NULL OR " + _in("verification_status", VERIFICATION_STATUSES),
             name="ck_applicant_skills_status",
         ),
+        CheckConstraint(_in("source", SKILL_SOURCES), name="ck_applicant_skills_source"),
     )
 
 
@@ -200,11 +226,16 @@ class ApplicantSkillEvidence(Base):
     excerpt: Mapped[str | None] = mapped_column(Text)
     level: Mapped[int | None] = mapped_column(SmallInteger)
     details: Mapped[dict[str, Any] | None] = mapped_column(JSONB)
+    # Display order within the skill; manager additions go last.
+    position: Mapped[int] = mapped_column(Integer, nullable=False, server_default="0")
+    edited_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    deleted_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
 
     applicant_skill: Mapped[ApplicantSkill] = relationship(back_populates="evidence")
 
     __table_args__ = (
-        CheckConstraint(_in("source_type", ("resume", "portfolio", "github")), name="ck_evidence_source"),
+        CheckConstraint(_in("source_type", EVIDENCE_SOURCES), name="ck_evidence_source"),
+        CheckConstraint("level IS NULL OR level BETWEEN 0 AND 3", name="ck_evidence_level"),
     )
 
 
@@ -382,6 +413,8 @@ class Assignment(TimestampMixin, Base):
     reason: Mapped[dict[str, Any]] = mapped_column(JSONB, nullable=False)
     status: Mapped[str] = mapped_column(String(12), nullable=False, default="proposed")
     note: Mapped[str | None] = mapped_column(Text)
+    # True when a manager placed this applicant directly, bypassing the solver.
+    manual: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default="false")
 
     __table_args__ = (
         UniqueConstraint("assignment_run_id", "applicant_id", name="uq_assignments_run_applicant"),

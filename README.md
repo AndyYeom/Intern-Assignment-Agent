@@ -52,6 +52,19 @@ Manager  ──┴─► Next.js frontend ─►│ FastAPI API  │─► Postg
   edit projects and their **roles** (capacity plus required, preferred and
   learning-opportunity skills), start assignment runs and approve, reject or
   move placements.
+- **Human overrides.** Managers can correct an applicant's skills: change the
+  observed level (the final level and verification status are recomputed with
+  the pipeline's rules), edit the claim and verification notes, and add, edit or
+  remove skills and evidence. Removals are soft deletes. Overridden skills are
+  kept when the applicant is reprocessed. On an assignment run, unassigned
+  applicants show their skills and per-role scores and can be assigned by hand
+  to a role with a free seat (a manual, approved placement).
+- **Catalog agent.** "Suggest with catalog agent" on a project reads its
+  description and proposes role requirements (skill, level, type) mapped to the
+  taxonomy. The manager reviews and edits them and sets the capacity; nothing
+  is saved until the role is created.
+- **Projects** can be deleted with their roles unless they appear in assignment
+  history; those can be archived instead.
 - **Assignment runs** reuse the existing matching engine unchanged. It has no
   notion of roles, so each project role is given to it as one matching unit
   (team size = role capacity). The result is a global optimization over
@@ -236,8 +249,6 @@ Other points to plan for:
   when an applicant is first processed and stored in the database
   (`applicants.github_snapshot`); reprocessing reuses it. Nothing is written to
   disk except the resume in `data/`.
-- **No catalog agent in the UI.** Role requirements are edited by hand; the
-  catalog agent (text → requirements) is not wired into the UI yet.
 
 ## Connected agent preview
 

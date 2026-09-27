@@ -135,9 +135,9 @@ def test_reverify_github_reuses_the_profile_and_replaces_skipped_stages(db, clie
     re-verification later collects GitHub and reruns evidence + resolve without
     calling the resume LLM again."""
     import generator.github.collector as collector
+    import src.profile_agent.profile_graph as profile_graph
     from generator.github.client import RateLimited
 
-    import src.profile_agent.profile_graph as profile_graph
     from backend.api import routes_manager
     from backend.services.processing import process_applicant
 

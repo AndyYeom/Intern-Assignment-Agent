@@ -218,6 +218,19 @@ def role_in_use(session: Session, role_id: uuid.UUID) -> bool:
     )
 
 
+def project_in_use(session: Session, project_id: uuid.UUID) -> bool:
+    return bool(
+        session.scalar(
+            select(func.count()).select_from(Assignment).where(Assignment.project_id == project_id)
+        )
+        or session.scalar(
+            select(func.count())
+            .select_from(ApplicantRoleScore)
+            .where(ApplicantRoleScore.project_id == project_id)
+        )
+    )
+
+
 # ---- assignment runs ------------------------------------------------------
 
 

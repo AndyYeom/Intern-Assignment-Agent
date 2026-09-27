@@ -5,6 +5,8 @@ from backend.db.models import (
     AgentRun,
     Applicant,
     ApplicantRoleScore,
+    ApplicantSkill,
+    ApplicantSkillEvidence,
     Assignment,
     Project,
     ProjectRole,
@@ -97,6 +99,37 @@ def latest_attempt(runs: list[AgentRun]) -> list[AgentRun]:
     ]
 
 
+def evidence_out(e: ApplicantSkillEvidence) -> s.EvidenceOut:
+    return s.EvidenceOut(
+        id=e.id,
+        source_type=e.source_type,
+        reference=e.reference,
+        excerpt=e.excerpt,
+        level=e.level,
+        edited_at=e.edited_at,
+    )
+
+
+def skill_out(k: ApplicantSkill) -> s.ApplicantSkillOut:
+    return s.ApplicantSkillOut(
+        skill_id=k.skill_id,
+        name=k.skill.name,
+        category=k.skill.category,
+        final_level=k.final_level,
+        claimed_level=k.claimed_level,
+        observed_level=k.observed_level,
+        verification_status=k.verification_status,
+        evidence_strength=k.evidence_strength,
+        flag=k.flag,
+        confidence=k.confidence,
+        claim_summary=k.claim_summary,
+        verification_summary=k.verification_summary,
+        evidence=[evidence_out(e) for e in k.evidence],
+        source=k.source,
+        edited_at=k.edited_at,
+    )
+
+
 def applicant_detail(
     a: Applicant,
     assignment: Assignment | None,
@@ -123,29 +156,7 @@ def applicant_detail(
             )
             for d in a.documents
         ],
-        skills=[
-            s.ApplicantSkillOut(
-                skill_id=k.skill_id,
-                name=k.skill.name,
-                category=k.skill.category,
-                final_level=k.final_level,
-                claimed_level=k.claimed_level,
-                observed_level=k.observed_level,
-                verification_status=k.verification_status,
-                evidence_strength=k.evidence_strength,
-                flag=k.flag,
-                confidence=k.confidence,
-                claim_summary=k.claim_summary,
-                verification_summary=k.verification_summary,
-                evidence=[
-                    s.EvidenceOut(
-                        source_type=e.source_type, reference=e.reference, excerpt=e.excerpt, level=e.level
-                    )
-                    for e in k.evidence
-                ],
-            )
-            for k in sorted(a.skills, key=lambda k: (-k.final_level, k.skill.name))
-        ],
+        skills=[skill_out(k) for k in sorted(a.skills, key=lambda k: (-k.final_level, k.skill.name))],
         stages=[stage(r) for r in latest_attempt(runs)],
         scores=[
             s.RoleScoreOut(

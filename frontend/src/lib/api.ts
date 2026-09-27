@@ -4,19 +4,27 @@ import type {
   ApplicationCreated,
   ApplicationPublic,
   AgentRunOut,
+  ApplicantSkillOut,
   AssignmentOut,
   AssignmentPatch,
   ErrorResponse,
+  EvidenceCreate,
+  EvidenceOut,
+  EvidencePatch,
+  ManualAssignmentCreate,
   ProjectIn,
   ProjectOut,
   ProjectPatch,
+  RequirementSuggestion,
   RoleIn,
   RoleOut,
   RolePatch,
   RunCreate,
   RunDetail,
   RunSummary,
+  SkillCreate,
   SkillOut,
+  SkillPatch,
 } from "./types";
 
 /** Thrown for any error response the backend returns (4xx/5xx with a JSON error body). */
@@ -182,6 +190,75 @@ export function createApiClient(baseUrl: string) {
       return request<SkillOut[]>(baseUrl, "/api/manager/skills");
     },
 
+    // ---- manager: applicant skill overrides ----
+    async addSkill(
+      applicantId: string,
+      body: SkillCreate,
+    ): Promise<ApplicantSkillOut> {
+      return request<ApplicantSkillOut>(
+        baseUrl,
+        `/api/manager/applicants/${applicantId}/skills`,
+        jsonInit("POST", body),
+      );
+    },
+
+    async updateSkill(
+      applicantId: string,
+      skillId: string,
+      body: SkillPatch,
+    ): Promise<ApplicantSkillOut> {
+      return request<ApplicantSkillOut>(
+        baseUrl,
+        `/api/manager/applicants/${applicantId}/skills/${encodeURIComponent(skillId)}`,
+        jsonInit("PATCH", body),
+      );
+    },
+
+    async deleteSkill(applicantId: string, skillId: string): Promise<void> {
+      return request<void>(
+        baseUrl,
+        `/api/manager/applicants/${applicantId}/skills/${encodeURIComponent(skillId)}`,
+        { method: "DELETE" },
+      );
+    },
+
+    async addEvidence(
+      applicantId: string,
+      skillId: string,
+      body: EvidenceCreate,
+    ): Promise<EvidenceOut> {
+      return request<EvidenceOut>(
+        baseUrl,
+        `/api/manager/applicants/${applicantId}/skills/${encodeURIComponent(skillId)}/evidence`,
+        jsonInit("POST", body),
+      );
+    },
+
+    async updateEvidence(
+      applicantId: string,
+      skillId: string,
+      evidenceId: string,
+      body: EvidencePatch,
+    ): Promise<EvidenceOut> {
+      return request<EvidenceOut>(
+        baseUrl,
+        `/api/manager/applicants/${applicantId}/skills/${encodeURIComponent(skillId)}/evidence/${evidenceId}`,
+        jsonInit("PATCH", body),
+      );
+    },
+
+    async deleteEvidence(
+      applicantId: string,
+      skillId: string,
+      evidenceId: string,
+    ): Promise<void> {
+      return request<void>(
+        baseUrl,
+        `/api/manager/applicants/${applicantId}/skills/${encodeURIComponent(skillId)}/evidence/${evidenceId}`,
+        { method: "DELETE" },
+      );
+    },
+
     // ---- manager: projects ----
     async listProjects(): Promise<ProjectOut[]> {
       return request<ProjectOut[]>(baseUrl, "/api/manager/projects");
@@ -207,11 +284,25 @@ export function createApiClient(baseUrl: string) {
       );
     },
 
+    async deleteProject(id: string): Promise<void> {
+      return request<void>(baseUrl, `/api/manager/projects/${id}`, {
+        method: "DELETE",
+      });
+    },
+
     async createRole(projectId: string, body: RoleIn): Promise<RoleOut> {
       return request<RoleOut>(
         baseUrl,
         `/api/manager/projects/${projectId}/roles`,
         jsonInit("POST", body),
+      );
+    },
+
+    async suggestRequirements(projectId: string): Promise<RequirementSuggestion> {
+      return request<RequirementSuggestion>(
+        baseUrl,
+        `/api/manager/projects/${projectId}/suggest-requirements`,
+        { method: "POST" },
       );
     },
 
@@ -254,6 +345,17 @@ export function createApiClient(baseUrl: string) {
         baseUrl,
         `/api/manager/assignments/${id}`,
         jsonInit("PATCH", body),
+      );
+    },
+
+    async assignManually(
+      runId: string,
+      body: ManualAssignmentCreate,
+    ): Promise<AssignmentOut> {
+      return request<AssignmentOut>(
+        baseUrl,
+        `/api/manager/assignment-runs/${runId}/assignments`,
+        jsonInit("POST", body),
       );
     },
 

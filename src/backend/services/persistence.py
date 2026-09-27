@@ -3,7 +3,8 @@
 import json
 from pathlib import Path
 
-from sqlalchemy import delete
+from sqlalchemy import delete, select
+from sqlalchemy import true as sa_true
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.orm import Session
 
@@ -42,13 +43,34 @@ def upsert_taxonomy(session: Session, taxonomy_path: Path) -> tuple[int, int]:
     return inserted, updated
 
 
+def pinned_skill_ids(session: Session, applicant: Applicant) -> set[str]:
+    """Skills a manager added, edited or deleted: reprocessing leaves them alone."""
+    rows = session.scalars(
+        select(ApplicantSkill).where(ApplicantSkill.applicant_id == applicant.id)
+    )
+    return {row.skill_id for row in rows if row.pinned}
+
+
 def replace_applicant_skills(
     session: Session, applicant: Applicant, skills: list[ResolvedSkill]
 ) -> None:
-    """Replace the applicant's skills with a fresh resolution (a re-run supersedes)."""
-    session.execute(delete(ApplicantSkill).where(ApplicantSkill.applicant_id == applicant.id))
+    """Replace the applicant's agent-derived skills with a fresh resolution.
+
+    A re-run supersedes the previous agent output, but never a manager's
+    override: pinned skills (added, edited or soft-deleted by a manager) keep
+    exactly what the manager left, including their evidence.
+    """
+    pinned = pinned_skill_ids(session, applicant)
+    session.execute(
+        delete(ApplicantSkill).where(
+            ApplicantSkill.applicant_id == applicant.id,
+            ApplicantSkill.skill_id.not_in(pinned) if pinned else sa_true(),
+        )
+    )
     session.flush()
     for resolved in skills:
+        if resolved.skill_id in pinned:
+            continue
         row = ApplicantSkill(
             applicant_id=applicant.id,
             skill_id=resolved.skill_id,
@@ -70,8 +92,9 @@ def replace_applicant_skills(
                 excerpt=e.excerpt,
                 level=e.level,
                 details=e.details,
+                position=i,
             )
-            for e in resolved.evidence
+            for i, e in enumerate(resolved.evidence)
         ]
         session.add(row)
     session.flush()

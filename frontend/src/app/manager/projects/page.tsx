@@ -19,8 +19,10 @@ import {
   Tooltip,
 } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
-import { Pencil, Plus, Trash2 } from "lucide-react";
+import { Pencil, Plus, Sparkles, Trash2 } from "lucide-react";
+import { ApiError } from "@/lib/api";
 import { useApi } from "@/lib/api-context";
+import { CatalogSuggestModal } from "@/components/CatalogSuggestModal";
 import { ErrorAlert } from "@/components/ErrorAlert";
 import { ProjectStatusBadge } from "@/components/StatusBadge";
 import { describeError } from "@/lib/format";
@@ -29,6 +31,7 @@ import type {
   ProjectOut,
   ProjectStatus,
   RequirementIn,
+  RequirementSuggestion,
   RoleOut,
   SkillOut,
 } from "@/lib/types";
@@ -45,6 +48,14 @@ export default function ProjectsPage() {
   const [roleModalState, setRoleModalState] = useState<{
     project: ProjectOut;
     role: RoleOut | null;
+  } | null>(null);
+  const [deleteTarget, setDeleteTarget] = useState<ProjectOut | null>(null);
+  const [suggestState, setSuggestState] = useState<{
+    project: ProjectOut;
+    loading: boolean;
+    result: RequirementSuggestion | null;
+    error: unknown;
+    version: number;
   } | null>(null);
 
   const load = useCallback(async () => {
@@ -66,6 +77,19 @@ export default function ProjectsPage() {
   useEffect(() => {
     load();
   }, [load]);
+
+  function handleSuggest(project: ProjectOut) {
+    const version = (suggestState?.version ?? 0) + 1;
+    setSuggestState({ project, loading: true, result: null, error: null, version });
+    api
+      .suggestRequirements(project.id)
+      .then((result) => {
+        setSuggestState({ project, loading: false, result, error: null, version });
+      })
+      .catch((err) => {
+        setSuggestState({ project, loading: false, result: null, error: err, version });
+      });
+  }
 
   async function handleDeleteRole(role: RoleOut) {
     if (!confirm(`Delete role "${role.name}"?`)) return;
@@ -147,14 +171,42 @@ export default function ProjectsPage() {
                 >
                   Add role
                 </Button>
+                {project.roles.length > 0 && (
+                  <Button
+                    size="xs"
+                    variant="light"
+                    leftSection={<Sparkles size={14} />}
+                    onClick={() => handleSuggest(project)}
+                  >
+                    Suggest with catalog agent
+                  </Button>
+                )}
+                <Button
+                  size="xs"
+                  variant="light"
+                  color="red"
+                  leftSection={<Trash2 size={14} />}
+                  onClick={() => setDeleteTarget(project)}
+                >
+                  Delete project
+                </Button>
               </Group>
             </Group>
 
             <Stack gap={8} mt="sm">
               {project.roles.length === 0 && (
-                <Text size="sm" c="dimmed">
-                  No roles defined yet.
-                </Text>
+                <Group justify="space-between" align="center">
+                  <Text size="sm" c="dimmed">
+                    No roles defined yet.
+                  </Text>
+                  <Button
+                    size="xs"
+                    leftSection={<Sparkles size={14} />}
+                    onClick={() => handleSuggest(project)}
+                  >
+                    Suggest with catalog agent
+                  </Button>
+                </Group>
               )}
               {project.roles.map((role) => (
                 <Card key={role.id} withBorder padding="sm" radius="sm">
@@ -238,6 +290,33 @@ export default function ProjectsPage() {
           onClose={() => setRoleModalState(null)}
           onSaved={() => {
             setRoleModalState(null);
+            load();
+          }}
+        />
+      )}
+
+      {deleteTarget && (
+        <DeleteProjectModal
+          project={deleteTarget}
+          onClose={() => setDeleteTarget(null)}
+          onSaved={() => {
+            setDeleteTarget(null);
+            load();
+          }}
+        />
+      )}
+
+      {suggestState && (
+        <CatalogSuggestModal
+          project={suggestState.project}
+          loading={suggestState.loading}
+          suggestion={suggestState.result}
+          error={suggestState.error}
+          version={suggestState.version}
+          onRetry={() => handleSuggest(suggestState.project)}
+          onClose={() => setSuggestState(null)}
+          onCreated={() => {
+            setSuggestState(null);
             load();
           }}
         />
@@ -332,6 +411,102 @@ function ProjectModal({
             Save
           </Button>
         </Group>
+      </Stack>
+    </Modal>
+  );
+}
+
+function DeleteProjectModal({
+  project,
+  onClose,
+  onSaved,
+}: {
+  project: ProjectOut;
+  onClose: () => void;
+  onSaved: () => void;
+}) {
+  const api = useApi();
+  const [busy, setBusy] = useState(false);
+  const [conflict, setConflict] = useState<string | null>(null);
+
+  async function handleDelete() {
+    setBusy(true);
+    try {
+      await api.deleteProject(project.id);
+      notifications.show({
+        title: "Project deleted",
+        message: `${project.name} was deleted.`,
+        color: "green",
+      });
+      onSaved();
+    } catch (err) {
+      if (err instanceof ApiError && err.code === "project_in_use") {
+        setConflict(err.message);
+      } else {
+        notifications.show({
+          title: "Couldn't delete project",
+          message: describeError(err),
+          color: "red",
+        });
+      }
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function handleArchive() {
+    setBusy(true);
+    try {
+      await api.patchProject(project.id, { status: "archived" });
+      notifications.show({
+        title: "Project archived",
+        message: `${project.name} was archived.`,
+        color: "green",
+      });
+      onSaved();
+    } catch (err) {
+      notifications.show({
+        title: "Couldn't archive project",
+        message: describeError(err),
+        color: "red",
+      });
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <Modal opened onClose={onClose} title="Delete project">
+      <Stack gap="sm">
+        {conflict ? (
+          <>
+            <Text size="sm">{conflict}</Text>
+            <Group justify="flex-end" mt="sm">
+              <Button variant="subtle" onClick={onClose}>
+                Cancel
+              </Button>
+              <Button onClick={handleArchive} loading={busy}>
+                Archive instead
+              </Button>
+            </Group>
+          </>
+        ) : (
+          <>
+            <Text size="sm">
+              Delete &quot;{project.name}&quot;? Its {project.roles.length}{" "}
+              role{project.roles.length === 1 ? "" : "s"} will be deleted too.
+              This can&apos;t be undone.
+            </Text>
+            <Group justify="flex-end" mt="sm">
+              <Button variant="subtle" onClick={onClose}>
+                Cancel
+              </Button>
+              <Button color="red" onClick={handleDelete} loading={busy}>
+                Delete project
+              </Button>
+            </Group>
+          </>
+        )}
       </Stack>
     </Modal>
   );

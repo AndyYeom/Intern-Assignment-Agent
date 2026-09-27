@@ -102,11 +102,17 @@ class DocumentOut(ApiModel):
     download_path: str
 
 
+EvidenceSource = Literal["resume", "portfolio", "github", "manager"]
+
+
 class EvidenceOut(ApiModel):
-    source_type: Literal["resume", "portfolio", "github"]
+    id: uuid.UUID
+    source_type: EvidenceSource
     reference: str | None
     excerpt: str | None
     level: int | None
+    # Set when a manager added or edited this evidence.
+    edited_at: datetime | None
 
 
 class ApplicantSkillOut(ApiModel):
@@ -123,6 +129,44 @@ class ApplicantSkillOut(ApiModel):
     claim_summary: str | None
     verification_summary: str | None
     evidence: list[EvidenceOut]
+    # "agent" (pipeline) or "manager" (added by hand).
+    source: Literal["agent", "manager"]
+    # Set when a manager changed this skill or its evidence; such skills are
+    # kept as-is when the applicant is reprocessed.
+    edited_at: datetime | None
+
+
+class SkillPatch(ApiModel):
+    """Only the fields sent are changed. observed_level null = nothing observed."""
+
+    claimed_level: int | None = Field(default=None, ge=1, le=3)
+    observed_level: int | None = Field(default=None, ge=1, le=3)
+    claim_summary: str | None = Field(default=None, max_length=4000)
+    verification_summary: str | None = Field(default=None, max_length=4000)
+
+
+class SkillCreate(ApiModel):
+    skill_id: str
+    claimed_level: int = Field(ge=1, le=3)
+    observed_level: int | None = Field(default=None, ge=1, le=3)
+    claim_summary: str | None = Field(default=None, max_length=4000)
+    verification_summary: str | None = Field(default=None, max_length=4000)
+
+
+class EvidenceCreate(ApiModel):
+    source_type: EvidenceSource = "manager"
+    reference: str | None = Field(default=None, max_length=500)
+    excerpt: str | None = Field(default=None, max_length=4000)
+    level: int | None = Field(default=None, ge=1, le=3)
+
+
+class EvidencePatch(ApiModel):
+    """Only the fields sent are changed."""
+
+    source_type: EvidenceSource | None = None
+    reference: str | None = Field(default=None, max_length=500)
+    excerpt: str | None = Field(default=None, max_length=4000)
+    level: int | None = Field(default=None, ge=1, le=3)
 
 
 class ProcessingStage(ApiModel):
@@ -277,13 +321,36 @@ class AssignmentOut(ApiModel):
     reason: AssignmentReason
     status: AssignmentStatus
     note: str | None
+    # Placed directly by a manager rather than proposed by the solver.
+    manual: bool
     updated_at: datetime
+
+
+class UnassignedOption(ApiModel):
+    """One role this applicant could be assigned to, for the manager override."""
+
+    role_id: uuid.UUID
+    role_name: str
+    project_id: uuid.UUID
+    project_name: str
+    fit_score: float
+    growth_score: float
+    candidate: bool
+    open_seats: int
 
 
 class UnassignedApplicant(ApiModel):
     id: uuid.UUID
     name: str
     candidate_role_count: int
+    skills: list[SkillBadge]
+    options: list[UnassignedOption]
+
+
+class ManualAssignmentCreate(ApiModel):
+    applicant_id: uuid.UUID
+    role_id: uuid.UUID
+    note: str | None = Field(default=None, max_length=2000)
 
 
 class RoleUtilization(ApiModel):

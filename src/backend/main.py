@@ -10,6 +10,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from backend.api import errors
+from backend.api.routes_catalog import router as catalog_router
 from backend.api.routes_manager import router as manager_router
 from backend.api.routes_public import router as public_router
 from backend.config import get_settings
@@ -42,6 +43,7 @@ def create_app() -> FastAPI:
     errors.install(app)
     app.include_router(public_router)
     app.include_router(manager_router)
+    app.include_router(catalog_router)
     return app
 
 

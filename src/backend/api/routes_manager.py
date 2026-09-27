@@ -8,7 +8,7 @@ from fastapi import APIRouter, BackgroundTasks, Depends, Query, Response
 from fastapi.responses import StreamingResponse
 from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, selectinload
 
 from backend import repositories as repo
 from backend.api import schemas as s
@@ -19,12 +19,14 @@ from backend.db.models import (
     AgentRun,
     Applicant,
     ApplicantDocument,
+    ApplicantSkill,
     Assignment,
     Project,
     ProjectRole,
     ProjectRoleSkill,
 )
 from backend.services import assignment as assign
+from backend.services import skill_overrides as overrides
 from backend.services.processing import (
     GitHubUnavailable,
     check_github_available,
@@ -124,6 +126,78 @@ def reprocess_applicant(
     session.commit()
     background.add_task(process_applicant, applicant.id)
     return s.ApplicationCreated(id=applicant.id, status="processing")
+
+
+# ---- manager overrides of skills and evidence --------------------------------
+
+
+def _override(session: Session, fn, *args):
+    try:
+        result = fn(session, *args)
+    except overrides.OverrideError as exc:
+        session.rollback()
+        raise ApiError(exc.status, exc.code, str(exc)) from None
+    session.commit()
+    return result
+
+
+def _skill_response(session: Session, applicant_id: uuid.UUID, skill_id: str) -> s.ApplicantSkillOut:
+    row = overrides.active_skill(session, applicant_id, skill_id)
+    session.refresh(row)
+    return ser.skill_out(row)
+
+
+@router.post("/applicants/{applicant_id}/skills", response_model=s.ApplicantSkillOut, status_code=201)
+def add_applicant_skill(applicant_id: uuid.UUID, body: s.SkillCreate, session: DB) -> s.ApplicantSkillOut:
+    row = _override(session, overrides.add_skill, applicant_id, body.model_dump())
+    return _skill_response(session, applicant_id, row.skill_id)
+
+
+@router.patch("/applicants/{applicant_id}/skills/{skill_id}", response_model=s.ApplicantSkillOut)
+def update_applicant_skill(
+    applicant_id: uuid.UUID, skill_id: str, body: s.SkillPatch, session: DB
+) -> s.ApplicantSkillOut:
+    _override(session, overrides.update_skill, applicant_id, skill_id, body.model_dump(exclude_unset=True))
+    return _skill_response(session, applicant_id, skill_id)
+
+
+@router.delete("/applicants/{applicant_id}/skills/{skill_id}", status_code=204)
+def delete_applicant_skill(applicant_id: uuid.UUID, skill_id: str, session: DB) -> Response:
+    _override(session, overrides.delete_skill, applicant_id, skill_id)
+    return Response(status_code=204)
+
+
+@router.post(
+    "/applicants/{applicant_id}/skills/{skill_id}/evidence",
+    response_model=s.EvidenceOut,
+    status_code=201,
+)
+def add_skill_evidence(
+    applicant_id: uuid.UUID, skill_id: str, body: s.EvidenceCreate, session: DB
+) -> s.EvidenceOut:
+    ev = _override(session, overrides.add_evidence, applicant_id, skill_id, body.model_dump())
+    return ser.evidence_out(ev)
+
+
+@router.patch(
+    "/applicants/{applicant_id}/skills/{skill_id}/evidence/{evidence_id}", response_model=s.EvidenceOut
+)
+def update_skill_evidence(
+    applicant_id: uuid.UUID, skill_id: str, evidence_id: uuid.UUID, body: s.EvidencePatch, session: DB
+) -> s.EvidenceOut:
+    ev = _override(
+        session, overrides.update_evidence, applicant_id, skill_id, evidence_id,
+        body.model_dump(exclude_unset=True),
+    )
+    return ser.evidence_out(ev)
+
+
+@router.delete("/applicants/{applicant_id}/skills/{skill_id}/evidence/{evidence_id}", status_code=204)
+def delete_skill_evidence(
+    applicant_id: uuid.UUID, skill_id: str, evidence_id: uuid.UUID, session: DB
+) -> Response:
+    _override(session, overrides.delete_evidence, applicant_id, skill_id, evidence_id)
+    return Response(status_code=204)
 
 
 @router.post(
@@ -297,6 +371,23 @@ def delete_role(role_id: uuid.UUID, session: DB) -> Response:
     return Response(status_code=204)
 
 
+@router.delete("/projects/{project_id}", status_code=204)
+def delete_project(project_id: uuid.UUID, session: DB) -> Response:
+    project = repo.get_project(session, project_id)
+    if project is None:
+        raise not_found("Project")
+    if repo.project_in_use(session, project_id):
+        raise ApiError(
+            409,
+            "project_in_use",
+            "This project is part of assignment history and cannot be deleted. Archive it instead.",
+        )
+    # Roles and role skills go with it via ORM cascades; assignment history is never touched.
+    session.delete(project)
+    session.commit()
+    return Response(status_code=204)
+
+
 # ---- assignment runs ------------------------------------------------------
 
 
@@ -352,7 +443,11 @@ def _run_detail(session: Session, run_id: uuid.UUID) -> s.RunDetail:
     applicant_ids = [uuid.UUID(a) for a in config.get("applicant_ids", [])]
     applicants = {
         a.id: a
-        for a in session.scalars(select(Applicant).where(Applicant.id.in_(applicant_ids)))
+        for a in session.scalars(
+            select(Applicant)
+            .where(Applicant.id.in_(applicant_ids))
+            .options(selectinload(Applicant.skills).selectinload(ApplicantSkill.skill))
+        )
     }
 
     def ref(obj) -> s.Ref:
@@ -375,6 +470,40 @@ def _run_detail(session: Session, run_id: uuid.UUID) -> s.RunDetail:
     project_by_id = {p.id: p for p in projects}
     roles = {r.id: r for p in projects for r in p.roles}
     run_roles = [r for p in projects for r in p.roles if r.id in shown]
+
+    # Seats already taken by approved placements from other runs, as of now
+    # (not the run's own filled_before snapshot, which may be stale).
+    elsewhere: dict[uuid.UUID, int] = {}
+    for pl in repo.approved_placements(session).values():
+        if pl.assignment_run_id != run.id:
+            elsewhere[pl.project_role_id] = elsewhere.get(pl.project_role_id, 0) + 1
+
+    def open_seats(r: ProjectRole) -> int:
+        taken = sum(1 for a in active if a.project_role_id == r.id)
+        return max(0, min(offered(r) - taken, r.capacity - elsewhere.get(r.id, 0)))
+
+    scores_by_applicant: dict[uuid.UUID, list] = {}
+    for x in scores:
+        scores_by_applicant.setdefault(x.applicant_id, []).append(x)
+
+    def options_for(applicant_id: uuid.UUID) -> list[s.UnassignedOption]:
+        return [
+            s.UnassignedOption(
+                role_id=x.project_role_id,
+                role_name=roles[x.project_role_id].name,
+                project_id=x.project_id,
+                project_name=project_by_id[x.project_id].name,
+                fit_score=x.fit_score,
+                growth_score=x.growth_score,
+                candidate=x.candidate,
+                open_seats=open_seats(roles[x.project_role_id]),
+            )
+            for x in sorted(scores_by_applicant.get(applicant_id, []), key=lambda x: -x.fit_score)
+        ]
+
+    def skills_for(applicant: Applicant) -> list[s.SkillBadge]:
+        ranked = sorted(applicant.skills, key=lambda k: (-k.final_level, k.skill.name))
+        return [s.SkillBadge(skill_id=k.skill_id, name=k.skill.name, level=k.final_level) for k in ranked]
     return s.RunDetail(
         **_run_summary(run, len(active)).model_dump(),
         configuration=config,
@@ -393,6 +522,7 @@ def _run_detail(session: Session, run_id: uuid.UUID) -> s.RunDetail:
                 reason=s.AssignmentReason(**a.reason),
                 status=a.status,
                 note=a.note,
+                manual=a.manual,
                 updated_at=a.updated_at,
             )
             for a in sorted(
@@ -401,7 +531,13 @@ def _run_detail(session: Session, run_id: uuid.UUID) -> s.RunDetail:
             )
         ],
         unassigned=[
-            s.UnassignedApplicant(id=a.id, name=a.name, candidate_role_count=candidates.get(a.id, 0))
+            s.UnassignedApplicant(
+                id=a.id,
+                name=a.name,
+                candidate_role_count=candidates.get(a.id, 0),
+                skills=skills_for(a),
+                options=options_for(a.id),
+            )
             for a in sorted(applicants.values(), key=lambda a: a.name)
             if a.id not in placed
         ]
@@ -434,6 +570,35 @@ def _run_detail(session: Session, run_id: uuid.UUID) -> s.RunDetail:
 @router.get("/assignment-runs/{run_id}", response_model=s.RunDetail)
 def get_run(run_id: uuid.UUID, session: DB) -> s.RunDetail:
     return _run_detail(session, run_id)
+
+
+@router.post(
+    "/assignment-runs/{run_id}/assignments", response_model=s.AssignmentOut, status_code=201
+)
+def create_manual_assignment(
+    run_id: uuid.UUID, body: s.ManualAssignmentCreate, session: DB
+) -> s.AssignmentOut:
+    """A manager places an applicant into an unassigned role directly."""
+    run = repo.get_run(session, run_id)
+    if run is None:
+        raise not_found("Assignment run")
+    try:
+        assignment = assign.assign_manually(session, run, body.applicant_id, body.role_id, body.note)
+    except assign.RunNotCompletedError as exc:
+        raise ApiError(409, "run_not_completed", str(exc)) from None
+    except assign.InvalidApplicantError as exc:
+        raise ApiError(422, "invalid_applicant", str(exc)) from None
+    except assign.InvalidRoleError as exc:
+        raise ApiError(422, "invalid_role", str(exc)) from None
+    except assign.AlreadyAssignedError as exc:
+        raise ApiError(409, "already_assigned", str(exc)) from None
+    except assign.AlreadyPlacedError as exc:
+        raise ApiError(409, "already_placed", str(exc)) from None
+    except assign.RoleFullError as exc:
+        raise ApiError(409, "role_full", str(exc)) from None
+    session.commit()
+    detail = _run_detail(session, run_id)
+    return next(a for a in detail.assignments if a.id == assignment.id)
 
 
 @router.patch("/assignments/{assignment_id}", response_model=s.AssignmentOut)
