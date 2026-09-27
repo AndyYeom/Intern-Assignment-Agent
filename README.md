@@ -69,12 +69,41 @@ Manager  ──┴─► Next.js frontend ─►│ FastAPI API  │─► Postg
   notion of roles, so each project role is given to it as one matching unit
   (team size = role capacity). The result is a global optimization over
   applicant × role, not a greedy one. Runs, pairwise scores and placements are
-  stored. A manager override changes the placement but keeps the solver's
-  original role, so run history is never rewritten.
+  stored. Moving an existing placement keeps its solver role. Manually
+  assigning an unassigned applicant creates an approved placement; assigning
+  a previously rejected applicant reuses that row and resets its solver role
+  to the manually selected role.
 - **Approval commits a seat.** Each applicant can hold one approved placement,
   and approvals never exceed a role's capacity across runs. A new run leaves
   out applicants who already have an approved placement and offers each role
   only its remaining seats; rejecting an approval releases both.
+
+### Using the manager tools
+
+1. Open an applicant at `/manager/applicants` and expand a skill to change its
+   observed level, notes or evidence. Edits are disabled while processing.
+   Changing an observed level recomputes the final level; changing evidence
+   text or its level does not automatically change the skill's observed level.
+   Manager-edited, added and removed skills are preserved by reprocessing,
+   GitHub re-verification and the legacy import. To restore a removed skill,
+   add it again; its previous evidence stays hidden.
+2. At `/manager/projects`, save a project description before choosing
+   **Suggest with catalog agent** (at least 20 characters after trimming
+   surrounding whitespace are required). Review included skills, requirement types, levels and
+   weights, then enter a role name and capacity and click **Create role**.
+   An unspecified level defaults to Intermediate and is marked for review.
+   Suggestions use `OPENAI_API_KEY` if configured (`OPENAI_MODEL` is optional),
+   otherwise all three `LLM_*` gateway settings. Without either provider,
+   create roles manually with **Add role**.
+3. Open a completed assignment run at `/manager/assignments`. Under
+   **Unassigned applicants**, choose an open role and click **Assign**. This
+   immediately approves the placement, even if the applicant fails a hard
+   skill requirement. The applicant and role must belong to that run, and
+   existing approved placements and capacity limits still apply. Reject an
+   existing placement first to reassign its applicant manually.
+4. Use **Delete project** to remove a project and its roles. Projects referenced
+   by assignments or role scores are protected; the dialog offers **Archive
+   instead**. Archived projects are excluded from default new assignment runs.
 
 ### Repository data layout
 
@@ -147,6 +176,19 @@ Archive a project instead.
 uv run alembic upgrade head                           # apply
 uv run alembic revision --autogenerate -m "change"    # after editing models.py
 ```
+
+Upgrading an existing installation for manager overrides requires both new
+revisions, in order:
+
+- `b41f2c7d9e10`: skill source/edit/delete tracking, evidence ordering and
+  edit/delete tracking, and manager evidence support.
+- `c5a7e6f13d22`: the `assignments.manual` flag.
+
+Apply `uv run alembic upgrade head` against the target database before serving
+the updated backend. Existing skills default to agent-created and existing
+assignments default to non-manual. The Compose `migrate` service runs this
+upgrade before the backend starts; the VM deployment uses the same service
+through `sh infra/up.sh`. No database reset is needed.
 
 ### Importing the legacy data
 
@@ -237,7 +279,10 @@ Other points to plan for:
 
 ### Known limitations
 
-- **No authentication.** `/api/manager/*` is open; do not expose it publicly as is.
+- **No application-level authentication.** The VM's Caddy configuration protects
+  the manager UI and `/api/manager/*` with a shared login. Direct access to the
+  backend, including the local development port, has no authentication; keep it
+  private.
 - **Processing is in-process.** Applicant processing (several LLM calls, a few
   minutes) and assignment runs are FastAPI background tasks in the API process.
   A task restart mid-run leaves the applicant "processing" or the run "running";
