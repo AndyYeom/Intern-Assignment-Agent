@@ -19,13 +19,196 @@ suite. Logs are saved in `data/runs/local-check/`; matching JSON is saved under
 These are **separate component checks**, not an integrated live-agent workflow.
 `pipeline.orchestrator` still uses stub agents; its `llm_calls` field counts stub
 invocations in demo mode, not actual paid requests. All assignment results are
-drafts for mentor review. The repository currently has no web UI entry point.
+drafts for mentor review. The web application is described in the next section.
 
 For live profile/evidence calls, configure the three `LLM_*` gateway settings below.
 The live catalog workflow uses `OPENAI_API_KEY` when it is set, otherwise the same
 `LLM_*` gateway; the admin terminal also needs administrator credentials (see `.env.example` and `python -m project_catalog_agent.admin_setup --help`).
 Profile/evidence proficiency is 1–3; the older matching fixtures use 1–5.
 The connected preview below uses 1–3 on both sides without rescaling.
+
+## Web application (MVP)
+
+A PostgreSQL-backed API and a Next.js UI around the agent pipeline:
+
+```
+Applicant ─┐                      ┌──────────────┐
+Manager  ──┴─► Next.js frontend ─►│ FastAPI API  │─► PostgreSQL (system of record)
+             (frontend/, :3000)    │ (src/backend,│─► LocalStorage (data/uploads)
+                                   │  :8000)      │─► profile → GitHub → evidence → resolve
+                                   └──────────────┘   scoring + genetic-algorithm optimizer
+```
+
+- **Applicants** submit name, email, GitHub URL, optional portfolio URL and a PDF
+  resume at `/apply`. The API stores the record and resume, then runs the existing
+  agents in the background: profile agent (resume → skills), GitHub collection,
+  evidence agent (claims vs. GitHub), and `pipeline/resolve_profile.py` (final
+  level per skill). Every stage is recorded in `agent_runs`.
+- **Managers** use `/manager` to inspect applicants (skills, levels, evidence),
+  edit projects and their **roles** (capacity plus required, preferred and
+  learning-opportunity skills), start assignment runs and approve, reject or
+  move placements.
+- **Assignment runs** reuse the existing matching engine unchanged. It has no
+  notion of roles, so each project role is given to it as one matching unit
+  (team size = role capacity). The result is a global optimization over
+  applicant × role, not a greedy one. Runs, pairwise scores and placements are
+  stored. A manager override changes the placement but keeps the solver's
+  original role, so run history is never rewritten.
+
+### Quick start (Docker)
+
+```sh
+cp .env.example .env        # fill in LLM_GATEWAY_URL / LLM_GATEWAY_API_KEY / LLM_MODEL
+docker compose up --build
+```
+
+| URL | What |
+|---|---|
+| http://localhost:3000/apply | Applicant form |
+| http://localhost:3000/manager | Manager dashboard |
+| http://localhost:8000/health | Liveness (no dependencies) |
+| http://localhost:8000/ready | Readiness (checks the database) |
+| http://localhost:8000/docs | OpenAPI docs |
+
+Compose starts `postgres` (host port 5433, so a local PostgreSQL on 5432 keeps
+working), then the one-off `migrate` service (`alembic upgrade head` followed by the
+legacy import), then `backend` and `frontend`. The database lives in the
+`postgres-data` volume and uploads in the `uploads` volume;
+`docker compose down -v` deletes both.
+
+Without the `LLM_*` settings the stack still starts and the imported applicants
+can be assigned, but new applications fail at the profile stage.
+`GITHUB_TOKEN` is optional. Without a valid one, GitHub data is collected
+anonymously (60 requests/hour, roughly one applicant); when that fails, skills
+stay "unverified" rather than failing the application.
+
+### Local development without Docker
+
+```sh
+docker compose up -d postgres
+uv sync
+uv run alembic upgrade head
+uv run python -m backend.legacy_import
+uv run uvicorn backend.main:app --reload --port 8000
+cd frontend && npm install && npm run dev      # http://localhost:3000
+```
+
+### Database and migrations
+
+The schema is managed by Alembic (`src/backend/migrations`, models in
+`src/backend/db/models.py`):
+
+- **Applicants:** `applicants`, `applicant_documents`, `applicant_skills`,
+  `applicant_skill_evidence`, `agent_runs`
+- **Skills:** `skills` (taxonomy ids from `data/taxonomy.json`)
+- **Projects:** `projects`, `project_roles`, `project_role_skills`
+- **Assignments:** `assignment_runs`, `applicant_role_scores`, `assignments`
+
+Proficiency uses the shared 1–3 scale. A final level of 0 means the claim was
+contradicted by GitHub evidence. Case-insensitive unique indexes cover applicant
+email, project name and skill name. Assignment history uses `RESTRICT` foreign
+keys, so projects, roles and applicants that appear in a run cannot be deleted.
+Archive a project instead.
+
+```sh
+uv run alembic upgrade head                           # apply
+uv run alembic revision --autogenerate -m "change"    # after editing models.py
+```
+
+### Importing the legacy data
+
+`python -m backend.legacy_import` loads the file-based data into PostgreSQL:
+
+| Source | Becomes |
+|---|---|
+| `data/taxonomy.json` | skills |
+| `data/applicants.csv` + `data/resumes/specs/*.json` | applicants |
+| `data/resumes/rendered/*.pdf` | resume documents (copied into storage) |
+| `data/githubs/profiles/*.json` | GitHub snapshots |
+| `data/evidence/*.json` | resolved skills and evidence |
+| `data/projects/seed_projects.json` | sample projects with roles |
+
+The seed projects are demo data, not client projects.
+
+The import is idempotent: re-running updates changed applicants, never
+overwrites projects that already exist, and never modifies the source files. It
+prints inserted/updated/unchanged/skipped/failed counts, then source-vs-database
+checks, and exits non-zero on malformed data or a mismatch. The current data
+imports 59 skills, 100 applicants with resumes, 778 resolved skills with 1,339
+evidence rows, and 4 projects with 10 roles.
+
+### Tests
+
+```sh
+docker compose up -d postgres
+docker compose exec postgres createdb -U utechia utechia_test   # once
+uv run pytest                      # full suite; tests/backend needs PostgreSQL
+cd frontend && npm run lint && npm run build
+```
+
+`tests/backend` applies the real migration to `utechia_test`
+(`TEST_DATABASE_URL` overrides the location) and is skipped when PostgreSQL is
+unreachable.
+
+### Deploying on AWS ECS
+
+Two images, both built from this repository:
+
+| Service | Build | Port | Health check | Command |
+|---|---|---|---|---|
+| backend | `docker build -t backend .` | 8000 | `GET /health` | `uvicorn backend.main:app --host 0.0.0.0 --port 8000` (image default) |
+| frontend | `docker build -t frontend frontend` | 3000 | `GET /apply` | `node server.js` (image default) |
+
+Backend environment:
+
+| Variable | Notes |
+|---|---|
+| `DATABASE_URL` | `postgresql+psycopg://user:pass@<rds-host>:5432/utechia`; pass it as a secret |
+| `CORS_ALLOWED_ORIGINS` | The frontend's public origin |
+| `LLM_GATEWAY_URL`, `LLM_GATEWAY_API_KEY`, `LLM_MODEL` | Pass as secrets |
+| `GITHUB_TOKEN` | Optional; pass as a secret |
+| `LOG_LEVEL` | Optional |
+| `STORAGE_ROOT` | Optional |
+
+Frontend environment: `API_BASE_URL` is the backend URL as the **browser** sees
+it (e.g. the ALB path or hostname). It is read at request time, so one image
+works in every environment.
+
+Other points to plan for:
+
+- **Migrations:** run `alembic upgrade head && python -m backend.legacy_import`
+  as a one-off task with the backend image before rolling out a new revision.
+  Do not run migrations on every task start.
+- **Logging:** logs go to stdout, which the `awslogs` driver collects. They
+  include applicant references and run ids, never resume contents.
+- **Image size:** the backend image is about 2.5 GB, mostly CPU-only torch for
+  Docling's PDF layout model. The model is baked in and `HF_HUB_OFFLINE=1`, so
+  tasks never download it. Give the task at least 2 vCPU / 4 GB: resume
+  processing runs inside the API process.
+- **Outbound network:** the backend needs HTTPS access to the LLM gateway and
+  `api.github.com`.
+
+> **Resume storage is not durable on ECS.** Uploaded resumes are written by
+> `LocalStorage` to the task's own filesystem, which is lost whenever a task is
+> replaced. Before accepting real applicant submissions, replace `LocalStorage`
+> in `src/backend/storage.py` with S3 or another durable object store. Callers
+> only hold opaque storage keys, so the change is confined to that module.
+
+### Known limitations
+
+- **No authentication.** `/api/manager/*` is open; do not expose it publicly as is.
+- **Processing is in-process.** Applicant processing (several LLM calls, a few
+  minutes) and assignment runs are FastAPI background tasks in the API process.
+  A task restart mid-run leaves the applicant "processing" or the run "running";
+  use Reprocess or start a new run.
+- **Few seats get filled.** The optimizer's objective averages fit and growth
+  over placed applicants and gives filled seats a 10% weight. It often leaves
+  seats empty even when qualified applicants exist (see `src/matching/scoring.py`).
+- **GitHub profiles are rebuilt on disk.** Profiles collected for new applicants
+  are written to `data/githubs/profiles/`, and a copy is kept in the database so
+  a fresh container can rebuild the file.
+- **No catalog agent in the UI.** Role requirements are edited by hand; the
+  catalog agent (text → requirements) is not wired into the UI yet.
 
 ## Connected agent preview
 
