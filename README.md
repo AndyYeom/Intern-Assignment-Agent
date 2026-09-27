@@ -162,9 +162,15 @@ cd frontend && npm run lint && npm run build
 (`TEST_DATABASE_URL` overrides the location) and is skipped when PostgreSQL is
 unreachable.
 
+### Deploying on a single VM
+
+The current deployment is one VM running Docker Compose behind Caddy (HTTPS,
+manager login). See [infra/README.md](infra/README.md).
+
 ### Deploying on AWS ECS
 
-Two images, both built from this repository:
+Not used by the current deployment (the target AWS account only allows
+Lightsail); kept for a future managed setup. Two images, both built from this repository:
 
 | Service | Build | Port | Health check | Command |
 |---|---|---|---|---|
