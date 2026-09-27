@@ -65,6 +65,27 @@ export default function ApplicantsPage() {
     };
   }, [api, status, query]);
 
+  // While any applicant is still being processed, refresh the list quietly.
+  const inProgress = (applicants ?? []).some(
+    (a) => a.status === "submitted" || a.status === "processing",
+  );
+  useEffect(() => {
+    if (!inProgress) return;
+    const timer = setInterval(async () => {
+      try {
+        setApplicants(
+          await api.listApplicants({
+            status: status || undefined,
+            q: query || undefined,
+          }),
+        );
+      } catch {
+        // Keep the current rows; the next tick retries.
+      }
+    }, 10000);
+    return () => clearInterval(timer);
+  }, [inProgress, api, status, query]);
+
   return (
     <Stack gap="lg">
       <Group justify="space-between">

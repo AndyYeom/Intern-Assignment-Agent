@@ -55,6 +55,15 @@ export default function ApplicantDetailPage({
     load();
   }, [load]);
 
+  // Processing runs on the server for a few minutes; refresh until it settles.
+  const inProgress =
+    applicant?.status === "submitted" || applicant?.status === "processing";
+  useEffect(() => {
+    if (!inProgress) return;
+    const timer = setInterval(load, 5000);
+    return () => clearInterval(timer);
+  }, [inProgress, load]);
+
   async function handleReprocess() {
     setReprocessing(true);
     try {
