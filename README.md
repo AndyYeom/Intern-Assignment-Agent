@@ -169,7 +169,9 @@ unreachable.
 ### Deploying on a single VM
 
 The current deployment is one VM running Docker Compose behind Caddy (HTTPS,
-manager login). See [infra/README.md](infra/README.md).
+manager login). See [infra/README.md](infra/README.md) for the architecture
+and day-to-day operations, and [infra/DEPLOY.md](infra/DEPLOY.md) for the
+step-by-step AWS Lightsail provisioning and deploy commands.
 
 ### Deploying on AWS ECS
 
