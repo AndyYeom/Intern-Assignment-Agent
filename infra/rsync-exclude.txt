@@ -1,5 +1,6 @@
-# Paths never copied to the server by infra/deploy.sh. Excluded paths are also
-# never deleted on the server, which protects its .env and data/.
+# Paths never copied to the server by infra/deploy.sh (which also applies the
+# local .git/info/exclude). Excluded paths are also never deleted on the
+# server, which protects its .env and data/.
 .git/
 .venv/
 node_modules/
@@ -9,10 +10,6 @@ node_modules/
 /output/
 /legacy/githubs/raw/
 /legacy/resumes/raw/
-/always-ignore/
-/CLAUDE.md
-/AGENTS.md
-.claude/
 __pycache__/
 .pytest_cache/
 .mypy_cache/

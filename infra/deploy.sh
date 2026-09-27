@@ -11,6 +11,10 @@ root=$(cd "$(dirname "$0")/.." && pwd)
 ssh_cmd=(ssh -o StrictHostKeyChecking=accept-new)
 [ -n "${SSH_KEY:-}" ] && ssh_cmd+=(-i "$SSH_KEY")
 
-rsync -az --delete --exclude-from "$root/infra/rsync-exclude.txt" \
+excludes=(--exclude-from "$root/infra/rsync-exclude.txt")
+# Local-only ignore rules (never committed) must not reach the server either.
+[ -f "$root/.git/info/exclude" ] && excludes+=(--exclude-from "$root/.git/info/exclude")
+
+rsync -az --delete "${excludes[@]}" \
     -e "${ssh_cmd[*]}" "$root/" "$target:$remote_dir/"
 "${ssh_cmd[@]}" "$target" "sh $remote_dir/infra/up.sh"
