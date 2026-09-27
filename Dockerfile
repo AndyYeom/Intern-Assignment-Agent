@@ -13,10 +13,6 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     UV_PROJECT_ENVIRONMENT=/opt/venv \
     HF_HOME=/opt/hf-cache \
     PATH=/opt/venv/bin:$PATH
-# Docling's PDF/image stack needs these shared libraries at runtime.
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends libgl1 libglib2.0-0 \
-    && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 
 # ---- dependencies (cached until pyproject.toml / uv.lock change) ----------
@@ -24,8 +20,14 @@ FROM base AS deps
 COPY --from=uv /uv /usr/local/bin/uv
 COPY pyproject.toml uv.lock ./
 # --locked: fail instead of silently re-resolving; CPU-only torch on Linux.
+# --no-default-groups: runtime dependencies only (no dev or generator tools).
+# Torch's C++ test binaries/headers and bundled test suites are never used at
+# runtime (about 150 MB).
 RUN --mount=type=cache,target=/root/.cache/uv \
-    uv sync --locked --no-dev --no-install-project
+    uv sync --locked --no-default-groups --no-install-project \
+    && site=/opt/venv/lib/python3.13/site-packages \
+    && rm -rf "$site/torch/test" "$site/torch/include" \
+    && find "$site" -depth -type d -name tests -prune -exec rm -rf {} +
 
 # ---- runtime ---------------------------------------------------------------
 FROM base AS runtime
