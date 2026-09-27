@@ -113,12 +113,23 @@ export interface ApplicantSkillOut {
   evidence: EvidenceOut[];
 }
 
+export type AgentType = "profile" | "github" | "evidence" | "resolve";
+
 export interface ProcessingStage {
-  agent_type: "profile" | "github" | "evidence" | "resolve";
+  run_id: string;
+  agent_type: AgentType;
   status: "running" | "succeeded" | "failed" | "skipped";
   started_at: string;
   completed_at: string | null;
   message: string | null;
+  model: string | null;
+  details: Record<string, unknown> | null;
+  error: string | null;
+  has_output: boolean;
+}
+
+export interface AgentRunOut extends ProcessingStage {
+  output: Record<string, unknown> | null;
 }
 
 export interface RoleScoreOut {

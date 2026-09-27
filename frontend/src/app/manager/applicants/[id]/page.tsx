@@ -16,13 +16,13 @@ import {
   Table,
   Text,
   Title,
-  Tooltip,
 } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 import { RefreshCw } from "lucide-react";
 import { useApi } from "@/lib/api-context";
 import { ApplicantStatusBadge, VerificationBadge } from "@/components/StatusBadge";
 import { ErrorAlert } from "@/components/ErrorAlert";
+import { AgentPipeline } from "@/components/AgentPipeline";
 import { describeError, formatDate } from "@/lib/format";
 import { PROFICIENCY_LABELS } from "@/lib/types";
 import type { ApplicantDetail } from "@/lib/types";
@@ -112,7 +112,7 @@ export default function ApplicantDetailPage({
         </Stack>
         <Group>
           <ApplicantStatusBadge status={applicant.status} />
-          {applicant.status === "failed" && (
+          {!inProgress && (
             <Button
               size="sm"
               variant="light"
@@ -127,7 +127,7 @@ export default function ApplicantDetailPage({
       </Group>
 
       <Grid>
-        <Grid.Col span={{ base: 12, md: 6 }}>
+        <Grid.Col span={{ base: 12, md: 5 }}>
           <Card withBorder radius="md" p="md" h="100%">
             <Title order={4} mb="sm">
               Details
@@ -177,47 +177,18 @@ export default function ApplicantDetailPage({
           </Card>
         </Grid.Col>
 
-        <Grid.Col span={{ base: 12, md: 6 }}>
-          <Card withBorder radius="md" p="md" h="100%">
-            <Title order={4} mb="sm">
-              Processing
-            </Title>
-            {applicant.status_detail && (
-              <Text size="sm" c={applicant.status === "failed" ? "red" : "dimmed"} mb="sm">
-                {applicant.status_detail}
-              </Text>
-            )}
-            <Stack gap={8}>
-              {applicant.stages.length === 0 && (
-                <Text size="sm" c="dimmed">
-                  No processing stages recorded yet.
-                </Text>
-              )}
-              {applicant.stages.map((s, i) => (
-                <Group key={i} justify="space-between">
-                  <Text size="sm" tt="capitalize">
-                    {s.agent_type}
-                  </Text>
-                  <Group gap={8}>
-                    <Badge
-                      size="sm"
-                      color={stageColor(s.status)}
-                      variant="light"
-                    >
-                      {s.status}
-                    </Badge>
-                    {s.message && (
-                      <Tooltip label={s.message}>
-                        <Text size="xs" c="dimmed" style={{ maxWidth: 160 }} truncate>
-                          {s.message}
-                        </Text>
-                      </Tooltip>
-                    )}
-                  </Group>
-                </Group>
-              ))}
-            </Stack>
-          </Card>
+        <Grid.Col span={{ base: 12, md: 7 }}>
+          {applicant.status_detail && (
+            <Text size="sm" c={applicant.status === "failed" ? "red" : "dimmed"} mb="sm">
+              {applicant.status_detail}
+            </Text>
+          )}
+          <AgentPipeline
+            applicantId={applicant.id}
+            applicantStatus={applicant.status}
+            stages={applicant.stages}
+            onChanged={load}
+          />
         </Grid.Col>
       </Grid>
 
@@ -455,19 +426,6 @@ function DetailRow({
       </div>
     </Group>
   );
-}
-
-function stageColor(status: string): string {
-  switch (status) {
-    case "succeeded":
-      return "green";
-    case "running":
-      return "yellow";
-    case "failed":
-      return "red";
-    default:
-      return "gray";
-  }
 }
 
 function levelLabel(level: number | null): string {

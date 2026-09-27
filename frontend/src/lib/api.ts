@@ -3,6 +3,7 @@ import type {
   ApplicantListItem,
   ApplicationCreated,
   ApplicationPublic,
+  AgentRunOut,
   AssignmentOut,
   AssignmentPatch,
   ErrorResponse,
@@ -156,6 +157,21 @@ export function createApiClient(baseUrl: string) {
         baseUrl,
         `/api/manager/applicants/${id}/reprocess`,
         { method: "POST" },
+      );
+    },
+
+    async reverifyGithub(id: string): Promise<ApplicationCreated> {
+      return request<ApplicationCreated>(
+        baseUrl,
+        `/api/manager/applicants/${id}/reverify-github`,
+        { method: "POST" },
+      );
+    },
+
+    async getAgentRun(applicantId: string, runId: string): Promise<AgentRunOut> {
+      return request<AgentRunOut>(
+        baseUrl,
+        `/api/manager/applicants/${applicantId}/agent-runs/${runId}`,
       );
     },
 
