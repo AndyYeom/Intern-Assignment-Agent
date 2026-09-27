@@ -299,3 +299,17 @@ def test_clean_json_text_keeps_first_object_when_gateway_keeps_writing() -> None
     }
     unfenced = '{"applicant_id": "a1"}I cannot continue because the JSON is complete.'
     assert json.loads(profile_graph._clean_json_text(unfenced)) == {"applicant_id": "a1"}
+
+
+def test_clean_json_text_rejoins_an_answer_split_by_gateway_continuations() -> None:
+    # Shape seen from the live gateway: long answers arrive in chunks, and each
+    # continuation opens with a fence that lands in the middle of the JSON.
+    reply = (
+        '```json\n{"applicant_id": "a1", "skills": [{"canonical_skill": "python"}'
+        ']```json\n, "education": [{"institution": "X"}]}```json\n{"applicant_id": "a1", "skills": []}'
+    )
+    assert json.loads(profile_graph._clean_json_text(reply)) == {
+        "applicant_id": "a1",
+        "skills": [{"canonical_skill": "python"}],
+        "education": [{"institution": "X"}],
+    }

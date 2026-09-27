@@ -68,7 +68,7 @@ code, change it there, then regenerate. Levels use the shared scale in
 
 Computed at [verify.py:71](../../src/evidence_agent/verify.py#L71).
 
-## 5. When the model is asked ([`settled_by_rules()`](../../src/evidence_agent/evidence_graph.py#L124))
+## 5. When the model is asked ([`settled_by_rules()`](../../src/evidence_agent/evidence_graph.py#L125))
 
 The rules settle a claim without the model when:
 - GitHub already supports it (`verified`): a model could only agree.
@@ -76,19 +76,19 @@ The rules settle a claim without the model when:
 
 Everything else, one or two levels short, or only weakly signalled, goes to the
 model in one call per applicant, with only the repositories behind those claims
-([`_prompt_parts()`](../../src/evidence_agent/evidence_graph.py#L264)).
+([`_prompt_parts()`](../../src/evidence_agent/evidence_graph.py#L265)).
 
-## 6. How far the model is trusted ([`_accept()`](../../src/evidence_agent/evidence_graph.py#L359))
+## 6. How far the model is trusted ([`_accept()`](../../src/evidence_agent/evidence_graph.py#L363))
 
 - A verdict with a level must cite at least one repository URL that exists in
   the profile; otherwise the rules' verdict is kept for that skill
-  ([evidence_graph.py:364](../../src/evidence_agent/evidence_graph.py#L364)).
+  ([evidence_graph.py:368](../../src/evidence_agent/evidence_graph.py#L368)).
 - The model may move at most 1 level(s) from the rules' level
-  ([`MAX_LEVEL_SHIFT`](../../src/evidence_agent/evidence_graph.py#L78)).
+  ([`MAX_LEVEL_SHIFT`](../../src/evidence_agent/evidence_graph.py#L79)).
 - Where the rules found no repository, the model's level is capped at
-  2 ([`UNSEEN_LEVEL_CAP`](../../src/evidence_agent/evidence_graph.py#L79)).
+  2 ([`UNSEEN_LEVEL_CAP`](../../src/evidence_agent/evidence_graph.py#L80)).
 - The status is always recomputed from the levels, never taken from the model
-  ([`_status()`](../../src/evidence_agent/evidence_graph.py#L352)).
+  ([`_status()`](../../src/evidence_agent/evidence_graph.py#L356)).
 - A missing or failing gateway, or output still invalid after correction,
-  falls back to the rules ([`reconcile()`](../../src/evidence_agent/evidence_graph.py#L390)). Every verdict records
+  falls back to the rules ([`reconcile()`](../../src/evidence_agent/evidence_graph.py#L394)). Every verdict records
   `method` (`llm` or `rules`), the rules' own level, and notes on why.

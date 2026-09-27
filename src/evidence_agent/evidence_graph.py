@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import os
 import sys
 import tempfile
@@ -284,15 +285,18 @@ def _text(message: Any) -> str:
 
 
 def _clean_json_text(text: str) -> str:
-    # The gateway can keep the model writing after a complete answer, so the
-    # reply may be fenced and followed by prose; keep only the first object.
+    # The gateway returns long answers in chunks: it asks the model to continue
+    # and joins the pieces, and every continuation opens with a ```json fence, so
+    # fences can land mid-JSON. It may also keep the model writing after a
+    # complete answer. Drop every fence, then keep only the first object.
+    text = re.sub(r"```(?:json)?", "", text)
     start = text.find("{")
     if start == -1:
         return text.strip()
     try:
         obj, _ = json.JSONDecoder().raw_decode(text, start)
     except json.JSONDecodeError:
-        return text[start:].strip().rstrip("`").strip()
+        return text[start:].strip()
     return json.dumps(obj, ensure_ascii=False)
 
 

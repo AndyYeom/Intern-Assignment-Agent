@@ -172,3 +172,8 @@ def test_rules_doc_matches_the_code():
 def test_clean_json_text_keeps_first_object_when_gateway_keeps_writing():
     reply = '```json\n{"verdicts": []}\n```I have already completed the JSON.\n```'
     assert json.loads(eg._clean_json_text(reply)) == {"verdicts": []}
+
+
+def test_clean_json_text_rejoins_an_answer_split_by_gateway_continuations():
+    reply = '```json\n{"verdicts": [{"skill_id": "python"}]```json\n}```json\n{"verdicts": []}'
+    assert json.loads(eg._clean_json_text(reply)) == {"verdicts": [{"skill_id": "python"}]}
