@@ -1,6 +1,6 @@
 """Assign each applicant a career direction, spread across the corpus.
 
-data/resumes/career_path.md describes the space: 15 career families and 7
+legacy/resumes/career_path.md describes the space: 15 career families and 7
 creative types (obvious ... wildcard). Left to itself, every LLM call picks the
 obvious path, and separate calls cannot coordinate - five subagents would all
 write "Full-Stack Engineer". So the direction is assigned here, deterministically,

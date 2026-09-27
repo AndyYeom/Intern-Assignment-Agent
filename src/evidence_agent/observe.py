@@ -1,6 +1,6 @@
 """What level of a skill the GitHub record supports.
 
-Applies the boundary tests in data/proficiency_levels.md to the signals the
+Applies the boundary tests in resources/proficiency_levels.md to the signals the
 collector already mined, one repository at a time:
 
   Entry (1)         the repo exists, but looks follow-along: tutorial name,

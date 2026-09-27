@@ -1,8 +1,8 @@
 """PostgreSQL schema: the system of record for structured application state.
 
-Proficiency uses the pipeline's shared 1-3 scale (data/proficiency_levels.md):
+Proficiency uses the pipeline's shared 1-3 scale (resources/proficiency_levels.md):
 1 Entry, 2 Intermediate, 3 Advanced. Skills are keyed by their taxonomy id
-(data/taxonomy.json), the identifier every agent already uses.
+(resources/taxonomy.json), the identifier every agent already uses.
 
 Roles are first-class here even though the matching engine only knows
 "projects": each project role is handed to the optimizer as its own matching

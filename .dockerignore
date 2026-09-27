@@ -15,11 +15,10 @@
 # Frontend has its own image and context.
 frontend
 
-# Local state and generated output
-data/uploads
-data/runs
-data/githubs/raw
-data/resumes/raw
+# Blob storage, local state and generated output
+data
+legacy/githubs/raw
+legacy/resumes/raw
 output
 src/matching/artifacts/*.json
 *.sqlite3

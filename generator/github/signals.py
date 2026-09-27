@@ -1,6 +1,6 @@
 """Derive the boundary evidence the proficiency scale actually asks for.
 
-data/proficiency_levels.md poses two decisive questions. Both are detectable:
+resources/proficiency_levels.md poses two decisive questions. Both are detectable:
 
   Entry vs Intermediate - "did the applicant make the structural decisions,
                            or follow someone else's?"

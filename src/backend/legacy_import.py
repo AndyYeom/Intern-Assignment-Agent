@@ -1,17 +1,17 @@
 """Import the legacy file-based data into PostgreSQL. Idempotent; never deletes sources.
 
-    python -m backend.legacy_import [--skip-projects] [--data-dir data]
+    python -m backend.legacy_import [--skip-projects] [--data-dir legacy]
 
 Sources (all read-only):
-  data/taxonomy.json              -> skills
-  data/applicants.csv             -> applicants (index of the cohort)
-  data/resumes/specs/<id>.json    -> applicant name, email, education, experience
-  data/resumes/rendered/<id>.pdf  -> resume document (copied into storage)
-  data/githubs/profiles/<id>.json -> GitHub snapshot
-  data/evidence/<id>.json         -> resolved skills + evidence (claims from the
-                                     resume spec, verified against GitHub by the
-                                     evidence agent's rules)
-  data/projects/seed_projects.json-> sample projects and roles
+  resources/taxonomy.json           -> skills
+  resources/seed_projects.json      -> sample projects and roles
+  legacy/applicants.csv             -> applicants (index of the cohort)
+  legacy/resumes/specs/<id>.json    -> applicant name, email, education, experience
+  legacy/resumes/rendered/<id>.pdf  -> resume document (copied into blob storage)
+  legacy/githubs/profiles/<id>.json -> GitHub snapshot
+  legacy/evidence/<id>.json         -> resolved skills + evidence (claims from the
+                                       resume spec, verified against GitHub by the
+                                       evidence agent's rules)
 
 Re-running updates changed applicants and leaves projects that already exist
 untouched, so manager edits survive. Exits non-zero on malformed critical data.
@@ -29,7 +29,7 @@ from pathlib import Path
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
-from backend.config import REPO_ROOT, get_settings
+from backend.config import LEGACY_DATA, RESOURCES, get_settings
 from backend.db import session_scope
 from backend.db.models import (
     Applicant,
@@ -247,7 +247,7 @@ def verify(session: Session, data_dir: Path) -> list[str]:
     """Compare what landed in the database with the source files."""
     with (data_dir / "applicants.csv").open(newline="", encoding="utf-8") as handle:
         source_refs = {r["applicant_id"] for r in csv.DictReader(handle)}
-    taxonomy = _read_json(data_dir / "taxonomy.json")["skills"]
+    taxonomy = _read_json(RESOURCES / "taxonomy.json")["skills"]
     db_refs = set(
         session.scalars(select(Applicant.reference).where(Applicant.source == "legacy_import"))
     )
@@ -283,14 +283,14 @@ def run(data_dir: Path, *, skip_projects: bool = False) -> tuple[Report, list[st
     report = Report()
     storage = LocalStorage(get_settings().storage_root)
     with session_scope() as session:
-        inserted, updated = upsert_taxonomy(session, data_dir / "taxonomy.json")
+        inserted, updated = upsert_taxonomy(session, RESOURCES / "taxonomy.json")
         report.counts[("skills", "inserted")] += inserted
         report.counts[("skills", "updated")] += updated
     with session_scope() as session:
         import_applicants(session, data_dir, storage, report)
     if not skip_projects:
         with session_scope() as session:
-            import_projects(session, data_dir / "projects" / "seed_projects.json", report)
+            import_projects(session, RESOURCES / "seed_projects.json", report)
     with session_scope() as session:
         checks = verify(session, data_dir)
     return report, checks
@@ -298,7 +298,7 @@ def run(data_dir: Path, *, skip_projects: bool = False) -> tuple[Report, list[st
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("--data-dir", type=Path, default=REPO_ROOT / "data")
+    parser.add_argument("--data-dir", type=Path, default=LEGACY_DATA)
     parser.add_argument("--skip-projects", action="store_true", help="do not import seed projects")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")

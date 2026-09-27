@@ -1,4 +1,4 @@
-"""Tests for the applicant manifest (data/applicants.csv)."""
+"""Tests for the applicant manifest (legacy/applicants.csv)."""
 from __future__ import annotations
 
 import csv
@@ -72,7 +72,7 @@ def test_header_and_quoting():
 
 def test_profile_path_is_repo_relative_and_named_by_id():
     manifest.upsert([manifest.row_for(_spec(42))])
-    assert manifest.load()[0]["github_profile"] == "data/githubs/profiles/applicant0042.json"
+    assert manifest.load()[0]["github_profile"] == "legacy/githubs/profiles/applicant0042.json"
 
 
 def test_spec_without_applicant_id_is_rejected():

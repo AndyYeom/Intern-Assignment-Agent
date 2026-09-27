@@ -5,16 +5,15 @@ from functools import lru_cache
 
 from langchain_core.prompts import ChatPromptTemplate
 
-from generator.config import DATA
+from generator.config import PROFICIENCY_PATH
 
-PROFICIENCY_PATH = DATA / "proficiency_levels.md"
 
 
 @lru_cache(maxsize=1)
 def proficiency_taxonomy() -> str:
     """The shared scale verbatim, plus the boundary tests' decisive sentences.
 
-    Both come from data/proficiency_levels.md, the single source of truth for
+    Both come from resources/proficiency_levels.md, the single source of truth for
     the scale. The shared block is never reworded. The boundary tests are cut to
     their deciding sentences, verbatim; the Entry/Intermediate table is left out
     because the GitHub-specific signals below replace it for this agent.

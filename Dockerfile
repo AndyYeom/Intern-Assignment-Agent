@@ -34,22 +34,24 @@ COPY alembic.ini ./
 COPY src ./src
 COPY pipeline ./pipeline
 COPY generator ./generator
-# Source data: taxonomy, proficiency scale, GitHub corpus, resumes, evidence,
-# seed projects. Uploads and run artifacts are excluded by .dockerignore.
-COPY data ./data
+# Reference files (taxonomy, proficiency scale, seed projects) and the legacy
+# dataset the one-off import reads. data/ (blob storage) is not copied: it is a
+# mounted volume locally and S3 later.
+COPY resources ./resources
+COPY legacy ./legacy
 ENV PYTHONPATH=/app/src:/app \
-    STORAGE_ROOT=/app/data/uploads
+    STORAGE_ROOT=/app/data
 
 # Bake the PDF layout model into the image so tasks do not download it on
 # every cold start (converting one bundled resume fetches exactly what is used).
 RUN for attempt in 1 2 3 4 5; do \
-        python -c "from src.profile_agent.pdf_extractor import extract_resume; extract_resume('data/resumes/rendered/applicant0001.pdf')" \
+        python -c "from src.profile_agent.pdf_extractor import extract_resume; extract_resume('legacy/resumes/rendered/applicant0001.pdf')" \
         && break; \
         [ "$attempt" = 5 ] && exit 1; echo "model download failed, retrying"; sleep 10; \
     done \
     && useradd --system --uid 10001 --home-dir /app app \
-    && mkdir -p /app/data/uploads \
-    && chown -R app:app /app/data /opt/hf-cache
+    && mkdir -p /app/data \
+    && chown -R app:app /app/data /app/legacy /opt/hf-cache
 
 # The GitHub collector caches API responses under /app/.cache (ephemeral).
 RUN mkdir -p /app/.cache && chown app:app /app/.cache

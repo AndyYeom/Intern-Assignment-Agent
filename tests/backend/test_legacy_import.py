@@ -25,7 +25,7 @@ def _counts():
 
 
 def test_import_matches_sources_and_is_idempotent(db):
-    data_dir = legacy_import.REPO_ROOT / "data"
+    data_dir = legacy_import.LEGACY_DATA
     report, checks = legacy_import.run(data_dir)
     assert all(c.startswith("OK") for c in checks), checks
     first = _counts()
@@ -41,7 +41,7 @@ def test_import_matches_sources_and_is_idempotent(db):
 
 
 def test_every_imported_applicant_is_ready_with_a_resume(db):
-    legacy_import.run(legacy_import.REPO_ROOT / "data")
+    legacy_import.run(legacy_import.LEGACY_DATA)
     with session_scope() as s:
         applicants = s.scalars(select(Applicant)).all()
         assert {a.status for a in applicants} == {"ready"}
@@ -51,7 +51,7 @@ def test_every_imported_applicant_is_ready_with_a_resume(db):
 
 def test_reimport_ignores_applications_submitted_through_the_api(db):
     """Deploys re-run the import; new applicants must not break its checks."""
-    legacy_import.run(legacy_import.REPO_ROOT / "data")
+    legacy_import.run(legacy_import.LEGACY_DATA)
     with session_scope() as s:
         a = Applicant(reference="app-new", name="New", email="new@example.com", source="application")
         a.documents.append(
@@ -61,5 +61,5 @@ def test_reimport_ignores_applications_submitted_through_the_api(db):
             )
         )
         s.add(a)
-    _, checks = legacy_import.run(legacy_import.REPO_ROOT / "data")
+    _, checks = legacy_import.run(legacy_import.LEGACY_DATA)
     assert all(c.startswith("OK") for c in checks), checks

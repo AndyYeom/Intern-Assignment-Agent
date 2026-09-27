@@ -11,7 +11,7 @@ from project_catalog_agent.taxonomy.json_repository import JsonTaxonomyRepositor
 
 
 def inputs():
-    return RunInput.model_validate(read_json(ROOT / "data/integration-demo.json"))
+    return RunInput.model_validate(read_json(ROOT / "legacy/integration-demo.json"))
 
 
 def test_replay_carries_same_applicants_through_all_components(tmp_path):
@@ -64,7 +64,7 @@ def test_evidence_id_mismatch_is_rejected():
     report.applicant_id = "different"
     with pytest.raises(ValueError, match="mismatch"):
         matching_student(
-            profile, report, JsonTaxonomyRepository(ROOT / "data/taxonomy.json")
+            profile, report, JsonTaxonomyRepository(ROOT / "resources/taxonomy.json")
         )
 
 

@@ -85,7 +85,7 @@ def rules_text() -> str:
 Generated from the code by `uv run python -m src.evidence_agent rules`, and
 rewritten whenever the rules change. Do not edit by hand: follow a link to the
 code, change it there, then regenerate. Levels use the shared scale in
-[`data/proficiency_levels.md`](../../data/proficiency_levels.md): 1 Entry,
+[`resources/proficiency_levels.md`](../../resources/proficiency_levels.md): 1 Entry,
 2 Intermediate, 3 Advanced.
 
 ## 1. Which evidence counts

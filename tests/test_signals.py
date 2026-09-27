@@ -1,6 +1,6 @@
 """Tests for the proficiency-boundary heuristics in signals.py.
 
-These encode the two decisive questions from data/proficiency_levels.md.
+These encode the two decisive questions from resources/proficiency_levels.md.
 """
 from __future__ import annotations
 

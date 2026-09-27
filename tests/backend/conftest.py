@@ -65,7 +65,7 @@ def db(database_url: str):
     with get_engine().begin() as conn:
         conn.execute(text(f"TRUNCATE {tables} RESTART IDENTITY CASCADE"))
     with session_scope() as session:
-        upsert_taxonomy(session, REPO_ROOT / "data" / "taxonomy.json")
+        upsert_taxonomy(session, REPO_ROOT / "resources" / "taxonomy.json")
     return get_engine()
 
 

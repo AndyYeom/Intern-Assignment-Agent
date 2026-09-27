@@ -1,6 +1,6 @@
 """Render a ResumeSpec to HTML and PDF, following MIT CAPD Resume Template A.
 
-The layout is taken from data/static/MITResumeTemplateA.docx, measured from its
+The layout is taken from legacy/static/MITResumeTemplateA.docx, measured from its
 XML rather than eyeballed:
 
   * Letter, 1-inch margins, Times New Roman
@@ -159,7 +159,7 @@ def _entry_html(entry: Entry, *, kind: str) -> str:
     person's repo URL, which carries their real username, and printing it on a
     resume with an invented name would tie that invented identity to a real
     account. The link stays in the spec; the evidence agent joins a resume to
-    its profile through data/applicants.csv, not through the PDF.
+    its profile through legacy/applicants.csv, not through the PDF.
     """
     if kind == "project":
         # **Project Name**, Personal Project      dates

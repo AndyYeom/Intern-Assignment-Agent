@@ -90,8 +90,8 @@ evidence unless given.
                              or {"Languages": ["Python", "Go"], "Frameworks": [...]}
 }
 
-Each resume writes data/resumes/specs/<applicant_id>.json and
-data/resumes/rendered/<applicant_id>.pdf, and records the pair in data/applicants.csv.
+Each resume writes legacy/resumes/specs/<applicant_id>.json and
+legacy/resumes/rendered/<applicant_id>.pdf, and records the pair in legacy/applicants.csv.
 Generating again for the same applicant replaces its pair.
 """
 

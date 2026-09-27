@@ -8,7 +8,7 @@ Two kinds, alternating:
 
 Choice uses only the collector's raw skill evidence, never the evidence
 agent's judgement, so the agent is not graded against its own rules. The
-answer key lives in data/eval/, not in applicants.csv, which the agent reads.
+answer key lives in legacy/eval/, not in applicants.csv, which the agent reads.
 """
 from __future__ import annotations
 

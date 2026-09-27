@@ -6,6 +6,8 @@ from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+RESOURCES = REPO_ROOT / "resources"
+LEGACY_DATA = REPO_ROOT / "legacy"
 
 
 class BackendSettings(BaseSettings):
@@ -19,8 +21,9 @@ class BackendSettings(BaseSettings):
     backend_port: int = 8000
     # Comma-separated list. "*" allows any origin; only use it for local experiments.
     cors_allowed_origins: str = "http://localhost:3000"
-    # Root for uploaded applicant documents (LocalStorage). Not durable on ECS.
-    storage_root: Path = REPO_ROOT / "data" / "uploads"
+    # Blob storage root (LocalStorage), laid out like the future S3 bucket:
+    # resumes/<applicant reference>/<id>.pdf. Not durable on ECS.
+    storage_root: Path = REPO_ROOT / "data"
     log_level: str = "INFO"
     # Largest accepted resume upload, in bytes.
     max_upload_bytes: int = 10 * 1024 * 1024

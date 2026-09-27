@@ -12,7 +12,7 @@ name: utechia
 
 x-backend-env: &backend-env
   DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-utechia}:${POSTGRES_PASSWORD:-local-dev-only}@postgres:5432/${POSTGRES_DB:-utechia}
-  STORAGE_ROOT: /app/data/uploads
+  STORAGE_ROOT: /app/data
   CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:3000}
   LOG_LEVEL: ${LOG_LEVEL:-INFO}
 
@@ -40,7 +40,7 @@ services:
     command: ["sh", "-c", "alembic upgrade head && python -m backend.legacy_import"]
     environment: *backend-env
     volumes:
-      - uploads:/app/data/uploads
+      - uploads:/app/data
     depends_on:
       postgres:
         condition: service_healthy
@@ -59,7 +59,7 @@ services:
     volumes:
       # Local-only persistence for uploaded resumes. ECS task storage is
       # ephemeral: replace LocalStorage with S3 before real submissions.
-      - uploads:/app/data/uploads
+      - uploads:/app/data
     depends_on:
       migrate:
         condition: service_completed_successfully

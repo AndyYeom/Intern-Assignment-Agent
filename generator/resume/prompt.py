@@ -435,4 +435,4 @@ uv run python -m generator re gen --appids <id> <id> ... --info '<json>' '<json>
 def build(format_text: str, applicant_blocks: list[str], guide: str = "") -> str:
     return PROMPT.format(format=format_text.strip(), count=len(applicant_blocks),
                          applicants="\n".join(applicant_blocks).strip(),
-                         guide=guide or "(data/resumes/career_path.md not found)")
+                         guide=guide or "(legacy/resumes/career_path.md not found)")

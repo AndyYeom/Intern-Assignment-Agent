@@ -1,6 +1,6 @@
 """The applicant manifest: one row per applicant, pairing GitHub profile to resume.
 
-`data/applicants.csv` is the index an agent reads to answer "who exists, where
+`legacy/applicants.csv` is the index an agent reads to answer "who exists, where
 is their profile, where is their resume". Keyed on `applicant_id`.
 
   * **Derived, not authoritative.** Every row is reconstructable from the specs
