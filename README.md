@@ -84,8 +84,9 @@ docker compose up --build
 Compose starts `postgres` (host port 5433, so a local PostgreSQL on 5432 keeps
 working), then the one-off `migrate` service (`alembic upgrade head` followed by the
 legacy import), then `backend` and `frontend`. The database lives in the
-`postgres-data` volume and blob storage (`/app/data`) in the `uploads` volume;
-`docker compose down -v` deletes both.
+`postgres-data` volume; `docker compose down -v` deletes it. Blob storage is the
+repository's `data/` folder, mounted at `/app/data`, so uploaded resumes appear
+there as `data/resumes/<applicant>/<id>.pdf`.
 
 Without the `LLM_*` settings the stack still starts and the imported applicants
 can be assigned, but new applications fail at the profile stage.

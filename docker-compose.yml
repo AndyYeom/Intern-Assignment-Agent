@@ -40,7 +40,7 @@ services:
     command: ["sh", "-c", "alembic upgrade head && python -m backend.legacy_import"]
     environment: *backend-env
     volumes:
-      - uploads:/app/data
+      - ./data:/app/data
     depends_on:
       postgres:
         condition: service_healthy
@@ -57,9 +57,10 @@ services:
     ports:
       - "${BACKEND_HOST_PORT:-8000}:8000"
     volumes:
-      # Local-only persistence for uploaded resumes. ECS task storage is
-      # ephemeral: replace LocalStorage with S3 before real submissions.
-      - uploads:/app/data
+      # The repository's data/ folder is the blob store (same layout as the
+      # future S3 bucket), so uploads are visible on the host. ECS task storage
+      # is ephemeral: use S3 (or EFS) there.
+      - ./data:/app/data
     depends_on:
       migrate:
         condition: service_completed_successfully
@@ -77,4 +78,3 @@ services:
 
 volumes:
   postgres-data:
-  uploads:
