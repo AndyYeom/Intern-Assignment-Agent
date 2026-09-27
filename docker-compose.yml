@@ -1,0 +1,80 @@
+# Local development stack: PostgreSQL + backend + frontend.
+#   cp .env.example .env      # then fill in the LLM_* gateway settings
+#   docker compose up --build
+# Applicant UI http://localhost:3000/apply, manager UI http://localhost:3000/manager,
+# API http://localhost:8000 (health: /health).
+#
+# The one-off `migrate` service applies Alembic migrations and imports the
+# legacy data before the backend starts. On ECS run the same command as a
+# one-off task before deploying a new backend revision; never on every start.
+
+name: utechia
+
+x-backend-env: &backend-env
+  DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-utechia}:${POSTGRES_PASSWORD:-local-dev-only}@postgres:5432/${POSTGRES_DB:-utechia}
+  STORAGE_ROOT: /app/data/uploads
+  CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:3000}
+  LOG_LEVEL: ${LOG_LEVEL:-INFO}
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-utechia}
+      POSTGRES_USER: ${POSTGRES_USER:-utechia}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-dev-only}
+    ports:
+      # 5433 on the host so an existing local PostgreSQL on 5432 keeps working.
+      - "${POSTGRES_HOST_PORT:-5433}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  migrate:
+    build: .
+    image: utechia-backend:local
+    command: ["sh", "-c", "alembic upgrade head && python -m backend.legacy_import"]
+    environment: *backend-env
+    volumes:
+      - uploads:/app/data/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
+
+  backend:
+    build: .
+    image: utechia-backend:local
+    # Model gateway and GitHub token come from .env (not baked into the image).
+    env_file:
+      - path: .env
+        required: false
+    environment: *backend-env
+    ports:
+      - "${BACKEND_HOST_PORT:-8000}:8000"
+    volumes:
+      # Local-only persistence for uploaded resumes. ECS task storage is
+      # ephemeral: replace LocalStorage with S3 before real submissions.
+      - uploads:/app/data/uploads
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  frontend:
+    build: ./frontend
+    environment:
+      # Called from the browser, so it must be the host-reachable backend URL.
+      API_BASE_URL: ${API_BASE_URL:-http://localhost:8000}
+    ports:
+      - "${FRONTEND_HOST_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  postgres-data:
+  uploads:

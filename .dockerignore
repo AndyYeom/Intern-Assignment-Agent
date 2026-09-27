@@ -1,0 +1,32 @@
+# Keep secrets, local state and unrelated trees out of the backend image.
+.env
+.env.*
+!.env.example
+.git
+.venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.cache
+.DS_Store
+
+# Frontend has its own image and context.
+frontend
+
+# Local state and generated output
+data/uploads
+data/runs
+data/githubs/raw
+data/resumes/raw
+output
+src/matching/artifacts/*.json
+*.sqlite3
+
+# Not needed at runtime
+tests
+scripts
+always-ignore
+CLAUDE.md
+.claude
