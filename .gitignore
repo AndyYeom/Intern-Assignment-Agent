@@ -213,3 +213,9 @@ output/integration/
 
 # setuptools build metadata
 *.egg-info/
+
+# Uploaded applicant documents (LocalStorage)
+data/uploads/
+
+# GitHub profiles collected at runtime for applicants submitted through the API
+data/githubs/profiles/app-*.json
