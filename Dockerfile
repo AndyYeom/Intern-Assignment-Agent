@@ -53,9 +53,6 @@ RUN for attempt in 1 2 3 4 5; do \
     && mkdir -p /app/data \
     && chown -R app:app /app/data /app/legacy /opt/hf-cache
 
-# The GitHub collector caches API responses under /app/.cache (ephemeral).
-RUN mkdir -p /app/.cache && chown app:app /app/.cache
-
 # Use only the baked model; never reach Hugging Face from a running task.
 ENV HF_HUB_OFFLINE=1
 USER app

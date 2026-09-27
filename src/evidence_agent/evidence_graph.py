@@ -147,10 +147,16 @@ def load_inputs(state: EvidenceGraphState) -> dict[str, Any]:
     if profile.get("applicant_id") != applicant_id:
         raise EvidenceValidationError(
             f"Profile is for {profile.get('applicant_id')!r}, expected {applicant_id!r}")
-    path = PROFILES_DIR / f"{applicant_id}.json"
-    if not path.is_file():
-        raise EvidenceValidationError(f"No GitHub profile for {applicant_id}: {path}")
-    github = GitHubProfile.model_validate_json(path.read_text(encoding="utf-8"))
+    github = state.get("github")
+    if github is not None:
+        if github.applicant_id != applicant_id:
+            raise EvidenceValidationError(
+                f"GitHub profile is for {github.applicant_id!r}, expected {applicant_id!r}")
+    else:
+        path = PROFILES_DIR / f"{applicant_id}.json"
+        if not path.is_file():
+            raise EvidenceValidationError(f"No GitHub profile for {applicant_id}: {path}")
+        github = GitHubProfile.model_validate_json(path.read_text(encoding="utf-8"))
     return {"github": github, "claims": from_profile_payload(profile)}
 
 
@@ -202,13 +208,21 @@ evidence_graph = _build_graph().compile()
 
 
 def evaluate_github(applicant_id: str, profile: Any, *, use_llm: bool = True,
-                    llm_factory: Callable[[], Any] | None = None) -> EvidenceReport:
-    """Verify one applicant's profile-agent claims. `profile` is A's ApplicantProfile."""
+                    llm_factory: Callable[[], Any] | None = None,
+                    github: GitHubProfile | None = None) -> EvidenceReport:
+    """Verify one applicant's profile-agent claims. `profile` is A's ApplicantProfile.
+
+    `github`, when given, is an already-loaded GitHubProfile: no file is read
+    (its applicant_id must match). Omitted, behaviour is unchanged: the profile
+    is read from PROFILES_DIR/<applicant_id>.json.
+    """
     data = profile.model_dump() if hasattr(profile, "model_dump") else profile
     state: EvidenceGraphState = {"applicant_id": applicant_id, "profile": data,
                                  "use_llm": use_llm}
     if llm_factory is not None:
         state["llm_factory"] = llm_factory
+    if github is not None:
+        state["github"] = github
     return evidence_graph.invoke(state)["report"]
 
 

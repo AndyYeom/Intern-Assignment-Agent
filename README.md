@@ -12,7 +12,7 @@ uv run python scripts/run_local_demo.py --test
 
 This runs six controlled catalog scenarios, rules-only evidence verification of a
 saved applicant profile, the 20-student/4-project matching fixture, and the test
-suite. Logs are saved in `data/runs/local-check/`; matching JSON is saved under
+suite. Logs are saved in `output/runs/local-check/`; matching JSON is saved under
 `src/matching/artifacts/`. It stops with a nonzero exit code on failure. Omit
 `--test` for a shorter demo. No API keys or model calls are required for this mode.
 
@@ -34,7 +34,7 @@ A PostgreSQL-backed API and a Next.js UI around the agent pipeline:
 ```
 Applicant ─┐                      ┌──────────────┐
 Manager  ──┴─► Next.js frontend ─►│ FastAPI API  │─► PostgreSQL (system of record)
-             (frontend/, :3000)    │ (src/backend,│─► LocalStorage (data/uploads)
+             (frontend/, :3000)    │ (src/backend,│─► blob storage (data/, S3 later)
                                    │  :8000)      │─► profile → GitHub → evidence → resolve
                                    └──────────────┘   scoring + genetic-algorithm optimizer
 ```
@@ -55,6 +55,17 @@ Manager  ──┴─► Next.js frontend ─►│ FastAPI API  │─► Postg
   stored. A manager override changes the placement but keeps the solver's
   original role, so run history is never rewritten.
 
+### Repository data layout
+
+| Folder | Holds | Committed |
+|---|---|---|
+| `data/` | Blob storage (`STORAGE_ROOT`): uploaded resumes as `resumes/<applicant>/<id>.pdf`. Same layout as the S3 bucket that will replace it. | No |
+| `resources/` | Reference files the system reads: skill taxonomy, proficiency scale, seed projects | Yes |
+| `legacy/` | The historical file-based dataset (GitHub corpus, synthetic resumes, evidence), loaded once by the legacy import and still used by the generator tools; see [`legacy/README.md`](legacy/README.md) | Yes |
+
+Everything structured, such as applicants, skills, evidence, GitHub snapshots,
+projects and assignments, lives in PostgreSQL.
+
 ### Quick start (Docker)
 
 ```sh
@@ -73,7 +84,7 @@ docker compose up --build
 Compose starts `postgres` (host port 5433, so a local PostgreSQL on 5432 keeps
 working), then the one-off `migrate` service (`alembic upgrade head` followed by the
 legacy import), then `backend` and `frontend`. The database lives in the
-`postgres-data` volume and uploads in the `uploads` volume;
+`postgres-data` volume and blob storage (`/app/data`) in the `uploads` volume;
 `docker compose down -v` deletes both.
 
 Without the `LLM_*` settings the stack still starts and the imported applicants
@@ -100,7 +111,7 @@ The schema is managed by Alembic (`src/backend/migrations`, models in
 
 - **Applicants:** `applicants`, `applicant_documents`, `applicant_skills`,
   `applicant_skill_evidence`, `agent_runs`
-- **Skills:** `skills` (taxonomy ids from `data/taxonomy.json`)
+- **Skills:** `skills` (taxonomy ids from `resources/taxonomy.json`)
 - **Projects:** `projects`, `project_roles`, `project_role_skills`
 - **Assignments:** `assignment_runs`, `applicant_role_scores`, `assignments`
 
@@ -121,12 +132,12 @@ uv run alembic revision --autogenerate -m "change"    # after editing models.py
 
 | Source | Becomes |
 |---|---|
-| `data/taxonomy.json` | skills |
-| `data/applicants.csv` + `data/resumes/specs/*.json` | applicants |
-| `data/resumes/rendered/*.pdf` | resume documents (copied into storage) |
-| `data/githubs/profiles/*.json` | GitHub snapshots |
-| `data/evidence/*.json` | resolved skills and evidence |
-| `data/projects/seed_projects.json` | sample projects with roles |
+| `resources/taxonomy.json` | skills |
+| `resources/seed_projects.json` | sample projects with roles |
+| `legacy/applicants.csv` + `legacy/resumes/specs/*.json` | applicants |
+| `legacy/resumes/rendered/*.pdf` | resume documents (copied into `data/resumes/`) |
+| `legacy/githubs/profiles/*.json` | GitHub snapshots |
+| `legacy/evidence/*.json` | resolved skills and evidence |
 
 The seed projects are demo data, not client projects.
 
@@ -204,9 +215,10 @@ Other points to plan for:
 - **Few seats get filled.** The optimizer's objective averages fit and growth
   over placed applicants and gives filled seats a 10% weight. It often leaves
   seats empty even when qualified applicants exist (see `src/matching/scoring.py`).
-- **GitHub profiles are rebuilt on disk.** Profiles collected for new applicants
-  are written to `data/githubs/profiles/`, and a copy is kept in the database so
-  a fresh container can rebuild the file.
+- **GitHub data is collected once per applicant.** It is fetched in memory
+  when an applicant is first processed and stored in the database
+  (`applicants.github_snapshot`); reprocessing reuses it. Nothing is written to
+  disk except the resume in `data/`.
 - **No catalog agent in the UI.** Role requirements are edited by hand; the
   catalog agent (text → requirements) is not wired into the UI yet.
 
@@ -214,14 +226,14 @@ Other points to plan for:
 
 ```sh
 # Replays saved profile outputs and explicit synthetic catalog extraction fixtures.
-uv run python -m pipeline.integrated --mode replay --output-dir data/runs/connected-01
+uv run python -m pipeline.integrated --mode replay --output-dir output/runs/connected-01
 
 # New resume/PDF and catalog model calls; provide a real local environment file.
-uv run python -m pipeline.integrated --mode live --env-file /path/to/.env --output-dir data/runs/live-01
+uv run python -m pipeline.integrated --mode live --env-file /path/to/.env --output-dir output/runs/live-01
 ```
 
 Use a new output directory for each run. `--input` accepts a manifest shaped like
-`data/integration-demo.json`; paths inside it are repository-relative. The default
+`legacy/integration-demo.json`; paths inside it are repository-relative. The default
 contains two existing applicants and two small synthetic projects. Each project
 must explicitly specify capacity; it is never invented by a model. Preview runs
 are limited to five applicants and five projects.
@@ -282,7 +294,7 @@ Scores come from self-reported résumé and portfolio content only. They are nev
 ## Extract a résumé
 
 ```powershell
-uv run python -m src.profile_agent.pdf_extractor data/sample_cv.pdf --output output/sample_cv.md
+uv run python -m src.profile_agent.pdf_extractor legacy/resumes/bills_cv.pdf --output output/sample_cv.md
 ```
 
 The command prints the input filename, extracted character count, output path, and a 500-character Markdown preview.
@@ -292,13 +304,13 @@ The command prints the input filename, extracted character count, output path, a
 With a portfolio:
 
 ```powershell
-uv run python -m src.profile_agent.profile_graph data/sample_cv.pdf --applicant-id APP-001 --portfolio data/sample_portfolio.pdf --ocr --output output/applicant-profile.json
+uv run python -m src.profile_agent.profile_graph legacy/resumes/bills_cv.pdf --applicant-id APP-001 --portfolio path/to/portfolio.pdf --ocr --output output/applicant-profile.json
 ```
 
 Without a portfolio:
 
 ```powershell
-uv run python -m src.profile_agent.profile_graph data/sample_cv.pdf --applicant-id APP-001 --output output/applicant-profile.json
+uv run python -m src.profile_agent.profile_graph legacy/resumes/bills_cv.pdf --applicant-id APP-001 --output output/applicant-profile.json
 ```
 
 When `--output` is omitted, the JSON is written to stdout as machine-readable output. Progress and errors are sent to stderr, while stdout remains valid JSON.
@@ -378,7 +390,7 @@ uv run python -m generator re gen --appids applicant0046 applicant0057 --info '{
 required: projects and skills are drafted from the applicant's real GitHub
 evidence, and drafted projects are trimmed to fit one page.
 
-Every generated PDF is recorded in `data/applicants.csv` together with the GitHub
+Every generated PDF is recorded in `legacy/applicants.csv` together with the GitHub
 profile it pairs with; generating again for the same applicant replaces the pair.
 
 ```powershell
@@ -391,13 +403,13 @@ Without `--appids`, `re infoprompt` covers every placed applicant who has no res
 ## Evidence agent
 
 Verifies each claimed skill against the applicant's GitHub profile, applying the
-boundary tests in `data/proficiency_levels.md` to the collected signals. Every
+boundary tests in `resources/proficiency_levels.md` to the collected signals. Every
 claim gets `verified`, `partially_verified` (one level short), `conflicting` (two
 levels short) or `not_observed` (nothing to judge; absence is never a penalty),
 with the observed level, evidence strength and repository links.
 
 ```powershell
-uv run python -m src.evidence_agent verify                       # all applicants -> data/evidence/
+uv run python -m src.evidence_agent verify                       # all applicants -> legacy/evidence/
 uv run python -m src.evidence_agent verify --claims output/profiles  # use the profile agent's JSON
 uv run python -m src.evidence_agent plant                        # plant 10 exaggerations (once)
 uv run python -m src.evidence_agent eval                         # how many were caught
@@ -423,7 +435,7 @@ report.payload()   # {applicant_id, skill_verification: [...]} for resolve_profi
 - **verify_with_llm** sends only the remaining claims, with only the
   repositories behind them, to the same Ollama gateway as the profile agent
   (`LLM_GATEWAY_URL`, `LLM_GATEWAY_API_KEY`, `LLM_MODEL`), with the shared scale
-  from `data/proficiency_levels.md` verbatim in the prompt.
+  from `resources/proficiency_levels.md` verbatim in the prompt.
 - **reconcile** keeps a model verdict only if it cites repositories that exist
   and stays within one level of the rules; otherwise that skill falls back to
   the rules, as does everything when the gateway is missing or fails.
@@ -434,7 +446,7 @@ Every verdict carries `method` (`llm` or `rules`), the rules' own reading
 used. On the 100 applicants, 18% of claims need the model, 68 applicants need
 one call each, and prompts are 88% smaller than sending every claim and repo.
 
-A's free-text skill names are mapped onto `data/taxonomy.json` ids; names that
+A's free-text skill names are mapped onto `resources/taxonomy.json` ids; names that
 match nothing are listed in `unmapped_claims` and never verified.
 
 ```powershell

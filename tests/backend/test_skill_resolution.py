@@ -67,22 +67,21 @@ def test_evidence_combines_resume_quotes_and_repositories():
     assert skills[0].verification_summary == "Supported by 1 repo."
 
 
-def test_github_profile_is_restored_from_the_database_snapshot(tmp_path, monkeypatch):
-    """A fresh container lost the collected file; the DB snapshot rebuilds it."""
+def test_github_profile_is_reused_from_the_database_snapshot():
+    """Reprocessing must not re-scrape GitHub: the DB snapshot is used as-is, no file involved."""
     import json
 
-    import generator.github.normalize as normalize
     from generator.config import PROFILES_DIR
+    from generator.schemas import GitHubProfile
 
     from backend.services.processing import _ensure_github_profile
 
-    monkeypatch.setattr(normalize, "PROFILES_DIR", tmp_path)
     snapshot = json.loads((PROFILES_DIR / "applicant0001.json").read_text(encoding="utf-8"))
     snapshot["applicant_id"] = "app-restored"
     applicant = {"id": None, "reference": "app-restored", "github_login": "x", "github_snapshot": snapshot}
-    assert _ensure_github_profile(applicant) == (True, "restored from database snapshot")
-    assert (tmp_path / "app-restored.json").is_file()
-    assert _ensure_github_profile(applicant) == (True, "collected profile on disk")
+    profile, note = _ensure_github_profile(applicant)
+    assert note == "using stored GitHub snapshot"
+    assert isinstance(profile, GitHubProfile) and profile.applicant_id == "app-restored"
 
     bare = {"id": None, "reference": "app-none", "github_login": None, "github_snapshot": None}
-    assert _ensure_github_profile(bare) == (False, "no GitHub login provided")
+    assert _ensure_github_profile(bare) == (None, "no GitHub login provided")

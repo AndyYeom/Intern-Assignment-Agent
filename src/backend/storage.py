@@ -8,6 +8,8 @@ swap is local to this module.
 """
 
 import uuid
+from collections.abc import Iterator
+from contextlib import AbstractContextManager, contextmanager
 from pathlib import Path
 from typing import BinaryIO, Protocol
 
@@ -23,8 +25,13 @@ class Storage(Protocol):
 
     def delete(self, key: str) -> None: ...
 
-    def local_path(self, key: str) -> Path:
-        """A filesystem path for tools that need one (the PDF extractor)."""
+    def as_local_file(self, key: str) -> AbstractContextManager[Path]:
+        """Context manager yielding a local filesystem path for `key`.
+
+        LocalStorage yields the real, already-local path. An S3-backed
+        implementation would download the object to a temporary file here and
+        clean it up on exit, so callers never assume a local filesystem.
+        """
         ...
 
 
@@ -58,5 +65,6 @@ class LocalStorage:
     def delete(self, key: str) -> None:
         self._path(key).unlink(missing_ok=True)
 
-    def local_path(self, key: str) -> Path:
-        return self._path(key)
+    @contextmanager
+    def as_local_file(self, key: str) -> Iterator[Path]:
+        yield self._path(key)

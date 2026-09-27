@@ -108,3 +108,36 @@ def test_transient_failure_is_raised_not_saved_as_empty_data():
     client = FakeClient(filtered=[], unfiltered=[], contributors=[], fail_on="/languages")
     with pytest.raises(RateLimited):
         collector.collect_repo(client, "ada", REPO)
+
+
+class FakeUserClient:
+    """Enough of the client surface for collect_user: no owned repos, so
+    collect_repo (already covered above) is never reached."""
+
+    def get(self, path: str, *, params: dict[str, Any] | None = None, max_age=None) -> Any:
+        if path.startswith("/users/"):
+            return {"login": "ada", "email": "ada@example.com", "created_at": "2020-01-01T00:00:00Z"}
+        return []
+
+    def paginate(self, path: str, *, params: dict[str, Any] | None = None, max_pages: int = 5):
+        return iter(())
+
+    def file_text(self, *args, **kwargs):
+        return None
+
+
+def test_persist_false_writes_no_bundle(tmp_path, monkeypatch):
+    """The backend's in-memory collection must leave no trace under RAW_DIR."""
+    raw_dir = tmp_path / "raw"  # deliberately not created: persist=False must not touch it
+    monkeypatch.setattr(collector, "RAW_DIR", raw_dir)
+    payload = collector.collect_user(FakeUserClient(), "ada", persist=False)
+    assert payload["login"] == "ada"
+    assert not raw_dir.exists()
+
+
+def test_persist_defaults_to_true_and_writes_a_bundle(tmp_path, monkeypatch):
+    """The generator CLI's default behaviour (collect/build) is unchanged."""
+    raw_dir = tmp_path / "raw"
+    monkeypatch.setattr(collector, "RAW_DIR", raw_dir)
+    collector.collect_user(FakeUserClient(), "ada")
+    assert (raw_dir / "ada" / "bundle.json").is_file()

@@ -11,7 +11,6 @@ process after the request returns; a crash leaves the applicant "processing"
 and a manager can reprocess it.
 """
 
-import json
 import logging
 import os
 import uuid
@@ -68,42 +67,49 @@ def _gateway_model() -> str | None:
     return os.environ.get("LLM_MODEL") if gateway_configured() else None
 
 
-def _ensure_github_profile(applicant: dict[str, Any]) -> tuple[bool, str]:
-    """Make data/githubs/profiles/<reference>.json exist. Returns (available, note)."""
-    from generator.github.normalize import build_profile, profile_path, save_profile
+def _ensure_github_profile(applicant: dict[str, Any]) -> tuple[Any | None, str]:
+    """Get this applicant's GitHubProfile without ever writing a file.
+
+    Reuses the DB snapshot when present (also preserves the anonymous 60
+    requests/hour quota on reprocessing). Otherwise collects in memory - no
+    raw bundle under legacy/githubs/, no on-disk HTTP cache - and stores the
+    built profile straight into applicants.github_snapshot.
+
+    Returns (GitHubProfile | None, note).
+    """
+    from generator.github.normalize import build_profile
     from generator.schemas import GitHubProfile
 
-    path = profile_path(applicant["reference"])
-    if path.is_file():
-        return True, "collected profile on disk"
     if applicant["github_snapshot"]:
-        # Rebuild the file a fresh container lost, from the database copy.
-        profile = GitHubProfile.model_validate(applicant["github_snapshot"])
-        save_profile(profile)
-        return True, "restored from database snapshot"
+        return GitHubProfile.model_validate(applicant["github_snapshot"]), "using stored GitHub snapshot"
     if not applicant["github_login"]:
-        return False, "no GitHub login provided"
+        return None, "no GitHub login provided"
 
     import httpx
+    from generator.github.cache import InMemoryResponseCache
     from generator.github.client import GitHubClient
     from generator.github.collector import collect_user
 
+    def _collect(token: str | None) -> tuple[dict[str, Any], GitHubClient]:
+        client = GitHubClient(token=token, cache=InMemoryResponseCache(), wait_on_limit=False)
+        return collect_user(client, applicant["github_login"], persist=False), client
+
     try:
-        bundle = collect_user(GitHubClient(wait_on_limit=False), applicant["github_login"])
+        bundle, client = _collect(None)
     except httpx.HTTPStatusError as exc:
         if exc.response.status_code != 401:
             raise
         # A rejected GITHUB_TOKEN: public data is still readable anonymously
         # (60 requests/hour, roughly one applicant).
         log.warning("GITHUB_TOKEN rejected (401); collecting anonymously")
-        bundle = collect_user(GitHubClient(token="", wait_on_limit=False), applicant["github_login"])
+        bundle, client = _collect("")
     profile = build_profile(bundle, applicant["reference"])
-    save_profile(profile)
     with session_scope() as session:
-        session.get(Applicant, applicant["id"]).github_snapshot = json.loads(
-            profile.model_dump_json()
-        )
-    return True, f"collected {len(profile.repos)} repositories"
+        session.get(Applicant, applicant["id"]).github_snapshot = profile.model_dump(mode="json")
+    note = f"collected {len(profile.repos)} repositories"
+    if client.request_count:
+        note += f", {client.request_count} GitHub requests"
+    return profile, note
 
 
 def process_applicant(applicant_id: uuid.UUID) -> None:
@@ -134,7 +140,8 @@ def process_applicant(applicant_id: uuid.UUID) -> None:
             raise ValueError("no resume on file")
         storage = LocalStorage(get_settings().storage_root)
         with _Stage(applicant_id, "profile", model) as stage:
-            profile = evaluate_resume(storage.local_path(snapshot["resume_key"]), applicant_id=ref)
+            with storage.as_local_file(snapshot["resume_key"]) as resume_path:
+                profile = evaluate_resume(resume_path, applicant_id=ref)
             stage.output = profile.model_dump(mode="json")
             stage.details = {"skills": len(profile.skills)}
     except Exception:
@@ -145,20 +152,21 @@ def process_applicant(applicant_id: uuid.UUID) -> None:
         return
 
     verifications: list[dict[str, Any]] = []
-    github_ok = False
+    github_profile = None
     with _Stage(applicant_id, "github") as stage:
         try:
-            github_ok, note = _ensure_github_profile(snapshot)
+            github_profile, note = _ensure_github_profile(snapshot)
         except Exception as exc:  # GitHub down, bad login, rate limit: continue unverified
-            github_ok, note = False, f"GitHub collection failed: {type(exc).__name__}"
+            github_profile, note = None, f"GitHub collection failed: {type(exc).__name__}"
             log.warning("github stage failed applicant=%s: %s", ref, exc)
-        stage.status = "succeeded" if github_ok else "skipped"
-        stage.details = {"note": note}
+        stage.status = "succeeded" if github_profile is not None else "skipped"
+        stage.details = {"note": note, "repos": len(github_profile.repos) if github_profile else 0}
 
-    if github_ok:
+    if github_profile is not None:
         with _Stage(applicant_id, "evidence", model) as stage:
             try:
-                report = evaluate_github(ref, profile, use_llm=model is not None)
+                report = evaluate_github(ref, profile, use_llm=model is not None,
+                                         github=github_profile)
                 verifications = [s.model_dump(mode="json") for s in report.skills]
                 stage.output = report.payload()
                 stage.details = {"mode": report.mode, "status_counts": report.status_counts}
