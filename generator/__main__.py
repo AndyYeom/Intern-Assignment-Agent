@@ -86,10 +86,10 @@ def _add_resume_commands(parser: argparse.ArgumentParser) -> None:
     p = sub.add_parser(
         "gen", help="generate resume PDFs, each paired with its GitHub profile in applicants.csv",
         description=("Generate resumes in MIT Resume Template A. Every PDF is recorded in "
-                     "data/applicants.csv with the GitHub profile it pairs with."),
+                     "legacy/applicants.csv with the GitHub profile it pairs with."),
         epilog=resume_generate.FORMAT, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--appids", nargs="+", required=True, metavar="APPID",
-                   help="applicant IDs, e.g. applicant0046 (see data/githubs/corpus.json)")
+                   help="applicant IDs, e.g. applicant0046 (see legacy/githubs/corpus.json)")
     p.add_argument("--info", nargs="+", required=True, metavar="INFO",
                    help="one resume per appid, same order: a JSON object, or @file.json")
     p.set_defaults(func=resume_cmd.cmd_gen)

@@ -94,7 +94,7 @@ def test_profile_agent_then_evidence_agent():
     from src.evidence_agent.evidence_graph import write_json_atomic
     from src.profile_agent import ApplicantProfile, create_profile_llm, evaluate_resume
 
-    pdf = Path(f"data/resumes/rendered/{APPLICANT}.pdf")
+    pdf = Path(f"legacy/resumes/rendered/{APPLICANT}.pdf")
     assert pdf.is_file(), pdf
 
     # A: resume PDF -> claimed skills. Reused from the last run unless RERUN_A=1.

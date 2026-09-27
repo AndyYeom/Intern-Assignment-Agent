@@ -101,3 +101,12 @@ def test_ignores_text_after_the_first_object():
     llm = FakeChat(reply)
     assert generate(GatewayStructuredLLMClient(llm=llm)) == VALID
     assert len(llm.calls) == 1
+
+
+def test_rejoins_an_answer_split_by_gateway_continuations():
+    body = VALID.model_dump_json()
+    cut = body.index('"requirements"')
+    reply = f"```json\n{body[:cut]}```json\n{body[cut:]}```json\n{{}}"
+    llm = FakeChat(reply)
+    assert generate(GatewayStructuredLLMClient(llm=llm)) == VALID
+    assert len(llm.calls) == 1

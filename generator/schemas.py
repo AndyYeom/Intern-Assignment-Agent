@@ -119,7 +119,7 @@ class GitHubProfile(BaseModel):
     usability: dict[str, Any] = Field(default_factory=dict)
 
     # The search that found this person - NOT the slot they fill. Slots are
-    # decided by assign.py from what the person builds; see data/githubs/corpus.json.
+    # decided by assign.py from what the person builds; see legacy/githubs/corpus.json.
     search_stratum: str | None = None
     collected_at: str | None = None
     collector_version: str | None = None

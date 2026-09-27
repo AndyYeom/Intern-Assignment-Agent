@@ -7,6 +7,7 @@ run without an OpenAI key.
 
 import json
 import os
+import re
 from typing import Any, TypeVar
 
 from pydantic import BaseModel, ValidationError
@@ -42,9 +43,12 @@ def _message_text(message: Any) -> str:
 def _first_json_object(text: str) -> str:
     """Return the first complete JSON object in ``text``.
 
-    Gateway models sometimes wrap the object in code fences or keep writing
-    after it; only the first object is the answer.
+    The gateway returns long answers in chunks joined together, each
+    continuation opening with a code fence that can land mid-JSON; models also
+    keep writing after a complete answer. Drop every fence, then keep only the
+    first object.
     """
+    text = re.sub(r"```(?:json)?", "", text)
     start = text.find("{")
     if start == -1:
         return text

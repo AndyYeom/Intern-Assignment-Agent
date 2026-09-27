@@ -107,7 +107,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="evidence_agent", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
-    p = sub.add_parser("verify", help="write data/evidence/<applicant_id>.json")
+    p = sub.add_parser("verify", help="write legacy/evidence/<applicant_id>.json")
     p.add_argument("--appids", nargs="*")
     p.add_argument("--claims", help="directory of profile-agent JSON, one per applicant")
     p.set_defaults(func=cmd_verify)

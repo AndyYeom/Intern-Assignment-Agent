@@ -18,7 +18,7 @@ def main() -> int:
         "--test", action="store_true", help="Also run the full test suite"
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=ROOT / "data/runs/local-check"
+        "--output-dir", type=Path, default=ROOT / "output/runs/local-check"
     )
     args = parser.parse_args()
     output_dir = args.output_dir.resolve()

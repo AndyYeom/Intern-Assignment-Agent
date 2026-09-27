@@ -1,7 +1,7 @@
 """Stage 2: fetch raw GitHub payloads for each selected user.
 
 This is the only expensive stage, so it does as little thinking as possible -
-it stores what the API returned, verbatim, under data/githubs/raw/<login>/.
+it stores what the API returned, verbatim, under legacy/githubs/raw/<login>/.
 All interpretation happens in normalize.py, which needs no network and can be
 re-run for free every time the schema changes.
 
@@ -198,10 +198,16 @@ def collect_repo(client: GitHubClient, login: str, repo: dict[str, Any]) -> dict
 
 
 def collect_user(client: GitHubClient, login: str, *, max_repos: int = MAX_REPOS_PER_USER,
-                 stratum: str | None = None) -> dict[str, Any]:
-    """Fetch one user's profile, ranked repos, and recent external activity."""
+                 stratum: str | None = None, persist: bool = True) -> dict[str, Any]:
+    """Fetch one user's profile, ranked repos, and recent external activity.
+
+    `persist=False` skips writing the raw bundle under RAW_DIR (e.g. for the
+    backend's request-time collection, which must leave no files behind); the
+    generator CLI keeps the default `persist=True` so `collect`/`build` stay
+    resumable from disk.
+    """
     user = client.get(f"/users/{login}")
-    # Never persist a public email - see the provenance note in data/githubs/.
+    # Never persist a public email - see the provenance note in legacy/githubs/.
     user.pop("email", None)
 
     # One page (100) covers everyone: the sampler rejects accounts with more than
@@ -258,7 +264,8 @@ def collect_user(client: GitHubClient, login: str, *, max_repos: int = MAX_REPOS
         "repos": bundles,
         "external_contributions": external,
     }
-    _write([login, "bundle.json"], payload)
+    if persist:
+        _write([login, "bundle.json"], payload)
     return payload
 
 

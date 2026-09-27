@@ -41,7 +41,7 @@ def isolated_data(request: pytest.FixtureRequest, tmp_path: Path,
     # Opt-out for tests that must read the real corpus (and write nothing to data/).
     if request.node.get_closest_marker("real_data"):
         return REAL_DATA
-    data = tmp_path / "data"
+    data = tmp_path / REAL_DATA.name
     cache = tmp_path / "cache"
     for relative in READ_ONLY_INPUTS:
         source = REAL_DATA / relative

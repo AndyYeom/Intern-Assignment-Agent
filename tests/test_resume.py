@@ -159,7 +159,7 @@ def test_irrelevant_repos_are_not_resume_projects():
 
 
 def test_layout_follows_mit_template_a():
-    """Section names, order and shape come from data/static/MITResumeTemplateA.docx."""
+    """Section names, order and shape come from legacy/static/MITResumeTemplateA.docx."""
     info = _info(career_stage="intern", email="ada@northbridge.example", phone="(617) 555-0142",
                  location="Port Calder",
                  experience=[Entry(title="SWE Intern", organization="Acme", location="Tidewell",

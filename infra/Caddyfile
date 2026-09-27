@@ -1,0 +1,26 @@
+# Single public origin for the VM deployment (docker-compose.prod.yml).
+# SITE_ADDRESS decides TLS: a hostname such as 203.0.113.10.sslip.io gets a
+# Let's Encrypt certificate automatically; "http://..." serves plain HTTP.
+{$SITE_ADDRESS} {
+	encode zstd gzip
+
+	# Manager UI, manager API and the API docs sit behind one shared login.
+	# The applicant side (/apply, /api/applications) stays public.
+	@protected path /manager /manager/* /api/manager /api/manager/* /docs /docs/* /redoc /openapi.json
+	basic_auth @protected {
+		{$MANAGER_USER} {$MANAGER_PASSWORD_HASH}
+	}
+
+	@backend path /api/* /health /ready /docs /docs/* /redoc /openapi.json
+	handle @backend {
+		reverse_proxy backend:8000
+	}
+	handle {
+		reverse_proxy frontend:3000
+	}
+
+	log {
+		output stdout
+		format console
+	}
+}

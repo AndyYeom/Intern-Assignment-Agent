@@ -108,6 +108,23 @@ def test_it_runs_after_the_profile_agent_and_matches_its_id():
         eg.evaluate_github("applicant0001", {**PROFILE_A, "applicant_id": "applicant0999"})
 
 
+def test_github_kwarg_is_used_without_reading_any_file(tmp_path, monkeypatch):
+    """No PROFILES_DIR file exists; the pre-loaded GitHubProfile is used as-is."""
+    empty_dir = tmp_path / "no-profiles-here"
+    monkeypatch.setattr(eg, "PROFILES_DIR", empty_dir)  # never created; a read would raise
+    github = _profile(_repo("api"))
+    report = eg.evaluate_github("applicant0001", PROFILE_A,
+                                llm_factory=lambda: FakeLLM(_answer(3)), github=github)
+    assert not empty_dir.exists()
+    assert _by_skill(report)["python"].status == "verified"
+
+
+def test_github_kwarg_applicant_id_must_match():
+    mismatched = _profile(_repo("api")).model_copy(update={"applicant_id": "applicant0999"})
+    with pytest.raises(eg.EvidenceValidationError, match="applicant0999"):
+        eg.evaluate_github("applicant0001", PROFILE_A, github=mismatched)
+
+
 def test_payload_fits_resolve_profile_and_keeps_the_trail():
     payload = eg.evaluate_github("applicant0001", PROFILE_A,
                                  llm_factory=lambda: FakeLLM(_answer(3))).payload()
@@ -155,3 +172,8 @@ def test_rules_doc_matches_the_code():
 def test_clean_json_text_keeps_first_object_when_gateway_keeps_writing():
     reply = '```json\n{"verdicts": []}\n```I have already completed the JSON.\n```'
     assert json.loads(eg._clean_json_text(reply)) == {"verdicts": []}
+
+
+def test_clean_json_text_rejoins_an_answer_split_by_gateway_continuations():
+    reply = '```json\n{"verdicts": [{"skill_id": "python"}]```json\n}```json\n{"verdicts": []}'
+    assert json.loads(eg._clean_json_text(reply)) == {"verdicts": [{"skill_id": "python"}]}

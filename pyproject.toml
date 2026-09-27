@@ -5,21 +5,28 @@ description = "NUS ISS hackathon: profile, catalog, evidence and matching agents
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.20.0",
     "argon2-cffi",
-    "docling>=2.127.0",
+    # PDF conversion with the local layout model only (no OCR/Office formats).
+    "docling-slim[convert-core,format-pdf,models-local]>=2.129.0",
+    "email-validator>=2.3.0",
+    "fastapi>=0.141.1",
     "httpx>=0.28.1",
     "langchain>=1.4.0",
     "langchain-ollama>=1.1.0",
     "langgraph>=1.2.11",
     "langgraph-checkpoint-sqlite>=3,<4",
     "openai>=1.66",
-    "pandas>=3.0.5",
+    "psycopg[binary]>=3.3.6",
     "pydantic>=2.13.5",
     "pydantic-settings",
     "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
     "scipy>=1.18.1",
-    "streamlit>=1.64.0",
-    "weasyprint>=70.0",
+    "sqlalchemy>=2",
+    "torch>=2.14.0",
+    "torchvision>=0.29.0",
+    "uvicorn[standard]>=0.53.0",
 ]
 
 [project.optional-dependencies]
@@ -31,6 +38,10 @@ dev = [
 ]
 
 [dependency-groups]
+# Synthetic dataset tooling (generator/resume renders PDFs); not in the API image.
+generator = [
+    "weasyprint>=70.0",
+]
 dev = [
     "mypy",
     "pytest>=9.1.1",
@@ -83,3 +94,17 @@ strict = true
 mypy_path = "src"
 plugins = ["pydantic.mypy"]
 files = ["src"]
+
+# Linux (the backend container on ECS) has no GPU: take CPU-only torch wheels
+# instead of the default CUDA builds, which add several GB to the image.
+[tool.uv]
+default-groups = ["dev", "generator"]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+torchvision = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]

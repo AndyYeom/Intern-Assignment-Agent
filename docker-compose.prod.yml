@@ -1,0 +1,58 @@
+# Production overlay for a single VM, served through Caddy on ports 80/443:
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+# (infra/up.sh wraps this). Only Caddy is published; PostgreSQL, the backend
+# and the frontend are reachable on the Compose network only.
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+services:
+  postgres:
+    ports: !reset []
+    restart: unless-stopped
+    logging: *logging
+
+  migrate:
+    logging: *logging
+
+  backend:
+    ports: !reset []
+    restart: unless-stopped
+    logging: *logging
+
+  frontend:
+    ports: !reset []
+    restart: unless-stopped
+    logging: *logging
+    environment:
+      # Empty = same origin: the browser calls /api/... on the Caddy host.
+      API_BASE_URL: ""
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    logging: *logging
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      - "${HTTPS_PORT:-443}:443"
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?set SITE_ADDRESS in .env}
+      MANAGER_USER: ${MANAGER_USER:-manager}
+      MANAGER_PASSWORD_HASH: ${MANAGER_PASSWORD_HASH:?set MANAGER_PASSWORD_HASH in .env (see infra/README.md)}
+    volumes:
+      - ./infra/Caddyfile:/etc/caddy/Caddyfile:ro
+      # Certificates live here; losing them means re-issuing (rate limited).
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      backend:
+        condition: service_healthy
+      frontend:
+        condition: service_healthy
+
+volumes:
+  caddy-data:
+  caddy-config:

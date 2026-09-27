@@ -1,0 +1,284 @@
+{
+  "note": "Sample projects for local development and demos, not real client projects. Imported by `python -m backend.legacy_import`; skill ids come from data/taxonomy.json and levels use the shared 1-3 scale (1 Entry, 2 Intermediate, 3 Advanced). A learning_opportunity level is the target level the role grows people towards.",
+  "projects": [
+    {
+      "name": "Event Platform",
+      "description": "An Eventbrite-style web platform where organisers publish events, sell tickets and check attendees in.",
+      "roles": [
+        {
+          "name": "Project Manager",
+          "description": "Runs sprints, keeps scope realistic and writes the release notes.",
+          "capacity": 1,
+          "requirements": [
+            {
+              "skill_id": "technical-writing",
+              "required_level": 2,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "agile",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "ui-ux",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        },
+        {
+          "name": "UX/UI Designer",
+          "description": "Designs the organiser dashboard and the ticket checkout flow.",
+          "capacity": 1,
+          "requirements": [
+            {
+              "skill_id": "html-css",
+              "required_level": 2,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "tailwind",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "ui-ux",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            },
+            {
+              "skill_id": "accessibility",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        },
+        {
+          "name": "Frontend Developer",
+          "description": "Builds the event pages and checkout in React.",
+          "capacity": 2,
+          "requirements": [
+            {
+              "skill_id": "react",
+              "required_level": 1,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "javascript",
+              "required_level": 2,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "html-css",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "typescript",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            },
+            {
+              "skill_id": "state-management",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        },
+        {
+          "name": "Backend Developer",
+          "description": "Builds the ticketing API, payments integration and data model.",
+          "capacity": 2,
+          "requirements": [
+            {
+              "skill_id": "sql",
+              "required_level": 1,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "python",
+              "required_level": 2,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "rest-api",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            },
+            {
+              "skill_id": "postgresql",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            },
+            {
+              "skill_id": "auth",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Campus Marketplace App",
+      "description": "A mobile marketplace where students buy and sell second-hand textbooks and equipment.",
+      "roles": [
+        {
+          "name": "Mobile Developer",
+          "description": "Builds the listing, chat and checkout screens.",
+          "capacity": 2,
+          "requirements": [
+            {
+              "skill_id": "javascript",
+              "required_level": 2,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "react",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "react-native",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        },
+        {
+          "name": "Backend Developer",
+          "description": "Builds the listings API and notifications.",
+          "capacity": 1,
+          "requirements": [
+            {
+              "skill_id": "nodejs",
+              "required_level": 1,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "mongodb",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "rest-api",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Course Recommender",
+      "description": "Recommends elective courses to students from enrolment history and course descriptions.",
+      "roles": [
+        {
+          "name": "ML Engineer",
+          "description": "Builds and evaluates the recommendation model.",
+          "capacity": 2,
+          "requirements": [
+            {
+              "skill_id": "python",
+              "required_level": 2,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "pandas",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "machine-learning",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "recsys",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        },
+        {
+          "name": "Data Engineer",
+          "description": "Builds the ingestion pipeline from the enrolment exports.",
+          "capacity": 1,
+          "requirements": [
+            {
+              "skill_id": "sql",
+              "required_level": 2,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "python",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "etl",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ops Dashboard",
+      "description": "An internal dashboard showing deployment health and service metrics for Utechia's projects.",
+      "roles": [
+        {
+          "name": "DevOps Engineer",
+          "description": "Containerises the services and sets up CI.",
+          "capacity": 1,
+          "requirements": [
+            {
+              "skill_id": "docker",
+              "required_level": 1,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "linux",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "cicd",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        },
+        {
+          "name": "Full-stack Developer",
+          "description": "Builds the metrics API and the charts.",
+          "capacity": 2,
+          "requirements": [
+            {
+              "skill_id": "python",
+              "required_level": 1,
+              "requirement_type": "hard_requirement"
+            },
+            {
+              "skill_id": "flask-fastapi",
+              "required_level": 1,
+              "requirement_type": "preferred"
+            },
+            {
+              "skill_id": "data-viz",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            },
+            {
+              "skill_id": "monitoring",
+              "required_level": 2,
+              "requirement_type": "learning_opportunity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

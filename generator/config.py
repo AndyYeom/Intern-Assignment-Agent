@@ -6,8 +6,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-DATA = ROOT / "data"
-TAXONOMY_PATH = DATA / "taxonomy.json"
+# The historical file-based dataset (GitHub corpus, synthetic resumes, evidence).
+# The running system reads applicants from PostgreSQL; this is its import source.
+DATA = ROOT / "legacy"
+# Reference files the running system reads: skill taxonomy and proficiency scale.
+RESOURCES = ROOT / "resources"
+TAXONOMY_PATH = RESOURCES / "taxonomy.json"
+PROFICIENCY_PATH = RESOURCES / "proficiency_levels.md"
 
 GITHUB_DATA = DATA / "githubs"
 CANDIDATES_PATH = GITHUB_DATA / "candidates.json"

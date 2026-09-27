@@ -182,11 +182,11 @@ async def run(inputs, output, mode):
                 status["catalog_llm"] = "gateway"
             extractor = LLMRequirementExtractor(client)
             selector = LLMTaxonomyMappingSelector(client)
-        taxonomy = JsonTaxonomyRepository(ROOT / "data/taxonomy.json")
+        taxonomy = JsonTaxonomyRepository(ROOT / "resources/taxonomy.json")
         students, profiles, reports, resolved = [], [], [], []
         print(f"[1/4] Profile -> evidence -> resolved skills ({mode})", flush=True)
         for item in inputs.applicants:
-            if not (ROOT / f"data/githubs/profiles/{item.applicant_id}.json").is_file():
+            if not (ROOT / f"legacy/githubs/profiles/{item.applicant_id}.json").is_file():
                 raise ValueError(
                     f"Missing collected GitHub profile: {item.applicant_id}"
                 )
@@ -334,7 +334,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--mode", choices=["replay", "live"], default="replay")
     parser.add_argument(
-        "--input", type=Path, default=ROOT / "data/integration-demo.json"
+        "--input", type=Path, default=ROOT / "legacy/integration-demo.json"
     )
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--env-file", type=Path)

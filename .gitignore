@@ -192,19 +192,19 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-data/runs/
+output/runs/
 .DS_Store
 
 # Evidence collector: raw API payloads and HTTP cache are reproducible from
-# data/githubs/candidates.json, so only the normalised profiles are tracked.
+# legacy/githubs/candidates.json, so only the normalised profiles are tracked.
 .cache/
-data/githubs/raw/
-data/.applicants.lock
+legacy/githubs/raw/
+legacy/.applicants.lock
 
 # Resumes: the PDFs, specs and applicants.csv are committed so the team works
 # from the same files. raw/ holds a local HTML preview of each PDF.
-data/resumes/raw/
-data/resumes/rendered/*.tmp
+legacy/resumes/raw/
+legacy/resumes/rendered/*.tmp
 
 # Generated matching result artifacts
 src/matching/artifacts/*.json
@@ -213,3 +213,7 @@ output/integration/
 
 # setuptools build metadata
 *.egg-info/
+
+# Blob storage (LocalStorage): uploaded resumes, laid out like the S3 bucket.
+data/*
+!data/README.md

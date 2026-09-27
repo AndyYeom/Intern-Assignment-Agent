@@ -15,7 +15,7 @@ from concurrent.futures import ThreadPoolExecutor
 from .solver import solve, validate
 from .resolve_profile import resolve_profile
 
-RUN_DIR = pathlib.Path("data/runs")
+RUN_DIR = pathlib.Path("output/runs")
 MAX_LLM_CALLS = 2000          # hard ceiling; a runaway run stops instead of billing
 MAX_WORKERS = 6
 
