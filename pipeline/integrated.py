@@ -163,7 +163,8 @@ async def run(inputs, output, mode):
             from project_catalog_agent.extraction.llm_extractor import (
                 LLMRequirementExtractor,
             )
-            from project_catalog_agent.llm.openai_client import (
+            from project_catalog_agent.llm import (
+                GatewayStructuredLLMClient,
                 OpenAIStructuredLLMClient,
             )
             from project_catalog_agent.taxonomy.selector import (
@@ -171,7 +172,14 @@ async def run(inputs, output, mode):
             )
 
             create_profile_llm()  # validate configuration before any extraction/model call
-            client = OpenAIStructuredLLMClient.from_settings(Settings())
+            settings = Settings()
+            # OpenAI when a key is configured; otherwise the shared LLM gateway.
+            if settings.openai_api_key and settings.openai_api_key.get_secret_value().strip():
+                client = OpenAIStructuredLLMClient.from_settings(settings)
+                status["catalog_llm"] = "openai"
+            else:
+                client = GatewayStructuredLLMClient.from_environment()
+                status["catalog_llm"] = "gateway"
             extractor = LLMRequirementExtractor(client)
             selector = LLMTaxonomyMappingSelector(client)
         taxonomy = JsonTaxonomyRepository(ROOT / "data/taxonomy.json")

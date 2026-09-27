@@ -284,3 +284,18 @@ def test_main_requires_pdf_resume(tmp_path):
     bad = tmp_path / "resume.txt"
     bad.write_text("oops")
     assert profile_graph.main([str(bad), "--applicant-id", "APP-001"]) == 1
+
+
+def test_clean_json_text_keeps_first_object_when_gateway_keeps_writing() -> None:
+    # Shape seen from the live gateway: a fenced answer followed by prose and
+    # sometimes a second fenced block.
+    reply = (
+        '```json\n{"applicant_id": "a1", "skills": []}\n```'
+        "I have already completed the full JSON output.\n```json\n{}\n```"
+    )
+    assert json.loads(profile_graph._clean_json_text(reply)) == {
+        "applicant_id": "a1",
+        "skills": [],
+    }
+    unfenced = '{"applicant_id": "a1"}I cannot continue because the JSON is complete.'
+    assert json.loads(profile_graph._clean_json_text(unfenced)) == {"applicant_id": "a1"}
