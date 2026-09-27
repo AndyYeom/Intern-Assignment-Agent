@@ -50,8 +50,17 @@ export function describeError(err: unknown): string {
     if (err.code === "role_full") {
       return "That role is already at capacity.";
     }
+    if (err.code === "already_assigned") {
+      return "This applicant already has an assignment in this run.";
+    }
+    if (err.code === "already_placed") {
+      return "This applicant is already placed by an approved assignment elsewhere.";
+    }
     if (err.code === "role_in_use") {
       return "This role can't be deleted because it's referenced by an assignment.";
+    }
+    if (err.code === "project_in_use") {
+      return "This project can't be deleted because it's referenced by an assignment.";
     }
     return err.message || "Something went wrong.";
   }

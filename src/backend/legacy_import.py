@@ -187,11 +187,19 @@ def import_applicants(session: Session, data_dir: Path, storage: LocalStorage, r
             for v in verdicts
         ]
         resolved, unmapped = resolve_skills(claims, verdicts)
+        # Manager-pinned skills are never re-imported, so they don't count as a change.
+        rows = list(
+            session.scalars(select(ApplicantSkill).where(ApplicantSkill.applicant_id == applicant.id))
+        )
+        pinned = {s.skill_id for s in rows if s.pinned}
         before = {
-            (s.skill_id, s.final_level, s.verification_status)
-            for s in session.scalars(select(ApplicantSkill).where(ApplicantSkill.applicant_id == applicant.id))
+            (s.skill_id, s.final_level, s.verification_status) for s in rows if not s.pinned
         }
-        after = {(s.skill_id, s.final_level, s.verification_status) for s in resolved}
+        after = {
+            (s.skill_id, s.final_level, s.verification_status)
+            for s in resolved
+            if s.skill_id not in pinned
+        }
         if before == after and applicant.status == "ready":
             report.add("applicant_skills", "unchanged")
         else:

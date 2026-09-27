@@ -90,11 +90,15 @@ export interface DocumentOut {
   download_path: string;
 }
 
+export type EvidenceSource = "resume" | "portfolio" | "github" | "manager";
+
 export interface EvidenceOut {
-  source_type: "resume" | "portfolio" | "github";
+  id: string;
+  source_type: EvidenceSource;
   reference: string | null;
   excerpt: string | null;
   level: number | null;
+  edited_at: string | null;
 }
 
 export interface ApplicantSkillOut {
@@ -111,6 +115,37 @@ export interface ApplicantSkillOut {
   claim_summary: string | null;
   verification_summary: string | null;
   evidence: EvidenceOut[];
+  source: "agent" | "manager";
+  edited_at: string | null;
+}
+
+export interface SkillPatch {
+  claimed_level?: number;
+  observed_level?: number | null;
+  claim_summary?: string | null;
+  verification_summary?: string | null;
+}
+
+export interface SkillCreate {
+  skill_id: string;
+  claimed_level: number;
+  observed_level?: number | null;
+  claim_summary?: string | null;
+  verification_summary?: string | null;
+}
+
+export interface EvidenceCreate {
+  source_type?: EvidenceSource;
+  reference?: string | null;
+  excerpt?: string | null;
+  level?: number | null;
+}
+
+export interface EvidencePatch {
+  source_type?: EvidenceSource;
+  reference?: string | null;
+  excerpt?: string | null;
+  level?: number | null;
 }
 
 export type AgentType = "profile" | "github" | "evidence" | "resolve";
@@ -214,6 +249,35 @@ export interface ProjectOut {
   updated_at: string;
 }
 
+// ---- catalog agent (project role suggestions) ---------------------------------
+
+export interface SuggestedRequirement {
+  skill_id: string;
+  skill_name: string;
+  requirement_type: RequirementType;
+  required_level: number;
+  level_suggested: boolean;
+  weight: number;
+  confidence: number;
+  evidence_text: string;
+  decision_basis: string;
+}
+
+export interface UnresolvedRequirement {
+  raw_skill: string;
+  requirement_type: RequirementType;
+  candidate_skill_ids: string[];
+}
+
+export interface RequirementSuggestion {
+  provider: string;
+  summary: string;
+  requirements: SuggestedRequirement[];
+  unresolved: UnresolvedRequirement[];
+  uncertainties: string[];
+  issues: string[];
+}
+
 // ---- assignment runs ----------------------------------------------------------
 
 export interface RunCreate {
@@ -259,13 +323,34 @@ export interface AssignmentOut {
   reason: AssignmentReason;
   status: AssignmentStatus;
   note: string | null;
+  /** Placed directly by a manager rather than proposed by the solver. */
+  manual: boolean;
   updated_at: string;
+}
+
+export interface UnassignedOption {
+  role_id: string;
+  role_name: string;
+  project_id: string;
+  project_name: string;
+  fit_score: number;
+  growth_score: number;
+  candidate: boolean;
+  open_seats: number;
 }
 
 export interface UnassignedApplicant {
   id: string;
   name: string;
   candidate_role_count: number;
+  skills: SkillBadge[];
+  options: UnassignedOption[];
+}
+
+export interface ManualAssignmentCreate {
+  applicant_id: string;
+  role_id: string;
+  note?: string | null;
 }
 
 export interface RoleUtilization {

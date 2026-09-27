@@ -2,12 +2,10 @@
 
 import { use, useCallback, useEffect, useState } from "react";
 import {
-  Accordion,
   Anchor,
   Badge,
   Button,
   Card,
-  Divider,
   Grid,
   Group,
   Loader,
@@ -20,11 +18,11 @@ import {
 import { notifications } from "@mantine/notifications";
 import { RefreshCw } from "lucide-react";
 import { useApi } from "@/lib/api-context";
-import { ApplicantStatusBadge, VerificationBadge } from "@/components/StatusBadge";
+import { ApplicantStatusBadge } from "@/components/StatusBadge";
 import { ErrorAlert } from "@/components/ErrorAlert";
 import { AgentPipeline } from "@/components/AgentPipeline";
+import { SkillEditor } from "@/components/SkillEditor";
 import { describeError, formatDate } from "@/lib/format";
-import { PROFICIENCY_LABELS } from "@/lib/types";
 import type { ApplicantDetail } from "@/lib/types";
 
 export default function ApplicantDetailPage({
@@ -219,92 +217,12 @@ export default function ApplicantDetailPage({
         <Title order={4} mb="sm">
           Skills
         </Title>
-        {applicant.skills.length === 0 ? (
-          <Text size="sm" c="dimmed">
-            No skills recorded yet.
-          </Text>
-        ) : (
-          <Accordion variant="separated">
-            {applicant.skills.map((skill) => (
-              <Accordion.Item key={skill.skill_id} value={skill.skill_id}>
-                <Accordion.Control>
-                  <Group justify="space-between" wrap="wrap" pr="md">
-                    <Group gap="sm">
-                      <Text fw={500}>{skill.name}</Text>
-                      <Badge size="sm" variant="outline">
-                        {skill.category}
-                      </Badge>
-                    </Group>
-                    <Group gap="sm">
-                      <Text size="sm">
-                        Final:{" "}
-                        <b>{PROFICIENCY_LABELS[skill.final_level] ?? skill.final_level}</b>
-                      </Text>
-                      <Text size="sm" c="dimmed">
-                        Claimed: {levelLabel(skill.claimed_level)} → Observed:{" "}
-                        {levelLabel(skill.observed_level)}
-                      </Text>
-                      <VerificationBadge status={skill.verification_status} />
-                    </Group>
-                  </Group>
-                </Accordion.Control>
-                <Accordion.Panel>
-                  <Stack gap={8}>
-                    {skill.claim_summary && (
-                      <Text size="sm">
-                        <b>Claim: </b>
-                        {skill.claim_summary}
-                      </Text>
-                    )}
-                    {skill.verification_summary && (
-                      <Text size="sm">
-                        <b>Verification: </b>
-                        {skill.verification_summary}
-                      </Text>
-                    )}
-                    {skill.evidence.length > 0 && (
-                      <>
-                        <Divider label="Evidence" labelPosition="left" />
-                        <Stack gap={6}>
-                          {skill.evidence.map((ev, idx) => (
-                            <Card key={idx} withBorder padding="xs" radius="sm">
-                              <Group justify="space-between" mb={4}>
-                                <Badge size="xs" variant="light">
-                                  {ev.source_type}
-                                </Badge>
-                                {ev.level !== null && (
-                                  <Text size="xs" c="dimmed">
-                                    Level: {PROFICIENCY_LABELS[ev.level] ?? ev.level}
-                                  </Text>
-                                )}
-                              </Group>
-                              {ev.reference && (
-                                <Text size="xs" mb={2}>
-                                  {isUrl(ev.reference) ? (
-                                    <Anchor href={ev.reference} target="_blank" size="xs">
-                                      {ev.reference}
-                                    </Anchor>
-                                  ) : (
-                                    ev.reference
-                                  )}
-                                </Text>
-                              )}
-                              {ev.excerpt && (
-                                <Text size="xs" c="dimmed" style={{ whiteSpace: "pre-wrap" }}>
-                                  {ev.excerpt}
-                                </Text>
-                              )}
-                            </Card>
-                          ))}
-                        </Stack>
-                      </>
-                    )}
-                  </Stack>
-                </Accordion.Panel>
-              </Accordion.Item>
-            ))}
-          </Accordion>
-        )}
+        <SkillEditor
+          applicantId={applicant.id}
+          skills={applicant.skills}
+          editable={!inProgress}
+          onChanged={load}
+        />
       </Card>
 
       {(education.length > 0 || workExperience.length > 0) && (
@@ -435,19 +353,6 @@ function DetailRow({
   );
 }
 
-function levelLabel(level: number | null): string {
-  if (level === null) return "—";
-  return PROFICIENCY_LABELS[level] ?? String(level);
-}
-
-function isUrl(value: string): boolean {
-  try {
-    new URL(value);
-    return true;
-  } catch {
-    return false;
-  }
-}
 
 function asArray(value: unknown): Record<string, unknown>[] {
   if (Array.isArray(value)) {

@@ -255,6 +255,192 @@ def test_approved_placements_carry_over_to_later_runs(client, monkeypatch):
     assert placed_id in third["configuration"]["applicant_ids"]
 
 
+def test_delete_project_removes_its_roles_too(client):
+    p = _project(client, "Deletable", [role("A", 1, ("python", 1, "hard_requirement"))])
+    rid = p["roles"][0]["id"]
+    assert client.delete(f"/api/manager/projects/{p['id']}").status_code == 204
+    assert client.get(f"/api/manager/projects/{p['id']}").status_code == 404
+    assert client.patch(f"/api/manager/roles/{rid}", json={"capacity": 2}).status_code == 404
+
+
+def test_delete_project_unknown_id_is_404(client):
+    assert client.delete(f"/api/manager/projects/{uuid.uuid4()}").status_code == 404
+
+
+def test_delete_project_blocked_by_assignment_history(client, monkeypatch):
+    import backend.api.routes_public as public
+
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"python": 2}))
+    apply(client, "Placed", "placed@example.com")
+    project = _project(client, "In Use", [role("Dev", 1, ("python", 2, "hard_requirement"))])
+    run = client.post("/api/manager/assignment-runs", json={})
+    assert run.status_code == 202, run.text
+    detail = client.get(f"/api/manager/assignment-runs/{run.json()['id']}").json()
+    assert len(detail["assignments"]) == 1
+
+    blocked = client.delete(f"/api/manager/projects/{project['id']}")
+    assert blocked.status_code == 409 and blocked.json()["error"]["code"] == "project_in_use"
+
+
+def test_delete_project_blocked_by_role_score_only(client, monkeypatch):
+    """A project that a run only scored against (never actually filled) is still
+    blocked: ApplicantRoleScore rows reference it even without an Assignment."""
+    import backend.api.routes_public as public
+
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"python": 2}))
+    apply(client, "Scored", "scored@example.com")
+    _project(client, "Placed", [role("A", 1, ("python", 1, "preferred"))])
+    unused = _project(client, "Unfilled", [role("B", 1, ("sql", 2, "hard_requirement"))])
+    run = client.post("/api/manager/assignment-runs", json={})
+    assert run.status_code == 202, run.text
+    detail = client.get(f"/api/manager/assignment-runs/{run.json()['id']}").json()
+    assert len(detail["assignments"]) == 1
+    assert all(a["project"]["id"] != unused["id"] for a in detail["assignments"])
+    scored = client.get(f"/api/manager/applicants/{detail['assignments'][0]['applicant']['id']}").json()
+    assert any(sc["project_id"] == unused["id"] for sc in scored["scores"])
+
+    blocked = client.delete(f"/api/manager/projects/{unused['id']}")
+    assert blocked.status_code == 409 and blocked.json()["error"]["code"] == "project_in_use"
+
+
+def test_manual_assignment_override(client, monkeypatch):
+    """The manager can place an unassigned applicant into an open seat by hand,
+    even a role the solver could never give them (a failed hard requirement)."""
+    import backend.api.routes_public as public
+
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"python": 2}))
+    for name in ("Ann", "Bob", "Dan"):
+        assert apply(client, name, f"{name.lower()}@example.com").status_code == 201
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"sql": 2}))
+    assert apply(client, "Carol", "carol@example.com").status_code == 201
+
+    project = _project(
+        client,
+        "Override Co",
+        [
+            role("Analyst", 1, ("python", 2, "hard_requirement")),
+            role("DBA", 2, ("sql", 2, "hard_requirement")),
+        ],
+    )
+    roles_by_name = {r["name"]: r for r in project["roles"]}
+
+    run_id = client.post("/api/manager/assignment-runs", json={}).json()["id"]
+    detail = client.get(f"/api/manager/assignment-runs/{run_id}").json()
+    assert detail["status"] == "completed", detail["error"]
+
+    # DBA has 2 seats but only Carol (sql) meets its hard requirement, so one
+    # seat is never filled by the solver; the three python-only applicants
+    # compete for Analyst's single seat, leaving two unassigned.
+    assert len(detail["unassigned"]) == 2
+
+    target = detail["unassigned"][0]
+    assert [b["skill_id"] for b in target["skills"]] == ["python"]
+    assert target["skills"][0]["level"] == 2
+    assert target["candidate_role_count"] == 1
+
+    dba_option = next(o for o in target["options"] if o["role_id"] == roles_by_name["DBA"]["id"])
+    assert dba_option["open_seats"] == 1 and dba_option["candidate"] is False
+    analyst_option = next(o for o in target["options"] if o["role_id"] == roles_by_name["Analyst"]["id"])
+    assert analyst_option["open_seats"] == 0
+
+    created = client.post(
+        f"/api/manager/assignment-runs/{run_id}/assignments",
+        json={"applicant_id": target["id"], "role_id": roles_by_name["DBA"]["id"]},
+    )
+    assert created.status_code == 201, created.text
+    body = created.json()
+    assert body["status"] == "approved" and body["manual"] is True
+    assert body["role"]["id"] == roles_by_name["DBA"]["id"]
+
+    after = client.get(f"/api/manager/assignment-runs/{run_id}").json()
+    assert target["id"] not in {u["id"] for u in after["unassigned"]}
+    dba_util = next(
+        r for p in after["utilization"] for r in p["roles"] if r["role_id"] == roles_by_name["DBA"]["id"]
+    )
+    assert dba_util["filled"] == 2
+
+    # DBA is now full: the other leftover applicant can't get in.
+    assert len(after["unassigned"]) == 1
+    other = after["unassigned"][0]
+    full = client.post(
+        f"/api/manager/assignment-runs/{run_id}/assignments",
+        json={"applicant_id": other["id"], "role_id": roles_by_name["DBA"]["id"]},
+    )
+    assert full.status_code == 409 and full.json()["error"]["code"] == "role_full"
+
+    # Assigning someone who already has a live row in this run is refused...
+    analyst_holder = next(a for a in after["assignments"] if a["role"]["id"] == roles_by_name["Analyst"]["id"])
+    dup = client.post(
+        f"/api/manager/assignment-runs/{run_id}/assignments",
+        json={"applicant_id": analyst_holder["applicant"]["id"], "role_id": roles_by_name["DBA"]["id"]},
+    )
+    assert dup.status_code == 409 and dup.json()["error"]["code"] == "already_assigned"
+
+    # ...but rejecting that row frees it up for reassignment, reusing the row.
+    client.patch(f"/api/manager/assignments/{analyst_holder['id']}", json={"status": "rejected"})
+    reassigned = client.post(
+        f"/api/manager/assignment-runs/{run_id}/assignments",
+        json={"applicant_id": analyst_holder["applicant"]["id"], "role_id": roles_by_name["Analyst"]["id"]},
+    )
+    assert reassigned.status_code == 201, reassigned.text
+    assert reassigned.json()["id"] == analyst_holder["id"]
+
+
+def test_manual_assign_blocked_by_placement_in_another_run(client, monkeypatch):
+    import backend.api.routes_public as public
+
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"python": 2}))
+    assert apply(client, "Placed Elsewhere", "elsewhere@example.com").status_code == 201
+
+    role_a = role("RA", 1, ("python", 2, "hard_requirement"))
+    role_b = role("RB", 1, ("python", 2, "hard_requirement"))
+    _project(client, "Run A Project", [role_a])
+    run_a = client.post("/api/manager/assignment-runs", json={}).json()["id"]
+    detail_a = client.get(f"/api/manager/assignment-runs/{run_a}").json()
+    applicant_id = detail_a["assignments"][0]["applicant"]["id"]
+
+    proj_b = _project(client, "Run B Project", [role_b])
+    run_b = client.post("/api/manager/assignment-runs", json={}).json()["id"]
+    detail_b = client.get(f"/api/manager/assignment-runs/{run_b}").json()
+
+    # Approve the placement from run A first.
+    a1 = detail_a["assignments"][0]
+    assert client.patch(f"/api/manager/assignments/{a1['id']}", json={"status": "approved"}).status_code == 200
+
+    # Free up run B's seat (whatever the solver did with the same applicant there).
+    b1 = detail_b["assignments"][0]
+    client.patch(f"/api/manager/assignments/{b1['id']}", json={"status": "rejected"})
+
+    blocked = client.post(
+        f"/api/manager/assignment-runs/{run_b}/assignments",
+        json={"applicant_id": applicant_id, "role_id": proj_b["roles"][0]["id"]},
+    )
+    assert blocked.status_code == 409 and blocked.json()["error"]["code"] == "already_placed"
+
+
+def test_manual_assign_rejects_run_not_completed_or_unknown_ids(client, monkeypatch):
+    import backend.api.routes_public as public
+
+    monkeypatch.setattr(public, "process_applicant", fake_processing({"python": 2}))
+    assert apply(client, "Solo", "manualsolo@example.com").status_code == 201
+    project = _project(client, "Manual Only", [role("A", 1, ("python", 2, "hard_requirement"))])
+    run_id = client.post("/api/manager/assignment-runs", json={}).json()["id"]
+    detail = client.get(f"/api/manager/assignment-runs/{run_id}").json()
+    applicant_id = detail["assignments"][0]["applicant"]["id"]
+
+    bad_role = client.post(
+        f"/api/manager/assignment-runs/{run_id}/assignments",
+        json={"applicant_id": applicant_id, "role_id": str(uuid.uuid4())},
+    )
+    assert bad_role.status_code == 422 and bad_role.json()["error"]["code"] == "invalid_role"
+
+    bad_applicant = client.post(
+        f"/api/manager/assignment-runs/{run_id}/assignments",
+        json={"applicant_id": str(uuid.uuid4()), "role_id": project["roles"][0]["id"]},
+    )
+    assert bad_applicant.status_code == 422 and bad_applicant.json()["error"]["code"] == "invalid_applicant"
+
+
 def test_one_approved_placement_per_applicant(client, monkeypatch):
     import backend.api.routes_public as public
 

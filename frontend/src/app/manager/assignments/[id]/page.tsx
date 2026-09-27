@@ -1,7 +1,9 @@
 "use client";
 
 import { use, useCallback, useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import {
+  Anchor,
   Badge,
   Button,
   Card,
@@ -20,7 +22,8 @@ import { useApi } from "@/lib/api-context";
 import { ErrorAlert } from "@/components/ErrorAlert";
 import { AssignmentStatusBadge, RunStatusBadge } from "@/components/StatusBadge";
 import { describeError, formatDate, formatScore } from "@/lib/format";
-import type { AssignmentOut, RunDetail } from "@/lib/types";
+import { PROFICIENCY_LABELS } from "@/lib/types";
+import type { AssignmentOut, RunDetail, UnassignedApplicant } from "@/lib/types";
 
 export default function RunDetailPage({
   params,
@@ -243,7 +246,14 @@ export default function RunDetailPage({
                       <ReasonPopover assignment={a} />
                     </Table.Td>
                     <Table.Td>
-                      <AssignmentStatusBadge status={a.status} />
+                      <Group gap={4}>
+                        <AssignmentStatusBadge status={a.status} />
+                        {a.manual && (
+                          <Badge size="xs" color="teal" variant="light">
+                            manual
+                          </Badge>
+                        )}
+                      </Group>
                     </Table.Td>
                     <Table.Td>
                       <Group gap={4} wrap="nowrap">
@@ -292,29 +302,140 @@ export default function RunDetailPage({
         )}
       </Card>
 
-      <Card withBorder radius="md" p="md">
-        <Title order={4} mb="sm">
-          Unassigned applicants
-        </Title>
-        {run.unassigned.length === 0 ? (
-          <Text size="sm" c="dimmed">
-            Every applicant in this run received an assignment.
+      {run.status === "completed" && (
+        <Card withBorder radius="md" p="md">
+          <Title order={4} mb="sm">
+            Unassigned applicants
+          </Title>
+          {run.unassigned.length === 0 ? (
+            <Text size="sm" c="dimmed">
+              Every applicant in this run received an assignment.
+            </Text>
+          ) : (
+            <Table.ScrollContainer minWidth={900}>
+              <Table verticalSpacing="sm">
+                <Table.Thead>
+                  <Table.Tr>
+                    <Table.Th>Applicant</Table.Th>
+                    <Table.Th>Skills</Table.Th>
+                    <Table.Th>Best option</Table.Th>
+                    <Table.Th>Assign</Table.Th>
+                  </Table.Tr>
+                </Table.Thead>
+                <Table.Tbody>
+                  {run.unassigned.map((u) => (
+                    <UnassignedRow
+                      key={u.id}
+                      applicant={u}
+                      runId={run.id}
+                      onAssigned={load}
+                    />
+                  ))}
+                </Table.Tbody>
+              </Table>
+            </Table.ScrollContainer>
+          )}
+        </Card>
+      )}
+    </Stack>
+  );
+}
+
+function UnassignedRow({
+  applicant,
+  runId,
+  onAssigned,
+}: {
+  applicant: UnassignedApplicant;
+  runId: string;
+  onAssigned: () => Promise<void>;
+}) {
+  const api = useApi();
+  const openOptions = applicant.options.filter((o) => o.open_seats > 0);
+  const [roleId, setRoleId] = useState<string | null>(openOptions[0]?.role_id ?? null);
+  const [assigning, setAssigning] = useState(false);
+
+  async function assign() {
+    if (!roleId) return;
+    setAssigning(true);
+    try {
+      await api.assignManually(runId, { applicant_id: applicant.id, role_id: roleId });
+      notifications.show({
+        title: "Applicant assigned",
+        message: applicant.name,
+        color: "green",
+      });
+      await onAssigned();
+    } catch (err) {
+      notifications.show({
+        title: "Couldn't assign applicant",
+        message: describeError(err),
+        color: "red",
+      });
+    } finally {
+      setAssigning(false);
+    }
+  }
+
+  const best = applicant.options[0];
+
+  return (
+    <Table.Tr>
+      <Table.Td>
+        <Anchor component={Link} href={`/manager/applicants/${applicant.id}`} size="sm">
+          {applicant.name}
+        </Anchor>
+      </Table.Td>
+      <Table.Td maw={280}>
+        <Group gap={4}>
+          {applicant.skills.slice(0, 6).map((sk) => (
+            <Badge key={sk.skill_id} size="xs" variant="outline">
+              {sk.name} · {PROFICIENCY_LABELS[sk.level] ?? sk.level}
+            </Badge>
+          ))}
+          {applicant.skills.length > 6 && (
+            <Text size="xs" c="dimmed">
+              +{applicant.skills.length - 6} more
+            </Text>
+          )}
+        </Group>
+      </Table.Td>
+      <Table.Td>
+        {best ? (
+          <Text size="xs" c="dimmed">
+            {best.role_name} · {best.project_name} — fit {formatScore(best.fit_score)}, growth{" "}
+            {formatScore(best.growth_score)}
           </Text>
         ) : (
-          <Stack gap={6}>
-            {run.unassigned.map((u) => (
-              <Group key={u.id} justify="space-between">
-                <Text size="sm">{u.name}</Text>
-                <Text size="xs" c="dimmed">
-                  {u.candidate_role_count} candidate role
-                  {u.candidate_role_count === 1 ? "" : "s"}
-                </Text>
-              </Group>
-            ))}
-          </Stack>
+          <Text size="xs" c="dimmed">
+            No scored roles.
+          </Text>
         )}
-      </Card>
-    </Stack>
+      </Table.Td>
+      <Table.Td>
+        {openOptions.length === 0 ? (
+          <Text size="xs" c="dimmed">
+            No open seats
+          </Text>
+        ) : (
+          <Group gap={4} wrap="nowrap">
+            <Select
+              size="xs"
+              data={openOptions.map((o) => ({
+                value: o.role_id,
+                label: `${o.role_name} · ${o.project_name} — fit ${formatScore(o.fit_score)} (${o.open_seats} seat${o.open_seats === 1 ? "" : "s"})`,
+              }))}
+              value={roleId}
+              onChange={setRoleId}
+              w={280}
+            />
+            <Button size="xs" loading={assigning} onClick={assign} disabled={!roleId}>
+              Assign
+            </Button>
+          </Group>
+        )}
+      </Table.Td>
+    </Table.Tr>
   );
 }
 
